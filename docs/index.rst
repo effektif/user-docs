@@ -13,3 +13,8 @@ Contents:
 
    chapters/introduction
    chapters/how-does-it-work
+   chapters/terminology
+   chapters/cases
+
+   chapters/process-builder
+   chapters/control-flow
