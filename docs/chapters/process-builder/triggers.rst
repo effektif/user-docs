@@ -57,6 +57,8 @@ And the email will show up in the stream like this:
 
    Trigger mail in stream
 
+.. _trigger-salesforce:
+
 Salesforce trigger
 ``````````````````
 
