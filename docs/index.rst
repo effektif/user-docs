@@ -15,8 +15,8 @@ Contents:
    chapters/how-does-it-work
    chapters/terminology
    chapters/cases
-
    chapters/process-builder
-   chapters/control-flow
+   chapters/action-types
 
+   chapters/control-flow
    chapters/integration/salesforce

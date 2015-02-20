@@ -4,14 +4,14 @@ Triggers
 A trigger defines when a process is started. There is no relation between triggers and BPMN start events. For more details, see Start actions.
 
 Manual trigger
-~~~~~~~~~~~~~~
+``````````````
 
 A manual trigger is the simplest.
 It means that users have to start processes manually in Effektif.
 That is done in the Tasks view by clicking New task and then selecting the process name to start.
 
 Form trigger
-~~~~~~~~~~~~
+````````````
 
 With a form trigger, the user is presented a form to start a process.
 After selecting the form trigger, you can specify the form fields in the trigger.
@@ -19,7 +19,7 @@ After selecting the form trigger, you can specify the form fields in the trigger
 .. For more information on the form builder, see Form builder.
 
 Form documents
-~~~~~~~~~~~~~~
+``````````````
 
 There are many processes for which there is an existing procedure based on a form.
 Often it's a good idea to just keep the form in it's original pdf or word form.
@@ -32,7 +32,7 @@ So for those pieces of information that impact the process flow, you can simply 
 For a small number of fields, users typically won't mind if they have to enter it twice.
 
 Email trigger
-~~~~~~~~~~~~~
+`````````````
 
 An email trigger start a new case for each email that arrives on an email address that is related to the trigger.
 Note this is different from scanning an existing mail box like your own.
@@ -58,7 +58,7 @@ And the email will show up in the stream like this:
    Trigger mail in stream
 
 Salesforce trigger
-~~~~~~~~~~~~~~~~~~
+``````````````````
 
 A Salesforce trigger starts a new case in response to Salesforce sending an outbound message as part of a Salesforce workflow.
 Before you can use a Salesforce trigger, configure :ref:`Salesforce Integration <salesforce-integration>`.

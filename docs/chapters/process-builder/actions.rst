@@ -23,7 +23,7 @@ It shows the actions and also control flow elements like events and gateways.
 The advanced flow view should be used to add sequential flows between actions, decisions and other control flow behavior.
 
 Adding a transition
-~~~~~~~~~~~~~~~~~~~
+```````````````````
 
 To create a transition, you have to be in the `Advanced flows` view.
 A transition specifies sequential flow.
@@ -48,7 +48,7 @@ When you move the mouse pointer over the destination element, still keeping the 
 Releasing the mouse over the destination will create the transition.
 
 Creating the next user task
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```````````````````````````
 
 There is an very easy way to create the next User Task.
 It's similar to creating transitions above.
@@ -74,7 +74,7 @@ When you release the mouse, the new user task and the transition will be created
    Created the next user task and transition at once
 
 Control flow elements
-~~~~~~~~~~~~~~~~~~~~~
+`````````````````````
 
 Control flow elements like events and gateways are also part of the diagram, but unlike actions, control flow elements don't represent something that should happen.
 Events and gateways are used to specify the flow between the actions.
