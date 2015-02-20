@@ -18,3 +18,5 @@ Contents:
 
    chapters/process-builder
    chapters/control-flow
+
+   chapters/integration/salesforce
