@@ -17,6 +17,6 @@ Contents:
    chapters/cases
    chapters/process-builder
    chapters/action-types
-
    chapters/control-flow
+   chapters/data-types
    chapters/integration/salesforce
