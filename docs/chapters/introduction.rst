@@ -4,17 +4,17 @@ Introduction
 Use Case
 --------
 
-Use it for
+Use it for:
 
 - Coordinating tasks and handovers
 - Approvals
 - Routing documents
-- Full fledged business processes
+- Fully-fledged business processes.
 
 Benefits
 --------
 
-You'll get
+You'll get:
 
 - Control where it's needed
 - Flexibility where it's possible
@@ -22,4 +22,4 @@ You'll get
 - Get rid of miscommunications during handovers
 - Traceability (who did what)
 - Clarity (who has to do what)
-- Agility (processes are easier to change than software)
+- Agility (processes are easier to change than software).

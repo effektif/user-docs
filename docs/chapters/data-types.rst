@@ -72,12 +72,12 @@ An email is an object type with following properties
 
 .. _type-id:
 
-Id type
+ID type
 ```````
 
-The id type is a special kind of string.
-These ids have as a purpose to identify objects and they are always created by Effektif and they have no meaning.
-An example of an id string is ``53fae958036471cea136ea83``
+The ID type is a special kind of string.
+These IDs have as a purpose to identify objects and they are always created by Effektif and they have no meaning.
+An example of an ID string is ``53fae958036471cea136ea83``
 
 .. _type-object:
 

@@ -38,6 +38,8 @@ An email trigger start a new case for each email that arrives on an email addres
 Note this is different from scanning an existing mail box like your own.
 After selecting the email trigger, you can see the email address for the trigger.
 
+.. TODO update screenshot
+
 .. figure:: /_static/images/mail.trigger.configuration.png
 
    Mail trigger configuration
@@ -52,6 +54,8 @@ You'll have to ask the administrator of the mailing list to add the process trig
 What will happen is that for each mail that arrives on the list, the mail will also be forwarded to the process trigger address.
 When that email arrives at Effektif, the process will be started.
 And the email will show up in the stream like this:
+
+.. TODO update screenshot
 
 .. figure:: /_static/images/mail.trigger.stream.png
 

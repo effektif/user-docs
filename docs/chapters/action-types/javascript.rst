@@ -1,32 +1,40 @@
-Javascript action
+JavaScript action
 -----------------
 
-The Javascript action allows developers to run a Javascript to the process execution.
-After creating or selecting a Javascript action, the configuration panel looks like this.
+The JavaScript action allows developers to run a JavaScript to the process execution.
+After creating or selecting a JavaScript action, the configuration panel looks like this.
+
+.. TODO update screenshot
 
 .. figure:: /_static/images/javascript.1.png
 
-   Javascript configuration panel
+   JavaScript configuration panel
 
-The top part is the Javascript text editor.
+The top section of the panel is the JavaScript text editor.
 By default, it already contains ``console.log('Hello World!');``.
 
-The lower part allows you to test the script.
-Just hit `Test it`.
-The results should look like this:
+The lower section allows you to test the script.
+Click `Test it` to execute the JavaScript code.
+The results are displayed underneath:
+
+.. TODO update screenshot
 
 .. figure:: /_static/images/javascript.2.png
 
-   Javascript test output
+   JavaScript test output
 
 Next, we'll show how to work with data.
 Suppose there is a form elsewhere in the process that has each type of field and looks like this:
 
+.. TODO update screenshot
+
 .. figure:: /_static/images/javascript.3.png
 
-   Form taking input for Javascript
+   Form taking input for JavaScript
 
-When you open the Javascript configuration again, you'll see the variables section shows some of the form field variables.
+When you open the JavaScript configuration again, you'll see the variables section shows some of the form field variables.
+
+.. TODO update screenshot
 
 .. figure:: /_static/images/javascript.4.png
 
@@ -41,14 +49,16 @@ Here you see all fields with a test value.
 
    JavaScript test values
 
-To show you the data structures, we've changed the Javascript to print all variables.
+To show you the data structures, we've changed the JavaScript to print all variables.
 
 .. figure:: /_static/images/javascript.6.png
 
    JavaScript script
 
-When clicking `Test it` again, we can see the json structure of the variable data for the different variable types.
+When clicking `Test it` again, we can see the JSON structure of the variable data for the different variable types.
+
+.. TODO update screenshot
 
 .. figure:: /_static/images/javascript.7.png
 
-   JavaScript json values
+   JavaScript JSON values

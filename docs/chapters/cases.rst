@@ -15,21 +15,24 @@ The case is the central place where all relevant context information about the t
 Create a case
 -------------
 
-To create a new case, navigate to Tasks, click 'Start new task' and then select 'Task'.
+To create a new case, navigate to Tasks, click 'Start new case' and then select 'Case'.
 
-.. figure:: /_static/images/cases-newcase01.png
+.. TODO update screenshot
+   .. figure:: /_static/images/cases-newcase01.png
 
    Start a new task
 
 Then the case header appears.
 
-.. figure:: /_static/images/cases-newcase02.png
+.. TODO update screenshot
+	.. figure:: /_static/images/cases-newcase02.png
 
    Enter case title
 
-Next, type the case title and hit Enter. The new case is now created and appears like this:
+Next, type the case title and hit Enter. The new case is now created.
 
-.. figure:: /_static/images/cases-newcase03.png
+.. TODO update screenshot
+	.. figure:: /_static/images/cases-newcase03.png
 
    New case
 
@@ -39,9 +42,13 @@ Create case tasks
 In a case, you can break down tasks like this.
 If you don't have tasks, the tasks section might have to opened like shown in this scenario:
 
+.. TODO update screenshot
+
 .. figure:: /_static/images/cases-newtask02.png
 
    Type the title of the new task and hit Enter
+
+.. TODO update screenshot
 
 .. figure:: /_static/images/cases-newtask03.png
 

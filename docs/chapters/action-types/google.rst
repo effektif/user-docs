@@ -23,17 +23,15 @@ There are 3 possible outcomes:
 
 2. If you're not yet authenticated to Google in this browser yet, you'll get a login window like this:
 
+.. TODO update screenshot (use example.com e-mail address)
+
 .. figure:: /_static/images/google.drive.fileupload.3.png
 
    Google Drive login
 
-3. If you're authenticated with multiple users to Google in this browser, you'll be able to simply select your account like this.
+3. If you're authenticated with multiple users to Google in this browser, select the account you want to use.
 
-.. figure:: /_static/images/google.drive.fileupload.4.png
-
-   Google Drive select authenticated user
-
-After authentication is done, you'll see the following screen that allows you to give Effektif access to your Google account.
+After authentication is complete, you'll see the following screen that allows you to give Effektif access to your Google account.
 
 .. _drive-permission:
 .. figure:: /_static/images/google.drive.fileupload.5.png
@@ -42,6 +40,8 @@ After authentication is done, you'll see the following screen that allows you to
 
 After accepting the permissions, the pop up will disappear and the connection with your account is established.
 The Google Drive file upload configuration will now display the account and also show the folders in 'My Drive' in your Google Drive account.
+
+.. TODO update screenshot (use example.com e-mail address)
 
 .. figure:: /_static/images/google.drive.fileupload.6.png
 

@@ -20,7 +20,7 @@ Advanced flows view
 
 The advanced flow view is a BPMN diagram editor.
 It shows the actions and also control flow elements like events and gateways.
-The advanced flow view should be used to add sequential flows between actions, decisions and other control flow behavior.
+The advanced flow view should be used to add sequential flows between actions, decisions and other control flow behaviour.
 
 Adding a transition
 ```````````````````
@@ -66,12 +66,14 @@ Then click and hold down the rounded rectangle symbol |task-symbol| and drag it 
 
    Drag the rounded rectangle symbol to an empty place
 
-Drop it whereyou want to create the next user task.
-When you release the mouse, the new user task and the transition will be created.
+Drop it where you want to create the next user task.
+When you release the mouse, the new user task and the transition will be created where you dropped it.
 
 .. figure:: /_static/images/create.next.user.task.3.png
 
-   Created the next user task and transition at once
+   Adding the next user task and its transition at the same time
+
+Alternatively, just click the small user task icon |task-symbol| to create a new user task, and a transition, in the default location.
 
 Control flow elements
 `````````````````````
