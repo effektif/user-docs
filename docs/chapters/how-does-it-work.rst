@@ -4,7 +4,8 @@ How it works
 .. image:: /_static/images/how.does.it.work.png
 
 A process is a template for repetitive work.
-Processes are typically created by managers and specify which tasks and actions have to be performed to reach a certain goal.
+Processes are typically created by people who manage work
+and specify which tasks and actions have to be performed to reach a certain goal.
 For example: for every hire case, the tasks ‘Conduct interview’, ‘Prepare contract’ and ‘Create email account’ have to be completed.
 
 After a process is published, many individual cases can be started.

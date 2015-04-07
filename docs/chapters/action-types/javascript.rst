@@ -2,7 +2,7 @@ JavaScript action
 -----------------
 
 The JavaScript action allows developers to run a JavaScript to the process execution.
-After creating or selecting a JavaScript action, the configuration panel looks like this.
+After creating or selecting a JavaScript action, the configuration panel looks like this:
 
 .. TODO update screenshot
 

@@ -1,10 +1,10 @@
 Introduction
 ============
 
-Use Case
---------
+When to use Effektif
+--------------------
 
-Use it for:
+Use Effektif for:
 
 - Coordinating tasks and handovers
 - Approvals
@@ -14,12 +14,12 @@ Use it for:
 Benefits
 --------
 
-You'll get:
+You’ll get:
 
-- Control where it's needed
-- Flexibility where it's possible
-- Remove delays (automatic triggers, actions and timers)
-- Get rid of miscommunications during handovers
-- Traceability (who did what)
-- Clarity (who has to do what)
-- Agility (processes are easier to change than software).
+- Control where it’s needed
+- Flexibility where it’s possible
+- Fewer delays (with automatic triggers, actions and timers)
+- No more miscommunications during handovers
+- Traceability - who did what
+- Clarity - who has to do what
+- Agility - processes are easier to change than software.

@@ -3,37 +3,40 @@
 Control flow
 ============
 
-With transitions, gateways and events, the order is specified in which the actions of a process are executed.
+You use transitions, gateways and events to specify the processing order of the actions in a process.
 
 Transition
 ----------
 
-A transition is an arrow from a source element to a destination element in the 'Advanced flow' view.
-The transition specifies that the destination element is only 'executed' after the source element is completed.
-A transition is also known as a 'sequence flow' in BPMN.
+A transition is an arrow from a source element to a destination element in the `Advanced flows` view.
+The transition specifies that the destination element is only ‘executed’ after the source element is completed.
+A transition is called a ‘sequence flow’ in BPMN.
 
 .. include:: control-flow/exclusive-gateway.rst
 .. include:: control-flow/parallel-gateway.rst
+
+
+.. _start-event:
 
 Start event
 -----------
 
 A start event marks the start of a process.
 All process elements that do not have incoming transitions are considered start elements.
-Start don't have a direct connection to triggers.
-Usually start events can be omitted to create more consice diagrams.
+Start events don’t have a direct connection to triggers.
+You can usually leave out start events if you want to create more consice diagrams.
 
 End event
 ---------
 
-Just like start events, end events are also optional.
-They can mark the end of an execution flow like this.
+Like start events, end events are also optional.
+End events mark the end of an execution flow:
 
 .. figure:: /_static/images/end.event.1.png
 
    End event
 
-Which is equivalent to
+This is equivalent to:
 
 .. figure:: /_static/images/end.event.2.png
 

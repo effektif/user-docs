@@ -21,7 +21,7 @@ There are 3 possible outcomes:
 
 1. If you're already authenticated with a single user to Google, the login screen is skipped and you go straight to the :ref:`permission screen <drive-permission>` below.
 
-2. If you're not yet authenticated to Google in this browser yet, you'll get a login window like this:
+2. If you're not yet authenticated to Google in this browser yet, you'll get a login window:
 
 .. TODO update screenshot (use example.com e-mail address)
 
