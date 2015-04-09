@@ -16,3 +16,5 @@ sphinx-intl==0.9.5
 tornado==4.1
 watchdog==0.8.3
 wsgiref==0.1.2
+
+git+ssh://git@github.com/effektif/sphinx_rtd_theme.git#egg=effektif-sphinx-theme

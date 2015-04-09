@@ -12,6 +12,9 @@ The following instructions assume Python is already installed.
 2. Set language environment variables:
 		export LC_ALL=en_US.UTF-8
 		export LANG=en_US.UTF-8
+3. (optional) You might want to [set up a virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/).
+4. Install all requirements:
+		pip install -r requirements
 
 ## Editing the documentation
 
