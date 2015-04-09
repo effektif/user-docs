@@ -76,12 +76,19 @@ To specify a condition, start by selecting a field and a comparison operator.
 Enter either a static value in the input field on the right,
 or click the |binding-symbol| button to select another field.
 
-When you do not specify a condition,
-it will evaluate to false and the transition will not be taken.
+A condition can include multiple field value comparisons.
+To add more sub-conditions, click the button at the bottom of the list.
+You can also use the select field at the top to specify that either **all** conditions in the list must be true, or that it is enough for at least one of them to be true.
+
+When a sub-condition is incompletely specified, evaluating the whole condition will fail and the transition will not be taken.
+The |warning-symbol| symbol indicates an incomplete sub-condition, while the |check-symbol| symbol indicates that the sub-condition is valid.
+Click either of these symbols to remove the sub condition from the list.
+
 An unspecified condition is marked with a |warning-symbol| symbol.
 
 .. |binding-symbol| image:: /_static/images/excl.gateway.auto.6.png
-.. |warning-symbol| image:: /_static/images/excl.gateway.auto.1.png
+.. |warning-symbol| image:: /_static/images/excl.gateway.auto.3.png
+.. |check-symbol| image:: /_static/images/excl.gateway.auto.4.png
 
 
 Default transition
@@ -95,8 +102,4 @@ if none of the conditions evaluate to true, the default transition is taken.
 
    The default transition
 
-To make a transition the default, click |following-symbol|.
-Alternatively, to set a condition on the default transition, click |default-symbol|.
-
-.. |following-symbol| image:: /_static/images/excl.gateway.auto.3.png
-.. |default-symbol| image:: /_static/images/excl.gateway.auto.4.png
+To make a transition the default, select the ‘per default’ item in the selection field at the top.
