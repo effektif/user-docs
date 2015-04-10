@@ -43,12 +43,12 @@ User type
 `````````
 
 A variable of type *user* refers to a user in your organization.
-A user is an object type with following properties
+A user is an object type with the following properties:
 
-- :ref:`id <type-id>` - the unique identifier for this user
-- :ref:`firstName <type-string>` - the user’s first name
-- :ref:`lastName <type-string>` - the user’s last name
-- :ref:`emailAddress <type-email-address>` - the email address.
+:id: (:ref:`id <type-id>`) The unique identifier for this user
+:firstName: (:ref:`string <type-string>`) The user’s first name
+:lastName: (:ref:`string <type-string>`) The user’s last name
+:emailAddress: (:ref:`emailAddress <type-email-address>`) The email address of the user
 
 .. _type-email-address:
 
@@ -69,14 +69,14 @@ The data fields in the email, such as *from address* or the attachments can be u
 
 An email is a composite type with the properties:
 
-- :ref:`id <type-id>`: the unique identifier for this email.
-- :ref:`from <type-email-address>` (:ref:`list <type-list>`)
-- :ref:`to <type-email-address>` (:ref:`list <type-list>`)
-- :ref:`cc <type-email-address>` (:ref:`list <type-list>`)
-- :ref:`subject <type-string>`
-- :ref:`bodyText <type-string>`
-- :ref:`bodyHtml <type-string>`
-- :ref:`attachments <type-file>` (:ref:`list <type-list>`)
+:id: :ref:`id <type-id>`: The unique identifier for this email
+:from: (:ref:`emailAddress <type-email-address>`) The sender email address
+:to: (:ref:`list <type-list>` of :ref:`emailAddress <type-email-address>`) The email addresses of the recipients
+:cc: (:ref:`list <type-list>` of :ref:`emailAddress <type-email-address>`) Email addresses that receive a carbon copy of the message
+:subject: (:ref:`string <type-string>`) The subject of the email
+:bodyText: (:ref:`string <type-string>`) The plain text message
+:bodyHtml: (:ref:`string <type-string>`) The HTML code for an HTML email (optional)
+:attachments: (:ref:`list <type-list>` of :ref:`file <type-file>`) The files to attach to the email
 
 
 .. _type-id:
