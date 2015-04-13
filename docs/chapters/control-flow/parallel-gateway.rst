@@ -12,7 +12,7 @@ When process execution arrives in a parallel gateway,
 a new individual execution flow is created for each of the gateway’s outgoing transitions.
 Let’s look at the following purchase order example:
 
-.. figure:: /_static/images/parallel.gateway.1.png
+.. figure:: /_static/images/parallel-gateway-1.png
 
    A parallel gateway example
 
@@ -38,7 +38,7 @@ the joining parallel gateway will activate and one execution flow will be create
 To continue the previous example,
 extend the purchase order process to look:
 
-.. figure:: /_static/images/parallel.gateway.2.png
+.. figure:: /_static/images/parallel-gateway-2.png
 
    A parallel gateway example with join
 
@@ -51,7 +51,7 @@ By default, multiple outgoing transitions out of an action like a user task will
 Meaning that if you have multiple transitions out of a user task, all destination actions of those transitions will be performed concurrently.
 Let’s look at a simple example.
 
-.. figure:: /_static/images/parallel.gateway.3.png
+.. figure:: /_static/images/parallel-gateway-3.png
 
    Default forking
 
@@ -72,13 +72,13 @@ Parallel gateway issues
 You will end up with problems if you loop back over parallel gateways.
 To avoid situations:
 
-.. figure:: /_static/images/parallel.gateway.4.png
+.. figure:: /_static/images/parallel-gateway-4.png
 
    Undesirable loopback
 
 and this:
 
-.. figure:: /_static/images/parallel.gateway.5.png
+.. figure:: /_static/images/parallel-gateway-5.png
 
    Undesirable loopback
 

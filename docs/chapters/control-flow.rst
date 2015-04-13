@@ -32,12 +32,12 @@ End event
 Like start events, end events are also optional.
 End events mark the end of an execution flow:
 
-.. figure:: /_static/images/end.event.1.png
+.. figure:: /_static/images/end-event-1.png
 
    End event
 
 This is equivalent to:
 
-.. figure:: /_static/images/end.event.2.png
+.. figure:: /_static/images/end-event-2.png
 
    No end event

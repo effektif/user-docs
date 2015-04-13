@@ -1,7 +1,7 @@
 How it works
 =================
 
-.. image:: /_static/images/how.does.it.work.png
+.. image:: /_static/images/how-does-it-work.png
 
 A process is a template for repetitive work.
 Processes are typically created by people who manage work

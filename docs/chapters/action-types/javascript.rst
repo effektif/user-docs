@@ -6,7 +6,7 @@ After creating or selecting a JavaScript action, the configuration panel looks l
 
 .. TODO update screenshot
 
-.. figure:: /_static/images/javascript.1.png
+.. figure:: /_static/images/javascript-1.png
 
    JavaScript configuration panel
 
@@ -19,7 +19,7 @@ The results are displayed underneath:
 
 .. TODO update screenshot
 
-.. figure:: /_static/images/javascript.2.png
+.. figure:: /_static/images/javascript-2.png
 
    JavaScript test output
 
@@ -28,7 +28,7 @@ Suppose there is a form elsewhere in the process that has each type of field and
 
 .. TODO update screenshot
 
-.. figure:: /_static/images/javascript.3.png
+.. figure:: /_static/images/javascript-3.png
 
    Form taking input for JavaScript
 
@@ -36,7 +36,7 @@ When you open the JavaScript configuration again, you'll see the variables secti
 
 .. TODO update screenshot
 
-.. figure:: /_static/images/javascript.4.png
+.. figure:: /_static/images/javascript-4.png
 
    JavaScript variables
 
@@ -45,13 +45,13 @@ In this example, all variables are selected.
 For each variable that is selected, you get an input field to specify a test value.
 Here you see all fields with a test value.
 
-.. figure:: /_static/images/javascript.5.png
+.. figure:: /_static/images/javascript-5.png
 
    JavaScript test values
 
 To show you the data structures, we've changed the JavaScript to print all variables.
 
-.. figure:: /_static/images/javascript.6.png
+.. figure:: /_static/images/javascript-6.png
 
    JavaScript script
 
@@ -59,6 +59,6 @@ When clicking `Test it` again, we can see the JSON structure of the variable dat
 
 .. TODO update screenshot
 
-.. figure:: /_static/images/javascript.7.png
+.. figure:: /_static/images/javascript-7.png
 
    JavaScript JSON values

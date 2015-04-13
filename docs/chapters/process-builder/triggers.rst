@@ -52,7 +52,7 @@ After selecting the email trigger, you can see its email address:
 
 .. TODO update screenshot
 
-.. figure:: /_static/images/mail.trigger.configuration.png
+.. figure:: /_static/images/mail-trigger-configuration.png
 
    Mail trigger configuration
 
@@ -69,7 +69,7 @@ You will then see the email in the activity stream:
 
 .. TODO update screenshot
 
-.. figure:: /_static/images/mail.trigger.stream.png
+.. figure:: /_static/images/mail-trigger-stream.png
 
    Trigger mail in stream
 
@@ -87,7 +87,7 @@ When you have configured a Salesforce service,
 you can select it as a process trigger, 
 so that messages from Salesforce will now trigger new cases.
 
-.. figure:: /_static/images/salesforce.trigger.png
+.. figure:: /_static/images/salesforce-trigger.png
 
    Example of a Salesforce trigger
 

@@ -84,7 +84,7 @@ In the `Advanced flows` view, this means that start events are optional in most 
 
 But in situations like this, that can be confusing:
 
-.. figure:: /_static/images/start.event.1.png
+.. figure:: /_static/images/start-event-1.png
 
    Start event necessary
 

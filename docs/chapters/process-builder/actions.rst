@@ -40,16 +40,16 @@ which means the next action only starts when the previous one is complete.
 To add a transition, click to select the first action.
 Several symbols appear to the right of the selected element:
 
-.. figure:: /_static/images/create.transition.1.png
+.. figure:: /_static/images/create-transition-1.png
 
    Start creating a transition by dragging the transition symbol to the destination
 
 Click the transition symbol |transition-symbol| and drag it to the destination element.
 When you drag the symbol over the destination element, it indicates that you can drop to create the transition:
 
-.. |transition-symbol| image:: /_static/images/create.transition.symbol.png
+.. |transition-symbol| image:: /_static/images/create-transition-symbol.png
 
-.. figure:: /_static/images/create.transition.2.png
+.. figure:: /_static/images/create-transition-2.png
 
    Creating a transition hovering over destination
 
@@ -63,15 +63,15 @@ There is an easy way to create the next User Task in a process,
 similar to creating transitions above.
 Start by selecting the previous action:
 
-.. figure:: /_static/images/create.transition.1.png
+.. figure:: /_static/images/create-transition-1.png
 
    Start creating the next user task by dragging the action symbol
 
 Click the rounded rectangle symbol |task-symbol| and drag it to an empty place on the canvas.
 
-.. |task-symbol| image:: /_static/images/create.next.user.task.symbol.png
+.. |task-symbol| image:: /_static/images/create-next-user-task-symbol.png
 
-.. figure:: /_static/images/create.next.user.task.2.png
+.. figure:: /_static/images/create-next-user-task-2.png
 
    Drag the rounded rectangle symbol to an empty place
 
@@ -79,7 +79,7 @@ Drop the symbol where you want to create the next user task.
 Release the mouse button to create new user task where you dropped it, 
 with a transition from the previous action.
 
-.. figure:: /_static/images/create.next.user.task.3.png
+.. figure:: /_static/images/create-next-user-task-3.png
 
    Adding the next user task and its transition at the same time
 

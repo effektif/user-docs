@@ -20,7 +20,7 @@ Suppose you have a user task called ‘Review contract’,
 an exclusive gateway 
 and the two user tasks ‘Print contract’ and ‘Update contract’:
 
-.. figure:: /_static/images/excl.gateway.human.1.png
+.. figure:: /_static/images/excl-gateway-human-1.png
 
    An exclusive gateway must have at least one incoming and two outgoing transitions
 
@@ -29,7 +29,7 @@ Human decision is the default type.
 After creating the elements and connecting them, as above, 
 the exclusive gateway will be configured:
 
-.. figure:: /_static/images/excl.gateway.human.2.png
+.. figure:: /_static/images/excl-gateway-human-2.png
 
    Default human decision configuration
 
@@ -43,14 +43,14 @@ the `Print contract` task is executed and the `Update contract` task will *not* 
 You can easily change the text on the buttons.
 For example, change them to `Approve` and `Reject`:
 
-.. figure:: /_static/images/excl.gateway.human.3.png
+.. figure:: /_static/images/excl-gateway-human-3.png
 
    Customized decision buttons
 
 After starting a new case for this process, 
 the `Review contract` task will have decision buttons:
 
-.. figure:: /_static/images/excl.gateway.human.4.png
+.. figure:: /_static/images/excl-gateway-human-4.png
 
    Task decision buttons
 
@@ -68,7 +68,7 @@ For each transition, you can formulate a condition using workflow data.
 Transition conditions are evaluated in order, from top to bottom.
 The workflow engine will take the transition with the first condition that is true, using the current case’s field values.
 
-.. figure:: /_static/images/excl.gateway.auto.5.png
+.. figure:: /_static/images/excl-gateway-auto-5.png
 
    Automatic decision condition editor
 
@@ -86,9 +86,9 @@ Click either of these symbols to remove the sub condition from the list.
 
 An unspecified condition is marked with a |warning-symbol| symbol.
 
-.. |binding-symbol| image:: /_static/images/excl.gateway.auto.6.png
-.. |warning-symbol| image:: /_static/images/excl.gateway.auto.3.png
-.. |check-symbol| image:: /_static/images/excl.gateway.auto.4.png
+.. |binding-symbol| image:: /_static/images/excl-gateway-auto-6.png
+.. |warning-symbol| image:: /_static/images/excl-gateway-auto-3.png
+.. |check-symbol| image:: /_static/images/excl-gateway-auto-4.png
 
 
 Default transition
@@ -98,7 +98,7 @@ An automatic decision usually has a default transition.
 A default transition is a fallback mechanism:
 if none of the conditions evaluate to true, the default transition is taken.
 
-.. figure:: /_static/images/excl.gateway.auto.2.png
+.. figure:: /_static/images/excl-gateway-auto-2.png
 
    The default transition
 
