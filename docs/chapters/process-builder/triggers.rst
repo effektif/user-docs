@@ -50,8 +50,6 @@ An email trigger starts a new case for each email that you send to the triggerâ€
 Note this is different from reading an existing email account, such as your own.
 After selecting the email trigger, you can see its email address:
 
-.. TODO update screenshot
-
 .. figure:: /_static/images/mail-trigger-configuration.png
 
    Mail trigger configuration
@@ -66,8 +64,6 @@ Once you have done this,
 email sent to the mailing list will also be forwarded to the process trigger address,
 starting the process in Effektif.
 You will then see the email in the activity stream:
-
-.. TODO update screenshot
 
 .. figure:: /_static/images/mail-trigger-stream.png
 
