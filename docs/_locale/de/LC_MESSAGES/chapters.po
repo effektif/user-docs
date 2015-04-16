@@ -1,112 +1,115 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Effektif User Manual 2.17.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 15:54+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2015-04-16 13:09+0100\n"
+"Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"X-Generator: Poedit 1.6.5\n"
 
 #: ../../chapters/how-does-it-work.rst:2
 msgid "How does it work?"
-msgstr ""
+msgstr "Wie funktioniert es?"
 
 #: ../../chapters/how-does-it-work.rst:6
 msgid ""
-"A process is a template for repetitive work. Processes are typically created"
-" by managers and specify which tasks and actions have to be performed to "
+"A process is a template for repetitive work. Processes are typically created "
+"by managers and specify which tasks and actions have to be performed to "
 "reach a certain goal. For example: For every hire tasks 'Interview', "
 "'Contract' and 'Email account' have to be completed."
 msgstr ""
 
 #: ../../chapters/how-does-it-work.rst:10
 msgid ""
-"After a process is published, many individual cases can be started. Effektif"
-" keeps track of which tasks and actions have to be performed for each case. "
-"Cases bring together people and all relevant context information to complete"
-" the tasks. Cases are collaboration spaces. People can discuss and create "
-"new tasks for individual cases on the fly."
+"After a process is published, many individual cases can be started. Effektif "
+"keeps track of which tasks and actions have to be performed for each case. "
+"Cases bring together people and all relevant context information to complete "
+"the tasks. Cases are collaboration spaces. People can discuss and create new "
+"tasks for individual cases on the fly."
 msgstr ""
 
 #: ../../chapters/introduction.rst:2
 msgid "Introduction"
-msgstr ""
+msgstr "Einleitung"
 
 #: ../../chapters/introduction.rst:5
 msgid "Use Case"
-msgstr ""
+msgstr "Anwendungsfall"
 
 #: ../../chapters/introduction.rst:7
 msgid "Use it for"
-msgstr ""
+msgstr "Nutz Sie es für"
 
 #: ../../chapters/introduction.rst:9
 msgid "Coordinating tasks and handovers"
-msgstr ""
+msgstr "Aufgaben und Übergaben koordinieren"
 
 #: ../../chapters/introduction.rst:10
 msgid "Approvals"
-msgstr ""
+msgstr "Freigaben"
 
 #: ../../chapters/introduction.rst:11
 msgid "Routing documents"
-msgstr ""
+msgstr "Dokumentenleitung"
 
 #: ../../chapters/introduction.rst:12
 msgid "Full fledged business processes"
-msgstr ""
+msgstr "Komplexe Geschäftsprozesse"
 
 #: ../../chapters/introduction.rst:15
 msgid "Benefits"
-msgstr ""
+msgstr "Vorteile"
 
 #: ../../chapters/introduction.rst:17
 msgid "You'll get"
-msgstr ""
+msgstr "Was Sie bekommen"
 
 #: ../../chapters/introduction.rst:19
 msgid "Control where it's needed"
-msgstr ""
+msgstr "Kontrolle, wo sie benötigt wird"
 
 #: ../../chapters/introduction.rst:20
 msgid "Flexibility where it's possible"
-msgstr ""
+msgstr "Flexibilität wo es möglich ist"
 
 #: ../../chapters/introduction.rst:21
 msgid "Remove delays (automatic triggers, actions and timers)"
 msgstr ""
+"Vermeiden Sie Verzögerungen (automatische Auslöser, Aktionen und Timer)"
 
 #: ../../chapters/introduction.rst:22
 msgid "Get rid of miscommunications during handovers"
-msgstr ""
+msgstr "Vermeiden Sie Missverständnisse bei Übergaben"
 
 #: ../../chapters/introduction.rst:23
 msgid "Traceability (who did what)"
-msgstr ""
+msgstr "Nachverfolgbarkeit (wer hat was gemacht)"
 
 #: ../../chapters/introduction.rst:24
 msgid "Clarity (who has to do what)"
-msgstr ""
+msgstr "Klarheit (wer muss was tun)"
 
 #: ../../chapters/introduction.rst:25
 msgid "Agility (processes are easier to change than software)"
-msgstr ""
+msgstr "Agilität (Prozesse können leichter geändert werden als Software)"
 
 #: ../../chapters/terminology.rst:2
 msgid "Terminology"
-msgstr ""
+msgstr "Begrifflichkeiten"
 
 #: ../../chapters/terminology.rst:5
 msgid "Case"
-msgstr ""
+msgstr "Fall"
 
 #: ../../chapters/action-types.rst:4
 msgid "Action Types"
-msgstr ""
+msgstr "Aufgabentypen"
 
 #: ../../chapters/action-types.rst:6
 msgid ""
@@ -122,7 +125,7 @@ msgstr ""
 
 #: ../../chapters/action-types.rst:11
 msgid "User task"
-msgstr ""
+msgstr "Aufgabe"
 
 #: ../../chapters/action-types.rst:13
 msgid ""
@@ -133,8 +136,7 @@ msgstr ""
 
 #: ../../chapters/action-types.rst:16
 msgid ""
-"Assignment: A task can be assigned to a user or a :ref:`process role "
-"<roles>`"
+"Assignment: A task can be assigned to a user or a :ref:`process role <roles>`"
 msgstr ""
 
 #: ../../chapters/action-types.rst:17
@@ -149,7 +151,7 @@ msgstr ""
 
 #: ../../chapters/action-types.rst:22
 msgid "Send email"
-msgstr ""
+msgstr "Email senden"
 
 #: ../../chapters/action-types.rst:24
 msgid ""
@@ -165,12 +167,11 @@ msgstr ""
 
 #: ../../chapters/action-types.rst:29
 msgid ""
-"Subject: The subject of the email. To use process data in the subject, start"
-" by typing a #. If the list of variable fields is too long, you can just "
-"keep typing after the # to narrow the list. In combination, use the up and "
-"down arrows to select the right field. Hit enter to select the field. To "
-"remove variable fields from the subject, just delete it like it's normal "
-"text."
+"Subject: The subject of the email. To use process data in the subject, start "
+"by typing a #. If the list of variable fields is too long, you can just keep "
+"typing after the # to narrow the list. In combination, use the up and down "
+"arrows to select the right field. Hit enter to select the field. To remove "
+"variable fields from the subject, just delete it like it's normal text."
 msgstr ""
 
 #: ../../chapters/action-types.rst:35
@@ -183,16 +184,14 @@ msgstr ""
 #: ../../chapters/action-types.rst:38
 msgid ""
 "Body text: Just like in the subject, you can combine template text with "
-"variable fields to Start by typing a #. See 'Subject' above in this list for"
-" more details instructions on using the #."
+"variable fields to Start by typing a #. See 'Subject' above in this list for "
+"more details instructions on using the #."
 msgstr ""
 
-#: ../../chapters/action-types/google.rst:2
 #: ../../chapters/action-types/google.rst:2
 msgid "Google Drive file upload"
-msgstr ""
+msgstr "Google Drive Dateiupload"
 
-#: ../../chapters/action-types/google.rst:4
 #: ../../chapters/action-types/google.rst:4
 msgid ""
 "The Google Drive file upload sends one or more files to an account of your "
@@ -201,11 +200,9 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/action-types/google.rst:9
-#: ../../chapters/action-types/google.rst:9
 msgid "Initial configuration file upload"
 msgstr ""
 
-#: ../../chapters/action-types/google.rst:11
 #: ../../chapters/action-types/google.rst:11
 msgid ""
 "When you click on the button `Configure a Google Drive account`, a popup "
@@ -215,19 +212,16 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/action-types/google.rst:16
-#: ../../chapters/action-types/google.rst:16
 msgid "Google Drive authentication flow"
 msgstr ""
 
 #: ../../chapters/action-types/google.rst:18
-#: ../../chapters/action-types/google.rst:18
 msgid ""
 "After clicking `Click to continue`, the popup window will be redirected to "
-"Google. Google will perform a check if you're already logged in to Google in"
-" that browser. There are 3 possible outcomes:"
+"Google. Google will perform a check if you're already logged in to Google in "
+"that browser. There are 3 possible outcomes:"
 msgstr ""
 
-#: ../../chapters/action-types/google.rst:22
 #: ../../chapters/action-types/google.rst:22
 msgid ""
 "If you're already authenticated with a single user to Google, the login "
@@ -236,18 +230,15 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/action-types/google.rst:24
-#: ../../chapters/action-types/google.rst:24
 msgid ""
 "If you're not yet authenticated to Google in this browser yet, you'll get a "
 "login window like this:"
 msgstr ""
 
 #: ../../chapters/action-types/google.rst:28
-#: ../../chapters/action-types/google.rst:28
 msgid "Google Drive login"
 msgstr ""
 
-#: ../../chapters/action-types/google.rst:30
 #: ../../chapters/action-types/google.rst:30
 msgid ""
 "If you're authenticated with multiple users to Google in this browser, "
@@ -255,11 +246,9 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/action-types/google.rst:34
-#: ../../chapters/action-types/google.rst:34
 msgid "Google Drive select authenticated user"
 msgstr ""
 
-#: ../../chapters/action-types/google.rst:36
 #: ../../chapters/action-types/google.rst:36
 msgid ""
 "After authentication is done, you'll see the following screen that allows "
@@ -267,11 +256,9 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/action-types/google.rst:41
-#: ../../chapters/action-types/google.rst:41
 msgid "Google Drive permission grant"
 msgstr ""
 
-#: ../../chapters/action-types/google.rst:43
 #: ../../chapters/action-types/google.rst:43
 msgid ""
 "After accepting the permissions, the pop up will disappear and the "
@@ -281,11 +268,9 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/action-types/google.rst:48
-#: ../../chapters/action-types/google.rst:48
 msgid "Google Drive authenticated configuration"
 msgstr ""
 
-#: ../../chapters/action-types/google.rst:50
 #: ../../chapters/action-types/google.rst:50
 msgid ""
 "Other people in your organization will be able to see that you have "
@@ -294,13 +279,11 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/action-types/google.rst:52
-#: ../../chapters/action-types/google.rst:52
 msgid ""
 "In the section `Target folder` you can now browse and select the folder you "
 "want to upload the file(s) to."
 msgstr ""
 
-#: ../../chapters/action-types/google.rst:54
 #: ../../chapters/action-types/google.rst:54
 msgid ""
 "In section `Files to upload`, you can select the variable field containing "
@@ -310,11 +293,9 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/action-types/javascript.rst:2
-#: ../../chapters/action-types/javascript.rst:2
 msgid "Javascript action"
-msgstr ""
+msgstr "JavaScript Aktion"
 
-#: ../../chapters/action-types/javascript.rst:4
 #: ../../chapters/action-types/javascript.rst:4
 msgid ""
 "The Javascript action allows developers to run a Javascript to the process "
@@ -323,11 +304,9 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/action-types/javascript.rst:9
-#: ../../chapters/action-types/javascript.rst:9
 msgid "Javascript configuration panel"
 msgstr ""
 
-#: ../../chapters/action-types/javascript.rst:11
 #: ../../chapters/action-types/javascript.rst:11
 msgid ""
 "The top part is the Javascript text editor. By default, it already contains "
@@ -335,30 +314,25 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/action-types/javascript.rst:14
-#: ../../chapters/action-types/javascript.rst:14
 msgid ""
 "The lower part allows you to test the script. Just hit `Test it`. The "
 "results should look like this:"
 msgstr ""
 
 #: ../../chapters/action-types/javascript.rst:20
-#: ../../chapters/action-types/javascript.rst:20
 msgid "Javascript test output"
 msgstr ""
 
 #: ../../chapters/action-types/javascript.rst:22
-#: ../../chapters/action-types/javascript.rst:22
 msgid ""
-"Next, we'll show how to work with data. Suppose there is a form elsewhere in"
-" the process that has each type of field and looks like this:"
+"Next, we'll show how to work with data. Suppose there is a form elsewhere in "
+"the process that has each type of field and looks like this:"
 msgstr ""
 
-#: ../../chapters/action-types/javascript.rst:27
 #: ../../chapters/action-types/javascript.rst:27
 msgid "Form taking input for Javascript"
 msgstr ""
 
-#: ../../chapters/action-types/javascript.rst:29
 #: ../../chapters/action-types/javascript.rst:29
 msgid ""
 "When you open the Javascript configuration again, you'll see the variables "
@@ -366,11 +340,9 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/action-types/javascript.rst:33
-#: ../../chapters/action-types/javascript.rst:33
 msgid "JavaScript variables"
 msgstr ""
 
-#: ../../chapters/action-types/javascript.rst:35
 #: ../../chapters/action-types/javascript.rst:35
 msgid ""
 "Click `Show all fields` and select the variables you want to access in the "
@@ -380,11 +352,9 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/action-types/javascript.rst:42
-#: ../../chapters/action-types/javascript.rst:42
 msgid "JavaScript test values"
 msgstr ""
 
-#: ../../chapters/action-types/javascript.rst:44
 #: ../../chapters/action-types/javascript.rst:44
 msgid ""
 "To show you the data structures, we've changed the Javascript to print all "
@@ -392,29 +362,26 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/action-types/javascript.rst:48
-#: ../../chapters/action-types/javascript.rst:48
 msgid "JavaScript script"
 msgstr ""
 
 #: ../../chapters/action-types/javascript.rst:50
-#: ../../chapters/action-types/javascript.rst:50
 msgid ""
-"When clicking `Test it` again, we can see the json structure of the variable"
-" data for the different variable types."
+"When clicking `Test it` again, we can see the json structure of the variable "
+"data for the different variable types."
 msgstr ""
 
-#: ../../chapters/action-types/javascript.rst:54
 #: ../../chapters/action-types/javascript.rst:54
 msgid "JavaScript json values"
 msgstr ""
 
 #: ../../chapters/cases.rst:4
 msgid "Cases"
-msgstr ""
+msgstr "Fälle"
 
 #: ../../chapters/cases.rst:7
 msgid "What is a case"
-msgstr ""
+msgstr "Was ist ein Fall"
 
 #: ../../chapters/cases.rst:9
 msgid ""
@@ -429,7 +396,7 @@ msgstr ""
 
 #: ../../chapters/cases.rst:16
 msgid "Create a case"
-msgstr ""
+msgstr "Einen Fall erstellen"
 
 #: ../../chapters/cases.rst:18
 msgid ""
@@ -439,7 +406,7 @@ msgstr ""
 
 #: ../../chapters/cases.rst:22
 msgid "Start a new task"
-msgstr ""
+msgstr "Eine neue Aufgabe anlegen"
 
 #: ../../chapters/cases.rst:24
 msgid "Then the case header appears."
@@ -447,7 +414,7 @@ msgstr ""
 
 #: ../../chapters/cases.rst:28
 msgid "Enter case title"
-msgstr ""
+msgstr "Geben Sie einen Fallnamen ein"
 
 #: ../../chapters/cases.rst:30
 msgid ""
@@ -457,7 +424,7 @@ msgstr ""
 
 #: ../../chapters/cases.rst:34
 msgid "New case"
-msgstr ""
+msgstr "Neuer Fall"
 
 #: ../../chapters/cases.rst:37
 msgid "Create case tasks"
@@ -475,10 +442,10 @@ msgstr ""
 
 #: ../../chapters/cases.rst:48
 msgid ""
-"When a process is started, a :ref:`case <cases>` is created and all elements"
-" not having incoming transitions will be started. So if you only use the "
-":ref:`simple action list <action-list>` to create a list of user tasks, all "
-"those tasks in the list will be started immediate when the process starts."
+"When a process is started, a :ref:`case <cases>` is created and all elements "
+"not having incoming transitions will be started. So if you only use the :ref:"
+"`simple action list <action-list>` to create a list of user tasks, all those "
+"tasks in the list will be started immediate when the process starts."
 msgstr ""
 
 #: ../../chapters/cases.rst:52
@@ -517,15 +484,15 @@ msgstr ""
 msgid ""
 "When you see the `Reopen` button in a task, it means the task is completed. "
 "Reopening is good when you closed a task by accident or when you realize "
-"more needs to be done for this task. If you just forgot to attach a document"
-" or make a comment, you can still do that and you don't need to reopen the "
+"more needs to be done for this task. If you just forgot to attach a document "
+"or make a comment, you can still do that and you don't need to reopen the "
 "task for that. Reopening a task can be better then creating a new task "
 "because it has all the context in it."
 msgstr ""
 
 #: ../../chapters/cases.rst:74
 msgid "Starting a process"
-msgstr ""
+msgstr "Einen Prozess starten"
 
 #: ../../chapters/cases.rst:76
 msgid ""
@@ -570,11 +537,9 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/control-flow/exclusive-gateway.rst:2
-#: ../../chapters/control-flow/exclusive-gateway.rst:2
 msgid "Exclusive gateway"
 msgstr ""
 
-#: ../../chapters/control-flow/exclusive-gateway.rst:4
 #: ../../chapters/control-flow/exclusive-gateway.rst:4
 msgid ""
 "Use an exclusive gateway to make a choice between multiple execution paths. "
@@ -584,19 +549,16 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/control-flow/exclusive-gateway.rst:9
-#: ../../chapters/control-flow/exclusive-gateway.rst:9
 msgid "Human decision"
 msgstr ""
 
 #: ../../chapters/control-flow/exclusive-gateway.rst:11
-#: ../../chapters/control-flow/exclusive-gateway.rst:11
 msgid ""
-"The human decision type of exclusive gateway is used when a person must make"
-" a decision. The previous action has to be a user task. The decision is "
+"The human decision type of exclusive gateway is used when a person must make "
+"a decision. The previous action has to be a user task. The decision is "
 "presented to the user as buttons in form of the previous task."
 msgstr ""
 
-#: ../../chapters/control-flow/exclusive-gateway.rst:15
 #: ../../chapters/control-flow/exclusive-gateway.rst:15
 msgid ""
 "Here's an example. As a starting point, we already have a user task called "
@@ -605,13 +567,11 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/control-flow/exclusive-gateway.rst:20
-#: ../../chapters/control-flow/exclusive-gateway.rst:20
 msgid ""
 "An exclusive gateway must have at least one incoming and 2 outgoing "
 "transitions"
 msgstr ""
 
-#: ../../chapters/control-flow/exclusive-gateway.rst:22
 #: ../../chapters/control-flow/exclusive-gateway.rst:22
 msgid ""
 "Select the exclusive gateway. The human decision is the default type. After "
@@ -620,11 +580,9 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/control-flow/exclusive-gateway.rst:28
-#: ../../chapters/control-flow/exclusive-gateway.rst:28
 msgid "Default human decision configuration"
 msgstr ""
 
-#: ../../chapters/control-flow/exclusive-gateway.rst:30
 #: ../../chapters/control-flow/exclusive-gateway.rst:30
 msgid ""
 "`To Print contract` and `To Update contract` are the default decision "
@@ -635,18 +593,15 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/control-flow/exclusive-gateway.rst:34
-#: ../../chapters/control-flow/exclusive-gateway.rst:34
 msgid ""
 "The text on the buttons can easily be changed. Let's change it to `Approve` "
 "and `Reject` like this."
 msgstr ""
 
 #: ../../chapters/control-flow/exclusive-gateway.rst:39
-#: ../../chapters/control-flow/exclusive-gateway.rst:39
 msgid "Customized decision buttons"
 msgstr ""
 
-#: ../../chapters/control-flow/exclusive-gateway.rst:41
 #: ../../chapters/control-flow/exclusive-gateway.rst:41
 msgid ""
 "After starting a new case for this process, the task Review contract will "
@@ -654,24 +609,20 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/control-flow/exclusive-gateway.rst:45
-#: ../../chapters/control-flow/exclusive-gateway.rst:45
 msgid "Task decision buttons"
 msgstr ""
 
 #: ../../chapters/control-flow/exclusive-gateway.rst:47
-#: ../../chapters/control-flow/exclusive-gateway.rst:47
 msgid ""
 "When adding form fields to the task before the exclusive gateway (in this "
-"example \"Review contract\"), the decision buttons will be combined with the"
-" form fields."
+"example \"Review contract\"), the decision buttons will be combined with the "
+"form fields."
 msgstr ""
 
-#: ../../chapters/control-flow/exclusive-gateway.rst:50
 #: ../../chapters/control-flow/exclusive-gateway.rst:50
 msgid "Automatic decision"
 msgstr ""
 
-#: ../../chapters/control-flow/exclusive-gateway.rst:52
 #: ../../chapters/control-flow/exclusive-gateway.rst:52
 msgid ""
 "An automatic decision is an exclusive gateway that selects an outgoing "
@@ -682,32 +633,27 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/control-flow/exclusive-gateway.rst:59
-#: ../../chapters/control-flow/exclusive-gateway.rst:59
 msgid "Automatic decision condition editor"
 msgstr ""
 
 #: ../../chapters/control-flow/exclusive-gateway.rst:61
-#: ../../chapters/control-flow/exclusive-gateway.rst:61
 msgid ""
-"For specifying a condition you start with selecting a field and a comparison"
-" operator. Then you can either enter a static value in the input field on "
-"the right, or click the |binding-symbol| button to select another field."
+"For specifying a condition you start with selecting a field and a comparison "
+"operator. Then you can either enter a static value in the input field on the "
+"right, or click the |binding-symbol| button to select another field."
 msgstr ""
 
-#: ../../chapters/control-flow/exclusive-gateway.rst:64
 #: ../../chapters/control-flow/exclusive-gateway.rst:64
 msgid ""
 "When you do not specify a condition, it will evaluate to false and the "
-"transition will not be taken. A non-specified condition is marked with a "
-"|warning-symbol| symbol."
+"transition will not be taken. A non-specified condition is marked with a |"
+"warning-symbol| symbol."
 msgstr ""
 
-#: ../../chapters/control-flow/exclusive-gateway.rst:71
 #: ../../chapters/control-flow/exclusive-gateway.rst:71
 msgid "Default transition"
 msgstr ""
 
-#: ../../chapters/control-flow/exclusive-gateway.rst:73
 #: ../../chapters/control-flow/exclusive-gateway.rst:73
 msgid ""
 "Usually an automatic decision has a default transition. It's a fallback "
@@ -716,11 +662,9 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/control-flow/exclusive-gateway.rst:78
-#: ../../chapters/control-flow/exclusive-gateway.rst:78
 msgid "The default transition"
 msgstr ""
 
-#: ../../chapters/control-flow/exclusive-gateway.rst:80
 #: ../../chapters/control-flow/exclusive-gateway.rst:80
 msgid ""
 "If you want to make a transition the default, click on |following-symbol|. "
@@ -729,16 +673,13 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/control-flow/parallel-gateway.rst:2
-#: ../../chapters/control-flow/parallel-gateway.rst:2
 msgid "Parallel Gateway"
 msgstr ""
 
 #: ../../chapters/control-flow/parallel-gateway.rst:5
-#: ../../chapters/control-flow/parallel-gateway.rst:5
 msgid "Forking"
 msgstr ""
 
-#: ../../chapters/control-flow/parallel-gateway.rst:7
 #: ../../chapters/control-flow/parallel-gateway.rst:7
 msgid ""
 "With a parallel gateway, you can fork execution in multiple, concurrent "
@@ -748,21 +689,18 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/control-flow/parallel-gateway.rst:13
-#: ../../chapters/control-flow/parallel-gateway.rst:13
 msgid "A parallel gateway example"
 msgstr ""
 
 #: ../../chapters/control-flow/parallel-gateway.rst:15
-#: ../../chapters/control-flow/parallel-gateway.rst:15
 msgid ""
 "In the purchase order example above, the parallel gateway will be activated "
 "when user task `Enter purchase order` is completed. The parallel gateway "
-"will create 2 individual paths of execution. One will take the transition to"
-" `Receive payment` and create that user task. The other to `Send goods` and "
+"will create 2 individual paths of execution. One will take the transition to "
+"`Receive payment` and create that user task. The other to `Send goods` and "
 "create that user task as well."
 msgstr ""
 
-#: ../../chapters/control-flow/parallel-gateway.rst:20
 #: ../../chapters/control-flow/parallel-gateway.rst:20
 msgid ""
 "In summary, after `Enter purchase order` completes, both tasks `Receive "
@@ -770,29 +708,25 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/control-flow/parallel-gateway.rst:22
-#: ../../chapters/control-flow/parallel-gateway.rst:22
 msgid ""
 "You can have as many outgoing transitions as you want. All destination "
 "actions for those transitions will be started at once."
 msgstr ""
 
 #: ../../chapters/control-flow/parallel-gateway.rst:26
-#: ../../chapters/control-flow/parallel-gateway.rst:26
 msgid "Joining"
 msgstr ""
 
 #: ../../chapters/control-flow/parallel-gateway.rst:28
-#: ../../chapters/control-flow/parallel-gateway.rst:28
 msgid ""
 "The parallel gateway is also used for joining concurrent paths back "
 "together. In that case, the joining parallel gateway has more then one "
-"incoming transition. It will wait until as many execution flows arrive as it"
-" has incoming transitions. When the last concurrent flow arrives, the "
-"joining parallel gateway will activate and one execution flow will be "
-"created on the outgoing transition."
+"incoming transition. It will wait until as many execution flows arrive as it "
+"has incoming transitions. When the last concurrent flow arrives, the joining "
+"parallel gateway will activate and one execution flow will be created on the "
+"outgoing transition."
 msgstr ""
 
-#: ../../chapters/control-flow/parallel-gateway.rst:33
 #: ../../chapters/control-flow/parallel-gateway.rst:33
 msgid ""
 "Let's build forward on the example we showed above. We complete that "
@@ -800,11 +734,9 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/control-flow/parallel-gateway.rst:38
-#: ../../chapters/control-flow/parallel-gateway.rst:38
 msgid "A parallel gateway example with join"
 msgstr ""
 
-#: ../../chapters/control-flow/parallel-gateway.rst:40
 #: ../../chapters/control-flow/parallel-gateway.rst:40
 msgid ""
 "In this example, `Archive purchase order` will only be started after both "
@@ -813,21 +745,17 @@ msgstr ""
 
 #: ../../chapters/control-flow/parallel-gateway.rst:43
 #: ../../chapters/control-flow/parallel-gateway.rst:51
-#: ../../chapters/control-flow/parallel-gateway.rst:43
-#: ../../chapters/control-flow/parallel-gateway.rst:51
 msgid "Default forking"
 msgstr ""
 
 #: ../../chapters/control-flow/parallel-gateway.rst:45
-#: ../../chapters/control-flow/parallel-gateway.rst:45
 msgid ""
 "By default, multiple outgoing transitions out of an action like a user task "
 "will be interpreted as parallel. Meaning that if you have multiple "
-"transitions out of a user task, all destination actions of those transitions"
-" will be performed concurrently. Let's look at a simple example."
+"transitions out of a user task, all destination actions of those transitions "
+"will be performed concurrently. Let's look at a simple example."
 msgstr ""
 
-#: ../../chapters/control-flow/parallel-gateway.rst:53
 #: ../../chapters/control-flow/parallel-gateway.rst:53
 msgid ""
 "After `Send goods` completes, both tasks `Receive payment` and `Send goods` "
@@ -835,29 +763,24 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/control-flow/parallel-gateway.rst:55
-#: ../../chapters/control-flow/parallel-gateway.rst:55
 msgid "Default forking can be combined with a parallel gateway for joining."
 msgstr ""
 
-#: ../../chapters/control-flow/parallel-gateway.rst:58
 #: ../../chapters/control-flow/parallel-gateway.rst:58
 msgid "Default merging"
 msgstr ""
 
 #: ../../chapters/control-flow/parallel-gateway.rst:60
-#: ../../chapters/control-flow/parallel-gateway.rst:60
 msgid ""
-"On the other hand, when multiple transitions arrive in a user task, the user"
-" task will be started for each execution flow that arrives there. So no "
+"On the other hand, when multiple transitions arrive in a user task, the user "
+"task will be started for each execution flow that arrives there. So no "
 "implicit joining will happen."
 msgstr ""
 
 #: ../../chapters/control-flow/parallel-gateway.rst:64
-#: ../../chapters/control-flow/parallel-gateway.rst:64
 msgid "Trouble"
 msgstr ""
 
-#: ../../chapters/control-flow/parallel-gateway.rst:66
 #: ../../chapters/control-flow/parallel-gateway.rst:66
 msgid ""
 "Using parallelism sometimes leads to problems when people loop back over "
@@ -866,17 +789,13 @@ msgstr ""
 
 #: ../../chapters/control-flow/parallel-gateway.rst:71
 #: ../../chapters/control-flow/parallel-gateway.rst:77
-#: ../../chapters/control-flow/parallel-gateway.rst:71
-#: ../../chapters/control-flow/parallel-gateway.rst:77
 msgid "Undesirable loopback"
 msgstr ""
 
 #: ../../chapters/control-flow/parallel-gateway.rst:73
-#: ../../chapters/control-flow/parallel-gateway.rst:73
 msgid "and this"
 msgstr ""
 
-#: ../../chapters/control-flow/parallel-gateway.rst:79
 #: ../../chapters/control-flow/parallel-gateway.rst:79
 msgid ""
 "In general, our advice is that all actions between forking and joining "
@@ -889,10 +808,10 @@ msgstr ""
 
 #: ../../chapters/control-flow.rst:21
 msgid ""
-"A start event marks the start of a process. All process elements that do not"
-" have incoming transitions are considered start elements. Start don't have a"
-" direct connection to triggers. Usually start events can be omitted to "
-"create more consice diagrams."
+"A start event marks the start of a process. All process elements that do not "
+"have incoming transitions are considered start elements. Start don't have a "
+"direct connection to triggers. Usually start events can be omitted to create "
+"more consice diagrams."
 msgstr ""
 
 #: ../../chapters/control-flow.rst:27 ../../chapters/control-flow.rst:34
@@ -931,8 +850,8 @@ msgstr ""
 
 #: ../../chapters/data-types.rst:12
 msgid ""
-"Process information is stored in variables. Each variable has a user defined"
-" name and a type. A type can be atomic, like a string (text) or an email "
+"Process information is stored in variables. Each variable has a user defined "
+"name and a type. A type can be atomic, like a string (text) or an email "
 "address. Other types like user, file or email are composite. Those types "
 "have a list of fields. When using expressions or configuring some action, "
 "references are made to process data. Often those references can be to the "
@@ -1089,9 +1008,9 @@ msgstr ""
 
 #: ../../chapters/integration/salesforce.rst:12
 msgid ""
-"Before you can set-up Salesforce integration, you need to create an endpoint"
-" in Effektif that Salesforce can send information to. Set this up in "
-"Effektif as follows."
+"Before you can set-up Salesforce integration, you need to create an endpoint "
+"in Effektif that Salesforce can send information to. Set this up in Effektif "
+"as follows."
 msgstr ""
 
 #: ../../chapters/integration/salesforce.rst:15
@@ -1107,8 +1026,7 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/integration/salesforce.rst:24
-msgid ""
-"Copy the generated `Endpoint URL`, or leave this window open for later."
+msgid "Copy the generated `Endpoint URL`, or leave this window open for later."
 msgstr ""
 
 #: ../../chapters/integration/salesforce.rst:27
@@ -1205,18 +1123,16 @@ msgstr ""
 
 #: ../../chapters/process-builder.rst:6
 msgid ""
-"The process builder is used to create and configure executable processes. An"
-" executable process is in many aspects similar to software. But it's much "
+"The process builder is used to create and configure executable processes. An "
+"executable process is in many aspects similar to software. But it's much "
 "easier to build automations using processes. With Effektif, even non-"
 "technical people can create useful processes."
 msgstr ""
 
 #: ../../chapters/process-builder/triggers.rst:2
-#: ../../chapters/process-builder/triggers.rst:2
 msgid "Triggers"
 msgstr ""
 
-#: ../../chapters/process-builder/triggers.rst:4
 #: ../../chapters/process-builder/triggers.rst:4
 msgid ""
 "A trigger defines when a process is started. There is no relation between "
@@ -1224,11 +1140,9 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/process-builder/triggers.rst:7
-#: ../../chapters/process-builder/triggers.rst:7
 msgid "Manual trigger"
 msgstr ""
 
-#: ../../chapters/process-builder/triggers.rst:9
 #: ../../chapters/process-builder/triggers.rst:9
 msgid ""
 "A manual trigger is the simplest. It means that users have to start "
@@ -1237,37 +1151,32 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/process-builder/triggers.rst:14
-#: ../../chapters/process-builder/triggers.rst:14
 msgid "Form trigger"
 msgstr ""
 
 #: ../../chapters/process-builder/triggers.rst:16
-#: ../../chapters/process-builder/triggers.rst:16
 msgid ""
 "With a form trigger, the user is presented a form to start a process. After "
-"selecting the form trigger, you can specify the form fields in the trigger. "
-".. todo .. For more information on the form builder, see Form builder."
+"selecting the form trigger, you can specify the form fields in the "
+"trigger. .. todo .. For more information on the form builder, see Form "
+"builder."
 msgstr ""
 
-#: ../../chapters/process-builder/triggers.rst:22
 #: ../../chapters/process-builder/triggers.rst:22
 msgid "Form documents"
 msgstr ""
 
 #: ../../chapters/process-builder/triggers.rst:24
-#: ../../chapters/process-builder/triggers.rst:24
 msgid ""
-"There are many processes for which there is an existing procedure based on a"
-" form. Often it's a good idea to just keep the form in it's original pdf or "
+"There are many processes for which there is an existing procedure based on a "
+"form. Often it's a good idea to just keep the form in it's original pdf or "
 "word form. Such documents can be used as the basis for the process, rather "
-"then rebuilding the form in Effektif. Especially when it comes to multi-page"
-" forms with complex layouts, then the original form might be the best "
-"option. Users can then fill in the form, either update the original document"
-" or scan it and then upload the filled in document in a single form field in"
-" Effektif."
+"then rebuilding the form in Effektif. Especially when it comes to multi-page "
+"forms with complex layouts, then the original form might be the best option. "
+"Users can then fill in the form, either update the original document or scan "
+"it and then upload the filled in document in a single form field in Effektif."
 msgstr ""
 
-#: ../../chapters/process-builder/triggers.rst:30
 #: ../../chapters/process-builder/triggers.rst:30
 msgid ""
 "At this moment, Effektif can't yet read the data entered in form documents. "
@@ -1277,25 +1186,21 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/process-builder/triggers.rst:35
-#: ../../chapters/process-builder/triggers.rst:35
 msgid "Email trigger"
 msgstr ""
 
 #: ../../chapters/process-builder/triggers.rst:37
-#: ../../chapters/process-builder/triggers.rst:37
 msgid ""
 "An email trigger start a new case for each email that arrives on an email "
-"address that is related to the trigger. Note this is different from scanning"
-" an existing mail box like your own. After selecting the email trigger, you "
+"address that is related to the trigger. Note this is different from scanning "
+"an existing mail box like your own. After selecting the email trigger, you "
 "can see the email address for the trigger."
 msgstr ""
 
 #: ../../chapters/process-builder/triggers.rst:43
-#: ../../chapters/process-builder/triggers.rst:43
 msgid "Mail trigger configuration"
 msgstr ""
 
-#: ../../chapters/process-builder/triggers.rst:45
 #: ../../chapters/process-builder/triggers.rst:45
 msgid ""
 "When creating a new trigger, an email variable will be created. The email "
@@ -1303,11 +1208,9 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/process-builder/triggers.rst:48
-#: ../../chapters/process-builder/triggers.rst:48
 msgid "There are 2 main use cases for the email trigger:"
 msgstr ""
 
-#: ../../chapters/process-builder/triggers.rst:50
 #: ../../chapters/process-builder/triggers.rst:50
 msgid ""
 "First, the trigger email address can be added to a mailing list like eg "
@@ -1320,16 +1223,13 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/process-builder/triggers.rst:58
-#: ../../chapters/process-builder/triggers.rst:58
 msgid "Trigger mail in stream"
 msgstr ""
 
 #: ../../chapters/process-builder/triggers.rst:63
-#: ../../chapters/process-builder/triggers.rst:63
 msgid "Salesforce trigger"
 msgstr ""
 
-#: ../../chapters/process-builder/triggers.rst:65
 #: ../../chapters/process-builder/triggers.rst:65
 msgid ""
 "A Salesforce trigger starts a new case in response to Salesforce sending an "
@@ -1339,61 +1239,51 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/process-builder/triggers.rst:68
-#: ../../chapters/process-builder/triggers.rst:68
 msgid ""
 "When you have configured a Salesforce service, you can select it as a "
-"process trigger, so that messages from Salesforce will now trigger new "
-"cases."
+"process trigger, so that messages from Salesforce will now trigger new cases."
 msgstr ""
 
-#: ../../chapters/process-builder/triggers.rst:72
 #: ../../chapters/process-builder/triggers.rst:72
 msgid "Example of a Salesforce trigger"
 msgstr ""
 
 #: ../../chapters/process-builder/triggers.rst:74
-#: ../../chapters/process-builder/triggers.rst:74
 msgid ""
-"In the process definition, you can use the Salesforce object fields that are"
-" included in the Salesforce message just like normal :ref:`variables "
+"In the process definition, you can use the Salesforce object fields that are "
+"included in the Salesforce message just like normal :ref:`variables "
 "<variables>`."
 msgstr ""
 
-#: ../../chapters/process-builder/actions.rst:2
 #: ../../chapters/process-builder/actions.rst:2
 msgid "Actions"
 msgstr ""
 
 #: ../../chapters/process-builder/actions.rst:4
-#: ../../chapters/process-builder/actions.rst:4
 msgid ""
-"Actions are like steps in a process. This can be a user task in Effektif, an"
-" operation on a file in a document management system or any other action "
-"that represents something to be done in a process."
+"Actions are like steps in a process. This can be a user task in Effektif, an "
+"operation on a file in a document management system or any other action that "
+"represents something to be done in a process."
 msgstr ""
 
-#: ../../chapters/process-builder/actions.rst:10
 #: ../../chapters/process-builder/actions.rst:10
 msgid "Simple action list view"
 msgstr ""
 
 #: ../../chapters/process-builder/actions.rst:12
-#: ../../chapters/process-builder/actions.rst:12
 msgid ""
 "The simple action list view is the simplest form to create a process and it "
 "shows all actions in a list. It's the easiest way to create so called "
 "checklist processes. These are processes that have a bunch of user tasks "
-"that serve as a checklist. If no control flow is added in the Advanced flows"
-" view, all actions will be started immediately when the process starts. So "
-"by default, all actions in the simple action list view run in parallel."
+"that serve as a checklist. If no control flow is added in the Advanced flows "
+"view, all actions will be started immediately when the process starts. So by "
+"default, all actions in the simple action list view run in parallel."
 msgstr ""
 
-#: ../../chapters/process-builder/actions.rst:19
 #: ../../chapters/process-builder/actions.rst:19
 msgid "Advanced flows view"
 msgstr ""
 
-#: ../../chapters/process-builder/actions.rst:21
 #: ../../chapters/process-builder/actions.rst:21
 msgid ""
 "The advanced flow view is a BPMN diagram editor. It shows the actions and "
@@ -1403,11 +1293,9 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/process-builder/actions.rst:26
-#: ../../chapters/process-builder/actions.rst:26
 msgid "Adding a transition"
 msgstr ""
 
-#: ../../chapters/process-builder/actions.rst:28
 #: ../../chapters/process-builder/actions.rst:28
 msgid ""
 "To create a transition, you have to be in the `Advanced flows` view. A "
@@ -1416,20 +1304,17 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/process-builder/actions.rst:32
-#: ../../chapters/process-builder/actions.rst:32
 msgid ""
 "To add a transition, select the first element by clicking on it. You'll see "
 "a couple of symbols appearing around the selected element like this:"
 msgstr ""
 
 #: ../../chapters/process-builder/actions.rst:37
-#: ../../chapters/process-builder/actions.rst:37
 msgid ""
 "Start creating a transition by dragging the transition symbol to the "
 "destination"
 msgstr ""
 
-#: ../../chapters/process-builder/actions.rst:39
 #: ../../chapters/process-builder/actions.rst:39
 msgid ""
 "Then click and hold down the transition symbol |transition-symbol| and drag "
@@ -1439,21 +1324,17 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/process-builder/actions.rst:46
-#: ../../chapters/process-builder/actions.rst:46
 msgid "Creating a transition hovering over destination"
 msgstr ""
 
-#: ../../chapters/process-builder/actions.rst:48
 #: ../../chapters/process-builder/actions.rst:48
 msgid "Releasing the mouse over the destination will create the transition."
 msgstr ""
 
 #: ../../chapters/process-builder/actions.rst:51
-#: ../../chapters/process-builder/actions.rst:51
 msgid "Creating the next user task"
 msgstr ""
 
-#: ../../chapters/process-builder/actions.rst:53
 #: ../../chapters/process-builder/actions.rst:53
 msgid ""
 "There is an very easy way to create the next User Task. It's similar to "
@@ -1462,23 +1343,19 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/process-builder/actions.rst:59
-#: ../../chapters/process-builder/actions.rst:59
 msgid "Start creating the next user task by dragging the action symbol"
 msgstr ""
 
 #: ../../chapters/process-builder/actions.rst:61
-#: ../../chapters/process-builder/actions.rst:61
 msgid ""
-"Then click and hold down the rounded rectangle symbol |task-symbol| and drag"
-" it to the empty place on the canvas."
+"Then click and hold down the rounded rectangle symbol |task-symbol| and drag "
+"it to the empty place on the canvas."
 msgstr ""
 
-#: ../../chapters/process-builder/actions.rst:67
 #: ../../chapters/process-builder/actions.rst:67
 msgid "Drag the rounded rectangle symbol to an empty place"
 msgstr ""
 
-#: ../../chapters/process-builder/actions.rst:69
 #: ../../chapters/process-builder/actions.rst:69
 msgid ""
 "Drop it whereyou want to create the next user task. When you release the "
@@ -1486,20 +1363,17 @@ msgid ""
 msgstr ""
 
 #: ../../chapters/process-builder/actions.rst:74
-#: ../../chapters/process-builder/actions.rst:74
 msgid "Created the next user task and transition at once"
 msgstr ""
 
-#: ../../chapters/process-builder/actions.rst:77
 #: ../../chapters/process-builder/actions.rst:77
 msgid "Control flow elements"
 msgstr ""
 
 #: ../../chapters/process-builder/actions.rst:79
-#: ../../chapters/process-builder/actions.rst:79
 msgid ""
-"Control flow elements like events and gateways are also part of the diagram,"
-" but unlike actions, control flow elements don't represent something that "
+"Control flow elements like events and gateways are also part of the diagram, "
+"but unlike actions, control flow elements don't represent something that "
 "should happen. Events and gateways are used to specify the flow between the "
 "actions."
 msgstr ""
@@ -1511,15 +1385,14 @@ msgstr ""
 #: ../../chapters/process-builder.rst:16
 msgid ""
 "A process has variables to store process data. All the information in forms "
-"and required by the actions will be connected to the process variables. Each"
-" case can stores it's own values for each process variable."
+"and required by the actions will be connected to the process variables. Each "
+"case can stores it's own values for each process variable."
 msgstr ""
 
 #: ../../chapters/process-builder.rst:20
 msgid ""
 "A process variable can be a object containing fields like for example an "
-"email. The email has fields `from`, `to`, `subject`, `attachments` and so "
-"on."
+"email. The email has fields `from`, `to`, `subject`, `attachments` and so on."
 msgstr ""
 
 #: ../../chapters/process-builder.rst:23
@@ -1570,8 +1443,8 @@ msgstr ""
 msgid ""
 "The first task with a role will notify all candidates. When one of the "
 "candidates takes the task, the subsequent tasks assigned to that role will "
-"be assigned to the same person. That's efficient because this person has the"
-" context knowledge about that case."
+"be assigned to the same person. That's efficient because this person has the "
+"context knowledge about that case."
 msgstr ""
 
 #: ../../chapters/process-builder.rst:54
@@ -1609,9 +1482,9 @@ msgstr ""
 #: ../../chapters/terminology.rst:26
 msgid ""
 "An ad hoc case is a case without a predefined process. It's a collaboration "
-"space to reach any one time goal. The case brings together a set of tasks, a"
-" discussion, documents and allows participants to share any relevant context"
-" information for the tasks."
+"space to reach any one time goal. The case brings together a set of tasks, a "
+"discussion, documents and allows participants to share any relevant context "
+"information for the tasks."
 msgstr ""
 
 #: ../../chapters/terminology.rst:31
@@ -1621,8 +1494,7 @@ msgstr ""
 #: ../../chapters/terminology.rst:33
 msgid ""
 "Tasks are concrete action items inside a case that can be assigned to "
-"people. In process cases, a task may have been created by a user task "
-"action."
+"people. In process cases, a task may have been created by a user task action."
 msgstr ""
 
 #: ../../chapters/terminology.rst:37
@@ -1646,11 +1518,11 @@ msgstr ""
 msgid ""
 "Actions are the steps in a process that represent things to be done. When "
 "starting a process, Effektif will 'execute' the actions in a process in the "
-"proper order. The ordering is also refered to as :ref:`control flow "
-"<control-flow>` and is specified with transitions, gateways and events. "
-"There are different types of actions: a user task will create a task in a "
-"case. A 'Send Email' action will send an email. A 'Google file upload' "
-"action will upload a file to a Google Drive folder."
+"proper order. The ordering is also refered to as :ref:`control flow <control-"
+"flow>` and is specified with transitions, gateways and events. There are "
+"different types of actions: a user task will create a task in a case. A "
+"'Send Email' action will send an email. A 'Google file upload' action will "
+"upload a file to a Google Drive folder."
 msgstr ""
 
 #: ../../chapters/terminology.rst:56
@@ -1674,8 +1546,8 @@ msgstr ""
 
 #: ../../chapters/terminology.rst:68
 msgid ""
-"A role is mechanism to perform assignments of user tasks in a process. Roles"
-" correspond to swimlanes in a BPMN diagram. It's also known as a process "
+"A role is mechanism to perform assignments of user tasks in a process. Roles "
+"correspond to swimlanes in a BPMN diagram. It's also known as a process "
 "role. Process roles are different from organizational roles. For example, "
 "there might be 20 peole in an organization having the role 'Support "
 "engineer'. Yet each support case could have 1 person acting as the 'Support "
@@ -1691,88 +1563,10 @@ msgstr ""
 #: ../../chapters/terminology.rst:81
 msgid ""
 "An organization represents a collection of users --typically a company-- "
-"together with all their data in Effektif. The data in an organization is not"
-" visible to people outside the organization. When you're logged into "
+"together with all their data in Effektif. The data in an organization is not "
+"visible to people outside the organization. When you're logged into "
 "Effektif, you see all the data inside one particular organization. If you "
-"are a member of multiple organizations, you can switch between organizations"
-" by selecting a different organization under your name in the top right "
+"are a member of multiple organizations, you can switch between organizations "
+"by selecting a different organization under your name in the top right "
 "corner."
 msgstr ""
-
-#~ msgid ""
-#~ "A case is a collaboration page for a particular goal. A case has subtasks "
-#~ "representing the concrete action items to reach the goal. There are two "
-#~ "types of cases: process cases and ad hoc cases. Each case has an event "
-#~ "stream acts as an audit log and includes all relevant information that is "
-#~ "shared to collaborate like documents and links. By using case comments "
-#~ "instead of email, participants ensure that the discussions shares the full "
-#~ "context with all people involved. Learn more about cases."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Process case A process case is a case that is associated to a process. The "
-#~ "process describes what actions have to be done and in which order. In BPM "
-#~ "terminology, a process case is also known as a process instance."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Ad hoc case An ad hoc case is a case without a predefined process. It's a "
-#~ "collaboration space to reach any one time goal. The case brings together a "
-#~ "set of tasks, a discussion, documents and allows participants to share any "
-#~ "relevant context information for the tasks."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Task Tasks are concrete action items inside a case that can be assigned to "
-#~ "people. In process cases, a task may have been created by a user task "
-#~ "action."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Process A process is a template to automate repetitive work. It like a "
-#~ "recipe that describes the actions that have to be performed to achieve a "
-#~ "goal. As an example, we can consider a 'Hire' process. Each time someone is "
-#~ "hired, 3 tasks have to be completed: 'Interview', 'Contract' and 'Email "
-#~ "account'. Each time the process is started, a new case is created."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Action Actions are the steps in a process that represent things to be done. "
-#~ "When starting a process, Effektif will 'execute' the actions in a process in"
-#~ " the proper order. The ordering is also refered to as control flow and is "
-#~ "specified with transitions, gateways and events. There are different types "
-#~ "of actions: a user task will create a task in a case. A 'Send Email' action "
-#~ "will send an email. A 'Google file upload' action will upload a file to a "
-#~ "Google Drive folder."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Trigger A trigger in a process specifies when the process is started. The "
-#~ "manual trigger is the simplest. This means that the process is started when "
-#~ "a user starts a new process case inside Effektif. The form trigger allows to"
-#~ " specify a form that users have to complete to start a new process case. And"
-#~ " the mail trigger will create a new process case automatic each time a mail "
-#~ "arrives on a specific email address. There is no direct relation between "
-#~ "triggers and start events."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Role A role is mechanism to perform assignments of user tasks in a process. "
-#~ "Roles correspond to swimlanes in a BPMN diagram. It's also known as a "
-#~ "process role. Process roles are different from organizational roles. For "
-#~ "example, there might be 20 peole in an organization having the role 'Support"
-#~ " engineer'. Yet each support case could have 1 person acting as the 'Support"
-#~ " contact' process role. So a process role only lasts for the duration of a "
-#~ "case. While organizational roles are more static and relate to the job you "
-#~ "perform at the organization. Read more about roles"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Organization An organization represents a collection of users --typically a "
-#~ "company-- together with all their data in Effektif. The data in an "
-#~ "organization is not visible to people outside the organization. When you're "
-#~ "logged into Effektif, you see all the data inside one particular "
-#~ "organization. If you are a member of multiple organizations, you can switch "
-#~ "between organizations by selecting a different organization under your name "
-#~ "in the top right corner."
-#~ msgstr ""
