@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Effektif User Manual 2.17.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 15:54+0100\n"
-"PO-Revision-Date: 2015-04-16 13:09+0100\n"
+"PO-Revision-Date: 2015-04-16 16:28+0100\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -24,6 +24,11 @@ msgid ""
 "reach a certain goal. For example: For every hire tasks 'Interview', "
 "'Contract' and 'Email account' have to be completed."
 msgstr ""
+"Ein Prozess ist eine Art Blaupause für wiederkehrende Aufgaben. Sie werden "
+"typischerweise von Managern definiert und beschreiben welche Aufgaben "
+"erledigt werden müssen um ein bestimmtes Ziel zu erreichen. Zum Beispiel "
+"müssen bei jeder Neuanstellung die Aufgaben \"Kandidat interviewen\", "
+"\"Vertrag abschließen\" und \"Email Konto einrichten\" erledigt werden."
 
 #: ../../chapters/how-does-it-work.rst:10
 msgid ""
@@ -33,6 +38,12 @@ msgid ""
 "the tasks. Cases are collaboration spaces. People can discuss and create new "
 "tasks for individual cases on the fly."
 msgstr ""
+"Nachdem ein Prozess veröffentlich wurde können Fälle von ihm erzeugt werden. "
+"Hierbei behält Effektif den Überblick über alle Aufgaben und Aktionen die "
+"ausgeführt werden müssen. Ein Fall definiert den Kontext von einzelnen "
+"Aufgaben und ermöglicht es so einzelnen Personen die Aufgaben zu erledigen. "
+"Außerdem kann hier über den Fall oder die einzelnen Aufgaben diskutiert "
+"werden."
 
 #: ../../chapters/introduction.rst:2
 msgid "Introduction"
@@ -450,7 +461,7 @@ msgstr ""
 
 #: ../../chapters/cases.rst:52
 msgid "Completing a task"
-msgstr ""
+msgstr "Eine Aufgabe erledigen"
 
 #: ../../chapters/cases.rst:54
 msgid ""
@@ -478,7 +489,7 @@ msgstr ""
 
 #: ../../chapters/cases.rst:66
 msgid "Reopening a task"
-msgstr ""
+msgstr "Eine Aufgabe wieder öffnen"
 
 #: ../../chapters/cases.rst:68
 msgid ""
@@ -516,7 +527,7 @@ msgstr ""
 
 #: ../../chapters/control-flow.rst:4
 msgid "Control flow"
-msgstr ""
+msgstr "Kontrollfluss"
 
 #: ../../chapters/control-flow.rst:6
 msgid ""
@@ -526,7 +537,7 @@ msgstr ""
 
 #: ../../chapters/control-flow.rst:9
 msgid "Transition"
-msgstr ""
+msgstr "Transition"
 
 #: ../../chapters/control-flow.rst:11
 msgid ""
@@ -538,7 +549,7 @@ msgstr ""
 
 #: ../../chapters/control-flow/exclusive-gateway.rst:2
 msgid "Exclusive gateway"
-msgstr ""
+msgstr "Exklusives Gateway"
 
 #: ../../chapters/control-flow/exclusive-gateway.rst:4
 msgid ""
@@ -550,7 +561,7 @@ msgstr ""
 
 #: ../../chapters/control-flow/exclusive-gateway.rst:9
 msgid "Human decision"
-msgstr ""
+msgstr "Menschliche Entscheidung"
 
 #: ../../chapters/control-flow/exclusive-gateway.rst:11
 msgid ""
@@ -621,7 +632,7 @@ msgstr ""
 
 #: ../../chapters/control-flow/exclusive-gateway.rst:50
 msgid "Automatic decision"
-msgstr ""
+msgstr "Automatische Entscheidung"
 
 #: ../../chapters/control-flow/exclusive-gateway.rst:52
 msgid ""
@@ -652,7 +663,7 @@ msgstr ""
 
 #: ../../chapters/control-flow/exclusive-gateway.rst:71
 msgid "Default transition"
-msgstr ""
+msgstr "Standard Transititon"
 
 #: ../../chapters/control-flow/exclusive-gateway.rst:73
 msgid ""
@@ -674,7 +685,7 @@ msgstr ""
 
 #: ../../chapters/control-flow/parallel-gateway.rst:2
 msgid "Parallel Gateway"
-msgstr ""
+msgstr "Paralleles Gateway"
 
 #: ../../chapters/control-flow/parallel-gateway.rst:5
 msgid "Forking"
@@ -690,7 +701,7 @@ msgstr ""
 
 #: ../../chapters/control-flow/parallel-gateway.rst:13
 msgid "A parallel gateway example"
-msgstr ""
+msgstr "Beispiel eines parallelen Gateways"
 
 #: ../../chapters/control-flow/parallel-gateway.rst:15
 msgid ""
@@ -804,7 +815,7 @@ msgstr ""
 
 #: ../../chapters/control-flow.rst:19
 msgid "Start event"
-msgstr ""
+msgstr "Startereignis"
 
 #: ../../chapters/control-flow.rst:21
 msgid ""
@@ -816,7 +827,7 @@ msgstr ""
 
 #: ../../chapters/control-flow.rst:27 ../../chapters/control-flow.rst:34
 msgid "End event"
-msgstr ""
+msgstr "Endereignis"
 
 #: ../../chapters/control-flow.rst:29
 msgid ""
@@ -834,7 +845,7 @@ msgstr ""
 
 #: ../../chapters/data-types.rst:2
 msgid "Data types"
-msgstr ""
+msgstr "Datentypen"
 
 #: ../../chapters/data-types.rst:4
 msgid ""
@@ -846,7 +857,7 @@ msgstr ""
 
 #: ../../chapters/data-types.rst:10
 msgid "Variables vs fields"
-msgstr ""
+msgstr "Unterschied zwischen Variablen und Feldern"
 
 #: ../../chapters/data-types.rst:12
 msgid ""
@@ -861,53 +872,55 @@ msgstr ""
 
 #: ../../chapters/data-types.rst:23
 msgid "String type"
-msgstr ""
+msgstr "Texttyp"
 
 #: ../../chapters/data-types.rst:25
 msgid "Stores plain text."
-msgstr ""
+msgstr "Enthält reinen Text"
 
 #: ../../chapters/data-types.rst:30
 msgid "File type"
-msgstr ""
+msgstr "Dateityp"
 
 #: ../../chapters/data-types.rst:32
 msgid "Stores a file"
-msgstr ""
+msgstr "Enthält eine Datei"
 
 #: ../../chapters/data-types.rst:37
 msgid "User type"
-msgstr ""
+msgstr "Benutzertyp"
 
 #: ../../chapters/data-types.rst:39
 msgid ""
 "A variable of type user refers to a user in your organization. A user is an "
 "object type with following properties"
 msgstr ""
+"Variablen vom Typ Nutzer beziehen sich auf Nutzer innerhalb Ihrer "
+"Organisation. Ein Nutzer hat die folgenden Eigenschaften"
 
 #: ../../chapters/data-types.rst:42
 msgid ":ref:`id <type-id>`: The unique identifier for this user"
-msgstr ""
+msgstr ":ref:`id <type-id>`: Eindeutige Kennzeichnung für einen Nutzer"
 
 #: ../../chapters/data-types.rst:43
 msgid ":ref:`firstName <type-string>`: The first name"
-msgstr ""
+msgstr ":ref:`firstName <type-string>`: Der Vorname"
 
 #: ../../chapters/data-types.rst:44
 msgid ":ref:`lastName <type-string>`: The last name"
-msgstr ""
+msgstr ":ref:`lastName <type-string>`: Der Nachname"
 
 #: ../../chapters/data-types.rst:45
 msgid ":ref:`emailAddress <type-email-address>`: The email address"
-msgstr ""
+msgstr ":ref:`emailAddress <type-email-address>`: Die Emailadresse"
 
 #: ../../chapters/data-types.rst:50
 msgid "Email address type"
-msgstr ""
+msgstr "Emailadressentyp"
 
 #: ../../chapters/data-types.rst:55
 msgid "Email type"
-msgstr ""
+msgstr "Emailtyp"
 
 #: ../../chapters/data-types.rst:57
 msgid ""
@@ -1131,7 +1144,7 @@ msgstr ""
 
 #: ../../chapters/process-builder/triggers.rst:2
 msgid "Triggers"
-msgstr ""
+msgstr "Auslöser"
 
 #: ../../chapters/process-builder/triggers.rst:4
 msgid ""
@@ -1141,7 +1154,7 @@ msgstr ""
 
 #: ../../chapters/process-builder/triggers.rst:7
 msgid "Manual trigger"
-msgstr ""
+msgstr "Manueller Auslöser"
 
 #: ../../chapters/process-builder/triggers.rst:9
 msgid ""
@@ -1152,7 +1165,7 @@ msgstr ""
 
 #: ../../chapters/process-builder/triggers.rst:14
 msgid "Form trigger"
-msgstr ""
+msgstr "Formular Auslöser"
 
 #: ../../chapters/process-builder/triggers.rst:16
 msgid ""
@@ -1187,7 +1200,7 @@ msgstr ""
 
 #: ../../chapters/process-builder/triggers.rst:35
 msgid "Email trigger"
-msgstr ""
+msgstr "Email Auslöser"
 
 #: ../../chapters/process-builder/triggers.rst:37
 msgid ""
@@ -1199,7 +1212,7 @@ msgstr ""
 
 #: ../../chapters/process-builder/triggers.rst:43
 msgid "Mail trigger configuration"
-msgstr ""
+msgstr "Email Auslöser Konfiguration"
 
 #: ../../chapters/process-builder/triggers.rst:45
 msgid ""
@@ -1228,7 +1241,7 @@ msgstr ""
 
 #: ../../chapters/process-builder/triggers.rst:63
 msgid "Salesforce trigger"
-msgstr ""
+msgstr "Salesforce Auslöser"
 
 #: ../../chapters/process-builder/triggers.rst:65
 msgid ""
@@ -1246,7 +1259,7 @@ msgstr ""
 
 #: ../../chapters/process-builder/triggers.rst:72
 msgid "Example of a Salesforce trigger"
-msgstr ""
+msgstr "Beispiel eines Salesforce Auslösers"
 
 #: ../../chapters/process-builder/triggers.rst:74
 msgid ""
@@ -1257,7 +1270,7 @@ msgstr ""
 
 #: ../../chapters/process-builder/actions.rst:2
 msgid "Actions"
-msgstr ""
+msgstr "Aktionen"
 
 #: ../../chapters/process-builder/actions.rst:4
 msgid ""
@@ -1268,7 +1281,7 @@ msgstr ""
 
 #: ../../chapters/process-builder/actions.rst:10
 msgid "Simple action list view"
-msgstr ""
+msgstr "Einfache Listenansicht"
 
 #: ../../chapters/process-builder/actions.rst:12
 msgid ""
@@ -1282,7 +1295,7 @@ msgstr ""
 
 #: ../../chapters/process-builder/actions.rst:19
 msgid "Advanced flows view"
-msgstr ""
+msgstr "Erweiterte Ansicht"
 
 #: ../../chapters/process-builder/actions.rst:21
 msgid ""
@@ -1294,7 +1307,7 @@ msgstr ""
 
 #: ../../chapters/process-builder/actions.rst:26
 msgid "Adding a transition"
-msgstr ""
+msgstr "Transitionen hinzufügen"
 
 #: ../../chapters/process-builder/actions.rst:28
 msgid ""
@@ -1466,7 +1479,7 @@ msgstr ""
 
 #: ../../chapters/terminology.rst:17
 msgid "Process case"
-msgstr ""
+msgstr "Fall"
 
 #: ../../chapters/terminology.rst:19
 msgid ""
@@ -1477,7 +1490,7 @@ msgstr ""
 
 #: ../../chapters/terminology.rst:24
 msgid "Ad hoc case"
-msgstr ""
+msgstr "Ad-Hoc Fall"
 
 #: ../../chapters/terminology.rst:26
 msgid ""
@@ -1489,7 +1502,7 @@ msgstr ""
 
 #: ../../chapters/terminology.rst:31
 msgid "Task"
-msgstr ""
+msgstr "Aufgabe"
 
 #: ../../chapters/terminology.rst:33
 msgid ""
@@ -1499,7 +1512,7 @@ msgstr ""
 
 #: ../../chapters/terminology.rst:37
 msgid "Process"
-msgstr ""
+msgstr "Prozess"
 
 #: ../../chapters/terminology.rst:39
 msgid ""
@@ -1512,7 +1525,7 @@ msgstr ""
 
 #: ../../chapters/terminology.rst:46
 msgid "Action"
-msgstr ""
+msgstr "Aktion"
 
 #: ../../chapters/terminology.rst:48
 msgid ""
@@ -1527,7 +1540,7 @@ msgstr ""
 
 #: ../../chapters/terminology.rst:56
 msgid "Trigger"
-msgstr ""
+msgstr "Auslöser"
 
 #: ../../chapters/terminology.rst:58
 msgid ""
@@ -1542,7 +1555,7 @@ msgstr ""
 
 #: ../../chapters/terminology.rst:66
 msgid "Role"
-msgstr ""
+msgstr "Rolle"
 
 #: ../../chapters/terminology.rst:68
 msgid ""
@@ -1558,7 +1571,7 @@ msgstr ""
 
 #: ../../chapters/terminology.rst:79
 msgid "Organization"
-msgstr ""
+msgstr "Organisation"
 
 #: ../../chapters/terminology.rst:81
 msgid ""
