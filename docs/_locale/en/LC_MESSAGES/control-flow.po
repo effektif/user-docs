@@ -1,0 +1,403 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: User Guide 2.22\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-17 10:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../control-flow.rst:4
+msgid "Control flow"
+msgstr ""
+
+#: ../../control-flow.rst:6
+msgid ""
+"You use transitions, gateways and events to specify the processing order of "
+"the actions in a process."
+msgstr ""
+
+#: ../../control-flow.rst:9
+msgid "Transition"
+msgstr ""
+
+#: ../../control-flow.rst:11
+msgid ""
+"A transition is an arrow from a source element to a destination element in "
+"the `Advanced flows` view. The transition specifies that the destination "
+"element is only ‘executed’ after the source element is completed. A "
+"transition is called a ‘sequence flow’ in BPMN."
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:2
+#: ../../control-flow/exclusive-gateway.rst:2
+msgid "Exclusive gateway"
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:4
+#: ../../control-flow/exclusive-gateway.rst:4
+msgid ""
+"Use an exclusive gateway to make a choice between multiple execution paths. "
+"The exclusive gateway selects one of the outgoing transitions, and only "
+"continues execution on that transition. There are two ways to configure an "
+"exclusive gateway: with a *human decision* or an 8automatic decision*."
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:11
+#: ../../control-flow/exclusive-gateway.rst:11
+msgid "Human decision"
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:13
+#: ../../control-flow/exclusive-gateway.rst:13
+msgid ""
+"Use a human decision for an exclusive gateway when a person must make a "
+"decision. The previous action must be a user task, which will include making"
+" the decision. The user interface presents the decision to the user as "
+"buttons on the user task form."
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:18
+#: ../../control-flow/exclusive-gateway.rst:18
+msgid ""
+"Here’s an example. Suppose you have a user task called ‘Review contract’, an"
+" exclusive gateway and the two user tasks ‘Print contract’ and ‘Update "
+"contract’:"
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:25
+#: ../../control-flow/exclusive-gateway.rst:25
+msgid ""
+"An exclusive gateway must have at least one incoming and two outgoing "
+"transitions"
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:27
+#: ../../control-flow/exclusive-gateway.rst:27
+msgid ""
+"Select the exclusive gateway. Human decision is the default type. After "
+"creating the elements and connecting them, as above, the exclusive gateway "
+"will be configured:"
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:34
+#: ../../control-flow/exclusive-gateway.rst:34
+msgid "Default human decision configuration"
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:36
+#: ../../control-flow/exclusive-gateway.rst:36
+msgid ""
+"`To Print contract` and `To Update contract` are the default decision "
+"buttons that will appear on the user task form. For each button, the label "
+"on the right indicates the next action in the process, which will be "
+"performed when the button is clicked. In this example, when the user clicks "
+"the decision button `To Print contract`, the `Print contract` task is "
+"executed and the `Update contract` task will *not* be executed."
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:43
+#: ../../control-flow/exclusive-gateway.rst:43
+msgid ""
+"You can easily change the text on the buttons. For example, change them to "
+"`Approve` and `Reject`:"
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:48
+#: ../../control-flow/exclusive-gateway.rst:48
+msgid "Customized decision buttons"
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:50
+#: ../../control-flow/exclusive-gateway.rst:50
+msgid ""
+"After starting a new case for this process, the `Review contract` task will "
+"have decision buttons:"
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:55
+#: ../../control-flow/exclusive-gateway.rst:55
+msgid "Task decision buttons"
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:57
+#: ../../control-flow/exclusive-gateway.rst:57
+msgid ""
+"When adding form fields to the task before the exclusive gateway - `Review "
+"contract` in this example - the decision buttons are added to the form."
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:63
+#: ../../control-flow/exclusive-gateway.rst:63
+msgid "Automatic decision"
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:65
+#: ../../control-flow/exclusive-gateway.rst:65
+msgid ""
+"An automatic decision is an exclusive gateway that selects an outgoing "
+"transition based on conditions that you choose. For each transition, you can"
+" formulate a condition using workflow data. Transition conditions are "
+"evaluated in order, from top to bottom. The workflow engine will take the "
+"transition with the first condition that is true, using the current case’s "
+"field values."
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:73
+#: ../../control-flow/exclusive-gateway.rst:73
+msgid "Automatic decision condition editor"
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:75
+#: ../../control-flow/exclusive-gateway.rst:75
+msgid ""
+"To specify a condition, start by selecting a field and a comparison "
+"operator. Enter either a static value in the input field on the right, or "
+"click the |binding-symbol| button to select another field."
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:79
+#: ../../control-flow/exclusive-gateway.rst:79
+msgid ""
+"A condition can include multiple field value comparisons. To add more sub-"
+"conditions, click the button at the bottom of the list. You can also use the"
+" select field at the top to specify that either **all** conditions in the "
+"list must be true, or that it is enough for at least one of them to be true."
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:83
+#: ../../control-flow/exclusive-gateway.rst:83
+msgid ""
+"When a sub-condition is incompletely specified, evaluating the whole "
+"condition will fail and the transition will not be taken. The |warning-"
+"symbol| symbol indicates an incomplete sub-condition, while the |check-"
+"symbol| symbol indicates that the sub-condition is valid. Click either of "
+"these symbols to remove the sub condition from the list."
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:87
+#: ../../control-flow/exclusive-gateway.rst:87
+msgid "An unspecified condition is marked with a |warning-symbol| symbol."
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:95
+#: ../../control-flow/exclusive-gateway.rst:95
+msgid "Default transition"
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:97
+#: ../../control-flow/exclusive-gateway.rst:97
+msgid ""
+"An automatic decision usually has a default transition. A default transition"
+" is a fallback mechanism: if none of the conditions evaluate to true, the "
+"default transition is taken."
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:103
+#: ../../control-flow/exclusive-gateway.rst:103
+msgid "The default transition"
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:105
+#: ../../control-flow/exclusive-gateway.rst:105
+msgid ""
+"To make a transition the default, select the ‘per default’ item in the "
+"selection field at the top."
+msgstr ""
+
+#: ../../control-flow/parallel-gateway.rst:2
+#: ../../control-flow/parallel-gateway.rst:2
+msgid "Parallel Gateway"
+msgstr ""
+
+#: ../../control-flow/parallel-gateway.rst:4
+#: ../../control-flow/parallel-gateway.rst:4
+msgid ""
+"Use parallel gateways to model tasks that will be completed at the same time"
+" as each other, or one at a time but not in a particular order. To do this, "
+"you *fork* and *join* the sequence flow."
+msgstr ""
+
+#: ../../control-flow/parallel-gateway.rst:8
+#: ../../control-flow/parallel-gateway.rst:8
+msgid "Forking"
+msgstr ""
+
+#: ../../control-flow/parallel-gateway.rst:10
+#: ../../control-flow/parallel-gateway.rst:10
+msgid ""
+"With a parallel gateway, you can fork execution into multiple, concurrent "
+"flows. When process execution arrives in a parallel gateway, a new "
+"individual execution flow is created for each of the gateway’s outgoing "
+"transitions. Let’s look at the following purchase order example:"
+msgstr ""
+
+#: ../../control-flow/parallel-gateway.rst:17
+#: ../../control-flow/parallel-gateway.rst:17
+msgid "A parallel gateway example"
+msgstr ""
+
+#: ../../control-flow/parallel-gateway.rst:19
+#: ../../control-flow/parallel-gateway.rst:19
+msgid ""
+"In this example, the parallel gateway will be activated when the `Enter "
+"purchase order` user task is completed. The parallel gateway will create two"
+" individual paths of execution. One will take the transition to `Receive "
+"payment` and create that user task. Meanwhile, the other will create the "
+"`Send goods` user task."
+msgstr ""
+
+#: ../../control-flow/parallel-gateway.rst:24
+#: ../../control-flow/parallel-gateway.rst:24
+msgid ""
+"After `Enter purchase order` completes, both tasks `Receive payment` and "
+"`Send goods` will be created."
+msgstr ""
+
+#: ../../control-flow/parallel-gateway.rst:26
+#: ../../control-flow/parallel-gateway.rst:26
+msgid ""
+"You can have as many outgoing transitions as you want. All destination tasks"
+" for those transitions will be started at once."
+msgstr ""
+
+#: ../../control-flow/parallel-gateway.rst:30
+#: ../../control-flow/parallel-gateway.rst:30
+msgid "Joining"
+msgstr ""
+
+#: ../../control-flow/parallel-gateway.rst:32
+#: ../../control-flow/parallel-gateway.rst:32
+msgid ""
+"You also use a parallel gateway to join concurrent paths back together. In "
+"this case, the joining parallel gateway has more then one incoming "
+"transition. Workflow execution will wait at the gateway until as many "
+"execution flows arrive as it has incoming transitions. When the last "
+"concurrent flow arrives, the joining parallel gateway will activate and one "
+"execution flow will be created on the outgoing transition."
+msgstr ""
+
+#: ../../control-flow/parallel-gateway.rst:38
+#: ../../control-flow/parallel-gateway.rst:38
+msgid ""
+"To continue the previous example, extend the purchase order process to look:"
+msgstr ""
+
+#: ../../control-flow/parallel-gateway.rst:43
+#: ../../control-flow/parallel-gateway.rst:43
+msgid "A parallel gateway example with join"
+msgstr ""
+
+#: ../../control-flow/parallel-gateway.rst:45
+#: ../../control-flow/parallel-gateway.rst:45
+msgid ""
+"In this example, `Archive purchase order` will only start after both "
+"`Receive payment` and `Send goods` are complete."
+msgstr ""
+
+#: ../../control-flow/parallel-gateway.rst:48
+#: ../../control-flow/parallel-gateway.rst:56
+#: ../../control-flow/parallel-gateway.rst:48
+#: ../../control-flow/parallel-gateway.rst:56
+msgid "Default forking"
+msgstr ""
+
+#: ../../control-flow/parallel-gateway.rst:50
+#: ../../control-flow/parallel-gateway.rst:50
+msgid ""
+"By default, multiple outgoing transitions out of an action like a user task "
+"will be interpreted as parallel. Meaning that if you have multiple "
+"transitions out of a user task, all destination actions of those transitions"
+" will be performed concurrently. Let’s look at a simple example."
+msgstr ""
+
+#: ../../control-flow/parallel-gateway.rst:58
+#: ../../control-flow/parallel-gateway.rst:58
+msgid ""
+"After `Send goods` completes, both tasks `Receive payment` and `Send goods` "
+"will be created immediate."
+msgstr ""
+
+#: ../../control-flow/parallel-gateway.rst:60
+#: ../../control-flow/parallel-gateway.rst:60
+msgid "You can combine default forking with a parallel gateway for joining."
+msgstr ""
+
+#: ../../control-flow/parallel-gateway.rst:63
+#: ../../control-flow/parallel-gateway.rst:63
+msgid "Default merging"
+msgstr ""
+
+#: ../../control-flow/parallel-gateway.rst:65
+#: ../../control-flow/parallel-gateway.rst:65
+msgid ""
+"When multiple transitions lead to a user task, the user task will be started"
+" for each execution flow that arrives there. This means that there is no "
+"implicit joining for parallel flows."
+msgstr ""
+
+#: ../../control-flow/parallel-gateway.rst:70
+#: ../../control-flow/parallel-gateway.rst:70
+msgid "Parallel gateway issues"
+msgstr ""
+
+#: ../../control-flow/parallel-gateway.rst:72
+#: ../../control-flow/parallel-gateway.rst:72
+msgid ""
+"You will end up with problems if you loop back over parallel gateways. To "
+"avoid situations:"
+msgstr ""
+
+#: ../../control-flow/parallel-gateway.rst:77
+#: ../../control-flow/parallel-gateway.rst:83
+#: ../../control-flow/parallel-gateway.rst:77
+#: ../../control-flow/parallel-gateway.rst:83
+msgid "Undesirable loopback"
+msgstr ""
+
+#: ../../control-flow/parallel-gateway.rst:79
+#: ../../control-flow/parallel-gateway.rst:79
+msgid "and this:"
+msgstr ""
+
+#: ../../control-flow/parallel-gateway.rst:85
+#: ../../control-flow/parallel-gateway.rst:85
+msgid ""
+"To avoid these issues, think of all actions between forking and joining as a"
+" self-contained part of the process, such that no transitions should cross "
+"that scope."
+msgstr ""
+
+#: ../../control-flow.rst:22
+msgid "Start event"
+msgstr ""
+
+#: ../../control-flow.rst:24
+msgid ""
+"A start event marks the start of a process. All process elements that do not"
+" have incoming transitions are considered start elements. Start events don’t"
+" have a direct connection to triggers. You can usually leave out start "
+"events if you want to create more consice diagrams."
+msgstr ""
+
+#: ../../control-flow.rst:30 ../../control-flow.rst:37
+msgid "End event"
+msgstr ""
+
+#: ../../control-flow.rst:32
+msgid ""
+"Like start events, end events are also optional. End events mark the end of "
+"an execution flow:"
+msgstr ""
+
+#: ../../control-flow.rst:39
+msgid "This is equivalent to:"
+msgstr ""
+
+#: ../../control-flow.rst:43
+msgid "No end event"
+msgstr ""

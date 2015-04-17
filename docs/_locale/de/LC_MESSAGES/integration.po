@@ -1,0 +1,138 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: User Guide 2.22\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-17 10:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../integration/salesforce.rst:4
+msgid "Salesforce Integration"
+msgstr ""
+
+#: ../../integration/salesforce.rst:6
+msgid ""
+"Effektif integrates with Salesforce workflows. You can configure this so "
+"that changes in Salesforce will automatically trigger Effektif processes."
+msgstr ""
+
+#: ../../integration/salesforce.rst:10
+msgid "Effektif configuration"
+msgstr ""
+
+#: ../../integration/salesforce.rst:12
+msgid ""
+"Before you can set-up Salesforce integration, you need to create an endpoint"
+" in Effektif that Salesforce can send information to. Set this up in "
+"Effektif as follows."
+msgstr ""
+
+#: ../../integration/salesforce.rst:15
+msgid ""
+"In the top-right user menu, select `My Organisation` and then select the "
+"`Services` tab."
+msgstr ""
+
+#: ../../integration/salesforce.rst:20
+msgid ""
+"Under the Salesforce heading, enter a new trigger type name and select "
+"`Create`."
+msgstr ""
+
+#: ../../integration/salesforce.rst:24
+msgid ""
+"Copy the generated `Endpoint URL`, or leave this window open for later."
+msgstr ""
+
+#: ../../integration/salesforce.rst:27
+msgid "Salesforce configuration"
+msgstr ""
+
+#: ../../integration/salesforce.rst:29
+msgid ""
+"Before you can enable Salesforce triggers, you need to configure Outbound "
+"messages, which are one kind of Salesforce workflow action. Set this up in "
+"Salesforce as follows."
+msgstr ""
+
+#: ../../integration/salesforce.rst:32
+msgid ""
+"Select the Setup menu item, and select `Build` → `Create` → `Workflow & "
+"Approvals` → `Workflow Rules`."
+msgstr ""
+
+#: ../../integration/salesforce.rst:34
+msgid ""
+"Create or edit a new or existing workflow rule, and in the `Workflow "
+"Actions` section, select `Edit`."
+msgstr ""
+
+#: ../../integration/salesforce.rst:38
+msgid ""
+"On the `Specify Workflow Actions` page, select `Add Workflow Action` and "
+"then `New Outbound Message`."
+msgstr ""
+
+#: ../../integration/salesforce.rst:40
+msgid ""
+"On the `Configure Outbound Message` page, configure the new `Outbound "
+"Message`, to define which object fields to send to Effektif."
+msgstr ""
+
+#: ../../integration/salesforce.rst:42
+msgid ""
+"In the `Endpoint URL` field, paste the `Endpoint URL` from the Effektif "
+"configuration you created earlier."
+msgstr ""
+
+#: ../../integration/salesforce.rst:46
+msgid ""
+"Select `Save`. Do not forget to activate the workflow rule as soon as you "
+"have finished the configuration. To do this, click the `Activate` button at "
+"the top of the `Workflow Rule Detail` page."
+msgstr ""
+
+#: ../../integration/salesforce.rst:50
+msgid ""
+"On the `Outbound message` page, next to `Endpoint WSDL`, select the `Click "
+"for WSDL` link, which opens a web service definition file."
+msgstr ""
+
+#: ../../integration/salesforce.rst:52
+msgid ""
+"Save the ``workflowOutboundMessage.wsdl`` file, which you will use to "
+"configure Effektif, next."
+msgstr ""
+
+#: ../../integration/salesforce.rst:55
+msgid "Finish Effektif configuration"
+msgstr ""
+
+#: ../../integration/salesforce.rst:57
+msgid ""
+"The final configuration step is to use the web service definition file to "
+"configure the Salesforce service in Effektif."
+msgstr ""
+
+#: ../../integration/salesforce.rst:59
+msgid ""
+"In the top-right user menu, select `My Organisation`, select the `Services` "
+"tab, and then select the Salesforce trigger type you created earlier."
+msgstr ""
+
+#: ../../integration/salesforce.rst:63
+msgid ""
+"Select `Upload document`, and select the ``workflowOutboundMessage.wsdl`` "
+"file you saved earlier."
+msgstr ""
+
+#: ../../integration/salesforce.rst:65
+msgid ""
+"Now you are ready to use the new :ref:`Salesforce trigger <trigger-"
+"salesforce>` in Effektif."
+msgstr ""

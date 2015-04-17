@@ -1,0 +1,303 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: User Guide 2.22\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-17 10:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../action-types.rst:4
+msgid "Action Types"
+msgstr ""
+
+#: ../../action-types.rst:6
+msgid ""
+"All actions are displayed as lines in the 'Simple action list' and as "
+"rounded rectangles in the 'Advanced flows' view."
+msgstr ""
+
+#: ../../action-types.rst:8
+msgid ""
+"Actions typically have a configuration panel that opens up when you select "
+"the action."
+msgstr ""
+
+#: ../../action-types.rst:11
+msgid "User task"
+msgstr ""
+
+#: ../../action-types.rst:13
+msgid ""
+"A user task means a user has to perform a task. In the :ref:`case <cases>`, "
+"a task will be created. In the configuration form, following optional "
+"details can be specified:"
+msgstr ""
+
+#: ../../action-types.rst:16
+msgid "Assignment:"
+msgstr ""
+
+#: ../../action-types.rst:17
+msgid "A task can be assigned to a user or a :ref:`process role <roles>`"
+msgstr ""
+
+#: ../../action-types.rst:18
+msgid "Form:"
+msgstr ""
+
+#: ../../action-types.rst:19
+msgid ""
+"A task can be given a form. To complete the task, the form has to be "
+"submitted."
+msgstr ""
+
+#: ../../action-types.rst:21
+msgid "Reminders:"
+msgstr ""
+
+#: ../../action-types.rst:21
+msgid "Reminder emails and escalations."
+msgstr ""
+
+#: ../../action-types.rst:24
+msgid "Send email"
+msgstr ""
+
+#: ../../action-types.rst:26
+msgid ""
+"The send email action sends an email to the specified user. In the "
+"configuration you can specify"
+msgstr ""
+
+#: ../../action-types.rst:31
+msgid "To:"
+msgstr ""
+
+#: ../../action-types.rst:30
+msgid ""
+"The people to which the email is sent. You can type a plain email address, "
+"select a variable, a variable field or a user in the organization."
+msgstr ""
+
+#: ../../action-types.rst:39
+msgid "Subject:"
+msgstr ""
+
+#: ../../action-types.rst:34
+msgid ""
+"The subject of the email. To use process data in the subject, start by "
+"typing a `#`. If the list of variable fields is too long, you can just keep "
+"typing after the `#` to narrow the list. In combination, use the up and down"
+" arrows to select the right field. Hit enter to select the field. To remove "
+"variable fields from the subject, just delete it like it's normal text."
+msgstr ""
+
+#: ../../action-types.rst:44
+msgid "Attachments:"
+msgstr ""
+
+#: ../../action-types.rst:42
+msgid ""
+"To add attachments, click the attachments field. If there are files in the "
+"process variables, they will be shown. Select one of the file variable "
+"fields to add these as attachments to the mail."
+msgstr ""
+
+#: ../../action-types.rst:49
+msgid "Body text:"
+msgstr ""
+
+#: ../../action-types.rst:47
+msgid ""
+"Just like in the subject, you can combine template text with variable fields"
+" to Start by typing a `#`. See *Subject* above in this list for more details"
+" instructions on using the `#`."
+msgstr ""
+
+#: ../../action-types/google.rst:2 ../../action-types/google.rst:2
+msgid "Google Drive file upload"
+msgstr ""
+
+#: ../../action-types/google.rst:4 ../../action-types/google.rst:4
+msgid ""
+"The Google Drive file upload sends one or more files to an account of your "
+"choice. After creating a Google Drive file upload action, the configuration "
+"panel shows a button to start configuring the account."
+msgstr ""
+
+#: ../../action-types/google.rst:9 ../../action-types/google.rst:9
+msgid "Initial configuration file upload"
+msgstr ""
+
+#: ../../action-types/google.rst:11 ../../action-types/google.rst:11
+msgid ""
+"When you click on the button `Configure a Google Drive account`, a popup "
+"window will appear that helps you setup authentication and integrate "
+"Effektif with your Google Drive account. The first screen shows what steps "
+"that will happen in the authentication popup window."
+msgstr ""
+
+#: ../../action-types/google.rst:16 ../../action-types/google.rst:16
+msgid "Google Drive authentication flow"
+msgstr ""
+
+#: ../../action-types/google.rst:18 ../../action-types/google.rst:18
+msgid ""
+"After clicking `Click to continue`, the popup window will be redirected to "
+"Google. Google will perform a check if you're already logged in to Google in"
+" that browser. There are 3 possible outcomes:"
+msgstr ""
+
+#: ../../action-types/google.rst:22 ../../action-types/google.rst:22
+msgid ""
+"If you're already authenticated with a single user to Google, the login "
+"screen is skipped and you go straight to the :ref:`permission screen <drive-"
+"permission>` below."
+msgstr ""
+
+#: ../../action-types/google.rst:24 ../../action-types/google.rst:24
+msgid ""
+"If you're not yet authenticated to Google in this browser yet, you'll get a "
+"login window:"
+msgstr ""
+
+#: ../../action-types/google.rst:30 ../../action-types/google.rst:30
+msgid "Google Drive login"
+msgstr ""
+
+#: ../../action-types/google.rst:32 ../../action-types/google.rst:32
+msgid ""
+"If you're authenticated with multiple users to Google in this browser, "
+"select the account you want to use."
+msgstr ""
+
+#: ../../action-types/google.rst:34 ../../action-types/google.rst:34
+msgid ""
+"After authentication is complete, you'll see the following screen that "
+"allows you to give Effektif access to your Google account."
+msgstr ""
+
+#: ../../action-types/google.rst:39 ../../action-types/google.rst:39
+msgid "Google Drive permission grant"
+msgstr ""
+
+#: ../../action-types/google.rst:41 ../../action-types/google.rst:41
+msgid ""
+"After accepting the permissions, the pop up will disappear and the "
+"connection with your account is established. The Google Drive file upload "
+"configuration will now display the account and also show the folders in 'My "
+"Drive' in your Google Drive account."
+msgstr ""
+
+#: ../../action-types/google.rst:48 ../../action-types/google.rst:48
+msgid "Google Drive authenticated configuration"
+msgstr ""
+
+#: ../../action-types/google.rst:50 ../../action-types/google.rst:50
+msgid ""
+"Other people in your organization will be able to see that you have "
+"configured an account, but they will not be able to see youro email address "
+"or browse your account folders."
+msgstr ""
+
+#: ../../action-types/google.rst:52 ../../action-types/google.rst:52
+msgid ""
+"In the section `Target folder` you can now browse and select the folder you "
+"want to upload the file(s) to."
+msgstr ""
+
+#: ../../action-types/google.rst:54 ../../action-types/google.rst:54
+msgid ""
+"In section `Files to upload`, you can select the variable field containing "
+"one or more files to be uploaded. If there was no file variable, a variable "
+"called 'File' is created automatically. If there was already a file or list "
+"of files in the variables, it is preselected."
+msgstr ""
+
+#: ../../action-types/javascript.rst:2 ../../action-types/javascript.rst:2
+msgid "JavaScript action"
+msgstr ""
+
+#: ../../action-types/javascript.rst:4 ../../action-types/javascript.rst:4
+msgid ""
+"The JavaScript action allows developers to run a JavaScript to the process "
+"execution. After creating or selecting a JavaScript action, the "
+"configuration panel looks like this:"
+msgstr ""
+
+#: ../../action-types/javascript.rst:11 ../../action-types/javascript.rst:11
+msgid "JavaScript configuration panel"
+msgstr ""
+
+#: ../../action-types/javascript.rst:13 ../../action-types/javascript.rst:13
+msgid ""
+"The top section of the panel is the JavaScript text editor. By default, it "
+"already contains ``console.log('Hello World!');``."
+msgstr ""
+
+#: ../../action-types/javascript.rst:16 ../../action-types/javascript.rst:16
+msgid ""
+"The lower section allows you to test the script. Click `Test it` to execute "
+"the JavaScript code. The results are displayed underneath:"
+msgstr ""
+
+#: ../../action-types/javascript.rst:24 ../../action-types/javascript.rst:24
+msgid "JavaScript test output"
+msgstr ""
+
+#: ../../action-types/javascript.rst:26 ../../action-types/javascript.rst:26
+msgid ""
+"Next, we'll show how to work with data. Suppose there is a form elsewhere in"
+" the process that has each type of field and looks like this:"
+msgstr ""
+
+#: ../../action-types/javascript.rst:33 ../../action-types/javascript.rst:33
+msgid "Form taking input for JavaScript"
+msgstr ""
+
+#: ../../action-types/javascript.rst:35 ../../action-types/javascript.rst:35
+msgid ""
+"When you open the JavaScript configuration again, you'll see the variables "
+"section shows some of the form field variables."
+msgstr ""
+
+#: ../../action-types/javascript.rst:41 ../../action-types/javascript.rst:41
+msgid "JavaScript variables"
+msgstr ""
+
+#: ../../action-types/javascript.rst:43 ../../action-types/javascript.rst:43
+msgid ""
+"Click `Show all fields` and select the variables you want to access in the "
+"script. In this example, all variables are selected. For each variable that "
+"is selected, you get an input field to specify a test value. Here you see "
+"all fields with a test value."
+msgstr ""
+
+#: ../../action-types/javascript.rst:50 ../../action-types/javascript.rst:50
+msgid "JavaScript test values"
+msgstr ""
+
+#: ../../action-types/javascript.rst:52 ../../action-types/javascript.rst:52
+msgid ""
+"To show you the data structures, we've changed the JavaScript to print all "
+"variables."
+msgstr ""
+
+#: ../../action-types/javascript.rst:56 ../../action-types/javascript.rst:56
+msgid "JavaScript script"
+msgstr ""
+
+#: ../../action-types/javascript.rst:58 ../../action-types/javascript.rst:58
+msgid ""
+"When clicking `Test it` again, we can see the JSON structure of the variable"
+" data for the different variable types."
+msgstr ""
+
+#: ../../action-types/javascript.rst:64 ../../action-types/javascript.rst:64
+msgid "JavaScript JSON values"
+msgstr ""
