@@ -6,7 +6,7 @@ How it works
 A process is a template for repetitive work.
 Processes are typically created by people who manage work
 and specify which tasks and actions have to be performed to reach a certain goal.
-For example: for every hire case, the tasks ‘Conduct interview’, ‘Prepare contract’ and ‘Create email account’ have to be completed.
+For example: for every hire case, the tasks "Conduct interview", "Prepare contract" and "Create email account" have to be completed.
 
 After a process is published, many individual cases can be started.
 Effektif keeps track of which tasks and actions have to be performed for each case.
