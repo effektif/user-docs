@@ -16,7 +16,7 @@ import sys
 import os
 import re
 
-from shutil import copyfile
+from shutil import copyfile, rmtree
 
 import effektif_sphinx_theme
 
@@ -28,16 +28,18 @@ if SPHINXOPTS:
     lang_matches = re.search('.*language=\'(\w{2})\'', SPHINXOPTS)
     LANG = lang_matches.group(1) if lang_matches else 'en'
 
-for file_name in os.listdir('_static/_images/%s' % DEFAULT_LANG):
-    if not os.path.exists('_static/images'):
-        os.makedirs('_static/images')
+if os.path.exists('_static/images'):
+    rmtree('_static/images')
 
+os.makedirs('_static/images')
+
+for file_name in os.listdir('_static/_images/%s' % DEFAULT_LANG):
     destination = '_static/images/%s' % file_name
 
     if not LANG or LANG == DEFAULT_LANG:
         copyfile('_static/_images/%s/%s' % (DEFAULT_LANG, file_name), destination)
     else:
-        substitute_name = '_static/_images/%s/%s', (LANG, file_name)
+        substitute_name = '_static/_images/%s/%s' % (LANG, file_name)
 
         if os.path.isfile(substitute_name):
             copyfile(substitute_name, destination)
