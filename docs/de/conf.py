@@ -10,3 +10,5 @@ from conf import *
 from i18n import copy_images
 
 copy_images(lang='de', path=PROJET_PATH)
+
+os.chdir(PROJET_PATH)
