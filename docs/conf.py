@@ -14,38 +14,16 @@
 
 import sys
 import os
-import re
-
-from shutil import copyfile, rmtree
 
 import effektif_sphinx_theme
 
-SPHINXOPTS = os.environ.get('SPHINXOPTS')
-DEFAULT_LANG = 'en'
-LANG = 'en'
+PROJET_PATH = os.path.dirname(os.path.realpath(__file__))
 
-if SPHINXOPTS:
-    lang_matches = re.search('.*language=\'(\w{2})\'', SPHINXOPTS)
-    LANG = lang_matches.group(1) if lang_matches else 'en'
+sys.path.append(PROJET_PATH)
 
-if os.path.exists('_static/images'):
-    rmtree('_static/images')
+from i18n import copy_images
 
-os.makedirs('_static/images')
-
-for file_name in os.listdir('_static/_images/%s' % DEFAULT_LANG):
-    destination = '_static/images/%s' % file_name
-
-    if not LANG or LANG == DEFAULT_LANG:
-        copyfile('_static/_images/%s/%s' % (DEFAULT_LANG, file_name), destination)
-    else:
-        substitute_name = '_static/_images/%s/%s' % (LANG, file_name)
-
-        if os.path.isfile(substitute_name):
-            copyfile(substitute_name, destination)
-        else:
-            copyfile('_static/_images/%s/%s' % (DEFAULT_LANG, file_name), destination)
-
+copy_images()
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
