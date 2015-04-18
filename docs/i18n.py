@@ -3,22 +3,23 @@ import os
 from shutil import copyfile, rmtree
 
 DEFAULT_LANG = 'en'
+PROJET_PATH = os.path.dirname(os.path.realpath(__file__))
 
-def copy_images(lang=DEFAULT_LANG):
-    if os.path.exists('_static/images'):
-        rmtree('_static/images')
+def copy_images(lang=DEFAULT_LANG, path=PROJET_PATH):
+    if os.path.exists('%s/_static/images' % path):
+        rmtree('%s/_static/images' % path)
 
-    os.makedirs('_static/images')
+    os.makedirs('%s/_static/images' % path)
 
-    for file_name in os.listdir('_static/_images/%s' % DEFAULT_LANG):
-        destination = '_static/images/%s' % file_name
+    for file_name in os.listdir('%s/_static/_images/%s' % (path, DEFAULT_LANG)):
+        destination = '%s/_static/images/%s' % (path, file_name)
 
         if not lang or lang == DEFAULT_LANG:
-            copyfile('_static/_images/%s/%s' % (DEFAULT_LANG, file_name), destination)
+            copyfile('%s/_static/_images/%s/%s' % (path, DEFAULT_LANG, file_name), destination)
         else:
-            substitute_name = '_static/_images/%s/%s' % (lang, file_name)
+            substitute_name = '%s/_static/_images/%s/%s' % (path, lang, file_name)
 
             if os.path.isfile(substitute_name):
                 copyfile(substitute_name, destination)
             else:
-                copyfile('_static/_images/%s/%s' % (DEFAULT_LANG, file_name), destination)
+                copyfile('%s/_static/_images/%s/%s' % (path, DEFAULT_LANG, file_name), destination)
