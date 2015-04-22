@@ -12,4 +12,5 @@ Effektif User Guide
    action-types
    control-flow
    data-types
+   access
    integration/salesforce
