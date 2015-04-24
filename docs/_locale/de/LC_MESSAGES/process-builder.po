@@ -4,16 +4,18 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-17 10:39+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2015-04-24 18:11+0100\n"
+"Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
 
 #: ../../process-builder.rst:4
 msgid "Process builder"
-msgstr ""
+msgstr "Prozesseditor"
 
 #: ../../process-builder.rst:6
 msgid ""
@@ -22,20 +24,27 @@ msgid ""
 "automations using processes. With Effektif, non-technical people can create "
 "useful processes."
 msgstr ""
+"Mit dem Prozesseditor können Sie ausführbare Prozesse erstellen und "
+"bearbeiten. Ein Prozess ist ähnlich einer Software nur dass es wesentlich "
+"einfacher ist Abläufe mit einem Prozess zu automatisieren."
 
 #: ../../process-builder/triggers.rst:2 ../../process-builder/triggers.rst:2
 msgid "Triggers"
-msgstr ""
+msgstr "Auslöser"
 
 #: ../../process-builder/triggers.rst:4 ../../process-builder/triggers.rst:4
 msgid ""
 "A trigger defines when a process is started. There is no relation between "
 "triggers and BPMN start events. See :ref:`Start event <start-event>`."
 msgstr ""
+"Auslöser definieren wie ein Prozess gestartet wird. Bei Effektif gibt es "
+"keinen Zusammenhang zwischen Auslösern und Start Events, wie Sie sie "
+"vielleicht aus BPMN kennen. Weitere Informationen hierzu finden Sie unter "
+":ref:`Startereignisse <start-event>`."
 
 #: ../../process-builder/triggers.rst:10 ../../process-builder/triggers.rst:10
 msgid "Manual trigger"
-msgstr ""
+msgstr "Manuell"
 
 #: ../../process-builder/triggers.rst:12 ../../process-builder/triggers.rst:12
 msgid ""
@@ -43,68 +52,52 @@ msgid ""
 "trigger, you start processes manually in Effektif, by selecting `Start new "
 "case` and then selecting the process to start."
 msgstr ""
+"Am einfachsten Starten Sie einen Prozess manuell. Dazu klicken Sie einfach "
+"auf `Neuen Fall starten` in der Prozessliste."
 
 #: ../../process-builder/triggers.rst:18 ../../process-builder/triggers.rst:18
 msgid "Form trigger"
-msgstr ""
+msgstr "Formular"
 
 #: ../../process-builder/triggers.rst:20 ../../process-builder/triggers.rst:20
 msgid ""
 "With a form trigger, you use a form to start a process. After selecting the "
 "form trigger, you can use the form builder to specify form fields."
 msgstr ""
+"Wenn Sie die Option `Formular` wählen müssen Nutzer ein Formular ausfüllen "
+"um neue Prozesse zu starten. Das Formular selbst können Sie dann mit unserem"
+" Formulareditor erstellen."
 
 #: ../../process-builder/triggers.rst:28 ../../process-builder/triggers.rst:28
-msgid "Form documents"
-msgstr ""
+msgid "Email trigger"
+msgstr "Email"
 
 #: ../../process-builder/triggers.rst:30 ../../process-builder/triggers.rst:30
-msgid ""
-"Many organisations have existing processes that are based on forms, either "
-"on paper or in an electronic document. Often it’s a good idea to just keep "
-"the form in its original format, such as a PDF document. You can use these "
-"documents as the basis for the process, rather then rebuilding the form in "
-"Effektif."
-msgstr ""
-
-#: ../../process-builder/triggers.rst:35 ../../process-builder/triggers.rst:35
-msgid ""
-"If you have multi-page forms with complex layouts, then the original form "
-"might be the best option. People can then fill in the form, update the "
-"original document or scan a paper copy, and then upload the completed "
-"document to Effektif, using a single form field."
-msgstr ""
-
-#: ../../process-builder/triggers.rst:42 ../../process-builder/triggers.rst:42
-msgid ""
-"Effektif can’t read the data entered in form documents, so you will have to "
-"add fields to the form for pieces of information that impact the process "
-"flow."
-msgstr ""
-
-#: ../../process-builder/triggers.rst:47 ../../process-builder/triggers.rst:47
-msgid "Email trigger"
-msgstr ""
-
-#: ../../process-builder/triggers.rst:49 ../../process-builder/triggers.rst:49
 msgid ""
 "An email trigger starts a new case for each email that you send to the "
 "trigger‘s Effektif email address. Note this is different from reading an "
 "existing email account, such as your own. After selecting the email trigger,"
 " you can see its email address:"
 msgstr ""
+"Hierbei wird für jede Email, die an die entsprechende Emailadresse des "
+"Prozesses geschickt wird ein neuer Fall erstellt. Die Adresse, die Sie "
+"hierfür nutzen müssen wird in der Beschreibung des Auslösers angezeigt. Sie "
+"eignet sich perfekt dafür in bestehende Verteilerlisten wie zum Beispiel "
+"support@firma.de integriert zu werden. "
 
-#: ../../process-builder/triggers.rst:55 ../../process-builder/triggers.rst:55
+#: ../../process-builder/triggers.rst:36 ../../process-builder/triggers.rst:36
 msgid "Mail trigger configuration"
-msgstr ""
+msgstr "Konfiguration des Emailauslösers"
 
-#: ../../process-builder/triggers.rst:57 ../../process-builder/triggers.rst:57
+#: ../../process-builder/triggers.rst:38 ../../process-builder/triggers.rst:38
 msgid ""
 "The email trigger creates an email variable that stores the email that "
 "started the process."
 msgstr ""
+"Der Emailauslöser erstellt eine Prozessvariable mit der Sie auf die "
+"Informationen der Email (Absender, Inhalt, etc.) zugreifen können. "
 
-#: ../../process-builder/triggers.rst:60 ../../process-builder/triggers.rst:60
+#: ../../process-builder/triggers.rst:41 ../../process-builder/triggers.rst:41
 msgid ""
 "One way to use an email trigger is to add the trigger email address to a "
 "mailing list, such as `support@example.com `or `info@example.com`. You’ll "
@@ -114,40 +107,53 @@ msgid ""
 "starting the process in Effektif. You will then see the email in the "
 "activity stream:"
 msgstr ""
+"Wenn Sie die Emailadresse des Prozesses zum Beispiel in eine bestehende "
+"Verteilerliste eingetragen haben, können neue Fälle leicht erstellt werden. "
+"Innerhalb von einem Fall wird die Email die ihn ausgelöst hat jeweils im "
+"`Stream` angezeigt, wie hier zu sehen ist."
 
-#: ../../process-builder/triggers.rst:70 ../../process-builder/triggers.rst:70
+#: ../../process-builder/triggers.rst:51 ../../process-builder/triggers.rst:51
 msgid "Trigger mail in stream"
-msgstr ""
+msgstr "Startemail im Stream"
 
-#: ../../process-builder/triggers.rst:76 ../../process-builder/triggers.rst:76
+#: ../../process-builder/triggers.rst:57 ../../process-builder/triggers.rst:57
 msgid "Salesforce trigger"
-msgstr ""
+msgstr "Salesforce"
 
-#: ../../process-builder/triggers.rst:78 ../../process-builder/triggers.rst:78
+#: ../../process-builder/triggers.rst:59 ../../process-builder/triggers.rst:59
 msgid ""
 "A Salesforce trigger starts a new case in response to Salesforce sending an "
 "outbound message as part of a Salesforce workflow. Before you can use a "
 "Salesforce trigger, configure :ref:`Salesforce Integration <salesforce-"
 "integration>`."
 msgstr ""
+"Prozesse können auch durch eine Nachricht von Salesforce gestartet werden "
+"nachdem dort eine bestimmte Aktion erfolgt ist. Bevor Sie den Salesforce-"
+"Auslöser nutzen können, müssen Sie ihn wir hier beschrieben konfigurieren: "
+":ref:`Salesforce Integration <salesforce-integration>`."
 
-#: ../../process-builder/triggers.rst:82 ../../process-builder/triggers.rst:82
+#: ../../process-builder/triggers.rst:63 ../../process-builder/triggers.rst:63
 msgid ""
 "When you have configured a Salesforce service, you can select it as a "
 "process trigger, so that messages from Salesforce will now trigger new "
 "cases."
 msgstr ""
+"Nachdem Sie einen Salesforce Service konfiguriert haben, können Sie ihn als "
+"Auslöser nutzen. "
 
-#: ../../process-builder/triggers.rst:88 ../../process-builder/triggers.rst:88
+#: ../../process-builder/triggers.rst:69 ../../process-builder/triggers.rst:69
 msgid "Example of a Salesforce trigger"
-msgstr ""
+msgstr "Beispiel eines Salesforce-Auslösers"
 
-#: ../../process-builder/triggers.rst:90 ../../process-builder/triggers.rst:90
+#: ../../process-builder/triggers.rst:71 ../../process-builder/triggers.rst:71
 msgid ""
 "In the process definition, you can use the Salesforce object fields that are"
 " included in the Salesforce message just like normal :ref:`variables "
 "<variables>`."
 msgstr ""
+"In der Prozessdefinition können Sie nun auch Felder die in der Nachricht von"
+" Salesforce beinhaltet sind wie normale :ref:`Variablen <variables>` nutzen."
+" "
 
 #: ../../process-builder/actions.rst:2 ../../process-builder/actions.rst:2
 msgid "Actions"

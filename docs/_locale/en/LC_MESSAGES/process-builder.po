@@ -55,38 +55,10 @@ msgid ""
 msgstr ""
 
 #: ../../process-builder/triggers.rst:28 ../../process-builder/triggers.rst:28
-msgid "Form documents"
-msgstr ""
-
-#: ../../process-builder/triggers.rst:30 ../../process-builder/triggers.rst:30
-msgid ""
-"Many organisations have existing processes that are based on forms, either "
-"on paper or in an electronic document. Often it’s a good idea to just keep "
-"the form in its original format, such as a PDF document. You can use these "
-"documents as the basis for the process, rather then rebuilding the form in "
-"Effektif."
-msgstr ""
-
-#: ../../process-builder/triggers.rst:35 ../../process-builder/triggers.rst:35
-msgid ""
-"If you have multi-page forms with complex layouts, then the original form "
-"might be the best option. People can then fill in the form, update the "
-"original document or scan a paper copy, and then upload the completed "
-"document to Effektif, using a single form field."
-msgstr ""
-
-#: ../../process-builder/triggers.rst:42 ../../process-builder/triggers.rst:42
-msgid ""
-"Effektif can’t read the data entered in form documents, so you will have to "
-"add fields to the form for pieces of information that impact the process "
-"flow."
-msgstr ""
-
-#: ../../process-builder/triggers.rst:47 ../../process-builder/triggers.rst:47
 msgid "Email trigger"
 msgstr ""
 
-#: ../../process-builder/triggers.rst:49 ../../process-builder/triggers.rst:49
+#: ../../process-builder/triggers.rst:30 ../../process-builder/triggers.rst:30
 msgid ""
 "An email trigger starts a new case for each email that you send to the "
 "trigger‘s Effektif email address. Note this is different from reading an "
@@ -94,17 +66,17 @@ msgid ""
 " you can see its email address:"
 msgstr ""
 
-#: ../../process-builder/triggers.rst:55 ../../process-builder/triggers.rst:55
+#: ../../process-builder/triggers.rst:36 ../../process-builder/triggers.rst:36
 msgid "Mail trigger configuration"
 msgstr ""
 
-#: ../../process-builder/triggers.rst:57 ../../process-builder/triggers.rst:57
+#: ../../process-builder/triggers.rst:38 ../../process-builder/triggers.rst:38
 msgid ""
 "The email trigger creates an email variable that stores the email that "
 "started the process."
 msgstr ""
 
-#: ../../process-builder/triggers.rst:60 ../../process-builder/triggers.rst:60
+#: ../../process-builder/triggers.rst:41 ../../process-builder/triggers.rst:41
 msgid ""
 "One way to use an email trigger is to add the trigger email address to a "
 "mailing list, such as `support@example.com `or `info@example.com`. You’ll "
@@ -115,15 +87,15 @@ msgid ""
 "activity stream:"
 msgstr ""
 
-#: ../../process-builder/triggers.rst:70 ../../process-builder/triggers.rst:70
+#: ../../process-builder/triggers.rst:51 ../../process-builder/triggers.rst:51
 msgid "Trigger mail in stream"
 msgstr ""
 
-#: ../../process-builder/triggers.rst:76 ../../process-builder/triggers.rst:76
+#: ../../process-builder/triggers.rst:57 ../../process-builder/triggers.rst:57
 msgid "Salesforce trigger"
 msgstr ""
 
-#: ../../process-builder/triggers.rst:78 ../../process-builder/triggers.rst:78
+#: ../../process-builder/triggers.rst:59 ../../process-builder/triggers.rst:59
 msgid ""
 "A Salesforce trigger starts a new case in response to Salesforce sending an "
 "outbound message as part of a Salesforce workflow. Before you can use a "
@@ -131,18 +103,18 @@ msgid ""
 "integration>`."
 msgstr ""
 
-#: ../../process-builder/triggers.rst:82 ../../process-builder/triggers.rst:82
+#: ../../process-builder/triggers.rst:63 ../../process-builder/triggers.rst:63
 msgid ""
 "When you have configured a Salesforce service, you can select it as a "
 "process trigger, so that messages from Salesforce will now trigger new "
 "cases."
 msgstr ""
 
-#: ../../process-builder/triggers.rst:88 ../../process-builder/triggers.rst:88
+#: ../../process-builder/triggers.rst:69 ../../process-builder/triggers.rst:69
 msgid "Example of a Salesforce trigger"
 msgstr ""
 
-#: ../../process-builder/triggers.rst:90 ../../process-builder/triggers.rst:90
+#: ../../process-builder/triggers.rst:71 ../../process-builder/triggers.rst:71
 msgid ""
 "In the process definition, you can use the Salesforce object fields that are"
 " included in the Salesforce message just like normal :ref:`variables "
@@ -345,3 +317,27 @@ msgid ""
 "role variable, and assign all subsequent tasks with the same role to the new"
 " assignee."
 msgstr ""
+
+#~ msgid "Form documents"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Many organisations have existing processes that are based on forms, either "
+#~ "on paper or in an electronic document. Often it’s a good idea to just keep "
+#~ "the form in its original format, such as a PDF document. You can use these "
+#~ "documents as the basis for the process, rather then rebuilding the form in "
+#~ "Effektif."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you have multi-page forms with complex layouts, then the original form "
+#~ "might be the best option. People can then fill in the form, update the "
+#~ "original document or scan a paper copy, and then upload the completed "
+#~ "document to Effektif, using a single form field."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Effektif can’t read the data entered in form documents, so you will have to "
+#~ "add fields to the form for pieces of information that impact the process "
+#~ "flow."
+#~ msgstr ""
