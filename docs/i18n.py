@@ -53,17 +53,19 @@ def copy_sources(dest, origin=PROJET_PATH):
 
 def remove_stale_data(path):
     for name in os.listdir(path):
-        BLACKLIST = ['_build', 'conf.py', '.gitignore']
+        BLACKLIST = ['conf.py', '.gitignore']
 
         if name in BLACKLIST:
             continue
 
-        if os.path.isfile(name):
-            # print 'removing file %s' % name
-            os.remove(name)
+        target = '%s/%s' % (path, name)
+
+        if os.path.isfile(target):
+            # print 'removing file %s' % target
+            os.remove(target)
         else:
-            # print 'removing dir %s' % name
-            rmtree(name)
+            # print 'removing dir %s' % target
+            rmtree(target)
 
 def prepare_language(cwd, path=PROJET_PATH, lang=DEFAULT_LANG):
     copy_images(lang=lang, path=path)
