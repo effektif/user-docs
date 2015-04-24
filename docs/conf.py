@@ -17,14 +17,6 @@ import os
 
 import effektif_sphinx_theme
 
-PROJET_PATH = os.path.dirname(os.path.realpath(__file__))
-
-sys.path.append(PROJET_PATH)
-
-from i18n import copy_images
-
-copy_images()
-
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.

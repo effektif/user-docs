@@ -4,20 +4,22 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-17 10:39+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2015-04-24 15:30+0100\n"
+"Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
 
 #: ../../cases.rst:4
 msgid "Cases"
-msgstr ""
+msgstr "Fälle"
 
 #: ../../cases.rst:7
 msgid "What is a case"
-msgstr ""
+msgstr "Was ist ein Fall"
 
 #: ../../cases.rst:9
 msgid ""
@@ -29,50 +31,67 @@ msgid ""
 "where all relevant context information about the topic is shared and "
 "discussed."
 msgstr ""
+"Ein Fall ist im Wesentlichen ein Ort um an einer Aufgabe zusammen zu "
+"arbeiten. Dies können zum Beispiel Aufgaben wie 'Einen HR Manager anstellen'"
+" or 'Kostenvoranschlag an Kunden X senden' sein. In der Regel sind Fälle "
+"umfangreicher als normale Aufgaben die von einer Person erledigt werden "
+"können und kleiner als ein Komplettes Projekt. Sie eignen sich daher gut um "
+"ein größeres Ziel in kleinere Teilaufgaben zu zerlegen um mit anderen daran "
+"zu arbeiten. In einem Fall können alle relevanten Informationen rund um das "
+"Thema zusammengetragen und diskutiert werden. "
 
 #: ../../cases.rst:16
 msgid "Create a case"
-msgstr ""
+msgstr "Einen Fall erstellen"
 
 #: ../../cases.rst:18
 msgid ""
 "To create a new case, navigate to `Cases`; on the `Cases of` menu, select "
 "`Cases without a process`, then click 'Start new case'."
 msgstr ""
+"Um einen neuen Fall anzulegen, öffnen Sie zunächst die Ansicht `Fälle`. "
+"Unter `Fälle von` wählen Sie `Fälle ohne Prozess` und klicken danach direkt "
+"neben dem Menü auf `Neuen Fall starten`."
 
 #: ../../cases.rst:23
 msgid "Start a new task"
-msgstr ""
+msgstr "Einen neuen Fall starten"
 
 #: ../../cases.rst:25
 msgid "Then the case header appears."
-msgstr ""
+msgstr "Nach diesem Schritt erscheint der Kopfteil des neuen Falls."
 
 #: ../../cases.rst:29
 msgid "Enter case title"
-msgstr ""
+msgstr "Einen Namen eintragen"
 
 #: ../../cases.rst:31
 msgid "Next, type the case title and hit Enter. The new case is now created."
 msgstr ""
+"Als nächstes benennen Sie den neuen Fall und drücken Sie anschließend auf "
+"Enter. Der neue Fall wird nun angelegt."
 
 #: ../../cases.rst:35
 msgid "New case"
-msgstr ""
+msgstr "Neuer Fall"
 
 #: ../../cases.rst:38
 msgid "Create case tasks"
-msgstr ""
+msgstr "Unteraufgaben anlegen"
 
 #: ../../cases.rst:40
 msgid ""
 "In a case, you can break down tasks like this. If you don't have tasks, the "
 "tasks section might have to opened like shown in this scenario:"
 msgstr ""
+"Ein Fall kann in mehrere Unteraufgaben aufgeteilt werden. Um weitere "
+"Aufgaben anzulegen, gehen Sie einfach wie in der folgenden Abbildung "
+"beschrieben vor. Für jede neue Aufgaben geben Sie den entsprechenden Namen "
+"ein und drücken anschließend Enter."
 
 #: ../../cases.rst:45
 msgid "Type the title of the new task and hit Enter"
-msgstr ""
+msgstr "Geben Sie einen Namen ein und bestätigen mit Enter"
 
 #: ../../cases.rst:49
 msgid ""
@@ -81,16 +100,15 @@ msgid ""
 ":ref:`simple action list <action-list>` to create a list of user tasks, all "
 "those tasks in the list will be started immediate when the process starts."
 msgstr ""
+"Wenn Sie einen Prozess starten wird automatisch ein :ref:`Fall <cases>` "
+"angelegt. Alle Elemente im Prozess, die keine eingehenden Transitionen "
+"besitzen werden sofort durch offene Aufgaben abgebildet. Das bedeutet, wenn "
+"Sie nur in der :ref:`einfachen Aufgabenliste <action-list>` gearbeitet "
+"haben, werden alle Aufgaben sofort im neuen Fall angelegt."
 
 #: ../../cases.rst:53
 msgid "Completing a task"
-msgstr ""
-
-#: ../../cases.rst:55
-msgid ""
-"For ad hoc cases or tasks, there is a highlighted `Done` button to complete "
-"the task."
-msgstr ""
+msgstr "Eine Aufgabe abschließen"
 
 #: ../../cases.rst:57
 msgid ""
@@ -100,21 +118,16 @@ msgid ""
 "multiple buttons. Each of those buttons will register the decision and "
 "complete the task in one go."
 msgstr ""
+"Wenn eine Aufgaben ein Formular beinhaltet, dann finden Sie den `Fertig` "
+"Knopf unterhalb des Formulars. In der Regel wird dies der `Fertig` Knopf "
+"sein. Wenn jedoch eine Entscheidung auf eine Aufgabe folgt, dann werden die "
+"Entscheidungsmöglichkeiten als Knöpfe in der Task angezeigt. "
 
-#: ../../cases.rst:61
-msgid ""
-":ref:`Process cases <term-process-case>` have a process associated that "
-"knows when the case is completed. So usually those should not be completed "
-"manually. The `Done` button is deactivated out or there is a label saying "
-"\"Complete the tasks below\". When the last action of a process completes "
-"the process case will be closed automatically."
-msgstr ""
-
-#: ../../cases.rst:67
+#: ../../cases.rst:62
 msgid "Reopening a task"
 msgstr ""
 
-#: ../../cases.rst:69
+#: ../../cases.rst:64
 msgid ""
 "When you see the `Reopen` button in a task, it means the task is completed. "
 "Reopening is good when you closed a task by accident or when you realize "
@@ -124,26 +137,40 @@ msgid ""
 "because it has all the context in it."
 msgstr ""
 
-#: ../../cases.rst:75
-msgid "Starting a process"
+#: ../../cases.rst:55
+msgid "For tasks, there is a highlighted `Done` button to complete the task."
 msgstr ""
 
-#: ../../cases.rst:77
-msgid ""
-"In the `Advanced flows` view, this means that start events are optional in "
-"most situations."
-msgstr ""
+#~ msgid "Starting a process"
+#~ msgstr ""
 
-#: ../../cases.rst:79
-msgid "But in situations like this, that can be confusing:"
-msgstr ""
+#~ msgid ""
+#~ "In the `Advanced flows` view, this means that start events are optional in "
+#~ "most situations."
+#~ msgstr ""
 
-#: ../../cases.rst:83
-msgid "Start event necessary"
-msgstr ""
+#~ msgid "But in situations like this, that can be confusing:"
+#~ msgstr ""
 
-#: ../../cases.rst:85
-msgid ""
-"Imagine we remove the start event, then there would be no elements without "
-"incoming transitions. Then the process would start and nothing happens."
-msgstr ""
+#~ msgid "Start event necessary"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Imagine we remove the start event, then there would be no elements without "
+#~ "incoming transitions. Then the process would start and nothing happens."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For ad hoc cases or tasks, there is a highlighted `Done` button to complete "
+#~ "the task."
+#~ msgstr ""
+#~ "In regulären Aufgaben finden sie einen `Fertig` Knopf um diese "
+#~ "abzuschließen."
+
+#~ msgid ""
+#~ ":ref:`Process cases <term-process-case>` have a process associated that "
+#~ "knows when the case is completed. So usually those should not be completed "
+#~ "manually. The `Done` button is deactivated out or there is a label saying "
+#~ "\"Complete the tasks below\". When the last action of a process completes "
+#~ "the process case will be closed automatically."
+#~ msgstr ""

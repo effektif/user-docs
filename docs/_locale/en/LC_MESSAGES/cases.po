@@ -86,12 +86,6 @@ msgstr ""
 msgid "Completing a task"
 msgstr ""
 
-#: ../../cases.rst:55
-msgid ""
-"For ad hoc cases or tasks, there is a highlighted `Done` button to complete "
-"the task."
-msgstr ""
-
 #: ../../cases.rst:57
 msgid ""
 "When tasks have a form, the form is displayed in the same position and it "
@@ -101,20 +95,11 @@ msgid ""
 "complete the task in one go."
 msgstr ""
 
-#: ../../cases.rst:61
-msgid ""
-":ref:`Process cases <term-process-case>` have a process associated that "
-"knows when the case is completed. So usually those should not be completed "
-"manually. The `Done` button is deactivated out or there is a label saying "
-"\"Complete the tasks below\". When the last action of a process completes "
-"the process case will be closed automatically."
-msgstr ""
-
-#: ../../cases.rst:67
+#: ../../cases.rst:62
 msgid "Reopening a task"
 msgstr ""
 
-#: ../../cases.rst:69
+#: ../../cases.rst:64
 msgid ""
 "When you see the `Reopen` button in a task, it means the task is completed. "
 "Reopening is good when you closed a task by accident or when you realize "
@@ -124,26 +109,38 @@ msgid ""
 "because it has all the context in it."
 msgstr ""
 
-#: ../../cases.rst:75
-msgid "Starting a process"
+#: ../../cases.rst:55
+msgid "For tasks, there is a highlighted `Done` button to complete the task."
 msgstr ""
 
-#: ../../cases.rst:77
-msgid ""
-"In the `Advanced flows` view, this means that start events are optional in "
-"most situations."
-msgstr ""
+#~ msgid "Starting a process"
+#~ msgstr ""
 
-#: ../../cases.rst:79
-msgid "But in situations like this, that can be confusing:"
-msgstr ""
+#~ msgid ""
+#~ "In the `Advanced flows` view, this means that start events are optional in "
+#~ "most situations."
+#~ msgstr ""
 
-#: ../../cases.rst:83
-msgid "Start event necessary"
-msgstr ""
+#~ msgid "But in situations like this, that can be confusing:"
+#~ msgstr ""
 
-#: ../../cases.rst:85
-msgid ""
-"Imagine we remove the start event, then there would be no elements without "
-"incoming transitions. Then the process would start and nothing happens."
-msgstr ""
+#~ msgid "Start event necessary"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Imagine we remove the start event, then there would be no elements without "
+#~ "incoming transitions. Then the process would start and nothing happens."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For ad hoc cases or tasks, there is a highlighted `Done` button to complete "
+#~ "the task."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Process cases <term-process-case>` have a process associated that "
+#~ "knows when the case is completed. So usually those should not be completed "
+#~ "manually. The `Done` button is deactivated out or there is a label saying "
+#~ "\"Complete the tasks below\". When the last action of a process completes "
+#~ "the process case will be closed automatically."
+#~ msgstr ""

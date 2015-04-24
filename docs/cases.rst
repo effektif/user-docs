@@ -52,16 +52,11 @@ So if you only use the :ref:`simple action list <action-list>` to create a list 
 Completing a task
 -----------------
 
-For ad hoc cases or tasks, there is a highlighted `Done` button to complete the task.
+For tasks, there is a highlighted `Done` button to complete the task.
 
 When tasks have a form, the form is displayed in the same position and it has the button(s) to complete the task at the bottom of the form.
 Normally that will just be the `Done`-button, but in case of decisions, it can be multiple buttons.
 Each of those buttons will register the decision and complete the task in one go.
-
-:ref:`Process cases <term-process-case>` have a process associated that knows when the case is completed.
-So usually those should not be completed manually.
-The `Done` button is deactivated out or there is a label saying "Complete the tasks below".
-When the last action of a process completes the process case will be closed automatically.
 
 Reopening a task
 ----------------
@@ -70,17 +65,3 @@ When you see the `Reopen` button in a task, it means the task is completed.
 Reopening is good when you closed a task by accident or when you realize more needs to be done for this task.
 If you just forgot to attach a document or make a comment, you can still do that and you don't need to reopen the task for that.
 Reopening a task can be better then creating a new task because it has all the context in it.
-
-Starting a process
-------------------
-
-In the `Advanced flows` view, this means that start events are optional in most situations.
-
-But in situations like this, that can be confusing:
-
-.. figure:: /_static/images/start-event-1.png
-
-   Start event necessary
-
-Imagine we remove the start event, then there would be no elements without incoming transitions.
-Then the process would start and nothing happens.
