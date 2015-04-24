@@ -1,12 +1,14 @@
 import os
 import sys
 
-PROJET_PATH = os.path.dirname(os.path.realpath('%s/..' % __file__))
+PROJECT_PATH = os.path.dirname(os.path.realpath('%s/..' % __file__))
 
-sys.path.append(PROJET_PATH)
+sys.path.append(PROJECT_PATH)
 
 from conf import *
 
 from i18n import copy_images
 
-copy_images(lang='de', path=PROJET_PATH)
+copy_images(lang='de', path=PROJECT_PATH)
+
+master_doc = '../index'
