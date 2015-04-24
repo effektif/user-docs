@@ -6,3 +6,4 @@ cd docs
 make clean
 make gettext
 sphinx-intl update -p _build/locale -l de -l en
+sphinx-intl build
