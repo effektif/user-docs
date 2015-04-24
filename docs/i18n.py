@@ -1,5 +1,4 @@
 import os
-import re
 
 from shutil import copyfile, rmtree, copytree
 
@@ -29,7 +28,7 @@ def copy_sources(dest, origin=PROJET_PATH):
     BLACKLIST = [
         '_build',
         'Makefile',
-        '__index__.py',
+        '__init__.py',
         'conf.py',
         'conf.pyc',
         dest.replace(PROJET_PATH, '')
@@ -38,17 +37,16 @@ def copy_sources(dest, origin=PROJET_PATH):
     print "using %s as destination" % dest
 
     for name in os.listdir(origin):
-        does_match = [re.search(item, name) for item in PATTERNS]
-
-        print does_match
-
         if name in BLACKLIST:
-            print "ignoring %s" % name
+            # print "ignoring %s" % name
             continue
 
-        if os.path.isfile(name):
-            print "copy file %s to %s" % (name, "%s/%s" % (dest, name))
-            # copyfile(name, '%s/%s' % (dest, name))
+        source = '%s/%s' % (origin, name)
+        target = '%s/%s' % (dest, name)
+
+        if os.path.isfile(source):
+            # print "copy file %s to %s" % (name, "%s/%s" % (dest, name))
+            copyfile(source, target)
         else:
-            print "copy folder %s to %s" % (name, dest)
-            # copytree(name, dest)
+            # print "copy folder %s to %s" % (name, dest)
+            copytree(source, target)
