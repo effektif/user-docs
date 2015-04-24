@@ -27,10 +27,10 @@ To build the HTML documentation:
 	cd docs
 	make html
 
+To build the documentation for a specific langauge you need to use the language specifc conf.yp files. Those are located in the respective lang_code subdirectories, i.e. de or en.
+
 ## Updating translations
 
 The files in `docs/_locale` are used for translations. Update these with:
 
-	cd docs
-	make gettext
-	sphinx-intl update -p _build/locale -l en -l de -c conf.py
+	./i18n.sh
