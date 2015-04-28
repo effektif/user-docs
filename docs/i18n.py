@@ -2,6 +2,8 @@ import os
 
 from shutil import copyfile, rmtree, copytree
 
+from conf import LANGUAGES
+
 DEFAULT_LANG = 'en'
 PROJET_PATH = os.path.dirname(os.path.realpath(__file__))
 
@@ -25,7 +27,7 @@ def copy_images(lang=DEFAULT_LANG, path=PROJET_PATH):
                 copyfile('%s/_static/_images/%s/%s' % (path, DEFAULT_LANG, file_name), destination)
 
 def copy_sources(dest, origin=PROJET_PATH):
-    BLACKLIST = [
+    BLACKLIST = LANGUAGES + [
         '_build',
         'Makefile',
         '__init__.py',

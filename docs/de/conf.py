@@ -11,3 +11,5 @@ from conf import *
 from i18n import prepare_language
 
 prepare_language(CWD, lang='de')
+
+language = 'de'
