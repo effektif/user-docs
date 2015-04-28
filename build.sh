@@ -22,3 +22,6 @@ rm -rf docs/_build
 cd $PWD/docs/$1
 
 sphinx-build . ../_build
+
+cd ../../
+python cleanup.py

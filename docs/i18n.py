@@ -41,7 +41,6 @@ def copy_images(lang=DEFAULT_LANG, path=PROJET_PATH):
 def copy_sources(dest, origin=PROJET_PATH):
     BLACKLIST = LANGUAGES + [
         '_build',
-        'Makefile',
         '__init__.py',
         'conf.py',
         'conf.pyc',
