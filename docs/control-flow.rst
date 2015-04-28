@@ -21,6 +21,10 @@ A transition is called a ‘sequence flow’ in BPMN.
 Start event
 -----------
 
+.. figure:: /_static/images/control-flow/start-event.png
+
+   A start event in the process editor
+
 A start event marks the start of a process.
 All process elements that do not have incoming transitions are considered start elements.
 Start events don’t have a direct connection to triggers.
@@ -29,15 +33,19 @@ You can usually leave out start events if you want to create more consice diagra
 End event
 ---------
 
+.. figure:: /_static/images/control-flow/end-event.png
+
+   An end event in the process editor
+
 Like start events, end events are also optional.
 End events mark the end of an execution flow:
 
-.. figure:: /_static/images/end-event-1.png
+.. figure:: /_static/images/control-flow/end-event-1.png
 
    End event
 
 This is equivalent to:
 
-.. figure:: /_static/images/end-event-2.png
+.. figure:: /_static/images/control-flow/end-event-2.png
 
    No end event

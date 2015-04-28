@@ -10,6 +10,10 @@ Actions typically have a configuration panel that opens up when you select the a
 User task
 ---------
 
+.. figure:: /_static/images/action-types/user-task.png
+
+   A user task in the process editor
+
 A user task means a user has to perform a task.
 In the :ref:`case <cases>`, a task will be created. In the configuration form, following optional details can be specified:
 
@@ -22,6 +26,10 @@ Reminders:
 
 Send email
 ----------
+
+.. figure:: /_static/images/action-types/email-task.png
+
+   A send email task in the process editor
 
 The send email action sends an email to the specified user.
 In the configuration you can specify

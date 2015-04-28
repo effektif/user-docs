@@ -20,6 +20,10 @@ Form trigger
 With a form trigger, you use a form to start a process.
 After selecting the form trigger, you can use the form builder to specify form fields.
 
+.. figure:: /_static/images/process-builder/trigger/form.png
+
+   Form trigger configuration - using the form builder to define a trigger form
+
 .. todo
 .. For more information on the form builder, see Form builder.
 

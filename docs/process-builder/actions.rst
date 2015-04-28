@@ -6,6 +6,10 @@ An action might be a user task in Effektif,
 an operation on a file in a document management system
 or any other action that represents something to be done in a process.
 
+.. figure:: /_static/images/process-builder/actions.png
+
+   The *Process builder*’s actions palette
+
 
 .. _action-list:
 

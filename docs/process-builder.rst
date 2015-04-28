@@ -19,7 +19,11 @@ Variables
 
 A process has variables that store workflow data when the process runs.
 All the information in forms and information required by the actions will be connected to these variables.
-Each case can stores its own values for each process variable.
+Each case stores its own values for each process variable.
+
+.. figure:: /_static/images/process-builder/variables.png
+
+   A trigger form that populates a *Reference number* variable for use in a workflow
 
 A process variable can contain a single value, such as a reference number,
 or containing multiple fields, such as an email,
@@ -40,6 +44,10 @@ These process roles are not the same as organization roles.
 For example, you can be a team lead in your organization,
 which can be a position without an end date.
 A process role, such as ‘Reviewer’, has a different scope and only applies for the duration of a single case.
+
+.. figure:: /_static/images/process-builder/roles/roles.png
+
+   Assigning a task to a *Support engineer* role with candidates Alice and Ben
 
 You can use a role to assign multiple tasks a person from a group of candidates.
 For example, you might have a support process that includes three user tasks that are assigned to a support engineer.

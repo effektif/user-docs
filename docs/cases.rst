@@ -3,16 +3,13 @@
 Cases
 =====
 
-What is a case
---------------
-
 A case is a essentially a small collaboration space for a particular goal.
 For example, 'Hire HR manager' or 'Send quote to customer X'.
 Cases are typically bigger then a simple task for a single person and smaller then a project.
 A case is used to break down the goal into concrete action items (or tasks) and to collaborate with others.
 The case is the central place where all relevant context information about the topic is shared and discussed.
 
-Create a case
+Creating a case
 -------------
 
 To create a new case, navigate to `Cases`;
@@ -34,7 +31,7 @@ Next, type the case title and hit Enter. The new case is now created.
 
    New case
 
-Create case tasks
+Creating case tasks
 -----------------
 
 In a case, you can break down tasks like this.

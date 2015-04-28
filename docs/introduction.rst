@@ -1,25 +1,31 @@
 Introduction
 ============
 
+Effektif is a web-based workflow modelling and execution platform.
+Although its heritage includes classical Business Process Management Systems (BPMS),
+Effektif dramatically simplifies workflow automation.
+
+.. figure:: /_static/images/introduction.png
+
 When to use Effektif
 --------------------
 
-Use Effektif for:
+Effektif is ideal for describing and collaborating on routine work. Use Effektif for:
 
-- Coordinating tasks and handovers
-- Approvals
-- Routing documents
-- Fully-fledged business processes.
+- coordinating tasks and handovers
+- approvals
+- routing documents
+- fully-fledged business processes.
 
 Benefits
 --------
 
 You’ll get:
 
-- Control where it’s needed
-- Flexibility where it’s possible
-- Fewer delays (with automatic triggers, actions and timers)
-- No more miscommunications during handovers
-- Traceability - who did what
-- Clarity - who has to do what
-- Agility - processes are easier to change than software.
+- control where it’s needed
+- flexibility where it’s possible
+- fewer delays (with automatic triggers, actions and timers)
+- no more miscommunications during handovers
+- traceability - data on who did what
+- clarity - visibility of who has to do what
+- agility - because Effektif process models are easier to change than software.
