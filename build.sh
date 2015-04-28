@@ -17,6 +17,8 @@ fi
 python cleanup.py
 rm -rf docs/_build
 
+./i18n.sh $1
+
 cd $PWD/docs/$1
 
 sphinx-build . ../_build

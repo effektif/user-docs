@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-17 10:39+0200\n"
-"PO-Revision-Date: 2015-04-24 18:11+0100\n"
+"PO-Revision-Date: 2015-04-28 13:52+0100\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -157,7 +157,7 @@ msgstr ""
 
 #: ../../process-builder/actions.rst:2 ../../process-builder/actions.rst:2
 msgid "Actions"
-msgstr ""
+msgstr "Aktionen"
 
 #: ../../process-builder/actions.rst:4 ../../process-builder/actions.rst:4
 msgid ""
@@ -165,10 +165,14 @@ msgid ""
 "Effektif, an operation on a file in a document management system or any "
 "other action that represents something to be done in a process."
 msgstr ""
+"Mit Aktionen beschreiben Sie die verschiedenen Aufgaben innerhalb eines "
+"Prozesses. Das können zum Beispiel Aufgaben sein, die von Ihren Mitarbeitern"
+" ausgeführt werden müssen, sowie automatische Aktionen, wie der Upload von "
+"einer Datei in ein Dokumentenmanagementsystem."
 
 #: ../../process-builder/actions.rst:13 ../../process-builder/actions.rst:13
 msgid "Simple action list view"
-msgstr ""
+msgstr "Einfache Aufgabenliste"
 
 #: ../../process-builder/actions.rst:15 ../../process-builder/actions.rst:15
 msgid ""
@@ -176,6 +180,9 @@ msgid ""
 "list of actions. It’s the easiest way to create ‘checklist processes’, which"
 " have a collection of user tasks that serve as a checklist."
 msgstr ""
+"Die einfache Aufgabenliste ist, wie der Name schon sagt, der einfachste Weg "
+"eine Reihe von Aktionen zu definieren. Hiermit können Sie Checklisten "
+"anlegen, die eine Reihe von Aufgaben umfassen."
 
 #: ../../process-builder/actions.rst:19 ../../process-builder/actions.rst:19
 msgid ""
@@ -183,10 +190,13 @@ msgid ""
 "will be started immediately when the process starts. By default, all actions"
 " in the simple action list view run in parallel."
 msgstr ""
+"Wenn Sie keine Transitionen im `Prozessfluss-Editor` anlegen werden alle "
+"Aufgaben gleichzeitig angelegt und können unabhängig voneinander bearbeitet "
+"werden. "
 
 #: ../../process-builder/actions.rst:24 ../../process-builder/actions.rst:24
 msgid "Advanced flows view"
-msgstr ""
+msgstr "Der Prozessfluss-Editor "
 
 #: ../../process-builder/actions.rst:26 ../../process-builder/actions.rst:26
 msgid ""
@@ -196,10 +206,15 @@ msgid ""
 "gateways. You use the `Advanced flows` view to add sequential flows between "
 "actions, decisions and other control flow behaviour."
 msgstr ""
+"Im `Prozessfluss-Editor` können Sie ein `BPMN "
+"<http://de.wikipedia.org/wiki/Business_Process_Model_and_Notation>`_ diagram"
+" bearbeiten. In dieser Ansicht ist es möglich eine Reihenfolge zwischen den "
+"einzelnen Aktionen festzulegen, indem Sie Sequenzflüsse und Gateways "
+"benutzen."
 
 #: ../../process-builder/actions.rst:34 ../../process-builder/actions.rst:34
 msgid "Adding a transition"
-msgstr ""
+msgstr "Transitionen hinzufügen"
 
 #: ../../process-builder/actions.rst:36 ../../process-builder/actions.rst:36
 msgid ""
@@ -207,18 +222,26 @@ msgid ""
 "specifies sequential flow, which means the next action only starts when the "
 "previous one is complete."
 msgstr ""
+"Transitionen können nur im `Prozessfluss-Editor` erzeugt werden. Sie "
+"beschreiben einen sequentiellen Fluss durch den Prozess. Dies bedeutet, dass"
+" Aktionen nur dann ausgeführt werden, wenn die vorangehenden Aktionen "
+"bearbeitet wurden."
 
 #: ../../process-builder/actions.rst:40 ../../process-builder/actions.rst:40
 msgid ""
 "To add a transition, click to select the first action. Several symbols "
 "appear to the right of the selected element:"
 msgstr ""
+"Um eine Transition hinzuzufügen klicken Sie auf eine Aktionen im Prozess. "
+"Darauf erscheinen neben der Aktion einige Symbole. "
 
 #: ../../process-builder/actions.rst:45 ../../process-builder/actions.rst:45
 msgid ""
 "Start creating a transition by dragging the transition symbol to the "
 "destination"
 msgstr ""
+"Um eine Transition zu erzeugen, ziehen Sie das Transitions-Symbol auf die "
+"Zielaktion"
 
 #: ../../process-builder/actions.rst:47 ../../process-builder/actions.rst:47
 msgid ""
@@ -226,15 +249,20 @@ msgid ""
 "destination element. When you drag the symbol over the destination element, "
 "it indicates that you can drop to create the transition:"
 msgstr ""
+"Klicken Sie das Transitions-Symbol |transition-symbol| and ziehen Sie es auf"
+" das Zielelement. Wenn Sie sich mit dem Mauszeiger über dem Zielelement "
+"befinden und es mit der aktuellen Aktivität verbunden werden kann, leuchten "
+"die Ecken grün auf und ein grüner Haken erscheint neben dem Transitions-"
+"Symbol."
 
 #: ../../process-builder/actions.rst:54 ../../process-builder/actions.rst:54
 msgid "Creating a transition hovering over destination"
-msgstr ""
+msgstr "Ziehen Sie die Transition auf das Zielelement."
 
 #: ../../process-builder/actions.rst:56 ../../process-builder/actions.rst:56
 msgid ""
 "Release the mouse button over the destination to create the transition."
-msgstr ""
+msgstr "Um die Transition endgültig zu erzeugen lassen Sie die Maus los. "
 
 #: ../../process-builder/actions.rst:60 ../../process-builder/actions.rst:60
 msgid "Creating the next user task"
