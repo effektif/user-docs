@@ -10,7 +10,7 @@ A case is used to break down the goal into concrete action items (or tasks) and 
 The case is the central place where all relevant context information about the topic is shared and discussed.
 
 Creating a case
--------------
+---------------
 
 To create a new case, navigate to `Cases`;
 on the `Cases of` menu, select `Cases without a process`, then click 'Start new case'.
@@ -32,7 +32,7 @@ Next, type the case title and hit Enter. The new case is now created.
    New case
 
 Creating case tasks
------------------
+-------------------
 
 In a case, you can break down tasks like this.
 If you don't have tasks, the tasks section might have to opened like shown in this scenario:

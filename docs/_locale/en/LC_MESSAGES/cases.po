@@ -15,11 +15,7 @@ msgstr ""
 msgid "Cases"
 msgstr ""
 
-#: ../../cases.rst:7
-msgid "What is a case"
-msgstr ""
-
-#: ../../cases.rst:9
+#: ../../cases.rst:6
 msgid ""
 "A case is a essentially a small collaboration space for a particular goal. "
 "For example, 'Hire HR manager' or 'Send quote to customer X'. Cases are "
@@ -30,51 +26,43 @@ msgid ""
 "discussed."
 msgstr ""
 
-#: ../../cases.rst:16
-msgid "Create a case"
-msgstr ""
-
-#: ../../cases.rst:18
+#: ../../cases.rst:15
 msgid ""
 "To create a new case, navigate to `Cases`; on the `Cases of` menu, select "
 "`Cases without a process`, then click 'Start new case'."
 msgstr ""
 
-#: ../../cases.rst:23
+#: ../../cases.rst:20
 msgid "Start a new task"
 msgstr ""
 
-#: ../../cases.rst:25
+#: ../../cases.rst:22
 msgid "Then the case header appears."
 msgstr ""
 
-#: ../../cases.rst:29
+#: ../../cases.rst:26
 msgid "Enter case title"
 msgstr ""
 
-#: ../../cases.rst:31
+#: ../../cases.rst:28
 msgid "Next, type the case title and hit Enter. The new case is now created."
 msgstr ""
 
-#: ../../cases.rst:35
+#: ../../cases.rst:32
 msgid "New case"
 msgstr ""
 
-#: ../../cases.rst:38
-msgid "Create case tasks"
-msgstr ""
-
-#: ../../cases.rst:40
+#: ../../cases.rst:37
 msgid ""
 "In a case, you can break down tasks like this. If you don't have tasks, the "
 "tasks section might have to opened like shown in this scenario:"
 msgstr ""
 
-#: ../../cases.rst:45
+#: ../../cases.rst:42
 msgid "Type the title of the new task and hit Enter"
 msgstr ""
 
-#: ../../cases.rst:49
+#: ../../cases.rst:46
 msgid ""
 "When a process is started, a :ref:`case <cases>` is created and all elements"
 " not having incoming transitions will be started. So if you only use the "
@@ -82,11 +70,11 @@ msgid ""
 "those tasks in the list will be started immediate when the process starts."
 msgstr ""
 
-#: ../../cases.rst:53
+#: ../../cases.rst:50
 msgid "Completing a task"
 msgstr ""
 
-#: ../../cases.rst:57
+#: ../../cases.rst:54
 msgid ""
 "When tasks have a form, the form is displayed in the same position and it "
 "has the button(s) to complete the task at the bottom of the form. Normally "
@@ -95,11 +83,11 @@ msgid ""
 "complete the task in one go."
 msgstr ""
 
-#: ../../cases.rst:62
+#: ../../cases.rst:59
 msgid "Reopening a task"
 msgstr ""
 
-#: ../../cases.rst:64
+#: ../../cases.rst:61
 msgid ""
 "When you see the `Reopen` button in a task, it means the task is completed. "
 "Reopening is good when you closed a task by accident or when you realize "
@@ -109,9 +97,26 @@ msgid ""
 "because it has all the context in it."
 msgstr ""
 
-#: ../../cases.rst:55
+#: ../../cases.rst:52
 msgid "For tasks, there is a highlighted `Done` button to complete the task."
 msgstr ""
+
+#: ../../cases.rst:13
+msgid "Creating a case"
+msgstr ""
+
+#: ../../cases.rst:35
+msgid "Creating case tasks"
+msgstr ""
+
+#~ msgid "What is a case"
+#~ msgstr ""
+
+#~ msgid "Create a case"
+#~ msgstr ""
+
+#~ msgid "Create case tasks"
+#~ msgstr ""
 
 #~ msgid "Starting a process"
 #~ msgstr ""

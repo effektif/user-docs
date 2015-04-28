@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
@@ -7,73 +7,120 @@ msgstr ""
 "PO-Revision-Date: 2015-04-17 15:49+0100\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
 "X-Generator: Poedit 1.6.5\n"
 
 #: ../../introduction.rst:2
 msgid "Introduction"
 msgstr "Einleitung"
 
-#: ../../introduction.rst:5
+#: ../../introduction.rst:11
 msgid "When to use Effektif"
 msgstr "Einsatzmöglichkeiten für Effektif"
 
-#: ../../introduction.rst:7
-msgid "Use Effektif for:"
-msgstr "Nutzen Sie Effektif um:"
-
-#: ../../introduction.rst:9
-msgid "Coordinating tasks and handovers"
-msgstr "Aufgaben und Übergaben zu koordinieren"
-
-#: ../../introduction.rst:10
-msgid "Approvals"
-msgstr "Freigaben durchzuführen"
-
-#: ../../introduction.rst:11
-msgid "Routing documents"
-msgstr "Dokumente zu leiten"
-
-#: ../../introduction.rst:12
-msgid "Fully-fledged business processes."
-msgstr "Komplexe Geschäftsprozesse zu handhaben"
-
-#: ../../introduction.rst:15
+#: ../../introduction.rst:21
 msgid "Benefits"
 msgstr "Vorteile"
 
-#: ../../introduction.rst:17
+#: ../../introduction.rst:23
 msgid "You’ll get:"
 msgstr "Was Sie bekommen:"
 
-#: ../../introduction.rst:19
-msgid "Control where it’s needed"
-msgstr "Kontrolle an den Stellen an denen sie gebraucht wird"
-
-#: ../../introduction.rst:20
-msgid "Flexibility where it’s possible"
-msgstr "Flexibilität wo es möglich ist"
-
-#: ../../introduction.rst:21
-msgid "Fewer delays (with automatic triggers, actions and timers)"
+#: ../../introduction.rst:4
+msgid ""
+"Effektif is a web-based workflow modelling and execution platform. Although "
+"its heritage includes classical Business Process Management Systems (BPMS), "
+"Effektif dramatically simplifies workflow automation."
 msgstr ""
-"Weniger Verzögerungen (durch automatische Auslöser, Aktionen und Timer)"
 
-#: ../../introduction.rst:22
-msgid "No more miscommunications during handovers"
-msgstr "Klare Kommunikation von Übergaben"
+#: ../../introduction.rst:13
+msgid ""
+"Effektif is ideal for describing and collaborating on routine work. Use "
+"Effektif for:"
+msgstr ""
 
-#: ../../introduction.rst:23
-msgid "Traceability - who did what"
-msgstr "Nachverfolgbarkeit - wer hat was getan"
+#: ../../introduction.rst:15
+msgid "coordinating tasks and handovers"
+msgstr ""
 
-#: ../../introduction.rst:24
-msgid "Clarity - who has to do what"
-msgstr "Klarheit - wer muss was tun"
+#: ../../introduction.rst:16
+msgid "approvals"
+msgstr ""
+
+#: ../../introduction.rst:17
+msgid "routing documents"
+msgstr ""
+
+#: ../../introduction.rst:18
+msgid "fully-fledged business processes."
+msgstr ""
 
 #: ../../introduction.rst:25
-msgid "Agility - processes are easier to change than software."
-msgstr "Agilität - Prozesse können leichter geändert werden als Software"
+msgid "control where it’s needed"
+msgstr ""
+
+#: ../../introduction.rst:26
+msgid "flexibility where it’s possible"
+msgstr ""
+
+#: ../../introduction.rst:27
+msgid "fewer delays (with automatic triggers, actions and timers)"
+msgstr ""
+
+#: ../../introduction.rst:28
+msgid "no more miscommunications during handovers"
+msgstr ""
+
+#: ../../introduction.rst:29
+msgid "traceability - data on who did what"
+msgstr ""
+
+#: ../../introduction.rst:30
+msgid "clarity - visibility of who has to do what"
+msgstr ""
+
+#: ../../introduction.rst:31
+msgid ""
+"agility - because Effektif process models are easier to change than "
+"software."
+msgstr ""
+
+#~ msgid "Use Effektif for:"
+#~ msgstr "Nutzen Sie Effektif um:"
+
+#~ msgid "Coordinating tasks and handovers"
+#~ msgstr "Aufgaben und Übergaben zu koordinieren"
+
+#~ msgid "Approvals"
+#~ msgstr "Freigaben durchzuführen"
+
+#~ msgid "Routing documents"
+#~ msgstr "Dokumente zu leiten"
+
+#~ msgid "Fully-fledged business processes."
+#~ msgstr "Komplexe Geschäftsprozesse zu handhaben"
+
+#~ msgid "Control where it’s needed"
+#~ msgstr "Kontrolle an den Stellen an denen sie gebraucht wird"
+
+#~ msgid "Flexibility where it’s possible"
+#~ msgstr "Flexibilität wo es möglich ist"
+
+#~ msgid "Fewer delays (with automatic triggers, actions and timers)"
+#~ msgstr ""
+#~ "Weniger Verzögerungen (durch automatische Auslöser, Aktionen und Timer)"
+
+#~ msgid "No more miscommunications during handovers"
+#~ msgstr "Klare Kommunikation von Übergaben"
+
+#~ msgid "Traceability - who did what"
+#~ msgstr "Nachverfolgbarkeit - wer hat was getan"
+
+#~ msgid "Clarity - who has to do what"
+#~ msgstr "Klarheit - wer muss was tun"
+
+#~ msgid "Agility - processes are easier to change than software."
+#~ msgstr "Agilität - Prozesse können leichter geändert werden als Software"

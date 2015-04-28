@@ -68,11 +68,11 @@ msgstr ""
 "um neue Prozesse zu starten. Das Formular selbst können Sie dann mit unserem"
 " Formulareditor erstellen."
 
-#: ../../process-builder/triggers.rst:28 ../../process-builder/triggers.rst:28
+#: ../../process-builder/triggers.rst:32 ../../process-builder/triggers.rst:32
 msgid "Email trigger"
 msgstr "Email"
 
-#: ../../process-builder/triggers.rst:30 ../../process-builder/triggers.rst:30
+#: ../../process-builder/triggers.rst:34 ../../process-builder/triggers.rst:34
 msgid ""
 "An email trigger starts a new case for each email that you send to the "
 "trigger‘s Effektif email address. Note this is different from reading an "
@@ -85,11 +85,11 @@ msgstr ""
 "eignet sich perfekt dafür in bestehende Verteilerlisten wie zum Beispiel "
 "support@firma.de integriert zu werden. "
 
-#: ../../process-builder/triggers.rst:36 ../../process-builder/triggers.rst:36
+#: ../../process-builder/triggers.rst:40 ../../process-builder/triggers.rst:40
 msgid "Mail trigger configuration"
 msgstr "Konfiguration des Emailauslösers"
 
-#: ../../process-builder/triggers.rst:38 ../../process-builder/triggers.rst:38
+#: ../../process-builder/triggers.rst:42 ../../process-builder/triggers.rst:42
 msgid ""
 "The email trigger creates an email variable that stores the email that "
 "started the process."
@@ -97,7 +97,7 @@ msgstr ""
 "Der Emailauslöser erstellt eine Prozessvariable mit der Sie auf die "
 "Informationen der Email (Absender, Inhalt, etc.) zugreifen können. "
 
-#: ../../process-builder/triggers.rst:41 ../../process-builder/triggers.rst:41
+#: ../../process-builder/triggers.rst:45 ../../process-builder/triggers.rst:45
 msgid ""
 "One way to use an email trigger is to add the trigger email address to a "
 "mailing list, such as `support@example.com `or `info@example.com`. You’ll "
@@ -112,15 +112,15 @@ msgstr ""
 "Innerhalb von einem Fall wird die Email die ihn ausgelöst hat jeweils im "
 "`Stream` angezeigt, wie hier zu sehen ist."
 
-#: ../../process-builder/triggers.rst:51 ../../process-builder/triggers.rst:51
+#: ../../process-builder/triggers.rst:55 ../../process-builder/triggers.rst:55
 msgid "Trigger mail in stream"
 msgstr "Startemail im Stream"
 
-#: ../../process-builder/triggers.rst:57 ../../process-builder/triggers.rst:57
+#: ../../process-builder/triggers.rst:61 ../../process-builder/triggers.rst:61
 msgid "Salesforce trigger"
 msgstr "Salesforce"
 
-#: ../../process-builder/triggers.rst:59 ../../process-builder/triggers.rst:59
+#: ../../process-builder/triggers.rst:63 ../../process-builder/triggers.rst:63
 msgid ""
 "A Salesforce trigger starts a new case in response to Salesforce sending an "
 "outbound message as part of a Salesforce workflow. Before you can use a "
@@ -132,7 +132,7 @@ msgstr ""
 "Auslöser nutzen können, müssen Sie ihn wir hier beschrieben konfigurieren: "
 ":ref:`Salesforce Integration <salesforce-integration>`."
 
-#: ../../process-builder/triggers.rst:63 ../../process-builder/triggers.rst:63
+#: ../../process-builder/triggers.rst:67 ../../process-builder/triggers.rst:67
 msgid ""
 "When you have configured a Salesforce service, you can select it as a "
 "process trigger, so that messages from Salesforce will now trigger new "
@@ -141,11 +141,11 @@ msgstr ""
 "Nachdem Sie einen Salesforce Service konfiguriert haben, können Sie ihn als "
 "Auslöser nutzen. "
 
-#: ../../process-builder/triggers.rst:69 ../../process-builder/triggers.rst:69
+#: ../../process-builder/triggers.rst:73 ../../process-builder/triggers.rst:73
 msgid "Example of a Salesforce trigger"
 msgstr "Beispiel eines Salesforce-Auslösers"
 
-#: ../../process-builder/triggers.rst:71 ../../process-builder/triggers.rst:71
+#: ../../process-builder/triggers.rst:75 ../../process-builder/triggers.rst:75
 msgid ""
 "In the process definition, you can use the Salesforce object fields that are"
 " included in the Salesforce message just like normal :ref:`variables "
@@ -170,11 +170,11 @@ msgstr ""
 " ausgeführt werden müssen, sowie automatische Aktionen, wie der Upload von "
 "einer Datei in ein Dokumentenmanagementsystem."
 
-#: ../../process-builder/actions.rst:13 ../../process-builder/actions.rst:13
+#: ../../process-builder/actions.rst:17 ../../process-builder/actions.rst:17
 msgid "Simple action list view"
 msgstr "Einfache Aufgabenliste"
 
-#: ../../process-builder/actions.rst:15 ../../process-builder/actions.rst:15
+#: ../../process-builder/actions.rst:19 ../../process-builder/actions.rst:19
 msgid ""
 "The simple action list view is the simplest way to create a process, as a "
 "list of actions. It’s the easiest way to create ‘checklist processes’, which"
@@ -184,7 +184,7 @@ msgstr ""
 "eine Reihe von Aktionen zu definieren. Hiermit können Sie Checklisten "
 "anlegen, die eine Reihe von Aufgaben umfassen."
 
-#: ../../process-builder/actions.rst:19 ../../process-builder/actions.rst:19
+#: ../../process-builder/actions.rst:23 ../../process-builder/actions.rst:23
 msgid ""
 "If you don’t add any control flow in the `Advanced flows` view, all actions "
 "will be started immediately when the process starts. By default, all actions"
@@ -194,11 +194,11 @@ msgstr ""
 "Aufgaben gleichzeitig angelegt und können unabhängig voneinander bearbeitet "
 "werden. "
 
-#: ../../process-builder/actions.rst:24 ../../process-builder/actions.rst:24
+#: ../../process-builder/actions.rst:28 ../../process-builder/actions.rst:28
 msgid "Advanced flows view"
 msgstr "Der Prozessfluss-Editor "
 
-#: ../../process-builder/actions.rst:26 ../../process-builder/actions.rst:26
+#: ../../process-builder/actions.rst:30 ../../process-builder/actions.rst:30
 msgid ""
 "The `Advanced flows` view is a `BPMN "
 "<http://en.wikipedia.org/wiki/Business_Process_Model_and_Notation>`_ diagram"
@@ -212,11 +212,11 @@ msgstr ""
 "einzelnen Aktionen festzulegen, indem Sie Sequenzflüsse und Gateways "
 "benutzen."
 
-#: ../../process-builder/actions.rst:34 ../../process-builder/actions.rst:34
+#: ../../process-builder/actions.rst:38 ../../process-builder/actions.rst:38
 msgid "Adding a transition"
 msgstr "Transitionen hinzufügen"
 
-#: ../../process-builder/actions.rst:36 ../../process-builder/actions.rst:36
+#: ../../process-builder/actions.rst:40 ../../process-builder/actions.rst:40
 msgid ""
 "You can create a transition in the `Advanced flows` view. A transition "
 "specifies sequential flow, which means the next action only starts when the "
@@ -227,7 +227,7 @@ msgstr ""
 " Aktionen nur dann ausgeführt werden, wenn die vorangehenden Aktionen "
 "bearbeitet wurden."
 
-#: ../../process-builder/actions.rst:40 ../../process-builder/actions.rst:40
+#: ../../process-builder/actions.rst:44 ../../process-builder/actions.rst:44
 msgid ""
 "To add a transition, click to select the first action. Several symbols "
 "appear to the right of the selected element:"
@@ -235,7 +235,7 @@ msgstr ""
 "Um eine Transition hinzuzufügen klicken Sie auf eine Aktionen im Prozess. "
 "Darauf erscheinen neben der Aktion einige Symbole. "
 
-#: ../../process-builder/actions.rst:45 ../../process-builder/actions.rst:45
+#: ../../process-builder/actions.rst:49 ../../process-builder/actions.rst:49
 msgid ""
 "Start creating a transition by dragging the transition symbol to the "
 "destination"
@@ -243,7 +243,7 @@ msgstr ""
 "Um eine Transition zu erzeugen, ziehen Sie das Transitions-Symbol auf die "
 "Zielaktion"
 
-#: ../../process-builder/actions.rst:47 ../../process-builder/actions.rst:47
+#: ../../process-builder/actions.rst:51 ../../process-builder/actions.rst:51
 msgid ""
 "Click the transition symbol |transition-symbol| and drag it to the "
 "destination element. When you drag the symbol over the destination element, "
@@ -255,20 +255,20 @@ msgstr ""
 "die Ecken grün auf und ein grüner Haken erscheint neben dem Transitions-"
 "Symbol."
 
-#: ../../process-builder/actions.rst:54 ../../process-builder/actions.rst:54
+#: ../../process-builder/actions.rst:58 ../../process-builder/actions.rst:58
 msgid "Creating a transition hovering over destination"
 msgstr "Ziehen Sie die Transition auf das Zielelement."
 
-#: ../../process-builder/actions.rst:56 ../../process-builder/actions.rst:56
+#: ../../process-builder/actions.rst:60 ../../process-builder/actions.rst:60
 msgid ""
 "Release the mouse button over the destination to create the transition."
 msgstr "Um die Transition endgültig zu erzeugen lassen Sie die Maus los. "
 
-#: ../../process-builder/actions.rst:60 ../../process-builder/actions.rst:60
+#: ../../process-builder/actions.rst:64 ../../process-builder/actions.rst:64
 msgid "Creating the next user task"
 msgstr "Folgeaufgaben erstellen"
 
-#: ../../process-builder/actions.rst:62 ../../process-builder/actions.rst:62
+#: ../../process-builder/actions.rst:66 ../../process-builder/actions.rst:66
 msgid ""
 "There is an easy way to create the next User Task in a process, similar to "
 "creating transitions above. Start by selecting the previous action:"
@@ -277,11 +277,11 @@ msgstr ""
 "einfach. Gehen Sie auf ähnliche Weise vor, wie schon bei den Transitionen. "
 "Zunächst markieren Sie die Aktion auf die die neue folgen soll."
 
-#: ../../process-builder/actions.rst:68 ../../process-builder/actions.rst:68
+#: ../../process-builder/actions.rst:72 ../../process-builder/actions.rst:72
 msgid "Start creating the next user task by dragging the action symbol"
 msgstr "Erstellen Sie Folgeaufgaben in dem Sie das Aktions-Symbol ziehen."
 
-#: ../../process-builder/actions.rst:70 ../../process-builder/actions.rst:70
+#: ../../process-builder/actions.rst:74 ../../process-builder/actions.rst:74
 msgid ""
 "Click the rounded rectangle symbol |task-symbol| and drag it to an empty "
 "place on the canvas."
@@ -289,11 +289,11 @@ msgstr ""
 "Klicken Sie das Aufgaben-Symbol |task-symbol| and ziehen Sie es an die "
 "Stelle, wo die neue Aufgabe erstellt werden soll."
 
-#: ../../process-builder/actions.rst:76 ../../process-builder/actions.rst:76
+#: ../../process-builder/actions.rst:80 ../../process-builder/actions.rst:80
 msgid "Drag the rounded rectangle symbol to an empty place"
 msgstr "Ziehen Sie das Aufgaben-Symbol an die gewünschte Stelle"
 
-#: ../../process-builder/actions.rst:78 ../../process-builder/actions.rst:78
+#: ../../process-builder/actions.rst:82 ../../process-builder/actions.rst:82
 msgid ""
 "Drop the symbol where you want to create the next user task. Release the "
 "mouse button to create new user task where you dropped it, with a transition"
@@ -303,11 +303,11 @@ msgstr ""
 " soll. Zwischen der neuen Aktion und der bereits bestehenden wird "
 "automatisch eine Transition erstellt. "
 
-#: ../../process-builder/actions.rst:84 ../../process-builder/actions.rst:84
+#: ../../process-builder/actions.rst:88 ../../process-builder/actions.rst:88
 msgid "Adding the next user task and its transition at the same time"
 msgstr "Fügen Sie Folgeaufgaben inklusive der Transition hinzu"
 
-#: ../../process-builder/actions.rst:86 ../../process-builder/actions.rst:86
+#: ../../process-builder/actions.rst:90 ../../process-builder/actions.rst:90
 msgid ""
 "Alternatively, just click the user task icon |task-symbol| to create a new "
 "user task in the default location, with a transition."
@@ -316,11 +316,11 @@ msgstr ""
 "Folgeaufgabe an der Standardposition etwas weiter rechts neben der "
 "bestehenden Aktion zu erstellen."
 
-#: ../../process-builder/actions.rst:91 ../../process-builder/actions.rst:91
+#: ../../process-builder/actions.rst:95 ../../process-builder/actions.rst:95
 msgid "Control flow elements"
 msgstr ""
 
-#: ../../process-builder/actions.rst:93 ../../process-builder/actions.rst:93
+#: ../../process-builder/actions.rst:97 ../../process-builder/actions.rst:97
 msgid ""
 "Control flow elements like events and gateways are also part of the diagram,"
 " but unlike actions, control flow elements don’t represent something that "
@@ -332,26 +332,18 @@ msgstr ""
 msgid "Variables"
 msgstr ""
 
-#: ../../process-builder.rst:20
-msgid ""
-"A process has variables that store workflow data when the process runs. All "
-"the information in forms and information required by the actions will be "
-"connected to these variables. Each case can stores its own values for each "
-"process variable."
-msgstr ""
-
-#: ../../process-builder.rst:24
+#: ../../process-builder.rst:28
 msgid ""
 "A process variable can contain a single value, such as a reference number, "
 "or containing multiple fields, such as an email, which has fields like "
 "`from`, `to`, `subject` and `attachments`."
 msgstr ""
 
-#: ../../process-builder.rst:32
+#: ../../process-builder.rst:36
 msgid "Roles"
 msgstr ""
 
-#: ../../process-builder.rst:34
+#: ../../process-builder.rst:38
 msgid ""
 "A role (a.k.a. process role) is a kind of process variable that is used for "
 "assigning tasks. A role is a variable of type user that stores a single user"
@@ -359,7 +351,7 @@ msgid ""
 "equivalent to swimlanes in BPMN."
 msgstr ""
 
-#: ../../process-builder.rst:39
+#: ../../process-builder.rst:43
 msgid ""
 "These process roles are not the same as organization roles. For example, you"
 " can be a team lead in your organization, which can be a position without an"
@@ -367,7 +359,7 @@ msgid ""
 "only applies for the duration of a single case."
 msgstr ""
 
-#: ../../process-builder.rst:44
+#: ../../process-builder.rst:52
 msgid ""
 "You can use a role to assign multiple tasks a person from a group of "
 "candidates. For example, you might have a support process that includes "
@@ -376,7 +368,7 @@ msgid ""
 "relevant people as candidates for the role."
 msgstr ""
 
-#: ../../process-builder.rst:49
+#: ../../process-builder.rst:57
 msgid ""
 "Creating the first task that has a role will notify all of the candidates "
 "for the role. When one of the candidates takes the task, the subsequent "
@@ -384,9 +376,44 @@ msgid ""
 "efficient because this person has the context knowledge about that case."
 msgstr ""
 
-#: ../../process-builder.rst:54
+#: ../../process-builder.rst:62
 msgid ""
 "If you reassign a task that has a role assignment, Effektif will update the "
 "role variable, and assign all subsequent tasks with the same role to the new"
 " assignee."
 msgstr ""
+
+#: ../../process-builder/triggers.rst:25 ../../process-builder/triggers.rst:25
+msgid ""
+"Form trigger configuration - using the form builder to define a trigger form"
+msgstr ""
+
+#: ../../process-builder/actions.rst:11 ../../process-builder/actions.rst:11
+msgid "The *Process builder*’s actions palette"
+msgstr ""
+
+#: ../../process-builder.rst:20
+msgid ""
+"A process has variables that store workflow data when the process runs. All "
+"the information in forms and information required by the actions will be "
+"connected to these variables. Each case stores its own values for each "
+"process variable."
+msgstr ""
+
+#: ../../process-builder.rst:26
+msgid ""
+"A trigger form that populates a *Reference number* variable for use in a "
+"workflow"
+msgstr ""
+
+#: ../../process-builder.rst:50
+msgid ""
+"Assigning a task to a *Support engineer* role with candidates Alice and Ben"
+msgstr ""
+
+#~ msgid ""
+#~ "A process has variables that store workflow data when the process runs. All "
+#~ "the information in forms and information required by the actions will be "
+#~ "connected to these variables. Each case can stores its own values for each "
+#~ "process variable."
+#~ msgstr ""

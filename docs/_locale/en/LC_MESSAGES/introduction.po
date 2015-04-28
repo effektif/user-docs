@@ -15,62 +15,109 @@ msgstr ""
 msgid "Introduction"
 msgstr ""
 
-#: ../../introduction.rst:5
+#: ../../introduction.rst:11
 msgid "When to use Effektif"
 msgstr ""
 
-#: ../../introduction.rst:7
-msgid "Use Effektif for:"
-msgstr ""
-
-#: ../../introduction.rst:9
-msgid "Coordinating tasks and handovers"
-msgstr ""
-
-#: ../../introduction.rst:10
-msgid "Approvals"
-msgstr ""
-
-#: ../../introduction.rst:11
-msgid "Routing documents"
-msgstr ""
-
-#: ../../introduction.rst:12
-msgid "Fully-fledged business processes."
-msgstr ""
-
-#: ../../introduction.rst:15
+#: ../../introduction.rst:21
 msgid "Benefits"
 msgstr ""
 
-#: ../../introduction.rst:17
+#: ../../introduction.rst:23
 msgid "You’ll get:"
 msgstr ""
 
-#: ../../introduction.rst:19
-msgid "Control where it’s needed"
+#: ../../introduction.rst:4
+msgid ""
+"Effektif is a web-based workflow modelling and execution platform. Although "
+"its heritage includes classical Business Process Management Systems (BPMS), "
+"Effektif dramatically simplifies workflow automation."
 msgstr ""
 
-#: ../../introduction.rst:20
-msgid "Flexibility where it’s possible"
+#: ../../introduction.rst:13
+msgid ""
+"Effektif is ideal for describing and collaborating on routine work. Use "
+"Effektif for:"
 msgstr ""
 
-#: ../../introduction.rst:21
-msgid "Fewer delays (with automatic triggers, actions and timers)"
+#: ../../introduction.rst:15
+msgid "coordinating tasks and handovers"
 msgstr ""
 
-#: ../../introduction.rst:22
-msgid "No more miscommunications during handovers"
+#: ../../introduction.rst:16
+msgid "approvals"
 msgstr ""
 
-#: ../../introduction.rst:23
-msgid "Traceability - who did what"
+#: ../../introduction.rst:17
+msgid "routing documents"
 msgstr ""
 
-#: ../../introduction.rst:24
-msgid "Clarity - who has to do what"
+#: ../../introduction.rst:18
+msgid "fully-fledged business processes."
 msgstr ""
 
 #: ../../introduction.rst:25
-msgid "Agility - processes are easier to change than software."
+msgid "control where it’s needed"
 msgstr ""
+
+#: ../../introduction.rst:26
+msgid "flexibility where it’s possible"
+msgstr ""
+
+#: ../../introduction.rst:27
+msgid "fewer delays (with automatic triggers, actions and timers)"
+msgstr ""
+
+#: ../../introduction.rst:28
+msgid "no more miscommunications during handovers"
+msgstr ""
+
+#: ../../introduction.rst:29
+msgid "traceability - data on who did what"
+msgstr ""
+
+#: ../../introduction.rst:30
+msgid "clarity - visibility of who has to do what"
+msgstr ""
+
+#: ../../introduction.rst:31
+msgid ""
+"agility - because Effektif process models are easier to change than "
+"software."
+msgstr ""
+
+#~ msgid "Use Effektif for:"
+#~ msgstr ""
+
+#~ msgid "Coordinating tasks and handovers"
+#~ msgstr ""
+
+#~ msgid "Approvals"
+#~ msgstr ""
+
+#~ msgid "Routing documents"
+#~ msgstr ""
+
+#~ msgid "Fully-fledged business processes."
+#~ msgstr ""
+
+#~ msgid "Control where it’s needed"
+#~ msgstr ""
+
+#~ msgid "Flexibility where it’s possible"
+#~ msgstr ""
+
+#~ msgid "Fewer delays (with automatic triggers, actions and timers)"
+#~ msgstr ""
+
+#~ msgid "No more miscommunications during handovers"
+#~ msgstr ""
+
+#~ msgid "Traceability - who did what"
+#~ msgstr ""
+
+#~ msgid "Clarity - who has to do what"
+#~ msgstr ""
+
+#~ msgid "Agility - processes are easier to change than software."
+#~ msgstr ""
