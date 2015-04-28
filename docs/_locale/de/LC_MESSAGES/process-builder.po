@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-17 10:39+0200\n"
-"PO-Revision-Date: 2015-04-28 13:52+0100\n"
+"PO-Revision-Date: 2015-04-28 15:15+0100\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -266,27 +266,32 @@ msgstr "Um die Transition endgültig zu erzeugen lassen Sie die Maus los. "
 
 #: ../../process-builder/actions.rst:60 ../../process-builder/actions.rst:60
 msgid "Creating the next user task"
-msgstr ""
+msgstr "Folgeaufgaben erstellen"
 
 #: ../../process-builder/actions.rst:62 ../../process-builder/actions.rst:62
 msgid ""
 "There is an easy way to create the next User Task in a process, similar to "
 "creating transitions above. Start by selecting the previous action:"
 msgstr ""
+"Eine neue Aufgabe nach einer bereits bestehenden zu erstellen ist ganz "
+"einfach. Gehen Sie auf ähnliche Weise vor, wie schon bei den Transitionen. "
+"Zunächst markieren Sie die Aktion auf die die neue folgen soll."
 
 #: ../../process-builder/actions.rst:68 ../../process-builder/actions.rst:68
 msgid "Start creating the next user task by dragging the action symbol"
-msgstr ""
+msgstr "Erstellen Sie Folgeaufgaben in dem Sie das Aktions-Symbol ziehen."
 
 #: ../../process-builder/actions.rst:70 ../../process-builder/actions.rst:70
 msgid ""
 "Click the rounded rectangle symbol |task-symbol| and drag it to an empty "
 "place on the canvas."
 msgstr ""
+"Klicken Sie das Aufgaben-Symbol |task-symbol| and ziehen Sie es an die "
+"Stelle, wo die neue Aufgabe erstellt werden soll."
 
 #: ../../process-builder/actions.rst:76 ../../process-builder/actions.rst:76
 msgid "Drag the rounded rectangle symbol to an empty place"
-msgstr ""
+msgstr "Ziehen Sie das Aufgaben-Symbol an die gewünschte Stelle"
 
 #: ../../process-builder/actions.rst:78 ../../process-builder/actions.rst:78
 msgid ""
@@ -294,16 +299,22 @@ msgid ""
 "mouse button to create new user task where you dropped it, with a transition"
 " from the previous action."
 msgstr ""
+"Lassen Sie das Symbol an der Stelle los, wo die neue Aufgabe erstellt werden"
+" soll. Zwischen der neuen Aktion und der bereits bestehenden wird "
+"automatisch eine Transition erstellt. "
 
 #: ../../process-builder/actions.rst:84 ../../process-builder/actions.rst:84
 msgid "Adding the next user task and its transition at the same time"
-msgstr ""
+msgstr "Fügen Sie Folgeaufgaben inklusive der Transition hinzu"
 
 #: ../../process-builder/actions.rst:86 ../../process-builder/actions.rst:86
 msgid ""
 "Alternatively, just click the user task icon |task-symbol| to create a new "
 "user task in the default location, with a transition."
 msgstr ""
+"Alternativ können Sie das Aufgaben-Symbol einfach klicken um eine "
+"Folgeaufgabe an der Standardposition etwas weiter rechts neben der "
+"bestehenden Aktion zu erstellen."
 
 #: ../../process-builder/actions.rst:91 ../../process-builder/actions.rst:91
 msgid "Control flow elements"
