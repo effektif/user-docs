@@ -21,7 +21,8 @@ rm -rf docs/_build
 
 cd $PWD/docs/$1
 
-sphinx-build . ../_build
+sphinx-build . ../_build > /dev/null
 
 cd ../../
 python cleanup.py
+python find_missing_images.py $1

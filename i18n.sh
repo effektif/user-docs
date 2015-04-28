@@ -10,7 +10,7 @@ fi
 python cleanup.py
 
 cd docs
-make clean
-make gettext
-sphinx-intl update -p _build/locale -l $1
-sphinx-intl build
+make clean > /dev/null
+make gettext > /dev/null
+sphinx-intl update -p _build/locale -l $1 > /dev/null
+sphinx-intl build > /dev/null
