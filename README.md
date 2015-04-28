@@ -18,11 +18,11 @@ The following instructions assume Python is already installed.
 
 ## Editing the documentation
 
-The documentation contents are in [reStructuredText](http://rest-sphinx-memo.readthedocs.org/en/latest/ReST.html) format, in the `docs/chapters/` folder.
+The documentation contents are in [reStructuredText](http://rest-sphinx-memo.readthedocs.org/en/latest/ReST.html) format. The standard language for writing is english.
 
 ## Building the documentation
 
-To build the HTML documentation:
+In general you can easily build the docs from the root directory by running ./build.sh <langauge>. This will output the docs as HTML into docs/_build. If you want to build to something other than HTML, you can proceed as follows:
 
 	cd docs
 	make html
