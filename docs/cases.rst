@@ -18,19 +18,19 @@ Create a case
 To create a new case, navigate to `Cases`;
 on the `Cases of` menu, select `Cases without a process`, then click 'Start new case'.
 
-.. figure:: /_static/images/cases-newcase01.png
+.. figure:: /_static/images/cases/create/create-case.png
 
    Start a new task
 
 Then the case header appears.
 
-.. figure:: /_static/images/cases-newcase02.png
+.. figure:: /_static/images/cases/create/name-case.png
 
    Enter case title
 
 Next, type the case title and hit Enter. The new case is now created.
 
-.. figure:: /_static/images/cases-newcase03.png
+.. figure:: /_static/images/cases/create/view-case.png
 
    New case
 
@@ -40,11 +40,11 @@ Create case tasks
 In a case, you can break down tasks like this.
 If you don't have tasks, the tasks section might have to opened like shown in this scenario:
 
-.. figure:: /_static/images/cases-newtask02.png
+.. figure:: /_static/images/tasks/create/create-task.png
 
    Type the title of the new task and hit Enter
 
-.. figure:: /_static/images/cases-newtask03.png
+.. figure:: /_static/images/tasks/create/view-task.png
 
 When a process is started, a :ref:`case <cases>` is created and all elements not having incoming transitions will be started.
 So if you only use the :ref:`simple action list <action-list>` to create a list of user tasks, all those tasks in the list will be started immediate when the process starts.

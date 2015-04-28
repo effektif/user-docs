@@ -7,24 +7,36 @@ from conf import LANGUAGES
 DEFAULT_LANG = 'en'
 PROJET_PATH = os.path.dirname(os.path.realpath(__file__))
 
+def copy_recursive(root, dest, lang=DEFAULT_LANG, path=''):
+    directory = '%s/%s%s' % (root, DEFAULT_LANG, path)
+
+    for name in os.listdir(directory):
+        source = '%s/%s' % (directory, name)
+        target = '%s%s/%s' % (dest, path, name)
+
+        source_i18n = '%s/%s%s/%s' % (root, lang, path, name)
+
+        if(os.path.exists(source_i18n)):
+            source = source_i18n
+
+        if os.path.isfile(source):
+            if not os.path.exists(os.path.dirname(target)):
+                os.makedirs(os.path.dirname(target))
+
+            copyfile(source, target)
+        else:
+            copy_recursive(root, dest, lang, '%s/%s' % (path, name))
+
 def copy_images(lang=DEFAULT_LANG, path=PROJET_PATH):
     if os.path.exists('%s/_static/images' % path):
         rmtree('%s/_static/images' % path)
 
     os.makedirs('%s/_static/images' % path)
 
-    for file_name in os.listdir('%s/_static/_images/%s' % (path, DEFAULT_LANG)):
-        destination = '%s/_static/images/%s' % (path, file_name)
+    root = '%s/_static/_images' % path
+    destination = '%s/_static/images' % path
 
-        if not lang or lang == DEFAULT_LANG:
-            copyfile('%s/_static/_images/%s/%s' % (path, DEFAULT_LANG, file_name), destination)
-        else:
-            substitute_name = '%s/_static/_images/%s/%s' % (path, lang, file_name)
-
-            if os.path.isfile(substitute_name):
-                copyfile(substitute_name, destination)
-            else:
-                copyfile('%s/_static/_images/%s/%s' % (path, DEFAULT_LANG, file_name), destination)
+    copy_recursive(root, destination, lang=lang)
 
 def copy_sources(dest, origin=PROJET_PATH):
     BLACKLIST = LANGUAGES + [
