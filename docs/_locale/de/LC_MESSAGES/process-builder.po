@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-17 10:39+0200\n"
-"PO-Revision-Date: 2015-04-28 15:15+0100\n"
+"PO-Revision-Date: 2015-04-29 13:51+0100\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -318,7 +318,7 @@ msgstr ""
 
 #: ../../process-builder/actions.rst:95 ../../process-builder/actions.rst:95
 msgid "Control flow elements"
-msgstr ""
+msgstr "Kontrollfluss-Elemente"
 
 #: ../../process-builder/actions.rst:97 ../../process-builder/actions.rst:97
 msgid ""
@@ -327,10 +327,14 @@ msgid ""
 "should happen. Instead, you use events and gateways to specify the flow "
 "between the actions."
 msgstr ""
+"Kontrollfluss-Elemente, wie Ereignisse oder Gateways sind zwar auch Teil des"
+" Prozessdiagramm, allerdings stehen sie nicht dafür, dass etwas ausgeführt "
+"werden muss. Mit diesen Elementen steuern Sie den Fluss zwischen den "
+"einzelnen Aktivitäten."
 
 #: ../../process-builder.rst:18
 msgid "Variables"
-msgstr ""
+msgstr "Variablen"
 
 #: ../../process-builder.rst:28
 msgid ""
@@ -338,10 +342,13 @@ msgid ""
 "or containing multiple fields, such as an email, which has fields like "
 "`from`, `to`, `subject` and `attachments`."
 msgstr ""
+"Eine Variable kann entweder einen einzelnen Wert wie zum Beispiel eine "
+"Nummer enthalten oder eine Vielzahl von Attributen, wie zum Beispiel eine "
+"Email, welche die Felder `Absender`, `Empfänger` und `Anhänge` beherbergt. "
 
 #: ../../process-builder.rst:36
 msgid "Roles"
-msgstr ""
+msgstr "Rollen"
 
 #: ../../process-builder.rst:38
 msgid ""
@@ -350,6 +357,13 @@ msgid ""
 " You can optionally configure a role with a list of canidates. Roles are "
 "equivalent to swimlanes in BPMN."
 msgstr ""
+"Rollen können genutzt werden, um Aufgaben innerhalb des Prozesses "
+"automatisch zuzuweisen. Jede Variable vom Typ Nutzer kann auch als Rolle "
+"genutzt werden, was vor allem in Verbindung mit Formularen sehr nützlich "
+"sein kann. Wenn mehrere Kandidaten definiert wurden, so werden alle über die"
+" erste Aufgabe einer Rolle informiert. Derjenige, der auf diese Aufgabe "
+"zugewiesen wird, schlüpft für den konkreten Fall dann in diese Rolle und "
+"alle weiteren Aufgaben werden ihm automatisch direkt zugewiesen. "
 
 #: ../../process-builder.rst:43
 msgid ""
@@ -358,6 +372,11 @@ msgid ""
 " end date. A process role, such as ‘Reviewer’, has a different scope and "
 "only applies for the duration of a single case."
 msgstr ""
+"Prozessrollen sind nicht das gleiche wie Rollen in der Organisation. Zum "
+"Beispiel können Sie der Leiter eines Teams in Ihrer Organisation sein. Das "
+"hängt allerdings nicht von einem konkreten Fall ab. Eine Prozessrolle, wie "
+"zum Beispiel `Prüfer` hat einen eingeschränkten Geltungsbereich und gilt "
+"jeweils nur innerhalb eines Falles."
 
 #: ../../process-builder.rst:52
 msgid ""
@@ -367,6 +386,14 @@ msgid ""
 "the three tasks to a new role called ‘Support engineer’, and add the "
 "relevant people as candidates for the role."
 msgstr ""
+"Sie können Rollen nutzen, um mehrere Aufgaben an eine Person aus einer "
+"Gruppe von Personen zuzuweisen. Gehen wir einmal davon aus, dass Sie einen "
+"Prozess mit drei aufeinanderfolgenden Aktivitäten erstellt haben. Alle diese"
+" Aufgaben sollen jeweils von einem `Kundenbetreuer` ausgeführt werden, der "
+"sich für jeden Fall um alle drei Aufgaben kümmert. Welcher Kundenbetreuer "
+"das im genauen ist, spielt natürlich erst einmal keine Rolle, weshalb Sie "
+"alle Mitglieder der Gruppe `Kundenbetreuer` als Kandidaten hinzufügen "
+"können."
 
 #: ../../process-builder.rst:57
 msgid ""
@@ -375,6 +402,12 @@ msgid ""
 "tasks with the same role will be assigned to the same person. That’s "
 "efficient because this person has the context knowledge about that case."
 msgstr ""
+"Wenn nun die erste Aufgabe der diese Rolle zugewiesen wurde erstellt wird, "
+"werden zunächst alle Mitglieder der Gruppe `Kundenbetreuer` benachrichtigt, "
+"da sie alle Kandidaten sind. Nachdem diese Aufgabe allerdings einem "
+"Mitarbeiter zugewiesen wurde, schlüpft dieser in die Rolle des zuständigen "
+"`Kundenbetreuers` für diesen Fall und die beiden weiteren Aufgaben werden "
+"direkt ihm zugewiesen. "
 
 #: ../../process-builder.rst:62
 msgid ""
@@ -382,15 +415,20 @@ msgid ""
 "role variable, and assign all subsequent tasks with the same role to the new"
 " assignee."
 msgstr ""
+"Wenn Sie die Zuweisung ändern kümmert sich Effektif natürlich darum, dass "
+"alle Aufgaben die einer Rolle zugewiesen waren entsprechend aktualisiert "
+"werden. "
 
 #: ../../process-builder/triggers.rst:25 ../../process-builder/triggers.rst:25
 msgid ""
 "Form trigger configuration - using the form builder to define a trigger form"
 msgstr ""
+"Formular-Auslöser Konfiguration - Nutzen Sie den Formular-Editor um den "
+"Auslöser zu erstellen"
 
 #: ../../process-builder/actions.rst:11 ../../process-builder/actions.rst:11
 msgid "The *Process builder*’s actions palette"
-msgstr ""
+msgstr "Die Palette an Aktionen im *Prozess-Editor*"
 
 #: ../../process-builder.rst:20
 msgid ""
@@ -399,21 +437,23 @@ msgid ""
 "connected to these variables. Each case stores its own values for each "
 "process variable."
 msgstr ""
+"Jeder Prozess beherbergt Daten, die ihm zur Verfügung stehen und die während"
+" der Ausführung genutzt werden können. In Effektif werden diesen Daten in "
+"Variablen zur Verfügung gestellt. Variablen sind immer innerhalb eines Falls"
+" verfügbar und beinhalten zum Beispiel Informationen über alle "
+"Formularfelder innerhalb eines Workflows."
 
 #: ../../process-builder.rst:26
 msgid ""
 "A trigger form that populates a *Reference number* variable for use in a "
 "workflow"
 msgstr ""
+"Ein Formular-Auslöser welcher die Variable *Referenznummer* zur Nutzung im "
+"Workflow bereitstellt"
 
 #: ../../process-builder.rst:50
 msgid ""
 "Assigning a task to a *Support engineer* role with candidates Alice and Ben"
 msgstr ""
-
-#~ msgid ""
-#~ "A process has variables that store workflow data when the process runs. All "
-#~ "the information in forms and information required by the actions will be "
-#~ "connected to these variables. Each case can stores its own values for each "
-#~ "process variable."
-#~ msgstr ""
+"Eine Aufgabe der Rolle `Kundenbetreuer` zuweisen mit den Kandidaten Alice "
+"und Ben"
