@@ -17,8 +17,6 @@ import os
 
 import effektif_sphinx_theme
 
-from i18n import prepare_language
-
 def touch(name, times=None):
     if not os.path.exists(os.path.dirname(name)):
         os.makedirs(os.path.dirname(name))
@@ -26,10 +24,14 @@ def touch(name, times=None):
     with open(name, 'a'):
         os.utime(name, times)
 
-def prepare(cwd, lang):
-    prepare_language(cwd, lang=lang)
+def prepare(cwd, path, lang):
+  sys.path.append(path)
 
-    touch('_build/latex/EffektifUserGuide.tex')
+  from i18n import prepare_language
+
+  prepare_language(cwd, lang=lang)
+
+  touch('%s/_build/latex/EffektifUserGuide.tex' % cwd)
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the

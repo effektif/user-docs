@@ -14,6 +14,13 @@ then
     exit 1
 fi
 
+MODE=$2
+
+if [ ! "$MODE" ]
+then
+    MODE="html"
+fi
+
 python cleanup.py
 rm -rf docs/_build
 
@@ -21,8 +28,13 @@ rm -rf docs/_build
 
 cd $PWD/docs/$1
 
-sphinx-build . ../_build > /dev/null
+sphinx-build -M $MODE . _build
 
-cd ../../
+cd ..
+
+rm -rf _build
+mv $1/_build .
+
+cd ..
 python cleanup.py
 python find_missing_images.py $1

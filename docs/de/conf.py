@@ -10,4 +10,4 @@ from conf import *
 
 language = 'de'
 
-prepare(CWD, language)
+prepare(CWD, PROJECT_PATH, language)
