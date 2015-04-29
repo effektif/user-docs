@@ -33,6 +33,14 @@ def prepare(cwd, path, lang):
 
   touch('%s/_build/latex/EffektifUserGuide.tex' % cwd)
 
+AUTHORS = [" ".join(pair) for pair in sorted([
+  ('T.', 'Baeyens'),
+  ('J.-F.', 'Schwarz'),
+  ('P.', 'Giese'),
+  ('P.', 'Hilton'),
+  ('C.', 'Wiggert')
+], key=lambda x: x[1])]
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -202,7 +210,7 @@ htmlhelp_basename = 'EffektifUserGuidedoc'
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
-#'papersize': 'letterpaper',
+'papersize': 'a4paper',
 
 # The font size ('10pt', '11pt' or '12pt').
 #'pointsize': '10pt',
@@ -216,7 +224,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   ('index', 'EffektifUserGuide.tex', u'Effektif User Guide',
-   u'Tom Baeyens, Jan-Felix Schwarz, Philipp Giese, Peter Hilton, Christian Wiggert', 'manual'),
+   ", ".join(AUTHORS), 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of

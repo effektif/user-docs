@@ -6,32 +6,21 @@ Case
 
 A *case* is a collaboration page for a particular goal.
 A case has subtasks representing the concrete action items to reach the goal.
-There are two types of cases: process cases and ad-hoc cases.
+There are two types of cases: cases which are related to a process and ad-hoc cases.
 
-Each case has an event stream that acts as an audit log 
-and includes the information that is shared during collaboration, 
+Each case has an event stream that acts as an audit log
+and includes the information that is shared during collaboration,
 such as comments, documents and links.
 By using case comments instead of email,
 participants ensure that discussions retain the full context for everyone involved.
 See :ref:`Cases <cases>`.
-
-
-.. _term-process-case:
-
-Process case
-------------
-
-A *process case* is a case that is associated with a defined process.
-The process describes what actions have to be done and in which order.
-In BPM terminology, a process case is also known as a *process instance*.
-
 
 Ad-hoc case
 -----------
 
 An *ad-hoc case* is a case without a predefined process.
 It’s a collaboration space to reach any one-off goal.
-The case brings together a set of tasks, a discussion and documents, 
+The case brings together a set of tasks, a discussion and documents,
 and allows participants to share any relevant context information for the tasks.
 
 Task
@@ -47,7 +36,7 @@ A process is a template to automate repetitive work,
 like a recipe that describes the actions that have to be performed to achieve a goal.
 
 For example, consider a `Hire employee` process.
-Each time someone is hired, three tasks have to be completed: 
+Each time someone is hired, three tasks have to be completed:
 ‘Conduct interview’, ‘Prepare contract’ and ‘Create email account’.
 Each time the process is started, a new case is created.
 
@@ -89,7 +78,7 @@ See :ref:`Roles <roles>`.
 Organization
 ------------
 
-An organization represents a collection of Effektif users - typically a company - 
+An organization represents a collection of Effektif users - typically a company -
 together with all their data in Effektif.
 The data in an organization is not visible to people outside the organization.
 When you’re logged into Effektif, you see all the data inside one particular organization.

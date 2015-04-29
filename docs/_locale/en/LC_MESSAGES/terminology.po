@@ -19,13 +19,6 @@ msgstr ""
 msgid "Case"
 msgstr ""
 
-#: ../../terminology.rst:7
-msgid ""
-"A *case* is a collaboration page for a particular goal. A case has subtasks "
-"representing the concrete action items to reach the goal. There are two "
-"types of cases: process cases and ad-hoc cases."
-msgstr ""
-
 #: ../../terminology.rst:11
 msgid ""
 "Each case has an event stream that acts as an audit log and includes the "
@@ -35,22 +28,11 @@ msgid ""
 ":ref:`Cases <cases>`."
 msgstr ""
 
-#: ../../terminology.rst:22
-msgid "Process case"
-msgstr ""
-
-#: ../../terminology.rst:24
-msgid ""
-"A *process case* is a case that is associated with a defined process. The "
-"process describes what actions have to be done and in which order. In BPM "
-"terminology, a process case is also known as a *process instance*."
-msgstr ""
-
-#: ../../terminology.rst:30
+#: ../../terminology.rst:19
 msgid "Ad-hoc case"
 msgstr ""
 
-#: ../../terminology.rst:32
+#: ../../terminology.rst:21
 msgid ""
 "An *ad-hoc case* is a case without a predefined process. It’s a "
 "collaboration space to reach any one-off goal. The case brings together a "
@@ -58,28 +40,28 @@ msgid ""
 "any relevant context information for the tasks."
 msgstr ""
 
-#: ../../terminology.rst:38
+#: ../../terminology.rst:27
 msgid "Task"
 msgstr ""
 
-#: ../../terminology.rst:40
+#: ../../terminology.rst:29
 msgid ""
 "Tasks are concrete action items inside a case that can be assigned to "
 "people. In process cases, a task may have been created by a user task "
 "action."
 msgstr ""
 
-#: ../../terminology.rst:44
+#: ../../terminology.rst:33
 msgid "Process"
 msgstr ""
 
-#: ../../terminology.rst:46
+#: ../../terminology.rst:35
 msgid ""
 "A process is a template to automate repetitive work, like a recipe that "
 "describes the actions that have to be performed to achieve a goal."
 msgstr ""
 
-#: ../../terminology.rst:49
+#: ../../terminology.rst:38
 msgid ""
 "For example, consider a `Hire employee` process. Each time someone is hired,"
 " three tasks have to be completed: ‘Conduct interview’, ‘Prepare contract’ "
@@ -87,11 +69,11 @@ msgid ""
 "created."
 msgstr ""
 
-#: ../../terminology.rst:55
+#: ../../terminology.rst:44
 msgid "Action"
 msgstr ""
 
-#: ../../terminology.rst:57
+#: ../../terminology.rst:46
 msgid ""
 "Actions are the steps in a process that represent things to be done. When "
 "starting a process, Effektif will ‘execute’ the actions in a process in the "
@@ -99,18 +81,18 @@ msgid ""
 "<control-flow>` and is specified with transitions, gateways and events."
 msgstr ""
 
-#: ../../terminology.rst:61
+#: ../../terminology.rst:50
 msgid ""
 "There are different types of actions: a user task will create a task in a "
 "case. A ‘Send Email’ action will send an email. A ‘Google file upload’ "
 "action will upload a file to a Google Drive folder."
 msgstr ""
 
-#: ../../terminology.rst:66
+#: ../../terminology.rst:55
 msgid "Trigger"
 msgstr ""
 
-#: ../../terminology.rst:68
+#: ../../terminology.rst:57
 msgid ""
 "A trigger in a process specifies when the process is started. The manual "
 "trigger is the simplest, and starts the process when you start a new process"
@@ -120,18 +102,18 @@ msgid ""
 "no direct relation between triggers and start events."
 msgstr ""
 
-#: ../../terminology.rst:76
+#: ../../terminology.rst:65
 msgid "Role"
 msgstr ""
 
-#: ../../terminology.rst:78
+#: ../../terminology.rst:67
 msgid ""
 "A role is a mechanism used to assign user tasks in a process. Roles "
 "correspond to swimlanes in a BPMN diagram, and are also known as a process "
 "roles."
 msgstr ""
 
-#: ../../terminology.rst:82
+#: ../../terminology.rst:71
 msgid ""
 "Process roles are different from organizational roles. For example, there "
 "might be people your organization with the role ‘Support engineer’. However,"
@@ -141,11 +123,11 @@ msgid ""
 "the organization. See :ref:`Roles <roles>`."
 msgstr ""
 
-#: ../../terminology.rst:90
+#: ../../terminology.rst:79
 msgid "Organization"
 msgstr ""
 
-#: ../../terminology.rst:92
+#: ../../terminology.rst:81
 msgid ""
 "An organization represents a collection of Effektif users - typically a "
 "company - together with all their data in Effektif. The data in an "
@@ -155,3 +137,25 @@ msgid ""
 "between organizations by selecting a different organization under your name "
 "in the top right corner."
 msgstr ""
+
+#: ../../terminology.rst:7
+msgid ""
+"A *case* is a collaboration page for a particular goal. A case has subtasks "
+"representing the concrete action items to reach the goal. There are two "
+"types of cases: cases which are related to a process and ad-hoc cases."
+msgstr ""
+
+#~ msgid ""
+#~ "A *case* is a collaboration page for a particular goal. A case has subtasks "
+#~ "representing the concrete action items to reach the goal. There are two "
+#~ "types of cases: process cases and ad-hoc cases."
+#~ msgstr ""
+
+#~ msgid "Process case"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A *process case* is a case that is associated with a defined process. The "
+#~ "process describes what actions have to be done and in which order. In BPM "
+#~ "terminology, a process case is also known as a *process instance*."
+#~ msgstr ""
