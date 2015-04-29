@@ -4,7 +4,8 @@ from termcolor import colored
 from tabulate import tabulate
 from shutil import copyfile, rmtree, copytree
 
-from conf import LANGUAGES
+# all available languages of the documentation
+LANGUAGES = ['de', 'en']
 
 DEFAULT_LANG = 'en'
 PROJET_PATH = os.path.dirname(os.path.realpath(__file__))

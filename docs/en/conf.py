@@ -8,8 +8,6 @@ sys.path.append(PROJECT_PATH)
 
 from conf import *
 
-from i18n import prepare_language
-
-prepare_language(CWD, lang='en')
-
 language = 'en'
+
+prepare(CWD, language)
