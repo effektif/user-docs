@@ -284,21 +284,11 @@ msgstr ""
 
 #: ../../action-types/javascript.rst:52 ../../action-types/javascript.rst:52
 msgid ""
-"To show you the data structures, we've changed the JavaScript to print all "
-"variables."
-msgstr ""
-
-#: ../../action-types/javascript.rst:56 ../../action-types/javascript.rst:56
-msgid "JavaScript script"
-msgstr ""
-
-#: ../../action-types/javascript.rst:58 ../../action-types/javascript.rst:58
-msgid ""
 "When clicking `Test it` again, we can see the JSON structure of the variable"
 " data for the different variable types."
 msgstr ""
 
-#: ../../action-types/javascript.rst:64 ../../action-types/javascript.rst:64
+#: ../../action-types/javascript.rst:58 ../../action-types/javascript.rst:58
 msgid "JavaScript JSON values"
 msgstr ""
 
@@ -309,3 +299,11 @@ msgstr ""
 #: ../../action-types.rst:32
 msgid "A send email task in the process editor"
 msgstr ""
+
+#~ msgid ""
+#~ "To show you the data structures, we've changed the JavaScript to print all "
+#~ "variables."
+#~ msgstr ""
+
+#~ msgid "JavaScript script"
+#~ msgstr ""
