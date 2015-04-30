@@ -7,7 +7,6 @@ argh==0.26.1
 backports.ssl-match-hostname==3.4.0.2
 certifi==14.05.14
 docutils==0.12
-effektif-sphinx-theme==0.1.7
 livereload==2.3.2
 pathtools==0.1.2
 pip-autoremove==0.9.0
@@ -20,3 +19,5 @@ termcolor==1.1.0
 tornado==4.1
 watchdog==0.8.3
 wsgiref==0.1.2
+
+git+https://github.com/effektif/sphinx_rtd_theme.git@3f438e0cf9a76f613c3fbbea609574b185b9f824#egg=effektif-sphinx-theme==3f438e0cf9a76f613c3fbbea609574b185b9f824
