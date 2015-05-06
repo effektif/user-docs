@@ -4,32 +4,39 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-17 10:39+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2015-05-06 17:10+0100\n"
+"Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
 
 #: ../../action-types.rst:4
 msgid "Action Types"
-msgstr ""
+msgstr "Aktions-Typen"
 
 #: ../../action-types.rst:6
 msgid ""
 "All actions are displayed as lines in the 'Simple action list' and as "
 "rounded rectangles in the 'Advanced flows' view."
 msgstr ""
+"Aktionen werden in Effektif als Zeilen in der `Einfachen Aktionsliste` und "
+"als Rechtecke mit abgerundeten Ecken im `Prozesseditor` dargestellt."
 
 #: ../../action-types.rst:8
 msgid ""
 "Actions typically have a configuration panel that opens up when you select "
 "the action."
 msgstr ""
+"Die meisten Aktionen können nach Ihren Wünschen konfiguriert werden. Die "
+"Konfigurationsmöglichkeiten sehen Sie jeweils, wenn Sie eine Aktion "
+"auswählen."
 
 #: ../../action-types.rst:11
 msgid "User task"
-msgstr ""
+msgstr "User Task"
 
 #: ../../action-types.rst:17
 msgid ""
@@ -37,56 +44,70 @@ msgid ""
 "a task will be created. In the configuration form, following optional "
 "details can be specified:"
 msgstr ""
+"Eine User Task bedeutet, dass ein Mensch diese Aufgabe erledigen muss. Wird "
+"ein Prozess gestartet, so werden im entsprechenden :ref:`Fall <cases>` "
+"Aufgaben für diese Aktion angelegt. Wenn Sie diese Aktion konfigurieren "
+"können Sie die folgenden Attribute ändern:"
 
 #: ../../action-types.rst:20
 msgid "Assignment:"
-msgstr ""
+msgstr "Zuweisung:"
 
 #: ../../action-types.rst:21
 msgid "A task can be assigned to a user or a :ref:`process role <roles>`"
 msgstr ""
+"Eine Aufgabe kann einem Nutzer oder einer :ref:`Rolle <roles>` zugewiesen "
+"werden."
 
 #: ../../action-types.rst:22
 msgid "Form:"
-msgstr ""
+msgstr "Formular:"
 
 #: ../../action-types.rst:23
 msgid ""
 "A task can be given a form. To complete the task, the form has to be "
 "submitted."
 msgstr ""
+"In jeder Aufgabe kann auch ein Formular erstellt werden. Wenn die Aufgabe "
+"später erledigt werden muss, muss auch das entsprechende Formular ausgefüllt"
+" werden."
 
 #: ../../action-types.rst:25
 msgid "Reminders:"
-msgstr ""
+msgstr "Erinnerungen:"
 
 #: ../../action-types.rst:25
 msgid "Reminder emails and escalations."
-msgstr ""
+msgstr "Erinnerungsemails und Eskalationen."
 
 #: ../../action-types.rst:28
 msgid "Send email"
-msgstr ""
+msgstr "Email senden"
 
 #: ../../action-types.rst:34
 msgid ""
 "The send email action sends an email to the specified user. In the "
 "configuration you can specify"
 msgstr ""
+"Mit der Aktionen `Email senden` können Sie eine Email an eine Reihe von "
+"Nutzern senden. Die Konfiguration umfasst des Weiteren:"
 
 #: ../../action-types.rst:39
 msgid "To:"
-msgstr ""
+msgstr "Empfänger:"
 
 #: ../../action-types.rst:38
 msgid ""
 "The people to which the email is sent. You can type a plain email address, "
 "select a variable, a variable field or a user in the organization."
 msgstr ""
+"Alle Personen, die die Email empfangen werden. Hier können Sie bestehende "
+"Effektif Nutzer auswählen, Rollen und Nutzervariablen des Prozesses nutzen "
+"oder einfach eine reguläre Emailadresse eintragen."
 
 #: ../../action-types.rst:47
 msgid "Subject:"
-msgstr ""
+msgstr "Betreff:"
 
 #: ../../action-types.rst:42
 msgid ""
@@ -96,10 +117,17 @@ msgid ""
 " arrows to select the right field. Hit enter to select the field. To remove "
 "variable fields from the subject, just delete it like it's normal text."
 msgstr ""
+"Das ist der Betreff der Email. Im Betreff können Sie auch Daten aus dem "
+"Prozess verwenden. Tippen Sie dazu ein `#` um eine Liste von Variablen "
+"anzuzeigen. Ist diese Liste zu lang, können Sie sie weiter einschränken "
+"indem Sie einfach weiter den Namen der Variable tippen, die Sie einfügen "
+"möchten. Nutzen Sie auch die `Pfeil hoch` und `Pfeil runter` tasten, um "
+"einen Eintrag auszuwählen. Um eine Variable zu löschen, löschen Sie den "
+"Eintrag einfach als wäre er normaler Text."
 
 #: ../../action-types.rst:52
 msgid "Attachments:"
-msgstr ""
+msgstr "Dateianhänge:"
 
 #: ../../action-types.rst:50
 msgid ""
@@ -107,10 +135,13 @@ msgid ""
 "process variables, they will be shown. Select one of the file variable "
 "fields to add these as attachments to the mail."
 msgstr ""
+"Um eine Datei an die Email anzuhängen klicken Sie einfach in das Anhänge "
+"Feld. Die sich öffnende Liste zeigt alle zur Zeit verfügbaren Dateien im "
+"Prozess."
 
 #: ../../action-types.rst:57
 msgid "Body text:"
-msgstr ""
+msgstr "Inhalt:"
 
 #: ../../action-types.rst:55
 msgid ""
@@ -118,10 +149,12 @@ msgid ""
 " to Start by typing a `#`. See *Subject* above in this list for more details"
 " instructions on using the `#`."
 msgstr ""
+"Auch hier können Sie wie im *Betreff* auf Daten aus Ihrem Prozess zugreifen."
+" Tippen Sie einfach `#` und wählen Sie die entsprechenden Variablen aus."
 
 #: ../../action-types/google.rst:2 ../../action-types/google.rst:2
 msgid "Google Drive file upload"
-msgstr ""
+msgstr "Google Drive Datei-Upload"
 
 #: ../../action-types/google.rst:4 ../../action-types/google.rst:4
 msgid ""
@@ -129,99 +162,102 @@ msgid ""
 "choice. After creating a Google Drive file upload action, the configuration "
 "panel shows a button to start configuring the account."
 msgstr ""
+"Mit dem Google Drive Datei-Upload können Sie eine oder mehrere Dateien zu "
+"einem Google Drive Konto Ihrer Wahl hochladen. Wenn Sie diese Aktion zum "
+"ersten mal erstellen sehen Sie in der Konfiguration einen Knopf um Effektif "
+"mit einem Google Drive Konto zu verbinden."
 
-#: ../../action-types/google.rst:9 ../../action-types/google.rst:9
-msgid "Initial configuration file upload"
-msgstr ""
-
-#: ../../action-types/google.rst:11 ../../action-types/google.rst:11
-msgid ""
-"When you click on the button `Configure a Google Drive account`, a popup "
-"window will appear that helps you setup authentication and integrate "
-"Effektif with your Google Drive account. The first screen shows what steps "
-"that will happen in the authentication popup window."
-msgstr ""
-
-#: ../../action-types/google.rst:16 ../../action-types/google.rst:16
-msgid "Google Drive authentication flow"
-msgstr ""
-
-#: ../../action-types/google.rst:18 ../../action-types/google.rst:18
-msgid ""
-"After clicking `Click to continue`, the popup window will be redirected to "
-"Google. Google will perform a check if you're already logged in to Google in"
-" that browser. There are 3 possible outcomes:"
-msgstr ""
-
-#: ../../action-types/google.rst:22 ../../action-types/google.rst:22
+#: ../../action-types/google.rst:12 ../../action-types/google.rst:12
 msgid ""
 "If you're already authenticated with a single user to Google, the login "
 "screen is skipped and you go straight to the :ref:`permission screen <drive-"
 "permission>` below."
 msgstr ""
+"Wenn Sie bereits eingeloggt sind und nur ein Google Konto besitzen, werden "
+"Sie direkt aufgefordert Effektif :ref:`gewisse Aktionen zu erlauben <drive-"
+"permissions>`."
 
-#: ../../action-types/google.rst:24 ../../action-types/google.rst:24
+#: ../../action-types/google.rst:14 ../../action-types/google.rst:14
 msgid ""
 "If you're not yet authenticated to Google in this browser yet, you'll get a "
 "login window:"
 msgstr ""
+"Falls Sie noch nicht eingeloggt sind, sehen Sie ein Login-Fenster wie zum "
+"Beispiel:"
 
-#: ../../action-types/google.rst:30 ../../action-types/google.rst:30
+#: ../../action-types/google.rst:20 ../../action-types/google.rst:20
 msgid "Google Drive login"
-msgstr ""
+msgstr "Google Drive Login"
 
-#: ../../action-types/google.rst:32 ../../action-types/google.rst:32
+#: ../../action-types/google.rst:22 ../../action-types/google.rst:22
 msgid ""
 "If you're authenticated with multiple users to Google in this browser, "
 "select the account you want to use."
 msgstr ""
+"Falls Sie mehrere Konten bei Google Drive hinterlegt haben, müssen Sie nun "
+"auswählen welches davon Sie mit Effektif verbinden möchten."
 
-#: ../../action-types/google.rst:34 ../../action-types/google.rst:34
+#: ../../action-types/google.rst:24 ../../action-types/google.rst:24
 msgid ""
 "After authentication is complete, you'll see the following screen that "
 "allows you to give Effektif access to your Google account."
 msgstr ""
+"Nachdem Sie erfolgreich authentifiziert wurden, sehen Sie den folgenden "
+"Dialog indem Sie Effektif Zugriff auf bestimmte Aktionen innerhalb Ihres "
+"Google Kontos gestatten."
 
-#: ../../action-types/google.rst:39 ../../action-types/google.rst:39
+#: ../../action-types/google.rst:29 ../../action-types/google.rst:29
 msgid "Google Drive permission grant"
-msgstr ""
+msgstr "Zugriffsbeschränkungen in Google Drive"
 
-#: ../../action-types/google.rst:41 ../../action-types/google.rst:41
+#: ../../action-types/google.rst:31 ../../action-types/google.rst:31
 msgid ""
 "After accepting the permissions, the pop up will disappear and the "
 "connection with your account is established. The Google Drive file upload "
 "configuration will now display the account and also show the folders in 'My "
 "Drive' in your Google Drive account."
 msgstr ""
+"Nachdem Sie Effektif die nötigen Rechte gegeben haben, schließt sich das "
+"Popup automatisch. Die Verbindung zwischen Google Drive und Effektif ist nun"
+" hergestellt. Sie können nun definieren in welchen Ordner innerhalb Ihres "
+"Drives die Datei(en) geladen werden sollen und welche Dateien aus dem "
+"Prozess hochgeladen werden. "
 
-#: ../../action-types/google.rst:48 ../../action-types/google.rst:48
+#: ../../action-types/google.rst:38 ../../action-types/google.rst:38
 msgid "Google Drive authenticated configuration"
-msgstr ""
+msgstr "Google Drive Konfiguration"
 
-#: ../../action-types/google.rst:50 ../../action-types/google.rst:50
+#: ../../action-types/google.rst:40 ../../action-types/google.rst:40
 msgid ""
 "Other people in your organization will be able to see that you have "
 "configured an account, but they will not be able to see youro email address "
 "or browse your account folders."
 msgstr ""
+"Andere Mitarbeiter in Ihrer Organisation können zwar sehen, welche Dateien "
+"hochgeladen werden, Sie können allerdings nicht sehen, welches Konto dazu "
+"verwendet wurde oder in Ihren Drive-Ordnern stöbern."
 
-#: ../../action-types/google.rst:52 ../../action-types/google.rst:52
+#: ../../action-types/google.rst:42 ../../action-types/google.rst:42
 msgid ""
 "In the section `Target folder` you can now browse and select the folder you "
 "want to upload the file(s) to."
 msgstr ""
+"Im Abschnitt `Zielordner` legen Sie fest wo Ihre Datei(en) gespeichert "
+"werden sollen."
 
-#: ../../action-types/google.rst:54 ../../action-types/google.rst:54
+#: ../../action-types/google.rst:44 ../../action-types/google.rst:44
 msgid ""
 "In section `Files to upload`, you can select the variable field containing "
 "one or more files to be uploaded. If there was no file variable, a variable "
 "called 'File' is created automatically. If there was already a file or list "
 "of files in the variables, it is preselected."
 msgstr ""
+"Unter `Hochzuladende Dateien` können Sie alle Dateien, die im Prozess "
+"verfügbar sind auswählen. "
 
 #: ../../action-types/javascript.rst:2 ../../action-types/javascript.rst:2
 msgid "JavaScript action"
-msgstr ""
+msgstr "JavaScript"
 
 #: ../../action-types/javascript.rst:4 ../../action-types/javascript.rst:4
 msgid ""
@@ -229,46 +265,58 @@ msgid ""
 "execution. After creating or selecting a JavaScript action, the "
 "configuration panel looks like this:"
 msgstr ""
+"Mit der JavaScript Aktion kann ein Entwickler ein selbst geschrieben Script "
+"ausführen, während der Prozess ausgeführt wird. Nachdem Sie solch eine "
+"Aktion angelegt haben, sehen Sie den folgenden Konfigurationsdialog:"
 
 #: ../../action-types/javascript.rst:11 ../../action-types/javascript.rst:11
 msgid "JavaScript configuration panel"
-msgstr ""
+msgstr "JavaScript Konfigurationsdialog"
 
 #: ../../action-types/javascript.rst:13 ../../action-types/javascript.rst:13
 msgid ""
 "The top section of the panel is the JavaScript text editor. By default, it "
 "already contains ``console.log('Hello World!');``."
 msgstr ""
+"Der obere Teil ist der JavaScript Editor. Standardmäßig haben wir hier den "
+"Code ``console.log(\"Hello World!\")`` eingefügt."
 
 #: ../../action-types/javascript.rst:16 ../../action-types/javascript.rst:16
 msgid ""
 "The lower section allows you to test the script. Click `Test it` to execute "
 "the JavaScript code. The results are displayed underneath:"
 msgstr ""
+"Im unteren Teil können Sie ihr Script testen. Klicken Sie hierzu auf `Test "
+"starten`. Die Ergebnisse eines Testlaufs werden direkt darunter angezeigt."
 
 #: ../../action-types/javascript.rst:24 ../../action-types/javascript.rst:24
 msgid "JavaScript test output"
-msgstr ""
+msgstr "JavaScript Test-Ausgabe"
 
 #: ../../action-types/javascript.rst:26 ../../action-types/javascript.rst:26
 msgid ""
 "Next, we'll show how to work with data. Suppose there is a form elsewhere in"
 " the process that has each type of field and looks like this:"
 msgstr ""
+"Als nächstes zeigen wir Ihnen, wie Sie mit Daten arbeiten. Nehmen wir einmal"
+" an im Prozess wäre ein Formular mit den folgenden Feldern definiert:"
 
 #: ../../action-types/javascript.rst:33 ../../action-types/javascript.rst:33
 msgid "Form taking input for JavaScript"
-msgstr ""
+msgstr "Formular als Eingabe für das JavaScript"
 
 #: ../../action-types/javascript.rst:35 ../../action-types/javascript.rst:35
 msgid ""
 "When you open the JavaScript configuration again, you'll see the variables "
 "section shows some of the form field variables."
 msgstr ""
+"Wenn Sie die Konfiguration für die JavaScript Aktion erneut öffnen können "
+"Sie sehen, das im unteren Teil einige der Formularfelder als Variablen "
+"angezeigt werden."
 
 #: ../../action-types/javascript.rst:41 ../../action-types/javascript.rst:41
 msgid "JavaScript variables"
-msgstr ""
+msgstr "JavaScript Variablen"
 
 #: ../../action-types/javascript.rst:43 ../../action-types/javascript.rst:43
 msgid ""
@@ -277,33 +325,61 @@ msgid ""
 "is selected, you get an input field to specify a test value. Here you see "
 "all fields with a test value."
 msgstr ""
+"Wenn Sie ein Feld in der JavaScript Aktion verwenden möchten, wählen Sie es "
+"hier aus. In unserem Beispiel werden wir alle Felder auswählen. Für jede "
+"ausgewählte Variable können Sie nun einen Testwert festlegen."
 
 #: ../../action-types/javascript.rst:50 ../../action-types/javascript.rst:50
 msgid "JavaScript test values"
-msgstr ""
+msgstr "JavaScript Testwerte"
 
 #: ../../action-types/javascript.rst:52 ../../action-types/javascript.rst:52
 msgid ""
 "When clicking `Test it` again, we can see the JSON structure of the variable"
 " data for the different variable types."
 msgstr ""
+"Geben Sie ein paar Testwerte ein und klicken Sie anschließend erneut auf "
+"`Test starten`. Sie können nun sehen, wie jedes Feld im JavaScript "
+"repräsentiert wird. "
 
 #: ../../action-types/javascript.rst:58 ../../action-types/javascript.rst:58
 msgid "JavaScript JSON values"
-msgstr ""
+msgstr "JavaScript JSON-Werte"
 
 #: ../../action-types.rst:15
 msgid "A user task in the process editor"
-msgstr ""
+msgstr "Ein User Task im Prozess-Editor"
 
 #: ../../action-types.rst:32
 msgid "A send email task in the process editor"
+msgstr "Eine Email senden Aktion im Prozess-Editor"
+
+#: ../../action-types/google.rst:7 ../../action-types/google.rst:7
+msgid ""
+"When you click on the button `Configure a Google Drive account`, a popup "
+"window will appear that helps you integrate Effektif with your Google Drive "
+"account."
 msgstr ""
+"Wenn Sie den Knopf `Fügen Sie ein Google Drive Konto hinzu` klicken, öffnet "
+"sich ein Popup welches Sie durch die weiteren Schritte leitet, um die "
+"Integration zwischen Effektif und Google Drive aufzusetzen."
+
+#: ../../action-types/google.rst:9 ../../action-types/google.rst:9
+msgid ""
+"Google will perform a check if you're already logged in to Google in that "
+"browser. There are 3 possible outcomes:"
+msgstr ""
+"Google prüft nun ob Sie bereits eingeloggt sind, was zu drei möglichen "
+"Resultaten führen kann:"
+
+#~ msgid "Initial configuration file upload"
+#~ msgstr "Erstkonfiguration des Datei-Uploads"
 
 #~ msgid ""
-#~ "To show you the data structures, we've changed the JavaScript to print all "
-#~ "variables."
+#~ "When you click on the button `Configure a Google Drive account`, a popup "
+#~ "window will appear that helps you setup authentication and integrate "
+#~ "Effektif with your Google Drive account. The first screen shows what steps "
+#~ "that will happen in the authentication popup window."
 #~ msgstr ""
-
-#~ msgid "JavaScript script"
-#~ msgstr ""
+#~ "Wenn Sie den Knopf `Fügen Sie ein Google Drive Konto hinzu` klicken öffnet "
+#~ "sich ein Popup welches Ihnen bei der weiteren Konfiguration helfen wird. "

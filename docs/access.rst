@@ -26,7 +26,7 @@ there are five different permissions that you can grant to users and groups.
 There are several ways you might want to use these access controls,
 to restrict how people work on processes. For example, use the permission:
 
-* *Edit process*, granted to a group, 
+* *Edit process*, granted to a group,
   to restrict process editing to people who are comfortable with process modelling
 * *View process*, granted only to your own user,
   to hide incomplete or draft processes from other people while you create a first version
@@ -44,16 +44,16 @@ To apply process restrictions, open a process and select *Details*.
 
 On the *Process details* page, the *Options* tab has an *Access rights* section.
 
-.. figure:: /_static/images/access-process-rights.png
+.. figure:: /_static/images/access-control/process-rights.png
 
    Process details - access rights
 
 Click the *Make this process private* button to configure access control.
 
-.. figure:: /_static/images/access-process-controls.png
+.. figure:: /_static/images/access-control/process-controls.png
 
    Configuring process access control
-   
+
 You can now use the checkboxes to grant permissions to users and groups.
 Use the text box to search for additional users and groups,
 to add them to the table, so you can then grant access to them.
@@ -81,16 +81,16 @@ so that only managers can provide the approval.
 To apply user task restrictions, open a process and select the user task.
 In the user task configuration panel, select the *Access Rights* tab:
 
-.. figure:: /_static/images/access-task-rights.png
+.. figure:: /_static/images/access-control/task-rights.png
 
    User task access rights
 
 Click the *Define specific access* button to configure access control.
 
-.. figure:: /_static/images/access-task-controls.png
+.. figure:: /_static/images/access-control/task-controls.png
 
    Configuring user task access control
-   
+
 You can now use the text box to search for users and groups,
 and use the checkboxes to grant permissions.
 

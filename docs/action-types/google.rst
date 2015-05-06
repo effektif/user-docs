@@ -4,18 +4,8 @@ Google Drive file upload
 The Google Drive file upload sends one or more files to an account of your choice.
 After creating a Google Drive file upload action, the configuration panel shows a button to start configuring the account.
 
-.. figure:: /_static/images/action-types/google-drive-fileupload-1.png
+When you click on the button `Configure a Google Drive account`, a popup window will appear that helps you integrate Effektif with your Google Drive account.
 
-   Initial configuration file upload
-
-When you click on the button `Configure a Google Drive account`, a popup window will appear that helps you setup authentication and integrate Effektif with your Google Drive account.
-The first screen shows what steps that will happen in the authentication popup window.
-
-.. figure:: /_static/images/action-types/google-drive-fileupload-2.png
-
-   Google Drive authentication flow
-
-After clicking `Click to continue`, the popup window will be redirected to Google.
 Google will perform a check if you're already logged in to Google in that browser.
 There are 3 possible outcomes:
 
