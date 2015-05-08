@@ -8,6 +8,7 @@ Effektif User Guide
    how-does-it-work
    terminology
    cases
+   tasks
    process-builder
    action-types
    control-flow
