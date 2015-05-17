@@ -62,3 +62,42 @@ that you can use to manage a long list of tasks.
   such as tasks that are overdue.
 - *Completed* filter - shows tasks that are complete,
   which are normally hidden.
+
+
+Creating case tasks
+-------------------
+
+To create tasks, open a case, and use the tasks list to add a new task.
+Enter the task title in the text box to create the task.
+
+.. figure:: /_static/images/tasks/create/create-task.png
+
+   Type the title of the new task and type Enter
+
+After you have added a task, it appears in the list:
+
+.. figure:: /_static/images/tasks/create/view-task.png
+
+When a process is started, a :ref:`case <cases>` is created and all elements not having incoming transitions will be started.
+So if you only use the :ref:`simple action list <action-list>` to create a list of user tasks, all those tasks in the list will be started immediate when the process starts.
+
+
+Completing a task
+-----------------
+
+For tasks, there is a highlighted `Done` button (the white square on the green background) to complete the task.
+
+When tasks have a form, the form is displayed in the same position and it has the button(s) to complete the task at the bottom of the form.
+Normally there will just be a `Done` button, but there may also be multiple buttons when you use a decision.
+Each of those buttons will register the decision and complete the task in one go.
+
+
+Reopening a task
+----------------
+
+When you see the `Reopen` button in a task, it means the task is completed.
+You may want to reopen a task that you closed a task by accident,
+or when you learn about additional work that needs to be done for this task.
+If you just forgot to attach a document or make a comment, you can still do that without reopening the task.
+The advantage of reopening a task instead of creating a new task is that 
+the existing task retains its context.

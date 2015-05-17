@@ -7,8 +7,10 @@ as when creating a new form field.
 Each variable has a data type.
 This section lists the data types variables can have.
 
-Variables vs fields
--------------------
+.. _variables:
+
+Variables
+---------
 
 Workflow information is stored in variables.
 Each variable has a user-defined name and a type.

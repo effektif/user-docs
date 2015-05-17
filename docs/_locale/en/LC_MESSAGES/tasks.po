@@ -1,0 +1,176 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: User Guide 2.22\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-08 15:40+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../tasks.rst:4
+msgid "Tasks"
+msgstr ""
+
+#: ../../tasks.rst:6
+msgid ""
+"A task represents work that someone is expected to complete. :ref:`Cases "
+"<cases>` typically include multiple tasks, which are usually part of the "
+"process definition. You can also add ad-hoc tasks to a case."
+msgstr ""
+
+#: ../../tasks.rst:11
+msgid ""
+"In Effektif, a task may be assigned to a specific user, and have a due date "
+"and subtasks."
+msgstr ""
+
+#: ../../tasks.rst:14
+msgid "Viewing your tasks in the Inbox"
+msgstr ""
+
+#: ../../tasks.rst:16
+msgid ""
+"The *Inbox* shows an overview of tasks that are assigned to you: a list of "
+"tasks for you to work on. To open the Inbox, select *Tasks* from the main "
+"menu and select the *Inbox* tab."
+msgstr ""
+
+#: ../../tasks.rst:23
+msgid "The tasks Inbox"
+msgstr ""
+
+#: ../../tasks.rst:25
+msgid ""
+"Each task shows the assignee, which is you for everything in the inbox, and "
+"a link to the task itself."
+msgstr ""
+
+#: ../../tasks.rst:29
+msgid ""
+"The left-hand side of the inbox is split into sections for tasks that have "
+"due dates, so you can prioritise your work. Tasks that are assigned to you, "
+"but don’t have a due date, are listed on the right."
+msgstr ""
+
+#: ../../tasks.rst:36
+msgid "Viewing all tasks"
+msgstr ""
+
+#: ../../tasks.rst:38
+msgid "The *All tasks* view shows tasks for all assignees."
+msgstr ""
+
+#: ../../tasks.rst:42
+msgid "The list of all tasks"
+msgstr ""
+
+#: ../../tasks.rst:45
+msgid ""
+"Tasks with due dates have a clock indicator to the right of the task name. "
+"This indicator is shown in red for tasks that are now due."
+msgstr ""
+
+#: ../../tasks.rst:48
+msgid ""
+"You can use the controls on the right to filter the tasks list, which is "
+"useful when there is lots of work going on."
+msgstr ""
+
+#: ../../tasks.rst:53
+msgid "Task filters"
+msgstr ""
+
+#: ../../tasks.rst:55
+msgid ""
+"The *All tasks* view includes several kinds of task filters, that you can "
+"use to manage a long list of tasks."
+msgstr ""
+
+#: ../../tasks.rst:58
+msgid ""
+"*Involvement filter* - shows tasks according to how they relate to you, such"
+" as tasks you started."
+msgstr ""
+
+#: ../../tasks.rst:60
+msgid "*Process* filter - shows tasks for a specific process."
+msgstr ""
+
+#: ../../tasks.rst:61
+msgid ""
+"*Due date* filter - shows tasks according to when they are due, such as "
+"tasks that are overdue."
+msgstr ""
+
+#: ../../tasks.rst:63
+msgid ""
+"*Completed* filter - shows tasks that are complete, which are normally "
+"hidden."
+msgstr ""
+
+#~ msgid ""
+#~ "*Involvement filter* - shows tasks according to how they relate to you,"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "such as tasks you started. - *Process* filter - shows tasks for a specific "
+#~ "process. - *Due date* filter - shows tasks according to when they are due, "
+#~ "such as tasks that are overdue. - *Completed* filter - shows tasks that are "
+#~ "complete, which are normally hidden."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The *All tasks* view includes several kinds of task filters, that you can "
+#~ "use to manage a long list of tasks. You can filter by:"
+#~ msgstr ""
+
+#~ msgid "involvement"
+#~ msgstr ""
+
+#~ msgid "process"
+#~ msgstr ""
+
+#~ msgid "due date"
+#~ msgstr ""
+
+#~ msgid "completed tasks."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use an *Involvement filter* to show tasks according to how they relate to "
+#~ "you, such as tasks you started."
+#~ msgstr ""
+
+#~ msgid "Use a *Process* filter to show tasks for a specific process."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use a *Due date* filter to show tasks according to when they are due, such "
+#~ "as tasks that are overdue."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use the *Completed* filter to show tasks that are complete, which are "
+#~ "normally hidden."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can use the controls on the right to filter the tasks list, which is "
+#~ "useful when there is lots of work going on. For example, use a *Due date* "
+#~ "filter to only show tasks that are overdue. There are also several filters "
+#~ "that you can use to select tasks according to how you are involved with "
+#~ "them. For example, you can filter the list to only show unassigned tasks."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A task represents work that someone is expected to complete. :ref:`Cases "
+#~ "<cases>` typically include multiple tasks."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In Effektif, a task may be assigned to a specific user, and have a due date."
+#~ msgstr ""
