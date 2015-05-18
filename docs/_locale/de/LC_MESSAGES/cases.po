@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-17 10:39+0200\n"
-"PO-Revision-Date: 2015-04-29 17:13+0100\n"
+"PO-Revision-Date: 2015-05-18 15:18+0100\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -50,10 +50,10 @@ msgid ""
 "then a simple task for a single person and smaller then a project."
 msgstr ""
 "Ein Fall ist im Wesentlichen ein Ort um an einer Aufgabe zusammen zu "
-"arbeiten. Dies können zum Beispiel Aufgaben wie 'Mitarbeiter einstellen'"
-" oder 'Vertrag unterschreiben' sein. In der Regel sind Fälle "
-"umfangreicher als normale Aufgaben die von einer Person erledigt werden "
-"können und kleiner als ein Komplettes Projekt. "
+"arbeiten. Dies können zum Beispiel Aufgaben wie 'Mitarbeiter einstellen' "
+"oder 'Vertrag unterschreiben' sein. In der Regel sind Fälle umfangreicher "
+"als normale Aufgaben die von einer Person erledigt werden können und kleiner "
+"als ein Komplettes Projekt. "
 
 #: ../../cases.rst:10
 msgid ""
@@ -61,57 +61,73 @@ msgid ""
 "and to collaborate with others. The case is the central place where all "
 "relevant context information about the topic is shared and discussed."
 msgstr ""
-"Fälle eignen sich daher gut um "
-"ein größeres Ziel in kleinere Teilaufgaben zu zerlegen um mit anderen daran "
-"zu arbeiten. In einem Fall können alle relevanten Informationen rund um das "
-"Thema zusammengetragen und diskutiert werden."
+"Fälle eignen sich daher gut um ein größeres Ziel in kleinere Teilaufgaben zu "
+"zerlegen um mit anderen daran zu arbeiten. In einem Fall können alle "
+"relevanten Informationen rund um das Thema zusammengetragen und diskutiert "
+"werden."
 
 #: ../../cases.rst:14
 msgid "Viewing cases"
-msgstr ""
+msgstr "Fälle einsehen"
 
 #: ../../cases.rst:16
 msgid ""
 "The *Cases* view shows an overview of cases for a single process. To open "
 "the Cases view, select *Cases* from the main menu."
 msgstr ""
+"Die *Fälle*-Ansicht zeigt alle Fälle zu einem bestimmten Prozess. Um Sie zu "
+"öffnen, wählen Sie *Fälle* im Hauptmenü aus."
 
 #: ../../cases.rst:21
 msgid "The Cases view - cases of the ‘Hire employee’ process"
-msgstr ""
+msgstr "Die Fälle-Ansicht - Fälle des 'Mitarbeiter einstellen' Prozesses"
 
 #: ../../cases.rst:23
 msgid ""
 "The table shows cases for the *Hire employee* process. You can use the menu "
 "above the table to select a different process, ad hoc cases that don’t have "
 "a process, or cases of a deleted process. Each case in the table show the "
-"case name, grey and green task status bars, and additional columns that show"
-" the values of workflow :ref:`variables <variables>`."
+"case name, grey and green task status bars, and additional columns that show "
+"the values of workflow :ref:`variables <variables>`."
 msgstr ""
+"Die Tabelle zeigt alle Fälle für den Prozess *Mitarbeiter einstellen*. Sie "
+"können das Menü am oberen Rand dazu benutzen um Fälle eines anderen "
+"Prozesses , Fälle die keinem Prozess zugeordnet sind oder Fälle gelöschter "
+"Prozesse einzusehen. Zu jedem Fall sehen Sie den Fallnamen, die Statusbalken "
+"für die abgeschlossenen, sowie noch offenen Aufgaben und weitere Spalten, "
+"die aktuelle Werte von :ref:`Variablen <variables>` im Workflow anzeigen. "
 
 #: ../../cases.rst:31
 msgid ""
 "The grey and green status bars show information about completed and open "
 "tasks when you hover the mouse cursor over them."
 msgstr ""
+"Die grauen und grünen Statusbalken zeigen Ihnen zusätzliche Information zu "
+"offenen und schon erledigten Aufgaben an, wenn Sie mit der Maus darüber "
+"fahren. "
 
 #: ../../cases.rst:36
 msgid "Hover over the grey bar to see a case’s completed tasks."
 msgstr ""
+"Fahren Sie über den grauen Balken um bereits abgeschlossene Aufgaben zu "
+"sehen. "
 
 #: ../../cases.rst:40
 msgid "Hover over the open bar to see a case’s open tasks."
 msgstr ""
+"Fahren Sie über den grünen Balken um noch offene Aufgaben im Fall zu sehen."
 
 #: ../../cases.rst:42
 msgid ""
 "To the right of these status bars are workflow data columns, which you can "
 "customize."
 msgstr ""
+"Rechts von den Statusbalken finden Sie Datenspalten, die Sie auch anpassen "
+"können."
 
 #: ../../cases.rst:47
 msgid "Customizing case view table columns"
-msgstr ""
+msgstr "Die Spalten in der Fälle-Ansicht anpassen"
 
 #: ../../cases.rst:49
 msgid ""
@@ -120,41 +136,59 @@ msgid ""
 "task. You can select which fields are shown as table columns in the Cases "
 "view, so you can have a clear overview of the process’ cases."
 msgstr ""
+"Die Tabelle in der *Fälle*-Ansicht spiegelt :ref:`Variablen <variables>` aus "
+"Ihrem Workflow wieder. Normalerweise sind das Formularfelder aus dem "
+"Auslöser oder Aufgaben. Welche Felder hier angezeigt werden können Sie "
+"entscheiden, damit Sie immer einen klaren Überblick über die Fälle Ihrer "
+"Prozesse haben."
 
 #: ../../cases.rst:54
 msgid ""
 "To customize the table columns, open the Cases view and click the top-right "
 "*Configure columns* button."
 msgstr ""
+"Um die Spalten anzupassen, öffnen Sie die Fälle-Ansicht und klicken Sie auf "
+"*Spalten konfigurieren* in der oberen rechten Ecke. "
 
 #: ../../cases.rst:59
 msgid "Configuring table columns"
-msgstr ""
+msgstr "Tabellen-Spalten konfigurieren"
 
 #: ../../cases.rst:61
 msgid ""
 "Use the drag icon on the far left of the list of columns to change the "
-"column order, and click the delete icon on the far right to remove a column."
-" You can also use the text box to edit the column’s heading."
+"column order, and click the delete icon on the far right to remove a column. "
+"You can also use the text box to edit the column’s heading."
 msgstr ""
+"Sie können die Reihenfolge einfach per Drag & Drop ändern, wenn Sie die "
+"einzelnen Einträge am äußeren linken Rand anfassen und nach oben oder unten "
+"ziehen. Klicken sie auf das 'X' Symbol am rechten Rand um eine Spalte zu "
+"entfernen. Selbst den Titel einer Spalte können Sie einfach ändern, indem "
+"Sie den gewünschten Titel in das Textfeld eintragen."
 
 #: ../../cases.rst:65
 msgid ""
 "Below the list of columns, is a menu for selecting additional column to add "
 "to the table."
 msgstr ""
+"Unter der Liste mit den aktuell gewählten Spalten befindet sich ein Menü, "
+"mit dem Sie weitere Spalten zur Tabelle hinzufügen können."
 
 #: ../../cases.rst:69
 msgid "Adding a column to the table"
-msgstr ""
+msgstr "Eine Spalte zur Tabelle hinzufügen"
 
 #: ../../cases.rst:71
 msgid ""
-"The menu lists all of the workflow variables that are not currently included"
-" in the table. In this example, the *Interviewer* variable is a *User*, "
-"which means that additional fields are available for the user’s email "
-"address, first name, ID and last name."
+"The menu lists all of the workflow variables that are not currently included "
+"in the table. In this example, the *Interviewer* variable is a *User*, which "
+"means that additional fields are available for the user’s email address, "
+"first name, ID and last name."
 msgstr ""
+"Das Menü listet alle verfügbaren Variablen auf, die momentan noch nicht in "
+"der Tabelle angezeigt werden. Da die *Interviewer*-Variable vom Typ *Nutzer* "
+"ist stehen hier noch zusätzliche Felder wie zum Beispiel die Emailadresse "
+"oder der Vor- und Nachname des jeweiligen Nutzers zur Verfügung."
 
 #: ../../cases.rst:80
 msgid ""
