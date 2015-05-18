@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
@@ -371,15 +371,3 @@ msgid ""
 msgstr ""
 "Google prüft nun ob Sie bereits eingeloggt sind, was zu drei möglichen "
 "Resultaten führen kann:"
-
-#~ msgid "Initial configuration file upload"
-#~ msgstr "Erstkonfiguration des Datei-Uploads"
-
-#~ msgid ""
-#~ "When you click on the button `Configure a Google Drive account`, a popup "
-#~ "window will appear that helps you setup authentication and integrate "
-#~ "Effektif with your Google Drive account. The first screen shows what steps "
-#~ "that will happen in the authentication popup window."
-#~ msgstr ""
-#~ "Wenn Sie den Knopf `Fügen Sie ein Google Drive Konto hinzu` klicken öffnet "
-#~ "sich ein Popup welches Ihnen bei der weiteren Konfiguration helfen wird. "
