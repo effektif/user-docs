@@ -17,149 +17,150 @@ msgstr ""
 msgid "Cases"
 msgstr "Fälle"
 
-#: ../../cases.rst:6
-msgid ""
-"A case is a essentially a small collaboration space for a particular goal. "
-"For example, 'Hire HR manager' or 'Send quote to customer X'. Cases are "
-"typically bigger then a simple task for a single person and smaller then a "
-"project. A case is used to break down the goal into concrete action items "
-"(or tasks) and to collaborate with others. The case is the central place "
-"where all relevant context information about the topic is shared and "
-"discussed."
-msgstr ""
-"Ein Fall ist im Wesentlichen ein Ort um an einer Aufgabe zusammen zu "
-"arbeiten. Dies können zum Beispiel Aufgaben wie 'Einen HR Manager anstellen' "
-"or 'Kostenvoranschlag an Kunden X senden' sein. In der Regel sind Fälle "
-"umfangreicher als normale Aufgaben die von einer Person erledigt werden "
-"können und kleiner als ein Komplettes Projekt. Sie eignen sich daher gut um "
-"ein größeres Ziel in kleinere Teilaufgaben zu zerlegen um mit anderen daran "
-"zu arbeiten. In einem Fall können alle relevanten Informationen rund um das "
-"Thema zusammengetragen und diskutiert werden. "
-
-#: ../../cases.rst:15
-msgid ""
-"To create a new case, navigate to `Cases`; on the `Cases of` menu, select "
-"`Cases without a process`, then click 'Start new case'."
-msgstr ""
-"Um einen neuen Fall anzulegen, öffnen Sie zunächst die Ansicht `Fälle`. "
-"Unter `Fälle von` wählen Sie `Fälle ohne Prozess` und klicken danach direkt "
-"neben dem Menü auf `Neuen Fall starten`."
-
-#: ../../cases.rst:20
+#: ../../cases.rst:85
 msgid "Start a new task"
 msgstr "Einen neuen Fall starten"
 
-#: ../../cases.rst:22
+#: ../../cases.rst:87
 msgid "Then the case header appears."
 msgstr "Nach diesem Schritt erscheint der Kopfteil des neuen Falls."
 
-#: ../../cases.rst:26
+#: ../../cases.rst:91
 msgid "Enter case title"
 msgstr "Einen Namen eintragen"
 
-#: ../../cases.rst:28
+#: ../../cases.rst:93
 msgid "Next, type the case title and hit Enter. The new case is now created."
 msgstr ""
 "Als nächstes benennen Sie den neuen Fall und drücken Sie anschließend auf "
 "Enter. Der neue Fall wird nun angelegt."
 
-#: ../../cases.rst:32
+#: ../../cases.rst:97
 msgid "New case"
 msgstr "Neuer Fall"
 
-#: ../../cases.rst:37
-msgid ""
-"In a case, you can break down tasks like this. If you don't have tasks, the "
-"tasks section might have to opened like shown in this scenario:"
-msgstr ""
-"Ein Fall kann in mehrere Unteraufgaben aufgeteilt werden. Um weitere "
-"Aufgaben anzulegen, gehen Sie einfach wie in der folgenden Abbildung "
-"beschrieben vor. Für jede neue Aufgaben geben Sie den entsprechenden Namen "
-"ein und drücken anschließend Enter."
-
-#: ../../cases.rst:42
-msgid "Type the title of the new task and hit Enter"
-msgstr "Geben Sie einen Namen ein und bestätigen mit Enter"
-
-#: ../../cases.rst:46
-msgid ""
-"When a process is started, a :ref:`case <cases>` is created and all elements "
-"not having incoming transitions will be started. So if you only use the :ref:"
-"`simple action list <action-list>` to create a list of user tasks, all those "
-"tasks in the list will be started immediate when the process starts."
-msgstr ""
-"Wenn Sie einen Prozess starten wird automatisch ein :ref:`Fall <cases>` "
-"angelegt. Alle Elemente im Prozess, die keine eingehenden Transitionen "
-"besitzen werden sofort durch offene Aufgaben abgebildet. Das bedeutet, wenn "
-"Sie nur in der :ref:`einfachen Aufgabenliste <action-list>` gearbeitet "
-"haben, werden alle Aufgaben sofort im neuen Fall angelegt."
-
-#: ../../cases.rst:50
-msgid "Completing a task"
-msgstr "Eine Aufgabe abschließen"
-
-#: ../../cases.rst:54
-msgid ""
-"When tasks have a form, the form is displayed in the same position and it "
-"has the button(s) to complete the task at the bottom of the form. Normally "
-"that will just be the `Done`-button, but in case of decisions, it can be "
-"multiple buttons. Each of those buttons will register the decision and "
-"complete the task in one go."
-msgstr ""
-"Wenn eine Aufgaben ein Formular beinhaltet, dann finden Sie den `Fertig` "
-"Knopf unterhalb des Formulars. In der Regel wird dies der `Fertig` Knopf "
-"sein. Wenn jedoch eine Entscheidung auf eine Aufgabe folgt, dann werden die "
-"Entscheidungsmöglichkeiten als Knöpfe in der Task angezeigt. "
-
-#: ../../cases.rst:59
-msgid "Reopening a task"
-msgstr "Eine Aufgabe wieder öffnen"
-
-#: ../../cases.rst:61
-msgid ""
-"When you see the `Reopen` button in a task, it means the task is completed. "
-"Reopening is good when you closed a task by accident or when you realize "
-"more needs to be done for this task. If you just forgot to attach a document "
-"or make a comment, you can still do that and you don't need to reopen the "
-"task for that. Reopening a task can be better then creating a new task "
-"because it has all the context in it."
-msgstr ""
-"Wenn Sie den Knopf `Wieder öffnen` in einer Aufgabe sehen, heißt das diese "
-"Aufgabe wurde bereits abgeschlossen. Sie können die Aufgabe wieder öffnen, "
-"wenn Sie sie aus versehen abgeschlossen haben oder noch mehr getan werden "
-"muss, bis die Aufgabe tatsächlich abgeschlossen ist. Wenn Sie nur einen "
-"Kommentar hinterlassen oder ein Dokument anhängen möchten, können Sie das "
-"auch tun ohne die Aufgabe wieder zu öffnen. "
-
-#: ../../cases.rst:52
-msgid "For tasks, there is a highlighted `Done` button to complete the task."
-msgstr ""
-"In Aufgaben gibt es einen `Fertig` Knopf mit dem Sie die Aufgabe abschließen "
-"können."
-
-#: ../../cases.rst:13
+#: ../../cases.rst:78
 msgid "Creating a case"
 msgstr "Einen Fall erstellen"
 
-#: ../../cases.rst:35
-msgid "Creating case tasks"
-msgstr "Aufgaben erstellen"
+#: ../../cases.rst:6
+msgid ""
+"A case is a essentially a small collaboration space for a particular goal. "
+"For example, ‘Hire employee’ or ‘Sign contract’. Cases are typically bigger "
+"then a simple task for a single person and smaller then a project."
+msgstr ""
+"Ein Fall ist im Wesentlichen ein Ort um an einer Aufgabe zusammen zu "
+"arbeiten. Dies können zum Beispiel Aufgaben wie 'Mitarbeiter einstellen'"
+" oder 'Vertrag unterschreiben' sein. In der Regel sind Fälle "
+"umfangreicher als normale Aufgaben die von einer Person erledigt werden "
+"können und kleiner als ein Komplettes Projekt. "
 
-#~ msgid "What is a case"
-#~ msgstr "Was ist ein Fall"
+#: ../../cases.rst:10
+msgid ""
+"A case is used to break down the goal into concrete action items (or tasks) "
+"and to collaborate with others. The case is the central place where all "
+"relevant context information about the topic is shared and discussed."
+msgstr ""
+"Fälle eignen sich daher gut um "
+"ein größeres Ziel in kleinere Teilaufgaben zu zerlegen um mit anderen daran "
+"zu arbeiten. In einem Fall können alle relevanten Informationen rund um das "
+"Thema zusammengetragen und diskutiert werden."
 
-#~ msgid "Create a case"
-#~ msgstr "Einen Fall erstellen"
+#: ../../cases.rst:14
+msgid "Viewing cases"
+msgstr ""
 
-#~ msgid "Create case tasks"
-#~ msgstr "Unteraufgaben anlegen"
+#: ../../cases.rst:16
+msgid ""
+"The *Cases* view shows an overview of cases for a single process. To open "
+"the Cases view, select *Cases* from the main menu."
+msgstr ""
 
-#~ msgid "Starting a process"
-#~ msgstr "Einen Prozess starten"
+#: ../../cases.rst:21
+msgid "The Cases view - cases of the ‘Hire employee’ process"
+msgstr ""
 
-#~ msgid ""
-#~ "For ad hoc cases or tasks, there is a highlighted `Done` button to "
-#~ "complete the task."
-#~ msgstr ""
-#~ "In regulären Aufgaben finden sie einen `Fertig` Knopf um diese "
-#~ "abzuschließen."
+#: ../../cases.rst:23
+msgid ""
+"The table shows cases for the *Hire employee* process. You can use the menu "
+"above the table to select a different process, ad hoc cases that don’t have "
+"a process, or cases of a deleted process. Each case in the table show the "
+"case name, grey and green task status bars, and additional columns that show"
+" the values of workflow :ref:`variables <variables>`."
+msgstr ""
+
+#: ../../cases.rst:31
+msgid ""
+"The grey and green status bars show information about completed and open "
+"tasks when you hover the mouse cursor over them."
+msgstr ""
+
+#: ../../cases.rst:36
+msgid "Hover over the grey bar to see a case’s completed tasks."
+msgstr ""
+
+#: ../../cases.rst:40
+msgid "Hover over the open bar to see a case’s open tasks."
+msgstr ""
+
+#: ../../cases.rst:42
+msgid ""
+"To the right of these status bars are workflow data columns, which you can "
+"customize."
+msgstr ""
+
+#: ../../cases.rst:47
+msgid "Customizing case view table columns"
+msgstr ""
+
+#: ../../cases.rst:49
+msgid ""
+"The *Cases* view’s table includes columns for workflow :ref:`variables "
+"<variables>`, which are usually form fields on a trigger form or in a user "
+"task. You can select which fields are shown as table columns in the Cases "
+"view, so you can have a clear overview of the process’ cases."
+msgstr ""
+
+#: ../../cases.rst:54
+msgid ""
+"To customize the table columns, open the Cases view and click the top-right "
+"*Configure columns* button."
+msgstr ""
+
+#: ../../cases.rst:59
+msgid "Configuring table columns"
+msgstr ""
+
+#: ../../cases.rst:61
+msgid ""
+"Use the drag icon on the far left of the list of columns to change the "
+"column order, and click the delete icon on the far right to remove a column."
+" You can also use the text box to edit the column’s heading."
+msgstr ""
+
+#: ../../cases.rst:65
+msgid ""
+"Below the list of columns, is a menu for selecting additional column to add "
+"to the table."
+msgstr ""
+
+#: ../../cases.rst:69
+msgid "Adding a column to the table"
+msgstr ""
+
+#: ../../cases.rst:71
+msgid ""
+"The menu lists all of the workflow variables that are not currently included"
+" in the table. In this example, the *Interviewer* variable is a *User*, "
+"which means that additional fields are available for the user’s email "
+"address, first name, ID and last name."
+msgstr ""
+
+#: ../../cases.rst:80
+msgid ""
+"To create a new case, navigate to *Cases*; on the *Cases of* menu, select "
+"*Cases without a process*, then click *Start new case*."
+msgstr ""
+"Um einen neuen Fall anzulegen, öffnen Sie zunächst die Ansicht *Fälle*. "
+"Unter *Fälle von* wählen Sie *Fälle ohne Prozess* und klicken danach direkt "
+"neben dem Menü auf *Neuen Fall starten*."
