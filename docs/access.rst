@@ -17,7 +17,7 @@ Restricting access to processes
 When you make a process private,
 there are five different permissions that you can grant to users and groups.
 
-#. *Edit process* - make changes to a process and public new versions
+#. *Edit process* - make changes to a process and publish new versions
 #. *Start process* - start new cases for the process
 #. *View process* - see the process in the list of processes
 #. *Edit cases* - work on the process’ cases, by editing or completing tasks

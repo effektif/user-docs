@@ -12,6 +12,6 @@ Effektif User Guide
    process-builder
    action-types
    control-flow
-   data-types
    access
    integration/salesforce
+   data-types
