@@ -112,6 +112,65 @@ msgid ""
 "hidden."
 msgstr ""
 
+#: ../../tasks.rst:68
+msgid "Creating case tasks"
+msgstr ""
+
+#: ../../tasks.rst:70
+msgid ""
+"To create tasks, open a case, and use the tasks list to add a new task. "
+"Enter the task title in the text box to create the task."
+msgstr ""
+
+#: ../../tasks.rst:75
+msgid "Type the title of the new task and type Enter"
+msgstr ""
+
+#: ../../tasks.rst:77
+msgid "After you have added a task, it appears in the list:"
+msgstr ""
+
+#: ../../tasks.rst:81
+msgid ""
+"When a process is started, a :ref:`case <cases>` is created and all elements"
+" not having incoming transitions will be started. So if you only use the "
+":ref:`simple action list <action-list>` to create a list of user tasks, all "
+"those tasks in the list will be started immediate when the process starts."
+msgstr ""
+
+#: ../../tasks.rst:86
+msgid "Completing a task"
+msgstr ""
+
+#: ../../tasks.rst:88
+msgid ""
+"For tasks, there is a highlighted `Done` button (the white square on the "
+"green background) to complete the task."
+msgstr ""
+
+#: ../../tasks.rst:90
+msgid ""
+"When tasks have a form, the form is displayed in the same position and it "
+"has the button(s) to complete the task at the bottom of the form. Normally "
+"there will just be a `Done` button, but there may also be multiple buttons "
+"when you use a decision. Each of those buttons will register the decision "
+"and complete the task in one go."
+msgstr ""
+
+#: ../../tasks.rst:96
+msgid "Reopening a task"
+msgstr ""
+
+#: ../../tasks.rst:98
+msgid ""
+"When you see the `Reopen` button in a task, it means the task is completed. "
+"You may want to reopen a task that you closed a task by accident, or when "
+"you learn about additional work that needs to be done for this task. If you "
+"just forgot to attach a document or make a comment, you can still do that "
+"without reopening the task. The advantage of reopening a task instead of "
+"creating a new task is that the existing task retains its context."
+msgstr ""
+
 #~ msgid ""
 #~ "*Involvement filter* - shows tasks according to how they relate to you,"
 #~ msgstr ""

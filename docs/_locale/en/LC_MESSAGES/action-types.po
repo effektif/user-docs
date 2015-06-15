@@ -207,47 +207,47 @@ msgid ""
 "configuration panel looks like this:"
 msgstr ""
 
-#: ../../action-types/javascript.rst:11 ../../action-types/javascript.rst:11
+#: ../../action-types/javascript.rst:9 ../../action-types/javascript.rst:9
 msgid "JavaScript configuration panel"
 msgstr ""
 
-#: ../../action-types/javascript.rst:13 ../../action-types/javascript.rst:13
+#: ../../action-types/javascript.rst:11 ../../action-types/javascript.rst:11
 msgid ""
 "The top section of the panel is the JavaScript text editor. By default, it "
 "already contains ``console.log('Hello World!');``."
 msgstr ""
 
-#: ../../action-types/javascript.rst:16 ../../action-types/javascript.rst:16
+#: ../../action-types/javascript.rst:14 ../../action-types/javascript.rst:14
 msgid ""
 "The lower section allows you to test the script. Click `Test it` to execute "
 "the JavaScript code. The results are displayed underneath:"
 msgstr ""
 
-#: ../../action-types/javascript.rst:24 ../../action-types/javascript.rst:24
+#: ../../action-types/javascript.rst:20 ../../action-types/javascript.rst:20
 msgid "JavaScript test output"
 msgstr ""
 
-#: ../../action-types/javascript.rst:26 ../../action-types/javascript.rst:26
+#: ../../action-types/javascript.rst:22 ../../action-types/javascript.rst:22
 msgid ""
 "Next, we'll show how to work with data. Suppose there is a form elsewhere in"
 " the process that has each type of field and looks like this:"
 msgstr ""
 
-#: ../../action-types/javascript.rst:33 ../../action-types/javascript.rst:33
+#: ../../action-types/javascript.rst:27 ../../action-types/javascript.rst:27
 msgid "Form taking input for JavaScript"
 msgstr ""
 
-#: ../../action-types/javascript.rst:35 ../../action-types/javascript.rst:35
+#: ../../action-types/javascript.rst:29 ../../action-types/javascript.rst:29
 msgid ""
 "When you open the JavaScript configuration again, you'll see the variables "
 "section shows some of the form field variables."
 msgstr ""
 
-#: ../../action-types/javascript.rst:41 ../../action-types/javascript.rst:41
+#: ../../action-types/javascript.rst:33 ../../action-types/javascript.rst:33
 msgid "JavaScript variables"
 msgstr ""
 
-#: ../../action-types/javascript.rst:43 ../../action-types/javascript.rst:43
+#: ../../action-types/javascript.rst:35 ../../action-types/javascript.rst:35
 msgid ""
 "Click `Show all fields` and select the variables you want to access in the "
 "script. In this example, all variables are selected. For each variable that "
@@ -255,17 +255,17 @@ msgid ""
 "all fields with a test value."
 msgstr ""
 
-#: ../../action-types/javascript.rst:50 ../../action-types/javascript.rst:50
+#: ../../action-types/javascript.rst:42 ../../action-types/javascript.rst:42
 msgid "JavaScript test values"
 msgstr ""
 
-#: ../../action-types/javascript.rst:52 ../../action-types/javascript.rst:52
+#: ../../action-types/javascript.rst:44 ../../action-types/javascript.rst:44
 msgid ""
 "When clicking `Test it` again, we can see the JSON structure of the variable"
 " data for the different variable types."
 msgstr ""
 
-#: ../../action-types/javascript.rst:58 ../../action-types/javascript.rst:58
+#: ../../action-types/javascript.rst:48 ../../action-types/javascript.rst:48
 msgid "JavaScript JSON values"
 msgstr ""
 
@@ -288,6 +288,41 @@ msgstr ""
 msgid ""
 "Google will perform a check if you're already logged in to Google in that "
 "browser. There are 3 possible outcomes:"
+msgstr ""
+
+#: ../../action-types/javascript.rst:50 ../../action-types/javascript.rst:50
+msgid ""
+"You can use these variables to send data to an external web service, using "
+"the `request module "
+"<https://github.com/mikeal/request/blob/master/README.md>`_. For example, "
+"the following script sends the value of the ``startDate`` variable in an "
+"HTTP POST request to an external web service. ::"
+msgstr ""
+
+#: ../../action-types/javascript.rst:75 ../../action-types/javascript.rst:75
+msgid ""
+"This example uses a test endpoint configured using `Mocky "
+"<http://www.mocky.io/>`_ to return an HTTP response. This has the following "
+"result in the Effektif test console:"
+msgstr ""
+
+#: ../../action-types/javascript.rst:81 ../../action-types/javascript.rst:81
+msgid "Updating a variable via an external web service"
+msgstr ""
+
+#: ../../action-types/javascript.rst:83 ../../action-types/javascript.rst:83
+msgid ""
+"The two log statements, starting with *HTTP 200*, show the HTTP response "
+"from the web service. The response body (as set-up in Mocky) is JSON data "
+"that includes an updated value for the ``startDate`` variable, changing the "
+"date from ``2015-06-15`` to ``2015-06-16``."
+msgstr ""
+
+#: ../../action-types/javascript.rst:89 ../../action-types/javascript.rst:89
+msgid ""
+"The script then parses this JSON response using ``JSON.parse`` and updates "
+"the ``startDate`` variable in Effektif, as shown in the *Updated value* "
+"column in the test console’s variables table."
 msgstr ""
 
 #~ msgid "Initial configuration file upload"

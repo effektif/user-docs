@@ -34,10 +34,6 @@ msgid ""
 "you can grant to users and groups."
 msgstr ""
 
-#: ../../access.rst:20
-msgid "*Edit process* - make changes to a process and public new versions"
-msgstr ""
-
 #: ../../access.rst:21
 msgid "*Start process* - start new cases for the process"
 msgstr ""
@@ -189,3 +185,10 @@ msgid ""
 "You can now use the text box to search for users and groups, and use the "
 "checkboxes to grant permissions."
 msgstr ""
+
+#: ../../access.rst:20
+msgid "*Edit process* - make changes to a process and publish new versions"
+msgstr ""
+
+#~ msgid "*Edit process* - make changes to a process and public new versions"
+#~ msgstr ""
