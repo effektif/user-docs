@@ -15,3 +15,4 @@ Effektif User Guide
    data-types
    access
    integration/salesforce
+   settings
