@@ -22,7 +22,11 @@ The documentation contents are in [reStructuredText](http://rest-sphinx-memo.rea
 
 ## Building the documentation
 
-In general you can easily build the docs from the root directory by running ./build.sh <langauge>. This will output the docs as HTML into docs/_build. If you want to build to something other than HTML, you can proceed as follows:
+In general you can easily build the docs from the root directory by running
+
+    ./build.sh <de|en>
+
+This will output the docs as HTML into docs/_build. If you want to build to something other than HTML, you can proceed as follows:
 
 	cd docs
 	make html
