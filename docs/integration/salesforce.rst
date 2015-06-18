@@ -41,7 +41,7 @@ On the `Configure Outbound Message` page, configure the new `Outbound Message`, 
 
 In the `Endpoint URL` field, paste the `Endpoint URL` from the Effektif configuration you created earlier.
 
-.. figure:: /_static/images/salesforce-integration-3.png
+.. figure:: /_static/images/salesforce-integration-4.png
 
 Select `Save`.
 Do not forget to activate the workflow rule as soon as you have finished the configuration.
@@ -58,7 +58,7 @@ The final configuration step is to use the web service definition file to config
 
 In the top-right user menu, select `My Organisation`, select the `Services` tab, and then select the Salesforce trigger type you created earlier.
 
-.. figure:: /_static/images/salesforce-integration-4.png
+.. figure:: /_static/images/salesforce-integration-5.png
 
 Select `Upload document`, and select the ``workflowOutboundMessage.wsdl`` file you saved earlier.
 
