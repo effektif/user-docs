@@ -14,4 +14,5 @@ Effektif User Guide
    control-flow
    access
    integration/salesforce
+   settings
    data-types
