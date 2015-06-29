@@ -1,0 +1,122 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: User Guide 2.22\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-16 11:24+0200\n"
+"PO-Revision-Date: 2015-06-29 16:55+0100\n"
+"Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"X-Generator: Poedit 1.6.5\n"
+
+#: ../../settings.rst:4
+msgid "Organization settings"
+msgstr "Organisationseinstellungen"
+
+#: ../../settings.rst:6
+msgid ""
+"Use the Organization settings page to set-up users and groups, manage "
+"invitations, and configure external services such as :ref:`salesforce-"
+"integration`."
+msgstr ""
+"In den Organisationseinstellungen können Sie Nutzer und Gruppen verwalten, "
+"Einladungen versenden und externe Services wie zum Beispiel die :ref:"
+"`Salesforce Integration` konfigurieren."
+
+#: ../../settings.rst:10
+msgid ""
+"At the top of the page, in the masthead, you can edit the organization name."
+msgstr ""
+"Im Kopfteil der Seite (dem türkis hinterlegten Teil) können Sie den Namen "
+"der Organisation ändern."
+
+#: ../../settings.rst:14
+msgid "Users"
+msgstr "Nutzer"
+
+#: ../../settings.rst:16
+msgid ""
+"The users list shows users that are members of your organization. You can "
+"expand each user’s entry to see their email address, license type, and "
+"membership type - indicating whether the user is an administrator."
+msgstr ""
+"Die Nutzerliste zeigt alle Mitglieder in Ihrer Organisation. Sie können "
+"jeden Eintrag aufklappen um die Emailadresse, die Lizenz und die Art der "
+"Mitgliedschaft für jeden Nutzer einzusehen. In einer Organisation gibt es "
+"zwei Arten von Mitgliedern - reguläre Nutzer und Administratoren."
+
+#: ../../settings.rst:23
+msgid ""
+"Administrators can promote other users to administrator: on an expanded user "
+"panel, click the *Promote to administrator* button."
+msgstr ""
+"Administratoren können andere Nutzer zu Administratoren ernennen. Klappen "
+"Sie dazu einen Eintrag in der Nutzerliste auf und klicken Sie auf *Zum "
+"Administrator ernennen*."
+
+#: ../../settings.rst:29
+msgid ""
+"Administrators can also delete users, using the delete button next to the "
+"user name."
+msgstr ""
+"Administratoren können Nutzer auch löschen indem Sie auf den Papierkorb "
+"neben dem Nutzernamen klicken."
+
+#: ../../settings.rst:34
+msgid "Groups"
+msgstr "Gruppen"
+
+#: ../../settings.rst:36
+msgid ""
+"The groups list shows the organization’s user groups. You can use these "
+"groups to define candidates for tasks in the :ref:`process builder <process-"
+"builder>`."
+msgstr ""
+"Unter Gruppen finden Sie alle Gruppen, die in Ihrer Organisation definiert "
+"sind. Sie können Gruppen benutzen um Kandidaten für Aufgaben im :ref:"
+"`Prozesseditor <process-builder>` festzulegen."
+
+#: ../../settings.rst:41
+msgid ""
+"To create a new group, in the text field below the group list, enter a group "
+"name and click the *Create* button."
+msgstr ""
+"Um eine Neue Gruppe anzulegen, geben Sie zunächst den Namen im Textfeld "
+"unter der Liste aller Gruppen ein und klicken dann auf *Erstellen*."
+
+#: ../../settings.rst:47
+msgid ""
+"Click a group’s name to expand its list of members, so you can edit the name "
+"and add or remove members,"
+msgstr ""
+"Wenn Sie auf eine Gruppe klicken, sehen Sie die Liste aller Mitglieder. Sie "
+"können diese Liste bearbeiten indem Sie weitere Nutzer hinzufügen oder "
+"bestehende Mitglieder entfernen."
+
+#: ../../settings.rst:53
+msgid "Invitations"
+msgstr "Einladungen"
+
+#: ../../settings.rst:55
+msgid "The invitations list shows who you have invited to use Effektif."
+msgstr ""
+"Die Liste der Einladungen zeigt Ihnen, wen Sie schon zu Effektif eingeladen "
+"haben."
+
+#: ../../settings.rst:59
+msgid ""
+"To invite someone to use Effektif, select the license they will use, enter "
+"their email address in the text field and click the *Invite* button. They "
+"will receive an email with a link to the registration page, where they can "
+"create an Effektif user that will be a member of the organization."
+msgstr ""
+"Um jemanden zu Effektif einzuladen, wählen Sie zunächst die Lizenz, die "
+"demjenigen zugewiesen werden soll. Danach geben Sie im Textfeld darunter "
+"eine Emailadresse ein und klicken auf *Einladen*. Alle Personen, die Sie "
+"einladen erhalten darauf eine Email mit einem Link um Ihre Registrierung "
+"abzuschließen. Sobald das getan ist, tauchen sie wie gewohnt in der "
+"Mitgliederliste Ihrer Organisation auf. "
