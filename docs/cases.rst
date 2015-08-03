@@ -70,7 +70,7 @@ Below the list of columns, is a menu for selecting additional column to add to t
 
 The menu lists all of the workflow variables that are not currently included in the table.
 In this example, the *Interviewer* variable is a *User*,
-which means that additional fields are available for the user’s email address, 
+which means that additional fields are available for the user’s email address,
 first name, ID and last name.
 
 
@@ -104,7 +104,7 @@ The normal way to close a case is to complete all of its tasks.
 However, sometimes you want to abandon a case and stop working on a it.
 To do this you can manually close a case.
 
-.. figure:: /_static/images/cases/create/cancel.png
+.. figure:: /_static/images/cases/cancel.png
 
    Closing a case
 
