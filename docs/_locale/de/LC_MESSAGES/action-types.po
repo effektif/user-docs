@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-17 10:39+0200\n"
-"PO-Revision-Date: 2015-06-15 11:17+0100\n"
-"Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
+"PO-Revision-Date: 2015-08-18 12:50+0100\n"
+"Last-Translator: Jan-Felix Schwarz <jan-felix.schwarz@signavio.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -152,22 +152,7 @@ msgstr ""
 "Auch hier können Sie wie im *Betreff* auf Daten aus Ihrem Prozess zugreifen."
 " Tippen Sie einfach `#` und wählen Sie die entsprechenden Variablen aus."
 
-#: ../../action-types/google.rst:2 ../../action-types/google.rst:2
-msgid "Google Drive file upload"
-msgstr "Google Drive Datei-Upload"
-
-#: ../../action-types/google.rst:4 ../../action-types/google.rst:4
-msgid ""
-"The Google Drive file upload sends one or more files to an account of your "
-"choice. After creating a Google Drive file upload action, the configuration "
-"panel shows a button to start configuring the account."
-msgstr ""
-"Mit dem Google Drive Datei-Upload können Sie eine oder mehrere Dateien zu "
-"einem Google Drive Konto Ihrer Wahl hochladen. Wenn Sie diese Aktion zum "
-"ersten mal erstellen sehen Sie in der Konfiguration einen Knopf um Effektif "
-"mit einem Google Drive Konto zu verbinden."
-
-#: ../../action-types/google.rst:12 ../../action-types/google.rst:12
+#: ../../action-types/google.rst:17 ../../action-types/google.rst:17
 msgid ""
 "If you're already authenticated with a single user to Google, the login "
 "screen is skipped and you go straight to the :ref:`permission screen <drive-"
@@ -177,7 +162,7 @@ msgstr ""
 "Sie direkt aufgefordert Effektif :ref:`gewisse Aktionen zu erlauben <drive-"
 "permissions>`."
 
-#: ../../action-types/google.rst:14 ../../action-types/google.rst:14
+#: ../../action-types/google.rst:19 ../../action-types/google.rst:19
 msgid ""
 "If you're not yet authenticated to Google in this browser yet, you'll get a "
 "login window:"
@@ -185,11 +170,11 @@ msgstr ""
 "Falls Sie noch nicht eingeloggt sind, sehen Sie ein Login-Fenster wie zum "
 "Beispiel:"
 
-#: ../../action-types/google.rst:20 ../../action-types/google.rst:20
+#: ../../action-types/google.rst:25 ../../action-types/google.rst:25
 msgid "Google Drive login"
 msgstr "Google Drive Login"
 
-#: ../../action-types/google.rst:22 ../../action-types/google.rst:22
+#: ../../action-types/google.rst:27 ../../action-types/google.rst:27
 msgid ""
 "If you're authenticated with multiple users to Google in this browser, "
 "select the account you want to use."
@@ -197,7 +182,7 @@ msgstr ""
 "Falls Sie mehrere Konten bei Google Drive hinterlegt haben, müssen Sie nun "
 "auswählen welches davon Sie mit Effektif verbinden möchten."
 
-#: ../../action-types/google.rst:24 ../../action-types/google.rst:24
+#: ../../action-types/google.rst:29 ../../action-types/google.rst:29
 msgid ""
 "After authentication is complete, you'll see the following screen that "
 "allows you to give Effektif access to your Google account."
@@ -206,28 +191,15 @@ msgstr ""
 "Dialog indem Sie Effektif Zugriff auf bestimmte Aktionen innerhalb Ihres "
 "Google Kontos gestatten."
 
-#: ../../action-types/google.rst:29 ../../action-types/google.rst:29
+#: ../../action-types/google.rst:34 ../../action-types/google.rst:34
 msgid "Google Drive permission grant"
 msgstr "Zugriffsbeschränkungen in Google Drive"
 
-#: ../../action-types/google.rst:31 ../../action-types/google.rst:31
-msgid ""
-"After accepting the permissions, the pop up will disappear and the "
-"connection with your account is established. The Google Drive file upload "
-"configuration will now display the account and also show the folders in 'My "
-"Drive' in your Google Drive account."
-msgstr ""
-"Nachdem Sie Effektif die nötigen Rechte gegeben haben, schließt sich das "
-"Popup automatisch. Die Verbindung zwischen Google Drive und Effektif ist nun"
-" hergestellt. Sie können nun definieren in welchen Ordner innerhalb Ihres "
-"Drives die Datei(en) geladen werden sollen und welche Dateien aus dem "
-"Prozess hochgeladen werden. "
-
-#: ../../action-types/google.rst:38 ../../action-types/google.rst:38
+#: ../../action-types/google.rst:45 ../../action-types/google.rst:45
 msgid "Google Drive authenticated configuration"
 msgstr "Google Drive Konfiguration"
 
-#: ../../action-types/google.rst:40 ../../action-types/google.rst:40
+#: ../../action-types/google.rst:47 ../../action-types/google.rst:47
 msgid ""
 "Other people in your organization will be able to see that you have "
 "configured an account, but they will not be able to see youro email address "
@@ -237,7 +209,7 @@ msgstr ""
 "hochgeladen werden, Sie können allerdings nicht sehen, welches Konto dazu "
 "verwendet wurde oder in Ihren Drive-Ordnern stöbern."
 
-#: ../../action-types/google.rst:42 ../../action-types/google.rst:42
+#: ../../action-types/google.rst:49 ../../action-types/google.rst:49
 msgid ""
 "In the section `Target folder` you can now browse and select the folder you "
 "want to upload the file(s) to."
@@ -245,7 +217,7 @@ msgstr ""
 "Im Abschnitt `Zielordner` legen Sie fest wo Ihre Datei(en) gespeichert "
 "werden sollen."
 
-#: ../../action-types/google.rst:44 ../../action-types/google.rst:44
+#: ../../action-types/google.rst:51 ../../action-types/google.rst:51
 msgid ""
 "In section `Files to upload`, you can select the variable field containing "
 "one or more files to be uploaded. If there was no file variable, a variable "
@@ -354,7 +326,7 @@ msgstr "Ein User Task im Prozess-Editor"
 msgid "A send email task in the process editor"
 msgstr "Eine Email senden Aktion im Prozess-Editor"
 
-#: ../../action-types/google.rst:7 ../../action-types/google.rst:7
+#: ../../action-types/google.rst:12 ../../action-types/google.rst:12
 msgid ""
 "When you click on the button `Configure a Google Drive account`, a popup "
 "window will appear that helps you integrate Effektif with your Google Drive "
@@ -364,7 +336,7 @@ msgstr ""
 "sich ein Popup welches Sie durch die weiteren Schritte leitet, um die "
 "Integration zwischen Effektif und Google Drive aufzusetzen."
 
-#: ../../action-types/google.rst:9 ../../action-types/google.rst:9
+#: ../../action-types/google.rst:14 ../../action-types/google.rst:14
 msgid ""
 "Google will perform a check if you're already logged in to Google in that "
 "browser. There are 3 possible outcomes:"
@@ -421,3 +393,73 @@ msgstr ""
 "Unser Script parset den Wert der Response mittels ``JSON.parse`` und updatet"
 " dann das ``startDate`` Feld in Effektif. Dieses Verhalten sehen Sie auch in"
 " der Spalte *Neu zugewiesener Wert* in der Test-Konsole."
+
+#: ../../action-types/google.rst:2 ../../action-types/google.rst:2
+msgid "Google Drive Upload file"
+msgstr "Google Drive Dateiupload"
+
+#: ../../action-types/google.rst:4 ../../action-types/google.rst:4
+msgid ""
+"The Google Drive `Upload file` task sends one or more files to an account of"
+" your choice."
+msgstr ""
+"Die Google Drive `Dateiupload` Aktion sendet eine oder mehrere Dateien zu "
+"einem Konto Ihrer Wahl."
+
+#: ../../action-types/google.rst:8 ../../action-types/google.rst:8
+msgid "Configuration"
+msgstr "Konfiguration"
+
+#: ../../action-types/google.rst:10 ../../action-types/google.rst:10
+msgid ""
+"After creating a Google Drive `Upload file` task, the configuration panel "
+"shows a button to start configuring the account."
+msgstr ""
+"Nach Erstellung einer Google Drive `Dateiupload` Aktion, wird im "
+"Konfigurationspanel ein Button angezeigt um das Konto auszuwählen."
+
+#: ../../action-types/google.rst:36 ../../action-types/google.rst:36
+msgid ""
+"After accepting the permissions, the pop up will disappear and the "
+"connection with your account is established."
+msgstr ""
+"Nachdem der Zugriff gewährt wurde, schließt sich das Popup-Fenster. Damit "
+"ist die Verknüpfung zu Ihrem Konto eingerichtet."
+
+#: ../../action-types/google.rst:39 ../../action-types/google.rst:39
+msgid "Upload file task"
+msgstr "Dateiupload Aktion"
+
+#: ../../action-types/google.rst:41 ../../action-types/google.rst:41
+msgid ""
+"Once you have configured your Google Drive account, the `Upload file` task "
+"configuration panel displays the account and also show the folders in `My "
+"Drive` in your Google Drive account."
+msgstr ""
+"Wenn Sie Ihr Google Drive-Konto verknüpft haben, zeigt das "
+"Konfigurationspanel alle Verzeichnisse innerhalb Ihres Kontos an."
+
+#~ msgid "Google Drive file upload"
+#~ msgstr "Google Drive Datei-Upload"
+
+#~ msgid ""
+#~ "The Google Drive file upload sends one or more files to an account of your "
+#~ "choice. After creating a Google Drive file upload action, the configuration "
+#~ "panel shows a button to start configuring the account."
+#~ msgstr ""
+#~ "Mit dem Google Drive Datei-Upload können Sie eine oder mehrere Dateien zu "
+#~ "einem Google Drive Konto Ihrer Wahl hochladen. Wenn Sie diese Aktion zum "
+#~ "ersten mal erstellen sehen Sie in der Konfiguration einen Knopf um Effektif "
+#~ "mit einem Google Drive Konto zu verbinden."
+
+#~ msgid ""
+#~ "After accepting the permissions, the pop up will disappear and the "
+#~ "connection with your account is established. The Google Drive file upload "
+#~ "configuration will now display the account and also show the folders in 'My "
+#~ "Drive' in your Google Drive account."
+#~ msgstr ""
+#~ "Nachdem Sie Effektif die nötigen Rechte gegeben haben, schließt sich das "
+#~ "Popup automatisch. Die Verbindung zwischen Google Drive und Effektif ist nun"
+#~ " hergestellt. Sie können nun definieren in welchen Ordner innerhalb Ihres "
+#~ "Drives die Datei(en) geladen werden sollen und welche Dateien aus dem "
+#~ "Prozess hochgeladen werden. "
