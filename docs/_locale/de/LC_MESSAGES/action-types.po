@@ -415,7 +415,7 @@ msgid ""
 "The Google Drive `Upload file` action sends one or more files to an account "
 "of your choice."
 msgstr ""
-"Die Google Drive `Datei-Upload` Aktion sendet eine oder mehrere Dateien zu "
+"Die Google Drive `Dateiupload` Aktion sendet eine oder mehrere Dateien zu "
 "einem Google Drive Konto Ihrer Wahl."
 
 #: ../../action-types/google.rst:10 ../../action-types/google.rst:10
@@ -423,12 +423,12 @@ msgid ""
 "After creating a Google Drive `Upload file` action, the configuration panel "
 "shows a button to start configuring the account."
 msgstr ""
-"Nach Erstellung einer Google Drive `Datei-Upload` Aktion, wird im "
+"Nach Erstellung einer Google Drive `Dateiupload` Aktion, wird im "
 "Konfigurationspanel ein Button angezeigt um das Konto auszuwählen."
 
 #: ../../action-types/google.rst:40 ../../action-types/google.rst:40
 msgid "Upload file action"
-msgstr "Datei-Upload Aktion"
+msgstr "Dateiupload Aktion"
 
 #: ../../action-types/google.rst:42 ../../action-types/google.rst:42
 msgid ""
@@ -465,14 +465,14 @@ msgstr ""
 #~ "Konfigurationspanel alle Verzeichnisse innerhalb Ihres Kontos an."
 
 #~ msgid "Google Drive file upload"
-#~ msgstr "Google Drive Datei-Upload"
+#~ msgstr "Google Drive Dateiupload"
 
 #~ msgid ""
 #~ "The Google Drive file upload sends one or more files to an account of your "
 #~ "choice. After creating a Google Drive file upload action, the configuration "
 #~ "panel shows a button to start configuring the account."
 #~ msgstr ""
-#~ "Mit dem Google Drive Datei-Upload können Sie eine oder mehrere Dateien zu "
+#~ "Mit dem Google Drive Dateiupload können Sie eine oder mehrere Dateien zu "
 #~ "einem Google Drive Konto Ihrer Wahl hochladen. Wenn Sie diese Aktion zum "
 #~ "ersten mal erstellen sehen Sie in der Konfiguration einen Knopf um Effektif "
 #~ "mit einem Google Drive Konto zu verbinden."

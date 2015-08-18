@@ -116,7 +116,7 @@ msgid ""
 msgstr ""
 "Es gibt verschiedene Arten von Aktionen: Ein User-Task erstellt eine Aufgabe "
 "in einem Fall, eine `Email` Aktivität verschickt eine Email und ein `Google "
-"Datei-Upload` lädt eine Datei zu Google hoch. "
+"Dateiupload` lädt eine Datei zu Google hoch. "
 
 #: ../../terminology.rst:55
 msgid "Trigger"
