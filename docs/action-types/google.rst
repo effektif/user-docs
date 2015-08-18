@@ -1,13 +1,14 @@
 Google Drive Upload file
 ------------------------
 
-The Google Drive `Upload file` task sends one or more files to an account of your choice.
+The Google Drive `Upload file` action sends one or more files to an account of your choice.
 
 
 Configuration
 `````````````
 
-After creating a Google Drive `Upload file` task, the configuration panel shows a button to start configuring the account.
+After creating a Google Drive `Upload file` action,
+the configuration panel shows a button to start configuring the account.
 
 When you click on the button `Configure a Google Drive account`, a popup window will appear that helps you integrate Effektif with your Google Drive account.
 
@@ -35,10 +36,12 @@ After authentication is complete, you'll see the following screen that allows yo
 
 After accepting the permissions, the pop up will disappear and the connection with your account is established.
 
-Upload file task
+Upload file action
 ````````````````
 
-Once you have configured your Google Drive account, the `Upload file` task configuration panel displays the account and also show the folders in `My Drive` in your Google Drive account.
+Once you have configured your Google Drive account,
+the `Upload file` action configuration panel displays the account
+and also shows the folders in `My Drive` in your Google Drive account.
 
 .. figure:: /_static/images/action-types/google-drive-fileupload-6.png
 
