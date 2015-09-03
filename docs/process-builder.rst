@@ -62,3 +62,31 @@ That’s efficient because this person has the context knowledge about that case
 If you reassign a task that has a role assignment,
 Effektif will update the role variable,
 and assign all subsequent tasks with the same role to the new assignee.
+
+Using a form field to assign a role
+```````````````````````````````````
+
+When you execute a process, 
+you normally assign a specific person to a role by using the assignee button to select someone.
+Sometimes, you want this assignment to an explicit part of the process,
+to make sure the assignment happens at the right time.
+For example,
+it may be important to assign the *Support engineer* before completing an *Initial investigation* task.
+
+You can do this by adding the role assignment to a form,
+because a task assignment role is a process variable,
+just like any other *User* form field.
+
+.. figure:: /_static/images/process-builder/roles/form-field.png
+
+   Adding the *Support engineer* role assignment to a form
+
+To add a role assignment to a form,
+first define the process role, such as the *Support engineer* role created above,
+then on the form, under the *Reuse field* heading,
+select the role variable to add it to the form.
+
+Alternatively, you can first define the *Support engineer* role
+by adding a field with type *User* to the *Initial investigation* task’s form,
+and then select the *Support engineer* role
+on another user task’s *Assignment* configuration.
