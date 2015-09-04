@@ -15,7 +15,7 @@ a popup window will open for you to authorise Effektif to use your Box account.
 After logging in to your Box account, if you are not already logged in,
 Box shows an authorization page.
 
-.. figure:: /_static/images/action-types/box/file-upload-1.png
+.. figure:: /_static/images/action-types/box/upload-file-1.png
 
    Box permission grant, after logging in to Box
 
@@ -28,7 +28,7 @@ Once you have configured your Box account,
 the `Upload file` action configuration panel displays the account
 and also shows the folders in `All Files` in your Box account.
 
-.. figure:: /_static/images/action-types/box/file-upload-2.png
+.. figure:: /_static/images/action-types/box/upload-file-2.png
 
    Box authenticated configuration
 
