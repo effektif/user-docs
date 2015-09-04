@@ -57,4 +57,5 @@ Body text:
     
 
 .. include:: action-types/google.rst
+.. include:: action-types/box.rst
 .. include:: action-types/javascript.rst
