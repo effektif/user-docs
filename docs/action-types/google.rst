@@ -8,7 +8,6 @@ Google Drive Upload file
 The Google Drive `Upload file` action sends one or more files to an account of your choice.
 
 .. _upload-file-configuration:
-
 Configuration
 `````````````
 
@@ -66,8 +65,8 @@ Google Drive Print File
 
    A Google Drive print file task in the process editor
 
-The Google Drive `Print File` action 
-uses `Google Cloud Print <http://www.google.com/cloudprint/learn/>`_ 
+The Google Drive `Print File` action
+uses `Google Cloud Print <http://www.google.com/cloudprint/learn/>`_
 to print a file that has been uploaded to a case.
 
 Configuration
