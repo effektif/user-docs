@@ -1,9 +1,13 @@
 Google Drive Upload file
 ------------------------
 
+.. figure:: /_static/images/action-types/google-drive/upload-file-task.png
+
+   A Google Drive upload file task in the process editor
+
 The Google Drive `Upload file` action sends one or more files to an account of your choice.
 
-
+.. _upload-file-configuration
 Configuration
 `````````````
 
@@ -21,7 +25,7 @@ There are 3 possible outcomes:
 
 .. TODO update screenshot (use example.com e-mail address)
 
-.. figure:: /_static/images/action-types/google-drive-fileupload-3.png
+.. figure:: /_static/images/action-types/google-drive/fileupload-3.png
 
    Google Drive login
 
@@ -30,22 +34,22 @@ There are 3 possible outcomes:
 After authentication is complete, you'll see the following screen that allows you to give Effektif access to your Google account.
 
 .. _drive-permission:
-.. figure:: /_static/images/action-types/google-drive-fileupload-5.png
+.. figure:: /_static/images/action-types/google-drive/fileupload-5.png
 
    Google Drive permission grant
 
 After accepting the permissions, the pop up will disappear and the connection with your account is established.
 
 Upload file action
-````````````````
+``````````````````
 
 Once you have configured your Google Drive account,
 the `Upload file` action configuration panel displays the account
 and also shows the folders in `My Drive` in your Google Drive account.
 
-.. figure:: /_static/images/action-types/google-drive-fileupload-6.png
+.. figure:: /_static/images/action-types/google-drive/fileupload-6.png
 
-   Google Drive authenticated configuration
+   Google Drive `Upload file` authenticated configuration
 
 Other people in your organization will be able to see that you have configured an account, but they will not be able to see youro email address or browse your account folders.
 
