@@ -1,4 +1,4 @@
-.. _access-control
+.. _access-control:
 
 Access control
 ==============

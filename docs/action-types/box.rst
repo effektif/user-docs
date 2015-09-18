@@ -1,6 +1,10 @@
 Box Upload file
 ------------------------
 
+.. figure:: /_static/images/action-types/box/upload-file-task.png
+
+   A box upload file task in the process editor
+
 The `Box <http://www.box.com/>`_ `Upload file` action saves one or more files to a Box account that you select.
 
 
@@ -22,7 +26,7 @@ Box shows an authorization page.
 After granting access, the pop up will close and Effektif will be connected to your Box account.
 
 Upload file action
-````````````````
+``````````````````
 
 Once you have configured your Box account,
 the `Upload file` action configuration panel displays the account

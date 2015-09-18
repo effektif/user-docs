@@ -338,6 +338,45 @@ msgid ""
 "Assigning a task to a *Support engineer* role with candidates Alice and Ben"
 msgstr ""
 
+#: ../../process-builder.rst:67
+msgid "Using a form field to assign a role"
+msgstr ""
+
+#: ../../process-builder.rst:69
+msgid ""
+"When you execute a process, you normally assign a specific person to a role "
+"by using the assignee button to select someone. Sometimes, you want this "
+"assignment to an explicit part of the process, to make sure the assignment "
+"happens at the right time. For example, it may be important to assign the "
+"*Support engineer* before completing an *Initial investigation* task."
+msgstr ""
+
+#: ../../process-builder.rst:76
+msgid ""
+"You can do this by adding the role assignment to a form, because a task "
+"assignment role is a process variable, just like any other *User* form "
+"field."
+msgstr ""
+
+#: ../../process-builder.rst:82
+msgid "Adding the *Support engineer* role assignment to a form"
+msgstr ""
+
+#: ../../process-builder.rst:84
+msgid ""
+"To add a role assignment to a form, first define the process role, such as "
+"the *Support engineer* role created above, then on the form, under the "
+"*Reuse field* heading, select the role variable to add it to the form."
+msgstr ""
+
+#: ../../process-builder.rst:89
+msgid ""
+"Alternatively, you can first define the *Support engineer* role by adding a "
+"field with type *User* to the *Initial investigation* task’s form, and then "
+"select the *Support engineer* role on another user task’s *Assignment* "
+"configuration."
+msgstr ""
+
 #~ msgid ""
 #~ "A process has variables that store workflow data when the process runs. All "
 #~ "the information in forms and information required by the actions will be "
