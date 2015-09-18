@@ -119,76 +119,53 @@ msgid ""
 " instructions on using the `#`."
 msgstr ""
 
-#: ../../action-types/google.rst:2 ../../action-types/google.rst:2
-msgid "Google Drive file upload"
-msgstr ""
-
-#: ../../action-types/google.rst:4 ../../action-types/google.rst:4
-msgid ""
-"The Google Drive file upload sends one or more files to an account of your "
-"choice. After creating a Google Drive file upload action, the configuration "
-"panel shows a button to start configuring the account."
-msgstr ""
-
-#: ../../action-types/google.rst:12 ../../action-types/google.rst:12
+#: ../../action-types/google.rst:22 ../../action-types/google.rst:22
 msgid ""
 "If you're already authenticated with a single user to Google, the login "
 "screen is skipped and you go straight to the :ref:`permission screen <drive-"
 "permission>` below."
 msgstr ""
 
-#: ../../action-types/google.rst:14 ../../action-types/google.rst:14
+#: ../../action-types/google.rst:24 ../../action-types/google.rst:24
 msgid ""
 "If you're not yet authenticated to Google in this browser yet, you'll get a "
 "login window:"
 msgstr ""
 
-#: ../../action-types/google.rst:20 ../../action-types/google.rst:20
+#: ../../action-types/google.rst:30 ../../action-types/google.rst:30
 msgid "Google Drive login"
 msgstr ""
 
-#: ../../action-types/google.rst:22 ../../action-types/google.rst:22
+#: ../../action-types/google.rst:32 ../../action-types/google.rst:32
 msgid ""
 "If you're authenticated with multiple users to Google in this browser, "
 "select the account you want to use."
 msgstr ""
 
-#: ../../action-types/google.rst:24 ../../action-types/google.rst:24
+#: ../../action-types/google.rst:34 ../../action-types/google.rst:34
 msgid ""
 "After authentication is complete, you'll see the following screen that "
 "allows you to give Effektif access to your Google account."
 msgstr ""
 
-#: ../../action-types/google.rst:29 ../../action-types/google.rst:29
+#: ../../action-types/google.rst:39 ../../action-types/google.rst:39
 msgid "Google Drive permission grant"
 msgstr ""
 
-#: ../../action-types/google.rst:31 ../../action-types/google.rst:31
-msgid ""
-"After accepting the permissions, the pop up will disappear and the "
-"connection with your account is established. The Google Drive file upload "
-"configuration will now display the account and also show the folders in 'My "
-"Drive' in your Google Drive account."
-msgstr ""
-
-#: ../../action-types/google.rst:38 ../../action-types/google.rst:38
-msgid "Google Drive authenticated configuration"
-msgstr ""
-
-#: ../../action-types/google.rst:40 ../../action-types/google.rst:40
+#: ../../action-types/google.rst:54 ../../action-types/google.rst:54
 msgid ""
 "Other people in your organization will be able to see that you have "
 "configured an account, but they will not be able to see youro email address "
 "or browse your account folders."
 msgstr ""
 
-#: ../../action-types/google.rst:42 ../../action-types/google.rst:42
+#: ../../action-types/google.rst:56 ../../action-types/google.rst:56
 msgid ""
 "In the section `Target folder` you can now browse and select the folder you "
 "want to upload the file(s) to."
 msgstr ""
 
-#: ../../action-types/google.rst:44 ../../action-types/google.rst:44
+#: ../../action-types/google.rst:58 ../../action-types/google.rst:58
 msgid ""
 "In section `Files to upload`, you can select the variable field containing "
 "one or more files to be uploaded. If there was no file variable, a variable "
@@ -277,14 +254,14 @@ msgstr ""
 msgid "A send email task in the process editor"
 msgstr ""
 
-#: ../../action-types/google.rst:7 ../../action-types/google.rst:7
+#: ../../action-types/google.rst:17 ../../action-types/google.rst:17
 msgid ""
 "When you click on the button `Configure a Google Drive account`, a popup "
 "window will appear that helps you integrate Effektif with your Google Drive "
 "account."
 msgstr ""
 
-#: ../../action-types/google.rst:9 ../../action-types/google.rst:9
+#: ../../action-types/google.rst:19 ../../action-types/google.rst:19
 msgid ""
 "Google will perform a check if you're already logged in to Google in that "
 "browser. There are 3 possible outcomes:"
@@ -324,6 +301,200 @@ msgid ""
 "the ``startDate`` variable in Effektif, as shown in the *Updated value* "
 "column in the test console’s variables table."
 msgstr ""
+
+#: ../../action-types/google.rst:2 ../../action-types/google.rst:2
+msgid "Google Drive Upload file"
+msgstr ""
+
+#: ../../action-types/google.rst:6 ../../action-types/google.rst:6
+msgid "A Google Drive upload file task in the process editor"
+msgstr ""
+
+#: ../../action-types/google.rst:8 ../../action-types/google.rst:8
+msgid ""
+"The Google Drive `Upload file` action sends one or more files to an account "
+"of your choice."
+msgstr ""
+
+#: ../../action-types/google.rst:12 ../../action-types/google.rst:73
+#: ../../action-types/box.rst:12 ../../action-types/box.rst:12
+#: ../../action-types/google.rst:12 ../../action-types/google.rst:73
+msgid "Configuration"
+msgstr ""
+
+#: ../../action-types/google.rst:14 ../../action-types/google.rst:14
+msgid ""
+"After creating a Google Drive `Upload file` action, the configuration panel "
+"shows a button to start configuring the account."
+msgstr ""
+
+#: ../../action-types/google.rst:41 ../../action-types/google.rst:41
+msgid ""
+"After accepting the permissions, the pop up will disappear and the "
+"connection with your account is established."
+msgstr ""
+
+#: ../../action-types/google.rst:44 ../../action-types/box.rst:29
+#: ../../action-types/box.rst:29 ../../action-types/google.rst:44
+msgid "Upload file action"
+msgstr ""
+
+#: ../../action-types/google.rst:46 ../../action-types/google.rst:46
+msgid ""
+"Once you have configured your Google Drive account, the `Upload file` action"
+" configuration panel displays the account and also shows the folders in `My "
+"Drive` in your Google Drive account."
+msgstr ""
+
+#: ../../action-types/google.rst:52 ../../action-types/google.rst:52
+msgid "Google Drive `Upload file` authenticated configuration"
+msgstr ""
+
+#: ../../action-types/google.rst:62 ../../action-types/google.rst:62
+msgid "Google Drive Print File"
+msgstr ""
+
+#: ../../action-types/google.rst:66 ../../action-types/google.rst:66
+msgid "A Google Drive print file task in the process editor"
+msgstr ""
+
+#: ../../action-types/google.rst:68 ../../action-types/google.rst:68
+msgid ""
+"The Google Drive `Print File` action uses `Google Cloud Print "
+"<http://www.google.com/cloudprint/learn/>`_ to print a file that has been "
+"uploaded to a case."
+msgstr ""
+
+#: ../../action-types/google.rst:79 ../../action-types/google.rst:79
+msgid ""
+"When you have authenticated with a Google account and granted permission, "
+"you are ready to configure the `Print file` action."
+msgstr ""
+
+#: ../../action-types/google.rst:84 ../../action-types/google.rst:84
+msgid "Print file action"
+msgstr ""
+
+#: ../../action-types/google.rst:86 ../../action-types/google.rst:86
+msgid ""
+"Once you have configured your Google Drive account, the `Print file` action "
+"configuration panel displays the account, the printer settings, and the "
+"selected file to print."
+msgstr ""
+
+#: ../../action-types/google.rst:92 ../../action-types/google.rst:92
+msgid "Google Drive `Print file` authenticated configuration"
+msgstr ""
+
+#: ../../action-types/google.rst:94 ../../action-types/google.rst:94
+msgid ""
+"In the section `Files to upload` you can select the file variable that holds"
+" the file you want to print."
+msgstr ""
+
+#: ../../action-types/box.rst:2 ../../action-types/box.rst:2
+msgid "Box Upload file"
+msgstr ""
+
+#: ../../action-types/box.rst:6 ../../action-types/box.rst:6
+msgid "A box upload file task in the process editor"
+msgstr ""
+
+#: ../../action-types/box.rst:8 ../../action-types/box.rst:8
+msgid ""
+"The `Box <http://www.box.com/>`_ `Upload file` action saves one or more "
+"files to a Box account that you select."
+msgstr ""
+
+#: ../../action-types/box.rst:14 ../../action-types/box.rst:14
+msgid ""
+"After creating a Box `Upload file` action, the configuration panel shows a "
+"button to start configuring the account."
+msgstr ""
+
+#: ../../action-types/box.rst:17 ../../action-types/box.rst:17
+msgid ""
+"When you click the `Configure a Box account` button, a popup window will "
+"open for you to authorise Effektif to use your Box account. After logging in"
+" to your Box account, if you are not already logged in, Box shows an "
+"authorization page."
+msgstr ""
+
+#: ../../action-types/box.rst:24 ../../action-types/box.rst:24
+msgid "Box permission grant, after logging in to Box"
+msgstr ""
+
+#: ../../action-types/box.rst:26 ../../action-types/box.rst:26
+msgid ""
+"After granting access, the pop up will close and Effektif will be connected "
+"to your Box account."
+msgstr ""
+
+#: ../../action-types/box.rst:31 ../../action-types/box.rst:31
+msgid ""
+"Once you have configured your Box account, the `Upload file` action "
+"configuration panel displays the account and also shows the folders in `All "
+"Files` in your Box account."
+msgstr ""
+
+#: ../../action-types/box.rst:37 ../../action-types/box.rst:37
+msgid "Box authenticated configuration"
+msgstr ""
+
+#: ../../action-types/box.rst:39 ../../action-types/box.rst:39
+msgid ""
+"Other people in your organization will be able to see that you have "
+"configured an account, but they will not be able to see your email address "
+"or browse your account folders."
+msgstr ""
+
+#: ../../action-types/box.rst:41 ../../action-types/box.rst:41
+msgid ""
+"On the configuration panel, next to `Target folder`, you can now browse and "
+"select the folder you want to upload the file(s) to."
+msgstr ""
+
+#: ../../action-types/box.rst:43 ../../action-types/box.rst:43
+msgid ""
+"Next to `Files to upload`, you can select the variable field containing one "
+"or more files to be uploaded. If there was no file variable, a variable "
+"called 'File' is created automatically. If there was already a file or list "
+"of files in the variables, it is preselected."
+msgstr ""
+
+#: ../../action-types/google.rst:75 ../../action-types/google.rst:75
+msgid ""
+"After creating a Google Drive `Print file` action, the configuration panel "
+"shows a button to start configuring the account. This configuration is the "
+"same as in the `Upload file configuration <upload-file-configuration>`_ "
+"(above)."
+msgstr ""
+
+#~ msgid ""
+#~ "After creating a Google Drive `Print file` action, the configuration panel "
+#~ "shows a button to start configuring the account. This configuration is the "
+#~ "same as in the `Upload file configuration <upload-file-configuration>` "
+#~ "(above)."
+#~ msgstr ""
+
+#~ msgid "Google Drive file upload"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Google Drive file upload sends one or more files to an account of your "
+#~ "choice. After creating a Google Drive file upload action, the configuration "
+#~ "panel shows a button to start configuring the account."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "After accepting the permissions, the pop up will disappear and the "
+#~ "connection with your account is established. The Google Drive file upload "
+#~ "configuration will now display the account and also show the folders in 'My "
+#~ "Drive' in your Google Drive account."
+#~ msgstr ""
+
+#~ msgid "Google Drive authenticated configuration"
+#~ msgstr ""
 
 #~ msgid "Initial configuration file upload"
 #~ msgstr ""

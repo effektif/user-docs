@@ -7,7 +7,7 @@ Google Drive Upload file
 
 The Google Drive `Upload file` action sends one or more files to an account of your choice.
 
-.. _upload-file-configuration
+.. _upload-file-configuration:
 Configuration
 `````````````
 
@@ -56,3 +56,41 @@ Other people in your organization will be able to see that you have configured a
 In the section `Target folder` you can now browse and select the folder you want to upload the file(s) to.
 
 In section `Files to upload`, you can select the variable field containing one or more files to be uploaded. If there was no file variable, a variable called 'File' is created automatically. If there was already a file or list of files in the variables, it is preselected.
+
+
+Google Drive Print File
+-----------------------
+
+.. figure:: /_static/images/action-types/google-drive/print-file-task.png
+
+   A Google Drive print file task in the process editor
+
+The Google Drive `Print File` action 
+uses `Google Cloud Print <http://www.google.com/cloudprint/learn/>`_ 
+to print a file that has been uploaded to a case.
+
+Configuration
+`````````````
+
+After creating a Google Drive `Print file` action,
+the configuration panel shows a button to start configuring the account.
+This configuration is the same as in the `Upload file configuration <upload-file-configuration>`_ (above).
+
+When you have authenticated with a Google account and granted permission,
+you are ready to configure the `Print file` action.
+
+
+Print file action
+`````````````````
+
+Once you have configured your Google Drive account,
+the `Print file` action configuration panel displays the account,
+the printer settings, and the selected file to print.
+
+.. figure:: /_static/images/action-types/google-drive/print-file-configuration.png
+
+   Google Drive `Print file` authenticated configuration
+
+In the section `Files to upload` you can select the file variable
+that holds the file you want to print.
+

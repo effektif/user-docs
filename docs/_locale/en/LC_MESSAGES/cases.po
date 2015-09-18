@@ -149,6 +149,27 @@ msgid ""
 "*Cases without a process*, then click *Start new case*."
 msgstr ""
 
+#: ../../cases.rst:101
+msgid "Closing a case manually"
+msgstr ""
+
+#: ../../cases.rst:103
+msgid ""
+"The normal way to close a case is to complete all of its tasks. However, "
+"sometimes you want to abandon a case and stop working on a it. To do this "
+"you can manually close a case."
+msgstr ""
+
+#: ../../cases.rst:109
+msgid "Closing a case"
+msgstr ""
+
+#: ../../cases.rst:111
+msgid ""
+"To close a case, select the ellipsis menu at the top-right of the case view,"
+" select *Close this case*, and click again to confirm."
+msgstr ""
+
 #~ msgid ""
 #~ "A case is a essentially a small collaboration space for a particular goal. "
 #~ "For example, 'Hire HR manager' or 'Send quote to customer X'. Cases are "
