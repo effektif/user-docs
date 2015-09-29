@@ -1,3 +1,5 @@
+.. _triggers:
+
 Triggers
 --------
 
@@ -13,6 +15,8 @@ A manual trigger is the simplest way to start a process.
 With a manual trigger, you start processes manually in Effektif,
 by selecting `Start new case` and then selecting the process to start.
 
+
+.. _form-trigger:
 
 Form trigger
 ````````````

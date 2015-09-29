@@ -27,68 +27,68 @@ msgid ""
 "the action."
 msgstr ""
 
-#: ../../action-types.rst:11
+#: ../../action-types.rst:13
 msgid "User task"
 msgstr ""
 
-#: ../../action-types.rst:17
+#: ../../action-types.rst:19
 msgid ""
 "A user task means a user has to perform a task. In the :ref:`case <cases>`, "
 "a task will be created. In the configuration form, following optional "
 "details can be specified:"
 msgstr ""
 
-#: ../../action-types.rst:20
+#: ../../action-types.rst:22
 msgid "Assignment:"
 msgstr ""
 
-#: ../../action-types.rst:21
+#: ../../action-types.rst:23
 msgid "A task can be assigned to a user or a :ref:`process role <roles>`"
 msgstr ""
 
-#: ../../action-types.rst:22
+#: ../../action-types.rst:24
 msgid "Form:"
 msgstr ""
 
-#: ../../action-types.rst:23
+#: ../../action-types.rst:25
 msgid ""
 "A task can be given a form. To complete the task, the form has to be "
 "submitted."
 msgstr ""
 
-#: ../../action-types.rst:25
+#: ../../action-types.rst:27
 msgid "Reminders:"
 msgstr ""
 
-#: ../../action-types.rst:25
+#: ../../action-types.rst:27
 msgid "Reminder emails and escalations."
 msgstr ""
 
-#: ../../action-types.rst:28
+#: ../../action-types.rst:30
 msgid "Send email"
 msgstr ""
 
-#: ../../action-types.rst:34
+#: ../../action-types.rst:36
 msgid ""
 "The send email action sends an email to the specified user. In the "
 "configuration you can specify"
 msgstr ""
 
-#: ../../action-types.rst:39
+#: ../../action-types.rst:41
 msgid "To:"
 msgstr ""
 
-#: ../../action-types.rst:38
+#: ../../action-types.rst:40
 msgid ""
 "The people to which the email is sent. You can type a plain email address, "
 "select a variable, a variable field or a user in the organization."
 msgstr ""
 
-#: ../../action-types.rst:47
+#: ../../action-types.rst:49
 msgid "Subject:"
 msgstr ""
 
-#: ../../action-types.rst:42
+#: ../../action-types.rst:44
 msgid ""
 "The subject of the email. To use process data in the subject, start by "
 "typing a `#`. If the list of variable fields is too long, you can just keep "
@@ -97,22 +97,22 @@ msgid ""
 "variable fields from the subject, just delete it like it's normal text."
 msgstr ""
 
-#: ../../action-types.rst:52
+#: ../../action-types.rst:54
 msgid "Attachments:"
 msgstr ""
 
-#: ../../action-types.rst:50
+#: ../../action-types.rst:52
 msgid ""
 "To add attachments, click the attachments field. If there are files in the "
 "process variables, they will be shown. Select one of the file variable "
 "fields to add these as attachments to the mail."
 msgstr ""
 
-#: ../../action-types.rst:57
+#: ../../action-types.rst:59
 msgid "Body text:"
 msgstr ""
 
-#: ../../action-types.rst:55
+#: ../../action-types.rst:57
 msgid ""
 "Just like in the subject, you can combine template text with variable fields"
 " to Start by typing a `#`. See *Subject* above in this list for more details"
@@ -246,11 +246,11 @@ msgstr ""
 msgid "JavaScript JSON values"
 msgstr ""
 
-#: ../../action-types.rst:15
+#: ../../action-types.rst:17
 msgid "A user task in the process editor"
 msgstr ""
 
-#: ../../action-types.rst:32
+#: ../../action-types.rst:34
 msgid "A send email task in the process editor"
 msgstr ""
 

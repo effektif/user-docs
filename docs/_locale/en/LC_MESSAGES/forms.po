@@ -1,0 +1,81 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: User Guide 2.22\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-29 13:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../forms.rst:4
+msgid "Forms"
+msgstr ""
+
+#: ../../forms.rst:6
+msgid ""
+"In Effektif, you can use forms to enter information when you run a process. "
+"There are two places where you can use a form: form triggers and user tasks."
+msgstr ""
+
+#: ../../forms.rst:10
+msgid "Form triggers"
+msgstr ""
+
+#: ../../forms.rst:12
+msgid ""
+"You use a :ref:`form trigger <form-trigger>` to set the values of "
+":ref:`process variables <variables>` when you start a new case for a "
+"process."
+msgstr ""
+
+#: ../../forms.rst:18
+msgid "Starting a new case with a form trigger"
+msgstr ""
+
+#: ../../forms.rst:26
+msgid "User task forms"
+msgstr ""
+
+#: ../../forms.rst:28
+msgid ""
+"You use a :ref:`user task <user-task>` form to view and edit the values of "
+":ref:`process variables <variables>`."
+msgstr ""
+
+#: ../../forms.rst:33
+msgid "Viewing and editing values on a user task form"
+msgstr ""
+
+#: ../../forms.rst:20
+msgid ""
+"To add a form trigger to a process, use the process builder’s :ref:`Triggers"
+" <triggers>` page to select `When a form is submitted`."
+msgstr ""
+
+#: ../../forms.rst:35
+msgid ""
+"To add a user task form to a process, use the process builder’s "
+":ref:`Actions <actions>` page to add a user task, and on the user task’s "
+"configuration panel, select the `Form` tab."
+msgstr ""
+
+#~ msgid ""
+#~ "To add a user task form to a process, use the :ref:`process builder "
+#~ "<process-builder>` to add a user task, and on the user task’s configuration "
+#~ "panel, select the `Form` tab."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To add a form trigger to a process, use the process builder’s "
+#~ ":ref:``Triggers` <process-builder>` page to select `When a form is "
+#~ "submitted`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To add a form trigger to a process, use the :ref:`process builder <process-"
+#~ "builder>`’s `Triggers` page to select `When a form is submitted`."
+#~ msgstr ""

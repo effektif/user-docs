@@ -11,6 +11,7 @@ Effektif User Guide
    tasks
    process-builder
    action-types
+   forms
    control-flow
    access
    integration/salesforce

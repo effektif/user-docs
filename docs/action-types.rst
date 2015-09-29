@@ -7,6 +7,8 @@ All actions are displayed as lines in the 'Simple action list' and as rounded re
 
 Actions typically have a configuration panel that opens up when you select the action.
 
+.. _user-task:
+
 User task
 ---------
 
