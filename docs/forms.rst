@@ -13,7 +13,7 @@ You use a :ref:`form trigger <form-trigger>`
 to set the values of :ref:`process variables <variables>`
 when you start a new case for a process.
 
-.. figure:: /_static/images/forms/form-trigger.png
+.. figure:: /_static/images/forms/start-form.png
 
    Starting a new case with a form trigger
 
@@ -28,7 +28,7 @@ User task forms
 You use a :ref:`user task <user-task>` form 
 to view and edit the values of :ref:`process variables <variables>`.
 
-.. figure:: /_static/images/forms/user-task.png
+.. figure:: /_static/images/forms/user-task-form.png
 
    Viewing and editing values on a user task form
 
