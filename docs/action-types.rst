@@ -50,7 +50,7 @@ Subject:
 
 Attachments:
     To add attachments, click the attachments field.
-    If there are files in the process variables, they will be shown.
+    If there are files in the workflow variables, they will be shown.
     Select one of the file variable fields to add these as attachments to the mail.
 
 Body text:

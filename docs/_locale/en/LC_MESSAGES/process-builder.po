@@ -259,23 +259,8 @@ msgstr ""
 msgid "Variables"
 msgstr ""
 
-#: ../../process-builder.rst:26
-msgid ""
-"A process variable can contain a single value, such as a reference number, "
-"or containing multiple fields, such as an email, which has fields like "
-"`from`, `to`, `subject` and `attachments`."
-msgstr ""
-
 #: ../../process-builder.rst:34
 msgid "Roles"
-msgstr ""
-
-#: ../../process-builder.rst:36
-msgid ""
-"A role (a.k.a. process role) is a kind of process variable that is used for "
-"assigning tasks. A role is a variable of type user that stores a single user"
-" You can optionally configure a role with a list of canidates. Roles are "
-"equivalent to swimlanes in BPMN."
 msgstr ""
 
 #: ../../process-builder.rst:41
@@ -319,14 +304,6 @@ msgstr ""
 msgid "The *Process builder*’s actions palette"
 msgstr ""
 
-#: ../../process-builder.rst:18
-msgid ""
-"A process has variables that store workflow data when the process runs. All "
-"the information in forms and information required by the actions will be "
-"connected to these variables. Each case stores its own values for each "
-"process variable."
-msgstr ""
-
 #: ../../process-builder.rst:24
 msgid ""
 "A trigger form that populates a *Reference number* variable for use in a "
@@ -336,6 +313,29 @@ msgstr ""
 #: ../../process-builder.rst:48
 msgid ""
 "Assigning a task to a *Support engineer* role with candidates Alice and Ben"
+msgstr ""
+
+#: ../../process-builder.rst:18
+msgid ""
+"A process has variables that store workflow data when the process runs. All "
+"the information in forms and information required by the actions will be "
+"connected to these variables. Each case stores its own values for each "
+"workflow variable."
+msgstr ""
+
+#: ../../process-builder.rst:26
+msgid ""
+"A workflow variable can contain a single value, such as a reference number, "
+"or containing multiple fields, such as an email, which has fields like "
+"`from`, `to`, `subject` and `attachments`."
+msgstr ""
+
+#: ../../process-builder.rst:36
+msgid ""
+"A role (a.k.a. process role) is a kind of workflow variable that is used for"
+" assigning tasks. A role is a variable of type user that stores a single "
+"user You can optionally configure a role with a list of canidates. Roles are"
+" equivalent to swimlanes in BPMN."
 msgstr ""
 
 #: ../../process-builder.rst:67
@@ -376,6 +376,26 @@ msgid ""
 "select the *Support engineer* role on another user task’s *Assignment* "
 "configuration."
 msgstr ""
+
+#~ msgid ""
+#~ "A process variable can contain a single value, such as a reference number, "
+#~ "or containing multiple fields, such as an email, which has fields like "
+#~ "`from`, `to`, `subject` and `attachments`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A role (a.k.a. process role) is a kind of process variable that is used for "
+#~ "assigning tasks. A role is a variable of type user that stores a single user"
+#~ " You can optionally configure a role with a list of canidates. Roles are "
+#~ "equivalent to swimlanes in BPMN."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A process has variables that store workflow data when the process runs. All "
+#~ "the information in forms and information required by the actions will be "
+#~ "connected to these variables. Each case stores its own values for each "
+#~ "process variable."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "A process has variables that store workflow data when the process runs. All "
