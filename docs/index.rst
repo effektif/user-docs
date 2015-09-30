@@ -16,4 +16,4 @@ Effektif User Guide
    access
    integration/salesforce
    settings
-   data-types
+   variables

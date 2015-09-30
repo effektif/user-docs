@@ -1,15 +1,14 @@
-Data types
+.. _variables:
+
+Variables
 ==========
 
 The forms and some of the actions are linked to workflow data, called *variables*.
 Workflow variables are mostly created automatically,
 as when creating a new form field.
-Each variable has a data type.
-This section lists the data types variables can have.
 
-.. _variables:
 
-Variables
+Data types
 ---------
 
 Workflow information is stored in variables.
