@@ -28,109 +28,109 @@ msgid ""
 "and subtasks."
 msgstr ""
 
-#: ../../tasks.rst:14
+#: ../../tasks.rst:16
 msgid "Viewing your tasks in the Inbox"
 msgstr ""
 
-#: ../../tasks.rst:16
+#: ../../tasks.rst:18
 msgid ""
 "The *Inbox* shows an overview of tasks that are assigned to you: a list of "
 "tasks for you to work on. To open the Inbox, select *Tasks* from the main "
 "menu and select the *Inbox* tab."
 msgstr ""
 
-#: ../../tasks.rst:23
+#: ../../tasks.rst:25
 msgid "The tasks Inbox"
 msgstr ""
 
-#: ../../tasks.rst:25
+#: ../../tasks.rst:27
 msgid ""
 "Each task shows the assignee, which is you for everything in the inbox, and "
 "a link to the task itself."
 msgstr ""
 
-#: ../../tasks.rst:29
+#: ../../tasks.rst:31
 msgid ""
 "The left-hand side of the inbox is split into sections for tasks that have "
 "due dates, so you can prioritise your work. Tasks that are assigned to you, "
 "but don’t have a due date, are listed on the right."
 msgstr ""
 
-#: ../../tasks.rst:36
+#: ../../tasks.rst:38
 msgid "Viewing all tasks"
 msgstr ""
 
-#: ../../tasks.rst:38
+#: ../../tasks.rst:40
 msgid "The *All tasks* view shows tasks for all assignees."
 msgstr ""
 
-#: ../../tasks.rst:42
+#: ../../tasks.rst:44
 msgid "The list of all tasks"
 msgstr ""
 
-#: ../../tasks.rst:45
+#: ../../tasks.rst:47
 msgid ""
 "Tasks with due dates have a clock indicator to the right of the task name. "
 "This indicator is shown in red for tasks that are now due."
 msgstr ""
 
-#: ../../tasks.rst:48
+#: ../../tasks.rst:50
 msgid ""
 "You can use the controls on the right to filter the tasks list, which is "
 "useful when there is lots of work going on."
 msgstr ""
 
-#: ../../tasks.rst:53
+#: ../../tasks.rst:55
 msgid "Task filters"
 msgstr ""
 
-#: ../../tasks.rst:55
+#: ../../tasks.rst:57
 msgid ""
 "The *All tasks* view includes several kinds of task filters, that you can "
 "use to manage a long list of tasks."
 msgstr ""
 
-#: ../../tasks.rst:58
+#: ../../tasks.rst:60
 msgid ""
 "*Involvement filter* - shows tasks according to how they relate to you, such"
 " as tasks you started."
 msgstr ""
 
-#: ../../tasks.rst:60
+#: ../../tasks.rst:62
 msgid "*Process* filter - shows tasks for a specific process."
 msgstr ""
 
-#: ../../tasks.rst:61
+#: ../../tasks.rst:63
 msgid ""
 "*Due date* filter - shows tasks according to when they are due, such as "
 "tasks that are overdue."
 msgstr ""
 
-#: ../../tasks.rst:63
+#: ../../tasks.rst:65
 msgid ""
 "*Completed* filter - shows tasks that are complete, which are normally "
 "hidden."
 msgstr ""
 
-#: ../../tasks.rst:68
+#: ../../tasks.rst:70
 msgid "Creating case tasks"
 msgstr ""
 
-#: ../../tasks.rst:70
+#: ../../tasks.rst:72
 msgid ""
 "To create tasks, open a case, and use the tasks list to add a new task. "
 "Enter the task title in the text box to create the task."
 msgstr ""
 
-#: ../../tasks.rst:75
+#: ../../tasks.rst:77
 msgid "Type the title of the new task and type Enter"
 msgstr ""
 
-#: ../../tasks.rst:77
+#: ../../tasks.rst:79
 msgid "After you have added a task, it appears in the list:"
 msgstr ""
 
-#: ../../tasks.rst:81
+#: ../../tasks.rst:83
 msgid ""
 "When a process is started, a :ref:`case <cases>` is created and all elements"
 " not having incoming transitions will be started. So if you only use the "
@@ -138,17 +138,7 @@ msgid ""
 "those tasks in the list will be started immediate when the process starts."
 msgstr ""
 
-#: ../../tasks.rst:86
-msgid "Completing a task"
-msgstr ""
-
-#: ../../tasks.rst:88
-msgid ""
-"For tasks, there is a highlighted `Done` button (the white square on the "
-"green background) to complete the task."
-msgstr ""
-
-#: ../../tasks.rst:90
+#: ../../tasks.rst:110
 msgid ""
 "When tasks have a form, the form is displayed in the same position and it "
 "has the button(s) to complete the task at the bottom of the form. Normally "
@@ -157,19 +147,83 @@ msgid ""
 "and complete the task in one go."
 msgstr ""
 
-#: ../../tasks.rst:96
-msgid "Reopening a task"
+#: ../../tasks.rst:100
+msgid "Assigning a task"
 msgstr ""
 
-#: ../../tasks.rst:98
+#: ../../tasks.rst:90
+msgid ""
+"You can assign a task to yourself, or someone else, to indicate who is "
+"expected to work on the task. An assigned task is listed in the assignee’s "
+":ref:`tasks inbox <tasks-inbox>`, and the assignee receives task "
+"notifications and reminders."
+msgstr ""
+
+#: ../../tasks.rst:94
+msgid ""
+"You can assign a task from anywhere a task appears in a task list. To assign"
+" the task, click the assignee button immediately to the left of the task "
+"name, to open the list of candidates."
+msgstr ""
+
+#: ../../tasks.rst:102
+msgid ""
+"To assign the task, select a candidate from the list, or type a name or "
+"email address to filter it first."
+msgstr ""
+
+#: ../../tasks.rst:108
+msgid ""
+"For tasks, there is a highlighted `Done` button (the square on the green "
+"background) to complete the task."
+msgstr ""
+
+#: ../../tasks.rst:88
+msgid "Assigning tasks"
+msgstr ""
+
+#: ../../tasks.rst:106
+msgid "Completing tasks"
+msgstr ""
+
+#: ../../tasks.rst:116
+msgid "Reopening tasks"
+msgstr ""
+
+#: ../../tasks.rst:118
 msgid ""
 "When you see the `Reopen` button in a task, it means the task is completed. "
 "You may want to reopen a task that you closed a task by accident, or when "
 "you learn about additional work that needs to be done for this task. If you "
 "just forgot to attach a document or make a comment, you can still do that "
-"without reopening the task. The advantage of reopening a task instead of "
-"creating a new task is that the existing task retains its context."
+"without reopening the task."
 msgstr ""
+
+#: ../../tasks.rst:123
+msgid ""
+"The advantage of reopening a task instead of creating a new task is that the"
+" existing task retains its context."
+msgstr ""
+
+#~ msgid ""
+#~ "When you see the `Reopen` button in a task, it means the task is completed. "
+#~ "You may want to reopen a task that you closed a task by accident, or when "
+#~ "you learn about additional work that needs to be done for this task. If you "
+#~ "just forgot to attach a document or make a comment, you can still do that "
+#~ "without reopening the task. The advantage of reopening a task instead of "
+#~ "creating a new task is that the existing task retains its context."
+#~ msgstr ""
+
+#~ msgid "Completing a task"
+#~ msgstr ""
+
+#~ msgid "Reopening a task"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For tasks, there is a highlighted `Done` button (the white square on the "
+#~ "green background) to complete the task."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "*Involvement filter* - shows tasks according to how they relate to you,"
