@@ -10,6 +10,8 @@ You can also add ad-hoc tasks to a case.
 
 In Effektif, a task may be assigned to a specific user, and have a due date and subtasks.
 
+.. _tasks-inbox:
+
 Viewing your tasks in the Inbox
 -------------------------------
 
@@ -82,22 +84,41 @@ When a process is started, a :ref:`case <cases>` is created and all elements not
 So if you only use the :ref:`simple action list <action-list>` to create a list of user tasks, all those tasks in the list will be started immediate when the process starts.
 
 
-Completing a task
+Assigning tasks
+---------------
+
+You can assign a task to yourself, or someone else, to indicate who is expected to work on the task.
+An assigned task is listed in the assignee’s :ref:`tasks inbox <tasks-inbox>`,
+and the assignee receives task notifications and reminders.
+
+You can assign a task from anywhere a task appears in a task list.
+To assign the task, click the assignee button immediately to the left of the task name,
+to open the list of candidates.
+
+.. figure:: /_static/images/tasks/assign.png
+
+   Assigning a task
+
+To assign the task, select a candidate from the list, or type a name or email address to filter it first.
+
+
+Completing tasks
 -----------------
 
-For tasks, there is a highlighted `Done` button (the white square on the green background) to complete the task.
+For tasks, there is a highlighted `Done` button (the square on the green background) to complete the task.
 
 When tasks have a form, the form is displayed in the same position and it has the button(s) to complete the task at the bottom of the form.
 Normally there will just be a `Done` button, but there may also be multiple buttons when you use a decision.
 Each of those buttons will register the decision and complete the task in one go.
 
 
-Reopening a task
-----------------
+Reopening tasks
+---------------
 
 When you see the `Reopen` button in a task, it means the task is completed.
 You may want to reopen a task that you closed a task by accident,
 or when you learn about additional work that needs to be done for this task.
 If you just forgot to attach a document or make a comment, you can still do that without reopening the task.
+
 The advantage of reopening a task instead of creating a new task is that 
 the existing task retains its context.
