@@ -12,6 +12,7 @@ Effektif User Guide
    process-builder
    action-types
    control-flow
+   notifications
    access
    integration/salesforce
    settings
