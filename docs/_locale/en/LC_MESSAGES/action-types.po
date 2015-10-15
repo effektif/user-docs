@@ -448,13 +448,13 @@ msgid ""
 "or browse your account folders."
 msgstr ""
 
-#: ../../action-types/box.rst:42 ../../action-types/box.rst:42
+#: ../../action-types/box.rst:41 ../../action-types/box.rst:41
 msgid ""
 "On the configuration panel, next to `Target folder`, you can now browse and "
 "select the folder you want to upload the file(s) to."
 msgstr ""
 
-#: ../../action-types/box.rst:53 ../../action-types/box.rst:53
+#: ../../action-types/box.rst:51 ../../action-types/box.rst:51
 msgid ""
 "Next to `Files to upload`, you can select the variable field containing one "
 "or more files to be uploaded. If there was no file variable, a variable "
@@ -470,8 +470,8 @@ msgid ""
 "(above)."
 msgstr ""
 
-#: ../../action-types/google.rst:58 ../../action-types/box.rst:45
-#: ../../action-types/box.rst:45 ../../action-types/google.rst:58
+#: ../../action-types/google.rst:58 ../../action-types/box.rst:43
+#: ../../action-types/box.rst:43 ../../action-types/google.rst:58
 msgid ""
 "Next to `Folder name template`, you can optionally specify a subfolder name "
 "to create inside the target folder. This name template can include process "
