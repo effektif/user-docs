@@ -1,0 +1,188 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: User Guide 2.22\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-15 17:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../variables.rst:4
+msgid "Variables"
+msgstr ""
+
+#: ../../variables.rst:6
+msgid ""
+"The forms and some of the actions are linked to workflow data, called "
+"*variables*. Workflow variables are mostly created automatically, as when "
+"creating a new form field."
+msgstr ""
+
+#: ../../variables.rst:12
+msgid "Data types"
+msgstr ""
+
+#: ../../variables.rst:14
+msgid ""
+"Workflow information is stored in variables. Each variable has a user-"
+"defined name and a type. A type can be a single value, like a string (text) "
+"or an email address. Other types like user, file or email are composite - "
+"consisting of several values. Composite types have a list of fields."
+msgstr ""
+
+#: ../../variables.rst:20
+msgid ""
+"When using expressions or configuring some action, references are made to "
+"workflow data. These can be references to variables, or to fields inside "
+"composite variables. The user interface guides you and shows the options you"
+" have."
+msgstr ""
+
+#: ../../variables.rst:28
+msgid "String type"
+msgstr ""
+
+#: ../../variables.rst:30
+msgid "The *String* type stores plain text."
+msgstr ""
+
+#: ../../variables.rst:36
+msgid "File type"
+msgstr ""
+
+#: ../../variables.rst:38
+msgid "The *file* type stores a file."
+msgstr ""
+
+#: ../../variables.rst:44
+msgid "User type"
+msgstr ""
+
+#: ../../variables.rst:46
+msgid ""
+"A variable of type *user* refers to a user in your organization. A user is "
+"an object type with the following properties:"
+msgstr ""
+
+#: ../../variables.rst:49
+msgid "(:ref:`id <type-id>`) The unique identifier for this user"
+msgstr ""
+
+#: ../../variables.rst:50
+msgid "(:ref:`string <type-string>`) The user’s first name"
+msgstr ""
+
+#: ../../variables.rst:51
+msgid "(:ref:`string <type-string>`) The user’s last name"
+msgstr ""
+
+#: ../../variables.rst:52
+msgid ""
+"(:ref:`emailAddress <type-email-address>`) The email address of the user"
+msgstr ""
+
+#: ../../variables.rst:57
+msgid "Email address type"
+msgstr ""
+
+#: ../../variables.rst:59
+msgid "The *email address* type stores an email address."
+msgstr ""
+
+#: ../../variables.rst:65
+msgid "Email type"
+msgstr ""
+
+#: ../../variables.rst:67
+msgid ""
+"The *email type* stores an email, and is used by the email trigger. The "
+"email that triggers the process will be stored as a variable. The data "
+"fields in the email, such as *from address* or the attachments can be used "
+"later on."
+msgstr ""
+
+#: ../../variables.rst:71
+msgid "An email is a composite type with the properties:"
+msgstr ""
+
+#: ../../variables.rst:73
+msgid ":ref:`id <type-id>`: The unique identifier for this email"
+msgstr ""
+
+#: ../../variables.rst:74
+msgid "(:ref:`emailAddress <type-email-address>`) The sender email address"
+msgstr ""
+
+#: ../../variables.rst:75
+msgid ""
+"(:ref:`list <type-list>` of :ref:`emailAddress <type-email-address>`) The "
+"email addresses of the recipients"
+msgstr ""
+
+#: ../../variables.rst:76
+msgid ""
+"(:ref:`list <type-list>` of :ref:`emailAddress <type-email-address>`) Email "
+"addresses that receive a carbon copy of the message"
+msgstr ""
+
+#: ../../variables.rst:77
+msgid "(:ref:`string <type-string>`) The subject of the email"
+msgstr ""
+
+#: ../../variables.rst:78
+msgid "(:ref:`string <type-string>`) The plain text message"
+msgstr ""
+
+#: ../../variables.rst:79
+msgid ""
+"(:ref:`string <type-string>`) The HTML code for an HTML email (optional)"
+msgstr ""
+
+#: ../../variables.rst:80
+msgid ""
+"(:ref:`list <type-list>` of :ref:`file <type-file>`) The files to attach to "
+"the email"
+msgstr ""
+
+#: ../../variables.rst:86
+msgid "ID type"
+msgstr ""
+
+#: ../../variables.rst:88
+msgid ""
+"The ID type is a special kind of string. These IDs identify objects and they"
+" are always created by Effektif, and have no other meaning. An example of an"
+" ID string is ``53fae958036471cea136ea83``."
+msgstr ""
+
+#: ../../variables.rst:97
+msgid "Object types"
+msgstr ""
+
+#: ../../variables.rst:99
+msgid ""
+"Object types are composite data types that have a list of fields. Each field"
+" has a name. For example: a user is an object type, with fields such as "
+"``firstName``, ``lastName``, ``mailAddress``."
+msgstr ""
+
+#: ../../variables.rst:104
+msgid ""
+"When an action requires data, like the ``files`` in a `Google File Upload`, "
+"it’s possible to bind those input parameters to variables or fields inside "
+"variable objects."
+msgstr ""
+
+#: ../../variables.rst:112
+msgid "List type"
+msgstr ""
+
+#: ../../variables.rst:114
+msgid ""
+"A list is simply a collection of values. The list is ordered and all "
+"elements are of a specified type."
+msgstr ""
