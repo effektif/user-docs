@@ -4,16 +4,18 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-15 17:41+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-10-16 11:58+0200\n"
+"Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
+"Language-Team: \n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
 
 #: ../../variables.rst:4
 msgid "Variables"
-msgstr ""
+msgstr "Variablen"
 
 #: ../../variables.rst:6
 msgid ""
@@ -21,10 +23,13 @@ msgid ""
 "*variables*. Workflow variables are mostly created automatically, as when "
 "creating a new form field."
 msgstr ""
+"Formulare und bestimmte Aktionen erzeugen oder konsumieren Daten, sogenannte"
+" *Variablen*. Variablen werden meisten automatisch angelegt, zum Beispiel, "
+"wenn Sie ein Formularfeld erzeugen."
 
 #: ../../variables.rst:12
 msgid "Data types"
-msgstr ""
+msgstr "Datentypen"
 
 #: ../../variables.rst:14
 msgid ""
@@ -33,6 +38,14 @@ msgid ""
 "or an email address. Other types like user, file or email are composite - "
 "consisting of several values. Composite types have a list of fields."
 msgstr ""
+"Informationen über einen Workflow werden in Variablen abgelegt. Jede "
+"Variable hat hierbei einen vom Nutzer definierten Namen und einen Typ. Bei "
+"den Typen unterscheidet man grundsätzlich zwischen zwei Kategorien. "
+"Einerseits gibt es Typen, die einen einfachen Wert haben, wie zum Beispiel "
+"String (Text) oder eine Emailadresse. Es gibt aber auch komplexe Typen, wie "
+"zum Beispiel Nutzer, Dateien oder Emails. Diese fassen mehrere Werte "
+"sinnvoll zusammen. Ein Nutzer hat zum Beispiel einen Vorname, einen "
+"Nachnamen und eine Emailadresse. "
 
 #: ../../variables.rst:20
 msgid ""
@@ -41,61 +54,68 @@ msgid ""
 "composite variables. The user interface guides you and shows the options you"
 " have."
 msgstr ""
+"Wenn Sie Aktionen konfigurieren referenzierten Sie immer Daten im Workflow. "
+"Das können Referenzen zu Variablen selbst oder Feldern innerhalb der "
+"Variablen sein. Unsere Oberfläche hilft Ihnen bei dieser Auswahl und zeigt "
+"jeweils alle verfügbaren Optionen auf. "
 
 #: ../../variables.rst:28
 msgid "String type"
-msgstr ""
+msgstr "String-Typ"
 
 #: ../../variables.rst:30
 msgid "The *String* type stores plain text."
-msgstr ""
+msgstr "Der Typ *String* enthält nicht formatierten Text"
 
 #: ../../variables.rst:36
 msgid "File type"
-msgstr ""
+msgstr "Datei-Typ"
 
 #: ../../variables.rst:38
 msgid "The *file* type stores a file."
-msgstr ""
+msgstr "Der Typ *Datei* referenziert Dateien"
 
 #: ../../variables.rst:44
 msgid "User type"
-msgstr ""
+msgstr "Nutzer-Typ"
 
 #: ../../variables.rst:46
 msgid ""
 "A variable of type *user* refers to a user in your organization. A user is "
 "an object type with the following properties:"
 msgstr ""
+"Variablen vom Typ *Nutzer* referenzieren Nutzer innerhalb Ihrer "
+"Organisation. Nutzer-Variablen haben erhalten die folgenden Felder:"
 
 #: ../../variables.rst:49
 msgid "(:ref:`id <type-id>`) The unique identifier for this user"
-msgstr ""
+msgstr "(:ref:`ID <type-id>`) Eindeutige Kennung für den Nutzer"
 
 #: ../../variables.rst:50
 msgid "(:ref:`string <type-string>`) The user’s first name"
-msgstr ""
+msgstr "(:ref:`String <type-string>`) Der Vorname des Nutzers"
 
 #: ../../variables.rst:51
 msgid "(:ref:`string <type-string>`) The user’s last name"
-msgstr ""
+msgstr "(:ref:`String <type-string>`) Der Nachname des Nutzers"
 
 #: ../../variables.rst:52
 msgid ""
 "(:ref:`emailAddress <type-email-address>`) The email address of the user"
 msgstr ""
+"(:ref:`Emailadresse <type-email-address>`) Die Emailadresse des Nutzers"
 
 #: ../../variables.rst:57
 msgid "Email address type"
-msgstr ""
+msgstr "Emailadressen-Typ"
 
 #: ../../variables.rst:59
 msgid "The *email address* type stores an email address."
-msgstr ""
+msgstr "Der Typ *Emailadresse* enthält Emailadressen."
 
 #: ../../variables.rst:65
 msgid "Email type"
-msgstr ""
+msgstr "Email-Typ"
 
 #: ../../variables.rst:67
 msgid ""
@@ -104,53 +124,66 @@ msgid ""
 "fields in the email, such as *from address* or the attachments can be used "
 "later on."
 msgstr ""
+"Der Typ *Email* enthält alle Informationen über eine bestimmte Email. Dieser"
+" Typ wird zum Beispiel vom Email-Auslöser verwendet um Daten über die "
+"eingetroffene Email zur Verfügung zu stellen. Dadurch können Informationen, "
+"wie zum Beispiel der Absender oder die Anhänge im Workflow verwendet werden."
 
 #: ../../variables.rst:71
 msgid "An email is a composite type with the properties:"
-msgstr ""
+msgstr "Emails enthalten die folgenden Felder:"
 
 #: ../../variables.rst:73
 msgid ":ref:`id <type-id>`: The unique identifier for this email"
-msgstr ""
+msgstr "(:ref:`ID <type-id>`) Eine eindeutige Kennung für die Email"
 
 #: ../../variables.rst:74
 msgid "(:ref:`emailAddress <type-email-address>`) The sender email address"
 msgstr ""
+"(:ref:`Emailadresse <type-email-address>`) Die Emailadresse des Absenders"
 
 #: ../../variables.rst:75
 msgid ""
 "(:ref:`list <type-list>` of :ref:`emailAddress <type-email-address>`) The "
 "email addresses of the recipients"
 msgstr ""
+"(:ref:`Liste <type-list>` von :ref:`Emailadressen <type-email-address>`) "
+"Alle Empfänger der Email"
 
 #: ../../variables.rst:76
 msgid ""
 "(:ref:`list <type-list>` of :ref:`emailAddress <type-email-address>`) Email "
 "addresses that receive a carbon copy of the message"
 msgstr ""
+"(:ref:`Liste <type-list>` von :ref:`Emailadressen <type-email-address>`) "
+"Alle unter CC gelisteten Empfänger der Email"
 
 #: ../../variables.rst:77
 msgid "(:ref:`string <type-string>`) The subject of the email"
-msgstr ""
+msgstr "(:ref:`String <type-string>`) Der Betreff der Email"
 
 #: ../../variables.rst:78
 msgid "(:ref:`string <type-string>`) The plain text message"
-msgstr ""
+msgstr "(:ref:`String <type-string>`) Der nicht formatierte Inhalte der Email"
 
 #: ../../variables.rst:79
 msgid ""
 "(:ref:`string <type-string>`) The HTML code for an HTML email (optional)"
 msgstr ""
+"(:ref:`String <type-string>`) Der HTML-formatierte Inhalt der Email "
+"(optional)"
 
 #: ../../variables.rst:80
 msgid ""
 "(:ref:`list <type-list>` of :ref:`file <type-file>`) The files to attach to "
 "the email"
 msgstr ""
+"(:ref:`Liste <type-list>` von :ref:`Dateien <type-file>`) Alle Anhänge der "
+"Email"
 
 #: ../../variables.rst:86
 msgid "ID type"
-msgstr ""
+msgstr "ID-Typ"
 
 #: ../../variables.rst:88
 msgid ""
@@ -158,10 +191,13 @@ msgid ""
 " are always created by Effektif, and have no other meaning. An example of an"
 " ID string is ``53fae958036471cea136ea83``."
 msgstr ""
+"IDs werden genutzt um Ressourcen eindeutig identifizieren zu können. Sie "
+"werden ausschließlich von Effektif erzeugt und haben keine weitere "
+"Bedeutung. Ein Beispiel für eine ID ist ``53fae958036471cea136ea83``."
 
 #: ../../variables.rst:97
 msgid "Object types"
-msgstr ""
+msgstr "Objekt-Typen"
 
 #: ../../variables.rst:99
 msgid ""
@@ -169,20 +205,24 @@ msgid ""
 " has a name. For example: a user is an object type, with fields such as "
 "``firstName``, ``lastName``, ``mailAddress``."
 msgstr ""
+"Objekt-Typen sind zusammengesetzte Typen, die verschiedene Felder "
+"beinhalten. Ein Nutzer ist zum Beispiel ein Objekt mit Felder wie "
+"``firstName``, ``lastName`` und ``mailAddress``."
 
-#: ../../variables.rst:104
-msgid ""
-"When an action requires data, like the ``files`` in a `Google File Upload`, "
-"it’s possible to bind those input parameters to variables or fields inside "
-"variable objects."
-msgstr ""
-
-#: ../../variables.rst:112
+#: ../../variables.rst:107
 msgid "List type"
-msgstr ""
+msgstr "Listen-Typ"
 
-#: ../../variables.rst:114
+#: ../../variables.rst:109
 msgid ""
 "A list is simply a collection of values. The list is ordered and all "
 "elements are of a specified type."
 msgstr ""
+"Eine Liste fasst mehrere Objekte zusammen. Listen sind immer sortiert und "
+"beinhalten Elemente eines bestimmten Typs."
+
+#~ msgid ""
+#~ "When an action requires data, like the ``files`` in a `Google File Upload`, "
+#~ "it’s possible to bind those input parameters to variables or fields inside "
+#~ "variable objects."
+#~ msgstr ""
