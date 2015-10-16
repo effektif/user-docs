@@ -338,11 +338,11 @@ msgid ""
 " equivalent to swimlanes in BPMN."
 msgstr ""
 
-#: ../../process-builder.rst:67
+#: ../../process-builder.rst:65
 msgid "Using a form field to assign a role"
 msgstr ""
 
-#: ../../process-builder.rst:69
+#: ../../process-builder.rst:67
 msgid ""
 "When you execute a process, you normally assign a specific person to a role "
 "by using the assignee button to select someone. Sometimes, you want this "
@@ -351,25 +351,25 @@ msgid ""
 "*Support engineer* before completing an *Initial investigation* task."
 msgstr ""
 
-#: ../../process-builder.rst:76
+#: ../../process-builder.rst:74
 msgid ""
 "You can do this by adding the role assignment to a form, because a task "
 "assignment role is a process variable, just like any other *User* form "
 "field."
 msgstr ""
 
-#: ../../process-builder.rst:82
+#: ../../process-builder.rst:80
 msgid "Adding the *Support engineer* role assignment to a form"
 msgstr ""
 
-#: ../../process-builder.rst:84
+#: ../../process-builder.rst:82
 msgid ""
 "To add a role assignment to a form, first define the process role, such as "
 "the *Support engineer* role created above, then on the form, under the "
 "*Reuse field* heading, select the role variable to add it to the form."
 msgstr ""
 
-#: ../../process-builder.rst:89
+#: ../../process-builder.rst:87
 msgid ""
 "Alternatively, you can first define the *Support engineer* role by adding a "
 "field with type *User* to the *Initial investigation* task’s form, and then "

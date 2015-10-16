@@ -117,15 +117,15 @@ msgid ""
 "field types to add a field of that type to the form."
 msgstr ""
 
-#: ../../forms.rst:89
+#: ../../forms.rst:90
 msgid "Configuring form fields"
 msgstr ""
 
-#: ../../forms.rst:91
+#: ../../forms.rst:92
 msgid "When you add fields to a form, they are shown in a `Fields` section:"
 msgstr ""
 
-#: ../../forms.rst:95
+#: ../../forms.rst:96
 msgid "Configuring a form field in the process editor’s form builder"
 msgstr ""
 
@@ -139,91 +139,97 @@ msgstr ""
 msgid "Adding an existing workflow variable to a form"
 msgstr ""
 
-#: ../../forms.rst:85
-msgid ""
-"Adding an existing field to a form makes it possible to view or update "
-"existing information."
-msgstr ""
-
-#: ../../forms.rst:97
+#: ../../forms.rst:98
 msgid ""
 "Select a field in the `Fields` section to open its configuration panel. The "
 "top row of the field configuration panel shows the field type label, the "
 "editable field name."
 msgstr ""
 
-#: ../../forms.rst:101
+#: ../../forms.rst:102
 msgid ""
 "To delete a field, click the delete button in the top-right corner, and "
 "click the confirmation tick mark button to confirm:"
 msgstr ""
 
-#: ../../forms.rst:107
+#: ../../forms.rst:108
 msgid "Deleting a form field"
 msgstr ""
 
-#: ../../forms.rst:109
+#: ../../forms.rst:110
 msgid "The other field configuration properties are as follows."
 msgstr ""
 
-#: ../../forms.rst:111
+#: ../../forms.rst:112
 msgid ""
 "`Description` - an optional field description, shown via context-sensitive "
 "help icon"
 msgstr ""
 
-#: ../../forms.rst:112
+#: ../../forms.rst:113
 msgid ""
 "`Initial value` - an optional default field value that is used to pre-"
 "populate the form"
 msgstr ""
 
-#: ../../forms.rst:113
+#: ../../forms.rst:114
 msgid ""
 "`Read-only` - specifies that the value is not editable, used to display "
 "previously-entered information"
 msgstr ""
 
-#: ../../forms.rst:114
+#: ../../forms.rst:115
 msgid ""
 "`Mandatory` - specifies that a field value is required, so that the form "
 "cannot be completed without a value"
 msgstr ""
 
-#: ../../forms.rst:116
+#: ../../forms.rst:117
 msgid ""
 "Text fields also have an additional `Multi-line` option that specifies that "
 "the form field be displayed as a multi-line text input area, for longer text"
 " values."
 msgstr ""
 
-#: ../../forms.rst:120
+#: ../../forms.rst:121
 msgid "Choice fields have a `Options` - the list of values to choose between:"
 msgstr ""
 
-#: ../../forms.rst:124
+#: ../../forms.rst:125
 msgid "Choice field configuration"
 msgstr ""
 
-#: ../../forms.rst:126
+#: ../../forms.rst:127
 msgid ""
 "Date fields have a `Date/time` option for choosing between a date and time, "
 "just a date without a time of day, or just a time:"
 msgstr ""
 
-#: ../../forms.rst:130
+#: ../../forms.rst:131
 msgid "Date field configuration"
 msgstr ""
 
-#: ../../forms.rst:132
+#: ../../forms.rst:133
 msgid ""
 "User fields also have a `Candidates` option that you can use to choose which"
 " users can be selected:"
 msgstr ""
 
-#: ../../forms.rst:136
+#: ../../forms.rst:137
 msgid "User field configuration"
 msgstr ""
+
+#: ../../forms.rst:85
+msgid ""
+"Adding an existing field to a form makes it possible to view or update "
+"existing information, such as a user task form that you use to complete "
+"information that’s missing from a trigger form."
+msgstr ""
+
+#~ msgid ""
+#~ "Adding an existing field to a form makes it possible to view or update "
+#~ "existing information."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "The `Reuse a field` section is a list of variables that have already been "

@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
@@ -295,7 +295,6 @@ msgid ""
 "column in the test console’s variables table."
 msgstr ""
 
-<<<<<<< HEAD
 #: ../../action-types/google.rst:2 ../../action-types/google.rst:2
 msgid "Google Drive Upload file"
 msgstr ""
@@ -513,7 +512,6 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Google Drive authenticated configuration"
-=======
 #: ../../action-types.rst:52
 msgid ""
 "To add attachments, click the attachments field. If there are files in the "
@@ -525,7 +523,6 @@ msgstr ""
 #~ "To add attachments, click the attachments field. If there are files in the "
 #~ "process variables, they will be shown. Select one of the file variable "
 #~ "fields to add these as attachments to the mail."
->>>>>>> #12 Complete forms chapter
 #~ msgstr ""
 
 #~ msgid "Initial configuration file upload"
