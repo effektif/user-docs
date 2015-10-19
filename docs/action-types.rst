@@ -15,7 +15,7 @@ User task
    A user task in the process editor
 
 A user task means a user has to perform a task.
-In the :ref:`case <cases>`, a task will be created. In the configuration form, following optional details can be specified:
+In the :ref:`case <cases>`, a task will be created. In the configuration form, the following optional details can be specified:
 
 Assignment:
     A task can be assigned to a user or a :ref:`process role <roles>`
