@@ -1,0 +1,86 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: User Guide 2.22\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-26 16:40+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../profile.rst:4
+msgid "My profile"
+msgstr ""
+
+#: ../../profile.rst:18
+msgid "Me"
+msgstr ""
+
+#: ../../profile.rst:30
+msgid "Preferences"
+msgstr ""
+
+#: ../../profile.rst:42
+msgid "Organizations"
+msgstr ""
+
+#: ../../profile.rst:55
+msgid "Services"
+msgstr ""
+
+#: ../../profile.rst:6
+msgid ""
+"On the top-right drop-down menu, select `My Profile` to view and edit your "
+"own Effektif user settings. The profile page is split into four sections:"
+msgstr ""
+
+#: ../../profile.rst:20
+msgid ""
+"Use the `Me` section to update your user profile, including contact details "
+"and avatar image, or change your password."
+msgstr ""
+
+#: ../../profile.rst:32
+msgid ""
+"Use the `Preferences` section to configure the Effektif user interface and "
+"notifications."
+msgstr ""
+
+#: ../../profile.rst:36
+msgid "Uncheck the checkboxes to disable all email notifications."
+msgstr ""
+
+#: ../../profile.rst:44
+msgid ""
+"The `Organizations` section lists organizations that you belong to, and "
+"indicates whether you are an organization administrator."
+msgstr ""
+
+#: ../../profile.rst:49
+msgid "You can use the leave icon to leave an organisation."
+msgstr ""
+
+#: ../../profile.rst:57
+msgid ""
+"The `Services` section shows your personal configurations for third-party "
+"services, such as a linked Google Account."
+msgstr ""
+
+#: ../../profile.rst:10
+msgid ":ref:`Me <me>`"
+msgstr ""
+
+#: ../../profile.rst:11
+msgid ":ref:`Preferences <preferences>`"
+msgstr ""
+
+#: ../../profile.rst:12
+msgid ":ref:`Organizations <organizations>`"
+msgstr ""
+
+#: ../../profile.rst:13
+msgid ":ref:`Services <services>`"
+msgstr ""

@@ -31,13 +31,6 @@ msgstr ""
 msgid "User task"
 msgstr ""
 
-#: ../../action-types.rst:17
-msgid ""
-"A user task means a user has to perform a task. In the :ref:`case <cases>`, "
-"a task will be created. In the configuration form, following optional "
-"details can be specified:"
-msgstr ""
-
 #: ../../action-types.rst:20
 msgid "Assignment:"
 msgstr ""
@@ -480,6 +473,19 @@ msgid ""
 "then you can use that to save each customer’s files in a separate folder. "
 "Use a forward slash (``/``) to separate nested subfolder levels."
 msgstr ""
+
+#: ../../action-types.rst:17
+msgid ""
+"A user task means a user has to perform a task. In the :ref:`case <cases>`, "
+"a task will be created. In the configuration form, the following optional "
+"details can be specified:"
+msgstr ""
+
+#~ msgid ""
+#~ "A user task means a user has to perform a task. In the :ref:`case <cases>`, "
+#~ "a task will be created. In the configuration form, following optional "
+#~ "details can be specified:"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "After creating a Google Drive `Print file` action, the configuration panel "
