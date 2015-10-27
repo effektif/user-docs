@@ -40,7 +40,7 @@ so that related tasks are automatically assigned to the same person.
 Form
 ^^^^
 
-Use form builder to create a user task form for entering and updating data as part of the user task.
+Use the form builder to create a user task form for entering and updating data as part of the user task.
 
 .. _reminders:
 
@@ -85,11 +85,11 @@ Send email
 The send email action sends an email to the specified user.
 In the configuration you can specify
 
-To: 
+To:
     The people to which the email is sent.
     You can type a plain email address, select a variable, a variable field or a user in the organization.
 
-Subject: 
+Subject:
     The subject of the email.
     To use process data in the subject, start by typing a `#`.
     If the list of variable fields is too long, you can just keep typing after the `#` to narrow the list.
@@ -105,7 +105,7 @@ Attachments:
 Body text:
     Just like in the subject, you can combine template text with variable fields to Start by typing a `#`.
     See *Subject* above in this list for more details instructions on using the `#`.
-    
+
 
 .. include:: action-types/google.rst
 .. include:: action-types/box.rst
