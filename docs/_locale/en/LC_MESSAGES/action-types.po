@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
@@ -50,10 +50,6 @@ msgid ""
 msgstr ""
 
 #: ../../action-types.rst:25
-msgid "Reminders:"
-msgstr ""
-
-#: ../../action-types.rst:25
 msgid "Reminder emails and escalations."
 msgstr ""
 
@@ -61,27 +57,27 @@ msgstr ""
 msgid "Send email"
 msgstr ""
 
-#: ../../action-types.rst:34
+#: ../../action-types.rst:85
 msgid ""
 "The send email action sends an email to the specified user. In the "
 "configuration you can specify"
 msgstr ""
 
-#: ../../action-types.rst:39
+#: ../../action-types.rst:90
 msgid "To:"
 msgstr ""
 
-#: ../../action-types.rst:38
+#: ../../action-types.rst:89
 msgid ""
 "The people to which the email is sent. You can type a plain email address, "
 "select a variable, a variable field or a user in the organization."
 msgstr ""
 
-#: ../../action-types.rst:47
+#: ../../action-types.rst:98
 msgid "Subject:"
 msgstr ""
 
-#: ../../action-types.rst:42
+#: ../../action-types.rst:93
 msgid ""
 "The subject of the email. To use process data in the subject, start by "
 "typing a `#`. If the list of variable fields is too long, you can just keep "
@@ -90,22 +86,22 @@ msgid ""
 "variable fields from the subject, just delete it like it's normal text."
 msgstr ""
 
-#: ../../action-types.rst:52
+#: ../../action-types.rst:103
 msgid "Attachments:"
 msgstr ""
 
-#: ../../action-types.rst:50
+#: ../../action-types.rst:101
 msgid ""
 "To add attachments, click the attachments field. If there are files in the "
 "process variables, they will be shown. Select one of the file variable "
 "fields to add these as attachments to the mail."
 msgstr ""
 
-#: ../../action-types.rst:57
+#: ../../action-types.rst:108
 msgid "Body text:"
 msgstr ""
 
-#: ../../action-types.rst:55
+#: ../../action-types.rst:106
 msgid ""
 "Just like in the subject, you can combine template text with variable fields"
 " to Start by typing a `#`. See *Subject* above in this list for more details"
@@ -243,7 +239,7 @@ msgstr ""
 msgid "A user task in the process editor"
 msgstr ""
 
-#: ../../action-types.rst:32
+#: ../../action-types.rst:83
 msgid "A send email task in the process editor"
 msgstr ""
 
@@ -309,9 +305,8 @@ msgid ""
 "of your choice."
 msgstr ""
 
-#: ../../action-types/google.rst:12 ../../action-types/google.rst:81
-#: ../../action-types/box.rst:12 ../../action-types/box.rst:12
-#: ../../action-types/google.rst:12 ../../action-types/google.rst:81
+#: ../../action-types/box.rst:12 ../../action-types/google.rst:12
+#: ../../action-types/google.rst:81
 msgid "Configuration"
 msgstr ""
 
@@ -327,7 +322,6 @@ msgid ""
 "connection with your account is established."
 msgstr ""
 
-#: ../../action-types/google.rst:44 ../../action-types/box.rst:29
 #: ../../action-types/box.rst:29 ../../action-types/google.rst:44
 msgid "Upload file action"
 msgstr ""
@@ -364,7 +358,7 @@ msgid ""
 "you are ready to configure the `Print file` action."
 msgstr ""
 
-#: ../../action-types/google.rst:92 ../../action-types/google.rst:92
+#: ../../action-types/google.rst:92
 msgid "Print file action"
 msgstr ""
 
@@ -474,17 +468,169 @@ msgid ""
 "Use a forward slash (``/``) to separate nested subfolder levels."
 msgstr ""
 
+#: ../../action-types.rst:21
+msgid ""
+"*Form* - a task can be given a form. To complete the task, the form has to "
+"be submitted."
+msgstr ""
+
+#: ../../action-types.rst:48
+msgid "Reminders"
+msgstr ""
+
+#: ../../action-types.rst:56
+msgid "Configuring user task reminders in the process editor"
+msgstr ""
+
+#: ../../action-types.rst:58
+msgid ""
+"Effektif sends these notifications to the task’s assignee if the task is "
+"assigned, or to all of the task’s candidates if the task it not assigned. If"
+" the task is unassigned and there are no candidates, Effektif sends the "
+"notification to the process’ owner."
+msgstr ""
+
+#: ../../action-types.rst:64
+msgid "Escalations"
+msgstr ""
+
 #: ../../action-types.rst:17
 msgid ""
 "A user task means a user has to perform a task. In the :ref:`case <cases>`, "
 "a task will be created. In the configuration form, the following optional "
-"details can be specified:"
+"details can be specified."
 msgstr ""
+
+#: ../../action-types.rst:20
+msgid ""
+"*Assignment* - a task can be assigned to a user or a :ref:`process role "
+"<roles>`."
+msgstr ""
+
+#: ../../action-types.rst:22
+msgid "*Reminders* - task deadline notifications."
+msgstr ""
+
+#: ../../action-types.rst:23
+msgid "*Escalations* -  automatic task reassignment."
+msgstr ""
+
+#: ../../action-types.rst:50
+msgid ""
+"Use the user task’s `Reminders` configuration panel tab to set up task "
+"deadline notifications. If you configure a `Due date` or `Reminder` period, "
+"then Effektif will send email when the deadline expires."
+msgstr ""
+
+#: ../../action-types.rst:66
+msgid ""
+"You can also use the :ref:`Reminders <reminders>` configuration panel tab to"
+" configure escalations. If you configure an `Escalation` period and an "
+"assignee, then Effektif will automatically reassign the task when the "
+"deadline expires, and send a notification to the new assignee."
+msgstr ""
+
+#: ../../action-types.rst:24
+msgid "*Access Rights* - task permissions for users and groups."
+msgstr ""
+
+#: ../../action-types.rst:27
+msgid "Assignment"
+msgstr ""
+
+#: ../../action-types.rst:29
+msgid ""
+"Use the assignment tab to specify the task’s default assignee or candidates."
+" Candidates can be individual users or organisation groups."
+msgstr ""
+
+#: ../../action-types.rst:36
+msgid ""
+"You an also specify a role for the task’s assignment, like a BPMN swim lane,"
+" so that related tasks are automatically assigned to the same person."
+msgstr ""
+
+#: ../../action-types.rst:41
+msgid "Form"
+msgstr ""
+
+#: ../../action-types.rst:43
+msgid ""
+"Use form builder to create a user task form for entering and updating data "
+"as part of the user task."
+msgstr ""
+
+#: ../../action-types.rst:72
+msgid "Access Rights"
+msgstr ""
+
+#: ../../action-types.rst:74
+msgid ""
+"Use the `Access Rights` tab to set permissions for viewing, assigning and "
+"completing the task. See :ref:`Restricting access to user tasks <user-task-"
+"access>` for details."
+msgstr ""
+
+#: ../../action-types.rst:34
+msgid "Configuring user task assignment in the process editor"
+msgstr ""
+
+#~ msgid ""
+#~ "You can also use the `Reminders` configuration panel tab to configure "
+#~ "escalations. If you configure an `Escalation` period and an assignee, then "
+#~ "Effektif will automatically reassign the task when the deadline expires, and"
+#~ " send a notification to the new assignee."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use the user task’s :ref:`Reminders <reminders>` configuration panel tab to "
+#~ "set up task deadline notifications. If you configure a `Due date` or "
+#~ "`Reminder` period, then Effektif will send email when the deadline expires."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A user task means a user has to perform a task. In the :ref:`case <cases>`, "
+#~ "a task will be created. In the configuration form, the following optional "
+#~ "details can be specified:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Assignment* - a task can be assigned to a user or a :ref:`process role "
+#~ "<roles>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Reminders and escalations* - task deadline notification emails and "
+#~ "automatic reassignment."
+#~ msgstr ""
+
+#~ msgid "*Reminders* - reminder emails and escalations."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "A user task means a user has to perform a task. In the :ref:`case <cases>`, "
 #~ "a task will be created. In the configuration form, following optional "
 #~ "details can be specified:"
+#~ msgstr ""
+
+#~ msgid "Assignment:"
+#~ msgstr ""
+
+#~ msgid "A task can be assigned to a user or a :ref:`process role <roles>`"
+#~ msgstr ""
+
+#~ msgid "Form:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A task can be given a form. To complete the task, the form has to be "
+#~ "submitted."
+#~ msgstr ""
+
+#~ msgid "Reminders:"
+#~ msgstr ""
+
+#~ msgid "Reminder emails and escalations."
 #~ msgstr ""
 
 #~ msgid ""

@@ -125,35 +125,35 @@ msgid ""
 "the process."
 msgstr ""
 
-#: ../../access.rst:65
+#: ../../access.rst:66
 msgid "Restricting access to user tasks"
 msgstr ""
 
-#: ../../access.rst:67
+#: ../../access.rst:68
 msgid ""
 "In the same way that you can restrict access to a whole process, you can "
 "also restrict access to individual user tasks in the process."
 msgstr ""
 
-#: ../../access.rst:70
+#: ../../access.rst:71
 msgid ""
 "When you make a user task private, there are two different permissions that "
 "you can grant to users and groups."
 msgstr ""
 
-#: ../../access.rst:73
+#: ../../access.rst:74
 msgid ""
 "*View task* - review the task and participate in discussion by adding "
 "comments"
 msgstr ""
 
-#: ../../access.rst:74
+#: ../../access.rst:75
 msgid ""
 "*Edit task* - change the task’s title, assignment and due date, and create "
 "subtasks."
 msgstr ""
 
-#: ../../access.rst:76
+#: ../../access.rst:77
 msgid ""
 "Suppose you have a process that includes an approval, where someone from a "
 "*Managers* group must approve or reject a request from someone in the "
@@ -162,25 +162,25 @@ msgid ""
 "approval."
 msgstr ""
 
-#: ../../access.rst:81
+#: ../../access.rst:82
 msgid ""
 "To apply user task restrictions, open a process and select the user task. In"
 " the user task configuration panel, select the *Access Rights* tab:"
 msgstr ""
 
-#: ../../access.rst:86
+#: ../../access.rst:87
 msgid "User task access rights"
 msgstr ""
 
-#: ../../access.rst:88
+#: ../../access.rst:89
 msgid "Click the *Define specific access* button to configure access control."
 msgstr ""
 
-#: ../../access.rst:92
+#: ../../access.rst:93
 msgid "Configuring user task access control"
 msgstr ""
 
-#: ../../access.rst:94
+#: ../../access.rst:95
 msgid ""
 "You can now use the text box to search for users and groups, and use the "
 "checkboxes to grant permissions."
