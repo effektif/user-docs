@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
@@ -37,17 +37,6 @@ msgstr ""
 #: ../../action-types.rst:11
 msgid "User task"
 msgstr "User Task"
-
-#: ../../action-types.rst:17
-msgid ""
-"A user task means a user has to perform a task. In the :ref:`case <cases>`, "
-"a task will be created. In the configuration form, following optional "
-"details can be specified:"
-msgstr ""
-"Eine User Task bedeutet, dass ein Mensch diese Aufgabe erledigen muss. Wird "
-"ein Prozess gestartet, so werden im entsprechenden :ref:`Fall <cases>` "
-"Aufgaben für diese Aktion angelegt. Wenn Sie diese Aktion konfigurieren "
-"können Sie die folgenden Attribute ändern:"
 
 #: ../../action-types.rst:20
 msgid "Assignment:"
@@ -620,6 +609,17 @@ msgstr ""
 " im entsprechenden Ordner ablegen. Wenn Sie Felder durch einen Schrägstrich "
 "(``/``) voneinander trennen, legt Effektif sogar ganze Hierarchien von "
 "Ordnern für Sie an. "
+
+#: ../../action-types.rst:17
+msgid ""
+"A user task means a user has to perform a task. In the :ref:`case <cases>`, "
+"a task will be created. In the configuration form, the following optional "
+"details can be specified:"
+msgstr ""
+"Eine User Task bedeutet, dass ein Mensch diese Aufgabe erledigen muss. Wird "
+"ein Prozess gestartet, so werden im entsprechenden :ref:`Fall <cases>` "
+"Aufgaben für diese Aktion angelegt. Wenn Sie diese Aktion konfigurieren "
+"können Sie die folgenden Attribute ändern:"
 
 #~ msgid "Google Drive authenticated configuration"
 #~ msgstr "Google Drive Konfiguration"

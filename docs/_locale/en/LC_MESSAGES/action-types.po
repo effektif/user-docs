@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
@@ -31,7 +31,29 @@ msgstr ""
 msgid "User task"
 msgstr ""
 
-#: ../../action-types.rst:79
+#: ../../action-types.rst:20
+msgid "Assignment:"
+msgstr ""
+
+#: ../../action-types.rst:21
+msgid "A task can be assigned to a user or a :ref:`process role <roles>`"
+msgstr ""
+
+#: ../../action-types.rst:22
+msgid "Form:"
+msgstr ""
+
+#: ../../action-types.rst:23
+msgid ""
+"A task can be given a form. To complete the task, the form has to be "
+"submitted."
+msgstr ""
+
+#: ../../action-types.rst:25
+msgid "Reminder emails and escalations."
+msgstr ""
+
+#: ../../action-types.rst:28
 msgid "Send email"
 msgstr ""
 
