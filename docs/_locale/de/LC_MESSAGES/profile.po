@@ -1,0 +1,106 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: User Guide 2.22\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-27 15:59+0100\n"
+"PO-Revision-Date: 2015-10-27 16:09+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
+"Language-Team: \n"
+"Language: de\n"
+"X-Generator: Poedit 1.8.6\n"
+
+#: ../../profile.rst:4
+msgid "My profile"
+msgstr "Mein Profil"
+
+#: ../../profile.rst:6
+msgid ""
+"On the top-right drop-down menu, select `My Profile` to view and edit your "
+"own Effektif user settings. The profile page is split into four sections:"
+msgstr ""
+"Um Ihre persönlichen Effektif-Einstellungen einzusehen und zu ändern, "
+"wählen Sie im Nutzermenü in der oberen rechten Ecke `Mein Profil`. Ihre "
+"Profilseite ist in vier Abschnitte unterteilt:"
+
+#: ../../profile.rst:10
+msgid ":ref:`Me <me>`"
+msgstr ":ref:`Ich <me>`"
+
+#: ../../profile.rst:11
+msgid ":ref:`Preferences <preferences>`"
+msgstr ":ref:`Einstellungen <preferences>`"
+
+#: ../../profile.rst:12
+msgid ":ref:`Organizations <organizations>`"
+msgstr ":ref:`Organisationen <organizations>`"
+
+#: ../../profile.rst:13
+msgid ":ref:`Services <services>`"
+msgstr ":ref:`Services <services>`"
+
+#: ../../profile.rst:18
+msgid "Me"
+msgstr "Ich"
+
+#: ../../profile.rst:20
+msgid ""
+"Use the `Me` section to update your user profile, including contact details "
+"and avatar image, or change your password."
+msgstr ""
+"Im Abschnitt `Ich` können Sie Ihr Profil bearbeiten. Dazu gehört Ihre "
+"Kontaktadresse, sowie Ihr Profilbild. Sie können hier auch Ihr aktuelles "
+"Passwort ändern."
+
+#: ../../profile.rst:30
+msgid "Preferences"
+msgstr "Einstellungen"
+
+#: ../../profile.rst:32
+msgid ""
+"Use the `Preferences` section to configure the Effektif user interface and "
+"notifications."
+msgstr ""
+"In den `Einstellungen` können Sie festlegen in welcher Sprache Sie Effektif "
+"benutzen möchten. Des Weiteren haben Sie hier die Möglichkeit "
+"Benachrichtigungen ein- bzw. abzuschalten. "
+
+#: ../../profile.rst:36
+msgid "Uncheck the checkboxes to disable all email notifications."
+msgstr ""
+"Um Emailbenachrichtigungen abzuschalten deaktivieren Sie alle Checkboxen."
+
+#: ../../profile.rst:42
+msgid "Organizations"
+msgstr "Organisationen"
+
+#: ../../profile.rst:44
+msgid ""
+"The `Organizations` section lists organizations that you belong to, and "
+"indicates whether you are an organization administrator."
+msgstr ""
+"Unter `Organisationen` sehen Sie alle Organisationen in denen Sie Mitglied "
+"sind. Hier können Sie auch nachvollziehen, in welchen Organisationen Sie "
+"Administrator-Rechte haben."
+
+#: ../../profile.rst:49
+msgid "You can use the leave icon to leave an organisation."
+msgstr ""
+"Um eine Organisation zu verlassen, klicken Sie auf das Icon rechts neben "
+"dem Organisationsnamen."
+
+#: ../../profile.rst:55
+msgid "Services"
+msgstr "Services"
+
+#: ../../profile.rst:57
+msgid ""
+"The `Services` section shows your personal configurations for third-party "
+"services, such as a linked Google Account."
+msgstr ""
+"Im Bereich `Services` sehen Sie alle Dritt-Services, die Sie persönlich mit "
+"Effektif verknüpft haben. Sie können hier zentral Zugriff auf bestimmte "
+"Services mit Ihrem Account zurückziehen. "
