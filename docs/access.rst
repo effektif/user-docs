@@ -60,6 +60,7 @@ to add them to the table, so you can then grant access to them.
 
 Click the *Make this process public* to remove all access restrictions on the process.
 
+.. _user-task-access:
 
 Restricting access to user tasks
 --------------------------------

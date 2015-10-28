@@ -151,14 +151,6 @@ msgstr ""
 msgid "Assigning a task"
 msgstr ""
 
-#: ../../tasks.rst:90
-msgid ""
-"You can assign a task to yourself, or someone else, to indicate who is "
-"expected to work on the task. An assigned task is listed in the assignee’s "
-":ref:`tasks inbox <tasks-inbox>`, and the assignee receives task "
-"notifications and reminders."
-msgstr ""
-
 #: ../../tasks.rst:94
 msgid ""
 "You can assign a task from anywhere a task appears in a task list. To assign"
@@ -204,6 +196,21 @@ msgid ""
 "The advantage of reopening a task instead of creating a new task is that the"
 " existing task retains its context."
 msgstr ""
+
+#: ../../tasks.rst:90
+msgid ""
+"You can assign a task to yourself, or someone else, to indicate who is "
+"expected to work on the task. An assigned task is listed in the assignee’s "
+":ref:`tasks inbox <tasks-inbox>`, and the assignee receives task "
+"notifications and :ref:`reminders <reminders>`."
+msgstr ""
+
+#~ msgid ""
+#~ "You can assign a task to yourself, or someone else, to indicate who is "
+#~ "expected to work on the task. An assigned task is listed in the assignee’s "
+#~ ":ref:`tasks inbox <tasks-inbox>`, and the assignee receives task "
+#~ "notifications and reminders."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "When you see the `Reopen` button in a task, it means the task is completed. "

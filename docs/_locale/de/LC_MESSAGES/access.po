@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
@@ -19,15 +19,15 @@ msgstr "Zugriffskontrolle"
 
 #: ../../access.rst:6
 msgid ""
-"You can use access control in Effektif to restrict who can access a process, "
-"or specific tasks within a process. Processes and tasks are public by "
+"You can use access control in Effektif to restrict who can access a process,"
+" or specific tasks within a process. Processes and tasks are public by "
 "default, which means that all users in the organization have access. When "
 "you configure access controls, you restrict access to specific users or "
 "groups."
 msgstr ""
 "Sie können die Zugriffskontrolle in Effektif dazu nutzen um einzuschränken "
-"wer auf welche Prozesse und Aufgaben zugreifen kann. Standardmäßig sind alle "
-"Prozesse und Aufgaben öffentlich sodass alle Nutzer in Ihrer Organisation "
+"wer auf welche Prozesse und Aufgaben zugreifen kann. Standardmäßig sind alle"
+" Prozesse und Aufgaben öffentlich sodass alle Nutzer in Ihrer Organisation "
 "uneingeschränkten Zugriff auf sie haben. Wenn Sie die Zugriffsrechte "
 "konfigurieren schränken Sie damit den Zugriff auf bestimmte Nutzer und "
 "Gruppen ein."
@@ -57,8 +57,8 @@ msgstr ""
 msgid ""
 "*Edit cases* - work on the process’ cases, by editing or completing tasks"
 msgstr ""
-"*Fälle bearbeiten* - Sie können Änderungen an laufenden Fällen vornehmen und "
-"Aufgaben abschließen"
+"*Fälle bearbeiten* - Sie können Änderungen an laufenden Fällen vornehmen und"
+" Aufgaben abschließen"
 
 #: ../../access.rst:24
 msgid "*View cases* - see the cases for the process."
@@ -80,8 +80,8 @@ msgid ""
 "*Edit process*, granted to a group, to restrict process editing to people "
 "who are comfortable with process modelling"
 msgstr ""
-"*Prozess bearbeiten* kann einer Gruppe zugewiesen werden, die damit vertraut "
-"ist, wie man Prozesse modelliert"
+"*Prozess bearbeiten* kann einer Gruppe zugewiesen werden, die damit vertraut"
+" ist, wie man Prozesse modelliert"
 
 #: ../../access.rst:31
 msgid ""
@@ -98,9 +98,9 @@ msgid ""
 "but cannot start cases when it is not ready to use"
 msgstr ""
 "*Prozess starten* kann nur Ihnen zugewiesen werden, sodass Leute mit dem "
-"*Prozess ansehen* und *Prozess bearbeiten* Recht mit Ihnen zusammen an einem "
-"Prozessentwurf arbeiten können aber nicht versehentlich neue Fälle gestartet "
-"werden, bevor der Prozess fertig ist"
+"*Prozess ansehen* und *Prozess bearbeiten* Recht mit Ihnen zusammen an einem"
+" Prozessentwurf arbeiten können aber nicht versehentlich neue Fälle "
+"gestartet werden, bevor der Prozess fertig ist"
 
 #: ../../access.rst:37
 msgid ""
@@ -108,9 +108,9 @@ msgid ""
 "group to work on cases, while the second group has visibility of work on "
 "cases that they cannot themselves collaborate on."
 msgstr ""
-"*Fälle bearbeiten* kann einer von zwei Gruppen zugewiesen werden, sodass die "
-"erste Gruppe an einem Fall arbeiten kann während die zweite Gruppe zwar den "
-"Fortschritt verfolgen, jedoch nicht aktiv in den Fall eingreifen kann."
+"*Fälle bearbeiten* kann einer von zwei Gruppen zugewiesen werden, sodass die"
+" erste Gruppe an einem Fall arbeiten kann während die zweite Gruppe zwar den"
+" Fortschritt verfolgen, jedoch nicht aktiv in den Fall eingreifen kann."
 
 #: ../../access.rst:40
 msgid ""
@@ -151,13 +151,14 @@ msgstr "Zugriffsrechte konfigurieren"
 
 #: ../../access.rst:57
 msgid ""
-"You can now use the checkboxes to grant permissions to users and groups. Use "
-"the text box to search for additional users and groups, to add them to the "
+"You can now use the checkboxes to grant permissions to users and groups. Use"
+" the text box to search for additional users and groups, to add them to the "
 "table, so you can then grant access to them."
 msgstr ""
-"Mit Hilfe der Checkboxen können Sie Nutzern und Gruppen Rechte zuweisen oder "
-"entziehen. Wenn Sie neue Rechte für einen Nutzer oder eine Gruppe definieren "
-"möchten, können Sie das Suchfeld am unteren Ende der Liste dazu nutzen. "
+"Mit Hilfe der Checkboxen können Sie Nutzern und Gruppen Rechte zuweisen oder"
+" entziehen. Wenn Sie neue Rechte für einen Nutzer oder eine Gruppe "
+"definieren möchten, können Sie das Suchfeld am unteren Ende der Liste dazu "
+"nutzen. "
 
 #: ../../access.rst:61
 msgid ""
@@ -167,11 +168,11 @@ msgstr ""
 "Wenn Sie auf *Einschränkungen von diesem Prozess entfernen* um jegliche "
 "Zugriffskontrollen von dem Prozess zu entfernen."
 
-#: ../../access.rst:65
+#: ../../access.rst:66
 msgid "Restricting access to user tasks"
 msgstr "Zugriff auf Aufgaben einschränken"
 
-#: ../../access.rst:67
+#: ../../access.rst:68
 msgid ""
 "In the same way that you can restrict access to a whole process, you can "
 "also restrict access to individual user tasks in the process."
@@ -179,7 +180,7 @@ msgstr ""
 "Sie können den Zugriff auf einzelne Aufgaben genau so einschränken, wie es "
 "bei Prozessen möglich ist. "
 
-#: ../../access.rst:70
+#: ../../access.rst:71
 msgid ""
 "When you make a user task private, there are two different permissions that "
 "you can grant to users and groups."
@@ -187,7 +188,7 @@ msgstr ""
 "Wenn Sie den Zugriff auf eine Aufgabe eingeschränkt haben können Sie zwei "
 "verschieden Arten von Rechten vergeben."
 
-#: ../../access.rst:73
+#: ../../access.rst:74
 msgid ""
 "*View task* - review the task and participate in discussion by adding "
 "comments"
@@ -195,7 +196,7 @@ msgstr ""
 "*Aufgabe ansehen* - Sie können die Aufgabe sehen und an Diskussionen "
 "teilnehmen, indem Sie Kommentare hinterlassen"
 
-#: ../../access.rst:74
+#: ../../access.rst:75
 msgid ""
 "*Edit task* - change the task’s title, assignment and due date, and create "
 "subtasks."
@@ -203,7 +204,7 @@ msgstr ""
 "*Aufgabe bearbeiten* - Ändern Sie den Titel, die Zuweisung, das "
 "Fälligkeitsdatum und fügen Sie Unteraufgaben hinzu."
 
-#: ../../access.rst:76
+#: ../../access.rst:77
 msgid ""
 "Suppose you have a process that includes an approval, where someone from a "
 "*Managers* group must approve or reject a request from someone in the "
@@ -218,30 +219,30 @@ msgstr ""
 "Personen aus der *Manager* Gruppe es besitzen, sodass nur Sie die Aufgabe "
 "abschließen können. "
 
-#: ../../access.rst:81
+#: ../../access.rst:82
 msgid ""
-"To apply user task restrictions, open a process and select the user task. In "
-"the user task configuration panel, select the *Access Rights* tab:"
+"To apply user task restrictions, open a process and select the user task. In"
+" the user task configuration panel, select the *Access Rights* tab:"
 msgstr ""
 "Um die Zugriffskontrolle für Aufgaben zu aktivieren, öffnen Sie einen "
 "Prozess und wählen Sie eine Aufgabe aus. Im Konfigurationsdialog wählen Sie "
 "den Reiter *Zugriffsrechte*."
 
-#: ../../access.rst:86
+#: ../../access.rst:87
 msgid "User task access rights"
 msgstr "Zugriffsrechte für Aufgaben"
 
-#: ../../access.rst:88
+#: ../../access.rst:89
 msgid "Click the *Define specific access* button to configure access control."
 msgstr ""
 "Klicken Sie auf *Spezifische Einschränkungen aktivieren* um den Zugriff zu "
 "konfigurieren."
 
-#: ../../access.rst:92
+#: ../../access.rst:93
 msgid "Configuring user task access control"
 msgstr "Konfiguration der Zugriffsrechte für eine Aufgabe"
 
-#: ../../access.rst:94
+#: ../../access.rst:95
 msgid ""
 "You can now use the text box to search for users and groups, and use the "
 "checkboxes to grant permissions."
