@@ -1,0 +1,131 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: User Guide 2.22\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-27 15:58+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../notifications.rst:4
+msgid "Notifications"
+msgstr ""
+
+#: ../../notifications.rst:6
+msgid ""
+"Effektif sends a variety of email notifications, to keep process "
+"participants up-to-date with cases they are involved in and to avoid task "
+"handover delays, when a task is assigned to someone."
+msgstr ""
+
+#: ../../notifications.rst:13
+msgid "Task created"
+msgstr ""
+
+#: ../../notifications.rst:15
+msgid ""
+"This notification indicates that a new task has been created within a case."
+msgstr ""
+
+#: ../../notifications.rst:17
+msgid ""
+"Effektif sends this notification to the task’s default assignee, if there is"
+" one. Effektif also sends this notification to each of the task candidates, "
+"or every member of each candidate group, if defined."
+msgstr ""
+
+#: ../../notifications.rst:23
+msgid "Task assigned"
+msgstr ""
+
+#: ../../notifications.rst:25
+msgid ""
+"This notification indicates that someone has assigned an existing task "
+"within a case."
+msgstr ""
+
+#: ../../notifications.rst:27
+msgid "Effektif sends this notification to the task’s new assignee."
+msgstr ""
+
+#: ../../notifications.rst:31
+msgid "Mentioned in a comment"
+msgstr ""
+
+#: ../../notifications.rst:33
+msgid ""
+"This notification indicates that someone has been mentioned in a comment on "
+"a case."
+msgstr ""
+
+#: ../../notifications.rst:35
+msgid ""
+"Effektif sends this notification to each user mentioned in the comment."
+msgstr ""
+
+#: ../../notifications.rst:39
+msgid "Reminder scheduled"
+msgstr ""
+
+#: ../../notifications.rst:41
+msgid "This notification is a scheduled reminder that a task is open."
+msgstr ""
+
+#: ../../notifications.rst:43
+msgid ""
+"Effektif sends this notification to the task’s assignee if the task is "
+"assigned, or to all of the task’s candidates if the task it not assigned. If"
+" the task is unassigned and there are no candidates, Effektif sends the "
+"notification to the process’ owner."
+msgstr ""
+
+#: ../../notifications.rst:50
+msgid "Task escalated"
+msgstr ""
+
+#: ../../notifications.rst:52
+msgid ""
+"This notification indicates that an open task has reached its escalation "
+"deadline."
+msgstr ""
+
+#: ../../notifications.rst:54
+msgid ""
+"Effektif sends this notification to the task’s new assignee, who the task is"
+" being escalated to."
+msgstr ""
+
+#: ../../notifications.rst:59
+msgid "Service account access expired"
+msgstr ""
+
+#: ../../notifications.rst:61
+msgid ""
+"This notification indicates that access to an external service, such as "
+":ref:`Google Drive <google-drive>`, has expired."
+msgstr ""
+
+#: ../../notifications.rst:65
+msgid ""
+"Effektif sends this notification to the Effektif user whose external service"
+" account is used."
+msgstr ""
+
+#: ../../notifications.rst:69
+msgid "License about to expire"
+msgstr ""
+
+#: ../../notifications.rst:71
+msgid ""
+"This notification indicates that an Effektif license is about to expire."
+msgstr ""
+
+#: ../../notifications.rst:73
+msgid ""
+"Effektif sends this notification to the administrators of the the Effektif "
+"organisation whose license will expire."
+msgstr ""

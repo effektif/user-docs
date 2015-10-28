@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
@@ -202,7 +202,7 @@ msgid ""
 "You can assign a task to yourself, or someone else, to indicate who is "
 "expected to work on the task. An assigned task is listed in the assignee’s "
 ":ref:`tasks inbox <tasks-inbox>`, and the assignee receives task "
-":ref:`notifications <notifications>` and reminders."
+":ref:`notifications <notifications>` and :ref:`reminders <reminders>`."
 msgstr ""
 
 #~ msgid ""

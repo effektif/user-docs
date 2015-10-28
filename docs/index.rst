@@ -11,9 +11,11 @@ Effektif User Guide
    tasks
    process-builder
    action-types
+   forms
    control-flow
    notifications
    access
    integration/salesforce
+   profile
    settings
-   data-types
+   variables

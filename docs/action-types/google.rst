@@ -57,6 +57,14 @@ Other people in your organization will be able to see that you have configured a
 
 In the section `Target folder` you can now browse and select the folder you want to upload the file(s) to.
 
+Next to `Folder name template`, 
+you can optionally specify a subfolder name to create inside the target folder.
+This name template can include process variables, 
+so you can create new subfolders dynamically to organise your files.
+For example, if your process variables include a unique customer ID, 
+then you can use that to save each customer’s files in a separate folder.
+Use a forward slash (``/``) to separate nested subfolder levels.
+
 In section `Files to upload`, you can select the variable field containing one or more files to be uploaded. If there was no file variable, a variable called 'File' is created automatically. If there was already a file or list of files in the variables, it is preselected.
 
 
