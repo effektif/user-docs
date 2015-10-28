@@ -38,7 +38,6 @@ msgstr ""
 msgid "User task"
 msgstr "User Task"
 
-<<<<<<< HEAD
 #: ../../action-types.rst:19
 msgid ""
 "A user task means a user has to perform a task. In the :ref:`case <cases>`, "
@@ -86,13 +85,6 @@ msgid "Send email"
 msgstr "Email senden"
 
 #: ../../action-types.rst:36
-=======
-#: ../../action-types.rst:79
-msgid "Send email"
-msgstr "Email senden"
-
-#: ../../action-types.rst:85
->>>>>>> master
 msgid ""
 "The send email action sends an email to the specified user. In the "
 "configuration you can specify"
@@ -100,19 +92,11 @@ msgstr ""
 "Mit der Aktionen `Email senden` können Sie eine Email an eine Reihe von "
 "Nutzern senden. Die Konfiguration umfasst des Weiteren:"
 
-<<<<<<< HEAD
-#: ../../action-types.rst:41
-msgid "To:"
-msgstr "Empfänger:"
-
-#: ../../action-types.rst:40
-=======
 #: ../../action-types.rst:90
 msgid "To:"
 msgstr "Empfänger:"
 
 #: ../../action-types.rst:89
->>>>>>> master
 msgid ""
 "The people to which the email is sent. You can type a plain email address, "
 "select a variable, a variable field or a user in the organization."
@@ -121,19 +105,11 @@ msgstr ""
 "Effektif Nutzer auswählen, Rollen und Nutzervariablen des Prozesses nutzen "
 "oder einfach eine reguläre Emailadresse eintragen."
 
-<<<<<<< HEAD
-#: ../../action-types.rst:49
-msgid "Subject:"
-msgstr "Betreff:"
-
-#: ../../action-types.rst:44
-=======
 #: ../../action-types.rst:98
 msgid "Subject:"
 msgstr "Betreff:"
 
 #: ../../action-types.rst:93
->>>>>>> master
 msgid ""
 "The subject of the email. To use process data in the subject, start by "
 "typing a `#`. If the list of variable fields is too long, you can just keep "
@@ -149,17 +125,6 @@ msgstr ""
 "einen Eintrag auszuwählen. Um eine Variable zu löschen, löschen Sie den "
 "Eintrag einfach als wäre er normaler Text."
 
-<<<<<<< HEAD
-#: ../../action-types.rst:54
-msgid "Attachments:"
-msgstr "Dateianhänge:"
-
-#: ../../action-types.rst:59
-msgid "Body text:"
-msgstr "Inhalt:"
-
-#: ../../action-types.rst:57
-=======
 #: ../../action-types.rst:103
 msgid "Attachments:"
 msgstr "Dateianhänge:"
@@ -179,7 +144,6 @@ msgid "Body text:"
 msgstr "Inhalt:"
 
 #: ../../action-types.rst:106
->>>>>>> master
 msgid ""
 "Just like in the subject, you can combine template text with variable fields"
 " to Start by typing a `#`. See *Subject* above in this list for more details"
@@ -354,11 +318,7 @@ msgstr "JavaScript JSON-Werte"
 msgid "A user task in the process editor"
 msgstr "Ein User Task im Prozess-Editor"
 
-<<<<<<< HEAD
-#: ../../action-types.rst:34
-=======
 #: ../../action-types.rst:83
->>>>>>> master
 msgid "A send email task in the process editor"
 msgstr "Eine Email senden Aktion im Prozess-Editor"
 
