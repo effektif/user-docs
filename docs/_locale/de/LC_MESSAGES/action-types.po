@@ -100,7 +100,7 @@ msgstr ""
 "Auch hier können Sie wie im *Betreff* auf Daten aus Ihrem Prozess zugreifen."
 " Tippen Sie einfach `#` und wählen Sie die entsprechenden Variablen aus."
 
-#: ../../action-types/google.rst:22 ../../action-types/google.rst:22
+#: ../../action-types/google.rst:24 ../../action-types/google.rst:24
 msgid ""
 "If you're already authenticated with a single user to Google, the login "
 "screen is skipped and you go straight to the :ref:`permission screen <drive-"
@@ -110,7 +110,7 @@ msgstr ""
 "Sie direkt aufgefordert Effektif :ref:`gewisse Aktionen zu erlauben <drive-"
 "permissions>`."
 
-#: ../../action-types/google.rst:24 ../../action-types/google.rst:24
+#: ../../action-types/google.rst:26 ../../action-types/google.rst:26
 msgid ""
 "If you're not yet authenticated to Google in this browser yet, you'll get a "
 "login window:"
@@ -118,11 +118,11 @@ msgstr ""
 "Falls Sie noch nicht eingeloggt sind, sehen Sie ein Login-Fenster wie zum "
 "Beispiel:"
 
-#: ../../action-types/google.rst:30 ../../action-types/google.rst:30
+#: ../../action-types/google.rst:32 ../../action-types/google.rst:32
 msgid "Google Drive login"
 msgstr "Google Drive Login"
 
-#: ../../action-types/google.rst:32 ../../action-types/google.rst:32
+#: ../../action-types/google.rst:34 ../../action-types/google.rst:34
 msgid ""
 "If you're authenticated with multiple users to Google in this browser, "
 "select the account you want to use."
@@ -130,7 +130,7 @@ msgstr ""
 "Falls Sie mehrere Konten bei Google Drive hinterlegt haben, müssen Sie nun "
 "auswählen welches davon Sie mit Effektif verbinden möchten."
 
-#: ../../action-types/google.rst:34 ../../action-types/google.rst:34
+#: ../../action-types/google.rst:36 ../../action-types/google.rst:36
 msgid ""
 "After authentication is complete, you'll see the following screen that "
 "allows you to give Effektif access to your Google account."
@@ -139,11 +139,11 @@ msgstr ""
 "Dialog indem Sie Effektif Zugriff auf bestimmte Aktionen innerhalb Ihres "
 "Google Kontos gestatten."
 
-#: ../../action-types/google.rst:39 ../../action-types/google.rst:39
+#: ../../action-types/google.rst:41 ../../action-types/google.rst:41
 msgid "Google Drive permission grant"
 msgstr "Zugriffsbeschränkungen in Google Drive"
 
-#: ../../action-types/google.rst:54 ../../action-types/google.rst:54
+#: ../../action-types/google.rst:56 ../../action-types/google.rst:56
 msgid ""
 "Other people in your organization will be able to see that you have "
 "configured an account, but they will not be able to see youro email address "
@@ -153,7 +153,7 @@ msgstr ""
 "hochgeladen werden, Sie können allerdings nicht sehen, welches Konto dazu "
 "verwendet wurde oder in Ihren Drive-Ordnern stöbern."
 
-#: ../../action-types/google.rst:56 ../../action-types/google.rst:56
+#: ../../action-types/google.rst:58 ../../action-types/google.rst:58
 msgid ""
 "In the section `Target folder` you can now browse and select the folder you "
 "want to upload the file(s) to."
@@ -161,7 +161,7 @@ msgstr ""
 "Im Abschnitt `Zielordner` legen Sie fest wo Ihre Datei(en) gespeichert "
 "werden sollen."
 
-#: ../../action-types/google.rst:66 ../../action-types/google.rst:66
+#: ../../action-types/google.rst:68 ../../action-types/google.rst:68
 msgid ""
 "In section `Files to upload`, you can select the variable field containing "
 "one or more files to be uploaded. If there was no file variable, a variable "
@@ -270,7 +270,7 @@ msgstr "Ein User Task im Prozess-Editor"
 msgid "A send email task in the process editor"
 msgstr "Eine Email senden Aktion im Prozess-Editor"
 
-#: ../../action-types/google.rst:17 ../../action-types/google.rst:17
+#: ../../action-types/google.rst:19 ../../action-types/google.rst:19
 msgid ""
 "When you click on the button `Configure a Google Drive account`, a popup "
 "window will appear that helps you integrate Effektif with your Google Drive "
@@ -280,7 +280,7 @@ msgstr ""
 "sich ein Popup welches Sie durch die weiteren Schritte leitet, um die "
 "Integration zwischen Effektif und Google Drive aufzusetzen."
 
-#: ../../action-types/google.rst:19 ../../action-types/google.rst:19
+#: ../../action-types/google.rst:21 ../../action-types/google.rst:21
 msgid ""
 "Google will perform a check if you're already logged in to Google in that "
 "browser. There are 3 possible outcomes:"
@@ -338,16 +338,16 @@ msgstr ""
 " dann das ``startDate`` Feld in Effektif. Dieses Verhalten sehen Sie auch in"
 " der Spalte *Neu zugewiesener Wert* in der Test-Konsole."
 
-#: ../../action-types/google.rst:2 ../../action-types/google.rst:2
+#: ../../action-types/google.rst:4 ../../action-types/google.rst:4
 msgid "Google Drive Upload file"
 msgstr "Google Drive Dateiupload"
 
-#: ../../action-types/box.rst:12 ../../action-types/google.rst:12
-#: ../../action-types/google.rst:81
+#: ../../action-types/box.rst:12 ../../action-types/google.rst:14
+#: ../../action-types/google.rst:83
 msgid "Configuration"
 msgstr "Konfiguration"
 
-#: ../../action-types/google.rst:41 ../../action-types/google.rst:41
+#: ../../action-types/google.rst:43 ../../action-types/google.rst:43
 msgid ""
 "After accepting the permissions, the pop up will disappear and the "
 "connection with your account is established."
@@ -355,7 +355,7 @@ msgstr ""
 "Nachdem der Zugriff gewährt wurde, schließt sich das Popup-Fenster. Damit "
 "ist die Verknüpfung zu Ihrem Konto eingerichtet."
 
-#: ../../action-types/google.rst:8 ../../action-types/google.rst:8
+#: ../../action-types/google.rst:10 ../../action-types/google.rst:10
 msgid ""
 "The Google Drive `Upload file` action sends one or more files to an account "
 "of your choice."
@@ -363,7 +363,7 @@ msgstr ""
 "Die Google Drive `Dateiupload` Aktion sendet eine oder mehrere Dateien zu "
 "einem Google Drive Konto Ihrer Wahl."
 
-#: ../../action-types/google.rst:14 ../../action-types/google.rst:14
+#: ../../action-types/google.rst:16 ../../action-types/google.rst:16
 msgid ""
 "After creating a Google Drive `Upload file` action, the configuration panel "
 "shows a button to start configuring the account."
@@ -371,11 +371,11 @@ msgstr ""
 "Nach Erstellung einer Google Drive `Dateiupload` Aktion, wird im "
 "Konfigurationspanel ein Button angezeigt um das Konto auszuwählen."
 
-#: ../../action-types/box.rst:29 ../../action-types/google.rst:44
+#: ../../action-types/box.rst:29 ../../action-types/google.rst:46
 msgid "Upload file action"
 msgstr "Dateiupload Aktion"
 
-#: ../../action-types/google.rst:46 ../../action-types/google.rst:46
+#: ../../action-types/google.rst:48 ../../action-types/google.rst:48
 msgid ""
 "Once you have configured your Google Drive account, the `Upload file` action"
 " configuration panel displays the account and also shows the folders in `My "
@@ -472,23 +472,23 @@ msgstr ""
 "Neben `Hochzuladende Dateien` können Sie eine oder mehrere Dateien "
 "auswählen, die Sie hochladen möchten. "
 
-#: ../../action-types/google.rst:6 ../../action-types/google.rst:6
+#: ../../action-types/google.rst:8 ../../action-types/google.rst:8
 msgid "A Google Drive upload file task in the process editor"
 msgstr "Eine Google Drive Datei-Upload Aktion im Prozesseditor"
 
-#: ../../action-types/google.rst:52 ../../action-types/google.rst:52
+#: ../../action-types/google.rst:54 ../../action-types/google.rst:54
 msgid "Google Drive `Upload file` authenticated configuration"
 msgstr "Google Drive `Datei-Upload` Konfiguration"
 
-#: ../../action-types/google.rst:70 ../../action-types/google.rst:70
+#: ../../action-types/google.rst:72 ../../action-types/google.rst:72
 msgid "Google Drive Print File"
 msgstr "Google Drive Datei drucken"
 
-#: ../../action-types/google.rst:74 ../../action-types/google.rst:74
+#: ../../action-types/google.rst:76 ../../action-types/google.rst:76
 msgid "A Google Drive print file task in the process editor"
 msgstr "Eine Google Drive Drucken Aktion im Prozesseditor"
 
-#: ../../action-types/google.rst:76 ../../action-types/google.rst:76
+#: ../../action-types/google.rst:78 ../../action-types/google.rst:78
 msgid ""
 "The Google Drive `Print File` action uses `Google Cloud Print "
 "<http://www.google.com/cloudprint/learn/>`_ to print a file that has been "
@@ -498,7 +498,7 @@ msgstr ""
 "<http://www.google.com/cloudprint/learn/>`_ um Dateien zu drucken, die in "
 "einem Fall hochgeladen wurden."
 
-#: ../../action-types/google.rst:83 ../../action-types/google.rst:83
+#: ../../action-types/google.rst:85 ../../action-types/google.rst:85
 msgid ""
 "After creating a Google Drive `Print file` action, the configuration panel "
 "shows a button to start configuring the account. This configuration is the "
@@ -510,7 +510,7 @@ msgstr ""
 "die selbe, die Sie auch schon bei der `Datei-Upload Konfiguration <upload-"
 "file-configuration>`_ weiter oben gesehen haben."
 
-#: ../../action-types/google.rst:87 ../../action-types/google.rst:87
+#: ../../action-types/google.rst:89 ../../action-types/google.rst:89
 msgid ""
 "When you have authenticated with a Google account and granted permission, "
 "you are ready to configure the `Print file` action."
@@ -518,11 +518,11 @@ msgstr ""
 "Wenn Sie einen Google Drive Account hinterlegt haben können Sie die `Datei "
 "drucken` Aktion konfigurieren."
 
-#: ../../action-types/google.rst:92
+#: ../../action-types/google.rst:94
 msgid "Print file action"
 msgstr "Datei drucken Aktion"
 
-#: ../../action-types/google.rst:94 ../../action-types/google.rst:94
+#: ../../action-types/google.rst:96 ../../action-types/google.rst:96
 msgid ""
 "Once you have configured your Google Drive account, the `Print file` action "
 "configuration panel displays the account, the printer settings, and the "
@@ -532,11 +532,11 @@ msgstr ""
 "`Datei drucken` Aktion die Druckereinstellungen und die Datei, die gedruckt "
 "werden soll, konfigurieren."
 
-#: ../../action-types/google.rst:100 ../../action-types/google.rst:100
+#: ../../action-types/google.rst:102 ../../action-types/google.rst:102
 msgid "Google Drive `Print file` authenticated configuration"
 msgstr "Google Drive `Datei drucken` Konfiguration"
 
-#: ../../action-types/google.rst:102 ../../action-types/google.rst:102
+#: ../../action-types/google.rst:104 ../../action-types/google.rst:104
 msgid ""
 "In the section `Files to upload` you can select the file variable that holds"
 " the file you want to print."
@@ -558,8 +558,8 @@ msgstr ""
 "Feld. Die sich öffnende Liste zeigt alle zur Zeit verfügbaren Dateien im "
 "Prozess."
 
-#: ../../action-types/google.rst:58 ../../action-types/box.rst:43
-#: ../../action-types/box.rst:43 ../../action-types/google.rst:58
+#: ../../action-types/google.rst:60 ../../action-types/box.rst:43
+#: ../../action-types/box.rst:43 ../../action-types/google.rst:60
 msgid ""
 "Next to `Folder name template`, you can optionally specify a subfolder name "
 "to create inside the target folder. This name template can include process "
