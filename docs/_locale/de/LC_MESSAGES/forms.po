@@ -1,0 +1,293 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: User Guide 2.22\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-15 17:41+0200\n"
+"PO-Revision-Date: 2015-10-16 11:23+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
+"Language-Team: \n"
+"Language: de\n"
+"X-Generator: Poedit 1.8.5\n"
+
+#: ../../forms.rst:4
+msgid "Forms"
+msgstr "Formulare"
+
+#: ../../forms.rst:6
+msgid ""
+"In Effektif, you can use forms to enter information when you run a process. "
+"There are two places where you can use a form: form triggers and user tasks."
+msgstr ""
+"Sie können Formulare in Effektif benutzen um Daten einzugeben, während Sie "
+"einen Prozess ausführen. Formulare können einerseits in Aufgaben und als "
+"Auslöser verwendet werden. "
+
+#: ../../forms.rst:11
+msgid "Form triggers"
+msgstr "Formulare als Auslöser"
+
+#: ../../forms.rst:13
+msgid ""
+"You use a :ref:`form trigger <form-trigger>` to set the values of :ref:"
+"`workflow variables <variables>` when you start a new case for a process."
+msgstr ""
+"Sie können einen :ref:`Formularauslöser <form-trigger>` benutzen um die "
+"Werte von :ref:`Variablen <variables>` zu setzen, wenn Sie einen neuen Fall "
+"anlegen. "
+
+#: ../../forms.rst:19
+msgid "Starting a new case with a form trigger"
+msgstr "Einen neuen Fall durch ein Formular starten"
+
+#: ../../forms.rst:21
+msgid ""
+"This form has a description (`Enter personal details`) and two fields. The "
+"icon next to the `Name` field label indicates that the field has an "
+"additional description."
+msgstr ""
+"Dieses Formular hat eine Beschreibung (`Bitte geben Sie die Details zu "
+"dieser Person ein`) und zwei Felder. Das Fragezeichen-Symbol neben `Name` "
+"zeigt, dass hier eine zusätzliche Beschreibung hinterlegt wurde. "
+
+#: ../../forms.rst:26
+msgid ""
+"To add a form trigger to a process, use the process builder’s :ref:"
+"`Triggers <triggers>` page to select `When a form is submitted`."
+msgstr ""
+"Um ein Formular als Prozessauslöser zu verwenden, wählen sie im "
+"Prozesseditor unter :ref:`Auslöser <triggers>` `Per Formular`."
+
+#: ../../forms.rst:32
+msgid "User task forms"
+msgstr "Formulare in Aufgaben"
+
+#: ../../forms.rst:34
+msgid ""
+"You use a :ref:`user task <user-task>` form to view and edit the values of :"
+"ref:`workflow variables <variables>`."
+msgstr ""
+"Sie können Formulare in :ref:`Aufgaben <user-task>` verwenden, um sich die "
+"Werte von :ref:`Variablen <variables>` anzeigen zu lassen und zu verändern."
+
+#: ../../forms.rst:39
+msgid "Viewing and editing values on a user task form"
+msgstr "Werte in einem Formular zu einer Aufgabe"
+
+#: ../../forms.rst:41
+msgid ""
+"To add a user task form to a process, use the process builder’s :ref:"
+"`Actions <actions>` page to add a user task, and on the user task’s "
+"configuration panel, select the `Form` tab."
+msgstr ""
+"Sie können Formulare zu Aufgaben hinzufügen, indem Sie im Prozesseditor "
+"unter :ref:`Aufgaben <actions>` eine Aufgabe erstellen und in deren "
+"Konfiguration den Reiter `Formular` auswählen."
+
+#: ../../forms.rst:47
+msgid "Viewing form data"
+msgstr "Formulardaten einsehen"
+
+#: ../../forms.rst:49
+msgid ""
+"When you enter data in a form, it appears on the case view’s event stream:"
+msgstr ""
+"Wenn Sie ein Formular ausfüllen erscheinen die eingegebenen Werte danach im "
+"Aktivitäts-Stream des entsprechenden Falls. "
+
+#: ../../forms.rst:54
+msgid "Form data in a case event stream"
+msgstr "Daten im Aktivitäts-Stream"
+
+#: ../../forms.rst:56
+msgid ""
+"You can use the `forms` link at the top of event stream to only show form "
+"data."
+msgstr ""
+"Der Aktivitäts-Stream kann über die Filter am oberen Ende auch so "
+"eingeschränkt werden, dass nur Formulare angezeigt werden."
+
+#: ../../forms.rst:60
+msgid "Using the form builder"
+msgstr "Der Formulareditor"
+
+#: ../../forms.rst:62
+msgid ""
+"To create a form in the process editor, for a form trigger or user task, "
+"you use the form builder."
+msgstr ""
+"Immer wenn Sie ein Formular erstellen möchten, sie es als Auslöser oder "
+"innerhalb einer Aufgabe, werden Sie dazu unseren Formulareditor verwenden."
+
+#: ../../forms.rst:68
+msgid "The process editor’s form builder for a new empty form"
+msgstr "Der Formulareditor mit einem leeren Formular"
+
+#: ../../forms.rst:70
+msgid ""
+"The `Description` section in the form builder is a text area that you can "
+"use to provide initial instructions to people who complete the form. Use "
+"can use Markdown to format the description, which makes it convenient to "
+"link to additional information, for example."
+msgstr ""
+"Um den Personen, die das Formular ausfüllen müssen ein wenig Hilfe oder "
+"Kontext zu geben, können Sie die `Beschreibung` im oberen Teil des Editors "
+"benutzen. Ihren Text können Sie mit Hilfe von Markdown formatieren, was es "
+"sehr leicht macht zum Beispiel Links zu weiterführenden Informationen zu "
+"hinterlegen."
+
+#: ../../forms.rst:75
+msgid ""
+"The `Add a field` second contains a field types palette. Click one of the "
+"field types to add a field of that type to the form."
+msgstr ""
+"Im Bereich `Ein Feld hinzufügen` befindet sich die Palette von verfügbaren "
+"Formularfelder. Um ein Formularfeld hinzuzufügen klicken Sie einfach den "
+"entsprechenden Typ. "
+
+#: ../../forms.rst:78
+msgid ""
+"The `Reuse a field` section is a list of variables that have already been "
+"defined on other forms, such as a trigger form:"
+msgstr ""
+"Über der Palette finden Sie eine Auswahl von bereits vorhanden "
+"Formularfeldern. Wenn Sie eins dieser Felder in Ihrem aktuellen Formular "
+"wiederverwenden möchten, können Sie es einfach in dieser Liste auswählen."
+
+#: ../../forms.rst:83
+msgid "Adding an existing workflow variable to a form"
+msgstr "Ein bereits vorhanden Feld wiederverwenden"
+
+#: ../../forms.rst:85
+msgid ""
+"Adding an existing field to a form makes it possible to view or update "
+"existing information, such as a user task form that you use to complete "
+"information that’s missing from a trigger form."
+msgstr ""
+"Indem Sie ein bereits vorhandenes Feld wiederverwenden haben Sie die "
+"Möglichkeit eingegebene Daten einzusehen oder zu bearbeiten. So können Sie "
+"zum Beispiel Informationen nachtragen, die in einem Formular, durch dass "
+"ein Fall gestartet wurde nicht eingegeben wurden."
+
+#: ../../forms.rst:90
+msgid "Configuring form fields"
+msgstr "Formularfelder konfigurieren"
+
+#: ../../forms.rst:92
+msgid "When you add fields to a form, they are shown in a `Fields` section:"
+msgstr ""
+"Wenn sie Formularfelder hinzufügen, werden diese im Bereich "
+"`Formularfelder`aufgelistet."
+
+#: ../../forms.rst:96
+msgid "Configuring a form field in the process editor’s form builder"
+msgstr "Konfiguration eines Formularfelds im Formulareditor"
+
+#: ../../forms.rst:98
+msgid ""
+"Select a field in the `Fields` section to open its configuration panel. The "
+"top row of the field configuration panel shows the field type label, the "
+"editable field name."
+msgstr ""
+"Klicken Sie auf ein Feld im Bereich `Formularfelder`, um dessen "
+"Konfiguration zu öffnen. Die oberste Zeile der Konfiguration zeigt die "
+"Beschriftung des Felds. "
+
+#: ../../forms.rst:102
+msgid ""
+"To delete a field, click the delete button in the top-right corner, and "
+"click the confirmation tick mark button to confirm:"
+msgstr ""
+"Um ein Feld wieder zu entfernen klicken Sie auf den Papierkorb in der "
+"oberen rechten Ecke der Konfiguration und bestätigen Sie die Aktion, indem "
+"Sie auf den rot hinterlegten Haken klicken."
+
+#: ../../forms.rst:108
+msgid "Deleting a form field"
+msgstr "Ein Formularfeld löschen"
+
+#: ../../forms.rst:110
+msgid "The other field configuration properties are as follows."
+msgstr ""
+"Die weiteren Konfigurationsmöglichkeiten sind nachfolgend Beschrieben."
+
+#: ../../forms.rst:112
+msgid ""
+"`Description` - an optional field description, shown via context-sensitive "
+"help icon"
+msgstr ""
+"`Beschreibung` - Hinterlegen Sie eine ausführlichere Beschreibung zu dem "
+"Feld (optional)"
+
+#: ../../forms.rst:113
+msgid ""
+"`Initial value` - an optional default field value that is used to pre-"
+"populate the form"
+msgstr ""
+"`Initialwert` - Ein Standardwert mit dem das Formularfeld angelegt wird "
+"(optional)"
+
+#: ../../forms.rst:114
+msgid ""
+"`Read-only` - specifies that the value is not editable, used to display "
+"previously-entered information"
+msgstr ""
+"`Schreibgeschützt` - Das Feld kann nicht durch den Nutzer geändert werden "
+"(optional)"
+
+#: ../../forms.rst:115
+msgid ""
+"`Mandatory` - specifies that a field value is required, so that the form "
+"cannot be completed without a value"
+msgstr ""
+"`Pflichtfeld` - Das Feld muss ausgefüllt werden, damit das Formular "
+"abgesendet werden kann"
+
+#: ../../forms.rst:117
+msgid ""
+"Text fields also have an additional `Multi-line` option that specifies that "
+"the form field be displayed as a multi-line text input area, for longer "
+"text values."
+msgstr ""
+"Textfelder haben zusätzlich die Option `Mehrzeilig` um die Eingabe von "
+"längeren Texten zu ermöglichen. "
+
+#: ../../forms.rst:121
+msgid "Choice fields have a `Options` - the list of values to choose between:"
+msgstr ""
+"In Auswahlfeldern können die verschiedenen Möglichkeiten der Auswahl unter "
+"`Optionen` konfiguriert werden."
+
+#: ../../forms.rst:125
+msgid "Choice field configuration"
+msgstr "Konfiguration eines Auswahlfelds."
+
+#: ../../forms.rst:127
+msgid ""
+"Date fields have a `Date/time` option for choosing between a date and time, "
+"just a date without a time of day, or just a time:"
+msgstr ""
+"In Datumsfeldern können Sie sich unter der Option `Datum / Uhrzeit` "
+"entscheiden, ob Sie nur ein Datum, eine Datum und eine Uhrzeit oder nur "
+"eine Uhrzeit auswählen möchten."
+
+#: ../../forms.rst:131
+msgid "Date field configuration"
+msgstr "Konfiguration eines Datumsfelds"
+
+#: ../../forms.rst:133
+msgid ""
+"User fields also have a `Candidates` option that you can use to choose "
+"which users can be selected:"
+msgstr ""
+"Um in Nutzerfeldern die Auswahl zu erleichtern können Sie unter "
+"`Kandidaten` die Liste der zur Auswahl stehenden Personen einschränken. "
+"Nutzer haben trotzdem weiterhin die Möglichkeit unter allen Nutzern in der "
+"Organisation zu wählen, wenn Sie dies möchten. "
+
+#: ../../forms.rst:137
+msgid "User field configuration"
+msgstr "Konfiguration eines Nutzerfelds"

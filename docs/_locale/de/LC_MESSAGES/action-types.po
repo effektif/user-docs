@@ -34,15 +34,15 @@ msgstr ""
 "Konfigurationsmöglichkeiten sehen Sie jeweils, wenn Sie eine Aktion "
 "auswählen."
 
-#: ../../action-types.rst:11
+#: ../../action-types.rst:13
 msgid "User task"
 msgstr "User Task"
 
-#: ../../action-types.rst:79
+#: ../../action-types.rst:81
 msgid "Send email"
 msgstr "Email senden"
 
-#: ../../action-types.rst:85
+#: ../../action-types.rst:87
 msgid ""
 "The send email action sends an email to the specified user. In the "
 "configuration you can specify"
@@ -50,11 +50,11 @@ msgstr ""
 "Mit der Aktionen `Email senden` können Sie eine Email an eine Reihe von "
 "Nutzern senden. Die Konfiguration umfasst des Weiteren:"
 
-#: ../../action-types.rst:90
+#: ../../action-types.rst:92
 msgid "To:"
 msgstr "Empfänger:"
 
-#: ../../action-types.rst:89
+#: ../../action-types.rst:91
 msgid ""
 "The people to which the email is sent. You can type a plain email address, "
 "select a variable, a variable field or a user in the organization."
@@ -63,11 +63,11 @@ msgstr ""
 "Effektif Nutzer auswählen, Rollen und Nutzervariablen des Prozesses nutzen "
 "oder einfach eine reguläre Emailadresse eintragen."
 
-#: ../../action-types.rst:98
+#: ../../action-types.rst:100
 msgid "Subject:"
 msgstr "Betreff:"
 
-#: ../../action-types.rst:93
+#: ../../action-types.rst:95
 msgid ""
 "The subject of the email. To use process data in the subject, start by "
 "typing a `#`. If the list of variable fields is too long, you can just keep "
@@ -83,25 +83,15 @@ msgstr ""
 "einen Eintrag auszuwählen. Um eine Variable zu löschen, löschen Sie den "
 "Eintrag einfach als wäre er normaler Text."
 
-#: ../../action-types.rst:103
+#: ../../action-types.rst:105
 msgid "Attachments:"
 msgstr "Dateianhänge:"
 
-#: ../../action-types.rst:101
-msgid ""
-"To add attachments, click the attachments field. If there are files in the "
-"process variables, they will be shown. Select one of the file variable "
-"fields to add these as attachments to the mail."
-msgstr ""
-"Um eine Datei an die Email anzuhängen klicken Sie einfach in das Anhänge "
-"Feld. Die sich öffnende Liste zeigt alle zur Zeit verfügbaren Dateien im "
-"Prozess."
-
-#: ../../action-types.rst:108
+#: ../../action-types.rst:110
 msgid "Body text:"
 msgstr "Inhalt:"
 
-#: ../../action-types.rst:106
+#: ../../action-types.rst:108
 msgid ""
 "Just like in the subject, you can combine template text with variable fields"
 " to Start by typing a `#`. See *Subject* above in this list for more details"
@@ -272,11 +262,11 @@ msgstr ""
 msgid "JavaScript JSON values"
 msgstr "JavaScript JSON-Werte"
 
-#: ../../action-types.rst:15
+#: ../../action-types.rst:17
 msgid "A user task in the process editor"
 msgstr "Ein User Task im Prozess-Editor"
 
-#: ../../action-types.rst:83
+#: ../../action-types.rst:85
 msgid "A send email task in the process editor"
 msgstr "Eine Email senden Aktion im Prozess-Editor"
 
@@ -558,6 +548,16 @@ msgstr ""
 msgid "A box upload file task in the process editor"
 msgstr "Eine Box Datei-Upload Aktion im Prozesseditor"
 
+#: ../../action-types.rst:103
+msgid ""
+"To add attachments, click the attachments field. If there are files in the "
+"workflow variables, they will be shown. Select one of the file variable "
+"fields to add these as attachments to the mail."
+msgstr ""
+"Um eine Datei an die Email anzuhängen klicken Sie einfach in das Anhänge "
+"Feld. Die sich öffnende Liste zeigt alle zur Zeit verfügbaren Dateien im "
+"Prozess."
+
 #: ../../action-types/google.rst:58 ../../action-types/box.rst:43
 #: ../../action-types/box.rst:43 ../../action-types/google.rst:58
 msgid ""
@@ -577,7 +577,7 @@ msgstr ""
 "(``/``) voneinander trennen, legt Effektif sogar ganze Hierarchien von "
 "Ordnern für Sie an. "
 
-#: ../../action-types.rst:17
+#: ../../action-types.rst:19
 msgid ""
 "A user task means a user has to perform a task. In the :ref:`case <cases>`, "
 "a task will be created. In the configuration form, the following optional "
@@ -588,7 +588,7 @@ msgstr ""
 "hierzu eine Aufgabe angelegt. Für eine Aufgabe stehen die folgenden "
 "Konfigurationsmöglichkeiten zur Verfügung: "
 
-#: ../../action-types.rst:20
+#: ../../action-types.rst:22
 msgid ""
 "*Assignment* - a task can be assigned to a user or a :ref:`process role "
 "<roles>`."
@@ -596,7 +596,7 @@ msgstr ""
 "*Zuweisung* - Eine Aufgabe kann entweder direkt einem Nutzer zugewiesen "
 "werden oder einer :ref:`Rolle <roles>`."
 
-#: ../../action-types.rst:21
+#: ../../action-types.rst:23
 msgid ""
 "*Form* - a task can be given a form. To complete the task, the form has to "
 "be submitted."
@@ -604,26 +604,26 @@ msgstr ""
 "*Formular* - Eine Aufgabe kann ein Formular beinhalten, mit dem Daten "
 "aufgenommen werden können."
 
-#: ../../action-types.rst:22
+#: ../../action-types.rst:24
 msgid "*Reminders* - task deadline notifications."
 msgstr ""
 "*Erinnerungen* - Senden Sie Erinnerungen und legen Sie Fälligkeiten fest."
 
-#: ../../action-types.rst:23
+#: ../../action-types.rst:25
 msgid "*Escalations* -  automatic task reassignment."
 msgstr ""
 "*Eskalation* - Weisen Sie die Aufgabe automatisch anderen Personen zu."
 
-#: ../../action-types.rst:24
+#: ../../action-types.rst:26
 msgid "*Access Rights* - task permissions for users and groups."
 msgstr ""
 "*Zugriffsrechte* - Definieren Sie Zugriffsrechte für Nutzer und Gruppen."
 
-#: ../../action-types.rst:27
+#: ../../action-types.rst:29
 msgid "Assignment"
 msgstr "Zuweisung"
 
-#: ../../action-types.rst:29
+#: ../../action-types.rst:31
 msgid ""
 "Use the assignment tab to specify the task’s default assignee or candidates."
 " Candidates can be individual users or organisation groups."
@@ -632,11 +632,11 @@ msgstr ""
 "Liste von Kandidaten definieren. Kandidaten können hierbei mehrere Nutzer "
 "oder Gruppen von Nutzern sein."
 
-#: ../../action-types.rst:34
+#: ../../action-types.rst:36
 msgid "Configuring user task assignment in the process editor"
 msgstr "Zuweisung einer Aufgabe im Prozesseditor konfigurieren"
 
-#: ../../action-types.rst:36
+#: ../../action-types.rst:38
 msgid ""
 "You an also specify a role for the task’s assignment, like a BPMN swim lane,"
 " so that related tasks are automatically assigned to the same person."
@@ -645,15 +645,15 @@ msgstr ""
 "Diese ähneln den Lanes aus BPMN. So können Sie mehrere Aufgaben automatisch "
 "der gleichen Person zuweisen. "
 
-#: ../../action-types.rst:41
+#: ../../action-types.rst:43
 msgid "Form"
 msgstr "Formular"
 
-#: ../../action-types.rst:48
+#: ../../action-types.rst:50
 msgid "Reminders"
 msgstr "Erinnerungen"
 
-#: ../../action-types.rst:50
+#: ../../action-types.rst:52
 msgid ""
 "Use the user task’s `Reminders` configuration panel tab to set up task "
 "deadline notifications. If you configure a `Due date` or `Reminder` period, "
@@ -663,11 +663,11 @@ msgstr ""
 "festlegen. Wenn Sie eine `Fälligkeit` oder `Erinnerung` festlegen, wird "
 "Effektif für die von Ihnen konfigurierte Periode Erinnerungen versenden."
 
-#: ../../action-types.rst:56
+#: ../../action-types.rst:58
 msgid "Configuring user task reminders in the process editor"
 msgstr "Erinnerungen im Prozesseditor konfigurieren"
 
-#: ../../action-types.rst:58
+#: ../../action-types.rst:60
 msgid ""
 "Effektif sends these notifications to the task’s assignee if the task is "
 "assigned, or to all of the task’s candidates if the task it not assigned. If"
@@ -680,11 +680,11 @@ msgstr ""
 " zugewiesen sein und sind auch keine Kandidaten konfiguriert, so bekommt der"
 " Prozess-Eigentümer die Benachrichtigung."
 
-#: ../../action-types.rst:64
+#: ../../action-types.rst:66
 msgid "Escalations"
 msgstr "Eskalation"
 
-#: ../../action-types.rst:66
+#: ../../action-types.rst:68
 msgid ""
 "You can also use the :ref:`Reminders <reminders>` configuration panel tab to"
 " configure escalations. If you configure an `Escalation` period and an "
@@ -697,11 +697,11 @@ msgstr ""
 "von Ihnen konfigurierte Person zuweisen. Der neue Verantwortliche für die "
 "Aufgabe erhält auch eine Benachrichtigung von Effektif."
 
-#: ../../action-types.rst:72
+#: ../../action-types.rst:74
 msgid "Access Rights"
 msgstr "Zugriffsrechte"
 
-#: ../../action-types.rst:74
+#: ../../action-types.rst:76
 msgid ""
 "Use the `Access Rights` tab to set permissions for viewing, assigning and "
 "completing the task. See :ref:`Restricting access to user tasks <user-task-"
@@ -711,13 +711,57 @@ msgstr ""
 "und bearbeiten kann. Nähere Informationen hierzu finden Sie unter "
 ":ref:`Zugriff auf Aufgaben einschränken <user-task-access>`. "
 
-#: ../../action-types.rst:43
+#: ../../action-types.rst:45
 msgid ""
 "Use the form builder to create a user task form for entering and updating "
 "data as part of the user task."
 msgstr ""
 "Benutzen Sie den Formulareditor, um neue Daten aufzunehmen oder bestehende "
 "zu verändern."
+
+#~ msgid ""
+#~ "A user task means a user has to perform a task. In the :ref:`case <cases>`, "
+#~ "a task will be created. In the configuration form, following optional "
+#~ "details can be specified:"
+#~ msgstr ""
+#~ "Eine User Task bedeutet, dass ein Mensch diese Aufgabe erledigen muss. Wird "
+#~ "ein Prozess gestartet, so werden im entsprechenden :ref:`Fall <cases>` "
+#~ "Aufgaben für diese Aktion angelegt. Wenn Sie diese Aktion konfigurieren "
+#~ "können Sie die folgenden Attribute ändern:"
+
+#~ msgid "Assignment:"
+#~ msgstr "Zuweisung:"
+
+#~ msgid "A task can be assigned to a user or a :ref:`process role <roles>`"
+#~ msgstr ""
+#~ "Eine Aufgabe kann einem Nutzer oder einer :ref:`Rolle <roles>` zugewiesen "
+#~ "werden."
+
+#~ msgid "Form:"
+#~ msgstr "Formular:"
+
+#~ msgid ""
+#~ "A task can be given a form. To complete the task, the form has to be "
+#~ "submitted."
+#~ msgstr ""
+#~ "In jeder Aufgabe kann auch ein Formular erstellt werden. Wenn die Aufgabe "
+#~ "später erledigt werden muss, muss auch das entsprechende Formular ausgefüllt"
+#~ " werden."
+
+#~ msgid "Reminders:"
+#~ msgstr "Erinnerungen:"
+
+#~ msgid "Reminder emails and escalations."
+#~ msgstr "Erinnerungsemails und Eskalationen."
+
+#~ msgid ""
+#~ "To add attachments, click the attachments field. If there are files in the "
+#~ "process variables, they will be shown. Select one of the file variable "
+#~ "fields to add these as attachments to the mail."
+#~ msgstr ""
+#~ "Um eine Datei an die Email anzuhängen klicken Sie einfach in das Anhänge "
+#~ "Feld. Die sich öffnende Liste zeigt alle zur Zeit verfügbaren Dateien im "
+#~ "Prozess."
 
 #~ msgid "Assignment:"
 #~ msgstr "Zuweisung:"

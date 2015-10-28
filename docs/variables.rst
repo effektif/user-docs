@@ -1,15 +1,14 @@
-Data types
+.. _variables:
+
+Variables
 ==========
 
 The forms and some of the actions are linked to workflow data, called *variables*.
 Workflow variables are mostly created automatically,
 as when creating a new form field.
-Each variable has a data type.
-This section lists the data types variables can have.
 
-.. _variables:
 
-Variables
+Data types
 ---------
 
 Workflow information is stored in variables.
@@ -87,7 +86,7 @@ ID type
 ```````
 
 The ID type is a special kind of string.
-These IDs identify objects and they are always created by Effektif, 
+These IDs identify objects and they are always created by Effektif,
 and have no other meaning.
 An example of an ID string is ``53fae958036471cea136ea83``.
 
@@ -101,11 +100,6 @@ Object types are composite data types that have a list of fields.
 Each field has a name.
 For example: a user is an object type,
 with fields such as ``firstName``, ``lastName``, ``mailAddress``.
-
-When an action requires data, 
-like the ``files`` in a `Google File Upload`,
-it’s possible to bind those input parameters to variables or fields inside variable objects.
-
 
 .. _type-list:
 

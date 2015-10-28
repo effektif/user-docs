@@ -7,6 +7,8 @@ All actions are displayed as lines in the 'Simple action list' and as rounded re
 
 Actions typically have a configuration panel that opens up when you select the action.
 
+.. _user-task:
+
 User task
 ---------
 
@@ -99,7 +101,7 @@ Subject:
 
 Attachments:
     To add attachments, click the attachments field.
-    If there are files in the process variables, they will be shown.
+    If there are files in the workflow variables, they will be shown.
     Select one of the file variable fields to add these as attachments to the mail.
 
 Body text:
