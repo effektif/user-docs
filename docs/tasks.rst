@@ -24,13 +24,13 @@ and select the *Inbox* tab.
 
    The tasks Inbox
 
-Each task shows the assignee, 
+Each task shows the assignee,
 which is you for everything in the inbox,
 and a link to the task itself.
 
 The left-hand side of the inbox is split into sections for tasks that have due dates,
 so you can prioritise your work.
-Tasks that are assigned to you, but don’t have a due date, 
+Tasks that are assigned to you, but don’t have a due date,
 are listed on the right.
 
 
@@ -89,7 +89,7 @@ Assigning tasks
 
 You can assign a task to yourself, or someone else, to indicate who is expected to work on the task.
 An assigned task is listed in the assignee’s :ref:`tasks inbox <tasks-inbox>`,
-and the assignee receives task notifications and :ref:`reminders <reminders>`.
+and the assignee receives task :ref:`notifications <notifications>` and :ref:`reminders <reminders>`.
 
 You can assign a task from anywhere a task appears in a task list.
 To assign the task, click the assignee button immediately to the left of the task name,
@@ -120,5 +120,5 @@ You may want to reopen a task that you closed a task by accident,
 or when you learn about additional work that needs to be done for this task.
 If you just forgot to attach a document or make a comment, you can still do that without reopening the task.
 
-The advantage of reopening a task instead of creating a new task is that 
+The advantage of reopening a task instead of creating a new task is that
 the existing task retains its context.

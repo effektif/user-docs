@@ -13,6 +13,7 @@ Effektif User Guide
    action-types
    forms
    control-flow
+   notifications
    access
    integration/salesforce
    profile

@@ -1,3 +1,5 @@
+.. _google-drive:
+
 Google Drive Upload file
 ------------------------
 

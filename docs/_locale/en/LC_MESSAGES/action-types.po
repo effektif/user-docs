@@ -118,47 +118,47 @@ msgid ""
 " instructions on using the `#`."
 msgstr ""
 
-#: ../../action-types/google.rst:22 ../../action-types/google.rst:22
+#: ../../action-types/google.rst:24 ../../action-types/google.rst:24
 msgid ""
 "If you're already authenticated with a single user to Google, the login "
 "screen is skipped and you go straight to the :ref:`permission screen <drive-"
 "permission>` below."
 msgstr ""
 
-#: ../../action-types/google.rst:24 ../../action-types/google.rst:24
+#: ../../action-types/google.rst:26 ../../action-types/google.rst:26
 msgid ""
 "If you're not yet authenticated to Google in this browser yet, you'll get a "
 "login window:"
 msgstr ""
 
-#: ../../action-types/google.rst:30 ../../action-types/google.rst:30
+#: ../../action-types/google.rst:32 ../../action-types/google.rst:32
 msgid "Google Drive login"
 msgstr ""
 
-#: ../../action-types/google.rst:32 ../../action-types/google.rst:32
+#: ../../action-types/google.rst:34 ../../action-types/google.rst:34
 msgid ""
 "If you're authenticated with multiple users to Google in this browser, "
 "select the account you want to use."
 msgstr ""
 
-#: ../../action-types/google.rst:34 ../../action-types/google.rst:34
+#: ../../action-types/google.rst:36 ../../action-types/google.rst:36
 msgid ""
 "After authentication is complete, you'll see the following screen that "
 "allows you to give Effektif access to your Google account."
 msgstr ""
 
-#: ../../action-types/google.rst:39 ../../action-types/google.rst:39
+#: ../../action-types/google.rst:41 ../../action-types/google.rst:41
 msgid "Google Drive permission grant"
 msgstr ""
 
-#: ../../action-types/google.rst:54 ../../action-types/google.rst:54
+#: ../../action-types/google.rst:56 ../../action-types/google.rst:56
 msgid ""
 "Other people in your organization will be able to see that you have "
 "configured an account, but they will not be able to see youro email address "
 "or browse your account folders."
 msgstr ""
 
-#: ../../action-types/google.rst:56 ../../action-types/google.rst:56
+#: ../../action-types/google.rst:58 ../../action-types/google.rst:58
 msgid ""
 "In the section `Target folder` you can now browse and select the folder you "
 "want to upload the file(s) to."
@@ -253,14 +253,14 @@ msgstr ""
 msgid "A send email task in the process editor"
 msgstr ""
 
-#: ../../action-types/google.rst:17 ../../action-types/google.rst:17
+#: ../../action-types/google.rst:19 ../../action-types/google.rst:19
 msgid ""
 "When you click on the button `Configure a Google Drive account`, a popup "
 "window will appear that helps you integrate Effektif with your Google Drive "
 "account."
 msgstr ""
 
-#: ../../action-types/google.rst:19 ../../action-types/google.rst:19
+#: ../../action-types/google.rst:21 ../../action-types/google.rst:21
 msgid ""
 "Google will perform a check if you're already logged in to Google in that "
 "browser. There are 3 possible outcomes:"
@@ -301,15 +301,15 @@ msgid ""
 "column in the test console’s variables table."
 msgstr ""
 
-#: ../../action-types/google.rst:2 ../../action-types/google.rst:2
+#: ../../action-types/google.rst:4 ../../action-types/google.rst:4
 msgid "Google Drive Upload file"
 msgstr ""
 
-#: ../../action-types/google.rst:6 ../../action-types/google.rst:6
+#: ../../action-types/google.rst:8 ../../action-types/google.rst:8
 msgid "A Google Drive upload file task in the process editor"
 msgstr ""
 
-#: ../../action-types/google.rst:8 ../../action-types/google.rst:8
+#: ../../action-types/google.rst:10 ../../action-types/google.rst:10
 msgid ""
 "The Google Drive `Upload file` action sends one or more files to an account "
 "of your choice."
@@ -320,13 +320,13 @@ msgstr ""
 msgid "Configuration"
 msgstr ""
 
-#: ../../action-types/google.rst:14 ../../action-types/google.rst:14
+#: ../../action-types/google.rst:16 ../../action-types/google.rst:16
 msgid ""
 "After creating a Google Drive `Upload file` action, the configuration panel "
 "shows a button to start configuring the account."
 msgstr ""
 
-#: ../../action-types/google.rst:41 ../../action-types/google.rst:41
+#: ../../action-types/google.rst:43 ../../action-types/google.rst:43
 msgid ""
 "After accepting the permissions, the pop up will disappear and the "
 "connection with your account is established."
@@ -336,14 +336,14 @@ msgstr ""
 msgid "Upload file action"
 msgstr ""
 
-#: ../../action-types/google.rst:46 ../../action-types/google.rst:46
+#: ../../action-types/google.rst:48 ../../action-types/google.rst:48
 msgid ""
 "Once you have configured your Google Drive account, the `Upload file` action"
 " configuration panel displays the account and also shows the folders in `My "
 "Drive` in your Google Drive account."
 msgstr ""
 
-#: ../../action-types/google.rst:52 ../../action-types/google.rst:52
+#: ../../action-types/google.rst:54 ../../action-types/google.rst:54
 msgid "Google Drive `Upload file` authenticated configuration"
 msgstr ""
 
