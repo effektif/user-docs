@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
@@ -31,64 +31,31 @@ msgstr ""
 msgid "User task"
 msgstr ""
 
-#: ../../action-types.rst:19
-msgid ""
-"A user task means a user has to perform a task. In the :ref:`case <cases>`, "
-"a task will be created. In the configuration form, following optional "
-"details can be specified:"
-msgstr ""
-
-#: ../../action-types.rst:22
-msgid "Assignment:"
-msgstr ""
-
-#: ../../action-types.rst:23
-msgid "A task can be assigned to a user or a :ref:`process role <roles>`"
-msgstr ""
-
-#: ../../action-types.rst:24
-msgid "Form:"
-msgstr ""
-
-#: ../../action-types.rst:25
-msgid ""
-"A task can be given a form. To complete the task, the form has to be "
-"submitted."
-msgstr ""
-
-#: ../../action-types.rst:27
-msgid "Reminders:"
-msgstr ""
-
-#: ../../action-types.rst:27
-msgid "Reminder emails and escalations."
-msgstr ""
-
-#: ../../action-types.rst:30
+#: ../../action-types.rst:81
 msgid "Send email"
 msgstr ""
 
-#: ../../action-types.rst:36
+#: ../../action-types.rst:87
 msgid ""
 "The send email action sends an email to the specified user. In the "
 "configuration you can specify"
 msgstr ""
 
-#: ../../action-types.rst:41
+#: ../../action-types.rst:92
 msgid "To:"
 msgstr ""
 
-#: ../../action-types.rst:40
+#: ../../action-types.rst:91
 msgid ""
 "The people to which the email is sent. You can type a plain email address, "
 "select a variable, a variable field or a user in the organization."
 msgstr ""
 
-#: ../../action-types.rst:49
+#: ../../action-types.rst:100
 msgid "Subject:"
 msgstr ""
 
-#: ../../action-types.rst:44
+#: ../../action-types.rst:95
 msgid ""
 "The subject of the email. To use process data in the subject, start by "
 "typing a `#`. If the list of variable fields is too long, you can just keep "
@@ -97,21 +64,15 @@ msgid ""
 "variable fields from the subject, just delete it like it's normal text."
 msgstr ""
 
-#: ../../action-types.rst:59
+#: ../../action-types.rst:110
 msgid "Body text:"
 msgstr ""
 
-#: ../../action-types.rst:103
+#: ../../action-types.rst:105
 msgid "Attachments:"
 msgstr ""
 
-#: ../../action-types.rst:101
-msgid ""
-"To add attachments, click the attachments field. If there are files in the "
-"process variables, they will be shown. Select one of the file variable "
-"fields to add these as attachments to the mail."
-msgstr ""
-
+#: ../../action-types.rst:108
 msgid ""
 "Just like in the subject, you can combine template text with variable fields"
 " to Start by typing a `#`. See *Subject* above in this list for more details"
@@ -164,7 +125,7 @@ msgid ""
 "want to upload the file(s) to."
 msgstr ""
 
-#: ../../action-types/google.rst:66 ../../action-types/google.rst:66
+#: ../../action-types/google.rst:68 ../../action-types/google.rst:68
 msgid ""
 "In section `Files to upload`, you can select the variable field containing "
 "one or more files to be uploaded. If there was no file variable, a variable "
@@ -249,7 +210,7 @@ msgstr ""
 msgid "A user task in the process editor"
 msgstr ""
 
-#: ../../action-types.rst:34
+#: ../../action-types.rst:85
 msgid "A send email task in the process editor"
 msgstr ""
 
@@ -315,8 +276,8 @@ msgid ""
 "of your choice."
 msgstr ""
 
-#: ../../action-types/box.rst:12 ../../action-types/google.rst:12
-#: ../../action-types/google.rst:81
+#: ../../action-types/box.rst:12 ../../action-types/google.rst:14
+#: ../../action-types/google.rst:83
 msgid "Configuration"
 msgstr ""
 
@@ -332,7 +293,7 @@ msgid ""
 "connection with your account is established."
 msgstr ""
 
-#: ../../action-types/box.rst:29 ../../action-types/google.rst:44
+#: ../../action-types/box.rst:29 ../../action-types/google.rst:46
 msgid "Upload file action"
 msgstr ""
 
@@ -347,43 +308,43 @@ msgstr ""
 msgid "Google Drive `Upload file` authenticated configuration"
 msgstr ""
 
-#: ../../action-types/google.rst:70 ../../action-types/google.rst:70
+#: ../../action-types/google.rst:72 ../../action-types/google.rst:72
 msgid "Google Drive Print File"
 msgstr ""
 
-#: ../../action-types/google.rst:74 ../../action-types/google.rst:74
+#: ../../action-types/google.rst:76 ../../action-types/google.rst:76
 msgid "A Google Drive print file task in the process editor"
 msgstr ""
 
-#: ../../action-types/google.rst:76 ../../action-types/google.rst:76
+#: ../../action-types/google.rst:78 ../../action-types/google.rst:78
 msgid ""
 "The Google Drive `Print File` action uses `Google Cloud Print "
 "<http://www.google.com/cloudprint/learn/>`_ to print a file that has been "
 "uploaded to a case."
 msgstr ""
 
-#: ../../action-types/google.rst:87 ../../action-types/google.rst:87
+#: ../../action-types/google.rst:89 ../../action-types/google.rst:89
 msgid ""
 "When you have authenticated with a Google account and granted permission, "
 "you are ready to configure the `Print file` action."
 msgstr ""
 
-#: ../../action-types/google.rst:92
+#: ../../action-types/google.rst:94
 msgid "Print file action"
 msgstr ""
 
-#: ../../action-types/google.rst:94 ../../action-types/google.rst:94
+#: ../../action-types/google.rst:96 ../../action-types/google.rst:96
 msgid ""
 "Once you have configured your Google Drive account, the `Print file` action "
 "configuration panel displays the account, the printer settings, and the "
 "selected file to print."
 msgstr ""
 
-#: ../../action-types/google.rst:100 ../../action-types/google.rst:100
+#: ../../action-types/google.rst:102 ../../action-types/google.rst:102
 msgid "Google Drive `Print file` authenticated configuration"
 msgstr ""
 
-#: ../../action-types/google.rst:102 ../../action-types/google.rst:102
+#: ../../action-types/google.rst:104 ../../action-types/google.rst:104
 msgid ""
 "In the section `Files to upload` you can select the file variable that holds"
 " the file you want to print."
@@ -459,7 +420,7 @@ msgid ""
 "of files in the variables, it is preselected."
 msgstr ""
 
-#: ../../action-types/google.rst:83 ../../action-types/google.rst:83
+#: ../../action-types/google.rst:85 ../../action-types/google.rst:85
 msgid ""
 "After creating a Google Drive `Print file` action, the configuration panel "
 "shows a button to start configuring the account. This configuration is the "
@@ -467,8 +428,8 @@ msgid ""
 "(above)."
 msgstr ""
 
-#: ../../action-types/google.rst:58 ../../action-types/box.rst:43
-#: ../../action-types/box.rst:43 ../../action-types/google.rst:58
+#: ../../action-types/google.rst:60 ../../action-types/box.rst:43
+#: ../../action-types/box.rst:43 ../../action-types/google.rst:60
 msgid ""
 "Next to `Folder name template`, you can optionally specify a subfolder name "
 "to create inside the target folder. This name template can include process "
@@ -478,21 +439,21 @@ msgid ""
 "Use a forward slash (``/``) to separate nested subfolder levels."
 msgstr ""
 
-#: ../../action-types.rst:21
+#: ../../action-types.rst:23
 msgid ""
 "*Form* - a task can be given a form. To complete the task, the form has to "
 "be submitted."
 msgstr ""
 
-#: ../../action-types.rst:48
+#: ../../action-types.rst:50
 msgid "Reminders"
 msgstr ""
 
-#: ../../action-types.rst:56
+#: ../../action-types.rst:58
 msgid "Configuring user task reminders in the process editor"
 msgstr ""
 
-#: ../../action-types.rst:58
+#: ../../action-types.rst:60
 msgid ""
 "Effektif sends these notifications to the task’s assignee if the task is "
 "assigned, or to all of the task’s candidates if the task it not assigned. If"
@@ -500,39 +461,39 @@ msgid ""
 "notification to the process’ owner."
 msgstr ""
 
-#: ../../action-types.rst:64
+#: ../../action-types.rst:66
 msgid "Escalations"
 msgstr ""
 
-#: ../../action-types.rst:17
+#: ../../action-types.rst:19
 msgid ""
 "A user task means a user has to perform a task. In the :ref:`case <cases>`, "
 "a task will be created. In the configuration form, the following optional "
 "details can be specified."
 msgstr ""
 
-#: ../../action-types.rst:20
+#: ../../action-types.rst:22
 msgid ""
 "*Assignment* - a task can be assigned to a user or a :ref:`process role "
 "<roles>`."
 msgstr ""
 
-#: ../../action-types.rst:22
+#: ../../action-types.rst:24
 msgid "*Reminders* - task deadline notifications."
 msgstr ""
 
-#: ../../action-types.rst:23
+#: ../../action-types.rst:25
 msgid "*Escalations* -  automatic task reassignment."
 msgstr ""
 
-#: ../../action-types.rst:50
+#: ../../action-types.rst:52
 msgid ""
 "Use the user task’s `Reminders` configuration panel tab to set up task "
 "deadline notifications. If you configure a `Due date` or `Reminder` period, "
 "then Effektif will send email when the deadline expires."
 msgstr ""
 
-#: ../../action-types.rst:66
+#: ../../action-types.rst:68
 msgid ""
 "You can also use the :ref:`Reminders <reminders>` configuration panel tab to"
 " configure escalations. If you configure an `Escalation` period and an "
@@ -540,50 +501,94 @@ msgid ""
 "deadline expires, and send a notification to the new assignee."
 msgstr ""
 
-#: ../../action-types.rst:24
+#: ../../action-types.rst:26
 msgid "*Access Rights* - task permissions for users and groups."
 msgstr ""
 
-#: ../../action-types.rst:27
+#: ../../action-types.rst:29
 msgid "Assignment"
 msgstr ""
 
-#: ../../action-types.rst:29
+#: ../../action-types.rst:31
 msgid ""
 "Use the assignment tab to specify the task’s default assignee or candidates."
 " Candidates can be individual users or organisation groups."
 msgstr ""
 
-#: ../../action-types.rst:36
+#: ../../action-types.rst:38
 msgid ""
 "You an also specify a role for the task’s assignment, like a BPMN swim lane,"
 " so that related tasks are automatically assigned to the same person."
 msgstr ""
 
-#: ../../action-types.rst:41
+#: ../../action-types.rst:43
 msgid "Form"
 msgstr ""
 
-#: ../../action-types.rst:43
-msgid ""
-"Use form builder to create a user task form for entering and updating data "
-"as part of the user task."
-msgstr ""
-
-#: ../../action-types.rst:72
+#: ../../action-types.rst:74
 msgid "Access Rights"
 msgstr ""
 
-#: ../../action-types.rst:74
+#: ../../action-types.rst:76
 msgid ""
 "Use the `Access Rights` tab to set permissions for viewing, assigning and "
 "completing the task. See :ref:`Restricting access to user tasks <user-task-"
 "access>` for details."
 msgstr ""
 
-#: ../../action-types.rst:34
+#: ../../action-types.rst:36
 msgid "Configuring user task assignment in the process editor"
 msgstr ""
+
+#: ../../action-types.rst:103
+msgid ""
+"To add attachments, click the attachments field. If there are files in the "
+"workflow variables, they will be shown. Select one of the file variable "
+"fields to add these as attachments to the mail."
+msgstr ""
+
+#: ../../action-types.rst:45
+msgid ""
+"Use the form builder to create a user task form for entering and updating "
+"data as part of the user task."
+msgstr ""
+
+#~ msgid ""
+#~ "A user task means a user has to perform a task. In the :ref:`case <cases>`, "
+#~ "a task will be created. In the configuration form, following optional "
+#~ "details can be specified:"
+#~ msgstr ""
+
+#~ msgid "Assignment:"
+#~ msgstr ""
+
+#~ msgid "A task can be assigned to a user or a :ref:`process role <roles>`"
+#~ msgstr ""
+
+#~ msgid "Form:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A task can be given a form. To complete the task, the form has to be "
+#~ "submitted."
+#~ msgstr ""
+
+#~ msgid "Reminders:"
+#~ msgstr ""
+
+#~ msgid "Reminder emails and escalations."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To add attachments, click the attachments field. If there are files in the "
+#~ "process variables, they will be shown. Select one of the file variable "
+#~ "fields to add these as attachments to the mail."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use form builder to create a user task form for entering and updating data "
+#~ "as part of the user task."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "You can also use the `Reminders` configuration panel tab to configure "
@@ -679,14 +684,6 @@ msgstr ""
 #~ "configuration will now display the account and also show the folders in 'My "
 #~ "Drive' in your Google Drive account."
 #~ msgstr ""
-
-#~ msgid "Google Drive authenticated configuration"
-#: ../../action-types.rst:52
-msgid ""
-"To add attachments, click the attachments field. If there are files in the "
-"workflow variables, they will be shown. Select one of the file variable "
-"fields to add these as attachments to the mail."
-msgstr ""
 
 #~ msgid ""
 #~ "To add attachments, click the attachments field. If there are files in the "

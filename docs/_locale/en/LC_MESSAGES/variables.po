@@ -163,18 +163,11 @@ msgid ""
 "``firstName``, ``lastName``, ``mailAddress``."
 msgstr ""
 
-#: ../../variables.rst:104
-msgid ""
-"When an action requires data, like the ``files`` in a `Google File Upload`, "
-"it’s possible to bind those input parameters to variables or fields inside "
-"variable objects."
-msgstr ""
-
-#: ../../variables.rst:112
+#: ../../variables.rst:107
 msgid "List type"
 msgstr ""
 
-#: ../../variables.rst:114
+#: ../../variables.rst:109
 msgid ""
 "A list is simply a collection of values. The list is ordered and all "
 "elements are of a specified type."
@@ -186,6 +179,12 @@ msgid ""
 "*variables*. Workflow variables are mostly created automatically, as when "
 "creating a new form field."
 msgstr ""
+
+#~ msgid ""
+#~ "When an action requires data, like the ``files`` in a `Google File Upload`, "
+#~ "it’s possible to bind those input parameters to variables or fields inside "
+#~ "variable objects."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "The forms and some of the actions are linked to workflow data, called "

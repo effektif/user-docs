@@ -71,14 +71,6 @@ msgstr ""
 msgid "This notification is a scheduled reminder that a task is open."
 msgstr ""
 
-#: ../../notifications.rst:43
-msgid ""
-"Effektif sends this notification to the tasks assignee if the task is "
-"assigned, or to all of the task’s candidates if the task it not assigned. If"
-" the task is unassigned and there are no candidates, Effektif sends the "
-"notification to the process’ owner."
-msgstr ""
-
 #: ../../notifications.rst:50
 msgid "Task escalated"
 msgstr ""
@@ -87,12 +79,6 @@ msgstr ""
 msgid ""
 "This notification indicates that an open task has reached its escalation "
 "deadline."
-msgstr ""
-
-#: ../../notifications.rst:54
-msgid ""
-"Effektif sends this notification to the tasks new assignee, who the task is "
-"being escalated to."
 msgstr ""
 
 #: ../../notifications.rst:59
@@ -129,6 +115,32 @@ msgstr ""
 #: ../../notifications.rst:4
 msgid "Notifications"
 msgstr ""
+
+#: ../../notifications.rst:43
+msgid ""
+"Effektif sends this notification to the task’s assignee if the task is "
+"assigned, or to all of the task’s candidates if the task it not assigned. If"
+" the task is unassigned and there are no candidates, Effektif sends the "
+"notification to the process’ owner."
+msgstr ""
+
+#: ../../notifications.rst:54
+msgid ""
+"Effektif sends this notification to the task’s new assignee, who the task is"
+" being escalated to."
+msgstr ""
+
+#~ msgid ""
+#~ "Effektif sends this notification to the tasks assignee if the task is "
+#~ "assigned, or to all of the task’s candidates if the task it not assigned. If"
+#~ " the task is unassigned and there are no candidates, Effektif sends the "
+#~ "notification to the process’ owner."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Effektif sends this notification to the tasks new assignee, who the task is "
+#~ "being escalated to."
+#~ msgstr ""
 
 #~ msgid "Email Notifications"
 #~ msgstr ""
