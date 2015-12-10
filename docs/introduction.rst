@@ -29,3 +29,8 @@ You’ll get:
 - traceability - data on who did what
 - clarity - visibility of who has to do what
 - agility - because Effektif process models are easier to change than software.
+
+Acknowledgements
+----------------
+
+Signavio uses open source software. We thank everyone involved in the open source community. Please follow :download:`this link <download/Open-Source-Components-Effektif.pdf>` to access a list of all open source components that are part of this application.
