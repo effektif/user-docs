@@ -130,14 +130,6 @@ msgstr ""
 msgid "After you have added a task, it appears in the list:"
 msgstr ""
 
-#: ../../tasks.rst:83
-msgid ""
-"When a process is started, a :ref:`case <cases>` is created and all elements"
-" not having incoming transitions will be started. So if you only use the "
-":ref:`simple action list <action-list>` to create a list of user tasks, all "
-"those tasks in the list will be started immediate when the process starts."
-msgstr ""
-
 #: ../../tasks.rst:127
 msgid ""
 "When tasks have a form, the form is displayed in the same position and it "
@@ -226,6 +218,21 @@ msgid ""
 "a user task’s default due date in the process editor, on the user task’s "
 ":ref:`reminders <reminders>` tab."
 msgstr ""
+
+#: ../../tasks.rst:83
+msgid ""
+"When a process is started, a :ref:`case <cases>` is created and all elements"
+" not having incoming transitions will be started. So if you only use the "
+":ref:`simple action list <action-list>` to create a list of user tasks, all "
+"those tasks in the list will be started immediately when the process starts."
+msgstr ""
+
+#~ msgid ""
+#~ "When a process is started, a :ref:`case <cases>` is created and all elements"
+#~ " not having incoming transitions will be started. So if you only use the "
+#~ ":ref:`simple action list <action-list>` to create a list of user tasks, all "
+#~ "those tasks in the list will be started immediate when the process starts."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "You can assign a task to yourself, or someone else, to indicate who is "

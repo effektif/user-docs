@@ -113,10 +113,19 @@ The other field configuration properties are as follows.
 * `Initial value` - an optional default field value that is used to pre-populate the form
 * `Read-only` - specifies that the value is not editable, used to display previously-entered information
 * `Mandatory` - specifies that a field value is required, so that the form cannot be completed without a value
+* `Allow entering multiple values` - specifies that the field has a list of values that you add and remove independently
 
 Text fields also have an additional `Multi-line` option 
 that specifies that the form field be displayed as a multi-line text input area,
 for longer text values.
+
+When you enable the `Allow entering multiple values` option, the field is shown differently on forms.
+Each value you enter is added to the list.
+Use the × icon to remove a value.
+
+.. figure:: /_static/images/forms/multiple-values.png
+
+   Entering multiple field values in two text fields
 
 Choice fields have a `Options` - the list of values to choose between:
 

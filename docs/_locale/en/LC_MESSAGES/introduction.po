@@ -86,6 +86,18 @@ msgid ""
 "software."
 msgstr ""
 
+#: ../../introduction.rst:34
+msgid "Acknowledgements"
+msgstr ""
+
+#: ../../introduction.rst:36
+msgid ""
+"Signavio uses open source software. We thank everyone involved in the open "
+"source community. Please follow :download:`this link <download/Open-Source-"
+"Components-Effektif.pdf>` to access a list of all open source components "
+"that are part of this application."
+msgstr ""
+
 #~ msgid "Use Effektif for:"
 #~ msgstr ""
 
