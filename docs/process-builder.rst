@@ -62,7 +62,7 @@ Effektif will update the role variable,
 and assign all subsequent tasks with the same role to the new assignee.
 
 Using a form field to assign a role
-```````````````````````````````````
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 When you execute a process, 
 you normally assign a specific person to a role by using the assignee button to select someone.

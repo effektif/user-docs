@@ -9,7 +9,7 @@ Use parallel gateways to model tasks that will be completed at the same time as 
 or one at a time but not in a particular order. To do this, you *fork* and *join* the sequence flow.
 
 Forking
-```````
+^^^^^^^
 
 With a parallel gateway, you can fork execution into multiple, concurrent flows.
 When process execution arrives in a parallel gateway, 
@@ -31,7 +31,7 @@ You can have as many outgoing transitions as you want.
 All destination tasks for those transitions will be started at once.
 
 Joining
-```````
+^^^^^^^
 
 You also use a parallel gateway to join concurrent paths back together.
 In this case, the joining parallel gateway has more then one incoming transition.
@@ -49,7 +49,7 @@ extend the purchase order process to look:
 In this example, `Archive purchase order` will only start after both `Receive payment` and `Send goods` are complete.
 
 Default forking
-```````````````
+^^^^^^^^^^^^^^^
 
 By default, multiple outgoing transitions out of an action like a user task will be interpreted as parallel.
 Meaning that if you have multiple transitions out of a user task, all destination actions of those transitions will be performed concurrently.
@@ -64,14 +64,14 @@ After `Send goods` completes, both tasks `Receive payment` and `Send goods` will
 You can combine default forking with a parallel gateway for joining.
 
 Default merging
-```````````````
+^^^^^^^^^^^^^^^
 
 When multiple transitions lead to a user task,
 the user task will be started for each execution flow that arrives there.
 This means that there is no implicit joining for parallel flows.
 
 Parallel gateway issues
-```````````````````````
+^^^^^^^^^^^^^^^^^^^^^^^
 
 You will end up with problems if you loop back over parallel gateways.
 To avoid situations:

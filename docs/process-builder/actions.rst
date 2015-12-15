@@ -37,7 +37,7 @@ decisions and other control flow behaviour.
 
 
 Adding a transition
-```````````````````
+^^^^^^^^^^^^^^^^^^^
 
 You can create a transition in the `Advanced flows` view.
 A transition specifies sequential flow,
@@ -63,7 +63,7 @@ Release the mouse button over the destination to create the transition.
 
 
 Creating the next user task
-```````````````````````````
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 There is an easy way to create the next User Task in a process,
 similar to creating transitions above.
@@ -94,7 +94,7 @@ with a transition.
 
 
 Control flow elements
-`````````````````````
+^^^^^^^^^^^^^^^^^^^^^
 
 Control flow elements like events and gateways are also part of the diagram,
 but unlike actions, control flow elements don’t represent something that should happen.

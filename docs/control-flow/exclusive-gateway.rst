@@ -12,7 +12,7 @@ There are two ways to configure an exclusive gateway:
 with a *human decision* or an 8automatic decision*.
 
 Human decision
-``````````````
+^^^^^^^^^^^^^^
 
 Use a human decision for an exclusive gateway when a person must make a decision.
 The previous action must be a user task,
@@ -64,7 +64,7 @@ the decision buttons are added to the form.
 
 
 Automatic decision
-``````````````````
+^^^^^^^^^^^^^^^^^^
 
 An automatic decision is an exclusive gateway that selects an outgoing transition 
 based on conditions that you choose.
