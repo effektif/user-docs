@@ -62,6 +62,25 @@ When adding form fields to the task before the exclusive gateway -
 `Review contract` in this example -
 the decision buttons are added to the form.
 
+Manual decision variable
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Adding a manual decision to a process also creates a :ref:`workflow variable <variables>`.
+You can use this to re-use the result of a decision later in the process,
+either to display the entered value on another form,
+or to use the value in an automatic decision’s condition.
+
+During workflow execution, the variable’s value is set to the selected decision -
+the text on the decision button.
+In this example, the decision variable value is set to ‘Approve’ or ‘Reject’.
+
+.. figure:: /_static/images/control-flow/excl-gateway-human-1.png
+
+   Decision variable values - ‘Approve’ or ‘Reject’
+
+The variable name is ‘Decision’, by default, or the name of the gateway if it has one.
+You can change the variable name on the process editor’s `Details` tab, in the `Field overview`.
+
 
 Automatic decision
 ^^^^^^^^^^^^^^^^^^
