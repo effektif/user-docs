@@ -9,12 +9,12 @@ Use an exclusive gateway to make a choice between multiple execution paths.
 The exclusive gateway selects one of the outgoing transitions,
 and only continues execution on that transition.
 There are two ways to configure an exclusive gateway: 
-with a *human decision* or an 8automatic decision*.
+with a *manual decision* or an *automatic decision*.
 
-Human decision
-^^^^^^^^^^^^^^
+Manual decision
+^^^^^^^^^^^^^^^
 
-Use a human decision for an exclusive gateway when a person must make a decision.
+Use a manual decision for an exclusive gateway when a person must make a decision.
 The previous action must be a user task,
 which will include making the decision.
 The user interface presents the decision to the user as buttons on the user task form.
@@ -29,13 +29,13 @@ and the two user tasks ‘Print contract’ and ‘Update contract’:
    An exclusive gateway must have at least one incoming and two outgoing transitions
 
 Select the exclusive gateway.
-Human decision is the default type.
+Manual decision is the default type.
 After creating the elements and connecting them, as above, 
 the exclusive gateway will be configured:
 
 .. figure:: /_static/images/control-flow/excl-gateway-human-2.png
 
-   Default human decision configuration
+   Default manual decision configuration
 
 `To Print contract` and `To Update contract` are the default decision buttons
 that will appear on the user task form.
