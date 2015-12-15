@@ -9,7 +9,7 @@ The `Box <http://www.box.com/>`_ `Upload file` action saves one or more files to
 
 
 Configuration
-`````````````
+^^^^^^^^^^^^^
 
 After creating a Box `Upload file` action,
 the configuration panel shows a button to start configuring the account.
@@ -26,7 +26,7 @@ Box shows an authorization page.
 After granting access, the pop up will close and Effektif will be connected to your Box account.
 
 Upload file action
-``````````````````
+^^^^^^^^^^^^^^^^^^
 
 Once you have configured your Box account,
 the `Upload file` action configuration panel displays the account

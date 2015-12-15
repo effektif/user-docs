@@ -10,8 +10,9 @@ Google Drive Upload file
 The Google Drive `Upload file` action sends one or more files to an account of your choice.
 
 .. _upload-file-configuration:
+
 Configuration
-`````````````
+^^^^^^^^^^^^^
 
 After creating a Google Drive `Upload file` action,
 the configuration panel shows a button to start configuring the account.
@@ -43,7 +44,7 @@ After authentication is complete, you'll see the following screen that allows yo
 After accepting the permissions, the pop up will disappear and the connection with your account is established.
 
 Upload file action
-``````````````````
+^^^^^^^^^^^^^^^^^^
 
 Once you have configured your Google Drive account,
 the `Upload file` action configuration panel displays the account
@@ -80,7 +81,7 @@ uses `Google Cloud Print <http://www.google.com/cloudprint/learn/>`_
 to print a file that has been uploaded to a case.
 
 Configuration
-`````````````
+^^^^^^^^^^^^^
 
 After creating a Google Drive `Print file` action,
 the configuration panel shows a button to start configuring the account.
@@ -91,7 +92,7 @@ you are ready to configure the `Print file` action.
 
 
 Print file action
-`````````````````
+^^^^^^^^^^^^^^^^^
 
 Once you have configured your Google Drive account,
 the `Print file` action configuration panel displays the account,
@@ -103,4 +104,3 @@ the printer settings, and the selected file to print.
 
 In the section `Files to upload` you can select the file variable
 that holds the file you want to print.
-
