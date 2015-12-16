@@ -255,15 +255,15 @@ msgid ""
 "between the actions."
 msgstr ""
 
-#: ../../process-builder.rst:16
+#: ../../process-builder/variables.rst:2 ../../process-builder/variables.rst:2
 msgid "Variables"
 msgstr ""
 
-#: ../../process-builder.rst:34
+#: ../../process-builder/roles.rst:4 ../../process-builder/roles.rst:4
 msgid "Roles"
 msgstr ""
 
-#: ../../process-builder.rst:41
+#: ../../process-builder/roles.rst:11 ../../process-builder/roles.rst:11
 msgid ""
 "These process roles are not the same as organization roles. For example, you"
 " can be a team lead in your organization, which can be a position without an"
@@ -271,7 +271,7 @@ msgid ""
 "only applies for the duration of a single case."
 msgstr ""
 
-#: ../../process-builder.rst:50
+#: ../../process-builder/roles.rst:20 ../../process-builder/roles.rst:20
 msgid ""
 "You can use a role to assign multiple tasks a person from a group of "
 "candidates. For example, you might have a support process that includes "
@@ -280,7 +280,7 @@ msgid ""
 "relevant people as candidates for the role."
 msgstr ""
 
-#: ../../process-builder.rst:55
+#: ../../process-builder/roles.rst:25 ../../process-builder/roles.rst:25
 msgid ""
 "Creating the first task that has a role will notify all of the candidates "
 "for the role. When one of the candidates takes the task, the subsequent "
@@ -288,7 +288,7 @@ msgid ""
 "efficient because this person has the context knowledge about that case."
 msgstr ""
 
-#: ../../process-builder.rst:60
+#: ../../process-builder/roles.rst:30 ../../process-builder/roles.rst:30
 msgid ""
 "If you reassign a task that has a role assignment, Effektif will update the "
 "role variable, and assign all subsequent tasks with the same role to the new"
@@ -304,18 +304,19 @@ msgstr ""
 msgid "The *Process builder*’s actions palette"
 msgstr ""
 
-#: ../../process-builder.rst:24
+#: ../../process-builder/variables.rst:10
+#: ../../process-builder/variables.rst:10
 msgid ""
 "A trigger form that populates a *Reference number* variable for use in a "
 "workflow"
 msgstr ""
 
-#: ../../process-builder.rst:48
+#: ../../process-builder/roles.rst:18 ../../process-builder/roles.rst:18
 msgid ""
 "Assigning a task to a *Support engineer* role with candidates Alice and Ben"
 msgstr ""
 
-#: ../../process-builder.rst:18
+#: ../../process-builder/variables.rst:4 ../../process-builder/variables.rst:4
 msgid ""
 "A process has variables that store workflow data when the process runs. All "
 "the information in forms and information required by the actions will be "
@@ -323,14 +324,15 @@ msgid ""
 "workflow variable."
 msgstr ""
 
-#: ../../process-builder.rst:26
+#: ../../process-builder/variables.rst:12
+#: ../../process-builder/variables.rst:12
 msgid ""
 "A workflow variable can contain a single value, such as a reference number, "
 "or containing multiple fields, such as an email, which has fields like "
 "`from`, `to`, `subject` and `attachments`."
 msgstr ""
 
-#: ../../process-builder.rst:36
+#: ../../process-builder/roles.rst:6 ../../process-builder/roles.rst:6
 msgid ""
 "A role (a.k.a. process role) is a kind of workflow variable that is used for"
 " assigning tasks. A role is a variable of type user that stores a single "
@@ -338,11 +340,11 @@ msgid ""
 " equivalent to swimlanes in BPMN."
 msgstr ""
 
-#: ../../process-builder.rst:65
+#: ../../process-builder/roles.rst:35 ../../process-builder/roles.rst:35
 msgid "Using a form field to assign a role"
 msgstr ""
 
-#: ../../process-builder.rst:67
+#: ../../process-builder/roles.rst:37 ../../process-builder/roles.rst:37
 msgid ""
 "When you execute a process, you normally assign a specific person to a role "
 "by using the assignee button to select someone. Sometimes, you want this "
@@ -351,25 +353,25 @@ msgid ""
 "*Support engineer* before completing an *Initial investigation* task."
 msgstr ""
 
-#: ../../process-builder.rst:74
+#: ../../process-builder/roles.rst:44 ../../process-builder/roles.rst:44
 msgid ""
 "You can do this by adding the role assignment to a form, because a task "
 "assignment role is a process variable, just like any other *User* form "
 "field."
 msgstr ""
 
-#: ../../process-builder.rst:80
+#: ../../process-builder/roles.rst:50 ../../process-builder/roles.rst:50
 msgid "Adding the *Support engineer* role assignment to a form"
 msgstr ""
 
-#: ../../process-builder.rst:82
+#: ../../process-builder/roles.rst:52 ../../process-builder/roles.rst:52
 msgid ""
 "To add a role assignment to a form, first define the process role, such as "
 "the *Support engineer* role created above, then on the form, under the "
 "*Reuse field* heading, select the role variable to add it to the form."
 msgstr ""
 
-#: ../../process-builder.rst:87
+#: ../../process-builder/roles.rst:57 ../../process-builder/roles.rst:57
 msgid ""
 "Alternatively, you can first define the *Support engineer* role by adding a "
 "field with type *User* to the *Initial investigation* task’s form, and then "
