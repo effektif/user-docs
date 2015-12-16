@@ -379,6 +379,136 @@ msgid ""
 "configuration."
 msgstr ""
 
+#: ../../process-builder/versions.rst:4 ../../process-builder/versions.rst:4
+msgid "Versions"
+msgstr ""
+
+#: ../../process-builder/versions.rst:6 ../../process-builder/versions.rst:6
+msgid ""
+"When you use the Effektif process editor to edit your process model, all of "
+"your changes are saved immediately. You can go back and edit the process "
+"again later, and it will be just as you left it. However, to execute a "
+"process by starting a new case you need a published version."
+msgstr ""
+
+#: ../../process-builder/versions.rst:13 ../../process-builder/versions.rst:13
+msgid "Publishing a process version"
+msgstr ""
+
+#: ../../process-builder/versions.rst:15 ../../process-builder/versions.rst:15
+msgid ""
+"The process editor’s `Versions` tab shows a list of published versions. "
+"Until you publish the first version, this page shows a message that there "
+"are ‘no published versions’ of the process."
+msgstr ""
+
+#: ../../process-builder/versions.rst:21 ../../process-builder/versions.rst:21
+msgid "The process editor’s `Versions` tab with no published versions"
+msgstr ""
+
+#: ../../process-builder/versions.rst:23 ../../process-builder/versions.rst:23
+msgid ""
+"You can only start a new case for a process that has a published version, "
+"which is why the light green button text is ‘Publish to run this process’. "
+"After you publish the first version, the list shows version #1 and you can "
+"start a new case using that version."
+msgstr ""
+
+#: ../../process-builder/versions.rst:30 ../../process-builder/versions.rst:30
+msgid "The `Versions` list after publishing the first version"
+msgstr ""
+
+#: ../../process-builder/versions.rst:32 ../../process-builder/versions.rst:32
+msgid ""
+"Version #1 always has the description `Initial version`. For later versions,"
+" you can add your own description."
+msgstr ""
+
+#: ../../process-builder/versions.rst:36 ../../process-builder/versions.rst:36
+msgid "Adding version comments"
+msgstr ""
+
+#: ../../process-builder/versions.rst:38 ../../process-builder/versions.rst:38
+msgid ""
+"After the first published version, you can add a comment to describe the "
+"changes when you publish a new version of a process."
+msgstr ""
+
+#: ../../process-builder/versions.rst:43 ../../process-builder/versions.rst:43
+msgid ""
+"The `Publish changes` prompt, where you can add an optional version comment"
+msgstr ""
+
+#: ../../process-builder/versions.rst:45 ../../process-builder/versions.rst:45
+msgid ""
+"The version comment is not required, but it helps collaboration between team"
+" members by making process modelling more transparent."
+msgstr ""
+
+#: ../../process-builder/versions.rst:51 ../../process-builder/versions.rst:51
+msgid "Published versions with descriptive version comments"
+msgstr ""
+
+#: ../../process-builder/versions.rst:53 ../../process-builder/versions.rst:53
+msgid ""
+"In this example, each version has a short comment that describes the "
+"changes."
+msgstr ""
+
+#: ../../process-builder/versions.rst:56 ../../process-builder/versions.rst:56
+msgid "Writing good version comments"
+msgstr ""
+
+#: ../../process-builder/versions.rst:58 ../../process-builder/versions.rst:58
+msgid ""
+"When you write version comments, use the following tips to make them more "
+"consistent and useful."
+msgstr ""
+
+#: ../../process-builder/versions.rst:62 ../../process-builder/versions.rst:62
+msgid ""
+"Capitalise the first word and don’t include a full-stop at the end, for "
+"consistency."
+msgstr ""
+
+#: ../../process-builder/versions.rst:64 ../../process-builder/versions.rst:64
+msgid ""
+"Be specific about what you changed, instead of vaguely referring to "
+"‘changes’."
+msgstr ""
+
+#: ../../process-builder/versions.rst:66 ../../process-builder/versions.rst:66
+msgid "Be concise; 3-10 words is usually about right."
+msgstr ""
+
+#: ../../process-builder/versions.rst:67 ../../process-builder/versions.rst:67
+msgid ""
+"Consider making the comment longer to explain why you made this change."
+msgstr ""
+
+#: ../../process-builder/versions.rst:69 ../../process-builder/versions.rst:69
+msgid ""
+"You may find it easier to publish a series of small changes, creating a "
+"number of intermediate versions instead of one big change. Fine-grained "
+"versions make the version history more useful."
+msgstr ""
+
+#: ../../process-builder/versions.rst:61 ../../process-builder/versions.rst:61
+msgid ""
+"Make the comment an imperative phrase starting with a word like ‘Add’ or "
+"‘Fix’."
+msgstr ""
+
+#~ msgid ""
+#~ "Make the comment an imperative phrase starting with a word like ‘Add’, ‘Fix’"
+#~ " or ‘Change’."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Make the comment an imperative phrase starting with a word like ‘Add’, ‘Fix’"
+#~ " or ‘Change’ so that the version comments read like a list of instructions."
+#~ msgstr ""
+
 #~ msgid ""
 #~ "A process variable can contain a single value, such as a reference number, "
 #~ "or containing multiple fields, such as an email, which has fields like "

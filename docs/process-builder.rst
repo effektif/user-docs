@@ -12,6 +12,7 @@ With Effektif, non-technical people can create useful processes.
 .. include:: process-builder/actions.rst
 .. include:: process-builder/variables.rst
 .. include:: process-builder/roles.rst
+.. include:: process-builder/versions.rst
 
 
 
