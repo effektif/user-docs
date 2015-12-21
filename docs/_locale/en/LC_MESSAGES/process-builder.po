@@ -379,6 +379,58 @@ msgid ""
 "configuration."
 msgstr ""
 
+#: ../../process-builder/bpmn-export.rst:4
+#: ../../process-builder/bpmn-export.rst:4
+msgid "BPMN export"
+msgstr ""
+
+#: ../../process-builder/bpmn-export.rst:16
+#: ../../process-builder/bpmn-export.rst:16
+msgid ""
+"Using the `Export BPMN 2.0 XML` option to save a process model in a file"
+msgstr ""
+
+#: ../../process-builder/bpmn-export.rst:18
+#: ../../process-builder/bpmn-export.rst:18
+msgid ""
+"This results in a file download that describes your process model in BPMN "
+"format. There’s only one kind of BPMN file, so there aren’t any options to "
+"configure."
+msgstr ""
+
+#: ../../process-builder/bpmn-export.rst:6
+#: ../../process-builder/bpmn-export.rst:6
+msgid ""
+"You can export an Effektif process model as a BPMN 2.0 XML file. This is "
+"useful if you want to open the model in another tool that supports BPMN, or "
+"to make a backup."
+msgstr ""
+
+#: ../../process-builder/bpmn-export.rst:10
+#: ../../process-builder/bpmn-export.rst:10
+msgid ""
+"To export a process model, first open it in the Effektif process editor. "
+"Select the menu next to the `Publish changes` button, then select `Export "
+"BPMN 2.0 XML`."
+msgstr ""
+
+#~ msgid ""
+#~ "You can export BPMN 2.0 XML from the process editor, in case you want to "
+#~ "open the model in another tool that supports BPMN, or to make a backup."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To export a process model, first open it in the Effektif process editor. "
+#~ "Then select the process menu to the right of the ‘Publish changes’ button "
+#~ "and select ‘Export BPMN 2.0 XML’."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The resulting BPMN file includes both standard BPMN elements - tasks, "
+#~ "transitions and the diagram - and Effektif-specific ‘extensions’, for "
+#~ "information that is used by Effektif but not part of the BPMN standard."
+#~ msgstr ""
+
 #~ msgid ""
 #~ "A process variable can contain a single value, such as a reference number, "
 #~ "or containing multiple fields, such as an email, which has fields like "
