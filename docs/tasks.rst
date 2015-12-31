@@ -81,7 +81,6 @@ After you have added a task, it appears in the list:
 .. figure:: /_static/images/tasks/create/view-task.png
 
 When a process is started, a :ref:`case <cases>` is created and all elements not having incoming transitions will be started.
-So if you only use the :ref:`simple action list <action-list>` to create a list of user tasks, all those tasks in the list will be started immediately when the process starts.
 
 
 Assigning tasks
