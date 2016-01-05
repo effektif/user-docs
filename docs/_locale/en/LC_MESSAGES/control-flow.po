@@ -38,29 +38,6 @@ msgstr ""
 msgid "Exclusive gateway"
 msgstr ""
 
-#: ../../control-flow/exclusive-gateway.rst:8
-#: ../../control-flow/exclusive-gateway.rst:8
-msgid ""
-"Use an exclusive gateway to make a choice between multiple execution paths. "
-"The exclusive gateway selects one of the outgoing transitions, and only "
-"continues execution on that transition. There are two ways to configure an "
-"exclusive gateway: with a *human decision* or an 8automatic decision*."
-msgstr ""
-
-#: ../../control-flow/exclusive-gateway.rst:15
-#: ../../control-flow/exclusive-gateway.rst:15
-msgid "Human decision"
-msgstr ""
-
-#: ../../control-flow/exclusive-gateway.rst:17
-#: ../../control-flow/exclusive-gateway.rst:17
-msgid ""
-"Use a human decision for an exclusive gateway when a person must make a "
-"decision. The previous action must be a user task, which will include making"
-" the decision. The user interface presents the decision to the user as "
-"buttons on the user task form."
-msgstr ""
-
 #: ../../control-flow/exclusive-gateway.rst:22
 #: ../../control-flow/exclusive-gateway.rst:22
 msgid ""
@@ -74,19 +51,6 @@ msgstr ""
 msgid ""
 "An exclusive gateway must have at least one incoming and two outgoing "
 "transitions"
-msgstr ""
-
-#: ../../control-flow/exclusive-gateway.rst:31
-#: ../../control-flow/exclusive-gateway.rst:31
-msgid ""
-"Select the exclusive gateway. Human decision is the default type. After "
-"creating the elements and connecting them, as above, the exclusive gateway "
-"will be configured:"
-msgstr ""
-
-#: ../../control-flow/exclusive-gateway.rst:38
-#: ../../control-flow/exclusive-gateway.rst:38
-msgid "Default human decision configuration"
 msgstr ""
 
 #: ../../control-flow/exclusive-gateway.rst:40
@@ -131,13 +95,13 @@ msgid ""
 "contract` in this example - the decision buttons are added to the form."
 msgstr ""
 
-#: ../../control-flow/exclusive-gateway.rst:67
-#: ../../control-flow/exclusive-gateway.rst:67
+#: ../../control-flow/exclusive-gateway.rst:86
+#: ../../control-flow/exclusive-gateway.rst:86
 msgid "Automatic decision"
 msgstr ""
 
-#: ../../control-flow/exclusive-gateway.rst:69
-#: ../../control-flow/exclusive-gateway.rst:69
+#: ../../control-flow/exclusive-gateway.rst:88
+#: ../../control-flow/exclusive-gateway.rst:88
 msgid ""
 "An automatic decision is an exclusive gateway that selects an outgoing "
 "transition based on conditions that you choose. For each transition, you can"
@@ -147,21 +111,21 @@ msgid ""
 "field values."
 msgstr ""
 
-#: ../../control-flow/exclusive-gateway.rst:77
-#: ../../control-flow/exclusive-gateway.rst:77
+#: ../../control-flow/exclusive-gateway.rst:96
+#: ../../control-flow/exclusive-gateway.rst:96
 msgid "Automatic decision condition editor"
 msgstr ""
 
-#: ../../control-flow/exclusive-gateway.rst:79
-#: ../../control-flow/exclusive-gateway.rst:79
+#: ../../control-flow/exclusive-gateway.rst:98
+#: ../../control-flow/exclusive-gateway.rst:98
 msgid ""
 "To specify a condition, start by selecting a field and a comparison "
 "operator. Enter either a static value in the input field on the right, or "
 "click the |binding-symbol| button to select another field."
 msgstr ""
 
-#: ../../control-flow/exclusive-gateway.rst:83
-#: ../../control-flow/exclusive-gateway.rst:83
+#: ../../control-flow/exclusive-gateway.rst:102
+#: ../../control-flow/exclusive-gateway.rst:102
 msgid ""
 "A condition can include multiple field value comparisons. To add more sub-"
 "conditions, click the button at the bottom of the list. You can also use the"
@@ -169,8 +133,8 @@ msgid ""
 "list must be true, or that it is enough for at least one of them to be true."
 msgstr ""
 
-#: ../../control-flow/exclusive-gateway.rst:87
-#: ../../control-flow/exclusive-gateway.rst:87
+#: ../../control-flow/exclusive-gateway.rst:106
+#: ../../control-flow/exclusive-gateway.rst:106
 msgid ""
 "When a sub-condition is incompletely specified, evaluating the whole "
 "condition will fail and the transition will not be taken. The |warning-"
@@ -179,31 +143,31 @@ msgid ""
 "these symbols to remove the sub condition from the list."
 msgstr ""
 
-#: ../../control-flow/exclusive-gateway.rst:91
-#: ../../control-flow/exclusive-gateway.rst:91
+#: ../../control-flow/exclusive-gateway.rst:110
+#: ../../control-flow/exclusive-gateway.rst:110
 msgid "An unspecified condition is marked with a |warning-symbol| symbol."
 msgstr ""
 
-#: ../../control-flow/exclusive-gateway.rst:99
-#: ../../control-flow/exclusive-gateway.rst:99
+#: ../../control-flow/exclusive-gateway.rst:118
+#: ../../control-flow/exclusive-gateway.rst:118
 msgid "Default transition"
 msgstr ""
 
-#: ../../control-flow/exclusive-gateway.rst:101
-#: ../../control-flow/exclusive-gateway.rst:101
+#: ../../control-flow/exclusive-gateway.rst:120
+#: ../../control-flow/exclusive-gateway.rst:120
 msgid ""
 "An automatic decision usually has a default transition. A default transition"
 " is a fallback mechanism: if none of the conditions evaluate to true, the "
 "default transition is taken."
 msgstr ""
 
-#: ../../control-flow/exclusive-gateway.rst:107
-#: ../../control-flow/exclusive-gateway.rst:107
+#: ../../control-flow/exclusive-gateway.rst:126
+#: ../../control-flow/exclusive-gateway.rst:126
 msgid "The default transition"
 msgstr ""
 
-#: ../../control-flow/exclusive-gateway.rst:109
-#: ../../control-flow/exclusive-gateway.rst:109
+#: ../../control-flow/exclusive-gateway.rst:128
+#: ../../control-flow/exclusive-gateway.rst:128
 msgid ""
 "To make a transition the default, select the ‘per default’ item in the "
 "selection field at the top."
@@ -419,3 +383,100 @@ msgstr ""
 #: ../../control-flow.rst:38
 msgid "An end event in the process editor"
 msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:8
+#: ../../control-flow/exclusive-gateway.rst:8
+msgid ""
+"Use an exclusive gateway to make a choice between multiple execution paths. "
+"The exclusive gateway selects one of the outgoing transitions, and only "
+"continues execution on that transition. There are two ways to configure an "
+"exclusive gateway: with a *manual decision* or an *automatic decision*."
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:15
+#: ../../control-flow/exclusive-gateway.rst:15
+msgid "Manual decision"
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:17
+#: ../../control-flow/exclusive-gateway.rst:17
+msgid ""
+"Use a manual decision for an exclusive gateway when a person must make a "
+"decision. The previous action must be a user task, which will include making"
+" the decision. The user interface presents the decision to the user as "
+"buttons on the user task form."
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:31
+#: ../../control-flow/exclusive-gateway.rst:31
+msgid ""
+"Select the exclusive gateway. Manual decision is the default type. After "
+"creating the elements and connecting them, as above, the exclusive gateway "
+"will be configured:"
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:38
+#: ../../control-flow/exclusive-gateway.rst:38
+msgid "Default manual decision configuration"
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:66
+#: ../../control-flow/exclusive-gateway.rst:66
+msgid "Manual decision variable"
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:68
+#: ../../control-flow/exclusive-gateway.rst:68
+msgid ""
+"Adding a manual decision to a process also creates a :ref:`workflow variable"
+" <variables>`. You can use this to re-use the result of a decision later in "
+"the process, either to display the entered value on another form, or to use "
+"the value in an automatic decision’s condition."
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:73
+#: ../../control-flow/exclusive-gateway.rst:73
+msgid ""
+"During workflow execution, the variable’s value is set to the selected "
+"decision - the text on the decision button. In this example, the decision "
+"variable value is set to ‘Approve’ or ‘Reject’."
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:79
+#: ../../control-flow/exclusive-gateway.rst:79
+msgid "Decision variable values - ‘Approve’ or ‘Reject’"
+msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:81
+#: ../../control-flow/exclusive-gateway.rst:81
+msgid ""
+"The variable name is ‘Decision’, by default, or the name of the gateway if "
+"it has one. You can change the variable name on the process editor’s "
+"`Details` tab, in the `Field overview`."
+msgstr ""
+
+#~ msgid ""
+#~ "Use an exclusive gateway to make a choice between multiple execution paths. "
+#~ "The exclusive gateway selects one of the outgoing transitions, and only "
+#~ "continues execution on that transition. There are two ways to configure an "
+#~ "exclusive gateway: with a *human decision* or an 8automatic decision*."
+#~ msgstr ""
+
+#~ msgid "Human decision"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use a human decision for an exclusive gateway when a person must make a "
+#~ "decision. The previous action must be a user task, which will include making"
+#~ " the decision. The user interface presents the decision to the user as "
+#~ "buttons on the user task form."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select the exclusive gateway. Human decision is the default type. After "
+#~ "creating the elements and connecting them, as above, the exclusive gateway "
+#~ "will be configured:"
+#~ msgstr ""
+
+#~ msgid "Default human decision configuration"
+#~ msgstr ""

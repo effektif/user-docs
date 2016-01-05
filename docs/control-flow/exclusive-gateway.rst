@@ -8,20 +8,20 @@ Exclusive gateway
 Use an exclusive gateway to make a choice between multiple execution paths.
 The exclusive gateway selects one of the outgoing transitions,
 and only continues execution on that transition.
-There are two ways to configure an exclusive gateway: 
-with a *human decision* or an 8automatic decision*.
+There are two ways to configure an exclusive gateway:
+with a *manual decision* or an *automatic decision*.
 
-Human decision
-^^^^^^^^^^^^^^
+Manual decision
+^^^^^^^^^^^^^^^
 
-Use a human decision for an exclusive gateway when a person must make a decision.
+Use a manual decision for an exclusive gateway when a person must make a decision.
 The previous action must be a user task,
 which will include making the decision.
 The user interface presents the decision to the user as buttons on the user task form.
 
 Here’s an example.
-Suppose you have a user task called ‘Review contract’, 
-an exclusive gateway 
+Suppose you have a user task called ‘Review contract’,
+an exclusive gateway
 and the two user tasks ‘Print contract’ and ‘Update contract’:
 
 .. figure:: /_static/images/control-flow/excl-gateway-human-1.png
@@ -29,19 +29,18 @@ and the two user tasks ‘Print contract’ and ‘Update contract’:
    An exclusive gateway must have at least one incoming and two outgoing transitions
 
 Select the exclusive gateway.
-Human decision is the default type.
-After creating the elements and connecting them, as above, 
+Manual decision is the default type.
+After creating the elements and connecting them, as above,
 the exclusive gateway will be configured:
 
 .. figure:: /_static/images/control-flow/excl-gateway-human-2.png
 
-   Default human decision configuration
+   Default manual decision configuration
 
-`To Print contract` and `To Update contract` are the default decision buttons
-that will appear on the user task form.
+In order to use the decision you need to name the buttons which will represent the deicion.
 For each button, the label on the right indicates the next action in the process,
 which will be performed when the button is clicked.
-In this example, when the user clicks the decision button `To Print contract`, 
+In this example, when the user clicks the decision button `Print contract`,
 the `Print contract` task is executed and the `Update contract` task will *not* be executed.
 
 You can easily change the text on the buttons.
@@ -51,7 +50,7 @@ For example, change them to `Approve` and `Reject`:
 
    Customized decision buttons
 
-After starting a new case for this process, 
+After starting a new case for this process,
 the `Review contract` task will have decision buttons:
 
 .. figure:: /_static/images/control-flow/excl-gateway-human-4.png
@@ -62,11 +61,30 @@ When adding form fields to the task before the exclusive gateway -
 `Review contract` in this example -
 the decision buttons are added to the form.
 
+Manual decision variable
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Adding a manual decision to a process also creates a :ref:`workflow variable <variables>`.
+You can use this to re-use the result of a decision later in the process,
+either to display the entered value on another form,
+or to use the value in an automatic decision’s condition.
+
+During workflow execution, the variable’s value is set to the selected decision -
+the text on the decision button.
+In this example, the decision variable value is set to ‘Approve’ or ‘Reject’.
+
+.. figure:: /_static/images/control-flow/excl-gateway-human-1.png
+
+   Decision variable values - ‘Approve’ or ‘Reject’
+
+The variable name is ‘Decision’, by default, or the name of the gateway if it has one.
+You can change the variable name on the process editor’s `Details` tab, in the `Field overview`.
+
 
 Automatic decision
 ^^^^^^^^^^^^^^^^^^
 
-An automatic decision is an exclusive gateway that selects an outgoing transition 
+An automatic decision is an exclusive gateway that selects an outgoing transition
 based on conditions that you choose.
 For each transition, you can formulate a condition using workflow data.
 Transition conditions are evaluated in order, from top to bottom.
@@ -87,8 +105,6 @@ You can also use the select field at the top to specify that either **all** cond
 When a sub-condition is incompletely specified, evaluating the whole condition will fail and the transition will not be taken.
 The |warning-symbol| symbol indicates an incomplete sub-condition, while the |check-symbol| symbol indicates that the sub-condition is valid.
 Click either of these symbols to remove the sub condition from the list.
-
-An unspecified condition is marked with a |warning-symbol| symbol.
 
 .. |binding-symbol| image:: /_static/images/control-flow/excl-gateway-auto-6.png
 .. |warning-symbol| image:: /_static/images/control-flow/excl-gateway-auto-3.png

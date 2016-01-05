@@ -12,7 +12,7 @@ Forking
 ^^^^^^^
 
 With a parallel gateway, you can fork execution into multiple, concurrent flows.
-When process execution arrives in a parallel gateway, 
+When process execution arrives in a parallel gateway,
 a new individual execution flow is created for each of the gateway’s outgoing transitions.
 Let’s look at the following purchase order example:
 
@@ -25,8 +25,6 @@ The parallel gateway will create two individual paths of execution.
 One will take the transition to `Receive payment` and create that user task.
 Meanwhile, the other will create the `Send goods` user task.
 
-After `Enter purchase order` completes, both tasks `Receive payment` and `Send goods` will be created.
-
 You can have as many outgoing transitions as you want.
 All destination tasks for those transitions will be started at once.
 
@@ -36,7 +34,7 @@ Joining
 You also use a parallel gateway to join concurrent paths back together.
 In this case, the joining parallel gateway has more then one incoming transition.
 Workflow execution will wait at the gateway until as many execution flows arrive as it has incoming transitions.
-When the last concurrent flow arrives, 
+When the last concurrent flow arrives,
 the joining parallel gateway will activate and one execution flow will be created on the outgoing transition.
 
 To continue the previous example,

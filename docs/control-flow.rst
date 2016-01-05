@@ -8,7 +8,7 @@ You use transitions, gateways and events to specify the processing order of the 
 Transition
 ----------
 
-A transition is an arrow from a source element to a destination element in the `Advanced flows` view.
+A transition is an arrow from a source element to a destination element in the :ref:`Process builder <process-builder>`.
 The transition specifies that the destination element is only ‘executed’ after the source element is completed.
 A transition is called a ‘sequence flow’ in BPMN.
 
