@@ -1,4 +1,3 @@
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
@@ -132,122 +131,91 @@ msgid ""
 "other action that represents something to be done in a process."
 msgstr ""
 
-#: ../../process-builder/actions.rst:19 ../../process-builder/actions.rst:19
-msgid "Simple action list view"
-msgstr ""
-
-#: ../../process-builder/actions.rst:21 ../../process-builder/actions.rst:21
-msgid ""
-"The simple action list view is the simplest way to create a process, as a "
-"list of actions. It’s the easiest way to create ‘checklist processes’, which"
-" have a collection of user tasks that serve as a checklist."
-msgstr ""
-
-#: ../../process-builder/actions.rst:25 ../../process-builder/actions.rst:25
-msgid ""
-"If you don’t add any control flow in the `Advanced flows` view, all actions "
-"will be started immediately when the process starts. By default, all actions"
-" in the simple action list view run in parallel."
-msgstr ""
-
-#: ../../process-builder/actions.rst:30 ../../process-builder/actions.rst:30
-msgid "Advanced flows view"
-msgstr ""
-
-#: ../../process-builder/actions.rst:32 ../../process-builder/actions.rst:32
-msgid ""
-"The `Advanced flows` view is a `BPMN "
-"<http://en.wikipedia.org/wiki/Business_Process_Model_and_Notation>`_ diagram"
-" editor that shows actions and control flow elements like events and "
-"gateways. You use the `Advanced flows` view to add sequential flows between "
-"actions, decisions and other control flow behaviour."
-msgstr ""
-
-#: ../../process-builder/actions.rst:40 ../../process-builder/actions.rst:40
+#: ../../process-builder/actions.rst:22 ../../process-builder/actions.rst:22
 msgid "Adding a transition"
 msgstr ""
 
-#: ../../process-builder/actions.rst:42 ../../process-builder/actions.rst:42
+#: ../../process-builder/actions.rst:24 ../../process-builder/actions.rst:24
 msgid ""
 "You can create a transition in the `Advanced flows` view. A transition "
 "specifies sequential flow, which means the next action only starts when the "
 "previous one is complete."
 msgstr ""
 
-#: ../../process-builder/actions.rst:46 ../../process-builder/actions.rst:46
+#: ../../process-builder/actions.rst:28 ../../process-builder/actions.rst:28
 msgid ""
 "To add a transition, click to select the first action. Several symbols "
 "appear to the right of the selected element:"
 msgstr ""
 
-#: ../../process-builder/actions.rst:51 ../../process-builder/actions.rst:51
+#: ../../process-builder/actions.rst:33 ../../process-builder/actions.rst:33
 msgid ""
 "Start creating a transition by dragging the transition symbol to the "
 "destination"
 msgstr ""
 
-#: ../../process-builder/actions.rst:53 ../../process-builder/actions.rst:53
+#: ../../process-builder/actions.rst:35 ../../process-builder/actions.rst:35
 msgid ""
 "Click the transition symbol |transition-symbol| and drag it to the "
 "destination element. When you drag the symbol over the destination element, "
 "it indicates that you can drop to create the transition:"
 msgstr ""
 
-#: ../../process-builder/actions.rst:60 ../../process-builder/actions.rst:60
+#: ../../process-builder/actions.rst:42 ../../process-builder/actions.rst:42
 msgid "Creating a transition hovering over destination"
 msgstr ""
 
-#: ../../process-builder/actions.rst:62 ../../process-builder/actions.rst:62
+#: ../../process-builder/actions.rst:44 ../../process-builder/actions.rst:44
 msgid ""
 "Release the mouse button over the destination to create the transition."
 msgstr ""
 
-#: ../../process-builder/actions.rst:66 ../../process-builder/actions.rst:66
+#: ../../process-builder/actions.rst:48 ../../process-builder/actions.rst:48
 msgid "Creating the next user task"
 msgstr ""
 
-#: ../../process-builder/actions.rst:68 ../../process-builder/actions.rst:68
+#: ../../process-builder/actions.rst:50 ../../process-builder/actions.rst:50
 msgid ""
 "There is an easy way to create the next User Task in a process, similar to "
 "creating transitions above. Start by selecting the previous action:"
 msgstr ""
 
-#: ../../process-builder/actions.rst:74 ../../process-builder/actions.rst:74
+#: ../../process-builder/actions.rst:56 ../../process-builder/actions.rst:56
 msgid "Start creating the next user task by dragging the action symbol"
 msgstr ""
 
-#: ../../process-builder/actions.rst:76 ../../process-builder/actions.rst:76
+#: ../../process-builder/actions.rst:58 ../../process-builder/actions.rst:58
 msgid ""
 "Click the rounded rectangle symbol |task-symbol| and drag it to an empty "
 "place on the canvas."
 msgstr ""
 
-#: ../../process-builder/actions.rst:82 ../../process-builder/actions.rst:82
+#: ../../process-builder/actions.rst:64 ../../process-builder/actions.rst:64
 msgid "Drag the rounded rectangle symbol to an empty place"
 msgstr ""
 
-#: ../../process-builder/actions.rst:84 ../../process-builder/actions.rst:84
+#: ../../process-builder/actions.rst:66 ../../process-builder/actions.rst:66
 msgid ""
 "Drop the symbol where you want to create the next user task. Release the "
 "mouse button to create new user task where you dropped it, with a transition"
 " from the previous action."
 msgstr ""
 
-#: ../../process-builder/actions.rst:90 ../../process-builder/actions.rst:90
+#: ../../process-builder/actions.rst:72 ../../process-builder/actions.rst:72
 msgid "Adding the next user task and its transition at the same time"
 msgstr ""
 
-#: ../../process-builder/actions.rst:92 ../../process-builder/actions.rst:92
+#: ../../process-builder/actions.rst:74 ../../process-builder/actions.rst:74
 msgid ""
 "Alternatively, just click the user task icon |task-symbol| to create a new "
 "user task in the default location, with a transition."
 msgstr ""
 
-#: ../../process-builder/actions.rst:97 ../../process-builder/actions.rst:97
+#: ../../process-builder/actions.rst:79 ../../process-builder/actions.rst:79
 msgid "Control flow elements"
 msgstr ""
 
-#: ../../process-builder/actions.rst:99 ../../process-builder/actions.rst:99
+#: ../../process-builder/actions.rst:81 ../../process-builder/actions.rst:81
 msgid ""
 "Control flow elements like events and gateways are also part of the diagram,"
 " but unlike actions, control flow elements don’t represent something that "
@@ -255,15 +223,15 @@ msgid ""
 "between the actions."
 msgstr ""
 
-#: ../../process-builder.rst:16
+#: ../../process-builder/variables.rst:2 ../../process-builder/variables.rst:2
 msgid "Variables"
 msgstr ""
 
-#: ../../process-builder.rst:34
+#: ../../process-builder/roles.rst:4 ../../process-builder/roles.rst:4
 msgid "Roles"
 msgstr ""
 
-#: ../../process-builder.rst:41
+#: ../../process-builder/roles.rst:11 ../../process-builder/roles.rst:11
 msgid ""
 "These process roles are not the same as organization roles. For example, you"
 " can be a team lead in your organization, which can be a position without an"
@@ -271,7 +239,7 @@ msgid ""
 "only applies for the duration of a single case."
 msgstr ""
 
-#: ../../process-builder.rst:50
+#: ../../process-builder/roles.rst:20 ../../process-builder/roles.rst:20
 msgid ""
 "You can use a role to assign multiple tasks a person from a group of "
 "candidates. For example, you might have a support process that includes "
@@ -280,7 +248,7 @@ msgid ""
 "relevant people as candidates for the role."
 msgstr ""
 
-#: ../../process-builder.rst:55
+#: ../../process-builder/roles.rst:25 ../../process-builder/roles.rst:25
 msgid ""
 "Creating the first task that has a role will notify all of the candidates "
 "for the role. When one of the candidates takes the task, the subsequent "
@@ -288,7 +256,7 @@ msgid ""
 "efficient because this person has the context knowledge about that case."
 msgstr ""
 
-#: ../../process-builder.rst:60
+#: ../../process-builder/roles.rst:30 ../../process-builder/roles.rst:30
 msgid ""
 "If you reassign a task that has a role assignment, Effektif will update the "
 "role variable, and assign all subsequent tasks with the same role to the new"
@@ -304,18 +272,19 @@ msgstr ""
 msgid "The *Process builder*’s actions palette"
 msgstr ""
 
-#: ../../process-builder.rst:24
+#: ../../process-builder/variables.rst:10
+#: ../../process-builder/variables.rst:10
 msgid ""
 "A trigger form that populates a *Reference number* variable for use in a "
 "workflow"
 msgstr ""
 
-#: ../../process-builder.rst:48
+#: ../../process-builder/roles.rst:18 ../../process-builder/roles.rst:18
 msgid ""
 "Assigning a task to a *Support engineer* role with candidates Alice and Ben"
 msgstr ""
 
-#: ../../process-builder.rst:18
+#: ../../process-builder/variables.rst:4 ../../process-builder/variables.rst:4
 msgid ""
 "A process has variables that store workflow data when the process runs. All "
 "the information in forms and information required by the actions will be "
@@ -323,14 +292,15 @@ msgid ""
 "workflow variable."
 msgstr ""
 
-#: ../../process-builder.rst:26
+#: ../../process-builder/variables.rst:12
+#: ../../process-builder/variables.rst:12
 msgid ""
 "A workflow variable can contain a single value, such as a reference number, "
 "or containing multiple fields, such as an email, which has fields like "
 "`from`, `to`, `subject` and `attachments`."
 msgstr ""
 
-#: ../../process-builder.rst:36
+#: ../../process-builder/roles.rst:6 ../../process-builder/roles.rst:6
 msgid ""
 "A role (a.k.a. process role) is a kind of workflow variable that is used for"
 " assigning tasks. A role is a variable of type user that stores a single "
@@ -338,11 +308,11 @@ msgid ""
 " equivalent to swimlanes in BPMN."
 msgstr ""
 
-#: ../../process-builder.rst:65
+#: ../../process-builder/roles.rst:35 ../../process-builder/roles.rst:35
 msgid "Using a form field to assign a role"
 msgstr ""
 
-#: ../../process-builder.rst:67
+#: ../../process-builder/roles.rst:37 ../../process-builder/roles.rst:37
 msgid ""
 "When you execute a process, you normally assign a specific person to a role "
 "by using the assignee button to select someone. Sometimes, you want this "
@@ -351,31 +321,197 @@ msgid ""
 "*Support engineer* before completing an *Initial investigation* task."
 msgstr ""
 
-#: ../../process-builder.rst:74
+#: ../../process-builder/roles.rst:44 ../../process-builder/roles.rst:44
 msgid ""
 "You can do this by adding the role assignment to a form, because a task "
 "assignment role is a process variable, just like any other *User* form "
 "field."
 msgstr ""
 
-#: ../../process-builder.rst:80
+#: ../../process-builder/roles.rst:50 ../../process-builder/roles.rst:50
 msgid "Adding the *Support engineer* role assignment to a form"
 msgstr ""
 
-#: ../../process-builder.rst:82
+#: ../../process-builder/roles.rst:52 ../../process-builder/roles.rst:52
 msgid ""
 "To add a role assignment to a form, first define the process role, such as "
 "the *Support engineer* role created above, then on the form, under the "
 "*Reuse field* heading, select the role variable to add it to the form."
 msgstr ""
 
-#: ../../process-builder.rst:87
+#: ../../process-builder/roles.rst:57 ../../process-builder/roles.rst:57
 msgid ""
 "Alternatively, you can first define the *Support engineer* role by adding a "
 "field with type *User* to the *Initial investigation* task’s form, and then "
 "select the *Support engineer* role on another user task’s *Assignment* "
 "configuration."
 msgstr ""
+
+#: ../../process-builder/versions.rst:4 ../../process-builder/versions.rst:4
+msgid "Versions"
+msgstr ""
+
+#: ../../process-builder/versions.rst:6 ../../process-builder/versions.rst:6
+msgid ""
+"When you use the Effektif process editor to edit your process model, all of "
+"your changes are saved immediately. You can go back and edit the process "
+"again later, and it will be just as you left it. However, to execute a "
+"process by starting a new case you need a published version."
+msgstr ""
+
+#: ../../process-builder/versions.rst:13 ../../process-builder/versions.rst:13
+msgid "Publishing a process version"
+msgstr ""
+
+#: ../../process-builder/versions.rst:15 ../../process-builder/versions.rst:15
+msgid ""
+"The process editor’s `Versions` tab shows a list of published versions. "
+"Until you publish the first version, this page shows a message that there "
+"are ‘no published versions’ of the process."
+msgstr ""
+
+#: ../../process-builder/versions.rst:21 ../../process-builder/versions.rst:21
+msgid "The process editor’s `Versions` tab with no published versions"
+msgstr ""
+
+#: ../../process-builder/versions.rst:23 ../../process-builder/versions.rst:23
+msgid ""
+"You can only start a new case for a process that has a published version, "
+"which is why the light green button text is ‘Publish to run this process’. "
+"After you publish the first version, the list shows version #1 and you can "
+"start a new case using that version."
+msgstr ""
+
+#: ../../process-builder/versions.rst:30 ../../process-builder/versions.rst:30
+msgid "The `Versions` list after publishing the first version"
+msgstr ""
+
+#: ../../process-builder/versions.rst:32 ../../process-builder/versions.rst:32
+msgid ""
+"Version #1 always has the description `Initial version`. For later versions,"
+" you can add your own description."
+msgstr ""
+
+#: ../../process-builder/versions.rst:36 ../../process-builder/versions.rst:36
+msgid "Adding version comments"
+msgstr ""
+
+#: ../../process-builder/versions.rst:38 ../../process-builder/versions.rst:38
+msgid ""
+"After the first published version, you can add a comment to describe the "
+"changes when you publish a new version of a process."
+msgstr ""
+
+#: ../../process-builder/versions.rst:43 ../../process-builder/versions.rst:43
+msgid ""
+"The `Publish changes` prompt, where you can add an optional version comment"
+msgstr ""
+
+#: ../../process-builder/versions.rst:45 ../../process-builder/versions.rst:45
+msgid ""
+"The version comment is not required, but it helps collaboration between team"
+" members by making process modelling more transparent."
+msgstr ""
+
+#: ../../process-builder/versions.rst:51 ../../process-builder/versions.rst:51
+msgid "Published versions with descriptive version comments"
+msgstr ""
+
+#: ../../process-builder/versions.rst:53 ../../process-builder/versions.rst:53
+msgid ""
+"In this example, each version has a short comment that describes the "
+"changes."
+msgstr ""
+
+#: ../../process-builder/versions.rst:56 ../../process-builder/versions.rst:56
+msgid "Writing good version comments"
+msgstr ""
+
+#: ../../process-builder/versions.rst:58 ../../process-builder/versions.rst:58
+msgid ""
+"When you write version comments, use the following tips to make them more "
+"consistent and useful."
+msgstr ""
+
+#: ../../process-builder/versions.rst:62 ../../process-builder/versions.rst:62
+msgid ""
+"Capitalise the first word and don’t include a full-stop at the end, for "
+"consistency."
+msgstr ""
+
+#: ../../process-builder/versions.rst:64 ../../process-builder/versions.rst:64
+msgid ""
+"Be specific about what you changed, instead of vaguely referring to "
+"‘changes’."
+msgstr ""
+
+#: ../../process-builder/versions.rst:66 ../../process-builder/versions.rst:66
+msgid "Be concise; 3-10 words is usually about right."
+msgstr ""
+
+#: ../../process-builder/versions.rst:67 ../../process-builder/versions.rst:67
+msgid ""
+"Consider making the comment longer to explain why you made this change."
+msgstr ""
+
+#: ../../process-builder/versions.rst:69 ../../process-builder/versions.rst:69
+msgid ""
+"You may find it easier to publish a series of small changes, creating a "
+"number of intermediate versions instead of one big change. Fine-grained "
+"versions make the version history more useful."
+msgstr ""
+
+#: ../../process-builder/versions.rst:61 ../../process-builder/versions.rst:61
+msgid ""
+"Make the comment an imperative phrase starting with a word like ‘Add’ or "
+"‘Fix’."
+msgstr ""
+
+#: ../../process-builder/bpmn-export.rst:4
+#: ../../process-builder/bpmn-export.rst:4
+msgid "BPMN export"
+msgstr ""
+
+#: ../../process-builder/bpmn-export.rst:16
+#: ../../process-builder/bpmn-export.rst:16
+msgid ""
+"Using the `Export BPMN 2.0 XML` option to save a process model in a file"
+msgstr ""
+
+#: ../../process-builder/bpmn-export.rst:18
+#: ../../process-builder/bpmn-export.rst:18
+msgid ""
+"This results in a file download that describes your process model in BPMN "
+"format. There’s only one kind of BPMN file, so there aren’t any options to "
+"configure."
+msgstr ""
+
+#: ../../process-builder/bpmn-export.rst:6
+#: ../../process-builder/bpmn-export.rst:6
+msgid ""
+"You can export an Effektif process model as a BPMN 2.0 XML file. This is "
+"useful if you want to open the model in another tool that supports BPMN, or "
+"to make a backup."
+msgstr ""
+
+#: ../../process-builder/bpmn-export.rst:10
+#: ../../process-builder/bpmn-export.rst:10
+msgid ""
+"To export a process model, first open it in the Effektif process editor. "
+"Select the menu next to the `Publish changes` button, then select `Export "
+"BPMN 2.0 XML`."
+msgstr ""
+
+#: ../../process-builder/actions.rst:15 ../../process-builder/actions.rst:15
+msgid ""
+"The `BPMN "
+"<http://en.wikipedia.org/wiki/Business_Process_Model_and_Notation>`_ diagram"
+" editor shows actions and control flow elements, such as events and "
+"gateways. Use the diagram editor to add sequential flows between actions, "
+"decisions and other control flow behaviour."
+msgstr ""
+
+#~ msgstr ""
 
 #~ msgid ""
 #~ "A process variable can contain a single value, such as a reference number, "

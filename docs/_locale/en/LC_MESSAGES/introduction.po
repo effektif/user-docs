@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
@@ -15,15 +15,15 @@ msgstr ""
 msgid "Introduction"
 msgstr ""
 
-#: ../../introduction.rst:11
+#: ../../introduction.rst:26
 msgid "When to use Effektif"
 msgstr ""
 
-#: ../../introduction.rst:21
+#: ../../introduction.rst:36
 msgid "Benefits"
 msgstr ""
 
-#: ../../introduction.rst:23
+#: ../../introduction.rst:38
 msgid "You’ll get:"
 msgstr ""
 
@@ -34,63 +34,85 @@ msgid ""
 "Effektif dramatically simplifies workflow automation."
 msgstr ""
 
-#: ../../introduction.rst:13
+#: ../../introduction.rst:28
 msgid ""
 "Effektif is ideal for describing and collaborating on routine work. Use "
 "Effektif for:"
 msgstr ""
 
-#: ../../introduction.rst:15
+#: ../../introduction.rst:30
 msgid "coordinating tasks and handovers"
 msgstr ""
 
-#: ../../introduction.rst:16
+#: ../../introduction.rst:31
 msgid "approvals"
 msgstr ""
 
-#: ../../introduction.rst:17
+#: ../../introduction.rst:32
 msgid "routing documents"
 msgstr ""
 
-#: ../../introduction.rst:18
+#: ../../introduction.rst:33
 msgid "fully-fledged business processes."
 msgstr ""
 
-#: ../../introduction.rst:25
+#: ../../introduction.rst:40
 msgid "control where it’s needed"
 msgstr ""
 
-#: ../../introduction.rst:26
+#: ../../introduction.rst:41
 msgid "flexibility where it’s possible"
 msgstr ""
 
-#: ../../introduction.rst:27
+#: ../../introduction.rst:42
 msgid "fewer delays (with automatic triggers, actions and timers)"
 msgstr ""
 
-#: ../../introduction.rst:28
+#: ../../introduction.rst:43
 msgid "no more miscommunications during handovers"
 msgstr ""
 
-#: ../../introduction.rst:29
+#: ../../introduction.rst:44
 msgid "traceability - data on who did what"
 msgstr ""
 
-#: ../../introduction.rst:30
+#: ../../introduction.rst:45
 msgid "clarity - visibility of who has to do what"
 msgstr ""
 
-#: ../../introduction.rst:31
+#: ../../introduction.rst:46
 msgid ""
 "agility - because Effektif process models are easier to change than "
 "software."
 msgstr ""
 
-#: ../../introduction.rst:34
+#: ../../introduction.rst:11
+msgid "How it works"
+msgstr ""
+
+#: ../../introduction.rst:15
+msgid ""
+"A process is a template for repetitive work. Processes are typically created"
+" by people who manage work and specify which tasks and actions have to be "
+"performed to reach a certain goal. For example: for every hire case, the "
+"tasks \"Conduct interview\", \"Prepare contract\" and \"Create email "
+"account\" have to be completed."
+msgstr ""
+
+#: ../../introduction.rst:20
+msgid ""
+"After a process is published, many individual cases can be started. Effektif"
+" keeps track of which tasks and actions have to be performed for each case. "
+"Cases bring people together with relevant information that provides context "
+"for completing the tasks. Cases are also collaboration spaces where people "
+"can discuss and create new tasks for individual cases on the fly."
+msgstr ""
+
+#: ../../introduction.rst:49
 msgid "Acknowledgements"
 msgstr ""
 
-#: ../../introduction.rst:36
+#: ../../introduction.rst:51
 msgid ""
 "Signavio uses open source software. We thank everyone involved in the open "
 "source community. Please follow :download:`this link <download/Open-Source-"

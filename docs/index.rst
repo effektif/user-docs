@@ -5,7 +5,6 @@ Effektif User Guide
    :maxdepth: 2
 
    introduction
-   how-does-it-work
    terminology
    cases
    tasks

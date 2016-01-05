@@ -12,32 +12,14 @@ or any other action that represents something to be done in a process.
 
    The *Process builder*’s actions palette
 
-
-.. _action-list:
-
-Simple action list view
------------------------
-
-The simple action list view is the simplest way to create a process, as a list of actions.
-It’s the easiest way to create ‘checklist processes’,
-which have a collection of user tasks that serve as a checklist.
-
-If you don’t add any control flow in the `Advanced flows` view,
-all actions will be started immediately when the process starts.
-By default, all actions in the simple action list view run in parallel.
-
-Advanced flows view
--------------------
-
-The `Advanced flows` view is a
-`BPMN <http://en.wikipedia.org/wiki/Business_Process_Model_and_Notation>`_
-diagram editor that shows actions and control flow elements like events and gateways.
-You use the `Advanced flows` view to add sequential flows between actions,
+The `BPMN <http://en.wikipedia.org/wiki/Business_Process_Model_and_Notation>`_
+diagram editor shows actions and control flow elements, such as events and gateways.
+Use the diagram editor to add sequential flows between actions,
 decisions and other control flow behaviour.
 
 
 Adding a transition
-```````````````````
+^^^^^^^^^^^^^^^^^^^
 
 You can create a transition in the `Advanced flows` view.
 A transition specifies sequential flow,
@@ -63,7 +45,7 @@ Release the mouse button over the destination to create the transition.
 
 
 Creating the next user task
-```````````````````````````
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 There is an easy way to create the next User Task in a process,
 similar to creating transitions above.
@@ -94,7 +76,7 @@ with a transition.
 
 
 Control flow elements
-`````````````````````
+^^^^^^^^^^^^^^^^^^^^^
 
 Control flow elements like events and gateways are also part of the diagram,
 but unlike actions, control flow elements don’t represent something that should happen.

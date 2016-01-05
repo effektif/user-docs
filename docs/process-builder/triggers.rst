@@ -9,7 +9,7 @@ See :ref:`Start event <start-event>`.
 
 
 Manual trigger
-``````````````
+^^^^^^^^^^^^^^
 
 A manual trigger is the simplest way to start a process.
 With a manual trigger, you start processes manually in Effektif,
@@ -19,7 +19,7 @@ by selecting `Start new case` and then selecting the process to start.
 .. _form-trigger:
 
 Form trigger
-````````````
+^^^^^^^^^^^^
 
 With a form trigger, you use a form to start a process.
 After selecting the form trigger, you can use the form builder to specify form fields.
@@ -33,7 +33,7 @@ After selecting the form trigger, you can use the form builder to specify form f
 
 
 Email trigger
-`````````````
+^^^^^^^^^^^^^
 
 An email trigger starts a new case for each email that you send to the trigger‘s Effektif email address.
 Note this is different from reading an existing email account, such as your own.
@@ -62,7 +62,7 @@ You will then see the email in the activity stream:
 .. _trigger-salesforce:
 
 Salesforce trigger
-``````````````````
+^^^^^^^^^^^^^^^^^^
 
 A Salesforce trigger starts a new case in response to Salesforce sending an outbound message as part of a Salesforce workflow.
 Before you can use a Salesforce trigger,
