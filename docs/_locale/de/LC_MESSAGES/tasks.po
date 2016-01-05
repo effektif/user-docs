@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-18 11:29+0200\n"
-"PO-Revision-Date: 2015-12-08 17:34+0100\n"
+"PO-Revision-Date: 2016-01-05 11:44+0100\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -165,7 +165,7 @@ msgstr "Geben Sie einen Namen ein und bestätigen mit Enter"
 msgid "After you have added a task, it appears in the list:"
 msgstr "Nachdem Sie eine Aufgabe angelegt haben, erscheint diese in der Liste:"
 
-#: ../../tasks.rst:127
+#: ../../tasks.rst:126
 msgid ""
 "When tasks have a form, the form is displayed in the same position and it has "
 "the button(s) to complete the task at the bottom of the form. Normally there "
@@ -178,11 +178,11 @@ msgstr ""
 "jedoch eine Entscheidung auf eine Aufgabe folgt, dann werden die "
 "Entscheidungsmöglichkeiten als Knöpfe in der Task angezeigt. "
 
-#: ../../tasks.rst:88
+#: ../../tasks.rst:87
 msgid "Assigning tasks"
 msgstr "Aufgaben zuweisen"
 
-#: ../../tasks.rst:94
+#: ../../tasks.rst:93
 msgid ""
 "You can assign a task from anywhere a task appears in a task list. To assign "
 "the task, click the assignee button immediately to the left of the task name, "
@@ -192,11 +192,11 @@ msgstr ""
 "Aufgabenliste auftauchen. Dazu drücken Sie einfach den Knopf direkt neben dem "
 "Namen der Aufgabe, worauf sich eine Liste mit den Kandidaten öffnet."
 
-#: ../../tasks.rst:100
+#: ../../tasks.rst:99
 msgid "Assigning a task"
 msgstr "Eine Aufgabe zuweisen"
 
-#: ../../tasks.rst:102
+#: ../../tasks.rst:101
 msgid ""
 "To assign the task, select a candidate from the list, or type a name or email "
 "address to filter it first."
@@ -205,11 +205,11 @@ msgstr ""
 "oder durchsuchen Sie die Liste, indem Sie einen Namen oder eine Emailadresse "
 "eintippen."
 
-#: ../../tasks.rst:123
+#: ../../tasks.rst:122
 msgid "Completing tasks"
 msgstr "Aufgaben abschließen"
 
-#: ../../tasks.rst:125
+#: ../../tasks.rst:124
 msgid ""
 "For tasks, there is a highlighted `Done` button (the square on the green "
 "background) to complete the task."
@@ -217,11 +217,11 @@ msgstr ""
 "Einfache Aufgaben können mit einem Klick auf den `Fertig` Knopf (das Quadrat "
 "auf dem grünen Hintergrund) abgeschlossen werden."
 
-#: ../../tasks.rst:133
+#: ../../tasks.rst:132
 msgid "Reopening tasks"
 msgstr "Aufgaben wieder öffnen"
 
-#: ../../tasks.rst:135
+#: ../../tasks.rst:134
 msgid ""
 "When you see the `Reopen` button in a task, it means the task is completed. "
 "You may want to reopen a task that you closed a task by accident, or when you "
@@ -236,7 +236,7 @@ msgstr ""
 "Falls Sie nur vergessen haben ein Dokument oder einen Kommentar anzufügen, so "
 "können Sie dies auch tun, selbst wenn die Aufgabe schon geschlossen wurde. "
 
-#: ../../tasks.rst:140
+#: ../../tasks.rst:139
 msgid ""
 "The advantage of reopening a task instead of creating a new task is that the "
 "existing task retains its context."
@@ -244,7 +244,7 @@ msgstr ""
 "Eine Aufgabe wieder zu öffnen anstatt eine neue anzulegen hat den Vorteil, "
 "dass der Kontext der eigentlichen Aufgabe beibehalten wird. "
 
-#: ../../tasks.rst:90
+#: ../../tasks.rst:89
 msgid ""
 "You can assign a task to yourself, or someone else, to indicate who is "
 "expected to work on the task. An assigned task is listed in the assignee’s :"
@@ -258,24 +258,11 @@ msgstr ""
 "eine :ref:`Benachrichtigung <notifications>` und alle :ref:`Erinnerungen "
 "<reminders>`, die für die Aufgabe definiert sind erreichen Ihn nun auch. "
 
-#: ../../tasks.rst:83
-msgid ""
-"When a process is started, a :ref:`case <cases>` is created and all elements "
-"not having incoming transitions will be started. So if you only use the :ref:"
-"`simple action list <action-list>` to create a list of user tasks, all those "
-"tasks in the list will be started immediately when the process starts."
-msgstr ""
-"Wenn Sie einen Prozess starten wird automatisch ein :ref:`Fall <cases>` "
-"angelegt. Alle Elemente im Prozess, die keine eingehenden Transitionen "
-"besitzen werden sofort durch offene Aufgaben abgebildet. Das bedeutet, wenn "
-"Sie nur in der :ref:`einfachen Aufgabenliste <action-list>` gearbeitet haben, "
-"werden alle Aufgaben sofort im neuen Fall angelegt."
-
-#: ../../tasks.rst:106
+#: ../../tasks.rst:105
 msgid "Setting due dates"
 msgstr "Fälligkeiten festlegen"
 
-#: ../../tasks.rst:108
+#: ../../tasks.rst:107
 msgid ""
 "You can set a task’s due date, to highlight tasks that are overdue in the "
 "assignee’s tasks inbox. To set a task’s due date, open the task, and select "
@@ -286,11 +273,11 @@ msgstr ""
 "Fälligkeitsdatum festzulegen, öffnen Sie eine Aufgaben und klicken Sie auf das "
 "Uhr-Icon um die Datumsauswahl zu öffnen."
 
-#: ../../tasks.rst:115
+#: ../../tasks.rst:114
 msgid "Setting a task’s due date"
 msgstr "Das Fälligkeitsdatum einer Aufgabe festlegen"
 
-#: ../../tasks.rst:117
+#: ../../tasks.rst:116
 msgid ""
 "As well as setting the due date manually, in an open case, you can also set a "
 "user task’s default due date in the process editor, on the user task’s :ref:"
@@ -299,6 +286,28 @@ msgstr ""
 "Sie können Fälligkeitsdaten manuell innerhalb eines laufenden Falls setzen "
 "oder Vorgabewerte hierfür im Prozesseditor festlegen. Weitere Informationen "
 "dazu finden Sie im Kapitel :ref:`Erinnerungen <reminders>`."
+
+#: ../../tasks.rst:83
+msgid ""
+"When a process is started, a :ref:`case <cases>` is created and all elements "
+"not having incoming transitions will be started."
+msgstr ""
+"Wenn ein Prozess gestartet wird, wird ein :ref:`Fall <cases>` angelegt. Alle "
+"Elemente im Prozess, die keine eingehende Kante besitzen, werden sofort "
+"ausgeführt. "
+
+#~ msgid ""
+#~ "When a process is started, a :ref:`case <cases>` is created and all "
+#~ "elements not having incoming transitions will be started. So if you only "
+#~ "use the :ref:`simple action list <action-list>` to create a list of user "
+#~ "tasks, all those tasks in the list will be started immediately when the "
+#~ "process starts."
+#~ msgstr ""
+#~ "Wenn Sie einen Prozess starten wird automatisch ein :ref:`Fall <cases>` "
+#~ "angelegt. Alle Elemente im Prozess, die keine eingehenden Transitionen "
+#~ "besitzen werden sofort durch offene Aufgaben abgebildet. Das bedeutet, wenn "
+#~ "Sie nur in der :ref:`einfachen Aufgabenliste <action-list>` gearbeitet "
+#~ "haben, werden alle Aufgaben sofort im neuen Fall angelegt."
 
 #~ msgid ""
 #~ "When a process is started, a :ref:`case <cases>` is created and all "
