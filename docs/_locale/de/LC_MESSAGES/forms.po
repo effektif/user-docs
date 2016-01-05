@@ -4,14 +4,14 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-15 17:41+0200\n"
-"PO-Revision-Date: 2015-10-16 11:23+0200\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-01-05 17:40+0100\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language-Team: \n"
 "Language: de\n"
-"X-Generator: Poedit 1.8.5\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
 
 #: ../../forms.rst:4
 msgid "Forms"
@@ -246,7 +246,7 @@ msgstr ""
 "`Pflichtfeld` - Das Feld muss ausgefüllt werden, damit das Formular "
 "abgesendet werden kann"
 
-#: ../../forms.rst:117
+#: ../../forms.rst:118
 msgid ""
 "Text fields also have an additional `Multi-line` option that specifies that "
 "the form field be displayed as a multi-line text input area, for longer "
@@ -255,17 +255,17 @@ msgstr ""
 "Textfelder haben zusätzlich die Option `Mehrzeilig` um die Eingabe von "
 "längeren Texten zu ermöglichen. "
 
-#: ../../forms.rst:121
+#: ../../forms.rst:130
 msgid "Choice fields have a `Options` - the list of values to choose between:"
 msgstr ""
 "In Auswahlfeldern können die verschiedenen Möglichkeiten der Auswahl unter "
 "`Optionen` konfiguriert werden."
 
-#: ../../forms.rst:125
+#: ../../forms.rst:134
 msgid "Choice field configuration"
 msgstr "Konfiguration eines Auswahlfelds."
 
-#: ../../forms.rst:127
+#: ../../forms.rst:136
 msgid ""
 "Date fields have a `Date/time` option for choosing between a date and time, "
 "just a date without a time of day, or just a time:"
@@ -274,11 +274,11 @@ msgstr ""
 "entscheiden, ob Sie nur ein Datum, eine Datum und eine Uhrzeit oder nur "
 "eine Uhrzeit auswählen möchten."
 
-#: ../../forms.rst:131
+#: ../../forms.rst:140
 msgid "Date field configuration"
 msgstr "Konfiguration eines Datumsfelds"
 
-#: ../../forms.rst:133
+#: ../../forms.rst:142
 msgid ""
 "User fields also have a `Candidates` option that you can use to choose "
 "which users can be selected:"
@@ -288,6 +288,29 @@ msgstr ""
 "Nutzer haben trotzdem weiterhin die Möglichkeit unter allen Nutzern in der "
 "Organisation zu wählen, wenn Sie dies möchten. "
 
-#: ../../forms.rst:137
+#: ../../forms.rst:146
 msgid "User field configuration"
 msgstr "Konfiguration eines Nutzerfelds"
+
+#: ../../forms.rst:116
+msgid ""
+"`Allow entering multiple values` - specifies that the field has a list of "
+"values that you add and remove independently"
+msgstr ""
+"`Eingabe mehrerer Werte erlauben` - legt fest, dass dieses Feld eine Liste "
+"von Werten akzeptiert, die Sie individuell verwalten können"
+
+#: ../../forms.rst:122
+msgid ""
+"When you enable the `Allow entering multiple values` option, the field is "
+"shown differently on forms. Each value you enter is added to the list. Use "
+"the × icon to remove a value."
+msgstr ""
+"Wenn Sie die Option `Eingabe mehrerer Werte erlauben` aktivieren, wird das "
+"entsprechende Feld etwas anders in Formularen angezeigt. Jeder Wert, den "
+"Sie eingeben wird zu einer Liste hinzugefügt. Um einen Wert zu entfernen, "
+"klicken Sie auf das × Symbol."
+
+#: ../../forms.rst:128
+msgid "Entering multiple field values in two text fields"
+msgstr "Eingabe mehrerer Werte in zwei Text-Felder"
