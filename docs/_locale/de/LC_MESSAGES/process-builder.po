@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-17 10:39+0200\n"
-"PO-Revision-Date: 2016-01-05 11:52+0100\n"
+"PO-Revision-Date: 2016-01-05 13:24+0100\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -530,6 +530,165 @@ msgstr ""
 "Als Ergebnis wird der Download der Datei im BPMN-Format gestartet. Da es nur"
 " eine Art von BPMN-Dateien gibt, müssen Sie auch keine weiteren Optionen "
 "konfigurieren. "
+
+#: ../../process-builder/versions.rst:4 ../../process-builder/versions.rst:4
+msgid "Versions"
+msgstr "Versionen"
+
+#: ../../process-builder/versions.rst:6 ../../process-builder/versions.rst:6
+msgid ""
+"When you use the Effektif process editor to edit your process model, all of "
+"your changes are saved immediately. You can go back and edit the process "
+"again later, and it will be just as you left it. However, to execute a "
+"process by starting a new case you need a published version."
+msgstr ""
+"Wenn Sie den Effektif Prozesseditor verwenden, werden alle Ihre Änderungen "
+"automatisch gespeichert. Das heißt Sie können einen Prozess verlassen und er"
+" wird genau so aussehen, wenn Sie ihn wieder öffnen. Um einen Prozess "
+"allerdings auszuführen müssen Sie zunächst eine Version veröffentlichen. "
+
+#: ../../process-builder/versions.rst:13 ../../process-builder/versions.rst:13
+msgid "Publishing a process version"
+msgstr "Eine Version veröffentlichen"
+
+#: ../../process-builder/versions.rst:15 ../../process-builder/versions.rst:15
+msgid ""
+"The process editor’s `Versions` tab shows a list of published versions. "
+"Until you publish the first version, this page shows a message that there "
+"are ‘no published versions’ of the process."
+msgstr ""
+"Im Reiter `Versionen` des Prozesseditors finden Sie eine Liste von "
+"veröffentlichten Versionen. Bevor Sie die erste Version Ihres Prozesses "
+"veröffentlicht haben, wird diese Seite nur einen Hinweis anzeigen, dass noch"
+" keine Versionen veröffentlicht wurden."
+
+#: ../../process-builder/versions.rst:21 ../../process-builder/versions.rst:21
+msgid "The process editor’s `Versions` tab with no published versions"
+msgstr "Der Reiter `Versionen` ohne eine veröffentlichte Version."
+
+#: ../../process-builder/versions.rst:23 ../../process-builder/versions.rst:23
+msgid ""
+"You can only start a new case for a process that has a published version, "
+"which is why the light green button text is ‘Publish to run this process’. "
+"After you publish the first version, the list shows version #1 and you can "
+"start a new case using that version."
+msgstr ""
+"Sie können nur Fälle von bereits veröffentlichten Prozessen anlegen, weshalb"
+" der grünliche Knopf auch die Beschriftung `Zum Ausführen veröffentlichen` "
+"trägt. Nachdem Sie die erste Version veröffentlicht haben, zeigt die Liste "
+"einen Eintrag mit der Version #1 und Sie können nun Fälle von diesem Prozess"
+" starten. "
+
+#: ../../process-builder/versions.rst:30 ../../process-builder/versions.rst:30
+msgid "The `Versions` list after publishing the first version"
+msgstr "Die `Versions`-Liste mit dem ersten Eintrag"
+
+#: ../../process-builder/versions.rst:32 ../../process-builder/versions.rst:32
+msgid ""
+"Version #1 always has the description `Initial version`. For later versions,"
+" you can add your own description."
+msgstr ""
+"Die Version mit der Nummer #1 hat immer die Beschriftung `Initiale Version`."
+" Bei späteren Versionen können Sie selbst eine Beschreibung hinzufügen. "
+
+#: ../../process-builder/versions.rst:36 ../../process-builder/versions.rst:36
+msgid "Adding version comments"
+msgstr "Versionskommentare hinzufügen"
+
+#: ../../process-builder/versions.rst:38 ../../process-builder/versions.rst:38
+msgid ""
+"After the first published version, you can add a comment to describe the "
+"changes when you publish a new version of a process."
+msgstr ""
+"Nach der ersten veröffentlichten Version können Sie zu jeder weiteren "
+"Version eine Beschreibung hinzufügen, die die Änderungen beschreibt, die Sie"
+" vorgenommen haben. "
+
+#: ../../process-builder/versions.rst:43 ../../process-builder/versions.rst:43
+msgid ""
+"The `Publish changes` prompt, where you can add an optional version comment"
+msgstr ""
+"Der `Änderungen veröffentlichen` Dialog, indem Sie eine optionale "
+"Beschreibung hinzufügen können"
+
+#: ../../process-builder/versions.rst:45 ../../process-builder/versions.rst:45
+msgid ""
+"The version comment is not required, but it helps collaboration between team"
+" members by making process modelling more transparent."
+msgstr ""
+"Der Versionskommentar ist keine Pflicht, er hilft jedoch bei der "
+"Kollaboration von mehreren Team-Mitgliedern, da er die Prozessgestaltung "
+"transparenter macht. "
+
+#: ../../process-builder/versions.rst:51 ../../process-builder/versions.rst:51
+msgid "Published versions with descriptive version comments"
+msgstr "Veröffentlichte Versionen mit beschreibenden Versionskommentaren"
+
+#: ../../process-builder/versions.rst:53 ../../process-builder/versions.rst:53
+msgid ""
+"In this example, each version has a short comment that describes the "
+"changes."
+msgstr ""
+"In diesem Beispiel hat jede Version einen kurten Kommentar, der die "
+"Änderungen beschreibt."
+
+#: ../../process-builder/versions.rst:56 ../../process-builder/versions.rst:56
+msgid "Writing good version comments"
+msgstr "Gute Versionskommentare schreiben"
+
+#: ../../process-builder/versions.rst:58 ../../process-builder/versions.rst:58
+msgid ""
+"When you write version comments, use the following tips to make them more "
+"consistent and useful."
+msgstr ""
+"Wenn Sie Ihre Versionskommentare schreiben, folgen Sie den diesen Tipps um "
+"Sie konsistent und nützlich zu gestalten. "
+
+#: ../../process-builder/versions.rst:61 ../../process-builder/versions.rst:61
+msgid ""
+"Make the comment an imperative phrase that starts with a word like ‘Add’ or "
+"‘Fix’."
+msgstr ""
+"Schreiben Sie in imperativer Art und Wiese wie `Aktivität hinzugefügt` oder "
+"`Fehler behoben`."
+
+#: ../../process-builder/versions.rst:62 ../../process-builder/versions.rst:62
+msgid ""
+"Capitalise the first word and don’t include a full-stop at the end, for "
+"consistency."
+msgstr ""
+"Schreiben Sie das erste Wort groß aber beenden Sie den Kommentar nich mit "
+"einem Punkt (der Konsistenz halber)"
+
+#: ../../process-builder/versions.rst:64 ../../process-builder/versions.rst:64
+msgid ""
+"Be specific about what you changed, instead of vaguely referring to "
+"‘changes’."
+msgstr ""
+"Seien Sie spezifisch bei dem was Sie geändert haben und sprechen Sie nicht "
+"nur vage über `Änderungen`."
+
+#: ../../process-builder/versions.rst:66 ../../process-builder/versions.rst:66
+msgid "Be concise; 3-10 words is usually about right."
+msgstr "Fassen Sie sich kurz; 3-10 Worte sind normalerweise mehr als genug."
+
+#: ../../process-builder/versions.rst:67 ../../process-builder/versions.rst:67
+msgid ""
+"Consider making the comment longer to explain why you made this change."
+msgstr ""
+"Unter Umständen schreiben Sie einen längeren Kommentar um zu Beschreiben, "
+"warum die Änderungen notwendig waren."
+
+#: ../../process-builder/versions.rst:69 ../../process-builder/versions.rst:69
+msgid ""
+"You may find it easier to publish a series of small changes, creating a "
+"number of intermediate versions instead of one big change. Fine-grained "
+"versions make the version history more useful."
+msgstr ""
+"Es erleichtert die Arbeit, wenn Sie eine Reihe von kleinen Änderungen "
+"veröffentlichen und nicht alles in eine große Version schieben. Kleine "
+"Versionen machen es einfacher die Änderungen nachzuverfolgen und damit die "
+"Versionshistorie nützlicher. "
 
 #~ msgid "Simple action list view"
 #~ msgstr "Einfache Aufgabenliste"
