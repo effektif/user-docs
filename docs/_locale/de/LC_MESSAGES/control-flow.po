@@ -4,62 +4,35 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-17 10:39+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2016-01-05 17:26+0100\n"
+"Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
+"Language-Team: \n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
 
 #: ../../control-flow.rst:4
 msgid "Control flow"
-msgstr ""
+msgstr "Kontrollfluss"
 
 #: ../../control-flow.rst:6
 msgid ""
 "You use transitions, gateways and events to specify the processing order of "
 "the actions in a process."
 msgstr ""
+"Benutzen Sie Transitionen, Gateways und Ereignisse um festzulegen, wie die "
+"Aktionen in einem Prozess ausgeführt werden."
 
 #: ../../control-flow.rst:9
 msgid "Transition"
-msgstr ""
-
-#: ../../control-flow.rst:11
-msgid ""
-"A transition is an arrow from a source element to a destination element in "
-"the `Advanced flows` view. The transition specifies that the destination "
-"element is only ‘executed’ after the source element is completed. A "
-"transition is called a ‘sequence flow’ in BPMN."
-msgstr ""
+msgstr "Transitionen"
 
 #: ../../control-flow/exclusive-gateway.rst:2
 #: ../../control-flow/exclusive-gateway.rst:2
 msgid "Exclusive gateway"
-msgstr ""
-
-#: ../../control-flow/exclusive-gateway.rst:8
-#: ../../control-flow/exclusive-gateway.rst:8
-msgid ""
-"Use an exclusive gateway to make a choice between multiple execution paths. "
-"The exclusive gateway selects one of the outgoing transitions, and only "
-"continues execution on that transition. There are two ways to configure an "
-"exclusive gateway: with a *human decision* or an 8automatic decision*."
-msgstr ""
-
-#: ../../control-flow/exclusive-gateway.rst:15
-#: ../../control-flow/exclusive-gateway.rst:15
-msgid "Human decision"
-msgstr ""
-
-#: ../../control-flow/exclusive-gateway.rst:17
-#: ../../control-flow/exclusive-gateway.rst:17
-msgid ""
-"Use a human decision for an exclusive gateway when a person must make a "
-"decision. The previous action must be a user task, which will include making"
-" the decision. The user interface presents the decision to the user as "
-"buttons on the user task form."
-msgstr ""
+msgstr "Exklusives Gateway"
 
 #: ../../control-flow/exclusive-gateway.rst:22
 #: ../../control-flow/exclusive-gateway.rst:22
@@ -68,6 +41,9 @@ msgid ""
 " exclusive gateway and the two user tasks ‘Print contract’ and ‘Update "
 "contract’:"
 msgstr ""
+"Hier ein kleines Beispiel. Angenommen Sie haben eine Aktivität namens "
+"`Vertrag prüfen`, ein exklusives Gateway und zwei weitere Aktivitäten "
+"`Vertrag drucken` und `Vertrag updated`:"
 
 #: ../../control-flow/exclusive-gateway.rst:29
 #: ../../control-flow/exclusive-gateway.rst:29
@@ -75,69 +51,54 @@ msgid ""
 "An exclusive gateway must have at least one incoming and two outgoing "
 "transitions"
 msgstr ""
+"Ein exklusives Gateway muss mindestens eine eingehende und zwei ausgehenden "
+"Transitionen besitzen. "
 
-#: ../../control-flow/exclusive-gateway.rst:31
-#: ../../control-flow/exclusive-gateway.rst:31
-msgid ""
-"Select the exclusive gateway. Human decision is the default type. After "
-"creating the elements and connecting them, as above, the exclusive gateway "
-"will be configured:"
-msgstr ""
-
-#: ../../control-flow/exclusive-gateway.rst:38
-#: ../../control-flow/exclusive-gateway.rst:38
-msgid "Default human decision configuration"
-msgstr ""
-
-#: ../../control-flow/exclusive-gateway.rst:40
-#: ../../control-flow/exclusive-gateway.rst:40
-msgid ""
-"`To Print contract` and `To Update contract` are the default decision "
-"buttons that will appear on the user task form. For each button, the label "
-"on the right indicates the next action in the process, which will be "
-"performed when the button is clicked. In this example, when the user clicks "
-"the decision button `To Print contract`, the `Print contract` task is "
-"executed and the `Update contract` task will *not* be executed."
-msgstr ""
-
-#: ../../control-flow/exclusive-gateway.rst:47
-#: ../../control-flow/exclusive-gateway.rst:47
+#: ../../control-flow/exclusive-gateway.rst:46
+#: ../../control-flow/exclusive-gateway.rst:46
 msgid ""
 "You can easily change the text on the buttons. For example, change them to "
 "`Approve` and `Reject`:"
 msgstr ""
+"Sie können den Text auf den Knöpfen leicht ändern. Nennen Sie diese zum "
+"Beispiel `Annehmen` und `Ablehnen`."
 
-#: ../../control-flow/exclusive-gateway.rst:52
-#: ../../control-flow/exclusive-gateway.rst:52
+#: ../../control-flow/exclusive-gateway.rst:51
+#: ../../control-flow/exclusive-gateway.rst:51
 msgid "Customized decision buttons"
-msgstr ""
+msgstr "Benutzerdefinierte Entscheidungen"
 
-#: ../../control-flow/exclusive-gateway.rst:54
-#: ../../control-flow/exclusive-gateway.rst:54
+#: ../../control-flow/exclusive-gateway.rst:53
+#: ../../control-flow/exclusive-gateway.rst:53
 msgid ""
 "After starting a new case for this process, the `Review contract` task will "
 "have decision buttons:"
 msgstr ""
+"Nachdem Sie einen neuen Fall gestartet haben, sehen Sie in der Aufgabe "
+"`Vertrag prüfen` die Entscheidungsknöpfe."
 
-#: ../../control-flow/exclusive-gateway.rst:59
-#: ../../control-flow/exclusive-gateway.rst:59
+#: ../../control-flow/exclusive-gateway.rst:58
+#: ../../control-flow/exclusive-gateway.rst:58
 msgid "Task decision buttons"
-msgstr ""
+msgstr "Entscheidungsknöpfe in der Aufgabe"
 
-#: ../../control-flow/exclusive-gateway.rst:61
-#: ../../control-flow/exclusive-gateway.rst:61
+#: ../../control-flow/exclusive-gateway.rst:60
+#: ../../control-flow/exclusive-gateway.rst:60
 msgid ""
 "When adding form fields to the task before the exclusive gateway - `Review "
 "contract` in this example - the decision buttons are added to the form."
 msgstr ""
+"Wenn Sie ein Formular zu einer Aktivität direkt vor dem Gateway hinzufügen -"
+" `Vertrag prüfen` in diesem Beispiel - werden die Knöpfe für die "
+"Entscheidung automatisch an das Formular angehangen. "
 
-#: ../../control-flow/exclusive-gateway.rst:67
-#: ../../control-flow/exclusive-gateway.rst:67
+#: ../../control-flow/exclusive-gateway.rst:85
+#: ../../control-flow/exclusive-gateway.rst:85
 msgid "Automatic decision"
-msgstr ""
+msgstr "Automatische Entscheidung"
 
-#: ../../control-flow/exclusive-gateway.rst:69
-#: ../../control-flow/exclusive-gateway.rst:69
+#: ../../control-flow/exclusive-gateway.rst:87
+#: ../../control-flow/exclusive-gateway.rst:87
 msgid ""
 "An automatic decision is an exclusive gateway that selects an outgoing "
 "transition based on conditions that you choose. For each transition, you can"
@@ -146,31 +107,49 @@ msgid ""
 "transition with the first condition that is true, using the current case’s "
 "field values."
 msgstr ""
+"Wenn Sie ein Gateway für eine automatische Entscheidung konfigurieren, "
+"trifft Effektif die Entscheidung für Sie basierend auf von Ihnen "
+"festgelegten Kriterien. Sie können für jede Transition festlegen unter "
+"welcher Bedingung Sie verwendet werden soll. Hierzu können Sie natürlich "
+"auch Daten aus dem Workflow heranziehen. Effektif wertet die Bedingungen "
+"hierbei von oben nach unten aus und nimmt die erste Transition bei der die "
+"Bedingung zutrifft. "
 
-#: ../../control-flow/exclusive-gateway.rst:77
-#: ../../control-flow/exclusive-gateway.rst:77
+#: ../../control-flow/exclusive-gateway.rst:95
+#: ../../control-flow/exclusive-gateway.rst:95
 msgid "Automatic decision condition editor"
-msgstr ""
+msgstr "Editor für automatische Entscheidungen"
 
-#: ../../control-flow/exclusive-gateway.rst:79
-#: ../../control-flow/exclusive-gateway.rst:79
+#: ../../control-flow/exclusive-gateway.rst:97
+#: ../../control-flow/exclusive-gateway.rst:97
 msgid ""
 "To specify a condition, start by selecting a field and a comparison "
 "operator. Enter either a static value in the input field on the right, or "
 "click the |binding-symbol| button to select another field."
 msgstr ""
+"Um eine Bedingung zu definieren, wählen Sie zunächst ein Feld aus dem "
+"Prozess an das Sie die Bedingung knüpfen möchten. Danach entscheiden Sie "
+"sich für die Art des Vergleiches. Zum Schluss haben Sie noch die Möglichkeit"
+" entweder einen statischen Wert, wie eine Zahl einzugeben oder das Feld mit "
+"einem anderen Wert aus dem Prozess zu vergleichen. Um dies zu tun, klicken "
+"Sie auf |binding-symbol|."
 
-#: ../../control-flow/exclusive-gateway.rst:83
-#: ../../control-flow/exclusive-gateway.rst:83
+#: ../../control-flow/exclusive-gateway.rst:101
+#: ../../control-flow/exclusive-gateway.rst:101
 msgid ""
 "A condition can include multiple field value comparisons. To add more sub-"
 "conditions, click the button at the bottom of the list. You can also use the"
 " select field at the top to specify that either **all** conditions in the "
 "list must be true, or that it is enough for at least one of them to be true."
 msgstr ""
+"Eine Bedingung kann mehrere Felder beinhalten. Um mehr als einen Vergleich "
+"zu der Bedingung hinzuzufügen klicken Sie auf den Knopf am unteren Ende der "
+"Liste. In der Selektion oberhalb der Liste können Sie festlegen ob **alle** "
+"oder nur **einer** ihrer Vergleiche zutreffen müssen, damit die Bedingung "
+"zutrifft. "
 
-#: ../../control-flow/exclusive-gateway.rst:87
-#: ../../control-flow/exclusive-gateway.rst:87
+#: ../../control-flow/exclusive-gateway.rst:105
+#: ../../control-flow/exclusive-gateway.rst:105
 msgid ""
 "When a sub-condition is incompletely specified, evaluating the whole "
 "condition will fail and the transition will not be taken. The |warning-"
@@ -178,41 +157,47 @@ msgid ""
 "symbol| symbol indicates that the sub-condition is valid. Click either of "
 "these symbols to remove the sub condition from the list."
 msgstr ""
+"Wenn Sie einen Vergleich nicht komplett spezifiziert haben, macht dies die "
+"komplette Bedingung ungültig, was dazu führt, dass diese nie benutzt werden "
+"wird. Das |warning-symbol| Symbol weist Sie auf solche unvollständigen "
+"Vergleiche hin. Korrekte Vergleiche werden durch das |check-symbol| Symbol "
+"dargestellt. Um einen Vergleich zu entfernen klicken Sie auf das |warning-"
+"symbol| Symbol oder das |check-symbol| Symbol."
 
-#: ../../control-flow/exclusive-gateway.rst:91
-#: ../../control-flow/exclusive-gateway.rst:91
-msgid "An unspecified condition is marked with a |warning-symbol| symbol."
-msgstr ""
-
-#: ../../control-flow/exclusive-gateway.rst:99
-#: ../../control-flow/exclusive-gateway.rst:99
+#: ../../control-flow/exclusive-gateway.rst:115
+#: ../../control-flow/exclusive-gateway.rst:115
 msgid "Default transition"
-msgstr ""
+msgstr "Standard-Transition"
 
-#: ../../control-flow/exclusive-gateway.rst:101
-#: ../../control-flow/exclusive-gateway.rst:101
+#: ../../control-flow/exclusive-gateway.rst:117
+#: ../../control-flow/exclusive-gateway.rst:117
 msgid ""
 "An automatic decision usually has a default transition. A default transition"
 " is a fallback mechanism: if none of the conditions evaluate to true, the "
 "default transition is taken."
 msgstr ""
+"Automatische Entscheidungen haben normalerweise eine Art `Plan B` für den "
+"Fall, dass keine Bedingung zutrifft. "
 
-#: ../../control-flow/exclusive-gateway.rst:107
-#: ../../control-flow/exclusive-gateway.rst:107
+#: ../../control-flow/exclusive-gateway.rst:123
+#: ../../control-flow/exclusive-gateway.rst:123
 msgid "The default transition"
-msgstr ""
+msgstr "Die Standard-Transition"
 
-#: ../../control-flow/exclusive-gateway.rst:109
-#: ../../control-flow/exclusive-gateway.rst:109
+#: ../../control-flow/exclusive-gateway.rst:125
+#: ../../control-flow/exclusive-gateway.rst:125
 msgid ""
 "To make a transition the default, select the ‘per default’ item in the "
 "selection field at the top."
 msgstr ""
+"Um eine Transition als Standard zu definieren, öffnen Sie die Selektion über"
+" den Bedingungen und wählen Sie `standardmäßig (wenn keine andere Transition"
+" gewählt werden kann)`."
 
 #: ../../control-flow/parallel-gateway.rst:2
 #: ../../control-flow/parallel-gateway.rst:2
 msgid "Parallel Gateway"
-msgstr ""
+msgstr "Paralleles Gateway"
 
 #: ../../control-flow/parallel-gateway.rst:8
 #: ../../control-flow/parallel-gateway.rst:8
@@ -221,11 +206,15 @@ msgid ""
 " as each other, or one at a time but not in a particular order. To do this, "
 "you *fork* and *join* the sequence flow."
 msgstr ""
+"Mit parallelen Gateways können ausdrücken, dass Aktivitäten parallel bzw. in"
+" keiner bestimmten Reihenfolge ausgeführt werden sollen. Um dies zu "
+"realisieren müssen Sie den Sequenzfluss `teilen` und später wieder "
+"`zusammenführen`."
 
 #: ../../control-flow/parallel-gateway.rst:12
 #: ../../control-flow/parallel-gateway.rst:12
 msgid "Forking"
-msgstr ""
+msgstr "Sequenzfluss teilen"
 
 #: ../../control-flow/parallel-gateway.rst:14
 #: ../../control-flow/parallel-gateway.rst:14
@@ -235,11 +224,16 @@ msgid ""
 "individual execution flow is created for each of the gateway’s outgoing "
 "transitions. Let’s look at the following purchase order example:"
 msgstr ""
+"Mit einem parallelen Gateway können Sie die Ausführung eines Sequenzflusses "
+"in mehrere, konkurrierende Flüsse aufteilen. Wenn die Prozessausführung an "
+"einem parallelen Gateway angekommen ist, werden eigenständige Flüsse für "
+"jede ausgehende Transition des Gateways erzeugt. Sehen wir uns dazu das "
+"folgende Beispiel an."
 
 #: ../../control-flow/parallel-gateway.rst:21
 #: ../../control-flow/parallel-gateway.rst:21
 msgid "A parallel gateway example"
-msgstr ""
+msgstr "Beispiel eines parallelen Gateways"
 
 #: ../../control-flow/parallel-gateway.rst:23
 #: ../../control-flow/parallel-gateway.rst:23
@@ -250,28 +244,28 @@ msgid ""
 "payment` and create that user task. Meanwhile, the other will create the "
 "`Send goods` user task."
 msgstr ""
+"In diesem Beispiel wird das parallele Gateway aktiviert, wenn die Aufgabe "
+"`Bestellung eingeben` abgeschlossen ist. Das Gateway teilt nun den "
+"Sequenzfluss in zwei parallele Flüsse auf. Dies hat zur Folge, dass direkt "
+"beide Aufgaben `Bezahlung erhalten` und `Waren versenden` erstellt werden. "
 
 #: ../../control-flow/parallel-gateway.rst:28
 #: ../../control-flow/parallel-gateway.rst:28
-msgid ""
-"After `Enter purchase order` completes, both tasks `Receive payment` and "
-"`Send goods` will be created."
-msgstr ""
-
-#: ../../control-flow/parallel-gateway.rst:30
-#: ../../control-flow/parallel-gateway.rst:30
 msgid ""
 "You can have as many outgoing transitions as you want. All destination tasks"
 " for those transitions will be started at once."
 msgstr ""
+"Sie können so viele ausgehenden Transitionen, wie Sie möchten erstellen. "
+"Alle Aufgaben, die einem parallelen Gateway folgen werden simultan "
+"gestartet. "
 
-#: ../../control-flow/parallel-gateway.rst:34
-#: ../../control-flow/parallel-gateway.rst:34
+#: ../../control-flow/parallel-gateway.rst:32
+#: ../../control-flow/parallel-gateway.rst:32
 msgid "Joining"
-msgstr ""
+msgstr "Sequenzflüsse zusammenführen"
 
-#: ../../control-flow/parallel-gateway.rst:36
-#: ../../control-flow/parallel-gateway.rst:36
+#: ../../control-flow/parallel-gateway.rst:34
+#: ../../control-flow/parallel-gateway.rst:34
 msgid ""
 "You also use a parallel gateway to join concurrent paths back together. In "
 "this case, the joining parallel gateway has more then one incoming "
@@ -280,101 +274,125 @@ msgid ""
 "concurrent flow arrives, the joining parallel gateway will activate and one "
 "execution flow will be created on the outgoing transition."
 msgstr ""
+"Um parallele Sequenzflüsse wieder zusammenzuführen verwenden Sie auch ein "
+"paralleles Gateway. Die Ausführung des Workflows wird an dieser Stelle "
+"warten bis alle parallelen Sequenzflüsse das Zusammenführende Gateway "
+"erreicht haben und erst dann den Workflow weiterführen. "
 
-#: ../../control-flow/parallel-gateway.rst:42
-#: ../../control-flow/parallel-gateway.rst:42
+#: ../../control-flow/parallel-gateway.rst:40
+#: ../../control-flow/parallel-gateway.rst:40
 msgid ""
 "To continue the previous example, extend the purchase order process to look:"
 msgstr ""
+"Wir erweitern das vorherige Beispiel indem wir ein zusammenführendes Gateway"
+" und eine weitere Aktivität hinzufügen. "
 
-#: ../../control-flow/parallel-gateway.rst:47
-#: ../../control-flow/parallel-gateway.rst:47
+#: ../../control-flow/parallel-gateway.rst:45
+#: ../../control-flow/parallel-gateway.rst:45
 msgid "A parallel gateway example with join"
-msgstr ""
+msgstr "Beispiel eines zusammenführenden parallelen Gateways"
 
-#: ../../control-flow/parallel-gateway.rst:49
-#: ../../control-flow/parallel-gateway.rst:49
+#: ../../control-flow/parallel-gateway.rst:47
+#: ../../control-flow/parallel-gateway.rst:47
 msgid ""
 "In this example, `Archive purchase order` will only start after both "
 "`Receive payment` and `Send goods` are complete."
 msgstr ""
+"In diesem Beispiel wird `Bestellung archivieren` erst ausgeführt, wenn "
+"`Bezahlung erhalten` und `Waren versenden` abgeschlossen sind. "
 
-#: ../../control-flow/parallel-gateway.rst:52
-#: ../../control-flow/parallel-gateway.rst:60
-#: ../../control-flow/parallel-gateway.rst:52
-#: ../../control-flow/parallel-gateway.rst:60
+#: ../../control-flow/parallel-gateway.rst:50
+#: ../../control-flow/parallel-gateway.rst:58
+#: ../../control-flow/parallel-gateway.rst:50
+#: ../../control-flow/parallel-gateway.rst:58
 msgid "Default forking"
-msgstr ""
+msgstr "Standardverhalten beim Teilen"
 
-#: ../../control-flow/parallel-gateway.rst:54
-#: ../../control-flow/parallel-gateway.rst:54
+#: ../../control-flow/parallel-gateway.rst:52
+#: ../../control-flow/parallel-gateway.rst:52
 msgid ""
 "By default, multiple outgoing transitions out of an action like a user task "
 "will be interpreted as parallel. Meaning that if you have multiple "
 "transitions out of a user task, all destination actions of those transitions"
 " will be performed concurrently. Let’s look at a simple example."
 msgstr ""
+"Wenn Sie eine Aktivität erstellen, der mehrere Sequenzflüsse folgen, so wird"
+" diese standardmäßig wie ein paralleles Gateway behandelt. Schauen wir uns "
+"dazu ein einfaches Beispiel an."
 
-#: ../../control-flow/parallel-gateway.rst:62
-#: ../../control-flow/parallel-gateway.rst:62
+#: ../../control-flow/parallel-gateway.rst:60
+#: ../../control-flow/parallel-gateway.rst:60
 msgid ""
 "After `Send goods` completes, both tasks `Receive payment` and `Send goods` "
 "will be created immediate."
 msgstr ""
+"Nachdem `Bestellung eingeben` abgeschlossen wurde, werden sowohl `Bezahlung "
+"erhalten` und `Waren versenden` erstellt."
 
-#: ../../control-flow/parallel-gateway.rst:64
-#: ../../control-flow/parallel-gateway.rst:64
+#: ../../control-flow/parallel-gateway.rst:62
+#: ../../control-flow/parallel-gateway.rst:62
 msgid "You can combine default forking with a parallel gateway for joining."
 msgstr ""
+"Sie können dieses Standardverhalten mit einem parallelen Gateway zum "
+"Zusammenführen kombinieren."
 
-#: ../../control-flow/parallel-gateway.rst:67
-#: ../../control-flow/parallel-gateway.rst:67
+#: ../../control-flow/parallel-gateway.rst:65
+#: ../../control-flow/parallel-gateway.rst:65
 msgid "Default merging"
-msgstr ""
+msgstr "Standardverhalten beim Zusammenführen"
 
-#: ../../control-flow/parallel-gateway.rst:69
-#: ../../control-flow/parallel-gateway.rst:69
+#: ../../control-flow/parallel-gateway.rst:67
+#: ../../control-flow/parallel-gateway.rst:67
 msgid ""
 "When multiple transitions lead to a user task, the user task will be started"
 " for each execution flow that arrives there. This means that there is no "
 "implicit joining for parallel flows."
 msgstr ""
+"Falls mehrere Sequenzflüsse zu einer Aufgaben führen, wird diese Aufgabe für"
+" jeden Sequenzfluss gestartet. Das bedeutet, dass kein implizites "
+"Zusammenführen der Sequenzflüsse geschieht. "
 
-#: ../../control-flow/parallel-gateway.rst:74
-#: ../../control-flow/parallel-gateway.rst:74
+#: ../../control-flow/parallel-gateway.rst:72
+#: ../../control-flow/parallel-gateway.rst:72
 msgid "Parallel gateway issues"
-msgstr ""
+msgstr "Fallstricke bei parallelen Gateways"
 
-#: ../../control-flow/parallel-gateway.rst:76
-#: ../../control-flow/parallel-gateway.rst:76
+#: ../../control-flow/parallel-gateway.rst:74
+#: ../../control-flow/parallel-gateway.rst:74
 msgid ""
 "You will end up with problems if you loop back over parallel gateways. To "
 "avoid situations:"
 msgstr ""
+"Vermeiden Sie Konstrukte in denen Sie einen Sequenzfluss über ein paralleles"
+" Gateway hinweg zeichnen. Beispiele hierfür sind:"
 
-#: ../../control-flow/parallel-gateway.rst:81
-#: ../../control-flow/parallel-gateway.rst:87
-#: ../../control-flow/parallel-gateway.rst:81
-#: ../../control-flow/parallel-gateway.rst:87
+#: ../../control-flow/parallel-gateway.rst:79
+#: ../../control-flow/parallel-gateway.rst:85
+#: ../../control-flow/parallel-gateway.rst:79
+#: ../../control-flow/parallel-gateway.rst:85
 msgid "Undesirable loopback"
-msgstr ""
+msgstr "Unerwünschte Schleife"
 
-#: ../../control-flow/parallel-gateway.rst:83
-#: ../../control-flow/parallel-gateway.rst:83
+#: ../../control-flow/parallel-gateway.rst:81
+#: ../../control-flow/parallel-gateway.rst:81
 msgid "and this:"
-msgstr ""
+msgstr "und:"
 
-#: ../../control-flow/parallel-gateway.rst:89
-#: ../../control-flow/parallel-gateway.rst:89
+#: ../../control-flow/parallel-gateway.rst:87
+#: ../../control-flow/parallel-gateway.rst:87
 msgid ""
 "To avoid these issues, think of all actions between forking and joining as a"
 " self-contained part of the process, such that no transitions should cross "
 "that scope."
 msgstr ""
+"Um solche Situationen zu verhindern stellen Sie sich alle Aktionen zwischen "
+"einem teilenden und zusammenführenden Gateway als abgeschlossenes System "
+"vor. Keine Sequenzflüsse sollten dieses System verlassen oder in dieses "
+"System hineinführen."
 
 #: ../../control-flow.rst:22
 msgid "Start event"
-msgstr ""
+msgstr "Start Ereignis"
 
 #: ../../control-flow.rst:28
 msgid ""
@@ -383,39 +401,167 @@ msgid ""
 " have a direct connection to triggers. You can usually leave out start "
 "events if you want to create more consice diagrams."
 msgstr ""
+"Ein Start Ereignis markiert den Start eines Prozesses. In Effektif werden "
+"alle Aktionen, die keine eingehenden Transitionen haben als Start Ereignisse"
+" behandelt. Da Start Ereignisse in Effektif nicht mit den Prozessauslösern "
+"zusammenhängen, können Sie diese in der Regel weg lassen."
 
 #: ../../control-flow.rst:34 ../../control-flow.rst:45
 msgid "End event"
-msgstr ""
+msgstr "Ende Ereignis"
 
 #: ../../control-flow.rst:40
 msgid ""
 "Like start events, end events are also optional. End events mark the end of "
 "an execution flow:"
 msgstr ""
+"Ähnlich den Start Ereignissen sind auch die Ende Ereignisse optional. Ende "
+"Ereignisse markieren jeweils das Ende der Prozessausführung. "
 
 #: ../../control-flow.rst:47
 msgid "This is equivalent to:"
-msgstr ""
+msgstr "Der oben abgebildete Prozess ist äquivalent zu dem folgenden Prozess."
 
 #: ../../control-flow.rst:51
 msgid "No end event"
-msgstr ""
+msgstr "Kein Ende Ereignis"
 
 #: ../../control-flow/exclusive-gateway.rst:6
 #: ../../control-flow/exclusive-gateway.rst:6
 msgid "An exclusive gateway in the process editor"
-msgstr ""
+msgstr "Exklusives Gateway im Prozesseditor"
 
 #: ../../control-flow/parallel-gateway.rst:6
 #: ../../control-flow/parallel-gateway.rst:6
 msgid "A parallel gateway in the process editor"
-msgstr ""
+msgstr "Ein paralleles Gateway im Prozesseditor"
 
 #: ../../control-flow.rst:26
 msgid "A start event in the process editor"
-msgstr ""
+msgstr "Ein Start Ereignis im Prozesseditor"
 
 #: ../../control-flow.rst:38
 msgid "An end event in the process editor"
+msgstr "Ein Ende Ereignis im Prozesseditor"
+
+#: ../../control-flow/exclusive-gateway.rst:8
+#: ../../control-flow/exclusive-gateway.rst:8
+msgid ""
+"Use an exclusive gateway to make a choice between multiple execution paths. "
+"The exclusive gateway selects one of the outgoing transitions, and only "
+"continues execution on that transition. There are two ways to configure an "
+"exclusive gateway: with a *manual decision* or an *automatic decision*."
 msgstr ""
+"Mit einem exklusiven Gateway können Sie eine Entscheidung innerhalb eines "
+"Prozesses ausdrücken. Diese Art von Gateway wird maximal eine der "
+"ausgehenden Transitionen verfolgen. In Effektif können Sie ein exklusives "
+"Gateway als `manuelle Entscheidung` oder `automatische Entscheidung` "
+"konfigurieren."
+
+#: ../../control-flow/exclusive-gateway.rst:15
+#: ../../control-flow/exclusive-gateway.rst:15
+msgid "Manual decision"
+msgstr "Manuelle Entscheidung"
+
+#: ../../control-flow/exclusive-gateway.rst:17
+#: ../../control-flow/exclusive-gateway.rst:17
+msgid ""
+"Use a manual decision for an exclusive gateway when a person must make a "
+"decision. The previous action must be a user task, which will include making"
+" the decision. The user interface presents the decision to the user as "
+"buttons on the user task form."
+msgstr ""
+"Wenn eine Person die Entscheidung treffen soll, dann verwenden Sie die "
+"`manuelle Entscheidung`. In diesem Fall muss direkt vor dem exklusiven "
+"Gateway ein User Task vorhanden sein. Im Nutzerinterface wird die "
+"Entscheidung in Form von mehreren Knöpfen für den Nutzer dargestellt. "
+
+#: ../../control-flow/exclusive-gateway.rst:31
+#: ../../control-flow/exclusive-gateway.rst:31
+msgid ""
+"Select the exclusive gateway. Manual decision is the default type. After "
+"creating the elements and connecting them, as above, the exclusive gateway "
+"will be configured:"
+msgstr ""
+"Wenn Sie ein exklusives Gateway erstellen wird dieses Standardmäßig als "
+"`manuelle Entscheidung` erstellt. Nutzen Sie den Konfigurationsdialog um "
+"weitere Einstellungen vorzunehmen."
+
+#: ../../control-flow/exclusive-gateway.rst:38
+#: ../../control-flow/exclusive-gateway.rst:38
+msgid "Default manual decision configuration"
+msgstr "Standardkonfiguration als `manuelle Entscheidung`"
+
+#: ../../control-flow/exclusive-gateway.rst:65
+#: ../../control-flow/exclusive-gateway.rst:65
+msgid "Manual decision variable"
+msgstr "Variable für die manuelle Entscheidung"
+
+#: ../../control-flow/exclusive-gateway.rst:67
+#: ../../control-flow/exclusive-gateway.rst:67
+msgid ""
+"Adding a manual decision to a process also creates a :ref:`workflow variable"
+" <variables>`. You can use this to re-use the result of a decision later in "
+"the process, either to display the entered value on another form, or to use "
+"the value in an automatic decision’s condition."
+msgstr ""
+"Wenn Sie eine manuelle Entscheidung verwenden wird hierdurch auch "
+"automatisch eine :ref:`Variable <variables>` erstellt, die den Ausgang der "
+"Entscheidung festhält. Hierdurch können Sie das Ergebnis der Entscheidung "
+"später im Prozess nutzen. "
+
+#: ../../control-flow/exclusive-gateway.rst:72
+#: ../../control-flow/exclusive-gateway.rst:72
+msgid ""
+"During workflow execution, the variable’s value is set to the selected "
+"decision - the text on the decision button. In this example, the decision "
+"variable value is set to ‘Approve’ or ‘Reject’."
+msgstr ""
+"Während der Ausführung wird der Wert der Variable auf den Text des "
+"angeklickten Knopfes gesetzt. In unserem Beispiel ist das entweder "
+"`Annehmen` oder `Ablehnen`."
+
+#: ../../control-flow/exclusive-gateway.rst:78
+#: ../../control-flow/exclusive-gateway.rst:78
+msgid "Decision variable values - ‘Approve’ or ‘Reject’"
+msgstr "Werte für die Entscheidungsvariable - `Annehmen` und `Ablehnen`"
+
+#: ../../control-flow/exclusive-gateway.rst:80
+#: ../../control-flow/exclusive-gateway.rst:80
+msgid ""
+"The variable name is ‘Decision’, by default, or the name of the gateway if "
+"it has one. You can change the variable name on the process editor’s "
+"`Details` tab, in the `Field overview`."
+msgstr ""
+"Standardmäßig wird die Variable mit `Entscheidung` benannt. Sie können den "
+"Namen ändern, indem Sie das Gateway umbenennen. Alternativ können Sie den "
+"Namen auch im Reiter `Details` unter `Feldübersicht` ändern."
+
+#: ../../control-flow.rst:11
+msgid ""
+"A transition is an arrow from a source element to a destination element in "
+"the :ref:`Process builder <process-builder>`. The transition specifies that "
+"the destination element is only ‘executed’ after the source element is "
+"completed. A transition is called a ‘sequence flow’ in BPMN."
+msgstr ""
+"Eine Transition wird im :ref:`Prozesseditor <process-builder>` als ein Pfeil"
+" abgebildet, der zwei Aktivitäten verbindet. Dies sagt aus, dass die Aktion,"
+" die Ziel der Transition ist nur dann ausgeführt wird, wenn die Aktion an "
+"der die Transition startet abgeschlossen wurde. In BPMN wird eine Transition"
+" als `Sequenzfluss` bezeichnet. "
+
+#: ../../control-flow/exclusive-gateway.rst:40
+#: ../../control-flow/exclusive-gateway.rst:40
+msgid ""
+"In order to use the decision you need to name the buttons which will "
+"represent the deicion. For each button, the label on the right indicates the"
+" next action in the process, which will be performed when the button is "
+"clicked. In this example, when the user clicks the decision button `Print "
+"contract`, the `Print contract` task is executed and the `Update contract` "
+"task will *not* be executed."
+msgstr ""
+"Um die Entscheidung zu verwenden, müssen Sie die Knöpfe, welche die "
+"verschiednen Optionen darstellen benennen. Für jeden Knopf wird rechts "
+"angezeigt welche Aktivität in diesem Fall ausgeführt werden würde. In "
+"unserem Beispiel wäre dies `Vertrag drucken`, wenn der Nutzer auf `Annehmen`"
+" klickt und `Vertrag updaten` wenn der Nutzer auf `Ablehnen` klickt. "
