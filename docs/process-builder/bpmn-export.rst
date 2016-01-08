@@ -5,7 +5,7 @@ BPMN export
 
 You can export an Effektif process model as a BPMN 2.0 XML file.
 This is useful if you want to open the model in another tool that supports BPMN,
-or to make a backup.
+or to make a backup that you can load using the :ref:`BPMN import <bpmn-import>` option.
 
 To export a process model, first open it in the Effektif process editor.
 Select the menu next to the `Publish changes` button,
