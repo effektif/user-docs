@@ -28,6 +28,8 @@ use the process builder’s :ref:`Triggers <triggers>` page to
 select `When a form is submitted`.
 
 
+.. _user-task-form:
+
 User task forms
 ---------------
 

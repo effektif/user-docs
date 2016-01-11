@@ -149,22 +149,22 @@ msgid ""
 "*Cases without a process*, then click *Start new case*."
 msgstr ""
 
-#: ../../cases.rst:152
+#: ../../cases.rst:170
 msgid "Closing a case manually"
 msgstr ""
 
-#: ../../cases.rst:154
+#: ../../cases.rst:172
 msgid ""
 "The normal way to close a case is to complete all of its tasks. However, "
 "sometimes you want to abandon a case and stop working on a it. To do this "
 "you can manually close a case."
 msgstr ""
 
-#: ../../cases.rst:160
+#: ../../cases.rst:178
 msgid "Closing a case"
 msgstr ""
 
-#: ../../cases.rst:162
+#: ../../cases.rst:180
 msgid ""
 "To close a case, select the ellipsis menu at the top-right of the case view,"
 " select *Close this case*, and click again to confirm."
@@ -232,6 +232,64 @@ msgid ""
 "You may find Markdown most useful for adding links to external information "
 "that relates to the case."
 msgstr ""
+
+#: ../../cases.rst:151
+msgid "Attaching documents to a case"
+msgstr ""
+
+#: ../../cases.rst:161
+msgid "A document attached to a case"
+msgstr ""
+
+#: ../../cases.rst:163
+msgid ""
+"The case’s event stream shows the document, with its file name and size. "
+"Click the icon on the right to open the document."
+msgstr ""
+
+#: ../../cases.rst:157
+msgid ""
+"To attach a document to a case, select the the `Upload a document` option "
+"next to where you add comments."
+msgstr ""
+
+#: ../../cases.rst:153
+msgid ""
+"As well as commenting on a case, to share information with the case’s "
+"participants, you can attach documents. For example, cases in a job vacancy "
+"process might require candidate CVs. Anyone can access the case can download"
+" a case’s documents, which makes them more useful than email attachments."
+msgstr ""
+
+#: ../../cases.rst:166
+msgid ""
+"If cases regularly require the same document as part of the process, you can"
+" make this clearer to people who work on cases by adding a file upload form "
+"field to a :ref:`user task form <user-task-form>`."
+msgstr ""
+
+#~ msgid ""
+#~ "Note that if cases regularly require the same document as part of the "
+#~ "process, you can make this clearer by adding a file upload form field to a "
+#~ ":ref:`user task form <user-task-form>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "As well as commenting on a case, to share information with the case’s "
+#~ "participants, you can attach documents. For example, you can attach "
+#~ "candidate CV’s to a case about a job vacancy. Anyone can access the case can"
+#~ " download a case’s documents, which makes them more useful than email "
+#~ "attachments."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "As well as commenting on a case, to share information with the case’s "
+#~ "participants, you can attach documents. For example, you can attach "
+#~ "candidate CV’s to a case about a job vacancy. Anyone can access the case can"
+#~ " download a case’s documents, which makes them more useful than email "
+#~ "attachments. To attach a document to a case, select the the `Upload a "
+#~ "document` option next to where you add comments."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Hover over the relative time to see the full date and time when the comment "
