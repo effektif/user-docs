@@ -52,7 +52,7 @@ You’ll have to ask the administrator of the mailing list to add the process tr
 Once you have done this,
 email sent to the mailing list will also be forwarded to the process trigger address,
 starting the process in Effektif.
-You will then see the email in the activity stream:
+You will then see the email in the event stream:
 
 .. figure:: /_static/images/stream/mail-trigger.png
 
