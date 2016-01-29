@@ -57,4 +57,4 @@ select the role variable to add it to the form.
 Alternatively, you can first define the *Support engineer* role
 by adding a field with type *User* to the *Initial investigation* task’s form,
 and then select the *Support engineer* role
-on another user task’s *Assignment* configuration.
+on another user task’s *General* configuration.
