@@ -103,14 +103,6 @@ msgstr ""
 msgid "The process editor’s form builder for a new empty form"
 msgstr ""
 
-#: ../../forms.rst:70
-msgid ""
-"The `Description` section in the form builder is a text area that you can "
-"use to provide initial instructions to people who complete the form. Use can"
-" use Markdown to format the description, which makes it convenient to link "
-"to additional information, for example."
-msgstr ""
-
 #: ../../forms.rst:75
 msgid ""
 "The `Add a field` second contains a field types palette. Click one of the "
@@ -242,6 +234,30 @@ msgid ""
 "shown differently on forms. Each value you enter is added to the list. Use "
 "the × icon to remove a value."
 msgstr ""
+
+#: ../../forms.rst:70
+msgid ""
+"The `Description` section in the form builder is a text area that you can "
+"use to provide initial instructions to people who complete the form. You can"
+" use `Markdown <http://daringfireball.net/projects/markdown/basics>`_ to "
+"format the description, which makes it convenient to link to additional "
+"information, for example."
+msgstr ""
+
+#~ msgid ""
+#~ "The `Description` section in the form builder is a text area that you can "
+#~ "use to provide initial instructions to people who complete the form. Use can"
+#~ " use `Markdown <http://daringfireball.net/projects/markdown/basics>`_ to "
+#~ "format the description, which makes it convenient to link to additional "
+#~ "information, for example."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The `Description` section in the form builder is a text area that you can "
+#~ "use to provide initial instructions to people who complete the form. Use can"
+#~ " use Markdown to format the description, which makes it convenient to link "
+#~ "to additional information, for example."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "When you enable the `Allow entering multiple values` option, the field is "

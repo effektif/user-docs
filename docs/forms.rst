@@ -69,7 +69,7 @@ you use the form builder.
 
 The `Description` section in the form builder is a text area
 that you can use to provide initial instructions to people who complete the form.
-Use can use Markdown to format the description,
+You can use `Markdown <http://daringfireball.net/projects/markdown/basics>`_ to format the description,
 which makes it convenient to link to additional information, for example.
 
 The `Add a field` second contains a field types palette.

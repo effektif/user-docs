@@ -23,12 +23,6 @@ msgstr ""
 msgid "Send email"
 msgstr ""
 
-#: ../../action-types/send-email.rst:8 ../../action-types/send-email.rst:8
-msgid ""
-"The send email action sends an email to the specified user. In the "
-"configuration you can specify"
-msgstr ""
-
 #: ../../action-types/send-email.rst:13 ../../action-types/send-email.rst:13
 msgid "To:"
 msgstr ""
@@ -39,32 +33,16 @@ msgid ""
 "select a variable, a variable field or a user in the organization."
 msgstr ""
 
-#: ../../action-types/send-email.rst:21 ../../action-types/send-email.rst:21
+#: ../../action-types/send-email.rst:20 ../../action-types/send-email.rst:20
 msgid "Subject:"
 msgstr ""
 
-#: ../../action-types/send-email.rst:16 ../../action-types/send-email.rst:16
-msgid ""
-"The subject of the email. To use process data in the subject, start by "
-"typing a `#`. If the list of variable fields is too long, you can just keep "
-"typing after the `#` to narrow the list. In combination, use the up and down"
-" arrows to select the right field. Hit enter to select the field. To remove "
-"variable fields from the subject, just delete it like it's normal text."
-msgstr ""
-
-#: ../../action-types/send-email.rst:30 ../../action-types/send-email.rst:29
+#: ../../action-types/send-email.rst:28 ../../action-types/send-email.rst:27
 msgid "Body text:"
 msgstr ""
 
-#: ../../action-types/send-email.rst:26 ../../action-types/send-email.rst:26
+#: ../../action-types/send-email.rst:24 ../../action-types/send-email.rst:24
 msgid "Attachments:"
-msgstr ""
-
-#: ../../action-types/send-email.rst:29 ../../action-types/send-email.rst:29
-msgid ""
-"Just like in the subject, you can combine template text with variable fields"
-" to Start by typing a `#`. See *Subject* above in this list for more details"
-" instructions on using the `#`."
 msgstr ""
 
 #: ../../action-types/google.rst:25 ../../action-types/google.rst:25
@@ -508,13 +486,6 @@ msgstr ""
 msgid "Configuring user task assignment in the process editor"
 msgstr ""
 
-#: ../../action-types/send-email.rst:24 ../../action-types/send-email.rst:24
-msgid ""
-"To add attachments, click the attachments field. If there are files in the "
-"workflow variables, they will be shown. Select one of the file variable "
-"fields to add these as attachments to the mail."
-msgstr ""
-
 #: ../../action-types/user-task.rst:49 ../../action-types/user-task.rst:49
 msgid ""
 "Use the form builder to create a user task form for entering and updating "
@@ -623,6 +594,68 @@ msgid ""
 "Use task name templates to avoid a :ref:`tasks` view that fills up with "
 "identically-named tasks."
 msgstr ""
+
+#: ../../action-types/send-email.rst:8 ../../action-types/send-email.rst:8
+msgid ""
+"The send email action sends an email to the specified user. In the "
+"configuration you can specify the following."
+msgstr ""
+
+#: ../../action-types/send-email.rst:16 ../../action-types/send-email.rst:16
+msgid ""
+"The email subject line. To use :ref:`variables <variables>` in the subject, "
+"type a `#` and select a field from the list. If the list is too long, you "
+"can just keep typing after the `#` to narrow-down the list. You can use the "
+"arrow keys to move the section, and *Enter* to select a field. To remove a "
+"variable, just delete it as if it’s normal text."
+msgstr ""
+
+#: ../../action-types/send-email.rst:23 ../../action-types/send-email.rst:23
+msgid ""
+"To add attachments, click the *Attachments* field and select a file field "
+"from the list. The list includes trigger email attachments and file upload "
+"form fields."
+msgstr ""
+
+#: ../../action-types/send-email.rst:27 ../../action-types/send-email.rst:27
+msgid ""
+"You can use variables in the main email body by typing a `#`, just like in "
+"the *Subject*. You can use `Markdown "
+"<http://daringfireball.net/projects/markdown/basics>`_ to format the email "
+"body by formatting text or including hyperlinks, headings or lists."
+msgstr ""
+
+#~ msgid ""
+#~ "You can use variables in the main email body by typing a `#`, just like in "
+#~ "the *Subject*. You can use `Markdown "
+#~ "<http://daringfireball.net/projects/markdown/basics>`_ to format the email "
+#~ "body. You may find this useful for adding hyperlinks, headings and lists."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The send email action sends an email to the specified user. In the "
+#~ "configuration you can specify"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The subject of the email. To use process data in the subject, start by "
+#~ "typing a `#`. If the list of variable fields is too long, you can just keep "
+#~ "typing after the `#` to narrow the list. In combination, use the up and down"
+#~ " arrows to select the right field. Hit enter to select the field. To remove "
+#~ "variable fields from the subject, just delete it like it's normal text."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Just like in the subject, you can combine template text with variable fields"
+#~ " to Start by typing a `#`. See *Subject* above in this list for more details"
+#~ " instructions on using the `#`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To add attachments, click the attachments field. If there are files in the "
+#~ "workflow variables, they will be shown. Select one of the file variable "
+#~ "fields to add these as attachments to the mail."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "All actions are displayed as lines in the 'Simple action list' and as "
