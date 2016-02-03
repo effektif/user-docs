@@ -30,6 +30,20 @@ Administrators can also delete users,
 using the delete button next to the user name.
 
 
+Invitations
+-----------
+
+The invitations list shows who you have invited to use Effektif.
+
+.. figure:: /_static/images/settings/invitations.png
+
+To invite someone to use Effektif,
+select the license they will use,
+enter their email address in the text field and click the *Invite* button.
+They will receive an email with a link to the registration page,
+where they can create an Effektif user that will be a member of the organization.
+
+
 Groups
 ------
 
@@ -47,17 +61,3 @@ enter a group name and click the *Create* button.
 Click a group’s name to expand its list of members,
 so you can edit the name
 and add or remove members,
-
-
-Invitations
------------
-
-The invitations list shows who you have invited to use Effektif.
-
-.. figure:: /_static/images/settings/invitations.png
-
-To invite someone to use Effektif,
-select the license they will use,
-enter their email address in the text field and click the *Invite* button.
-They will receive an email with a link to the registration page,
-where they can create an Effektif user that will be a member of the organization.
