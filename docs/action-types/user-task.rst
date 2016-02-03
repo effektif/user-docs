@@ -30,6 +30,19 @@ You an also specify a role for the task’s assignment,
 like a BPMN swim lane,
 so that related tasks are automatically assigned to the same person.
 
+Task name template
+^^^^^^^^^^^^^^^^^^
+
+You can use task name templates to create dynamic task names from :ref:`variables <variables>`.
+Enter the task name template on the user task’s configuration panel’s *General* tab.
+In the text field, type a `#` to select a variable.
+
+.. figure:: /_static/images/action-types/user-task-name-template.png
+
+   Using a task name template to configure dynamic task names
+
+Use task name templates to avoid a :ref:`tasks` view that fills up with identically-named tasks.
+
 Form
 ^^^^
 
