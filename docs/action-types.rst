@@ -3,9 +3,8 @@
 Action Types
 ============
 
-All actions are displayed as lines in the 'Simple action list' and as rounded rectangles in the 'Advanced flows' view.
-
-Actions typically have a configuration panel that opens up when you select the action.
+Actions are displayed as rounded rectangles in the :ref:`process-builder`.
+Actions typically have a configuration panel that opens when you select the action.
 
 .. _user-task:
 

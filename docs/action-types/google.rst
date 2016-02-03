@@ -1,11 +1,11 @@
 .. _google-drive:
 
-Google Drive Upload file
-------------------------
+Google Drive - Upload file
+--------------------------
 
 .. figure:: /_static/images/action-types/google-drive/upload-file-task.png
 
-   A Google Drive upload file task in the process editor
+   A Google Drive *Upload file* task in the process editor
 
 The Google Drive `Upload file` action sends one or more files to an account of your choice.
 
@@ -69,12 +69,12 @@ Use a forward slash (``/``) to separate nested subfolder levels.
 In section `Files to upload`, you can select the variable field containing one or more files to be uploaded. If there was no file variable, a variable called 'File' is created automatically. If there was already a file or list of files in the variables, it is preselected.
 
 
-Google Drive Print File
------------------------
+Google Drive - Print file
+-------------------------
 
 .. figure:: /_static/images/action-types/google-drive/print-file-task.png
 
-   A Google Drive print file task in the process editor
+   A Google Drive *Print file* task in the process editor
 
 The Google Drive `Print File` action
 uses `Google Cloud Print <http://www.google.com/cloudprint/learn/>`_
@@ -104,3 +104,40 @@ the printer settings, and the selected file to print.
 
 In the section `Files to upload` you can select the file variable
 that holds the file you want to print.
+
+
+.. _add-row-to-sheet:
+
+Google Drive - Add row to sheet
+-------------------------------
+
+.. figure:: /_static/images/action-types/google-drive/add-row-task.png
+
+   A Google Drive *Add row to sheet* task in the process editor
+
+The Google Drive *Add row to sheet* action adds a row to a Google Sheets spreadsheet.
+You can use this to save the values of process variables at process milestones, and build a custom overview of cases.
+
+Configuration
+^^^^^^^^^^^^^
+
+After creating a Google Drive *Add row to sheet* action,
+the configuration panel shows a button to start configuring the account.
+This configuration is the same as in the `Upload file configuration <upload-file-configuration>`_ (above).
+
+When you have authenticated with a Google account and granted permission,
+you are ready to configure the *Add row to sheet* action.
+
+Add row to sheet action
+^^^^^^^^^^^^^^^^^^^^^^^
+
+Once you have configured your Google Drive account,
+the *Add row to sheet* action configuration panel displays the account,
+the spreadsheet, the worksheet within the spreadsheet, and the worksheet columns.
+
+.. figure:: /_static/images/action-types/google-drive/add-row-configuration.png
+
+   Google Drive *Add row to sheet* authenticated configuration
+
+Each column name, such as *Customer name* in this example, comes from a column heading in the spreadsheet.
+For each column, select one of the :ref:`variables <variables>` from the list.
