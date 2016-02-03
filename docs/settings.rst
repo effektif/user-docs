@@ -61,3 +61,15 @@ enter a group name and click the *Create* button.
 Click a group’s name to expand its list of members,
 so you can edit the name
 and add or remove members,
+
+
+Preferences
+-----------
+
+The *Preferences* includes additional options that apply to the whole organization.
+
+.. figure:: /_static/images/settings/preferences.png
+
+*Time zone* affects how times are displayed.
+
+*Email signature* replaces the default *Effektif team* signature at the bottom of :ref:`notification emails <notifications>`.
