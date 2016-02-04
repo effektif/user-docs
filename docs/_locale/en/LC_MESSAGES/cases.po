@@ -149,26 +149,127 @@ msgid ""
 "*Cases without a process*, then click *Start new case*."
 msgstr ""
 
-#: ../../cases.rst:101
+#: ../../cases.rst:152
 msgid "Closing a case manually"
 msgstr ""
 
-#: ../../cases.rst:103
+#: ../../cases.rst:154
 msgid ""
 "The normal way to close a case is to complete all of its tasks. However, "
 "sometimes you want to abandon a case and stop working on a it. To do this "
 "you can manually close a case."
 msgstr ""
 
-#: ../../cases.rst:109
+#: ../../cases.rst:160
 msgid "Closing a case"
 msgstr ""
 
-#: ../../cases.rst:111
+#: ../../cases.rst:162
 msgid ""
 "To close a case, select the ellipsis menu at the top-right of the case view,"
 " select *Close this case*, and click again to confirm."
 msgstr ""
+
+#: ../../cases.rst:101
+msgid "Commenting on a case"
+msgstr ""
+
+#: ../../cases.rst:103
+msgid ""
+"Working on a case often includes collaboration with other people. You can "
+"use the case view to discuss the case with other people, which results in a "
+"discussion in the event stream."
+msgstr ""
+
+#: ../../cases.rst:109
+msgid "Comments on a case - discussion with context"
+msgstr ""
+
+#: ../../cases.rst:119
+msgid ""
+"To add a comment, type in the text box above the event stream. Everyone who "
+"has access to the case can follow the discussion. Keeping the discussion "
+"‘inside’ the case preserves the context, which makes it easier to follow "
+"than an email conversation."
+msgstr ""
+
+#: ../../cases.rst:124
+msgid ""
+"Sometimes, you want to direct a comment to a specific person. While entering"
+" a comment, you can ‘mention’ someone by typing a ``@`` and choosing their "
+"name from the list. When you mention someone in a comment, Effektif sends "
+"them an email notification to bring them into the discussion."
+msgstr ""
+
+#: ../../cases.rst:132
+msgid "Mentioning someone in a comment"
+msgstr ""
+
+#: ../../cases.rst:141
+msgid "Using Markdown formatting in a case comment"
+msgstr ""
+
+#: ../../cases.rst:147
+msgid "A hyperlink in a case comment"
+msgstr ""
+
+#: ../../cases.rst:111
+msgid "Hover over the user avatar to see the user’s full name:"
+msgstr ""
+
+#: ../../cases.rst:134
+msgid ""
+"You can also use `Markdown`_ formatting in comments, for things like text "
+"styles, headings and lists."
+msgstr ""
+
+#: ../../cases.rst:115
+msgid "Hover over the relative time to see the comment’s full time stamp:"
+msgstr ""
+
+#: ../../cases.rst:143
+msgid ""
+"You may find Markdown most useful for adding links to external information "
+"that relates to the case."
+msgstr ""
+
+#~ msgid ""
+#~ "Hover over the relative time to see the full date and time when the comment "
+#~ "was posted:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This is useful for adding links to external information that’s relevant to "
+#~ "the case."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This is especially useful for adding hyperlinks, for linking to external "
+#~ "information that’s relevant to the case."
+#~ msgstr ""
+
+#~ msgid "You can also use `Markdown`_ formatting in comments."
+#~ msgstr ""
+
+#~ msgid "This is especially useful for adding hyperlinks."
+#~ msgstr ""
+
+#~ msgid "Time"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can also use `Markdown "
+#~ "<http://daringfireball.net/projects/markdown/basics>` formatting in "
+#~ "comments."
+#~ msgstr ""
+
+#~ msgid "Comments on a case"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Keeping the discussion ‘inside’ the case preserves the context, which makes "
+#~ "it easier to follow than an email conversation."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "A case is a essentially a small collaboration space for a particular goal. "
