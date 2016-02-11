@@ -17,44 +17,19 @@ msgstr ""
 msgid "Action Types"
 msgstr "Aktions-Typen"
 
-#: ../../action-types.rst:6
-msgid ""
-"All actions are displayed as lines in the 'Simple action list' and as "
-"rounded rectangles in the 'Advanced flows' view."
-msgstr ""
-"Aktionen werden in Effektif als Zeilen in der `Einfachen Aktionsliste` und "
-"als Rechtecke mit abgerundeten Ecken im `Prozesseditor` dargestellt."
-
-#: ../../action-types.rst:8
-msgid ""
-"Actions typically have a configuration panel that opens up when you select "
-"the action."
-msgstr ""
-"Die meisten Aktionen können nach Ihren Wünschen konfiguriert werden. Die "
-"Konfigurationsmöglichkeiten sehen Sie jeweils, wenn Sie eine Aktion "
-"auswählen."
-
-#: ../../action-types.rst:13
+#: ../../action-types/user-task.rst:4 ../../action-types/user-task.rst:4
 msgid "User task"
 msgstr "User Task"
 
-#: ../../action-types.rst:81
+#: ../../action-types/send-email.rst:2 ../../action-types/send-email.rst:2
 msgid "Send email"
 msgstr "Email senden"
 
-#: ../../action-types.rst:87
-msgid ""
-"The send email action sends an email to the specified user. In the "
-"configuration you can specify"
-msgstr ""
-"Mit der Aktionen `Email senden` können Sie eine Email an eine Reihe von "
-"Nutzern senden. Die Konfiguration umfasst des Weiteren:"
-
-#: ../../action-types.rst:92
+#: ../../action-types/send-email.rst:13 ../../action-types/send-email.rst:13
 msgid "To:"
 msgstr "Empfänger:"
 
-#: ../../action-types.rst:91
+#: ../../action-types/send-email.rst:12 ../../action-types/send-email.rst:12
 msgid ""
 "The people to which the email is sent. You can type a plain email address, "
 "select a variable, a variable field or a user in the organization."
@@ -63,42 +38,17 @@ msgstr ""
 "Effektif Nutzer auswählen, Rollen und Nutzervariablen des Prozesses nutzen "
 "oder einfach eine reguläre Emailadresse eintragen."
 
-#: ../../action-types.rst:100
+#: ../../action-types/send-email.rst:20 ../../action-types/send-email.rst:20
 msgid "Subject:"
 msgstr "Betreff:"
 
-#: ../../action-types.rst:95
-msgid ""
-"The subject of the email. To use process data in the subject, start by "
-"typing a `#`. If the list of variable fields is too long, you can just keep "
-"typing after the `#` to narrow the list. In combination, use the up and down"
-" arrows to select the right field. Hit enter to select the field. To remove "
-"variable fields from the subject, just delete it like it's normal text."
-msgstr ""
-"Das ist der Betreff der Email. Im Betreff können Sie auch Daten aus dem "
-"Prozess verwenden. Tippen Sie dazu ein `#` um eine Liste von Variablen "
-"anzuzeigen. Ist diese Liste zu lang, können Sie sie weiter einschränken "
-"indem Sie einfach weiter den Namen der Variable tippen, die Sie einfügen "
-"möchten. Nutzen Sie auch die `Pfeil hoch` und `Pfeil runter` tasten, um "
-"einen Eintrag auszuwählen. Um eine Variable zu löschen, löschen Sie den "
-"Eintrag einfach als wäre er normaler Text."
-
-#: ../../action-types.rst:105
+#: ../../action-types/send-email.rst:24 ../../action-types/send-email.rst:24
 msgid "Attachments:"
 msgstr "Dateianhänge:"
 
-#: ../../action-types.rst:110
+#: ../../action-types/send-email.rst:28 ../../action-types/send-email.rst:27
 msgid "Body text:"
 msgstr "Inhalt:"
-
-#: ../../action-types.rst:108
-msgid ""
-"Just like in the subject, you can combine template text with variable fields"
-" to Start by typing a `#`. See *Subject* above in this list for more details"
-" instructions on using the `#`."
-msgstr ""
-"Auch hier können Sie wie im *Betreff* auf Daten aus Ihrem Prozess zugreifen."
-" Tippen Sie einfach `#` und wählen Sie die entsprechenden Variablen aus."
 
 #: ../../action-types/google.rst:25 ../../action-types/google.rst:25
 msgid ""
@@ -174,16 +124,6 @@ msgstr ""
 #: ../../action-types/javascript.rst:2 ../../action-types/javascript.rst:2
 msgid "JavaScript action"
 msgstr "JavaScript"
-
-#: ../../action-types/javascript.rst:4 ../../action-types/javascript.rst:4
-msgid ""
-"The JavaScript action allows developers to run a JavaScript to the process "
-"execution. After creating or selecting a JavaScript action, the "
-"configuration panel looks like this:"
-msgstr ""
-"Mit der JavaScript Aktion kann ein Entwickler ein selbst geschrieben Script "
-"ausführen, während der Prozess ausgeführt wird. Nachdem Sie solch eine "
-"Aktion angelegt haben, sehen Sie den folgenden Konfigurationsdialog:"
 
 #: ../../action-types/javascript.rst:9 ../../action-types/javascript.rst:9
 msgid "JavaScript configuration panel"
@@ -262,11 +202,11 @@ msgstr ""
 msgid "JavaScript JSON values"
 msgstr "JavaScript JSON-Werte"
 
-#: ../../action-types.rst:17
+#: ../../action-types/user-task.rst:8 ../../action-types/user-task.rst:8
 msgid "A user task in the process editor"
 msgstr "Ein User Task im Prozess-Editor"
 
-#: ../../action-types.rst:85
+#: ../../action-types/send-email.rst:6 ../../action-types/send-email.rst:6
 msgid "A send email task in the process editor"
 msgstr "Eine Email senden Aktion im Prozess-Editor"
 
@@ -338,13 +278,10 @@ msgstr ""
 " dann das ``startDate`` Feld in Effektif. Dieses Verhalten sehen Sie auch in"
 " der Spalte *Neu zugewiesener Wert* in der Test-Konsole."
 
-#: ../../action-types/google.rst:4 ../../action-types/google.rst:4
-msgid "Google Drive Upload file"
-msgstr "Google Drive Dateiupload"
-
 #: ../../action-types/google.rst:15 ../../action-types/google.rst:84
-#: ../../action-types/box.rst:12 ../../action-types/box.rst:12
-#: ../../action-types/google.rst:15 ../../action-types/google.rst:84
+#: ../../action-types/google.rst:122 ../../action-types/box.rst:12
+#: ../../action-types/box.rst:12 ../../action-types/google.rst:15
+#: ../../action-types/google.rst:84 ../../action-types/google.rst:122
 msgid "Configuration"
 msgstr "Konfiguration"
 
@@ -395,7 +332,7 @@ msgid ""
 "The `Box <http://www.box.com/>`_ `Upload file` action saves one or more "
 "files to a Box account that you select."
 msgstr ""
-"Die `Box <http://www.box.com>`_`Dateiupload` Aktion speichert eine oder "
+"Die `Box <http://www.box.com>`_ `Dateiupload` Aktion speichert eine oder "
 "mehrere Dateien in einem von Ihnen konfigurierten Box Account."
 
 #: ../../action-types/box.rst:14 ../../action-types/box.rst:14
@@ -474,21 +411,9 @@ msgstr ""
 "Neben `Hochzuladende Dateien` können Sie eine oder mehrere Dateien "
 "auswählen, die Sie hochladen möchten. "
 
-#: ../../action-types/google.rst:8 ../../action-types/google.rst:8
-msgid "A Google Drive upload file task in the process editor"
-msgstr "Eine Google Drive Datei-Upload Aktion im Prozesseditor"
-
 #: ../../action-types/google.rst:55 ../../action-types/google.rst:55
 msgid "Google Drive `Upload file` authenticated configuration"
 msgstr "Google Drive `Datei-Upload` Konfiguration"
-
-#: ../../action-types/google.rst:73 ../../action-types/google.rst:73
-msgid "Google Drive Print File"
-msgstr "Google Drive Datei drucken"
-
-#: ../../action-types/google.rst:77 ../../action-types/google.rst:77
-msgid "A Google Drive print file task in the process editor"
-msgstr "Eine Google Drive Drucken Aktion im Prozesseditor"
 
 #: ../../action-types/google.rst:79 ../../action-types/google.rst:79
 msgid ""
@@ -550,16 +475,6 @@ msgstr ""
 msgid "A box upload file task in the process editor"
 msgstr "Eine Box Datei-Upload Aktion im Prozesseditor"
 
-#: ../../action-types.rst:103
-msgid ""
-"To add attachments, click the attachments field. If there are files in the "
-"workflow variables, they will be shown. Select one of the file variable "
-"fields to add these as attachments to the mail."
-msgstr ""
-"Um eine Datei an die Email anzuhängen klicken Sie einfach in das Anhänge "
-"Feld. Die sich öffnende Liste zeigt alle zur Zeit verfügbaren Dateien im "
-"Prozess."
-
 #: ../../action-types/google.rst:61 ../../action-types/box.rst:43
 #: ../../action-types/box.rst:43 ../../action-types/google.rst:61
 msgid ""
@@ -579,7 +494,7 @@ msgstr ""
 "(``/``) voneinander trennen, legt Effektif sogar ganze Hierarchien von "
 "Ordnern für Sie an. "
 
-#: ../../action-types.rst:19
+#: ../../action-types/user-task.rst:10 ../../action-types/user-task.rst:10
 msgid ""
 "A user task means a user has to perform a task. In the :ref:`case <cases>`, "
 "a task will be created. In the configuration form, the following optional "
@@ -590,7 +505,7 @@ msgstr ""
 "hierzu eine Aufgabe angelegt. Für eine Aufgabe stehen die folgenden "
 "Konfigurationsmöglichkeiten zur Verfügung: "
 
-#: ../../action-types.rst:22
+#: ../../action-types/user-task.rst:13 ../../action-types/user-task.rst:13
 msgid ""
 "*Assignment* - a task can be assigned to a user or a :ref:`process role "
 "<roles>`."
@@ -598,7 +513,7 @@ msgstr ""
 "*Zuweisung* - Eine Aufgabe kann entweder direkt einem Nutzer zugewiesen "
 "werden oder einer :ref:`Rolle <roles>`."
 
-#: ../../action-types.rst:23
+#: ../../action-types/user-task.rst:14 ../../action-types/user-task.rst:14
 msgid ""
 "*Form* - a task can be given a form. To complete the task, the form has to "
 "be submitted."
@@ -606,26 +521,26 @@ msgstr ""
 "*Formular* - Eine Aufgabe kann ein Formular beinhalten, mit dem Daten "
 "aufgenommen werden können."
 
-#: ../../action-types.rst:24
+#: ../../action-types/user-task.rst:15 ../../action-types/user-task.rst:15
 msgid "*Reminders* - task deadline notifications."
 msgstr ""
 "*Erinnerungen* - Senden Sie Erinnerungen und legen Sie Fälligkeiten fest."
 
-#: ../../action-types.rst:25
+#: ../../action-types/user-task.rst:16 ../../action-types/user-task.rst:16
 msgid "*Escalations* -  automatic task reassignment."
 msgstr ""
 "*Eskalation* - Weisen Sie die Aufgabe automatisch anderen Personen zu."
 
-#: ../../action-types.rst:26
+#: ../../action-types/user-task.rst:17 ../../action-types/user-task.rst:17
 msgid "*Access Rights* - task permissions for users and groups."
 msgstr ""
 "*Zugriffsrechte* - Definieren Sie Zugriffsrechte für Nutzer und Gruppen."
 
-#: ../../action-types.rst:29
+#: ../../action-types/user-task.rst:20 ../../action-types/user-task.rst:20
 msgid "Assignment"
 msgstr "Zuweisung"
 
-#: ../../action-types.rst:31
+#: ../../action-types/user-task.rst:22 ../../action-types/user-task.rst:22
 msgid ""
 "Use the assignment tab to specify the task’s default assignee or candidates."
 " Candidates can be individual users or organisation groups."
@@ -634,11 +549,11 @@ msgstr ""
 "Liste von Kandidaten definieren. Kandidaten können hierbei mehrere Nutzer "
 "oder Gruppen von Nutzern sein."
 
-#: ../../action-types.rst:36
+#: ../../action-types/user-task.rst:27 ../../action-types/user-task.rst:27
 msgid "Configuring user task assignment in the process editor"
 msgstr "Zuweisung einer Aufgabe im Prozesseditor konfigurieren"
 
-#: ../../action-types.rst:38
+#: ../../action-types/user-task.rst:29 ../../action-types/user-task.rst:29
 msgid ""
 "You an also specify a role for the task’s assignment, like a BPMN swim lane,"
 " so that related tasks are automatically assigned to the same person."
@@ -647,15 +562,15 @@ msgstr ""
 "Diese ähneln den Lanes aus BPMN. So können Sie mehrere Aufgaben automatisch "
 "der gleichen Person zuweisen. "
 
-#: ../../action-types.rst:43
+#: ../../action-types/user-task.rst:47 ../../action-types/user-task.rst:47
 msgid "Form"
 msgstr "Formular"
 
-#: ../../action-types.rst:50
+#: ../../action-types/user-task.rst:54 ../../action-types/user-task.rst:54
 msgid "Reminders"
 msgstr "Erinnerungen"
 
-#: ../../action-types.rst:52
+#: ../../action-types/user-task.rst:56 ../../action-types/user-task.rst:56
 msgid ""
 "Use the user task’s `Reminders` configuration panel tab to set up task "
 "deadline notifications. If you configure a `Due date` or `Reminder` period, "
@@ -665,11 +580,11 @@ msgstr ""
 "festlegen. Wenn Sie eine `Fälligkeit` oder `Erinnerung` festlegen, wird "
 "Effektif für die von Ihnen konfigurierte Periode Erinnerungen versenden."
 
-#: ../../action-types.rst:58
+#: ../../action-types/user-task.rst:62 ../../action-types/user-task.rst:62
 msgid "Configuring user task reminders in the process editor"
 msgstr "Erinnerungen im Prozesseditor konfigurieren"
 
-#: ../../action-types.rst:60
+#: ../../action-types/user-task.rst:64 ../../action-types/user-task.rst:64
 msgid ""
 "Effektif sends these notifications to the task’s assignee if the task is "
 "assigned, or to all of the task’s candidates if the task it not assigned. If"
@@ -682,11 +597,11 @@ msgstr ""
 " zugewiesen sein und sind auch keine Kandidaten konfiguriert, so bekommt der"
 " Prozess-Eigentümer die Benachrichtigung."
 
-#: ../../action-types.rst:66
+#: ../../action-types/user-task.rst:70 ../../action-types/user-task.rst:70
 msgid "Escalations"
 msgstr "Eskalation"
 
-#: ../../action-types.rst:68
+#: ../../action-types/user-task.rst:72 ../../action-types/user-task.rst:72
 msgid ""
 "You can also use the :ref:`Reminders <reminders>` configuration panel tab to"
 " configure escalations. If you configure an `Escalation` period and an "
@@ -699,11 +614,11 @@ msgstr ""
 "von Ihnen konfigurierte Person zuweisen. Der neue Verantwortliche für die "
 "Aufgabe erhält auch eine Benachrichtigung von Effektif."
 
-#: ../../action-types.rst:74
+#: ../../action-types/user-task.rst:78 ../../action-types/user-task.rst:78
 msgid "Access Rights"
 msgstr "Zugriffsrechte"
 
-#: ../../action-types.rst:76
+#: ../../action-types/user-task.rst:80 ../../action-types/user-task.rst:80
 msgid ""
 "Use the `Access Rights` tab to set permissions for viewing, assigning and "
 "completing the task. See :ref:`Restricting access to user tasks <user-task-"
@@ -713,13 +628,221 @@ msgstr ""
 "und bearbeiten kann. Nähere Informationen hierzu finden Sie unter "
 ":ref:`Zugriff auf Aufgaben einschränken <user-task-access>`. "
 
-#: ../../action-types.rst:45
+#: ../../action-types/user-task.rst:49 ../../action-types/user-task.rst:49
 msgid ""
 "Use the form builder to create a user task form for entering and updating "
 "data as part of the user task."
 msgstr ""
 "Benutzen Sie den Formulareditor, um neue Daten aufzunehmen oder bestehende "
 "zu verändern."
+
+#: ../../action-types.rst:6
+msgid ""
+"Actions are displayed as rounded rectangles in the :ref:`process-builder`. "
+"Actions typically have a configuration panel that opens when you select the "
+"action."
+msgstr "Aktionen werden in Effektif als Rechtecke mit abgerundeten Ecken im :ref:`process-builder` dargestellt und haben typischerweise ein Konfigurationspanel, das sich beim Auswählen der Aktion öffnet."
+
+#: ../../action-types/user-task.rst:34 ../../action-types/user-task.rst:34
+msgid "Task name template"
+msgstr "Vorlage für Aufgabennamen"
+
+#: ../../action-types/user-task.rst:36 ../../action-types/user-task.rst:36
+msgid ""
+"You can use task name templates to create dynamic task names from "
+":ref:`variables <variables>`. Enter the task name template on the user "
+"task’s configuration panel’s *General* tab. In the text field, type a `#` to"
+" select a variable."
+msgstr "Sie können Vorlagen für Aufgabennamen verwenden, um dynamische Aufgabennamen auf Basis von :ref:`Variablen <variables>` zu erstellen. Geben Sie die Vorlage über das *Allgemein*-Tab des Konfigurationspanels ein und geben Sie `#` ein um die gewünschte Variable auswählen zu können."
+
+#: ../../action-types/user-task.rst:42 ../../action-types/user-task.rst:42
+msgid "Using a task name template to configure dynamic task names"
+msgstr "Verwenden Sie Vorlagen für Aufgabennamen um dynamische Aufgabennamen zu konfigurieren."
+
+#: ../../action-types/user-task.rst:44 ../../action-types/user-task.rst:44
+msgid ""
+"Use task name templates to avoid a :ref:`tasks` view that fills up with "
+"identically-named tasks."
+msgstr "Verwenden Sie Vorlagen für Aufgabennamen um zu verhindern, dass sich die :ref:`tasks` - Ansicht mit identisch bezeichneten Aufgaben füllt."
+
+#: ../../action-types/send-email.rst:8 ../../action-types/send-email.rst:8
+msgid ""
+"The send email action sends an email to the specified user. In the "
+"configuration you can specify the following."
+msgstr "Die *E-mail senden*-Aktion sendet eine Email an einen spezifischen Nutzer. In der Konfiguration können Sie Folgendes hinterlegen:"
+
+#: ../../action-types/send-email.rst:16 ../../action-types/send-email.rst:16
+msgid ""
+"The email subject line. To use :ref:`variables <variables>` in the subject, "
+"type a `#` and select a field from the list. If the list is too long, you "
+"can just keep typing after the `#` to narrow-down the list. You can use the "
+"arrow keys to move the section, and *Enter* to select a field. To remove a "
+"variable, just delete it as if it’s normal text."
+msgstr "The Betreffzeile: Um :ref:`Variablen <variables>` in der Betreffzeile zu verwenden, geben Sie ein `#` ein und wählen Sie ein Feld aus der Liste aus. Falls die Liste sehr lang ist, können Sie die ersten Buchstaben des Feldnamen eingeben und die Liste zu filtern. Zudem können Sie die Pfeiltasten zur Navigation durch die Liste verwenden und die Auswahl mit der *Enter*-Taste treffen. Variablen können wie normaler Text entfernt werden."
+
+#: ../../action-types/send-email.rst:23 ../../action-types/send-email.rst:23
+msgid ""
+"To add attachments, click the *Attachments* field and select a file field "
+"from the list. The list includes trigger email attachments and file upload "
+"form fields."
+msgstr "Um Anhänge hinzuzufügen, wählen Sie das *Anhänge*-Feld aus und selektieren Sie ein Dateienfeld der Liste. Die Liste enthält E-mail-Anhänge von Auslösern und Dateiupload Formularfelder."
+
+#: ../../action-types/send-email.rst:27 ../../action-types/send-email.rst:27
+msgid ""
+"You can use variables in the main email body by typing a `#`, just like in "
+"the *Subject*. You can use `Markdown "
+"<http://daringfireball.net/projects/markdown/basics>`_ to format the email "
+"body by formatting text or including hyperlinks, headings or lists."
+msgstr "Wie in der Betreffzeile können Sie im E-mail-Inhaltsfeld Variablen über die Eingabe der Raute `#` referenzieren. Zudem können Sie `Markdown <http://daringfireball.net/projects/markdown/basics>`_ zur Formatierung verwenden, zum Beispiel um Links, Überschriften und Listen einzufügen."
+
+#: ../../action-types/google.rst:4 ../../action-types/google.rst:4
+msgid "Google Drive - Upload file"
+msgstr "Google Drive - Datei hochladen"
+
+#: ../../action-types/google.rst:8 ../../action-types/google.rst:8
+msgid "A Google Drive *Upload file* task in the process editor"
+msgstr "Eine Google Drive *Datei hochladen*-Aktion im Prozesseditor"
+
+#: ../../action-types/google.rst:73 ../../action-types/google.rst:73
+msgid "Google Drive - Print file"
+msgstr "Google Drive - Datei drucken"
+
+#: ../../action-types/google.rst:77 ../../action-types/google.rst:77
+msgid "A Google Drive *Print file* task in the process editor"
+msgstr "Eine Google Drive *Datei drucken*-Aktion im Prozesseditor"
+
+#: ../../action-types/google.rst:112 ../../action-types/google.rst:112
+msgid "Google Drive - Add row to sheet"
+msgstr "Google Drive - Zeile in Tabelle hinzufügen"
+
+#: ../../action-types/google.rst:116 ../../action-types/google.rst:116
+msgid "A Google Drive *Add row to sheet* task in the process editor"
+msgstr "Eine Google Drive *Zeile in Tabelle hinzufügen*-Aktion im Prozesseditor"
+
+#: ../../action-types/google.rst:118 ../../action-types/google.rst:118
+msgid ""
+"The Google Drive *Add row to sheet* action adds a row to a Google Sheets "
+"spreadsheet. You can use this to save the values of process variables at "
+"process milestones, and build a custom overview of cases."
+msgstr "Eine Google Drive *Zeile in Tabelle hinzufügen*-Aktion fügt eine Zeile zu einem Google Sheets Tabellenblatt hinzu. So können Sie Prozessvariablen beim Erreichen von Meilensteinen abspeichern und eine individuelle Übersicht über Ihre Fälle erstellen."
+
+#: ../../action-types/google.rst:124 ../../action-types/google.rst:124
+msgid ""
+"After creating a Google Drive *Add row to sheet* action, the configuration "
+"panel shows a button to start configuring the account. This configuration is"
+" the same as in the `Upload file configuration <upload-file-configuration>`_"
+" (above)."
+msgstr "Nachdem Sie die Google Drive *Zeile in Tabelle hinzufügen*-Aktion erstellt haben, wird Ihnen - analog zu den anderen Google Drive-Aktionen - eine Schaltfläche angezeigt, über die Sie ein Google Drive Konto hinterlegen können."
+
+#: ../../action-types/google.rst:128 ../../action-types/google.rst:128
+msgid ""
+"When you have authenticated with a Google account and granted permission, "
+"you are ready to configure the *Add row to sheet* action."
+msgstr "Sobald Sie sich mit Ihrem Google-Account authentifiziert und den Zugriff bestätigt haben, können Sie die *Zeile in Tabelle hinzufügen*-Aktion konfigurieren."
+
+#: ../../action-types/google.rst:132 ../../action-types/google.rst:132
+msgid "Add row to sheet action"
+msgstr "Zeile in Tabelle hinzufügen-Aktion"
+
+#: ../../action-types/google.rst:134 ../../action-types/google.rst:134
+msgid ""
+"Once you have configured your Google Drive account, the *Add row to sheet* "
+"action configuration panel displays the account, the spreadsheet, the "
+"worksheet within the spreadsheet, and the worksheet columns."
+msgstr "Sobald Sie Ihren Google Drive-Account hinterlegt haben, zeigt das *Zeile in Tabelle hinzufügen*-Aktion-Konfigurationspanel den Account, die Tabellenmappe, das Datenblatt der Mappe und die Tabellenspalten an."
+
+#: ../../action-types/google.rst:140 ../../action-types/google.rst:140
+msgid "Google Drive *Add row to sheet* authenticated configuration"
+msgstr "Google Drive *Zeile in Tabelle hinzufügen*: Konfigurationseinstellung nach erfolgreicher Authentifizierung"
+
+#: ../../action-types/google.rst:142 ../../action-types/google.rst:142
+msgid ""
+"Each column name, such as *Customer name* in this example, comes from a "
+"column heading in the spreadsheet. For each column, select one of the "
+":ref:`variables <variables>` from the list."
+msgstr "Die Spaltennamen, wie im Beispiel *Kundenname*, werden auf Basis der Tabellenspalten generiert. Wählen Sie für jede Spalte eine :ref:`Variable <variables>` aus der Liste aus."
+
+#: ../../action-types/javascript.rst:4 ../../action-types/javascript.rst:4
+msgid ""
+"The JavaScript action allows developers to add JavaScript to process "
+"execution. After creating or selecting a JavaScript action, the "
+"configuration panel looks like this:"
+msgstr "Die JavaScript-Aktion ermöglicht es Entwicklern die Prozessausführung um JavaScript zu ergänzen. Nachdem Sie eine JavaScript-Aktion erstellt oder ausgewählt haben, sehen Sie das folgende Konfigurationspanel:"
+
+#~ msgid ""
+#~ "All actions are displayed as lines in the 'Simple action list' and as "
+#~ "rounded rectangles in the 'Advanced flows' view."
+#~ msgstr ""
+#~ "Aktionen werden in Effektif als Zeilen in der `Einfachen Aktionsliste` und "
+#~ "als Rechtecke mit abgerundeten Ecken im `Prozesseditor` dargestellt."
+
+#~ msgid ""
+#~ "Actions typically have a configuration panel that opens up when you select "
+#~ "the action."
+#~ msgstr ""
+#~ "Die meisten Aktionen können nach Ihren Wünschen konfiguriert werden. Die "
+#~ "Konfigurationsmöglichkeiten sehen Sie jeweils, wenn Sie eine Aktion "
+#~ "auswählen."
+
+#~ msgid ""
+#~ "The send email action sends an email to the specified user. In the "
+#~ "configuration you can specify"
+#~ msgstr ""
+#~ "Mit der Aktionen `Email senden` können Sie eine Email an eine Reihe von "
+#~ "Nutzern senden. Die Konfiguration umfasst des Weiteren:"
+
+#~ msgid ""
+#~ "The subject of the email. To use process data in the subject, start by "
+#~ "typing a `#`. If the list of variable fields is too long, you can just keep "
+#~ "typing after the `#` to narrow the list. In combination, use the up and down"
+#~ " arrows to select the right field. Hit enter to select the field. To remove "
+#~ "variable fields from the subject, just delete it like it's normal text."
+#~ msgstr ""
+#~ "Das ist der Betreff der Email. Im Betreff können Sie auch Daten aus dem "
+#~ "Prozess verwenden. Tippen Sie dazu ein `#` um eine Liste von Variablen "
+#~ "anzuzeigen. Ist diese Liste zu lang, können Sie sie weiter einschränken "
+#~ "indem Sie einfach weiter den Namen der Variable tippen, die Sie einfügen "
+#~ "möchten. Nutzen Sie auch die `Pfeil hoch` und `Pfeil runter` tasten, um "
+#~ "einen Eintrag auszuwählen. Um eine Variable zu löschen, löschen Sie den "
+#~ "Eintrag einfach als wäre er normaler Text."
+
+#~ msgid ""
+#~ "Just like in the subject, you can combine template text with variable fields"
+#~ " to Start by typing a `#`. See *Subject* above in this list for more details"
+#~ " instructions on using the `#`."
+#~ msgstr ""
+#~ "Auch hier können Sie wie im *Betreff* auf Daten aus Ihrem Prozess zugreifen."
+#~ " Tippen Sie einfach `#` und wählen Sie die entsprechenden Variablen aus."
+
+#~ msgid ""
+#~ "The JavaScript action allows developers to run a JavaScript to the process "
+#~ "execution. After creating or selecting a JavaScript action, the "
+#~ "configuration panel looks like this:"
+#~ msgstr ""
+#~ "Mit der JavaScript Aktion kann ein Entwickler ein selbst geschrieben Script "
+#~ "ausführen, während der Prozess ausgeführt wird. Nachdem Sie solch eine "
+#~ "Aktion angelegt haben, sehen Sie den folgenden Konfigurationsdialog:"
+
+#~ msgid "Google Drive Upload file"
+#~ msgstr "Google Drive Dateiupload"
+
+#~ msgid "A Google Drive upload file task in the process editor"
+#~ msgstr "Eine Google Drive Datei-Upload Aktion im Prozesseditor"
+
+#~ msgid "Google Drive Print File"
+#~ msgstr "Google Drive Datei drucken"
+
+#~ msgid "A Google Drive print file task in the process editor"
+#~ msgstr "Eine Google Drive Drucken Aktion im Prozesseditor"
+
+#~ msgid ""
+#~ "To add attachments, click the attachments field. If there are files in the "
+#~ "workflow variables, they will be shown. Select one of the file variable "
+#~ "fields to add these as attachments to the mail."
+#~ msgstr ""
+#~ "Um eine Datei an die Email anzuhängen klicken Sie einfach in das Anhänge "
+#~ "Feld. Die sich öffnende Liste zeigt alle zur Zeit verfügbaren Dateien im "
+#~ "Prozess."
 
 #~ msgid ""
 #~ "A user task means a user has to perform a task. In the :ref:`case <cases>`, "

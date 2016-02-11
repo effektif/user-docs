@@ -1,3 +1,4 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
@@ -73,17 +74,6 @@ msgstr ""
 msgid ""
 "The email trigger creates an email variable that stores the email that "
 "started the process."
-msgstr ""
-
-#: ../../process-builder/triggers.rst:49 ../../process-builder/triggers.rst:49
-msgid ""
-"One way to use an email trigger is to add the trigger email address to a "
-"mailing list, such as `support@example.com `or `info@example.com`. You’ll "
-"have to ask the administrator of the mailing list to add the process "
-"trigger’s email address to the list. Once you have done this, email sent to "
-"the mailing list will also be forwarded to the process trigger address, "
-"starting the process in Effektif. You will then see the email in the "
-"activity stream:"
 msgstr ""
 
 #: ../../process-builder/triggers.rst:59 ../../process-builder/triggers.rst:59
@@ -461,12 +451,6 @@ msgid ""
 "versions make the version history more useful."
 msgstr ""
 
-#: ../../process-builder/versions.rst:61 ../../process-builder/versions.rst:61
-msgid ""
-"Make the comment an imperative phrase starting with a word like ‘Add’ or "
-"‘Fix’."
-msgstr ""
-
 #: ../../process-builder/bpmn-export.rst:4
 #: ../../process-builder/bpmn-export.rst:4
 msgid "BPMN export"
@@ -511,6 +495,36 @@ msgid ""
 "decisions and other control flow behaviour."
 msgstr ""
 
+#: ../../process-builder/triggers.rst:49 ../../process-builder/triggers.rst:49
+msgid ""
+"One way to use an email trigger is to add the trigger email address to a "
+"mailing list, such as `support@example.com `or `info@example.com`. You’ll "
+"have to ask the administrator of the mailing list to add the process "
+"trigger’s email address to the list. Once you have done this, email sent to "
+"the mailing list will also be forwarded to the process trigger address, "
+"starting the process in Effektif. You will then see the email in the event "
+"stream:"
+msgstr ""
+
+#: ../../process-builder/versions.rst:61 ../../process-builder/versions.rst:61
+msgid ""
+"Make the comment an imperative phrase that starts with a word like ‘Add’ or "
+"‘Fix’."
+msgstr ""
+
+#~ msgid ""
+#~ "One way to use an email trigger is to add the trigger email address to a "
+#~ "mailing list, such as `support@example.com `or `info@example.com`. You’ll "
+#~ "have to ask the administrator of the mailing list to add the process "
+#~ "trigger’s email address to the list. Once you have done this, email sent to "
+#~ "the mailing list will also be forwarded to the process trigger address, "
+#~ "starting the process in Effektif. You will then see the email in the "
+#~ "activity stream:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Make the comment an imperative phrase starting with a word like ‘Add’ or "
+#~ "‘Fix’."
 #~ msgstr ""
 
 #~ msgid ""
