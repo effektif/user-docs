@@ -147,43 +147,43 @@ msgstr ""
 msgid ""
 "To create a new case, navigate to *Cases*; on the *Cases of* menu, select "
 "*Cases without a process*, then click *Start new case*."
-msgstr "Um einen neuen Fall zu erstellen, wechseln Sie zum *Fälle*-Tab. Unter *Fälle von* wählen Sie *Fälle ohne Prozess* aus. Gehen Sie anschließend auf *Neuen Fall starten*."
+msgstr ""
 
 #: ../../cases.rst:170
 msgid "Closing a case manually"
-msgstr "Einen Fall manuell schließen"
+msgstr ""
 
 #: ../../cases.rst:172
 msgid ""
 "The normal way to close a case is to complete all of its tasks. However, "
 "sometimes you want to abandon a case and stop working on a it. To do this "
 "you can manually close a case."
-msgstr "Normalerweise wird ein Fall durch das Ausführen aller Aufgaben des Falles abgeschlossen. In bestimmten Situationen wollen Sie Fälle jedoch schließen, obwohl der Ausführungsprozess im System nicht terminiert ist. In diesen Situationen können Sie Fälle *manuell* schließen."
+msgstr ""
 
 #: ../../cases.rst:178
 msgid "Closing a case"
-msgstr "Einen Fall schließen"
+msgstr ""
 
 #: ../../cases.rst:180
 msgid ""
 "To close a case, select the ellipsis menu at the top-right of the case view,"
 " select *Close this case*, and click again to confirm."
-msgstr "Um eine Fall zu schließen, klicken Sie auf die *Punkte*-Schaltfläche in der oberen rechten Ecke der Fallansicht und anschließend auf *Fall schließen*."
+msgstr ""
 
 #: ../../cases.rst:101
 msgid "Commenting on a case"
-msgstr "Einen Fall kommentieren"
+msgstr ""
 
 #: ../../cases.rst:103
 msgid ""
 "Working on a case often includes collaboration with other people. You can "
 "use the case view to discuss the case with other people, which results in a "
 "discussion in the event stream."
-msgstr "Bei der Bearbeitung eines Falls arbeiten Sie oft mit anderen Personen zusammen. Über die Fallansicht können Sie den Fall mit Arbeitspartnern diskutieren. Die Diskussion wird als Ereignisfeed angezeigt."
+msgstr ""
 
 #: ../../cases.rst:109
 msgid "Comments on a case - discussion with context"
-msgstr "Kommentare eines Falls - Diskussion im Fallkontext"
+msgstr ""
 
 #: ../../cases.rst:119
 msgid ""
@@ -207,7 +207,7 @@ msgstr ""
 
 #: ../../cases.rst:141
 msgid "Using Markdown formatting in a case comment"
-msgstr "Markdown zur Formatierung von Kommentaren verwenden"
+msgstr ""
 
 #: ../../cases.rst:147
 msgid "A hyperlink in a case comment"
@@ -215,7 +215,7 @@ msgstr ""
 
 #: ../../cases.rst:111
 msgid "Hover over the user avatar to see the user’s full name:"
-msgstr "Bewegen Sie den Mauszeiger über den Avatar des Nutzer um den vollen Namen anzeigen zu lassen:"
+msgstr ""
 
 #: ../../cases.rst:134
 msgid ""
