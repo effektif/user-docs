@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../control-flow.rst:9
 msgid "Transition"
-msgstr "Transition"
+msgstr ""
 
 #: ../../control-flow/exclusive-gateway.rst:2
 #: ../../control-flow/exclusive-gateway.rst:2
