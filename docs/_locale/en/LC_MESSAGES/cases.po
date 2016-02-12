@@ -147,28 +147,187 @@ msgstr ""
 msgid ""
 "To create a new case, navigate to *Cases*; on the *Cases of* menu, select "
 "*Cases without a process*, then click *Start new case*."
-msgstr ""
+msgstr "Um einen neuen Fall zu erstellen, wechseln Sie zum *Fälle*-Tab. Unter *Fälle von* wählen Sie *Fälle ohne Prozess* aus. Gehen Sie anschließend auf *Neuen Fall starten*."
 
-#: ../../cases.rst:101
+#: ../../cases.rst:170
 msgid "Closing a case manually"
-msgstr ""
+msgstr "Einen Fall manuell schließen"
 
-#: ../../cases.rst:103
+#: ../../cases.rst:172
 msgid ""
 "The normal way to close a case is to complete all of its tasks. However, "
 "sometimes you want to abandon a case and stop working on a it. To do this "
 "you can manually close a case."
-msgstr ""
+msgstr "Normalerweise wird ein Fall durch das Ausführen aller Aufgaben des Falles abgeschlossen. In bestimmten Situationen wollen Sie Fälle jedoch schließen, obwohl der Ausführungsprozess im System nicht terminiert ist. In diesen Situationen können Sie Fälle *manuell* schließen."
 
-#: ../../cases.rst:109
+#: ../../cases.rst:178
 msgid "Closing a case"
-msgstr ""
+msgstr "Einen Fall schließen"
 
-#: ../../cases.rst:111
+#: ../../cases.rst:180
 msgid ""
 "To close a case, select the ellipsis menu at the top-right of the case view,"
 " select *Close this case*, and click again to confirm."
+msgstr "Um eine Fall zu schließen, klicken Sie auf die *Punkte*-Schaltfläche in der oberen rechten Ecke der Fallansicht und anschließend auf *Fall schließen*."
+
+#: ../../cases.rst:101
+msgid "Commenting on a case"
+msgstr "Einen Fall kommentieren"
+
+#: ../../cases.rst:103
+msgid ""
+"Working on a case often includes collaboration with other people. You can "
+"use the case view to discuss the case with other people, which results in a "
+"discussion in the event stream."
+msgstr "Bei der Bearbeitung eines Falls arbeiten Sie oft mit anderen Personen zusammen. Über die Fallansicht können Sie den Fall mit Arbeitspartnern diskutieren. Die Diskussion wird als Ereignisfeed angezeigt."
+
+#: ../../cases.rst:109
+msgid "Comments on a case - discussion with context"
+msgstr "Kommentare eines Falls - Diskussion im Fallkontext"
+
+#: ../../cases.rst:119
+msgid ""
+"To add a comment, type in the text box above the event stream. Everyone who "
+"has access to the case can follow the discussion. Keeping the discussion "
+"‘inside’ the case preserves the context, which makes it easier to follow "
+"than an email conversation."
 msgstr ""
+
+#: ../../cases.rst:124
+msgid ""
+"Sometimes, you want to direct a comment to a specific person. While entering"
+" a comment, you can ‘mention’ someone by typing a ``@`` and choosing their "
+"name from the list. When you mention someone in a comment, Effektif sends "
+"them an email notification to bring them into the discussion."
+msgstr ""
+
+#: ../../cases.rst:132
+msgid "Mentioning someone in a comment"
+msgstr ""
+
+#: ../../cases.rst:141
+msgid "Using Markdown formatting in a case comment"
+msgstr "Markdown zur Formatierung von Kommentaren verwenden"
+
+#: ../../cases.rst:147
+msgid "A hyperlink in a case comment"
+msgstr ""
+
+#: ../../cases.rst:111
+msgid "Hover over the user avatar to see the user’s full name:"
+msgstr "Bewegen Sie den Mauszeiger über den Avatar des Nutzer um den vollen Namen anzeigen zu lassen:"
+
+#: ../../cases.rst:134
+msgid ""
+"You can also use `Markdown`_ formatting in comments, for things like text "
+"styles, headings and lists."
+msgstr ""
+
+#: ../../cases.rst:115
+msgid "Hover over the relative time to see the comment’s full time stamp:"
+msgstr ""
+
+#: ../../cases.rst:143
+msgid ""
+"You may find Markdown most useful for adding links to external information "
+"that relates to the case."
+msgstr ""
+
+#: ../../cases.rst:151
+msgid "Attaching documents to a case"
+msgstr ""
+
+#: ../../cases.rst:161
+msgid "A document attached to a case"
+msgstr ""
+
+#: ../../cases.rst:163
+msgid ""
+"The case’s event stream shows the document, with its file name and size. "
+"Click the icon on the right to open the document."
+msgstr ""
+
+#: ../../cases.rst:157
+msgid ""
+"To attach a document to a case, select the the `Upload a document` option "
+"next to where you add comments."
+msgstr ""
+
+#: ../../cases.rst:153
+msgid ""
+"As well as commenting on a case, to share information with the case’s "
+"participants, you can attach documents. For example, cases in a job vacancy "
+"process might require candidate CVs. Anyone can access the case can download"
+" a case’s documents, which makes them more useful than email attachments."
+msgstr ""
+
+#: ../../cases.rst:166
+msgid ""
+"If cases regularly require the same document as part of the process, you can"
+" make this clearer to people who work on cases by adding a file upload form "
+"field to a :ref:`user task form <user-task-form>`."
+msgstr ""
+
+#~ msgid ""
+#~ "Note that if cases regularly require the same document as part of the "
+#~ "process, you can make this clearer by adding a file upload form field to a "
+#~ ":ref:`user task form <user-task-form>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "As well as commenting on a case, to share information with the case’s "
+#~ "participants, you can attach documents. For example, you can attach "
+#~ "candidate CV’s to a case about a job vacancy. Anyone can access the case can"
+#~ " download a case’s documents, which makes them more useful than email "
+#~ "attachments."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "As well as commenting on a case, to share information with the case’s "
+#~ "participants, you can attach documents. For example, you can attach "
+#~ "candidate CV’s to a case about a job vacancy. Anyone can access the case can"
+#~ " download a case’s documents, which makes them more useful than email "
+#~ "attachments. To attach a document to a case, select the the `Upload a "
+#~ "document` option next to where you add comments."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Hover over the relative time to see the full date and time when the comment "
+#~ "was posted:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This is useful for adding links to external information that’s relevant to "
+#~ "the case."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This is especially useful for adding hyperlinks, for linking to external "
+#~ "information that’s relevant to the case."
+#~ msgstr ""
+
+#~ msgid "You can also use `Markdown`_ formatting in comments."
+#~ msgstr ""
+
+#~ msgid "This is especially useful for adding hyperlinks."
+#~ msgstr ""
+
+#~ msgid "Time"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can also use `Markdown "
+#~ "<http://daringfireball.net/projects/markdown/basics>` formatting in "
+#~ "comments."
+#~ msgstr ""
+
+#~ msgid "Comments on a case"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Keeping the discussion ‘inside’ the case preserves the context, which makes "
+#~ "it easier to follow than an email conversation."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "A case is a essentially a small collaboration space for a particular goal. "

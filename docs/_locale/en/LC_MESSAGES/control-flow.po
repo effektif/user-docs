@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../control-flow.rst:4
 msgid "Control flow"
-msgstr ""
+msgstr "Kontrollfluss"
 
 #: ../../control-flow.rst:6
 msgid ""
@@ -28,7 +28,7 @@ msgstr ""
 #: ../../control-flow/exclusive-gateway.rst:2
 #: ../../control-flow/exclusive-gateway.rst:2
 msgid "Exclusive gateway"
-msgstr ""
+msgstr "Exklusives Gateway"
 
 #: ../../control-flow/exclusive-gateway.rst:22
 #: ../../control-flow/exclusive-gateway.rst:22
@@ -55,7 +55,7 @@ msgstr ""
 #: ../../control-flow/exclusive-gateway.rst:51
 #: ../../control-flow/exclusive-gateway.rst:51
 msgid "Customized decision buttons"
-msgstr ""
+msgstr "Individuell angepasste Entscheidungsschaltflächen"
 
 #: ../../control-flow/exclusive-gateway.rst:53
 #: ../../control-flow/exclusive-gateway.rst:53
@@ -79,7 +79,7 @@ msgstr ""
 #: ../../control-flow/exclusive-gateway.rst:85
 #: ../../control-flow/exclusive-gateway.rst:85
 msgid "Automatic decision"
-msgstr ""
+msgstr "Automatische Entscheidung"
 
 #: ../../control-flow/exclusive-gateway.rst:87
 #: ../../control-flow/exclusive-gateway.rst:87
@@ -127,7 +127,7 @@ msgstr ""
 #: ../../control-flow/exclusive-gateway.rst:115
 #: ../../control-flow/exclusive-gateway.rst:115
 msgid "Default transition"
-msgstr ""
+msgstr "Standardtransition"
 
 #: ../../control-flow/exclusive-gateway.rst:117
 #: ../../control-flow/exclusive-gateway.rst:117
@@ -179,7 +179,7 @@ msgstr ""
 #: ../../control-flow/parallel-gateway.rst:21
 #: ../../control-flow/parallel-gateway.rst:21
 msgid "A parallel gateway example"
-msgstr ""
+msgstr "Ein Beispiel eines parallelen Gateways"
 
 #: ../../control-flow/parallel-gateway.rst:23
 #: ../../control-flow/parallel-gateway.rst:23
@@ -201,7 +201,7 @@ msgstr ""
 #: ../../control-flow/parallel-gateway.rst:32
 #: ../../control-flow/parallel-gateway.rst:32
 msgid "Joining"
-msgstr ""
+msgstr "Sequenzflüsse zusammenführen"
 
 #: ../../control-flow/parallel-gateway.rst:34
 #: ../../control-flow/parallel-gateway.rst:34
@@ -237,7 +237,7 @@ msgstr ""
 #: ../../control-flow/parallel-gateway.rst:50
 #: ../../control-flow/parallel-gateway.rst:58
 msgid "Default forking"
-msgstr ""
+msgstr "Standardverhalten beim Teilen"
 
 #: ../../control-flow/parallel-gateway.rst:52
 #: ../../control-flow/parallel-gateway.rst:52
@@ -283,7 +283,7 @@ msgstr ""
 msgid ""
 "You will end up with problems if you loop back over parallel gateways. To "
 "avoid situations:"
-msgstr ""
+msgstr "Vermeiden Sie Konstrukte in denen Sequenzfluss über ein paralleles Gateway hinweg führt. Beispiele hierfür sind"
 
 #: ../../control-flow/parallel-gateway.rst:79
 #: ../../control-flow/parallel-gateway.rst:85
@@ -295,7 +295,7 @@ msgstr ""
 #: ../../control-flow/parallel-gateway.rst:81
 #: ../../control-flow/parallel-gateway.rst:81
 msgid "and this:"
-msgstr ""
+msgstr "und:"
 
 #: ../../control-flow/parallel-gateway.rst:87
 #: ../../control-flow/parallel-gateway.rst:87
@@ -387,7 +387,7 @@ msgstr ""
 #: ../../control-flow/exclusive-gateway.rst:38
 #: ../../control-flow/exclusive-gateway.rst:38
 msgid "Default manual decision configuration"
-msgstr ""
+msgstr "Standardkonfiguration einer manuelle Entscheidung"
 
 #: ../../control-flow/exclusive-gateway.rst:65
 #: ../../control-flow/exclusive-gateway.rst:65

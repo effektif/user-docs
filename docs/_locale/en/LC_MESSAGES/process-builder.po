@@ -511,8 +511,6 @@ msgid ""
 "decisions and other control flow behaviour."
 msgstr ""
 
-#~ msgstr ""
-
 #~ msgid ""
 #~ "A process variable can contain a single value, such as a reference number, "
 #~ "or containing multiple fields, such as an email, which has fields like "
