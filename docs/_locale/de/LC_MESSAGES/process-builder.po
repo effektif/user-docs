@@ -490,17 +490,6 @@ msgstr ""
 msgid "BPMN export"
 msgstr "BPMN Export"
 
-#: ../../process-builder/bpmn-export.rst:6
-#: ../../process-builder/bpmn-export.rst:6
-msgid ""
-"You can export an Effektif process model as a BPMN 2.0 XML file. This is "
-"useful if you want to open the model in another tool that supports BPMN, or "
-"to make a backup."
-msgstr ""
-"Sie können Prozesse aus Effektif als BPMN 2.0 XML exportieren. Dies ist "
-"besonders hilfreich, wenn Sie den Prozess in einem anderen Tool bearbeiten "
-"oder ein Backup erstellen möchten."
-
 #: ../../process-builder/bpmn-export.rst:10
 #: ../../process-builder/bpmn-export.rst:10
 msgid ""
@@ -689,6 +678,71 @@ msgstr ""
 "veröffentlichen und nicht alles in eine große Version schieben. Kleine "
 "Versionen machen es einfacher die Änderungen nachzuverfolgen und damit die "
 "Versionshistorie nützlicher. "
+
+#: ../../process-builder/bpmn-export.rst:6
+#: ../../process-builder/bpmn-export.rst:6
+msgid ""
+"You can export an Effektif process model as a BPMN 2.0 XML file. This is "
+"useful if you want to open the model in another tool that supports BPMN, or "
+"to make a backup that you can load using the :ref:`BPMN import <bpmn-"
+"import>` option."
+msgstr "Sie können ein Effektif Prozessmodel als BPMN 2.0 XML file exportieren. Anschließend können Sie das Diagramm in einem beliebigen Tool öffnen, das den offenen BPMN 2.0 Standard unterstützt. Die Exportfunktion ermöglich zudem das Erstellen von Backups: ein :ref:`Re-Import <bpmn-import>` ist jederzeit möglich."
+
+#: ../../process-builder/bpmn-import.rst:4
+#: ../../process-builder/bpmn-import.rst:4
+msgid "BPMN import"
+msgstr "BPMN Import"
+
+#: ../../process-builder/bpmn-import.rst:6
+#: ../../process-builder/bpmn-import.rst:6
+msgid ""
+"You can import an Effektif process model from a BPMN 2.0 XML file. You can "
+"use this to import a model that you created in another tool, or to load a "
+"file that you saved using the :ref:`BPMN export <bpmn-export>` option."
+msgstr "Sie können ein Effektif Prozessmodel als BPMN 2.0 XML Datei importieren. Hiermit können Sie Modelle, die Sie in anderen Tools erstellt haben, in Effektif verwenden oder Backups, die Sie vorher über die :ref:`BPMN Exportfunktion <bpmn-export>` gespeichert haben, wiederherstellen."
+
+#: ../../process-builder/bpmn-import.rst:10
+#: ../../process-builder/bpmn-import.rst:10
+msgid ""
+"To import a process model, on the `Processes` page, click the `Import BPMN` "
+"button and select the BPMN XML file."
+msgstr "Um ein Prozessmodell zu importieren, wechseln Sie in die `Prozesse`-Ansicht, klicken Sie auf `BPMN importieren` und wählen Sie eine BPMN 2.0 XML Datei aus."
+
+#: ../../process-builder/bpmn-import.rst:15
+#: ../../process-builder/bpmn-import.rst:15
+msgid "The `Import BPMN` button on the `Processes` page"
+msgstr "Die `BPMN importieren`-Schaltfläche der `Prozesse`-Ansicht."
+
+#: ../../process-builder/bpmn-import.rst:17
+#: ../../process-builder/bpmn-import.rst:17
+msgid ""
+"Effektif does not support all BPMN 2.0 elements, so the process may appear "
+"differently in Effektif. In particular:"
+msgstr "Effektif unterstützt nicht alle BPMN 2.0 Elemente. Ein importierter Prozess wird in Effektif unter Umständen also verändert dargestellt. Berücksichtigen Sie insbesondere Folgendes:"
+
+#: ../../process-builder/bpmn-import.rst:21
+#: ../../process-builder/bpmn-import.rst:21
+msgid "BPMN swim lanes become :ref:`roles <roles>` in Effektif"
+msgstr "BPMN Swim Lanes werden in Effektif zu :ref:`Rollen <roles>`"
+
+#: ../../process-builder/bpmn-import.rst:22
+#: ../../process-builder/bpmn-import.rst:22
+msgid "tasks become :ref:`user tasks <user-task>` in Effektif"
+msgstr "Task werden in Effektif zu :ref:`User Tasks <user-task>`"
+
+#: ../../process-builder/bpmn-import.rst:23
+#: ../../process-builder/bpmn-import.rst:23
+msgid "unsupported elements, such as timer events, are removed."
+msgstr "Nichtunterstützte Element, wie zum Beispiel Zeit-Startereignisse, werden entfernt."
+
+#~ msgid ""
+#~ "You can export an Effektif process model as a BPMN 2.0 XML file. This is "
+#~ "useful if you want to open the model in another tool that supports BPMN, or "
+#~ "to make a backup."
+#~ msgstr ""
+#~ "Sie können Prozesse aus Effektif als BPMN 2.0 XML exportieren. Dies ist "
+#~ "besonders hilfreich, wenn Sie den Prozess in einem anderen Tool bearbeiten "
+#~ "oder ein Backup erstellen möchten."
 
 #~ msgid "Simple action list view"
 #~ msgstr "Einfache Aufgabenliste"
