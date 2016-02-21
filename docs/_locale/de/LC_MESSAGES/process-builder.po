@@ -97,21 +97,6 @@ msgstr ""
 "Der Emailauslöser erstellt eine Prozessvariable mit der Sie auf die "
 "Informationen der Email (Absender, Inhalt, etc.) zugreifen können. "
 
-#: ../../process-builder/triggers.rst:49 ../../process-builder/triggers.rst:49
-msgid ""
-"One way to use an email trigger is to add the trigger email address to a "
-"mailing list, such as `support@example.com `or `info@example.com`. You’ll "
-"have to ask the administrator of the mailing list to add the process "
-"trigger’s email address to the list. Once you have done this, email sent to "
-"the mailing list will also be forwarded to the process trigger address, "
-"starting the process in Effektif. You will then see the email in the "
-"activity stream:"
-msgstr ""
-"Wenn Sie die Emailadresse des Prozesses zum Beispiel in eine bestehende "
-"Verteilerliste eingetragen haben, können neue Fälle leicht erstellt werden. "
-"Innerhalb von einem Fall wird die Email die ihn ausgelöst hat jeweils im "
-"`Stream` angezeigt, wie hier zu sehen ist."
-
 #: ../../process-builder/triggers.rst:59 ../../process-builder/triggers.rst:59
 msgid "Trigger mail in stream"
 msgstr "Startemail im Stream"
@@ -433,17 +418,6 @@ msgstr ""
 msgid "BPMN export"
 msgstr "BPMN Export"
 
-#: ../../process-builder/bpmn-export.rst:6
-#: ../../process-builder/bpmn-export.rst:6
-msgid ""
-"You can export an Effektif process model as a BPMN 2.0 XML file. This is "
-"useful if you want to open the model in another tool that supports BPMN, or "
-"to make a backup."
-msgstr ""
-"Sie können Prozesse aus Effektif als BPMN 2.0 XML exportieren. Dies ist "
-"besonders hilfreich, wenn Sie den Prozess in einem anderen Tool bearbeiten "
-"oder ein Backup erstellen möchten."
-
 #: ../../process-builder/bpmn-export.rst:10
 #: ../../process-builder/bpmn-export.rst:10
 msgid ""
@@ -592,8 +566,8 @@ msgid ""
 "Make the comment an imperative phrase that starts with a word like ‘Add’ or "
 "‘Fix’."
 msgstr ""
-"Schreiben Sie im imperativen Stil wie `Aktivität hinzugefügt` oder "
-"`Fehler behoben`."
+"Schreiben Sie im imperativen Stil wie `Aktivität hinzugefügt` oder `Fehler "
+"behoben`."
 
 #: ../../process-builder/versions.rst:62 ../../process-builder/versions.rst:62
 msgid ""
@@ -633,6 +607,79 @@ msgstr ""
 "Versionen machen es einfacher die Änderungen nachzuverfolgen und damit die "
 "Versionshistorie nützlicher. "
 
+#: ../../process-builder/bpmn-export.rst:6
+#: ../../process-builder/bpmn-export.rst:6
+msgid ""
+"You can export an Effektif process model as a BPMN 2.0 XML file. This is "
+"useful if you want to open the model in another tool that supports BPMN, or "
+"to make a backup that you can load using the :ref:`BPMN import <bpmn-"
+"import>` option."
+msgstr ""
+"Sie können ein Effektif Prozessmodel als BPMN 2.0 XML file exportieren. "
+"Anschließend können Sie das Diagramm in einem beliebigen Tool öffnen, das "
+"den offenen BPMN 2.0 Standard unterstützt. Die Exportfunktion ermöglich "
+"zudem das Erstellen von Backups: ein :ref:`Re-Import <bpmn-import>` ist "
+"jederzeit möglich."
+
+#: ../../process-builder/bpmn-import.rst:4
+#: ../../process-builder/bpmn-import.rst:4
+msgid "BPMN import"
+msgstr "BPMN Import"
+
+#: ../../process-builder/bpmn-import.rst:6
+#: ../../process-builder/bpmn-import.rst:6
+msgid ""
+"You can import an Effektif process model from a BPMN 2.0 XML file. You can "
+"use this to import a model that you created in another tool, or to load a "
+"file that you saved using the :ref:`BPMN export <bpmn-export>` option."
+msgstr ""
+"Sie können ein Effektif Prozessmodel als BPMN 2.0 XML Datei importieren. "
+"Hiermit können Sie Modelle, die Sie in anderen Tools erstellt haben, in "
+"Effektif verwenden oder Backups, die Sie vorher über die :ref:`BPMN "
+"Exportfunktion <bpmn-export>` gespeichert haben, wiederherstellen."
+
+#: ../../process-builder/bpmn-import.rst:10
+#: ../../process-builder/bpmn-import.rst:10
+msgid ""
+"To import a process model, on the `Processes` page, click the `Import BPMN` "
+"button and select the BPMN XML file."
+msgstr ""
+"Um ein Prozessmodell zu importieren, wechseln Sie in die `Prozesse`-Ansicht,"
+" klicken Sie auf `BPMN importieren` und wählen Sie eine BPMN 2.0 XML Datei "
+"aus."
+
+#: ../../process-builder/bpmn-import.rst:15
+#: ../../process-builder/bpmn-import.rst:15
+msgid "The `Import BPMN` button on the `Processes` page"
+msgstr "Die `BPMN importieren`-Schaltfläche der `Prozesse`-Ansicht."
+
+#: ../../process-builder/bpmn-import.rst:17
+#: ../../process-builder/bpmn-import.rst:17
+msgid ""
+"Effektif does not support all BPMN 2.0 elements, so the process may appear "
+"differently in Effektif. In particular:"
+msgstr ""
+"Effektif unterstützt nicht alle BPMN 2.0 Elemente. Ein importierter Prozess "
+"wird in Effektif unter Umständen also verändert dargestellt. Berücksichtigen"
+" Sie insbesondere Folgendes:"
+
+#: ../../process-builder/bpmn-import.rst:21
+#: ../../process-builder/bpmn-import.rst:21
+msgid "BPMN swim lanes become :ref:`roles <roles>` in Effektif"
+msgstr "BPMN Swim Lanes werden in Effektif zu :ref:`Rollen <roles>`"
+
+#: ../../process-builder/bpmn-import.rst:22
+#: ../../process-builder/bpmn-import.rst:22
+msgid "tasks become :ref:`user tasks <user-task>` in Effektif"
+msgstr "Task werden in Effektif zu :ref:`User Tasks <user-task>`"
+
+#: ../../process-builder/bpmn-import.rst:23
+#: ../../process-builder/bpmn-import.rst:23
+msgid "unsupported elements, such as timer events, are removed."
+msgstr ""
+"Nichtunterstützte Element, wie zum Beispiel Zeit-Startereignisse, werden "
+"entfernt."
+
 #: ../../process-builder/roles.rst:6 ../../process-builder/roles.rst:6
 msgid ""
 "A role is a process-specific name for whoever performs one or more process "
@@ -640,8 +687,8 @@ msgid ""
 "are equivalent to swimlanes in BPMN."
 msgstr ""
 "Eine Rolle ist ein prozessspezifischer Bezeichner für eine Person oder "
-"Organisationseinheit, die eine oder mehrere Prozessaufgaben ausführt. An einer "
-"Rolle kann eine Liste möglicher Kandidaten hinterlegt werden. Rollen "
+"Organisationseinheit, die eine oder mehrere Prozessaufgaben ausführt. An "
+"einer Rolle kann eine Liste möglicher Kandidaten hinterlegt werden. Rollen "
 "entsprechen Swimlanes in BPMN."
 
 #: ../../process-builder/roles.rst:10 ../../process-builder/roles.rst:10
@@ -683,12 +730,11 @@ msgid ""
 "during a case: each new task with a role assignment is automatically "
 "assigned to the person who the role was assigned to."
 msgstr ""
-"Rollen können ad-hoc eingenommen werden. In jedem Meeting (jedem "
-":ref:`Fall <cases>` in Effektif) wird einer Person die Aufgabe der "
-"Meetingsleitung übertragen und einer weiteren Person die Rolle der "
-"Meetingsassistenz. Während eines Falldurchlaufs ändern sich "
-"Rollenzuweisungen nicht: Jeder neue Task einer Rolle wird automatisch der "
-"entsprechenden Person zugewiesen."
+"Rollen können ad-hoc eingenommen werden. In jedem Meeting (jedem :ref:`Fall "
+"<cases>` in Effektif) wird einer Person die Aufgabe der Meetingsleitung "
+"übertragen und einer weiteren Person die Rolle der Meetingsassistenz. "
+"Während eines Falldurchlaufs ändern sich Rollenzuweisungen nicht: Jeder neue"
+" Task einer Rolle wird automatisch der entsprechenden Person zugewiesen."
 
 #: ../../process-builder/roles.rst:23 ../../process-builder/roles.rst:23
 msgid ""
@@ -748,8 +794,8 @@ msgid ""
 "candidates. For example, you might have a support process that includes "
 "three user tasks that are assigned to a support engineer."
 msgstr ""
-"Über eine Rolle können Sie mehrere Aufgaben einer Person aus einer Gruppe von "
-"Kandidaten zuweisen. In einem Supportprozess kann es zum Beispiel drei "
+"Über eine Rolle können Sie mehrere Aufgaben einer Person aus einer Gruppe "
+"von Kandidaten zuweisen. In einem Supportprozess kann es zum Beispiel drei "
 "Nutzertasks geben, die einem Kundenbetreuer zugewiesen sind."
 
 #: ../../process-builder/roles.rst:49 ../../process-builder/roles.rst:49
@@ -757,9 +803,9 @@ msgid ""
 "Instead, assign the three tasks to a new role called ‘Support engineer’, and"
 " add the relevant people as candidates for the role."
 msgstr ""
-"Weisen Sie die drei Aufgaben einer neuen Rolle zu. Nennen Sie die "
-"Rolle 'Kundenbetreuer' und fügen Sie relevante Personen als Kandidaten für"
-" die Rolle hinzu."
+"Weisen Sie die drei Aufgaben einer neuen Rolle zu. Nennen Sie die Rolle "
+"'Kundenbetreuer' und fügen Sie relevante Personen als Kandidaten für die "
+"Rolle hinzu."
 
 #: ../../process-builder/roles.rst:52 ../../process-builder/roles.rst:52
 msgid ""
@@ -773,6 +819,40 @@ msgstr ""
 " Person die Aufgabe übernimmt, werden auch alle weiteren Aufgaben der Rolle "
 "dieser Person zugewiesen. Dies ist effizienter, da die entsprechende Person "
 "schon das kontextspezifische Fallwissen besitzt."
+
+#: ../../process-builder/triggers.rst:49 ../../process-builder/triggers.rst:49
+msgid ""
+"One way to use an email trigger is to add the trigger email address to a "
+"mailing list, such as `support@example.com `or `info@example.com`. You’ll "
+"have to ask the administrator of the mailing list to add the process "
+"trigger’s email address to the list. Once you have done this, email sent to "
+"the mailing list will also be forwarded to the process trigger address, "
+"starting the process in Effektif. You will then see the email in the event "
+"stream:"
+msgstr ""
+
+#~ msgid ""
+#~ "One way to use an email trigger is to add the trigger email address to a "
+#~ "mailing list, such as `support@example.com `or `info@example.com`. You’ll "
+#~ "have to ask the administrator of the mailing list to add the process "
+#~ "trigger’s email address to the list. Once you have done this, email sent to "
+#~ "the mailing list will also be forwarded to the process trigger address, "
+#~ "starting the process in Effektif. You will then see the email in the "
+#~ "activity stream:"
+#~ msgstr ""
+#~ "Wenn Sie die Emailadresse des Prozesses zum Beispiel in eine bestehende "
+#~ "Verteilerliste eingetragen haben, können neue Fälle leicht erstellt werden. "
+#~ "Innerhalb von einem Fall wird die Email die ihn ausgelöst hat jeweils im "
+#~ "`Stream` angezeigt, wie hier zu sehen ist."
+
+#~ msgid ""
+#~ "You can export an Effektif process model as a BPMN 2.0 XML file. This is "
+#~ "useful if you want to open the model in another tool that supports BPMN, or "
+#~ "to make a backup."
+#~ msgstr ""
+#~ "Sie können Prozesse aus Effektif als BPMN 2.0 XML exportieren. Dies ist "
+#~ "besonders hilfreich, wenn Sie den Prozess in einem anderen Tool bearbeiten "
+#~ "oder ein Backup erstellen möchten."
 
 #~ msgid ""
 #~ "These process roles are not the same as organization roles. For example, you"
