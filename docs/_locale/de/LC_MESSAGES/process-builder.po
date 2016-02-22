@@ -607,6 +607,41 @@ msgstr ""
 "Versionen machen es einfacher die Änderungen nachzuverfolgen und damit die "
 "Versionshistorie nützlicher. "
 
+#: ../../process-builder/locking.rst:4 ../../process-builder/locking.rst:4
+msgid "Process locking"
+msgstr "Bearbeitungsblockierung"
+
+#: ../../process-builder/locking.rst:6 ../../process-builder/locking.rst:6
+msgid ""
+"In the process builder, only one person can edit a process at a time. When "
+"someone else is editing a process, there is a message in the `Processes` "
+"list."
+msgstr "Ein Prozess kann im Prozesseditor nicht von mehreren Personen gleichzeitig bearbeitet werden, da es ansonsten sehr wahrscheinlich ist, dass die bearbeitenden Nutzer ihre Änderungen gegenseitig überschreiben. Wenn jemand einen Prozess editiert, wird dies daher in der `Prozesse`-Liste angezeigt."
+
+#: ../../process-builder/locking.rst:12 ../../process-builder/locking.rst:12
+msgid ""
+"The `Processes` list message when someone else `is currently working on this"
+" process`"
+msgstr "Der Hinweis in der `Prozesse`-Liste, wenn ein Prozess bereits editiert wird"
+
+#: ../../process-builder/locking.rst:14 ../../process-builder/locking.rst:14
+msgid ""
+"You can still open the process, but you will see a warning message "
+"explaining that you will not be able to make changes:"
+msgstr "In einer solchen Situation können Sie den Prozess trotzdem öffnen. Allerdings wird Ihnen dann eine Warnung angezeigt und eine Bearbeitung des Prozesses ist nicht möglich:"
+
+#: ../../process-builder/locking.rst:19 ../../process-builder/locking.rst:19
+msgid ""
+"Warning that you will not be able to make edit a process at the same time as"
+" someone else"
+msgstr "Warnung, dass Änderungen an einem Prozess nicht von mehreren Personen gleichzeitig durchgeführt werden können"
+
+#: ../../process-builder/locking.rst:21 ../../process-builder/locking.rst:21
+msgid ""
+"You will be able to edit the process and make changes after the other person"
+" leaves the process editor, by opening the `Tasks` list, for example."
+msgstr "Nachdem die editierende Person die Bearbeitungsansicht verlässt (zum Beispiel um in de Aufgabenliste zu wechseln), können Sie den Prozess wieder bearbeiten."
+
 #: ../../process-builder/bpmn-export.rst:6
 #: ../../process-builder/bpmn-export.rst:6
 msgid ""
