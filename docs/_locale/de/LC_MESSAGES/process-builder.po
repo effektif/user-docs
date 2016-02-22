@@ -490,17 +490,6 @@ msgstr ""
 msgid "BPMN export"
 msgstr "BPMN Export"
 
-#: ../../process-builder/bpmn-export.rst:6
-#: ../../process-builder/bpmn-export.rst:6
-msgid ""
-"You can export an Effektif process model as a BPMN 2.0 XML file. This is "
-"useful if you want to open the model in another tool that supports BPMN, or "
-"to make a backup."
-msgstr ""
-"Sie können Prozesse aus Effektif als BPMN 2.0 XML exportieren. Dies ist "
-"besonders hilfreich, wenn Sie den Prozess in einem anderen Tool bearbeiten "
-"oder ein Backup erstellen möchten."
-
 #: ../../process-builder/bpmn-export.rst:10
 #: ../../process-builder/bpmn-export.rst:10
 msgid ""
@@ -689,6 +678,129 @@ msgstr ""
 "veröffentlichen und nicht alles in eine große Version schieben. Kleine "
 "Versionen machen es einfacher die Änderungen nachzuverfolgen und damit die "
 "Versionshistorie nützlicher. "
+
+#: ../../process-builder/copy-delete.rst:4
+#: ../../process-builder/copy-delete.rst:4
+msgid "Copying & deleting processes"
+msgstr "Prozesse kopieren und löschen"
+
+#: ../../process-builder/copy-delete.rst:6
+#: ../../process-builder/copy-delete.rst:6
+msgid ""
+"You can create a copy of a process or delete it using the process menu shown"
+" in the previous section."
+msgstr "Über das Prozessmenü können Sie zudem Prozesse kopieren und löschen."
+
+#: ../../process-builder/copy-delete.rst:8
+#: ../../process-builder/copy-delete.rst:8
+msgid ""
+"The `Create a copy` option duplicates the process in the same organisation. "
+"You may find it useful to duplicate a process if you want to experiment with"
+" changes without publishing changes to a process that people are using. You "
+"may also want to duplicate a process to model a special case of the process,"
+" instead of adding a conditional flow to the standard process."
+msgstr ""
+"Über die Schaltfläche `Eine Kopie erstellen` duplizieren Sie einen Prozess "
+"in der entsprechenden Organisation. Dies ist insbesondere hilfreich, wenn "
+"Sie dem Prozess experimentieren wollen, ohne dass Nutzer der Prozessfälle "
+"direkt von den Änderungen betroffen sind. Ein weitere Use Case ist das "
+"Erstellen von Prozessvarianten: Um weitere XOR-Verzweigungen innerhalb einer"
+" Prozesses zu vermeiden, können Sie eine Kopie des Prozesses Ihren "
+"Anforderungen entsprechend abändern und die Prozessbezeichnung "
+"aussagekräftig abändern."
+
+#: ../../process-builder/copy-delete.rst:12
+#: ../../process-builder/copy-delete.rst:12
+msgid ""
+"The `Delete process` option permanently deletes a process and all of its "
+"cases. You cannot undo this operation, so you must enter a confirmation. You"
+" might want to delete a process that you created by duplicating another "
+"process in order to experiment with changes in the model."
+msgstr ""
+"Über die `Prozess löschen` Schaltfläche löschen Sie einen Prozess und alle "
+"Fälle des Prozesses **unwiderruflich**. Da Sie das Löschen nicht rückgängig "
+"machen können, müssen Sie den Vorgang explizit bestätigen. Ein typische "
+"Anwendungsfall für das Löschen eines Prozesses ist das Verwerfen einer "
+"experimentellen Kopie eines Prozesses. "
+
+#: ../../process-builder/copy-delete.rst:16
+#: ../../process-builder/copy-delete.rst:16
+msgid ""
+"In Effektif, you cannot currently delete cases, which you might want to do "
+"if you have created test cases while developing the process. However, you "
+"can use `Create a copy` and `Delete process` to duplicate a process and then"
+" delete the original. This deletes all of the cases with the original "
+"process, and leaves a copy with no cases."
+msgstr ""
+"In Effektif ist es nicht möglich, Fälle direkt zu löschen. Falls Sie einen "
+"Fälle als 'Tests' während des Prozessdesigns erstellt haben, empfehlen wir "
+"Ihnen für die Produktivversion des Prozesses eine Kopie zu erstellen und das"
+" Orginal zu löschen. Die Fälle werden nicht in die Kopie übernommen."
+
+#: ../../process-builder/bpmn-import.rst:4
+#: ../../process-builder/bpmn-import.rst:4
+msgid "BPMN import"
+msgstr ""
+
+#: ../../process-builder/bpmn-import.rst:6
+#: ../../process-builder/bpmn-import.rst:6
+msgid ""
+"You can import an Effektif process model from a BPMN 2.0 XML file. You can "
+"use this to import a model that you created in another tool, or to load a "
+"file that you saved using the :ref:`BPMN export <bpmn-export>` option."
+msgstr ""
+
+#: ../../process-builder/bpmn-import.rst:10
+#: ../../process-builder/bpmn-import.rst:10
+msgid ""
+"To import a process model, on the `Processes` page, click the `Import BPMN` "
+"button and select the BPMN XML file."
+msgstr ""
+
+#: ../../process-builder/bpmn-import.rst:15
+#: ../../process-builder/bpmn-import.rst:15
+msgid "The `Import BPMN` button on the `Processes` page"
+msgstr ""
+
+#: ../../process-builder/bpmn-import.rst:17
+#: ../../process-builder/bpmn-import.rst:17
+msgid ""
+"Effektif does not support all BPMN 2.0 elements, so the process may appear "
+"differently in Effektif. In particular:"
+msgstr ""
+
+#: ../../process-builder/bpmn-import.rst:21
+#: ../../process-builder/bpmn-import.rst:21
+msgid "BPMN swim lanes become :ref:`roles <roles>` in Effektif"
+msgstr ""
+
+#: ../../process-builder/bpmn-import.rst:22
+#: ../../process-builder/bpmn-import.rst:22
+msgid "tasks become :ref:`user tasks <user-task>` in Effektif"
+msgstr ""
+
+#: ../../process-builder/bpmn-import.rst:23
+#: ../../process-builder/bpmn-import.rst:23
+msgid "unsupported elements, such as timer events, are removed."
+msgstr ""
+
+#: ../../process-builder/bpmn-export.rst:6
+#: ../../process-builder/bpmn-export.rst:6
+msgid ""
+"You can export an Effektif process model as a BPMN 2.0 XML file. This is "
+"useful if you want to open the model in another tool that supports BPMN, or "
+"to make a backup that you can load using the :ref:`BPMN import <bpmn-"
+"import>` option."
+msgstr ""
+
+#~ msgid ""
+#~ "You can export an Effektif process model as a BPMN 2.0 XML file. This is "
+#~ "useful if you want to open the model in another tool that supports BPMN, or "
+#~ "to make a backup."
+#~ msgstr ""
+#~ "Sie können Prozesse aus Effektif als BPMN 2.0 XML exportieren. Dies ist "
+#~ "besonders hilfreich, wenn Sie den Prozess in einem anderen Tool bearbeiten "
+#~ "oder ein Backup erstellen möchten."
 
 #~ msgid "Simple action list view"
 #~ msgstr "Einfache Aufgabenliste"
