@@ -38,11 +38,11 @@ msgstr ""
 msgid "User task"
 msgstr "User Task"
 
-#: ../../action-types.rst:81
+#: ../../action-types.rst:82
 msgid "Send email"
 msgstr "Email senden"
 
-#: ../../action-types.rst:87
+#: ../../action-types.rst:88
 msgid ""
 "The send email action sends an email to the specified user. In the "
 "configuration you can specify"
@@ -50,11 +50,11 @@ msgstr ""
 "Mit der Aktionen `Email senden` können Sie eine Email an eine Reihe von "
 "Nutzern senden. Die Konfiguration umfasst des Weiteren:"
 
-#: ../../action-types.rst:92
+#: ../../action-types.rst:93
 msgid "To:"
 msgstr "Empfänger:"
 
-#: ../../action-types.rst:91
+#: ../../action-types.rst:92
 msgid ""
 "The people to which the email is sent. You can type a plain email address, "
 "select a variable, a variable field or a user in the organization."
@@ -63,11 +63,11 @@ msgstr ""
 "Effektif Nutzer auswählen, Rollen und Nutzervariablen des Prozesses nutzen "
 "oder einfach eine reguläre Emailadresse eintragen."
 
-#: ../../action-types.rst:100
+#: ../../action-types.rst:101
 msgid "Subject:"
 msgstr "Betreff:"
 
-#: ../../action-types.rst:95
+#: ../../action-types.rst:96
 msgid ""
 "The subject of the email. To use process data in the subject, start by "
 "typing a `#`. If the list of variable fields is too long, you can just keep "
@@ -83,15 +83,15 @@ msgstr ""
 "einen Eintrag auszuwählen. Um eine Variable zu löschen, löschen Sie den "
 "Eintrag einfach als wäre er normaler Text."
 
-#: ../../action-types.rst:105
+#: ../../action-types.rst:106
 msgid "Attachments:"
 msgstr "Dateianhänge:"
 
-#: ../../action-types.rst:110
+#: ../../action-types.rst:111
 msgid "Body text:"
 msgstr "Inhalt:"
 
-#: ../../action-types.rst:108
+#: ../../action-types.rst:109
 msgid ""
 "Just like in the subject, you can combine template text with variable fields"
 " to Start by typing a `#`. See *Subject* above in this list for more details"
@@ -256,7 +256,7 @@ msgstr "JavaScript JSON-Werte"
 msgid "A user task in the process editor"
 msgstr "Ein User Task im Prozess-Editor"
 
-#: ../../action-types.rst:85
+#: ../../action-types.rst:86
 msgid "A send email task in the process editor"
 msgstr "Eine Email senden Aktion im Prozess-Editor"
 
@@ -540,7 +540,7 @@ msgstr ""
 msgid "A box upload file task in the process editor"
 msgstr "Eine Box Datei-Upload Aktion im Prozesseditor"
 
-#: ../../action-types.rst:103
+#: ../../action-types.rst:104
 msgid ""
 "To add attachments, click the attachments field. If there are files in the "
 "workflow variables, they will be shown. Select one of the file variable "

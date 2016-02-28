@@ -31,31 +31,31 @@ msgstr ""
 msgid "User task"
 msgstr ""
 
-#: ../../action-types.rst:81
+#: ../../action-types.rst:82
 msgid "Send email"
 msgstr ""
 
-#: ../../action-types.rst:87
+#: ../../action-types.rst:88
 msgid ""
 "The send email action sends an email to the specified user. In the "
 "configuration you can specify"
 msgstr ""
 
-#: ../../action-types.rst:92
+#: ../../action-types.rst:93
 msgid "To:"
 msgstr ""
 
-#: ../../action-types.rst:91
+#: ../../action-types.rst:92
 msgid ""
 "The people to which the email is sent. You can type a plain email address, "
 "select a variable, a variable field or a user in the organization."
 msgstr ""
 
-#: ../../action-types.rst:100
+#: ../../action-types.rst:101
 msgid "Subject:"
 msgstr ""
 
-#: ../../action-types.rst:95
+#: ../../action-types.rst:96
 msgid ""
 "The subject of the email. To use process data in the subject, start by "
 "typing a `#`. If the list of variable fields is too long, you can just keep "
@@ -64,15 +64,15 @@ msgid ""
 "variable fields from the subject, just delete it like it's normal text."
 msgstr ""
 
-#: ../../action-types.rst:110
+#: ../../action-types.rst:111
 msgid "Body text:"
 msgstr ""
 
-#: ../../action-types.rst:105
+#: ../../action-types.rst:106
 msgid "Attachments:"
 msgstr ""
 
-#: ../../action-types.rst:108
+#: ../../action-types.rst:109
 msgid ""
 "Just like in the subject, you can combine template text with variable fields"
 " to Start by typing a `#`. See *Subject* above in this list for more details"
@@ -203,7 +203,7 @@ msgstr ""
 msgid "A user task in the process editor"
 msgstr ""
 
-#: ../../action-types.rst:85
+#: ../../action-types.rst:86
 msgid "A send email task in the process editor"
 msgstr ""
 
@@ -535,7 +535,7 @@ msgstr ""
 msgid "Configuring user task assignment in the process editor"
 msgstr ""
 
-#: ../../action-types.rst:103
+#: ../../action-types.rst:104
 msgid ""
 "To add attachments, click the attachments field. If there are files in the "
 "workflow variables, they will be shown. Select one of the file variable "

@@ -76,6 +76,7 @@ Access Rights
 Use the `Access Rights` tab to set permissions for viewing, assigning and completing the task.
 See :ref:`Restricting access to user tasks <user-task-access>` for details.
 
+.. _send-email:
 
 Send email
 ----------
