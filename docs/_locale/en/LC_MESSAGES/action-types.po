@@ -137,13 +137,6 @@ msgstr ""
 msgid "JavaScript action"
 msgstr ""
 
-#: ../../action-types/javascript.rst:4 ../../action-types/javascript.rst:4
-msgid ""
-"The JavaScript action allows developers to run a JavaScript to the process "
-"execution. After creating or selecting a JavaScript action, the "
-"configuration panel looks like this:"
-msgstr ""
-
 #: ../../action-types/javascript.rst:9 ../../action-types/javascript.rst:9
 msgid "JavaScript configuration panel"
 msgstr ""
@@ -554,6 +547,19 @@ msgid ""
 "Use the form builder to create a user task form for entering and updating "
 "data as part of the user task."
 msgstr ""
+
+#: ../../action-types/javascript.rst:4 ../../action-types/javascript.rst:4
+msgid ""
+"The JavaScript action allows developers to add JavaScript to process "
+"execution. After creating or selecting a JavaScript action, the "
+"configuration panel looks like this:"
+msgstr ""
+
+#~ msgid ""
+#~ "The JavaScript action allows developers to run a JavaScript to the process "
+#~ "execution. After creating or selecting a JavaScript action, the "
+#~ "configuration panel looks like this:"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "A user task means a user has to perform a task. In the :ref:`case <cases>`, "

@@ -130,7 +130,7 @@ msgstr ""
 msgid "After you have added a task, it appears in the list:"
 msgstr ""
 
-#: ../../tasks.rst:127
+#: ../../tasks.rst:126
 msgid ""
 "When tasks have a form, the form is displayed in the same position and it "
 "has the button(s) to complete the task at the bottom of the form. Normally "
@@ -139,42 +139,42 @@ msgid ""
 "and complete the task in one go."
 msgstr ""
 
-#: ../../tasks.rst:100
+#: ../../tasks.rst:99
 msgid "Assigning a task"
 msgstr ""
 
-#: ../../tasks.rst:94
+#: ../../tasks.rst:93
 msgid ""
 "You can assign a task from anywhere a task appears in a task list. To assign"
 " the task, click the assignee button immediately to the left of the task "
 "name, to open the list of candidates."
 msgstr ""
 
-#: ../../tasks.rst:102
+#: ../../tasks.rst:101
 msgid ""
 "To assign the task, select a candidate from the list, or type a name or "
 "email address to filter it first."
 msgstr ""
 
-#: ../../tasks.rst:125
+#: ../../tasks.rst:124
 msgid ""
 "For tasks, there is a highlighted `Done` button (the square on the green "
 "background) to complete the task."
 msgstr ""
 
-#: ../../tasks.rst:88
+#: ../../tasks.rst:87
 msgid "Assigning tasks"
 msgstr ""
 
-#: ../../tasks.rst:123
+#: ../../tasks.rst:122
 msgid "Completing tasks"
 msgstr ""
 
-#: ../../tasks.rst:133
+#: ../../tasks.rst:132
 msgid "Reopening tasks"
 msgstr ""
 
-#: ../../tasks.rst:135
+#: ../../tasks.rst:134
 msgid ""
 "When you see the `Reopen` button in a task, it means the task is completed. "
 "You may want to reopen a task that you closed a task by accident, or when "
@@ -183,13 +183,13 @@ msgid ""
 "without reopening the task."
 msgstr ""
 
-#: ../../tasks.rst:140
+#: ../../tasks.rst:139
 msgid ""
 "The advantage of reopening a task instead of creating a new task is that the"
 " existing task retains its context."
 msgstr ""
 
-#: ../../tasks.rst:90
+#: ../../tasks.rst:89
 msgid ""
 "You can assign a task to yourself, or someone else, to indicate who is "
 "expected to work on the task. An assigned task is listed in the assignee’s "
@@ -197,22 +197,22 @@ msgid ""
 ":ref:`notifications <notifications>` and :ref:`reminders <reminders>`."
 msgstr ""
 
-#: ../../tasks.rst:106
+#: ../../tasks.rst:105
 msgid "Setting due dates"
 msgstr ""
 
-#: ../../tasks.rst:108
+#: ../../tasks.rst:107
 msgid ""
 "You can set a task’s due date, to highlight tasks that are overdue in the "
 "assignee’s tasks inbox. To set a task’s due date, open the task, and select "
 "the clock icon to open the date selector."
 msgstr ""
 
-#: ../../tasks.rst:115
+#: ../../tasks.rst:114
 msgid "Setting a task’s due date"
 msgstr ""
 
-#: ../../tasks.rst:117
+#: ../../tasks.rst:116
 msgid ""
 "As well as setting the due date manually, in an open case, you can also set "
 "a user task’s default due date in the process editor, on the user task’s "
@@ -222,10 +222,15 @@ msgstr ""
 #: ../../tasks.rst:83
 msgid ""
 "When a process is started, a :ref:`case <cases>` is created and all elements"
-" not having incoming transitions will be started. So if you only use the "
-":ref:`simple action list <action-list>` to create a list of user tasks, all "
-"those tasks in the list will be started immediately when the process starts."
+" not having incoming transitions will be started."
 msgstr ""
+
+#~ msgid ""
+#~ "When a process is started, a :ref:`case <cases>` is created and all elements"
+#~ " not having incoming transitions will be started. So if you only use the "
+#~ ":ref:`simple action list <action-list>` to create a list of user tasks, all "
+#~ "those tasks in the list will be started immediately when the process starts."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "When a process is started, a :ref:`case <cases>` is created and all elements"

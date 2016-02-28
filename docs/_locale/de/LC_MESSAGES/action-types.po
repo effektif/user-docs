@@ -175,16 +175,6 @@ msgstr ""
 msgid "JavaScript action"
 msgstr "JavaScript"
 
-#: ../../action-types/javascript.rst:4 ../../action-types/javascript.rst:4
-msgid ""
-"The JavaScript action allows developers to run a JavaScript to the process "
-"execution. After creating or selecting a JavaScript action, the "
-"configuration panel looks like this:"
-msgstr ""
-"Mit der JavaScript Aktion kann ein Entwickler ein selbst geschrieben Script "
-"ausführen, während der Prozess ausgeführt wird. Nachdem Sie solch eine "
-"Aktion angelegt haben, sehen Sie den folgenden Konfigurationsdialog:"
-
 #: ../../action-types/javascript.rst:9 ../../action-types/javascript.rst:9
 msgid "JavaScript configuration panel"
 msgstr "JavaScript Konfigurationsdialog"
@@ -720,6 +710,22 @@ msgid ""
 msgstr ""
 "Benutzen Sie den Formulareditor, um neue Daten aufzunehmen oder bestehende "
 "zu verändern."
+
+#: ../../action-types/javascript.rst:4 ../../action-types/javascript.rst:4
+msgid ""
+"The JavaScript action allows developers to add JavaScript to process "
+"execution. After creating or selecting a JavaScript action, the "
+"configuration panel looks like this:"
+msgstr ""
+
+#~ msgid ""
+#~ "The JavaScript action allows developers to run a JavaScript to the process "
+#~ "execution. After creating or selecting a JavaScript action, the "
+#~ "configuration panel looks like this:"
+#~ msgstr ""
+#~ "Mit der JavaScript Aktion kann ein Entwickler ein selbst geschrieben Script "
+#~ "ausführen, während der Prozess ausgeführt wird. Nachdem Sie solch eine "
+#~ "Aktion angelegt haben, sehen Sie den folgenden Konfigurationsdialog:"
 
 #~ msgid ""
 #~ "A user task means a user has to perform a task. In the :ref:`case <cases>`, "
