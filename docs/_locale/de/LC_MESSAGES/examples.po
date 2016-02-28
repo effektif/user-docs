@@ -1,0 +1,2131 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: User Guide 2.22\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-22 14:13+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../examples.rst:4
+msgid "Example processes"
+msgstr "Beispielprozesse"
+
+#: ../../examples.rst:6
+msgid "This chapter describes a number of example processes."
+msgstr "In diesem Kapitel wird eine Reihe von Beispielprozessen beschrieben."
+
+#: ../../examples/approve-document.rst:4 ../../examples/approve-document.rst:4
+msgid "Approve Document (management)"
+msgstr "Dokument Freigeben (Management)"
+
+#: ../../examples/approve-document.rst:7
+#: ../../examples/approve-vacation-request.rst:7
+#: ../../examples/fill-job-vacancy.rst:7
+#: ../../examples/follow-up-contact.rst:7
+#: ../../examples/fulfil-purchase-order.rst:7
+#: ../../examples/hire-employee.rst:7 ../../examples/initiate-project.rst:7
+#: ../../examples/invoice-customer.rst:7
+#: ../../examples/open-new-customer-account.rst:7
+#: ../../examples/plan-trade-fair-booth.rst:7
+#: ../../examples/process-insurance-claim.rst:7
+#: ../../examples/respond-to-customer-email.rst:7
+#: ../../examples/ship-product-from-warehouse.rst:7
+#: ../../examples/sign-contract.rst:7 ../../examples/approve-document.rst:7
+#: ../../examples/approve-vacation-request.rst:7
+#: ../../examples/fill-job-vacancy.rst:7
+#: ../../examples/follow-up-contact.rst:7
+#: ../../examples/fulfil-purchase-order.rst:7
+#: ../../examples/hire-employee.rst:7 ../../examples/initiate-project.rst:7
+#: ../../examples/invoice-customer.rst:7
+#: ../../examples/open-new-customer-account.rst:7
+#: ../../examples/plan-trade-fair-booth.rst:7
+#: ../../examples/process-insurance-claim.rst:7
+#: ../../examples/respond-to-customer-email.rst:7
+#: ../../examples/ship-product-from-warehouse.rst:7
+#: ../../examples/sign-contract.rst:7
+msgid "Process goal"
+msgstr "Prozessziel"
+
+#: ../../examples/approve-document.rst:9 ../../examples/approve-document.rst:9
+msgid "Approve the submitted document, after optional revision rounds."
+msgstr ""
+"Das Prozessziel ist die Freigabe des eingereichten Dokuments, gegebenenfalls"
+" nach mehreren Revisionsdurchgängen."
+
+#: ../../examples/approve-document.rst:12
+#: ../../examples/approve-vacation-request.rst:12
+#: ../../examples/fill-job-vacancy.rst:12
+#: ../../examples/follow-up-contact.rst:12
+#: ../../examples/fulfil-purchase-order.rst:12
+#: ../../examples/hire-employee.rst:12 ../../examples/initiate-project.rst:12
+#: ../../examples/invoice-customer.rst:12
+#: ../../examples/open-new-customer-account.rst:12
+#: ../../examples/plan-trade-fair-booth.rst:12
+#: ../../examples/process-insurance-claim.rst:12
+#: ../../examples/respond-to-customer-email.rst:12
+#: ../../examples/ship-product-from-warehouse.rst:12
+#: ../../examples/sign-contract.rst:12 ../../examples/approve-document.rst:12
+#: ../../examples/approve-vacation-request.rst:12
+#: ../../examples/fill-job-vacancy.rst:12
+#: ../../examples/follow-up-contact.rst:12
+#: ../../examples/fulfil-purchase-order.rst:12
+#: ../../examples/hire-employee.rst:12 ../../examples/initiate-project.rst:12
+#: ../../examples/invoice-customer.rst:12
+#: ../../examples/open-new-customer-account.rst:12
+#: ../../examples/plan-trade-fair-booth.rst:12
+#: ../../examples/process-insurance-claim.rst:12
+#: ../../examples/respond-to-customer-email.rst:12
+#: ../../examples/ship-product-from-warehouse.rst:12
+#: ../../examples/sign-contract.rst:12
+msgid "Context"
+msgstr "Kontext"
+
+#: ../../examples/approve-document.rst:14
+#: ../../examples/approve-document.rst:14
+msgid ""
+"Employees need to submit expense forms for their managers to approve, but if"
+" they all send them by e-mail it will be difficult for their managers to "
+"keep track. Employees typically submit an expense form in a spreadsheet file"
+" that lists expenses."
+msgstr ""
+"Mitarbeiter müssen Kostenabrechnungen von ihren Vorgesetzten abnehmen "
+"lassen. Wenn die Dokumente via Email gesendet werden, ist es jedoch schwer "
+"für die Vorgesetzten, den Überblick zu behalten. Mitarbeiter reichen die "
+"Kostenabrechnung typischerweise als Spreadsheet ein, in dem die Kosten "
+"aufgelistet sind."
+
+#: ../../examples/approve-document.rst:16
+#: ../../examples/approve-document.rst:16
+msgid ""
+"Employees also prepare proposals and reports that require management sign-"
+"off before the author may distribute them. The frequently have trouble "
+"keeping track of the document versions during the process."
+msgstr ""
+"Zudem bereiten Mitarbeiter Dokumente wie Angebote und Vorschläge vor, die "
+"vom Management freigegeben werden müssen. Hierbei gibt es oft Komplikationen"
+" bei der Verwaltung der vielen Versionen der Dokumente."
+
+#: ../../examples/approve-document.rst:19
+#: ../../examples/approve-document.rst:19
+msgid ""
+"Expense forms are a specific example of process documents. Business "
+"processes often use documents to capture a process milestone. Managers often"
+" use a document approval process to verify that other work is complete, "
+"usually by exchanging email with the document author. Use an Approve "
+"Document process when you need to keep track of a large number of approvals,"
+" or when you need a record of each approval (who and when)."
+msgstr ""
+"Ausgabenformulare sind Beispiel für Prozessdokumente. Geschäftsprozesse "
+"verwenden Dokumente oft, um einen Prozessmeilenstein festzuhalten. Manager "
+"nutzen Freigabeprozesse oft, um sicherzustellen, dass bestimmte "
+"Arbeitsvorgänge abgeschlossen sind und kommunizieren daher oft über Email "
+"mit dem Verfasser des Dokuments. Verwenden Sie Dokumentenfreigabeprozesse, "
+"wenn Sie eine größere Anzahl an Freigaben verwalten müssen oder wenn Sie ein"
+" zentrales Register aller Freigaben benötigen."
+
+#: ../../examples/approve-document.rst:25
+#: ../../examples/approve-vacation-request.rst:27
+#: ../../examples/fill-job-vacancy.rst:19
+#: ../../examples/follow-up-contact.rst:20
+#: ../../examples/fulfil-purchase-order.rst:19
+#: ../../examples/hire-employee.rst:19 ../../examples/initiate-project.rst:22
+#: ../../examples/invoice-customer.rst:19
+#: ../../examples/open-new-customer-account.rst:22
+#: ../../examples/plan-trade-fair-booth.rst:21
+#: ../../examples/process-insurance-claim.rst:17
+#: ../../examples/respond-to-customer-email.rst:19
+#: ../../examples/ship-product-from-warehouse.rst:21
+#: ../../examples/sign-contract.rst:18 ../../examples/approve-document.rst:25
+#: ../../examples/approve-vacation-request.rst:27
+#: ../../examples/fill-job-vacancy.rst:19
+#: ../../examples/follow-up-contact.rst:20
+#: ../../examples/fulfil-purchase-order.rst:19
+#: ../../examples/hire-employee.rst:19 ../../examples/initiate-project.rst:22
+#: ../../examples/invoice-customer.rst:19
+#: ../../examples/open-new-customer-account.rst:22
+#: ../../examples/plan-trade-fair-booth.rst:21
+#: ../../examples/process-insurance-claim.rst:17
+#: ../../examples/respond-to-customer-email.rst:19
+#: ../../examples/ship-product-from-warehouse.rst:21
+#: ../../examples/sign-contract.rst:18
+msgid "Trigger"
+msgstr "Auslöser"
+
+#: ../../examples/approve-document.rst:27
+#: ../../examples/approve-document.rst:27
+msgid "Form - the uploaded document and its author."
+msgstr "Formular - das hochgeladene Dokument und dessen Verfasser"
+
+#: ../../examples/approve-document.rst:30
+#: ../../examples/approve-vacation-request.rst:32
+#: ../../examples/fill-job-vacancy.rst:24
+#: ../../examples/follow-up-contact.rst:25
+#: ../../examples/fulfil-purchase-order.rst:24
+#: ../../examples/hire-employee.rst:24 ../../examples/initiate-project.rst:27
+#: ../../examples/invoice-customer.rst:24
+#: ../../examples/open-new-customer-account.rst:28
+#: ../../examples/plan-trade-fair-booth.rst:26
+#: ../../examples/process-insurance-claim.rst:22
+#: ../../examples/respond-to-customer-email.rst:24
+#: ../../examples/ship-product-from-warehouse.rst:26
+#: ../../examples/sign-contract.rst:23 ../../examples/approve-document.rst:30
+#: ../../examples/approve-vacation-request.rst:32
+#: ../../examples/fill-job-vacancy.rst:24
+#: ../../examples/follow-up-contact.rst:25
+#: ../../examples/fulfil-purchase-order.rst:24
+#: ../../examples/hire-employee.rst:24 ../../examples/initiate-project.rst:27
+#: ../../examples/invoice-customer.rst:24
+#: ../../examples/open-new-customer-account.rst:28
+#: ../../examples/plan-trade-fair-booth.rst:26
+#: ../../examples/process-insurance-claim.rst:22
+#: ../../examples/respond-to-customer-email.rst:24
+#: ../../examples/ship-product-from-warehouse.rst:26
+#: ../../examples/sign-contract.rst:23
+msgid "Actions"
+msgstr "Aktionen"
+
+#: ../../examples/approve-document.rst:32
+#: ../../examples/approve-document.rst:32
+msgid ""
+"The process centres on a *Review document* task, which results in a decision"
+" to either *Approve* or *Reject* the document. Rejecting the document "
+"creates an *Update document* task to update the document and provide a new "
+"draft before starting again."
+msgstr ""
+"Der Prozess ist um den *Dokument überprüfen*-Task, der eine *Freigabe* oder "
+"*Ablehnung* des Dokuments nach sich zieht. Auf eine Ablehnung folgt der Task"
+" *Dokument anpassen*. Hier ist der Verfasser gefragt. Er muss eine "
+"korrigierte Version des Dokuments zur Verfügung stellen."
+
+#: ../../examples/approve-document.rst:37
+#: ../../examples/approve-document.rst:37
+msgid ""
+"Adding a due date and reminders to the user tasks can help minimise cycle "
+"times. Adding escalation to the *Review document* task helps avoid a delay "
+"when the reviewer is not available."
+msgstr ""
+"Durch das Hinterlegen eines Fälligkeitsdatums und durch die Konfiguration "
+"von automatischen Erinnerungen können Sie die Durchlaufzeit der User Tasks "
+"minimieren. Eine Eskalationsoption für den *Dokument überprüfen*-Task "
+"verhindert Verzögerungen, falls der ursprüngliche Reviewer nicht verfügbar "
+"ist."
+
+#: ../../examples/approve-document.rst:41
+#: ../../examples/approve-vacation-request.rst:42
+#: ../../examples/fill-job-vacancy.rst:34
+#: ../../examples/follow-up-contact.rst:32
+#: ../../examples/fulfil-purchase-order.rst:35
+#: ../../examples/hire-employee.rst:33 ../../examples/initiate-project.rst:37
+#: ../../examples/invoice-customer.rst:38
+#: ../../examples/open-new-customer-account.rst:38
+#: ../../examples/plan-trade-fair-booth.rst:36
+#: ../../examples/process-insurance-claim.rst:32
+#: ../../examples/ship-product-from-warehouse.rst:54
+#: ../../examples/sign-contract.rst:37 ../../examples/approve-document.rst:41
+#: ../../examples/approve-vacation-request.rst:42
+#: ../../examples/fill-job-vacancy.rst:34
+#: ../../examples/follow-up-contact.rst:32
+#: ../../examples/fulfil-purchase-order.rst:35
+#: ../../examples/hire-employee.rst:33 ../../examples/initiate-project.rst:37
+#: ../../examples/invoice-customer.rst:38
+#: ../../examples/open-new-customer-account.rst:38
+#: ../../examples/plan-trade-fair-booth.rst:36
+#: ../../examples/process-insurance-claim.rst:32
+#: ../../examples/ship-product-from-warehouse.rst:54
+#: ../../examples/sign-contract.rst:37
+msgid "Roles"
+msgstr "Rollen"
+
+#: ../../examples/approve-document.rst:43
+#: ../../examples/approve-document.rst:43
+msgid "The two tasks correspond to two process roles."
+msgstr "Die zwei User Tasks entsprechen zwei verschieden Rollen."
+
+#: ../../examples/approve-document.rst:45
+#: ../../examples/approve-document.rst:45
+msgid ""
+"*Reviewer* (optional) - makes the approval decision: often a manager or "
+"supervisor."
+msgstr ""
+"*Reviewer* - Trifft die Freigabeentscheidung: Oft ein Manager oder "
+"Vorgesetzter."
+
+#: ../../examples/approve-document.rst:46
+#: ../../examples/approve-document.rst:46
+msgid ""
+"*Author* - prepares the document. If the trigger form assigns this role, "
+"then Effektif will automatically assign the *Update document* to the author "
+"and send a notification."
+msgstr ""
+"*Verfasser* - Bereitet das Dokument vor. Falls der Prozessauslöser die Rolle"
+" zuweist, setzt Effektif automatisch den Verfasser als verantwortliche "
+"Person für *Dokument anpassen*."
+
+#: ../../examples/approve-document.rst:50
+#: ../../examples/approve-vacation-request.rst:47
+#: ../../examples/fill-job-vacancy.rst:40
+#: ../../examples/follow-up-contact.rst:38
+#: ../../examples/fulfil-purchase-order.rst:41
+#: ../../examples/hire-employee.rst:39 ../../examples/initiate-project.rst:43
+#: ../../examples/invoice-customer.rst:43
+#: ../../examples/open-new-customer-account.rst:43
+#: ../../examples/plan-trade-fair-booth.rst:41
+#: ../../examples/process-insurance-claim.rst:39
+#: ../../examples/ship-product-from-warehouse.rst:59
+#: ../../examples/sign-contract.rst:43 ../../examples/approve-document.rst:50
+#: ../../examples/approve-vacation-request.rst:47
+#: ../../examples/fill-job-vacancy.rst:40
+#: ../../examples/follow-up-contact.rst:38
+#: ../../examples/fulfil-purchase-order.rst:41
+#: ../../examples/hire-employee.rst:39 ../../examples/initiate-project.rst:43
+#: ../../examples/invoice-customer.rst:43
+#: ../../examples/open-new-customer-account.rst:43
+#: ../../examples/plan-trade-fair-booth.rst:41
+#: ../../examples/process-insurance-claim.rst:39
+#: ../../examples/ship-product-from-warehouse.rst:59
+#: ../../examples/sign-contract.rst:43
+msgid "Fields"
+msgstr "Felder"
+
+#: ../../examples/approve-document.rst:52
+#: ../../examples/approve-document.rst:52
+msgid ""
+"*Document* (File, mandatory) - the document to review. The author uploads "
+"the first version on the trigger form, followed by a new version each time "
+"Effektif creates a new *Update document* task."
+msgstr ""
+"*Dokument* (Datei, Pflichtfeld) - das freizugebende Dokument. Der Verfasser "
+"lädt die initial Version im Auslöserformular hoch. Für jeden *Dokument "
+"anpassen*-Task, den Effektif erstellt, wird eine neue Version "
+"bereitgestellt."
+
+#: ../../examples/approve-document.rst:54
+#: ../../examples/approve-document.rst:54
+msgid ""
+"*Author* (User, mandatory) - used to assign the role and notify the author."
+msgstr ""
+"*Verfasser* (Nutzer, Pflichtfeld) - verwendet zur Rollenzuweisung und "
+"Benachrichtigung des Verfassers."
+
+#: ../../examples/approve-document.rst:57
+#: ../../examples/approve-vacation-request.rst:55
+#: ../../examples/follow-up-contact.rst:47
+#: ../../examples/fulfil-purchase-order.rst:49
+#: ../../examples/initiate-project.rst:64
+#: ../../examples/invoice-customer.rst:49
+#: ../../examples/open-new-customer-account.rst:58
+#: ../../examples/plan-trade-fair-booth.rst:62
+#: ../../examples/respond-to-customer-email.rst:34
+#: ../../examples/approve-document.rst:57
+#: ../../examples/approve-vacation-request.rst:55
+#: ../../examples/follow-up-contact.rst:47
+#: ../../examples/fulfil-purchase-order.rst:49
+#: ../../examples/initiate-project.rst:64
+#: ../../examples/invoice-customer.rst:49
+#: ../../examples/open-new-customer-account.rst:58
+#: ../../examples/plan-trade-fair-booth.rst:62
+#: ../../examples/respond-to-customer-email.rst:34
+msgid "Extensions"
+msgstr "Erweiterungen"
+
+#: ../../examples/approve-document.rst:59
+#: ../../examples/approve-document.rst:59
+msgid ""
+"The document’s readers may find it useful to have access to the document "
+"outside Effektif. The organisation may also require a backup. You could add "
+"an integration task to the process after the decision to approve the "
+"document, in order to archive or email the document."
+msgstr ""
+"Der Leser des Dokuments möchte möglicherweise außerhalb von Effektif Zugriff"
+" auf das Dokument haben. Sie können einen Integrationstask nach der Freigabe"
+" zum Prozess hinzufügen, der das freigegebene Dokument archiviert oder per "
+"Email versendet."
+
+#: ../../examples/approve-document.rst:63
+#: ../../examples/approve-document.rst:63
+msgid ""
+"To archive the approved document, add a Google Drive or Box *Upload file* "
+"task. This saves a copy of the document for people to read, but they still "
+"need a notification that the approved version exists."
+msgstr ""
+"Fügen Sie für die Archivierung einen Google Drive oder Box *Datei "
+"hochladen*-Task hinzu. Hiermit wird eine Kopie des Dokuments für weitere "
+"Leser gespeichert. Allerdings benötigen die Leser noch eine Benachrichtigung"
+" um zu wissen, dass das entsprechende Dokument existiert."
+
+#: ../../examples/approve-document.rst:66
+#: ../../examples/approve-document.rst:66
+msgid ""
+"An email task notifies the author and other stakeholders that the document "
+"has been approved. The email template can include any reviewer comments and "
+"attach the document. The organisation may also find it useful to broaden the"
+" document’s distribution by copying the email to a distribution list."
+msgstr ""
+"Ein *Email senden*-Task benachrichtigt den Verfasser und andere Stakeholder "
+"darüber, dass das Dokument freigegeben wurde. Das entsprechende Email-"
+"Template kann Kommentare des Reviewers enthalten und das Dokument anhängen. "
+"Unter Umständen kann es nützlich sein, die Email an eine Verteilerliste zu "
+"senden."
+
+#: ../../examples/approve-document.rst:71
+#: ../../examples/approve-vacation-request.rst:63
+#: ../../examples/approve-document.rst:71
+#: ../../examples/approve-vacation-request.rst:63
+msgid "Related processes"
+msgstr "Ähnliche Prozesse"
+
+#: ../../examples/approve-document.rst:73
+#: ../../examples/approve-document.rst:73
+msgid ""
+":ref:`Approve Vacation Request <approve-vacation-request>` handles approving"
+" a form rather than a document."
+msgstr ""
+":ref:`Urlaubsantrag genehmigen <approve-vacation-request>` behandelt die "
+"Freigabe eines Effektif-Formulars an Stelle eines Dokuments."
+
+#: ../../examples/approve-vacation-request.rst:4
+#: ../../examples/approve-vacation-request.rst:4
+msgid "Approve Vacation Request (HR)"
+msgstr "Urlaubsantrag genehmigen (HR)"
+
+#: ../../examples/approve-vacation-request.rst:9
+#: ../../examples/approve-vacation-request.rst:9
+msgid "Approve an employee’s planned vacation dates."
+msgstr ""
+"Das Ziel des Prozesses ist die Genehmigung eines Urlaubsantrags eines "
+"Mitarbeiters."
+
+#: ../../examples/approve-vacation-request.rst:14
+#: ../../examples/approve-vacation-request.rst:14
+msgid ""
+"Employees need to request vacation dates, so that their managers can make "
+"sure that they don’t all go on vacation at the same time. Employees "
+"typically e-mail requests to a designated coordinator, who maintains a "
+"spreadsheet of requests. However, this generates a lot of e-mail, and fails "
+"when the coordinator is on vacation."
+msgstr ""
+"Mitarbeiter müssen Urlaubsdaten bestätigen lassen, damit die Vorgesetzten "
+"sicherstellen können, dass der Betrieb auch in der Feriensaison "
+"aufrechterhalten werden kann. Entsprechende Anfragen werden typischerweise "
+"via Email an den entsprechenden Koordinator geschickt, der die Anfragen in "
+"einem Spreadsheet verwaltet. Diese Vorgehensweise impliziert unstrukturierte"
+" Kommunikation und das manuelle Übertragen von Daten. Wenn der Koordinator "
+"nicht erreichbar ist, entstehen Probleme."
+
+#: ../../examples/approve-vacation-request.rst:18
+#: ../../examples/approve-vacation-request.rst:18
+msgid ""
+"Vacation requests exemplify form based requests, where an employee requires "
+"an approval based on information whose structure is known in advance. An "
+"employee requesting vacation days for specific dates is perhaps the simplest"
+" example of human tasks that are co-ordinated between multiple people."
+msgstr ""
+"Urlaubsanfragen sind ein gutes Beispiel für Freigabeanfragen von Formularen,"
+" deren Struktur im Vorhinein feststeht. Die Anfrage von spezifischen "
+"Urlaubstagen ist eine der einfachsten Aufgaben, die im Unternehmensbetrieb "
+"zwischen mehreren Personen koordiniert werden muss."
+
+#: ../../examples/approve-vacation-request.rst:21
+#: ../../examples/approve-vacation-request.rst:21
+msgid ""
+"Despite this process’ simplicity, the obvious spreadsheet plus e-mail "
+"approach leads to enough problems to make it worth using Effektif instead. "
+"In principle, it’s easy enough for one person to receive vacation requests "
+"by e-mail and maintain a spreadsheet, but this fails when this person is on "
+"vacation. This irony illustrates the need for notify a group about new "
+"unassigned tasks, so that several people can approve vacation requests "
+"between themselves."
+msgstr ""
+"Obwohl der Prozess relativ einfach ist, führt der 'Spreadsheet und "
+"Email'-Ansatz oft zu Problemen. Da eine ordentliche und effiziente "
+"Bearbeitung nur mit einem zentralen Koordinator möglich ist, entsteht ein "
+"Bottleneck, der im Falle der Abwesenheit des Koordinators zusätzlichen "
+"Kommunikationsaufwand und Koordinationsprobleme verursacht. Daher ist es "
+"sinnvoll, den Prozess über Effektif ordentlich zu strukturieren."
+
+#: ../../examples/approve-vacation-request.rst:29
+#: ../../examples/approve-vacation-request.rst:29
+msgid "Form - the employee and the requested dates."
+msgstr "Formular - der Mitarbeiter und die Urlaubsdaten"
+
+#: ../../examples/approve-vacation-request.rst:34
+#: ../../examples/approve-vacation-request.rst:34
+msgid ""
+"The process consists of a user task for a decision. The email tasks inform "
+"the employee of the decision."
+msgstr ""
+"Der Prozess enthält einen User Task für eine Entscheidung. Die Email Tasks "
+"informieren den Mitarbeiter über die Entscheidung."
+
+#: ../../examples/approve-vacation-request.rst:39
+#: ../../examples/approve-vacation-request.rst:39
+msgid ""
+"Adding a due date and reminders to the user task can help reduce cycle "
+"times."
+msgstr ""
+"Fügen Sie ein Fälligkeitsdatum zum User Task hinzu, um so kurze "
+"Durchlaufzeiten sicherzustellen."
+
+#: ../../examples/approve-vacation-request.rst:44
+#: ../../examples/approve-vacation-request.rst:44
+msgid "*Manager* - approves the request."
+msgstr "*Manager* - genehmigt die Anfrage"
+
+#: ../../examples/approve-vacation-request.rst:49
+#: ../../examples/approve-vacation-request.rst:49
+msgid ""
+"*Employee* (User, mandatory) - the employee making the request. This, plus "
+"the other fields, should be enough information for the manager to make the "
+"decision."
+msgstr ""
+"*Mitarbeiter* (Nutzer, Pflichtfeld) - der Mitarbeiter, der die Anfrage "
+"stellt."
+
+#: ../../examples/approve-vacation-request.rst:51
+#: ../../examples/approve-vacation-request.rst:51
+msgid "*Start date* (Date) - vacation start date."
+msgstr "*Startdatum* (Datum) - das Startdatum des Urlaubs"
+
+#: ../../examples/approve-vacation-request.rst:52
+#: ../../examples/approve-vacation-request.rst:52
+msgid "*End date* (Date) - vacation end date."
+msgstr "*Enddatum* (Datum) - das Enddatum des Urlaubs"
+
+#: ../../examples/approve-vacation-request.rst:57
+#: ../../examples/approve-vacation-request.rst:57
+msgid ""
+"You might extend the process with an additional task for the employee to "
+"provide additional information, or change the initial request, if the "
+"manager rejected the request. This would avoid the need for more cases than "
+"vacations, which would clutter the case view."
+msgstr ""
+"Sie können den Prozess mit einem zusätzlichen Task erweitern, um "
+"Vorgesetzten die Möglichkeit zu geben, weitere Informationen oder Änderungen"
+" anzufragen, falls die initale Urlaubsanfrage nicht genehmigt werden kann. "
+"Dies vermeidet, dass für jeden abgelehnten Urlaubszeitraum ein neuer Fall "
+"erstellt werden muss."
+
+#: ../../examples/approve-vacation-request.rst:60
+#: ../../examples/approve-vacation-request.rst:60
+msgid ""
+"You could also extend this process with additional tasks to support what "
+"happens when the employee goes on vacation, such as assigning a person to "
+"take over their work."
+msgstr ""
+"Sie können den Prozess zudem um einen Task erweitern, der die "
+"Verantwortungsübergabe vor Urlaubsbeginn unterstützt."
+
+#: ../../examples/approve-vacation-request.rst:65
+#: ../../examples/approve-vacation-request.rst:65
+msgid ""
+":ref:`Approve Document <approve-document>` handles approving a document "
+"rather than a form."
+msgstr ""
+":ref:`Dokument freigeben <approve-document>` behandelt die Freigabe eines "
+"Dokuments an Stelle eines Formulars."
+
+#: ../../examples/fill-job-vacancy.rst:4 ../../examples/fill-job-vacancy.rst:4
+msgid "Fill Job Vacancy (HR)"
+msgstr "Offenen Stelle besetzen (HR)"
+
+#: ../../examples/fill-job-vacancy.rst:9 ../../examples/fill-job-vacancy.rst:9
+msgid "Fill a vacant position within the organisation."
+msgstr "Besetzen Sie eine offene Stelle in der Organisation."
+
+#: ../../examples/fill-job-vacancy.rst:14
+#: ../../examples/fill-job-vacancy.rst:14
+msgid ""
+"The :ref:`Hire employee <hire-employee>` process is driven by job "
+"applications, and is suitable for organisations where there are usually open"
+" positions and few applicants. However, some organisations have many "
+"applicants as soon as they advertise a vacancy, and can fill it easily. In "
+"this scenario, an internal requisition for a new position drives the "
+"process."
+msgstr ""
+"Der Prozess :ref:`Mitarbeiter einstellen <hire-employee>` wird von Bewerbungen "
+"ausgelöst und ist für Organisationen mit oft durchgängig offenen Stellen und"
+" relativ wenigen Bewerbern geeignet. Einige Organisationen bekommen viele "
+"Bewerbungen sobald eine Stelle ausgeschrieben ist und die Stelle kann daher "
+"schnell besetzt werden. In unserem Beispiel wird der Prozess von der "
+"Erstellung eines neuen Stellenprofils ausgelöst."
+
+#: ../../examples/fill-job-vacancy.rst:21
+#: ../../examples/fill-job-vacancy.rst:21
+msgid "Form - describes a job requisition."
+msgstr "Formular - Beschreibt ein Stellenprofil"
+
+#: ../../examples/fill-job-vacancy.rst:26
+#: ../../examples/fill-job-vacancy.rst:26
+msgid ""
+"The core process consists of an approval for the requisition, followed by "
+"advertising the vacancy, interviewing candidates, and closing the vacancy."
+msgstr ""
+"Der Kernprozess besteht aus der Freigabe des Stellenprofils, gefolgt von der"
+" Veröffentlichung der Stellenausschreibung, dem Durchführen von Interviews "
+"und dem Schließen der Stellenausschreibung."
+
+#: ../../examples/fill-job-vacancy.rst:30
+#: ../../examples/fill-job-vacancy.rst:30
+msgid ""
+"In addition, the vacancy is passed to one or more external recruiters, by "
+"email, who may also supply applicants. A second email notifies the "
+"recruiters when the vacancy has been filled."
+msgstr ""
+"Zudem wird die Stellenausschreibung per Email an einen oder mehrere externe "
+"Recruiter geschickt. Eine zweite Email informiert die Recruiter sobald die "
+"Stelle besetzt ist."
+
+#: ../../examples/fill-job-vacancy.rst:36
+#: ../../examples/fill-job-vacancy.rst:36
+msgid ""
+"*Recruiter* - the internal HR employee who coordinates the recruitment "
+"process. The basic version of this process excludes the hiring manager, who "
+"participates in the :ref:`Hire Employee <hire-employee>` subprocess. This "
+"process also excludes the external recruiter or headhunter."
+msgstr ""
+"*Recruiter* - der interne HR-Mitarbeiter, der den Einstellungsprozess "
+"koordiniert. Die Basisversion des Prozesses berücksichtigt nicht den HR "
+"Manager, der im :ref:`Mitarbeiter einstellen <hire-employee>`-Subprozess mitwirkt, "
+"sowie externe Recruiter oder Headhunter."
+
+#: ../../examples/fill-job-vacancy.rst:42
+#: ../../examples/fill-job-vacancy.rst:42
+msgid ""
+"The trigger form defines the following fields that make up the job "
+"requisition."
+msgstr ""
+"Das Auslöserformular legt die Felder fest, aus denen die Stellenbeschreibung"
+" besteht."
+
+#: ../../examples/fill-job-vacancy.rst:44
+#: ../../examples/fill-job-vacancy.rst:44
+msgid "*Job title* (Text, required)"
+msgstr "*Jobtittel* (Text, Pflichtfeld)"
+
+#: ../../examples/fill-job-vacancy.rst:45
+#: ../../examples/fill-job-vacancy.rst:45
+msgid "*Job description* (Text)"
+msgstr "*Jobbeschreibung* (Text)"
+
+#: ../../examples/fill-job-vacancy.rst:46
+#: ../../examples/fill-job-vacancy.rst:46
+msgid "*Maximum salary* (Money)"
+msgstr "*Maximalgehalt* (Geldbetrag)"
+
+#: ../../examples/fill-job-vacancy.rst:47
+#: ../../examples/fill-job-vacancy.rst:47
+msgid "*Replaces existing position* (Yes/No)"
+msgstr "*Ersetzt besehende Position* (Ja/Nein)"
+
+#: ../../examples/fill-job-vacancy.rst:48
+#: ../../examples/fill-job-vacancy.rst:48
+msgid "*Requesting manager* (User)"
+msgstr "*Verwantwortlicher Manager* (User)"
+
+#: ../../examples/fill-job-vacancy.rst:51 ../../examples/hire-employee.rst:45
+#: ../../examples/ship-product-from-warehouse.rst:65
+#: ../../examples/sign-contract.rst:50 ../../examples/fill-job-vacancy.rst:51
+#: ../../examples/hire-employee.rst:45
+#: ../../examples/ship-product-from-warehouse.rst:65
+#: ../../examples/sign-contract.rst:50
+msgid "Enhancements"
+msgstr "Verbesserungen"
+
+#: ../../examples/fill-job-vacancy.rst:53
+#: ../../examples/fill-job-vacancy.rst:53
+msgid "To improve this process you could:"
+msgstr "Zur Verbesserung des Prozesses können Sie:"
+
+#: ../../examples/fill-job-vacancy.rst:55
+#: ../../examples/fill-job-vacancy.rst:55
+msgid ""
+"extend the trigger form to include more structured information about the job"
+" vacancy"
+msgstr ""
+"das Auslöserformular erweitern, sodass weitere strukturierte Informationen "
+"hinterlegt werden können"
+
+#: ../../examples/fill-job-vacancy.rst:56
+#: ../../examples/fill-job-vacancy.rst:56
+msgid "skip the initial requisition approval to simplify the process"
+msgstr ""
+"die initiale Freigabe des Stellenprofils weglassen um den Prozess zu "
+"vereinfachen"
+
+#: ../../examples/fill-job-vacancy.rst:57
+#: ../../examples/fill-job-vacancy.rst:57
+msgid "elaborate the requisition approval with correction steps"
+msgstr "die Freigabe des Stellenprofils um Korrekturschritte erweitern"
+
+#: ../../examples/fill-job-vacancy.rst:58
+#: ../../examples/fill-job-vacancy.rst:58
+msgid ""
+"do the *Publish vacancy on web site* task in parallel with other ways to "
+"announce the vacancy, such as advertising"
+msgstr ""
+"den Task *Stellenausschreibung auf Website veröffentlichen* parallel zu "
+"weiteren Tasks ausführen, die die Ausschreibung über weitere Kanäle "
+"veröffentlichen."
+
+#: ../../examples/fill-job-vacancy.rst:59
+#: ../../examples/fill-job-vacancy.rst:59
+msgid ""
+"expand the interview task to include the whole individual recruitment "
+"process, as in :ref:`Hire employee <hire-employee>`."
+msgstr ""
+"den Interview-Task erweitern, sodass er den gesamten Einstellungsprozess "
+"abbildet, wie unter :ref:`Mitarbeiter einstellen <hire-employee>` beschrieben."
+
+#: ../../examples/follow-up-contact.rst:4
+#: ../../examples/follow-up-contact.rst:4
+msgid "Follow-up Contact (sales)"
+msgstr "Follow-up von Geschäftskontakt durchführen"
+
+#: ../../examples/follow-up-contact.rst:9
+#: ../../examples/follow-up-contact.rst:9
+msgid "Develop a business contact into a sales opportunity."
+msgstr "Entwickeln Sie einen Geschäftskontakt zu einer Sales Opportunity"
+
+#: ../../examples/follow-up-contact.rst:14
+#: ../../examples/follow-up-contact.rst:14
+msgid ""
+"Sales managers often have a large number of meetings with both qualified "
+"prospects and ad hoc contacts. They may use triage to prioritise follow-up, "
+"in order to maximise the number of qualified leads. To do this, the sales "
+"manager might write on their new contact’s business card, after their first "
+"meeting, to indicate whether to follow up *now*, *later* or *never*. "
+"Responding *now* might mean requesting another meeting, while *later* could "
+"mean sending a friendly but non-committal response. Although a simple to do "
+"list application might provide enough functionality for this scenario, the "
+"benefit of using Effektif is that the case view provides a convenient place "
+"to collect more information about each contact, but without the complexity "
+"of a full-featured sales pipeline tool."
+msgstr ""
+"Salesmanager haben typischerweise viele Meetings mit sowohl qualifizierten "
+"Prospects als auch spontanen Kontaktpartnern. Daher ist es notwendig, eine "
+"Einstufung vorzunehmen, um die Nummer qualifizierter Leads zu maximieren. "
+"Traditionell geschieht diese Einstufung oft über Vermerke auf Visitenkarten."
+" Zum Beispiel kann dort vermerkt werden, ob ein Follow-Up *jetzt*, *später* "
+"oder *nie* passieren soll. Der Einstufung entsprechend kann direkt ein "
+"Meeting vereinbart oder eine freundliche Email versendet werden. Effektif "
+"ermöglicht es, den Prozess zu strukturieren und die Fälle zentral zu "
+"verwalten - ohne dass es notwendig ist, ein komplettes Sales-Pipeline Tool "
+"zu erwerben und zu konfigurieren."
+
+#: ../../examples/follow-up-contact.rst:22
+#: ../../examples/follow-up-contact.rst:22
+msgid ""
+"Form - specifies the contact’s name and contact details, or perhaps a scan "
+"of the business card."
+msgstr ""
+"Formular - spezifiziert den Kontaktnamen und Kontaktdetails oder "
+"möglicherweise einen Scan der Visitenkarte."
+
+#: ../../examples/follow-up-contact.rst:27
+#: ../../examples/follow-up-contact.rst:27
+msgid ""
+"This process records the result of a business meeting by triaging contacts "
+"according to what follow-up they require."
+msgstr ""
+"Der Prozess dokumentiert das Ergebnis eines Geschäftsmeetings, indem es "
+"Kontakte den Follow-Up-Anforderungen entsprechend einstuft."
+
+#: ../../examples/follow-up-contact.rst:34
+#: ../../examples/follow-up-contact.rst:34
+msgid ""
+"*Sales Manager* - member of a business development team. This is the only "
+"role, as this process does not include collaboration with team members."
+msgstr ""
+"*Salesmanager* - Mitarbeiter eines Business Development-Teams. Dies ist die "
+"einzige Rolle, da der Prozess keine Collaboration mit Kollegen erfordert."
+
+#: ../../examples/follow-up-contact.rst:40
+#: ../../examples/follow-up-contact.rst:40
+msgid ""
+"The process data consists of whatever information the sales manager uses to "
+"triage the contact and follow up."
+msgstr ""
+"Die Datengrundlage des Prozesses basiert auf den Informationen, die der "
+"Salesmanager für die Einstufung und das Follow-Up benötigt."
+
+#: ../../examples/follow-up-contact.rst:42
+#: ../../examples/follow-up-contact.rst:42
+msgid ""
+"*Contact name* (Text, required) - the name of the prospect - the potential "
+"customer."
+msgstr "*Kontaktname* (Text, Pflichtfeld) - der Name des potentiellen Kunden"
+
+#: ../../examples/follow-up-contact.rst:43
+#: ../../examples/follow-up-contact.rst:43
+msgid ""
+"*Telephone number* (Text) - the contact’s phone number, in case the sales "
+"manager doesn’t use an external address book."
+msgstr ""
+"*Telefonnummer* (Text) - die Telefonnummer des Kontakts, falls der "
+"Salesmanager kein externes Adressbuch verwendet."
+
+#: ../../examples/follow-up-contact.rst:44
+#: ../../examples/follow-up-contact.rst:44
+msgid ""
+"*Job title, Company* (Text) - the contact’s job, which the sales manager "
+"might use to prioritise and triage the contact."
+msgstr ""
+"*Jobtittel, Firma* (Text) - der Job des Kontakts, den der Salesmanager "
+"möglicherweise bei der Einstufung berücksichtigt."
+
+#: ../../examples/follow-up-contact.rst:49
+#: ../../examples/follow-up-contact.rst:49
+msgid ""
+"You could extend this process to include the next steps in the larger sales "
+"process, following the first sales meeting, such as a product demo."
+msgstr ""
+"Sie können diesen Prozess erweitern, sodass er die nächsten Schritte des "
+"Salesprozesses enthätl, zum Beispiel die Durchführung einer Produktdemo."
+
+#: ../../examples/follow-up-contact.rst:51
+#: ../../examples/follow-up-contact.rst:51
+msgid ""
+"Setting up meetings might involve introducing a collaboration with a "
+"secretary. Similarly, a demo might requires collaboration with a product "
+"specialist."
+msgstr ""
+"Die Meetingsfindung kann Koordination mit einem Sekretär erfordern. "
+"Entsprechend kann die Demo die Zusammenarbeit mit einer Produktspezialistin "
+"voraussetzen."
+
+#: ../../examples/fulfil-purchase-order.rst:4
+#: ../../examples/fulfil-purchase-order.rst:4
+msgid "Fulfil Purchase Order (sales)"
+msgstr "Produktbestellung bearbeiten"
+
+#: ../../examples/fulfil-purchase-order.rst:9
+#: ../../examples/fulfil-purchase-order.rst:9
+msgid ""
+"Fulfil a customer’s purchase order, e.g by shipping a product, and issuing "
+"an invoice."
+msgstr ""
+"Das Prozessziel ist die Bearbeitung einer Kundenbestellung, also das "
+"Versenden der Produkte und die Ausstellung einer Rechnung."
+
+#: ../../examples/fulfil-purchase-order.rst:14
+#: ../../examples/fulfil-purchase-order.rst:14
+msgid ""
+"The core activities of many companies are selling things to their customers "
+"and giving them what they are paying for. Different companies’ high-level "
+"processes have much in common, which forms a basis for a purchase order "
+"process. Meanwhile, variations between these companies, and their customers "
+"and products, result in different implementations."
+msgstr ""
+"Die Kernaktivitäten vieler Firmen sind der Verkauf und die Lieferung von "
+"Produkten zu Kunden. Die High-Level-Prozesse vieler Firmen sind sehr "
+"ähnlich, sodass es möglich ist, generische Prozessblaupausen zu erstellen. "
+"Natürlich können diese Blaupausen anschließend individuell implementiert "
+"werden, um den Unterschieden der Firmen, Produkten und Zielgruppen gerecht "
+"zu werden."
+
+#: ../../examples/fulfil-purchase-order.rst:21
+#: ../../examples/fulfil-purchase-order.rst:21
+msgid "Form - provides the purchase order."
+msgstr "Forumlar - stellt die Bestellung dar."
+
+#: ../../examples/fulfil-purchase-order.rst:26
+#: ../../examples/fulfil-purchase-order.rst:26
+msgid ""
+"In this process, an incoming purchase order form essentially triggers two "
+"tasks: *Fulfil order* and *Issue invoice*."
+msgstr ""
+"In diesem Prozess triggert eine Bestellung zwei Tasks: *Produkte "
+"verschicken* und *Rechnung stellen*."
+
+#: ../../examples/fulfil-purchase-order.rst:30
+#: ../../examples/fulfil-purchase-order.rst:30
+msgid ""
+"To prevent an exception when the purchase order cannot be fulfilled due to "
+"lack of stock, the workflow starts with a check task and a waiting task. "
+"This *Wait for available stock* task uses reminders to prompt the user to "
+"check every day until the wait is complete, after which the order can "
+"presumably be accepted. The trigger form captures the customer e-mail "
+"address, so that rejecting the invoice with a rejection reason can use a "
+":ref:`Send E-mail <send-email>` task to send a notification."
+msgstr ""
+"Um zu verhindern, dass im späteren Prozessverlauf ein Problem aufgrund von "
+"mangelndem Lagerbestand auftritt, wird zu Beginn abgefragt, ob die Produkte "
+"verfügbar sind. Der Task *Auf Wareneingang warten* triggert eine tägliche "
+"Überprüfung des Lagerbestandes, solange die bestellten Produkte nicht "
+"vorhanden sind. Da das Auslöserformular die Emailadresse des Kunden enthält,"
+" kann eine Ablehungsemail automatisch über einen :ref:`Email senden <send-"
+"email>`-Task verschickt werden."
+
+#: ../../examples/fulfil-purchase-order.rst:37
+#: ../../examples/fulfil-purchase-order.rst:37
+msgid ""
+"*Warehouse operator* - a person who works in the warehouse and ships "
+"customer orders."
+msgstr ""
+"*Lagermitarbeiter* - eine Person, die die Produkte im Lager für den Versand "
+"vorbereitet"
+
+#: ../../examples/fulfil-purchase-order.rst:38
+#: ../../examples/fulfil-purchase-order.rst:38
+msgid ""
+"*Financial administrator* - a member of the finance team, who issues "
+"invoices."
+msgstr ""
+"*Finanzadministrator* - Mitarbeiter des Finanzteams, der die Rechnungen "
+"erstellt"
+
+#: ../../examples/fulfil-purchase-order.rst:43
+#: ../../examples/fulfil-purchase-order.rst:43
+msgid ""
+"*Purchase order* (File, required) - the complete order details, including "
+"order lines. Effektif forms don’t support tabular data, so you cannot enter "
+"order lines normally."
+msgstr ""
+"*Bestellung* - (Datei, Pflichtfeld) - die kompletten Bestellinformationen in"
+" tabellarischer Form. Da Effektif keine Tabellen unterstützt, können diese "
+"Informationen nicht direkt im Formular gepflegt werden."
+
+#: ../../examples/fulfil-purchase-order.rst:45
+#: ../../examples/fulfil-purchase-order.rst:45
+msgid ""
+"*PO reference* (Text, required) - the purchase order reference, extracted "
+"from the purchase order itself, to identify the case in Effektif"
+msgstr ""
+"*Bestellreferenz* (Text, Pflichtfeld) - die Bestellreferenz aus dem "
+"Bestelldokument, um den Fall in Effektif identifizieren zu können"
+
+#: ../../examples/fulfil-purchase-order.rst:46
+#: ../../examples/fulfil-purchase-order.rst:46
+msgid ""
+"*Customer email* (Email address, required) - used to send notifications."
+msgstr ""
+"*Kundenemail* (Emailadresse, Pflichtfeld) - um Benachrichtigungen zu "
+"versenden."
+
+#: ../../examples/fulfil-purchase-order.rst:51
+#: ../../examples/fulfil-purchase-order.rst:51
+msgid "To extend this basic process, you could:"
+msgstr "Um den Prozess zu erweitern, können Sie:"
+
+#: ../../examples/fulfil-purchase-order.rst:53
+#: ../../examples/fulfil-purchase-order.rst:53
+msgid ""
+"include the whole *Close customer invoice* process, replacing the final "
+"*Issue invoice* task, to make this an order-to-cash process"
+msgstr ""
+"den kompletten *Kundenrechnung schließen*-Prozess miteinbeziehen (den "
+"*Rechnung stellen*-Task ersetzen), um so einen kompletten *Bestellung-zu-"
+"Einnahmen*-Prozess abzubilden."
+
+#: ../../examples/fulfil-purchase-order.rst:54
+#: ../../examples/fulfil-purchase-order.rst:54
+msgid ""
+"replace the *Wait for available stock* task with an automated version that "
+"precedes the *Check purchase order* task, so that the order only gets a "
+"manual manual check once the stock is available"
+msgstr ""
+"den Task *Auf Wareneingang warten* automatisieren, sodass eine manuelle "
+"Prüfung nur dann durchgeführt werden muss, sobald die Waren vorliegen."
+
+#: ../../examples/fulfil-purchase-order.rst:55
+#: ../../examples/fulfil-purchase-order.rst:55
+msgid ""
+"perform the *Fulfil order* and *Issue invoice* tasks in parallel, depending "
+"on how exceptions in *Fulfil order* are handled"
+msgstr ""
+"die Tasks *Produkte verschicken* und *Rechnung stellen* parallel ausführen"
+
+#: ../../examples/fulfil-purchase-order.rst:56
+#: ../../examples/fulfil-purchase-order.rst:56
+msgid ""
+"replace the order form file upload with separate form fields, using a list "
+"of text values for the order lines, with each order line - product code, "
+"description and quantity - in one text value."
+msgstr ""
+"ersetzen Sie das Uploadformular für die Bestellung durch mehrere "
+"Formularfelder des Typs 'Liste', wobei jeder Bestellposten - Produktcode, "
+"Beschreibung und Menge - einen Textwert ausmacht."
+
+#: ../../examples/hire-employee.rst:4 ../../examples/hire-employee.rst:4
+msgid "Hire Employee (HR)"
+msgstr "Mitarbeiter einstellen (HR)"
+
+#: ../../examples/hire-employee.rst:9 ../../examples/hire-employee.rst:9
+msgid "Send a job offer letter to a successful job applicant."
+msgstr ""
+"Das Prozessziel ist, einem erfolgreichen Bewerber ein Jobangebot zuzusenden."
+
+#: ../../examples/hire-employee.rst:14 ../../examples/hire-employee.rst:14
+msgid ""
+"Recruiting an employee requires a long elapsed time to complete - typically "
+"a couple of months - and involves a number of people. Unless very few people"
+" apply for jobs, the recruitment team will have to handle a large number of "
+"cases at the same time. This is a complex process whose tasks will be "
+"assigned to the different people who perform different tasks, such as "
+"interviewing or preparing a contract."
+msgstr ""
+"Die Recruitierung eines Mitarbeiters zieht sich in der Regel eine Zeit lang "
+"hin - oft über mehrere Monate - und setzt die Beteiligung verschiedenster "
+"Personen voraus. Häufig muss das Recruitment-Team eine hohe Anzahl an "
+"Bewerbungen gleichzeitig bearbeiten. Im Zuge eines Prozesses werden die "
+"verschiedenen Aufgaben - wie Interviews und Vertragsausarbeitung - jeweils "
+"von Spezialisten übernommen."
+
+#: ../../examples/hire-employee.rst:21 ../../examples/hire-employee.rst:21
+msgid "Form - for uploading the candidate’s CV."
+msgstr "Formular - für das Hochladen des Lebenslaufs des Bewerbers."
+
+#: ../../examples/hire-employee.rst:26 ../../examples/hire-employee.rst:26
+msgid ""
+"A recruitment process consists of a series of decisions, to reject the "
+"candidate or cointinue. This simplified process has these decision points "
+"after evaluating the applicant’s CV and a single interview."
+msgstr ""
+"Ein Bewerbungsprozess beinhaltet eine Reihe von Entscheidungen, die jeweils "
+"ein Fortfahren mit dem Bewerbungsprozess oder eine Ablehnung nach sich "
+"ziehen. In diesem vereinfachten Prozess sind Entscheidungen nach der "
+"Bewertung des Lebenslaufs und nach einem Interview notwendig."
+
+#: ../../examples/hire-employee.rst:30 ../../examples/hire-employee.rst:30
+msgid ""
+"If the hiring manager rejects the applicant at either stage, Effektif sends "
+"a standard rejection email."
+msgstr ""
+"Falls der Personalverantwortlicher die Bewerbung nach einer der "
+"Entscheidungen ablehnt, verschickt Effektif eine Standardemail, die die "
+"Ablehnung enthält."
+
+#: ../../examples/hire-employee.rst:35 ../../examples/hire-employee.rst:35
+msgid ""
+"*Hiring manager* - the person who takes responsibility for assessing a "
+"candidate and whether to reject the candidate or proceed: the *Evaluate CV* "
+"and *Interview candidate* tasks."
+msgstr ""
+"*Personalverantwortlicher* - Die Person, die den Lebenslauf evaluiert und "
+"das Interview durchführt und über eine etwaige Ablehnung entscheidet."
+
+#: ../../examples/hire-employee.rst:36 ../../examples/hire-employee.rst:36
+msgid ""
+"*Recruiter* - an HR assistant who coordinates the recruitment process: the "
+"*Plan interview* and *Send job offer* tasks."
+msgstr ""
+"*Recruiter* ein HR Assistent, der die Tasks *Interview planen* und "
+"*Jobangebot versenden* übernimmt."
+
+#: ../../examples/hire-employee.rst:41 ../../examples/hire-employee.rst:41
+msgid ""
+"*CV* (File, mandatory) - the applicant’s CV, provided by the trigger form."
+msgstr ""
+"*Lebenslauf* (Datei, Pflichtfeld) - der Lebenslauf des Bewerbers wird über "
+"das Auslöserformular bereitgestellt."
+
+#: ../../examples/hire-employee.rst:42 ../../examples/hire-employee.rst:42
+msgid ""
+"*Candidate email* (Email address, mandatory) - the email address that "
+"Effektif uses to send a rejection email."
+msgstr ""
+"*Emailadresse des Bewerbers* (Emailadresse, Pflichtfeld) - die Emailadresse,"
+" an die Effektif gegebenenfalls automatisch eine Ablehungsemail verschickt."
+
+#: ../../examples/hire-employee.rst:47 ../../examples/hire-employee.rst:47
+msgid ""
+"The trigger form could allow uploading additional documents, such as a "
+"covering letter, which some organisations like to receive."
+msgstr ""
+"Das Auslöserformular kann zudem das Hochladen weiterer Dokumente, wie zum "
+"Beispiel Anschreiben und Referenzen, erlauben."
+
+#: ../../examples/hire-employee.rst:48 ../../examples/hire-employee.rst:48
+msgid ""
+"Instead of a trigger form, use an e-mail trigger to accept applications by "
+"e-mail, including the CV as an attachment."
+msgstr ""
+"Anstelle eines Auslöserformulars kann ein Emailauslöser verwendet werden. "
+"Der Lebenslauf kann über den Anhang der Email übertragen werden."
+
+#: ../../examples/hire-employee.rst:49 ../../examples/hire-employee.rst:49
+msgid ""
+"If the organisation has to deal with a high case volume, the trigger form "
+"could capture information that could be used to prioritise cases, such as "
+"the *Candidate availability date*."
+msgstr ""
+"Falls Ihre Organisation sehr viele Bewerbungen bearbeiten muss, können Sie "
+"Felder zur Priorisierung im Formular bereitstellen, wie zum Beispiel das "
+"*Verfügbarkeitsdatum* des Bewerbers."
+
+#: ../../examples/hire-employee.rst:50 ../../examples/hire-employee.rst:50
+msgid ""
+"The trigger form could include additional information to allow automatic "
+"pre-screening, if there are situations that would mean that it’s not worth "
+"starting the process, such as no work visa."
+msgstr ""
+"Das Auslöserformular kann zudem weitere Felder zur Vorauswahl enthalten, zum"
+" Beispiel wenn ein valides Arbeitsvisum eine zwingende Voraussetzung ist."
+
+#: ../../examples/hire-employee.rst:51 ../../examples/hire-employee.rst:51
+msgid ""
+"You could add additional interview stages, such as a telephone screen, "
+"second interview, or a post-offer visit."
+msgstr ""
+"Desweiteren können Sie zusätzliche Interviews einführen, wie zum Beispiel "
+"ein Telefon-Screening, ein weiteres On-Site-Interview oder ein "
+"Kennenlerntreffen nach einem Angebot."
+
+#: ../../examples/initiate-project.rst:4 ../../examples/initiate-project.rst:4
+msgid "Initiate Project (project delivery)"
+msgstr "Projekt initiieren (Projektmanagement)"
+
+#: ../../examples/initiate-project.rst:9 ../../examples/initiate-project.rst:9
+msgid ""
+"Complete checklists that capture basic information when starting a new "
+"project."
+msgstr ""
+"Eine komplette Checkliste, die die Basisinformationen für einen neuen "
+"Projektstart enthält."
+
+#: ../../examples/initiate-project.rst:14
+#: ../../examples/initiate-project.rst:14
+msgid ""
+"When a project organisation starts a new project, the project team (or "
+"project manager) needs to capture a project overview that introduces the "
+"project and how it will work to other stakeholders. However, there never "
+"seems to be time to write detailed documentation at the start of the "
+"project. You can use a checklist to capture a set of tasks that might "
+"otherwise get forgotten, without any particular structure or sequence to the"
+" process. The main value of a checklist is to identify tasks that might "
+"otherwise be forgotten. A project initiation checklist addresses questions "
+"about the project’s overview and the project plan. An Effektif process can "
+"present simple forms that guide this initial data collection."
+msgstr ""
+
+#: ../../examples/initiate-project.rst:24
+#: ../../examples/initiate-project.rst:24
+msgid "Manual."
+msgstr "Manuell."
+
+#: ../../examples/initiate-project.rst:29
+#: ../../examples/initiate-project.rst:29
+msgid ""
+"This process represents a checklist with one user task for each piece of "
+"required project documentation. Each user task adds a level of detail by "
+"splitting these project initiation summaries into sections."
+msgstr ""
+"Der Prozess bildet eine Checkliste ab. Jeder Nutzertask entspricht der "
+"Beschaffung eines Informationsobjekts. Hierdurch wird die "
+"Projektbeschreibung in mehrere Abschnitte unterteilt."
+
+#: ../../examples/initiate-project.rst:34
+#: ../../examples/initiate-project.rst:34
+msgid "The project manager can complete these tasks in any order."
+msgstr ""
+"Der Projektmanager kann die Tasks in einer beliebigen Reihenfolge "
+"abschließen."
+
+#: ../../examples/initiate-project.rst:39
+#: ../../examples/initiate-project.rst:39
+msgid ""
+"*Project manager* - responsible for capturing the project summaries. In "
+"practice, the project manager may delegate these tasks to other team "
+"members, by assigning the user tasks."
+msgstr ""
+"*Projektmanager* - verantwortlich für die Erstellung der "
+"Projektbeschreibung. In der Praxis kann der Projektmanager diese Aufgaben "
+"delegieren, indem er die User Tasks seinen Mitarbeitern zuweist."
+
+#: ../../examples/initiate-project.rst:45
+#: ../../examples/initiate-project.rst:45
+msgid "The *Project overview* task includes the following fields."
+msgstr "Der *Projektüberblick*-Task beinhaltet die folgenden Felder."
+
+#: ../../examples/initiate-project.rst:47
+#: ../../examples/initiate-project.rst:47
+msgid "*Business context* (Text)"
+msgstr "*Businesskontext* (Text)"
+
+#: ../../examples/initiate-project.rst:48
+#: ../../examples/initiate-project.rst:48
+msgid "*Vision* (Text)"
+msgstr "*Vision* (Text)"
+
+#: ../../examples/initiate-project.rst:49
+#: ../../examples/initiate-project.rst:49
+msgid "*Goals* (Text, multiple values)"
+msgstr "*Goals* (Text, Liste)"
+
+#: ../../examples/initiate-project.rst:50
+#: ../../examples/initiate-project.rst:50
+msgid "*Deliverables* (Text, multiple values)"
+msgstr "*Deliverables* (Text, Liste)"
+
+#: ../../examples/initiate-project.rst:52
+#: ../../examples/initiate-project.rst:52
+msgid "Similarly, the *Project plan* task captures a summary for each of:"
+msgstr "Der *Projektplan* enthält dementsprechend:"
+
+#: ../../examples/initiate-project.rst:54
+#: ../../examples/initiate-project.rst:54
+msgid "*Resources* (Text, multiple values)"
+msgstr "*Ressourcen* (Text, Liste)"
+
+#: ../../examples/initiate-project.rst:55
+#: ../../examples/initiate-project.rst:55
+msgid "*Approach* (Text)"
+msgstr "*Ansatz* (Text)"
+
+#: ../../examples/initiate-project.rst:56
+#: ../../examples/initiate-project.rst:56
+msgid "*Start date* (Date)"
+msgstr "*Startdatum* (Datum)"
+
+#: ../../examples/initiate-project.rst:57
+#: ../../examples/initiate-project.rst:57
+msgid "*Success factors* (Text, multiple values)"
+msgstr "*Erfolgsfaktoren* (Text, Liste)"
+
+#: ../../examples/initiate-project.rst:58
+#: ../../examples/initiate-project.rst:58
+msgid "*Risks* (Text, multiple values)"
+msgstr "*Risiken* (Text, Liste)"
+
+#: ../../examples/initiate-project.rst:60
+#: ../../examples/initiate-project.rst:60
+msgid ""
+"You could simplify these forms by using *Yes/No* choices instead of text "
+"fields, turning each task into a checklist of its own. However, asking "
+"questions like *Do you have a project vision?* does not focus the mind as "
+"well as trying to write a well-formed sentence, which makes you think about "
+"about it the question more and forces you to prove that you have an answer."
+msgstr ""
+"Sie können die Formulare vereinfachen, indem Sie *Ja/Nein*-Felder anstelle "
+"von Textfeldern verwenden. So wird aus jedem Task eine Checkliste. "
+"Allerdings fördern offene Fragen eine tiefere Auseinandersetzung mit der "
+"entsprechenden Problematik, während Checklisten zum reflexartigen Abhaken "
+"einladen."
+
+#: ../../examples/initiate-project.rst:66
+#: ../../examples/initiate-project.rst:66
+msgid ""
+"In general, you will extend this process with additional checklist tasks for"
+" work that is part of project initiation. You can extend this process to "
+"include a project approval task, based on the information given."
+msgstr ""
+"Sie können den Prozess natürlich um zusätzliche Tasks erweitern, die zur "
+"Projektinitiierung notwendig sind. Zudem können Sie eine Freigabetask "
+"anfügen."
+
+#: ../../examples/invoice-customer.rst:4 ../../examples/invoice-customer.rst:4
+msgid "Invoice Customer (finance)"
+msgstr "Rechnung erstellen (Finanzen)"
+
+#: ../../examples/invoice-customer.rst:9 ../../examples/invoice-customer.rst:9
+msgid "Get a customer invoice paid and closed."
+msgstr ""
+"Das Ziel ist es eine Rechnung zu versenden und den Zahlungseingang "
+"sicherzustellen."
+
+#: ../../examples/invoice-customer.rst:14
+#: ../../examples/invoice-customer.rst:14
+msgid ""
+"In any business, the most obvious example critical process is getting paid "
+"by customers. This starts with sending invoices but also includes follow-up "
+"for outstanding invoices. This follow-up is usually necessary in practice, "
+"because customers cannot always be relied upon to pay on time."
+msgstr ""
+"Die Sicherstellung der Bezahlung durch Kunden ist ein wichtiger Prozess in "
+"jedem Betrieb. Der Prozess beginnt mit dem Versenden der Rechnung und "
+"beinhaltet Erinnerungen falls Rechnungen nicht direkt bezahlt werden."
+
+#: ../../examples/invoice-customer.rst:21
+#: ../../examples/invoice-customer.rst:21
+msgid ""
+"Form - an uploaded invoice from a separate process, and customer contact "
+"details."
+msgstr ""
+"Forumlar - die Rechnungsdatei aus einem separaten Prozess sowie "
+"Kundenkontaktdaten."
+
+#: ../../examples/invoice-customer.rst:26
+#: ../../examples/invoice-customer.rst:26
+msgid ""
+"This process uses a user task to capture key information about an invoice, "
+"which Effektif then sends automatically by e-mail. Another task checks for "
+"payment, with a due date based on the invoice payment terms."
+msgstr ""
+"Dieser Prozess nimmt die Rechnungsinformationen über einen User Task auf. "
+"Effektif verschickt die Rechnung anschließend automatisch per Email. Ein "
+"weiterer Tasks überprüft, ob die Rechnung zur festgelegten Deadline bezahlt "
+"wurde."
+
+#: ../../examples/invoice-customer.rst:31
+#: ../../examples/invoice-customer.rst:31
+msgid ""
+"To reduce the number of unpaid invoices due to errors, this process starts "
+"with a *Check invoice* task. The assignee checks the information on the "
+"invoice, perhaps by comparing it to a purchase order, and then optionally "
+"replaces the invoice with a new corrected version."
+msgstr ""
+"Um Fehler zu vermeiden, wird der Task *Rechnung überprüfen* direkt nach "
+"Prozessstart ausgeführt. Als Überprüfungsgrundlage kann beispielsweise das "
+"Bestelldokument dienen. Fall notwendig wird die Rechnung durch eine "
+"korrigierte Version ersetzt."
+
+#: ../../examples/invoice-customer.rst:34
+#: ../../examples/invoice-customer.rst:34
+msgid ""
+"The *Send Invoice* task automatically emails the invoice to the customer, "
+"and a *Check for payment* task requires the finance administrator to check "
+"for customer payment. If the customer has not paid by the invoice by the "
+"payment terms deadline, then Effektif sends a reminder email followed by a "
+"user task that uses daily reminders to chase the process."
+msgstr ""
+"Der *Rechnung senden*-Task schickt die Rechnung automatisch zum Kunden. Der "
+"Task *Zahlungseingang überprüfen* wird von einem Finanzadministrator "
+"ausgeführt. Falls der Kunde bis zur Deadline nicht bezahlt hat, verschickt "
+"Effektif automatisch eine Erinnerung und falls dieser nicht nachgekommen "
+"wird, wird der Vorgang zurück zum Finanzadministrator eskaliert."
+
+#: ../../examples/invoice-customer.rst:40
+#: ../../examples/invoice-customer.rst:40
+msgid ""
+"*Finance administrator* - responsible for handling invoices within the "
+"company’s finance department."
+msgstr ""
+"*Finanzadministrator* - verantwortlich für die Verwaltung von Rechnung "
+"innerhalb der Finanzabteilung der Firma."
+
+#: ../../examples/invoice-customer.rst:45
+#: ../../examples/invoice-customer.rst:45
+msgid ""
+"*Invoice* (File, mandatory) - produced by a separate process, typically a "
+"formatted PDF document."
+msgstr ""
+"*Rechnung* (Datei, Pflichtfeld) - generiert durch einen separaten Prozess "
+"und typischerweise im PDF-Format."
+
+#: ../../examples/invoice-customer.rst:46
+#: ../../examples/invoice-customer.rst:46
+msgid "*Customer e-mail* (E-mail address) - for notifications"
+msgstr "*Kundenemail* (Emailadresse) - für Benachrichtigungen"
+
+#: ../../examples/invoice-customer.rst:51
+#: ../../examples/invoice-customer.rst:51
+msgid ""
+"You may add a reminder email to the process, to prompt the customer to pay "
+"before the payment terms run out."
+msgstr ""
+"Sie können einen weiteren Task hinzufügen, um den Kunden schon kurz *vor* "
+"Ablaufen der Deadline zu erinnern."
+
+#: ../../examples/open-new-customer-account.rst:4
+#: ../../examples/open-new-customer-account.rst:4
+msgid "Open New Customer Account (banking)"
+msgstr "Neues Kundenkonto eröffnen (Banking)"
+
+#: ../../examples/open-new-customer-account.rst:9
+#: ../../examples/open-new-customer-account.rst:9
+msgid "Create a new customer bank account for a retail bank."
+msgstr ""
+"Das Prozessziel ist die Eröffnung eines Kundenkontos in einer "
+"Privatkundenbank."
+
+#: ../../examples/open-new-customer-account.rst:14
+#: ../../examples/open-new-customer-account.rst:14
+msgid ""
+"Retail banking handles many high volume processes by standardising and "
+"optimising them, especially customer contact processes. Customer contact "
+"starts with opening a new account."
+msgstr ""
+"Im Privatkundenbanking ist es wichtig, die vielen high-volume Prozesse zu "
+"standardisieren und optimieren. Dies ist besonders wichtig, wenn "
+"Kundenkontakt Teil des Prozesses ist. Kundenkontakt startet hier mit der "
+"Eröffnung eines neuen Kontos."
+
+#: ../../examples/open-new-customer-account.rst:17
+#: ../../examples/open-new-customer-account.rst:17
+msgid ""
+"This on-boarding business process has parallels in other service industries."
+" A similar ‘new customer account’ process might apply to insurance products,"
+" local utilities or telecoms. In each case, a customer applies for the "
+"service and receives either a rejection, or a confirmation as well as "
+"(optionally) a ‘starter pack’."
+msgstr ""
+"Dieser Onboardingprozess weist Parallelen zu anderen Serviceindustrien auf. "
+"Ähnliche Prozesse können zum Beispiel im Versicherungs-, Telko- oder "
+"Energieversorgungsbereich existieren. In jedem Fall beantragt ein Kunde ein "
+"längerfristiges Dienstleistungsangebot und erhält entweder eine Absage oder "
+"eine Bestätigung und möglicherweise ein 'Starter Pack'."
+
+#: ../../examples/open-new-customer-account.rst:24
+#: ../../examples/open-new-customer-account.rst:24
+msgid ""
+"Form - a completed customer application. The bank employee may use this "
+"information or additional documentation to reject the application."
+msgstr ""
+"Formular - ein ausgefüllter Kundenantrag. Der Bankangestellte kann dieses "
+"Dokument ablehnen oder bestätigen."
+
+#: ../../examples/open-new-customer-account.rst:30
+#: ../../examples/open-new-customer-account.rst:30
+msgid ""
+"This process consists of a series of checks, followed by tasks to set-up a "
+"new account, if the bank employee approved the customer’s request for a new "
+"account."
+msgstr ""
+"Der Prozess besteht aus einer Reihe von Überprüfungen, gefolgt von Aufgaben "
+"die das neue Konto erstellen, falls der Antrag genehmigt wird."
+
+#: ../../examples/open-new-customer-account.rst:34
+#: ../../examples/open-new-customer-account.rst:34
+msgid ""
+"This structure makes this process similar to other approval processes, "
+"including the rejection notification tasks. If the bank employee accepts the"
+" application, then the bank allocates a new account number and then performs"
+" a several account set-up tasks in parallel."
+msgstr "Von der Struktur her ähnelt der Prozess einem Freigabeprozess"
+
+#: ../../examples/open-new-customer-account.rst:40
+#: ../../examples/open-new-customer-account.rst:40
+msgid "*Bank employee* - responsible for the whole account creation process."
+msgstr ""
+"*Bankangestellter* - verantwortlich für den gesamten "
+"Kontoerstellungsprozess."
+
+#: ../../examples/open-new-customer-account.rst:45
+#: ../../examples/open-new-customer-account.rst:45
+msgid "The process starts with initial information from the customer:"
+msgstr "Zum Prozessstart liegen die folgenden Kundeninformationen vor:"
+
+#: ../../examples/open-new-customer-account.rst:47
+#: ../../examples/open-new-customer-account.rst:47
+msgid "*Customer name* (Text, mandatory)"
+msgstr "*Kundenname* (Text, Pflichtfeld)"
+
+#: ../../examples/open-new-customer-account.rst:48
+#: ../../examples/open-new-customer-account.rst:48
+msgid "*Address* (Text, mandatory)"
+msgstr "*Addresse* (Text, Pflichtfeld)"
+
+#: ../../examples/open-new-customer-account.rst:49
+#: ../../examples/open-new-customer-account.rst:49
+msgid "*Date of birth* (Date, mandatory)"
+msgstr "*Geburtsdatum* (Datum, Pflichtfeld)"
+
+#: ../../examples/open-new-customer-account.rst:50
+#: ../../examples/open-new-customer-account.rst:50
+msgid "*Contact e-mail* (Email address, mandatory)"
+msgstr "*Emailadresse* (Emailadresse, Pflichtfeld)"
+
+#: ../../examples/open-new-customer-account.rst:51
+#: ../../examples/open-new-customer-account.rst:51
+msgid ""
+"*Supporting documentation* (File, multiple values) - additional documents, "
+"such as proof of address, which might be specified individually."
+msgstr ""
+"*Nachweisdokumente* (Datei, Liste) - zusätzliche Dokumente wie "
+"Adressnachweis oder Kopie des Personalausweises."
+
+#: ../../examples/open-new-customer-account.rst:53
+#: ../../examples/open-new-customer-account.rst:53
+msgid "Further information is added during the process, including:"
+msgstr ""
+"Die folgenden weiteren Informationen werden im Laufe des Prozesses "
+"hinzugefügt:"
+
+#: ../../examples/open-new-customer-account.rst:55
+#: ../../examples/open-new-customer-account.rst:55
+msgid "*Account number* (Number) - created for the new account."
+msgstr "*Kontonummer* (Nummer) - wird für jedes neue Konto generiert."
+
+#: ../../examples/open-new-customer-account.rst:60
+#: ../../examples/open-new-customer-account.rst:60
+msgid ""
+"A real retail bank’s workflow for creating a new customer account would "
+"include more tasks than this. In practice, back-office systems would "
+"automate many of the tasks, which means that the real complexity in this "
+"process comes from integrating with these existing systems."
+msgstr ""
+"Ein reeller Kontoeröffnungsworkflow einer Privatkundenbank würde "
+"selbstverständlich wesentlich komplexer ausfallen. In der Praxis werden "
+"viele Backoffice-Systeme viele Tasks automatisieren. Eine Integration mit "
+"diesen Systemen setzt zusätzliches IT-Know-How voraus."
+
+#: ../../examples/plan-trade-fair-booth.rst:4
+#: ../../examples/plan-trade-fair-booth.rst:4
+msgid "Plan Trade Fair Booth (marketing)"
+msgstr "Messestand planen (Marketing)"
+
+#: ../../examples/plan-trade-fair-booth.rst:9
+#: ../../examples/plan-trade-fair-booth.rst:9
+msgid "Have a stand at a trade fair."
+msgstr "Das Prozessziel ist ein eingerichteter Stand auf einer Fachmesse."
+
+#: ../../examples/plan-trade-fair-booth.rst:14
+#: ../../examples/plan-trade-fair-booth.rst:14
+msgid ""
+"Attending a trade fair requires organisation far in advance of the event, "
+"with coordination between multiple people and a hard deadline. Checklists "
+"help ensure that staff do not forget critical tasks, while capturing "
+"dependencies between tasks helps staff manage timelines."
+msgstr ""
+"Wenn Sie als Firma auf einer Fachmesse ausstellen, ist eine frühzeitige "
+"Vorbereitung unumgänglich. Die Organisation des Events muss zwischen vielen "
+"verschiedenen Personen koordiniert werden und hat eine nicht verschiebbare "
+"Deadline. Checklisten helfen Angestellten, den Überblick über wichtige "
+"Aufgaben zu behalten. Zudem müssen Abhängigkeiten zwischen Aufgaben "
+"kontrolliert werden."
+
+#: ../../examples/plan-trade-fair-booth.rst:17
+#: ../../examples/plan-trade-fair-booth.rst:17
+msgid ""
+"Getting this done requires expertise about which tasks to perform, how long "
+"they take, and their dependencies. That makes this process model more "
+"suitable for instruction purposes, than as a model for how the work really "
+"works in practice."
+msgstr ""
+"Dementsprechend ist genaues Wissen über die zu erledigenden Aufgaben und "
+"deren Länge und Abhängigkeiten zwischen einander notwendig. Daher ist das "
+"vorliegende Modell besser als Beispielsworkflow denn als praxisfähiger "
+"Workflow geeignet."
+
+#: ../../examples/plan-trade-fair-booth.rst:23
+#: ../../examples/plan-trade-fair-booth.rst:23
+msgid "*Form* - specifies details of the trade fair booking."
+msgstr "*Formular* - Spezifika der Messebuchung"
+
+#: ../../examples/plan-trade-fair-booth.rst:28
+#: ../../examples/plan-trade-fair-booth.rst:28
+msgid ""
+"Sometimes there’s just a lot to do. This process consists of planning many "
+"activities, some of which can happen in parallel, but which may require long"
+" timelines."
+msgstr ""
+"Manchmal gibt es sehr viel zu tun. Dieser Prozess besteht aus vielen "
+"verschiedenen Aktivitäten - einige können parallel ausgeführt werden, "
+"während andere genau in den Zeitplan integriert werden müssen."
+
+#: ../../examples/plan-trade-fair-booth.rst:33
+#: ../../examples/plan-trade-fair-booth.rst:33
+msgid "Every user task may have its own due date, reminders and escalation."
+msgstr ""
+"Jeder User Task benötigt ein eigenes Fälligkeitsdatum, eine "
+"Erinnerungsfunktion und eine Eskalationsmöglichkeit."
+
+#: ../../examples/plan-trade-fair-booth.rst:38
+#: ../../examples/plan-trade-fair-booth.rst:38
+msgid "*Marketing team member* - responsible for the whole process."
+msgstr "*Marketingmitarbeiter* - verantwortlich für den gesamten Prozess."
+
+#: ../../examples/plan-trade-fair-booth.rst:43
+#: ../../examples/plan-trade-fair-booth.rst:43
+msgid ""
+"The trigger form specifies trade fair booking details, including the fields:"
+msgstr "Im Auslöserformular werden die folgenden Buchungsdetails festgelegt:"
+
+#: ../../examples/plan-trade-fair-booth.rst:45
+#: ../../examples/plan-trade-fair-booth.rst:45
+msgid "*Trade fair name* (Text, mandatory)"
+msgstr "*Messename* (Text, Pflichtfeld)"
+
+#: ../../examples/plan-trade-fair-booth.rst:46
+#: ../../examples/plan-trade-fair-booth.rst:46
+msgid "*Address* (Text)"
+msgstr "*Adresse* (Text)"
+
+#: ../../examples/plan-trade-fair-booth.rst:47
+#: ../../examples/plan-trade-fair-booth.rst:47
+msgid "*Booth location/number* (Text)"
+msgstr "*Standortnummer des Stands* (Text)"
+
+#: ../../examples/plan-trade-fair-booth.rst:48
+#: ../../examples/plan-trade-fair-booth.rst:48
+msgid "*Start* (Date)"
+msgstr "*Startdatum* (Datum)"
+
+#: ../../examples/plan-trade-fair-booth.rst:49
+#: ../../examples/plan-trade-fair-booth.rst:49
+msgid "*End* (Date)"
+msgstr "*Enddatum* (Datum)"
+
+#: ../../examples/plan-trade-fair-booth.rst:51
+#: ../../examples/plan-trade-fair-booth.rst:51
+msgid ""
+"Each task can include its own checklist of requirements or subtasks. For "
+"example, the *Design booth* task might include the Yes/No fields for:"
+msgstr ""
+"Jeder Task kann seine eigene Anforderungscheckliste oder Unteraufgaben "
+"enthalten. Der Task *Standdesign ausarbeiten* kann zum Beispiel Ja/Nein-"
+"Felder für die folgenden Punkte auflisten:"
+
+#: ../../examples/plan-trade-fair-booth.rst:54
+#: ../../examples/plan-trade-fair-booth.rst:54
+msgid "text content"
+msgstr "Textinhalte"
+
+#: ../../examples/plan-trade-fair-booth.rst:55
+#: ../../examples/plan-trade-fair-booth.rst:55
+msgid "exhibition wall"
+msgstr "Ausstellungswand"
+
+#: ../../examples/plan-trade-fair-booth.rst:56
+#: ../../examples/plan-trade-fair-booth.rst:56
+msgid "roll-ups"
+msgstr "Rollups"
+
+#: ../../examples/plan-trade-fair-booth.rst:57
+#: ../../examples/plan-trade-fair-booth.rst:57
+msgid "flyers"
+msgstr "Flyer"
+
+#: ../../examples/plan-trade-fair-booth.rst:58
+#: ../../examples/plan-trade-fair-booth.rst:58
+msgid "brochures"
+msgstr "Broschüren"
+
+#: ../../examples/plan-trade-fair-booth.rst:59
+#: ../../examples/plan-trade-fair-booth.rst:59
+msgid "posters."
+msgstr "Poster."
+
+#: ../../examples/plan-trade-fair-booth.rst:64
+#: ../../examples/plan-trade-fair-booth.rst:64
+msgid ""
+"You could simplify this process by extracting design activities, so that "
+"this process requires an existing stand design. This might also simplify "
+"planning tasks."
+msgstr ""
+"In vielen Fällen können Sie auf ein bereits vorhandenes Standdesign "
+"zugreifen. Daher können Sie den Prozess vereinfachen, indem Sie die "
+"Designaktivitäten in einen anderen Prozess extrahieren. Hierdurch "
+"erleichtern Sie die Planung."
+
+#: ../../examples/plan-trade-fair-booth.rst:67
+#: ../../examples/plan-trade-fair-booth.rst:67
+msgid ""
+"The basic version of this process does not rely on roles, on the assumption "
+"that team members know who does what. You might find it useful to define "
+"roles for different responsibilities, to automate some role assignment."
+msgstr ""
+"Die Basisversion des Prozesses verwendet keine Rollen und geht davon aus, "
+"dass Teammitglieder wissen, wer welche Aufgaben übernimmt. Allerdings ist es"
+" unter Umständen sinnvoll, Rollen zu definieren und die Zuweisung der "
+"Aufgaben zu automatisieren."
+
+#: ../../examples/process-insurance-claim.rst:4
+#: ../../examples/process-insurance-claim.rst:4
+msgid "Process Claim (insurance)"
+msgstr "Versicherungsfall bearbeiten (Versicherungen)"
+
+#: ../../examples/process-insurance-claim.rst:9
+#: ../../examples/process-insurance-claim.rst:9
+msgid "Process an insurance claim in order to make a payout to a customer"
+msgstr ""
+"Das Prozessziel ist die Bearbeitung eines Versicherungsfalls mit "
+"anschließender Auszahlung an den Kunden."
+
+#: ../../examples/process-insurance-claim.rst:14
+#: ../../examples/process-insurance-claim.rst:14
+msgid ""
+"Sometimes, a large team has to collaborate on high-volume task processing, "
+"such as assessing insurance claims."
+msgstr ""
+"Oft bearbeitet ein großes Team high-volume Tasks wie bei der Bearbeitung "
+"eines Versicherungfalls."
+
+#: ../../examples/process-insurance-claim.rst:19
+#: ../../examples/process-insurance-claim.rst:19
+msgid "Form - an insured customer’s completed claim form."
+msgstr "Formular - ausgefülltes Fallformular eines Versicherungskunden."
+
+#: ../../examples/process-insurance-claim.rst:24
+#: ../../examples/process-insurance-claim.rst:24
+msgid ""
+"This process illustrates how to handle large case volumes, by splitting the "
+"process into tasks that can be assigned to different groups of people, so "
+"junior staff handle most tasks and only hard tasks are assigned to a smaller"
+" group of senior staff."
+msgstr ""
+"Der Prozess illustriert wie ein hohes Fallaufkommen verwaltet werden kann "
+"indem der Prozess in Task eingeteilt wird, die verschiedenen Personengruppen"
+" zugewiesen kann. So können Juniormitarbeiter die meisten Tasks schnell "
+"abarbeiten, während Seniormitarbeiter lediglich komplizierte und "
+"risikoreiche Aufgaben übernehmen."
+
+#: ../../examples/process-insurance-claim.rst:28
+#: ../../examples/process-insurance-claim.rst:28
+msgid ""
+"In most cases, the top row of user tasks will process the claim. Only a few "
+"claims will require the *Investigate high-value claim* or *Process complex "
+"claim* tasks."
+msgstr ""
+"Die meisten Fälle durchlaufen lediglich die oberste Taskreihe. Nur die "
+"wenigen komplexen Fälle und Fälle mit hohen Forderungssummen erfordern die "
+"Tasks *Forderung überprüfen* und/oder *Komplexe Forderung bearbeiten*."
+
+#: ../../examples/process-insurance-claim.rst:34
+#: ../../examples/process-insurance-claim.rst:34
+msgid ""
+"*Junior claims adjuster* - triages insurance claims and processes the "
+"straightforward ones."
+msgstr ""
+"*Juniorfallbearbeiter* - stuft den Antrag ein und bearbeitet einfache Fälle."
+
+#: ../../examples/process-insurance-claim.rst:35
+#: ../../examples/process-insurance-claim.rst:35
+msgid ""
+"*Investigator* - investigates high-value claims to protect against "
+"fraudulent claims."
+msgstr "*Prüfer* - prüft hohe Forderungen, um Betrugsfälle zu vermeiden."
+
+#: ../../examples/process-insurance-claim.rst:36
+#: ../../examples/process-insurance-claim.rst:36
+msgid "*Senior claims adjuster* - processes complex claims."
+msgstr "*Seniorfallbearbeiter* - bearbeitet komplexe Fälle."
+
+#: ../../examples/process-insurance-claim.rst:41
+#: ../../examples/process-insurance-claim.rst:41
+msgid ""
+"*Claim form* (File, mandatory) - the form provided by the customer, via the "
+"trigger form."
+msgstr ""
+"*Antragsformular* (Datei, Pflichtfeld) - das vom Kunden ausgefüllte "
+"Formular, das über den Auslöser bereit gestellt wird."
+
+#: ../../examples/process-insurance-claim.rst:42
+#: ../../examples/process-insurance-claim.rst:42
+msgid ""
+"*Total value* (Money, mandatory) - the total value of the claim, which the "
+"junior adjuster extracts from the claim form in the *Calculate claim value* "
+"task."
+msgstr ""
+"*Gesamtsumme* (Geldbetrag, Pflichtfeld) - die Gesamtsumme des Antrags, die "
+"der Juniorfallbearbeiter aus dem Formular extrahiert."
+
+#: ../../examples/process-insurance-claim.rst:43
+#: ../../examples/process-insurance-claim.rst:43
+msgid ""
+"*Payout* (Money, mandatory) - the amount to pay to the customer if the "
+"adjuster approves the claim."
+msgstr ""
+"*Auszahlung* (Geldbetrag, Pflichtfeld) - der Geldbetrag, den der Kunde bei "
+"stattgegebenem Antrag erhält."
+
+#: ../../examples/respond-to-customer-email.rst:4
+#: ../../examples/respond-to-customer-email.rst:4
+msgid "Respond To Email (customer service)"
+msgstr "Antwort verfassen (Kundenservice)"
+
+#: ../../examples/respond-to-customer-email.rst:9
+#: ../../examples/respond-to-customer-email.rst:9
+msgid ""
+"Respond to a (potential) customer’s email enquiry by sending an email reply."
+msgstr "Beantwortung der Anfrage eines (potentiellen) Kunden via Email."
+
+#: ../../examples/respond-to-customer-email.rst:14
+#: ../../examples/respond-to-customer-email.rst:14
+msgid ""
+"Companies often have a contact email address on their web site, like "
+"*info@example.com*, that routes customer email to a mailing list that "
+"several employees subscribe to. These people have to coordinate so that "
+"precisely one person responds to incoming mail in a timely manner. "
+"Attempting to do this solely by using email tends to result in ignored "
+"emails that ‘someone’ will probably reply to, or double replies when two "
+"people pick up the enquiry at the same time."
+msgstr ""
+"Oft haben Firmen eine Kontakt-Emailadresse auf ihrer Website, zum Beispiel "
+"*info@example.com*. Von dieser Adresse werden die Emails an eine "
+"Mailingliste weitergeleitet, die bestimmte Mitarbeiter abonniert haben. "
+"Diese Mitarbeiter müssen die Beantwortung von Kundenmails koordinieren, "
+"sodass genau ein Mitarbeiter eine eingehende Anfrage *zeitgemäß* "
+"beantwortet. Falls die Koordination ausschließlich über Email oder direkte "
+"Kommunikation erfolgt, führt dies typischerweise zu Chaos: Nicht "
+"beantworteten Anfragen oder mehrfachen und im schlimmsten Fall "
+"widersprüchlichen Antworten."
+
+#: ../../examples/respond-to-customer-email.rst:21
+#: ../../examples/respond-to-customer-email.rst:21
+msgid "Email - a customer request."
+msgstr "Email - eine Kundenanfrage."
+
+#: ../../examples/respond-to-customer-email.rst:26
+#: ../../examples/respond-to-customer-email.rst:26
+msgid ""
+"Unusually, this process consists of a single user task - for responding to "
+"the email - followed by an email task to send the reply."
+msgstr ""
+"Ungewöhnlicherweise besteht dieser Prozess aus lediglich einem User Task - "
+"dem Beantworten der Email - auf den ein *Email senden*-Task zum automatischen "
+"Versenden der Mail folgt."
+
+#: ../../examples/respond-to-customer-email.rst:30
+#: ../../examples/respond-to-customer-email.rst:30
+msgid ""
+"This process is a minimal example for demonstrating the value of task "
+"assignment. The process’ value comes from the automated notifications from "
+"setting the user task’s candidate group, due date, reminders and escalation."
+msgstr ""
+"Bei diesem Prozess handelt es ich um eine Minimalversion, die den Nutzen von"
+" Taskzuweisungen demonstrieren soll. Der Wert des Prozesses kommt von den "
+"automatischen Benachrichtigungen durch das setzen der Kandidatengruppe, "
+"Erinnerung, Fälligkeitsdeadline und Eskalationsmöglichkeit des User Task."
+
+#: ../../examples/respond-to-customer-email.rst:36
+#: ../../examples/respond-to-customer-email.rst:36
+msgid ""
+"A simpler version of this process only has a single user task, and relies on"
+" the assignee to send the email normally."
+msgstr ""
+"Eine einfachere Version dieses Prozesses hat lediglich einen Nutzertask. Es "
+"ist notwendig, dass die verantwortliche Person die Email manuell versendet."
+
+#: ../../examples/ship-product-from-warehouse.rst:4
+#: ../../examples/ship-product-from-warehouse.rst:4
+msgid "Ship Product From Warehouse (logistics)"
+msgstr "Produkte aus Lager versenden (Logistik)"
+
+#: ../../examples/ship-product-from-warehouse.rst:9
+#: ../../examples/ship-product-from-warehouse.rst:9
+msgid ""
+"In a warehouse operation, fulfil an order by shipping physical products to "
+"the customer."
+msgstr ""
+"Im einem Lager wird eine Bestellung durch das Verschicken physischer "
+"Produkte bearbeitet."
+
+#: ../../examples/ship-product-from-warehouse.rst:14
+#: ../../examples/ship-product-from-warehouse.rst:14
+msgid ""
+"A product manufacturer typically runs warehouses that contain an inventory "
+"of products, ready to be shipped to customers. In the warehouse is where, a "
+"customer order - initially just information - results in physical activity "
+"and becomes associated with physical products."
+msgstr ""
+"Produkthersteller unterhalten typischerweise Lager, die das Produktinventar "
+"enthalten. Im Lager wird aus der bisher informationszentrierte "
+"Bestellprozess mit physischen Aktivitäten und Produkten verbunden."
+
+#: ../../examples/ship-product-from-warehouse.rst:17
+#: ../../examples/ship-product-from-warehouse.rst:17
+msgid ""
+"This process is a subprocess in a broader customer order process that "
+"happens in the context of a warehouse. This may be orchestrated by the order"
+" status that triggers the process, and the order status that results from "
+"process completion."
+msgstr ""
+"Dieser Prozess ist ein Subprozess in einen breiter angelegten "
+"Bestellprozess, der im Kontext eines Lagers ausgeführt wird. Der Prozess "
+"wird durch den Bestellstatus bestimmt, der den Prozess auslöst und bei "
+"Prozessabschluss entsprechend geändert wird."
+
+#: ../../examples/ship-product-from-warehouse.rst:23
+#: ../../examples/ship-product-from-warehouse.rst:23
+msgid ""
+"*Form* - an order form that lists order lines for the products to ship."
+msgstr ""
+"*Formular* - ein Bestellformular, das die bestellten Produkte auflistet."
+
+#: ../../examples/ship-product-from-warehouse.rst:28
+#: ../../examples/ship-product-from-warehouse.rst:28
+msgid ""
+"The process takes a customer order and ships physical inventory from a "
+"warehouse. Warehouse staff retrieve the order and perform a sequence of "
+"tasks before actually shipping the parcels."
+msgstr ""
+"Der Prozess nimmt eine Kundenbestellung an und verschickt die Produkte aus "
+"einem Lagerinventar. Vor dem Versenden werden die Produkte von "
+"Lagermitarbeitern abgeholt, verpackt und weiter bearbeitet."
+
+#: ../../examples/ship-product-from-warehouse.rst:33
+#: ../../examples/ship-product-from-warehouse.rst:33
+msgid "A long sequence of tasks characterises this process, as follows."
+msgstr "Diesen Prozess charakterisiert eine lange Folge von Tasks:"
+
+#: ../../examples/ship-product-from-warehouse.rst:35
+#: ../../examples/ship-product-from-warehouse.rst:35
+msgid ""
+"*Retrieve customer order* - retrieve the order from the order management "
+"system and make it available to warehouse staff, e.g. by printing it or "
+"transferring to a work queue in a handheld device."
+msgstr ""
+"**Bestellung empfangen* - Bereitstellung der Bestellung aus dem "
+"Bestellverwaltungssystem für die Lagermitarbeiter - zum Beispiel Ausdrucken "
+"der Bestellung oder Übertragung auf die entsprechenden mobilen Endgeräte."
+
+#: ../../examples/ship-product-from-warehouse.rst:37
+#: ../../examples/ship-product-from-warehouse.rst:37
+msgid ""
+"*Pick items* - for each order line, finding the items in the warehouse and "
+"adding them to a ‘basket’, possibly for multiple orders at once with an "
+"efficient planned route through the warehouse."
+msgstr ""
+"*Produkte aus dem Lage holen* - Hinzufügen aller Produkte der Bestellung zu "
+"einem 'Warenkorb', möglicherweise für mehrere Bestellungen gleichzeitig, um "
+"Laufwege effizient zu nutzen."
+
+#: ../../examples/ship-product-from-warehouse.rst:38
+#: ../../examples/ship-product-from-warehouse.rst:38
+msgid ""
+"*Pack items into parcels* - efficiently pack items into standard parcels."
+msgstr "*Produkte verpacken* - Verpacken der Produkte in Standardpakete."
+
+#: ../../examples/ship-product-from-warehouse.rst:39
+#: ../../examples/ship-product-from-warehouse.rst:39
+msgid ""
+"*Weigh parcels* - to capture parcel weight and dimensions, for the shipping "
+"label."
+msgstr "*Pakete wiegen* - Wiegen der Pakete und Feststellung der Ausmaße."
+
+#: ../../examples/ship-product-from-warehouse.rst:40
+#: ../../examples/ship-product-from-warehouse.rst:40
+msgid ""
+"*Print shipping labels* - print and attached labels showing the customer "
+"delivery address and other information such as weight and dimensions."
+msgstr ""
+"*Paketbeschriftungen drucken* - Drucken und ankleben der Beschriftungen mit "
+"Lieferadresse und weitere Informationen wie Gewicht und Maße."
+
+#: ../../examples/ship-product-from-warehouse.rst:41
+#: ../../examples/ship-product-from-warehouse.rst:41
+msgid ""
+"*Move to loading dock* - stack parcels ready to be loaded on the next truck."
+" Inspect packing quality - quality control to check that parcels are packed "
+"correctly."
+msgstr ""
+"*Pakete zur Laderampe transportieren* - Stapeln der Pakete vor der "
+"Verladerampe. **Verpackungsqualität überprüfen** - stellen Sie die Qualität "
+"der Verpackung sicher."
+
+#: ../../examples/ship-product-from-warehouse.rst:43
+#: ../../examples/ship-product-from-warehouse.rst:43
+msgid ""
+"*Check parcel count* - a ‘head-count’ to check that there are no missing "
+"parcels for each order."
+msgstr ""
+"*Paketanzahl überprüfen* - Sicherstellung, dass keine Pakete einer "
+"Bestellung fehlen."
+
+#: ../../examples/ship-product-from-warehouse.rst:44
+#: ../../examples/ship-product-from-warehouse.rst:44
+msgid ""
+"*Load parcels on truck* - loading happens in a batch together with parcels "
+"for other orders, and may only happen once per day."
+msgstr ""
+"*Pakete verladen* - der Verladevorgang wird zusammen mit anderen "
+"Bestellungen als 'Taskstapel' durchgeführt - zum Beispiel lediglich einmal "
+"am Tag."
+
+#: ../../examples/ship-product-from-warehouse.rst:45
+#: ../../examples/ship-product-from-warehouse.rst:45
+msgid ""
+"*Update order status* - record process completion in the order management "
+"system, which may trigger other processes such as invoicing the customer."
+msgstr ""
+"*Bestellungsstatus auf 'versandt' aktualisieren* -Dokumentation der "
+"Prozessabsolvierung im Bestellverwaltungssystem. Dies kann andere Prozesse, "
+"wie zum Beispiel das versenden einer Rechnung, auslösen."
+
+#: ../../examples/ship-product-from-warehouse.rst:46
+#: ../../examples/ship-product-from-warehouse.rst:46
+msgid ""
+"*Adjust stock levels* - update the warehouse’s inventory management system."
+msgstr ""
+"*Lagerbestand aktualisieren* - Aktualisierung des Lagerinventars im "
+"entsprechenden IT-System."
+
+#: ../../examples/ship-product-from-warehouse.rst:47
+#: ../../examples/ship-product-from-warehouse.rst:47
+msgid ""
+"*Send delivery instructions* - provide the transport company with the "
+"information they require to deliver the shipment."
+msgstr ""
+"*Lieferanweisung an Transporteur senden* - Versand der Lieferanweisungen an "
+"den Transporteur."
+
+#: ../../examples/ship-product-from-warehouse.rst:49
+#: ../../examples/ship-product-from-warehouse.rst:49
+msgid ""
+"There is flexibility in the process, which warehouse staff are likely to "
+"use. Staff may perform might be performed tasks sequentially in practice, "
+"even though they could perform them in parallel. Staff may also batch "
+"multiple orders together at various steps, when there are waiting times such"
+" as waiting for the next truck to arrive at the warehouse."
+msgstr ""
+"Der Prozess bietet Flexibilität für die Lagermitarbeiter. Das Personal kann "
+"die Tasks nacheinander durchführen, obwohl sie im Prozess als strikt "
+"parallel modelliert sind. Mitarbeiter können zudem Prozessschritte für "
+"mehrere Bestellungen als 'Stapel' abarbeiten, falls es Wartezeiten gibt, zum"
+" Beispiel zwischen Lastwagenladungen."
+
+#: ../../examples/ship-product-from-warehouse.rst:56
+#: ../../examples/ship-product-from-warehouse.rst:56
+msgid ""
+"*Warehouse operator* - responsible for operations in the warehouse, moving "
+"goods from stock to trucks for shipment."
+msgstr ""
+"*Lagermitarbeiter* - verantwortlich für die Warenbewegungen im Lagerhaus und"
+" das Beladen der Lastwagen."
+
+#: ../../examples/ship-product-from-warehouse.rst:61
+#: ../../examples/ship-product-from-warehouse.rst:61
+msgid ""
+"*Order form* (File, required) - lists order lines of products to ship from "
+"the warehouse."
+msgstr ""
+"**Bestellformular* (Datei, Pflichtfeld) - listet die bestellten Produkte "
+"auf."
+
+#: ../../examples/ship-product-from-warehouse.rst:62
+#: ../../examples/ship-product-from-warehouse.rst:62
+msgid ""
+"*Order reference* (Text, required) - extracted from the order form, uniquely"
+" identifies the order in Effektif."
+msgstr ""
+"*Bestellreferenz* (Text, Pflichtfeld) - aus dem Bestellformular extrahiert, "
+"identifiziert die Bestellung in Effektif."
+
+#: ../../examples/ship-product-from-warehouse.rst:67
+#: ../../examples/ship-product-from-warehouse.rst:67
+msgid "To extend or enhance this process, you could:"
+msgstr "Um den Prozess zu erweitern oder zu verbessern, können Sie"
+
+#: ../../examples/ship-product-from-warehouse.rst:69
+#: ../../examples/ship-product-from-warehouse.rst:69
+msgid ""
+"trigger the process from an external order management system, as a result of"
+" an order status change"
+msgstr ""
+"triggern Sie den Prozess über eine externes Bestellungsverwaltungssystem als"
+" Ergebnis einer Änderung des Bestellstatus."
+
+#: ../../examples/ship-product-from-warehouse.rst:70
+#: ../../examples/ship-product-from-warehouse.rst:70
+msgid ""
+"automate the *Retrieve customer order* and *Print shipping labels* tasks"
+msgstr ""
+"automatisieren Sie den Task *Bestellung empfangen* und *Paketbeschriftungen "
+"drucken*"
+
+#: ../../examples/ship-product-from-warehouse.rst:71
+#: ../../examples/ship-product-from-warehouse.rst:71
+msgid ""
+"add information to *The Pick stock items* task, e.g. by scanning bar codes "
+"to record the picked items’ serial numbers"
+msgstr ""
+"Fügen Sie weitere Informationen zum Task *Produkte aus dem Lager holen* "
+"hinzu, zum Beispiel indem die Seriennummer der geholten Produkte über einen "
+"Barcodescanner eingelesen wird"
+
+#: ../../examples/ship-product-from-warehouse.rst:72
+#: ../../examples/ship-product-from-warehouse.rst:72
+msgid "make the *Inspect packing quality* task optional or randomised.."
+msgstr ""
+"gestalten Sie den Task *Verpackungsqualität* als optional oder zufällig."
+
+#: ../../examples/ship-product-from-warehouse.rst:74
+#: ../../examples/ship-product-from-warehouse.rst:74
+msgid ""
+"In this process, transport runs on a fixed schedule: trucks are loaded with "
+"parcels for multiple orders. A different shipping process could arrange "
+"individual transport (e.g. by courier) for each order."
+msgstr ""
+"In diesem Prozess läuft der Versandprozess nach einem festgelegten Zeitplan "
+"ab: Lastwagen werden mit Paketen für mehrere Bestellungen beladen. Ein "
+"anderer Prozess könnte individuelle Lieferungen - zum Beispiel über einen "
+"Kurierservice - vorsehen."
+
+#: ../../examples/sign-contract.rst:4 ../../examples/sign-contract.rst:4
+msgid "Sign Contract (management)"
+msgstr "Dokument unterzeichnen (Management)"
+
+#: ../../examples/sign-contract.rst:9 ../../examples/sign-contract.rst:9
+msgid "Sign a document and archive the signed copy."
+msgstr "Unterzeichnet ein Dokument und archiviert die unterzeichnete Kopie."
+
+#: ../../examples/sign-contract.rst:14 ../../examples/sign-contract.rst:14
+msgid ""
+"Managers frequently have to sign contracts, and approve other documents. "
+"This may take some time, if a backlog has built up, in which case the "
+"requester needs some visibility."
+msgstr ""
+
+#: ../../examples/sign-contract.rst:20 ../../examples/sign-contract.rst:20
+msgid "*Manual* - the requester uploads a document to be signed."
+msgstr "*Manuell* - der Anfragende lädt ein Dokument zur Unterzeichnung hoch."
+
+#: ../../examples/sign-contract.rst:25 ../../examples/sign-contract.rst:25
+msgid ""
+"The core process consists of tasks for the signer to review the document and"
+" then sign it. Effektif then archives the signed document and notifies the "
+"requester."
+msgstr ""
+"Der Kernprozess besteht aus Tasks für den Unterzeichner zur Überprüfung und "
+"Unterzeichnung des Dokuments. Nach diesen Tasks archiviert Effektif das "
+"Dokument und informiert den Anfragenden."
+
+#: ../../examples/sign-contract.rst:30 ../../examples/sign-contract.rst:30
+msgid "This process includes three additional scenarios:"
+msgstr "Dieser Prozess enthält die folgenden zusätzlichen Szenarios."
+
+#: ../../examples/sign-contract.rst:32 ../../examples/sign-contract.rst:32
+msgid ""
+"The signer requests that someone else sign the document, and reassigns the "
+"*Signer* role."
+msgstr ""
+"Der Unterzeichner bittet eine andere Person darum, das Dokument zu "
+"unterzeichnen und weist die Aufgabe dieser Person über die "
+"*Unterzeichner*-Rolle zu."
+
+#: ../../examples/sign-contract.rst:33 ../../examples/sign-contract.rst:33
+msgid ""
+"The signer requests a change to the document, and the requester gets a new "
+"task to update the document."
+msgstr ""
+"Der Unterzeichner fragt Änderungen an und der Anfragende erhält einen neuen "
+"Task, um das Dokument zu aktualisieren."
+
+#: ../../examples/sign-contract.rst:34 ../../examples/sign-contract.rst:34
+msgid ""
+"The signer declines to sign the document, and the requester is notified."
+msgstr ""
+"Der Unterzeichner verweigert die Unterschrift und der Anfragende wird "
+"benachrichtigt."
+
+#: ../../examples/sign-contract.rst:39 ../../examples/sign-contract.rst:39
+msgid "*Requester* - submits the document and makes any required corrections."
+msgstr "*Anfragender* - händigt das Dokument ein und arbeitet Änderungen ein."
+
+#: ../../examples/sign-contract.rst:40 ../../examples/sign-contract.rst:40
+msgid ""
+"*Signer* - responsible for deciding whether to sign the document, and adding"
+" the signature."
+msgstr ""
+"*Unterzeichner* - verantwortlich für die Unterzeichnung und formelle "
+"Freigabe des Dokuments."
+
+#: ../../examples/sign-contract.rst:45 ../../examples/sign-contract.rst:45
+msgid "*Original document* (File, mandatory) - the document to be signed."
+msgstr ""
+"*Orginaldokument* (Datei, Pflichtfeld) - das zu unterzeichnende Dokument."
+
+#: ../../examples/sign-contract.rst:46 ../../examples/sign-contract.rst:46
+msgid ""
+"*Change request* (Text, multiple values) - a correction or addition that the"
+" signer requests before signing."
+msgstr ""
+"*Änderungsanfrage* (Text, mehrere Werte) - Korrekturen oder Ergänzungen, die"
+" der Unterzeichner anfragt."
+
+#: ../../examples/sign-contract.rst:47 ../../examples/sign-contract.rst:47
+msgid "*Signed document* (File, mandatory)."
+msgstr "*Unterzeichnete Dokumente* (Datei, Pflichtfeld)"
+
+#: ../../examples/sign-contract.rst:52 ../../examples/sign-contract.rst:52
+msgid ""
+"You could simplify the process by removing one or more of the extra cases."
+msgstr ""
+"Sie können den Prozess vereinfachen, indem Sie einen oder mehrere der "
+"Zusatzfälle entfernen."
