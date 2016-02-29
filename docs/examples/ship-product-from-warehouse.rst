@@ -47,7 +47,7 @@ A long sequence of tasks characterises this process, as follows.
 * *Send delivery instructions* - provide the transport company with the information they require to deliver the shipment.
 
 There is flexibility in the process, which warehouse staff are likely to use.
-Staff may perform might be performed tasks sequentially in practice, even though they could perform them in parallel.
+Staff may perform the tasks sequentially in practice, even though they could perform them in parallel.
 Staff may also batch multiple orders together at various steps, when there are waiting times such as waiting for the next truck to arrive at the warehouse.
 
 Roles

@@ -1355,16 +1355,6 @@ msgstr ""
 msgid "A long sequence of tasks characterises this process, as follows."
 msgstr ""
 
-#: ../../examples/ship-product-from-warehouse.rst:49
-#: ../../examples/ship-product-from-warehouse.rst:49
-msgid ""
-"There is flexibility in the process, which warehouse staff are likely to "
-"use. Staff may perform might be performed tasks sequentially in practice, "
-"even though they could perform them in parallel. Staff may also batch "
-"multiple orders together at various steps, when there are waiting times such"
-" as waiting for the next truck to arrive at the warehouse."
-msgstr ""
-
 #: ../../examples/ship-product-from-warehouse.rst:56
 #: ../../examples/ship-product-from-warehouse.rst:56
 msgid ""
@@ -1710,6 +1700,24 @@ msgid ""
 "The process consists of a user task for a decision. Tasks to continue the "
 "process of going on vacation (or not) follow the decision."
 msgstr ""
+
+#: ../../examples/ship-product-from-warehouse.rst:49
+#: ../../examples/ship-product-from-warehouse.rst:49
+msgid ""
+"There is flexibility in the process, which warehouse staff are likely to "
+"use. Staff may perform the tasks sequentially in practice, even though they "
+"could perform them in parallel. Staff may also batch multiple orders "
+"together at various steps, when there are waiting times such as waiting for "
+"the next truck to arrive at the warehouse."
+msgstr ""
+
+#~ msgid ""
+#~ "There is flexibility in the process, which warehouse staff are likely to "
+#~ "use. Staff may perform might be performed tasks sequentially in practice, "
+#~ "even though they could perform them in parallel. Staff may also batch "
+#~ "multiple orders together at various steps, when there are waiting times such"
+#~ " as waiting for the next truck to arrive at the warehouse."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "The process consists of a user task for a decision. The email tasks inform "
