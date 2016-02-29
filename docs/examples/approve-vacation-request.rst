@@ -32,7 +32,7 @@ Actions
 ^^^^^^^
 
 The process consists of a user task for a decision.
-The email tasks inform the employee of the decision.
+Tasks to continue the process of going on vacation (or not) follow the decision.
 
 .. figure:: /_static/images/examples/approve-vacation-request.png
 

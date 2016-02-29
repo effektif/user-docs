@@ -437,14 +437,6 @@ msgid ""
 "configure."
 msgstr ""
 
-#: ../../process-builder/bpmn-export.rst:6
-#: ../../process-builder/bpmn-export.rst:6
-msgid ""
-"You can export an Effektif process model as a BPMN 2.0 XML file. This is "
-"useful if you want to open the model in another tool that supports BPMN, or "
-"to make a backup."
-msgstr ""
-
 #: ../../process-builder/bpmn-export.rst:10
 #: ../../process-builder/bpmn-export.rst:10
 msgid ""
@@ -574,6 +566,144 @@ msgid ""
 "Make the comment an imperative phrase that starts with a word like ‘Add’ or "
 "‘Fix’."
 msgstr ""
+
+#: ../../process-builder/locking.rst:4 ../../process-builder/locking.rst:4
+msgid "Process locking"
+msgstr ""
+
+#: ../../process-builder/locking.rst:6 ../../process-builder/locking.rst:6
+msgid ""
+"In the process builder, only one person can edit a process at a time. When "
+"someone else is editing a process, there is a message in the `Processes` "
+"list."
+msgstr ""
+
+#: ../../process-builder/locking.rst:12 ../../process-builder/locking.rst:12
+msgid ""
+"The `Processes` list message when someone else `is currently working on this"
+" process`"
+msgstr ""
+
+#: ../../process-builder/locking.rst:14 ../../process-builder/locking.rst:14
+msgid ""
+"You can still open the process, but you will see a warning message "
+"explaining that you will not be able to make changes:"
+msgstr ""
+
+#: ../../process-builder/locking.rst:19 ../../process-builder/locking.rst:19
+msgid ""
+"Warning that you will not be able to make edit a process at the same time as"
+" someone else"
+msgstr ""
+
+#: ../../process-builder/locking.rst:21 ../../process-builder/locking.rst:21
+msgid ""
+"You will be able to edit the process and make changes after the other person"
+" leaves the process editor, by opening the `Tasks` list, for example."
+msgstr ""
+
+#: ../../process-builder/bpmn-import.rst:4
+#: ../../process-builder/bpmn-import.rst:4
+msgid "BPMN import"
+msgstr ""
+
+#: ../../process-builder/bpmn-import.rst:6
+#: ../../process-builder/bpmn-import.rst:6
+msgid ""
+"You can import an Effektif process model from a BPMN 2.0 XML file. You can "
+"use this to import a model that you created in another tool, or to load a "
+"file that you saved using the :ref:`BPMN export <bpmn-export>` option."
+msgstr ""
+
+#: ../../process-builder/bpmn-import.rst:10
+#: ../../process-builder/bpmn-import.rst:10
+msgid ""
+"To import a process model, on the `Processes` page, click the `Import BPMN` "
+"button and select the BPMN XML file."
+msgstr ""
+
+#: ../../process-builder/bpmn-import.rst:15
+#: ../../process-builder/bpmn-import.rst:15
+msgid "The `Import BPMN` button on the `Processes` page"
+msgstr ""
+
+#: ../../process-builder/bpmn-import.rst:17
+#: ../../process-builder/bpmn-import.rst:17
+msgid ""
+"Effektif does not support all BPMN 2.0 elements, so the process may appear "
+"differently in Effektif. In particular:"
+msgstr ""
+
+#: ../../process-builder/bpmn-import.rst:21
+#: ../../process-builder/bpmn-import.rst:21
+msgid "BPMN swim lanes become :ref:`roles <roles>` in Effektif"
+msgstr ""
+
+#: ../../process-builder/bpmn-import.rst:22
+#: ../../process-builder/bpmn-import.rst:22
+msgid "tasks become :ref:`user tasks <user-task>` in Effektif"
+msgstr ""
+
+#: ../../process-builder/bpmn-import.rst:23
+#: ../../process-builder/bpmn-import.rst:23
+msgid "unsupported elements, such as timer events, are removed."
+msgstr ""
+
+#: ../../process-builder/bpmn-export.rst:6
+#: ../../process-builder/bpmn-export.rst:6
+msgid ""
+"You can export an Effektif process model as a BPMN 2.0 XML file. This is "
+"useful if you want to open the model in another tool that supports BPMN, or "
+"to make a backup that you can load using the :ref:`BPMN import <bpmn-"
+"import>` option."
+msgstr ""
+
+#: ../../process-builder/copy-delete.rst:4
+#: ../../process-builder/copy-delete.rst:4
+msgid "Copying & deleting processes"
+msgstr ""
+
+#: ../../process-builder/copy-delete.rst:6
+#: ../../process-builder/copy-delete.rst:6
+msgid ""
+"You can create a copy of a process or delete it using the process menu shown"
+" in the previous section."
+msgstr ""
+
+#: ../../process-builder/copy-delete.rst:8
+#: ../../process-builder/copy-delete.rst:8
+msgid ""
+"The `Create a copy` option duplicates the process in the same organisation. "
+"You may find it useful to duplicate a process if you want to experiment with"
+" changes without publishing changes to a process that people are using. You "
+"may also want to duplicate a process to model a special case of the process,"
+" instead of adding a conditional flow to the standard process."
+msgstr ""
+
+#: ../../process-builder/copy-delete.rst:12
+#: ../../process-builder/copy-delete.rst:12
+msgid ""
+"The `Delete process` option permanently deletes a process and all of its "
+"cases. You cannot undo this operation, so you must enter a confirmation. You"
+" might want to delete a process that you created by duplicating another "
+"process in order to experiment with changes in the model."
+msgstr ""
+
+#: ../../process-builder/copy-delete.rst:16
+#: ../../process-builder/copy-delete.rst:16
+msgid ""
+"In Effektif, you cannot currently delete cases, which you might want to do "
+"if you have created test cases while developing the process. However, you "
+"can use `Create a copy` and `Delete process` to duplicate a process and then"
+" delete the original. This deletes all of the cases with the original "
+"process, and leaves a copy with no cases."
+msgstr ""
+
+#~ msgid ""
+#~ "You can export an Effektif process model as a BPMN 2.0 XML file. This is "
+#~ "useful if you want to open the model in another tool that supports BPMN, or "
+#~ "to make a backup."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "One way to use an email trigger is to add the trigger email address to a "

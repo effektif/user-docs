@@ -358,13 +358,6 @@ msgstr ""
 msgid "Form - the employee and the requested dates."
 msgstr ""
 
-#: ../../examples/approve-vacation-request.rst:34
-#: ../../examples/approve-vacation-request.rst:34
-msgid ""
-"The process consists of a user task for a decision. The email tasks inform "
-"the employee of the decision."
-msgstr ""
-
 #: ../../examples/approve-vacation-request.rst:39
 #: ../../examples/approve-vacation-request.rst:39
 msgid ""
@@ -1710,6 +1703,18 @@ msgstr ""
 #: ../../examples/sign-contract.rst:4 ../../examples/sign-contract.rst:4
 msgid "Sign Contract (management)"
 msgstr ""
+
+#: ../../examples/approve-vacation-request.rst:34
+#: ../../examples/approve-vacation-request.rst:34
+msgid ""
+"The process consists of a user task for a decision. Tasks to continue the "
+"process of going on vacation (or not) follow the decision."
+msgstr ""
+
+#~ msgid ""
+#~ "The process consists of a user task for a decision. The email tasks inform "
+#~ "the employee of the decision."
+#~ msgstr ""
 
 #~ msgid "Form - the uploaded document (File) and its author (User)."
 #~ msgstr ""
