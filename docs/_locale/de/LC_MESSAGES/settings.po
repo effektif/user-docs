@@ -118,7 +118,7 @@ msgstr ""
 "demjenigen zugewiesen werden soll. Danach geben Sie im Textfeld darunter "
 "eine Emailadresse ein und klicken auf *Einladen*. Alle Personen, die Sie "
 "einladen erhalten darauf eine Email mit einem Link um Ihre Registrierung "
-"abzuschließen. Sobald das getan ist, tauchen sie wie gewohnt in der "
+"abzuschließen. Anschließend tauchen sie wie gewohnt in der "
 "Mitgliederliste Ihrer Organisation auf. "
 
 #: ../../settings.rst:67

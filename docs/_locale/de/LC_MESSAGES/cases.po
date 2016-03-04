@@ -162,7 +162,7 @@ msgid ""
 msgstr ""
 "Sie können die Reihenfolge einfach per Drag & Drop ändern, wenn Sie die "
 "einzelnen Einträge am äußeren linken Rand anfassen und nach oben oder unten "
-"ziehen. Klicken sie auf das 'X' Symbol am rechten Rand um eine Spalte zu "
+"ziehen. Klicken Sie auf das 'X' Symbol am rechten Rand um eine Spalte zu "
 "entfernen. Selbst den Titel einer Spalte können Sie einfach ändern, indem "
 "Sie den gewünschten Titel in das Textfeld eintragen."
 

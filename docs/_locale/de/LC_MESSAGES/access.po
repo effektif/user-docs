@@ -25,11 +25,11 @@ msgid ""
 "you configure access controls, you restrict access to specific users or "
 "groups."
 msgstr ""
-"Sie können die Zugriffskontrolle in Effektif dazu nutzen um einzuschränken "
+"Sie können die Zugriffskontrolle in Effektif dazu nutzen, einzuschränken "
 "wer auf welche Prozesse und Aufgaben zugreifen kann. Standardmäßig sind alle"
-" Prozesse und Aufgaben öffentlich sodass alle Nutzer in Ihrer Organisation "
+" Prozesse und Aufgaben öffentlich, sodass alle Nutzer in Ihrer Organisation "
 "uneingeschränkten Zugriff auf sie haben. Wenn Sie die Zugriffsrechte "
-"konfigurieren schränken Sie damit den Zugriff auf bestimmte Nutzer und "
+"konfigurieren, schränken Sie damit den Zugriff auf bestimmte Nutzer und "
 "Gruppen ein."
 
 #: ../../access.rst:15
@@ -98,8 +98,8 @@ msgid ""
 "but cannot start cases when it is not ready to use"
 msgstr ""
 "*Prozess starten* kann nur Ihnen zugewiesen werden, sodass Leute mit dem "
-"*Prozess ansehen* und *Prozess bearbeiten* Recht mit Ihnen zusammen an einem"
-" Prozessentwurf arbeiten können aber nicht versehentlich neue Fälle "
+"*Prozess ansehen* und *Prozess bearbeiten*-Recht mit Ihnen zusammen an einem"
+" Prozessentwurf arbeiten können, aber nicht versehentlich neue Fälle "
 "gestartet werden, bevor der Prozess fertig ist"
 
 #: ../../access.rst:37
@@ -165,7 +165,7 @@ msgid ""
 "Click the *Make this process public* to remove all access restrictions on "
 "the process."
 msgstr ""
-"Wenn Sie auf *Einschränkungen von diesem Prozess entfernen* um jegliche "
+"Klicken Sie auf *Einschränkungen von diesem Prozess entfernen*, um jegliche "
 "Zugriffskontrollen von dem Prozess zu entfernen."
 
 #: ../../access.rst:66
@@ -185,7 +185,7 @@ msgid ""
 "When you make a user task private, there are two different permissions that "
 "you can grant to users and groups."
 msgstr ""
-"Wenn Sie den Zugriff auf eine Aufgabe eingeschränkt haben können Sie zwei "
+"Wenn Sie den Zugriff auf eine Aufgabe eingeschränkt haben, können Sie zwei "
 "verschieden Arten von Rechten vergeben."
 
 #: ../../access.rst:74
