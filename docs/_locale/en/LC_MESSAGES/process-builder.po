@@ -296,14 +296,6 @@ msgid ""
 "*Reuse field* heading, select the role variable to add it to the form."
 msgstr ""
 
-#: ../../process-builder/roles.rst:84 ../../process-builder/roles.rst:84
-msgid ""
-"Alternatively, you can first define the *Support engineer* role by adding a "
-"field with type *User* to the *Initial investigation* task’s form, and then "
-"select the *Support engineer* role on another user task’s *Assignment* "
-"configuration."
-msgstr ""
-
 #: ../../process-builder/versions.rst:4 ../../process-builder/versions.rst:4
 msgid "Versions"
 msgstr ""
@@ -698,6 +690,21 @@ msgid ""
 " delete the original. This deletes all of the cases with the original "
 "process, and leaves a copy with no cases."
 msgstr ""
+
+#: ../../process-builder/roles.rst:84 ../../process-builder/roles.rst:84
+msgid ""
+"Alternatively, you can first define the *Support engineer* role by adding a "
+"field with type *User* to the *Initial investigation* task’s form, and then "
+"select the *Support engineer* role on another user task’s *General* "
+"configuration."
+msgstr ""
+
+#~ msgid ""
+#~ "Alternatively, you can first define the *Support engineer* role by adding a "
+#~ "field with type *User* to the *Initial investigation* task’s form, and then "
+#~ "select the *Support engineer* role on another user task’s *Assignment* "
+#~ "configuration."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "You can export an Effektif process model as a BPMN 2.0 XML file. This is "

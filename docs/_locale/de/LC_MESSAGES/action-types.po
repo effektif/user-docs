@@ -38,11 +38,11 @@ msgstr ""
 msgid "User task"
 msgstr "User Task"
 
-#: ../../action-types.rst:84
+#: ../../action-types.rst:86
 msgid "Send email"
 msgstr "Email senden"
 
-#: ../../action-types.rst:90
+#: ../../action-types.rst:92
 msgid ""
 "The send email action sends an email to the specified user. In the "
 "configuration you can specify"
@@ -50,11 +50,11 @@ msgstr ""
 "Mit der Aktionen `Email senden` können Sie eine Email an eine Reihe von "
 "Nutzern senden. Die Konfiguration umfasst des Weiteren:"
 
-#: ../../action-types.rst:95
+#: ../../action-types.rst:97
 msgid "To:"
 msgstr "Empfänger:"
 
-#: ../../action-types.rst:94
+#: ../../action-types.rst:96
 msgid ""
 "The people to which the email is sent. You can type a plain email address, "
 "select a variable, a variable field or a user in the organization."
@@ -63,11 +63,11 @@ msgstr ""
 "Effektif Nutzer auswählen, Rollen und Nutzervariablen des Prozesses nutzen "
 "oder einfach eine reguläre Emailadresse eintragen."
 
-#: ../../action-types.rst:103
+#: ../../action-types.rst:105
 msgid "Subject:"
 msgstr "Betreff:"
 
-#: ../../action-types.rst:98
+#: ../../action-types.rst:100
 msgid ""
 "The subject of the email. To use process data in the subject, start by "
 "typing a `#`. If the list of variable fields is too long, you can just keep "
@@ -83,15 +83,15 @@ msgstr ""
 "einen Eintrag auszuwählen. Um eine Variable zu löschen, löschen Sie den "
 "Eintrag einfach als wäre er normaler Text."
 
-#: ../../action-types.rst:108
+#: ../../action-types.rst:110
 msgid "Attachments:"
 msgstr "Dateianhänge:"
 
-#: ../../action-types.rst:113
+#: ../../action-types.rst:115
 msgid "Body text:"
 msgstr "Inhalt:"
 
-#: ../../action-types.rst:111
+#: ../../action-types.rst:113
 msgid ""
 "Just like in the subject, you can combine template text with variable fields"
 " to Start by typing a `#`. See *Subject* above in this list for more details"
@@ -256,7 +256,7 @@ msgstr "JavaScript JSON-Werte"
 msgid "A user task in the process editor"
 msgstr "Ein User Task im Prozess-Editor"
 
-#: ../../action-types.rst:88
+#: ../../action-types.rst:90
 msgid "A send email task in the process editor"
 msgstr "Eine Email senden Aktion im Prozess-Editor"
 
@@ -540,7 +540,7 @@ msgstr ""
 msgid "A box upload file task in the process editor"
 msgstr "Eine Box Datei-Upload Aktion im Prozesseditor"
 
-#: ../../action-types.rst:106
+#: ../../action-types.rst:108
 msgid ""
 "To add attachments, click the attachments field. If there are files in the "
 "workflow variables, they will be shown. Select one of the file variable "
@@ -569,65 +569,46 @@ msgstr ""
 "(``/``) voneinander trennen, legt Effektif sogar ganze Hierarchien von "
 "Ordnern für Sie an. "
 
-#: ../../action-types.rst:19
-msgid ""
-"A user task means a user has to perform a task. In the :ref:`case <cases>`, "
-"a task will be created. In the configuration form, the following optional "
-"details can be specified."
-msgstr ""
-"Mit einem User Task drücken Sie aus, dass eine Person in Ihrer Organisation "
-"eine gewisse Aufgabe erledigen muss. In einem :ref:`Fall <cases>` wird "
-"hierzu eine Aufgabe angelegt. Für eine Aufgabe stehen die folgenden "
-"Konfigurationsmöglichkeiten zur Verfügung: "
-
-#: ../../action-types.rst:22
-msgid ""
-"*Assignment* - a task can be assigned to a user or a :ref:`process role "
-"<roles>`."
-msgstr ""
-"*Zuweisung* - Eine Aufgabe kann entweder direkt einem Nutzer zugewiesen "
-"werden oder einer :ref:`Rolle <roles>`."
-
-#: ../../action-types.rst:23
-msgid ""
-"*Form* - a task can be given a form. To complete the task, the form has to "
-"be submitted."
-msgstr ""
-"*Formular* - Eine Aufgabe kann ein Formular beinhalten, mit dem Daten "
-"aufgenommen werden können."
-
-#: ../../action-types.rst:24
+#: ../../action-types.rst:25
 msgid "*Reminders* - task deadline notifications."
 msgstr ""
 "*Erinnerungen* - Senden Sie Erinnerungen und legen Sie Fälligkeiten fest."
 
-#: ../../action-types.rst:25
+#: ../../action-types.rst:26
 msgid "*Escalations* -  automatic task reassignment."
 msgstr ""
 "*Eskalation* - Weisen Sie die Aufgabe automatisch anderen Personen zu."
 
-#: ../../action-types.rst:26
+#: ../../action-types.rst:27
 msgid "*Access Rights* - task permissions for users and groups."
 msgstr ""
 "*Zugriffsrechte* - Definieren Sie Zugriffsrechte für Nutzer und Gruppen."
 
-#: ../../action-types.rst:29
-msgid "Assignment"
-msgstr "Zuweisung"
-
-#: ../../action-types.rst:38
+#: ../../action-types.rst:37
 msgid "Configuring user task assignment in the process editor"
 msgstr "Zuweisung einer Aufgabe im Prozesseditor konfigurieren"
 
-#: ../../action-types.rst:45
+#: ../../action-types.rst:44
 msgid "Form"
 msgstr "Formular"
 
-#: ../../action-types.rst:52
+#: ../../action-types.rst:51
 msgid "Reminders"
 msgstr "Erinnerungen"
 
+#: ../../action-types.rst:40
+msgid "Configuring user task assignment in the process editor"
+msgstr "Zuweisung einer Aufgabe im Prozesseditor konfigurieren"
+
+#: ../../action-types.rst:47
+msgid "Form"
+msgstr "Formular"
+
 #: ../../action-types.rst:54
+msgid "Reminders"
+msgstr "Erinnerungen"
+
+#: ../../action-types.rst:56
 msgid ""
 "Use the user task’s `Reminders` configuration panel tab to set up task "
 "deadline notifications. If you configure a `Due date` or `Reminder` period, "
@@ -637,11 +618,11 @@ msgstr ""
 "festlegen. Wenn Sie eine `Fälligkeit` oder `Erinnerung` festlegen, wird "
 "Effektif für die von Ihnen konfigurierte Periode Erinnerungen versenden."
 
-#: ../../action-types.rst:60
+#: ../../action-types.rst:62
 msgid "Configuring user task reminders in the process editor"
 msgstr "Erinnerungen im Prozesseditor konfigurieren"
 
-#: ../../action-types.rst:62
+#: ../../action-types.rst:64
 msgid ""
 "Effektif sends these notifications to the task’s assignee if the task is "
 "assigned, or to all of the task’s candidates if the task it not assigned. If"
@@ -654,11 +635,11 @@ msgstr ""
 " zugewiesen sein und sind auch keine Kandidaten konfiguriert, so bekommt der"
 " Prozess-Eigentümer die Benachrichtigung."
 
-#: ../../action-types.rst:68
+#: ../../action-types.rst:70
 msgid "Escalations"
 msgstr "Eskalation"
 
-#: ../../action-types.rst:70
+#: ../../action-types.rst:72
 msgid ""
 "You can also use the :ref:`Reminders <reminders>` configuration panel tab to"
 " configure escalations. If you configure an `Escalation` period and an "
@@ -671,11 +652,11 @@ msgstr ""
 "von Ihnen konfigurierte Person zuweisen. Der neue Verantwortliche für die "
 "Aufgabe erhält auch eine Benachrichtigung von Effektif."
 
-#: ../../action-types.rst:76
+#: ../../action-types.rst:78
 msgid "Access Rights"
 msgstr "Zugriffsrechte"
 
-#: ../../action-types.rst:78
+#: ../../action-types.rst:80
 msgid ""
 "Use the `Access Rights` tab to set permissions for viewing, assigning and "
 "completing the task. See :ref:`Restricting access to user tasks <user-task-"
@@ -685,7 +666,7 @@ msgstr ""
 "und bearbeiten kann. Nähere Informationen hierzu finden Sie unter "
 ":ref:`Zugriff auf Aufgaben einschränken <user-task-access>`. "
 
-#: ../../action-types.rst:47
+#: ../../action-types.rst:49
 msgid ""
 "Use the form builder to create a user task form for entering and updating "
 "data as part of the user task."
@@ -693,24 +674,34 @@ msgstr ""
 "Benutzen Sie den Formulareditor, um neue Daten aufzunehmen oder bestehende "
 "zu verändern."
 
-#: ../../action-types.rst:31
+#: ../../action-types.rst:19
 msgid ""
-"Use the assignment tab to specify the task’s assignee or candidates. If you "
-"specify a default assignee, Effektif will automatically assign the task when"
-" creating it. You can also specify multiple candidates, individually or "
-"using organisation groups. Effektif sends :ref:`task created <task-created>`"
-" notifications in both cases."
+"A user task means a user has to perform a task. In the :ref:`case <cases>`, "
+"a task will be created. Use the configuration form to specify the following "
+"optional details."
 msgstr ""
-"Über das *Zweisung*-Tab können Sie die standardmäßig verwantwortlicher "
-"Person oder Kandidaten für einen Task festlegen. Falls Sie einen "
-"standardmäßig Verantwortlichen festlegen, wird Effektif einen Task bei der "
-"Erstellung automatisch dieser Person zuweisen. Sie können zudem mehrere "
-"Kandidaten für einen Task definieren, sowohl als einzelne Nutzer, als auch "
-"über Nutzergruppen. Sobald ein Task erstellt wurde, verschickt Effektif "
-":ref:`Aufgabe erstellt<task-created>`-Benachrichtigungen an die "
-"entsprechenden Nutzer."
+"Mit einem User Task wird von einer Person manuell ausgeführt. In einem "
+":ref:`Fall <cases>` wird hierzu eine Aufgabe angelegt. Für eine Aufgabe "
+"stehen die folgenden Konfigurationsmöglichkeiten zur Verfügung:"
 
-#: ../../action-types.rst:40
+#: ../../action-types.rst:23
+msgid "*General* - assign a user or a :ref:`process role <roles>`."
+msgstr ""
+"*Allgemein* - weisen Sie einen Nutzer oder eine :ref:`Prozessrolle <roles>` "
+"zu."
+
+#: ../../action-types.rst:24
+msgid ""
+"*Form* - add a form, which means submitting the form to complete the task."
+msgstr ""
+"*Formular* - hinterlegen Sie ein Formular, über das bei der Taskausführung "
+"Daten aufgenommen werden."
+
+#: ../../action-types.rst:30
+msgid "General"
+msgstr "Allgemein"
+
+#: ../../action-types.rst:42
 msgid ""
 "You can also specify a role for the task’s assignment, like a BPMN swim "
 "lane, so that related tasks are automatically assigned to the same person. "
@@ -736,6 +727,89 @@ msgid ""
 "execution. After creating or selecting a JavaScript action, the "
 "configuration panel looks like this:"
 msgstr ""
+"Mit der JavaScript Aktion kann ein Entwickler ein selbst geschrieben Script "
+"mit einem Task asuführen lassen. Nachdem Sie solch eine Aktion angelegt "
+"haben, sehen Sie den folgenden Konfigurationsdialog:"
+
+#: ../../action-types.rst:32
+msgid ""
+"Use the *General* tab to specify the task’s default assignee or candidates. "
+"Candidates can be individual users or organisation groups. If you specify a "
+"default assignee, Effektif will automatically assign the task when creating "
+"it. You can also specify multiple candidates, individually or using "
+"organisation groups. Effektif sends :ref:`task created <task-created>` "
+"notifications in both cases."
+msgstr ""
+"Über das *Allgemein*-Tab können Sie die standardmäßig verwantwortlicher "
+"Person oder Kandidaten für einen Task festlegen. Falls Sie einen "
+"standardmäßig Verantwortlichen festlegen, wird Effektif einen Task bei der "
+"Erstellung automatisch dieser Person zuweisen. Sie können zudem mehrere "
+"Kandidaten für einen Task definieren, sowohl als einzelne Nutzer, als auch "
+"über Nutzergruppen. Sobald ein Task erstellt wurde, verschickt Effektif "
+":ref:`Aufgabe erstellt<task-created>`-Benachrichtigungen an die "
+"entsprechenden Nutzer."
+
+#~ msgid ""
+#~ "You an also specify a role for the task’s assignment, like a BPMN swim lane,"
+#~ " so that related tasks are automatically assigned to the same person."
+#~ msgstr ""
+#~ "Sie können auch :ref:`Rollen <process-roles>` für die Zuweisung nutzen. "
+#~ "Diese ähneln den Lanes aus BPMN. So können Sie mehrere Aufgaben automatisch "
+#~ "der gleichen Person zuweisen. "
+
+#~ msgid "Assignment"
+#~ msgstr "Zuweisung"
+
+#~ msgid ""
+#~ "Use the *General* tab to specify the task’s default assignee or candidates. "
+#~ "Candidates can be individual users or organisation groups."
+#~ msgstr ""
+#~ "Unter *Allgemein* können Sie Verantwortliche für Aufgaben festlegen oder "
+#~ "eine Liste von Kandidaten definieren. Kandidaten können hierbei mehrere "
+#~ "Nutzer oder Gruppen von Nutzern sein."
+
+#~ msgid ""
+#~ "Use the assignment tab to specify the task’s assignee or candidates. If you "
+#~ "specify a default assignee, Effektif will automatically assign the task when"
+#~ " creating it. You can also specify multiple candidates, individually or "
+#~ "using organisation groups. Effektif sends :ref:`task created <task-created>`"
+#~ " notifications in both cases."
+#~ msgstr ""
+#~ "Über das *Zweisung*-Tab können Sie die standardmäßig verwantwortlicher "
+#~ "Person oder Kandidaten für einen Task festlegen. Falls Sie einen "
+#~ "standardmäßig Verantwortlichen festlegen, wird Effektif einen Task bei der "
+#~ "Erstellung automatisch dieser Person zuweisen. Sie können zudem mehrere "
+#~ "Kandidaten für einen Task definieren, sowohl als einzelne Nutzer, als auch "
+#~ "über Nutzergruppen. Sobald ein Task erstellt wurde, verschickt Effektif "
+#~ ":ref:`Aufgabe erstellt<task-created>`-Benachrichtigungen an die "
+#~ "entsprechenden Nutzer."
+
+#~ msgid ""
+#~ "A user task means a user has to perform a task. In the :ref:`case <cases>`, "
+#~ "a task will be created. In the configuration form, the following optional "
+#~ "details can be specified."
+#~ msgstr ""
+#~ "Mit einem User Task drücken Sie aus, dass eine Person in Ihrer Organisation "
+#~ "eine gewisse Aufgabe erledigen muss. In einem :ref:`Fall <cases>` wird "
+#~ "hierzu eine Aufgabe angelegt. Für eine Aufgabe stehen die folgenden "
+#~ "Konfigurationsmöglichkeiten zur Verfügung: "
+
+#~ msgid ""
+#~ "*Assignment* - a task can be assigned to a user or a :ref:`process role "
+#~ "<roles>`."
+#~ msgstr ""
+#~ "*Zuweisung* - Eine Aufgabe kann entweder direkt einem Nutzer zugewiesen "
+#~ "werden oder einer :ref:`Rolle <roles>`."
+
+#~ msgid ""
+#~ "*Form* - a task can be given a form. To complete the task, the form has to "
+#~ "be submitted."
+#~ msgstr ""
+#~ "*Formular* - Eine Aufgabe kann ein Formular beinhalten, mit dem Daten "
+#~ "aufgenommen werden können."
+
+#~ msgid "Assignment"
+#~ msgstr "Zuweisung"
 
 #~ msgid ""
 #~ "Use the assignment tab to specify the task’s default assignee or candidates."
@@ -758,9 +832,9 @@ msgstr ""
 #~ "execution. After creating or selecting a JavaScript action, the "
 #~ "configuration panel looks like this:"
 #~ msgstr ""
-#~ "Mit der JavaScript Aktion kann ein Entwickler ein selbst geschrieben Script "
-#~ "ausführen, während der Prozess ausgeführt wird. Nachdem Sie solch eine "
-#~ "Aktion angelegt haben, sehen Sie den folgenden Konfigurationsdialog:"
+#~ "Unter Zuweisung können Sie Verantwortliche für Aufgaben festlegen oder eine "
+#~ "Liste von Kandidaten definieren. Kandidaten können hierbei mehrere Nutzer "
+#~ "oder Gruppen von Nutzern sein."
 
 #~ msgid ""
 #~ "A user task means a user has to perform a task. In the :ref:`case <cases>`, "

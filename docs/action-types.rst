@@ -17,18 +17,20 @@ User task
    A user task in the process editor
 
 A user task means a user has to perform a task.
-In the :ref:`case <cases>`, a task will be created. In the configuration form, the following optional details can be specified.
+In the :ref:`case <cases>`, a task will be created.
+Use the configuration form to specify the following optional details.
 
-* *Assignment* - a task can be assigned to a user or a :ref:`process role <roles>`.
-* *Form* - a task can be given a form. To complete the task, the form has to be submitted.
+* *General* - assign a user or a :ref:`process role <roles>`.
+* *Form* - add a form, which means submitting the form to complete the task.
 * *Reminders* - task deadline notifications.
 * *Escalations* -  automatic task reassignment.
 * *Access Rights* - task permissions for users and groups.
 
-Assignment
-^^^^^^^^^^
+General
+^^^^^^^
 
-Use the assignment tab to specify the task’s assignee or candidates.
+Use the *General* tab to specify the task’s default assignee or candidates.
+Candidates can be individual users or organisation groups.
 If you specify a default assignee, Effektif will automatically assign the task when creating it.
 You can also specify multiple candidates, individually or using organisation groups.
 Effektif sends :ref:`task created <task-created>` notifications in both cases.
