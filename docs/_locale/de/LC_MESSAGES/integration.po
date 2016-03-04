@@ -38,7 +38,7 @@ msgid ""
 msgstr ""
 "Bevor Sie anfangen können, müssen Sie zunächst einen Endpunkt für "
 "Salesforce in Effektif einrichten. Hierdurch wird es Salesforce ermöglicht "
-"Daten an Effektif zu übermitteln. Gehen Sie wie folgt vor."
+"Daten an Effektif zu übermitteln. Gehen Sie wie folgt vor:"
 
 #: ../../integration/salesforce.rst:15
 msgid ""
@@ -76,7 +76,7 @@ msgid ""
 msgstr ""
 "Bevor Sie Salesforce Trigger benutzen können müssen Sie `ausgehende "
 "Nachrichten` bei Salesforce einrichten. Solche Nachrichten sind ein Typ von "
-"Workflow Aktionen innerhalb von Salesforce. Gehen Sie hierzu wie folgt vor. "
+"Workflow Aktionen innerhalb von Salesforce. Gehen Sie hierzu wie folgt vor:"
 
 #: ../../integration/salesforce.rst:32
 msgid ""
@@ -91,7 +91,7 @@ msgid ""
 "Create or edit a new or existing workflow rule, and in the `Workflow "
 "Actions` section, select `Edit`."
 msgstr ""
-"Legen Sie eine neue Workflow-Regel and oder bearbeiten Sie eine bestehende."
+"Legen Sie eine neue Workflow-Regel and oder bearbeiten Sie eine Bestehende."
 
 #: ../../integration/salesforce.rst:38
 msgid ""
@@ -108,7 +108,7 @@ msgid ""
 msgstr ""
 "Im folgenden Konfigurationsdialog spezifizieren Sie nun die Daten, die an "
 "Effektif übermittelt werden sollen. Alle Daten, die Sie hier auswählen sind "
-"später als Prozessvariablen in Workflows, die diesen Auslöser nutzen, "
+"später als Prozessvariablen in Workflows, die diesen Auslöser nutzen "
 "verfügbar. "
 
 #: ../../integration/salesforce.rst:42
@@ -125,7 +125,7 @@ msgid ""
 "have finished the configuration. To do this, click the `Activate` button at "
 "the top of the `Workflow Rule Detail` page."
 msgstr ""
-"Vergessen Sie nicht die Regel zu speichern und zu aktivieren nachdem Sie "
+"Vergessen Sie nicht die Regel zu speichern und zu aktivieren, nachdem Sie "
 "die Konfiguration abgeschlossen haben."
 
 #: ../../integration/salesforce.rst:50
@@ -163,7 +163,7 @@ msgid ""
 "tab, and then select the Salesforce trigger type you created earlier."
 msgstr ""
 "Navigieren Sie wieder in ihrem Nutzermenü oben rechts zu "
-"`Organisationseinstellungen` und dann `Services`. Wählen Sie nun den "
+"`Organisationseinstellungen` und dann zu `Services`. Wählen Sie nun den "
 "Salesforce-Auslöser, den Sie zuvor erstellt haben."
 
 #: ../../integration/salesforce.rst:63

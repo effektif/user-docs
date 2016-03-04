@@ -70,7 +70,7 @@ msgid ""
 msgstr ""
 "Auf der Linken Seite der Inbox sind die Aufgaben mit Fälligkeitsdatum in drei "
 "Kategorien unterteilt um es Ihnen leichter zu machen Ihre Arbeit zu "
-"priorisieren. Aufgaben denen Sie zugewiesen sind, die Sie angelegt haben oder "
+"priorisieren. Aufgaben, die Ihnen zugewiesen sind, die Sie angelegt haben oder "
 "für die Sie ein Kandidat sind werden auf der rechten Seite angezeigt. "
 
 #: ../../tasks.rst:38
@@ -92,8 +92,7 @@ msgid ""
 "This indicator is shown in red for tasks that are now due."
 msgstr ""
 "Aufgaben mit einem Fälligkeitsdatum zeigen ein kleines Uhr-Symbol an der "
-"rechten Seite an. Wenn dieses Symbol rot dargestellt wird, bedeutet dies dass "
-"die Aufgabe fällig ist."
+"rechten Seite an. Wenn dieses Symbol rot dargestellt wird, ist die Aufgabe fällig."
 
 #: ../../tasks.rst:50
 msgid ""
@@ -188,7 +187,7 @@ msgid ""
 "the task, click the assignee button immediately to the left of the task name, "
 "to open the list of candidates."
 msgstr ""
-"Sie können Aufgaben überall dort direkt zuweisen, wo sie in einer "
+"Sie können Aufgaben überall dort direkt zuweisen, wo diese in einer "
 "Aufgabenliste auftauchen. Dazu drücken Sie einfach den Knopf direkt neben dem "
 "Namen der Aufgabe, worauf sich eine Liste mit den Kandidaten öffnet."
 
@@ -256,7 +255,7 @@ msgstr ""
 "zugewiesen ist, wird sie in der entsprechenden :ref:`Aufgaben Inbox <tasks-"
 "inbox>` des Verantwortlichen angezeigt. Der Verantwortliche erhält darüber "
 "eine :ref:`Benachrichtigung <notifications>` und alle :ref:`Erinnerungen "
-"<reminders>`, die für die Aufgabe definiert sind erreichen Ihn nun auch. "
+"<reminders>`, die für die Aufgabe definiert sind, erreichen ihn nun auch. "
 
 #: ../../tasks.rst:105
 msgid "Setting due dates"

@@ -141,7 +141,7 @@ msgstr ""
 "gestartet werden. Effektif überwacht dabei welche Aufgaben und Aktivitäten "
 "ausgeführt werden müssen. Mit Fällen können Sie Kollegen zusammenbringen um "
 "alle relevanten Informationen, die zur Durchführung benötigt werden, "
-"zusammenzutragen. In jedem Fall können alle Themen Rund um eine Aufgabe "
+"zusammenzutragen. In jedem Fall können alle Themen rund um eine Aufgabe "
 "diskutiert und weitere Aufgaben on-the-fly angelegt werden."
 
 #~ msgid "Use Effektif for:"
