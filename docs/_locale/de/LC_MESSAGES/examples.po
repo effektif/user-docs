@@ -453,15 +453,6 @@ msgstr ""
 msgid "Form - the employee and the requested dates."
 msgstr "Formular - der Mitarbeiter und die Urlaubsdaten"
 
-#: ../../examples/approve-vacation-request.rst:34
-#: ../../examples/approve-vacation-request.rst:34
-msgid ""
-"The process consists of a user task for a decision. The email tasks inform "
-"the employee of the decision."
-msgstr ""
-"Der Prozess enthält einen User Task für eine Entscheidung. Die Email Tasks "
-"informieren den Mitarbeiter über die Entscheidung."
-
 #: ../../examples/approve-vacation-request.rst:39
 #: ../../examples/approve-vacation-request.rst:39
 msgid ""
@@ -547,12 +538,12 @@ msgid ""
 "this scenario, an internal requisition for a new position drives the "
 "process."
 msgstr ""
-"Der Prozess :ref:`Mitarbeiter einstellen <hire-employee>` wird von Bewerbungen "
-"ausgelöst und ist für Organisationen mit oft durchgängig offenen Stellen und"
-" relativ wenigen Bewerbern geeignet. Einige Organisationen bekommen viele "
-"Bewerbungen sobald eine Stelle ausgeschrieben ist und die Stelle kann daher "
-"schnell besetzt werden. In unserem Beispiel wird der Prozess von der "
-"Erstellung eines neuen Stellenprofils ausgelöst."
+"Der Prozess :ref:`Mitarbeiter einstellen <hire-employee>` wird von "
+"Bewerbungen ausgelöst und ist für Organisationen mit oft durchgängig offenen"
+" Stellen und relativ wenigen Bewerbern geeignet. Einige Organisationen "
+"bekommen viele Bewerbungen sobald eine Stelle ausgeschrieben ist und die "
+"Stelle kann daher schnell besetzt werden. In unserem Beispiel wird der "
+"Prozess von der Erstellung eines neuen Stellenprofils ausgelöst."
 
 #: ../../examples/fill-job-vacancy.rst:21
 #: ../../examples/fill-job-vacancy.rst:21
@@ -590,8 +581,8 @@ msgid ""
 msgstr ""
 "*Recruiter* - der interne HR-Mitarbeiter, der den Einstellungsprozess "
 "koordiniert. Die Basisversion des Prozesses berücksichtigt nicht den HR "
-"Manager, der im :ref:`Mitarbeiter einstellen <hire-employee>`-Subprozess mitwirkt, "
-"sowie externe Recruiter oder Headhunter."
+"Manager, der im :ref:`Mitarbeiter einstellen <hire-employee>`-Subprozess "
+"mitwirkt, sowie externe Recruiter oder Headhunter."
 
 #: ../../examples/fill-job-vacancy.rst:42
 #: ../../examples/fill-job-vacancy.rst:42
@@ -679,7 +670,8 @@ msgid ""
 "process, as in :ref:`Hire employee <hire-employee>`."
 msgstr ""
 "den Interview-Task erweitern, sodass er den gesamten Einstellungsprozess "
-"abbildet, wie unter :ref:`Mitarbeiter einstellen <hire-employee>` beschrieben."
+"abbildet, wie unter :ref:`Mitarbeiter einstellen <hire-employee>` "
+"beschrieben."
 
 #: ../../examples/follow-up-contact.rst:4
 #: ../../examples/follow-up-contact.rst:4
@@ -1758,8 +1750,8 @@ msgid ""
 "the email - followed by an email task to send the reply."
 msgstr ""
 "Ungewöhnlicherweise besteht dieser Prozess aus lediglich einem User Task - "
-"dem Beantworten der Email - auf den ein *Email senden*-Task zum automatischen "
-"Versenden der Mail folgt."
+"dem Beantworten der Email - auf den ein *Email senden*-Task zum "
+"automatischen Versenden der Mail folgt."
 
 #: ../../examples/respond-to-customer-email.rst:30
 #: ../../examples/respond-to-customer-email.rst:30
@@ -1945,21 +1937,6 @@ msgstr ""
 "*Lieferanweisung an Transporteur senden* - Versand der Lieferanweisungen an "
 "den Transporteur."
 
-#: ../../examples/ship-product-from-warehouse.rst:49
-#: ../../examples/ship-product-from-warehouse.rst:49
-msgid ""
-"There is flexibility in the process, which warehouse staff are likely to "
-"use. Staff may perform might be performed tasks sequentially in practice, "
-"even though they could perform them in parallel. Staff may also batch "
-"multiple orders together at various steps, when there are waiting times such"
-" as waiting for the next truck to arrive at the warehouse."
-msgstr ""
-"Der Prozess bietet Flexibilität für die Lagermitarbeiter. Das Personal kann "
-"die Tasks nacheinander durchführen, obwohl sie im Prozess als strikt "
-"parallel modelliert sind. Mitarbeiter können zudem Prozessschritte für "
-"mehrere Bestellungen als 'Stapel' abarbeiten, falls es Wartezeiten gibt, zum"
-" Beispiel zwischen Lastwagenladungen."
-
 #: ../../examples/ship-product-from-warehouse.rst:56
 #: ../../examples/ship-product-from-warehouse.rst:56
 msgid ""
@@ -2129,3 +2106,40 @@ msgid ""
 msgstr ""
 "Sie können den Prozess vereinfachen, indem Sie einen oder mehrere der "
 "Zusatzfälle entfernen."
+
+#: ../../examples/approve-vacation-request.rst:34
+#: ../../examples/approve-vacation-request.rst:34
+msgid ""
+"The process consists of a user task for a decision. Tasks to continue the "
+"process of going on vacation (or not) follow the decision."
+msgstr ""
+
+#: ../../examples/ship-product-from-warehouse.rst:49
+#: ../../examples/ship-product-from-warehouse.rst:49
+msgid ""
+"There is flexibility in the process, which warehouse staff are likely to "
+"use. Staff may perform the tasks sequentially in practice, even though they "
+"could perform them in parallel. Staff may also batch multiple orders "
+"together at various steps, when there are waiting times such as waiting for "
+"the next truck to arrive at the warehouse."
+msgstr ""
+
+#~ msgid ""
+#~ "The process consists of a user task for a decision. The email tasks inform "
+#~ "the employee of the decision."
+#~ msgstr ""
+#~ "Der Prozess enthält einen User Task für eine Entscheidung. Die Email Tasks "
+#~ "informieren den Mitarbeiter über die Entscheidung."
+
+#~ msgid ""
+#~ "There is flexibility in the process, which warehouse staff are likely to "
+#~ "use. Staff may perform might be performed tasks sequentially in practice, "
+#~ "even though they could perform them in parallel. Staff may also batch "
+#~ "multiple orders together at various steps, when there are waiting times such"
+#~ " as waiting for the next truck to arrive at the warehouse."
+#~ msgstr ""
+#~ "Der Prozess bietet Flexibilität für die Lagermitarbeiter. Das Personal kann "
+#~ "die Tasks nacheinander durchführen, obwohl sie im Prozess als strikt "
+#~ "parallel modelliert sind. Mitarbeiter können zudem Prozessschritte für "
+#~ "mehrere Bestellungen als 'Stapel' abarbeiten, falls es Wartezeiten gibt, zum"
+#~ " Beispiel zwischen Lastwagenladungen."

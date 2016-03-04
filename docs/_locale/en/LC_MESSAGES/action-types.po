@@ -31,31 +31,31 @@ msgstr ""
 msgid "User task"
 msgstr ""
 
-#: ../../action-types.rst:82
+#: ../../action-types.rst:84
 msgid "Send email"
 msgstr ""
 
-#: ../../action-types.rst:88
+#: ../../action-types.rst:90
 msgid ""
 "The send email action sends an email to the specified user. In the "
 "configuration you can specify"
 msgstr ""
 
-#: ../../action-types.rst:93
+#: ../../action-types.rst:95
 msgid "To:"
 msgstr ""
 
-#: ../../action-types.rst:92
+#: ../../action-types.rst:94
 msgid ""
 "The people to which the email is sent. You can type a plain email address, "
 "select a variable, a variable field or a user in the organization."
 msgstr ""
 
-#: ../../action-types.rst:101
+#: ../../action-types.rst:103
 msgid "Subject:"
 msgstr ""
 
-#: ../../action-types.rst:96
+#: ../../action-types.rst:98
 msgid ""
 "The subject of the email. To use process data in the subject, start by "
 "typing a `#`. If the list of variable fields is too long, you can just keep "
@@ -64,15 +64,15 @@ msgid ""
 "variable fields from the subject, just delete it like it's normal text."
 msgstr ""
 
-#: ../../action-types.rst:111
+#: ../../action-types.rst:113
 msgid "Body text:"
 msgstr ""
 
-#: ../../action-types.rst:106
+#: ../../action-types.rst:108
 msgid "Attachments:"
 msgstr ""
 
-#: ../../action-types.rst:109
+#: ../../action-types.rst:111
 msgid ""
 "Just like in the subject, you can combine template text with variable fields"
 " to Start by typing a `#`. See *Subject* above in this list for more details"
@@ -203,7 +203,7 @@ msgstr ""
 msgid "A user task in the process editor"
 msgstr ""
 
-#: ../../action-types.rst:86
+#: ../../action-types.rst:88
 msgid "A send email task in the process editor"
 msgstr ""
 
@@ -440,15 +440,15 @@ msgid ""
 "be submitted."
 msgstr ""
 
-#: ../../action-types.rst:50
+#: ../../action-types.rst:52
 msgid "Reminders"
 msgstr ""
 
-#: ../../action-types.rst:58
+#: ../../action-types.rst:60
 msgid "Configuring user task reminders in the process editor"
 msgstr ""
 
-#: ../../action-types.rst:60
+#: ../../action-types.rst:62
 msgid ""
 "Effektif sends these notifications to the task’s assignee if the task is "
 "assigned, or to all of the task’s candidates if the task it not assigned. If"
@@ -456,7 +456,7 @@ msgid ""
 "notification to the process’ owner."
 msgstr ""
 
-#: ../../action-types.rst:66
+#: ../../action-types.rst:68
 msgid "Escalations"
 msgstr ""
 
@@ -481,14 +481,14 @@ msgstr ""
 msgid "*Escalations* -  automatic task reassignment."
 msgstr ""
 
-#: ../../action-types.rst:52
+#: ../../action-types.rst:54
 msgid ""
 "Use the user task’s `Reminders` configuration panel tab to set up task "
 "deadline notifications. If you configure a `Due date` or `Reminder` period, "
 "then Effektif will send email when the deadline expires."
 msgstr ""
 
-#: ../../action-types.rst:68
+#: ../../action-types.rst:70
 msgid ""
 "You can also use the :ref:`Reminders <reminders>` configuration panel tab to"
 " configure escalations. If you configure an `Escalation` period and an "
@@ -504,48 +504,56 @@ msgstr ""
 msgid "Assignment"
 msgstr ""
 
-#: ../../action-types.rst:31
-msgid ""
-"Use the assignment tab to specify the task’s default assignee or candidates."
-" Candidates can be individual users or organisation groups."
-msgstr ""
-
-#: ../../action-types.rst:38
-msgid ""
-"You an also specify a role for the task’s assignment, like a BPMN swim lane,"
-" so that related tasks are automatically assigned to the same person."
-msgstr ""
-
-#: ../../action-types.rst:43
+#: ../../action-types.rst:45
 msgid "Form"
 msgstr ""
 
-#: ../../action-types.rst:74
+#: ../../action-types.rst:76
 msgid "Access Rights"
 msgstr ""
 
-#: ../../action-types.rst:76
+#: ../../action-types.rst:78
 msgid ""
 "Use the `Access Rights` tab to set permissions for viewing, assigning and "
 "completing the task. See :ref:`Restricting access to user tasks <user-task-"
 "access>` for details."
 msgstr ""
 
-#: ../../action-types.rst:36
+#: ../../action-types.rst:38
 msgid "Configuring user task assignment in the process editor"
 msgstr ""
 
-#: ../../action-types.rst:104
+#: ../../action-types.rst:106
 msgid ""
 "To add attachments, click the attachments field. If there are files in the "
 "workflow variables, they will be shown. Select one of the file variable "
 "fields to add these as attachments to the mail."
 msgstr ""
 
-#: ../../action-types.rst:45
+#: ../../action-types.rst:47
 msgid ""
 "Use the form builder to create a user task form for entering and updating "
 "data as part of the user task."
+msgstr ""
+
+#: ../../action-types.rst:31
+msgid ""
+"Use the assignment tab to specify the task’s assignee or candidates. If you "
+"specify a default assignee, Effektif will automatically assign the task when"
+" creating it. You can also specify multiple candidates, individually or "
+"using organisation groups. Effektif sends :ref:`task created <task-created>`"
+" notifications in both cases."
+msgstr ""
+
+#: ../../action-types.rst:40
+msgid ""
+"You can also specify a role for the task’s assignment, like a BPMN swim "
+"lane, so that related tasks are automatically assigned to the same person. "
+"For example, a meeting’s *Chairman* role applies to a single meeting’s "
+"tasks, and isn’t anyone’s job title or a position defined within an "
+"organisation. Like this *Chairman* role, an Effektif process defines roles "
+"that you assign for each new case, and which do not usually correspond to "
+"organisation job titles or groups."
 msgstr ""
 
 #: ../../action-types/javascript.rst:4 ../../action-types/javascript.rst:4
@@ -554,6 +562,11 @@ msgid ""
 "execution. After creating or selecting a JavaScript action, the "
 "configuration panel looks like this:"
 msgstr ""
+
+#~ msgid ""
+#~ "Use the assignment tab to specify the task’s default assignee or candidates."
+#~ " Candidates can be individual users or organisation groups."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "The JavaScript action allows developers to run a JavaScript to the process "
