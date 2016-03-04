@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
@@ -50,41 +50,61 @@ msgid ""
 "user name."
 msgstr ""
 
-#: ../../settings.rst:34
+#: ../../settings.rst:48
 msgid "Groups"
 msgstr ""
 
-#: ../../settings.rst:36
+#: ../../settings.rst:50
 msgid ""
 "The groups list shows the organization’s user groups. You can use these "
 "groups to define candidates for tasks in the :ref:`process builder <process-"
 "builder>`."
 msgstr ""
 
-#: ../../settings.rst:41
+#: ../../settings.rst:55
 msgid ""
 "To create a new group, in the text field below the group list, enter a group"
 " name and click the *Create* button."
 msgstr ""
 
-#: ../../settings.rst:47
+#: ../../settings.rst:61
 msgid ""
 "Click a group’s name to expand its list of members, so you can edit the name"
 " and add or remove members,"
 msgstr ""
 
-#: ../../settings.rst:53
+#: ../../settings.rst:34
 msgid "Invitations"
 msgstr ""
 
-#: ../../settings.rst:55
+#: ../../settings.rst:36
 msgid "The invitations list shows who you have invited to use Effektif."
 msgstr ""
 
-#: ../../settings.rst:59
+#: ../../settings.rst:40
 msgid ""
 "To invite someone to use Effektif, select the license they will use, enter "
 "their email address in the text field and click the *Invite* button. They "
 "will receive an email with a link to the registration page, where they can "
 "create an Effektif user that will be a member of the organization."
+msgstr ""
+
+#: ../../settings.rst:67
+msgid "Preferences"
+msgstr ""
+
+#: ../../settings.rst:69
+msgid ""
+"The *Preferences* includes additional options that apply to the whole "
+"organization."
+msgstr ""
+
+#: ../../settings.rst:73
+msgid "*Time zone* affects how times are displayed."
+msgstr ""
+
+#: ../../settings.rst:75
+msgid ""
+"*Email signature* replaces the default *Effektif team* signature at the "
+"bottom of :ref:`notification emails <notifications>`."
 msgstr ""

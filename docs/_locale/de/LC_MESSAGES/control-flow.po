@@ -408,14 +408,14 @@ msgstr ""
 
 #: ../../control-flow.rst:34 ../../control-flow.rst:45
 msgid "End event"
-msgstr "Ende Ereignis"
+msgstr "Endereignis"
 
 #: ../../control-flow.rst:40
 msgid ""
 "Like start events, end events are also optional. End events mark the end of "
 "an execution flow:"
 msgstr ""
-"Ähnlich den Start Ereignissen sind auch die Ende Ereignisse optional. Ende "
+"Ähnlich den Start Ereignissen sind auch die Endereignisse optional. Ende "
 "Ereignisse markieren jeweils das Ende der Prozessausführung. "
 
 #: ../../control-flow.rst:47
@@ -424,7 +424,7 @@ msgstr "Der oben abgebildete Prozess ist äquivalent zu dem folgenden Prozess."
 
 #: ../../control-flow.rst:51
 msgid "No end event"
-msgstr "Kein Ende Ereignis"
+msgstr "Kein Endereignis"
 
 #: ../../control-flow/exclusive-gateway.rst:6
 #: ../../control-flow/exclusive-gateway.rst:6
@@ -442,7 +442,7 @@ msgstr "Ein Start Ereignis im Prozesseditor"
 
 #: ../../control-flow.rst:38
 msgid "An end event in the process editor"
-msgstr "Ein Ende Ereignis im Prozesseditor"
+msgstr "Ein Endereignis im Prozesseditor"
 
 #: ../../control-flow/exclusive-gateway.rst:8
 #: ../../control-flow/exclusive-gateway.rst:8

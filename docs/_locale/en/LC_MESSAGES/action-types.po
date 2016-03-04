@@ -15,68 +15,28 @@ msgstr ""
 msgid "Action Types"
 msgstr ""
 
-#: ../../action-types.rst:6
-msgid ""
-"All actions are displayed as lines in the 'Simple action list' and as "
-"rounded rectangles in the 'Advanced flows' view."
-msgstr ""
-
-#: ../../action-types.rst:8
-msgid ""
-"Actions typically have a configuration panel that opens up when you select "
-"the action."
-msgstr ""
-
-#: ../../action-types.rst:13
+#: ../../action-types/user-task.rst:4 ../../action-types/user-task.rst:4
 msgid "User task"
 msgstr ""
 
-#: ../../action-types.rst:86
+#: ../../action-types/send-email.rst:2 ../../action-types/send-email.rst:2
 msgid "Send email"
 msgstr ""
 
-#: ../../action-types.rst:92
-msgid ""
-"The send email action sends an email to the specified user. In the "
-"configuration you can specify"
-msgstr ""
-
-#: ../../action-types.rst:97
+#: ../../action-types/send-email.rst:13 ../../action-types/send-email.rst:13
 msgid "To:"
 msgstr ""
 
-#: ../../action-types.rst:96
-msgid ""
-"The people to which the email is sent. You can type a plain email address, "
-"select a variable, a variable field or a user in the organization."
-msgstr ""
-
-#: ../../action-types.rst:105
+#: ../../action-types/send-email.rst:20 ../../action-types/send-email.rst:20
 msgid "Subject:"
 msgstr ""
 
-#: ../../action-types.rst:100
-msgid ""
-"The subject of the email. To use process data in the subject, start by "
-"typing a `#`. If the list of variable fields is too long, you can just keep "
-"typing after the `#` to narrow the list. In combination, use the up and down"
-" arrows to select the right field. Hit enter to select the field. To remove "
-"variable fields from the subject, just delete it like it's normal text."
-msgstr ""
-
-#: ../../action-types.rst:115
+#: ../../action-types/send-email.rst:28 ../../action-types/send-email.rst:27
 msgid "Body text:"
 msgstr ""
 
-#: ../../action-types.rst:110
+#: ../../action-types/send-email.rst:24 ../../action-types/send-email.rst:24
 msgid "Attachments:"
-msgstr ""
-
-#: ../../action-types.rst:113
-msgid ""
-"Just like in the subject, you can combine template text with variable fields"
-" to Start by typing a `#`. See *Subject* above in this list for more details"
-" instructions on using the `#`."
 msgstr ""
 
 #: ../../action-types/google.rst:25 ../../action-types/google.rst:25
@@ -199,11 +159,11 @@ msgstr ""
 msgid "JavaScript JSON values"
 msgstr ""
 
-#: ../../action-types.rst:17
+#: ../../action-types/user-task.rst:8 ../../action-types/user-task.rst:8
 msgid "A user task in the process editor"
 msgstr ""
 
-#: ../../action-types.rst:90
+#: ../../action-types/send-email.rst:6 ../../action-types/send-email.rst:6
 msgid "A send email task in the process editor"
 msgstr ""
 
@@ -255,14 +215,6 @@ msgid ""
 "column in the test console’s variables table."
 msgstr ""
 
-#: ../../action-types/google.rst:4 ../../action-types/google.rst:4
-msgid "Google Drive Upload file"
-msgstr ""
-
-#: ../../action-types/google.rst:8 ../../action-types/google.rst:8
-msgid "A Google Drive upload file task in the process editor"
-msgstr ""
-
 #: ../../action-types/google.rst:10 ../../action-types/google.rst:10
 msgid ""
 "The Google Drive `Upload file` action sends one or more files to an account "
@@ -270,8 +222,9 @@ msgid ""
 msgstr ""
 
 #: ../../action-types/google.rst:15 ../../action-types/google.rst:84
-#: ../../action-types/box.rst:12 ../../action-types/box.rst:12
-#: ../../action-types/google.rst:15 ../../action-types/google.rst:84
+#: ../../action-types/google.rst:122 ../../action-types/box.rst:12
+#: ../../action-types/box.rst:12 ../../action-types/google.rst:15
+#: ../../action-types/google.rst:84 ../../action-types/google.rst:122
 msgid "Configuration"
 msgstr ""
 
@@ -301,14 +254,6 @@ msgstr ""
 
 #: ../../action-types/google.rst:55 ../../action-types/google.rst:55
 msgid "Google Drive `Upload file` authenticated configuration"
-msgstr ""
-
-#: ../../action-types/google.rst:73 ../../action-types/google.rst:73
-msgid "Google Drive Print File"
-msgstr ""
-
-#: ../../action-types/google.rst:77 ../../action-types/google.rst:77
-msgid "A Google Drive print file task in the process editor"
 msgstr ""
 
 #: ../../action-types/google.rst:79 ../../action-types/google.rst:79
@@ -434,23 +379,25 @@ msgid ""
 "Use a forward slash (``/``) to separate nested subfolder levels."
 msgstr ""
 
-#: ../../action-types.rst:51
+#: ../../action-types/user-task.rst:14 ../../action-types/user-task.rst:14
+msgid ""
+"*Form* - a task can be given a form. To complete the task, the form has to "
+"be submitted."
+msgstr ""
+
+#: ../../action-types/user-task.rst:54 ../../action-types/user-task.rst:54
 msgid "Reminders"
 msgstr ""
 
-#: ../../action-types.rst:59
+#: ../../action-types/user-task.rst:62 ../../action-types/user-task.rst:62
 msgid "Configuring user task reminders in the process editor"
 msgstr ""
 
-#: ../../action-types.rst:54
-msgid "Reminders"
-msgstr ""
-
-#: ../../action-types.rst:62
+#: ../../action-types/user-task.rst:62 ../../action-types/user-task.rst:62
 msgid "Configuring user task reminders in the process editor"
 msgstr ""
 
-#: ../../action-types.rst:64
+#: ../../action-types/user-task.rst:64 ../../action-types/user-task.rst:64
 msgid ""
 "Effektif sends these notifications to the task’s assignee if the task is "
 "assigned, or to all of the task’s candidates if the task it not assigned. If"
@@ -458,26 +405,33 @@ msgid ""
 "notification to the process’ owner."
 msgstr ""
 
-#: ../../action-types.rst:70
+#: ../../action-types/user-task.rst:70 ../../action-types/user-task.rst:70
 msgid "Escalations"
 msgstr ""
 
-#: ../../action-types.rst:25
+#: ../../action-types/user-task.rst:10 ../../action-types/user-task.rst:10
+msgid ""
+"A user task means a user has to perform a task. In the :ref:`case <cases>`, "
+"a task will be created. In the configuration form, the following optional "
+"details can be specified."
+msgstr ""
+
+#: ../../action-types/user-task.rst:15 ../../action-types/user-task.rst:15
 msgid "*Reminders* - task deadline notifications."
 msgstr ""
 
-#: ../../action-types.rst:26
+#: ../../action-types/user-task.rst:16 ../../action-types/user-task.rst:16
 msgid "*Escalations* -  automatic task reassignment."
 msgstr ""
 
-#: ../../action-types.rst:56
+#: ../../action-types/user-task.rst:56 ../../action-types/user-task.rst:56
 msgid ""
 "Use the user task’s `Reminders` configuration panel tab to set up task "
 "deadline notifications. If you configure a `Due date` or `Reminder` period, "
 "then Effektif will send email when the deadline expires."
 msgstr ""
 
-#: ../../action-types.rst:72
+#: ../../action-types/user-task.rst:72 ../../action-types/user-task.rst:72
 msgid ""
 "You can also use the :ref:`Reminders <reminders>` configuration panel tab to"
 " configure escalations. If you configure an `Escalation` period and an "
@@ -485,71 +439,39 @@ msgid ""
 "deadline expires, and send a notification to the new assignee."
 msgstr ""
 
-#: ../../action-types.rst:27
+#: ../../action-types/user-task.rst:17 ../../action-types/user-task.rst:17
 msgid "*Access Rights* - task permissions for users and groups."
 msgstr ""
 
-#: ../../action-types.rst:47
+#: ../../action-types/user-task.rst:29 ../../action-types/user-task.rst:29
+msgid ""
+"You an also specify a role for the task’s assignment, like a BPMN swim lane,"
+" so that related tasks are automatically assigned to the same person."
+msgstr ""
+
+#: ../../action-types/user-task.rst:47 ../../action-types/user-task.rst:47
 msgid "Form"
 msgstr ""
 
-#: ../../action-types.rst:78
+#: ../../action-types/user-task.rst:78 ../../action-types/user-task.rst:78
 msgid "Access Rights"
 msgstr ""
 
-#: ../../action-types.rst:80
+#: ../../action-types/user-task.rst:80 ../../action-types/user-task.rst:80
 msgid ""
 "Use the `Access Rights` tab to set permissions for viewing, assigning and "
 "completing the task. See :ref:`Restricting access to user tasks <user-task-"
 "access>` for details."
 msgstr ""
 
-#: ../../action-types.rst:40
+#: ../../action-types/user-task.rst:27 ../../action-types/user-task.rst:27
 msgid "Configuring user task assignment in the process editor"
 msgstr ""
 
-#: ../../action-types.rst:108
-msgid ""
-"To add attachments, click the attachments field. If there are files in the "
-"workflow variables, they will be shown. Select one of the file variable "
-"fields to add these as attachments to the mail."
-msgstr ""
-
-#: ../../action-types.rst:49
+#: ../../action-types/user-task.rst:49 ../../action-types/user-task.rst:49
 msgid ""
 "Use the form builder to create a user task form for entering and updating "
 "data as part of the user task."
-msgstr ""
-
-#: ../../action-types.rst:19
-msgid ""
-"A user task means a user has to perform a task. In the :ref:`case <cases>`, "
-"a task will be created. Use the configuration form to specify the following "
-"optional details."
-msgstr ""
-
-#: ../../action-types.rst:23
-msgid "*General* - assign a user or a :ref:`process role <roles>`."
-msgstr ""
-
-#: ../../action-types.rst:24
-msgid ""
-"*Form* - add a form, which means submitting the form to complete the task."
-msgstr ""
-
-#: ../../action-types.rst:30
-msgid "General"
-msgstr ""
-
-#: ../../action-types.rst:42
-msgid ""
-"You can also specify a role for the task’s assignment, like a BPMN swim "
-"lane, so that related tasks are automatically assigned to the same person. "
-"For example, a meeting’s *Chairman* role applies to a single meeting’s "
-"tasks, and isn’t anyone’s job title or a position defined within an "
-"organisation. Like this *Chairman* role, an Effektif process defines roles "
-"that you assign for each new case, and which do not usually correspond to "
-"organisation job titles or groups."
 msgstr ""
 
 #: ../../action-types/javascript.rst:4 ../../action-types/javascript.rst:4
@@ -559,51 +481,190 @@ msgid ""
 "configuration panel looks like this:"
 msgstr ""
 
-#: ../../action-types.rst:32
+#: ../../action-types/google.rst:4 ../../action-types/google.rst:4
+msgid "Google Drive - Upload file"
+msgstr ""
+
+#: ../../action-types/google.rst:8 ../../action-types/google.rst:8
+msgid "A Google Drive *Upload file* task in the process editor"
+msgstr ""
+
+#: ../../action-types/google.rst:73 ../../action-types/google.rst:73
+msgid "Google Drive - Print file"
+msgstr ""
+
+#: ../../action-types/google.rst:77 ../../action-types/google.rst:77
+msgid "A Google Drive *Print file* task in the process editor"
+msgstr ""
+
+#: ../../action-types/google.rst:112 ../../action-types/google.rst:112
+msgid "Google Drive - Add row to sheet"
+msgstr ""
+
+#: ../../action-types/google.rst:116 ../../action-types/google.rst:116
+msgid "A Google Drive *Add row to sheet* task in the process editor"
+msgstr ""
+
+#: ../../action-types/google.rst:118 ../../action-types/google.rst:118
+msgid ""
+"The Google Drive *Add row to sheet* action adds a row to a Google Sheets "
+"spreadsheet. You can use this to save the values of process variables at "
+"process milestones, and build a custom overview of cases."
+msgstr ""
+
+#: ../../action-types/google.rst:124 ../../action-types/google.rst:124
+msgid ""
+"After creating a Google Drive *Add row to sheet* action, the configuration "
+"panel shows a button to start configuring the account. This configuration is"
+" the same as in the `Upload file configuration <upload-file-configuration>`_"
+" (above)."
+msgstr ""
+
+#: ../../action-types/google.rst:128 ../../action-types/google.rst:128
+msgid ""
+"When you have authenticated with a Google account and granted permission, "
+"you are ready to configure the *Add row to sheet* action."
+msgstr ""
+
+#: ../../action-types/google.rst:132 ../../action-types/google.rst:132
+msgid "Add row to sheet action"
+msgstr ""
+
+#: ../../action-types/google.rst:140 ../../action-types/google.rst:140
+msgid "Google Drive *Add row to sheet* authenticated configuration"
+msgstr ""
+
+#: ../../action-types/google.rst:134 ../../action-types/google.rst:134
+msgid ""
+"Once you have configured your Google Drive account, the *Add row to sheet* "
+"action configuration panel displays the account, the spreadsheet, the "
+"worksheet within the spreadsheet, and the worksheet columns."
+msgstr ""
+
+#: ../../action-types/google.rst:142 ../../action-types/google.rst:142
+msgid ""
+"Each column name, such as *Customer name* in this example, comes from a "
+"column heading in the spreadsheet. For each column, select one of the "
+":ref:`variables <variables>` from the list."
+msgstr ""
+
+#: ../../action-types.rst:6
+msgid ""
+"Actions are displayed as rounded rectangles in the :ref:`process-builder`. "
+"Actions typically have a configuration panel that opens when you select the "
+"action."
+msgstr ""
+
+#: ../../action-types/user-task.rst:34 ../../action-types/user-task.rst:34
+msgid "Task name template"
+msgstr ""
+
+#: ../../action-types/user-task.rst:36 ../../action-types/user-task.rst:36
+msgid ""
+"You can use task name templates to create dynamic task names from "
+":ref:`variables <variables>`. Enter the task name template on the user "
+"task’s configuration panel’s *General* tab. In the text field, type a `#` to"
+" select a variable."
+msgstr ""
+
+#: ../../action-types/user-task.rst:42 ../../action-types/user-task.rst:42
+msgid "Using a task name template to configure dynamic task names"
+msgstr ""
+
+#: ../../action-types/user-task.rst:44 ../../action-types/user-task.rst:44
+msgid ""
+"Use task name templates to avoid a :ref:`tasks` view that fills up with "
+"identically-named tasks."
+msgstr ""
+
+#: ../../action-types/send-email.rst:8 ../../action-types/send-email.rst:8
+msgid ""
+"The send email action sends an email to the specified user. In the "
+"configuration you can specify the following."
+msgstr ""
+
+#: ../../action-types/send-email.rst:16 ../../action-types/send-email.rst:16
+msgid ""
+"The email subject line. To use :ref:`variables <variables>` in the subject, "
+"type a `#` and select a field from the list. If the list is too long, you "
+"can just keep typing after the `#` to narrow-down the list. You can use the "
+"arrow keys to move the section, and *Enter* to select a field. To remove a "
+"variable, just delete it as if it’s normal text."
+msgstr ""
+
+#: ../../action-types/send-email.rst:23 ../../action-types/send-email.rst:23
+msgid ""
+"To add attachments, click the *Attachments* field and select a file field "
+"from the list. The list includes trigger email attachments and file upload "
+"form fields."
+msgstr ""
+
+#: ../../action-types/send-email.rst:27 ../../action-types/send-email.rst:27
+msgid ""
+"You can use variables in the main email body by typing a `#`, just like in "
+"the *Subject*. You can use `Markdown "
+"<http://daringfireball.net/projects/markdown/basics>`_ to format the email "
+"body by formatting text or including hyperlinks, headings or lists."
+msgstr ""
+
+#: ../../action-types/user-task.rst:29 ../../action-types/user-task.rst:29
+msgid ""
+"You an also specify a role for the task’s assignment, like a BPMN swim lane,"
+" so that related tasks are automatically assigned to the same person."
+msgstr ""
+
+#: ../../action-types/user-task.rst:14 ../../action-types/user-task.rst:14
+msgid ""
+"*Form* - a task can be given a form. To complete the task, the form has to "
+"be submitted."
+msgstr ""
+
+#: ../../action-types/user-task.rst:10 ../../action-types/user-task.rst:10
+msgid ""
+"A user task means a user has to perform a task. In the :ref:`case <cases>`, "
+"a task will be created. In the configuration form, the following optional "
+"details can be specified."
+msgstr ""
+
+#: ../../action-types/send-email.rst:12 ../../action-types/send-email.rst:12
+msgid ""
+"The people to which the email is sent. You can type a plain email address, "
+"select a variable, a variable field or a user in the organization."
+msgstr ""
+
+#: ../../action-types/user-task.rst:14 ../../action-types/user-task.rst:14
+msgid ""
+"*Form* - a task can be given a form. To complete the task, the form has to "
+"be submitted."
+msgstr ""
+
+#: ../../action-types/user-task.rst:20 ../../action-types/user-task.rst:20
+msgid "General"
+msgstr ""
+
+#: ../../action-types/user-task.rst:13 ../../action-types/user-task.rst:13
+msgid ""
+"*General* - a task can be assigned to a user or a :ref:`process role "
+"<roles>`."
+msgstr ""
+
+#: ../../action-types/user-task.rst:22 ../../action-types/user-task.rst:22
 msgid ""
 "Use the *General* tab to specify the task’s default assignee or candidates. "
-"Candidates can be individual users or organisation groups. If you specify a "
-"default assignee, Effektif will automatically assign the task when creating "
-"it. You can also specify multiple candidates, individually or using "
-"organisation groups. Effektif sends :ref:`task created <task-created>` "
-"notifications in both cases."
+"Candidates can be individual users or organisation groups."
 msgstr ""
 
 #~ msgid ""
-#~ "*Form* - a task can be given a form. To complete the task, the form has to "
-#~ "be submitted."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "You an also specify a role for the task’s assignment, like a BPMN swim lane,"
-#~ " so that related tasks are automatically assigned to the same person."
+#~ "*Assignment* - a task can be assigned to a user or a :ref:`process role "
+#~ "<roles>`."
 #~ msgstr ""
 
 #~ msgid "Assignment"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Use the assignment tab to specify the task’s assignee or candidates. If you "
-#~ "specify a default assignee, Effektif will automatically assign the task when"
-#~ " creating it. You can also specify multiple candidates, individually or "
-#~ "using organisation groups. Effektif sends :ref:`task created <task-created>`"
-#~ " notifications in both cases."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Use the **General** tab to specify the task’s default assignee or "
-#~ "candidates. Candidates can be individual users or organisation groups."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "*Form* - a task can be given a form. To complete the task, the form has to "
-#~ "be submitted."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "A user task means a user has to perform a task. In the :ref:`case <cases>`, "
-#~ "a task will be created. In the configuration form, the following optional "
-#~ "details can be specified."
+#~ "Use the assignment tab to specify the task’s default assignee or candidates."
+#~ " Candidates can be individual users or organisation groups."
 #~ msgstr ""
 
 #~ msgid ""
@@ -617,6 +678,151 @@ msgstr ""
 #~ msgid ""
 #~ "Use the assignment tab to specify the task’s default assignee or candidates."
 #~ " Candidates can be individual users or organisation groups."
+#~ msgstr ""
+
+#~ msgid "Assignment"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The send email action sends an email to the specified user. In the "
+#~ "configuration you can specify"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The subject of the email. To use process data in the subject, start by "
+#~ "typing a `#`. If the list of variable fields is too long, you can just keep "
+#~ "typing after the `#` to narrow the list. In combination, use the up and down"
+#~ " arrows to select the right field. Hit enter to select the field. To remove "
+#~ "variable fields from the subject, just delete it like it's normal text."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Just like in the subject, you can combine template text with variable fields"
+#~ " to Start by typing a `#`. See *Subject* above in this list for more details"
+#~ " instructions on using the `#`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To add attachments, click the attachments field. If there are files in the "
+#~ "workflow variables, they will be shown. Select one of the file variable "
+#~ "fields to add these as attachments to the mail."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A user task means a user has to perform a task. In the :ref:`case <cases>`, "
+#~ "a task will be created. Use the configuration form to specify the following "
+#~ "optional details."
+#~ msgstr ""
+
+#~ msgid "*General* - assign a user or a :ref:`process role <roles>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Form* - add a form, which means submitting the form to complete the task."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can also specify a role for the task’s assignment, like a BPMN swim "
+#~ "lane, so that related tasks are automatically assigned to the same person. "
+#~ "For example, a meeting’s *Chairman* role applies to a single meeting’s "
+#~ "tasks, and isn’t anyone’s job title or a position defined within an "
+#~ "organisation. Like this *Chairman* role, an Effektif process defines roles "
+#~ "that you assign for each new case, and which do not usually correspond to "
+#~ "organisation job titles or groups."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can use variables in the main email body by typing a `#`, just like in "
+#~ "the *Subject*. You can use `Markdown "
+#~ "<http://daringfireball.net/projects/markdown/basics>`_ to format the email "
+#~ "body. You may find this useful for adding hyperlinks, headings and lists."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The send email action sends an email to the specified user. In the "
+#~ "configuration you can specify"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The subject of the email. To use process data in the subject, start by "
+#~ "typing a `#`. If the list of variable fields is too long, you can just keep "
+#~ "typing after the `#` to narrow the list. In combination, use the up and down"
+#~ " arrows to select the right field. Hit enter to select the field. To remove "
+#~ "variable fields from the subject, just delete it like it's normal text."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Just like in the subject, you can combine template text with variable fields"
+#~ " to Start by typing a `#`. See *Subject* above in this list for more details"
+#~ " instructions on using the `#`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To add attachments, click the attachments field. If there are files in the "
+#~ "workflow variables, they will be shown. Select one of the file variable "
+#~ "fields to add these as attachments to the mail."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "All actions are displayed as lines in the 'Simple action list' and as "
+#~ "rounded rectangles in the 'Advanced flows' view."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Actions typically have a configuration panel that opens up when you select "
+#~ "the action."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Each column name, such as *Customer name* in this example, comes from a "
+#~ "column heading in the spreadsheet. For each column, select one of the "
+#~ ":ref:`variables` from the list."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Each column name, such as *Customer name* in this example, comes from a "
+#~ "column heading in the spreadsheet. For each column, select one of the "
+#~ ":ref:`<variables>` from the list."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once you have configured your Google Drive account, the *Add row to sheet* "
+#~ "action configuration panel displays the account, the spreadsheet, the "
+#~ "worksheet within the spreadsheet, and the worksheet column mappings."
+#~ msgstr ""
+
+#~ msgid "Google Drive Upload file"
+#~ msgstr ""
+
+#~ msgid "A Google Drive upload file task in the process editor"
+#~ msgstr ""
+
+#~ msgid "Google Drive Print File"
+#~ msgstr ""
+
+#~ msgid "A Google Drive print file task in the process editor"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use the *General* tab to specify the task’s default assignee or candidates. "
+#~ "Candidates can be individual users or organisation groups. If you specify a "
+#~ "default assignee, Effektif will automatically assign the task when creating "
+#~ "it. You can also specify multiple candidates, individually or using "
+#~ "organisation groups. Effektif sends :ref:`task created <task-created>` "
+#~ "notifications in both cases."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use the assignment tab to specify the task’s assignee or candidates. If you "
+#~ "specify a default assignee, Effektif will automatically assign the task when"
+#~ " creating it. You can also specify multiple candidates, individually or "
+#~ "using organisation groups. Effektif sends :ref:`task created <task-created>`"
+#~ " notifications in both cases."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use the **General** tab to specify the task’s default assignee or "
+#~ "candidates. Candidates can be individual users or organisation groups."
 #~ msgstr ""
 
 #~ msgid ""
