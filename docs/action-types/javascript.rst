@@ -1,7 +1,7 @@
 JavaScript action
 -----------------
 
-The JavaScript action allows developers to run a JavaScript to the process execution.
+The JavaScript action allows developers to add JavaScript to process execution.
 After creating or selecting a JavaScript action, the configuration panel looks like this:
 
 .. figure:: /_static/images/action-types/javascript/javascript-1.png

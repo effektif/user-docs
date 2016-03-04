@@ -31,31 +31,31 @@ msgstr ""
 msgid "User task"
 msgstr ""
 
-#: ../../action-types.rst:83
+#: ../../action-types.rst:84
 msgid "Send email"
 msgstr ""
 
-#: ../../action-types.rst:89
+#: ../../action-types.rst:90
 msgid ""
 "The send email action sends an email to the specified user. In the "
 "configuration you can specify"
 msgstr ""
 
-#: ../../action-types.rst:94
+#: ../../action-types.rst:95
 msgid "To:"
 msgstr ""
 
-#: ../../action-types.rst:93
+#: ../../action-types.rst:94
 msgid ""
 "The people to which the email is sent. You can type a plain email address, "
 "select a variable, a variable field or a user in the organization."
 msgstr ""
 
-#: ../../action-types.rst:102
+#: ../../action-types.rst:103
 msgid "Subject:"
 msgstr ""
 
-#: ../../action-types.rst:97
+#: ../../action-types.rst:98
 msgid ""
 "The subject of the email. To use process data in the subject, start by "
 "typing a `#`. If the list of variable fields is too long, you can just keep "
@@ -64,15 +64,15 @@ msgid ""
 "variable fields from the subject, just delete it like it's normal text."
 msgstr ""
 
-#: ../../action-types.rst:112
+#: ../../action-types.rst:113
 msgid "Body text:"
 msgstr ""
 
-#: ../../action-types.rst:107
+#: ../../action-types.rst:108
 msgid "Attachments:"
 msgstr ""
 
-#: ../../action-types.rst:110
+#: ../../action-types.rst:111
 msgid ""
 "Just like in the subject, you can combine template text with variable fields"
 " to Start by typing a `#`. See *Subject* above in this list for more details"
@@ -135,13 +135,6 @@ msgstr ""
 
 #: ../../action-types/javascript.rst:2 ../../action-types/javascript.rst:2
 msgid "JavaScript action"
-msgstr ""
-
-#: ../../action-types/javascript.rst:4 ../../action-types/javascript.rst:4
-msgid ""
-"The JavaScript action allows developers to run a JavaScript to the process "
-"execution. After creating or selecting a JavaScript action, the "
-"configuration panel looks like this:"
 msgstr ""
 
 #: ../../action-types/javascript.rst:9 ../../action-types/javascript.rst:9
@@ -210,7 +203,7 @@ msgstr ""
 msgid "A user task in the process editor"
 msgstr ""
 
-#: ../../action-types.rst:87
+#: ../../action-types.rst:88
 msgid "A send email task in the process editor"
 msgstr ""
 
@@ -530,7 +523,7 @@ msgstr ""
 msgid "Configuring user task assignment in the process editor"
 msgstr ""
 
-#: ../../action-types.rst:105
+#: ../../action-types.rst:106
 msgid ""
 "To add attachments, click the attachments field. If there are files in the "
 "workflow variables, they will be shown. Select one of the file variable "
@@ -563,14 +556,22 @@ msgid ""
 "organisation job titles or groups."
 msgstr ""
 
+#: ../../action-types/javascript.rst:4 ../../action-types/javascript.rst:4
+msgid ""
+"The JavaScript action allows developers to add JavaScript to process "
+"execution. After creating or selecting a JavaScript action, the "
+"configuration panel looks like this:"
+msgstr ""
+
 #~ msgid ""
 #~ "Use the assignment tab to specify the task’s default assignee or candidates."
 #~ " Candidates can be individual users or organisation groups."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "You an also specify a role for the task’s assignment, like a BPMN swim lane,"
-#~ " so that related tasks are automatically assigned to the same person."
+#~ "The JavaScript action allows developers to run a JavaScript to the process "
+#~ "execution. After creating or selecting a JavaScript action, the "
+#~ "configuration panel looks like this:"
 #~ msgstr ""
 
 #~ msgid ""
