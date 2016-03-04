@@ -31,14 +31,17 @@ General
 
 Use the *General* tab to specify the task’s default assignee or candidates.
 Candidates can be individual users or organisation groups.
+If you specify a default assignee, Effektif will automatically assign the task when creating it.
+You can also specify multiple candidates, individually or using organisation groups.
+Effektif sends :ref:`task created <task-created>` notifications in both cases.
 
 .. figure:: /_static/images/action-types/user-task-assignment.png
 
    Configuring user task assignment in the process editor
 
-You an also specify a role for the task’s assignment,
-like a BPMN swim lane,
-so that related tasks are automatically assigned to the same person.
+You can also specify a role for the task’s assignment, like a BPMN swim lane, so that related tasks are automatically assigned to the same person.
+For example, a meeting’s *Chairman* role applies to a single meeting’s tasks, and isn’t anyone’s job title or a position defined within an organisation.
+Like this *Chairman* role, an Effektif process defines roles that you assign for each new case, and which do not usually correspond to organisation job titles or groups.
 
 Form
 ^^^^

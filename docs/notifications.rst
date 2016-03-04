@@ -8,6 +8,7 @@ to keep process participants up-to-date with cases they are involved in
 and to avoid task handover delays,
 when a task is assigned to someone.
 
+.. _task-created:
 
 Task created
 ------------
