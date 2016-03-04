@@ -97,6 +97,75 @@ Next, type the case title and hit Enter. The new case is now created.
    New case
 
 
+Commenting on a case
+--------------------
+
+Working on a case often includes collaboration with other people.
+You can use the case view to discuss the case with other people,
+which results in a discussion in the event stream.
+
+.. figure:: /_static/images/cases/comments/discussion.png
+
+   Comments on a case - discussion with context
+
+Hover over the user avatar to see the user’s full name:
+
+.. figure:: /_static/images/cases/comments/user.png
+
+Hover over the relative time to see the comment’s full time stamp:
+
+.. figure:: /_static/images/cases/comments/time.png
+
+To add a comment, type in the text box above the event stream.
+Everyone who has access to the case can follow the discussion.
+Keeping the discussion ‘inside’ the case preserves the context,
+which makes it easier to follow than an email conversation.
+
+Sometimes, you want to direct a comment to a specific person.
+While entering a comment, 
+you can ‘mention’ someone by typing a ``@`` and choosing their name from the list.
+When you mention someone in a comment,
+Effektif sends them an email notification to bring them into the discussion.
+
+.. figure:: /_static/images/cases/comments/mention.png
+
+   Mentioning someone in a comment
+
+You can also use `Markdown`_ formatting in comments,
+for things like text styles, headings and lists.
+
+.. _Markdown: http://daringfireball.net/projects/markdown/basics
+
+.. figure:: /_static/images/cases/comments/link-markdown.png
+
+   Using Markdown formatting in a case comment
+
+You may find Markdown most useful for adding links to external information that relates to the case.
+
+.. figure:: /_static/images/cases/comments/link-rendered.png
+
+   A hyperlink in a case comment
+
+
+Attaching documents to a case
+-----------------------------
+
+As well as commenting on a case, to share information with the case’s participants, you can attach documents.
+For example, cases in a job vacancy process might require candidate CVs.
+Anyone can access the case can download a case’s documents, which makes them more useful than email attachments.
+
+To attach a document to a case, select the the `Upload a document` option next to where you add comments.
+
+.. figure:: /_static/images/cases/document.png
+
+   A document attached to a case
+
+The case’s event stream shows the document, with its file name and size.
+Click the icon on the right to open the document.
+
+If cases regularly require the same document as part of the process, you can make this clearer to people who work on cases by adding a file upload form field to a :ref:`user task form <user-task-form>`.
+
+
 Closing a case manually
 -----------------------
 

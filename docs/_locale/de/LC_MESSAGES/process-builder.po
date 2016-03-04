@@ -97,21 +97,6 @@ msgstr ""
 "Der Emailauslöser erstellt eine Prozessvariable mit der Sie auf die "
 "Informationen der Email (Absender, Inhalt, etc.) zugreifen können. "
 
-#: ../../process-builder/triggers.rst:49 ../../process-builder/triggers.rst:49
-msgid ""
-"One way to use an email trigger is to add the trigger email address to a "
-"mailing list, such as `support@example.com `or `info@example.com`. You’ll "
-"have to ask the administrator of the mailing list to add the process "
-"trigger’s email address to the list. Once you have done this, email sent to "
-"the mailing list will also be forwarded to the process trigger address, "
-"starting the process in Effektif. You will then see the email in the "
-"activity stream:"
-msgstr ""
-"Wenn Sie die Emailadresse des Prozesses zum Beispiel in eine bestehende "
-"Verteilerliste eingetragen haben, können neue Fälle leicht erstellt werden. "
-"Innerhalb von einem Fall wird die Email die ihn ausgelöst hat jeweils im "
-"`Stream` angezeigt, wie hier zu sehen ist."
-
 #: ../../process-builder/triggers.rst:59 ../../process-builder/triggers.rst:59
 msgid "Trigger mail in stream"
 msgstr "Startemail im Stream"
@@ -298,57 +283,13 @@ msgstr "Variablen"
 msgid "Roles"
 msgstr "Rollen"
 
-#: ../../process-builder/roles.rst:11 ../../process-builder/roles.rst:11
-msgid ""
-"These process roles are not the same as organization roles. For example, you"
-" can be a team lead in your organization, which can be a position without an"
-" end date. A process role, such as ‘Reviewer’, has a different scope and "
-"only applies for the duration of a single case."
-msgstr ""
-"Prozessrollen sind nicht das gleiche wie Rollen in der Organisation. Zum "
-"Beispiel können Sie der Leiter eines Teams in Ihrer Organisation sein. Das "
-"hängt allerdings nicht von einem konkreten Fall ab. Eine Prozessrolle, wie "
-"zum Beispiel `Prüfer` hat einen eingeschränkten Geltungsbereich und gilt "
-"jeweils nur innerhalb eines Falles."
-
-#: ../../process-builder/roles.rst:20 ../../process-builder/roles.rst:20
-msgid ""
-"You can use a role to assign multiple tasks a person from a group of "
-"candidates. For example, you might have a support process that includes "
-"three user tasks that are assigned to a support engineer. Instead, assign "
-"the three tasks to a new role called ‘Support engineer’, and add the "
-"relevant people as candidates for the role."
-msgstr ""
-"Sie können Rollen nutzen, um mehrere Aufgaben an eine Person aus einer "
-"Gruppe von Personen zuzuweisen. Gehen wir einmal davon aus, dass Sie einen "
-"Prozess mit drei aufeinanderfolgenden Aktivitäten erstellt haben. Alle diese"
-" Aufgaben sollen jeweils von einem `Kundenbetreuer` ausgeführt werden, der "
-"sich für jeden Fall um alle drei Aufgaben kümmert. Welcher Kundenbetreuer "
-"das im genauen ist, spielt natürlich erst einmal keine Rolle, weshalb Sie "
-"alle Mitglieder der Gruppe `Kundenbetreuer` als Kandidaten hinzufügen "
-"können."
-
-#: ../../process-builder/roles.rst:25 ../../process-builder/roles.rst:25
-msgid ""
-"Creating the first task that has a role will notify all of the candidates "
-"for the role. When one of the candidates takes the task, the subsequent "
-"tasks with the same role will be assigned to the same person. That’s "
-"efficient because this person has the context knowledge about that case."
-msgstr ""
-"Wenn nun die erste Aufgabe der diese Rolle zugewiesen wurde erstellt wird, "
-"werden zunächst alle Mitglieder der Gruppe `Kundenbetreuer` benachrichtigt, "
-"da sie alle Kandidaten sind. Nachdem diese Aufgabe allerdings einem "
-"Mitarbeiter zugewiesen wurde, schlüpft dieser in die Rolle des zuständigen "
-"`Kundenbetreuers` für diesen Fall und die beiden weiteren Aufgaben werden "
-"direkt ihm zugewiesen. "
-
-#: ../../process-builder/roles.rst:30 ../../process-builder/roles.rst:30
+#: ../../process-builder/roles.rst:57 ../../process-builder/roles.rst:57
 msgid ""
 "If you reassign a task that has a role assignment, Effektif will update the "
 "role variable, and assign all subsequent tasks with the same role to the new"
 " assignee."
 msgstr ""
-"Wenn Sie die Zuweisung ändern kümmert sich Effektif natürlich darum, dass "
+"Wenn Sie die Zuweisung ändern, kümmert sich Effektif natürlich darum, dass "
 "alle Aufgaben die einer Rolle zugewiesen waren entsprechend aktualisiert "
 "werden. "
 
@@ -372,18 +313,18 @@ msgstr ""
 "Ein Formular-Auslöser welcher die Variable *Referenznummer* zur Nutzung im "
 "Workflow bereitstellt"
 
-#: ../../process-builder/roles.rst:18 ../../process-builder/roles.rst:18
+#: ../../process-builder/roles.rst:47 ../../process-builder/roles.rst:47
 msgid ""
 "Assigning a task to a *Support engineer* role with candidates Alice and Ben"
 msgstr ""
 "Eine Aufgabe der Rolle `Kundenbetreuer` zuweisen mit den Kandidaten Alice "
 "und Ben"
 
-#: ../../process-builder/roles.rst:35 ../../process-builder/roles.rst:35
+#: ../../process-builder/roles.rst:62 ../../process-builder/roles.rst:62
 msgid "Using a form field to assign a role"
 msgstr "Wie man per Formularfeld eine Rolle setzt"
 
-#: ../../process-builder/roles.rst:37 ../../process-builder/roles.rst:37
+#: ../../process-builder/roles.rst:64 ../../process-builder/roles.rst:64
 msgid ""
 "When you execute a process, you normally assign a specific person to a role "
 "by using the assignee button to select someone. Sometimes, you want this "
@@ -398,7 +339,7 @@ msgstr ""
 "es wichtig sein den *Support Mitarbeiter* zuzuweisen bevor die Aufgabe "
 "*Initiale Nachforschungen* abgeschlossen wird."
 
-#: ../../process-builder/roles.rst:44 ../../process-builder/roles.rst:44
+#: ../../process-builder/roles.rst:71 ../../process-builder/roles.rst:71
 msgid ""
 "You can do this by adding the role assignment to a form, because a task "
 "assignment role is a process variable, just like any other *User* form "
@@ -408,11 +349,11 @@ msgstr ""
 "hinzufügen, denn Rollen sind in Effektif auch nur weitere Prozessvariablen "
 "wie jedes andere *Nutzer* Feld."
 
-#: ../../process-builder/roles.rst:50 ../../process-builder/roles.rst:50
+#: ../../process-builder/roles.rst:77 ../../process-builder/roles.rst:77
 msgid "Adding the *Support engineer* role assignment to a form"
 msgstr "Die *Support Mitarbeiter* Rolle zu einem Formular hinzufügen"
 
-#: ../../process-builder/roles.rst:52 ../../process-builder/roles.rst:52
+#: ../../process-builder/roles.rst:79 ../../process-builder/roles.rst:79
 msgid ""
 "To add a role assignment to a form, first define the process role, such as "
 "the *Support engineer* role created above, then on the form, under the "
@@ -447,19 +388,6 @@ msgstr ""
 "zusammengesetzt sein, wie zum Beispiel eine Email mit den Feldern "
 "`Absender`, `Empfänger`, `Betreff` und `Anhänge`."
 
-#: ../../process-builder/roles.rst:6 ../../process-builder/roles.rst:6
-msgid ""
-"A role (a.k.a. process role) is a kind of workflow variable that is used for"
-" assigning tasks. A role is a variable of type user that stores a single "
-"user You can optionally configure a role with a list of canidates. Roles are"
-" equivalent to swimlanes in BPMN."
-msgstr ""
-"Eine Rolle ist eine spezielle Workflow-Variable, die dazu verwendet wird um "
-"Aufgaben zuzuweisen. Eine Rolle ist hierbei eine Nutzer-Variable, die einen "
-"einzelnen Nutzer enthalten kann. Sie können eine Rolle auch optional mit "
-"einer Liste von Kandidaten versehen. Rollen in Effektif sind wie Swimlanes "
-"in BPMN zu verstehen. "
-
 #: ../../process-builder/actions.rst:15 ../../process-builder/actions.rst:15
 msgid ""
 "The `BPMN "
@@ -479,17 +407,6 @@ msgstr ""
 #: ../../process-builder/bpmn-export.rst:4
 msgid "BPMN export"
 msgstr "BPMN Export"
-
-#: ../../process-builder/bpmn-export.rst:6
-#: ../../process-builder/bpmn-export.rst:6
-msgid ""
-"You can export an Effektif process model as a BPMN 2.0 XML file. This is "
-"useful if you want to open the model in another tool that supports BPMN, or "
-"to make a backup."
-msgstr ""
-"Sie können Prozesse aus Effektif als BPMN 2.0 XML exportieren. Dies ist "
-"besonders hilfreich, wenn Sie den Prozess in einem anderen Tool bearbeiten "
-"oder ein Backup erstellen möchten."
 
 #: ../../process-builder/bpmn-export.rst:10
 #: ../../process-builder/bpmn-export.rst:10
@@ -639,8 +556,8 @@ msgid ""
 "Make the comment an imperative phrase that starts with a word like ‘Add’ or "
 "‘Fix’."
 msgstr ""
-"Schreiben Sie in imperativer Art und Wiese wie `Aktivität hinzugefügt` oder "
-"`Fehler behoben`."
+"Schreiben Sie im imperativen Stil wie `Aktivität hinzugefügt` oder `Fehler "
+"behoben`."
 
 #: ../../process-builder/versions.rst:62 ../../process-builder/versions.rst:62
 msgid ""
@@ -680,12 +597,351 @@ msgstr ""
 "Versionen machen es einfacher die Änderungen nachzuverfolgen und damit die "
 "Versionshistorie nützlicher. "
 
-#: ../../process-builder/roles.rst:57 ../../process-builder/roles.rst:57
+#: ../../process-builder/roles.rst:84 ../../process-builder/roles.rst:84
 msgid ""
 "Alternatively, you can first define the *Support engineer* role by adding a "
 "field with type *User* to the *Initial investigation* task’s form, and then "
 "select the *Support engineer* role on another user task’s *General* "
 "configuration."
+msgstr ""
+
+#: ../../process-builder/locking.rst:4 ../../process-builder/locking.rst:4
+msgid "Process locking"
+msgstr "Bearbeitungsblockierung"
+
+#: ../../process-builder/locking.rst:6 ../../process-builder/locking.rst:6
+msgid ""
+"In the process builder, only one person can edit a process at a time. When "
+"someone else is editing a process, there is a message in the `Processes` "
+"list."
+msgstr ""
+"Ein Prozess kann im Prozesseditor nicht von mehreren Personen gleichzeitig "
+"bearbeitet werden, da es ansonsten sehr wahrscheinlich ist, dass die "
+"bearbeitenden Nutzer ihre Änderungen gegenseitig überschreiben. Wenn jemand "
+"einen Prozess editiert, wird dies daher in der `Prozesse`-Liste angezeigt."
+
+#: ../../process-builder/locking.rst:12 ../../process-builder/locking.rst:12
+msgid ""
+"The `Processes` list message when someone else `is currently working on this"
+" process`"
+msgstr ""
+"Der Hinweis in der `Prozesse`-Liste, wenn ein Prozess bereits editiert wird"
+
+#: ../../process-builder/locking.rst:14 ../../process-builder/locking.rst:14
+msgid ""
+"You can still open the process, but you will see a warning message "
+"explaining that you will not be able to make changes:"
+msgstr ""
+"In einer solchen Situation können Sie den Prozess trotzdem öffnen. "
+"Allerdings wird Ihnen dann eine Warnung angezeigt und eine Bearbeitung des "
+"Prozesses ist nicht möglich:"
+
+#: ../../process-builder/locking.rst:19 ../../process-builder/locking.rst:19
+msgid ""
+"Warning that you will not be able to make edit a process at the same time as"
+" someone else"
+msgstr ""
+"Warnung, dass Änderungen an einem Prozess nicht von mehreren Personen "
+"gleichzeitig durchgeführt werden können"
+
+#: ../../process-builder/locking.rst:21 ../../process-builder/locking.rst:21
+msgid ""
+"You will be able to edit the process and make changes after the other person"
+" leaves the process editor, by opening the `Tasks` list, for example."
+msgstr ""
+"Nachdem die editierende Person die Bearbeitungsansicht verlässt (zum "
+"Beispiel um in de Aufgabenliste zu wechseln), können Sie den Prozess wieder "
+"bearbeiten."
+
+#: ../../process-builder/bpmn-export.rst:6
+#: ../../process-builder/bpmn-export.rst:6
+msgid ""
+"You can export an Effektif process model as a BPMN 2.0 XML file. This is "
+"useful if you want to open the model in another tool that supports BPMN, or "
+"to make a backup that you can load using the :ref:`BPMN import <bpmn-"
+"import>` option."
+msgstr ""
+"Sie können ein Effektif Prozessmodel als BPMN 2.0 XML file exportieren. "
+"Anschließend können Sie das Diagramm in einem beliebigen Tool öffnen, das "
+"den offenen BPMN 2.0 Standard unterstützt. Die Exportfunktion ermöglich "
+"zudem das Erstellen von Backups: ein :ref:`Re-Import <bpmn-import>` ist "
+"jederzeit möglich."
+
+#: ../../process-builder/copy-delete.rst:4
+#: ../../process-builder/copy-delete.rst:4
+msgid "Copying & deleting processes"
+msgstr "Prozesse kopieren und löschen"
+
+#: ../../process-builder/copy-delete.rst:6
+#: ../../process-builder/copy-delete.rst:6
+msgid ""
+"You can create a copy of a process or delete it using the process menu shown"
+" in the previous section."
+msgstr "Über das Prozessmenü können Sie zudem Prozesse kopieren und löschen."
+
+#: ../../process-builder/copy-delete.rst:8
+#: ../../process-builder/copy-delete.rst:8
+msgid ""
+"The `Create a copy` option duplicates the process in the same organisation. "
+"You may find it useful to duplicate a process if you want to experiment with"
+" changes without publishing changes to a process that people are using. You "
+"may also want to duplicate a process to model a special case of the process,"
+" instead of adding a conditional flow to the standard process."
+msgstr ""
+"Über die Schaltfläche `Eine Kopie erstellen` duplizieren Sie einen Prozess "
+"in der entsprechenden Organisation. Dies ist insbesondere hilfreich, wenn "
+"Sie dem Prozess experimentieren wollen, ohne dass Nutzer der Prozessfälle "
+"direkt von den Änderungen betroffen sind. Ein weitere Use Case ist das "
+"Erstellen von Prozessvarianten: Um weitere XOR-Verzweigungen innerhalb einer"
+" Prozesses zu vermeiden, können Sie eine Kopie des Prozesses Ihren "
+"Anforderungen entsprechend abändern und die Prozessbezeichnung "
+"aussagekräftig abändern."
+
+#: ../../process-builder/copy-delete.rst:12
+#: ../../process-builder/copy-delete.rst:12
+msgid ""
+"The `Delete process` option permanently deletes a process and all of its "
+"cases. You cannot undo this operation, so you must enter a confirmation. You"
+" might want to delete a process that you created by duplicating another "
+"process in order to experiment with changes in the model."
+msgstr ""
+"Über die `Prozess löschen` Schaltfläche löschen Sie einen Prozess und alle "
+"Fälle des Prozesses **unwiderruflich**. Da Sie das Löschen nicht rückgängig "
+"machen können, müssen Sie den Vorgang explizit bestätigen. Ein typische "
+"Anwendungsfall für das Löschen eines Prozesses ist das Verwerfen einer "
+"experimentellen Kopie eines Prozesses. "
+
+#: ../../process-builder/copy-delete.rst:16
+#: ../../process-builder/copy-delete.rst:16
+msgid ""
+"In Effektif, you cannot currently delete cases, which you might want to do "
+"if you have created test cases while developing the process. However, you "
+"can use `Create a copy` and `Delete process` to duplicate a process and then"
+" delete the original. This deletes all of the cases with the original "
+"process, and leaves a copy with no cases."
+msgstr ""
+"In Effektif ist es nicht möglich, Fälle direkt zu löschen. Falls Sie einen "
+"Fälle als 'Tests' während des Prozessdesigns erstellt haben, empfehlen wir "
+"Ihnen für die Produktivversion des Prozesses eine Kopie zu erstellen und das"
+" Orginal zu löschen. Die Fälle werden nicht in die Kopie übernommen."
+
+#: ../../process-builder/bpmn-import.rst:4
+#: ../../process-builder/bpmn-import.rst:4
+msgid "BPMN import"
+msgstr "BPMN Import"
+
+#: ../../process-builder/bpmn-import.rst:6
+#: ../../process-builder/bpmn-import.rst:6
+msgid ""
+"You can import an Effektif process model from a BPMN 2.0 XML file. You can "
+"use this to import a model that you created in another tool, or to load a "
+"file that you saved using the :ref:`BPMN export <bpmn-export>` option."
+msgstr ""
+"Sie können ein Effektif Prozessmodel als BPMN 2.0 XML Datei importieren. "
+"Hiermit können Sie Modelle, die Sie in anderen Tools erstellt haben, in "
+"Effektif verwenden oder Backups, die Sie vorher über die :ref:`BPMN "
+"Exportfunktion <bpmn-export>` gespeichert haben, wiederherstellen."
+
+#: ../../process-builder/bpmn-import.rst:10
+#: ../../process-builder/bpmn-import.rst:10
+msgid ""
+"To import a process model, on the `Processes` page, click the `Import BPMN` "
+"button and select the BPMN XML file."
+msgstr ""
+"Um ein Prozessmodell zu importieren, wechseln Sie in die `Prozesse`-Ansicht,"
+" klicken Sie auf `BPMN importieren` und wählen Sie eine BPMN 2.0 XML Datei "
+"aus."
+
+#: ../../process-builder/bpmn-import.rst:15
+#: ../../process-builder/bpmn-import.rst:15
+msgid "The `Import BPMN` button on the `Processes` page"
+msgstr "Die `BPMN importieren`-Schaltfläche der `Prozesse`-Ansicht."
+
+#: ../../process-builder/bpmn-import.rst:17
+#: ../../process-builder/bpmn-import.rst:17
+msgid ""
+"Effektif does not support all BPMN 2.0 elements, so the process may appear "
+"differently in Effektif. In particular:"
+msgstr ""
+"Effektif unterstützt nicht alle BPMN 2.0 Elemente. Ein importierter Prozess "
+"wird in Effektif unter Umständen also verändert dargestellt. Berücksichtigen"
+" Sie insbesondere Folgendes:"
+
+#: ../../process-builder/bpmn-import.rst:21
+#: ../../process-builder/bpmn-import.rst:21
+msgid "BPMN swim lanes become :ref:`roles <roles>` in Effektif"
+msgstr "BPMN Swim Lanes werden in Effektif zu :ref:`Rollen <roles>`"
+
+#: ../../process-builder/bpmn-import.rst:22
+#: ../../process-builder/bpmn-import.rst:22
+msgid "tasks become :ref:`user tasks <user-task>` in Effektif"
+msgstr "Task werden in Effektif zu :ref:`User Tasks <user-task>`"
+
+#: ../../process-builder/bpmn-import.rst:23
+#: ../../process-builder/bpmn-import.rst:23
+msgid "unsupported elements, such as timer events, are removed."
+msgstr ""
+"Nichtunterstützte Element, wie zum Beispiel Zeit-Startereignisse, werden "
+"entfernt."
+
+#: ../../process-builder/roles.rst:6 ../../process-builder/roles.rst:6
+msgid ""
+"A role is a process-specific name for whoever performs one or more process "
+"tasks. You can optionally configure a role with a list of canidates. Roles "
+"are equivalent to swimlanes in BPMN."
+msgstr ""
+"Eine Rolle ist ein prozessspezifischer Bezeichner für eine Person oder "
+"Organisationseinheit, die eine oder mehrere Prozessaufgaben ausführt. An "
+"einer Rolle kann eine Liste möglicher Kandidaten hinterlegt werden. Rollen "
+"entsprechen Swimlanes in BPMN."
+
+#: ../../process-builder/roles.rst:10 ../../process-builder/roles.rst:10
+msgid ""
+"For example, when you have a meeting, one person sometimes takes the role of"
+" chairperson. That person doesn’t have the job title *Meeting chair* - it’s "
+"just a role they’ve adopted for the length of the meeting."
+msgstr ""
+"Wenn Sie Beispielsweise ein Meeting durchführen, kann eine Person die Rolle "
+"der Meetingsleitung übernehmen - möglicherweise hat die Person die Rolle "
+"jedoch lediglich für die Zeit des Meetings inne."
+
+#: ../../process-builder/roles.rst:13 ../../process-builder/roles.rst:13
+msgid ""
+"A process in Effektif can define roles, in the same way that a business "
+"meeting ‘process’ has roles for whoever chairs the meeting (the ‘Chair’) and"
+" whoever takes minutes (the ‘Secretary’). The following meeting process "
+"model assigns the tasks on the top row to the *Chair* and the tasks on the "
+"bottom row to the *Secretary*."
+msgstr ""
+"Dementsprechend werden Rollen in Effektifprozessen verwendet. Das folgende "
+"Meeting-Prozessmodell ordnet die Aufgaben in der oberen Reihe der "
+"**Meetingsleitung** zu und die Aufgaben in der unteren Reihe der "
+"Meetingsassistenz."
+
+#: ../../process-builder/roles.rst:18 ../../process-builder/roles.rst:18
+msgid ""
+"A *Meeting* process, with tasks for *Chair* (top row) and *Secretary* "
+"(bottom row) roles"
+msgstr ""
+"Ein *Meeting*-Prozess mit Aufgaben für die Rollen *Meetingsleitung* (obere "
+"Reihe) und *Meetingsassistenz* (untere Reihe)"
+
+#: ../../process-builder/roles.rst:20 ../../process-builder/roles.rst:20
+msgid ""
+"In each meeting (each :ref:`cases <cases>` in Effektif), one person is "
+"assigned as chair, and one as secretary. These assignments generally don’t "
+"change during a meeting. Similarly, Effektif role assignments don’t change "
+"during a case: each new task with a role assignment is automatically "
+"assigned to the person who the role was assigned to."
+msgstr ""
+"Rollen können ad-hoc eingenommen werden. In jedem Meeting (jedem :ref:`Fall "
+"<cases>` in Effektif) wird einer Person die Aufgabe der Meetingsleitung "
+"übertragen und einer weiteren Person die Rolle der Meetingsassistenz. "
+"Während eines Falldurchlaufs ändern sich Rollenzuweisungen nicht: Jeder neue"
+" Task einer Rolle wird automatisch der entsprechenden Person zugewiesen."
+
+#: ../../process-builder/roles.rst:23 ../../process-builder/roles.rst:23
+msgid ""
+"In Effektif, a process role is a kind of workflow variable that is used for "
+"assigning tasks. A role is a variable of type user that stores a single "
+"user."
+msgstr ""
+"Eine Prozessrolle in Effektif ist eine Art Workflowvariable, die für die "
+"Zuweisung von Aufgaben verwendet wird. Eine Rolle ist eine Variable des Typs"
+" *Nutzer* - sie referenziert pro Aufgabe genau einen Nutzer."
+
+#: ../../process-builder/roles.rst:26 ../../process-builder/roles.rst:26
+msgid ""
+"These process roles are not the same as organization roles. For example, you"
+" can be a *Team lead* in your organization, which can be a position without "
+"an end date. A process role, such as *Meeting chair*, has a different scope "
+"and only applies for the duration of a single case."
+msgstr ""
+"Diese Prozessrollen entsprechen nicht zwingend Organisationsrollen. Sie "
+"können zum Beispiel in Ihrer Organisation die Rolle des *Team Leads* "
+"einnehmen und diese Rolle für unbegrenzte Zeit innehaben. Eine Prozessrolle "
+"wie *Meetingsleitung* wird hingegen lediglich im Kontext eines einzelnen "
+"Falles zugewiesen."
+
+#: ../../process-builder/roles.rst:31 ../../process-builder/roles.rst:31
+msgid ""
+"To assign a role to a user task, open the task’s configuration panel, select"
+" the `Assignment` tab, and use the `Assign using a role` menu on the right-"
+"hand side."
+msgstr ""
+"Um eine Rolle einer Nutzeraufgabe zuzuweisen, öffnen Sie die "
+"Konfigurationsleiste der Aufgabe, wählen Sie das `Allgemein`-Tab aus und "
+"verwenden Sie das `Zuweisen mittels einer Rolle`-Menü auf der rechten Seite."
+
+#: ../../process-builder/roles.rst:35 ../../process-builder/roles.rst:35
+msgid ""
+"To assign a role, use the menu to create a new role or select an existing "
+"role"
+msgstr ""
+"Um eine Rolle zuzuweisen, verwenden Sie das Menü um eine neue Rolle zu "
+"erstellen oder eine Existierende auszuwählen."
+
+#: ../../process-builder/roles.rst:37 ../../process-builder/roles.rst:37
+msgid ""
+"You can also use the edit icon next to the role name to rename the role."
+msgstr ""
+"Sie können zudem das Editierungsicon neben der Rolle anwählen, um die Rolle "
+"umzubenennen."
+
+#: ../../process-builder/roles.rst:40 ../../process-builder/roles.rst:40
+msgid "Role candidates"
+msgstr "Kandidaten für eine Rolle"
+
+#: ../../process-builder/roles.rst:42 ../../process-builder/roles.rst:42
+msgid ""
+"You can use a role to assign multiple tasks a person from a group of "
+"candidates. For example, you might have a support process that includes "
+"three user tasks that are assigned to a support engineer."
+msgstr ""
+"Über eine Rolle können Sie mehrere Aufgaben einer Person aus einer Gruppe "
+"von Kandidaten zuweisen. In einem Supportprozess kann es zum Beispiel drei "
+"Nutzertasks geben, die einem Kundenbetreuer zugewiesen sind."
+
+#: ../../process-builder/roles.rst:49 ../../process-builder/roles.rst:49
+msgid ""
+"Instead, assign the three tasks to a new role called ‘Support engineer’, and"
+" add the relevant people as candidates for the role."
+msgstr ""
+"Weisen Sie die drei Aufgaben einer neuen Rolle zu. Nennen Sie die Rolle "
+"'Kundenbetreuer' und fügen Sie relevante Personen als Kandidaten für die "
+"Rolle hinzu."
+
+#: ../../process-builder/roles.rst:52 ../../process-builder/roles.rst:52
+msgid ""
+"Creating the first task that has a role will notify all of the candidates "
+"for the role. When one of the candidates takes the task, the subsequent "
+"tasks with the same role will be assigned to the same person. That’s more "
+"efficient because this person has the context knowledge about that case."
+msgstr ""
+"Sobald die erste Aufgabe erstellt wird, die einer bestimmten Rolle "
+"zugewiesen ist, werden alle Kandidaten für diese Rolle informiert. Wenn eine"
+" Person die Aufgabe übernimmt, werden auch alle weiteren Aufgaben der Rolle "
+"dieser Person zugewiesen. Dies ist effizienter, da die entsprechende Person "
+"schon das kontextspezifische Fallwissen besitzt."
+
+#: ../../process-builder/triggers.rst:49 ../../process-builder/triggers.rst:49
+msgid ""
+"One way to use an email trigger is to add the trigger email address to a "
+"mailing list, such as `support@example.com `or `info@example.com`. You’ll "
+"have to ask the administrator of the mailing list to add the process "
+"trigger’s email address to the list. Once you have done this, email sent to "
+"the mailing list will also be forwarded to the process trigger address, "
+"starting the process in Effektif. You will then see the email in the event "
+"stream:"
+msgstr ""
+
+#: ../../process-builder/bpmn-export.rst:6
+#: ../../process-builder/bpmn-export.rst:6
+msgid ""
+"You can export an Effektif process model as a BPMN 2.0 XML file. This is "
+"useful if you want to open the model in another tool that supports BPMN, or "
+"to make a backup that you can load using the :ref:`BPMN import <bpmn-"
+"import>` option."
 msgstr ""
 
 #~ msgid ""
@@ -696,6 +952,82 @@ msgstr ""
 #~ msgstr ""
 #~ "Alternativ können Sie auch zuerst ein Nutzerfeld im Formular anlegen und "
 #~ "dieses dann als Rolle auswählen. "
+
+#~ msgid ""
+#~ "One way to use an email trigger is to add the trigger email address to a "
+#~ "mailing list, such as `support@example.com `or `info@example.com`. You’ll "
+#~ "have to ask the administrator of the mailing list to add the process "
+#~ "trigger’s email address to the list. Once you have done this, email sent to "
+#~ "the mailing list will also be forwarded to the process trigger address, "
+#~ "starting the process in Effektif. You will then see the email in the "
+#~ "activity stream:"
+#~ msgstr ""
+#~ "Wenn Sie die Emailadresse des Prozesses zum Beispiel in eine bestehende "
+#~ "Verteilerliste eingetragen haben, können neue Fälle leicht erstellt werden. "
+#~ "Innerhalb von einem Fall wird die Email die ihn ausgelöst hat jeweils im "
+#~ "`Stream` angezeigt, wie hier zu sehen ist."
+
+#~ msgid ""
+#~ "You can export an Effektif process model as a BPMN 2.0 XML file. This is "
+#~ "useful if you want to open the model in another tool that supports BPMN, or "
+#~ "to make a backup."
+#~ msgstr ""
+#~ "Sie können Prozesse aus Effektif als BPMN 2.0 XML exportieren. Dies ist "
+#~ "besonders hilfreich, wenn Sie den Prozess in einem anderen Tool bearbeiten "
+#~ "oder ein Backup erstellen möchten."
+
+#~ msgid ""
+#~ "These process roles are not the same as organization roles. For example, you"
+#~ " can be a team lead in your organization, which can be a position without an"
+#~ " end date. A process role, such as ‘Reviewer’, has a different scope and "
+#~ "only applies for the duration of a single case."
+#~ msgstr ""
+#~ "Prozessrollen sind nicht das gleiche wie Rollen in der Organisation. Zum "
+#~ "Beispiel können Sie der Leiter eines Teams in Ihrer Organisation sein. Das "
+#~ "hängt allerdings nicht von einem konkreten Fall ab. Eine Prozessrolle, wie "
+#~ "zum Beispiel `Prüfer` hat einen eingeschränkten Geltungsbereich und gilt "
+#~ "jeweils nur innerhalb eines Falles."
+
+#~ msgid ""
+#~ "You can use a role to assign multiple tasks a person from a group of "
+#~ "candidates. For example, you might have a support process that includes "
+#~ "three user tasks that are assigned to a support engineer. Instead, assign "
+#~ "the three tasks to a new role called ‘Support engineer’, and add the "
+#~ "relevant people as candidates for the role."
+#~ msgstr ""
+#~ "Sie können Rollen nutzen, um mehrere Aufgaben an eine Person aus einer "
+#~ "Gruppe von Personen zuzuweisen. Gehen wir einmal davon aus, dass Sie einen "
+#~ "Prozess mit drei aufeinanderfolgenden Aktivitäten erstellt haben. Alle diese"
+#~ " Aufgaben sollen jeweils von einem `Kundenbetreuer` ausgeführt werden, der "
+#~ "sich für jeden Fall um alle drei Aufgaben kümmert. Welcher Kundenbetreuer "
+#~ "das im genauen ist, spielt natürlich erst einmal keine Rolle, weshalb Sie "
+#~ "alle Mitglieder der Gruppe `Kundenbetreuer` als Kandidaten hinzufügen "
+#~ "können."
+
+#~ msgid ""
+#~ "Creating the first task that has a role will notify all of the candidates "
+#~ "for the role. When one of the candidates takes the task, the subsequent "
+#~ "tasks with the same role will be assigned to the same person. That’s "
+#~ "efficient because this person has the context knowledge about that case."
+#~ msgstr ""
+#~ "Wenn nun die erste Aufgabe der diese Rolle zugewiesen wurde erstellt wird, "
+#~ "werden zunächst alle Mitglieder der Gruppe `Kundenbetreuer` benachrichtigt, "
+#~ "da sie alle Kandidaten sind. Nachdem diese Aufgabe allerdings einem "
+#~ "Mitarbeiter zugewiesen wurde, schlüpft dieser in die Rolle des zuständigen "
+#~ "`Kundenbetreuers` für diesen Fall und die beiden weiteren Aufgaben werden "
+#~ "direkt ihm zugewiesen. "
+
+#~ msgid ""
+#~ "A role (a.k.a. process role) is a kind of workflow variable that is used for"
+#~ " assigning tasks. A role is a variable of type user that stores a single "
+#~ "user You can optionally configure a role with a list of canidates. Roles are"
+#~ " equivalent to swimlanes in BPMN."
+#~ msgstr ""
+#~ "Eine Rolle ist eine spezielle Workflow-Variable, die dazu verwendet wird um "
+#~ "Aufgaben zuzuweisen. Eine Rolle ist hierbei eine Nutzer-Variable, die einen "
+#~ "einzelnen Nutzer enthalten kann. Sie können eine Rolle auch optional mit "
+#~ "einer Liste von Kandidaten versehen. Rollen in Effektif sind wie Swimlanes "
+#~ "in BPMN zu verstehen. "
 
 #~ msgid "Simple action list view"
 #~ msgstr "Einfache Aufgabenliste"

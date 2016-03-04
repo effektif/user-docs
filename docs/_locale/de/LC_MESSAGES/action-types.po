@@ -38,11 +38,11 @@ msgstr ""
 msgid "User task"
 msgstr "User Task"
 
-#: ../../action-types.rst:82
+#: ../../action-types.rst:83
 msgid "Send email"
 msgstr "Email senden"
 
-#: ../../action-types.rst:88
+#: ../../action-types.rst:89
 msgid ""
 "The send email action sends an email to the specified user. In the "
 "configuration you can specify"
@@ -50,11 +50,11 @@ msgstr ""
 "Mit der Aktionen `Email senden` können Sie eine Email an eine Reihe von "
 "Nutzern senden. Die Konfiguration umfasst des Weiteren:"
 
-#: ../../action-types.rst:93
+#: ../../action-types.rst:94
 msgid "To:"
 msgstr "Empfänger:"
 
-#: ../../action-types.rst:92
+#: ../../action-types.rst:93
 msgid ""
 "The people to which the email is sent. You can type a plain email address, "
 "select a variable, a variable field or a user in the organization."
@@ -63,11 +63,11 @@ msgstr ""
 "Effektif Nutzer auswählen, Rollen und Nutzervariablen des Prozesses nutzen "
 "oder einfach eine reguläre Emailadresse eintragen."
 
-#: ../../action-types.rst:101
+#: ../../action-types.rst:102
 msgid "Subject:"
 msgstr "Betreff:"
 
-#: ../../action-types.rst:96
+#: ../../action-types.rst:97
 msgid ""
 "The subject of the email. To use process data in the subject, start by "
 "typing a `#`. If the list of variable fields is too long, you can just keep "
@@ -83,15 +83,15 @@ msgstr ""
 "einen Eintrag auszuwählen. Um eine Variable zu löschen, löschen Sie den "
 "Eintrag einfach als wäre er normaler Text."
 
-#: ../../action-types.rst:106
+#: ../../action-types.rst:107
 msgid "Attachments:"
 msgstr "Dateianhänge:"
 
-#: ../../action-types.rst:111
+#: ../../action-types.rst:112
 msgid "Body text:"
 msgstr "Inhalt:"
 
-#: ../../action-types.rst:109
+#: ../../action-types.rst:110
 msgid ""
 "Just like in the subject, you can combine template text with variable fields"
 " to Start by typing a `#`. See *Subject* above in this list for more details"
@@ -175,16 +175,6 @@ msgstr ""
 msgid "JavaScript action"
 msgstr "JavaScript"
 
-#: ../../action-types/javascript.rst:4 ../../action-types/javascript.rst:4
-msgid ""
-"The JavaScript action allows developers to run a JavaScript to the process "
-"execution. After creating or selecting a JavaScript action, the "
-"configuration panel looks like this:"
-msgstr ""
-"Mit der JavaScript Aktion kann ein Entwickler ein selbst geschrieben Script "
-"ausführen, während der Prozess ausgeführt wird. Nachdem Sie solch eine "
-"Aktion angelegt haben, sehen Sie den folgenden Konfigurationsdialog:"
-
 #: ../../action-types/javascript.rst:9 ../../action-types/javascript.rst:9
 msgid "JavaScript configuration panel"
 msgstr "JavaScript Konfigurationsdialog"
@@ -266,7 +256,7 @@ msgstr "JavaScript JSON-Werte"
 msgid "A user task in the process editor"
 msgstr "Ein User Task im Prozess-Editor"
 
-#: ../../action-types.rst:86
+#: ../../action-types.rst:87
 msgid "A send email task in the process editor"
 msgstr "Eine Email senden Aktion im Prozess-Editor"
 
@@ -550,7 +540,7 @@ msgstr ""
 msgid "A box upload file task in the process editor"
 msgstr "Eine Box Datei-Upload Aktion im Prozesseditor"
 
-#: ../../action-types.rst:104
+#: ../../action-types.rst:105
 msgid ""
 "To add attachments, click the attachments field. If there are files in the "
 "workflow variables, they will be shown. Select one of the file variable "
@@ -686,16 +676,23 @@ msgid ""
 "A user task means a user has to perform a task. In the :ref:`case <cases>`, "
 "a task will be created. Use the configuration form to specify the following "
 "optional details."
-msgstr "Mit einem User Task wird von einer Person manuell ausgeführt. In einem :ref:`Fall <cases>` wird hierzu eine Aufgabe angelegt. Für eine Aufgabe stehen die folgenden Konfigurationsmöglichkeiten zur Verfügung:"
+msgstr ""
+"Mit einem User Task wird von einer Person manuell ausgeführt. In einem "
+":ref:`Fall <cases>` wird hierzu eine Aufgabe angelegt. Für eine Aufgabe "
+"stehen die folgenden Konfigurationsmöglichkeiten zur Verfügung:"
 
 #: ../../action-types.rst:23
 msgid "*General* - assign a user or a :ref:`process role <roles>`."
-msgstr "*Allgemein* - weisen Sie einen Nutzer oder eine :ref:`Prozessrolle <roles>` zu."
+msgstr ""
+"*Allgemein* - weisen Sie einen Nutzer oder eine :ref:`Prozessrolle <roles>` "
+"zu."
 
 #: ../../action-types.rst:24
 msgid ""
 "*Form* - add a form, which means submitting the form to complete the task."
-msgstr "*Formular* - hinterlegen Sie ein Formular, über das bei der Taskausführung Daten aufgenommen werden."
+msgstr ""
+"*Formular* - hinterlegen Sie ein Formular, über das bei der Taskausführung "
+"Daten aufgenommen werden."
 
 #: ../../action-types.rst:30
 msgid "General"
@@ -705,7 +702,17 @@ msgstr "Allgemein"
 msgid ""
 "Use the *General* tab to specify the task’s default assignee or candidates. "
 "Candidates can be individual users or organisation groups."
-msgstr "Unter *Allgemein* können Sie Verantwortliche für Aufgaben festlegen oder eine Liste von Kandidaten definieren. Kandidaten können hierbei mehrere Nutzer oder Gruppen von Nutzern sein."
+msgstr ""
+"Unter *Allgemein* können Sie Verantwortliche für Aufgaben festlegen oder "
+"eine Liste von Kandidaten definieren. Kandidaten können hierbei mehrere "
+"Nutzer oder Gruppen von Nutzern sein."
+
+#: ../../action-types/javascript.rst:4 ../../action-types/javascript.rst:4
+msgid ""
+"The JavaScript action allows developers to add JavaScript to process "
+"execution. After creating or selecting a JavaScript action, the "
+"configuration panel looks like this:"
+msgstr "Mit der JavaScript Aktion kann ein Entwickler ein selbst geschrieben Script mit einem Task asuführen lassen. Nachdem Sie solch eine Aktion angelegt haben, sehen Sie den folgenden Konfigurationsdialog:"
 
 #~ msgid ""
 #~ "A user task means a user has to perform a task. In the :ref:`case <cases>`, "
