@@ -423,16 +423,6 @@ msgstr ""
 "Sie diesen unterhalb des Formulars bei *Ein Feld wiederverwenden* ganz "
 "einfach auswählen."
 
-#: ../../process-builder/roles.rst:57 ../../process-builder/roles.rst:57
-msgid ""
-"Alternatively, you can first define the *Support engineer* role by adding a "
-"field with type *User* to the *Initial investigation* task’s form, and then "
-"select the *Support engineer* role on another user task’s *Assignment* "
-"configuration."
-msgstr ""
-"Alternativ können Sie auch zuerst ein Nutzerfeld im Formular anlegen und "
-"dieses dann als Rolle auswählen. "
-
 #: ../../process-builder/variables.rst:4 ../../process-builder/variables.rst:4
 msgid ""
 "A process has variables that store workflow data when the process runs. All "
@@ -689,6 +679,23 @@ msgstr ""
 "veröffentlichen und nicht alles in eine große Version schieben. Kleine "
 "Versionen machen es einfacher die Änderungen nachzuverfolgen und damit die "
 "Versionshistorie nützlicher. "
+
+#: ../../process-builder/roles.rst:57 ../../process-builder/roles.rst:57
+msgid ""
+"Alternatively, you can first define the *Support engineer* role by adding a "
+"field with type *User* to the *Initial investigation* task’s form, and then "
+"select the *Support engineer* role on another user task’s *General* "
+"configuration."
+msgstr ""
+
+#~ msgid ""
+#~ "Alternatively, you can first define the *Support engineer* role by adding a "
+#~ "field with type *User* to the *Initial investigation* task’s form, and then "
+#~ "select the *Support engineer* role on another user task’s *Assignment* "
+#~ "configuration."
+#~ msgstr ""
+#~ "Alternativ können Sie auch zuerst ein Nutzerfeld im Formular anlegen und "
+#~ "dieses dann als Rolle auswählen. "
 
 #~ msgid "Simple action list view"
 #~ msgstr "Einfache Aufgabenliste"
