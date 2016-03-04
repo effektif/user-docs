@@ -221,32 +221,7 @@ msgstr ""
 msgid "Roles"
 msgstr ""
 
-#: ../../process-builder/roles.rst:11 ../../process-builder/roles.rst:11
-msgid ""
-"These process roles are not the same as organization roles. For example, you"
-" can be a team lead in your organization, which can be a position without an"
-" end date. A process role, such as ‘Reviewer’, has a different scope and "
-"only applies for the duration of a single case."
-msgstr ""
-
-#: ../../process-builder/roles.rst:20 ../../process-builder/roles.rst:20
-msgid ""
-"You can use a role to assign multiple tasks a person from a group of "
-"candidates. For example, you might have a support process that includes "
-"three user tasks that are assigned to a support engineer. Instead, assign "
-"the three tasks to a new role called ‘Support engineer’, and add the "
-"relevant people as candidates for the role."
-msgstr ""
-
-#: ../../process-builder/roles.rst:25 ../../process-builder/roles.rst:25
-msgid ""
-"Creating the first task that has a role will notify all of the candidates "
-"for the role. When one of the candidates takes the task, the subsequent "
-"tasks with the same role will be assigned to the same person. That’s "
-"efficient because this person has the context knowledge about that case."
-msgstr ""
-
-#: ../../process-builder/roles.rst:30 ../../process-builder/roles.rst:30
+#: ../../process-builder/roles.rst:57 ../../process-builder/roles.rst:57
 msgid ""
 "If you reassign a task that has a role assignment, Effektif will update the "
 "role variable, and assign all subsequent tasks with the same role to the new"
@@ -269,7 +244,7 @@ msgid ""
 "workflow"
 msgstr ""
 
-#: ../../process-builder/roles.rst:18 ../../process-builder/roles.rst:18
+#: ../../process-builder/roles.rst:47 ../../process-builder/roles.rst:47
 msgid ""
 "Assigning a task to a *Support engineer* role with candidates Alice and Ben"
 msgstr ""
@@ -290,19 +265,11 @@ msgid ""
 "`from`, `to`, `subject` and `attachments`."
 msgstr ""
 
-#: ../../process-builder/roles.rst:6 ../../process-builder/roles.rst:6
-msgid ""
-"A role (a.k.a. process role) is a kind of workflow variable that is used for"
-" assigning tasks. A role is a variable of type user that stores a single "
-"user You can optionally configure a role with a list of canidates. Roles are"
-" equivalent to swimlanes in BPMN."
-msgstr ""
-
-#: ../../process-builder/roles.rst:35 ../../process-builder/roles.rst:35
+#: ../../process-builder/roles.rst:62 ../../process-builder/roles.rst:62
 msgid "Using a form field to assign a role"
 msgstr ""
 
-#: ../../process-builder/roles.rst:37 ../../process-builder/roles.rst:37
+#: ../../process-builder/roles.rst:64 ../../process-builder/roles.rst:64
 msgid ""
 "When you execute a process, you normally assign a specific person to a role "
 "by using the assignee button to select someone. Sometimes, you want this "
@@ -311,30 +278,22 @@ msgid ""
 "*Support engineer* before completing an *Initial investigation* task."
 msgstr ""
 
-#: ../../process-builder/roles.rst:44 ../../process-builder/roles.rst:44
+#: ../../process-builder/roles.rst:71 ../../process-builder/roles.rst:71
 msgid ""
 "You can do this by adding the role assignment to a form, because a task "
 "assignment role is a process variable, just like any other *User* form "
 "field."
 msgstr ""
 
-#: ../../process-builder/roles.rst:50 ../../process-builder/roles.rst:50
+#: ../../process-builder/roles.rst:77 ../../process-builder/roles.rst:77
 msgid "Adding the *Support engineer* role assignment to a form"
 msgstr ""
 
-#: ../../process-builder/roles.rst:52 ../../process-builder/roles.rst:52
+#: ../../process-builder/roles.rst:79 ../../process-builder/roles.rst:79
 msgid ""
 "To add a role assignment to a form, first define the process role, such as "
 "the *Support engineer* role created above, then on the form, under the "
 "*Reuse field* heading, select the role variable to add it to the form."
-msgstr ""
-
-#: ../../process-builder/roles.rst:57 ../../process-builder/roles.rst:57
-msgid ""
-"Alternatively, you can first define the *Support engineer* role by adding a "
-"field with type *User* to the *Initial investigation* task’s form, and then "
-"select the *Support engineer* role on another user task’s *Assignment* "
-"configuration."
 msgstr ""
 
 #: ../../process-builder/versions.rst:4 ../../process-builder/versions.rst:4
@@ -470,14 +429,6 @@ msgid ""
 "configure."
 msgstr ""
 
-#: ../../process-builder/bpmn-export.rst:6
-#: ../../process-builder/bpmn-export.rst:6
-msgid ""
-"You can export an Effektif process model as a BPMN 2.0 XML file. This is "
-"useful if you want to open the model in another tool that supports BPMN, or "
-"to make a backup."
-msgstr ""
-
 #: ../../process-builder/bpmn-export.rst:10
 #: ../../process-builder/bpmn-export.rst:10
 msgid ""
@@ -506,11 +457,260 @@ msgid ""
 "stream:"
 msgstr ""
 
+#: ../../process-builder/roles.rst:6 ../../process-builder/roles.rst:6
+msgid ""
+"A role is a process-specific name for whoever performs one or more process "
+"tasks. You can optionally configure a role with a list of canidates. Roles "
+"are equivalent to swimlanes in BPMN."
+msgstr ""
+
+#: ../../process-builder/roles.rst:10 ../../process-builder/roles.rst:10
+msgid ""
+"For example, when you have a meeting, one person sometimes takes the role of"
+" chairperson. That person doesn’t have the job title *Meeting chair* - it’s "
+"just a role they’ve adopted for the length of the meeting."
+msgstr ""
+
+#: ../../process-builder/roles.rst:13 ../../process-builder/roles.rst:13
+msgid ""
+"A process in Effektif can define roles, in the same way that a business "
+"meeting ‘process’ has roles for whoever chairs the meeting (the ‘Chair’) and"
+" whoever takes minutes (the ‘Secretary’). The following meeting process "
+"model assigns the tasks on the top row to the *Chair* and the tasks on the "
+"bottom row to the *Secretary*."
+msgstr ""
+
+#: ../../process-builder/roles.rst:18 ../../process-builder/roles.rst:18
+msgid ""
+"A *Meeting* process, with tasks for *Chair* (top row) and *Secretary* "
+"(bottom row) roles"
+msgstr ""
+
+#: ../../process-builder/roles.rst:20 ../../process-builder/roles.rst:20
+msgid ""
+"In each meeting (each :ref:`cases <cases>` in Effektif), one person is "
+"assigned as chair, and one as secretary. These assignments generally don’t "
+"change during a meeting. Similarly, Effektif role assignments don’t change "
+"during a case: each new task with a role assignment is automatically "
+"assigned to the person who the role was assigned to."
+msgstr ""
+
+#: ../../process-builder/roles.rst:23 ../../process-builder/roles.rst:23
+msgid ""
+"In Effektif, a process role is a kind of workflow variable that is used for "
+"assigning tasks. A role is a variable of type user that stores a single "
+"user."
+msgstr ""
+
+#: ../../process-builder/roles.rst:26 ../../process-builder/roles.rst:26
+msgid ""
+"These process roles are not the same as organization roles. For example, you"
+" can be a *Team lead* in your organization, which can be a position without "
+"an end date. A process role, such as *Meeting chair*, has a different scope "
+"and only applies for the duration of a single case."
+msgstr ""
+
+#: ../../process-builder/roles.rst:31 ../../process-builder/roles.rst:31
+msgid ""
+"To assign a role to a user task, open the task’s configuration panel, select"
+" the `Assignment` tab, and use the `Assign using a role` menu on the right-"
+"hand side."
+msgstr ""
+
+#: ../../process-builder/roles.rst:35 ../../process-builder/roles.rst:35
+msgid ""
+"To assign a role, use the menu to create a new role or select an existing "
+"role"
+msgstr ""
+
+#: ../../process-builder/roles.rst:37 ../../process-builder/roles.rst:37
+msgid ""
+"You can also use the edit icon next to the role name to rename the role."
+msgstr ""
+
+#: ../../process-builder/roles.rst:40 ../../process-builder/roles.rst:40
+msgid "Role candidates"
+msgstr ""
+
+#: ../../process-builder/roles.rst:42 ../../process-builder/roles.rst:42
+msgid ""
+"You can use a role to assign multiple tasks a person from a group of "
+"candidates. For example, you might have a support process that includes "
+"three user tasks that are assigned to a support engineer."
+msgstr ""
+
+#: ../../process-builder/roles.rst:49 ../../process-builder/roles.rst:49
+msgid ""
+"Instead, assign the three tasks to a new role called ‘Support engineer’, and"
+" add the relevant people as candidates for the role."
+msgstr ""
+
+#: ../../process-builder/roles.rst:52 ../../process-builder/roles.rst:52
+msgid ""
+"Creating the first task that has a role will notify all of the candidates "
+"for the role. When one of the candidates takes the task, the subsequent "
+"tasks with the same role will be assigned to the same person. That’s more "
+"efficient because this person has the context knowledge about that case."
+msgstr ""
+
 #: ../../process-builder/versions.rst:61 ../../process-builder/versions.rst:61
 msgid ""
 "Make the comment an imperative phrase that starts with a word like ‘Add’ or "
 "‘Fix’."
 msgstr ""
+
+#: ../../process-builder/locking.rst:4 ../../process-builder/locking.rst:4
+msgid "Process locking"
+msgstr ""
+
+#: ../../process-builder/locking.rst:6 ../../process-builder/locking.rst:6
+msgid ""
+"In the process builder, only one person can edit a process at a time. When "
+"someone else is editing a process, there is a message in the `Processes` "
+"list."
+msgstr ""
+
+#: ../../process-builder/locking.rst:12 ../../process-builder/locking.rst:12
+msgid ""
+"The `Processes` list message when someone else `is currently working on this"
+" process`"
+msgstr ""
+
+#: ../../process-builder/locking.rst:14 ../../process-builder/locking.rst:14
+msgid ""
+"You can still open the process, but you will see a warning message "
+"explaining that you will not be able to make changes:"
+msgstr ""
+
+#: ../../process-builder/locking.rst:19 ../../process-builder/locking.rst:19
+msgid ""
+"Warning that you will not be able to make edit a process at the same time as"
+" someone else"
+msgstr ""
+
+#: ../../process-builder/locking.rst:21 ../../process-builder/locking.rst:21
+msgid ""
+"You will be able to edit the process and make changes after the other person"
+" leaves the process editor, by opening the `Tasks` list, for example."
+msgstr ""
+
+#: ../../process-builder/bpmn-import.rst:4
+#: ../../process-builder/bpmn-import.rst:4
+msgid "BPMN import"
+msgstr ""
+
+#: ../../process-builder/bpmn-import.rst:6
+#: ../../process-builder/bpmn-import.rst:6
+msgid ""
+"You can import an Effektif process model from a BPMN 2.0 XML file. You can "
+"use this to import a model that you created in another tool, or to load a "
+"file that you saved using the :ref:`BPMN export <bpmn-export>` option."
+msgstr ""
+
+#: ../../process-builder/bpmn-import.rst:10
+#: ../../process-builder/bpmn-import.rst:10
+msgid ""
+"To import a process model, on the `Processes` page, click the `Import BPMN` "
+"button and select the BPMN XML file."
+msgstr ""
+
+#: ../../process-builder/bpmn-import.rst:15
+#: ../../process-builder/bpmn-import.rst:15
+msgid "The `Import BPMN` button on the `Processes` page"
+msgstr ""
+
+#: ../../process-builder/bpmn-import.rst:17
+#: ../../process-builder/bpmn-import.rst:17
+msgid ""
+"Effektif does not support all BPMN 2.0 elements, so the process may appear "
+"differently in Effektif. In particular:"
+msgstr ""
+
+#: ../../process-builder/bpmn-import.rst:21
+#: ../../process-builder/bpmn-import.rst:21
+msgid "BPMN swim lanes become :ref:`roles <roles>` in Effektif"
+msgstr ""
+
+#: ../../process-builder/bpmn-import.rst:22
+#: ../../process-builder/bpmn-import.rst:22
+msgid "tasks become :ref:`user tasks <user-task>` in Effektif"
+msgstr ""
+
+#: ../../process-builder/bpmn-import.rst:23
+#: ../../process-builder/bpmn-import.rst:23
+msgid "unsupported elements, such as timer events, are removed."
+msgstr ""
+
+#: ../../process-builder/bpmn-export.rst:6
+#: ../../process-builder/bpmn-export.rst:6
+msgid ""
+"You can export an Effektif process model as a BPMN 2.0 XML file. This is "
+"useful if you want to open the model in another tool that supports BPMN, or "
+"to make a backup that you can load using the :ref:`BPMN import <bpmn-"
+"import>` option."
+msgstr ""
+
+#: ../../process-builder/copy-delete.rst:4
+#: ../../process-builder/copy-delete.rst:4
+msgid "Copying & deleting processes"
+msgstr ""
+
+#: ../../process-builder/copy-delete.rst:6
+#: ../../process-builder/copy-delete.rst:6
+msgid ""
+"You can create a copy of a process or delete it using the process menu shown"
+" in the previous section."
+msgstr ""
+
+#: ../../process-builder/copy-delete.rst:8
+#: ../../process-builder/copy-delete.rst:8
+msgid ""
+"The `Create a copy` option duplicates the process in the same organisation. "
+"You may find it useful to duplicate a process if you want to experiment with"
+" changes without publishing changes to a process that people are using. You "
+"may also want to duplicate a process to model a special case of the process,"
+" instead of adding a conditional flow to the standard process."
+msgstr ""
+
+#: ../../process-builder/copy-delete.rst:12
+#: ../../process-builder/copy-delete.rst:12
+msgid ""
+"The `Delete process` option permanently deletes a process and all of its "
+"cases. You cannot undo this operation, so you must enter a confirmation. You"
+" might want to delete a process that you created by duplicating another "
+"process in order to experiment with changes in the model."
+msgstr ""
+
+#: ../../process-builder/copy-delete.rst:16
+#: ../../process-builder/copy-delete.rst:16
+msgid ""
+"In Effektif, you cannot currently delete cases, which you might want to do "
+"if you have created test cases while developing the process. However, you "
+"can use `Create a copy` and `Delete process` to duplicate a process and then"
+" delete the original. This deletes all of the cases with the original "
+"process, and leaves a copy with no cases."
+msgstr ""
+
+#: ../../process-builder/roles.rst:84 ../../process-builder/roles.rst:84
+msgid ""
+"Alternatively, you can first define the *Support engineer* role by adding a "
+"field with type *User* to the *Initial investigation* task’s form, and then "
+"select the *Support engineer* role on another user task’s *General* "
+"configuration."
+msgstr ""
+
+#~ msgid ""
+#~ "Alternatively, you can first define the *Support engineer* role by adding a "
+#~ "field with type *User* to the *Initial investigation* task’s form, and then "
+#~ "select the *Support engineer* role on another user task’s *Assignment* "
+#~ "configuration."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can export an Effektif process model as a BPMN 2.0 XML file. This is "
+#~ "useful if you want to open the model in another tool that supports BPMN, or "
+#~ "to make a backup."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "One way to use an email trigger is to add the trigger email address to a "
@@ -520,6 +720,35 @@ msgstr ""
 #~ "the mailing list will also be forwarded to the process trigger address, "
 #~ "starting the process in Effektif. You will then see the email in the "
 #~ "activity stream:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "These process roles are not the same as organization roles. For example, you"
+#~ " can be a team lead in your organization, which can be a position without an"
+#~ " end date. A process role, such as ‘Reviewer’, has a different scope and "
+#~ "only applies for the duration of a single case."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can use a role to assign multiple tasks a person from a group of "
+#~ "candidates. For example, you might have a support process that includes "
+#~ "three user tasks that are assigned to a support engineer. Instead, assign "
+#~ "the three tasks to a new role called ‘Support engineer’, and add the "
+#~ "relevant people as candidates for the role."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Creating the first task that has a role will notify all of the candidates "
+#~ "for the role. When one of the candidates takes the task, the subsequent "
+#~ "tasks with the same role will be assigned to the same person. That’s "
+#~ "efficient because this person has the context knowledge about that case."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A role (a.k.a. process role) is a kind of workflow variable that is used for"
+#~ " assigning tasks. A role is a variable of type user that stores a single "
+#~ "user You can optionally configure a role with a list of canidates. Roles are"
+#~ " equivalent to swimlanes in BPMN."
 #~ msgstr ""
 
 #~ msgid ""

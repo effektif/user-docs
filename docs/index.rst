@@ -18,3 +18,4 @@ Effektif User Guide
    profile
    settings
    variables
+   examples

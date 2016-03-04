@@ -10,16 +10,16 @@ User task
 A user task means a user has to perform a task.
 In the :ref:`case <cases>`, a task will be created. In the configuration form, the following optional details can be specified.
 
-* *Assignment* - a task can be assigned to a user or a :ref:`process role <roles>`.
+* *General* - a task can be assigned to a user or a :ref:`process role <roles>`.
 * *Form* - a task can be given a form. To complete the task, the form has to be submitted.
 * *Reminders* - task deadline notifications.
 * *Escalations* -  automatic task reassignment.
 * *Access Rights* - task permissions for users and groups.
 
-Assignment
-^^^^^^^^^^
+General
+^^^^^^^
 
-Use the assignment tab to specify the task’s default assignee or candidates.
+Use the *General* tab to specify the task’s default assignee or candidates.
 Candidates can be individual users or organisation groups.
 
 .. figure:: /_static/images/action-types/user-task-assignment.png

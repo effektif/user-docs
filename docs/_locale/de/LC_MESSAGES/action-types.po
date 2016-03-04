@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-17 10:39+0200\n"
 "PO-Revision-Date: 2015-10-27 16:39+0100\n"
-"Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
+"Last-Translator: Timotheus Kampik <timotheus.kampik@signavio.com>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -505,14 +505,6 @@ msgstr ""
 "hierzu eine Aufgabe angelegt. Für eine Aufgabe stehen die folgenden "
 "Konfigurationsmöglichkeiten zur Verfügung: "
 
-#: ../../action-types/user-task.rst:13 ../../action-types/user-task.rst:13
-msgid ""
-"*Assignment* - a task can be assigned to a user or a :ref:`process role "
-"<roles>`."
-msgstr ""
-"*Zuweisung* - Eine Aufgabe kann entweder direkt einem Nutzer zugewiesen "
-"werden oder einer :ref:`Rolle <roles>`."
-
 #: ../../action-types/user-task.rst:14 ../../action-types/user-task.rst:14
 msgid ""
 "*Form* - a task can be given a form. To complete the task, the form has to "
@@ -536,19 +528,6 @@ msgid "*Access Rights* - task permissions for users and groups."
 msgstr ""
 "*Zugriffsrechte* - Definieren Sie Zugriffsrechte für Nutzer und Gruppen."
 
-#: ../../action-types/user-task.rst:20 ../../action-types/user-task.rst:20
-msgid "Assignment"
-msgstr "Zuweisung"
-
-#: ../../action-types/user-task.rst:22 ../../action-types/user-task.rst:22
-msgid ""
-"Use the assignment tab to specify the task’s default assignee or candidates."
-" Candidates can be individual users or organisation groups."
-msgstr ""
-"Unter Zuweisung können Sie Verantwortliche für Aufgaben festlegen oder eine "
-"Liste von Kandidaten definieren. Kandidaten können hierbei mehrere Nutzer "
-"oder Gruppen von Nutzern sein."
-
 #: ../../action-types/user-task.rst:27 ../../action-types/user-task.rst:27
 msgid "Configuring user task assignment in the process editor"
 msgstr "Zuweisung einer Aufgabe im Prozesseditor konfigurieren"
@@ -561,6 +540,31 @@ msgstr ""
 "Sie können auch :ref:`Rollen <process-roles>` für die Zuweisung nutzen. "
 "Diese ähneln den Lanes aus BPMN. So können Sie mehrere Aufgaben automatisch "
 "der gleichen Person zuweisen. "
+
+#: ../../action-types/user-task.rst:47 ../../action-types/user-task.rst:47
+msgid "Form"
+msgstr "Formular"
+
+#: ../../action-types/user-task.rst:54 ../../action-types/user-task.rst:54
+msgid "Reminders"
+msgstr "Erinnerungen"
+
+#: ../../action-types/user-task.rst:56 ../../action-types/user-task.rst:56
+#: ../../action-types.rst:37
+msgid "Configuring user task assignment in the process editor"
+msgstr "Zuweisung einer Aufgabe im Prozesseditor konfigurieren"
+
+#: ../../action-types.rst:44
+msgid "Form"
+msgstr "Formular"
+
+#: ../../action-types.rst:51
+msgid "Reminders"
+msgstr "Erinnerungen"
+
+#: ../../action-types/user-task.rst:27 ../../action-types/user-task.rst:27
+msgid "Configuring user task assignment in the process editor"
+msgstr "Zuweisung einer Aufgabe im Prozesseditor konfigurieren"
 
 #: ../../action-types/user-task.rst:47 ../../action-types/user-task.rst:47
 msgid "Form"
@@ -584,6 +588,10 @@ msgstr ""
 msgid "Configuring user task reminders in the process editor"
 msgstr "Erinnerungen im Prozesseditor konfigurieren"
 
+#: ../../action-types/user-task.rst:62 ../../action-types/user-task.rst:62
+msgid "Configuring user task reminders in the process editor"
+msgstr "Erinnerungen im Prozesseditor konfigurieren"
+
 #: ../../action-types/user-task.rst:64 ../../action-types/user-task.rst:64
 msgid ""
 "Effektif sends these notifications to the task’s assignee if the task is "
@@ -601,6 +609,10 @@ msgstr ""
 msgid "Escalations"
 msgstr "Eskalation"
 
+#: ../../action-types/user-task.rst:70 ../../action-types/user-task.rst:70
+msgid "Escalations"
+msgstr "Eskalation"
+
 #: ../../action-types/user-task.rst:72 ../../action-types/user-task.rst:72
 msgid ""
 "You can also use the :ref:`Reminders <reminders>` configuration panel tab to"
@@ -613,6 +625,10 @@ msgstr ""
 "Aufgabe automatisch nach Ablauf der von Ihnen festgelegten Zeitspanne an di "
 "von Ihnen konfigurierte Person zuweisen. Der neue Verantwortliche für die "
 "Aufgabe erhält auch eine Benachrichtigung von Effektif."
+
+#: ../../action-types/user-task.rst:78 ../../action-types/user-task.rst:78
+msgid "Access Rights"
+msgstr "Zugriffsrechte"
 
 #: ../../action-types/user-task.rst:78 ../../action-types/user-task.rst:78
 msgid "Access Rights"
@@ -641,7 +657,10 @@ msgid ""
 "Actions are displayed as rounded rectangles in the :ref:`process-builder`. "
 "Actions typically have a configuration panel that opens when you select the "
 "action."
-msgstr "Aktionen werden in Effektif als Rechtecke mit abgerundeten Ecken im :ref:`process-builder` dargestellt und haben typischerweise ein Konfigurationspanel, das sich beim Auswählen der Aktion öffnet."
+msgstr ""
+"Aktionen werden in Effektif als Rechtecke mit abgerundeten Ecken im :ref"
+":`process-builder` dargestellt und haben typischerweise ein "
+"Konfigurationspanel, das sich beim Auswählen der Aktion öffnet."
 
 #: ../../action-types/user-task.rst:34 ../../action-types/user-task.rst:34
 msgid "Task name template"
@@ -653,23 +672,33 @@ msgid ""
 ":ref:`variables <variables>`. Enter the task name template on the user "
 "task’s configuration panel’s *General* tab. In the text field, type a `#` to"
 " select a variable."
-msgstr "Sie können Vorlagen für Aufgabennamen verwenden, um dynamische Aufgabennamen auf Basis von :ref:`Variablen <variables>` zu erstellen. Geben Sie die Vorlage über das *Allgemein*-Tab des Konfigurationspanels ein und geben Sie `#` ein um die gewünschte Variable auswählen zu können."
+msgstr ""
+"Sie können Vorlagen für Aufgabennamen verwenden, um dynamische Aufgabennamen"
+" auf Basis von :ref:`Variablen <variables>` zu erstellen. Geben Sie die "
+"Vorlage über das *Allgemein*-Tab des Konfigurationspanels ein und geben Sie "
+"`#` ein um die gewünschte Variable auswählen zu können."
 
 #: ../../action-types/user-task.rst:42 ../../action-types/user-task.rst:42
 msgid "Using a task name template to configure dynamic task names"
-msgstr "Verwenden Sie Vorlagen für Aufgabennamen um dynamische Aufgabennamen zu konfigurieren."
+msgstr ""
+"Verwenden Sie Vorlagen für Aufgabennamen um dynamische Aufgabennamen zu "
+"konfigurieren."
 
 #: ../../action-types/user-task.rst:44 ../../action-types/user-task.rst:44
 msgid ""
 "Use task name templates to avoid a :ref:`tasks` view that fills up with "
 "identically-named tasks."
-msgstr "Verwenden Sie Vorlagen für Aufgabennamen um zu verhindern, dass sich die :ref:`tasks` - Ansicht mit identisch bezeichneten Aufgaben füllt."
+msgstr ""
+"Verwenden Sie Vorlagen für Aufgabennamen um zu verhindern, dass sich die "
+":ref:`tasks` - Ansicht mit identisch bezeichneten Aufgaben füllt."
 
 #: ../../action-types/send-email.rst:8 ../../action-types/send-email.rst:8
 msgid ""
 "The send email action sends an email to the specified user. In the "
 "configuration you can specify the following."
-msgstr "Die *E-mail senden*-Aktion sendet eine Email an einen spezifischen Nutzer. In der Konfiguration können Sie Folgendes hinterlegen:"
+msgstr ""
+"Die *E-mail senden*-Aktion sendet eine Email an einen spezifischen Nutzer. "
+"In der Konfiguration können Sie Folgendes hinterlegen:"
 
 #: ../../action-types/send-email.rst:16 ../../action-types/send-email.rst:16
 msgid ""
@@ -678,14 +707,23 @@ msgid ""
 "can just keep typing after the `#` to narrow-down the list. You can use the "
 "arrow keys to move the section, and *Enter* to select a field. To remove a "
 "variable, just delete it as if it’s normal text."
-msgstr "The Betreffzeile: Um :ref:`Variablen <variables>` in der Betreffzeile zu verwenden, geben Sie ein `#` ein und wählen Sie ein Feld aus der Liste aus. Falls die Liste sehr lang ist, können Sie die ersten Buchstaben des Feldnamen eingeben und die Liste zu filtern. Zudem können Sie die Pfeiltasten zur Navigation durch die Liste verwenden und die Auswahl mit der *Enter*-Taste treffen. Variablen können wie normaler Text entfernt werden."
+msgstr ""
+"The Betreffzeile: Um :ref:`Variablen <variables>` in der Betreffzeile zu "
+"verwenden, geben Sie ein `#` ein und wählen Sie ein Feld aus der Liste aus. "
+"Falls die Liste sehr lang ist, können Sie die ersten Buchstaben des "
+"Feldnamen eingeben und die Liste zu filtern. Zudem können Sie die "
+"Pfeiltasten zur Navigation durch die Liste verwenden und die Auswahl mit der"
+" *Enter*-Taste treffen. Variablen können wie normaler Text entfernt werden."
 
 #: ../../action-types/send-email.rst:23 ../../action-types/send-email.rst:23
 msgid ""
 "To add attachments, click the *Attachments* field and select a file field "
 "from the list. The list includes trigger email attachments and file upload "
 "form fields."
-msgstr "Um Anhänge hinzuzufügen, wählen Sie das *Anhänge*-Feld aus und selektieren Sie ein Dateienfeld der Liste. Die Liste enthält E-mail-Anhänge von Auslösern und Dateiupload Formularfelder."
+msgstr ""
+"Um Anhänge hinzuzufügen, wählen Sie das *Anhänge*-Feld aus und selektieren "
+"Sie ein Dateienfeld der Liste. Die Liste enthält E-mail-Anhänge von "
+"Auslösern und Dateiupload Formularfelder."
 
 #: ../../action-types/send-email.rst:27 ../../action-types/send-email.rst:27
 msgid ""
@@ -693,7 +731,11 @@ msgid ""
 "the *Subject*. You can use `Markdown "
 "<http://daringfireball.net/projects/markdown/basics>`_ to format the email "
 "body by formatting text or including hyperlinks, headings or lists."
-msgstr "Wie in der Betreffzeile können Sie im E-mail-Inhaltsfeld Variablen über die Eingabe der Raute `#` referenzieren. Zudem können Sie `Markdown <http://daringfireball.net/projects/markdown/basics>`_ zur Formatierung verwenden, zum Beispiel um Links, Überschriften und Listen einzufügen."
+msgstr ""
+"Wie in der Betreffzeile können Sie im E-mail-Inhaltsfeld Variablen über die "
+"Eingabe der Raute `#` referenzieren. Zudem können Sie `Markdown "
+"<http://daringfireball.net/projects/markdown/basics>`_ zur Formatierung "
+"verwenden, zum Beispiel um Links, Überschriften und Listen einzufügen."
 
 #: ../../action-types/google.rst:4 ../../action-types/google.rst:4
 msgid "Google Drive - Upload file"
@@ -717,14 +759,19 @@ msgstr "Google Drive - Zeile in Tabelle hinzufügen"
 
 #: ../../action-types/google.rst:116 ../../action-types/google.rst:116
 msgid "A Google Drive *Add row to sheet* task in the process editor"
-msgstr "Eine Google Drive *Zeile in Tabelle hinzufügen*-Aktion im Prozesseditor"
+msgstr ""
+"Eine Google Drive *Zeile in Tabelle hinzufügen*-Aktion im Prozesseditor"
 
 #: ../../action-types/google.rst:118 ../../action-types/google.rst:118
 msgid ""
 "The Google Drive *Add row to sheet* action adds a row to a Google Sheets "
 "spreadsheet. You can use this to save the values of process variables at "
 "process milestones, and build a custom overview of cases."
-msgstr "Eine Google Drive *Zeile in Tabelle hinzufügen*-Aktion fügt eine Zeile zu einem Google Sheets Tabellenblatt hinzu. So können Sie Prozessvariablen beim Erreichen von Meilensteinen abspeichern und eine individuelle Übersicht über Ihre Fälle erstellen."
+msgstr ""
+"Eine Google Drive *Zeile in Tabelle hinzufügen*-Aktion fügt eine Zeile zu "
+"einem Google Sheets Tabellenblatt hinzu. So können Sie Prozessvariablen beim"
+" Erreichen von Meilensteinen abspeichern und eine individuelle Übersicht "
+"über Ihre Fälle erstellen."
 
 #: ../../action-types/google.rst:124 ../../action-types/google.rst:124
 msgid ""
@@ -732,13 +779,20 @@ msgid ""
 "panel shows a button to start configuring the account. This configuration is"
 " the same as in the `Upload file configuration <upload-file-configuration>`_"
 " (above)."
-msgstr "Nachdem Sie die Google Drive *Zeile in Tabelle hinzufügen*-Aktion erstellt haben, wird Ihnen - analog zu den anderen Google Drive-Aktionen - eine Schaltfläche angezeigt, über die Sie ein Google Drive Konto hinterlegen können."
+msgstr ""
+"Nachdem Sie die Google Drive *Zeile in Tabelle hinzufügen*-Aktion erstellt "
+"haben, wird Ihnen - analog zu den anderen Google Drive-Aktionen - eine "
+"Schaltfläche angezeigt, über die Sie ein Google Drive Konto hinterlegen "
+"können."
 
 #: ../../action-types/google.rst:128 ../../action-types/google.rst:128
 msgid ""
 "When you have authenticated with a Google account and granted permission, "
 "you are ready to configure the *Add row to sheet* action."
-msgstr "Sobald Sie sich mit Ihrem Google-Account authentifiziert und den Zugriff bestätigt haben, können Sie die *Zeile in Tabelle hinzufügen*-Aktion konfigurieren."
+msgstr ""
+"Sobald Sie sich mit Ihrem Google-Account authentifiziert und den Zugriff "
+"bestätigt haben, können Sie die *Zeile in Tabelle hinzufügen*-Aktion "
+"konfigurieren."
 
 #: ../../action-types/google.rst:132 ../../action-types/google.rst:132
 msgid "Add row to sheet action"
@@ -749,25 +803,211 @@ msgid ""
 "Once you have configured your Google Drive account, the *Add row to sheet* "
 "action configuration panel displays the account, the spreadsheet, the "
 "worksheet within the spreadsheet, and the worksheet columns."
-msgstr "Sobald Sie Ihren Google Drive-Account hinterlegt haben, zeigt das *Zeile in Tabelle hinzufügen*-Aktion-Konfigurationspanel den Account, die Tabellenmappe, das Datenblatt der Mappe und die Tabellenspalten an."
+msgstr ""
+"Sobald Sie Ihren Google Drive-Account hinterlegt haben, zeigt das *Zeile in "
+"Tabelle hinzufügen*-Aktion-Konfigurationspanel den Account, die "
+"Tabellenmappe, das Datenblatt der Mappe und die Tabellenspalten an."
 
 #: ../../action-types/google.rst:140 ../../action-types/google.rst:140
 msgid "Google Drive *Add row to sheet* authenticated configuration"
-msgstr "Google Drive *Zeile in Tabelle hinzufügen*: Konfigurationseinstellung nach erfolgreicher Authentifizierung"
+msgstr ""
+"Google Drive *Zeile in Tabelle hinzufügen*: Konfigurationseinstellung nach "
+"erfolgreicher Authentifizierung"
 
 #: ../../action-types/google.rst:142 ../../action-types/google.rst:142
 msgid ""
 "Each column name, such as *Customer name* in this example, comes from a "
 "column heading in the spreadsheet. For each column, select one of the "
 ":ref:`variables <variables>` from the list."
-msgstr "Die Spaltennamen, wie im Beispiel *Kundenname*, werden auf Basis der Tabellenspalten generiert. Wählen Sie für jede Spalte eine :ref:`Variable <variables>` aus der Liste aus."
+msgstr ""
+"Die Spaltennamen, wie im Beispiel *Kundenname*, werden auf Basis der "
+"Tabellenspalten generiert. Wählen Sie für jede Spalte eine :ref:`Variable "
+"<variables>` aus der Liste aus."
 
 #: ../../action-types/javascript.rst:4 ../../action-types/javascript.rst:4
 msgid ""
 "The JavaScript action allows developers to add JavaScript to process "
 "execution. After creating or selecting a JavaScript action, the "
 "configuration panel looks like this:"
-msgstr "Die JavaScript-Aktion ermöglicht es Entwicklern die Prozessausführung um JavaScript zu ergänzen. Nachdem Sie eine JavaScript-Aktion erstellt oder ausgewählt haben, sehen Sie das folgende Konfigurationspanel:"
+msgstr ""
+"Die JavaScript-Aktion ermöglicht es Entwicklern die Prozessausführung um "
+"JavaScript zu ergänzen. Nachdem Sie eine JavaScript-Aktion erstellt oder "
+"ausgewählt haben, sehen Sie das folgende Konfigurationspanel:"
+
+#: ../../action-types/user-task.rst:10 ../../action-types/user-task.rst:10
+msgid ""
+"A user task means a user has to perform a task. In the :ref:`case <cases>`, "
+"a task will be created. In the configuration form, the following optional "
+"details can be specified."
+msgstr ""
+"Mit einem User Task drücken Sie aus, dass eine Person in Ihrer Organisation "
+"eine gewisse Aufgabe erledigen muss. In einem :ref:`Fall <cases>` wird "
+"hierzu eine Aufgabe angelegt. Für eine Aufgabe stehen die folgenden "
+"Konfigurationsmöglichkeiten zur Verfügung: "
+
+#: ../../action-types/user-task.rst:14 ../../action-types/user-task.rst:14
+msgid ""
+"*Form* - a task can be given a form. To complete the task, the form has to "
+"be submitted."
+msgstr ""
+"*Formular* - Eine Aufgabe kann ein Formular beinhalten, mit dem Daten "
+"aufgenommen werden können."
+
+#: ../../action-types/user-task.rst:29 ../../action-types/user-task.rst:29
+msgid ""
+"You an also specify a role for the task’s assignment, like a BPMN swim lane,"
+" so that related tasks are automatically assigned to the same person."
+msgstr ""
+"Sie können auch :ref:`Rollen <process-roles>` für die Zuweisung nutzen. "
+"Diese ähneln den Lanes aus BPMN. So können Sie mehrere Aufgaben automatisch "
+"der gleichen Person zuweisen. "
+
+#: ../../action-types/user-task.rst:29 ../../action-types/user-task.rst:29
+msgid ""
+"You an also specify a role for the task’s assignment, like a BPMN swim lane,"
+" so that related tasks are automatically assigned to the same person."
+msgstr ""
+"Sie können auch :ref:`Rollen <process-roles>` für die Zuweisung nutzen. "
+"Diese ähneln den Lanes aus BPMN. So können Sie mehrere Aufgaben automatisch "
+"der gleichen Person zuweisen. "
+
+#: ../../action-types/user-task.rst:20 ../../action-types/user-task.rst:20
+msgid "General"
+msgstr "Allgemein"
+
+#: ../../action-types/user-task.rst:22 ../../action-types/user-task.rst:22
+msgid ""
+"Use the *General* tab to specify the task’s default assignee or candidates. "
+"Candidates can be individual users or organisation groups."
+msgstr ""
+"Unter *Allgemein* können Sie Verantwortliche für Aufgaben festlegen oder "
+"eine Liste von Kandidaten definieren. Kandidaten können hierbei mehrere "
+"Nutzer oder Gruppen von Nutzern sein."
+
+#: ../../action-types/user-task.rst:13 ../../action-types/user-task.rst:13
+msgid ""
+"*General* - a task can be assigned to a user or a :ref:`process role "
+"<roles>`."
+msgstr ""
+"*Allgemein* - ein Task kann einem Nutzer oder einer :ref:`Prozessrolle "
+"<roles>` zugewiesen werden."
+
+#~ msgid ""
+#~ "*Assignment* - a task can be assigned to a user or a :ref:`process role "
+#~ "<roles>`."
+#~ msgstr ""
+#~ "*Zuweisung* - Eine Aufgabe kann entweder direkt einem Nutzer zugewiesen "
+#~ "werden oder einer :ref:`Rolle <roles>`."
+
+#~ msgid "Assignment"
+#~ msgstr "Zuweisung"
+
+#~ msgid ""
+#~ "Use the assignment tab to specify the task’s default assignee or candidates."
+#~ " Candidates can be individual users or organisation groups."
+#~ msgstr ""
+#~ "Unter Zuweisung können Sie Verantwortliche für Aufgaben festlegen oder eine "
+#~ "Liste von Kandidaten definieren. Kandidaten können hierbei mehrere Nutzer "
+#~ "oder Gruppen von Nutzern sein."
+
+#~ msgid ""
+#~ "*Assignment* - a task can be assigned to a user or a :ref:`process role "
+#~ "<roles>`."
+#~ msgstr ""
+#~ "*Zuweisung* - Eine Aufgabe kann entweder direkt einem Nutzer zugewiesen "
+#~ "werden oder einer :ref:`Rolle <roles>`."
+
+#~ msgid "Assignment"
+#~ msgstr "Zuweisung"
+
+#~ msgid ""
+#~ "Use the assignment tab to specify the task’s default assignee or candidates."
+#~ " Candidates can be individual users or organisation groups."
+#~ msgstr ""
+#~ "Unter Zuweisung können Sie Verantwortliche für Aufgaben festlegen oder eine "
+#~ "Liste von Kandidaten definieren. Kandidaten können hierbei mehrere Nutzer "
+#~ "oder Gruppen von Nutzern sein."
+
+#~ msgid "Assignment"
+#~ msgstr "Zuweisung"
+
+#~ msgid ""
+#~ "The send email action sends an email to the specified user. In the "
+#~ "configuration you can specify"
+#~ msgstr ""
+#~ "Mit der Aktionen `Email senden` können Sie eine Email an eine Reihe von "
+#~ "Nutzern senden. Die Konfiguration umfasst des Weiteren:"
+
+#~ msgid ""
+#~ "The subject of the email. To use process data in the subject, start by "
+#~ "typing a `#`. If the list of variable fields is too long, you can just keep "
+#~ "typing after the `#` to narrow the list. In combination, use the up and down"
+#~ " arrows to select the right field. Hit enter to select the field. To remove "
+#~ "variable fields from the subject, just delete it like it's normal text."
+#~ msgstr ""
+#~ "Das ist der Betreff der Email. Im Betreff können Sie auch Daten aus dem "
+#~ "Prozess verwenden. Tippen Sie dazu ein `#` um eine Liste von Variablen "
+#~ "anzuzeigen. Ist diese Liste zu lang, können Sie sie weiter einschränken "
+#~ "indem Sie einfach weiter den Namen der Variable tippen, die Sie einfügen "
+#~ "möchten. Nutzen Sie auch die `Pfeil hoch` und `Pfeil runter` tasten, um "
+#~ "einen Eintrag auszuwählen. Um eine Variable zu löschen, löschen Sie den "
+#~ "Eintrag einfach als wäre er normaler Text."
+
+#~ msgid ""
+#~ "Just like in the subject, you can combine template text with variable fields"
+#~ " to Start by typing a `#`. See *Subject* above in this list for more details"
+#~ " instructions on using the `#`."
+#~ msgstr ""
+#~ "Auch hier können Sie wie im *Betreff* auf Daten aus Ihrem Prozess zugreifen."
+#~ " Tippen Sie einfach `#` und wählen Sie die entsprechenden Variablen aus."
+
+#~ msgid ""
+#~ "To add attachments, click the attachments field. If there are files in the "
+#~ "workflow variables, they will be shown. Select one of the file variable "
+#~ "fields to add these as attachments to the mail."
+#~ msgstr ""
+#~ "Um eine Datei an die Email anzuhängen klicken Sie einfach in das Anhänge "
+#~ "Feld. Die sich öffnende Liste zeigt alle zur Zeit verfügbaren Dateien im "
+#~ "Prozess."
+
+#~ msgid ""
+#~ "A user task means a user has to perform a task. In the :ref:`case <cases>`, "
+#~ "a task will be created. Use the configuration form to specify the following "
+#~ "optional details."
+#~ msgstr ""
+#~ "Mit einem User Task wird von einer Person manuell ausgeführt. In einem "
+#~ ":ref:`Fall <cases>` wird hierzu eine Aufgabe angelegt. Für eine Aufgabe "
+#~ "stehen die folgenden Konfigurationsmöglichkeiten zur Verfügung:"
+
+#~ msgid "*General* - assign a user or a :ref:`process role <roles>`."
+#~ msgstr ""
+#~ "*Allgemein* - weisen Sie einen Nutzer oder eine :ref:`Prozessrolle <roles>` "
+#~ "zu."
+
+#~ msgid ""
+#~ "*Form* - add a form, which means submitting the form to complete the task."
+#~ msgstr ""
+#~ "*Formular* - hinterlegen Sie ein Formular, über das bei der Taskausführung "
+#~ "Daten aufgenommen werden."
+
+#~ msgid ""
+#~ "You can also specify a role for the task’s assignment, like a BPMN swim "
+#~ "lane, so that related tasks are automatically assigned to the same person. "
+#~ "For example, a meeting’s *Chairman* role applies to a single meeting’s "
+#~ "tasks, and isn’t anyone’s job title or a position defined within an "
+#~ "organisation. Like this *Chairman* role, an Effektif process defines roles "
+#~ "that you assign for each new case, and which do not usually correspond to "
+#~ "organisation job titles or groups."
+#~ msgstr ""
+#~ "Sie können zudem Rollen für die Zuweisung eines Tasks definieren - analog zu"
+#~ " einer BPMN Swimlane. Hierdurch werden pro Fall alle Tasks einer Rolle der "
+#~ "selben Person zugewiesen. Die Rolle *Meetingsleitung* ist zum Beispiel eine "
+#~ "Rolle, die für die Dauer (den Fall) eines Meetings - und dessen Planung - "
+#~ "gültig ist, ohne dass sie der Position eines Mitarbeiters in der "
+#~ "Gesamtorganisation entspricht. Entsprechend wird in Effektif die Rolle der "
+#~ "*Meetingsleitung* innerhalb eines Prozesses verwendet: Sie wird für jeden "
+#~ "Fall einer neuen Person zugewiesen und bleibt für die Dauer des Falls bei "
+#~ "dieser Person."
 
 #~ msgid ""
 #~ "All actions are displayed as lines in the 'Simple action list' and as "
@@ -843,6 +1083,48 @@ msgstr "Die JavaScript-Aktion ermöglicht es Entwicklern die Prozessausführung 
 #~ "Um eine Datei an die Email anzuhängen klicken Sie einfach in das Anhänge "
 #~ "Feld. Die sich öffnende Liste zeigt alle zur Zeit verfügbaren Dateien im "
 #~ "Prozess."
+
+#~ msgid ""
+#~ "Use the *General* tab to specify the task’s default assignee or candidates. "
+#~ "Candidates can be individual users or organisation groups. If you specify a "
+#~ "default assignee, Effektif will automatically assign the task when creating "
+#~ "it. You can also specify multiple candidates, individually or using "
+#~ "organisation groups. Effektif sends :ref:`task created <task-created>` "
+#~ "notifications in both cases."
+#~ msgstr ""
+#~ "Über das *Allgemein*-Tab können Sie die standardmäßig verwantwortlicher "
+#~ "Person oder Kandidaten für einen Task festlegen. Falls Sie einen "
+#~ "standardmäßig Verantwortlichen festlegen, wird Effektif einen Task bei der "
+#~ "Erstellung automatisch dieser Person zuweisen. Sie können zudem mehrere "
+#~ "Kandidaten für einen Task definieren, sowohl als einzelne Nutzer, als auch "
+#~ "über Nutzergruppen. Sobald ein Task erstellt wurde, verschickt Effektif "
+#~ ":ref:`Aufgabe erstellt<task-created>`-Benachrichtigungen an die "
+#~ "entsprechenden Nutzer."
+
+#~ msgid ""
+#~ "Use the assignment tab to specify the task’s assignee or candidates. If you "
+#~ "specify a default assignee, Effektif will automatically assign the task when"
+#~ " creating it. You can also specify multiple candidates, individually or "
+#~ "using organisation groups. Effektif sends :ref:`task created <task-created>`"
+#~ " notifications in both cases."
+#~ msgstr ""
+#~ "Über das *Zweisung*-Tab können Sie die standardmäßig verwantwortlicher "
+#~ "Person oder Kandidaten für einen Task festlegen. Falls Sie einen "
+#~ "standardmäßig Verantwortlichen festlegen, wird Effektif einen Task bei der "
+#~ "Erstellung automatisch dieser Person zuweisen. Sie können zudem mehrere "
+#~ "Kandidaten für einen Task definieren, sowohl als einzelne Nutzer, als auch "
+#~ "über Nutzergruppen. Sobald ein Task erstellt wurde, verschickt Effektif "
+#~ ":ref:`Aufgabe erstellt<task-created>`-Benachrichtigungen an die "
+#~ "entsprechenden Nutzer."
+
+#~ msgid ""
+#~ "The JavaScript action allows developers to run a JavaScript to the process "
+#~ "execution. After creating or selecting a JavaScript action, the "
+#~ "configuration panel looks like this:"
+#~ msgstr ""
+#~ "Unter Zuweisung können Sie Verantwortliche für Aufgaben festlegen oder eine "
+#~ "Liste von Kandidaten definieren. Kandidaten können hierbei mehrere Nutzer "
+#~ "oder Gruppen von Nutzern sein."
 
 #~ msgid ""
 #~ "A user task means a user has to perform a task. In the :ref:`case <cases>`, "

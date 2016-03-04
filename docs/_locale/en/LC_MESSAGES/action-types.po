@@ -27,12 +27,6 @@ msgstr ""
 msgid "To:"
 msgstr ""
 
-#: ../../action-types/send-email.rst:12 ../../action-types/send-email.rst:12
-msgid ""
-"The people to which the email is sent. You can type a plain email address, "
-"select a variable, a variable field or a user in the organization."
-msgstr ""
-
 #: ../../action-types/send-email.rst:20 ../../action-types/send-email.rst:20
 msgid "Subject:"
 msgstr ""
@@ -399,6 +393,10 @@ msgstr ""
 msgid "Configuring user task reminders in the process editor"
 msgstr ""
 
+#: ../../action-types/user-task.rst:62 ../../action-types/user-task.rst:62
+msgid "Configuring user task reminders in the process editor"
+msgstr ""
+
 #: ../../action-types/user-task.rst:64 ../../action-types/user-task.rst:64
 msgid ""
 "Effektif sends these notifications to the task’s assignee if the task is "
@@ -416,12 +414,6 @@ msgid ""
 "A user task means a user has to perform a task. In the :ref:`case <cases>`, "
 "a task will be created. In the configuration form, the following optional "
 "details can be specified."
-msgstr ""
-
-#: ../../action-types/user-task.rst:13 ../../action-types/user-task.rst:13
-msgid ""
-"*Assignment* - a task can be assigned to a user or a :ref:`process role "
-"<roles>`."
 msgstr ""
 
 #: ../../action-types/user-task.rst:15 ../../action-types/user-task.rst:15
@@ -449,16 +441,6 @@ msgstr ""
 
 #: ../../action-types/user-task.rst:17 ../../action-types/user-task.rst:17
 msgid "*Access Rights* - task permissions for users and groups."
-msgstr ""
-
-#: ../../action-types/user-task.rst:20 ../../action-types/user-task.rst:20
-msgid "Assignment"
-msgstr ""
-
-#: ../../action-types/user-task.rst:22 ../../action-types/user-task.rst:22
-msgid ""
-"Use the assignment tab to specify the task’s default assignee or candidates."
-" Candidates can be individual users or organisation groups."
 msgstr ""
 
 #: ../../action-types/user-task.rst:29 ../../action-types/user-task.rst:29
@@ -625,6 +607,130 @@ msgid ""
 "body by formatting text or including hyperlinks, headings or lists."
 msgstr ""
 
+#: ../../action-types/user-task.rst:29 ../../action-types/user-task.rst:29
+msgid ""
+"You an also specify a role for the task’s assignment, like a BPMN swim lane,"
+" so that related tasks are automatically assigned to the same person."
+msgstr ""
+
+#: ../../action-types/user-task.rst:14 ../../action-types/user-task.rst:14
+msgid ""
+"*Form* - a task can be given a form. To complete the task, the form has to "
+"be submitted."
+msgstr ""
+
+#: ../../action-types/user-task.rst:10 ../../action-types/user-task.rst:10
+msgid ""
+"A user task means a user has to perform a task. In the :ref:`case <cases>`, "
+"a task will be created. In the configuration form, the following optional "
+"details can be specified."
+msgstr ""
+
+#: ../../action-types/send-email.rst:12 ../../action-types/send-email.rst:12
+msgid ""
+"The people to which the email is sent. You can type a plain email address, "
+"select a variable, a variable field or a user in the organization."
+msgstr ""
+
+#: ../../action-types/user-task.rst:14 ../../action-types/user-task.rst:14
+msgid ""
+"*Form* - a task can be given a form. To complete the task, the form has to "
+"be submitted."
+msgstr ""
+
+#: ../../action-types/user-task.rst:20 ../../action-types/user-task.rst:20
+msgid "General"
+msgstr ""
+
+#: ../../action-types/user-task.rst:13 ../../action-types/user-task.rst:13
+msgid ""
+"*General* - a task can be assigned to a user or a :ref:`process role "
+"<roles>`."
+msgstr ""
+
+#: ../../action-types/user-task.rst:22 ../../action-types/user-task.rst:22
+msgid ""
+"Use the *General* tab to specify the task’s default assignee or candidates. "
+"Candidates can be individual users or organisation groups."
+msgstr ""
+
+#~ msgid ""
+#~ "*Assignment* - a task can be assigned to a user or a :ref:`process role "
+#~ "<roles>`."
+#~ msgstr ""
+
+#~ msgid "Assignment"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use the assignment tab to specify the task’s default assignee or candidates."
+#~ " Candidates can be individual users or organisation groups."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Assignment* - a task can be assigned to a user or a :ref:`process role "
+#~ "<roles>`."
+#~ msgstr ""
+
+#~ msgid "Assignment"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use the assignment tab to specify the task’s default assignee or candidates."
+#~ " Candidates can be individual users or organisation groups."
+#~ msgstr ""
+
+#~ msgid "Assignment"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The send email action sends an email to the specified user. In the "
+#~ "configuration you can specify"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The subject of the email. To use process data in the subject, start by "
+#~ "typing a `#`. If the list of variable fields is too long, you can just keep "
+#~ "typing after the `#` to narrow the list. In combination, use the up and down"
+#~ " arrows to select the right field. Hit enter to select the field. To remove "
+#~ "variable fields from the subject, just delete it like it's normal text."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Just like in the subject, you can combine template text with variable fields"
+#~ " to Start by typing a `#`. See *Subject* above in this list for more details"
+#~ " instructions on using the `#`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To add attachments, click the attachments field. If there are files in the "
+#~ "workflow variables, they will be shown. Select one of the file variable "
+#~ "fields to add these as attachments to the mail."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A user task means a user has to perform a task. In the :ref:`case <cases>`, "
+#~ "a task will be created. Use the configuration form to specify the following "
+#~ "optional details."
+#~ msgstr ""
+
+#~ msgid "*General* - assign a user or a :ref:`process role <roles>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Form* - add a form, which means submitting the form to complete the task."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can also specify a role for the task’s assignment, like a BPMN swim "
+#~ "lane, so that related tasks are automatically assigned to the same person. "
+#~ "For example, a meeting’s *Chairman* role applies to a single meeting’s "
+#~ "tasks, and isn’t anyone’s job title or a position defined within an "
+#~ "organisation. Like this *Chairman* role, an Effektif process defines roles "
+#~ "that you assign for each new case, and which do not usually correspond to "
+#~ "organisation job titles or groups."
+#~ msgstr ""
+
 #~ msgid ""
 #~ "You can use variables in the main email body by typing a `#`, just like in "
 #~ "the *Subject*. You can use `Markdown "
@@ -697,7 +803,26 @@ msgstr ""
 #~ msgid "A Google Drive print file task in the process editor"
 #~ msgstr ""
 
-#~ msgid "Google Drive Add row to sheet"
+#~ msgid ""
+#~ "Use the *General* tab to specify the task’s default assignee or candidates. "
+#~ "Candidates can be individual users or organisation groups. If you specify a "
+#~ "default assignee, Effektif will automatically assign the task when creating "
+#~ "it. You can also specify multiple candidates, individually or using "
+#~ "organisation groups. Effektif sends :ref:`task created <task-created>` "
+#~ "notifications in both cases."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use the assignment tab to specify the task’s assignee or candidates. If you "
+#~ "specify a default assignee, Effektif will automatically assign the task when"
+#~ " creating it. You can also specify multiple candidates, individually or "
+#~ "using organisation groups. Effektif sends :ref:`task created <task-created>`"
+#~ " notifications in both cases."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use the **General** tab to specify the task’s default assignee or "
+#~ "candidates. Candidates can be individual users or organisation groups."
 #~ msgstr ""
 
 #~ msgid ""
