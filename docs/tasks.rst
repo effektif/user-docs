@@ -64,6 +64,7 @@ that you can use to manage a long list of tasks.
   such as tasks that are overdue.
 - *Completed* filter - shows tasks that are complete,
   which are normally hidden.
+- *Assignee filter* - shows tasks that are assigned to a specific person, or tasks that have a specific candidate.
 
 
 Creating case tasks
