@@ -626,15 +626,11 @@ msgstr ""
 "von Ihnen konfigurierte Person zuweisen. Der neue Verantwortliche für die "
 "Aufgabe erhält auch eine Benachrichtigung von Effektif."
 
-#: ../../action-types/user-task.rst:78 ../../action-types/user-task.rst:78
+#: ../../action-types/user-task.rst:81 ../../action-types/user-task.rst:81
 msgid "Access Rights"
 msgstr "Zugriffsrechte"
 
-#: ../../action-types/user-task.rst:78 ../../action-types/user-task.rst:78
-msgid "Access Rights"
-msgstr "Zugriffsrechte"
-
-#: ../../action-types/user-task.rst:80 ../../action-types/user-task.rst:80
+#: ../../action-types/user-task.rst:83 ../../action-types/user-task.rst:83
 msgid ""
 "Use the `Access Rights` tab to set permissions for viewing, assigning and "
 "completing the task. See :ref:`Restricting access to user tasks <user-task-"
@@ -892,6 +888,13 @@ msgstr ""
 "*Allgemein* - ein Task kann einem Nutzer oder einer :ref:`Prozessrolle "
 "<roles>` zugewiesen werden."
 
+#: ../../action-types/user-task.rst:77 ../../action-types/user-task.rst:77
+msgid ""
+"Sometimes, you don’t know who will take over a task that has passed its "
+"escalation deadline, so you choose one person in the process model. Instead,"
+" you can escalate task assignment to multiple people, or select a group."
+msgstr "Manchmal wissen Sie nicht, wer eine Aufgabe, deren Eskalations-Deadline überschritten ist, übernehmen soll. In solchen Fällen können Sie die Aufgabenzuweisung an mehrere Personen oder eine Gruppe eskalieren."
+
 #~ msgid ""
 #~ "*Assignment* - a task can be assigned to a user or a :ref:`process role "
 #~ "<roles>`."
@@ -1059,9 +1062,9 @@ msgstr ""
 #~ "execution. After creating or selecting a JavaScript action, the "
 #~ "configuration panel looks like this:"
 #~ msgstr ""
-#~ "An einer JavaScript-Aktion kann ein Entwickler ein Skript "
-#~ "hinterlegen, das während der Prozess ausgeführt wird. Nachdem Sie solch eine "
-#~ "Aktion angelegt haben, sehen Sie den folgenden Konfigurationsdialog:"
+#~ "An einer JavaScript-Aktion kann ein Entwickler ein Skript hinterlegen, das "
+#~ "während der Prozess ausgeführt wird. Nachdem Sie solch eine Aktion angelegt "
+#~ "haben, sehen Sie den folgenden Konfigurationsdialog:"
 
 #~ msgid "Google Drive Upload file"
 #~ msgstr "Google Drive Dateiupload"

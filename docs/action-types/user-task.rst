@@ -74,6 +74,9 @@ If you configure an `Escalation` period and an assignee,
 then Effektif will automatically reassign the task when the deadline expires,
 and send a notification to the new assignee.
 
+Sometimes, you don’t know who will take over a task that has passed its escalation deadline, so you choose one person in the process model.
+Instead, you can escalate task assignment to multiple people, or select a group.
+
 Access Rights
 ^^^^^^^^^^^^^
 

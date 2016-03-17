@@ -453,11 +453,11 @@ msgstr ""
 msgid "Form"
 msgstr ""
 
-#: ../../action-types/user-task.rst:78 ../../action-types/user-task.rst:78
+#: ../../action-types/user-task.rst:81 ../../action-types/user-task.rst:81
 msgid "Access Rights"
 msgstr ""
 
-#: ../../action-types/user-task.rst:80 ../../action-types/user-task.rst:80
+#: ../../action-types/user-task.rst:83 ../../action-types/user-task.rst:83
 msgid ""
 "Use the `Access Rights` tab to set permissions for viewing, assigning and "
 "completing the task. See :ref:`Restricting access to user tasks <user-task-"
@@ -652,6 +652,13 @@ msgstr ""
 msgid ""
 "Use the *General* tab to specify the task’s default assignee or candidates. "
 "Candidates can be individual users or organisation groups."
+msgstr ""
+
+#: ../../action-types/user-task.rst:77 ../../action-types/user-task.rst:77
+msgid ""
+"Sometimes, you don’t know who will take over a task that has passed its "
+"escalation deadline, so you choose one person in the process model. Instead,"
+" you can escalate task assignment to multiple people, or select a group."
 msgstr ""
 
 #~ msgid ""

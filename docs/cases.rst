@@ -131,6 +131,10 @@ Effektif sends them an email notification to bring them into the discussion.
 
    Mentioning someone in a comment
 
+You can also mention two specific groups, corresponding to people who are working on the case, or perhaps should be.
+Enter ``@all`` to mention all participants in the case.
+Enter ``@open`` to mention the assignees of open tasks within the case.
+
 You can also use `Markdown`_ formatting in comments,
 for things like text styles, headings and lists.
 
@@ -179,3 +183,12 @@ To do this you can manually close a case.
 
 To close a case, select the ellipsis menu at the top-right of the case view,
 select *Close this case*, and click again to confirm.
+
+
+Deleting a case
+---------------
+
+You do not normally delete cases in Effektif: you close cases that you have finished working on.
+However, sometimes it is appropriate to delete cases, such as the test cases that you create while developing the initial versions of a process model.
+
+To delete a case, open the case and use its right-hand actions menu to select `Delete case`.

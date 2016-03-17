@@ -149,22 +149,22 @@ msgid ""
 "*Cases without a process*, then click *Start new case*."
 msgstr ""
 
-#: ../../cases.rst:170
+#: ../../cases.rst:174
 msgid "Closing a case manually"
 msgstr ""
 
-#: ../../cases.rst:172
+#: ../../cases.rst:176
 msgid ""
 "The normal way to close a case is to complete all of its tasks. However, "
 "sometimes you want to abandon a case and stop working on a it. To do this "
 "you can manually close a case."
 msgstr ""
 
-#: ../../cases.rst:178
+#: ../../cases.rst:182
 msgid "Closing a case"
 msgstr ""
 
-#: ../../cases.rst:180
+#: ../../cases.rst:184
 msgid ""
 "To close a case, select the ellipsis menu at the top-right of the case view,"
 " select *Close this case*, and click again to confirm."
@@ -205,11 +205,11 @@ msgstr ""
 msgid "Mentioning someone in a comment"
 msgstr ""
 
-#: ../../cases.rst:141
+#: ../../cases.rst:145
 msgid "Using Markdown formatting in a case comment"
 msgstr ""
 
-#: ../../cases.rst:147
+#: ../../cases.rst:151
 msgid "A hyperlink in a case comment"
 msgstr ""
 
@@ -217,7 +217,7 @@ msgstr ""
 msgid "Hover over the user avatar to see the user’s full name:"
 msgstr ""
 
-#: ../../cases.rst:134
+#: ../../cases.rst:138
 msgid ""
 "You can also use `Markdown`_ formatting in comments, for things like text "
 "styles, headings and lists."
@@ -227,33 +227,33 @@ msgstr ""
 msgid "Hover over the relative time to see the comment’s full time stamp:"
 msgstr ""
 
-#: ../../cases.rst:143
+#: ../../cases.rst:147
 msgid ""
 "You may find Markdown most useful for adding links to external information "
 "that relates to the case."
 msgstr ""
 
-#: ../../cases.rst:151
+#: ../../cases.rst:155
 msgid "Attaching documents to a case"
 msgstr ""
 
-#: ../../cases.rst:161
+#: ../../cases.rst:165
 msgid "A document attached to a case"
 msgstr ""
 
-#: ../../cases.rst:163
+#: ../../cases.rst:167
 msgid ""
 "The case’s event stream shows the document, with its file name and size. "
 "Click the icon on the right to open the document."
 msgstr ""
 
-#: ../../cases.rst:157
+#: ../../cases.rst:161
 msgid ""
 "To attach a document to a case, select the the `Upload a document` option "
 "next to where you add comments."
 msgstr ""
 
-#: ../../cases.rst:153
+#: ../../cases.rst:157
 msgid ""
 "As well as commenting on a case, to share information with the case’s "
 "participants, you can attach documents. For example, cases in a job vacancy "
@@ -261,11 +261,37 @@ msgid ""
 " a case’s documents, which makes them more useful than email attachments."
 msgstr ""
 
-#: ../../cases.rst:166
+#: ../../cases.rst:170
 msgid ""
 "If cases regularly require the same document as part of the process, you can"
 " make this clearer to people who work on cases by adding a file upload form "
 "field to a :ref:`user task form <user-task-form>`."
+msgstr ""
+
+#: ../../cases.rst:134
+msgid ""
+"You can also mention two specific groups, corresponding to people who are "
+"working on the case, or perhaps should be. Enter ``@all`` to mention all "
+"participants in the case. Enter ``@open`` to mention the assignees of open "
+"tasks within the case."
+msgstr ""
+
+#: ../../cases.rst:189
+msgid "Deleting a case"
+msgstr ""
+
+#: ../../cases.rst:191
+msgid ""
+"You do not normally delete cases in Effektif: you close cases that you have "
+"finished working on. However, sometimes it is appropriate to delete cases, "
+"such as the test cases that you create while developing the initial versions"
+" of a process model."
+msgstr ""
+
+#: ../../cases.rst:194
+msgid ""
+"To delete a case, open the case and use its right-hand actions menu to "
+"select `Delete case`."
 msgstr ""
 
 #~ msgid ""
