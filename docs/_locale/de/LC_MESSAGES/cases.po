@@ -199,11 +199,11 @@ msgstr ""
 "Unter *Fälle von* wählen Sie *Fälle ohne Prozess* und klicken danach direkt "
 "neben dem Menü auf *Neuen Fall starten*."
 
-#: ../../cases.rst:170
+#: ../../cases.rst:174
 msgid "Closing a case manually"
 msgstr "Fälle manuell schließen"
 
-#: ../../cases.rst:172
+#: ../../cases.rst:176
 msgid ""
 "The normal way to close a case is to complete all of its tasks. However, "
 "sometimes you want to abandon a case and stop working on a it. To do this "
@@ -214,11 +214,11 @@ msgstr ""
 "möchten, da nicht weiter an ihm gearbeitet werden soll. In diesem Fall "
 "können Sie wie folgt vorgehen."
 
-#: ../../cases.rst:178
+#: ../../cases.rst:182
 msgid "Closing a case"
 msgstr "Einen Fall schließen"
 
-#: ../../cases.rst:180
+#: ../../cases.rst:184
 msgid ""
 "To close a case, select the ellipsis menu at the top-right of the case view,"
 " select *Close this case*, and click again to confirm."
@@ -279,15 +279,15 @@ msgid ""
 msgstr ""
 "In bestimmten Fällen wollen Sie einen Kommentar an eine spezifische Person "
 "adressieren. Dies erreichen Sie, indem im Textfeld ein ``@`` eingeben und "
-"den gewünschten Namen aus der anschließend angezeigten Liste auswählen. Wenn Sie"
-" jemanden in einem Kommentar erwähnen, sendet Effektif dieser Person eine "
-"Emailbenachrichtigung."
+"den gewünschten Namen aus der anschließend angezeigten Liste auswählen. Wenn"
+" Sie jemanden in einem Kommentar erwähnen, sendet Effektif dieser Person "
+"eine Emailbenachrichtigung."
 
 #: ../../cases.rst:132
 msgid "Mentioning someone in a comment"
 msgstr "Jemanden in einem Kommentar erwähnen"
 
-#: ../../cases.rst:134
+#: ../../cases.rst:138
 msgid ""
 "You can also use `Markdown`_ formatting in comments, for things like text "
 "styles, headings and lists."
@@ -295,11 +295,11 @@ msgstr ""
 "Sie können zudem `Markdown`_ in den Kommentaren verwenden, um zum Beispiel "
 "Überschriften und Listen einzufügen."
 
-#: ../../cases.rst:141
+#: ../../cases.rst:145
 msgid "Using Markdown formatting in a case comment"
 msgstr "Markdown zur Formatierung von Kommentaren verwenden"
 
-#: ../../cases.rst:143
+#: ../../cases.rst:147
 msgid ""
 "You may find Markdown most useful for adding links to external information "
 "that relates to the case."
@@ -307,15 +307,15 @@ msgstr ""
 "Markdown ist besonders nützlich um Links zu externen Informationsquellen zu "
 "erstellen."
 
-#: ../../cases.rst:147
+#: ../../cases.rst:151
 msgid "A hyperlink in a case comment"
 msgstr "Einen Link in einem Kommentar verwenden"
 
-#: ../../cases.rst:151
+#: ../../cases.rst:155
 msgid "Attaching documents to a case"
 msgstr "Ein Dokument an einen Fall anhängen."
 
-#: ../../cases.rst:153
+#: ../../cases.rst:157
 msgid ""
 "As well as commenting on a case, to share information with the case’s "
 "participants, you can attach documents. For example, cases in a job vacancy "
@@ -328,7 +328,7 @@ msgstr ""
 "Fall Zugreifen kann, kann direkt dort den Lebenslauf herunterladen und "
 "einsehen. Dies verhindert umständliches Suchen im Emailarchiv."
 
-#: ../../cases.rst:157
+#: ../../cases.rst:161
 msgid ""
 "To attach a document to a case, select the the `Upload a document` option "
 "next to where you add comments."
@@ -336,11 +336,11 @@ msgstr ""
 "Um ein Dokument an einen Fall anzuhängen, wählen Sie die `Ein Dokument "
 "hochladen`-Option neben dem Kommentarfeld aus."
 
-#: ../../cases.rst:161
+#: ../../cases.rst:165
 msgid "A document attached to a case"
 msgstr "Ein an einen Fall angehängtes Dokument"
 
-#: ../../cases.rst:166
+#: ../../cases.rst:170
 msgid ""
 "If cases regularly require the same document as part of the process, you can"
 " make this clearer to people who work on cases by adding a file upload form "
@@ -350,8 +350,38 @@ msgstr ""
 "*Lebenslauf*), ist es sinnvoll hierfür explizit ein Dateiuploadformular zum "
 "entsprechenden :ref:`Nutzeraufgabenformular <user-task-form>` hinzuzufügen."
 
-#: ../../cases.rst:163
+#: ../../cases.rst:167
 msgid ""
 "The case’s event stream shows the document, with its file name and size. "
 "Click the icon on the right to open the document."
-msgstr "Der Ereignisfeed des Falls zeigt das Dokument mit Dateinamen und -Größe. Klicken Sie auf das *Link*-Symbol rechts um das Dokument zu öffnen."
+msgstr ""
+"Der Ereignisfeed des Falls zeigt das Dokument mit Dateinamen und -Größe. "
+"Klicken Sie auf das *Link*-Symbol rechts um das Dokument zu öffnen."
+
+#: ../../cases.rst:134
+msgid ""
+"You can also mention two specific groups, corresponding to people who are "
+"working on the case, or perhaps should be. Enter ``@all`` to mention all "
+"participants in the case. Enter ``@open`` to mention the assignees of open "
+"tasks within the case."
+msgstr "Sie können zudem zwei spezifische Gruppen erwähnen, die den Fall bearbeiten (sollen). Geben Sie ``@all`` ein, um alle Personen, die in den Fall involviert sind, zu erwähnen. Geben Sie ``@open`` ein, um alle Personen zu erwähnen, denen offene Aufgaben zugewiesen sind."
+
+#: ../../cases.rst:189
+msgid "Deleting a case"
+msgstr "Einen Fall löschen"
+
+#: ../../cases.rst:191
+msgid ""
+"You do not normally delete cases in Effektif: you close cases that you have "
+"finished working on. However, sometimes it is appropriate to delete cases, "
+"such as the test cases that you create while developing the initial versions"
+" of a process model."
+msgstr "In Effektif sollten Sie typischerweise Fälle nicht löschen: Stattdessen schließen Sie Fälle, nachdem diese abgeschlossen sind. Allerdings ist unter bestimmten Umständen ein Löschen unumgänglich, zum Beispiel wenn Sie Testfälle während der Entwicklung von initialen Prozessversionen erstellt haben."
+
+#: ../../cases.rst:194
+msgid ""
+"To delete a case, open the case and use its right-hand actions menu to "
+"select `Delete case`."
+msgstr "Öffnen Sie zum Löschen den entsprechenden Fall und wählen Sie über das Aktionsmenü auf der rechten Seite `Löschen` aus."
+
+
