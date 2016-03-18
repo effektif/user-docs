@@ -18,95 +18,95 @@ msgid ""
 "handover delays, when a task is assigned to someone."
 msgstr ""
 
-#: ../../notifications.rst:14
+#: ../../notifications.rst:15
 msgid "Task created"
 msgstr ""
 
-#: ../../notifications.rst:16
+#: ../../notifications.rst:17
 msgid ""
 "This notification indicates that a new task has been created within a case."
 msgstr ""
 
-#: ../../notifications.rst:18
+#: ../../notifications.rst:19
 msgid ""
 "Effektif sends this notification to the task’s default assignee, if there is"
 " one. Effektif also sends this notification to each of the task candidates, "
 "or every member of each candidate group, if defined."
 msgstr ""
 
-#: ../../notifications.rst:24
+#: ../../notifications.rst:27
 msgid "Task assigned"
 msgstr ""
 
-#: ../../notifications.rst:26
+#: ../../notifications.rst:29
 msgid ""
 "This notification indicates that someone has assigned an existing task "
 "within a case."
 msgstr ""
 
-#: ../../notifications.rst:28
+#: ../../notifications.rst:31
 msgid "Effektif sends this notification to the task’s new assignee."
 msgstr ""
 
-#: ../../notifications.rst:32
+#: ../../notifications.rst:37
 msgid "Mentioned in a comment"
 msgstr ""
 
-#: ../../notifications.rst:34
+#: ../../notifications.rst:39
 msgid ""
 "This notification indicates that someone has been mentioned in a comment on "
 "a case."
 msgstr ""
 
-#: ../../notifications.rst:36
+#: ../../notifications.rst:41
 msgid ""
 "Effektif sends this notification to each user mentioned in the comment."
 msgstr ""
 
-#: ../../notifications.rst:40
+#: ../../notifications.rst:47
 msgid "Reminder scheduled"
 msgstr ""
 
-#: ../../notifications.rst:42
+#: ../../notifications.rst:49
 msgid "This notification is a scheduled reminder that a task is open."
 msgstr ""
 
-#: ../../notifications.rst:51
+#: ../../notifications.rst:58
 msgid "Task escalated"
 msgstr ""
 
-#: ../../notifications.rst:53
+#: ../../notifications.rst:60
 msgid ""
 "This notification indicates that an open task has reached its escalation "
 "deadline."
 msgstr ""
 
-#: ../../notifications.rst:60
+#: ../../notifications.rst:103
 msgid "Service account access expired"
 msgstr ""
 
-#: ../../notifications.rst:62
+#: ../../notifications.rst:105
 msgid ""
 "This notification indicates that access to an external service, such as "
 ":ref:`Google Drive <google-drive>`, has expired."
 msgstr ""
 
-#: ../../notifications.rst:66
+#: ../../notifications.rst:109
 msgid ""
 "Effektif sends this notification to the Effektif user whose external service"
 " account is used."
 msgstr ""
 
-#: ../../notifications.rst:70
+#: ../../notifications.rst:113
 msgid "License about to expire"
 msgstr ""
 
-#: ../../notifications.rst:72
+#: ../../notifications.rst:115
 msgid ""
 "This notification indicates that an Effektif license is about to expire."
 msgstr ""
 
-#: ../../notifications.rst:74
+#: ../../notifications.rst:117
 msgid ""
 "Effektif sends this notification to the administrators of the the Effektif "
 "organisation whose license will expire."
@@ -116,7 +116,7 @@ msgstr ""
 msgid "Notifications"
 msgstr ""
 
-#: ../../notifications.rst:44
+#: ../../notifications.rst:51
 msgid ""
 "Effektif sends this notification to the task’s assignee if the task is "
 "assigned, or to all of the task’s candidates if the task it not assigned. If"
@@ -124,11 +124,110 @@ msgid ""
 "notification to the process’ owner."
 msgstr ""
 
-#: ../../notifications.rst:55
+#: ../../notifications.rst:23 ../../notifications.rst:43
+msgid ""
+"Effektif does not send this notification if the :ref:`Preferences` section’s"
+" `Receive notifications via email` option is disabled."
+msgstr ""
+
+#: ../../notifications.rst:62
 msgid ""
 "Effektif sends this notification to the task’s new assignee, who the task is"
-" being escalated to."
+" being escalated to, or every member of each candidate group, if defined."
 msgstr ""
+
+#: ../../notifications.rst:66
+msgid ""
+"Effektif always sends this notification, even if `Receive notifications via "
+"email` is disabled."
+msgstr ""
+
+#: ../../notifications.rst:70
+msgid "New user registered"
+msgstr ""
+
+#: ../../notifications.rst:72
+msgid ""
+"Effektif sends a registration notification when someone registers an "
+"Effektif trial account."
+msgstr ""
+
+#: ../../notifications.rst:74
+msgid ""
+"Effektif sends this notification to the email address entered on the "
+"registration form."
+msgstr ""
+
+#: ../../notifications.rst:78
+msgid "Invited to join organisation"
+msgstr ""
+
+#: ../../notifications.rst:80
+msgid ""
+"This notification indicates that an organisation administrator has invited "
+"someone to join an organisation. Effektif also sends a reminder for this "
+"notification when an administrator selects the option to resend the "
+"invitation."
+msgstr ""
+
+#: ../../notifications.rst:83
+msgid ""
+"Effektif sends this notification to the person the administrator invited, "
+"who may or may not already have an Effektif account."
+msgstr ""
+
+#: ../../notifications.rst:87
+msgid "Invitation cancelled"
+msgstr ""
+
+#: ../../notifications.rst:89
+msgid ""
+"This notification informs someone that an organisation administrator has "
+"cancelled an open invitation to join an organisation."
+msgstr ""
+
+#: ../../notifications.rst:91
+msgid ""
+"Effektif sends this notification to the person the administrator invited."
+msgstr ""
+
+#: ../../notifications.rst:95
+msgid "Password reset"
+msgstr ""
+
+#: ../../notifications.rst:97
+msgid ""
+"Effektif sends a password reset notification when someone uses the `Reset "
+"your password` option."
+msgstr ""
+
+#: ../../notifications.rst:99
+msgid ""
+"Effektif sends this notification to the email address entered on the "
+"password reset form."
+msgstr ""
+
+#: ../../notifications.rst:33
+msgid ""
+"Effektif does not send this notification if you disable `Receive "
+"notifications via email` in :ref:`Preferences`."
+msgstr ""
+
+#~ msgid ""
+#~ "Effektif does not send this notification if `Receive notifications via "
+#~ "email` option is disabled in :ref:`Preferences`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Effektif sends this notification to the task’s new assignee, who the task is"
+#~ " being escalated to."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Unless otherwise specified, you can stop receiving these notifications in "
+#~ ":ref:`Preferences` section, by disabling the `Receive notifications via "
+#~ "email` option."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Effektif sends this notification to the tasks assignee if the task is "
