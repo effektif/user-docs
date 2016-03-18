@@ -123,20 +123,20 @@ msgstr ""
 
 #: ../../settings.rst:67
 msgid "Preferences"
-msgstr ""
+msgstr "Organisationseinstellungen"
 
 #: ../../settings.rst:69
 msgid ""
 "The *Preferences* includes additional options that apply to the whole "
 "organization."
-msgstr ""
+msgstr "Unter *Organisationseinstellungen* finden Sie Konfigurationsoptionen, die für Ihre gesamte Organisation zentral verwaltet werden."
 
 #: ../../settings.rst:73
 msgid "*Time zone* affects how times are displayed."
-msgstr ""
+msgstr "Unter *Zeitzone* konfigurieren Sie die Anzeige von Zeiten."
 
 #: ../../settings.rst:75
 msgid ""
 "*Email signature* replaces the default *Effektif team* signature at the "
 "bottom of :ref:`notification emails <notifications>`."
-msgstr ""
+msgstr "Unter *Email Signatur* ersetzen Sie die *Effektif Team*-Standardsignatur, die mit den :ref:`Effektif-Emailbenachrichtigungen<notifications>` verschickt wird."
