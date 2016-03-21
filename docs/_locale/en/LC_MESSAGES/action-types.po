@@ -23,22 +23,6 @@ msgstr ""
 msgid "Send email"
 msgstr ""
 
-#: ../../action-types/send-email.rst:13 ../../action-types/send-email.rst:13
-msgid "To:"
-msgstr ""
-
-#: ../../action-types/send-email.rst:20 ../../action-types/send-email.rst:20
-msgid "Subject:"
-msgstr ""
-
-#: ../../action-types/send-email.rst:28 ../../action-types/send-email.rst:27
-msgid "Body text:"
-msgstr ""
-
-#: ../../action-types/send-email.rst:24 ../../action-types/send-email.rst:24
-msgid "Attachments:"
-msgstr ""
-
 #: ../../action-types/google.rst:25 ../../action-types/google.rst:25
 msgid ""
 "If you're already authenticated with a single user to Google, the login "
@@ -583,28 +567,11 @@ msgid ""
 "configuration you can specify the following."
 msgstr ""
 
-#: ../../action-types/send-email.rst:16 ../../action-types/send-email.rst:16
-msgid ""
-"The email subject line. To use :ref:`variables <variables>` in the subject, "
-"type a `#` and select a field from the list. If the list is too long, you "
-"can just keep typing after the `#` to narrow-down the list. You can use the "
-"arrow keys to move the section, and *Enter* to select a field. To remove a "
-"variable, just delete it as if it’s normal text."
-msgstr ""
-
-#: ../../action-types/send-email.rst:23 ../../action-types/send-email.rst:23
+#: ../../action-types/send-email.rst:32 ../../action-types/send-email.rst:32
 msgid ""
 "To add attachments, click the *Attachments* field and select a file field "
 "from the list. The list includes trigger email attachments and file upload "
 "form fields."
-msgstr ""
-
-#: ../../action-types/send-email.rst:27 ../../action-types/send-email.rst:27
-msgid ""
-"You can use variables in the main email body by typing a `#`, just like in "
-"the *Subject*. You can use `Markdown "
-"<http://daringfireball.net/projects/markdown/basics>`_ to format the email "
-"body by formatting text or including hyperlinks, headings or lists."
 msgstr ""
 
 #: ../../action-types/user-task.rst:29 ../../action-types/user-task.rst:29
@@ -624,12 +591,6 @@ msgid ""
 "A user task means a user has to perform a task. In the :ref:`case <cases>`, "
 "a task will be created. In the configuration form, the following optional "
 "details can be specified."
-msgstr ""
-
-#: ../../action-types/send-email.rst:12 ../../action-types/send-email.rst:12
-msgid ""
-"The people to which the email is sent. You can type a plain email address, "
-"select a variable, a variable field or a user in the organization."
 msgstr ""
 
 #: ../../action-types/user-task.rst:14 ../../action-types/user-task.rst:14
@@ -660,6 +621,102 @@ msgid ""
 "escalation deadline, so you choose one person in the process model. Instead,"
 " you can escalate task assignment to multiple people, or select a group."
 msgstr ""
+
+#: ../../action-types/send-email.rst:13 ../../action-types/send-email.rst:13
+msgid "Sender name"
+msgstr ""
+
+#: ../../action-types/send-email.rst:12 ../../action-types/send-email.rst:12
+msgid ""
+"By default, Effektif sends the email with the `From` field set to "
+"*Effektif*. You can set this field to set the `From` field to your company "
+"or department name."
+msgstr ""
+
+#: ../../action-types/send-email.rst:18 ../../action-types/send-email.rst:18
+msgid "To"
+msgstr ""
+
+#: ../../action-types/send-email.rst:16 ../../action-types/send-email.rst:16
+msgid ""
+"The people who Effektif sends the email to. You can enter one or more plain "
+"email addresses, or select email :ref:`variables <variables>` or users in "
+"the organization. Note that if you enter a plain email address, you must "
+"then select it from the pick list."
+msgstr ""
+
+#: ../../action-types/send-email.rst:22 ../../action-types/send-email.rst:22
+msgid "Reply to"
+msgstr ""
+
+#: ../../action-types/send-email.rst:21 ../../action-types/send-email.rst:21
+msgid ""
+"Effektif sends emails from the address `notifications@app.effektif.com`, "
+"which you cannot reply to. If you set this field to an alternative email "
+"address, you override the address for replies to the email."
+msgstr ""
+
+#: ../../action-types/send-email.rst:29 ../../action-types/send-email.rst:29
+msgid "Subject"
+msgstr ""
+
+#: ../../action-types/send-email.rst:25 ../../action-types/send-email.rst:25
+msgid ""
+"The email subject line. To use :ref:`variables <variables>` in the subject, "
+"type a `#` and select a field from the list. If the list is too long, you "
+"can just keep typing after the `#` to filter the list. You can use the arrow"
+" keys to move the section, and *Enter* to select a field. To remove a "
+"variable, just delete it as if it’s normal text."
+msgstr ""
+
+#: ../../action-types/send-email.rst:33 ../../action-types/send-email.rst:33
+msgid "Attachments"
+msgstr ""
+
+#: ../../action-types/send-email.rst:38 ../../action-types/send-email.rst:37
+msgid "Body text"
+msgstr ""
+
+#: ../../action-types/send-email.rst:36 ../../action-types/send-email.rst:36
+msgid ""
+"You can use variables in the main email body by typing a `#`, just like in "
+"the *Subject*. You can use `Markdown "
+"<http://daringfireball.net/projects/markdown/basics>`_ to format the email "
+"body by formatting text or including hyperlinks, headings or lists. Select "
+"the `Preview` tab to see how Effektif will format your email."
+msgstr ""
+
+#~ msgid "To:"
+#~ msgstr ""
+
+#~ msgid "Subject:"
+#~ msgstr ""
+
+#~ msgid "Body text:"
+#~ msgstr ""
+
+#~ msgid "Attachments:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The email subject line. To use :ref:`variables <variables>` in the subject, "
+#~ "type a `#` and select a field from the list. If the list is too long, you "
+#~ "can just keep typing after the `#` to narrow-down the list. You can use the "
+#~ "arrow keys to move the section, and *Enter* to select a field. To remove a "
+#~ "variable, just delete it as if it’s normal text."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can use variables in the main email body by typing a `#`, just like in "
+#~ "the *Subject*. You can use `Markdown "
+#~ "<http://daringfireball.net/projects/markdown/basics>`_ to format the email "
+#~ "body by formatting text or including hyperlinks, headings or lists."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The people to which the email is sent. You can type a plain email address, "
+#~ "select a variable, a variable field or a user in the organization."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "*Assignment* - a task can be assigned to a user or a :ref:`process role "

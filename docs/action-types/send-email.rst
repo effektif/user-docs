@@ -8,21 +8,31 @@ Send email
 The send email action sends an email to the specified user.
 In the configuration you can specify the following.
 
-To:
-    The people to which the email is sent.
-    You can type a plain email address, select a variable, a variable field or a user in the organization.
+Sender name
+    By default, Effektif sends the email with the `From` field set to *Effektif*.
+    You can set this field to set the `From` field to your company or department name.
 
-Subject:
+To
+    The people who Effektif sends the email to.
+    You can enter one or more plain email addresses, or select email :ref:`variables <variables>` or users in the organization.
+    Note that if you enter a plain email address, you must then select it from the pick list.
+
+Reply to
+	Effektif sends emails from the address `notifications@app.effektif.com`, which you cannot reply to.
+	If you set this field to an alternative email address, you override the address for replies to the email.
+
+Subject
     The email subject line.
     To use :ref:`variables <variables>` in the subject, type a `#` and select a field from the list.
-    If the list is too long, you can just keep typing after the `#` to narrow-down the list.
+    If the list is too long, you can just keep typing after the `#` to filter the list.
     You can use the arrow keys to move the section, and *Enter* to select a field.
     To remove a variable, just delete it as if it’s normal text.
 
-Attachments:
+Attachments
     To add attachments, click the *Attachments* field and select a file field from the list.
     The list includes trigger email attachments and file upload form fields.
 
-Body text:
+Body text
     You can use variables in the main email body by typing a `#`, just like in the *Subject*.
     You can use `Markdown <http://daringfireball.net/projects/markdown/basics>`_ to format the email body by formatting text or including hyperlinks, headings or lists.
+    Select the `Preview` tab to see how Effektif will format your email.
