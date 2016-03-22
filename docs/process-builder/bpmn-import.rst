@@ -20,4 +20,4 @@ In particular:
 
 * BPMN swim lanes become :ref:`roles <roles>` in Effektif
 * tasks become :ref:`user tasks <user-task>` in Effektif
-* unsupported elements, such as timer events, are removed.
+* Effektif removes unsupported elements, such as timer events.

@@ -2,7 +2,7 @@ Variables
 ---------
 
 A process has variables that store workflow data when the process runs.
-All the information in forms and information required by the actions will be connected to these variables.
+These variables contain all of the information from forms as well as information required by the process actions.
 Each case stores its own values for each workflow variable.
 
 .. figure:: /_static/images/process-builder/variables.png

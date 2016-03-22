@@ -4,7 +4,7 @@ Forms
 =====
 
 In Effektif, you can use forms to enter information when you run a process.
-There are two places where you can use a form: form triggers and user tasks.
+You can use forms in two places: form triggers and user tasks.
 
 
 Form triggers
@@ -69,8 +69,7 @@ you use the form builder.
 
    The process editor’s form builder for a new empty form
 
-The `Description` section in the form builder is a text area
-that you can use to provide initial instructions to people who complete the form.
+Use the `Description` text area to provide initial instructions to people who complete the form.
 You can use `Markdown <http://daringfireball.net/projects/markdown/basics>`_ to format the description,
 which makes it convenient to link to additional information, for example.
 
@@ -79,7 +78,7 @@ which makes it convenient to link to additional information, for example.
 The `Add a field` second contains a field types palette.
 Click one of the field types to add a field of that type to the form.
 
-The `Reuse a field` section is a list of variables that have already been defined on other forms,
+The `Reuse a field` section lists variables that have already been defined on other forms,
 such as a trigger form:
 
 .. figure:: /_static/images/forms/builder-reuse-field.png
@@ -87,13 +86,13 @@ such as a trigger form:
    Adding an existing workflow variable to a form
 
 Adding an existing field to a form makes it possible to view or update existing information,
-such as a user task form that you use to complete information that’s missing from a trigger form.
+such as a user task form that you use to complete information the person who started the case did not enter on the trigger form.
 
 
 Configuring form fields
 -----------------------
 
-When you add fields to a form, they are shown in a `Fields` section:
+The `Fields` section shows the fields you add to a form:
 
 .. figure:: /_static/images/forms/builder-edit-field.png
 
@@ -111,20 +110,18 @@ and click the confirmation tick mark button to confirm:
 
    Deleting a form field
 
-The other field configuration properties are as follows.
+You can also configure the following properties.
 
 * `Description` - an optional field description, shown via context-sensitive help icon
-* `Initial value` - an optional default field value that is used to pre-populate the form
-* `Read-only` - specifies that the value is not editable, used to display previously-entered information
-* `Mandatory` - specifies that a field value is required, so that the form cannot be completed without a value
+* `Initial value` - an optional default value that pre-populates the form field
+* `Read-only` - specifies that you cannot edit the value, used to display previously-entered information
+* `Mandatory` - specifies that you must enter a field value, so that you cannot complete the form without a value for this field
 * `Allow entering multiple values` - specifies that the field has a list of values that you add and remove independently
 
-Text fields also have an additional `Multi-line` option 
-that specifies that the form field be displayed as a multi-line text input area,
-for longer text values.
+Text fields also have an additional `Multi-line` option that configures Effektif to display the form field as a multi-line text input area, for longer text values.
 
-When you enable the `Allow entering multiple values` option, the field is shown differently on forms.
-Each value you enter is added to the list.
+When you enable the `Allow entering multiple values` option, the field appears differently on forms.
+Entering a value adds it to the list.
 Use the × icon to remove a value.
 
 .. figure:: /_static/images/forms/multiple-values.png
@@ -143,7 +140,7 @@ Date fields have a `Date/time` option for choosing between a date and time, just
 
    Date field configuration
 
-User fields also have a `Candidates` option that you can use to choose which users can be selected:
+User fields also have a `Candidates` option that you can use to choose which users you can assign:
 
 .. figure:: /_static/images/forms/builder-user.png
 

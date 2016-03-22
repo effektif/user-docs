@@ -8,19 +8,19 @@ After creating or selecting a JavaScript action, the configuration panel looks l
 
    JavaScript configuration panel
 
-The top section of the panel is the JavaScript text editor.
+The top section of the panel contains the JavaScript text editor.
 By default, it already contains ``console.log('Hello World!');``.
 
 The lower section allows you to test the script.
 Click `Test it` to execute the JavaScript code.
-The results are displayed underneath:
+The test runner displays the results underneath:
 
 .. figure:: /_static/images/action-types/javascript/javascript-2.png
 
    JavaScript test output
 
 Next, we'll show how to work with data.
-Suppose there is a form elsewhere in the process that has each type of field and looks like this:
+Suppose that the process includes a form that has each type of field and looks like this:
 
 .. figure:: /_static/images/action-types/javascript/javascript-3.png
 
@@ -33,8 +33,8 @@ When you open the JavaScript configuration again, you'll see the variables secti
    JavaScript variables
 
 Click `Show all fields` and select the variables you want to access in the script.
-In this example, all variables are selected.
-For each variable that is selected, you get an input field to specify a test value.
+In this example (below), you have selected all variables.
+For each variable that you select, you get an input field to specify a test value.
 Here you see all fields with a test value.
 
 .. figure:: /_static/images/action-types/javascript/javascript-5.png
@@ -82,7 +82,7 @@ This has the following result in the Effektif test console:
 
 The two log statements, starting with *HTTP 200*, 
 show the HTTP response from the web service.
-The response body (as set-up in Mocky) is JSON data that includes 
+The response body (as set-up in Mocky) contains JSON data that includes 
 an updated value for the ``startDate`` variable,
 changing the date from ``2015-06-15`` to ``2015-06-16``.
 

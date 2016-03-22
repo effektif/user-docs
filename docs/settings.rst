@@ -13,10 +13,10 @@ At the top of the page, in the masthead, you can edit the organization name.
 Users
 -----
 
-The users list shows users that are members of your organization.
+The users list shows users who belong to your organization.
 You can expand each user’s entry to see their email address,
 license type,
-and membership type - indicating whether the user is an administrator.
+and membership type - indicating whether the user has the administrator role.
 
 .. figure:: /_static/images/settings/users.png
 
@@ -41,7 +41,7 @@ To invite someone to use Effektif,
 select the license they will use,
 enter their email address in the text field and click the *Invite* button.
 They will receive an email with a link to the registration page,
-where they can create an Effektif user that will be a member of the organization.
+where they can create an Effektif user that will become a member of the organization.
 
 
 Groups
@@ -70,6 +70,6 @@ The *Preferences* includes additional options that apply to the whole organizati
 
 .. figure:: /_static/images/settings/preferences.png
 
-*Time zone* affects how times are displayed.
+*Time zone* affects how Effektif displays times.
 
 *Email signature* replaces the default *Effektif team* signature at the bottom of :ref:`notification emails <notifications>`.

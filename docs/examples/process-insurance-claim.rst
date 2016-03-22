@@ -21,7 +21,8 @@ Form - an insured customer’s completed claim form.
 Actions
 ^^^^^^^^
 
-This process illustrates how to handle large case volumes, by splitting the process into tasks that can be assigned to different groups of people, so junior staff handle most tasks and only hard tasks are assigned to a smaller group of senior staff.
+This process illustrates how to handle large case volumes, by splitting the process into tasks that you can assign to different groups of people
+Junior staff can handle most tasks and only assign hard tasks to a smaller group of senior staff.
 
 .. figure:: /_static/images/examples/process-insurance-claim.png
 

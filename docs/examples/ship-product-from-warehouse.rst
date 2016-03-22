@@ -11,11 +11,11 @@ In a warehouse operation, fulfil an order by shipping physical products to the c
 Context
 ^^^^^^^
 
-A product manufacturer typically runs warehouses that contain an inventory of products, ready to be shipped to customers.
-In the warehouse is where, a customer order - initially just information - results in physical activity and becomes associated with physical products.
+A product manufacturer typically runs warehouses that contain an inventory of products, ready to ship to customers.
+In the warehouse, a customer order - initially just information - results in physical activity and becomes associated with physical products.
 
-This process is a subprocess in a broader customer order process that happens in the context of a warehouse.
-This may be orchestrated by the order status that triggers the process, and the order status that results from process completion.
+This process participates in a broader customer order process that happens in the context of a warehouse.
+The order status that triggers this process, and changes when this process completes, may orchestrate this process.
 
 Trigger
 ^^^^^^^
@@ -38,17 +38,17 @@ A long sequence of tasks characterises this process, as follows.
 * *Pack items into parcels* - efficiently pack items into standard parcels.
 * *Weigh parcels* - to capture parcel weight and dimensions, for the shipping label.
 * *Print shipping labels* - print and attached labels showing the customer delivery address and other information such as weight and dimensions.
-* *Move to loading dock* - stack parcels ready to be loaded on the next truck.
-  Inspect packing quality - quality control to check that parcels are packed correctly.
-* *Check parcel count* - a ‘head-count’ to check that there are no missing parcels for each order.
+* *Move to loading dock* - stack parcels ready for loading on the next truck.
+  Inspect packing quality - quality control to check for correctly packed parcels.
+* *Check parcel count* - a ‘head-count’ to check that there no orders have missing parcels.
 * *Load parcels on truck* - loading happens in a batch together with parcels for other orders, and may only happen once per day.
 * *Update order status* - record process completion in the order management system, which may trigger other processes such as invoicing the customer.
 * *Adjust stock levels* - update the warehouse’s inventory management system.
 * *Send delivery instructions* - provide the transport company with the information they require to deliver the shipment.
 
-There is flexibility in the process, which warehouse staff are likely to use.
+Warehouse staff will take advantage of this process’ flexibility in practice.
 Staff may perform the tasks sequentially in practice, even though they could perform them in parallel.
-Staff may also batch multiple orders together at various steps, when there are waiting times such as waiting for the next truck to arrive at the warehouse.
+Staff may also batch multiple orders together at various steps, due to waiting times such as waiting for the next truck to arrive at the warehouse.
 
 Roles
 ^^^^^
@@ -71,4 +71,5 @@ To extend or enhance this process, you could:
 * add information to *The Pick stock items* task, e.g. by scanning bar codes to record the picked items’ serial numbers
 * make the *Inspect packing quality* task optional or randomised..
 
-In this process, transport runs on a fixed schedule: trucks are loaded with parcels for multiple orders. A different shipping process could arrange individual transport (e.g. by courier) for each order.
+In this process, transport runs on a fixed schedule: warehouse staff load parcels for multiple orders onto trucks.
+A different shipping process could arrange individual transport (e.g. by courier) for each order.

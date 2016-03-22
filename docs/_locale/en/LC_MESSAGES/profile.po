@@ -31,12 +31,6 @@ msgstr ""
 msgid "Services"
 msgstr ""
 
-#: ../../profile.rst:6
-msgid ""
-"On the top-right drop-down menu, select `My Profile` to view and edit your "
-"own Effektif user settings. The profile page is split into four sections:"
-msgstr ""
-
 #: ../../profile.rst:20
 msgid ""
 "Use the `Me` section to update your user profile, including contact details "
@@ -51,12 +45,6 @@ msgstr ""
 
 #: ../../profile.rst:36
 msgid "Uncheck the checkboxes to disable all email notifications."
-msgstr ""
-
-#: ../../profile.rst:44
-msgid ""
-"The `Organizations` section lists organizations that you belong to, and "
-"indicates whether you are an organization administrator."
 msgstr ""
 
 #: ../../profile.rst:49
@@ -84,3 +72,25 @@ msgstr ""
 #: ../../profile.rst:13
 msgid ":ref:`Services <services>`"
 msgstr ""
+
+#: ../../profile.rst:6
+msgid ""
+"On the top-right drop-down menu, select `My Profile` to view and edit your "
+"own Effektif user settings. The profile page has four sections:"
+msgstr ""
+
+#: ../../profile.rst:44
+msgid ""
+"The `Organizations` section lists organizations that you belong to, and "
+"indicates whether you have the organization administrator role."
+msgstr ""
+
+#~ msgid ""
+#~ "On the top-right drop-down menu, select `My Profile` to view and edit your "
+#~ "own Effektif user settings. The profile page is split into four sections:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The `Organizations` section lists organizations that you belong to, and "
+#~ "indicates whether you are an organization administrator."
+#~ msgstr ""

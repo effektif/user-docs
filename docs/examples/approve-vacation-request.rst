@@ -13,13 +13,13 @@ Context
 
 Employees need to request vacation dates, so that their managers can make sure that they don’t all go on vacation at the same time.
 Employees typically e-mail requests to a designated coordinator, who maintains a spreadsheet of requests.
-However, this generates a lot of e-mail, and fails when the coordinator is on vacation.
+However, this generates a lot of e-mail, and fails when the coordinator goes on vacation.
 
-Vacation requests exemplify form based requests, where an employee requires an approval based on information whose structure is known in advance.
-An employee requesting vacation days for specific dates is perhaps the simplest example of human tasks that are co-ordinated between multiple people.
+Vacation requests exemplify form based requests, where an employee requires an approval based on information whose structure you know in advance.
+An employee requesting vacation days for specific dates illustrates perhaps the simplest example of human tasks that multiple people co-ordinate.
 
 Despite this process’ simplicity, the obvious spreadsheet plus e-mail approach leads to enough problems to make it worth using Effektif instead.
-In principle, it’s easy enough for one person to receive vacation requests by e-mail and maintain a spreadsheet, but this fails when this person is on vacation.
+In principle, one person can easily receive vacation requests by e-mail and maintain a spreadsheet, but this fails when this person goes on vacation.
 This irony illustrates the need for notify a group about new unassigned tasks, so that several people can approve vacation requests between themselves.
 
 
@@ -47,7 +47,7 @@ Fields
 ^^^^^^
 
 * *Employee* (User, mandatory) - the employee making the request.
-  This, plus the other fields, should be enough information for the manager to make the decision.
+  This, plus the other fields, should give the manager enough information to make the decision.
 * *Start date* (Date) - vacation start date.
 * *End date* (Date) - vacation end date.
 

@@ -13,7 +13,7 @@ Context
 
 Recruiting an employee requires a long elapsed time to complete - typically a couple of months - and involves a number of people.
 Unless very few people apply for jobs, the recruitment team will have to handle a large number of cases at the same time.
-This is a complex process whose tasks will be assigned to the different people who perform different tasks, such as interviewing or preparing a contract.
+This process requires someone to assign tasks to the people who do different types of work, such as interviewing or preparing a contract.
 
 Trigger
 ^^^^^^^
@@ -46,6 +46,6 @@ Enhancements
 
 * The trigger form could allow uploading additional documents, such as a covering letter, which some organisations like to receive.
 * Instead of a trigger form, use an e-mail trigger to accept applications by e-mail, including the CV as an attachment.
-* If the organisation has to deal with a high case volume, the trigger form could capture information that could be used to prioritise cases, such as the *Candidate availability date*.
-* The trigger form could include additional information to allow automatic pre-screening, if there are situations that would mean that it’s not worth starting the process, such as no work visa.
+* If the organisation has to deal with a high case volume, the trigger form could capture information that you could use to prioritise cases, such as the *Candidate availability date*.
+* The trigger form could include additional information to allow automatic pre-screening, to cover cases that do not justify starting the process, such as an applicant with no work visa.
 * You could add additional interview stages, such as a telephone screen, second interview, or a post-offer visit.

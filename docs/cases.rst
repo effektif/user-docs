@@ -3,12 +3,12 @@
 Cases
 =====
 
-A case is a essentially a small collaboration space for a particular goal.
+You can use a case as a small collaboration space for a particular goal.
 For example, ‘Hire employee’ or ‘Sign contract’.
-Cases are typically bigger then a simple task for a single person and smaller then a project.
+Cases typically represent more work than a simple task for a single person, but less than a whole project.
 
-A case is used to break down the goal into concrete action items (or tasks) and to collaborate with others.
-The case is the central place where all relevant context information about the topic is shared and discussed.
+A case breaks the goal down into concrete action items (or tasks) so you can collaborate with other people.
+The case centralises all relevant context information about the topic, for sharing and discussion.
 
 Viewing cases
 -------------
@@ -39,7 +39,7 @@ when you hover the mouse cursor over them.
 
    Hover over the open bar to see a case’s open tasks.
 
-To the right of these status bars are workflow data columns,
+These status bars appear to the left of the workflow data columns,
 which you can customize.
 
 
@@ -47,8 +47,8 @@ Customizing case view table columns
 -----------------------------------
 
 The *Cases* view’s table includes columns for workflow :ref:`variables <variables>`,
-which are usually form fields on a trigger form or in a user task.
-You can select which fields are shown as table columns in the Cases view,
+which usually correspond to form fields on a trigger form or in a user task.
+You can select which fields the Cases view shows as table columns,
 so you can have a clear overview of the process’ cases.
 
 To customize the table columns,
@@ -62,16 +62,14 @@ Use the drag icon on the far left of the list of columns to change the column or
 and click the delete icon on the far right to remove a column.
 You can also use the text box to edit the column’s heading.
 
-Below the list of columns, is a menu for selecting additional column to add to the table.
+Below the list of columns, you’ll find a menu for selecting additional column to add to the table.
 
 .. figure:: /_static/images/cases/configure-columns-add.png
 
    Adding a column to the table
 
-The menu lists all of the workflow variables that are not currently included in the table.
-In this example, the *Interviewer* variable is a *User*,
-which means that additional fields are available for the user’s email address,
-first name, ID and last name.
+The menu lists all of the workflow variables that the table does not currently include.
+In this example, the *Interviewer* variable has the type *User*, which means that you can access additional fields for the user’s email address, first name, ID and last name.
 
 
 Creating a case
@@ -90,7 +88,7 @@ Then the case header appears.
 
    Enter case title
 
-Next, type the case title and hit Enter. The new case is now created.
+Next, type the case title and hit Enter. Effektif now creates the new case.
 
 .. figure:: /_static/images/cases/create/view-case.png
 
@@ -131,7 +129,7 @@ Effektif sends them an email notification to bring them into the discussion.
 
    Mentioning someone in a comment
 
-You can also mention two specific groups, corresponding to people who are working on the case, or perhaps should be.
+You can also mention two specific groups, corresponding to people working on the case.
 Enter ``@all`` to mention all participants in the case.
 Enter ``@open`` to mention the assignees of open tasks within the case.
 
@@ -173,7 +171,7 @@ If cases regularly require the same document as part of the process, you can mak
 Closing a case manually
 -----------------------
 
-The normal way to close a case is to complete all of its tasks.
+You normally close a case by completing all of its tasks.
 However, sometimes you want to abandon a case and stop working on a it.
 To do this you can manually close a case.
 
@@ -189,6 +187,6 @@ Deleting a case
 ---------------
 
 You do not normally delete cases in Effektif: you close cases that you have finished working on.
-However, sometimes it is appropriate to delete cases, such as the test cases that you create while developing the initial versions of a process model.
+However, you sometimes do need to delete cases, such as the test cases that you create while developing the initial versions of a process model.
 
 To delete a case, open the case and use its right-hand actions menu to select `Delete case`.

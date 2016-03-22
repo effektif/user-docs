@@ -12,9 +12,9 @@ Context
 ^^^^^^^	
 
 When a project organisation starts a new project, the project team (or project manager) needs to capture a project overview that introduces the project and how it will work to other stakeholders.
-However, there never seems to be time to write detailed documentation at the start of the project.
+However, no-one ever seems to have time to write detailed documentation at the start of the project.
 You can use a checklist to capture a set of tasks that might otherwise get forgotten, without any particular structure or sequence to the process.
-The main value of a checklist is to identify tasks that might otherwise be forgotten.
+A checklist’s main value comes from identifying tasks that you might otherwise forget.
 A project initiation checklist addresses questions about the project’s overview and the project plan.
 An Effektif process can present simple forms that guide this initial data collection.
 
@@ -63,5 +63,5 @@ However, asking questions like *Do you have a project vision?* does not focus th
 Extensions
 ^^^^^^^^^^
 
-In general, you will extend this process with additional checklist tasks for work that is part of project initiation.
+In general, you will extend this process with additional checklist tasks for project initiation work.
 You can extend this process to include a project approval task, based on the information given.

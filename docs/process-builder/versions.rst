@@ -3,10 +3,9 @@
 Versions
 --------
 
-When you use the Effektif process editor to edit your process model, 
-all of your changes are saved immediately.
+When you use the process editor to edit your process model, Effektif saves all of your changes immediately.
 You can go back and edit the process again later,
-and it will be just as you left it.
+and it will not have changed.
 However, to execute a process by starting a new case you need a published version.
 
 Publishing a process version
@@ -14,14 +13,14 @@ Publishing a process version
 
 The process editor’s `Versions` tab shows a list of published versions.
 Until you publish the first version, 
-this page shows a message that there are ‘no published versions’ of the process.
+this page shows a message that there the process has ‘no published versions’.
 
 .. figure:: /_static/images/process-builder/versions/none.png
 
    The process editor’s `Versions` tab with no published versions
 
 You can only start a new case for a process that has a published version,
-which is why the light green button text is ‘Publish to run this process’.
+hence the light green button displays ‘Publish to run this process’.
 After you publish the first version,
 the list shows version #1 and you can start a new case using that version.
 
@@ -42,7 +41,7 @@ you can add a comment to describe the changes when you publish a new version of 
 
    The `Publish changes` prompt, where you can add an optional version comment
 
-The version comment is not required,
+You can omit the version comment,
 but it helps collaboration between team members
 by making process modelling more transparent.
 
@@ -61,9 +60,8 @@ use the following tips to make them more consistent and useful.
 * Make the comment an imperative phrase that starts with a word like ‘Add’ or ‘Fix’.
 * Capitalise the first word and don’t include a full-stop at the end,
   for consistency.
-* Be specific about what you changed,
-  instead of vaguely referring to ‘changes’. 
-* Be concise; 3-10 words is usually about right.
+* Describe specifics, instead of vaguely referring to ‘changes’. 
+* Keep it short; 3-10 words usually suffice.
 * Consider making the comment longer to explain why you made this change.
 
 You may find it easier to publish a series of small changes,

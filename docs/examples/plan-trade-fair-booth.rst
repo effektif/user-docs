@@ -25,7 +25,7 @@ Trigger
 Actions
 ^^^^^^^
 
-Sometimes there’s just a lot to do.
+Sometimes you just have a lot to do.
 This process consists of planning many activities, some of which can happen in parallel, but which may require long timelines.
 
 .. figure:: /_static/images/examples/plan-trade-fair-booth.png

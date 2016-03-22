@@ -3,10 +3,10 @@
 Actions
 -------
 
-Actions are like steps in a process.
-An action might be a user task in Effektif,
-an operation on a file in a document management system
-or any other action that represents something to be done in a process.
+You can think of actions like steps in a process.
+Action include things like user tasks in Effektif,
+operations on a file in a document management system
+or any other actions that represent work that someone will perform as part of a process.
 
 .. figure:: /_static/images/process-builder/actions.png
 
@@ -23,7 +23,7 @@ Adding a transition
 
 You can create a transition in the `Advanced flows` view.
 A transition specifies sequential flow,
-which means the next action only starts when the previous one is complete.
+which means the next action only starts when someone has completed the previous one.
 
 To add a transition, click to select the first action.
 Several symbols appear to the right of the selected element:
@@ -47,8 +47,7 @@ Release the mouse button over the destination to create the transition.
 Creating the next user task
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-There is an easy way to create the next User Task in a process,
-similar to creating transitions above.
+You can easily create the next User Task in a process in the same way you created transitions, above.
 Start by selecting the previous action:
 
 .. figure:: /_static/images/process-builder/create-tasks/select-task.png
@@ -78,6 +77,6 @@ with a transition.
 Control flow elements
 ^^^^^^^^^^^^^^^^^^^^^
 
-Control flow elements like events and gateways are also part of the diagram,
-but unlike actions, control flow elements don’t represent something that should happen.
+The diagram also includes control flow elements, such as events and gateways.
+Unlike actions, control flow elements don’t represent something that should happen.
 Instead, you use events and gateways to specify the flow between the actions.

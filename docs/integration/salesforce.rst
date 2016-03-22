@@ -26,7 +26,7 @@ Copy the generated `Endpoint URL`, or leave this window open for later.
 Salesforce configuration
 ------------------------
 
-Before you can enable Salesforce triggers, you need to configure Outbound messages, which are one kind of Salesforce workflow action.
+Before you can enable Salesforce triggers, you need to configure Outbound messages - a kind of Salesforce workflow action.
 Set this up in Salesforce as follows.
 
 Select the Setup menu item, and select `Build` → `Create` → `Workflow & Approvals` → `Workflow Rules`.
@@ -54,7 +54,7 @@ Save the ``workflowOutboundMessage.wsdl`` file, which you will use to configure 
 Finish Effektif configuration
 -----------------------------
 
-The final configuration step is to use the web service definition file to configure the Salesforce service in Effektif.
+For the final configuration step, use the web service definition file to configure the Salesforce service in Effektif.
 
 In the top-right user menu, select `My Organisation`, select the `Services` tab, and then select the Salesforce trigger type you created earlier.
 
@@ -62,4 +62,4 @@ In the top-right user menu, select `My Organisation`, select the `Services` tab,
 
 Select `Upload document`, and select the ``workflowOutboundMessage.wsdl`` file you saved earlier.
 
-Now you are ready to use the new :ref:`Salesforce trigger <trigger-salesforce>` in Effektif.
+Now you can use the new :ref:`Salesforce trigger <trigger-salesforce>` in Effektif.

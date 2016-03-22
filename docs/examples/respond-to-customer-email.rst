@@ -27,7 +27,7 @@ Unusually, this process consists of a single user task - for responding to the e
 
 .. figure:: /_static/images/examples/respond-to-customer-email.png
 
-This process is a minimal example for demonstrating the value of task assignment.
+This process minimally demonstrates the value of task assignment.
 The process’ value comes from the automated notifications from setting the user task’s candidate group, due date, reminders and escalation.
 
 Extensions

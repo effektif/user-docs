@@ -12,20 +12,20 @@ How it works
 
 .. image:: /_static/images/how-it-works.png
 
-A process is a template for repetitive work.
-Processes are typically created by people who manage work
-and specify which tasks and actions have to be performed to reach a certain goal.
-For example: for every hire case, the tasks "Conduct interview", "Prepare contract" and "Create email account" have to be completed.
+A process - strictly a process *model* - defines a template for repetitive work.
+The people who manage work typically create processes and specify the tasks and actions that you must completed to reach a certain goal.
+For example: for every :ref:`Hire employee <hire-employee>` case, someone must complete the *Plan interview*, *Interview candidate* and *Send job offer* tasks.
 
-After a process is published, many individual cases can be started.
-Effektif keeps track of which tasks and actions have to be performed for each case.
+After you publish a process, you can start many individual cases.
+Effektif keeps track of which tasks and actions you have to perform for each case.
 Cases bring people together with relevant information that provides context for completing the tasks.
-Cases are also collaboration spaces where people can discuss and create new tasks for individual cases on the fly.
+You can also use cases as collaboration spaces for people to discuss and create new tasks for individual cases on the fly.
 
 When to use Effektif
 --------------------
 
-Effektif is ideal for describing and collaborating on routine work. Use Effektif for:
+You will find Effektif useful for describing and collaborating on routine work.
+Use Effektif for:
 
 - coordinating tasks and handovers
 - approvals
@@ -37,15 +37,15 @@ Benefits
 
 You’ll get:
 
-- control where it’s needed
-- flexibility where it’s possible
+- control where you need it
+- flexibility
 - fewer delays (with automatic triggers, actions and timers)
 - no more miscommunications during handovers
 - traceability - data on who did what
 - clarity - visibility of who has to do what
-- agility - because Effektif process models are easier to change than software.
+- agility - because you can change Effektif process models more easily than custom software.
 
 Acknowledgements
 ----------------
 
-Signavio uses open source software. We thank everyone involved in the open source community. Please follow :download:`this link <download/Open-Source-Components-Effektif.pdf>` to access a list of all open source components that are part of this application.
+Signavio uses open source software. We thank everyone involved in the open source community. Please download the :download:`list of open source components that Effektif uses <download/Open-Source-Components-Effektif.pdf>`  (PDF).

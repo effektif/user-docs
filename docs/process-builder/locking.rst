@@ -4,19 +4,18 @@ Process locking
 ---------------
 
 In the process builder, only one person can edit a process at a time.
-When someone else is editing a process,
-there is a message in the `Processes` list.
+While someone continues to edit a process, the `Processes` list shows a message.
 
 .. figure:: /_static/images/process-builder/process-locked.png
 
-   The `Processes` list message when someone else `is currently working on this process`
+   The `Processes` list message while someone else edits the process
 
 You can still open the process,
-but you will see a warning message explaining that you will not be able to make changes:
+but you will see a warning message explaining that you cannot make changes:
 
 .. figure:: /_static/images/process-builder/process-locked-dialogue.png
 
-   Warning that you will not be able to make edit a process at the same time as someone else
+   Warning that you cannot edit a process at the same time as someone else
 
-You will be able to edit the process and make changes after the other person leaves the process editor,
+You can edit the process and make changes after the other person leaves the process editor,
 by opening the `Tasks` list, for example.
