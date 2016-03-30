@@ -6,7 +6,7 @@ Copying & deleting processes
 You can create a copy of a process or delete it using the process menu shown in the previous section.
 
 The `Create a copy` option duplicates the process in the same organisation.
-You may find it useful to duplicate a process if you want to experiment with changes without publishing changes to a process that people are using.
+You may find it useful to duplicate a process if you want to experiment with changes without publishing changes to a live process.
 You may also want to duplicate a process to model a special case of the process, instead of adding a conditional flow to the standard process.
 
 The `Delete process` option permanently deletes a process and all of its cases.

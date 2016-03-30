@@ -7,11 +7,11 @@ User task
 
    A user task in the process editor
 
-A user task means a user has to perform a task.
-In the :ref:`case <cases>`, a task will be created. In the configuration form, the following optional details can be specified.
+A user task indicates that someone will perform a task.
+In the configuration form, you can specify the following optional details.
 
-* *General* - a task can be assigned to a user or a :ref:`process role <roles>`.
-* *Form* - a task can be given a form. To complete the task, the form has to be submitted.
+* *General* - assign a task to a user or a :ref:`process role <roles>`.
+* *Form* - add a form to a task; submit the form to complete the task.
 * *Reminders* - task deadline notifications.
 * *Escalations* -  automatic task reassignment.
 * *Access Rights* - task permissions for users and groups.
@@ -20,7 +20,7 @@ General
 ^^^^^^^
 
 Use the *General* tab to specify the task’s default assignee or candidates.
-Candidates can be individual users or organisation groups.
+You can select either individual users or organisation groups as candidates.
 
 .. figure:: /_static/images/action-types/user-task-assignment.png
 
@@ -28,7 +28,7 @@ Candidates can be individual users or organisation groups.
 
 You an also specify a role for the task’s assignment,
 like a BPMN swim lane,
-so that related tasks are automatically assigned to the same person.
+so that Effektif automatically assigns related tasks to the same person.
 
 Task name template
 ^^^^^^^^^^^^^^^^^^
@@ -61,9 +61,9 @@ then Effektif will send email when the deadline expires.
 
    Configuring user task reminders in the process editor
 
-Effektif sends these notifications to the task’s assignee if the task is assigned,
+Effektif sends these notifications to the task’s assignee if the task has an assignee,
 or to all of the task’s candidates if the task it not assigned.
-If the task is unassigned and there are no candidates,
+If the task remains unassigned and does not have any candidates,
 Effektif sends the notification to the process’ owner.
 
 Escalations

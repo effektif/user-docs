@@ -11,14 +11,15 @@ Approve the submitted document, after optional revision rounds.
 Context
 ^^^^^^^
 
-Employees need to submit expense forms for their managers to approve, but if they all send them by e-mail it will be difficult for their managers to keep track. Employees typically submit an expense form in a spreadsheet file that lists expenses.
+Employees need to submit expense forms for their managers to approve, but if they all send them by e-mail their managers will find it difficult to keep track.
+Employees typically submit an expense form in a spreadsheet file that lists expenses.
 
 Employees also prepare proposals and reports that require management sign-off before the author may distribute them.
 The frequently have trouble keeping track of the document versions during the process.
 
-Expense forms are a specific example of process documents.
+You can treat expense forms as a specific example of process documents.
 Business processes often use documents to capture a process milestone.
-Managers often use a document approval process to verify that other work is complete, usually by exchanging email with the document author.
+Managers often use a document approval process to verify that someone has completed some other work, usually by exchanging email with the document author.
 Use an Approve Document process when you need to keep track of a large number of approvals, or when you need a record of each approval (who and when).
 
 Trigger
@@ -35,7 +36,7 @@ Rejecting the document creates an *Update document* task to update the document 
 .. figure :: /_static/images/examples/approve-document.png
 
 Adding a due date and reminders to the user tasks can help minimise cycle times.
-Adding escalation to the *Review document* task helps avoid a delay when the reviewer is not available.
+Adding escalation to the *Review document* task helps avoid a delay when the reviewer cannot complete the work.
 
 Roles
 ^^^^^

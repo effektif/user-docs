@@ -19,29 +19,27 @@ the configuration panel shows a button to start configuring the account.
 
 When you click on the button `Configure a Google Drive account`, a popup window will appear that helps you integrate Effektif with your Google Drive account.
 
-Google will perform a check if you're already logged in to Google in that browser.
-There are 3 possible outcomes:
+Google will check that you have already logged in to Google.
+This check has three possible outcomes:
 
-1. If you're already authenticated with a single user to Google, the login screen is skipped and you go straight to the :ref:`permission screen <drive-permission>` below.
+1. If you have already authenticated with a single user to Google, the set-up process skips the log in page and you go straight to the :ref:`permission screen <drive-permission>` below.
 
-2. If you're not yet authenticated to Google in this browser yet, you'll get a login window:
-
-.. TODO update screenshot (use example.com e-mail address)
+2. If you haven’t authenticated with Google, you will see a log in window:
 
 .. figure:: /_static/images/action-types/google-drive/fileupload-3.png
 
    Google Drive login
 
-3. If you're authenticated with multiple users to Google in this browser, select the account you want to use.
+3. If you have authenticated with multiple Google accounts, select the account you want to use.
 
-After authentication is complete, you'll see the following screen that allows you to give Effektif access to your Google account.
+After you have completed authentication, you’ll see the following page that allows you to give Effektif access to your Google account.
 
 .. _drive-permission:
 .. figure:: /_static/images/action-types/google-drive/fileupload-5.png
 
    Google Drive permission grant
 
-After accepting the permissions, the pop up will disappear and the connection with your account is established.
+After accepting the permissions, the pop up will disappear and Effektif will have completed connecting to your account.
 
 Upload file action
 ^^^^^^^^^^^^^^^^^^
@@ -54,9 +52,9 @@ and also shows the folders in `My Drive` in your Google Drive account.
 
    Google Drive `Upload file` authenticated configuration
 
-Other people in your organization will be able to see that you have configured an account, but they will not be able to see youro email address or browse your account folders.
+Other people in your organization can see that you have configured an account, but they cannot see your email address or browse your account folders.
 
-In the section `Target folder` you can now browse and select the folder you want to upload the file(s) to.
+In the `Target folder` section you can now browse and select the folder you want to upload the file(s) to.
 
 Next to `Folder name template`, 
 you can optionally specify a subfolder name to create inside the target folder.
@@ -66,7 +64,9 @@ For example, if your process variables include a unique customer ID,
 then you can use that to save each customer’s files in a separate folder.
 Use a forward slash (``/``) to separate nested subfolder levels.
 
-In section `Files to upload`, you can select the variable field containing one or more files to be uploaded. If there was no file variable, a variable called 'File' is created automatically. If there was already a file or list of files in the variables, it is preselected.
+Next to `Files to upload`, you can select the variable field containing one or more files to upload.
+If the process did not already include a file variable, Effektif automatically creates a variable called 'File'.
+If the process variables did include a file or list of files, Effektif preselects it.
 
 
 Google Drive - Print file
@@ -85,10 +85,10 @@ Configuration
 
 After creating a Google Drive `Print file` action,
 the configuration panel shows a button to start configuring the account.
-This configuration is the same as in the `Upload file configuration <upload-file-configuration>`_ (above).
+This configuration has the same steps as in the `Upload file configuration <upload-file-configuration>`_ (above).
 
 When you have authenticated with a Google account and granted permission,
-you are ready to configure the `Print file` action.
+you can configure the `Print file` action.
 
 
 Print file action
@@ -123,10 +123,10 @@ Configuration
 
 After creating a Google Drive *Add row to sheet* action,
 the configuration panel shows a button to start configuring the account.
-This configuration is the same as in the `Upload file configuration <upload-file-configuration>`_ (above).
+This configuration has the same steps as in the `Upload file configuration <upload-file-configuration>`_ (above).
 
 When you have authenticated with a Google account and granted permission,
-you are ready to configure the *Add row to sheet* action.
+you can configure the *Add row to sheet* action.
 
 Add row to sheet action
 ^^^^^^^^^^^^^^^^^^^^^^^

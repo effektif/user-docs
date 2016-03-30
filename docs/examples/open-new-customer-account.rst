@@ -48,9 +48,9 @@ The process starts with initial information from the customer:
 * *Address* (Text, mandatory)
 * *Date of birth* (Date, mandatory)
 * *Contact e-mail* (Email address, mandatory)
-* *Supporting documentation* (File, multiple values) - additional documents, such as proof of address, which might be specified individually.
+* *Supporting documentation* (File, multiple values) - additional documents, such as proof of address, which the process might specify individually.
 
-Further information is added during the process, including:
+The process later adds further information, including:
 
 * *Account number* (Number) - created for the new account.
 

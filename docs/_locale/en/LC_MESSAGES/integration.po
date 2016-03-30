@@ -53,13 +53,6 @@ msgstr ""
 msgid "Salesforce configuration"
 msgstr ""
 
-#: ../../integration/salesforce.rst:29
-msgid ""
-"Before you can enable Salesforce triggers, you need to configure Outbound "
-"messages, which are one kind of Salesforce workflow action. Set this up in "
-"Salesforce as follows."
-msgstr ""
-
 #: ../../integration/salesforce.rst:32
 msgid ""
 "Select the Setup menu item, and select `Build` → `Create` → `Workflow & "
@@ -113,12 +106,6 @@ msgstr ""
 msgid "Finish Effektif configuration"
 msgstr ""
 
-#: ../../integration/salesforce.rst:57
-msgid ""
-"The final configuration step is to use the web service definition file to "
-"configure the Salesforce service in Effektif."
-msgstr ""
-
 #: ../../integration/salesforce.rst:59
 msgid ""
 "In the top-right user menu, select `My Organisation`, select the `Services` "
@@ -131,8 +118,37 @@ msgid ""
 "file you saved earlier."
 msgstr ""
 
+#: ../../integration/salesforce.rst:29
+msgid ""
+"Before you can enable Salesforce triggers, you need to configure Outbound "
+"messages - a kind of Salesforce workflow action. Set this up in Salesforce "
+"as follows."
+msgstr ""
+
+#: ../../integration/salesforce.rst:57
+msgid ""
+"For the final configuration step, use the web service definition file to "
+"configure the Salesforce service in Effektif."
+msgstr ""
+
 #: ../../integration/salesforce.rst:65
 msgid ""
-"Now you are ready to use the new :ref:`Salesforce trigger <trigger-"
-"salesforce>` in Effektif."
+"Now you can use the new :ref:`Salesforce trigger <trigger-salesforce>` in "
+"Effektif."
 msgstr ""
+
+#~ msgid ""
+#~ "Before you can enable Salesforce triggers, you need to configure Outbound "
+#~ "messages, which are one kind of Salesforce workflow action. Set this up in "
+#~ "Salesforce as follows."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The final configuration step is to use the web service definition file to "
+#~ "configure the Salesforce service in Effektif."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Now you are ready to use the new :ref:`Salesforce trigger <trigger-"
+#~ "salesforce>` in Effektif."
+#~ msgstr ""

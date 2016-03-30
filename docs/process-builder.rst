@@ -3,9 +3,9 @@
 Process builder
 ===============
 
-The process builder is used to create and configure executable processes.
-An executable process is similar to software,
-but it’s easier to build automations using processes.
+Use the process builder to create and configure executable processes.
+You can think of an executable process as a kind of software,
+but you will find it easier to build automation using processes.
 With Effektif, non-technical people can create useful processes.
 
 .. include:: process-builder/triggers.rst

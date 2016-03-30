@@ -3,7 +3,7 @@
 Action Types
 ============
 
-Actions are displayed as rounded rectangles in the :ref:`process-builder`.
+The :ref:`process-builder` displays actions as rounded rectangles.
 Actions typically have a configuration panel that opens when you select the action.
 
 .. include:: action-types/user-task.rst

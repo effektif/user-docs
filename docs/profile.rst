@@ -5,7 +5,7 @@ My profile
 
 On the top-right drop-down menu, select `My Profile` 
 to view and edit your own Effektif user settings.
-The profile page is split into four sections:
+The profile page has four sections:
 
 * :ref:`Me <me>`
 * :ref:`Preferences <preferences>`
@@ -42,7 +42,7 @@ Organizations
 -------------
 
 The `Organizations` section lists organizations that you belong to,
-and indicates whether you are an organization administrator.
+and indicates whether you have the organization administrator role.
 
 .. figure:: /_static/images/profile/organizations.png
 

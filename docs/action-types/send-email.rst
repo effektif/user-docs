@@ -24,9 +24,9 @@ Reply to
 Subject
     The email subject line.
     To use :ref:`variables <variables>` in the subject, type a `#` and select a field from the list.
-    If the list is too long, you can just keep typing after the `#` to filter the list.
+    If the list contains too many variables, you can just keep typing after the `#` to filter the list.
     You can use the arrow keys to move the section, and *Enter* to select a field.
-    To remove a variable, just delete it as if it’s normal text.
+    To remove a variable, just delete it the same way you delete normal text.
 
 Attachments
     To add attachments, click the *Attachments* field and select a file field from the list.

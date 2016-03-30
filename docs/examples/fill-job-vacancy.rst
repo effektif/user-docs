@@ -11,7 +11,7 @@ Fill a vacant position within the organisation.
 Context
 ^^^^^^^
 
-The :ref:`Hire employee <hire-employee>` process is driven by job applications, and is suitable for organisations where there are usually open positions and few applicants.
+Job applications drive the :ref:`Hire employee <hire-employee>` process, which makes it suitable for organisations that usually have open positions and few applicants.
 However, some organisations have many applicants as soon as they advertise a vacancy, and can fill it easily.
 In this scenario, an internal requisition for a new position drives the process.
 
@@ -27,7 +27,7 @@ The core process consists of an approval for the requisition, followed by advert
 
 .. figure:: /_static/images/examples/fill-job-vacancy.png
 
-In addition, the vacancy is passed to one or more external recruiters, by email, who may also supply applicants.
+In addition, the hiring organisation passes the vacancy to one or more external recruiters, by email, who may also supply applicants.
 A second email notifies the recruiters when the vacancy has been filled.
 
 Roles

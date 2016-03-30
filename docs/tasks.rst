@@ -3,19 +3,18 @@
 Tasks
 =====
 
-A task represents work that someone is expected to complete.
-:ref:`Cases <cases>` typically include multiple tasks,
-which are usually part of the process definition.
+A task represents work that someone will presumably complete.
+:ref:`cases` typically include multiple tasks, usually those that the process defines.
 You can also add ad-hoc tasks to a case.
 
-In Effektif, a task may be assigned to a specific user, and have a due date and subtasks.
+In Effektif, you can assign a task to a specific user, set a due date and add subtasks.
 
 .. _tasks-inbox:
 
 Viewing your tasks in the Inbox
 -------------------------------
 
-The *Inbox* shows an overview of tasks that are assigned to you:
+The *Inbox* shows an overview of your assigned tasks:
 a list of tasks for you to work on.
 To open the Inbox, select *Tasks* from the main menu
 and select the *Inbox* tab.
@@ -24,14 +23,11 @@ and select the *Inbox* tab.
 
    The tasks Inbox
 
-Each task shows the assignee,
-which is you for everything in the inbox,
-and a link to the task itself.
+Each task shows the assignee - you for all Inbox tasks - and a link to the task itself.
 
-The left-hand side of the inbox is split into sections for tasks that have due dates,
+The left-hand side of the inbox has sections for tasks that have due dates,
 so you can prioritise your work.
-Tasks that are assigned to you, but don’t have a due date,
-are listed on the right.
+The right-hand side lists tasks that don’t have a due date.
 
 
 Viewing all tasks
@@ -45,10 +41,10 @@ The *All tasks* view shows tasks for all assignees.
 
 
 Tasks with due dates have a clock indicator to the right of the task name.
-This indicator is shown in red for tasks that are now due.
+Effektif shows this indicator in red when a task’s due date has arrived.
 
 You can use the controls on the right to filter the tasks list,
-which is useful when there is lots of work going on.
+which you will find useful when the workload increases.
 
 
 Task filters
@@ -60,11 +56,10 @@ that you can use to manage a long list of tasks.
 - *Involvement filter* - shows tasks according to how they relate to you,
   such as tasks you started.
 - *Process* filter - shows tasks for a specific process.
-- *Due date* filter - shows tasks according to when they are due,
-  such as tasks that are overdue.
-- *Completed* filter - shows tasks that are complete,
-  which are normally hidden.
-- *Assignee filter* - shows tasks that are assigned to a specific person, or tasks that have a specific candidate.
+- *Due date* filter - shows tasks according to their due dates,
+  such as only overdue tasks.
+- *Completed* filter - shows complete tasks, which the task list normally excludes.
+- *Assignee filter* - shows tasks that have a specific assignee, or tasks that have a specific candidate.
 
 
 Creating case tasks
@@ -81,14 +76,14 @@ After you have added a task, it appears in the list:
 
 .. figure:: /_static/images/tasks/create/view-task.png
 
-When a process is started, a :ref:`case <cases>` is created and all elements not having incoming transitions will be started.
+When a process starts, Effektif creates a :ref:`case <cases>` and starts all elements that do not have incoming transitions.
 
 
 Assigning tasks
 ---------------
 
-You can assign a task to yourself, or someone else, to indicate who is expected to work on the task.
-An assigned task is listed in the assignee’s :ref:`tasks inbox <tasks-inbox>`,
+You can assign a task to yourself, or someone else, to indicate who you expect to work on the task.
+The assignee’s :ref:`tasks inbox <tasks-inbox>` lists assigned tasks,
 and the assignee receives task :ref:`notifications <notifications>` and :ref:`reminders <reminders>`.
 
 You can assign a task from anywhere a task appears in a task list.
@@ -106,7 +101,7 @@ Setting due dates
 -----------------
 
 You can set a task’s due date,
-to highlight tasks that are overdue in the assignee’s tasks inbox.
+so that the assignee’s tasks inbox highlights overdue tasks.
 To set a task’s due date, open the task, 
 and select the clock icon to open the date selector.
 
@@ -122,20 +117,20 @@ on the user task’s :ref:`reminders <reminders>` tab.
 Completing tasks
 -----------------
 
-For tasks, there is a highlighted `Done` button (the square on the green background) to complete the task.
+Use the highlighted `Done` button (the square on the green background) to complete a task.
 
-When tasks have a form, the form is displayed in the same position and it has the button(s) to complete the task at the bottom of the form.
-Normally there will just be a `Done` button, but there may also be multiple buttons when you use a decision.
+When tasks have a form, the task page displays the form in the same position and includes the button(s) to complete the task at the bottom of the form.
+The task page normally only includes a `Done` button, but will display multiple buttons when you use a decision.
 Each of those buttons will register the decision and complete the task in one go.
 
 
 Reopening tasks
 ---------------
 
-When you see the `Reopen` button in a task, it means the task is completed.
+When you see the `Reopen` button in a task, it means that someone completed the task.
 You may want to reopen a task that you closed a task by accident,
-or when you learn about additional work that needs to be done for this task.
+or when you learn about additional work that belongs to this task.
 If you just forgot to attach a document or make a comment, you can still do that without reopening the task.
 
-The advantage of reopening a task instead of creating a new task is that
+Reopening a task instead of creating a new task has the advantage that
 the existing task retains its context.

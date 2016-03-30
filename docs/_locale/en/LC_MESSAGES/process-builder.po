@@ -15,76 +15,47 @@ msgstr ""
 msgid "Process builder"
 msgstr ""
 
-#: ../../process-builder.rst:6
-msgid ""
-"The process builder is used to create and configure executable processes. An"
-" executable process is similar to software, but it’s easier to build "
-"automations using processes. With Effektif, non-technical people can create "
-"useful processes."
-msgstr ""
-
 #: ../../process-builder/triggers.rst:4 ../../process-builder/triggers.rst:4
 msgid "Triggers"
 msgstr ""
 
-#: ../../process-builder/triggers.rst:6 ../../process-builder/triggers.rst:6
-msgid ""
-"A trigger defines when a process is started. There is no relation between "
-"triggers and BPMN start events. See :ref:`Start event <start-event>`."
-msgstr ""
-
-#: ../../process-builder/triggers.rst:12 ../../process-builder/triggers.rst:12
+#: ../../process-builder/triggers.rst:11 ../../process-builder/triggers.rst:11
 msgid "Manual trigger"
 msgstr ""
 
-#: ../../process-builder/triggers.rst:14 ../../process-builder/triggers.rst:14
-msgid ""
-"A manual trigger is the simplest way to start a process. With a manual "
-"trigger, you start processes manually in Effektif, by selecting `Start new "
-"case` and then selecting the process to start."
-msgstr ""
-
-#: ../../process-builder/triggers.rst:22 ../../process-builder/triggers.rst:22
+#: ../../process-builder/triggers.rst:21 ../../process-builder/triggers.rst:21
 msgid "Form trigger"
 msgstr ""
 
-#: ../../process-builder/triggers.rst:24 ../../process-builder/triggers.rst:24
+#: ../../process-builder/triggers.rst:23 ../../process-builder/triggers.rst:23
 msgid ""
 "With a form trigger, you use a form to start a process. After selecting the "
 "form trigger, you can use the form builder to specify form fields."
 msgstr ""
 
-#: ../../process-builder/triggers.rst:36 ../../process-builder/triggers.rst:36
+#: ../../process-builder/triggers.rst:35 ../../process-builder/triggers.rst:35
 msgid "Email trigger"
 msgstr ""
 
-#: ../../process-builder/triggers.rst:38 ../../process-builder/triggers.rst:38
-msgid ""
-"An email trigger starts a new case for each email that you send to the "
-"trigger‘s Effektif email address. Note this is different from reading an "
-"existing email account, such as your own. After selecting the email trigger,"
-" you can see its email address:"
-msgstr ""
-
-#: ../../process-builder/triggers.rst:44 ../../process-builder/triggers.rst:44
+#: ../../process-builder/triggers.rst:43 ../../process-builder/triggers.rst:43
 msgid "Mail trigger configuration"
 msgstr ""
 
-#: ../../process-builder/triggers.rst:46 ../../process-builder/triggers.rst:46
+#: ../../process-builder/triggers.rst:45 ../../process-builder/triggers.rst:45
 msgid ""
 "The email trigger creates an email variable that stores the email that "
 "started the process."
 msgstr ""
 
-#: ../../process-builder/triggers.rst:59 ../../process-builder/triggers.rst:59
+#: ../../process-builder/triggers.rst:58 ../../process-builder/triggers.rst:58
 msgid "Trigger mail in stream"
 msgstr ""
 
-#: ../../process-builder/triggers.rst:65 ../../process-builder/triggers.rst:65
+#: ../../process-builder/triggers.rst:64 ../../process-builder/triggers.rst:64
 msgid "Salesforce trigger"
 msgstr ""
 
-#: ../../process-builder/triggers.rst:67 ../../process-builder/triggers.rst:67
+#: ../../process-builder/triggers.rst:66 ../../process-builder/triggers.rst:66
 msgid ""
 "A Salesforce trigger starts a new case in response to Salesforce sending an "
 "outbound message as part of a Salesforce workflow. Before you can use a "
@@ -92,44 +63,23 @@ msgid ""
 "integration>`."
 msgstr ""
 
-#: ../../process-builder/triggers.rst:71 ../../process-builder/triggers.rst:71
+#: ../../process-builder/triggers.rst:70 ../../process-builder/triggers.rst:70
 msgid ""
 "When you have configured a Salesforce service, you can select it as a "
 "process trigger, so that messages from Salesforce will now trigger new "
 "cases."
 msgstr ""
 
-#: ../../process-builder/triggers.rst:77 ../../process-builder/triggers.rst:77
+#: ../../process-builder/triggers.rst:76 ../../process-builder/triggers.rst:76
 msgid "Example of a Salesforce trigger"
-msgstr ""
-
-#: ../../process-builder/triggers.rst:79 ../../process-builder/triggers.rst:79
-msgid ""
-"In the process definition, you can use the Salesforce object fields that are"
-" included in the Salesforce message just like normal :ref:`variables "
-"<variables>`."
 msgstr ""
 
 #: ../../process-builder/actions.rst:4 ../../process-builder/actions.rst:4
 msgid "Actions"
 msgstr ""
 
-#: ../../process-builder/actions.rst:6 ../../process-builder/actions.rst:6
-msgid ""
-"Actions are like steps in a process. An action might be a user task in "
-"Effektif, an operation on a file in a document management system or any "
-"other action that represents something to be done in a process."
-msgstr ""
-
 #: ../../process-builder/actions.rst:22 ../../process-builder/actions.rst:22
 msgid "Adding a transition"
-msgstr ""
-
-#: ../../process-builder/actions.rst:24 ../../process-builder/actions.rst:24
-msgid ""
-"You can create a transition in the `Advanced flows` view. A transition "
-"specifies sequential flow, which means the next action only starts when the "
-"previous one is complete."
 msgstr ""
 
 #: ../../process-builder/actions.rst:28 ../../process-builder/actions.rst:28
@@ -164,53 +114,39 @@ msgstr ""
 msgid "Creating the next user task"
 msgstr ""
 
-#: ../../process-builder/actions.rst:50 ../../process-builder/actions.rst:50
-msgid ""
-"There is an easy way to create the next User Task in a process, similar to "
-"creating transitions above. Start by selecting the previous action:"
-msgstr ""
-
-#: ../../process-builder/actions.rst:56 ../../process-builder/actions.rst:56
+#: ../../process-builder/actions.rst:55 ../../process-builder/actions.rst:55
 msgid "Start creating the next user task by dragging the action symbol"
 msgstr ""
 
-#: ../../process-builder/actions.rst:58 ../../process-builder/actions.rst:58
+#: ../../process-builder/actions.rst:57 ../../process-builder/actions.rst:57
 msgid ""
 "Click the rounded rectangle symbol |task-symbol| and drag it to an empty "
 "place on the canvas."
 msgstr ""
 
-#: ../../process-builder/actions.rst:64 ../../process-builder/actions.rst:64
+#: ../../process-builder/actions.rst:63 ../../process-builder/actions.rst:63
 msgid "Drag the rounded rectangle symbol to an empty place"
 msgstr ""
 
-#: ../../process-builder/actions.rst:66 ../../process-builder/actions.rst:66
+#: ../../process-builder/actions.rst:65 ../../process-builder/actions.rst:65
 msgid ""
 "Drop the symbol where you want to create the next user task. Release the "
 "mouse button to create new user task where you dropped it, with a transition"
 " from the previous action."
 msgstr ""
 
-#: ../../process-builder/actions.rst:72 ../../process-builder/actions.rst:72
+#: ../../process-builder/actions.rst:71 ../../process-builder/actions.rst:71
 msgid "Adding the next user task and its transition at the same time"
 msgstr ""
 
-#: ../../process-builder/actions.rst:74 ../../process-builder/actions.rst:74
+#: ../../process-builder/actions.rst:73 ../../process-builder/actions.rst:73
 msgid ""
 "Alternatively, just click the user task icon |task-symbol| to create a new "
 "user task in the default location, with a transition."
 msgstr ""
 
-#: ../../process-builder/actions.rst:79 ../../process-builder/actions.rst:79
+#: ../../process-builder/actions.rst:78 ../../process-builder/actions.rst:78
 msgid "Control flow elements"
-msgstr ""
-
-#: ../../process-builder/actions.rst:81 ../../process-builder/actions.rst:81
-msgid ""
-"Control flow elements like events and gateways are also part of the diagram,"
-" but unlike actions, control flow elements don’t represent something that "
-"should happen. Instead, you use events and gateways to specify the flow "
-"between the actions."
 msgstr ""
 
 #: ../../process-builder/variables.rst:2 ../../process-builder/variables.rst:2
@@ -228,7 +164,7 @@ msgid ""
 " assignee."
 msgstr ""
 
-#: ../../process-builder/triggers.rst:29 ../../process-builder/triggers.rst:29
+#: ../../process-builder/triggers.rst:28 ../../process-builder/triggers.rst:28
 msgid ""
 "Form trigger configuration - using the form builder to define a trigger form"
 msgstr ""
@@ -244,17 +180,9 @@ msgid ""
 "workflow"
 msgstr ""
 
-#: ../../process-builder/roles.rst:47 ../../process-builder/roles.rst:47
+#: ../../process-builder/roles.rst:48 ../../process-builder/roles.rst:48
 msgid ""
 "Assigning a task to a *Support engineer* role with candidates Alice and Ben"
-msgstr ""
-
-#: ../../process-builder/variables.rst:4 ../../process-builder/variables.rst:4
-msgid ""
-"A process has variables that store workflow data when the process runs. All "
-"the information in forms and information required by the actions will be "
-"connected to these variables. Each case stores its own values for each "
-"workflow variable."
 msgstr ""
 
 #: ../../process-builder/variables.rst:12
@@ -267,22 +195,6 @@ msgstr ""
 
 #: ../../process-builder/roles.rst:62 ../../process-builder/roles.rst:62
 msgid "Using a form field to assign a role"
-msgstr ""
-
-#: ../../process-builder/roles.rst:64 ../../process-builder/roles.rst:64
-msgid ""
-"When you execute a process, you normally assign a specific person to a role "
-"by using the assignee button to select someone. Sometimes, you want this "
-"assignment to an explicit part of the process, to make sure the assignment "
-"happens at the right time. For example, it may be important to assign the "
-"*Support engineer* before completing an *Initial investigation* task."
-msgstr ""
-
-#: ../../process-builder/roles.rst:71 ../../process-builder/roles.rst:71
-msgid ""
-"You can do this by adding the role assignment to a form, because a task "
-"assignment role is a process variable, just like any other *User* form "
-"field."
 msgstr ""
 
 #: ../../process-builder/roles.rst:77 ../../process-builder/roles.rst:77
@@ -300,110 +212,71 @@ msgstr ""
 msgid "Versions"
 msgstr ""
 
-#: ../../process-builder/versions.rst:6 ../../process-builder/versions.rst:6
-msgid ""
-"When you use the Effektif process editor to edit your process model, all of "
-"your changes are saved immediately. You can go back and edit the process "
-"again later, and it will be just as you left it. However, to execute a "
-"process by starting a new case you need a published version."
-msgstr ""
-
-#: ../../process-builder/versions.rst:13 ../../process-builder/versions.rst:13
+#: ../../process-builder/versions.rst:12 ../../process-builder/versions.rst:12
 msgid "Publishing a process version"
 msgstr ""
 
-#: ../../process-builder/versions.rst:15 ../../process-builder/versions.rst:15
-msgid ""
-"The process editor’s `Versions` tab shows a list of published versions. "
-"Until you publish the first version, this page shows a message that there "
-"are ‘no published versions’ of the process."
-msgstr ""
-
-#: ../../process-builder/versions.rst:21 ../../process-builder/versions.rst:21
+#: ../../process-builder/versions.rst:20 ../../process-builder/versions.rst:20
 msgid "The process editor’s `Versions` tab with no published versions"
 msgstr ""
 
-#: ../../process-builder/versions.rst:23 ../../process-builder/versions.rst:23
-msgid ""
-"You can only start a new case for a process that has a published version, "
-"which is why the light green button text is ‘Publish to run this process’. "
-"After you publish the first version, the list shows version #1 and you can "
-"start a new case using that version."
-msgstr ""
-
-#: ../../process-builder/versions.rst:30 ../../process-builder/versions.rst:30
+#: ../../process-builder/versions.rst:29 ../../process-builder/versions.rst:29
 msgid "The `Versions` list after publishing the first version"
 msgstr ""
 
-#: ../../process-builder/versions.rst:32 ../../process-builder/versions.rst:32
+#: ../../process-builder/versions.rst:31 ../../process-builder/versions.rst:31
 msgid ""
 "Version #1 always has the description `Initial version`. For later versions,"
 " you can add your own description."
 msgstr ""
 
-#: ../../process-builder/versions.rst:36 ../../process-builder/versions.rst:36
+#: ../../process-builder/versions.rst:35 ../../process-builder/versions.rst:35
 msgid "Adding version comments"
 msgstr ""
 
-#: ../../process-builder/versions.rst:38 ../../process-builder/versions.rst:38
+#: ../../process-builder/versions.rst:37 ../../process-builder/versions.rst:37
 msgid ""
 "After the first published version, you can add a comment to describe the "
 "changes when you publish a new version of a process."
 msgstr ""
 
-#: ../../process-builder/versions.rst:43 ../../process-builder/versions.rst:43
+#: ../../process-builder/versions.rst:42 ../../process-builder/versions.rst:42
 msgid ""
 "The `Publish changes` prompt, where you can add an optional version comment"
 msgstr ""
 
-#: ../../process-builder/versions.rst:45 ../../process-builder/versions.rst:45
-msgid ""
-"The version comment is not required, but it helps collaboration between team"
-" members by making process modelling more transparent."
-msgstr ""
-
-#: ../../process-builder/versions.rst:51 ../../process-builder/versions.rst:51
+#: ../../process-builder/versions.rst:50 ../../process-builder/versions.rst:50
 msgid "Published versions with descriptive version comments"
 msgstr ""
 
-#: ../../process-builder/versions.rst:53 ../../process-builder/versions.rst:53
+#: ../../process-builder/versions.rst:52 ../../process-builder/versions.rst:52
 msgid ""
 "In this example, each version has a short comment that describes the "
 "changes."
 msgstr ""
 
-#: ../../process-builder/versions.rst:56 ../../process-builder/versions.rst:56
+#: ../../process-builder/versions.rst:55 ../../process-builder/versions.rst:55
 msgid "Writing good version comments"
 msgstr ""
 
-#: ../../process-builder/versions.rst:58 ../../process-builder/versions.rst:58
+#: ../../process-builder/versions.rst:57 ../../process-builder/versions.rst:57
 msgid ""
 "When you write version comments, use the following tips to make them more "
 "consistent and useful."
 msgstr ""
 
-#: ../../process-builder/versions.rst:62 ../../process-builder/versions.rst:62
+#: ../../process-builder/versions.rst:61 ../../process-builder/versions.rst:61
 msgid ""
 "Capitalise the first word and don’t include a full-stop at the end, for "
 "consistency."
 msgstr ""
 
-#: ../../process-builder/versions.rst:64 ../../process-builder/versions.rst:64
-msgid ""
-"Be specific about what you changed, instead of vaguely referring to "
-"‘changes’."
-msgstr ""
-
-#: ../../process-builder/versions.rst:66 ../../process-builder/versions.rst:66
-msgid "Be concise; 3-10 words is usually about right."
-msgstr ""
-
-#: ../../process-builder/versions.rst:67 ../../process-builder/versions.rst:67
+#: ../../process-builder/versions.rst:65 ../../process-builder/versions.rst:65
 msgid ""
 "Consider making the comment longer to explain why you made this change."
 msgstr ""
 
-#: ../../process-builder/versions.rst:69 ../../process-builder/versions.rst:69
+#: ../../process-builder/versions.rst:67 ../../process-builder/versions.rst:67
 msgid ""
 "You may find it easier to publish a series of small changes, creating a "
 "number of intermediate versions instead of one big change. Fine-grained "
@@ -419,14 +292,6 @@ msgstr ""
 #: ../../process-builder/bpmn-export.rst:16
 msgid ""
 "Using the `Export BPMN 2.0 XML` option to save a process model in a file"
-msgstr ""
-
-#: ../../process-builder/bpmn-export.rst:18
-#: ../../process-builder/bpmn-export.rst:18
-msgid ""
-"This results in a file download that describes your process model in BPMN "
-"format. There’s only one kind of BPMN file, so there aren’t any options to "
-"configure."
 msgstr ""
 
 #: ../../process-builder/bpmn-export.rst:10
@@ -446,31 +311,6 @@ msgid ""
 "decisions and other control flow behaviour."
 msgstr ""
 
-#: ../../process-builder/triggers.rst:49 ../../process-builder/triggers.rst:49
-msgid ""
-"One way to use an email trigger is to add the trigger email address to a "
-"mailing list, such as `support@example.com `or `info@example.com`. You’ll "
-"have to ask the administrator of the mailing list to add the process "
-"trigger’s email address to the list. Once you have done this, email sent to "
-"the mailing list will also be forwarded to the process trigger address, "
-"starting the process in Effektif. You will then see the email in the event "
-"stream:"
-msgstr ""
-
-#: ../../process-builder/roles.rst:6 ../../process-builder/roles.rst:6
-msgid ""
-"A role is a process-specific name for whoever performs one or more process "
-"tasks. You can optionally configure a role with a list of canidates. Roles "
-"are equivalent to swimlanes in BPMN."
-msgstr ""
-
-#: ../../process-builder/roles.rst:10 ../../process-builder/roles.rst:10
-msgid ""
-"For example, when you have a meeting, one person sometimes takes the role of"
-" chairperson. That person doesn’t have the job title *Meeting chair* - it’s "
-"just a role they’ve adopted for the length of the meeting."
-msgstr ""
-
 #: ../../process-builder/roles.rst:13 ../../process-builder/roles.rst:13
 msgid ""
 "A process in Effektif can define roles, in the same way that a business "
@@ -486,74 +326,35 @@ msgid ""
 "(bottom row) roles"
 msgstr ""
 
-#: ../../process-builder/roles.rst:20 ../../process-builder/roles.rst:20
-msgid ""
-"In each meeting (each :ref:`cases <cases>` in Effektif), one person is "
-"assigned as chair, and one as secretary. These assignments generally don’t "
-"change during a meeting. Similarly, Effektif role assignments don’t change "
-"during a case: each new task with a role assignment is automatically "
-"assigned to the person who the role was assigned to."
-msgstr ""
-
-#: ../../process-builder/roles.rst:23 ../../process-builder/roles.rst:23
-msgid ""
-"In Effektif, a process role is a kind of workflow variable that is used for "
-"assigning tasks. A role is a variable of type user that stores a single "
-"user."
-msgstr ""
-
-#: ../../process-builder/roles.rst:26 ../../process-builder/roles.rst:26
-msgid ""
-"These process roles are not the same as organization roles. For example, you"
-" can be a *Team lead* in your organization, which can be a position without "
-"an end date. A process role, such as *Meeting chair*, has a different scope "
-"and only applies for the duration of a single case."
-msgstr ""
-
-#: ../../process-builder/roles.rst:31 ../../process-builder/roles.rst:31
+#: ../../process-builder/roles.rst:32 ../../process-builder/roles.rst:32
 msgid ""
 "To assign a role to a user task, open the task’s configuration panel, select"
 " the `Assignment` tab, and use the `Assign using a role` menu on the right-"
 "hand side."
 msgstr ""
 
-#: ../../process-builder/roles.rst:35 ../../process-builder/roles.rst:35
+#: ../../process-builder/roles.rst:36 ../../process-builder/roles.rst:36
 msgid ""
 "To assign a role, use the menu to create a new role or select an existing "
 "role"
 msgstr ""
 
-#: ../../process-builder/roles.rst:37 ../../process-builder/roles.rst:37
+#: ../../process-builder/roles.rst:38 ../../process-builder/roles.rst:38
 msgid ""
 "You can also use the edit icon next to the role name to rename the role."
 msgstr ""
 
-#: ../../process-builder/roles.rst:40 ../../process-builder/roles.rst:40
+#: ../../process-builder/roles.rst:41 ../../process-builder/roles.rst:41
 msgid "Role candidates"
 msgstr ""
 
-#: ../../process-builder/roles.rst:42 ../../process-builder/roles.rst:42
-msgid ""
-"You can use a role to assign multiple tasks a person from a group of "
-"candidates. For example, you might have a support process that includes "
-"three user tasks that are assigned to a support engineer."
-msgstr ""
-
-#: ../../process-builder/roles.rst:49 ../../process-builder/roles.rst:49
+#: ../../process-builder/roles.rst:50 ../../process-builder/roles.rst:50
 msgid ""
 "Instead, assign the three tasks to a new role called ‘Support engineer’, and"
 " add the relevant people as candidates for the role."
 msgstr ""
 
-#: ../../process-builder/roles.rst:52 ../../process-builder/roles.rst:52
-msgid ""
-"Creating the first task that has a role will notify all of the candidates "
-"for the role. When one of the candidates takes the task, the subsequent "
-"tasks with the same role will be assigned to the same person. That’s more "
-"efficient because this person has the context knowledge about that case."
-msgstr ""
-
-#: ../../process-builder/versions.rst:61 ../../process-builder/versions.rst:61
+#: ../../process-builder/versions.rst:60 ../../process-builder/versions.rst:60
 msgid ""
 "Make the comment an imperative phrase that starts with a word like ‘Add’ or "
 "‘Fix’."
@@ -561,37 +362,6 @@ msgstr ""
 
 #: ../../process-builder/locking.rst:4 ../../process-builder/locking.rst:4
 msgid "Process locking"
-msgstr ""
-
-#: ../../process-builder/locking.rst:6 ../../process-builder/locking.rst:6
-msgid ""
-"In the process builder, only one person can edit a process at a time. When "
-"someone else is editing a process, there is a message in the `Processes` "
-"list."
-msgstr ""
-
-#: ../../process-builder/locking.rst:12 ../../process-builder/locking.rst:12
-msgid ""
-"The `Processes` list message when someone else `is currently working on this"
-" process`"
-msgstr ""
-
-#: ../../process-builder/locking.rst:14 ../../process-builder/locking.rst:14
-msgid ""
-"You can still open the process, but you will see a warning message "
-"explaining that you will not be able to make changes:"
-msgstr ""
-
-#: ../../process-builder/locking.rst:19 ../../process-builder/locking.rst:19
-msgid ""
-"Warning that you will not be able to make edit a process at the same time as"
-" someone else"
-msgstr ""
-
-#: ../../process-builder/locking.rst:21 ../../process-builder/locking.rst:21
-msgid ""
-"You will be able to edit the process and make changes after the other person"
-" leaves the process editor, by opening the `Tasks` list, for example."
 msgstr ""
 
 #: ../../process-builder/bpmn-import.rst:4
@@ -636,20 +406,6 @@ msgstr ""
 msgid "tasks become :ref:`user tasks <user-task>` in Effektif"
 msgstr ""
 
-#: ../../process-builder/bpmn-import.rst:23
-#: ../../process-builder/bpmn-import.rst:23
-msgid "unsupported elements, such as timer events, are removed."
-msgstr ""
-
-#: ../../process-builder/bpmn-export.rst:6
-#: ../../process-builder/bpmn-export.rst:6
-msgid ""
-"You can export an Effektif process model as a BPMN 2.0 XML file. This is "
-"useful if you want to open the model in another tool that supports BPMN, or "
-"to make a backup that you can load using the :ref:`BPMN import <bpmn-"
-"import>` option."
-msgstr ""
-
 #: ../../process-builder/copy-delete.rst:4
 #: ../../process-builder/copy-delete.rst:4
 msgid "Copying & deleting processes"
@@ -660,16 +416,6 @@ msgstr ""
 msgid ""
 "You can create a copy of a process or delete it using the process menu shown"
 " in the previous section."
-msgstr ""
-
-#: ../../process-builder/copy-delete.rst:8
-#: ../../process-builder/copy-delete.rst:8
-msgid ""
-"The `Create a copy` option duplicates the process in the same organisation. "
-"You may find it useful to duplicate a process if you want to experiment with"
-" changes without publishing changes to a process that people are using. You "
-"may also want to duplicate a process to model a special case of the process,"
-" instead of adding a conditional flow to the standard process."
 msgstr ""
 
 #: ../../process-builder/copy-delete.rst:12
@@ -698,6 +444,489 @@ msgid ""
 "select the *Support engineer* role on another user task’s *General* "
 "configuration."
 msgstr ""
+
+#: ../../process-builder/actions.rst:6 ../../process-builder/actions.rst:6
+msgid ""
+"You can think of actions like steps in a process. Action include things like"
+" user tasks in Effektif, operations on a file in a document management "
+"system or any other actions that represent work that someone will perform as"
+" part of a process."
+msgstr ""
+
+#: ../../process-builder/actions.rst:24 ../../process-builder/actions.rst:24
+msgid ""
+"You can create a transition in the `Advanced flows` view. A transition "
+"specifies sequential flow, which means the next action only starts when "
+"someone has completed the previous one."
+msgstr ""
+
+#: ../../process-builder/actions.rst:50 ../../process-builder/actions.rst:50
+msgid ""
+"You can easily create the next User Task in a process in the same way you "
+"created transitions, above. Start by selecting the previous action:"
+msgstr ""
+
+#: ../../process-builder/actions.rst:80 ../../process-builder/actions.rst:80
+msgid ""
+"The diagram also includes control flow elements, such as events and "
+"gateways. Unlike actions, control flow elements don’t represent something "
+"that should happen. Instead, you use events and gateways to specify the flow"
+" between the actions."
+msgstr ""
+
+#: ../../process-builder/roles.rst:6 ../../process-builder/roles.rst:6
+msgid ""
+"Creating a role gives a process-specific name to whoever performs one or "
+"more process tasks. You can optionally configure a role with a list of "
+"canidates. Roles have the same function as swimlanes in BPMN."
+msgstr ""
+
+#: ../../process-builder/roles.rst:10 ../../process-builder/roles.rst:10
+msgid ""
+"For example, when you have a meeting, one person sometimes takes the role of"
+" chairperson. That person doesn’t have the job title *Meeting chair* - "
+"they’ve just adopted that role for the duration of the meeting."
+msgstr ""
+
+#: ../../process-builder/locking.rst:6 ../../process-builder/locking.rst:6
+msgid ""
+"In the process builder, only one person can edit a process at a time. While "
+"someone continues to edit a process, the `Processes` list shows a message."
+msgstr ""
+
+#: ../../process-builder/locking.rst:11 ../../process-builder/locking.rst:11
+msgid "The `Processes` list message while someone else edits the process"
+msgstr ""
+
+#: ../../process-builder/locking.rst:13 ../../process-builder/locking.rst:13
+msgid ""
+"You can still open the process, but you will see a warning message "
+"explaining that you cannot make changes:"
+msgstr ""
+
+#: ../../process-builder/locking.rst:18 ../../process-builder/locking.rst:18
+msgid ""
+"Warning that you cannot edit a process at the same time as someone else"
+msgstr ""
+
+#: ../../process-builder/locking.rst:20 ../../process-builder/locking.rst:20
+msgid ""
+"You can edit the process and make changes after the other person leaves the "
+"process editor, by opening the `Tasks` list, for example."
+msgstr ""
+
+#: ../../process-builder/bpmn-import.rst:23
+#: ../../process-builder/bpmn-import.rst:23
+msgid "Effektif removes unsupported elements, such as timer events."
+msgstr ""
+
+#: ../../process-builder/bpmn-export.rst:6
+#: ../../process-builder/bpmn-export.rst:6
+msgid ""
+"You can export an Effektif process model as a BPMN 2.0 XML file. You may "
+"find this useful for opening the model in another tool that supports BPMN, "
+"or to make a backup that you can load using the :ref:`BPMN import <bpmn-"
+"import>` option."
+msgstr ""
+
+#: ../../process-builder/bpmn-export.rst:18
+#: ../../process-builder/bpmn-export.rst:18
+msgid ""
+"This results in a file download that describes your process model in BPMN "
+"format. Effektif only exports one kind of BPMN file, so it doesn’t give you "
+"any options to configure."
+msgstr ""
+
+#: ../../process-builder/copy-delete.rst:8
+#: ../../process-builder/copy-delete.rst:8
+msgid ""
+"The `Create a copy` option duplicates the process in the same organisation. "
+"You may find it useful to duplicate a process if you want to experiment with"
+" changes without publishing changes to a live process. You may also want to "
+"duplicate a process to model a special case of the process, instead of "
+"adding a conditional flow to the standard process."
+msgstr ""
+
+#: ../../process-builder/roles.rst:20 ../../process-builder/roles.rst:20
+msgid ""
+"In each meeting (each :ref:`case <cases>` in Effektif), one person takes the"
+" role of chair, and one the role of secretary. These assignments generally "
+"don’t change during a meeting. Similarly, Effektif role assignments don’t "
+"change during a case. Effektif automatically assigns each new task with a "
+"role assignment to the person who already has the role."
+msgstr ""
+
+#: ../../process-builder/roles.rst:25 ../../process-builder/roles.rst:25
+msgid ""
+"In Effektif, a process role works like a workflow variable that you use to "
+"assigning tasks. A role variable has the :ref:`type-user` and stores a "
+"single user."
+msgstr ""
+
+#: ../../process-builder/roles.rst:28 ../../process-builder/roles.rst:28
+msgid ""
+"These process roles differ from organization roles. For example, you can "
+"have the *Team lead* role in your organization, an assignment that does not "
+"necessarily have an end date. A process role, such as *Meeting chair*, has a"
+" different scope and only applies for the duration of a single case."
+msgstr ""
+
+#: ../../process-builder/roles.rst:43 ../../process-builder/roles.rst:43
+msgid ""
+"You can use a role to assign multiple tasks a person from a group of "
+"candidates. For example, you might have a support process that includes "
+"three user tasks that you assign to a support engineer."
+msgstr ""
+
+#: ../../process-builder/roles.rst:53 ../../process-builder/roles.rst:53
+msgid ""
+"Creating the first task that has a role will notify all of the candidates "
+"for the role. When one of the candidates takes the task, Effektif will "
+"assign the subsequent tasks with the same role to the same person. That "
+"helps this person work more efficiently because they have the context "
+"knowledge about that case."
+msgstr ""
+
+#: ../../process-builder/roles.rst:64 ../../process-builder/roles.rst:64
+msgid ""
+"When you execute a process, you normally assign a specific person to a role "
+"by using the assignee button to select someone. Sometimes, you want this "
+"assignment to an explicit part of the process, to make sure the assignment "
+"happens at the right time. For example, you may find it important to assign "
+"the *Support engineer* before completing an *Initial investigation* task."
+msgstr ""
+
+#: ../../process-builder/roles.rst:71 ../../process-builder/roles.rst:71
+msgid ""
+"You can do this by adding the role assignment to a form, because you can use"
+" task assignment roles as process variables, just like any other *User* form"
+" field."
+msgstr ""
+
+#: ../../process-builder.rst:6
+msgid ""
+"Use the process builder to create and configure executable processes. You "
+"can think of an executable process as a kind of software, but you will find "
+"it easier to build automation using processes. With Effektif, non-technical "
+"people can create useful processes."
+msgstr ""
+
+#: ../../process-builder/triggers.rst:13 ../../process-builder/triggers.rst:13
+msgid ""
+"A manual trigger gives you the simplest way to start a process. With a "
+"manual trigger, you start processes manually in Effektif, by selecting "
+"`Start new case` and then selecting the process to start."
+msgstr ""
+
+#: ../../process-builder/triggers.rst:37 ../../process-builder/triggers.rst:37
+msgid ""
+"An email trigger starts a new case for each email that you send to the "
+"trigger’s Effektif email address. Note this differs from reading an existing"
+" email account, such as your own. After selecting the email trigger, you can"
+" see its email address:"
+msgstr ""
+
+#: ../../process-builder/triggers.rst:48 ../../process-builder/triggers.rst:48
+msgid ""
+"You can use an email trigger by adding the trigger email address to a "
+"mailing list, such as `support@example.com `or `info@example.com`. You’ll "
+"have to ask the administrator of the mailing list to add the process "
+"trigger’s email address to the list. Once you have done this, the process "
+"trigger address will also receive any email sent to the mailing list, "
+"starting the process in Effektif. You will then see the email in the event "
+"stream:"
+msgstr ""
+
+#: ../../process-builder/triggers.rst:78 ../../process-builder/triggers.rst:78
+msgid ""
+"In the process definition, you can use the Salesforce object fields from the"
+" Salesforce message just like normal :ref:`variables <variables>`."
+msgstr ""
+
+#: ../../process-builder/variables.rst:4 ../../process-builder/variables.rst:4
+msgid ""
+"A process has variables that store workflow data when the process runs. "
+"These variables contain all of the information from forms as well as "
+"information required by the process actions. Each case stores its own values"
+" for each workflow variable."
+msgstr ""
+
+#: ../../process-builder/versions.rst:6 ../../process-builder/versions.rst:6
+msgid ""
+"When you use the process editor to edit your process model, Effektif saves "
+"all of your changes immediately. You can go back and edit the process again "
+"later, and it will not have changed. However, to execute a process by "
+"starting a new case you need a published version."
+msgstr ""
+
+#: ../../process-builder/versions.rst:14 ../../process-builder/versions.rst:14
+msgid ""
+"The process editor’s `Versions` tab shows a list of published versions. "
+"Until you publish the first version, this page shows a message that there "
+"the process has ‘no published versions’."
+msgstr ""
+
+#: ../../process-builder/versions.rst:22 ../../process-builder/versions.rst:22
+msgid ""
+"You can only start a new case for a process that has a published version, "
+"hence the light green button displays ‘Publish to run this process’. After "
+"you publish the first version, the list shows version #1 and you can start a"
+" new case using that version."
+msgstr ""
+
+#: ../../process-builder/versions.rst:44 ../../process-builder/versions.rst:44
+msgid ""
+"You can omit the version comment, but it helps collaboration between team "
+"members by making process modelling more transparent."
+msgstr ""
+
+#: ../../process-builder/versions.rst:63 ../../process-builder/versions.rst:63
+msgid "Describe specifics, instead of vaguely referring to ‘changes’."
+msgstr ""
+
+#: ../../process-builder/versions.rst:64 ../../process-builder/versions.rst:64
+msgid "Keep it short; 3-10 words usually suffice."
+msgstr ""
+
+#: ../../process-builder/triggers.rst:6 ../../process-builder/triggers.rst:6
+msgid ""
+"A trigger in a process specifies how the process starts. Triggers do not "
+"have any relation to :ref:`start events <start-event>`."
+msgstr ""
+
+#~ msgid ""
+#~ "A trigger defines when a process starts. Triggers do not have any relation "
+#~ "to BPMN :ref:`start events <start-event>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The process builder is used to create and configure executable processes. An"
+#~ " executable process is similar to software, but it’s easier to build "
+#~ "automations using processes. With Effektif, non-technical people can create "
+#~ "useful processes."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A manual trigger is the simplest way to start a process. With a manual "
+#~ "trigger, you start processes manually in Effektif, by selecting `Start new "
+#~ "case` and then selecting the process to start."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "An email trigger starts a new case for each email that you send to the "
+#~ "trigger‘s Effektif email address. Note this is different from reading an "
+#~ "existing email account, such as your own. After selecting the email trigger,"
+#~ " you can see its email address:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the process definition, you can use the Salesforce object fields that are"
+#~ " included in the Salesforce message just like normal :ref:`variables "
+#~ "<variables>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A process has variables that store workflow data when the process runs. All "
+#~ "the information in forms and information required by the actions will be "
+#~ "connected to these variables. Each case stores its own values for each "
+#~ "workflow variable."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you use the Effektif process editor to edit your process model, all of "
+#~ "your changes are saved immediately. You can go back and edit the process "
+#~ "again later, and it will be just as you left it. However, to execute a "
+#~ "process by starting a new case you need a published version."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The process editor’s `Versions` tab shows a list of published versions. "
+#~ "Until you publish the first version, this page shows a message that there "
+#~ "are ‘no published versions’ of the process."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can only start a new case for a process that has a published version, "
+#~ "which is why the light green button text is ‘Publish to run this process’. "
+#~ "After you publish the first version, the list shows version #1 and you can "
+#~ "start a new case using that version."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The version comment is not required, but it helps collaboration between team"
+#~ " members by making process modelling more transparent."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Be specific about what you changed, instead of vaguely referring to "
+#~ "‘changes’."
+#~ msgstr ""
+
+#~ msgid "Be concise; 3-10 words is usually about right."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "One way to use an email trigger is to add the trigger email address to a "
+#~ "mailing list, such as `support@example.com `or `info@example.com`. You’ll "
+#~ "have to ask the administrator of the mailing list to add the process "
+#~ "trigger’s email address to the list. Once you have done this, email sent to "
+#~ "the mailing list will also be forwarded to the process trigger address, "
+#~ "starting the process in Effektif. You will then see the email in the event "
+#~ "stream:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A trigger defines when a process is started. There is no relation between "
+#~ "triggers and BPMN start events. See :ref:`Start event <start-event>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you execute a process, you normally assign a specific person to a role "
+#~ "by using the assignee button to select someone. Sometimes, you want this "
+#~ "assignment to an explicit part of the process, to make sure the assignment "
+#~ "happens at the right time. For example, it may be important to assign the "
+#~ "*Support engineer* before completing an *Initial investigation* task."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can do this by adding the role assignment to a form, because a task "
+#~ "assignment role is a process variable, just like any other *User* form "
+#~ "field."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "These process roles are not the same as organization roles. For example, you"
+#~ " can be a *Team lead* in your organization, which can be a position without "
+#~ "an end date. A process role, such as *Meeting chair*, has a different scope "
+#~ "and only applies for the duration of a single case."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can use a role to assign multiple tasks a person from a group of "
+#~ "candidates. For example, you might have a support process that includes "
+#~ "three user tasks that are assigned to a support engineer."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Creating the first task that has a role will notify all of the candidates "
+#~ "for the role. When one of the candidates takes the task, the subsequent "
+#~ "tasks with the same role will be assigned to the same person. That’s more "
+#~ "efficient because this person has the context knowledge about that case."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In each meeting (each :ref:`cases <cases>` in Effektif), one person takes "
+#~ "the role of chair, and one the role of secretary. These assignments "
+#~ "generally don’t change during a meeting. Similarly, Effektif role "
+#~ "assignments don’t change during a case. Effektif automatically assigns each "
+#~ "new task with a role assignment to the person who already has the role."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In Effektif, a process role works like a workflow variable that you use to "
+#~ "assigning tasks. A role has the :ref:`type-user` variable type and stores a "
+#~ "single user."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Actions are like steps in a process. An action might be a user task in "
+#~ "Effektif, an operation on a file in a document management system or any "
+#~ "other action that represents something to be done in a process."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can create a transition in the `Advanced flows` view. A transition "
+#~ "specifies sequential flow, which means the next action only starts when the "
+#~ "previous one is complete."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "There is an easy way to create the next User Task in a process, similar to "
+#~ "creating transitions above. Start by selecting the previous action:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Control flow elements like events and gateways are also part of the diagram,"
+#~ " but unlike actions, control flow elements don’t represent something that "
+#~ "should happen. Instead, you use events and gateways to specify the flow "
+#~ "between the actions."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This results in a file download that describes your process model in BPMN "
+#~ "format. There’s only one kind of BPMN file, so there aren’t any options to "
+#~ "configure."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A role is a process-specific name for whoever performs one or more process "
+#~ "tasks. You can optionally configure a role with a list of canidates. Roles "
+#~ "are equivalent to swimlanes in BPMN."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For example, when you have a meeting, one person sometimes takes the role of"
+#~ " chairperson. That person doesn’t have the job title *Meeting chair* - it’s "
+#~ "just a role they’ve adopted for the length of the meeting."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In each meeting (each :ref:`cases <cases>` in Effektif), one person is "
+#~ "assigned as chair, and one as secretary. These assignments generally don’t "
+#~ "change during a meeting. Similarly, Effektif role assignments don’t change "
+#~ "during a case: each new task with a role assignment is automatically "
+#~ "assigned to the person who the role was assigned to."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In Effektif, a process role is a kind of workflow variable that is used for "
+#~ "assigning tasks. A role is a variable of type user that stores a single "
+#~ "user."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the process builder, only one person can edit a process at a time. When "
+#~ "someone else is editing a process, there is a message in the `Processes` "
+#~ "list."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The `Processes` list message when someone else `is currently working on this"
+#~ " process`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can still open the process, but you will see a warning message "
+#~ "explaining that you will not be able to make changes:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Warning that you will not be able to make edit a process at the same time as"
+#~ " someone else"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You will be able to edit the process and make changes after the other person"
+#~ " leaves the process editor, by opening the `Tasks` list, for example."
+#~ msgstr ""
+
+#~ msgid "unsupported elements, such as timer events, are removed."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can export an Effektif process model as a BPMN 2.0 XML file. This is "
+#~ "useful if you want to open the model in another tool that supports BPMN, or "
+#~ "to make a backup that you can load using the :ref:`BPMN import <bpmn-"
+#~ "import>` option."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The `Create a copy` option duplicates the process in the same organisation. "
+#~ "You may find it useful to duplicate a process if you want to experiment with"
+#~ " changes without publishing changes to a process that people are using. You "
+#~ "may also want to duplicate a process to model a special case of the process,"
+#~ " instead of adding a conditional flow to the standard process."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Alternatively, you can first define the *Support engineer* role by adding a "

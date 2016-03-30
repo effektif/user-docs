@@ -4,9 +4,9 @@ Notifications
 ===================
 
 Effektif sends a variety of email notifications,
-to keep process participants up-to-date with cases they are involved in
+to keep process participants up-to-date with cases they work on
 and to avoid task handover delays,
-when a task is assigned to someone.
+when someone assigns a task.
 
 .. _task-created:
 
@@ -15,7 +15,7 @@ Task created
 
 This notification indicates that a new task has been created within a case.
 
-Effektif sends this notification to the task’s default assignee, if there is one.
+Effektif sends this notification to the task’s default assignee, if the task has one.
 Effektif also sends this notification to each of the task candidates,
 or every member of each candidate group, if defined.
 
@@ -45,12 +45,10 @@ Effektif does not send this notification if you disable `Receive notifications v
 Reminder scheduled
 ------------------
 
-This notification is a scheduled reminder that a task is open.
+This notification reminds case participants that a task remains open.
 
-Effektif sends this notification to the task’s assignee if the task is assigned,
-or to all of the task’s candidates if the task it not assigned.
-If the task is unassigned and there are no candidates,
-Effektif sends the notification to the process’ owner.
+Effektif sends this notification to the task’s assignee when someone assigns the task, or to all of the task’s candidates if the task does not have an assignee.
+If the task does not have an assignee or candidates, Effektif sends the notification to the process’ owner.
 
 
 Task escalated
@@ -59,10 +57,10 @@ Task escalated
 This notification indicates that an open task has reached its escalation deadline.
 
 Effektif sends this notification to the task’s new assignee,
-who the task is being escalated to,
+as configured in the user task,
 or every member of each candidate group, if defined.
 
-Effektif always sends this notification, even if `Receive notifications via email` is disabled.
+Effektif always sends this notification, even if recipients have disabled `Receive notifications via email`.
 
 
 New user registered
@@ -105,12 +103,12 @@ This notification indicates that access to an external service,
 such as :ref:`Google Drive <google-drive>`,
 has expired.
 
-Effektif sends this notification to the Effektif user whose external service account is used.
+Effektif sends this notification to the Effektif user who configured their external service account.
 
 
 License about to expire
 -----------------------
 
-This notification indicates that an Effektif license is about to expire.
+This notification indicates that an Effektif license will soon expire.
 
 Effektif sends this notification to the administrators of the the Effektif organisation whose license will expire.

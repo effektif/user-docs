@@ -17,7 +17,7 @@ This may take some time, if a backlog has built up, in which case the requester 
 Trigger
 ^^^^^^^
 
-*Manual* - the requester uploads a document to be signed.
+*Manual* - the requester uploads a document for a manager to sign.
 
 Actions
 ^^^^^^^
@@ -31,7 +31,7 @@ This process includes three additional scenarios:
 
 #. The signer requests that someone else sign the document, and reassigns the *Signer* role.
 #. The signer requests a change to the document, and the requester gets a new task to update the document.
-#. The signer declines to sign the document, and the requester is notified.
+#. The signer declines to sign the document, and the requester receives a notification.
 
 Roles
 ^^^^^
@@ -42,7 +42,7 @@ Roles
 Fields
 ^^^^^^
 
-* *Original document* (File, mandatory) - the document to be signed.
+* *Original document* (File, mandatory) - the document that requires a signature.
 * *Change request* (Text, multiple values) - a correction or addition that the signer requests before signing.
 * *Signed document* (File, mandatory).
 

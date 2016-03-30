@@ -11,9 +11,9 @@ Get a customer invoice paid and closed.
 Context
 ^^^^^^^
 
-In any business, the most obvious example critical process is getting paid by customers.
+In any business, the most obvious example critical process includes getting paid by customers.
 This starts with sending invoices but also includes follow-up for outstanding invoices.
-This follow-up is usually necessary in practice, because customers cannot always be relied upon to pay on time.
+Companies usually have to follow-up in practice, because customers do not always pay on time.
 
 Trigger
 ^^^^^^^

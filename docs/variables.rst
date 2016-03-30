@@ -3,22 +3,22 @@
 Variables
 =========
 
-The forms and some of the actions are linked to workflow data, called *variables*.
-Workflow variables are mostly created automatically,
+The forms and some of the actions use workflow data, called *variables*.
+Effektif usually creates workflow variables automatically,
 as when creating a new form field.
 
 
 Data types
 ----------
 
-Workflow information is stored in variables.
+Variables store workflow information.
 Each variable has a user-defined name and a type.
-A type can be a single value, like a string (text) or an email address.
-Other types like user, file or email are composite - consisting of several values.
+A type can represent a single value, like a string (text) or an email address.
+‘Composite’ types such as user, file or email consist of several values.
 Composite types have a list of fields.
 
-When using expressions or configuring some action, references are made to workflow data.
-These can be references to variables, or to fields inside composite variables.
+When using expressions or configuring some action, you refer to workflow data.
+This can use references to variables, or to fields inside composite variables.
 The user interface guides you and shows the options you have.
 
 
@@ -44,7 +44,7 @@ User type
 ^^^^^^^^^
 
 A variable of type *user* refers to a user in your organization.
-A user is an object type with the following properties:
+A user has an object type, with the following properties:
 
 :id: (:ref:`id <type-id>`) The unique identifier for this user
 :firstName: (:ref:`string <type-string>`) The user’s first name
@@ -64,11 +64,11 @@ The *email address* type stores an email address.
 Email type
 ^^^^^^^^^^
 
-The *email type* stores an email, and is used by the email trigger.
-The email that triggers the process will be stored as a variable.
-The data fields in the email, such as *from address* or the attachments can be used later on.
+The *email type* stores an email, which the email trigger uses.
+A variable stores the email that triggers the process.
+You can use the email’s data fields, such as *from address* or the attachments, later in the process.
 
-An email is a composite type with the properties:
+An email has a composite type, with the properties:
 
 :id: :ref:`id <type-id>`: The unique identifier for this email
 :from: (:ref:`emailAddress <type-email-address>`) The sender email address
@@ -85,10 +85,9 @@ An email is a composite type with the properties:
 ID type
 ^^^^^^^
 
-The ID type is a special kind of string.
-These IDs identify objects and they are always created by Effektif,
-and have no other meaning.
-An example of an ID string is ``53fae958036471cea136ea83``.
+An ID has special kind of string type.
+Effektif creates these IDs to identify objects; they have no other meaning.
+An ID string looks like ``53fae958036471cea136ea83``.
 
 
 .. _type-object:
@@ -96,9 +95,8 @@ An example of an ID string is ``53fae958036471cea136ea83``.
 Object types
 ^^^^^^^^^^^^
 
-Object types are composite data types that have a list of fields.
-Each field has a name.
-For example: a user is an object type,
+Objects have a composite type, with a list of named fields.
+For example: a user has an object type,
 with fields such as ``firstName``, ``lastName``, ``mailAddress``.
 
 .. _type-list:
@@ -106,5 +104,5 @@ with fields such as ``firstName``, ``lastName``, ``mailAddress``.
 List type
 ^^^^^^^^^
 
-A list is simply a collection of values.
-The list is ordered and all elements are of a specified type.
+A list simply represents a collection of values.
+The list has an order and all elements have a single specified type.

@@ -79,35 +79,15 @@ msgstr ""
 msgid "Context"
 msgstr ""
 
-#: ../../examples/approve-document.rst:14
-#: ../../examples/approve-document.rst:14
-msgid ""
-"Employees need to submit expense forms for their managers to approve, but if"
-" they all send them by e-mail it will be difficult for their managers to "
-"keep track. Employees typically submit an expense form in a spreadsheet file"
-" that lists expenses."
-msgstr ""
-
-#: ../../examples/approve-document.rst:16
-#: ../../examples/approve-document.rst:16
+#: ../../examples/approve-document.rst:17
+#: ../../examples/approve-document.rst:17
 msgid ""
 "Employees also prepare proposals and reports that require management sign-"
 "off before the author may distribute them. The frequently have trouble "
 "keeping track of the document versions during the process."
 msgstr ""
 
-#: ../../examples/approve-document.rst:19
-#: ../../examples/approve-document.rst:19
-msgid ""
-"Expense forms are a specific example of process documents. Business "
-"processes often use documents to capture a process milestone. Managers often"
-" use a document approval process to verify that other work is complete, "
-"usually by exchanging email with the document author. Use an Approve "
-"Document process when you need to keep track of a large number of approvals,"
-" or when you need a record of each approval (who and when)."
-msgstr ""
-
-#: ../../examples/approve-document.rst:25
+#: ../../examples/approve-document.rst:26
 #: ../../examples/approve-vacation-request.rst:27
 #: ../../examples/fill-job-vacancy.rst:19
 #: ../../examples/follow-up-contact.rst:20
@@ -119,7 +99,7 @@ msgstr ""
 #: ../../examples/process-insurance-claim.rst:17
 #: ../../examples/respond-to-customer-email.rst:19
 #: ../../examples/ship-product-from-warehouse.rst:21
-#: ../../examples/sign-contract.rst:18 ../../examples/approve-document.rst:25
+#: ../../examples/sign-contract.rst:18 ../../examples/approve-document.rst:26
 #: ../../examples/approve-vacation-request.rst:27
 #: ../../examples/fill-job-vacancy.rst:19
 #: ../../examples/follow-up-contact.rst:20
@@ -135,7 +115,7 @@ msgstr ""
 msgid "Trigger"
 msgstr ""
 
-#: ../../examples/approve-document.rst:30
+#: ../../examples/approve-document.rst:31
 #: ../../examples/approve-vacation-request.rst:32
 #: ../../examples/fill-job-vacancy.rst:24
 #: ../../examples/follow-up-contact.rst:25
@@ -147,7 +127,7 @@ msgstr ""
 #: ../../examples/process-insurance-claim.rst:22
 #: ../../examples/respond-to-customer-email.rst:24
 #: ../../examples/ship-product-from-warehouse.rst:26
-#: ../../examples/sign-contract.rst:23 ../../examples/approve-document.rst:30
+#: ../../examples/sign-contract.rst:23 ../../examples/approve-document.rst:31
 #: ../../examples/approve-vacation-request.rst:32
 #: ../../examples/fill-job-vacancy.rst:24
 #: ../../examples/follow-up-contact.rst:25
@@ -163,8 +143,8 @@ msgstr ""
 msgid "Actions"
 msgstr ""
 
-#: ../../examples/approve-document.rst:32
-#: ../../examples/approve-document.rst:32
+#: ../../examples/approve-document.rst:33
+#: ../../examples/approve-document.rst:33
 msgid ""
 "The process centres on a *Review document* task, which results in a decision"
 " to either *Approve* or *Reject* the document. Rejecting the document "
@@ -172,99 +152,91 @@ msgid ""
 "draft before starting again."
 msgstr ""
 
-#: ../../examples/approve-document.rst:37
-#: ../../examples/approve-document.rst:37
-msgid ""
-"Adding a due date and reminders to the user tasks can help minimise cycle "
-"times. Adding escalation to the *Review document* task helps avoid a delay "
-"when the reviewer is not available."
-msgstr ""
-
-#: ../../examples/approve-document.rst:41
+#: ../../examples/approve-document.rst:42
 #: ../../examples/approve-vacation-request.rst:42
 #: ../../examples/fill-job-vacancy.rst:34
 #: ../../examples/follow-up-contact.rst:32
-#: ../../examples/fulfil-purchase-order.rst:35
+#: ../../examples/fulfil-purchase-order.rst:36
 #: ../../examples/hire-employee.rst:33 ../../examples/initiate-project.rst:37
 #: ../../examples/invoice-customer.rst:38
 #: ../../examples/open-new-customer-account.rst:38
 #: ../../examples/plan-trade-fair-booth.rst:36
-#: ../../examples/process-insurance-claim.rst:32
+#: ../../examples/process-insurance-claim.rst:33
 #: ../../examples/ship-product-from-warehouse.rst:54
-#: ../../examples/sign-contract.rst:37 ../../examples/approve-document.rst:41
+#: ../../examples/sign-contract.rst:37 ../../examples/approve-document.rst:42
 #: ../../examples/approve-vacation-request.rst:42
 #: ../../examples/fill-job-vacancy.rst:34
 #: ../../examples/follow-up-contact.rst:32
-#: ../../examples/fulfil-purchase-order.rst:35
+#: ../../examples/fulfil-purchase-order.rst:36
 #: ../../examples/hire-employee.rst:33 ../../examples/initiate-project.rst:37
 #: ../../examples/invoice-customer.rst:38
 #: ../../examples/open-new-customer-account.rst:38
 #: ../../examples/plan-trade-fair-booth.rst:36
-#: ../../examples/process-insurance-claim.rst:32
+#: ../../examples/process-insurance-claim.rst:33
 #: ../../examples/ship-product-from-warehouse.rst:54
 #: ../../examples/sign-contract.rst:37
 msgid "Roles"
 msgstr ""
 
-#: ../../examples/approve-document.rst:43
-#: ../../examples/approve-document.rst:43
+#: ../../examples/approve-document.rst:44
+#: ../../examples/approve-document.rst:44
 msgid "The two tasks correspond to two process roles."
 msgstr ""
 
-#: ../../examples/approve-document.rst:45
-#: ../../examples/approve-document.rst:45
+#: ../../examples/approve-document.rst:46
+#: ../../examples/approve-document.rst:46
 msgid ""
 "*Reviewer* (optional) - makes the approval decision: often a manager or "
 "supervisor."
 msgstr ""
 
-#: ../../examples/approve-document.rst:50
+#: ../../examples/approve-document.rst:51
 #: ../../examples/approve-vacation-request.rst:47
 #: ../../examples/fill-job-vacancy.rst:40
 #: ../../examples/follow-up-contact.rst:38
-#: ../../examples/fulfil-purchase-order.rst:41
+#: ../../examples/fulfil-purchase-order.rst:42
 #: ../../examples/hire-employee.rst:39 ../../examples/initiate-project.rst:43
 #: ../../examples/invoice-customer.rst:43
 #: ../../examples/open-new-customer-account.rst:43
 #: ../../examples/plan-trade-fair-booth.rst:41
-#: ../../examples/process-insurance-claim.rst:39
+#: ../../examples/process-insurance-claim.rst:40
 #: ../../examples/ship-product-from-warehouse.rst:59
-#: ../../examples/sign-contract.rst:43 ../../examples/approve-document.rst:50
+#: ../../examples/sign-contract.rst:43 ../../examples/approve-document.rst:51
 #: ../../examples/approve-vacation-request.rst:47
 #: ../../examples/fill-job-vacancy.rst:40
 #: ../../examples/follow-up-contact.rst:38
-#: ../../examples/fulfil-purchase-order.rst:41
+#: ../../examples/fulfil-purchase-order.rst:42
 #: ../../examples/hire-employee.rst:39 ../../examples/initiate-project.rst:43
 #: ../../examples/invoice-customer.rst:43
 #: ../../examples/open-new-customer-account.rst:43
 #: ../../examples/plan-trade-fair-booth.rst:41
-#: ../../examples/process-insurance-claim.rst:39
+#: ../../examples/process-insurance-claim.rst:40
 #: ../../examples/ship-product-from-warehouse.rst:59
 #: ../../examples/sign-contract.rst:43
 msgid "Fields"
 msgstr ""
 
-#: ../../examples/approve-document.rst:52
-#: ../../examples/approve-document.rst:52
+#: ../../examples/approve-document.rst:53
+#: ../../examples/approve-document.rst:53
 msgid ""
 "*Document* (File, mandatory) - the document to review. The author uploads "
 "the first version on the trigger form, followed by a new version each time "
 "Effektif creates a new *Update document* task."
 msgstr ""
 
-#: ../../examples/approve-document.rst:57
+#: ../../examples/approve-document.rst:58
 #: ../../examples/approve-vacation-request.rst:55
 #: ../../examples/follow-up-contact.rst:47
-#: ../../examples/fulfil-purchase-order.rst:49
+#: ../../examples/fulfil-purchase-order.rst:50
 #: ../../examples/initiate-project.rst:64
 #: ../../examples/invoice-customer.rst:49
 #: ../../examples/open-new-customer-account.rst:58
 #: ../../examples/plan-trade-fair-booth.rst:62
 #: ../../examples/respond-to-customer-email.rst:34
-#: ../../examples/approve-document.rst:57
+#: ../../examples/approve-document.rst:58
 #: ../../examples/approve-vacation-request.rst:55
 #: ../../examples/follow-up-contact.rst:47
-#: ../../examples/fulfil-purchase-order.rst:49
+#: ../../examples/fulfil-purchase-order.rst:50
 #: ../../examples/initiate-project.rst:64
 #: ../../examples/invoice-customer.rst:49
 #: ../../examples/open-new-customer-account.rst:58
@@ -273,8 +245,8 @@ msgstr ""
 msgid "Extensions"
 msgstr ""
 
-#: ../../examples/approve-document.rst:59
-#: ../../examples/approve-document.rst:59
+#: ../../examples/approve-document.rst:60
+#: ../../examples/approve-document.rst:60
 msgid ""
 "The document’s readers may find it useful to have access to the document "
 "outside Effektif. The organisation may also require a backup. You could add "
@@ -282,16 +254,16 @@ msgid ""
 "document, in order to archive or email the document."
 msgstr ""
 
-#: ../../examples/approve-document.rst:63
-#: ../../examples/approve-document.rst:63
+#: ../../examples/approve-document.rst:64
+#: ../../examples/approve-document.rst:64
 msgid ""
 "To archive the approved document, add a Google Drive or Box *Upload file* "
 "task. This saves a copy of the document for people to read, but they still "
 "need a notification that the approved version exists."
 msgstr ""
 
-#: ../../examples/approve-document.rst:66
-#: ../../examples/approve-document.rst:66
+#: ../../examples/approve-document.rst:67
+#: ../../examples/approve-document.rst:67
 msgid ""
 "An email task notifies the author and other stakeholders that the document "
 "has been approved. The email template can include any reviewer comments and "
@@ -299,15 +271,15 @@ msgid ""
 " document’s distribution by copying the email to a distribution list."
 msgstr ""
 
-#: ../../examples/approve-document.rst:71
+#: ../../examples/approve-document.rst:72
 #: ../../examples/approve-vacation-request.rst:63
-#: ../../examples/approve-document.rst:71
+#: ../../examples/approve-document.rst:72
 #: ../../examples/approve-vacation-request.rst:63
 msgid "Related processes"
 msgstr ""
 
-#: ../../examples/approve-document.rst:73
-#: ../../examples/approve-document.rst:73
+#: ../../examples/approve-document.rst:74
+#: ../../examples/approve-document.rst:74
 msgid ""
 ":ref:`Approve Vacation Request <approve-vacation-request>` handles approving"
 " a form rather than a document."
@@ -316,37 +288,6 @@ msgstr ""
 #: ../../examples/approve-vacation-request.rst:9
 #: ../../examples/approve-vacation-request.rst:9
 msgid "Approve an employee’s planned vacation dates."
-msgstr ""
-
-#: ../../examples/approve-vacation-request.rst:14
-#: ../../examples/approve-vacation-request.rst:14
-msgid ""
-"Employees need to request vacation dates, so that their managers can make "
-"sure that they don’t all go on vacation at the same time. Employees "
-"typically e-mail requests to a designated coordinator, who maintains a "
-"spreadsheet of requests. However, this generates a lot of e-mail, and fails "
-"when the coordinator is on vacation."
-msgstr ""
-
-#: ../../examples/approve-vacation-request.rst:18
-#: ../../examples/approve-vacation-request.rst:18
-msgid ""
-"Vacation requests exemplify form based requests, where an employee requires "
-"an approval based on information whose structure is known in advance. An "
-"employee requesting vacation days for specific dates is perhaps the simplest"
-" example of human tasks that are co-ordinated between multiple people."
-msgstr ""
-
-#: ../../examples/approve-vacation-request.rst:21
-#: ../../examples/approve-vacation-request.rst:21
-msgid ""
-"Despite this process’ simplicity, the obvious spreadsheet plus e-mail "
-"approach leads to enough problems to make it worth using Effektif instead. "
-"In principle, it’s easy enough for one person to receive vacation requests "
-"by e-mail and maintain a spreadsheet, but this fails when this person is on "
-"vacation. This irony illustrates the need for notify a group about new "
-"unassigned tasks, so that several people can approve vacation requests "
-"between themselves."
 msgstr ""
 
 #: ../../examples/approve-vacation-request.rst:29
@@ -394,17 +335,6 @@ msgstr ""
 msgid "Fill a vacant position within the organisation."
 msgstr ""
 
-#: ../../examples/fill-job-vacancy.rst:14
-#: ../../examples/fill-job-vacancy.rst:14
-msgid ""
-"The :ref:`Hire employee <hire-employee>` process is driven by job "
-"applications, and is suitable for organisations where there are usually open"
-" positions and few applicants. However, some organisations have many "
-"applicants as soon as they advertise a vacancy, and can fill it easily. In "
-"this scenario, an internal requisition for a new position drives the "
-"process."
-msgstr ""
-
 #: ../../examples/fill-job-vacancy.rst:21
 #: ../../examples/fill-job-vacancy.rst:21
 msgid "Form - describes a job requisition."
@@ -415,14 +345,6 @@ msgstr ""
 msgid ""
 "The core process consists of an approval for the requisition, followed by "
 "advertising the vacancy, interviewing candidates, and closing the vacancy."
-msgstr ""
-
-#: ../../examples/fill-job-vacancy.rst:30
-#: ../../examples/fill-job-vacancy.rst:30
-msgid ""
-"In addition, the vacancy is passed to one or more external recruiters, by "
-"email, who may also supply applicants. A second email notifies the "
-"recruiters when the vacancy has been filled."
 msgstr ""
 
 #: ../../examples/fill-job-vacancy.rst:36
@@ -516,22 +438,6 @@ msgstr ""
 msgid "Develop a business contact into a sales opportunity."
 msgstr ""
 
-#: ../../examples/follow-up-contact.rst:14
-#: ../../examples/follow-up-contact.rst:14
-msgid ""
-"Sales managers often have a large number of meetings with both qualified "
-"prospects and ad hoc contacts. They may use triage to prioritise follow-up, "
-"in order to maximise the number of qualified leads. To do this, the sales "
-"manager might write on their new contact’s business card, after their first "
-"meeting, to indicate whether to follow up *now*, *later* or *never*. "
-"Responding *now* might mean requesting another meeting, while *later* could "
-"mean sending a friendly but non-committal response. Although a simple to do "
-"list application might provide enough functionality for this scenario, the "
-"benefit of using Effektif is that the case view provides a convenient place "
-"to collect more information about each contact, but without the complexity "
-"of a full-featured sales pipeline tool."
-msgstr ""
-
 #: ../../examples/follow-up-contact.rst:22
 #: ../../examples/follow-up-contact.rst:22
 msgid ""
@@ -544,13 +450,6 @@ msgstr ""
 msgid ""
 "This process records the result of a business meeting by triaging contacts "
 "according to what follow-up they require."
-msgstr ""
-
-#: ../../examples/follow-up-contact.rst:34
-#: ../../examples/follow-up-contact.rst:34
-msgid ""
-"*Sales Manager* - member of a business development team. This is the only "
-"role, as this process does not include collaboration with team members."
 msgstr ""
 
 #: ../../examples/follow-up-contact.rst:40
@@ -603,16 +502,6 @@ msgid ""
 "an invoice."
 msgstr ""
 
-#: ../../examples/fulfil-purchase-order.rst:14
-#: ../../examples/fulfil-purchase-order.rst:14
-msgid ""
-"The core activities of many companies are selling things to their customers "
-"and giving them what they are paying for. Different companies’ high-level "
-"processes have much in common, which forms a basis for a purchase order "
-"process. Meanwhile, variations between these companies, and their customers "
-"and products, result in different implementations."
-msgstr ""
-
 #: ../../examples/fulfil-purchase-order.rst:21
 #: ../../examples/fulfil-purchase-order.rst:21
 msgid "Form - provides the purchase order."
@@ -625,49 +514,34 @@ msgid ""
 "tasks: *Fulfil order* and *Issue invoice*."
 msgstr ""
 
-#: ../../examples/fulfil-purchase-order.rst:37
-#: ../../examples/fulfil-purchase-order.rst:37
+#: ../../examples/fulfil-purchase-order.rst:38
+#: ../../examples/fulfil-purchase-order.rst:38
 msgid ""
 "*Warehouse operator* - a person who works in the warehouse and ships "
 "customer orders."
 msgstr ""
 
-#: ../../examples/fulfil-purchase-order.rst:38
-#: ../../examples/fulfil-purchase-order.rst:38
+#: ../../examples/fulfil-purchase-order.rst:39
+#: ../../examples/fulfil-purchase-order.rst:39
 msgid ""
 "*Financial administrator* - a member of the finance team, who issues "
 "invoices."
 msgstr ""
 
-#: ../../examples/fulfil-purchase-order.rst:51
-#: ../../examples/fulfil-purchase-order.rst:51
+#: ../../examples/fulfil-purchase-order.rst:52
+#: ../../examples/fulfil-purchase-order.rst:52
 msgid "To extend this basic process, you could:"
 msgstr ""
 
-#: ../../examples/fulfil-purchase-order.rst:53
-#: ../../examples/fulfil-purchase-order.rst:53
+#: ../../examples/fulfil-purchase-order.rst:54
+#: ../../examples/fulfil-purchase-order.rst:54
 msgid ""
 "include the whole *Close customer invoice* process, replacing the final "
 "*Issue invoice* task, to make this an order-to-cash process"
 msgstr ""
 
-#: ../../examples/fulfil-purchase-order.rst:54
-#: ../../examples/fulfil-purchase-order.rst:54
-msgid ""
-"replace the *Wait for available stock* task with an automated version that "
-"precedes the *Check purchase order* task, so that the order only gets a "
-"manual manual check once the stock is available"
-msgstr ""
-
-#: ../../examples/fulfil-purchase-order.rst:55
-#: ../../examples/fulfil-purchase-order.rst:55
-msgid ""
-"perform the *Fulfil order* and *Issue invoice* tasks in parallel, depending "
-"on how exceptions in *Fulfil order* are handled"
-msgstr ""
-
-#: ../../examples/fulfil-purchase-order.rst:56
-#: ../../examples/fulfil-purchase-order.rst:56
+#: ../../examples/fulfil-purchase-order.rst:57
+#: ../../examples/fulfil-purchase-order.rst:57
 msgid ""
 "replace the order form file upload with separate form fields, using a list "
 "of text values for the order lines, with each order line - product code, "
@@ -676,16 +550,6 @@ msgstr ""
 
 #: ../../examples/hire-employee.rst:9 ../../examples/hire-employee.rst:9
 msgid "Send a job offer letter to a successful job applicant."
-msgstr ""
-
-#: ../../examples/hire-employee.rst:14 ../../examples/hire-employee.rst:14
-msgid ""
-"Recruiting an employee requires a long elapsed time to complete - typically "
-"a couple of months - and involves a number of people. Unless very few people"
-" apply for jobs, the recruitment team will have to handle a large number of "
-"cases at the same time. This is a complex process whose tasks will be "
-"assigned to the different people who perform different tasks, such as "
-"interviewing or preparing a contract."
 msgstr ""
 
 #: ../../examples/hire-employee.rst:21 ../../examples/hire-employee.rst:21
@@ -741,20 +605,6 @@ msgid ""
 "e-mail, including the CV as an attachment."
 msgstr ""
 
-#: ../../examples/hire-employee.rst:49 ../../examples/hire-employee.rst:49
-msgid ""
-"If the organisation has to deal with a high case volume, the trigger form "
-"could capture information that could be used to prioritise cases, such as "
-"the *Candidate availability date*."
-msgstr ""
-
-#: ../../examples/hire-employee.rst:50 ../../examples/hire-employee.rst:50
-msgid ""
-"The trigger form could include additional information to allow automatic "
-"pre-screening, if there are situations that would mean that it’s not worth "
-"starting the process, such as no work visa."
-msgstr ""
-
 #: ../../examples/hire-employee.rst:51 ../../examples/hire-employee.rst:51
 msgid ""
 "You could add additional interview stages, such as a telephone screen, "
@@ -765,21 +615,6 @@ msgstr ""
 msgid ""
 "Complete checklists that capture basic information when starting a new "
 "project."
-msgstr ""
-
-#: ../../examples/initiate-project.rst:14
-#: ../../examples/initiate-project.rst:14
-msgid ""
-"When a project organisation starts a new project, the project team (or "
-"project manager) needs to capture a project overview that introduces the "
-"project and how it will work to other stakeholders. However, there never "
-"seems to be time to write detailed documentation at the start of the "
-"project. You can use a checklist to capture a set of tasks that might "
-"otherwise get forgotten, without any particular structure or sequence to the"
-" process. The main value of a checklist is to identify tasks that might "
-"otherwise be forgotten. A project initiation checklist addresses questions "
-"about the project’s overview and the project plan. An Effektif process can "
-"present simple forms that guide this initial data collection."
 msgstr ""
 
 #: ../../examples/initiate-project.rst:24
@@ -873,25 +708,8 @@ msgid ""
 "about it the question more and forces you to prove that you have an answer."
 msgstr ""
 
-#: ../../examples/initiate-project.rst:66
-#: ../../examples/initiate-project.rst:66
-msgid ""
-"In general, you will extend this process with additional checklist tasks for"
-" work that is part of project initiation. You can extend this process to "
-"include a project approval task, based on the information given."
-msgstr ""
-
 #: ../../examples/invoice-customer.rst:9 ../../examples/invoice-customer.rst:9
 msgid "Get a customer invoice paid and closed."
-msgstr ""
-
-#: ../../examples/invoice-customer.rst:14
-#: ../../examples/invoice-customer.rst:14
-msgid ""
-"In any business, the most obvious example critical process is getting paid "
-"by customers. This starts with sending invoices but also includes follow-up "
-"for outstanding invoices. This follow-up is usually necessary in practice, "
-"because customers cannot always be relied upon to pay on time."
 msgstr ""
 
 #: ../../examples/invoice-customer.rst:21
@@ -1031,18 +849,6 @@ msgstr ""
 msgid "*Contact e-mail* (Email address, mandatory)"
 msgstr ""
 
-#: ../../examples/open-new-customer-account.rst:51
-#: ../../examples/open-new-customer-account.rst:51
-msgid ""
-"*Supporting documentation* (File, multiple values) - additional documents, "
-"such as proof of address, which might be specified individually."
-msgstr ""
-
-#: ../../examples/open-new-customer-account.rst:53
-#: ../../examples/open-new-customer-account.rst:53
-msgid "Further information is added during the process, including:"
-msgstr ""
-
 #: ../../examples/open-new-customer-account.rst:55
 #: ../../examples/open-new-customer-account.rst:55
 msgid "*Account number* (Number) - created for the new account."
@@ -1083,14 +889,6 @@ msgstr ""
 #: ../../examples/plan-trade-fair-booth.rst:23
 #: ../../examples/plan-trade-fair-booth.rst:23
 msgid "*Form* - specifies details of the trade fair booking."
-msgstr ""
-
-#: ../../examples/plan-trade-fair-booth.rst:28
-#: ../../examples/plan-trade-fair-booth.rst:28
-msgid ""
-"Sometimes there’s just a lot to do. This process consists of planning many "
-"activities, some of which can happen in parallel, but which may require long"
-" timelines."
 msgstr ""
 
 #: ../../examples/plan-trade-fair-booth.rst:33
@@ -1204,59 +1002,50 @@ msgstr ""
 msgid "Form - an insured customer’s completed claim form."
 msgstr ""
 
-#: ../../examples/process-insurance-claim.rst:24
-#: ../../examples/process-insurance-claim.rst:24
-msgid ""
-"This process illustrates how to handle large case volumes, by splitting the "
-"process into tasks that can be assigned to different groups of people, so "
-"junior staff handle most tasks and only hard tasks are assigned to a smaller"
-" group of senior staff."
-msgstr ""
-
-#: ../../examples/process-insurance-claim.rst:28
-#: ../../examples/process-insurance-claim.rst:28
+#: ../../examples/process-insurance-claim.rst:29
+#: ../../examples/process-insurance-claim.rst:29
 msgid ""
 "In most cases, the top row of user tasks will process the claim. Only a few "
 "claims will require the *Investigate high-value claim* or *Process complex "
 "claim* tasks."
 msgstr ""
 
-#: ../../examples/process-insurance-claim.rst:34
-#: ../../examples/process-insurance-claim.rst:34
+#: ../../examples/process-insurance-claim.rst:35
+#: ../../examples/process-insurance-claim.rst:35
 msgid ""
 "*Junior claims adjuster* - triages insurance claims and processes the "
 "straightforward ones."
 msgstr ""
 
-#: ../../examples/process-insurance-claim.rst:35
-#: ../../examples/process-insurance-claim.rst:35
+#: ../../examples/process-insurance-claim.rst:36
+#: ../../examples/process-insurance-claim.rst:36
 msgid ""
 "*Investigator* - investigates high-value claims to protect against "
 "fraudulent claims."
 msgstr ""
 
-#: ../../examples/process-insurance-claim.rst:36
-#: ../../examples/process-insurance-claim.rst:36
+#: ../../examples/process-insurance-claim.rst:37
+#: ../../examples/process-insurance-claim.rst:37
 msgid "*Senior claims adjuster* - processes complex claims."
 msgstr ""
 
-#: ../../examples/process-insurance-claim.rst:41
-#: ../../examples/process-insurance-claim.rst:41
+#: ../../examples/process-insurance-claim.rst:42
+#: ../../examples/process-insurance-claim.rst:42
 msgid ""
 "*Claim form* (File, mandatory) - the form provided by the customer, via the "
 "trigger form."
 msgstr ""
 
-#: ../../examples/process-insurance-claim.rst:42
-#: ../../examples/process-insurance-claim.rst:42
+#: ../../examples/process-insurance-claim.rst:43
+#: ../../examples/process-insurance-claim.rst:43
 msgid ""
 "*Total value* (Money, mandatory) - the total value of the claim, which the "
 "junior adjuster extracts from the claim form in the *Calculate claim value* "
 "task."
 msgstr ""
 
-#: ../../examples/process-insurance-claim.rst:43
-#: ../../examples/process-insurance-claim.rst:43
+#: ../../examples/process-insurance-claim.rst:44
+#: ../../examples/process-insurance-claim.rst:44
 msgid ""
 "*Payout* (Money, mandatory) - the amount to pay to the customer if the "
 "adjuster approves the claim."
@@ -1292,14 +1081,6 @@ msgid ""
 "the email - followed by an email task to send the reply."
 msgstr ""
 
-#: ../../examples/respond-to-customer-email.rst:30
-#: ../../examples/respond-to-customer-email.rst:30
-msgid ""
-"This process is a minimal example for demonstrating the value of task "
-"assignment. The process’ value comes from the automated notifications from "
-"setting the user task’s candidate group, due date, reminders and escalation."
-msgstr ""
-
 #: ../../examples/respond-to-customer-email.rst:36
 #: ../../examples/respond-to-customer-email.rst:36
 msgid ""
@@ -1312,24 +1093,6 @@ msgstr ""
 msgid ""
 "In a warehouse operation, fulfil an order by shipping physical products to "
 "the customer."
-msgstr ""
-
-#: ../../examples/ship-product-from-warehouse.rst:14
-#: ../../examples/ship-product-from-warehouse.rst:14
-msgid ""
-"A product manufacturer typically runs warehouses that contain an inventory "
-"of products, ready to be shipped to customers. In the warehouse is where, a "
-"customer order - initially just information - results in physical activity "
-"and becomes associated with physical products."
-msgstr ""
-
-#: ../../examples/ship-product-from-warehouse.rst:17
-#: ../../examples/ship-product-from-warehouse.rst:17
-msgid ""
-"This process is a subprocess in a broader customer order process that "
-"happens in the context of a warehouse. This may be orchestrated by the order"
-" status that triggers the process, and the order status that results from "
-"process completion."
 msgstr ""
 
 #: ../../examples/ship-product-from-warehouse.rst:23
@@ -1402,14 +1165,6 @@ msgstr ""
 msgid "make the *Inspect packing quality* task optional or randomised.."
 msgstr ""
 
-#: ../../examples/ship-product-from-warehouse.rst:74
-#: ../../examples/ship-product-from-warehouse.rst:74
-msgid ""
-"In this process, transport runs on a fixed schedule: trucks are loaded with "
-"parcels for multiple orders. A different shipping process could arrange "
-"individual transport (e.g. by courier) for each order."
-msgstr ""
-
 #: ../../examples/sign-contract.rst:9 ../../examples/sign-contract.rst:9
 msgid "Sign a document and archive the signed copy."
 msgstr ""
@@ -1419,10 +1174,6 @@ msgid ""
 "Managers frequently have to sign contracts, and approve other documents. "
 "This may take some time, if a backlog has built up, in which case the "
 "requester needs some visibility."
-msgstr ""
-
-#: ../../examples/sign-contract.rst:20 ../../examples/sign-contract.rst:20
-msgid "*Manual* - the requester uploads a document to be signed."
 msgstr ""
 
 #: ../../examples/sign-contract.rst:25 ../../examples/sign-contract.rst:25
@@ -1448,11 +1199,6 @@ msgid ""
 "task to update the document."
 msgstr ""
 
-#: ../../examples/sign-contract.rst:34 ../../examples/sign-contract.rst:34
-msgid ""
-"The signer declines to sign the document, and the requester is notified."
-msgstr ""
-
 #: ../../examples/sign-contract.rst:39 ../../examples/sign-contract.rst:39
 msgid "*Requester* - submits the document and makes any required corrections."
 msgstr ""
@@ -1461,10 +1207,6 @@ msgstr ""
 msgid ""
 "*Signer* - responsible for deciding whether to sign the document, and adding"
 " the signature."
-msgstr ""
-
-#: ../../examples/sign-contract.rst:45 ../../examples/sign-contract.rst:45
-msgid "*Original document* (File, mandatory) - the document to be signed."
 msgstr ""
 
 #: ../../examples/sign-contract.rst:46 ../../examples/sign-contract.rst:46
@@ -1482,31 +1224,12 @@ msgid ""
 "You could simplify the process by removing one or more of the extra cases."
 msgstr ""
 
-#: ../../examples/fulfil-purchase-order.rst:30
-#: ../../examples/fulfil-purchase-order.rst:30
-msgid ""
-"To prevent an exception when the purchase order cannot be fulfilled due to "
-"lack of stock, the workflow starts with a check task and a waiting task. "
-"This *Wait for available stock* task uses reminders to prompt the user to "
-"check every day until the wait is complete, after which the order can "
-"presumably be accepted. The trigger form captures the customer e-mail "
-"address, so that rejecting the invoice with a rejection reason can use a "
-":ref:`Send E-mail <send-email>` task to send a notification."
-msgstr ""
-
-#: ../../examples/approve-document.rst:46
-#: ../../examples/approve-document.rst:46
+#: ../../examples/approve-document.rst:47
+#: ../../examples/approve-document.rst:47
 msgid ""
 "*Author* - prepares the document. If the trigger form assigns this role, "
 "then Effektif will automatically assign the *Update document* to the author "
 "and send a notification."
-msgstr ""
-
-#: ../../examples/ship-product-from-warehouse.rst:43
-#: ../../examples/ship-product-from-warehouse.rst:43
-msgid ""
-"*Check parcel count* - a ‘head-count’ to check that there are no missing "
-"parcels for each order."
 msgstr ""
 
 #: ../../examples/ship-product-from-warehouse.rst:44
@@ -1536,14 +1259,6 @@ msgid ""
 "information they require to deliver the shipment."
 msgstr ""
 
-#: ../../examples/approve-vacation-request.rst:49
-#: ../../examples/approve-vacation-request.rst:49
-msgid ""
-"*Employee* (User, mandatory) - the employee making the request. This, plus "
-"the other fields, should be enough information for the manager to make the "
-"decision."
-msgstr ""
-
 #: ../../examples/approve-vacation-request.rst:51
 #: ../../examples/approve-vacation-request.rst:51
 msgid "*Start date* (Date) - vacation start date."
@@ -1554,23 +1269,23 @@ msgstr ""
 msgid "*End date* (Date) - vacation end date."
 msgstr ""
 
-#: ../../examples/fulfil-purchase-order.rst:43
-#: ../../examples/fulfil-purchase-order.rst:43
+#: ../../examples/fulfil-purchase-order.rst:44
+#: ../../examples/fulfil-purchase-order.rst:44
 msgid ""
 "*Purchase order* (File, required) - the complete order details, including "
 "order lines. Effektif forms don’t support tabular data, so you cannot enter "
 "order lines normally."
 msgstr ""
 
-#: ../../examples/fulfil-purchase-order.rst:45
-#: ../../examples/fulfil-purchase-order.rst:45
+#: ../../examples/fulfil-purchase-order.rst:46
+#: ../../examples/fulfil-purchase-order.rst:46
 msgid ""
 "*PO reference* (Text, required) - the purchase order reference, extracted "
 "from the purchase order itself, to identify the case in Effektif"
 msgstr ""
 
-#: ../../examples/fulfil-purchase-order.rst:46
-#: ../../examples/fulfil-purchase-order.rst:46
+#: ../../examples/fulfil-purchase-order.rst:47
+#: ../../examples/fulfil-purchase-order.rst:47
 msgid ""
 "*Customer email* (Email address, required) - used to send notifications."
 msgstr ""
@@ -1611,21 +1326,13 @@ msgid ""
 "delivery address and other information such as weight and dimensions."
 msgstr ""
 
-#: ../../examples/ship-product-from-warehouse.rst:41
-#: ../../examples/ship-product-from-warehouse.rst:41
-msgid ""
-"*Move to loading dock* - stack parcels ready to be loaded on the next truck."
-" Inspect packing quality - quality control to check that parcels are packed "
-"correctly."
-msgstr ""
-
-#: ../../examples/approve-document.rst:27
-#: ../../examples/approve-document.rst:27
+#: ../../examples/approve-document.rst:28
+#: ../../examples/approve-document.rst:28
 msgid "Form - the uploaded document and its author."
 msgstr ""
 
-#: ../../examples/approve-document.rst:54
-#: ../../examples/approve-document.rst:54
+#: ../../examples/approve-document.rst:55
+#: ../../examples/approve-document.rst:55
 msgid ""
 "*Author* (User, mandatory) - used to assign the role and notify the author."
 msgstr ""
@@ -1697,16 +1404,6 @@ msgid ""
 "process of going on vacation (or not) follow the decision."
 msgstr ""
 
-#: ../../examples/ship-product-from-warehouse.rst:49
-#: ../../examples/ship-product-from-warehouse.rst:49
-msgid ""
-"There is flexibility in the process, which warehouse staff are likely to "
-"use. Staff may perform the tasks sequentially in practice, even though they "
-"could perform them in parallel. Staff may also batch multiple orders "
-"together at various steps, when there are waiting times such as waiting for "
-"the next truck to arrive at the warehouse."
-msgstr ""
-
 #: ../../examples.rst:6
 msgid ""
 "This chapter describes a number of example processes. Effektif includes some"
@@ -1724,6 +1421,556 @@ msgid ""
 "process model, modify it and publish it. If you don’t want to use an example"
 " you have copied, you can :ref:`delete it <copy-process>`."
 msgstr ""
+
+#: ../../examples/approve-document.rst:14
+#: ../../examples/approve-document.rst:14
+msgid ""
+"Employees need to submit expense forms for their managers to approve, but if"
+" they all send them by e-mail their managers will find it difficult to keep "
+"track. Employees typically submit an expense form in a spreadsheet file that"
+" lists expenses."
+msgstr ""
+
+#: ../../examples/approve-document.rst:20
+#: ../../examples/approve-document.rst:20
+msgid ""
+"You can treat expense forms as a specific example of process documents. "
+"Business processes often use documents to capture a process milestone. "
+"Managers often use a document approval process to verify that someone has "
+"completed some other work, usually by exchanging email with the document "
+"author. Use an Approve Document process when you need to keep track of a "
+"large number of approvals, or when you need a record of each approval (who "
+"and when)."
+msgstr ""
+
+#: ../../examples/approve-document.rst:38
+#: ../../examples/approve-document.rst:38
+msgid ""
+"Adding a due date and reminders to the user tasks can help minimise cycle "
+"times. Adding escalation to the *Review document* task helps avoid a delay "
+"when the reviewer cannot complete the work."
+msgstr ""
+
+#: ../../examples/approve-vacation-request.rst:14
+#: ../../examples/approve-vacation-request.rst:14
+msgid ""
+"Employees need to request vacation dates, so that their managers can make "
+"sure that they don’t all go on vacation at the same time. Employees "
+"typically e-mail requests to a designated coordinator, who maintains a "
+"spreadsheet of requests. However, this generates a lot of e-mail, and fails "
+"when the coordinator goes on vacation."
+msgstr ""
+
+#: ../../examples/approve-vacation-request.rst:18
+#: ../../examples/approve-vacation-request.rst:18
+msgid ""
+"Vacation requests exemplify form based requests, where an employee requires "
+"an approval based on information whose structure you know in advance. An "
+"employee requesting vacation days for specific dates illustrates perhaps the"
+" simplest example of human tasks that multiple people co-ordinate."
+msgstr ""
+
+#: ../../examples/approve-vacation-request.rst:21
+#: ../../examples/approve-vacation-request.rst:21
+msgid ""
+"Despite this process’ simplicity, the obvious spreadsheet plus e-mail "
+"approach leads to enough problems to make it worth using Effektif instead. "
+"In principle, one person can easily receive vacation requests by e-mail and "
+"maintain a spreadsheet, but this fails when this person goes on vacation. "
+"This irony illustrates the need for notify a group about new unassigned "
+"tasks, so that several people can approve vacation requests between "
+"themselves."
+msgstr ""
+
+#: ../../examples/approve-vacation-request.rst:49
+#: ../../examples/approve-vacation-request.rst:49
+msgid ""
+"*Employee* (User, mandatory) - the employee making the request. This, plus "
+"the other fields, should give the manager enough information to make the "
+"decision."
+msgstr ""
+
+#: ../../examples/fill-job-vacancy.rst:14
+#: ../../examples/fill-job-vacancy.rst:14
+msgid ""
+"Job applications drive the :ref:`Hire employee <hire-employee>` process, "
+"which makes it suitable for organisations that usually have open positions "
+"and few applicants. However, some organisations have many applicants as soon"
+" as they advertise a vacancy, and can fill it easily. In this scenario, an "
+"internal requisition for a new position drives the process."
+msgstr ""
+
+#: ../../examples/fill-job-vacancy.rst:30
+#: ../../examples/fill-job-vacancy.rst:30
+msgid ""
+"In addition, the hiring organisation passes the vacancy to one or more "
+"external recruiters, by email, who may also supply applicants. A second "
+"email notifies the recruiters when the vacancy has been filled."
+msgstr ""
+
+#: ../../examples/follow-up-contact.rst:14
+#: ../../examples/follow-up-contact.rst:14
+msgid ""
+"Sales managers often have a large number of meetings with both qualified "
+"prospects and ad hoc contacts. They may use triage to prioritise follow-up, "
+"in order to maximise the number of qualified leads. To do this, the sales "
+"manager might write on their new contact’s business card, after their first "
+"meeting, to indicate whether to follow up *now*, *later* or *never*. "
+"Responding *now* might mean requesting another meeting, while *later* could "
+"mean sending a friendly but non-committal response. Although a simple to do "
+"list application might provide enough functionality for this scenario, using"
+" Effektif gives you the benefit on a case view that conveniently collects "
+"more information about each contact, but without the complexity of a full-"
+"featured sales pipeline tool."
+msgstr ""
+
+#: ../../examples/follow-up-contact.rst:34
+#: ../../examples/follow-up-contact.rst:34
+msgid ""
+"*Sales Manager* - member of a business development team. The process only "
+"has this one role, as it does not include collaboration with team members."
+msgstr ""
+
+#: ../../examples/fulfil-purchase-order.rst:14
+#: ../../examples/fulfil-purchase-order.rst:14
+msgid ""
+"The core activities of many companies include selling things to their "
+"customers and giving them what they pay for. Different companies’ high-level"
+" processes have much in common, which forms a basis for a purchase order "
+"process. Meanwhile, variations between these companies, and their customers "
+"and products, result in different implementations."
+msgstr ""
+
+#: ../../examples/fulfil-purchase-order.rst:30
+#: ../../examples/fulfil-purchase-order.rst:30
+msgid ""
+"To prevent an exception when the company cannot fulfil the purchase order "
+"due to lack of stock, the workflow starts with a check task and a waiting "
+"task. This *Wait for available stock* task uses reminders to prompt the user"
+" to check every day until stock becomes available, after which the company "
+"can presumably accept the order."
+msgstr ""
+
+#: ../../examples/fulfil-purchase-order.rst:33
+#: ../../examples/fulfil-purchase-order.rst:33
+msgid ""
+"The trigger form captures the customer e-mail address, so that rejecting the"
+" invoice with a rejection reason can use a :ref:`Send E-mail <send-email>` "
+"task to send a notification."
+msgstr ""
+
+#: ../../examples/fulfil-purchase-order.rst:55
+#: ../../examples/fulfil-purchase-order.rst:55
+msgid ""
+"replace the *Wait for available stock* task with an automated version that "
+"precedes the *Check purchase order* task, so that the order only gets a "
+"manual manual check once the stock becomes available"
+msgstr ""
+
+#: ../../examples/fulfil-purchase-order.rst:56
+#: ../../examples/fulfil-purchase-order.rst:56
+msgid ""
+"perform the *Fulfil order* and *Issue invoice* tasks in parallel, depending "
+"on how people handle exceptions in *Fulfil order*"
+msgstr ""
+
+#: ../../examples/hire-employee.rst:14 ../../examples/hire-employee.rst:14
+msgid ""
+"Recruiting an employee requires a long elapsed time to complete - typically "
+"a couple of months - and involves a number of people. Unless very few people"
+" apply for jobs, the recruitment team will have to handle a large number of "
+"cases at the same time. This process requires someone to assign tasks to the"
+" people who do different types of work, such as interviewing or preparing a "
+"contract."
+msgstr ""
+
+#: ../../examples/hire-employee.rst:49 ../../examples/hire-employee.rst:49
+msgid ""
+"If the organisation has to deal with a high case volume, the trigger form "
+"could capture information that you could use to prioritise cases, such as "
+"the *Candidate availability date*."
+msgstr ""
+
+#: ../../examples/hire-employee.rst:50 ../../examples/hire-employee.rst:50
+msgid ""
+"The trigger form could include additional information to allow automatic "
+"pre-screening, to cover cases that do not justify starting the process, such"
+" as an applicant with no work visa."
+msgstr ""
+
+#: ../../examples/initiate-project.rst:14
+#: ../../examples/initiate-project.rst:14
+msgid ""
+"When a project organisation starts a new project, the project team (or "
+"project manager) needs to capture a project overview that introduces the "
+"project and how it will work to other stakeholders. However, no-one ever "
+"seems to have time to write detailed documentation at the start of the "
+"project. You can use a checklist to capture a set of tasks that might "
+"otherwise get forgotten, without any particular structure or sequence to the"
+" process. A checklist’s main value comes from identifying tasks that you "
+"might otherwise forget. A project initiation checklist addresses questions "
+"about the project’s overview and the project plan. An Effektif process can "
+"present simple forms that guide this initial data collection."
+msgstr ""
+
+#: ../../examples/initiate-project.rst:66
+#: ../../examples/initiate-project.rst:66
+msgid ""
+"In general, you will extend this process with additional checklist tasks for"
+" project initiation work. You can extend this process to include a project "
+"approval task, based on the information given."
+msgstr ""
+
+#: ../../examples/invoice-customer.rst:14
+#: ../../examples/invoice-customer.rst:14
+msgid ""
+"In any business, the most obvious example critical process includes getting "
+"paid by customers. This starts with sending invoices but also includes "
+"follow-up for outstanding invoices. Companies usually have to follow-up in "
+"practice, because customers do not always pay on time."
+msgstr ""
+
+#: ../../examples/open-new-customer-account.rst:51
+#: ../../examples/open-new-customer-account.rst:51
+msgid ""
+"*Supporting documentation* (File, multiple values) - additional documents, "
+"such as proof of address, which the process might specify individually."
+msgstr ""
+
+#: ../../examples/open-new-customer-account.rst:53
+#: ../../examples/open-new-customer-account.rst:53
+msgid "The process later adds further information, including:"
+msgstr ""
+
+#: ../../examples/plan-trade-fair-booth.rst:28
+#: ../../examples/plan-trade-fair-booth.rst:28
+msgid ""
+"Sometimes you just have a lot to do. This process consists of planning many "
+"activities, some of which can happen in parallel, but which may require long"
+" timelines."
+msgstr ""
+
+#: ../../examples/process-insurance-claim.rst:24
+#: ../../examples/process-insurance-claim.rst:24
+msgid ""
+"This process illustrates how to handle large case volumes, by splitting the "
+"process into tasks that you can assign to different groups of people Junior "
+"staff can handle most tasks and only assign hard tasks to a smaller group of"
+" senior staff."
+msgstr ""
+
+#: ../../examples/respond-to-customer-email.rst:30
+#: ../../examples/respond-to-customer-email.rst:30
+msgid ""
+"This process minimally demonstrates the value of task assignment. The "
+"process’ value comes from the automated notifications from setting the user "
+"task’s candidate group, due date, reminders and escalation."
+msgstr ""
+
+#: ../../examples/sign-contract.rst:20 ../../examples/sign-contract.rst:20
+msgid "*Manual* - the requester uploads a document for a manager to sign."
+msgstr ""
+
+#: ../../examples/sign-contract.rst:34 ../../examples/sign-contract.rst:34
+msgid ""
+"The signer declines to sign the document, and the requester receives a "
+"notification."
+msgstr ""
+
+#: ../../examples/sign-contract.rst:45 ../../examples/sign-contract.rst:45
+msgid ""
+"*Original document* (File, mandatory) - the document that requires a "
+"signature."
+msgstr ""
+
+#: ../../examples/ship-product-from-warehouse.rst:14
+#: ../../examples/ship-product-from-warehouse.rst:14
+msgid ""
+"A product manufacturer typically runs warehouses that contain an inventory "
+"of products, ready to ship to customers. In the warehouse, a customer order "
+"- initially just information - results in physical activity and becomes "
+"associated with physical products."
+msgstr ""
+
+#: ../../examples/ship-product-from-warehouse.rst:17
+#: ../../examples/ship-product-from-warehouse.rst:17
+msgid ""
+"This process participates in a broader customer order process that happens "
+"in the context of a warehouse. The order status that triggers this process, "
+"and changes when this process completes, may orchestrate this process."
+msgstr ""
+
+#: ../../examples/ship-product-from-warehouse.rst:41
+#: ../../examples/ship-product-from-warehouse.rst:41
+msgid ""
+"*Move to loading dock* - stack parcels ready for loading on the next truck. "
+"Inspect packing quality - quality control to check for correctly packed "
+"parcels."
+msgstr ""
+
+#: ../../examples/ship-product-from-warehouse.rst:43
+#: ../../examples/ship-product-from-warehouse.rst:43
+msgid ""
+"*Check parcel count* - a ‘head-count’ to check that there no orders have "
+"missing parcels."
+msgstr ""
+
+#: ../../examples/ship-product-from-warehouse.rst:49
+#: ../../examples/ship-product-from-warehouse.rst:49
+msgid ""
+"Warehouse staff will take advantage of this process’ flexibility in "
+"practice. Staff may perform the tasks sequentially in practice, even though "
+"they could perform them in parallel. Staff may also batch multiple orders "
+"together at various steps, due to waiting times such as waiting for the next"
+" truck to arrive at the warehouse."
+msgstr ""
+
+#: ../../examples/ship-product-from-warehouse.rst:74
+#: ../../examples/ship-product-from-warehouse.rst:74
+msgid ""
+"In this process, transport runs on a fixed schedule: warehouse staff load "
+"parcels for multiple orders onto trucks. A different shipping process could "
+"arrange individual transport (e.g. by courier) for each order."
+msgstr ""
+
+#~ msgid ""
+#~ "A product manufacturer typically runs warehouses that contain an inventory "
+#~ "of products, ready to be shipped to customers. In the warehouse is where, a "
+#~ "customer order - initially just information - results in physical activity "
+#~ "and becomes associated with physical products."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This process is a subprocess in a broader customer order process that "
+#~ "happens in the context of a warehouse. This may be orchestrated by the order"
+#~ " status that triggers the process, and the order status that results from "
+#~ "process completion."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In this process, transport runs on a fixed schedule: trucks are loaded with "
+#~ "parcels for multiple orders. A different shipping process could arrange "
+#~ "individual transport (e.g. by courier) for each order."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Check parcel count* - a ‘head-count’ to check that there are no missing "
+#~ "parcels for each order."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Move to loading dock* - stack parcels ready to be loaded on the next truck."
+#~ " Inspect packing quality - quality control to check that parcels are packed "
+#~ "correctly."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "There is flexibility in the process, which warehouse staff are likely to "
+#~ "use. Staff may perform the tasks sequentially in practice, even though they "
+#~ "could perform them in parallel. Staff may also batch multiple orders "
+#~ "together at various steps, when there are waiting times such as waiting for "
+#~ "the next truck to arrive at the warehouse."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Employees need to submit expense forms for their managers to approve, but if"
+#~ " they all send them by e-mail it will be difficult for their managers to "
+#~ "keep track. Employees typically submit an expense form in a spreadsheet file"
+#~ " that lists expenses."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Expense forms are a specific example of process documents. Business "
+#~ "processes often use documents to capture a process milestone. Managers often"
+#~ " use a document approval process to verify that other work is complete, "
+#~ "usually by exchanging email with the document author. Use an Approve "
+#~ "Document process when you need to keep track of a large number of approvals,"
+#~ " or when you need a record of each approval (who and when)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Adding a due date and reminders to the user tasks can help minimise cycle "
+#~ "times. Adding escalation to the *Review document* task helps avoid a delay "
+#~ "when the reviewer is not available."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Employees need to request vacation dates, so that their managers can make "
+#~ "sure that they don’t all go on vacation at the same time. Employees "
+#~ "typically e-mail requests to a designated coordinator, who maintains a "
+#~ "spreadsheet of requests. However, this generates a lot of e-mail, and fails "
+#~ "when the coordinator is on vacation."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Vacation requests exemplify form based requests, where an employee requires "
+#~ "an approval based on information whose structure is known in advance. An "
+#~ "employee requesting vacation days for specific dates is perhaps the simplest"
+#~ " example of human tasks that are co-ordinated between multiple people."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Despite this process’ simplicity, the obvious spreadsheet plus e-mail "
+#~ "approach leads to enough problems to make it worth using Effektif instead. "
+#~ "In principle, it’s easy enough for one person to receive vacation requests "
+#~ "by e-mail and maintain a spreadsheet, but this fails when this person is on "
+#~ "vacation. This irony illustrates the need for notify a group about new "
+#~ "unassigned tasks, so that several people can approve vacation requests "
+#~ "between themselves."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The :ref:`Hire employee <hire-employee>` process is driven by job "
+#~ "applications, and is suitable for organisations where there are usually open"
+#~ " positions and few applicants. However, some organisations have many "
+#~ "applicants as soon as they advertise a vacancy, and can fill it easily. In "
+#~ "this scenario, an internal requisition for a new position drives the "
+#~ "process."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In addition, the vacancy is passed to one or more external recruiters, by "
+#~ "email, who may also supply applicants. A second email notifies the "
+#~ "recruiters when the vacancy has been filled."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sales managers often have a large number of meetings with both qualified "
+#~ "prospects and ad hoc contacts. They may use triage to prioritise follow-up, "
+#~ "in order to maximise the number of qualified leads. To do this, the sales "
+#~ "manager might write on their new contact’s business card, after their first "
+#~ "meeting, to indicate whether to follow up *now*, *later* or *never*. "
+#~ "Responding *now* might mean requesting another meeting, while *later* could "
+#~ "mean sending a friendly but non-committal response. Although a simple to do "
+#~ "list application might provide enough functionality for this scenario, the "
+#~ "benefit of using Effektif is that the case view provides a convenient place "
+#~ "to collect more information about each contact, but without the complexity "
+#~ "of a full-featured sales pipeline tool."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Sales Manager* - member of a business development team. This is the only "
+#~ "role, as this process does not include collaboration with team members."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The core activities of many companies are selling things to their customers "
+#~ "and giving them what they are paying for. Different companies’ high-level "
+#~ "processes have much in common, which forms a basis for a purchase order "
+#~ "process. Meanwhile, variations between these companies, and their customers "
+#~ "and products, result in different implementations."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "replace the *Wait for available stock* task with an automated version that "
+#~ "precedes the *Check purchase order* task, so that the order only gets a "
+#~ "manual manual check once the stock is available"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "perform the *Fulfil order* and *Issue invoice* tasks in parallel, depending "
+#~ "on how exceptions in *Fulfil order* are handled"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Recruiting an employee requires a long elapsed time to complete - typically "
+#~ "a couple of months - and involves a number of people. Unless very few people"
+#~ " apply for jobs, the recruitment team will have to handle a large number of "
+#~ "cases at the same time. This is a complex process whose tasks will be "
+#~ "assigned to the different people who perform different tasks, such as "
+#~ "interviewing or preparing a contract."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If the organisation has to deal with a high case volume, the trigger form "
+#~ "could capture information that could be used to prioritise cases, such as "
+#~ "the *Candidate availability date*."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The trigger form could include additional information to allow automatic "
+#~ "pre-screening, if there are situations that would mean that it’s not worth "
+#~ "starting the process, such as no work visa."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When a project organisation starts a new project, the project team (or "
+#~ "project manager) needs to capture a project overview that introduces the "
+#~ "project and how it will work to other stakeholders. However, there never "
+#~ "seems to be time to write detailed documentation at the start of the "
+#~ "project. You can use a checklist to capture a set of tasks that might "
+#~ "otherwise get forgotten, without any particular structure or sequence to the"
+#~ " process. The main value of a checklist is to identify tasks that might "
+#~ "otherwise be forgotten. A project initiation checklist addresses questions "
+#~ "about the project’s overview and the project plan. An Effektif process can "
+#~ "present simple forms that guide this initial data collection."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In general, you will extend this process with additional checklist tasks for"
+#~ " work that is part of project initiation. You can extend this process to "
+#~ "include a project approval task, based on the information given."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In any business, the most obvious example critical process is getting paid "
+#~ "by customers. This starts with sending invoices but also includes follow-up "
+#~ "for outstanding invoices. This follow-up is usually necessary in practice, "
+#~ "because customers cannot always be relied upon to pay on time."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Supporting documentation* (File, multiple values) - additional documents, "
+#~ "such as proof of address, which might be specified individually."
+#~ msgstr ""
+
+#~ msgid "Further information is added during the process, including:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sometimes there’s just a lot to do. This process consists of planning many "
+#~ "activities, some of which can happen in parallel, but which may require long"
+#~ " timelines."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This process illustrates how to handle large case volumes, by splitting the "
+#~ "process into tasks that can be assigned to different groups of people, so "
+#~ "junior staff handle most tasks and only hard tasks are assigned to a smaller"
+#~ " group of senior staff."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This process is a minimal example for demonstrating the value of task "
+#~ "assignment. The process’ value comes from the automated notifications from "
+#~ "setting the user task’s candidate group, due date, reminders and escalation."
+#~ msgstr ""
+
+#~ msgid "*Manual* - the requester uploads a document to be signed."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The signer declines to sign the document, and the requester is notified."
+#~ msgstr ""
+
+#~ msgid "*Original document* (File, mandatory) - the document to be signed."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To prevent an exception when the purchase order cannot be fulfilled due to "
+#~ "lack of stock, the workflow starts with a check task and a waiting task. "
+#~ "This *Wait for available stock* task uses reminders to prompt the user to "
+#~ "check every day until the wait is complete, after which the order can "
+#~ "presumably be accepted. The trigger form captures the customer e-mail "
+#~ "address, so that rejecting the invoice with a rejection reason can use a "
+#~ ":ref:`Send E-mail <send-email>` task to send a notification."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Employee* (User, mandatory) - the employee making the request. This, plus "
+#~ "the other fields, should be enough information for the manager to make the "
+#~ "decision."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "In the main menu, select `Examples` to browse the list, and expand each "
