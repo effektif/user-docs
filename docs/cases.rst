@@ -10,6 +10,9 @@ Cases typically represent more work than a simple task for a single person, but 
 A case breaks the goal down into concrete action items (or tasks) so you can collaborate with other people.
 The case centralises all relevant context information about the topic, for sharing and discussion.
 
+
+.. _cases-overview:
+
 Viewing cases
 -------------
 
@@ -190,3 +193,14 @@ You do not normally delete cases in Effektif: you close cases that you have fini
 However, you sometimes do need to delete cases, such as the test cases that you create while developing the initial versions of a process model.
 
 To delete a case, open the case and use its right-hand actions menu to select `Delete case`.
+
+
+Exporting cases data
+--------------------
+
+You can export the information about a process’ cases to a `CSV file <https://en.wikipedia.org/wiki/Comma-separated_values>`_ that you can open in a spreadsheet.
+To export case data, open the :ref:`Cases overview <cases-overview>`, select a process, and then select *Export as CSV*.
+You may find this useful for reporting or auditing, for example.
+
+The CSV export uses *UTF-8 text encoding* - select *UTF-8* when opening the CSV in Microsoft Excel, for example, to preserve characters such as letters with accents.
+

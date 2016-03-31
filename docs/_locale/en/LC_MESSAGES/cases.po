@@ -15,41 +15,41 @@ msgstr ""
 msgid "Cases"
 msgstr ""
 
-#: ../../cases.rst:83
+#: ../../cases.rst:86
 msgid "Start a new task"
 msgstr ""
 
-#: ../../cases.rst:85
+#: ../../cases.rst:88
 msgid "Then the case header appears."
 msgstr ""
 
-#: ../../cases.rst:89
+#: ../../cases.rst:92
 msgid "Enter case title"
 msgstr ""
 
-#: ../../cases.rst:95
+#: ../../cases.rst:98
 msgid "New case"
 msgstr ""
 
-#: ../../cases.rst:76
+#: ../../cases.rst:79
 msgid "Creating a case"
 msgstr ""
 
-#: ../../cases.rst:14
+#: ../../cases.rst:17
 msgid "Viewing cases"
 msgstr ""
 
-#: ../../cases.rst:16
+#: ../../cases.rst:19
 msgid ""
 "The *Cases* view shows an overview of cases for a single process. To open "
 "the Cases view, select *Cases* from the main menu."
 msgstr ""
 
-#: ../../cases.rst:21
+#: ../../cases.rst:24
 msgid "The Cases view - cases of the ‘Hire employee’ process"
 msgstr ""
 
-#: ../../cases.rst:23
+#: ../../cases.rst:26
 msgid ""
 "The table shows cases for the *Hire employee* process. You can use the menu "
 "above the table to select a different process, ad hoc cases that don’t have "
@@ -58,81 +58,81 @@ msgid ""
 " the values of workflow :ref:`variables <variables>`."
 msgstr ""
 
-#: ../../cases.rst:31
+#: ../../cases.rst:34
 msgid ""
 "The grey and green status bars show information about completed and open "
 "tasks when you hover the mouse cursor over them."
 msgstr ""
 
-#: ../../cases.rst:36
+#: ../../cases.rst:39
 msgid "Hover over the grey bar to see a case’s completed tasks."
 msgstr ""
 
-#: ../../cases.rst:40
+#: ../../cases.rst:43
 msgid "Hover over the open bar to see a case’s open tasks."
 msgstr ""
 
-#: ../../cases.rst:47
+#: ../../cases.rst:50
 msgid "Customizing case view table columns"
 msgstr ""
 
-#: ../../cases.rst:54
+#: ../../cases.rst:57
 msgid ""
 "To customize the table columns, open the Cases view and click the top-right "
 "*Configure columns* button."
 msgstr ""
 
-#: ../../cases.rst:59
+#: ../../cases.rst:62
 msgid "Configuring table columns"
 msgstr ""
 
-#: ../../cases.rst:61
+#: ../../cases.rst:64
 msgid ""
 "Use the drag icon on the far left of the list of columns to change the "
 "column order, and click the delete icon on the far right to remove a column."
 " You can also use the text box to edit the column’s heading."
 msgstr ""
 
-#: ../../cases.rst:69
+#: ../../cases.rst:72
 msgid "Adding a column to the table"
 msgstr ""
 
-#: ../../cases.rst:78
+#: ../../cases.rst:81
 msgid ""
 "To create a new case, navigate to *Cases*; on the *Cases of* menu, select "
 "*Cases without a process*, then click *Start new case*."
 msgstr ""
 
-#: ../../cases.rst:172
+#: ../../cases.rst:175
 msgid "Closing a case manually"
 msgstr ""
 
-#: ../../cases.rst:180
+#: ../../cases.rst:183
 msgid "Closing a case"
 msgstr ""
 
-#: ../../cases.rst:182
+#: ../../cases.rst:185
 msgid ""
 "To close a case, select the ellipsis menu at the top-right of the case view,"
 " select *Close this case*, and click again to confirm."
 msgstr ""
 
-#: ../../cases.rst:99
+#: ../../cases.rst:102
 msgid "Commenting on a case"
 msgstr ""
 
-#: ../../cases.rst:101
+#: ../../cases.rst:104
 msgid ""
 "Working on a case often includes collaboration with other people. You can "
 "use the case view to discuss the case with other people, which results in a "
 "discussion in the event stream."
 msgstr ""
 
-#: ../../cases.rst:107
+#: ../../cases.rst:110
 msgid "Comments on a case - discussion with context"
 msgstr ""
 
-#: ../../cases.rst:117
+#: ../../cases.rst:120
 msgid ""
 "To add a comment, type in the text box above the event stream. Everyone who "
 "has access to the case can follow the discussion. Keeping the discussion "
@@ -140,7 +140,7 @@ msgid ""
 "than an email conversation."
 msgstr ""
 
-#: ../../cases.rst:122
+#: ../../cases.rst:125
 msgid ""
 "Sometimes, you want to direct a comment to a specific person. While entering"
 " a comment, you can ‘mention’ someone by typing a ``@`` and choosing their "
@@ -148,59 +148,59 @@ msgid ""
 "them an email notification to bring them into the discussion."
 msgstr ""
 
-#: ../../cases.rst:130
+#: ../../cases.rst:133
 msgid "Mentioning someone in a comment"
 msgstr ""
 
-#: ../../cases.rst:143
+#: ../../cases.rst:146
 msgid "Using Markdown formatting in a case comment"
 msgstr ""
 
-#: ../../cases.rst:149
+#: ../../cases.rst:152
 msgid "A hyperlink in a case comment"
 msgstr ""
 
-#: ../../cases.rst:109
+#: ../../cases.rst:112
 msgid "Hover over the user avatar to see the user’s full name:"
 msgstr ""
 
-#: ../../cases.rst:136
+#: ../../cases.rst:139
 msgid ""
 "You can also use `Markdown`_ formatting in comments, for things like text "
 "styles, headings and lists."
 msgstr ""
 
-#: ../../cases.rst:113
+#: ../../cases.rst:116
 msgid "Hover over the relative time to see the comment’s full time stamp:"
 msgstr ""
 
-#: ../../cases.rst:145
+#: ../../cases.rst:148
 msgid ""
 "You may find Markdown most useful for adding links to external information "
 "that relates to the case."
 msgstr ""
 
-#: ../../cases.rst:153
+#: ../../cases.rst:156
 msgid "Attaching documents to a case"
 msgstr ""
 
-#: ../../cases.rst:163
+#: ../../cases.rst:166
 msgid "A document attached to a case"
 msgstr ""
 
-#: ../../cases.rst:165
+#: ../../cases.rst:168
 msgid ""
 "The case’s event stream shows the document, with its file name and size. "
 "Click the icon on the right to open the document."
 msgstr ""
 
-#: ../../cases.rst:159
+#: ../../cases.rst:162
 msgid ""
 "To attach a document to a case, select the the `Upload a document` option "
 "next to where you add comments."
 msgstr ""
 
-#: ../../cases.rst:155
+#: ../../cases.rst:158
 msgid ""
 "As well as commenting on a case, to share information with the case’s "
 "participants, you can attach documents. For example, cases in a job vacancy "
@@ -208,18 +208,18 @@ msgid ""
 " a case’s documents, which makes them more useful than email attachments."
 msgstr ""
 
-#: ../../cases.rst:168
+#: ../../cases.rst:171
 msgid ""
 "If cases regularly require the same document as part of the process, you can"
 " make this clearer to people who work on cases by adding a file upload form "
 "field to a :ref:`user task form <user-task-form>`."
 msgstr ""
 
-#: ../../cases.rst:187
+#: ../../cases.rst:190
 msgid "Deleting a case"
 msgstr ""
 
-#: ../../cases.rst:192
+#: ../../cases.rst:195
 msgid ""
 "To delete a case, open the case and use its right-hand actions menu to "
 "select `Delete case`."
@@ -239,13 +239,13 @@ msgid ""
 "information about the topic, for sharing and discussion."
 msgstr ""
 
-#: ../../cases.rst:42
+#: ../../cases.rst:45
 msgid ""
 "These status bars appear to the left of the workflow data columns, which you"
 " can customize."
 msgstr ""
 
-#: ../../cases.rst:49
+#: ../../cases.rst:52
 msgid ""
 "The *Cases* view’s table includes columns for workflow :ref:`variables "
 "<variables>`, which usually correspond to form fields on a trigger form or "
@@ -253,13 +253,13 @@ msgid ""
 "columns, so you can have a clear overview of the process’ cases."
 msgstr ""
 
-#: ../../cases.rst:65
+#: ../../cases.rst:68
 msgid ""
 "Below the list of columns, you’ll find a menu for selecting additional "
 "column to add to the table."
 msgstr ""
 
-#: ../../cases.rst:71
+#: ../../cases.rst:74
 msgid ""
 "The menu lists all of the workflow variables that the table does not "
 "currently include. In this example, the *Interviewer* variable has the type "
@@ -267,32 +267,71 @@ msgid ""
 "email address, first name, ID and last name."
 msgstr ""
 
-#: ../../cases.rst:91
+#: ../../cases.rst:94
 msgid ""
 "Next, type the case title and hit Enter. Effektif now creates the new case."
 msgstr ""
 
-#: ../../cases.rst:132
+#: ../../cases.rst:135
 msgid ""
 "You can also mention two specific groups, corresponding to people working on"
 " the case. Enter ``@all`` to mention all participants in the case. Enter "
 "``@open`` to mention the assignees of open tasks within the case."
 msgstr ""
 
-#: ../../cases.rst:174
+#: ../../cases.rst:177
 msgid ""
 "You normally close a case by completing all of its tasks. However, sometimes"
 " you want to abandon a case and stop working on a it. To do this you can "
 "manually close a case."
 msgstr ""
 
-#: ../../cases.rst:189
+#: ../../cases.rst:192
 msgid ""
 "You do not normally delete cases in Effektif: you close cases that you have "
 "finished working on. However, you sometimes do need to delete cases, such as"
 " the test cases that you create while developing the initial versions of a "
 "process model."
 msgstr ""
+
+#: ../../cases.rst:199
+msgid "Exporting cases data"
+msgstr ""
+
+#: ../../cases.rst:201
+msgid ""
+"You can export the information about a process’ cases to a `CSV file "
+"<https://en.wikipedia.org/wiki/Comma-separated_values>`_ that you can open "
+"in a spreadsheet. To export case data, open the :ref:`Cases overview <cases-"
+"overview>`, select a process, and then select *Export as CSV*. You may find "
+"this useful for reporting or auditing, for example."
+msgstr ""
+
+#~ msgid ""
+#~ "You can export the information about a process’ cases to a `CSV file "
+#~ "<https://en.wikipedia.org/wiki/Comma-separated_values>`_ that you can open "
+#~ "in a spreadsheet. To export case data, open the :ref:`*Cases* overview "
+#~ "<cases-overview>`, select a process, and then select *Export as CSV*. You "
+#~ "may find this useful for reporting or auditing, for example."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can export the information about a process’ cases to a `CSV file "
+#~ "<https://en.wikipedia.org/wiki/Comma-separated_values>`_ that you can open "
+#~ "in a spreadsheet. To export case data, on the *Cases* view, select a "
+#~ "process, and then select *Export as CSV*. You may find this useful for "
+#~ "reporting or auditing, for example."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can export the information about a process’ cases to a `CSV file "
+#~ "<https://en.wikipedia.org/wiki/Comma-separated_values>`_ that you can open "
+#~ "in a spreadsheet. To export case data, on the *Cases* view, select a "
+#~ "process, and then select *Export as CSV*."
+#~ msgstr ""
+
+#~ msgid "You may find this useful for reporting or auditing, for example."
+#~ msgstr ""
 
 #~ msgid "Next, type the case title and hit Enter. The new case is now created."
 #~ msgstr ""
