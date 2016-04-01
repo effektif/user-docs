@@ -127,7 +127,8 @@ Each of those buttons will register the decision and complete the task in one go
 Reopening tasks
 ---------------
 
-When you see the `Reopen` button in a task, it means that someone completed the task.
+When the task page shows a `Reopen` button, it means that someone completed the task but you can reopen it.
+You cannot reopen a task that has a form, because completing the task finalises the form data.
 You may want to reopen a task that you closed a task by accident,
 or when you learn about additional work that belongs to this task.
 If you just forgot to attach a document or make a comment, you can still do that without reopening the task.
