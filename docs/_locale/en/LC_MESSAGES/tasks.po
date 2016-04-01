@@ -216,20 +216,30 @@ msgid ""
 "register the decision and complete the task in one go."
 msgstr ""
 
-#: ../../tasks.rst:130
-msgid ""
-"When you see the `Reopen` button in a task, it means that someone completed "
-"the task. You may want to reopen a task that you closed a task by accident, "
-"or when you learn about additional work that belongs to this task. If you "
-"just forgot to attach a document or make a comment, you can still do that "
-"without reopening the task."
-msgstr ""
-
-#: ../../tasks.rst:135
+#: ../../tasks.rst:136
 msgid ""
 "Reopening a task instead of creating a new task has the advantage that the "
 "existing task retains its context."
 msgstr ""
+
+#: ../../tasks.rst:130
+msgid ""
+"When the task page shows a `Reopen` button, it means that someone completed "
+"the task but you can reopen it. You cannot reopen a task that has a form, "
+"because completing the task finalises the form data. You may want to reopen "
+"a task that you closed a task by accident, or when you learn about "
+"additional work that belongs to this task. If you just forgot to attach a "
+"document or make a comment, you can still do that without reopening the "
+"task."
+msgstr ""
+
+#~ msgid ""
+#~ "When you see the `Reopen` button in a task, it means that someone completed "
+#~ "the task. You may want to reopen a task that you closed a task by accident, "
+#~ "or when you learn about additional work that belongs to this task. If you "
+#~ "just forgot to attach a document or make a comment, you can still do that "
+#~ "without reopening the task."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "In Effektif, a task may be assigned to a specific user, and have a due date "
