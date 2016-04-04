@@ -8,6 +8,26 @@ to keep process participants up-to-date with cases they work on
 and to avoid task handover delays,
 when someone assigns a task.
 
+.. _case-due:
+
+Case due
+--------
+
+This notification indicates that a case has reached its due date.
+
+Effektif sends this notification to the case’s process owner.
+
+
+.. _case-task-due:
+
+Case task due
+-------------
+
+This notification indicates that a case has reached its due date and has open tasks.
+
+Effektif sends this notification to the assignees of open tasks in the case.
+
+
 .. _task-created:
 
 Task created
