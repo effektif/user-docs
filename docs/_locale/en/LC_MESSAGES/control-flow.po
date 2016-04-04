@@ -21,7 +21,7 @@ msgid ""
 "the actions in a process."
 msgstr ""
 
-#: ../../control-flow.rst:9
+#: ../../control-flow/transition.rst:2 ../../control-flow/transition.rst:2
 msgid "Transition"
 msgstr ""
 
@@ -176,15 +176,16 @@ msgid ""
 "that scope."
 msgstr ""
 
-#: ../../control-flow.rst:22
+#: ../../control-flow/start-event.rst:4 ../../control-flow/start-event.rst:4
 msgid "Start event"
 msgstr ""
 
-#: ../../control-flow.rst:34 ../../control-flow.rst:45
+#: ../../control-flow/end-event.rst:2 ../../control-flow/end-event.rst:13
+#: ../../control-flow/end-event.rst:2 ../../control-flow/end-event.rst:13
 msgid "End event"
 msgstr ""
 
-#: ../../control-flow.rst:51
+#: ../../control-flow/end-event.rst:19 ../../control-flow/end-event.rst:19
 msgid "No end event"
 msgstr ""
 
@@ -198,11 +199,11 @@ msgstr ""
 msgid "A parallel gateway in the process editor"
 msgstr ""
 
-#: ../../control-flow.rst:26
+#: ../../control-flow/start-event.rst:8 ../../control-flow/start-event.rst:8
 msgid "A start event in the process editor"
 msgstr ""
 
-#: ../../control-flow.rst:38
+#: ../../control-flow/end-event.rst:6 ../../control-flow/end-event.rst:6
 msgid "An end event in the process editor"
 msgstr ""
 
@@ -418,7 +419,7 @@ msgid ""
 "flows."
 msgstr ""
 
-#: ../../control-flow.rst:11
+#: ../../control-flow/transition.rst:4 ../../control-flow/transition.rst:4
 msgid ""
 "The :ref:`process-builder` displays a transition an arrow from a source "
 "element to a destination element. The transition specifies that the workflow"
@@ -426,7 +427,7 @@ msgid ""
 "element. BPMN calls a transition a ‘sequence flow’."
 msgstr ""
 
-#: ../../control-flow.rst:28
+#: ../../control-flow/start-event.rst:10 ../../control-flow/start-event.rst:10
 msgid ""
 "A start event marks the start of a process. All process elements that do not"
 " have incoming transitions act as start elements. Start events don’t have a "
@@ -434,13 +435,13 @@ msgid ""
 " want to create more consice diagrams."
 msgstr ""
 
-#: ../../control-flow.rst:40
+#: ../../control-flow/end-event.rst:8 ../../control-flow/end-event.rst:8
 msgid ""
 "Like start events, you can also omit end events. End events mark the end of "
 "an execution flow:"
 msgstr ""
 
-#: ../../control-flow.rst:47
+#: ../../control-flow/end-event.rst:15 ../../control-flow/end-event.rst:15
 msgid "Equivalently:"
 msgstr ""
 
