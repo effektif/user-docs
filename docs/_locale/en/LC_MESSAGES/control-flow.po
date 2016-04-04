@@ -445,6 +445,36 @@ msgstr ""
 msgid "Equivalently:"
 msgstr ""
 
+#: ../../control-flow/intermediate-timer-event.rst:4
+#: ../../control-flow/intermediate-timer-event.rst:4
+msgid "Intermediate timer event"
+msgstr ""
+
+#: ../../control-flow/intermediate-timer-event.rst:8
+#: ../../control-flow/intermediate-timer-event.rst:8
+msgid "An intermediate timer event in the process editor"
+msgstr ""
+
+#: ../../control-flow/intermediate-timer-event.rst:10
+#: ../../control-flow/intermediate-timer-event.rst:10
+msgid ""
+"An intermediate timer event indicates that process execution waits for a "
+"timer. You can use this to prevent Effektif creating the next task in a "
+"process until it becomes relevant."
+msgstr ""
+
+#: ../../control-flow/intermediate-timer-event.rst:15
+#: ../../control-flow/intermediate-timer-event.rst:15
+msgid "Using an intermediate timer event to model an evaluation period"
+msgstr ""
+
+#: ../../control-flow/intermediate-timer-event.rst:17
+#: ../../control-flow/intermediate-timer-event.rst:17
+msgid ""
+"Configure how long the timer waits by selecting the timer in the process "
+"editor."
+msgstr ""
+
 #~ msgid ""
 #~ "A start event marks the start of a process. All process elements that do not"
 #~ " have incoming transitions are considered start elements. Start events don’t"

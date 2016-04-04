@@ -10,3 +10,4 @@ You use transitions, gateways and events to specify the processing order of the 
 .. include:: control-flow/parallel-gateway.rst
 .. include:: control-flow/start-event.rst
 .. include:: control-flow/end-event.rst
+.. include:: control-flow/intermediate-timer-event.rst
