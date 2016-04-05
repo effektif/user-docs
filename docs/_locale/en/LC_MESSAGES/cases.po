@@ -327,11 +327,6 @@ msgstr ""
 msgid "*Standard* - conventional CSV format"
 msgstr ""
 
-#: ../../cases.rst:216
-msgid ""
-"*Excel (Northern Europe)* - Excel compatibility for some European languages"
-msgstr ""
-
 #: ../../cases.rst:217
 msgid "*Tabs* - separate values with tabs instead of commas."
 msgstr ""
@@ -346,6 +341,16 @@ msgstr ""
 #: ../../cases.rst:215
 msgid "*Excel* - Microsoft Excel compatibility mode"
 msgstr ""
+
+#: ../../cases.rst:216
+msgid ""
+"*Excel (Northern Europe)* - better Excel compatibility for some European "
+"countries"
+msgstr ""
+
+#~ msgid ""
+#~ "*Excel (Northern Europe)* - Excel compatibility for some European languages"
+#~ msgstr ""
 
 #~ msgid "*Excel* - Microsoft Excel compatibility model"
 #~ msgstr ""

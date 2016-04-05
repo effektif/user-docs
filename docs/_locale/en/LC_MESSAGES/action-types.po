@@ -650,12 +650,6 @@ msgstr ""
 msgid "A sub-process in the process editor"
 msgstr ""
 
-#: ../../action-types/sub-process.rst:17 ../../action-types/sub-process.rst:17
-msgid ""
-"Using a sub-process to encapsulate a process that has a different process "
-"owner"
-msgstr ""
-
 #: ../../action-types/sub-process.rst:10 ../../action-types/sub-process.rst:10
 msgid ""
 "A sub-process action represents an entire process as a single task. You can "
@@ -663,6 +657,19 @@ msgid ""
 "sub-process into a single action. Then you can open the sub-process to see "
 "the next level of detail. You can also use sub-process to delegate "
 "responsibility for the process model to a different process owner."
+msgstr ""
+
+#: ../../action-types/sub-process.rst:25 ../../action-types/sub-process.rst:25
+msgid ""
+"When Effektif creates a sub-process, it starts a new case in the selected "
+"sub-process. After completing the sub-process case, Effektif continues "
+"executing the parent case."
+msgstr ""
+
+#: ../../action-types/sub-process.rst:17 ../../action-types/sub-process.rst:17
+msgid ""
+"Configuring a sub-process and mapping an *Invoice* variable to a trigger "
+"form field"
 msgstr ""
 
 #: ../../action-types/sub-process.rst:19 ../../action-types/sub-process.rst:19
@@ -674,10 +681,38 @@ msgstr ""
 
 #: ../../action-types/sub-process.rst:22 ../../action-types/sub-process.rst:22
 msgid ""
-"When Effektif creates a sub-process, it starts a new case in the selected "
-"sub-process. After completing the sub-process case, Effektif continues "
-"executing the parent case."
+"If you select a sub-process with a trigger form, you can also select "
+"variables that Effektif will use to auto-fill the trigger form fields when "
+"starting the sub-process case. In the example above, Effektif will populate "
+"the sub-process’ *Unpaid invoice* trigger form field with the file stored in"
+" the parent process’ *Invoice* variable."
 msgstr ""
+
+#~ msgid ""
+#~ "Configure the sub-process action in the process builder by selecting it, and"
+#~ " choosing a process from the list. You cannot select the same process as the"
+#~ " parent process, which would cause a loop, or an unpublished process. If you"
+#~ " select a sub-process with a trigger form, you can also select variables "
+#~ "that Effektif will use to auto-fill the trigger form fields when starting "
+#~ "the sub-process case."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Using a sub-process to encapsulate a process that has a different process "
+#~ "owner"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Configure the sub-process action in the process builder by selecting it, and"
+#~ " choosing a process from the list."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You cannot select the same process as the parent process, which would cause "
+#~ "a loop, or an unpublished process. If you select a sub-process with a "
+#~ "trigger form, you can also select variables that Effektif will use to auto-"
+#~ "fill the trigger form fields when starting the sub-process case."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "A sub-process action represents an entire process as a single task. You can "
