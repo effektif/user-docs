@@ -14,6 +14,22 @@ This can use references to variables, or to fields inside composite variables.
 The user interface guides you and shows the options you have.
 
 
+.. _type-date:
+
+Date type
+^^^^^^^^^
+
+The *Date* type stores a date, or a date and a time of day.
+
+
+.. _type-number:
+
+Number type
+^^^^^^^^^^^
+
+The *Number* type stores a number.
+
+
 .. _type-text:
 
 Text type
