@@ -103,15 +103,15 @@ msgid ""
 "*Cases without a process*, then click *Start new case*."
 msgstr ""
 
-#: ../../cases.rst:175
+#: ../../cases.rst:176
 msgid "Closing a case manually"
 msgstr ""
 
-#: ../../cases.rst:183
+#: ../../cases.rst:184
 msgid "Closing a case"
 msgstr ""
 
-#: ../../cases.rst:185
+#: ../../cases.rst:186
 msgid ""
 "To close a case, select the ellipsis menu at the top-right of the case view,"
 " select *Close this case*, and click again to confirm."
@@ -132,7 +132,7 @@ msgstr ""
 msgid "Comments on a case - discussion with context"
 msgstr ""
 
-#: ../../cases.rst:120
+#: ../../cases.rst:121
 msgid ""
 "To add a comment, type in the text box above the event stream. Everyone who "
 "has access to the case can follow the discussion. Keeping the discussion "
@@ -140,7 +140,7 @@ msgid ""
 "than an email conversation."
 msgstr ""
 
-#: ../../cases.rst:125
+#: ../../cases.rst:126
 msgid ""
 "Sometimes, you want to direct a comment to a specific person. While entering"
 " a comment, you can ‘mention’ someone by typing a ``@`` and choosing their "
@@ -148,59 +148,55 @@ msgid ""
 "them an email notification to bring them into the discussion."
 msgstr ""
 
-#: ../../cases.rst:133
+#: ../../cases.rst:134
 msgid "Mentioning someone in a comment"
 msgstr ""
 
-#: ../../cases.rst:146
+#: ../../cases.rst:147
 msgid "Using Markdown formatting in a case comment"
 msgstr ""
 
-#: ../../cases.rst:152
+#: ../../cases.rst:153
 msgid "A hyperlink in a case comment"
 msgstr ""
 
-#: ../../cases.rst:112
-msgid "Hover over the user avatar to see the user’s full name:"
-msgstr ""
-
-#: ../../cases.rst:139
+#: ../../cases.rst:140
 msgid ""
 "You can also use `Markdown`_ formatting in comments, for things like text "
 "styles, headings and lists."
 msgstr ""
 
-#: ../../cases.rst:116
+#: ../../cases.rst:117
 msgid "Hover over the relative time to see the comment’s full time stamp:"
 msgstr ""
 
-#: ../../cases.rst:148
+#: ../../cases.rst:149
 msgid ""
 "You may find Markdown most useful for adding links to external information "
 "that relates to the case."
 msgstr ""
 
-#: ../../cases.rst:156
+#: ../../cases.rst:157
 msgid "Attaching documents to a case"
 msgstr ""
 
-#: ../../cases.rst:166
+#: ../../cases.rst:167
 msgid "A document attached to a case"
 msgstr ""
 
-#: ../../cases.rst:168
+#: ../../cases.rst:169
 msgid ""
 "The case’s event stream shows the document, with its file name and size. "
 "Click the icon on the right to open the document."
 msgstr ""
 
-#: ../../cases.rst:162
+#: ../../cases.rst:163
 msgid ""
 "To attach a document to a case, select the the `Upload a document` option "
 "next to where you add comments."
 msgstr ""
 
-#: ../../cases.rst:158
+#: ../../cases.rst:159
 msgid ""
 "As well as commenting on a case, to share information with the case’s "
 "participants, you can attach documents. For example, cases in a job vacancy "
@@ -208,18 +204,18 @@ msgid ""
 " a case’s documents, which makes them more useful than email attachments."
 msgstr ""
 
-#: ../../cases.rst:171
+#: ../../cases.rst:172
 msgid ""
 "If cases regularly require the same document as part of the process, you can"
 " make this clearer to people who work on cases by adding a file upload form "
 "field to a :ref:`user task form <user-task-form>`."
 msgstr ""
 
-#: ../../cases.rst:190
+#: ../../cases.rst:191
 msgid "Deleting a case"
 msgstr ""
 
-#: ../../cases.rst:195
+#: ../../cases.rst:196
 msgid ""
 "To delete a case, open the case and use its right-hand actions menu to "
 "select `Delete case`."
@@ -272,21 +268,21 @@ msgid ""
 "Next, type the case title and hit Enter. Effektif now creates the new case."
 msgstr ""
 
-#: ../../cases.rst:135
+#: ../../cases.rst:136
 msgid ""
 "You can also mention two specific groups, corresponding to people working on"
 " the case. Enter ``@all`` to mention all participants in the case. Enter "
 "``@open`` to mention the assignees of open tasks within the case."
 msgstr ""
 
-#: ../../cases.rst:177
+#: ../../cases.rst:178
 msgid ""
 "You normally close a case by completing all of its tasks. However, sometimes"
 " you want to abandon a case and stop working on a it. To do this you can "
 "manually close a case."
 msgstr ""
 
-#: ../../cases.rst:192
+#: ../../cases.rst:193
 msgid ""
 "You do not normally delete cases in Effektif: you close cases that you have "
 "finished working on. However, you sometimes do need to delete cases, such as"
@@ -294,11 +290,11 @@ msgid ""
 "process model."
 msgstr ""
 
-#: ../../cases.rst:199
+#: ../../cases.rst:200
 msgid "Exporting cases data"
 msgstr ""
 
-#: ../../cases.rst:201
+#: ../../cases.rst:202
 msgid ""
 "You can export the information about a process’ cases to a `CSV file "
 "<https://en.wikipedia.org/wiki/Comma-separated_values>`_ that you can open "
@@ -307,12 +303,66 @@ msgid ""
 "this useful for reporting or auditing, for example."
 msgstr ""
 
-#: ../../cases.rst:205
+#: ../../cases.rst:112
 msgid ""
-"The CSV export uses *UTF-8 text encoding* - select *UTF-8* when opening the "
+"In the event stream, reply to existing comments to keep the discussion "
+"structured. Hover over the user avatar to see the user’s full name:"
+msgstr ""
+
+#: ../../cases.rst:208
+msgid "CSV export options"
+msgstr ""
+
+#: ../../cases.rst:210
+msgid ""
+"Use the CSV export options to specify the ordering of exported cases, "
+"whether to filter by status (open or closed), and the output format. Try a "
+"different output format option if you have problems loading the exported CSV"
+" file into another application, such as Microsoft Excel. The output format "
+"options determine which characters the CSV output uses to quote and separate"
+" characters and lines:"
+msgstr ""
+
+#: ../../cases.rst:214
+msgid "*Standard* - conventional CSV format"
+msgstr ""
+
+#: ../../cases.rst:216
+msgid ""
+"*Excel (Northern Europe)* - Excel compatibility for some European languages"
+msgstr ""
+
+#: ../../cases.rst:217
+msgid "*Tabs* - separate values with tabs instead of commas."
+msgstr ""
+
+#: ../../cases.rst:219
+msgid ""
+"The CSV export uses *UTF-8 text encoding*. Select *UTF-8* when opening the "
 "CSV in Microsoft Excel, for example, to preserve characters such as letters "
 "with accents."
 msgstr ""
+
+#: ../../cases.rst:215
+msgid "*Excel* - Microsoft Excel compatibility mode"
+msgstr ""
+
+#~ msgid "*Excel* - Microsoft Excel compatibility model"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The CSV export uses *UTF-8 text encoding* - select *UTF-8* when opening the "
+#~ "CSV in Microsoft Excel, for example, to preserve characters such as letters "
+#~ "with accents."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Reply to existing comments to keep the discussion structured. Hover over the"
+#~ " user avatar to see the user’s full name:"
+#~ msgstr ""
+
+#~ msgid "Hover over the user avatar to see the user’s full name:"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "You can export the information about a process’ cases to a `CSV file "

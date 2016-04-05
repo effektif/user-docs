@@ -109,6 +109,7 @@ which results in a discussion in the event stream.
 
    Comments on a case - discussion with context
 
+In the event stream, reply to existing comments to keep the discussion structured.
 Hover over the user avatar to see the user’s full name:
 
 .. figure:: /_static/images/cases/comments/user.png
