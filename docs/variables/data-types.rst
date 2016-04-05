@@ -1,9 +1,11 @@
+.. _data-types:
+
 Data types
 ----------
 
 Variables store workflow information.
 Each variable has a user-defined name and a type.
-A type can represent a single value, like a string (text) or an email address.
+A type can represent a single value, like text or an email address.
 ‘Composite’ types such as user, file or email consist of several values.
 Composite types have a list of fields.
 
@@ -12,12 +14,12 @@ This can use references to variables, or to fields inside composite variables.
 The user interface guides you and shows the options you have.
 
 
-.. _type-string:
+.. _type-text:
 
-String type
-^^^^^^^^^^^
+Text type
+^^^^^^^^^
 
-The *String* type stores plain text.
+The *Text* type stores plain text.
 
 
 .. _type-file:
@@ -36,10 +38,10 @@ User type
 A variable of type *user* refers to a user in your organization.
 A user has an object type, with the following properties:
 
-:id: (:ref:`id <type-id>`) The unique identifier for this user
-:firstName: (:ref:`string <type-string>`) The user’s first name
-:lastName: (:ref:`string <type-string>`) The user’s last name
-:emailAddress: (:ref:`emailAddress <type-email-address>`) The email address of the user
+:id: The unique identifier for this user (:ref:`type-id`)
+:firstName: The user’s first name (:ref:`type-text`)
+:lastName: The user’s last name (:ref:`type-text`)
+:emailAddress: The user’s email address (:ref:`type-email-address`)
 
 .. _type-email-address:
 
@@ -60,14 +62,14 @@ You can use the email’s data fields, such as *from address* or the attachments
 
 An email has a composite type, with the properties:
 
-:id: :ref:`id <type-id>`: The unique identifier for this email
-:from: (:ref:`emailAddress <type-email-address>`) The sender email address
-:to: (:ref:`list <type-list>` of :ref:`emailAddress <type-email-address>`) The email addresses of the recipients
-:cc: (:ref:`list <type-list>` of :ref:`emailAddress <type-email-address>`) Email addresses that receive a carbon copy of the message
-:subject: (:ref:`string <type-string>`) The subject of the email
-:bodyText: (:ref:`string <type-string>`) The plain text message
-:bodyHtml: (:ref:`string <type-string>`) The HTML code for an HTML email (optional)
-:attachments: (:ref:`list <type-list>` of :ref:`file <type-file>`) The files to attach to the email
+:id: The unique identifier for this email (:ref:`type-id`)
+:from: The sender email address (:ref:`type-email-address`)
+:to: The email addresses of the recipients (:ref:`List <type-list>` of :ref:`type-email-address`)
+:cc: Email addresses that receive a copy of the message (:ref:`List <type-list>` of :ref:`type-email-address`)
+:subject: The subject of the email (:ref:`type-text`)
+:bodyText: The plain text message (:ref:`type-text`)
+:bodyHtml: The HTML code for an HTML email (optional, :ref:`type-text`)
+:attachments: The files to attach to the email (:ref:`List <type-list>` of :ref:`type-file`)
 
 
 .. _type-id:
