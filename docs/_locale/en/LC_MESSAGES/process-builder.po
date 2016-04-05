@@ -33,29 +33,29 @@ msgid ""
 "form trigger, you can use the form builder to specify form fields."
 msgstr ""
 
-#: ../../process-builder/triggers.rst:35 ../../process-builder/triggers.rst:35
+#: ../../process-builder/triggers.rst:37 ../../process-builder/triggers.rst:37
 msgid "Email trigger"
 msgstr ""
 
-#: ../../process-builder/triggers.rst:43 ../../process-builder/triggers.rst:43
+#: ../../process-builder/triggers.rst:45 ../../process-builder/triggers.rst:45
 msgid "Mail trigger configuration"
 msgstr ""
 
-#: ../../process-builder/triggers.rst:45 ../../process-builder/triggers.rst:45
+#: ../../process-builder/triggers.rst:47 ../../process-builder/triggers.rst:47
 msgid ""
 "The email trigger creates an email variable that stores the email that "
 "started the process."
 msgstr ""
 
-#: ../../process-builder/triggers.rst:58 ../../process-builder/triggers.rst:58
+#: ../../process-builder/triggers.rst:60 ../../process-builder/triggers.rst:60
 msgid "Trigger mail in stream"
 msgstr ""
 
-#: ../../process-builder/triggers.rst:64 ../../process-builder/triggers.rst:64
+#: ../../process-builder/triggers.rst:66 ../../process-builder/triggers.rst:66
 msgid "Salesforce trigger"
 msgstr ""
 
-#: ../../process-builder/triggers.rst:66 ../../process-builder/triggers.rst:66
+#: ../../process-builder/triggers.rst:68 ../../process-builder/triggers.rst:68
 msgid ""
 "A Salesforce trigger starts a new case in response to Salesforce sending an "
 "outbound message as part of a Salesforce workflow. Before you can use a "
@@ -63,14 +63,14 @@ msgid ""
 "integration>`."
 msgstr ""
 
-#: ../../process-builder/triggers.rst:70 ../../process-builder/triggers.rst:70
+#: ../../process-builder/triggers.rst:72 ../../process-builder/triggers.rst:72
 msgid ""
 "When you have configured a Salesforce service, you can select it as a "
 "process trigger, so that messages from Salesforce will now trigger new "
 "cases."
 msgstr ""
 
-#: ../../process-builder/triggers.rst:76 ../../process-builder/triggers.rst:76
+#: ../../process-builder/triggers.rst:78 ../../process-builder/triggers.rst:78
 msgid "Example of a Salesforce trigger"
 msgstr ""
 
@@ -173,24 +173,9 @@ msgstr ""
 msgid "The *Process builder*’s actions palette"
 msgstr ""
 
-#: ../../process-builder/variables.rst:10
-#: ../../process-builder/variables.rst:10
-msgid ""
-"A trigger form that populates a *Reference number* variable for use in a "
-"workflow"
-msgstr ""
-
 #: ../../process-builder/roles.rst:48 ../../process-builder/roles.rst:48
 msgid ""
 "Assigning a task to a *Support engineer* role with candidates Alice and Ben"
-msgstr ""
-
-#: ../../process-builder/variables.rst:12
-#: ../../process-builder/variables.rst:12
-msgid ""
-"A workflow variable can contain a single value, such as a reference number, "
-"or containing multiple fields, such as an email, which has fields like "
-"`from`, `to`, `subject` and `attachments`."
 msgstr ""
 
 #: ../../process-builder/roles.rst:62 ../../process-builder/roles.rst:62
@@ -618,7 +603,7 @@ msgid ""
 "`Start new case` and then selecting the process to start."
 msgstr ""
 
-#: ../../process-builder/triggers.rst:37 ../../process-builder/triggers.rst:37
+#: ../../process-builder/triggers.rst:39 ../../process-builder/triggers.rst:39
 msgid ""
 "An email trigger starts a new case for each email that you send to the "
 "trigger’s Effektif email address. Note this differs from reading an existing"
@@ -626,7 +611,7 @@ msgid ""
 " see its email address:"
 msgstr ""
 
-#: ../../process-builder/triggers.rst:48 ../../process-builder/triggers.rst:48
+#: ../../process-builder/triggers.rst:50 ../../process-builder/triggers.rst:50
 msgid ""
 "You can use an email trigger by adding the trigger email address to a "
 "mailing list, such as `support@example.com `or `info@example.com`. You’ll "
@@ -637,18 +622,10 @@ msgid ""
 "stream:"
 msgstr ""
 
-#: ../../process-builder/triggers.rst:78 ../../process-builder/triggers.rst:78
+#: ../../process-builder/triggers.rst:80 ../../process-builder/triggers.rst:80
 msgid ""
 "In the process definition, you can use the Salesforce object fields from the"
 " Salesforce message just like normal :ref:`variables <variables>`."
-msgstr ""
-
-#: ../../process-builder/variables.rst:4 ../../process-builder/variables.rst:4
-msgid ""
-"A process has variables that store workflow data when the process runs. "
-"These variables contain all of the information from forms as well as "
-"information required by the process actions. Each case stores its own values"
-" for each workflow variable."
 msgstr ""
 
 #: ../../process-builder/versions.rst:6 ../../process-builder/versions.rst:6
@@ -693,6 +670,32 @@ msgid ""
 "A trigger in a process specifies how the process starts. Triggers do not "
 "have any relation to :ref:`start events <start-event>`."
 msgstr ""
+
+#: ../../process-builder/variables.rst:4 ../../process-builder/variables.rst:4
+msgid ":ref:`variables` store workflow data when the process runs."
+msgstr ""
+
+#~ msgid ""
+#~ "A process has variables that store workflow data when the process runs."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A trigger form that populates a *Reference number* variable for use in a "
+#~ "workflow"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A workflow variable can contain a single value, such as a reference number, "
+#~ "or containing multiple fields, such as an email, which has fields like "
+#~ "`from`, `to`, `subject` and `attachments`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A process has variables that store workflow data when the process runs. "
+#~ "These variables contain all of the information from forms as well as "
+#~ "information required by the process actions. Each case stores its own values"
+#~ " for each workflow variable."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "A trigger defines when a process starts. Triggers do not have any relation "

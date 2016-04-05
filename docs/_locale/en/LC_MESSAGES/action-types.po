@@ -19,7 +19,7 @@ msgstr ""
 msgid "User task"
 msgstr ""
 
-#: ../../action-types/send-email.rst:2 ../../action-types/send-email.rst:2
+#: ../../action-types/send-email.rst:4 ../../action-types/send-email.rst:4
 msgid "Send email"
 msgstr ""
 
@@ -31,43 +31,43 @@ msgstr ""
 msgid "Google Drive permission grant"
 msgstr ""
 
-#: ../../action-types/javascript.rst:2 ../../action-types/javascript.rst:2
+#: ../../action-types/javascript.rst:4 ../../action-types/javascript.rst:4
 msgid "JavaScript action"
 msgstr ""
 
-#: ../../action-types/javascript.rst:9 ../../action-types/javascript.rst:9
+#: ../../action-types/javascript.rst:11 ../../action-types/javascript.rst:11
 msgid "JavaScript configuration panel"
 msgstr ""
 
-#: ../../action-types/javascript.rst:20 ../../action-types/javascript.rst:20
+#: ../../action-types/javascript.rst:22 ../../action-types/javascript.rst:22
 msgid "JavaScript test output"
 msgstr ""
 
-#: ../../action-types/javascript.rst:27 ../../action-types/javascript.rst:27
+#: ../../action-types/javascript.rst:29 ../../action-types/javascript.rst:29
 msgid "Form taking input for JavaScript"
 msgstr ""
 
-#: ../../action-types/javascript.rst:29 ../../action-types/javascript.rst:29
+#: ../../action-types/javascript.rst:31 ../../action-types/javascript.rst:31
 msgid ""
 "When you open the JavaScript configuration again, you'll see the variables "
 "section shows some of the form field variables."
 msgstr ""
 
-#: ../../action-types/javascript.rst:33 ../../action-types/javascript.rst:33
+#: ../../action-types/javascript.rst:35 ../../action-types/javascript.rst:35
 msgid "JavaScript variables"
 msgstr ""
 
-#: ../../action-types/javascript.rst:42 ../../action-types/javascript.rst:42
+#: ../../action-types/javascript.rst:44 ../../action-types/javascript.rst:44
 msgid "JavaScript test values"
 msgstr ""
 
-#: ../../action-types/javascript.rst:44 ../../action-types/javascript.rst:44
+#: ../../action-types/javascript.rst:46 ../../action-types/javascript.rst:46
 msgid ""
 "When clicking `Test it` again, we can see the JSON structure of the variable"
 " data for the different variable types."
 msgstr ""
 
-#: ../../action-types/javascript.rst:48 ../../action-types/javascript.rst:48
+#: ../../action-types/javascript.rst:50 ../../action-types/javascript.rst:50
 msgid "JavaScript JSON values"
 msgstr ""
 
@@ -75,7 +75,7 @@ msgstr ""
 msgid "A user task in the process editor"
 msgstr ""
 
-#: ../../action-types/send-email.rst:6 ../../action-types/send-email.rst:6
+#: ../../action-types/send-email.rst:8 ../../action-types/send-email.rst:8
 msgid "A send email task in the process editor"
 msgstr ""
 
@@ -86,7 +86,7 @@ msgid ""
 "account."
 msgstr ""
 
-#: ../../action-types/javascript.rst:50 ../../action-types/javascript.rst:50
+#: ../../action-types/javascript.rst:52 ../../action-types/javascript.rst:52
 msgid ""
 "You can use these variables to send data to an external web service, using "
 "the `request module "
@@ -95,18 +95,18 @@ msgid ""
 "HTTP POST request to an external web service. ::"
 msgstr ""
 
-#: ../../action-types/javascript.rst:75 ../../action-types/javascript.rst:75
+#: ../../action-types/javascript.rst:77 ../../action-types/javascript.rst:77
 msgid ""
 "This example uses a test endpoint configured using `Mocky "
 "<http://www.mocky.io/>`_ to return an HTTP response. This has the following "
 "result in the Effektif test console:"
 msgstr ""
 
-#: ../../action-types/javascript.rst:81 ../../action-types/javascript.rst:81
+#: ../../action-types/javascript.rst:83 ../../action-types/javascript.rst:83
 msgid "Updating a variable via an external web service"
 msgstr ""
 
-#: ../../action-types/javascript.rst:89 ../../action-types/javascript.rst:89
+#: ../../action-types/javascript.rst:91 ../../action-types/javascript.rst:91
 msgid ""
 "The script then parses this JSON response using ``JSON.parse`` and updates "
 "the ``startDate`` variable in Effektif, as shown in the *Updated value* "
@@ -228,7 +228,7 @@ msgid ""
 "Use a forward slash (``/``) to separate nested subfolder levels."
 msgstr ""
 
-#: ../../action-types/user-task.rst:54 ../../action-types/user-task.rst:54
+#: ../../action-types/user-task.rst:56 ../../action-types/user-task.rst:56
 msgid "Reminders"
 msgstr ""
 
@@ -236,11 +236,11 @@ msgstr ""
 msgid "Configuring user task reminders in the process editor"
 msgstr ""
 
-#: ../../action-types/user-task.rst:62 ../../action-types/user-task.rst:62
+#: ../../action-types/user-task.rst:64 ../../action-types/user-task.rst:64
 msgid "Configuring user task reminders in the process editor"
 msgstr ""
 
-#: ../../action-types/user-task.rst:70 ../../action-types/user-task.rst:70
+#: ../../action-types/user-task.rst:72 ../../action-types/user-task.rst:72
 msgid "Escalations"
 msgstr ""
 
@@ -252,14 +252,14 @@ msgstr ""
 msgid "*Escalations* -  automatic task reassignment."
 msgstr ""
 
-#: ../../action-types/user-task.rst:56 ../../action-types/user-task.rst:56
+#: ../../action-types/user-task.rst:58 ../../action-types/user-task.rst:58
 msgid ""
 "Use the user task’s `Reminders` configuration panel tab to set up task "
 "deadline notifications. If you configure a `Due date` or `Reminder` period, "
 "then Effektif will send email when the deadline expires."
 msgstr ""
 
-#: ../../action-types/user-task.rst:72 ../../action-types/user-task.rst:72
+#: ../../action-types/user-task.rst:74 ../../action-types/user-task.rst:74
 msgid ""
 "You can also use the :ref:`Reminders <reminders>` configuration panel tab to"
 " configure escalations. If you configure an `Escalation` period and an "
@@ -271,15 +271,15 @@ msgstr ""
 msgid "*Access Rights* - task permissions for users and groups."
 msgstr ""
 
-#: ../../action-types/user-task.rst:47 ../../action-types/user-task.rst:47
+#: ../../action-types/user-task.rst:49 ../../action-types/user-task.rst:49
 msgid "Form"
 msgstr ""
 
-#: ../../action-types/user-task.rst:81 ../../action-types/user-task.rst:81
+#: ../../action-types/user-task.rst:83 ../../action-types/user-task.rst:83
 msgid "Access Rights"
 msgstr ""
 
-#: ../../action-types/user-task.rst:83 ../../action-types/user-task.rst:83
+#: ../../action-types/user-task.rst:85 ../../action-types/user-task.rst:85
 msgid ""
 "Use the `Access Rights` tab to set permissions for viewing, assigning and "
 "completing the task. See :ref:`Restricting access to user tasks <user-task-"
@@ -290,13 +290,13 @@ msgstr ""
 msgid "Configuring user task assignment in the process editor"
 msgstr ""
 
-#: ../../action-types/user-task.rst:49 ../../action-types/user-task.rst:49
+#: ../../action-types/user-task.rst:51 ../../action-types/user-task.rst:51
 msgid ""
 "Use the form builder to create a user task form for entering and updating "
 "data as part of the user task."
 msgstr ""
 
-#: ../../action-types/javascript.rst:4 ../../action-types/javascript.rst:4
+#: ../../action-types/javascript.rst:6 ../../action-types/javascript.rst:6
 msgid ""
 "The JavaScript action allows developers to add JavaScript to process "
 "execution. After creating or selecting a JavaScript action, the "
@@ -378,13 +378,13 @@ msgid ""
 "identically-named tasks."
 msgstr ""
 
-#: ../../action-types/send-email.rst:8 ../../action-types/send-email.rst:8
+#: ../../action-types/send-email.rst:10 ../../action-types/send-email.rst:10
 msgid ""
 "The send email action sends an email to the specified user. In the "
 "configuration you can specify the following."
 msgstr ""
 
-#: ../../action-types/send-email.rst:32 ../../action-types/send-email.rst:32
+#: ../../action-types/send-email.rst:34 ../../action-types/send-email.rst:34
 msgid ""
 "To add attachments, click the *Attachments* field and select a file field "
 "from the list. The list includes trigger email attachments and file upload "
@@ -395,29 +395,29 @@ msgstr ""
 msgid "General"
 msgstr ""
 
-#: ../../action-types/user-task.rst:77 ../../action-types/user-task.rst:77
+#: ../../action-types/user-task.rst:79 ../../action-types/user-task.rst:79
 msgid ""
 "Sometimes, you don’t know who will take over a task that has passed its "
 "escalation deadline, so you choose one person in the process model. Instead,"
 " you can escalate task assignment to multiple people, or select a group."
 msgstr ""
 
-#: ../../action-types/send-email.rst:13 ../../action-types/send-email.rst:13
+#: ../../action-types/send-email.rst:15 ../../action-types/send-email.rst:15
 msgid "Sender name"
 msgstr ""
 
-#: ../../action-types/send-email.rst:12 ../../action-types/send-email.rst:12
+#: ../../action-types/send-email.rst:14 ../../action-types/send-email.rst:14
 msgid ""
 "By default, Effektif sends the email with the `From` field set to "
 "*Effektif*. You can set this field to set the `From` field to your company "
 "or department name."
 msgstr ""
 
-#: ../../action-types/send-email.rst:18 ../../action-types/send-email.rst:18
+#: ../../action-types/send-email.rst:20 ../../action-types/send-email.rst:20
 msgid "To"
 msgstr ""
 
-#: ../../action-types/send-email.rst:16 ../../action-types/send-email.rst:16
+#: ../../action-types/send-email.rst:18 ../../action-types/send-email.rst:18
 msgid ""
 "The people who Effektif sends the email to. You can enter one or more plain "
 "email addresses, or select email :ref:`variables <variables>` or users in "
@@ -425,30 +425,30 @@ msgid ""
 "then select it from the pick list."
 msgstr ""
 
-#: ../../action-types/send-email.rst:22 ../../action-types/send-email.rst:22
+#: ../../action-types/send-email.rst:24 ../../action-types/send-email.rst:24
 msgid "Reply to"
 msgstr ""
 
-#: ../../action-types/send-email.rst:21 ../../action-types/send-email.rst:21
+#: ../../action-types/send-email.rst:23 ../../action-types/send-email.rst:23
 msgid ""
 "Effektif sends emails from the address `notifications@app.effektif.com`, "
 "which you cannot reply to. If you set this field to an alternative email "
 "address, you override the address for replies to the email."
 msgstr ""
 
-#: ../../action-types/send-email.rst:29 ../../action-types/send-email.rst:29
+#: ../../action-types/send-email.rst:31 ../../action-types/send-email.rst:31
 msgid "Subject"
 msgstr ""
 
-#: ../../action-types/send-email.rst:33 ../../action-types/send-email.rst:33
+#: ../../action-types/send-email.rst:35 ../../action-types/send-email.rst:35
 msgid "Attachments"
 msgstr ""
 
-#: ../../action-types/send-email.rst:38 ../../action-types/send-email.rst:37
+#: ../../action-types/send-email.rst:40 ../../action-types/send-email.rst:39
 msgid "Body text"
 msgstr ""
 
-#: ../../action-types/send-email.rst:36 ../../action-types/send-email.rst:36
+#: ../../action-types/send-email.rst:38 ../../action-types/send-email.rst:38
 msgid ""
 "You can use variables in the main email body by typing a `#`, just like in "
 "the *Subject*. You can use `Markdown "
@@ -511,7 +511,7 @@ msgid ""
 " so that Effektif automatically assigns related tasks to the same person."
 msgstr ""
 
-#: ../../action-types/user-task.rst:64 ../../action-types/user-task.rst:64
+#: ../../action-types/user-task.rst:66 ../../action-types/user-task.rst:66
 msgid ""
 "Effektif sends these notifications to the task’s assignee if the task has an"
 " assignee, or to all of the task’s candidates if the task it not assigned. "
@@ -519,7 +519,7 @@ msgid ""
 "sends the notification to the process’ owner."
 msgstr ""
 
-#: ../../action-types/send-email.rst:25 ../../action-types/send-email.rst:25
+#: ../../action-types/send-email.rst:27 ../../action-types/send-email.rst:27
 msgid ""
 "The email subject line. To use :ref:`variables <variables>` in the subject, "
 "type a `#` and select a field from the list. If the list contains too many "
@@ -608,25 +608,25 @@ msgid ""
 "you can configure the *Add row to sheet* action."
 msgstr ""
 
-#: ../../action-types/javascript.rst:11 ../../action-types/javascript.rst:11
+#: ../../action-types/javascript.rst:13 ../../action-types/javascript.rst:13
 msgid ""
 "The top section of the panel contains the JavaScript text editor. By "
 "default, it already contains ``console.log('Hello World!');``."
 msgstr ""
 
-#: ../../action-types/javascript.rst:14 ../../action-types/javascript.rst:14
+#: ../../action-types/javascript.rst:16 ../../action-types/javascript.rst:16
 msgid ""
 "The lower section allows you to test the script. Click `Test it` to execute "
 "the JavaScript code. The test runner displays the results underneath:"
 msgstr ""
 
-#: ../../action-types/javascript.rst:22 ../../action-types/javascript.rst:22
+#: ../../action-types/javascript.rst:24 ../../action-types/javascript.rst:24
 msgid ""
 "Next, we'll show how to work with data. Suppose that the process includes a "
 "form that has each type of field and looks like this:"
 msgstr ""
 
-#: ../../action-types/javascript.rst:35 ../../action-types/javascript.rst:35
+#: ../../action-types/javascript.rst:37 ../../action-types/javascript.rst:37
 msgid ""
 "Click `Show all fields` and select the variables you want to access in the "
 "script. In this example (below), you have selected all variables. For each "
@@ -634,7 +634,7 @@ msgid ""
 "Here you see all fields with a test value."
 msgstr ""
 
-#: ../../action-types/javascript.rst:83 ../../action-types/javascript.rst:83
+#: ../../action-types/javascript.rst:85 ../../action-types/javascript.rst:85
 msgid ""
 "The two log statements, starting with *HTTP 200*, show the HTTP response "
 "from the web service. The response body (as set-up in Mocky) contains JSON "
