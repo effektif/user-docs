@@ -307,6 +307,13 @@ msgid ""
 "this useful for reporting or auditing, for example."
 msgstr ""
 
+#: ../../cases.rst:205
+msgid ""
+"The CSV export uses *UTF-8 text encoding* - select *UTF-8* when opening the "
+"CSV in Microsoft Excel, for example, to preserve characters such as letters "
+"with accents."
+msgstr ""
+
 #~ msgid ""
 #~ "You can export the information about a process’ cases to a `CSV file "
 #~ "<https://en.wikipedia.org/wiki/Comma-separated_values>`_ that you can open "

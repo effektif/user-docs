@@ -11,3 +11,4 @@ Actions typically have a configuration panel that opens when you select the acti
 .. include:: action-types/google.rst
 .. include:: action-types/box.rst
 .. include:: action-types/javascript.rst
+.. include:: action-types/sub-process.rst
