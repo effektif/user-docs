@@ -1,26 +1,28 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-17 10:39+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2016-04-11 15:58+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"X-Generator: Poedit 1.8.7\n"
 
 #: ../../data-types.rst:2
 msgid "Data types"
-msgstr ""
+msgstr "Daten-Typen"
 
 #: ../../data-types.rst:4
 msgid ""
 "The forms and some of the actions are linked to workflow data, called "
 "*variables*. Workflow variables are mostly created automatically, as when "
-"creating a new form field. Each variable has a data type. This section lists"
-" the data types variables can have."
+"creating a new form field. Each variable has a data type. This section "
+"lists the data types variables can have."
 msgstr ""
 
 #: ../../data-types.rst:15
@@ -35,13 +37,13 @@ msgstr ""
 msgid ""
 "When using expressions or configuring some action, references are made to "
 "workflow data. These can be references to variables, or to fields inside "
-"composite variables. The user interface guides you and shows the options you"
-" have."
+"composite variables. The user interface guides you and shows the options "
+"you have."
 msgstr ""
 
 #: ../../data-types.rst:29
 msgid "String type"
-msgstr ""
+msgstr "String-Typen"
 
 #: ../../data-types.rst:31
 msgid "The *String* type stores plain text."
@@ -49,7 +51,7 @@ msgstr ""
 
 #: ../../data-types.rst:37
 msgid "File type"
-msgstr ""
+msgstr "Dateitypen"
 
 #: ../../data-types.rst:39
 msgid "The *file* type stores a file."
@@ -57,7 +59,7 @@ msgstr ""
 
 #: ../../data-types.rst:45
 msgid "User type"
-msgstr ""
+msgstr "Benutzertypen"
 
 #: ../../data-types.rst:47
 msgid ""
@@ -92,7 +94,7 @@ msgstr ""
 
 #: ../../data-types.rst:66
 msgid "Email type"
-msgstr ""
+msgstr "Email-Typen"
 
 #: ../../data-types.rst:68
 msgid ""
@@ -147,24 +149,24 @@ msgstr ""
 
 #: ../../data-types.rst:87
 msgid "ID type"
-msgstr ""
+msgstr "ID-Typen"
 
 #: ../../data-types.rst:89
 msgid ""
-"The ID type is a special kind of string. These IDs identify objects and they"
-" are always created by Effektif, and have no other meaning. An example of an"
-" ID string is ``53fae958036471cea136ea83``."
+"The ID type is a special kind of string. These IDs identify objects and "
+"they are always created by Effektif, and have no other meaning. An example "
+"of an ID string is ``53fae958036471cea136ea83``."
 msgstr ""
 
 #: ../../data-types.rst:98
 msgid "Object types"
-msgstr ""
+msgstr "Objekttypen"
 
 #: ../../data-types.rst:100
 msgid ""
-"Object types are composite data types that have a list of fields. Each field"
-" has a name. For example: a user is an object type, with fields such as "
-"``firstName``, ``lastName``, ``mailAddress``."
+"Object types are composite data types that have a list of fields. Each "
+"field has a name. For example: a user is an object type, with fields such "
+"as ``firstName``, ``lastName``, ``mailAddress``."
 msgstr ""
 
 #: ../../data-types.rst:105
@@ -176,7 +178,7 @@ msgstr ""
 
 #: ../../data-types.rst:113
 msgid "List type"
-msgstr ""
+msgstr "Listen-Typen"
 
 #: ../../data-types.rst:115
 msgid ""
@@ -186,7 +188,4 @@ msgstr ""
 
 #: ../../data-types.rst:13
 msgid "Variables"
-msgstr ""
-
-#~ msgid "Variables vs fields"
-#~ msgstr ""
+msgstr "Variablen"
