@@ -7,6 +7,7 @@ See the [admin guide instructions](https://sites.google.com/a/effektif.com/effek
 
 The following instructions assume Python is already installed.
 
+0. (optional) You might want to [set up a virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/).
 1. Install Python module dependencies - [PIP](https://pypi.python.org/pypi/pip), termcolor and tabulate:
 
 		sudo easy_install pip
@@ -18,8 +19,7 @@ The following instructions assume Python is already installed.
 		export LC_ALL=en_US.UTF-8
 		export LANG=en_US.UTF-8
 
-3. (optional) You might want to [set up a virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/).
-4. Install all requirements:
+3. Install all requirements:
 
 		pip install -r requirements
 
