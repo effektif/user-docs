@@ -27,7 +27,7 @@ msgstr ""
 msgid "Organizations"
 msgstr ""
 
-#: ../../profile.rst:55
+#: ../../profile.rst:62
 msgid "Services"
 msgstr ""
 
@@ -47,11 +47,7 @@ msgstr ""
 msgid "Uncheck the checkboxes to disable all email notifications."
 msgstr ""
 
-#: ../../profile.rst:49
-msgid "You can use the leave icon to leave an organisation."
-msgstr ""
-
-#: ../../profile.rst:57
+#: ../../profile.rst:64
 msgid ""
 "The `Services` section shows your personal configurations for third-party "
 "services, such as a linked Google Account."
@@ -84,6 +80,59 @@ msgid ""
 "The `Organizations` section lists organizations that you belong to, and "
 "indicates whether you have the organization administrator role."
 msgstr ""
+
+#: ../../profile.rst:49
+msgid ""
+"You can use the leave icon to leave an organisation. When you leave an "
+"organisation, Effektif will:"
+msgstr ""
+
+#: ../../profile.rst:52
+msgid "remove you from the organisation’s groups"
+msgstr ""
+
+#: ../../profile.rst:54
+msgid "unassign you from tasks in the organisation’s processes"
+msgstr ""
+
+#: ../../profile.rst:55
+msgid "remove your participation in cases of the organisation’s processes"
+msgstr ""
+
+#: ../../profile.rst:56
+msgid "free up one of the organisation’s Effektif licenses."
+msgstr ""
+
+#: ../../profile.rst:53
+msgid ""
+"remove you from process models (process owner, access controls, action "
+"candidates)"
+msgstr ""
+
+#~ msgid ""
+#~ "remove you from process models (process owner, access control, action "
+#~ "candidate, and action access rights)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Effektif will remove you from several places in the organisation’s "
+#~ "processes:"
+#~ msgstr ""
+
+#~ msgid "process owner"
+#~ msgstr ""
+
+#~ msgid "process access control"
+#~ msgstr ""
+
+#~ msgid "process action candidate"
+#~ msgstr ""
+
+#~ msgid "process action access rights."
+#~ msgstr ""
+
+#~ msgid "You can use the leave icon to leave an organisation."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "On the top-right drop-down menu, select `My Profile` to view and edit your "
