@@ -11,143 +11,143 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../variables.rst:4
+#: ..\..\variables.rst:4
 msgid "Variables"
 msgstr ""
 
-#: ../../variables/data-types.rst:4 ../../variables/data-types.rst:4
+#: ..\..\variables\data-types.rst:4 ..\..\variables\data-types.rst:4
 msgid "Data types"
 msgstr ""
 
-#: ../../variables/data-types.rst:44 ../../variables/data-types.rst:44
+#: ..\..\variables\data-types.rst:44 ..\..\variables\data-types.rst:44
 msgid "File type"
 msgstr ""
 
-#: ../../variables/data-types.rst:46 ../../variables/data-types.rst:46
+#: ..\..\variables\data-types.rst:46 ..\..\variables\data-types.rst:46
 msgid "The *file* type stores a file."
 msgstr ""
 
-#: ../../variables/data-types.rst:52 ../../variables/data-types.rst:52
+#: ..\..\variables\data-types.rst:52 ..\..\variables\data-types.rst:52
 msgid "User type"
 msgstr ""
 
-#: ../../variables/data-types.rst:65 ../../variables/data-types.rst:65
+#: ..\..\variables\data-types.rst:65 ..\..\variables\data-types.rst:65
 msgid "Email address type"
 msgstr ""
 
-#: ../../variables/data-types.rst:67 ../../variables/data-types.rst:67
+#: ..\..\variables\data-types.rst:67 ..\..\variables\data-types.rst:67
 msgid "The *email address* type stores an email address."
 msgstr ""
 
-#: ../../variables/data-types.rst:73 ../../variables/data-types.rst:73
+#: ..\..\variables\data-types.rst:73 ..\..\variables\data-types.rst:73
 msgid "Email type"
 msgstr ""
 
-#: ../../variables/data-types.rst:94 ../../variables/data-types.rst:94
+#: ..\..\variables\data-types.rst:94 ..\..\variables\data-types.rst:94
 msgid "ID type"
 msgstr ""
 
-#: ../../variables/data-types.rst:104 ../../variables/data-types.rst:104
+#: ..\..\variables\data-types.rst:104 ..\..\variables\data-types.rst:104
 msgid "Object types"
 msgstr ""
 
-#: ../../variables/data-types.rst:113 ../../variables/data-types.rst:113
+#: ..\..\variables\data-types.rst:113 ..\..\variables\data-types.rst:113
 msgid "List type"
 msgstr ""
 
-#: ../../variables/data-types.rst:12 ../../variables/data-types.rst:12
+#: ..\..\variables\data-types.rst:12 ..\..\variables\data-types.rst:12
 msgid ""
 "When using expressions or configuring some action, you refer to workflow "
 "data. This can use references to variables, or to fields inside composite "
 "variables. The user interface guides you and shows the options you have."
 msgstr ""
 
-#: ../../variables/data-types.rst:54 ../../variables/data-types.rst:54
+#: ..\..\variables\data-types.rst:54 ..\..\variables\data-types.rst:54
 msgid ""
 "A variable of type *user* refers to a user in your organization. A user has "
 "an object type, with the following properties:"
 msgstr ""
 
-#: ../../variables/data-types.rst:75 ../../variables/data-types.rst:75
+#: ..\..\variables\data-types.rst:75 ..\..\variables\data-types.rst:75
 msgid ""
 "The *email type* stores an email, which the email trigger uses. A variable "
 "stores the email that triggers the process. You can use the email’s data "
 "fields, such as *from address* or the attachments, later in the process."
 msgstr ""
 
-#: ../../variables/data-types.rst:79 ../../variables/data-types.rst:79
+#: ..\..\variables\data-types.rst:79 ..\..\variables\data-types.rst:79
 msgid "An email has a composite type, with the properties:"
 msgstr ""
 
-#: ../../variables/data-types.rst:96 ../../variables/data-types.rst:96
+#: ..\..\variables\data-types.rst:96 ..\..\variables\data-types.rst:96
 msgid ""
 "An ID has special kind of string type. Effektif creates these IDs to "
 "identify objects; they have no other meaning. An ID string looks like "
 "``53fae958036471cea136ea83``."
 msgstr ""
 
-#: ../../variables/data-types.rst:106 ../../variables/data-types.rst:106
+#: ..\..\variables\data-types.rst:106 ..\..\variables\data-types.rst:106
 msgid ""
 "Objects have a composite type, with a list of named fields. For example: a "
 "user has an object type, with fields such as ``firstName``, ``lastName``, "
 "``mailAddress``."
 msgstr ""
 
-#: ../../variables/data-types.rst:115 ../../variables/data-types.rst:115
+#: ..\..\variables\data-types.rst:115 ..\..\variables\data-types.rst:115
 msgid ""
 "A list simply represents a collection of values. The list has an order and "
 "all elements have a single specified type."
 msgstr ""
 
-#: ../../variables/case.rst:14 ../../variables/case.rst:14
+#: ..\..\variables\case.rst:14 ..\..\variables\case.rst:14
 msgid "Case ID"
 msgstr ""
 
-#: ../../variables/case.rst:32 ../../variables/case.rst:32
+#: ..\..\variables\case.rst:32 ..\..\variables\case.rst:32
 msgid "Case number"
 msgstr ""
 
-#: ../../variables/case.rst:42 ../../variables/case.rst:42
+#: ..\..\variables\case.rst:42 ..\..\variables\case.rst:42
 msgid "Creator"
 msgstr ""
 
-#: ../../variables/case.rst:51 ../../variables/case.rst:51
+#: ..\..\variables\case.rst:51 ..\..\variables\case.rst:51
 msgid "Start date"
 msgstr ""
 
-#: ../../variables/case.rst:60 ../../variables/case.rst:60
+#: ..\..\variables\case.rst:60 ..\..\variables\case.rst:60
 msgid "Due date"
 msgstr ""
 
-#: ../../variables/case.rst:69 ../../variables/case.rst:69
+#: ..\..\variables\case.rst:69 ..\..\variables\case.rst:69
 msgid "Case link"
 msgstr ""
 
-#: ../../variables.rst:10
+#: ..\..\variables.rst:10
 msgid ""
 "These variables contain all of the information from forms as well as "
 "information required by the process actions. Each case stores its own values"
 " for each workflow variable."
 msgstr ""
 
-#: ../../variables.rst:18
+#: ..\..\variables.rst:18
 msgid ""
 "A trigger form that populates a *Reference number* variable for use in a "
 "workflow"
 msgstr ""
 
-#: ../../variables.rst:13
+#: ..\..\variables.rst:13
 msgid ""
 "You will usually add a variable to your workflow by adding a :ref:`form "
 "field <form-fields>`. You can also create variables in a :ref:`javascript`, "
 "to capture data that the script retrieves or calculates."
 msgstr ""
 
-#: ../../variables/case.rst:4 ../../variables/case.rst:4
+#: ..\..\variables\case.rst:4 ..\..\variables\case.rst:4
 msgid "Case variable"
 msgstr ""
 
-#: ../../variables.rst:6
+#: ..\..\variables.rst:6
 msgid ""
 "*Variables* contain the workflow data that the process defines. You can use "
 "variables in a case name template and when configuring the output of some "
@@ -156,14 +156,14 @@ msgid ""
 ":ref:`email task <send-email>` subject line or body text."
 msgstr ""
 
-#: ../../variables.rst:24
+#: ..\..\variables.rst:24
 msgid ""
 "Variables can have different :ref:`data-types` that determine which kind of "
 "data the variable stores, such as text or a date, and whether the data is a "
 "single value or contains multiple fields."
 msgstr ""
 
-#: ../../variables/data-types.rst:6 ../../variables/data-types.rst:6
+#: ..\..\variables\data-types.rst:6 ..\..\variables\data-types.rst:6
 msgid ""
 "Variables store workflow information. Each variable has a user-defined name "
 "and a type. A type can represent a single value, like text or an email "
@@ -171,69 +171,69 @@ msgid ""
 "values. Composite types have a list of fields."
 msgstr ""
 
-#: ../../variables/data-types.rst:36 ../../variables/data-types.rst:36
+#: ..\..\variables\data-types.rst:36 ..\..\variables\data-types.rst:36
 msgid "Text type"
 msgstr ""
 
-#: ../../variables/data-types.rst:38 ../../variables/data-types.rst:38
+#: ..\..\variables\data-types.rst:38 ..\..\variables\data-types.rst:38
 msgid "The *Text* type stores plain text."
 msgstr ""
 
-#: ../../variables/data-types.rst:57 ../../variables/data-types.rst:57
+#: ..\..\variables\data-types.rst:57 ..\..\variables\data-types.rst:57
 msgid "The unique identifier for this user (:ref:`type-id`)"
 msgstr ""
 
-#: ../../variables/data-types.rst:58 ../../variables/data-types.rst:58
+#: ..\..\variables\data-types.rst:58 ..\..\variables\data-types.rst:58
 msgid "The user’s first name (:ref:`type-text`)"
 msgstr ""
 
-#: ../../variables/data-types.rst:59 ../../variables/data-types.rst:59
+#: ..\..\variables\data-types.rst:59 ..\..\variables\data-types.rst:59
 msgid "The user’s last name (:ref:`type-text`)"
 msgstr ""
 
-#: ../../variables/data-types.rst:86 ../../variables/data-types.rst:86
+#: ..\..\variables\data-types.rst:86 ..\..\variables\data-types.rst:86
 msgid "The plain text message (:ref:`type-text`)"
 msgstr ""
 
-#: ../../variables/data-types.rst:87 ../../variables/data-types.rst:87
+#: ..\..\variables\data-types.rst:87 ..\..\variables\data-types.rst:87
 msgid "The HTML code for an HTML email (optional, :ref:`type-text`)"
 msgstr ""
 
-#: ../../variables/data-types.rst:88 ../../variables/data-types.rst:88
+#: ..\..\variables\data-types.rst:88 ..\..\variables\data-types.rst:88
 msgid ""
 "The files to attach to the email (:ref:`List <type-list>` of :ref:`type-"
 "file`)"
 msgstr ""
 
-#: ../../variables/data-types.rst:60 ../../variables/data-types.rst:60
+#: ..\..\variables\data-types.rst:60 ..\..\variables\data-types.rst:60
 msgid "The user’s email address (:ref:`type-email-address`)"
 msgstr ""
 
-#: ../../variables/data-types.rst:81 ../../variables/data-types.rst:81
+#: ..\..\variables\data-types.rst:81 ..\..\variables\data-types.rst:81
 msgid "The unique identifier for this email (:ref:`type-id`)"
 msgstr ""
 
-#: ../../variables/data-types.rst:82 ../../variables/data-types.rst:82
+#: ..\..\variables\data-types.rst:82 ..\..\variables\data-types.rst:82
 msgid "The sender email address (:ref:`type-email-address`)"
 msgstr ""
 
-#: ../../variables/data-types.rst:83 ../../variables/data-types.rst:83
+#: ..\..\variables\data-types.rst:83 ..\..\variables\data-types.rst:83
 msgid ""
 "The email addresses of the recipients (:ref:`List <type-list>` of :ref"
 ":`type-email-address`)"
 msgstr ""
 
-#: ../../variables/data-types.rst:84 ../../variables/data-types.rst:84
+#: ..\..\variables\data-types.rst:84 ..\..\variables\data-types.rst:84
 msgid ""
 "Email addresses that receive a copy of the message (:ref:`List <type-list>` "
 "of :ref:`type-email-address`)"
 msgstr ""
 
-#: ../../variables/data-types.rst:85 ../../variables/data-types.rst:85
+#: ..\..\variables\data-types.rst:85 ..\..\variables\data-types.rst:85
 msgid "The subject of the email (:ref:`type-text`)"
 msgstr ""
 
-#: ../../variables.rst:20
+#: ..\..\variables.rst:20
 msgid ""
 "In addition to your own workflow variables, Effektif automatically creates "
 "variables that give you access to additional data in each case. The :ref"
@@ -242,47 +242,47 @@ msgid ""
 "contains the trigger email."
 msgstr ""
 
-#: ../../variables/case.rst:6 ../../variables/case.rst:6
+#: ..\..\variables\case.rst:6 ..\..\variables\case.rst:6
 msgid ""
 "The *Case* variable contains the data that starting a case creates. This "
 "variable has several fields. You cannot change most of this data, except for"
 " the case name and due date."
 msgstr ""
 
-#: ../../variables/case.rst:22 ../../variables/case.rst:22
+#: ..\..\variables\case.rst:22 ..\..\variables\case.rst:22
 msgid "Name"
 msgstr ""
 
-#: ../../variables/case.rst:62 ../../variables/case.rst:62
+#: ..\..\variables\case.rst:62 ..\..\variables\case.rst:62
 msgid ""
 "The *Due date* field (:ref:`type-date`) stores the due date that case "
 "participants can set on the case view. Unlike the other case variables, the "
 "due date does not always have a value."
 msgstr ""
 
-#: ../../variables/data-types.rst:28 ../../variables/data-types.rst:28
+#: ..\..\variables\data-types.rst:28 ..\..\variables\data-types.rst:28
 msgid "Number type"
 msgstr ""
 
-#: ../../variables/data-types.rst:30 ../../variables/data-types.rst:30
+#: ..\..\variables\data-types.rst:30 ..\..\variables\data-types.rst:30
 msgid "The *Number* type stores a number."
 msgstr ""
 
-#: ../../variables/data-types.rst:20 ../../variables/data-types.rst:20
+#: ..\..\variables\data-types.rst:20 ..\..\variables\data-types.rst:20
 msgid "Date type"
 msgstr ""
 
-#: ../../variables/data-types.rst:22 ../../variables/data-types.rst:22
+#: ..\..\variables\data-types.rst:22 ..\..\variables\data-types.rst:22
 msgid "The *Date* type stores a date, or a date and a time of day."
 msgstr ""
 
-#: ../../variables/case.rst:16 ../../variables/case.rst:16
+#: ..\..\variables\case.rst:16 ..\..\variables\case.rst:16
 msgid ""
 "The case variable’s *ID* (:ref:`type-id`) uniquely identifies this case "
 "among cases for all processes."
 msgstr ""
 
-#: ../../variables/case.rst:44 ../../variables/case.rst:44
+#: ..\..\variables\case.rst:44 ..\..\variables\case.rst:44
 msgid ""
 "The *Creator* field (:ref:`type-user`) records the Effektif user who started"
 " the case. The :ref:`type-user` includes name and email address fields, so "
@@ -290,14 +290,14 @@ msgid ""
 "automatically notifies the requestor of an approval process’ result."
 msgstr ""
 
-#: ../../variables/case.rst:53 ../../variables/case.rst:53
+#: ..\..\variables\case.rst:53 ..\..\variables\case.rst:53
 msgid ""
 "The *Start date* (:ref:`type-date`) records when the :ref:`case-creator` "
 "started the case. In an order process, for example, you could use this as "
 "the order date."
 msgstr ""
 
-#: ../../variables/case.rst:71 ../../variables/case.rst:71
+#: ..\..\variables\case.rst:71 ..\..\variables\case.rst:71
 msgid ""
 "The *Link* field (:ref:`type-text`) stores the URL of the case page in "
 "Effektif. You can include this link in the body of email you send using a "
@@ -306,7 +306,7 @@ msgid ""
 "notifications <notifications>`."
 msgstr ""
 
-#: ../../variables/case.rst:24 ../../variables/case.rst:24
+#: ..\..\variables\case.rst:24 ..\..\variables\case.rst:24
 msgid ""
 "The *Name* field (:ref:`type-text`) stores the name that either the :ref"
 ":`case-creator` entered manually, or that Effektif generated. Case "
@@ -315,7 +315,7 @@ msgid ""
 " their context by prefixing the subject line with the case name."
 msgstr ""
 
-#: ../../variables/case.rst:34 ../../variables/case.rst:34
+#: ..\..\variables\case.rst:34 ..\..\variables\case.rst:34
 msgid ""
 "The *Number* field (:ref:`type-number`) stores a sequential case number. "
 "Each process uses a separate case number sequence for its cases. In a "
