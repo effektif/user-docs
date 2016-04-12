@@ -694,6 +694,72 @@ msgid ""
 "have any relation to :ref:`start events <start-event>`."
 msgstr ""
 
+#: ../../process-builder/details.rst:4 ../../process-builder/details.rst:4
+msgid "Details"
+msgstr ""
+
+#: ../../process-builder/details.rst:6 ../../process-builder/details.rst:6
+msgid ""
+"In the process builder, select the *Details* tab to further configure the "
+"process."
+msgstr ""
+
+#: ../../process-builder/details.rst:10 ../../process-builder/details.rst:10
+msgid "Configuring process details"
+msgstr ""
+
+#: ../../process-builder/details.rst:12 ../../process-builder/details.rst:12
+msgid "On the *General* tab, configure the following process properties."
+msgstr ""
+
+#: ../../process-builder/details.rst:15 ../../process-builder/details.rst:15
+msgid ""
+"*Process description* - documents a process, usually by describing the "
+"process goal."
+msgstr ""
+
+#: ../../process-builder/details.rst:18 ../../process-builder/details.rst:18
+msgid ""
+"Use the *Access control* tab to restrict access to this process and its "
+"cases."
+msgstr ""
+
+#: ../../process-builder/details.rst:14 ../../process-builder/details.rst:14
+msgid ""
+"*Process owner* - shown on the *Processes* page to indicate who has "
+"responsibility for a process model, and used as the default recipient of "
+"some :ref:`notifications <notifications>`."
+msgstr ""
+
+#: ../../process-builder/details.rst:16 ../../process-builder/details.rst:16
+msgid ""
+"*Case name template* - the name for new cases of this process, usually "
+"containing trigger :ref:`variables <variables>` so that each case has a "
+"different name."
+msgstr ""
+
+#: ../../process-builder/details.rst:20 ../../process-builder/details.rst:20
+msgid ""
+"Use the *Field overview* tab to view and rename this process’ "
+":ref:`variables <variables>`."
+msgstr ""
+
+#~ msgid ""
+#~ "*Process owner* - shown on the *Processes* page to indicate who has "
+#~ "responsibility for a process model, and used as the default recipient of "
+#~ "some :ref:`notifications`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Case name template* - the name for new cases of this process, usually "
+#~ "containing trigger :ref:`variables` so that each case has a different name."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use the *Field overview* tab to view and rename this process’ "
+#~ ":ref:`variables`."
+#~ msgstr ""
+
 #~ msgid ""
 #~ "A trigger defines when a process starts. Triggers do not have any relation "
 #~ "to BPMN :ref:`start events <start-event>`."
