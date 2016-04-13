@@ -121,8 +121,8 @@ msgid ""
 "remove you from process models (process owner, access controls, action "
 "candidates)"
 msgstr ""
-"Sie aus Prozessmodellen entfernen (Prozessverantwortlicher, Zugangskontrollen, "
-"Aktionskandidaten)"
+"Sie aus Prozessmodellen entfernen (Eigentümer, Zugriffsrechte, "
+"Aktions-Kandidaten)"
 
 #: ..\..\profile.rst:54
 msgid "unassign you from tasks in the organisation’s processes"
