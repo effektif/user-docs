@@ -11,140 +11,140 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ..\..\examples.rst:4
+#: ../../examples.rst:4
 msgid "Example processes"
 msgstr ""
 
-#: ..\..\examples\approve-document.rst:4 ..\..\examples\approve-document.rst:4
+#: ../../examples/approve-document.rst:4 ../../examples/approve-document.rst:4
 msgid "Approve Document (management)"
 msgstr ""
 
-#: ..\..\examples\approve-document.rst:7
-#: ..\..\examples\approve-vacation-request.rst:7
-#: ..\..\examples\fill-job-vacancy.rst:7
-#: ..\..\examples\follow-up-contact.rst:7
-#: ..\..\examples\fulfil-purchase-order.rst:7
-#: ..\..\examples\hire-employee.rst:7 ..\..\examples\initiate-project.rst:7
-#: ..\..\examples\invoice-customer.rst:7
-#: ..\..\examples\open-new-customer-account.rst:7
-#: ..\..\examples\plan-trade-fair-booth.rst:7
-#: ..\..\examples\process-insurance-claim.rst:7
-#: ..\..\examples\respond-to-customer-email.rst:7
-#: ..\..\examples\ship-product-from-warehouse.rst:7
-#: ..\..\examples\sign-contract.rst:7 ..\..\examples\approve-document.rst:7
-#: ..\..\examples\approve-vacation-request.rst:7
-#: ..\..\examples\fill-job-vacancy.rst:7
-#: ..\..\examples\follow-up-contact.rst:7
-#: ..\..\examples\fulfil-purchase-order.rst:7
-#: ..\..\examples\hire-employee.rst:7 ..\..\examples\initiate-project.rst:7
-#: ..\..\examples\invoice-customer.rst:7
-#: ..\..\examples\open-new-customer-account.rst:7
-#: ..\..\examples\plan-trade-fair-booth.rst:7
-#: ..\..\examples\process-insurance-claim.rst:7
-#: ..\..\examples\respond-to-customer-email.rst:7
-#: ..\..\examples\ship-product-from-warehouse.rst:7
-#: ..\..\examples\sign-contract.rst:7
+#: ../../examples/approve-document.rst:7
+#: ../../examples/approve-vacation-request.rst:7
+#: ../../examples/fill-job-vacancy.rst:7
+#: ../../examples/follow-up-contact.rst:7
+#: ../../examples/fulfil-purchase-order.rst:7
+#: ../../examples/hire-employee.rst:7 ../../examples/initiate-project.rst:7
+#: ../../examples/invoice-customer.rst:7
+#: ../../examples/open-new-customer-account.rst:7
+#: ../../examples/plan-trade-fair-booth.rst:7
+#: ../../examples/process-insurance-claim.rst:7
+#: ../../examples/respond-to-customer-email.rst:7
+#: ../../examples/ship-product-from-warehouse.rst:7
+#: ../../examples/sign-contract.rst:7 ../../examples/approve-document.rst:7
+#: ../../examples/approve-vacation-request.rst:7
+#: ../../examples/fill-job-vacancy.rst:7
+#: ../../examples/follow-up-contact.rst:7
+#: ../../examples/fulfil-purchase-order.rst:7
+#: ../../examples/hire-employee.rst:7 ../../examples/initiate-project.rst:7
+#: ../../examples/invoice-customer.rst:7
+#: ../../examples/open-new-customer-account.rst:7
+#: ../../examples/plan-trade-fair-booth.rst:7
+#: ../../examples/process-insurance-claim.rst:7
+#: ../../examples/respond-to-customer-email.rst:7
+#: ../../examples/ship-product-from-warehouse.rst:7
+#: ../../examples/sign-contract.rst:7
 msgid "Process goal"
 msgstr ""
 
-#: ..\..\examples\approve-document.rst:9 ..\..\examples\approve-document.rst:9
+#: ../../examples/approve-document.rst:9 ../../examples/approve-document.rst:9
 msgid "Approve the submitted document, after optional revision rounds."
 msgstr ""
 
-#: ..\..\examples\approve-document.rst:12
-#: ..\..\examples\approve-vacation-request.rst:12
-#: ..\..\examples\fill-job-vacancy.rst:12
-#: ..\..\examples\follow-up-contact.rst:12
-#: ..\..\examples\fulfil-purchase-order.rst:12
-#: ..\..\examples\hire-employee.rst:12 ..\..\examples\initiate-project.rst:12
-#: ..\..\examples\invoice-customer.rst:12
-#: ..\..\examples\open-new-customer-account.rst:12
-#: ..\..\examples\plan-trade-fair-booth.rst:12
-#: ..\..\examples\process-insurance-claim.rst:12
-#: ..\..\examples\respond-to-customer-email.rst:12
-#: ..\..\examples\ship-product-from-warehouse.rst:12
-#: ..\..\examples\sign-contract.rst:12 ..\..\examples\approve-document.rst:12
-#: ..\..\examples\approve-vacation-request.rst:12
-#: ..\..\examples\fill-job-vacancy.rst:12
-#: ..\..\examples\follow-up-contact.rst:12
-#: ..\..\examples\fulfil-purchase-order.rst:12
-#: ..\..\examples\hire-employee.rst:12 ..\..\examples\initiate-project.rst:12
-#: ..\..\examples\invoice-customer.rst:12
-#: ..\..\examples\open-new-customer-account.rst:12
-#: ..\..\examples\plan-trade-fair-booth.rst:12
-#: ..\..\examples\process-insurance-claim.rst:12
-#: ..\..\examples\respond-to-customer-email.rst:12
-#: ..\..\examples\ship-product-from-warehouse.rst:12
-#: ..\..\examples\sign-contract.rst:12
+#: ../../examples/approve-document.rst:12
+#: ../../examples/approve-vacation-request.rst:12
+#: ../../examples/fill-job-vacancy.rst:12
+#: ../../examples/follow-up-contact.rst:12
+#: ../../examples/fulfil-purchase-order.rst:12
+#: ../../examples/hire-employee.rst:12 ../../examples/initiate-project.rst:12
+#: ../../examples/invoice-customer.rst:12
+#: ../../examples/open-new-customer-account.rst:12
+#: ../../examples/plan-trade-fair-booth.rst:12
+#: ../../examples/process-insurance-claim.rst:12
+#: ../../examples/respond-to-customer-email.rst:12
+#: ../../examples/ship-product-from-warehouse.rst:12
+#: ../../examples/sign-contract.rst:12 ../../examples/approve-document.rst:12
+#: ../../examples/approve-vacation-request.rst:12
+#: ../../examples/fill-job-vacancy.rst:12
+#: ../../examples/follow-up-contact.rst:12
+#: ../../examples/fulfil-purchase-order.rst:12
+#: ../../examples/hire-employee.rst:12 ../../examples/initiate-project.rst:12
+#: ../../examples/invoice-customer.rst:12
+#: ../../examples/open-new-customer-account.rst:12
+#: ../../examples/plan-trade-fair-booth.rst:12
+#: ../../examples/process-insurance-claim.rst:12
+#: ../../examples/respond-to-customer-email.rst:12
+#: ../../examples/ship-product-from-warehouse.rst:12
+#: ../../examples/sign-contract.rst:12
 msgid "Context"
 msgstr ""
 
-#: ..\..\examples\approve-document.rst:17
-#: ..\..\examples\approve-document.rst:17
+#: ../../examples/approve-document.rst:17
+#: ../../examples/approve-document.rst:17
 msgid ""
 "Employees also prepare proposals and reports that require management sign-"
 "off before the author may distribute them. The frequently have trouble "
 "keeping track of the document versions during the process."
 msgstr ""
 
-#: ..\..\examples\approve-document.rst:26
-#: ..\..\examples\approve-vacation-request.rst:27
-#: ..\..\examples\fill-job-vacancy.rst:19
-#: ..\..\examples\follow-up-contact.rst:20
-#: ..\..\examples\fulfil-purchase-order.rst:19
-#: ..\..\examples\hire-employee.rst:19 ..\..\examples\initiate-project.rst:22
-#: ..\..\examples\invoice-customer.rst:19
-#: ..\..\examples\open-new-customer-account.rst:22
-#: ..\..\examples\plan-trade-fair-booth.rst:21
-#: ..\..\examples\process-insurance-claim.rst:17
-#: ..\..\examples\respond-to-customer-email.rst:19
-#: ..\..\examples\ship-product-from-warehouse.rst:21
-#: ..\..\examples\sign-contract.rst:18 ..\..\examples\approve-document.rst:26
-#: ..\..\examples\approve-vacation-request.rst:27
-#: ..\..\examples\fill-job-vacancy.rst:19
-#: ..\..\examples\follow-up-contact.rst:20
-#: ..\..\examples\fulfil-purchase-order.rst:19
-#: ..\..\examples\hire-employee.rst:19 ..\..\examples\initiate-project.rst:22
-#: ..\..\examples\invoice-customer.rst:19
-#: ..\..\examples\open-new-customer-account.rst:22
-#: ..\..\examples\plan-trade-fair-booth.rst:21
-#: ..\..\examples\process-insurance-claim.rst:17
-#: ..\..\examples\respond-to-customer-email.rst:19
-#: ..\..\examples\ship-product-from-warehouse.rst:21
-#: ..\..\examples\sign-contract.rst:18
+#: ../../examples/approve-document.rst:26
+#: ../../examples/approve-vacation-request.rst:27
+#: ../../examples/fill-job-vacancy.rst:19
+#: ../../examples/follow-up-contact.rst:20
+#: ../../examples/fulfil-purchase-order.rst:19
+#: ../../examples/hire-employee.rst:19 ../../examples/initiate-project.rst:22
+#: ../../examples/invoice-customer.rst:19
+#: ../../examples/open-new-customer-account.rst:22
+#: ../../examples/plan-trade-fair-booth.rst:21
+#: ../../examples/process-insurance-claim.rst:17
+#: ../../examples/respond-to-customer-email.rst:19
+#: ../../examples/ship-product-from-warehouse.rst:21
+#: ../../examples/sign-contract.rst:18 ../../examples/approve-document.rst:26
+#: ../../examples/approve-vacation-request.rst:27
+#: ../../examples/fill-job-vacancy.rst:19
+#: ../../examples/follow-up-contact.rst:20
+#: ../../examples/fulfil-purchase-order.rst:19
+#: ../../examples/hire-employee.rst:19 ../../examples/initiate-project.rst:22
+#: ../../examples/invoice-customer.rst:19
+#: ../../examples/open-new-customer-account.rst:22
+#: ../../examples/plan-trade-fair-booth.rst:21
+#: ../../examples/process-insurance-claim.rst:17
+#: ../../examples/respond-to-customer-email.rst:19
+#: ../../examples/ship-product-from-warehouse.rst:21
+#: ../../examples/sign-contract.rst:18
 msgid "Trigger"
 msgstr ""
 
-#: ..\..\examples\approve-document.rst:31
-#: ..\..\examples\approve-vacation-request.rst:32
-#: ..\..\examples\fill-job-vacancy.rst:24
-#: ..\..\examples\follow-up-contact.rst:25
-#: ..\..\examples\fulfil-purchase-order.rst:24
-#: ..\..\examples\hire-employee.rst:24 ..\..\examples\initiate-project.rst:27
-#: ..\..\examples\invoice-customer.rst:24
-#: ..\..\examples\open-new-customer-account.rst:28
-#: ..\..\examples\plan-trade-fair-booth.rst:26
-#: ..\..\examples\process-insurance-claim.rst:22
-#: ..\..\examples\respond-to-customer-email.rst:24
-#: ..\..\examples\ship-product-from-warehouse.rst:26
-#: ..\..\examples\sign-contract.rst:23 ..\..\examples\approve-document.rst:31
-#: ..\..\examples\approve-vacation-request.rst:32
-#: ..\..\examples\fill-job-vacancy.rst:24
-#: ..\..\examples\follow-up-contact.rst:25
-#: ..\..\examples\fulfil-purchase-order.rst:24
-#: ..\..\examples\hire-employee.rst:24 ..\..\examples\initiate-project.rst:27
-#: ..\..\examples\invoice-customer.rst:24
-#: ..\..\examples\open-new-customer-account.rst:28
-#: ..\..\examples\plan-trade-fair-booth.rst:26
-#: ..\..\examples\process-insurance-claim.rst:22
-#: ..\..\examples\respond-to-customer-email.rst:24
-#: ..\..\examples\ship-product-from-warehouse.rst:26
-#: ..\..\examples\sign-contract.rst:23
+#: ../../examples/approve-document.rst:31
+#: ../../examples/approve-vacation-request.rst:32
+#: ../../examples/fill-job-vacancy.rst:24
+#: ../../examples/follow-up-contact.rst:25
+#: ../../examples/fulfil-purchase-order.rst:24
+#: ../../examples/hire-employee.rst:24 ../../examples/initiate-project.rst:27
+#: ../../examples/invoice-customer.rst:24
+#: ../../examples/open-new-customer-account.rst:28
+#: ../../examples/plan-trade-fair-booth.rst:26
+#: ../../examples/process-insurance-claim.rst:22
+#: ../../examples/respond-to-customer-email.rst:24
+#: ../../examples/ship-product-from-warehouse.rst:26
+#: ../../examples/sign-contract.rst:23 ../../examples/approve-document.rst:31
+#: ../../examples/approve-vacation-request.rst:32
+#: ../../examples/fill-job-vacancy.rst:24
+#: ../../examples/follow-up-contact.rst:25
+#: ../../examples/fulfil-purchase-order.rst:24
+#: ../../examples/hire-employee.rst:24 ../../examples/initiate-project.rst:27
+#: ../../examples/invoice-customer.rst:24
+#: ../../examples/open-new-customer-account.rst:28
+#: ../../examples/plan-trade-fair-booth.rst:26
+#: ../../examples/process-insurance-claim.rst:22
+#: ../../examples/respond-to-customer-email.rst:24
+#: ../../examples/ship-product-from-warehouse.rst:26
+#: ../../examples/sign-contract.rst:23
 msgid "Actions"
 msgstr ""
 
-#: ..\..\examples\approve-document.rst:33
-#: ..\..\examples\approve-document.rst:33
+#: ../../examples/approve-document.rst:33
+#: ../../examples/approve-document.rst:33
 msgid ""
 "The process centres on a *Review document* task, which results in a decision"
 " to either *Approve* or *Reject* the document. Rejecting the document "
@@ -152,101 +152,101 @@ msgid ""
 "draft before starting again."
 msgstr ""
 
-#: ..\..\examples\approve-document.rst:42
-#: ..\..\examples\approve-vacation-request.rst:42
-#: ..\..\examples\fill-job-vacancy.rst:34
-#: ..\..\examples\follow-up-contact.rst:32
-#: ..\..\examples\fulfil-purchase-order.rst:36
-#: ..\..\examples\hire-employee.rst:33 ..\..\examples\initiate-project.rst:37
-#: ..\..\examples\invoice-customer.rst:38
-#: ..\..\examples\open-new-customer-account.rst:38
-#: ..\..\examples\plan-trade-fair-booth.rst:36
-#: ..\..\examples\process-insurance-claim.rst:33
-#: ..\..\examples\ship-product-from-warehouse.rst:54
-#: ..\..\examples\sign-contract.rst:37 ..\..\examples\approve-document.rst:42
-#: ..\..\examples\approve-vacation-request.rst:42
-#: ..\..\examples\fill-job-vacancy.rst:34
-#: ..\..\examples\follow-up-contact.rst:32
-#: ..\..\examples\fulfil-purchase-order.rst:36
-#: ..\..\examples\hire-employee.rst:33 ..\..\examples\initiate-project.rst:37
-#: ..\..\examples\invoice-customer.rst:38
-#: ..\..\examples\open-new-customer-account.rst:38
-#: ..\..\examples\plan-trade-fair-booth.rst:36
-#: ..\..\examples\process-insurance-claim.rst:33
-#: ..\..\examples\ship-product-from-warehouse.rst:54
-#: ..\..\examples\sign-contract.rst:37
+#: ../../examples/approve-document.rst:42
+#: ../../examples/approve-vacation-request.rst:42
+#: ../../examples/fill-job-vacancy.rst:34
+#: ../../examples/follow-up-contact.rst:32
+#: ../../examples/fulfil-purchase-order.rst:36
+#: ../../examples/hire-employee.rst:33 ../../examples/initiate-project.rst:37
+#: ../../examples/invoice-customer.rst:38
+#: ../../examples/open-new-customer-account.rst:38
+#: ../../examples/plan-trade-fair-booth.rst:36
+#: ../../examples/process-insurance-claim.rst:33
+#: ../../examples/ship-product-from-warehouse.rst:54
+#: ../../examples/sign-contract.rst:37 ../../examples/approve-document.rst:42
+#: ../../examples/approve-vacation-request.rst:42
+#: ../../examples/fill-job-vacancy.rst:34
+#: ../../examples/follow-up-contact.rst:32
+#: ../../examples/fulfil-purchase-order.rst:36
+#: ../../examples/hire-employee.rst:33 ../../examples/initiate-project.rst:37
+#: ../../examples/invoice-customer.rst:38
+#: ../../examples/open-new-customer-account.rst:38
+#: ../../examples/plan-trade-fair-booth.rst:36
+#: ../../examples/process-insurance-claim.rst:33
+#: ../../examples/ship-product-from-warehouse.rst:54
+#: ../../examples/sign-contract.rst:37
 msgid "Roles"
 msgstr ""
 
-#: ..\..\examples\approve-document.rst:44
-#: ..\..\examples\approve-document.rst:44
+#: ../../examples/approve-document.rst:44
+#: ../../examples/approve-document.rst:44
 msgid "The two tasks correspond to two process roles."
 msgstr ""
 
-#: ..\..\examples\approve-document.rst:46
-#: ..\..\examples\approve-document.rst:46
+#: ../../examples/approve-document.rst:46
+#: ../../examples/approve-document.rst:46
 msgid ""
 "*Reviewer* (optional) - makes the approval decision: often a manager or "
 "supervisor."
 msgstr ""
 
-#: ..\..\examples\approve-document.rst:51
-#: ..\..\examples\approve-vacation-request.rst:47
-#: ..\..\examples\fill-job-vacancy.rst:40
-#: ..\..\examples\follow-up-contact.rst:38
-#: ..\..\examples\fulfil-purchase-order.rst:42
-#: ..\..\examples\hire-employee.rst:39 ..\..\examples\initiate-project.rst:43
-#: ..\..\examples\invoice-customer.rst:43
-#: ..\..\examples\open-new-customer-account.rst:43
-#: ..\..\examples\plan-trade-fair-booth.rst:41
-#: ..\..\examples\process-insurance-claim.rst:40
-#: ..\..\examples\ship-product-from-warehouse.rst:59
-#: ..\..\examples\sign-contract.rst:43 ..\..\examples\approve-document.rst:51
-#: ..\..\examples\approve-vacation-request.rst:47
-#: ..\..\examples\fill-job-vacancy.rst:40
-#: ..\..\examples\follow-up-contact.rst:38
-#: ..\..\examples\fulfil-purchase-order.rst:42
-#: ..\..\examples\hire-employee.rst:39 ..\..\examples\initiate-project.rst:43
-#: ..\..\examples\invoice-customer.rst:43
-#: ..\..\examples\open-new-customer-account.rst:43
-#: ..\..\examples\plan-trade-fair-booth.rst:41
-#: ..\..\examples\process-insurance-claim.rst:40
-#: ..\..\examples\ship-product-from-warehouse.rst:59
-#: ..\..\examples\sign-contract.rst:43
+#: ../../examples/approve-document.rst:51
+#: ../../examples/approve-vacation-request.rst:47
+#: ../../examples/fill-job-vacancy.rst:40
+#: ../../examples/follow-up-contact.rst:38
+#: ../../examples/fulfil-purchase-order.rst:42
+#: ../../examples/hire-employee.rst:39 ../../examples/initiate-project.rst:43
+#: ../../examples/invoice-customer.rst:43
+#: ../../examples/open-new-customer-account.rst:43
+#: ../../examples/plan-trade-fair-booth.rst:41
+#: ../../examples/process-insurance-claim.rst:40
+#: ../../examples/ship-product-from-warehouse.rst:59
+#: ../../examples/sign-contract.rst:43 ../../examples/approve-document.rst:51
+#: ../../examples/approve-vacation-request.rst:47
+#: ../../examples/fill-job-vacancy.rst:40
+#: ../../examples/follow-up-contact.rst:38
+#: ../../examples/fulfil-purchase-order.rst:42
+#: ../../examples/hire-employee.rst:39 ../../examples/initiate-project.rst:43
+#: ../../examples/invoice-customer.rst:43
+#: ../../examples/open-new-customer-account.rst:43
+#: ../../examples/plan-trade-fair-booth.rst:41
+#: ../../examples/process-insurance-claim.rst:40
+#: ../../examples/ship-product-from-warehouse.rst:59
+#: ../../examples/sign-contract.rst:43
 msgid "Fields"
 msgstr ""
 
-#: ..\..\examples\approve-document.rst:53
-#: ..\..\examples\approve-document.rst:53
+#: ../../examples/approve-document.rst:53
+#: ../../examples/approve-document.rst:53
 msgid ""
 "*Document* (File, mandatory) - the document to review. The author uploads "
 "the first version on the trigger form, followed by a new version each time "
 "Effektif creates a new *Update document* task."
 msgstr ""
 
-#: ..\..\examples\approve-document.rst:58
-#: ..\..\examples\approve-vacation-request.rst:55
-#: ..\..\examples\follow-up-contact.rst:47
-#: ..\..\examples\fulfil-purchase-order.rst:50
-#: ..\..\examples\initiate-project.rst:64
-#: ..\..\examples\invoice-customer.rst:49
-#: ..\..\examples\open-new-customer-account.rst:58
-#: ..\..\examples\plan-trade-fair-booth.rst:62
-#: ..\..\examples\respond-to-customer-email.rst:34
-#: ..\..\examples\approve-document.rst:58
-#: ..\..\examples\approve-vacation-request.rst:55
-#: ..\..\examples\follow-up-contact.rst:47
-#: ..\..\examples\fulfil-purchase-order.rst:50
-#: ..\..\examples\initiate-project.rst:64
-#: ..\..\examples\invoice-customer.rst:49
-#: ..\..\examples\open-new-customer-account.rst:58
-#: ..\..\examples\plan-trade-fair-booth.rst:62
-#: ..\..\examples\respond-to-customer-email.rst:34
+#: ../../examples/approve-document.rst:58
+#: ../../examples/approve-vacation-request.rst:55
+#: ../../examples/follow-up-contact.rst:47
+#: ../../examples/fulfil-purchase-order.rst:50
+#: ../../examples/initiate-project.rst:64
+#: ../../examples/invoice-customer.rst:49
+#: ../../examples/open-new-customer-account.rst:58
+#: ../../examples/plan-trade-fair-booth.rst:62
+#: ../../examples/respond-to-customer-email.rst:34
+#: ../../examples/approve-document.rst:58
+#: ../../examples/approve-vacation-request.rst:55
+#: ../../examples/follow-up-contact.rst:47
+#: ../../examples/fulfil-purchase-order.rst:50
+#: ../../examples/initiate-project.rst:64
+#: ../../examples/invoice-customer.rst:49
+#: ../../examples/open-new-customer-account.rst:58
+#: ../../examples/plan-trade-fair-booth.rst:62
+#: ../../examples/respond-to-customer-email.rst:34
 msgid "Extensions"
 msgstr ""
 
-#: ..\..\examples\approve-document.rst:60
-#: ..\..\examples\approve-document.rst:60
+#: ../../examples/approve-document.rst:60
+#: ../../examples/approve-document.rst:60
 msgid ""
 "The document’s readers may find it useful to have access to the document "
 "outside Effektif. The organisation may also require a backup. You could add "
@@ -254,16 +254,16 @@ msgid ""
 "document, in order to archive or email the document."
 msgstr ""
 
-#: ..\..\examples\approve-document.rst:64
-#: ..\..\examples\approve-document.rst:64
+#: ../../examples/approve-document.rst:64
+#: ../../examples/approve-document.rst:64
 msgid ""
 "To archive the approved document, add a Google Drive or Box *Upload file* "
 "task. This saves a copy of the document for people to read, but they still "
 "need a notification that the approved version exists."
 msgstr ""
 
-#: ..\..\examples\approve-document.rst:67
-#: ..\..\examples\approve-document.rst:67
+#: ../../examples/approve-document.rst:67
+#: ../../examples/approve-document.rst:67
 msgid ""
 "An email task notifies the author and other stakeholders that the document "
 "has been approved. The email template can include any reviewer comments and "
@@ -271,44 +271,44 @@ msgid ""
 " document’s distribution by copying the email to a distribution list."
 msgstr ""
 
-#: ..\..\examples\approve-document.rst:72
-#: ..\..\examples\approve-vacation-request.rst:63
-#: ..\..\examples\approve-document.rst:72
-#: ..\..\examples\approve-vacation-request.rst:63
+#: ../../examples/approve-document.rst:72
+#: ../../examples/approve-vacation-request.rst:63
+#: ../../examples/approve-document.rst:72
+#: ../../examples/approve-vacation-request.rst:63
 msgid "Related processes"
 msgstr ""
 
-#: ..\..\examples\approve-document.rst:74
-#: ..\..\examples\approve-document.rst:74
+#: ../../examples/approve-document.rst:74
+#: ../../examples/approve-document.rst:74
 msgid ""
 ":ref:`Approve Vacation Request <approve-vacation-request>` handles approving"
 " a form rather than a document."
 msgstr ""
 
-#: ..\..\examples\approve-vacation-request.rst:9
-#: ..\..\examples\approve-vacation-request.rst:9
+#: ../../examples/approve-vacation-request.rst:9
+#: ../../examples/approve-vacation-request.rst:9
 msgid "Approve an employee’s planned vacation dates."
 msgstr ""
 
-#: ..\..\examples\approve-vacation-request.rst:29
-#: ..\..\examples\approve-vacation-request.rst:29
+#: ../../examples/approve-vacation-request.rst:29
+#: ../../examples/approve-vacation-request.rst:29
 msgid "Form - the employee and the requested dates."
 msgstr ""
 
-#: ..\..\examples\approve-vacation-request.rst:39
-#: ..\..\examples\approve-vacation-request.rst:39
+#: ../../examples/approve-vacation-request.rst:39
+#: ../../examples/approve-vacation-request.rst:39
 msgid ""
 "Adding a due date and reminders to the user task can help reduce cycle "
 "times."
 msgstr ""
 
-#: ..\..\examples\approve-vacation-request.rst:44
-#: ..\..\examples\approve-vacation-request.rst:44
+#: ../../examples/approve-vacation-request.rst:44
+#: ../../examples/approve-vacation-request.rst:44
 msgid "*Manager* - approves the request."
 msgstr ""
 
-#: ..\..\examples\approve-vacation-request.rst:57
-#: ..\..\examples\approve-vacation-request.rst:57
+#: ../../examples/approve-vacation-request.rst:57
+#: ../../examples/approve-vacation-request.rst:57
 msgid ""
 "You might extend the process with an additional task for the employee to "
 "provide additional information, or change the initial request, if the "
@@ -316,39 +316,39 @@ msgid ""
 "vacations, which would clutter the case view."
 msgstr ""
 
-#: ..\..\examples\approve-vacation-request.rst:60
-#: ..\..\examples\approve-vacation-request.rst:60
+#: ../../examples/approve-vacation-request.rst:60
+#: ../../examples/approve-vacation-request.rst:60
 msgid ""
 "You could also extend this process with additional tasks to support what "
 "happens when the employee goes on vacation, such as assigning a person to "
 "take over their work."
 msgstr ""
 
-#: ..\..\examples\approve-vacation-request.rst:65
-#: ..\..\examples\approve-vacation-request.rst:65
+#: ../../examples/approve-vacation-request.rst:65
+#: ../../examples/approve-vacation-request.rst:65
 msgid ""
 ":ref:`Approve Document <approve-document>` handles approving a document "
 "rather than a form."
 msgstr ""
 
-#: ..\..\examples\fill-job-vacancy.rst:9 ..\..\examples\fill-job-vacancy.rst:9
+#: ../../examples/fill-job-vacancy.rst:9 ../../examples/fill-job-vacancy.rst:9
 msgid "Fill a vacant position within the organisation."
 msgstr ""
 
-#: ..\..\examples\fill-job-vacancy.rst:21
-#: ..\..\examples\fill-job-vacancy.rst:21
+#: ../../examples/fill-job-vacancy.rst:21
+#: ../../examples/fill-job-vacancy.rst:21
 msgid "Form - describes a job requisition."
 msgstr ""
 
-#: ..\..\examples\fill-job-vacancy.rst:26
-#: ..\..\examples\fill-job-vacancy.rst:26
+#: ../../examples/fill-job-vacancy.rst:26
+#: ../../examples/fill-job-vacancy.rst:26
 msgid ""
 "The core process consists of an approval for the requisition, followed by "
 "advertising the vacancy, interviewing candidates, and closing the vacancy."
 msgstr ""
 
-#: ..\..\examples\fill-job-vacancy.rst:36
-#: ..\..\examples\fill-job-vacancy.rst:36
+#: ../../examples/fill-job-vacancy.rst:36
+#: ../../examples/fill-job-vacancy.rst:36
 msgid ""
 "*Recruiter* - the internal HR employee who coordinates the recruitment "
 "process. The basic version of this process excludes the hiring manager, who "
@@ -356,350 +356,350 @@ msgid ""
 "process also excludes the external recruiter or headhunter."
 msgstr ""
 
-#: ..\..\examples\fill-job-vacancy.rst:42
-#: ..\..\examples\fill-job-vacancy.rst:42
+#: ../../examples/fill-job-vacancy.rst:42
+#: ../../examples/fill-job-vacancy.rst:42
 msgid ""
 "The trigger form defines the following fields that make up the job "
 "requisition."
 msgstr ""
 
-#: ..\..\examples\fill-job-vacancy.rst:44
-#: ..\..\examples\fill-job-vacancy.rst:44
+#: ../../examples/fill-job-vacancy.rst:44
+#: ../../examples/fill-job-vacancy.rst:44
 msgid "*Job title* (Text, required)"
 msgstr ""
 
-#: ..\..\examples\fill-job-vacancy.rst:45
-#: ..\..\examples\fill-job-vacancy.rst:45
+#: ../../examples/fill-job-vacancy.rst:45
+#: ../../examples/fill-job-vacancy.rst:45
 msgid "*Job description* (Text)"
 msgstr ""
 
-#: ..\..\examples\fill-job-vacancy.rst:46
-#: ..\..\examples\fill-job-vacancy.rst:46
+#: ../../examples/fill-job-vacancy.rst:46
+#: ../../examples/fill-job-vacancy.rst:46
 msgid "*Maximum salary* (Money)"
 msgstr ""
 
-#: ..\..\examples\fill-job-vacancy.rst:47
-#: ..\..\examples\fill-job-vacancy.rst:47
+#: ../../examples/fill-job-vacancy.rst:47
+#: ../../examples/fill-job-vacancy.rst:47
 msgid "*Replaces existing position* (Yes/No)"
 msgstr ""
 
-#: ..\..\examples\fill-job-vacancy.rst:48
-#: ..\..\examples\fill-job-vacancy.rst:48
+#: ../../examples/fill-job-vacancy.rst:48
+#: ../../examples/fill-job-vacancy.rst:48
 msgid "*Requesting manager* (User)"
 msgstr ""
 
-#: ..\..\examples\fill-job-vacancy.rst:51 ..\..\examples\hire-employee.rst:45
-#: ..\..\examples\ship-product-from-warehouse.rst:65
-#: ..\..\examples\sign-contract.rst:50 ..\..\examples\fill-job-vacancy.rst:51
-#: ..\..\examples\hire-employee.rst:45
-#: ..\..\examples\ship-product-from-warehouse.rst:65
-#: ..\..\examples\sign-contract.rst:50
+#: ../../examples/fill-job-vacancy.rst:51 ../../examples/hire-employee.rst:45
+#: ../../examples/ship-product-from-warehouse.rst:65
+#: ../../examples/sign-contract.rst:50 ../../examples/fill-job-vacancy.rst:51
+#: ../../examples/hire-employee.rst:45
+#: ../../examples/ship-product-from-warehouse.rst:65
+#: ../../examples/sign-contract.rst:50
 msgid "Enhancements"
 msgstr ""
 
-#: ..\..\examples\fill-job-vacancy.rst:53
-#: ..\..\examples\fill-job-vacancy.rst:53
+#: ../../examples/fill-job-vacancy.rst:53
+#: ../../examples/fill-job-vacancy.rst:53
 msgid "To improve this process you could:"
 msgstr ""
 
-#: ..\..\examples\fill-job-vacancy.rst:55
-#: ..\..\examples\fill-job-vacancy.rst:55
+#: ../../examples/fill-job-vacancy.rst:55
+#: ../../examples/fill-job-vacancy.rst:55
 msgid ""
 "extend the trigger form to include more structured information about the job"
 " vacancy"
 msgstr ""
 
-#: ..\..\examples\fill-job-vacancy.rst:56
-#: ..\..\examples\fill-job-vacancy.rst:56
+#: ../../examples/fill-job-vacancy.rst:56
+#: ../../examples/fill-job-vacancy.rst:56
 msgid "skip the initial requisition approval to simplify the process"
 msgstr ""
 
-#: ..\..\examples\fill-job-vacancy.rst:57
-#: ..\..\examples\fill-job-vacancy.rst:57
+#: ../../examples/fill-job-vacancy.rst:57
+#: ../../examples/fill-job-vacancy.rst:57
 msgid "elaborate the requisition approval with correction steps"
 msgstr ""
 
-#: ..\..\examples\fill-job-vacancy.rst:58
-#: ..\..\examples\fill-job-vacancy.rst:58
+#: ../../examples/fill-job-vacancy.rst:58
+#: ../../examples/fill-job-vacancy.rst:58
 msgid ""
 "do the *Publish vacancy on web site* task in parallel with other ways to "
 "announce the vacancy, such as advertising"
 msgstr ""
 
-#: ..\..\examples\fill-job-vacancy.rst:59
-#: ..\..\examples\fill-job-vacancy.rst:59
+#: ../../examples/fill-job-vacancy.rst:59
+#: ../../examples/fill-job-vacancy.rst:59
 msgid ""
 "expand the interview task to include the whole individual recruitment "
 "process, as in :ref:`Hire employee <hire-employee>`."
 msgstr ""
 
-#: ..\..\examples\follow-up-contact.rst:9
-#: ..\..\examples\follow-up-contact.rst:9
+#: ../../examples/follow-up-contact.rst:9
+#: ../../examples/follow-up-contact.rst:9
 msgid "Develop a business contact into a sales opportunity."
 msgstr ""
 
-#: ..\..\examples\follow-up-contact.rst:22
-#: ..\..\examples\follow-up-contact.rst:22
+#: ../../examples/follow-up-contact.rst:22
+#: ../../examples/follow-up-contact.rst:22
 msgid ""
 "Form - specifies the contact’s name and contact details, or perhaps a scan "
 "of the business card."
 msgstr ""
 
-#: ..\..\examples\follow-up-contact.rst:27
-#: ..\..\examples\follow-up-contact.rst:27
+#: ../../examples/follow-up-contact.rst:27
+#: ../../examples/follow-up-contact.rst:27
 msgid ""
 "This process records the result of a business meeting by triaging contacts "
 "according to what follow-up they require."
 msgstr ""
 
-#: ..\..\examples\follow-up-contact.rst:40
-#: ..\..\examples\follow-up-contact.rst:40
+#: ../../examples/follow-up-contact.rst:40
+#: ../../examples/follow-up-contact.rst:40
 msgid ""
 "The process data consists of whatever information the sales manager uses to "
 "triage the contact and follow up."
 msgstr ""
 
-#: ..\..\examples\follow-up-contact.rst:42
-#: ..\..\examples\follow-up-contact.rst:42
+#: ../../examples/follow-up-contact.rst:42
+#: ../../examples/follow-up-contact.rst:42
 msgid ""
 "*Contact name* (Text, required) - the name of the prospect - the potential "
 "customer."
 msgstr ""
 
-#: ..\..\examples\follow-up-contact.rst:43
-#: ..\..\examples\follow-up-contact.rst:43
+#: ../../examples/follow-up-contact.rst:43
+#: ../../examples/follow-up-contact.rst:43
 msgid ""
 "*Telephone number* (Text) - the contact’s phone number, in case the sales "
 "manager doesn’t use an external address book."
 msgstr ""
 
-#: ..\..\examples\follow-up-contact.rst:44
-#: ..\..\examples\follow-up-contact.rst:44
+#: ../../examples/follow-up-contact.rst:44
+#: ../../examples/follow-up-contact.rst:44
 msgid ""
 "*Job title, Company* (Text) - the contact’s job, which the sales manager "
 "might use to prioritise and triage the contact."
 msgstr ""
 
-#: ..\..\examples\follow-up-contact.rst:49
-#: ..\..\examples\follow-up-contact.rst:49
+#: ../../examples/follow-up-contact.rst:49
+#: ../../examples/follow-up-contact.rst:49
 msgid ""
 "You could extend this process to include the next steps in the larger sales "
 "process, following the first sales meeting, such as a product demo."
 msgstr ""
 
-#: ..\..\examples\follow-up-contact.rst:51
-#: ..\..\examples\follow-up-contact.rst:51
+#: ../../examples/follow-up-contact.rst:51
+#: ../../examples/follow-up-contact.rst:51
 msgid ""
 "Setting up meetings might involve introducing a collaboration with a "
 "secretary. Similarly, a demo might requires collaboration with a product "
 "specialist."
 msgstr ""
 
-#: ..\..\examples\fulfil-purchase-order.rst:9
-#: ..\..\examples\fulfil-purchase-order.rst:9
+#: ../../examples/fulfil-purchase-order.rst:9
+#: ../../examples/fulfil-purchase-order.rst:9
 msgid ""
 "Fulfil a customer’s purchase order, e.g by shipping a product, and issuing "
 "an invoice."
 msgstr ""
 
-#: ..\..\examples\fulfil-purchase-order.rst:21
-#: ..\..\examples\fulfil-purchase-order.rst:21
+#: ../../examples/fulfil-purchase-order.rst:21
+#: ../../examples/fulfil-purchase-order.rst:21
 msgid "Form - provides the purchase order."
 msgstr ""
 
-#: ..\..\examples\fulfil-purchase-order.rst:26
-#: ..\..\examples\fulfil-purchase-order.rst:26
+#: ../../examples/fulfil-purchase-order.rst:26
+#: ../../examples/fulfil-purchase-order.rst:26
 msgid ""
 "In this process, an incoming purchase order form essentially triggers two "
 "tasks: *Fulfil order* and *Issue invoice*."
 msgstr ""
 
-#: ..\..\examples\fulfil-purchase-order.rst:38
-#: ..\..\examples\fulfil-purchase-order.rst:38
+#: ../../examples/fulfil-purchase-order.rst:38
+#: ../../examples/fulfil-purchase-order.rst:38
 msgid ""
 "*Warehouse operator* - a person who works in the warehouse and ships "
 "customer orders."
 msgstr ""
 
-#: ..\..\examples\fulfil-purchase-order.rst:39
-#: ..\..\examples\fulfil-purchase-order.rst:39
+#: ../../examples/fulfil-purchase-order.rst:39
+#: ../../examples/fulfil-purchase-order.rst:39
 msgid ""
 "*Financial administrator* - a member of the finance team, who issues "
 "invoices."
 msgstr ""
 
-#: ..\..\examples\fulfil-purchase-order.rst:52
-#: ..\..\examples\fulfil-purchase-order.rst:52
+#: ../../examples/fulfil-purchase-order.rst:52
+#: ../../examples/fulfil-purchase-order.rst:52
 msgid "To extend this basic process, you could:"
 msgstr ""
 
-#: ..\..\examples\fulfil-purchase-order.rst:54
-#: ..\..\examples\fulfil-purchase-order.rst:54
+#: ../../examples/fulfil-purchase-order.rst:54
+#: ../../examples/fulfil-purchase-order.rst:54
 msgid ""
 "include the whole *Close customer invoice* process, replacing the final "
 "*Issue invoice* task, to make this an order-to-cash process"
 msgstr ""
 
-#: ..\..\examples\fulfil-purchase-order.rst:57
-#: ..\..\examples\fulfil-purchase-order.rst:57
+#: ../../examples/fulfil-purchase-order.rst:57
+#: ../../examples/fulfil-purchase-order.rst:57
 msgid ""
 "replace the order form file upload with separate form fields, using a list "
 "of text values for the order lines, with each order line - product code, "
 "description and quantity - in one text value."
 msgstr ""
 
-#: ..\..\examples\hire-employee.rst:9 ..\..\examples\hire-employee.rst:9
+#: ../../examples/hire-employee.rst:9 ../../examples/hire-employee.rst:9
 msgid "Send a job offer letter to a successful job applicant."
 msgstr ""
 
-#: ..\..\examples\hire-employee.rst:21 ..\..\examples\hire-employee.rst:21
+#: ../../examples/hire-employee.rst:21 ../../examples/hire-employee.rst:21
 msgid "Form - for uploading the candidate’s CV."
 msgstr ""
 
-#: ..\..\examples\hire-employee.rst:26 ..\..\examples\hire-employee.rst:26
+#: ../../examples/hire-employee.rst:26 ../../examples/hire-employee.rst:26
 msgid ""
 "A recruitment process consists of a series of decisions, to reject the "
 "candidate or cointinue. This simplified process has these decision points "
 "after evaluating the applicant’s CV and a single interview."
 msgstr ""
 
-#: ..\..\examples\hire-employee.rst:30 ..\..\examples\hire-employee.rst:30
+#: ../../examples/hire-employee.rst:30 ../../examples/hire-employee.rst:30
 msgid ""
 "If the hiring manager rejects the applicant at either stage, Effektif sends "
 "a standard rejection email."
 msgstr ""
 
-#: ..\..\examples\hire-employee.rst:35 ..\..\examples\hire-employee.rst:35
+#: ../../examples/hire-employee.rst:35 ../../examples/hire-employee.rst:35
 msgid ""
 "*Hiring manager* - the person who takes responsibility for assessing a "
 "candidate and whether to reject the candidate or proceed: the *Evaluate CV* "
 "and *Interview candidate* tasks."
 msgstr ""
 
-#: ..\..\examples\hire-employee.rst:36 ..\..\examples\hire-employee.rst:36
+#: ../../examples/hire-employee.rst:36 ../../examples/hire-employee.rst:36
 msgid ""
 "*Recruiter* - an HR assistant who coordinates the recruitment process: the "
 "*Plan interview* and *Send job offer* tasks."
 msgstr ""
 
-#: ..\..\examples\hire-employee.rst:41 ..\..\examples\hire-employee.rst:41
+#: ../../examples/hire-employee.rst:41 ../../examples/hire-employee.rst:41
 msgid ""
 "*CV* (File, mandatory) - the applicant’s CV, provided by the trigger form."
 msgstr ""
 
-#: ..\..\examples\hire-employee.rst:42 ..\..\examples\hire-employee.rst:42
+#: ../../examples/hire-employee.rst:42 ../../examples/hire-employee.rst:42
 msgid ""
 "*Candidate email* (Email address, mandatory) - the email address that "
 "Effektif uses to send a rejection email."
 msgstr ""
 
-#: ..\..\examples\hire-employee.rst:47 ..\..\examples\hire-employee.rst:47
+#: ../../examples/hire-employee.rst:47 ../../examples/hire-employee.rst:47
 msgid ""
 "The trigger form could allow uploading additional documents, such as a "
 "covering letter, which some organisations like to receive."
 msgstr ""
 
-#: ..\..\examples\hire-employee.rst:48 ..\..\examples\hire-employee.rst:48
+#: ../../examples/hire-employee.rst:48 ../../examples/hire-employee.rst:48
 msgid ""
 "Instead of a trigger form, use an e-mail trigger to accept applications by "
 "e-mail, including the CV as an attachment."
 msgstr ""
 
-#: ..\..\examples\hire-employee.rst:51 ..\..\examples\hire-employee.rst:51
+#: ../../examples/hire-employee.rst:51 ../../examples/hire-employee.rst:51
 msgid ""
 "You could add additional interview stages, such as a telephone screen, "
 "second interview, or a post-offer visit."
 msgstr ""
 
-#: ..\..\examples\initiate-project.rst:9 ..\..\examples\initiate-project.rst:9
+#: ../../examples/initiate-project.rst:9 ../../examples/initiate-project.rst:9
 msgid ""
 "Complete checklists that capture basic information when starting a new "
 "project."
 msgstr ""
 
-#: ..\..\examples\initiate-project.rst:24
-#: ..\..\examples\initiate-project.rst:24
+#: ../../examples/initiate-project.rst:24
+#: ../../examples/initiate-project.rst:24
 msgid "Manual."
 msgstr ""
 
-#: ..\..\examples\initiate-project.rst:29
-#: ..\..\examples\initiate-project.rst:29
+#: ../../examples/initiate-project.rst:29
+#: ../../examples/initiate-project.rst:29
 msgid ""
 "This process represents a checklist with one user task for each piece of "
 "required project documentation. Each user task adds a level of detail by "
 "splitting these project initiation summaries into sections."
 msgstr ""
 
-#: ..\..\examples\initiate-project.rst:34
-#: ..\..\examples\initiate-project.rst:34
+#: ../../examples/initiate-project.rst:34
+#: ../../examples/initiate-project.rst:34
 msgid "The project manager can complete these tasks in any order."
 msgstr ""
 
-#: ..\..\examples\initiate-project.rst:39
-#: ..\..\examples\initiate-project.rst:39
+#: ../../examples/initiate-project.rst:39
+#: ../../examples/initiate-project.rst:39
 msgid ""
 "*Project manager* - responsible for capturing the project summaries. In "
 "practice, the project manager may delegate these tasks to other team "
 "members, by assigning the user tasks."
 msgstr ""
 
-#: ..\..\examples\initiate-project.rst:45
-#: ..\..\examples\initiate-project.rst:45
+#: ../../examples/initiate-project.rst:45
+#: ../../examples/initiate-project.rst:45
 msgid "The *Project overview* task includes the following fields."
 msgstr ""
 
-#: ..\..\examples\initiate-project.rst:47
-#: ..\..\examples\initiate-project.rst:47
+#: ../../examples/initiate-project.rst:47
+#: ../../examples/initiate-project.rst:47
 msgid "*Business context* (Text)"
 msgstr ""
 
-#: ..\..\examples\initiate-project.rst:48
-#: ..\..\examples\initiate-project.rst:48
+#: ../../examples/initiate-project.rst:48
+#: ../../examples/initiate-project.rst:48
 msgid "*Vision* (Text)"
 msgstr ""
 
-#: ..\..\examples\initiate-project.rst:49
-#: ..\..\examples\initiate-project.rst:49
+#: ../../examples/initiate-project.rst:49
+#: ../../examples/initiate-project.rst:49
 msgid "*Goals* (Text, multiple values)"
 msgstr ""
 
-#: ..\..\examples\initiate-project.rst:50
-#: ..\..\examples\initiate-project.rst:50
+#: ../../examples/initiate-project.rst:50
+#: ../../examples/initiate-project.rst:50
 msgid "*Deliverables* (Text, multiple values)"
 msgstr ""
 
-#: ..\..\examples\initiate-project.rst:52
-#: ..\..\examples\initiate-project.rst:52
+#: ../../examples/initiate-project.rst:52
+#: ../../examples/initiate-project.rst:52
 msgid "Similarly, the *Project plan* task captures a summary for each of:"
 msgstr ""
 
-#: ..\..\examples\initiate-project.rst:54
-#: ..\..\examples\initiate-project.rst:54
+#: ../../examples/initiate-project.rst:54
+#: ../../examples/initiate-project.rst:54
 msgid "*Resources* (Text, multiple values)"
 msgstr ""
 
-#: ..\..\examples\initiate-project.rst:55
-#: ..\..\examples\initiate-project.rst:55
+#: ../../examples/initiate-project.rst:55
+#: ../../examples/initiate-project.rst:55
 msgid "*Approach* (Text)"
 msgstr ""
 
-#: ..\..\examples\initiate-project.rst:56
-#: ..\..\examples\initiate-project.rst:56
+#: ../../examples/initiate-project.rst:56
+#: ../../examples/initiate-project.rst:56
 msgid "*Start date* (Date)"
 msgstr ""
 
-#: ..\..\examples\initiate-project.rst:57
-#: ..\..\examples\initiate-project.rst:57
+#: ../../examples/initiate-project.rst:57
+#: ../../examples/initiate-project.rst:57
 msgid "*Success factors* (Text, multiple values)"
 msgstr ""
 
-#: ..\..\examples\initiate-project.rst:58
-#: ..\..\examples\initiate-project.rst:58
+#: ../../examples/initiate-project.rst:58
+#: ../../examples/initiate-project.rst:58
 msgid "*Risks* (Text, multiple values)"
 msgstr ""
 
-#: ..\..\examples\initiate-project.rst:60
-#: ..\..\examples\initiate-project.rst:60
+#: ../../examples/initiate-project.rst:60
+#: ../../examples/initiate-project.rst:60
 msgid ""
 "You could simplify these forms by using *Yes/No* choices instead of text "
 "fields, turning each task into a checklist of its own. However, asking "
@@ -708,27 +708,27 @@ msgid ""
 "about it the question more and forces you to prove that you have an answer."
 msgstr ""
 
-#: ..\..\examples\invoice-customer.rst:9 ..\..\examples\invoice-customer.rst:9
+#: ../../examples/invoice-customer.rst:9 ../../examples/invoice-customer.rst:9
 msgid "Get a customer invoice paid and closed."
 msgstr ""
 
-#: ..\..\examples\invoice-customer.rst:21
-#: ..\..\examples\invoice-customer.rst:21
+#: ../../examples/invoice-customer.rst:21
+#: ../../examples/invoice-customer.rst:21
 msgid ""
 "Form - an uploaded invoice from a separate process, and customer contact "
 "details."
 msgstr ""
 
-#: ..\..\examples\invoice-customer.rst:26
-#: ..\..\examples\invoice-customer.rst:26
+#: ../../examples/invoice-customer.rst:26
+#: ../../examples/invoice-customer.rst:26
 msgid ""
 "This process uses a user task to capture key information about an invoice, "
 "which Effektif then sends automatically by e-mail. Another task checks for "
 "payment, with a due date based on the invoice payment terms."
 msgstr ""
 
-#: ..\..\examples\invoice-customer.rst:31
-#: ..\..\examples\invoice-customer.rst:31
+#: ../../examples/invoice-customer.rst:31
+#: ../../examples/invoice-customer.rst:31
 msgid ""
 "To reduce the number of unpaid invoices due to errors, this process starts "
 "with a *Check invoice* task. The assignee checks the information on the "
@@ -736,8 +736,8 @@ msgid ""
 "replaces the invoice with a new corrected version."
 msgstr ""
 
-#: ..\..\examples\invoice-customer.rst:34
-#: ..\..\examples\invoice-customer.rst:34
+#: ../../examples/invoice-customer.rst:34
+#: ../../examples/invoice-customer.rst:34
 msgid ""
 "The *Send Invoice* task automatically emails the invoice to the customer, "
 "and a *Check for payment* task requires the finance administrator to check "
@@ -746,47 +746,47 @@ msgid ""
 "user task that uses daily reminders to chase the process."
 msgstr ""
 
-#: ..\..\examples\invoice-customer.rst:40
-#: ..\..\examples\invoice-customer.rst:40
+#: ../../examples/invoice-customer.rst:40
+#: ../../examples/invoice-customer.rst:40
 msgid ""
 "*Finance administrator* - responsible for handling invoices within the "
 "company’s finance department."
 msgstr ""
 
-#: ..\..\examples\invoice-customer.rst:45
-#: ..\..\examples\invoice-customer.rst:45
+#: ../../examples/invoice-customer.rst:45
+#: ../../examples/invoice-customer.rst:45
 msgid ""
 "*Invoice* (File, mandatory) - produced by a separate process, typically a "
 "formatted PDF document."
 msgstr ""
 
-#: ..\..\examples\invoice-customer.rst:46
-#: ..\..\examples\invoice-customer.rst:46
+#: ../../examples/invoice-customer.rst:46
+#: ../../examples/invoice-customer.rst:46
 msgid "*Customer e-mail* (E-mail address) - for notifications"
 msgstr ""
 
-#: ..\..\examples\invoice-customer.rst:51
-#: ..\..\examples\invoice-customer.rst:51
+#: ../../examples/invoice-customer.rst:51
+#: ../../examples/invoice-customer.rst:51
 msgid ""
 "You may add a reminder email to the process, to prompt the customer to pay "
 "before the payment terms run out."
 msgstr ""
 
-#: ..\..\examples\open-new-customer-account.rst:9
-#: ..\..\examples\open-new-customer-account.rst:9
+#: ../../examples/open-new-customer-account.rst:9
+#: ../../examples/open-new-customer-account.rst:9
 msgid "Create a new customer bank account for a retail bank."
 msgstr ""
 
-#: ..\..\examples\open-new-customer-account.rst:14
-#: ..\..\examples\open-new-customer-account.rst:14
+#: ../../examples/open-new-customer-account.rst:14
+#: ../../examples/open-new-customer-account.rst:14
 msgid ""
 "Retail banking handles many high volume processes by standardising and "
 "optimising them, especially customer contact processes. Customer contact "
 "starts with opening a new account."
 msgstr ""
 
-#: ..\..\examples\open-new-customer-account.rst:17
-#: ..\..\examples\open-new-customer-account.rst:17
+#: ../../examples/open-new-customer-account.rst:17
+#: ../../examples/open-new-customer-account.rst:17
 msgid ""
 "This on-boarding business process has parallels in other service industries."
 " A similar ‘new customer account’ process might apply to insurance products,"
@@ -795,23 +795,23 @@ msgid ""
 "(optionally) a ‘starter pack’."
 msgstr ""
 
-#: ..\..\examples\open-new-customer-account.rst:24
-#: ..\..\examples\open-new-customer-account.rst:24
+#: ../../examples/open-new-customer-account.rst:24
+#: ../../examples/open-new-customer-account.rst:24
 msgid ""
 "Form - a completed customer application. The bank employee may use this "
 "information or additional documentation to reject the application."
 msgstr ""
 
-#: ..\..\examples\open-new-customer-account.rst:30
-#: ..\..\examples\open-new-customer-account.rst:30
+#: ../../examples/open-new-customer-account.rst:30
+#: ../../examples/open-new-customer-account.rst:30
 msgid ""
 "This process consists of a series of checks, followed by tasks to set-up a "
 "new account, if the bank employee approved the customer’s request for a new "
 "account."
 msgstr ""
 
-#: ..\..\examples\open-new-customer-account.rst:34
-#: ..\..\examples\open-new-customer-account.rst:34
+#: ../../examples/open-new-customer-account.rst:34
+#: ../../examples/open-new-customer-account.rst:34
 msgid ""
 "This structure makes this process similar to other approval processes, "
 "including the rejection notification tasks. If the bank employee accepts the"
@@ -819,43 +819,43 @@ msgid ""
 " a several account set-up tasks in parallel."
 msgstr ""
 
-#: ..\..\examples\open-new-customer-account.rst:40
-#: ..\..\examples\open-new-customer-account.rst:40
+#: ../../examples/open-new-customer-account.rst:40
+#: ../../examples/open-new-customer-account.rst:40
 msgid "*Bank employee* - responsible for the whole account creation process."
 msgstr ""
 
-#: ..\..\examples\open-new-customer-account.rst:45
-#: ..\..\examples\open-new-customer-account.rst:45
+#: ../../examples/open-new-customer-account.rst:45
+#: ../../examples/open-new-customer-account.rst:45
 msgid "The process starts with initial information from the customer:"
 msgstr ""
 
-#: ..\..\examples\open-new-customer-account.rst:47
-#: ..\..\examples\open-new-customer-account.rst:47
+#: ../../examples/open-new-customer-account.rst:47
+#: ../../examples/open-new-customer-account.rst:47
 msgid "*Customer name* (Text, mandatory)"
 msgstr ""
 
-#: ..\..\examples\open-new-customer-account.rst:48
-#: ..\..\examples\open-new-customer-account.rst:48
+#: ../../examples/open-new-customer-account.rst:48
+#: ../../examples/open-new-customer-account.rst:48
 msgid "*Address* (Text, mandatory)"
 msgstr ""
 
-#: ..\..\examples\open-new-customer-account.rst:49
-#: ..\..\examples\open-new-customer-account.rst:49
+#: ../../examples/open-new-customer-account.rst:49
+#: ../../examples/open-new-customer-account.rst:49
 msgid "*Date of birth* (Date, mandatory)"
 msgstr ""
 
-#: ..\..\examples\open-new-customer-account.rst:50
-#: ..\..\examples\open-new-customer-account.rst:50
+#: ../../examples/open-new-customer-account.rst:50
+#: ../../examples/open-new-customer-account.rst:50
 msgid "*Contact e-mail* (Email address, mandatory)"
 msgstr ""
 
-#: ..\..\examples\open-new-customer-account.rst:55
-#: ..\..\examples\open-new-customer-account.rst:55
+#: ../../examples/open-new-customer-account.rst:55
+#: ../../examples/open-new-customer-account.rst:55
 msgid "*Account number* (Number) - created for the new account."
 msgstr ""
 
-#: ..\..\examples\open-new-customer-account.rst:60
-#: ..\..\examples\open-new-customer-account.rst:60
+#: ../../examples/open-new-customer-account.rst:60
+#: ../../examples/open-new-customer-account.rst:60
 msgid ""
 "A real retail bank’s workflow for creating a new customer account would "
 "include more tasks than this. In practice, back-office systems would "
@@ -863,13 +863,13 @@ msgid ""
 "process comes from integrating with these existing systems."
 msgstr ""
 
-#: ..\..\examples\plan-trade-fair-booth.rst:9
-#: ..\..\examples\plan-trade-fair-booth.rst:9
+#: ../../examples/plan-trade-fair-booth.rst:9
+#: ../../examples/plan-trade-fair-booth.rst:9
 msgid "Have a stand at a trade fair."
 msgstr ""
 
-#: ..\..\examples\plan-trade-fair-booth.rst:14
-#: ..\..\examples\plan-trade-fair-booth.rst:14
+#: ../../examples/plan-trade-fair-booth.rst:14
+#: ../../examples/plan-trade-fair-booth.rst:14
 msgid ""
 "Attending a trade fair requires organisation far in advance of the event, "
 "with coordination between multiple people and a hard deadline. Checklists "
@@ -877,8 +877,8 @@ msgid ""
 "dependencies between tasks helps staff manage timelines."
 msgstr ""
 
-#: ..\..\examples\plan-trade-fair-booth.rst:17
-#: ..\..\examples\plan-trade-fair-booth.rst:17
+#: ../../examples/plan-trade-fair-booth.rst:17
+#: ../../examples/plan-trade-fair-booth.rst:17
 msgid ""
 "Getting this done requires expertise about which tasks to perform, how long "
 "they take, and their dependencies. That makes this process model more "
@@ -886,179 +886,179 @@ msgid ""
 "works in practice."
 msgstr ""
 
-#: ..\..\examples\plan-trade-fair-booth.rst:23
-#: ..\..\examples\plan-trade-fair-booth.rst:23
+#: ../../examples/plan-trade-fair-booth.rst:23
+#: ../../examples/plan-trade-fair-booth.rst:23
 msgid "*Form* - specifies details of the trade fair booking."
 msgstr ""
 
-#: ..\..\examples\plan-trade-fair-booth.rst:33
-#: ..\..\examples\plan-trade-fair-booth.rst:33
+#: ../../examples/plan-trade-fair-booth.rst:33
+#: ../../examples/plan-trade-fair-booth.rst:33
 msgid "Every user task may have its own due date, reminders and escalation."
 msgstr ""
 
-#: ..\..\examples\plan-trade-fair-booth.rst:38
-#: ..\..\examples\plan-trade-fair-booth.rst:38
+#: ../../examples/plan-trade-fair-booth.rst:38
+#: ../../examples/plan-trade-fair-booth.rst:38
 msgid "*Marketing team member* - responsible for the whole process."
 msgstr ""
 
-#: ..\..\examples\plan-trade-fair-booth.rst:43
-#: ..\..\examples\plan-trade-fair-booth.rst:43
+#: ../../examples/plan-trade-fair-booth.rst:43
+#: ../../examples/plan-trade-fair-booth.rst:43
 msgid ""
 "The trigger form specifies trade fair booking details, including the fields:"
 msgstr ""
 
-#: ..\..\examples\plan-trade-fair-booth.rst:45
-#: ..\..\examples\plan-trade-fair-booth.rst:45
+#: ../../examples/plan-trade-fair-booth.rst:45
+#: ../../examples/plan-trade-fair-booth.rst:45
 msgid "*Trade fair name* (Text, mandatory)"
 msgstr ""
 
-#: ..\..\examples\plan-trade-fair-booth.rst:46
-#: ..\..\examples\plan-trade-fair-booth.rst:46
+#: ../../examples/plan-trade-fair-booth.rst:46
+#: ../../examples/plan-trade-fair-booth.rst:46
 msgid "*Address* (Text)"
 msgstr ""
 
-#: ..\..\examples\plan-trade-fair-booth.rst:47
-#: ..\..\examples\plan-trade-fair-booth.rst:47
+#: ../../examples/plan-trade-fair-booth.rst:47
+#: ../../examples/plan-trade-fair-booth.rst:47
 msgid "*Booth location/number* (Text)"
 msgstr ""
 
-#: ..\..\examples\plan-trade-fair-booth.rst:48
-#: ..\..\examples\plan-trade-fair-booth.rst:48
+#: ../../examples/plan-trade-fair-booth.rst:48
+#: ../../examples/plan-trade-fair-booth.rst:48
 msgid "*Start* (Date)"
 msgstr ""
 
-#: ..\..\examples\plan-trade-fair-booth.rst:49
-#: ..\..\examples\plan-trade-fair-booth.rst:49
+#: ../../examples/plan-trade-fair-booth.rst:49
+#: ../../examples/plan-trade-fair-booth.rst:49
 msgid "*End* (Date)"
 msgstr ""
 
-#: ..\..\examples\plan-trade-fair-booth.rst:51
-#: ..\..\examples\plan-trade-fair-booth.rst:51
+#: ../../examples/plan-trade-fair-booth.rst:51
+#: ../../examples/plan-trade-fair-booth.rst:51
 msgid ""
 "Each task can include its own checklist of requirements or subtasks. For "
 "example, the *Design booth* task might include the Yes/No fields for:"
 msgstr ""
 
-#: ..\..\examples\plan-trade-fair-booth.rst:54
-#: ..\..\examples\plan-trade-fair-booth.rst:54
+#: ../../examples/plan-trade-fair-booth.rst:54
+#: ../../examples/plan-trade-fair-booth.rst:54
 msgid "text content"
 msgstr ""
 
-#: ..\..\examples\plan-trade-fair-booth.rst:55
-#: ..\..\examples\plan-trade-fair-booth.rst:55
+#: ../../examples/plan-trade-fair-booth.rst:55
+#: ../../examples/plan-trade-fair-booth.rst:55
 msgid "exhibition wall"
 msgstr ""
 
-#: ..\..\examples\plan-trade-fair-booth.rst:56
-#: ..\..\examples\plan-trade-fair-booth.rst:56
+#: ../../examples/plan-trade-fair-booth.rst:56
+#: ../../examples/plan-trade-fair-booth.rst:56
 msgid "roll-ups"
 msgstr ""
 
-#: ..\..\examples\plan-trade-fair-booth.rst:57
-#: ..\..\examples\plan-trade-fair-booth.rst:57
+#: ../../examples/plan-trade-fair-booth.rst:57
+#: ../../examples/plan-trade-fair-booth.rst:57
 msgid "flyers"
 msgstr ""
 
-#: ..\..\examples\plan-trade-fair-booth.rst:58
-#: ..\..\examples\plan-trade-fair-booth.rst:58
+#: ../../examples/plan-trade-fair-booth.rst:58
+#: ../../examples/plan-trade-fair-booth.rst:58
 msgid "brochures"
 msgstr ""
 
-#: ..\..\examples\plan-trade-fair-booth.rst:59
-#: ..\..\examples\plan-trade-fair-booth.rst:59
+#: ../../examples/plan-trade-fair-booth.rst:59
+#: ../../examples/plan-trade-fair-booth.rst:59
 msgid "posters."
 msgstr ""
 
-#: ..\..\examples\plan-trade-fair-booth.rst:64
-#: ..\..\examples\plan-trade-fair-booth.rst:64
+#: ../../examples/plan-trade-fair-booth.rst:64
+#: ../../examples/plan-trade-fair-booth.rst:64
 msgid ""
 "You could simplify this process by extracting design activities, so that "
 "this process requires an existing stand design. This might also simplify "
 "planning tasks."
 msgstr ""
 
-#: ..\..\examples\plan-trade-fair-booth.rst:67
-#: ..\..\examples\plan-trade-fair-booth.rst:67
+#: ../../examples/plan-trade-fair-booth.rst:67
+#: ../../examples/plan-trade-fair-booth.rst:67
 msgid ""
 "The basic version of this process does not rely on roles, on the assumption "
 "that team members know who does what. You might find it useful to define "
 "roles for different responsibilities, to automate some role assignment."
 msgstr ""
 
-#: ..\..\examples\process-insurance-claim.rst:9
-#: ..\..\examples\process-insurance-claim.rst:9
+#: ../../examples/process-insurance-claim.rst:9
+#: ../../examples/process-insurance-claim.rst:9
 msgid "Process an insurance claim in order to make a payout to a customer"
 msgstr ""
 
-#: ..\..\examples\process-insurance-claim.rst:14
-#: ..\..\examples\process-insurance-claim.rst:14
+#: ../../examples/process-insurance-claim.rst:14
+#: ../../examples/process-insurance-claim.rst:14
 msgid ""
 "Sometimes, a large team has to collaborate on high-volume task processing, "
 "such as assessing insurance claims."
 msgstr ""
 
-#: ..\..\examples\process-insurance-claim.rst:19
-#: ..\..\examples\process-insurance-claim.rst:19
+#: ../../examples/process-insurance-claim.rst:19
+#: ../../examples/process-insurance-claim.rst:19
 msgid "Form - an insured customer’s completed claim form."
 msgstr ""
 
-#: ..\..\examples\process-insurance-claim.rst:29
-#: ..\..\examples\process-insurance-claim.rst:29
+#: ../../examples/process-insurance-claim.rst:29
+#: ../../examples/process-insurance-claim.rst:29
 msgid ""
 "In most cases, the top row of user tasks will process the claim. Only a few "
 "claims will require the *Investigate high-value claim* or *Process complex "
 "claim* tasks."
 msgstr ""
 
-#: ..\..\examples\process-insurance-claim.rst:35
-#: ..\..\examples\process-insurance-claim.rst:35
+#: ../../examples/process-insurance-claim.rst:35
+#: ../../examples/process-insurance-claim.rst:35
 msgid ""
 "*Junior claims adjuster* - triages insurance claims and processes the "
 "straightforward ones."
 msgstr ""
 
-#: ..\..\examples\process-insurance-claim.rst:36
-#: ..\..\examples\process-insurance-claim.rst:36
+#: ../../examples/process-insurance-claim.rst:36
+#: ../../examples/process-insurance-claim.rst:36
 msgid ""
 "*Investigator* - investigates high-value claims to protect against "
 "fraudulent claims."
 msgstr ""
 
-#: ..\..\examples\process-insurance-claim.rst:37
-#: ..\..\examples\process-insurance-claim.rst:37
+#: ../../examples/process-insurance-claim.rst:37
+#: ../../examples/process-insurance-claim.rst:37
 msgid "*Senior claims adjuster* - processes complex claims."
 msgstr ""
 
-#: ..\..\examples\process-insurance-claim.rst:42
-#: ..\..\examples\process-insurance-claim.rst:42
+#: ../../examples/process-insurance-claim.rst:42
+#: ../../examples/process-insurance-claim.rst:42
 msgid ""
 "*Claim form* (File, mandatory) - the form provided by the customer, via the "
 "trigger form."
 msgstr ""
 
-#: ..\..\examples\process-insurance-claim.rst:43
-#: ..\..\examples\process-insurance-claim.rst:43
+#: ../../examples/process-insurance-claim.rst:43
+#: ../../examples/process-insurance-claim.rst:43
 msgid ""
 "*Total value* (Money, mandatory) - the total value of the claim, which the "
 "junior adjuster extracts from the claim form in the *Calculate claim value* "
 "task."
 msgstr ""
 
-#: ..\..\examples\process-insurance-claim.rst:44
-#: ..\..\examples\process-insurance-claim.rst:44
+#: ../../examples/process-insurance-claim.rst:44
+#: ../../examples/process-insurance-claim.rst:44
 msgid ""
 "*Payout* (Money, mandatory) - the amount to pay to the customer if the "
 "adjuster approves the claim."
 msgstr ""
 
-#: ..\..\examples\respond-to-customer-email.rst:9
-#: ..\..\examples\respond-to-customer-email.rst:9
+#: ../../examples/respond-to-customer-email.rst:9
+#: ../../examples/respond-to-customer-email.rst:9
 msgid ""
 "Respond to a (potential) customer’s email enquiry by sending an email reply."
 msgstr ""
 
-#: ..\..\examples\respond-to-customer-email.rst:14
-#: ..\..\examples\respond-to-customer-email.rst:14
+#: ../../examples/respond-to-customer-email.rst:14
+#: ../../examples/respond-to-customer-email.rst:14
 msgid ""
 "Companies often have a contact email address on their web site, like "
 "*info@example.com*, that routes customer email to a mailing list that "
@@ -1069,342 +1069,342 @@ msgid ""
 "people pick up the enquiry at the same time."
 msgstr ""
 
-#: ..\..\examples\respond-to-customer-email.rst:21
-#: ..\..\examples\respond-to-customer-email.rst:21
+#: ../../examples/respond-to-customer-email.rst:21
+#: ../../examples/respond-to-customer-email.rst:21
 msgid "Email - a customer request."
 msgstr ""
 
-#: ..\..\examples\respond-to-customer-email.rst:26
-#: ..\..\examples\respond-to-customer-email.rst:26
+#: ../../examples/respond-to-customer-email.rst:26
+#: ../../examples/respond-to-customer-email.rst:26
 msgid ""
 "Unusually, this process consists of a single user task - for responding to "
 "the email - followed by an email task to send the reply."
 msgstr ""
 
-#: ..\..\examples\respond-to-customer-email.rst:36
-#: ..\..\examples\respond-to-customer-email.rst:36
+#: ../../examples/respond-to-customer-email.rst:36
+#: ../../examples/respond-to-customer-email.rst:36
 msgid ""
 "A simpler version of this process only has a single user task, and relies on"
 " the assignee to send the email normally."
 msgstr ""
 
-#: ..\..\examples\ship-product-from-warehouse.rst:9
-#: ..\..\examples\ship-product-from-warehouse.rst:9
+#: ../../examples/ship-product-from-warehouse.rst:9
+#: ../../examples/ship-product-from-warehouse.rst:9
 msgid ""
 "In a warehouse operation, fulfil an order by shipping physical products to "
 "the customer."
 msgstr ""
 
-#: ..\..\examples\ship-product-from-warehouse.rst:23
-#: ..\..\examples\ship-product-from-warehouse.rst:23
+#: ../../examples/ship-product-from-warehouse.rst:23
+#: ../../examples/ship-product-from-warehouse.rst:23
 msgid ""
 "*Form* - an order form that lists order lines for the products to ship."
 msgstr ""
 
-#: ..\..\examples\ship-product-from-warehouse.rst:28
-#: ..\..\examples\ship-product-from-warehouse.rst:28
+#: ../../examples/ship-product-from-warehouse.rst:28
+#: ../../examples/ship-product-from-warehouse.rst:28
 msgid ""
 "The process takes a customer order and ships physical inventory from a "
 "warehouse. Warehouse staff retrieve the order and perform a sequence of "
 "tasks before actually shipping the parcels."
 msgstr ""
 
-#: ..\..\examples\ship-product-from-warehouse.rst:33
-#: ..\..\examples\ship-product-from-warehouse.rst:33
+#: ../../examples/ship-product-from-warehouse.rst:33
+#: ../../examples/ship-product-from-warehouse.rst:33
 msgid "A long sequence of tasks characterises this process, as follows."
 msgstr ""
 
-#: ..\..\examples\ship-product-from-warehouse.rst:56
-#: ..\..\examples\ship-product-from-warehouse.rst:56
+#: ../../examples/ship-product-from-warehouse.rst:56
+#: ../../examples/ship-product-from-warehouse.rst:56
 msgid ""
 "*Warehouse operator* - responsible for operations in the warehouse, moving "
 "goods from stock to trucks for shipment."
 msgstr ""
 
-#: ..\..\examples\ship-product-from-warehouse.rst:61
-#: ..\..\examples\ship-product-from-warehouse.rst:61
+#: ../../examples/ship-product-from-warehouse.rst:61
+#: ../../examples/ship-product-from-warehouse.rst:61
 msgid ""
 "*Order form* (File, required) - lists order lines of products to ship from "
 "the warehouse."
 msgstr ""
 
-#: ..\..\examples\ship-product-from-warehouse.rst:62
-#: ..\..\examples\ship-product-from-warehouse.rst:62
+#: ../../examples/ship-product-from-warehouse.rst:62
+#: ../../examples/ship-product-from-warehouse.rst:62
 msgid ""
 "*Order reference* (Text, required) - extracted from the order form, uniquely"
 " identifies the order in Effektif."
 msgstr ""
 
-#: ..\..\examples\ship-product-from-warehouse.rst:67
-#: ..\..\examples\ship-product-from-warehouse.rst:67
+#: ../../examples/ship-product-from-warehouse.rst:67
+#: ../../examples/ship-product-from-warehouse.rst:67
 msgid "To extend or enhance this process, you could:"
 msgstr ""
 
-#: ..\..\examples\ship-product-from-warehouse.rst:69
-#: ..\..\examples\ship-product-from-warehouse.rst:69
+#: ../../examples/ship-product-from-warehouse.rst:69
+#: ../../examples/ship-product-from-warehouse.rst:69
 msgid ""
 "trigger the process from an external order management system, as a result of"
 " an order status change"
 msgstr ""
 
-#: ..\..\examples\ship-product-from-warehouse.rst:70
-#: ..\..\examples\ship-product-from-warehouse.rst:70
+#: ../../examples/ship-product-from-warehouse.rst:70
+#: ../../examples/ship-product-from-warehouse.rst:70
 msgid ""
 "automate the *Retrieve customer order* and *Print shipping labels* tasks"
 msgstr ""
 
-#: ..\..\examples\ship-product-from-warehouse.rst:71
-#: ..\..\examples\ship-product-from-warehouse.rst:71
+#: ../../examples/ship-product-from-warehouse.rst:71
+#: ../../examples/ship-product-from-warehouse.rst:71
 msgid ""
 "add information to *The Pick stock items* task, e.g. by scanning bar codes "
 "to record the picked items’ serial numbers"
 msgstr ""
 
-#: ..\..\examples\ship-product-from-warehouse.rst:72
-#: ..\..\examples\ship-product-from-warehouse.rst:72
+#: ../../examples/ship-product-from-warehouse.rst:72
+#: ../../examples/ship-product-from-warehouse.rst:72
 msgid "make the *Inspect packing quality* task optional or randomised.."
 msgstr ""
 
-#: ..\..\examples\sign-contract.rst:9 ..\..\examples\sign-contract.rst:9
+#: ../../examples/sign-contract.rst:9 ../../examples/sign-contract.rst:9
 msgid "Sign a document and archive the signed copy."
 msgstr ""
 
-#: ..\..\examples\sign-contract.rst:14 ..\..\examples\sign-contract.rst:14
+#: ../../examples/sign-contract.rst:14 ../../examples/sign-contract.rst:14
 msgid ""
 "Managers frequently have to sign contracts, and approve other documents. "
 "This may take some time, if a backlog has built up, in which case the "
 "requester needs some visibility."
 msgstr ""
 
-#: ..\..\examples\sign-contract.rst:25 ..\..\examples\sign-contract.rst:25
+#: ../../examples/sign-contract.rst:25 ../../examples/sign-contract.rst:25
 msgid ""
 "The core process consists of tasks for the signer to review the document and"
 " then sign it. Effektif then archives the signed document and notifies the "
 "requester."
 msgstr ""
 
-#: ..\..\examples\sign-contract.rst:30 ..\..\examples\sign-contract.rst:30
+#: ../../examples/sign-contract.rst:30 ../../examples/sign-contract.rst:30
 msgid "This process includes three additional scenarios:"
 msgstr ""
 
-#: ..\..\examples\sign-contract.rst:32 ..\..\examples\sign-contract.rst:32
+#: ../../examples/sign-contract.rst:32 ../../examples/sign-contract.rst:32
 msgid ""
 "The signer requests that someone else sign the document, and reassigns the "
 "*Signer* role."
 msgstr ""
 
-#: ..\..\examples\sign-contract.rst:33 ..\..\examples\sign-contract.rst:33
+#: ../../examples/sign-contract.rst:33 ../../examples/sign-contract.rst:33
 msgid ""
 "The signer requests a change to the document, and the requester gets a new "
 "task to update the document."
 msgstr ""
 
-#: ..\..\examples\sign-contract.rst:39 ..\..\examples\sign-contract.rst:39
+#: ../../examples/sign-contract.rst:39 ../../examples/sign-contract.rst:39
 msgid "*Requester* - submits the document and makes any required corrections."
 msgstr ""
 
-#: ..\..\examples\sign-contract.rst:40 ..\..\examples\sign-contract.rst:40
+#: ../../examples/sign-contract.rst:40 ../../examples/sign-contract.rst:40
 msgid ""
 "*Signer* - responsible for deciding whether to sign the document, and adding"
 " the signature."
 msgstr ""
 
-#: ..\..\examples\sign-contract.rst:46 ..\..\examples\sign-contract.rst:46
+#: ../../examples/sign-contract.rst:46 ../../examples/sign-contract.rst:46
 msgid ""
 "*Change request* (Text, multiple values) - a correction or addition that the"
 " signer requests before signing."
 msgstr ""
 
-#: ..\..\examples\sign-contract.rst:47 ..\..\examples\sign-contract.rst:47
+#: ../../examples/sign-contract.rst:47 ../../examples/sign-contract.rst:47
 msgid "*Signed document* (File, mandatory)."
 msgstr ""
 
-#: ..\..\examples\sign-contract.rst:52 ..\..\examples\sign-contract.rst:52
+#: ../../examples/sign-contract.rst:52 ../../examples/sign-contract.rst:52
 msgid ""
 "You could simplify the process by removing one or more of the extra cases."
 msgstr ""
 
-#: ..\..\examples\approve-document.rst:47
-#: ..\..\examples\approve-document.rst:47
+#: ../../examples/approve-document.rst:47
+#: ../../examples/approve-document.rst:47
 msgid ""
 "*Author* - prepares the document. If the trigger form assigns this role, "
 "then Effektif will automatically assign the *Update document* to the author "
 "and send a notification."
 msgstr ""
 
-#: ..\..\examples\ship-product-from-warehouse.rst:44
-#: ..\..\examples\ship-product-from-warehouse.rst:44
+#: ../../examples/ship-product-from-warehouse.rst:44
+#: ../../examples/ship-product-from-warehouse.rst:44
 msgid ""
 "*Load parcels on truck* - loading happens in a batch together with parcels "
 "for other orders, and may only happen once per day."
 msgstr ""
 
-#: ..\..\examples\ship-product-from-warehouse.rst:45
-#: ..\..\examples\ship-product-from-warehouse.rst:45
+#: ../../examples/ship-product-from-warehouse.rst:45
+#: ../../examples/ship-product-from-warehouse.rst:45
 msgid ""
 "*Update order status* - record process completion in the order management "
 "system, which may trigger other processes such as invoicing the customer."
 msgstr ""
 
-#: ..\..\examples\ship-product-from-warehouse.rst:46
-#: ..\..\examples\ship-product-from-warehouse.rst:46
+#: ../../examples/ship-product-from-warehouse.rst:46
+#: ../../examples/ship-product-from-warehouse.rst:46
 msgid ""
 "*Adjust stock levels* - update the warehouse’s inventory management system."
 msgstr ""
 
-#: ..\..\examples\ship-product-from-warehouse.rst:47
-#: ..\..\examples\ship-product-from-warehouse.rst:47
+#: ../../examples/ship-product-from-warehouse.rst:47
+#: ../../examples/ship-product-from-warehouse.rst:47
 msgid ""
 "*Send delivery instructions* - provide the transport company with the "
 "information they require to deliver the shipment."
 msgstr ""
 
-#: ..\..\examples\approve-vacation-request.rst:51
-#: ..\..\examples\approve-vacation-request.rst:51
+#: ../../examples/approve-vacation-request.rst:51
+#: ../../examples/approve-vacation-request.rst:51
 msgid "*Start date* (Date) - vacation start date."
 msgstr ""
 
-#: ..\..\examples\approve-vacation-request.rst:52
-#: ..\..\examples\approve-vacation-request.rst:52
+#: ../../examples/approve-vacation-request.rst:52
+#: ../../examples/approve-vacation-request.rst:52
 msgid "*End date* (Date) - vacation end date."
 msgstr ""
 
-#: ..\..\examples\fulfil-purchase-order.rst:44
-#: ..\..\examples\fulfil-purchase-order.rst:44
+#: ../../examples/fulfil-purchase-order.rst:44
+#: ../../examples/fulfil-purchase-order.rst:44
 msgid ""
 "*Purchase order* (File, required) - the complete order details, including "
 "order lines. Effektif forms don’t support tabular data, so you cannot enter "
 "order lines normally."
 msgstr ""
 
-#: ..\..\examples\fulfil-purchase-order.rst:46
-#: ..\..\examples\fulfil-purchase-order.rst:46
+#: ../../examples/fulfil-purchase-order.rst:46
+#: ../../examples/fulfil-purchase-order.rst:46
 msgid ""
 "*PO reference* (Text, required) - the purchase order reference, extracted "
 "from the purchase order itself, to identify the case in Effektif"
 msgstr ""
 
-#: ..\..\examples\fulfil-purchase-order.rst:47
-#: ..\..\examples\fulfil-purchase-order.rst:47
+#: ../../examples/fulfil-purchase-order.rst:47
+#: ../../examples/fulfil-purchase-order.rst:47
 msgid ""
 "*Customer email* (Email address, required) - used to send notifications."
 msgstr ""
 
-#: ..\..\examples\ship-product-from-warehouse.rst:35
-#: ..\..\examples\ship-product-from-warehouse.rst:35
+#: ../../examples/ship-product-from-warehouse.rst:35
+#: ../../examples/ship-product-from-warehouse.rst:35
 msgid ""
 "*Retrieve customer order* - retrieve the order from the order management "
 "system and make it available to warehouse staff, e.g. by printing it or "
 "transferring to a work queue in a handheld device."
 msgstr ""
 
-#: ..\..\examples\ship-product-from-warehouse.rst:37
-#: ..\..\examples\ship-product-from-warehouse.rst:37
+#: ../../examples/ship-product-from-warehouse.rst:37
+#: ../../examples/ship-product-from-warehouse.rst:37
 msgid ""
 "*Pick items* - for each order line, finding the items in the warehouse and "
 "adding them to a ‘basket’, possibly for multiple orders at once with an "
 "efficient planned route through the warehouse."
 msgstr ""
 
-#: ..\..\examples\ship-product-from-warehouse.rst:38
-#: ..\..\examples\ship-product-from-warehouse.rst:38
+#: ../../examples/ship-product-from-warehouse.rst:38
+#: ../../examples/ship-product-from-warehouse.rst:38
 msgid ""
 "*Pack items into parcels* - efficiently pack items into standard parcels."
 msgstr ""
 
-#: ..\..\examples\ship-product-from-warehouse.rst:39
-#: ..\..\examples\ship-product-from-warehouse.rst:39
+#: ../../examples/ship-product-from-warehouse.rst:39
+#: ../../examples/ship-product-from-warehouse.rst:39
 msgid ""
 "*Weigh parcels* - to capture parcel weight and dimensions, for the shipping "
 "label."
 msgstr ""
 
-#: ..\..\examples\ship-product-from-warehouse.rst:40
-#: ..\..\examples\ship-product-from-warehouse.rst:40
+#: ../../examples/ship-product-from-warehouse.rst:40
+#: ../../examples/ship-product-from-warehouse.rst:40
 msgid ""
 "*Print shipping labels* - print and attached labels showing the customer "
 "delivery address and other information such as weight and dimensions."
 msgstr ""
 
-#: ..\..\examples\approve-document.rst:28
-#: ..\..\examples\approve-document.rst:28
+#: ../../examples/approve-document.rst:28
+#: ../../examples/approve-document.rst:28
 msgid "Form - the uploaded document and its author."
 msgstr ""
 
-#: ..\..\examples\approve-document.rst:55
-#: ..\..\examples\approve-document.rst:55
+#: ../../examples/approve-document.rst:55
+#: ../../examples/approve-document.rst:55
 msgid ""
 "*Author* (User, mandatory) - used to assign the role and notify the author."
 msgstr ""
 
-#: ..\..\examples\approve-vacation-request.rst:4
-#: ..\..\examples\approve-vacation-request.rst:4
+#: ../../examples/approve-vacation-request.rst:4
+#: ../../examples/approve-vacation-request.rst:4
 msgid "Approve Vacation Request (HR)"
 msgstr ""
 
-#: ..\..\examples\fill-job-vacancy.rst:4 ..\..\examples\fill-job-vacancy.rst:4
+#: ../../examples/fill-job-vacancy.rst:4 ../../examples/fill-job-vacancy.rst:4
 msgid "Fill Job Vacancy (HR)"
 msgstr ""
 
-#: ..\..\examples\follow-up-contact.rst:4
-#: ..\..\examples\follow-up-contact.rst:4
+#: ../../examples/follow-up-contact.rst:4
+#: ../../examples/follow-up-contact.rst:4
 msgid "Follow-up Contact (sales)"
 msgstr ""
 
-#: ..\..\examples\fulfil-purchase-order.rst:4
-#: ..\..\examples\fulfil-purchase-order.rst:4
+#: ../../examples/fulfil-purchase-order.rst:4
+#: ../../examples/fulfil-purchase-order.rst:4
 msgid "Fulfil Purchase Order (sales)"
 msgstr ""
 
-#: ..\..\examples\hire-employee.rst:4 ..\..\examples\hire-employee.rst:4
+#: ../../examples/hire-employee.rst:4 ../../examples/hire-employee.rst:4
 msgid "Hire Employee (HR)"
 msgstr ""
 
-#: ..\..\examples\initiate-project.rst:4 ..\..\examples\initiate-project.rst:4
+#: ../../examples/initiate-project.rst:4 ../../examples/initiate-project.rst:4
 msgid "Initiate Project (project delivery)"
 msgstr ""
 
-#: ..\..\examples\invoice-customer.rst:4 ..\..\examples\invoice-customer.rst:4
+#: ../../examples/invoice-customer.rst:4 ../../examples/invoice-customer.rst:4
 msgid "Invoice Customer (finance)"
 msgstr ""
 
-#: ..\..\examples\open-new-customer-account.rst:4
-#: ..\..\examples\open-new-customer-account.rst:4
+#: ../../examples/open-new-customer-account.rst:4
+#: ../../examples/open-new-customer-account.rst:4
 msgid "Open New Customer Account (banking)"
 msgstr ""
 
-#: ..\..\examples\plan-trade-fair-booth.rst:4
-#: ..\..\examples\plan-trade-fair-booth.rst:4
+#: ../../examples/plan-trade-fair-booth.rst:4
+#: ../../examples/plan-trade-fair-booth.rst:4
 msgid "Plan Trade Fair Booth (marketing)"
 msgstr ""
 
-#: ..\..\examples\process-insurance-claim.rst:4
-#: ..\..\examples\process-insurance-claim.rst:4
+#: ../../examples/process-insurance-claim.rst:4
+#: ../../examples/process-insurance-claim.rst:4
 msgid "Process Claim (insurance)"
 msgstr ""
 
-#: ..\..\examples\respond-to-customer-email.rst:4
-#: ..\..\examples\respond-to-customer-email.rst:4
+#: ../../examples/respond-to-customer-email.rst:4
+#: ../../examples/respond-to-customer-email.rst:4
 msgid "Respond To Email (customer service)"
 msgstr ""
 
-#: ..\..\examples\ship-product-from-warehouse.rst:4
-#: ..\..\examples\ship-product-from-warehouse.rst:4
+#: ../../examples/ship-product-from-warehouse.rst:4
+#: ../../examples/ship-product-from-warehouse.rst:4
 msgid "Ship Product From Warehouse (logistics)"
 msgstr ""
 
-#: ..\..\examples\sign-contract.rst:4 ..\..\examples\sign-contract.rst:4
+#: ../../examples/sign-contract.rst:4 ../../examples/sign-contract.rst:4
 msgid "Sign Contract (management)"
 msgstr ""
 
-#: ..\..\examples\approve-vacation-request.rst:34
-#: ..\..\examples\approve-vacation-request.rst:34
+#: ../../examples/approve-vacation-request.rst:34
+#: ../../examples/approve-vacation-request.rst:34
 msgid ""
 "The process consists of a user task for a decision. Tasks to continue the "
 "process of going on vacation (or not) follow the decision."
 msgstr ""
 
-#: ..\..\examples.rst:6
+#: ../../examples.rst:6
 msgid ""
 "This chapter describes a number of example processes. Effektif includes some"
 " of these examples within the application, so you don’t have to start from "
@@ -1413,7 +1413,7 @@ msgid ""
 "models."
 msgstr ""
 
-#: ..\..\examples.rst:10
+#: ../../examples.rst:10
 msgid ""
 "In the main menu, select `Examples` to browse the list, and expand each "
 "example to read a description. Select `Copy to your organisation` to open a "
@@ -1422,8 +1422,8 @@ msgid ""
 " you have copied, you can :ref:`delete it <copy-process>`."
 msgstr ""
 
-#: ..\..\examples\approve-document.rst:14
-#: ..\..\examples\approve-document.rst:14
+#: ../../examples/approve-document.rst:14
+#: ../../examples/approve-document.rst:14
 msgid ""
 "Employees need to submit expense forms for their managers to approve, but if"
 " they all send them by e-mail their managers will find it difficult to keep "
@@ -1431,8 +1431,8 @@ msgid ""
 " lists expenses."
 msgstr ""
 
-#: ..\..\examples\approve-document.rst:20
-#: ..\..\examples\approve-document.rst:20
+#: ../../examples/approve-document.rst:20
+#: ../../examples/approve-document.rst:20
 msgid ""
 "You can treat expense forms as a specific example of process documents. "
 "Business processes often use documents to capture a process milestone. "
@@ -1443,16 +1443,16 @@ msgid ""
 "and when)."
 msgstr ""
 
-#: ..\..\examples\approve-document.rst:38
-#: ..\..\examples\approve-document.rst:38
+#: ../../examples/approve-document.rst:38
+#: ../../examples/approve-document.rst:38
 msgid ""
 "Adding a due date and reminders to the user tasks can help minimise cycle "
 "times. Adding escalation to the *Review document* task helps avoid a delay "
 "when the reviewer cannot complete the work."
 msgstr ""
 
-#: ..\..\examples\approve-vacation-request.rst:14
-#: ..\..\examples\approve-vacation-request.rst:14
+#: ../../examples/approve-vacation-request.rst:14
+#: ../../examples/approve-vacation-request.rst:14
 msgid ""
 "Employees need to request vacation dates, so that their managers can make "
 "sure that they don’t all go on vacation at the same time. Employees "
@@ -1461,8 +1461,8 @@ msgid ""
 "when the coordinator goes on vacation."
 msgstr ""
 
-#: ..\..\examples\approve-vacation-request.rst:18
-#: ..\..\examples\approve-vacation-request.rst:18
+#: ../../examples/approve-vacation-request.rst:18
+#: ../../examples/approve-vacation-request.rst:18
 msgid ""
 "Vacation requests exemplify form based requests, where an employee requires "
 "an approval based on information whose structure you know in advance. An "
@@ -1470,8 +1470,8 @@ msgid ""
 " simplest example of human tasks that multiple people co-ordinate."
 msgstr ""
 
-#: ..\..\examples\approve-vacation-request.rst:21
-#: ..\..\examples\approve-vacation-request.rst:21
+#: ../../examples/approve-vacation-request.rst:21
+#: ../../examples/approve-vacation-request.rst:21
 msgid ""
 "Despite this process’ simplicity, the obvious spreadsheet plus e-mail "
 "approach leads to enough problems to make it worth using Effektif instead. "
@@ -1482,16 +1482,16 @@ msgid ""
 "themselves."
 msgstr ""
 
-#: ..\..\examples\approve-vacation-request.rst:49
-#: ..\..\examples\approve-vacation-request.rst:49
+#: ../../examples/approve-vacation-request.rst:49
+#: ../../examples/approve-vacation-request.rst:49
 msgid ""
 "*Employee* (User, mandatory) - the employee making the request. This, plus "
 "the other fields, should give the manager enough information to make the "
 "decision."
 msgstr ""
 
-#: ..\..\examples\fill-job-vacancy.rst:14
-#: ..\..\examples\fill-job-vacancy.rst:14
+#: ../../examples/fill-job-vacancy.rst:14
+#: ../../examples/fill-job-vacancy.rst:14
 msgid ""
 "Job applications drive the :ref:`Hire employee <hire-employee>` process, "
 "which makes it suitable for organisations that usually have open positions "
@@ -1500,16 +1500,16 @@ msgid ""
 "internal requisition for a new position drives the process."
 msgstr ""
 
-#: ..\..\examples\fill-job-vacancy.rst:30
-#: ..\..\examples\fill-job-vacancy.rst:30
+#: ../../examples/fill-job-vacancy.rst:30
+#: ../../examples/fill-job-vacancy.rst:30
 msgid ""
 "In addition, the hiring organisation passes the vacancy to one or more "
 "external recruiters, by email, who may also supply applicants. A second "
 "email notifies the recruiters when the vacancy has been filled."
 msgstr ""
 
-#: ..\..\examples\follow-up-contact.rst:14
-#: ..\..\examples\follow-up-contact.rst:14
+#: ../../examples/follow-up-contact.rst:14
+#: ../../examples/follow-up-contact.rst:14
 msgid ""
 "Sales managers often have a large number of meetings with both qualified "
 "prospects and ad hoc contacts. They may use triage to prioritise follow-up, "
@@ -1524,15 +1524,15 @@ msgid ""
 "featured sales pipeline tool."
 msgstr ""
 
-#: ..\..\examples\follow-up-contact.rst:34
-#: ..\..\examples\follow-up-contact.rst:34
+#: ../../examples/follow-up-contact.rst:34
+#: ../../examples/follow-up-contact.rst:34
 msgid ""
 "*Sales Manager* - member of a business development team. The process only "
 "has this one role, as it does not include collaboration with team members."
 msgstr ""
 
-#: ..\..\examples\fulfil-purchase-order.rst:14
-#: ..\..\examples\fulfil-purchase-order.rst:14
+#: ../../examples/fulfil-purchase-order.rst:14
+#: ../../examples/fulfil-purchase-order.rst:14
 msgid ""
 "The core activities of many companies include selling things to their "
 "customers and giving them what they pay for. Different companies’ high-level"
@@ -1541,8 +1541,8 @@ msgid ""
 "and products, result in different implementations."
 msgstr ""
 
-#: ..\..\examples\fulfil-purchase-order.rst:30
-#: ..\..\examples\fulfil-purchase-order.rst:30
+#: ../../examples/fulfil-purchase-order.rst:30
+#: ../../examples/fulfil-purchase-order.rst:30
 msgid ""
 "To prevent an exception when the company cannot fulfil the purchase order "
 "due to lack of stock, the workflow starts with a check task and a waiting "
@@ -1551,30 +1551,30 @@ msgid ""
 "can presumably accept the order."
 msgstr ""
 
-#: ..\..\examples\fulfil-purchase-order.rst:33
-#: ..\..\examples\fulfil-purchase-order.rst:33
+#: ../../examples/fulfil-purchase-order.rst:33
+#: ../../examples/fulfil-purchase-order.rst:33
 msgid ""
 "The trigger form captures the customer e-mail address, so that rejecting the"
 " invoice with a rejection reason can use a :ref:`Send E-mail <send-email>` "
 "task to send a notification."
 msgstr ""
 
-#: ..\..\examples\fulfil-purchase-order.rst:55
-#: ..\..\examples\fulfil-purchase-order.rst:55
+#: ../../examples/fulfil-purchase-order.rst:55
+#: ../../examples/fulfil-purchase-order.rst:55
 msgid ""
 "replace the *Wait for available stock* task with an automated version that "
 "precedes the *Check purchase order* task, so that the order only gets a "
 "manual manual check once the stock becomes available"
 msgstr ""
 
-#: ..\..\examples\fulfil-purchase-order.rst:56
-#: ..\..\examples\fulfil-purchase-order.rst:56
+#: ../../examples/fulfil-purchase-order.rst:56
+#: ../../examples/fulfil-purchase-order.rst:56
 msgid ""
 "perform the *Fulfil order* and *Issue invoice* tasks in parallel, depending "
 "on how people handle exceptions in *Fulfil order*"
 msgstr ""
 
-#: ..\..\examples\hire-employee.rst:14 ..\..\examples\hire-employee.rst:14
+#: ../../examples/hire-employee.rst:14 ../../examples/hire-employee.rst:14
 msgid ""
 "Recruiting an employee requires a long elapsed time to complete - typically "
 "a couple of months - and involves a number of people. Unless very few people"
@@ -1584,22 +1584,22 @@ msgid ""
 "contract."
 msgstr ""
 
-#: ..\..\examples\hire-employee.rst:49 ..\..\examples\hire-employee.rst:49
+#: ../../examples/hire-employee.rst:49 ../../examples/hire-employee.rst:49
 msgid ""
 "If the organisation has to deal with a high case volume, the trigger form "
 "could capture information that you could use to prioritise cases, such as "
 "the *Candidate availability date*."
 msgstr ""
 
-#: ..\..\examples\hire-employee.rst:50 ..\..\examples\hire-employee.rst:50
+#: ../../examples/hire-employee.rst:50 ../../examples/hire-employee.rst:50
 msgid ""
 "The trigger form could include additional information to allow automatic "
 "pre-screening, to cover cases that do not justify starting the process, such"
 " as an applicant with no work visa."
 msgstr ""
 
-#: ..\..\examples\initiate-project.rst:14
-#: ..\..\examples\initiate-project.rst:14
+#: ../../examples/initiate-project.rst:14
+#: ../../examples/initiate-project.rst:14
 msgid ""
 "When a project organisation starts a new project, the project team (or "
 "project manager) needs to capture a project overview that introduces the "
@@ -1613,16 +1613,16 @@ msgid ""
 "present simple forms that guide this initial data collection."
 msgstr ""
 
-#: ..\..\examples\initiate-project.rst:66
-#: ..\..\examples\initiate-project.rst:66
+#: ../../examples/initiate-project.rst:66
+#: ../../examples/initiate-project.rst:66
 msgid ""
 "In general, you will extend this process with additional checklist tasks for"
 " project initiation work. You can extend this process to include a project "
 "approval task, based on the information given."
 msgstr ""
 
-#: ..\..\examples\invoice-customer.rst:14
-#: ..\..\examples\invoice-customer.rst:14
+#: ../../examples/invoice-customer.rst:14
+#: ../../examples/invoice-customer.rst:14
 msgid ""
 "In any business, the most obvious example critical process includes getting "
 "paid by customers. This starts with sending invoices but also includes "
@@ -1630,28 +1630,28 @@ msgid ""
 "practice, because customers do not always pay on time."
 msgstr ""
 
-#: ..\..\examples\open-new-customer-account.rst:51
-#: ..\..\examples\open-new-customer-account.rst:51
+#: ../../examples/open-new-customer-account.rst:51
+#: ../../examples/open-new-customer-account.rst:51
 msgid ""
 "*Supporting documentation* (File, multiple values) - additional documents, "
 "such as proof of address, which the process might specify individually."
 msgstr ""
 
-#: ..\..\examples\open-new-customer-account.rst:53
-#: ..\..\examples\open-new-customer-account.rst:53
+#: ../../examples/open-new-customer-account.rst:53
+#: ../../examples/open-new-customer-account.rst:53
 msgid "The process later adds further information, including:"
 msgstr ""
 
-#: ..\..\examples\plan-trade-fair-booth.rst:28
-#: ..\..\examples\plan-trade-fair-booth.rst:28
+#: ../../examples/plan-trade-fair-booth.rst:28
+#: ../../examples/plan-trade-fair-booth.rst:28
 msgid ""
 "Sometimes you just have a lot to do. This process consists of planning many "
 "activities, some of which can happen in parallel, but which may require long"
 " timelines."
 msgstr ""
 
-#: ..\..\examples\process-insurance-claim.rst:24
-#: ..\..\examples\process-insurance-claim.rst:24
+#: ../../examples/process-insurance-claim.rst:24
+#: ../../examples/process-insurance-claim.rst:24
 msgid ""
 "This process illustrates how to handle large case volumes, by splitting the "
 "process into tasks that you can assign to different groups of people Junior "
@@ -1659,32 +1659,32 @@ msgid ""
 " senior staff."
 msgstr ""
 
-#: ..\..\examples\respond-to-customer-email.rst:30
-#: ..\..\examples\respond-to-customer-email.rst:30
+#: ../../examples/respond-to-customer-email.rst:30
+#: ../../examples/respond-to-customer-email.rst:30
 msgid ""
 "This process minimally demonstrates the value of task assignment. The "
 "process’ value comes from the automated notifications from setting the user "
 "task’s candidate group, due date, reminders and escalation."
 msgstr ""
 
-#: ..\..\examples\sign-contract.rst:20 ..\..\examples\sign-contract.rst:20
+#: ../../examples/sign-contract.rst:20 ../../examples/sign-contract.rst:20
 msgid "*Manual* - the requester uploads a document for a manager to sign."
 msgstr ""
 
-#: ..\..\examples\sign-contract.rst:34 ..\..\examples\sign-contract.rst:34
+#: ../../examples/sign-contract.rst:34 ../../examples/sign-contract.rst:34
 msgid ""
 "The signer declines to sign the document, and the requester receives a "
 "notification."
 msgstr ""
 
-#: ..\..\examples\sign-contract.rst:45 ..\..\examples\sign-contract.rst:45
+#: ../../examples/sign-contract.rst:45 ../../examples/sign-contract.rst:45
 msgid ""
 "*Original document* (File, mandatory) - the document that requires a "
 "signature."
 msgstr ""
 
-#: ..\..\examples\ship-product-from-warehouse.rst:14
-#: ..\..\examples\ship-product-from-warehouse.rst:14
+#: ../../examples/ship-product-from-warehouse.rst:14
+#: ../../examples/ship-product-from-warehouse.rst:14
 msgid ""
 "A product manufacturer typically runs warehouses that contain an inventory "
 "of products, ready to ship to customers. In the warehouse, a customer order "
@@ -1692,31 +1692,31 @@ msgid ""
 "associated with physical products."
 msgstr ""
 
-#: ..\..\examples\ship-product-from-warehouse.rst:17
-#: ..\..\examples\ship-product-from-warehouse.rst:17
+#: ../../examples/ship-product-from-warehouse.rst:17
+#: ../../examples/ship-product-from-warehouse.rst:17
 msgid ""
 "This process participates in a broader customer order process that happens "
 "in the context of a warehouse. The order status that triggers this process, "
 "and changes when this process completes, may orchestrate this process."
 msgstr ""
 
-#: ..\..\examples\ship-product-from-warehouse.rst:41
-#: ..\..\examples\ship-product-from-warehouse.rst:41
+#: ../../examples/ship-product-from-warehouse.rst:41
+#: ../../examples/ship-product-from-warehouse.rst:41
 msgid ""
 "*Move to loading dock* - stack parcels ready for loading on the next truck. "
 "Inspect packing quality - quality control to check for correctly packed "
 "parcels."
 msgstr ""
 
-#: ..\..\examples\ship-product-from-warehouse.rst:43
-#: ..\..\examples\ship-product-from-warehouse.rst:43
+#: ../../examples/ship-product-from-warehouse.rst:43
+#: ../../examples/ship-product-from-warehouse.rst:43
 msgid ""
 "*Check parcel count* - a ‘head-count’ to check that there no orders have "
 "missing parcels."
 msgstr ""
 
-#: ..\..\examples\ship-product-from-warehouse.rst:49
-#: ..\..\examples\ship-product-from-warehouse.rst:49
+#: ../../examples/ship-product-from-warehouse.rst:49
+#: ../../examples/ship-product-from-warehouse.rst:49
 msgid ""
 "Warehouse staff will take advantage of this process’ flexibility in "
 "practice. Staff may perform the tasks sequentially in practice, even though "
@@ -1725,8 +1725,8 @@ msgid ""
 " truck to arrive at the warehouse."
 msgstr ""
 
-#: ..\..\examples\ship-product-from-warehouse.rst:74
-#: ..\..\examples\ship-product-from-warehouse.rst:74
+#: ../../examples/ship-product-from-warehouse.rst:74
+#: ../../examples/ship-product-from-warehouse.rst:74
 msgid ""
 "In this process, transport runs on a fixed schedule: warehouse staff load "
 "parcels for multiple orders onto trucks. A different shipping process could "

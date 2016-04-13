@@ -45,6 +45,14 @@ when you hover the mouse cursor over them.
 These status bars appear to the left of the workflow data columns,
 which you can customize.
 
+Use the linked case name to open the case’s details page.
+
+
+Viewing case details
+--------------------
+
+Each case has an event stream that acts as an audit log and includes the information that case participants share during collaboration, such as comments, documents and links.
+
 
 Customizing case view table columns
 -----------------------------------
@@ -75,10 +83,15 @@ The menu lists all of the workflow variables that the table does not currently i
 In this example, the *Interviewer* variable has the type *User*, which means that you can access additional fields for the user’s email address, first name, ID and last name.
 
 
-Creating a case
----------------
+Creating an ad-hoc case
+-----------------------
 
-To create a new case, navigate to *Cases*;
+Effektif supports two types of cases: cases that relate to a process and ad-hoc cases.
+An *ad-hoc case* does not have a predefined process.
+It creates a collaboration space that you can use to reach a one-off goal.
+The case brings together a set of tasks, a discussion and documents, and allows participants to share any relevant context information for the tasks.
+
+To create a new ad-hoc case, navigate to *Cases*;
 on the *Cases of* menu, select *Cases without a process*, then click *Start new case*.
 
 .. figure:: /_static/images/cases/create/create-case.png
@@ -108,6 +121,8 @@ which results in a discussion in the event stream.
 .. figure:: /_static/images/cases/comments/discussion.png
 
    Comments on a case - discussion with context
+
+By using case comments instead of email, participants ensure that discussions retain the full context for everyone involved.
 
 In the event stream, reply to existing comments to keep the discussion structured.
 Hover over the user avatar to see the user’s full name:

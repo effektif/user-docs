@@ -4,9 +4,11 @@ Roles
 -----
 
 Creating a role gives a process-specific name to whoever performs one or more process tasks.
-You can optionally configure a role with a list of canidates.
+You can optionally configure a role with a list of candidates.
 Roles have the same function as swimlanes in BPMN.
 
+Process roles differ from organizational roles.
+A process role only lasts for the duration of a case, while organizational roles last longer and relate to the job you perform at the organization.
 For example, when you have a meeting, one person sometimes takes the role of chairperson.
 That person doesn’t have the job title *Meeting chair* - they’ve just adopted that role for the duration of the meeting.
 

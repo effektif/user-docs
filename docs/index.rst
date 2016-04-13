@@ -5,7 +5,6 @@ Effektif User Guide
    :maxdepth: 2
 
    introduction
-   terminology
    cases
    tasks
    process-builder

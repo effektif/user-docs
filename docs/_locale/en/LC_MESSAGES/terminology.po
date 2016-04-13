@@ -11,131 +11,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ..\..\terminology.rst:2
+#: ../../terminology.rst:2
 msgid "Terminology"
 msgstr ""
 
-#: ..\..\terminology.rst:5
-msgid "Case"
-msgstr ""
-
-#: ..\..\terminology.rst:19
-msgid "Ad-hoc case"
-msgstr ""
-
-#: ..\..\terminology.rst:27
-msgid "Task"
-msgstr ""
-
-#: ..\..\terminology.rst:33
-msgid "Process"
-msgstr ""
-
-#: ..\..\terminology.rst:44
-msgid "Action"
-msgstr ""
-
-#: ..\..\terminology.rst:56
-msgid "Trigger"
-msgstr ""
-
-#: ..\..\terminology.rst:66
-msgid "Role"
-msgstr ""
-
-#: ..\..\terminology.rst:79
+#: ../../terminology.rst:5
 msgid "Organization"
 msgstr ""
 
-#: ..\..\terminology.rst:7
-msgid ""
-"A *case* creates a collaboration page for a particular goal. A case has "
-"subtasks representing the concrete action items to reach the goal. Effektif "
-"supports two types of cases: cases that relate to a process and ad-hoc "
-"cases."
-msgstr ""
-
-#: ..\..\terminology.rst:11
-msgid ""
-"Each case has an event stream that acts as an audit log and includes the "
-"information that case participants share during collaboration, such as "
-"comments, documents and links. By using case comments instead of email, "
-"participants ensure that discussions retain the full context for everyone "
-"involved. See :ref:`Cases <cases>`."
-msgstr ""
-
-#: ..\..\terminology.rst:21
-msgid ""
-"An *ad-hoc case* does not have a predefined process. It creates a "
-"collaboration space that you can use to reach a one-off goal. The case "
-"brings together a set of tasks, a discussion and documents, and allows "
-"participants to share any relevant context information for the tasks."
-msgstr ""
-
-#: ..\..\terminology.rst:29
-msgid ""
-"Tasks represent concrete action items inside a case that you can assign to "
-"people. In process cases, a task may have been created by a user task "
-"action."
-msgstr ""
-
-#: ..\..\terminology.rst:35
-msgid ""
-"A process defines a template for automating repetitive work, like a recipe "
-"that describes the actions that you perform to achieve a goal."
-msgstr ""
-
-#: ..\..\terminology.rst:38
-msgid ""
-"For example, consider a :ref:`Hire employee <hire-employee>` process. Each "
-"time an organization hires someone, the recruitment team has to complete a "
-"number of tasks, including ‘Evaluate CV’, ‘Plan interview’ and ‘Interview "
-"candidate’. Each time someone starts the process, Effektif creates a new "
-"case."
-msgstr ""
-
-#: ..\..\terminology.rst:46
-msgid ""
-"Actions represent the steps in a process - things to do. When starting a "
-"process, Effektif will ‘execute’ the actions in a process in the proper "
-"order. The process :ref:`control flow <control-flow>` determines this "
-"ordering, using transitions, gateways and events."
-msgstr ""
-
-#: ..\..\terminology.rst:50
-msgid ""
-"A process can include different :ref:`action-types`. A user task will create"
-" a task in a case. A ‘Send Email’ action will send an email. A ‘Google file "
-"upload’ action will upload a file to a Google Drive folder."
-msgstr ""
-
-#: ..\..\terminology.rst:58
-msgid ""
-"A trigger in a process specifies how the process starts. The manual trigger "
-"works in the simplest way, and starts the process when you start a new "
-"process case inside Effektif. The form trigger allows to specify a form that"
-" you have to complete to start a new process case. The email trigger creates"
-" a new process case when it receives email at its own email address. "
-"Triggers do not have any relation to :ref:`start events <start-event>`."
-msgstr ""
-
-#: ..\..\terminology.rst:68
-msgid ""
-"Use roles to assign user tasks in a process. Roles, also known as process "
-"roles, correspond to swimlanes in a BPMN diagram."
-msgstr ""
-
-#: ..\..\terminology.rst:71
-msgid ""
-"Process roles differ from organizational roles. For example, some people "
-"your organization may have the role ‘Support engineer’. However, each "
-"support case only has one person in the ‘Support contact’ process role. A "
-"process role only lasts for the duration of a case, while organizational "
-"roles last longer and relate to the job you perform at the organization. See"
-" :ref:`Roles <roles>`."
-msgstr ""
-
-#: ..\..\terminology.rst:81
+#: ../../terminology.rst:7
 msgid ""
 "An organization represents a collection of Effektif users - typically a "
 "company - together with all their data in Effektif. People outside the "
@@ -144,6 +28,104 @@ msgid ""
 "multiple organizations, you can switch between organizations by selecting a "
 "different organization under your name in the top right corner."
 msgstr ""
+
+#~ msgid "Task"
+#~ msgstr ""
+
+#~ msgid "Process"
+#~ msgstr ""
+
+#~ msgid "Action"
+#~ msgstr ""
+
+#~ msgid "Trigger"
+#~ msgstr ""
+
+#~ msgid "Role"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Tasks represent concrete action items inside a case that you can assign to "
+#~ "people. In process cases, a task may have been created by a user task "
+#~ "action."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A process defines a template for automating repetitive work, like a recipe "
+#~ "that describes the actions that you perform to achieve a goal."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For example, consider a :ref:`Hire employee <hire-employee>` process. Each "
+#~ "time an organization hires someone, the recruitment team has to complete a "
+#~ "number of tasks, including ‘Evaluate CV’, ‘Plan interview’ and ‘Interview "
+#~ "candidate’. Each time someone starts the process, Effektif creates a new "
+#~ "case."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Actions represent the steps in a process - things to do. When starting a "
+#~ "process, Effektif will ‘execute’ the actions in a process in the proper "
+#~ "order. The process :ref:`control flow <control-flow>` determines this "
+#~ "ordering, using transitions, gateways and events."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A process can include different :ref:`action-types`. A user task will create"
+#~ " a task in a case. A ‘Send Email’ action will send an email. A ‘Google file "
+#~ "upload’ action will upload a file to a Google Drive folder."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A trigger in a process specifies how the process starts. The manual trigger "
+#~ "works in the simplest way, and starts the process when you start a new "
+#~ "process case inside Effektif. The form trigger allows to specify a form that"
+#~ " you have to complete to start a new process case. The email trigger creates"
+#~ " a new process case when it receives email at its own email address. "
+#~ "Triggers do not have any relation to :ref:`start events <start-event>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use roles to assign user tasks in a process. Roles, also known as process "
+#~ "roles, correspond to swimlanes in a BPMN diagram."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Process roles differ from organizational roles. For example, some people "
+#~ "your organization may have the role ‘Support engineer’. However, each "
+#~ "support case only has one person in the ‘Support contact’ process role. A "
+#~ "process role only lasts for the duration of a case, while organizational "
+#~ "roles last longer and relate to the job you perform at the organization. See"
+#~ " :ref:`Roles <roles>`."
+#~ msgstr ""
+
+#~ msgid "Ad-hoc case"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "An *ad-hoc case* does not have a predefined process. It creates a "
+#~ "collaboration space that you can use to reach a one-off goal. The case "
+#~ "brings together a set of tasks, a discussion and documents, and allows "
+#~ "participants to share any relevant context information for the tasks."
+#~ msgstr ""
+
+#~ msgid "Case"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A *case* creates a collaboration page for a particular goal. A case has "
+#~ "subtasks representing the concrete action items to reach the goal. Effektif "
+#~ "supports two types of cases: cases that relate to a process and ad-hoc "
+#~ "cases."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Each case has an event stream that acts as an audit log and includes the "
+#~ "information that case participants share during collaboration, such as "
+#~ "comments, documents and links. By using case comments instead of email, "
+#~ "participants ensure that discussions retain the full context for everyone "
+#~ "involved. See :ref:`Cases <cases>`."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Each case has an event stream that acts as an audit log and includes the "
