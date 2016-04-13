@@ -3,10 +3,15 @@
 Actions
 -------
 
-You can think of actions like steps in a process.
-Action include things like user tasks in Effektif,
-operations on a file in a document management system
-or any other actions that represent work that someone will perform as part of a process.
+Actions represent the steps in a process - things to do.
+Action include things like user tasks in Effektif, operations on a file in a document management system or any other actions that represent work that someone will perform as part of a process.
+When starting a process, Effektif will ‘execute’ the actions in a process in the proper order.
+The process :ref:`control flow <control-flow>` determines this ordering, using transitions, gateways and events.
+
+A process can include different :ref:`action-types`.
+A user task will create a task in a case.
+A ‘Send Email’ action will send an email.
+A ‘Google file upload’ action will upload a file to a Google Drive folder.
 
 .. figure:: /_static/images/process-builder/actions.png
 

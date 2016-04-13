@@ -3,6 +3,11 @@
 Organization settings
 =====================
 
+In Effektif, your organization represents a collection of Effektif users - typically a company - together with all their data in Effektif.
+People outside your organization cannot see your organization’s data.
+After you log into Effektif, you see all the data inside one particular organization.
+If you belong to multiple organizations, you can switch between organizations by selecting a different organization under your name in the top right corner.
+
 Use the Organization settings page to set-up users and groups,
 manage invitations,
 and configure external services such as :ref:`salesforce-integration`.

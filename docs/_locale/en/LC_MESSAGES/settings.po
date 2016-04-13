@@ -11,93 +11,93 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ..\..\settings.rst:4
+#: ../../settings.rst:4
 msgid "Organization settings"
 msgstr ""
 
-#: ..\..\settings.rst:6
+#: ../../settings.rst:11
 msgid ""
 "Use the Organization settings page to set-up users and groups, manage "
 "invitations, and configure external services such as :ref:`salesforce-"
 "integration`."
 msgstr ""
 
-#: ..\..\settings.rst:10
+#: ../../settings.rst:15
 msgid ""
 "At the top of the page, in the masthead, you can edit the organization name."
 msgstr ""
 
-#: ..\..\settings.rst:14
+#: ../../settings.rst:19
 msgid "Users"
 msgstr ""
 
-#: ..\..\settings.rst:23
+#: ../../settings.rst:28
 msgid ""
 "Administrators can promote other users to administrator: on an expanded user"
 " panel, click the *Promote to administrator* button."
 msgstr ""
 
-#: ..\..\settings.rst:29
+#: ../../settings.rst:34
 msgid ""
 "Administrators can also delete users, using the delete button next to the "
 "user name."
 msgstr ""
 
-#: ..\..\settings.rst:48
+#: ../../settings.rst:53
 msgid "Groups"
 msgstr ""
 
-#: ..\..\settings.rst:50
+#: ../../settings.rst:55
 msgid ""
 "The groups list shows the organization’s user groups. You can use these "
 "groups to define candidates for tasks in the :ref:`process builder <process-"
 "builder>`."
 msgstr ""
 
-#: ..\..\settings.rst:55
+#: ../../settings.rst:60
 msgid ""
 "To create a new group, in the text field below the group list, enter a group"
 " name and click the *Create* button."
 msgstr ""
 
-#: ..\..\settings.rst:61
+#: ../../settings.rst:66
 msgid ""
 "Click a group’s name to expand its list of members, so you can edit the name"
 " and add or remove members,"
 msgstr ""
 
-#: ..\..\settings.rst:34
+#: ../../settings.rst:39
 msgid "Invitations"
 msgstr ""
 
-#: ..\..\settings.rst:36
+#: ../../settings.rst:41
 msgid "The invitations list shows who you have invited to use Effektif."
 msgstr ""
 
-#: ..\..\settings.rst:67
+#: ../../settings.rst:72
 msgid "Preferences"
 msgstr ""
 
-#: ..\..\settings.rst:69
+#: ../../settings.rst:74
 msgid ""
 "The *Preferences* includes additional options that apply to the whole "
 "organization."
 msgstr ""
 
-#: ..\..\settings.rst:75
+#: ../../settings.rst:80
 msgid ""
 "*Email signature* replaces the default *Effektif team* signature at the "
 "bottom of :ref:`notification emails <notifications>`."
 msgstr ""
 
-#: ..\..\settings.rst:16
+#: ../../settings.rst:21
 msgid ""
 "The users list shows users who belong to your organization. You can expand "
 "each user’s entry to see their email address, license type, and membership "
 "type - indicating whether the user has the administrator role."
 msgstr ""
 
-#: ..\..\settings.rst:40
+#: ../../settings.rst:45
 msgid ""
 "To invite someone to use Effektif, select the license they will use, enter "
 "their email address in the text field and click the *Invite* button. They "
@@ -105,8 +105,19 @@ msgid ""
 "create an Effektif user that will become a member of the organization."
 msgstr ""
 
-#: ..\..\settings.rst:73
+#: ../../settings.rst:78
 msgid "*Time zone* affects how Effektif displays times."
+msgstr ""
+
+#: ../../settings.rst:6
+msgid ""
+"In Effektif, your organization represents a collection of Effektif users - "
+"typically a company - together with all their data in Effektif. People "
+"outside your organization cannot see your organization’s data. After you log"
+" into Effektif, you see all the data inside one particular organization. If "
+"you belong to multiple organizations, you can switch between organizations "
+"by selecting a different organization under your name in the top right "
+"corner."
 msgstr ""
 
 #~ msgid ""
