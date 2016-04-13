@@ -4,6 +4,9 @@ JavaScript action
 -----------------
 
 The JavaScript action allows developers to add JavaScript to process execution.
+Effektif runs the code on the server, using `Node.js <https://nodejs.org>`_.
+As well as Node.js’ JavaScript API, scripts can use the `lodash <https://www.npmjs.com/package/lodash>`_ and `request <https://www.npmjs.com/package/request>`_ libraries.
+
 After creating or selecting a JavaScript action, the configuration panel looks like this:
 
 .. figure:: /_static/images/action-types/javascript/javascript-1.png
@@ -12,6 +15,7 @@ After creating or selecting a JavaScript action, the configuration panel looks l
 
 The top section of the panel contains the JavaScript text editor.
 By default, it already contains ``console.log('Hello World!');``.
+Use the `console <https://nodejs.org/dist/latest-v5.x/docs/api/console.html>`_ API for log output when testing scripts.
 
 The lower section allows you to test the script.
 Click `Test it` to execute the JavaScript code.
