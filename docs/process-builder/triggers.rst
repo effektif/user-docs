@@ -31,6 +31,8 @@ After selecting the form trigger, you can use the form builder to specify form f
 .. For more information on the form builder, see Form builder.
 
 
+.. _email-trigger:
+
 Email trigger
 ^^^^^^^^^^^^^
 

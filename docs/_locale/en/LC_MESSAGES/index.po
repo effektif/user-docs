@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../index.rst:2
+#: ..\..\index.rst:2
 msgid "Effektif User Guide"
 msgstr ""
 

@@ -2,106 +2,105 @@
 # Copyright (C) 2016, Signavio GmbH
 # This file is distributed under the same license as the User Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-28 18:28+0200\n"
+"POT-Creation-Date: 2016-04-13 14:38+0200\n"
 "PO-Revision-Date: 2016-04-13 12:27+0200\n"
 "Last-Translator: Timotheus Kampik <timotheus.kampik@signavio.com>\n"
 "Language-Team: \n"
-"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.2.0\n"
-"X-Generator: Poedit 1.8.7\n"
 
-#: ..\..\process-builder.rst:4
+#: ../../process-builder.rst:4
 msgid "Process builder"
 msgstr "Prozesseditor"
 
-#: ..\..\process-builder.rst:6
+#: ../../process-builder.rst:6
 msgid ""
-"Use the process builder to create and configure executable processes. You "
-"can think of an executable process as a kind of software, but you will find "
-"it easier to build automation using processes. With Effektif, non-technical "
-"people can create useful processes."
+"Use the process builder to create and configure executable processes. You"
+" can think of an executable process as a kind of software, but you will "
+"find it easier to build automation using processes. With Effektif, non-"
+"technical people can create useful processes."
 msgstr ""
 "Mit dem Prozesseditor können Sie ausführbare Prozesse erstellen und "
-"bearbeiten. Ein ausführbarer Prozess ist eine IT-Lösung zur Ausführung eines"
-" Geschäftsablaufs. Die Automatisierung von Prozessen mit Effektif ermöglicht"
-" es auch Fachanwendern ohne technisches Wissen und Zugriff auf eine IT-"
-"Entwicklungsabteilung, Prozesse zu erstellen und auszuführen."
+"bearbeiten. Ein ausführbarer Prozess ist eine IT-Lösung zur Ausführung "
+"eines Geschäftsablaufs. Die Automatisierung von Prozessen mit Effektif "
+"ermöglicht es auch Fachanwendern ohne technisches Wissen und Zugriff auf "
+"eine IT-Entwicklungsabteilung, Prozesse zu erstellen und auszuführen."
 
-#: ..\..\process-builder\triggers.rst:4 ..\..\process-builder\triggers.rst:4
+#: ../../process-builder/triggers.rst:4
 msgid "Triggers"
 msgstr "Auslöser"
 
-#: ..\..\process-builder\triggers.rst:6 ..\..\process-builder\triggers.rst:6
+#: ../../process-builder/triggers.rst:6
 msgid ""
 "A trigger in a process specifies how the process starts. Triggers do not "
 "have any relation to :ref:`start events <start-event>`."
 msgstr ""
 "Auslöser definieren wie ein Prozess gestartet wird. Bei Effektif gibt es "
 "keinen Zusammenhang zwischen Auslösern und Start Events, wie Sie sie "
-"vielleicht aus BPMN kennen. Weitere Informationen hierzu finden Sie unter "
-":ref:`Startereignisse <start-event>`."
+"vielleicht aus BPMN kennen. Weitere Informationen hierzu finden Sie unter"
+" :ref:`Startereignisse <start-event>`."
 
-#: ..\..\process-builder\triggers.rst:11 ..\..\process-builder\triggers.rst:11
+#: ../../process-builder/triggers.rst:11
 msgid "Manual trigger"
 msgstr "Manuell"
 
-#: ..\..\process-builder\triggers.rst:13 ..\..\process-builder\triggers.rst:13
+#: ../../process-builder/triggers.rst:13
 msgid ""
 "A manual trigger gives you the simplest way to start a process. With a "
 "manual trigger, you start processes manually in Effektif, by selecting "
 "`Start new case` and then selecting the process to start."
 msgstr ""
-"Am Einfachsten Starten Sie einen Prozess manuell. Klicken Sie hierfür auf "
-"`Neuen Fall starten` in der Prozessliste."
+"Am Einfachsten Starten Sie einen Prozess manuell. Klicken Sie hierfür auf"
+" `Neuen Fall starten` in der Prozessliste."
 
-#: ..\..\process-builder\triggers.rst:21 ..\..\process-builder\triggers.rst:21
+#: ../../process-builder/triggers.rst:21
 msgid "Form trigger"
 msgstr "Formular"
 
-#: ..\..\process-builder\triggers.rst:23 ..\..\process-builder\triggers.rst:23
+#: ../../process-builder/triggers.rst:23
 msgid ""
-"With a form trigger, you use a form to start a process. After selecting the "
-"form trigger, you can use the form builder to specify form fields."
+"With a form trigger, you use a form to start a process. After selecting "
+"the form trigger, you can use the form builder to specify form fields."
 msgstr ""
-"Wenn Sie die Option `Formular` wählen, müssen Nutzer ein Formular ausfüllen "
-"um neue Prozesse zu starten. Das Formular selbst können Sie dann mit unserem"
-" Formulareditor erstellen."
+"Wenn Sie die Option `Formular` wählen, müssen Nutzer ein Formular "
+"ausfüllen um neue Prozesse zu starten. Das Formular selbst können Sie "
+"dann mit unserem Formulareditor erstellen."
 
-#: ..\..\process-builder\triggers.rst:28 ..\..\process-builder\triggers.rst:28
+#: ../../process-builder/triggers.rst:28
 msgid ""
-"Form trigger configuration - using the form builder to define a trigger form"
+"Form trigger configuration - using the form builder to define a trigger "
+"form"
 msgstr ""
 "Formular-Auslöser Konfiguration - Nutzen Sie den Formular-Editor um den "
 "Auslöser zu erstellen"
 
-#: ..\..\process-builder\triggers.rst:35 ..\..\process-builder\triggers.rst:35
+#: ../../process-builder/triggers.rst:37
 msgid "Email trigger"
 msgstr "Email"
 
-#: ..\..\process-builder\triggers.rst:37 ..\..\process-builder\triggers.rst:37
+#: ../../process-builder/triggers.rst:39
 msgid ""
 "An email trigger starts a new case for each email that you send to the "
-"trigger’s Effektif email address. Note this differs from reading an existing"
-" email account, such as your own. After selecting the email trigger, you can"
-" see its email address:"
+"trigger’s Effektif email address. Note this differs from reading an "
+"existing email account, such as your own. After selecting the email "
+"trigger, you can see its email address:"
 msgstr ""
 "Hierbei wird für jede Email, die an die entsprechende Emailadresse des "
 "Prozesses geschickt wird, ein neuer Fall erstellt. Die Adresse, die Sie "
 "hierfür nutzen müssen wird in der Beschreibung des Auslösers angezeigt:"
 
-#: ..\..\process-builder\triggers.rst:43 ..\..\process-builder\triggers.rst:43
+#: ../../process-builder/triggers.rst:45
 msgid "Mail trigger configuration"
 msgstr "Konfiguration des Emailauslösers"
 
-#: ..\..\process-builder\triggers.rst:45 ..\..\process-builder\triggers.rst:45
+#: ../../process-builder/triggers.rst:47
 msgid ""
 "The email trigger creates an email variable that stores the email that "
 "started the process."
@@ -109,116 +108,116 @@ msgstr ""
 "Der Emailauslöser erstellt eine Prozessvariable mit der Sie auf die "
 "Informationen der Email (Absender, Inhalt, etc.) zugreifen können. "
 
-#: ..\..\process-builder\triggers.rst:48 ..\..\process-builder\triggers.rst:48
+#: ../../process-builder/triggers.rst:50
 msgid ""
 "You can use an email trigger by adding the trigger email address to a "
-"mailing list, such as `support@example.com `or `info@example.com`. You’ll "
-"have to ask the administrator of the mailing list to add the process "
-"trigger’s email address to the list. Once you have done this, the process "
-"trigger address will also receive any email sent to the mailing list, "
-"starting the process in Effektif. You will then see the email in the event "
-"stream:"
+"mailing list, such as `support@example.com `or `info@example.com`. You’ll"
+" have to ask the administrator of the mailing list to add the process "
+"trigger’s email address to the list. Once you have done this, the process"
+" trigger address will also receive any email sent to the mailing list, "
+"starting the process in Effektif. You will then see the email in the "
+"event stream:"
 msgstr ""
 "Sie können Emailauslöser mit Mailinglisten wie zum Beispiel "
-"`support@example.com` oder `info@example.com` verknüpfen. Bitten Sie hierzu "
-"den Administrator der Mailingliste, die Emailadresse des Auslösers in die "
-"Mailingliste aufzunehmen. Anschließend wird mit jeder Email an die Liste ein"
-" neuer Fall des Prozesses in Effektif ausgelöst. Die Email taucht "
-"entsprechend im Ereignisstream auf:"
+"`support@example.com` oder `info@example.com` verknüpfen. Bitten Sie "
+"hierzu den Administrator der Mailingliste, die Emailadresse des Auslösers"
+" in die Mailingliste aufzunehmen. Anschließend wird mit jeder Email an "
+"die Liste ein neuer Fall des Prozesses in Effektif ausgelöst. Die Email "
+"taucht entsprechend im Ereignisstream auf:"
 
-#: ..\..\process-builder\triggers.rst:58 ..\..\process-builder\triggers.rst:58
+#: ../../process-builder/triggers.rst:60
 msgid "Trigger mail in stream"
 msgstr "Startemail im Stream"
 
-#: ..\..\process-builder\triggers.rst:64 ..\..\process-builder\triggers.rst:64
+#: ../../process-builder/triggers.rst:66
 msgid "Salesforce trigger"
 msgstr "Salesforce"
 
-#: ..\..\process-builder\triggers.rst:66 ..\..\process-builder\triggers.rst:66
+#: ../../process-builder/triggers.rst:68
 msgid ""
-"A Salesforce trigger starts a new case in response to Salesforce sending an "
-"outbound message as part of a Salesforce workflow. Before you can use a "
-"Salesforce trigger, configure :ref:`Salesforce Integration <salesforce-"
+"A Salesforce trigger starts a new case in response to Salesforce sending "
+"an outbound message as part of a Salesforce workflow. Before you can use "
+"a Salesforce trigger, configure :ref:`Salesforce Integration <salesforce-"
 "integration>`."
 msgstr ""
-"Prozesse können auch durch eine Nachricht von Salesforce gestartet werden "
-"nachdem dort eine bestimmte Aktion erfolgt ist. Bevor Sie den Salesforce-"
-"Auslöser nutzen können, müssen Sie ihn wie hier beschrieben konfigurieren: "
-":ref:`Salesforce Integration <salesforce-integration>`."
+"Prozesse können auch durch eine Nachricht von Salesforce gestartet werden"
+" nachdem dort eine bestimmte Aktion erfolgt ist. Bevor Sie den "
+"Salesforce-Auslöser nutzen können, müssen Sie ihn wie hier beschrieben "
+"konfigurieren: :ref:`Salesforce Integration <salesforce-integration>`."
 
-#: ..\..\process-builder\triggers.rst:70 ..\..\process-builder\triggers.rst:70
+#: ../../process-builder/triggers.rst:72
 msgid ""
 "When you have configured a Salesforce service, you can select it as a "
 "process trigger, so that messages from Salesforce will now trigger new "
 "cases."
 msgstr ""
-"Nachdem Sie einen Salesforce Service konfiguriert haben, können Sie ihn als "
-"Auslöser nutzen. "
+"Nachdem Sie einen Salesforce Service konfiguriert haben, können Sie ihn "
+"als Auslöser nutzen. "
 
-#: ..\..\process-builder\triggers.rst:76 ..\..\process-builder\triggers.rst:76
+#: ../../process-builder/triggers.rst:78
 msgid "Example of a Salesforce trigger"
 msgstr "Beispiel eines Salesforce-Auslösers"
 
-#: ..\..\process-builder\triggers.rst:78 ..\..\process-builder\triggers.rst:78
+#: ../../process-builder/triggers.rst:80
 msgid ""
-"In the process definition, you can use the Salesforce object fields from the"
-" Salesforce message just like normal :ref:`variables <variables>`."
+"In the process definition, you can use the Salesforce object fields from "
+"the Salesforce message just like normal :ref:`variables <variables>`."
 msgstr ""
-"In der Prozessdefinition können Sie nun auch Felder, die in der Nachricht "
-"von Salesforce enthalten sind, wie normale :ref:`Variablen <variables>` "
+"In der Prozessdefinition können Sie nun auch Felder, die in der Nachricht"
+" von Salesforce enthalten sind, wie normale :ref:`Variablen <variables>` "
 "nutzen. "
 
-#: ..\..\process-builder\actions.rst:4 ..\..\process-builder\actions.rst:4
+#: ../../process-builder/actions.rst:4
 msgid "Actions"
 msgstr "Aktionen"
 
-#: ..\..\process-builder\actions.rst:6 ..\..\process-builder\actions.rst:6
+#: ../../process-builder/actions.rst:6
 msgid ""
-"You can think of actions like steps in a process. Action include things like"
-" user tasks in Effektif, operations on a file in a document management "
-"system or any other actions that represent work that someone will perform as"
-" part of a process."
+"You can think of actions like steps in a process. Action include things "
+"like user tasks in Effektif, operations on a file in a document "
+"management system or any other actions that represent work that someone "
+"will perform as part of a process."
 msgstr ""
 "Mit Aktionen beschreiben Sie die verschiedenen Aufgaben innerhalb eines "
-"Prozesses. Das können zum Beispiel Aufgaben sein, die von Ihren Mitarbeitern"
-" ausgeführt werden müssen, sowie automatische Aktionen, wie der Upload von "
-"einer Datei in ein Dokumentenmanagementsystem."
+"Prozesses. Das können zum Beispiel Aufgaben sein, die von Ihren "
+"Mitarbeitern ausgeführt werden müssen, sowie automatische Aktionen, wie "
+"der Upload von einer Datei in ein Dokumentenmanagementsystem."
 
-#: ..\..\process-builder\actions.rst:13 ..\..\process-builder\actions.rst:13
+#: ../../process-builder/actions.rst:13
 msgid "The *Process builder*’s actions palette"
 msgstr "Die Palette an Aktionen im *Prozess-Editor*"
 
-#: ..\..\process-builder\actions.rst:15 ..\..\process-builder\actions.rst:15
+#: ../../process-builder/actions.rst:15
 msgid ""
 "The `BPMN "
-"<http://en.wikipedia.org/wiki/Business_Process_Model_and_Notation>`_ diagram"
-" editor shows actions and control flow elements, such as events and "
-"gateways. Use the diagram editor to add sequential flows between actions, "
-"decisions and other control flow behaviour."
+"<http://en.wikipedia.org/wiki/Business_Process_Model_and_Notation>`_ "
+"diagram editor shows actions and control flow elements, such as events "
+"and gateways. Use the diagram editor to add sequential flows between "
+"actions, decisions and other control flow behaviour."
 msgstr ""
 "Der `BPMN "
 "<http://en.wikipedia.org/wiki/Business_Process_Model_and_Notation>`_ "
 "Diagrammeditor zeigt Ihnen die einzelnen Aktionen, sowie "
-"Kontrollflusselemente wie Events und Gateways an. Sie können mit dem Editor "
-"Sequenzflüsse zwischen den Aktivitäten erstellen, Entscheidungen hinzufügen "
-"oder auf andere Weise den Kontrollfluss beeinflussen."
+"Kontrollflusselemente wie Events und Gateways an. Sie können mit dem "
+"Editor Sequenzflüsse zwischen den Aktivitäten erstellen, Entscheidungen "
+"hinzufügen oder auf andere Weise den Kontrollfluss beeinflussen."
 
-#: ..\..\process-builder\actions.rst:22 ..\..\process-builder\actions.rst:22
+#: ../../process-builder/actions.rst:22
 msgid "Adding a transition"
 msgstr "Transitionen hinzufügen"
 
-#: ..\..\process-builder\actions.rst:24 ..\..\process-builder\actions.rst:24
+#: ../../process-builder/actions.rst:24
 msgid ""
 "You can create a transition in the `Advanced flows` view. A transition "
 "specifies sequential flow, which means the next action only starts when "
 "someone has completed the previous one."
 msgstr ""
-"Transitionen können im `Prozessfluss-Editor` erzeugt werden. Sie beschreiben"
-" einen sequentiellen Fluss durch den Prozess. Dies bedeutet, dass Aktionen "
-"nur dann ausgeführt werden, wenn die vorangehenden Aktionen bearbeitet "
-"wurden."
+"Transitionen können im `Prozessfluss-Editor` erzeugt werden. Sie "
+"beschreiben einen sequentiellen Fluss durch den Prozess. Dies bedeutet, "
+"dass Aktionen nur dann ausgeführt werden, wenn die vorangehenden Aktionen"
+" bearbeitet wurden."
 
-#: ..\..\process-builder\actions.rst:28 ..\..\process-builder\actions.rst:28
+#: ../../process-builder/actions.rst:28
 msgid ""
 "To add a transition, click to select the first action. Several symbols "
 "appear to the right of the selected element:"
@@ -226,53 +225,53 @@ msgstr ""
 "Um eine Transition hinzuzufügen klicken Sie auf eine Aktion im Prozess. "
 "Darauf erscheinen neben der Aktion einige Symbole. "
 
-#: ..\..\process-builder\actions.rst:33 ..\..\process-builder\actions.rst:33
+#: ../../process-builder/actions.rst:33
 msgid ""
 "Start creating a transition by dragging the transition symbol to the "
 "destination"
 msgstr ""
-"Um eine Transition zu erzeugen, ziehen Sie das Transitions-Symbol auf die "
-"Zielaktion"
+"Um eine Transition zu erzeugen, ziehen Sie das Transitions-Symbol auf die"
+" Zielaktion"
 
-#: ..\..\process-builder\actions.rst:35 ..\..\process-builder\actions.rst:35
+#: ../../process-builder/actions.rst:35
 msgid ""
 "Click the transition symbol |transition-symbol| and drag it to the "
-"destination element. When you drag the symbol over the destination element, "
-"it indicates that you can drop to create the transition:"
+"destination element. When you drag the symbol over the destination "
+"element, it indicates that you can drop to create the transition:"
 msgstr ""
-"Klicken Sie das Transitions-Symbol |transition-symbol| and ziehen Sie es auf"
-" das Zielelement. Wenn Sie sich mit dem Mauszeiger über dem Zielelement "
-"befinden und es mit der aktuellen Aktivität verbunden werden kann, leuchten "
-"die Ecken grün auf und ein grüner Haken erscheint neben dem Transitions-"
-"Symbol."
+"Klicken Sie das Transitions-Symbol |transition-symbol| and ziehen Sie es "
+"auf das Zielelement. Wenn Sie sich mit dem Mauszeiger über dem "
+"Zielelement befinden und es mit der aktuellen Aktivität verbunden werden "
+"kann, leuchten die Ecken grün auf und ein grüner Haken erscheint neben "
+"dem Transitions-Symbol."
 
-#: ..\..\process-builder\actions.rst:42 ..\..\process-builder\actions.rst:42
+#: ../../process-builder/actions.rst:42
 msgid "Creating a transition hovering over destination"
 msgstr "Ziehen Sie die Transition auf das Zielelement."
 
-#: ..\..\process-builder\actions.rst:44 ..\..\process-builder\actions.rst:44
-msgid ""
-"Release the mouse button over the destination to create the transition."
+#: ../../process-builder/actions.rst:44
+msgid "Release the mouse button over the destination to create the transition."
 msgstr "Um die Transition endgültig zu erzeugen lassen Sie die Maus los. "
 
-#: ..\..\process-builder\actions.rst:48 ..\..\process-builder\actions.rst:48
+#: ../../process-builder/actions.rst:48
 msgid "Creating the next user task"
 msgstr "Folgeaufgaben erstellen"
 
-#: ..\..\process-builder\actions.rst:50 ..\..\process-builder\actions.rst:50
+#: ../../process-builder/actions.rst:50
 msgid ""
-"You can easily create the next User Task in a process in the same way you "
-"created transitions, above. Start by selecting the previous action:"
+"You can easily create the next User Task in a process in the same way you"
+" created transitions, above. Start by selecting the previous action:"
 msgstr ""
 "Eine neue Aufgabe nach einer bereits bestehenden zu erstellen ist ganz "
-"einfach: Gehen Sie auf ähnliche Weise vor, wie schon bei den Transitionen. "
-"Zunächst markieren Sie die Aktion auf die die neue folgen soll."
+"einfach: Gehen Sie auf ähnliche Weise vor, wie schon bei den "
+"Transitionen. Zunächst markieren Sie die Aktion auf die die neue folgen "
+"soll."
 
-#: ..\..\process-builder\actions.rst:55 ..\..\process-builder\actions.rst:55
+#: ../../process-builder/actions.rst:55
 msgid "Start creating the next user task by dragging the action symbol"
 msgstr "Erstellen Sie Folgeaufgaben in dem Sie das Aktions-Symbol ziehen."
 
-#: ..\..\process-builder\actions.rst:57 ..\..\process-builder\actions.rst:57
+#: ../../process-builder/actions.rst:57
 msgid ""
 "Click the rounded rectangle symbol |task-symbol| and drag it to an empty "
 "place on the canvas."
@@ -280,703 +279,81 @@ msgstr ""
 "Klicken Sie das Aufgaben-Symbol |task-symbol| and ziehen Sie es an die "
 "Stelle, wo die neue Aufgabe erstellt werden soll."
 
-#: ..\..\process-builder\actions.rst:63 ..\..\process-builder\actions.rst:63
+#: ../../process-builder/actions.rst:63
 msgid "Drag the rounded rectangle symbol to an empty place"
 msgstr "Ziehen Sie das Aufgaben-Symbol an die gewünschte Stelle"
 
-#: ..\..\process-builder\actions.rst:65 ..\..\process-builder\actions.rst:65
+#: ../../process-builder/actions.rst:65
 msgid ""
 "Drop the symbol where you want to create the next user task. Release the "
-"mouse button to create new user task where you dropped it, with a transition"
-" from the previous action."
+"mouse button to create new user task where you dropped it, with a "
+"transition from the previous action."
 msgstr ""
-"Lassen Sie das Symbol an der Stelle los, wo die neue Aufgabe erstellt werden"
-" soll. Zwischen der neuen Aktion und der bereits bestehenden wird "
+"Lassen Sie das Symbol an der Stelle los, wo die neue Aufgabe erstellt "
+"werden soll. Zwischen der neuen Aktion und der bereits bestehenden wird "
 "automatisch eine Transition erstellt. "
 
-#: ..\..\process-builder\actions.rst:71 ..\..\process-builder\actions.rst:71
+#: ../../process-builder/actions.rst:71
 msgid "Adding the next user task and its transition at the same time"
 msgstr "Fügen Sie Folgeaufgaben inklusive der Transition hinzu"
 
-#: ..\..\process-builder\actions.rst:73 ..\..\process-builder\actions.rst:73
+#: ../../process-builder/actions.rst:73
 msgid ""
-"Alternatively, just click the user task icon |task-symbol| to create a new "
-"user task in the default location, with a transition."
+"Alternatively, just click the user task icon |task-symbol| to create a "
+"new user task in the default location, with a transition."
 msgstr ""
 "Alternativ können Sie einfach auf das Aufgaben-Symbol klicken um eine "
 "Folgeaufgabe an der Standardposition etwas weiter rechts neben der "
 "bestehenden Aktion zu erstellen."
 
-#: ..\..\process-builder\actions.rst:78 ..\..\process-builder\actions.rst:78
+#: ../../process-builder/actions.rst:78
 msgid "Control flow elements"
 msgstr "Kontrollfluss-Elemente"
 
-#: ..\..\process-builder\actions.rst:80 ..\..\process-builder\actions.rst:80
+#: ../../process-builder/actions.rst:80
 msgid ""
 "The diagram also includes control flow elements, such as events and "
-"gateways. Unlike actions, control flow elements don’t represent something "
-"that should happen. Instead, you use events and gateways to specify the flow"
-" between the actions."
+"gateways. Unlike actions, control flow elements don’t represent something"
+" that should happen. Instead, you use events and gateways to specify the "
+"flow between the actions."
 msgstr ""
 "Des Weiteren enthält das Diagramm Kontrollflusselement, wie zum Beispiel "
 "Ereignisse und Gateways. Im Gegensatz zu Aktionen (Tasks) stehen "
-"Kontrollflusselemente nicht für Aufgaben, die von Personen oder Computern "
-"bearbeitet werden müssen, sondern für die Auslöser und Bedingungen dieser "
-"Aktionen."
-
-#: ..\..\process-builder\variables.rst:2 ..\..\process-builder\variables.rst:2
-msgid "Variables"
-msgstr "Variablen"
-
-#: ..\..\process-builder\variables.rst:4 ..\..\process-builder\variables.rst:4
-msgid ""
-"A process has variables that store workflow data when the process runs. "
-"These variables contain all of the information from forms as well as "
-"information required by the process actions. Each case stores its own values"
-" for each workflow variable."
-msgstr ""
-"In einem Prozess werden alle Daten in Variablen gespeichert. Informationen, "
-"wie zum Beispiel Formulare oder Konfigurationen, die für verschiedene "
-"Aktivitäten benötigt werden, sind mit diesen Variablen verbunden. Jeder "
-"einzelne Fall kennt die für ihn relevanten Werte dieser Variablen. "
-
-#: ..\..\process-builder\variables.rst:10
-#: ..\..\process-builder\variables.rst:10
-msgid ""
-"A trigger form that populates a *Reference number* variable for use in a "
-"workflow"
-msgstr ""
-"Ein Formular-Auslöser welcher die Variable *Referenznummer* zur Nutzung im "
-"Workflow bereitstellt"
-
-#: ..\..\process-builder\variables.rst:12
-#: ..\..\process-builder\variables.rst:12
-msgid ""
-"A workflow variable can contain a single value, such as a reference number, "
-"or containing multiple fields, such as an email, which has fields like "
-"`from`, `to`, `subject` and `attachments`."
-msgstr ""
-"Eine Workflow-Variable kann einen einzelnen Wert, wie zum Beispiel eine "
-"Referenz oder eine Nummer enthalten, oder kann aus mehreren Felder "
-"zusammengesetzt sein, wie zum Beispiel eine Email mit den Feldern "
-"`Absender`, `Empfänger`, `Betreff` und `Anhänge`."
-
-#: ..\..\process-builder\roles.rst:4 ..\..\process-builder\roles.rst:4
-msgid "Roles"
-msgstr "Rollen"
-
-#: ..\..\process-builder\roles.rst:6 ..\..\process-builder\roles.rst:6
-msgid ""
-"Creating a role gives a process-specific name to whoever performs one or "
-"more process tasks. You can optionally configure a role with a list of "
-"canidates. Roles have the same function as swimlanes in BPMN."
-msgstr ""
-"Eine Rolle ist ein prozessspezifischer Bezeichnet für eine Person oder "
-"Organisationseinheit, die eine oder mehrere Prozessaufgaben ausführt. An "
-"einer Rolle kann eine Liste möglicher Kandidaten hinterlegt werden. Rollen "
-"entsprechen Swimlanes in BPMN."
-
-#: ..\..\process-builder\roles.rst:10 ..\..\process-builder\roles.rst:10
-msgid ""
-"For example, when you have a meeting, one person sometimes takes the role of"
-" chairperson. That person doesn’t have the job title *Meeting chair* - "
-"they’ve just adopted that role for the duration of the meeting."
-msgstr ""
-"Wenn Sie Beispielsweise ein Meeting durchführen, kann eine Person die Rolle "
-"der Meetingsleitung übernehmen - möglicherweise hat die Person die Rolle "
-"jedoch lediglich für die Zeit des Meetings inne."
-
-#: ..\..\process-builder\roles.rst:13 ..\..\process-builder\roles.rst:13
-msgid ""
-"A process in Effektif can define roles, in the same way that a business "
-"meeting ‘process’ has roles for whoever chairs the meeting (the ‘Chair’) and"
-" whoever takes minutes (the ‘Secretary’). The following meeting process "
-"model assigns the tasks on the top row to the *Chair* and the tasks on the "
-"bottom row to the *Secretary*."
-msgstr ""
-"Dementsprechend werden Rollen in Effektifprozessen verwendet. Das folgende "
-"Meeting-Prozessmodell ordnet die Aufgaben in der oberen Reihe der "
-"**Meetingsleitung** zu und die Aufgaben in der unteren Reihe der "
-"Meetingsassistenz."
-
-#: ..\..\process-builder\roles.rst:18 ..\..\process-builder\roles.rst:18
-msgid ""
-"A *Meeting* process, with tasks for *Chair* (top row) and *Secretary* "
-"(bottom row) roles"
-msgstr ""
-"Ein *Meeting*-Prozess mit Aufgaben für die Rollen *Meetingsleitung* (obere "
-"Reihe) und *Meetingsassistenz* (untere Reihe)"
-
-#: ..\..\process-builder\roles.rst:20 ..\..\process-builder\roles.rst:20
-msgid ""
-"In each meeting (each :ref:`case <cases>` in Effektif), one person takes the"
-" role of chair, and one the role of secretary. These assignments generally "
-"don’t change during a meeting. Similarly, Effektif role assignments don’t "
-"change during a case. Effektif automatically assigns each new task with a "
-"role assignment to the person who already has the role."
-msgstr ""
-"Rollen können ad-hoc eingenommen werden. In jedem Meeting (jedem :red:`Fall "
-"<cases>` in Effektif) wird einer Person die Aufgabe der Meetingsleitung "
-"übertragen und einer weiteren Person die Rolle der Meetingsassistenz. "
-"Während eines Falldurchlaufs ändern sich Rollenzuweisungen nicht: Jeder neue"
-" Task einer Rolle wird automatisch der entsprechenden Person zugewiesen."
-
-#: ..\..\process-builder\roles.rst:25 ..\..\process-builder\roles.rst:25
-msgid ""
-"In Effektif, a process role works like a workflow variable that you use to "
-"assigning tasks. A role variable has the :ref:`type-user` and stores a "
-"single user."
-msgstr ""
-"Eine Prozessrolle in Effektif ist eine Art Workflowvariable, die für die "
-"Zuweisung von Aufgaben verwendet wird. Eine Rolle ist eine Variable des Typs"
-" *Nutzer* - sie referenziert pro Aufgabe genau einen Nutzer."
-
-#: ..\..\process-builder\roles.rst:28 ..\..\process-builder\roles.rst:28
-msgid ""
-"These process roles differ from organization roles. For example, you can "
-"have the *Team lead* role in your organization, an assignment that does not "
-"necessarily have an end date. A process role, such as *Meeting chair*, has a"
-" different scope and only applies for the duration of a single case."
-msgstr ""
-"Diese Prozessrollen entsprechen nicht zwingend Organisationsrollen. Sie "
-"können zum Beispiel in Ihrer Organisation die Rolle des *Team Leads* "
-"einnehmen und diese Rolle für unbegrenzte Zeit innehaben. Eine Prozessrolle "
-"wie *Meetingsleitung* wird hingegen lediglich im Kontext eines einzelnen "
-"Falles zugewiesen."
-
-#: ..\..\process-builder\roles.rst:32 ..\..\process-builder\roles.rst:32
-msgid ""
-"To assign a role to a user task, open the task’s configuration panel, select"
-" the `Assignment` tab, and use the `Assign using a role` menu on the right-"
-"hand side."
-msgstr ""
-"Um eine Rolle einer Nutzeraufgabe zuzuweisen, öffnen Sie die "
-"Konfigurationsleiste der Aufgabe, wählen Sie das `Allgemein`-Tab aus und "
-"verwenden Sie das `Zuweisen mittels einer Rolle`-Menü auf der rechten Seite."
-
-#: ..\..\process-builder\roles.rst:36 ..\..\process-builder\roles.rst:36
-msgid ""
-"To assign a role, use the menu to create a new role or select an existing "
-"role"
-msgstr ""
-"Um eine Rolle zuzuweisen, verwenden Sie das Menü um eine neue Rolle zu "
-"erstellen oder eine Existierende auszuwählen."
-
-#: ..\..\process-builder\roles.rst:38 ..\..\process-builder\roles.rst:38
-msgid ""
-"You can also use the edit icon next to the role name to rename the role."
-msgstr ""
-"Sie können zudem das Editierungsicon neben der Rolle anwählen, um die Rolle "
-"umzubenennen."
-
-#: ..\..\process-builder\roles.rst:41 ..\..\process-builder\roles.rst:41
-msgid "Role candidates"
-msgstr "Kandidaten für eine Rolle"
-
-#: ..\..\process-builder\roles.rst:43 ..\..\process-builder\roles.rst:43
-msgid ""
-"You can use a role to assign multiple tasks a person from a group of "
-"candidates. For example, you might have a support process that includes "
-"three user tasks that you assign to a support engineer."
-msgstr ""
-"Über eine Rolle können Sie mehrere Aufgaben einer Person aus einer Gruppe "
-"von Kandidaten zuweisen. In einem Supportprozess kann es zum Beispiel drei "
-"Nutzertalks geben, die einem Kundenbetreuer zugewiesen sind."
-
-#: ..\..\process-builder\roles.rst:48 ..\..\process-builder\roles.rst:48
-msgid ""
-"Assigning a task to a *Support engineer* role with candidates Alice and Ben"
-msgstr ""
-"Eine Aufgabe der Rolle `Kundenbetreuer` zuweisen mit den Kandidaten Alice "
-"und Ben"
-
-#: ..\..\process-builder\roles.rst:50 ..\..\process-builder\roles.rst:50
-msgid ""
-"Instead, assign the three tasks to a new role called ‘Support engineer’, and"
-" add the relevant people as candidates for the role."
-msgstr ""
-"Weisen Sie die drei Aufgaben einer neuen Rolle zu. Nennen Sie die Rolle "
-"'Kundenbetreuer' und fügen Sie relevante Personen als Kandidaten für die "
-"Rolle hinzu."
-
-#: ..\..\process-builder\roles.rst:53 ..\..\process-builder\roles.rst:53
-msgid ""
-"Creating the first task that has a role will notify all of the candidates "
-"for the role. When one of the candidates takes the task, Effektif will "
-"assign the subsequent tasks with the same role to the same person. That "
-"helps this person work more efficiently because they have the context "
-"knowledge about that case."
-msgstr ""
-"Sobald die erste Aufgabe erstellt wird, die einer bestimmten Rolle "
-"zugewiesen ist, werden alle Kandidaten für diese Rolle informiert. Wenn eine"
-" Person die Aufgabe übernimmt, werden auch alle weiteren Aufgaben der Rolle "
-"dieser Person zugewiesen. Dies ist effizienter, da die entsprechende Person "
-"schon das kontextspezifische Fallwissen besitzt."
-
-#: ..\..\process-builder\roles.rst:57 ..\..\process-builder\roles.rst:57
-msgid ""
-"If you reassign a task that has a role assignment, Effektif will update the "
-"role variable, and assign all subsequent tasks with the same role to the new"
-" assignee."
-msgstr ""
-"Wenn Sie die Zuweisung ändern, kümmert sich Effektif natürlich darum, dass "
-"alle Aufgaben die einer Rolle zugewiesen waren entsprechend aktualisiert "
-"werden. "
-
-#: ..\..\process-builder\roles.rst:62 ..\..\process-builder\roles.rst:62
-msgid "Using a form field to assign a role"
-msgstr "Wie man per Formularfeld eine Rolle setzt"
-
-#: ..\..\process-builder\roles.rst:64 ..\..\process-builder\roles.rst:64
-msgid ""
-"When you execute a process, you normally assign a specific person to a role "
-"by using the assignee button to select someone. Sometimes, you want this "
-"assignment to an explicit part of the process, to make sure the assignment "
-"happens at the right time. For example, you may find it important to assign "
-"the *Support engineer* before completing an *Initial investigation* task."
-msgstr ""
-"Wenn Sie einen Prozess ausführen, dann weisen Sie eine Person in der Regel "
-"einer Rolle zu, indem Sie den *Zuweisen*-Knopf benutzen. Manchmal soll "
-"allerdings genau diese Zuweisung Teil des Prozesses selbst sein um sicher zu"
-" stellen, dass die Zuweisung zur richtigen Zeit passiert. Zum Beispiel kann "
-"es wichtig sein, den *Support Mitarbeiter* zuzuweisen bevor die Aufgabe "
-"*Initiale Nachforschungen anstellen* abgeschlossen wird."
-
-#: ..\..\process-builder\roles.rst:71 ..\..\process-builder\roles.rst:71
-msgid ""
-"You can do this by adding the role assignment to a form, because you can use"
-" task assignment roles as process variables, just like any other *User* form"
-" field."
-msgstr ""
-"Sie können hierfür einfach die Rolle zu einem Formular hinzufügen: Rollen "
-"sind in Effektif Prozessvariablen wie jedes andere *Nutzer* Formularfeld "
-"auch."
-
-#: ..\..\process-builder\roles.rst:77 ..\..\process-builder\roles.rst:77
-msgid "Adding the *Support engineer* role assignment to a form"
-msgstr "Die *Support Mitarbeiter* Rolle zu einem Formular hinzufügen"
-
-#: ..\..\process-builder\roles.rst:79 ..\..\process-builder\roles.rst:79
-msgid ""
-"To add a role assignment to a form, first define the process role, such as "
-"the *Support engineer* role created above, then on the form, under the "
-"*Reuse field* heading, select the role variable to add it to the form."
-msgstr ""
-"Um eine Rolle in einem Formular zu verwenden erstellen Sie zuerst die "
-"gewünschte Rolle wie zum Beispiel den *Support Mitarbeiter*. Danach können "
-"Sie diesen unterhalb des Formulars bei *Ein Feld wiederverwenden* ganz "
-"einfach auswählen."
-
-#: ..\..\process-builder\roles.rst:84 ..\..\process-builder\roles.rst:84
-msgid ""
-"Alternatively, you can first define the *Support engineer* role by adding a "
-"field with type *User* to the *Initial investigation* task’s form, and then "
-"select the *Support engineer* role on another user task’s *General* "
-"configuration."
-msgstr ""
-"Alternativ können Sie die *Support Mitarbeiter*-Rolle definieren, indem Sie "
-"den Typ *Nutzer* zum Formular der Aufgabe *Initiale Nachforschungen "
-"anstellen* hinzufügen und anschließen die Rolle *Support Mitarbeiter* in der"
-" Konfiguration einer Nutzeraufgabe auswählen."
-
-#: ..\..\process-builder\versions.rst:4 ..\..\process-builder\versions.rst:4
-msgid "Versions"
-msgstr "Versionen"
-
-#: ..\..\process-builder\versions.rst:6 ..\..\process-builder\versions.rst:6
-msgid ""
-"When you use the process editor to edit your process model, Effektif saves "
-"all of your changes immediately. You can go back and edit the process again "
-"later, and it will not have changed. However, to execute a process by "
-"starting a new case you need a published version."
-msgstr ""
-"Wenn Sie den Effektif Prozesseditor verwenden, werden alle Ihre Änderungen "
-"automatisch gespeichert. Sie können also einen Prozess verlassen, ohne "
-"explizit zu speichern. Um einen Prozess auszuführen müssen Sie allerdings "
-"zunächst eine Version veröffentlichen."
-
-#: ..\..\process-builder\versions.rst:12 ..\..\process-builder\versions.rst:12
-msgid "Publishing a process version"
-msgstr "Eine Version veröffentlichen"
-
-#: ..\..\process-builder\versions.rst:14 ..\..\process-builder\versions.rst:14
-msgid ""
-"The process editor’s `Versions` tab shows a list of published versions. "
-"Until you publish the first version, this page shows a message that there "
-"the process has ‘no published versions’."
-msgstr ""
-"Im Reiter `Versionen` des Prozesseditors finden Sie eine Liste von "
-"veröffentlichten Versionen. Bevor Sie die erste Version Ihres Prozesses "
-"veröffentlicht haben, wird zeigt diese Seite nur einen Hinweis an, dass noch"
-" keine Versionen veröffentlicht wurden."
-
-#: ..\..\process-builder\versions.rst:20 ..\..\process-builder\versions.rst:20
-msgid "The process editor’s `Versions` tab with no published versions"
-msgstr "Der Reiter `Versionen` ohne eine veröffentlichte Version."
-
-#: ..\..\process-builder\versions.rst:22 ..\..\process-builder\versions.rst:22
-msgid ""
-"You can only start a new case for a process that has a published version, "
-"hence the light green button displays ‘Publish to run this process’. After "
-"you publish the first version, the list shows version #1 and you can start a"
-" new case using that version."
-msgstr ""
-"Um einen Fall anzulegen, muss der entsprechende Prozess veröffentlicht sein "
-"- daher der der grünliche Knopf `Zum Ausführen veröffentlichen`. Nachdem Sie"
-" die erste Version veröffentlicht haben, zeigt die Liste einen Eintrag mit "
-"der Version #1 und Sie können nun Fälle dieses Prozesses starten. "
-
-#: ..\..\process-builder\versions.rst:29 ..\..\process-builder\versions.rst:29
-msgid "The `Versions` list after publishing the first version"
-msgstr "Die `Versions`-Liste mit dem ersten Eintrag"
-
-#: ..\..\process-builder\versions.rst:31 ..\..\process-builder\versions.rst:31
-msgid ""
-"Version #1 always has the description `Initial version`. For later versions,"
-" you can add your own description."
-msgstr ""
-"Die Version mit der Nummer #1 hat immer die Beschriftung `Initiale Version`."
-" Bei späteren Versionen können Sie selbst eine Beschreibung hinzufügen. "
-
-#: ..\..\process-builder\versions.rst:35 ..\..\process-builder\versions.rst:35
-msgid "Adding version comments"
-msgstr "Versionskommentare hinzufügen"
-
-#: ..\..\process-builder\versions.rst:37 ..\..\process-builder\versions.rst:37
-msgid ""
-"After the first published version, you can add a comment to describe the "
-"changes when you publish a new version of a process."
-msgstr ""
-"Nach der ersten veröffentlichten Version können Sie zu jeder weiteren "
-"Version eine Beschreibung hinzufügen, die die Änderungen beschreibt, die Sie"
-" vorgenommen haben. "
-
-#: ..\..\process-builder\versions.rst:42 ..\..\process-builder\versions.rst:42
-msgid ""
-"The `Publish changes` prompt, where you can add an optional version comment"
-msgstr ""
-"Der `Änderungen veröffentlichen` Dialog, indem Sie eine optionale "
-"Beschreibung hinzufügen können"
-
-#: ..\..\process-builder\versions.rst:44 ..\..\process-builder\versions.rst:44
-msgid ""
-"You can omit the version comment, but it helps collaboration between team "
-"members by making process modelling more transparent."
-msgstr ""
-"Das hinterlegen eines Versionskommentars ist keine Pflicht, er hilft jedoch "
-"bei der Kollaboration von mehreren Team-Mitgliedern, da er die "
-"Prozessgestaltung transparenter macht. "
-
-#: ..\..\process-builder\versions.rst:50 ..\..\process-builder\versions.rst:50
-msgid "Published versions with descriptive version comments"
-msgstr "Veröffentlichte Versionen mit beschreibenden Versionskommentaren"
-
-#: ..\..\process-builder\versions.rst:52 ..\..\process-builder\versions.rst:52
-msgid ""
-"In this example, each version has a short comment that describes the "
-"changes."
-msgstr ""
-"In diesem Beispiel hat jede Version einen kurten Kommentar, der die "
-"Änderungen beschreibt."
-
-#: ..\..\process-builder\versions.rst:55 ..\..\process-builder\versions.rst:55
-msgid "Writing good version comments"
-msgstr "Gute Versionskommentare schreiben"
-
-#: ..\..\process-builder\versions.rst:57 ..\..\process-builder\versions.rst:57
-msgid ""
-"When you write version comments, use the following tips to make them more "
-"consistent and useful."
-msgstr ""
-"Wenn Sie Ihre Versionskommentare schreiben, folgen Sie den diesen Tipps um "
-"Sie konsistent und nützlich zu gestalten. "
-
-#: ..\..\process-builder\versions.rst:60 ..\..\process-builder\versions.rst:60
-msgid ""
-"Make the comment an imperative phrase that starts with a word like ‘Add’ or "
-"‘Fix’."
-msgstr ""
-"Schreiben Sie im imperativen Stil wie `Aktivität hinzugefügt` oder `Fehler "
-"behoben`."
-
-#: ..\..\process-builder\versions.rst:61 ..\..\process-builder\versions.rst:61
-msgid ""
-"Capitalise the first word and don’t include a full-stop at the end, for "
-"consistency."
-msgstr ""
-"Schreiben Sie das erste Wort groß aber beenden Sie den Kommentar nich mit "
-"einem Punkt (der Konsistenz halber)"
-
-#: ..\..\process-builder\versions.rst:63 ..\..\process-builder\versions.rst:63
-msgid "Describe specifics, instead of vaguely referring to ‘changes’."
-msgstr ""
-"Seien Sie spezifisch bei dem was Sie geändert haben und sprechen Sie nicht "
-"nur vage über `Änderungen`."
-
-#: ..\..\process-builder\versions.rst:64 ..\..\process-builder\versions.rst:64
-msgid "Keep it short; 3-10 words usually suffice."
-msgstr "Fassen Sie sich kurz; 3-10 Worte sind normalerweise mehr als genug."
-
-#: ..\..\process-builder\versions.rst:65 ..\..\process-builder\versions.rst:65
-msgid ""
-"Consider making the comment longer to explain why you made this change."
-msgstr ""
-"Unter Umständen schreiben Sie einen längeren Kommentar um zu Beschreiben, "
-"warum die Änderungen notwendig waren."
-
-#: ..\..\process-builder\versions.rst:67 ..\..\process-builder\versions.rst:67
-msgid ""
-"You may find it easier to publish a series of small changes, creating a "
-"number of intermediate versions instead of one big change. Fine-grained "
-"versions make the version history more useful."
-msgstr ""
-"Es erleichtert die Arbeit, wenn Sie eine Reihe von kleinen Änderungen "
-"veröffentlichen und nicht alles in eine große Version schieben. Kleine "
-"Versionen machen es einfacher die Änderungen nachzuverfolgen und damit die "
-"Versionshistorie nützlicher. "
-
-#: ..\..\process-builder\locking.rst:4 ..\..\process-builder\locking.rst:4
-msgid "Process locking"
-msgstr "Bearbeitungsblockierung"
-
-#: ..\..\process-builder\locking.rst:6 ..\..\process-builder\locking.rst:6
-msgid ""
-"In the process builder, only one person can edit a process at a time. While "
-"someone continues to edit a process, the `Processes` list shows a message."
-msgstr ""
-"Ein Prozess kann im Prozesseditor nicht von mehreren Personen gleichzeitig "
-"bearbeitet werden, da es ansonsten sehr wahrscheinlich ist, dass die "
-"bearbeitenden Nutzer ihre Änderungen gegenseitig überschreiben. Wenn jemand "
-"einen Prozess editiert, wird dies daher in der `Prozesse`-Liste angezeigt."
-
-#: ..\..\process-builder\locking.rst:11 ..\..\process-builder\locking.rst:11
-msgid "The `Processes` list message while someone else edits the process"
-msgstr ""
-"Der Hinweis in der `Prozesse`-Liste, wenn ein Prozess bereits editiert wird"
-
-#: ..\..\process-builder\locking.rst:13 ..\..\process-builder\locking.rst:13
-msgid ""
-"You can still open the process, but you will see a warning message "
-"explaining that you cannot make changes:"
-msgstr ""
-"In einer solchen Situation können Sie den Prozess trotzdem öffnen. "
-"Allerdings wird Ihnen dann eine Warnung angezeigt und eine Bearbeitung des "
-"Prozesses ist nicht möglich:"
-
-#: ..\..\process-builder\locking.rst:18 ..\..\process-builder\locking.rst:18
-msgid ""
-"Warning that you cannot edit a process at the same time as someone else"
-msgstr ""
-"Warnung, dass Änderungen an einem Prozess nicht von mehreren Personen "
-"gleichzeitig durchgeführt werden können"
-
-#: ..\..\process-builder\locking.rst:20 ..\..\process-builder\locking.rst:20
-msgid ""
-"You can edit the process and make changes after the other person leaves the "
-"process editor, by opening the `Tasks` list, for example."
-msgstr ""
-"Nachdem die editierende Person die Bearbeitungsansicht verlässt (zum "
-"Beispiel um in de Aufgabenliste zu wechseln), können Sie den Prozess wieder "
-"bearbeiten."
-
-#: ..\..\process-builder\bpmn-import.rst:4
-#: ..\..\process-builder\bpmn-import.rst:4
-msgid "BPMN import"
-msgstr "BPMN Import"
-
-#: ..\..\process-builder\bpmn-import.rst:6
-#: ..\..\process-builder\bpmn-import.rst:6
-msgid ""
-"You can import an Effektif process model from a BPMN 2.0 XML file. You can "
-"use this to import a model that you created in another tool, or to load a "
-"file that you saved using the :ref:`BPMN export <bpmn-export>` option."
-msgstr ""
-"Sie können ein Effektif Prozessmodel als BPMN 2.0 XML Datei importieren. "
-"Hiermit können Sie Modelle, die Sie in anderen Tools erstellt haben, in "
-"Effektif verwenden oder Backups, die Sie vorher über die :ref:`BPMN "
-"Exportfunktion <bpmn-export>` gespeichert haben, wiederherstellen."
-
-#: ..\..\process-builder\bpmn-import.rst:10
-#: ..\..\process-builder\bpmn-import.rst:10
-msgid ""
-"To import a process model, on the `Processes` page, click the `Import BPMN` "
-"button and select the BPMN XML file."
-msgstr ""
-"Um ein Prozessmodell zu importieren, wechseln Sie in die `Prozesse`-Ansicht,"
-" klicken Sie auf `BPMN importieren` und wählen Sie eine BPMN 2.0 XML Datei "
-"aus."
-
-#: ..\..\process-builder\bpmn-import.rst:15
-#: ..\..\process-builder\bpmn-import.rst:15
-msgid "The `Import BPMN` button on the `Processes` page"
-msgstr "Die `BPMN importieren`-Schaltfläche der `Prozesse`-Ansicht."
-
-#: ..\..\process-builder\bpmn-import.rst:17
-#: ..\..\process-builder\bpmn-import.rst:17
-msgid ""
-"Effektif does not support all BPMN 2.0 elements, so the process may appear "
-"differently in Effektif. In particular:"
-msgstr ""
-"Effektif unterstützt nicht alle BPMN 2.0 Elemente. Ein importierter Prozess "
-"wird in Effektif unter Umständen also verändert dargestellt. Berücksichtigen"
-" Sie insbesondere Folgendes:"
-
-#: ..\..\process-builder\bpmn-import.rst:21
-#: ..\..\process-builder\bpmn-import.rst:21
-msgid "BPMN swim lanes become :ref:`roles <roles>` in Effektif"
-msgstr "BPMN Swim Lanes werden in Effektif zu :ref:`Rollen <roles>`"
-
-#: ..\..\process-builder\bpmn-import.rst:22
-#: ..\..\process-builder\bpmn-import.rst:22
-msgid "tasks become :ref:`user tasks <user-task>` in Effektif"
-msgstr "Task werden in Effektif zu :ref:`User Tasks <user-task>`"
-
-#: ..\..\process-builder\bpmn-import.rst:23
-#: ..\..\process-builder\bpmn-import.rst:23
-msgid "Effektif removes unsupported elements, such as timer events."
-msgstr ""
-"Nichtunterstützte Element, wie zum Beispiel Zeit-Startereignisse, werden "
-"entfernt."
-
-#: ..\..\process-builder\bpmn-export.rst:4
-#: ..\..\process-builder\bpmn-export.rst:4
-msgid "BPMN export"
-msgstr "BPMN Export"
-
-#: ..\..\process-builder\bpmn-export.rst:6
-#: ..\..\process-builder\bpmn-export.rst:6
-msgid ""
-"You can export an Effektif process model as a BPMN 2.0 XML file. You may "
-"find this useful for opening the model in another tool that supports BPMN, "
-"or to make a backup that you can load using the :ref:`BPMN import <bpmn-"
-"import>` option."
-msgstr ""
-"Sie können ein Effektif Prozessmodel als BPMN 2.0 XML-Datei exportieren. "
-"Anschließend können Sie das Diagramm in einem beliebigen Tool öffnen, das "
-"den offenen BPMN 2.0 Standard unterstützt. Die Exportfunktion ermöglich "
-"zudem das Erstellen von Backups: ein :ref:`Re-Import <bpmn-import>` ist "
-"jederzeit möglich."
-
-#: ..\..\process-builder\bpmn-export.rst:10
-#: ..\..\process-builder\bpmn-export.rst:10
-msgid ""
-"To export a process model, first open it in the Effektif process editor. "
-"Select the menu next to the `Publish changes` button, then select `Export "
-"BPMN 2.0 XML`."
-msgstr ""
-"Um einen Prozess zu exportieren, öffnen Sie ihn zunächst in Effektif. Wählen"
-" Sie im Menü neben dem `Zum Ausführen veröffentlichen` Knopf den Punkt `BPMN"
-" 2.0 XML exportieren`."
-
-#: ..\..\process-builder\bpmn-export.rst:16
-#: ..\..\process-builder\bpmn-export.rst:16
-msgid ""
-"Using the `Export BPMN 2.0 XML` option to save a process model in a file"
-msgstr ""
-"Benutzen Sie den BPMN 2.0 XML Export um einen Prozess als Datei zu "
-"speichern."
-
-#: ..\..\process-builder\bpmn-export.rst:18
-#: ..\..\process-builder\bpmn-export.rst:18
-msgid ""
-"This results in a file download that describes your process model in BPMN "
-"format. Effektif only exports one kind of BPMN file, so it doesn’t give you "
-"any options to configure."
-msgstr ""
-"Anschließend wird der Download der Datei im BPMN-Format gestartet. Da es nur"
-" eine Art von BPMN-Dateien gibt, müssen Sie auch keine weiteren Optionen "
-"konfigurieren. "
-
-#: ..\..\process-builder\copy-delete.rst:4
-#: ..\..\process-builder\copy-delete.rst:4
-msgid "Copying & deleting processes"
-msgstr "Prozesse kopieren und löschen"
-
-#: ..\..\process-builder\copy-delete.rst:6
-#: ..\..\process-builder\copy-delete.rst:6
-msgid ""
-"You can create a copy of a process or delete it using the process menu shown"
-" in the previous section."
-msgstr "Über das Prozessmenü können Sie zudem Prozesse kopieren und löschen."
-
-#: ..\..\process-builder\copy-delete.rst:8
-#: ..\..\process-builder\copy-delete.rst:8
-msgid ""
-"The `Create a copy` option duplicates the process in the same organisation. "
-"You may find it useful to duplicate a process if you want to experiment with"
-" changes without publishing changes to a live process. You may also want to "
-"duplicate a process to model a special case of the process, instead of "
-"adding a conditional flow to the standard process."
-msgstr ""
-"Über die Schaltfläche `Eine Kopie erstellen` duplizieren Sie einen Prozess "
-"in der entsprechenden Organisation. Dies ist insbesondere hilfreich, wenn "
-"Sie dem Prozess experimentieren wollen, ohne dass Nutzer der Prozessfälle "
-"direkt von den Änderungen betroffen sind. Ein weitere Use Case ist das "
-"Erstellen von Prozessvarianten: Um weitere XOR-Verzweigungen innerhalb einer"
-" Prozesses zu vermeiden, können Sie eine Kopie des Prozesses Ihren "
-"Anforderungen entsprechend abändern und die Prozessbezeichnung "
-"aussagekräftig abändern."
-
-#: ..\..\process-builder\copy-delete.rst:12
-#: ..\..\process-builder\copy-delete.rst:12
-msgid ""
-"The `Delete process` option permanently deletes a process and all of its "
-"cases. You cannot undo this operation, so you must enter a confirmation. You"
-" might want to delete a process that you created by duplicating another "
-"process in order to experiment with changes in the model."
-msgstr ""
-"Über die `Prozess löschen` Schaltfläche löschen Sie einen Prozess und alle "
-"Fälle des Prozesses **unwiderruflich**. Da Sie das Löschen nicht rückgängig "
-"machen können, müssen Sie den Vorgang explizit bestätigen. Ein typische "
-"Anwendungsfall für das Löschen eines Prozesses ist das Verwerfen einer "
-"experimentellen Kopie eines Prozesses. "
-
-#: ..\..\process-builder\copy-delete.rst:16
-#: ..\..\process-builder\copy-delete.rst:16
-msgid ""
-"In Effektif, you cannot currently delete cases, which you might want to do "
-"if you have created test cases while developing the process. However, you "
-"can use `Create a copy` and `Delete process` to duplicate a process and then"
-" delete the original. This deletes all of the cases with the original "
-"process, and leaves a copy with no cases."
-msgstr ""
-"In Effektif ist es nicht möglich, Fälle direkt zu löschen. Falls Sie einen "
-"Fälle als 'Tests' während des Prozessdesigns erstellt haben, empfehlen wir "
-"Ihnen für die Produktivversion des Prozesses eine Kopie zu erstellen und das"
-" Orginal zu löschen. Die Fälle werden nicht in die Kopie übernommen."
-
-#: ..\..\process-builder\details.rst:4 ..\..\process-builder\details.rst:4
+"Kontrollflusselemente nicht für Aufgaben, die von Personen oder Computern"
+" bearbeitet werden müssen, sondern für die Auslöser und Bedingungen "
+"dieser Aktionen."
+
+#: ../../process-builder/details.rst:4
 msgid "Details"
 msgstr "Details"
 
-#: ..\..\process-builder\details.rst:6 ..\..\process-builder\details.rst:6
+#: ../../process-builder/details.rst:6
 msgid ""
-"In the process builder, select the *Details* tab to further configure the "
-"process."
+"In the process builder, select the *Details* tab to further configure the"
+" process."
 msgstr ""
 "Wählen Sie den *Details*-Tab im Prozess Editor, um den Prozess weiter zu "
 "konfigurieren."
 
-#: ..\..\process-builder\details.rst:10 ..\..\process-builder\details.rst:10
+#: ../../process-builder/details.rst:10
 msgid "Configuring process details"
 msgstr "Konfiguration von Prozessdetails"
 
-#: ..\..\process-builder\details.rst:12 ..\..\process-builder\details.rst:12
+#: ../../process-builder/details.rst:12
 msgid "On the *General* tab, configure the following process properties."
-msgstr ""
-"Im *Allgemein*-Tab konfigurieren Sie die folgenden Prozesseigenschaften"
+msgstr "Im *Allgemein*-Tab konfigurieren Sie die folgenden Prozesseigenschaften"
 
-#: ..\..\process-builder\details.rst:14 ..\..\process-builder\details.rst:14
+#: ../../process-builder/details.rst:14
 msgid ""
 "*Process owner* - shown on the *Processes* page to indicate who has "
 "responsibility for a process model, and used as the default recipient of "
 "some :ref:`notifications <notifications>`."
 msgstr ""
-"*Eigentümer* - ist sichtbar auf der *Prozess* Seite und zeigt an, wer für "
-"den Prozess verantwortlich ist und als Standardempfänger für einige "
+"*Eigentümer* - ist sichtbar auf der *Prozess* Seite und zeigt an, wer für"
+" den Prozess verantwortlich ist und als Standardempfänger für einige "
 ":ref:`Benachrichtigungen <notifications>` dient."
 
-#: ..\..\process-builder\details.rst:15 ..\..\process-builder\details.rst:15
+#: ../../process-builder/details.rst:15
 msgid ""
 "*Process description* - documents a process, usually by describing the "
 "process goal."
@@ -984,17 +361,17 @@ msgstr ""
 "*Prozessbeschreibung* - dokumentiert einen Prozess, normalerweise durch "
 "Beschreibung des Prozessziels."
 
-#: ..\..\process-builder\details.rst:16 ..\..\process-builder\details.rst:16
+#: ../../process-builder/details.rst:16
 msgid ""
 "*Case name template* - the name for new cases of this process, usually "
 "containing trigger :ref:`variables <variables>` so that each case has a "
 "different name."
 msgstr ""
 "*Vorlage für Fallnamen* - der Name für neue Fälle dieses Prozesses, "
-"normalerweise enthält dieser Prozess-Auslöser  :ref:`Variablen <variables>`,"
-" damit jeder Fall einen anderen Namen bekommt."
+"normalerweise enthält dieser Prozess-Auslöser  :ref:`Variablen "
+"<variables>`, damit jeder Fall einen anderen Namen bekommt."
 
-#: ..\..\process-builder\details.rst:18 ..\..\process-builder\details.rst:18
+#: ../../process-builder/details.rst:18
 msgid ""
 "Use the *Access control* tab to restrict access to this process and its "
 "cases."
@@ -1002,13 +379,597 @@ msgstr ""
 "Verwenden Sie den Tab *Zugriffsrechte*, um Zugang zu diesem Prozess und "
 "seinen Fällen einzuschränken."
 
-#: ..\..\process-builder\details.rst:20 ..\..\process-builder\details.rst:20
+#: ../../process-builder/details.rst:20
 msgid ""
 "Use the *Field overview* tab to view and rename this process’ "
 ":ref:`variables <variables>`."
 msgstr ""
-"Verwenden Sie den Tab *Feldübersicht*, um den Prozess anzuschauen und seinen"
-" Namen zu verändern."
+"Verwenden Sie den Tab *Feldübersicht*, um den Prozess anzuschauen und "
+"seinen Namen zu verändern."
+
+#: ../../process-builder/versions.rst:4
+msgid "Versions"
+msgstr "Versionen"
+
+#: ../../process-builder/versions.rst:6
+msgid ""
+"When you use the process editor to edit your process model, Effektif "
+"saves all of your changes immediately. You can go back and edit the "
+"process again later, and it will not have changed. However, to execute a "
+"process by starting a new case you need a published version."
+msgstr ""
+"Wenn Sie den Effektif Prozesseditor verwenden, werden alle Ihre "
+"Änderungen automatisch gespeichert. Sie können also einen Prozess "
+"verlassen, ohne explizit zu speichern. Um einen Prozess auszuführen "
+"müssen Sie allerdings zunächst eine Version veröffentlichen."
+
+#: ../../process-builder/versions.rst:12
+msgid "Publishing a process version"
+msgstr "Eine Version veröffentlichen"
+
+#: ../../process-builder/versions.rst:14
+msgid ""
+"The process editor’s `Versions` tab shows a list of published versions. "
+"Until you publish the first version, this page shows a message that there"
+" the process has ‘no published versions’."
+msgstr ""
+"Im Reiter `Versionen` des Prozesseditors finden Sie eine Liste von "
+"veröffentlichten Versionen. Bevor Sie die erste Version Ihres Prozesses "
+"veröffentlicht haben, wird zeigt diese Seite nur einen Hinweis an, dass "
+"noch keine Versionen veröffentlicht wurden."
+
+#: ../../process-builder/versions.rst:20
+msgid "The process editor’s `Versions` tab with no published versions"
+msgstr "Der Reiter `Versionen` ohne eine veröffentlichte Version."
+
+#: ../../process-builder/versions.rst:22
+msgid ""
+"You can only start a new case for a process that has a published version,"
+" hence the light green button displays ‘Publish to run this process’. "
+"After you publish the first version, the list shows version #1 and you "
+"can start a new case using that version."
+msgstr ""
+"Um einen Fall anzulegen, muss der entsprechende Prozess veröffentlicht "
+"sein - daher der der grünliche Knopf `Zum Ausführen veröffentlichen`. "
+"Nachdem Sie die erste Version veröffentlicht haben, zeigt die Liste einen"
+" Eintrag mit der Version #1 und Sie können nun Fälle dieses Prozesses "
+"starten. "
+
+#: ../../process-builder/versions.rst:29
+msgid "The `Versions` list after publishing the first version"
+msgstr "Die `Versions`-Liste mit dem ersten Eintrag"
+
+#: ../../process-builder/versions.rst:31
+msgid ""
+"Version #1 always has the description `Initial version`. For later "
+"versions, you can add your own description."
+msgstr ""
+"Die Version mit der Nummer #1 hat immer die Beschriftung `Initiale "
+"Version`. Bei späteren Versionen können Sie selbst eine Beschreibung "
+"hinzufügen. "
+
+#: ../../process-builder/versions.rst:35
+msgid "Adding version comments"
+msgstr "Versionskommentare hinzufügen"
+
+#: ../../process-builder/versions.rst:37
+msgid ""
+"After the first published version, you can add a comment to describe the "
+"changes when you publish a new version of a process."
+msgstr ""
+"Nach der ersten veröffentlichten Version können Sie zu jeder weiteren "
+"Version eine Beschreibung hinzufügen, die die Änderungen beschreibt, die "
+"Sie vorgenommen haben. "
+
+#: ../../process-builder/versions.rst:42
+msgid ""
+"The `Publish changes` prompt, where you can add an optional version "
+"comment"
+msgstr ""
+"Der `Änderungen veröffentlichen` Dialog, indem Sie eine optionale "
+"Beschreibung hinzufügen können"
+
+#: ../../process-builder/versions.rst:44
+msgid ""
+"You can omit the version comment, but it helps collaboration between team"
+" members by making process modelling more transparent."
+msgstr ""
+"Das hinterlegen eines Versionskommentars ist keine Pflicht, er hilft "
+"jedoch bei der Kollaboration von mehreren Team-Mitgliedern, da er die "
+"Prozessgestaltung transparenter macht. "
+
+#: ../../process-builder/versions.rst:50
+msgid "Published versions with descriptive version comments"
+msgstr "Veröffentlichte Versionen mit beschreibenden Versionskommentaren"
+
+#: ../../process-builder/versions.rst:52
+msgid ""
+"In this example, each version has a short comment that describes the "
+"changes."
+msgstr ""
+"In diesem Beispiel hat jede Version einen kurten Kommentar, der die "
+"Änderungen beschreibt."
+
+#: ../../process-builder/versions.rst:55
+msgid "Writing good version comments"
+msgstr "Gute Versionskommentare schreiben"
+
+#: ../../process-builder/versions.rst:57
+msgid ""
+"When you write version comments, use the following tips to make them more"
+" consistent and useful."
+msgstr ""
+"Wenn Sie Ihre Versionskommentare schreiben, folgen Sie den diesen Tipps "
+"um Sie konsistent und nützlich zu gestalten. "
+
+#: ../../process-builder/versions.rst:60
+msgid ""
+"Make the comment an imperative phrase that starts with a word like ‘Add’ "
+"or ‘Fix’."
+msgstr ""
+"Schreiben Sie im imperativen Stil wie `Aktivität hinzugefügt` oder "
+"`Fehler behoben`."
+
+#: ../../process-builder/versions.rst:61
+msgid ""
+"Capitalise the first word and don’t include a full-stop at the end, for "
+"consistency."
+msgstr ""
+"Schreiben Sie das erste Wort groß aber beenden Sie den Kommentar nich mit"
+" einem Punkt (der Konsistenz halber)"
+
+#: ../../process-builder/versions.rst:63
+msgid "Describe specifics, instead of vaguely referring to ‘changes’."
+msgstr ""
+"Seien Sie spezifisch bei dem was Sie geändert haben und sprechen Sie "
+"nicht nur vage über `Änderungen`."
+
+#: ../../process-builder/versions.rst:64
+msgid "Keep it short; 3-10 words usually suffice."
+msgstr "Fassen Sie sich kurz; 3-10 Worte sind normalerweise mehr als genug."
+
+#: ../../process-builder/versions.rst:65
+msgid "Consider making the comment longer to explain why you made this change."
+msgstr ""
+"Unter Umständen schreiben Sie einen längeren Kommentar um zu Beschreiben,"
+" warum die Änderungen notwendig waren."
+
+#: ../../process-builder/versions.rst:67
+msgid ""
+"You may find it easier to publish a series of small changes, creating a "
+"number of intermediate versions instead of one big change. Fine-grained "
+"versions make the version history more useful."
+msgstr ""
+"Es erleichtert die Arbeit, wenn Sie eine Reihe von kleinen Änderungen "
+"veröffentlichen und nicht alles in eine große Version schieben. Kleine "
+"Versionen machen es einfacher die Änderungen nachzuverfolgen und damit "
+"die Versionshistorie nützlicher. "
+
+#: ../../process-builder/variables.rst:2
+msgid "Variables"
+msgstr "Variablen"
+
+#: ../../process-builder/variables.rst:4
+msgid ":ref:`variables` store workflow data when the process runs."
+msgstr ""
+
+#: ../../process-builder/roles.rst:4
+msgid "Roles"
+msgstr "Rollen"
+
+#: ../../process-builder/roles.rst:6
+msgid ""
+"Creating a role gives a process-specific name to whoever performs one or "
+"more process tasks. You can optionally configure a role with a list of "
+"canidates. Roles have the same function as swimlanes in BPMN."
+msgstr ""
+"Eine Rolle ist ein prozessspezifischer Bezeichnet für eine Person oder "
+"Organisationseinheit, die eine oder mehrere Prozessaufgaben ausführt. An "
+"einer Rolle kann eine Liste möglicher Kandidaten hinterlegt werden. "
+"Rollen entsprechen Swimlanes in BPMN."
+
+#: ../../process-builder/roles.rst:10
+msgid ""
+"For example, when you have a meeting, one person sometimes takes the role"
+" of chairperson. That person doesn’t have the job title *Meeting chair* -"
+" they’ve just adopted that role for the duration of the meeting."
+msgstr ""
+"Wenn Sie Beispielsweise ein Meeting durchführen, kann eine Person die "
+"Rolle der Meetingsleitung übernehmen - möglicherweise hat die Person die "
+"Rolle jedoch lediglich für die Zeit des Meetings inne."
+
+#: ../../process-builder/roles.rst:13
+msgid ""
+"A process in Effektif can define roles, in the same way that a business "
+"meeting ‘process’ has roles for whoever chairs the meeting (the ‘Chair’) "
+"and whoever takes minutes (the ‘Secretary’). The following meeting "
+"process model assigns the tasks on the top row to the *Chair* and the "
+"tasks on the bottom row to the *Secretary*."
+msgstr ""
+"Dementsprechend werden Rollen in Effektifprozessen verwendet. Das "
+"folgende Meeting-Prozessmodell ordnet die Aufgaben in der oberen Reihe "
+"der **Meetingsleitung** zu und die Aufgaben in der unteren Reihe der "
+"Meetingsassistenz."
+
+#: ../../process-builder/roles.rst:18
+msgid ""
+"A *Meeting* process, with tasks for *Chair* (top row) and *Secretary* "
+"(bottom row) roles"
+msgstr ""
+"Ein *Meeting*-Prozess mit Aufgaben für die Rollen *Meetingsleitung* "
+"(obere Reihe) und *Meetingsassistenz* (untere Reihe)"
+
+#: ../../process-builder/roles.rst:20
+msgid ""
+"In each meeting (each :ref:`case <cases>` in Effektif), one person takes "
+"the role of chair, and one the role of secretary. These assignments "
+"generally don’t change during a meeting. Similarly, Effektif role "
+"assignments don’t change during a case. Effektif automatically assigns "
+"each new task with a role assignment to the person who already has the "
+"role."
+msgstr ""
+"Rollen können ad-hoc eingenommen werden. In jedem Meeting (jedem "
+":ref:`Fall <cases>` in Effektif) wird einer Person die Aufgabe der "
+"Meetingsleitung übertragen und einer weiteren Person die Rolle der "
+"Meetingsassistenz. Während eines Falldurchlaufs ändern sich "
+"Rollenzuweisungen nicht: Jeder neue Task einer Rolle wird automatisch der"
+" entsprechenden Person zugewiesen."
+
+#: ../../process-builder/roles.rst:25
+msgid ""
+"In Effektif, a process role works like a workflow variable that you use "
+"to assigning tasks. A role variable has the :ref:`type-user` and stores a"
+" single user."
+msgstr ""
+"Eine Prozessrolle in Effektif ist eine Art Workflowvariable, die für die "
+"Zuweisung von Aufgaben verwendet wird. Eine Rolle ist eine Variable des "
+"Typs *Nutzer* - sie referenziert pro Aufgabe genau einen Nutzer."
+
+#: ../../process-builder/roles.rst:28
+msgid ""
+"These process roles differ from organization roles. For example, you can "
+"have the *Team lead* role in your organization, an assignment that does "
+"not necessarily have an end date. A process role, such as *Meeting "
+"chair*, has a different scope and only applies for the duration of a "
+"single case."
+msgstr ""
+"Diese Prozessrollen entsprechen nicht zwingend Organisationsrollen. Sie "
+"können zum Beispiel in Ihrer Organisation die Rolle des *Team Leads* "
+"einnehmen und diese Rolle für unbegrenzte Zeit innehaben. Eine "
+"Prozessrolle wie *Meetingsleitung* wird hingegen lediglich im Kontext "
+"eines einzelnen Falles zugewiesen."
+
+#: ../../process-builder/roles.rst:32
+msgid ""
+"To assign a role to a user task, open the task’s configuration panel, "
+"select the `Assignment` tab, and use the `Assign using a role` menu on "
+"the right-hand side."
+msgstr ""
+"Um eine Rolle einer Nutzeraufgabe zuzuweisen, öffnen Sie die "
+"Konfigurationsleiste der Aufgabe, wählen Sie das `Allgemein`-Tab aus und "
+"verwenden Sie das `Zuweisen mittels einer Rolle`-Menü auf der rechten "
+"Seite."
+
+#: ../../process-builder/roles.rst:36
+msgid ""
+"To assign a role, use the menu to create a new role or select an existing"
+" role"
+msgstr ""
+"Um eine Rolle zuzuweisen, verwenden Sie das Menü um eine neue Rolle zu "
+"erstellen oder eine Existierende auszuwählen."
+
+#: ../../process-builder/roles.rst:38
+msgid "You can also use the edit icon next to the role name to rename the role."
+msgstr ""
+"Sie können zudem das Editierungsicon neben der Rolle anwählen, um die "
+"Rolle umzubenennen."
+
+#: ../../process-builder/roles.rst:41
+msgid "Role candidates"
+msgstr "Kandidaten für eine Rolle"
+
+#: ../../process-builder/roles.rst:43
+msgid ""
+"You can use a role to assign multiple tasks a person from a group of "
+"candidates. For example, you might have a support process that includes "
+"three user tasks that you assign to a support engineer."
+msgstr ""
+"Über eine Rolle können Sie mehrere Aufgaben einer Person aus einer Gruppe"
+" von Kandidaten zuweisen. In einem Supportprozess kann es zum Beispiel "
+"drei Nutzertalks geben, die einem Kundenbetreuer zugewiesen sind."
+
+#: ../../process-builder/roles.rst:48
+msgid ""
+"Assigning a task to a *Support engineer* role with candidates Alice and "
+"Ben"
+msgstr ""
+"Eine Aufgabe der Rolle `Kundenbetreuer` zuweisen mit den Kandidaten Alice"
+" und Ben"
+
+#: ../../process-builder/roles.rst:50
+msgid ""
+"Instead, assign the three tasks to a new role called ‘Support engineer’, "
+"and add the relevant people as candidates for the role."
+msgstr ""
+"Weisen Sie die drei Aufgaben einer neuen Rolle zu. Nennen Sie die Rolle "
+"'Kundenbetreuer' und fügen Sie relevante Personen als Kandidaten für die "
+"Rolle hinzu."
+
+#: ../../process-builder/roles.rst:53
+msgid ""
+"Creating the first task that has a role will notify all of the candidates"
+" for the role. When one of the candidates takes the task, Effektif will "
+"assign the subsequent tasks with the same role to the same person. That "
+"helps this person work more efficiently because they have the context "
+"knowledge about that case."
+msgstr ""
+"Sobald die erste Aufgabe erstellt wird, die einer bestimmten Rolle "
+"zugewiesen ist, werden alle Kandidaten für diese Rolle informiert. Wenn "
+"eine Person die Aufgabe übernimmt, werden auch alle weiteren Aufgaben der"
+" Rolle dieser Person zugewiesen. Dies ist effizienter, da die "
+"entsprechende Person schon das kontextspezifische Fallwissen besitzt."
+
+#: ../../process-builder/roles.rst:57
+msgid ""
+"If you reassign a task that has a role assignment, Effektif will update "
+"the role variable, and assign all subsequent tasks with the same role to "
+"the new assignee."
+msgstr ""
+"Wenn Sie die Zuweisung ändern, kümmert sich Effektif natürlich darum, "
+"dass alle Aufgaben die einer Rolle zugewiesen waren entsprechend "
+"aktualisiert werden. "
+
+#: ../../process-builder/roles.rst:62
+msgid "Using a form field to assign a role"
+msgstr "Wie man per Formularfeld eine Rolle setzt"
+
+#: ../../process-builder/roles.rst:64
+msgid ""
+"When you execute a process, you normally assign a specific person to a "
+"role by using the assignee button to select someone. Sometimes, you want "
+"this assignment to an explicit part of the process, to make sure the "
+"assignment happens at the right time. For example, you may find it "
+"important to assign the *Support engineer* before completing an *Initial "
+"investigation* task."
+msgstr ""
+"Wenn Sie einen Prozess ausführen, dann weisen Sie eine Person in der "
+"Regel einer Rolle zu, indem Sie den *Zuweisen*-Knopf benutzen. Manchmal "
+"soll allerdings genau diese Zuweisung Teil des Prozesses selbst sein um "
+"sicher zu stellen, dass die Zuweisung zur richtigen Zeit passiert. Zum "
+"Beispiel kann es wichtig sein, den *Support Mitarbeiter* zuzuweisen bevor"
+" die Aufgabe *Initiale Nachforschungen anstellen* abgeschlossen wird."
+
+#: ../../process-builder/roles.rst:71
+msgid ""
+"You can do this by adding the role assignment to a form, because you can "
+"use task assignment roles as process variables, just like any other "
+"*User* form field."
+msgstr ""
+"Sie können hierfür einfach die Rolle zu einem Formular hinzufügen: Rollen"
+" sind in Effektif Prozessvariablen wie jedes andere *Nutzer* Formularfeld"
+" auch."
+
+#: ../../process-builder/roles.rst:77
+msgid "Adding the *Support engineer* role assignment to a form"
+msgstr "Die *Support Mitarbeiter* Rolle zu einem Formular hinzufügen"
+
+#: ../../process-builder/roles.rst:79
+msgid ""
+"To add a role assignment to a form, first define the process role, such "
+"as the *Support engineer* role created above, then on the form, under the"
+" *Reuse field* heading, select the role variable to add it to the form."
+msgstr ""
+"Um eine Rolle in einem Formular zu verwenden erstellen Sie zuerst die "
+"gewünschte Rolle wie zum Beispiel den *Support Mitarbeiter*. Danach "
+"können Sie diesen unterhalb des Formulars bei *Ein Feld wiederverwenden* "
+"ganz einfach auswählen."
+
+#: ../../process-builder/roles.rst:84
+msgid ""
+"Alternatively, you can first define the *Support engineer* role by adding"
+" a field with type *User* to the *Initial investigation* task’s form, and"
+" then select the *Support engineer* role on another user task’s *General*"
+" configuration."
+msgstr ""
+"Alternativ können Sie die *Support Mitarbeiter*-Rolle definieren, indem "
+"Sie den Typ *Nutzer* zum Formular der Aufgabe *Initiale Nachforschungen "
+"anstellen* hinzufügen und anschließen die Rolle *Support Mitarbeiter* in "
+"der Konfiguration einer Nutzeraufgabe auswählen."
+
+#: ../../process-builder/locking.rst:4
+msgid "Process locking"
+msgstr "Bearbeitungsblockierung"
+
+#: ../../process-builder/locking.rst:6
+msgid ""
+"In the process builder, only one person can edit a process at a time. "
+"While someone continues to edit a process, the `Processes` list shows a "
+"message."
+msgstr ""
+"Ein Prozess kann im Prozesseditor nicht von mehreren Personen "
+"gleichzeitig bearbeitet werden, da es ansonsten sehr wahrscheinlich ist, "
+"dass die bearbeitenden Nutzer ihre Änderungen gegenseitig überschreiben. "
+"Wenn jemand einen Prozess editiert, wird dies daher in der "
+"`Prozesse`-Liste angezeigt."
+
+#: ../../process-builder/locking.rst:11
+msgid "The `Processes` list message while someone else edits the process"
+msgstr ""
+"Der Hinweis in der `Prozesse`-Liste, wenn ein Prozess bereits editiert "
+"wird"
+
+#: ../../process-builder/locking.rst:13
+msgid ""
+"You can still open the process, but you will see a warning message "
+"explaining that you cannot make changes:"
+msgstr ""
+"In einer solchen Situation können Sie den Prozess trotzdem öffnen. "
+"Allerdings wird Ihnen dann eine Warnung angezeigt und eine Bearbeitung "
+"des Prozesses ist nicht möglich:"
+
+#: ../../process-builder/locking.rst:18
+msgid "Warning that you cannot edit a process at the same time as someone else"
+msgstr ""
+"Warnung, dass Änderungen an einem Prozess nicht von mehreren Personen "
+"gleichzeitig durchgeführt werden können"
+
+#: ../../process-builder/locking.rst:20
+msgid ""
+"You can edit the process and make changes after the other person leaves "
+"the process editor, by opening the `Tasks` list, for example."
+msgstr ""
+"Nachdem die editierende Person die Bearbeitungsansicht verlässt (zum "
+"Beispiel um in de Aufgabenliste zu wechseln), können Sie den Prozess "
+"wieder bearbeiten."
+
+#: ../../process-builder/bpmn-import.rst:4
+msgid "BPMN import"
+msgstr "BPMN Import"
+
+#: ../../process-builder/bpmn-import.rst:6
+msgid ""
+"You can import an Effektif process model from a BPMN 2.0 XML file. You "
+"can use this to import a model that you created in another tool, or to "
+"load a file that you saved using the :ref:`BPMN export <bpmn-export>` "
+"option."
+msgstr ""
+"Sie können ein Effektif Prozessmodel als BPMN 2.0 XML Datei importieren. "
+"Hiermit können Sie Modelle, die Sie in anderen Tools erstellt haben, in "
+"Effektif verwenden oder Backups, die Sie vorher über die :ref:`BPMN "
+"Exportfunktion <bpmn-export>` gespeichert haben, wiederherstellen."
+
+#: ../../process-builder/bpmn-import.rst:10
+msgid ""
+"To import a process model, on the `Processes` page, click the `Import "
+"BPMN` button and select the BPMN XML file."
+msgstr ""
+"Um ein Prozessmodell zu importieren, wechseln Sie in die "
+"`Prozesse`-Ansicht, klicken Sie auf `BPMN importieren` und wählen Sie "
+"eine BPMN 2.0 XML Datei aus."
+
+#: ../../process-builder/bpmn-import.rst:15
+msgid "The `Import BPMN` button on the `Processes` page"
+msgstr "Die `BPMN importieren`-Schaltfläche der `Prozesse`-Ansicht."
+
+#: ../../process-builder/bpmn-import.rst:17
+msgid ""
+"Effektif does not support all BPMN 2.0 elements, so the process may "
+"appear differently in Effektif. In particular:"
+msgstr ""
+"Effektif unterstützt nicht alle BPMN 2.0 Elemente. Ein importierter "
+"Prozess wird in Effektif unter Umständen also verändert dargestellt. "
+"Berücksichtigen Sie insbesondere Folgendes:"
+
+#: ../../process-builder/bpmn-import.rst:21
+msgid "BPMN swim lanes become :ref:`roles <roles>` in Effektif"
+msgstr "BPMN Swim Lanes werden in Effektif zu :ref:`Rollen <roles>`"
+
+#: ../../process-builder/bpmn-import.rst:22
+msgid "tasks become :ref:`user tasks <user-task>` in Effektif"
+msgstr "Task werden in Effektif zu :ref:`User Tasks <user-task>`"
+
+#: ../../process-builder/bpmn-import.rst:23
+msgid "Effektif removes unsupported elements, such as timer events."
+msgstr ""
+"Nichtunterstützte Element, wie zum Beispiel Zeit-Startereignisse, werden "
+"entfernt."
+
+#: ../../process-builder/bpmn-export.rst:4
+msgid "BPMN export"
+msgstr "BPMN Export"
+
+#: ../../process-builder/bpmn-export.rst:6
+msgid ""
+"You can export an Effektif process model as a BPMN 2.0 XML file. You may "
+"find this useful for opening the model in another tool that supports "
+"BPMN, or to make a backup that you can load using the :ref:`BPMN import "
+"<bpmn-import>` option."
+msgstr ""
+"Sie können ein Effektif Prozessmodel als BPMN 2.0 XML-Datei exportieren. "
+"Anschließend können Sie das Diagramm in einem beliebigen Tool öffnen, das"
+" den offenen BPMN 2.0 Standard unterstützt. Die Exportfunktion ermöglich "
+"zudem das Erstellen von Backups: ein :ref:`Re-Import <bpmn-import>` ist "
+"jederzeit möglich."
+
+#: ../../process-builder/bpmn-export.rst:10
+msgid ""
+"To export a process model, first open it in the Effektif process editor. "
+"Select the menu next to the `Publish changes` button, then select `Export"
+" BPMN 2.0 XML`."
+msgstr ""
+"Um einen Prozess zu exportieren, öffnen Sie ihn zunächst in Effektif. "
+"Wählen Sie im Menü neben dem `Zum Ausführen veröffentlichen` Knopf den "
+"Punkt `BPMN 2.0 XML exportieren`."
+
+#: ../../process-builder/bpmn-export.rst:16
+msgid "Using the `Export BPMN 2.0 XML` option to save a process model in a file"
+msgstr ""
+"Benutzen Sie den BPMN 2.0 XML Export um einen Prozess als Datei zu "
+"speichern."
+
+#: ../../process-builder/bpmn-export.rst:18
+msgid ""
+"This results in a file download that describes your process model in BPMN"
+" format. Effektif only exports one kind of BPMN file, so it doesn’t give "
+"you any options to configure."
+msgstr ""
+"Anschließend wird der Download der Datei im BPMN-Format gestartet. Da es "
+"nur eine Art von BPMN-Dateien gibt, müssen Sie auch keine weiteren "
+"Optionen konfigurieren. "
+
+#: ../../process-builder/copy-delete.rst:4
+msgid "Copying & deleting processes"
+msgstr "Prozesse kopieren und löschen"
+
+#: ../../process-builder/copy-delete.rst:6
+msgid ""
+"You can create a copy of a process or delete it using the process menu "
+"shown in the previous section."
+msgstr "Über das Prozessmenü können Sie zudem Prozesse kopieren und löschen."
+
+#: ../../process-builder/copy-delete.rst:8
+msgid ""
+"The `Create a copy` option duplicates the process in the same "
+"organisation. You may find it useful to duplicate a process if you want "
+"to experiment with changes without publishing changes to a live process. "
+"You may also want to duplicate a process to model a special case of the "
+"process, instead of adding a conditional flow to the standard process."
+msgstr ""
+"Über die Schaltfläche `Eine Kopie erstellen` duplizieren Sie einen "
+"Prozess in der entsprechenden Organisation. Dies ist insbesondere "
+"hilfreich, wenn Sie dem Prozess experimentieren wollen, ohne dass Nutzer "
+"der Prozessfälle direkt von den Änderungen betroffen sind. Ein weitere "
+"Use Case ist das Erstellen von Prozessvarianten: Um weitere XOR-"
+"Verzweigungen innerhalb einer Prozesses zu vermeiden, können Sie eine "
+"Kopie des Prozesses Ihren Anforderungen entsprechend abändern und die "
+"Prozessbezeichnung aussagekräftig abändern."
+
+#: ../../process-builder/copy-delete.rst:12
+msgid ""
+"The `Delete process` option permanently deletes a process and all of its "
+"cases. You cannot undo this operation, so you must enter a confirmation. "
+"You might want to delete a process that you created by duplicating "
+"another process in order to experiment with changes in the model."
+msgstr ""
+"Über die `Prozess löschen` Schaltfläche löschen Sie einen Prozess und "
+"alle Fälle des Prozesses **unwiderruflich**. Da Sie das Löschen nicht "
+"rückgängig machen können, müssen Sie den Vorgang explizit bestätigen. Ein"
+" typische Anwendungsfall für das Löschen eines Prozesses ist das "
+"Verwerfen einer experimentellen Kopie eines Prozesses. "
+
+#: ../../process-builder/copy-delete.rst:16
+msgid ""
+"In Effektif, you cannot currently delete cases, which you might want to "
+"do if you have created test cases while developing the process. However, "
+"you can use `Create a copy` and `Delete process` to duplicate a process "
+"and then delete the original. This deletes all of the cases with the "
+"original process, and leaves a copy with no cases."
+msgstr ""
+"In Effektif ist es nicht möglich, Fälle direkt zu löschen. Falls Sie "
+"einen Fälle als 'Tests' während des Prozessdesigns erstellt haben, "
+"empfehlen wir Ihnen für die Produktivversion des Prozesses eine Kopie zu "
+"erstellen und das Orginal zu löschen. Die Fälle werden nicht in die Kopie"
+" übernommen."
 
 #~ msgid ""
 #~ msgstr ""
@@ -1020,86 +981,45 @@ msgstr ""
 #~ msgstr "Der Prozessfluss-Editor "
 
 #~ msgid ""
-#~ "The process builder is used to create and configure executable processes. An"
-#~ " executable process is similar to software, but it’s easier to build "
-#~ "automations using processes. With Effektif, non-technical people can create "
-#~ "useful processes."
+#~ "A process has variables that store "
+#~ "workflow data when the process runs. "
+#~ "These variables contain all of the "
+#~ "information from forms as well as "
+#~ "information required by the process "
+#~ "actions. Each case stores its own "
+#~ "values for each workflow variable."
 #~ msgstr ""
-#~ "Mit dem Prozesseditor können Sie ausführbare Prozesse erstellen und "
-#~ "bearbeiten. Ein ausführbarer Prozess gleich gleicht einer Softwarelösung für"
-#~ " Ihren Geschäftsablauf, nur dass es wesentlich einfacher ist Abläufe mit "
-#~ "einem Prozess zu automatisieren."
+#~ "In einem Prozess werden alle Daten "
+#~ "in Variablen gespeichert. Informationen, wie"
+#~ " zum Beispiel Formulare oder "
+#~ "Konfigurationen, die für verschiedene "
+#~ "Aktivitäten benötigt werden, sind mit "
+#~ "diesen Variablen verbunden. Jeder einzelne "
+#~ "Fall kennt die für ihn relevanten "
+#~ "Werte dieser Variablen. "
 
 #~ msgid ""
-#~ "A trigger defines when a process is started. There is no relation between "
-#~ "triggers and BPMN start events. See :ref:`Start event <start-event>`."
+#~ "A trigger form that populates a "
+#~ "*Reference number* variable for use in"
+#~ " a workflow"
 #~ msgstr ""
-#~ "Auslöser definieren wie ein Prozess gestartet wird. Bei Effektif gibt es "
-#~ "keinen Zusammenhang zwischen Auslösern und Start Events, wie Sie sie "
-#~ "vielleicht aus BPMN kennen. Weitere Informationen hierzu finden Sie unter "
-#~ ":ref:`Startereignisse <start-event>`."
+#~ "Ein Formular-Auslöser welcher die "
+#~ "Variable *Referenznummer* zur Nutzung im "
+#~ "Workflow bereitstellt"
 
 #~ msgid ""
-#~ "Actions are like steps in a process. An action might be a user task in "
-#~ "Effektif, an operation on a file in a document management system or any "
-#~ "other action that represents something to be done in a process."
+#~ "A workflow variable can contain a "
+#~ "single value, such as a reference "
+#~ "number, or containing multiple fields, "
+#~ "such as an email, which has fields"
+#~ " like `from`, `to`, `subject` and "
+#~ "`attachments`."
 #~ msgstr ""
-#~ "Mit Aktionen beschreiben Sie die verschiedenen Aufgaben innerhalb eines "
-#~ "Prozesses. Das können zum Beispiel Aufgaben sein, die von Ihren Mitarbeitern"
-#~ " ausgeführt werden müssen, sowie automatische Aktionen, wie der Upload von "
-#~ "einer Datei in ein Dokumentenmanagementsystem."
+#~ "Eine Workflow-Variable kann einen "
+#~ "einzelnen Wert, wie zum Beispiel eine"
+#~ " Referenz oder eine Nummer enthalten, "
+#~ "oder kann aus mehreren Felder "
+#~ "zusammengesetzt sein, wie zum Beispiel "
+#~ "eine Email mit den Feldern `Absender`,"
+#~ " `Empfänger`, `Betreff` und `Anhänge`."
 
-#~ msgid ""
-#~ "Control flow elements like events and gateways are also part of the diagram,"
-#~ " but unlike actions, control flow elements don’t represent something that "
-#~ "should happen. Instead, you use events and gateways to specify the flow "
-#~ "between the actions."
-#~ msgstr ""
-#~ "Kontrollfluss-Elemente, wie Ereignisse oder Gateways sind zwar auch Teil des"
-#~ " Prozessdiagramms, allerdings werden Sie nicht explizit ausgeführt. Mit "
-#~ "diesen Elementen steuern Sie den Fluss zwischen den einzelnen Aktivitäten."
-
-#~ msgid ""
-#~ "When you use the Effektif process editor to edit your process model, all of "
-#~ "your changes are saved immediately. You can go back and edit the process "
-#~ "again later, and it will be just as you left it. However, to execute a "
-#~ "process by starting a new case you need a published version."
-#~ msgstr ""
-#~ "Wenn Sie den Effektif Prozesseditor verwenden, werden alle Ihre Änderungen "
-#~ "automatisch gespeichert. Das heißt Sie können einen Prozess verlassen und er"
-#~ " wird genau so aussehen, wenn Sie ihn wieder öffnen. Um einen Prozess "
-#~ "allerdings auszuführen müssen Sie zunächst eine Version veröffentlichen. "
-
-#~ msgid ""
-#~ "These process roles are not the same as organization roles. For example, you"
-#~ " can be a *Team lead* in your organization, which can be a position without "
-#~ "an end date. A process role, such as *Meeting chair*, has a different scope "
-#~ "and only applies for the duration of a single case."
-#~ msgstr ""
-#~ "Diese Prozessrollen entsprechen nicht zwingend Organisationsrollen. Sie "
-#~ "können zum Beispiel in Ihrer Organisation die Rolle des *Team Leads* "
-#~ "einnehmen und diese Rolle für unbegrenzte Zeit innehaben. Eine Prozessrolle "
-#~ "wie *Meetingsleitung* wird hingegen lediglich im Kontext eines einzelnen "
-#~ "Falles zugewiesen."
-
-#~ msgid ""
-#~ "Creating the first task that has a role will notify all of the candidates "
-#~ "for the role. When one of the candidates takes the task, the subsequent "
-#~ "tasks with the same role will be assigned to the same person. That’s more "
-#~ "efficient because this person has the context knowledge about that case."
-#~ msgstr ""
-#~ "Sobald die erste Aufgabe erstellt wird, die einer bestimmten Rolle "
-#~ "zugewiesen ist, werden alle Kandidaten für diese Rolle informiert. Wenn eine"
-#~ " Person die Aufgabe übernimmt, werden auch alle weiteren Aufgaben der Rolle "
-#~ "dieser Person zugewiesen. Dies ist effizienter, da die entsprechende Person "
-#~ "schon das kontextspezifische Fallwissen besitzt."
-
-#~ msgid ""
-#~ "One way to use an email trigger is to add the trigger email address to a "
-#~ "mailing list, such as `support@example.com `or `info@example.com`. You’ll "
-#~ "have to ask the administrator of the mailing list to add the process "
-#~ "trigger’s email address to the list. Once you have done this, email sent to "
-#~ "the mailing list will also be forwarded to the process trigger address, "
-#~ "starting the process in Effektif. You will then see the email in the event "
-#~ "stream:"
-#~ msgstr ""
