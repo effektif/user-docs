@@ -1,3 +1,5 @@
+.. _send-email:
+
 Send email
 ----------
 
