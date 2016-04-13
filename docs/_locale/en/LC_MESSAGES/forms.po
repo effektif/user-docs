@@ -11,172 +11,172 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../forms.rst:4
+#: ..\..\forms.rst:4
 msgid "Forms"
 msgstr ""
 
-#: ../../forms.rst:11
+#: ..\..\forms.rst:11
 msgid "Form triggers"
 msgstr ""
 
-#: ../../forms.rst:19
+#: ..\..\forms.rst:19
 msgid "Starting a new case with a form trigger"
 msgstr ""
 
-#: ../../forms.rst:34
+#: ..\..\forms.rst:34
 msgid "User task forms"
 msgstr ""
 
-#: ../../forms.rst:41
+#: ..\..\forms.rst:41
 msgid "Viewing and editing values on a user task form"
 msgstr ""
 
-#: ../../forms.rst:26
+#: ..\..\forms.rst:26
 msgid ""
 "To add a form trigger to a process, use the process builder’s :ref:`Triggers"
 " <triggers>` page to select `When a form is submitted`."
 msgstr ""
 
-#: ../../forms.rst:43
+#: ..\..\forms.rst:43
 msgid ""
 "To add a user task form to a process, use the process builder’s "
 ":ref:`Actions <actions>` page to add a user task, and on the user task’s "
 "configuration panel, select the `Form` tab."
 msgstr ""
 
-#: ../../forms.rst:13
+#: ..\..\forms.rst:13
 msgid ""
 "You use a :ref:`form trigger <form-trigger>` to set the values of "
 ":ref:`workflow variables <variables>` when you start a new case for a "
 "process."
 msgstr ""
 
-#: ../../forms.rst:36
+#: ..\..\forms.rst:36
 msgid ""
 "You use a :ref:`user task <user-task>` form to view and edit the values of "
 ":ref:`workflow variables <variables>`."
 msgstr ""
 
-#: ../../forms.rst:49
+#: ..\..\forms.rst:49
 msgid "Viewing form data"
 msgstr ""
 
-#: ../../forms.rst:62
+#: ..\..\forms.rst:62
 msgid "Using the form builder"
 msgstr ""
 
-#: ../../forms.rst:64
+#: ..\..\forms.rst:64
 msgid ""
 "To create a form in the process editor, for a form trigger or user task, you"
 " use the form builder."
 msgstr ""
 
-#: ../../forms.rst:21
+#: ..\..\forms.rst:21
 msgid ""
 "This form has a description (`Enter personal details`) and two fields. The "
 "icon next to the `Name` field label indicates that the field has an "
 "additional description."
 msgstr ""
 
-#: ../../forms.rst:51
+#: ..\..\forms.rst:51
 msgid ""
 "When you enter data in a form, it appears on the case view’s event stream:"
 msgstr ""
 
-#: ../../forms.rst:56
+#: ..\..\forms.rst:56
 msgid "Form data in a case event stream"
 msgstr ""
 
-#: ../../forms.rst:58
+#: ..\..\forms.rst:58
 msgid ""
 "You can use the `forms` link at the top of event stream to only show form "
 "data."
 msgstr ""
 
-#: ../../forms.rst:70
+#: ..\..\forms.rst:70
 msgid "The process editor’s form builder for a new empty form"
 msgstr ""
 
-#: ../../forms.rst:78
+#: ..\..\forms.rst:78
 msgid ""
 "The `Add a field` second contains a field types palette. Click one of the "
 "field types to add a field of that type to the form."
 msgstr ""
 
-#: ../../forms.rst:93
+#: ..\..\forms.rst:95
 msgid "Configuring form fields"
 msgstr ""
 
-#: ../../forms.rst:99
+#: ..\..\forms.rst:101
 msgid "Configuring a form field in the process editor’s form builder"
 msgstr ""
 
-#: ../../forms.rst:86
+#: ..\..\forms.rst:86
 msgid "Adding an existing workflow variable to a form"
 msgstr ""
 
-#: ../../forms.rst:101
+#: ..\..\forms.rst:103
 msgid ""
 "Select a field in the `Fields` section to open its configuration panel. The "
 "top row of the field configuration panel shows the field type label, the "
 "editable field name."
 msgstr ""
 
-#: ../../forms.rst:105
+#: ..\..\forms.rst:107
 msgid ""
 "To delete a field, click the delete button in the top-right corner, and "
 "click the confirmation tick mark button to confirm:"
 msgstr ""
 
-#: ../../forms.rst:111
+#: ..\..\forms.rst:113
 msgid "Deleting a form field"
 msgstr ""
 
-#: ../../forms.rst:115
+#: ..\..\forms.rst:117
 msgid ""
 "`Description` - an optional field description, shown via context-sensitive "
 "help icon"
 msgstr ""
 
-#: ../../forms.rst:131
+#: ..\..\forms.rst:133
 msgid "Choice fields have a `Options` - the list of values to choose between:"
 msgstr ""
 
-#: ../../forms.rst:135
+#: ..\..\forms.rst:137
 msgid "Choice field configuration"
 msgstr ""
 
-#: ../../forms.rst:137
+#: ..\..\forms.rst:139
 msgid ""
 "Date fields have a `Date/time` option for choosing between a date and time, "
 "just a date without a time of day, or just a time:"
 msgstr ""
 
-#: ../../forms.rst:141
+#: ..\..\forms.rst:143
 msgid "Date field configuration"
 msgstr ""
 
-#: ../../forms.rst:147
+#: ..\..\forms.rst:149
 msgid "User field configuration"
 msgstr ""
 
-#: ../../forms.rst:119
+#: ..\..\forms.rst:121
 msgid ""
 "`Allow entering multiple values` - specifies that the field has a list of "
 "values that you add and remove independently"
 msgstr ""
 
-#: ../../forms.rst:129
+#: ..\..\forms.rst:131
 msgid "Entering multiple field values in two text fields"
 msgstr ""
 
-#: ../../forms.rst:6
+#: ..\..\forms.rst:6
 msgid ""
 "In Effektif, you can use forms to enter information when you run a process. "
 "You can use forms in two places: form triggers and user tasks."
 msgstr ""
 
-#: ../../forms.rst:72
+#: ..\..\forms.rst:72
 msgid ""
 "Use the `Description` text area to provide initial instructions to people "
 "who complete the form. You can use `Markdown "
@@ -185,13 +185,13 @@ msgid ""
 "for example."
 msgstr ""
 
-#: ../../forms.rst:81
+#: ..\..\forms.rst:81
 msgid ""
 "The `Reuse a field` section lists variables that have already been defined "
 "on other forms, such as a trigger form:"
 msgstr ""
 
-#: ../../forms.rst:88
+#: ..\..\forms.rst:88
 msgid ""
 "Adding an existing field to a form makes it possible to view or update "
 "existing information, such as a user task form that you use to complete "
@@ -199,47 +199,47 @@ msgid ""
 "form."
 msgstr ""
 
-#: ../../forms.rst:95
+#: ..\..\forms.rst:97
 msgid "The `Fields` section shows the fields you add to a form:"
 msgstr ""
 
-#: ../../forms.rst:113
+#: ..\..\forms.rst:115
 msgid "You can also configure the following properties."
 msgstr ""
 
-#: ../../forms.rst:116
+#: ..\..\forms.rst:118
 msgid ""
 "`Initial value` - an optional default value that pre-populates the form "
 "field"
 msgstr ""
 
-#: ../../forms.rst:117
+#: ..\..\forms.rst:119
 msgid ""
 "`Read-only` - specifies that you cannot edit the value, used to display "
 "previously-entered information"
 msgstr ""
 
-#: ../../forms.rst:118
+#: ..\..\forms.rst:120
 msgid ""
 "`Mandatory` - specifies that you must enter a field value, so that you "
 "cannot complete the form without a value for this field"
 msgstr ""
 
-#: ../../forms.rst:121
+#: ..\..\forms.rst:123
 msgid ""
 "Text fields also have an additional `Multi-line` option that configures "
 "Effektif to display the form field as a multi-line text input area, for "
 "longer text values."
 msgstr ""
 
-#: ../../forms.rst:123
+#: ..\..\forms.rst:125
 msgid ""
 "When you enable the `Allow entering multiple values` option, the field "
 "appears differently on forms. Entering a value adds it to the list. Use the "
 "× icon to remove a value."
 msgstr ""
 
-#: ../../forms.rst:143
+#: ..\..\forms.rst:145
 msgid ""
 "User fields also have a `Candidates` option that you can use to choose which"
 " users you can assign:"

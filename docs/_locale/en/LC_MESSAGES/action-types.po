@@ -1,971 +1,706 @@
-# 
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Signavio GmbH
+# This file is distributed under the same license as the User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-17 10:39+0200\n"
+"POT-Creation-Date: 2016-04-13 15:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
 
 #: ../../action-types.rst:4
 msgid "Action Types"
 msgstr ""
 
-#: ../../action-types/user-task.rst:4 ../../action-types/user-task.rst:4
+#: ../../action-types.rst:6
+msgid ""
+"The :ref:`process-builder` displays actions as rounded rectangles. "
+"Actions typically have a configuration panel that opens when you select "
+"the action."
+msgstr ""
+
+#: ../../action-types/user-task.rst:4
 msgid "User task"
 msgstr ""
 
-#: ../../action-types/send-email.rst:2 ../../action-types/send-email.rst:2
-msgid "Send email"
-msgstr ""
-
-#: ../../action-types/google.rst:31 ../../action-types/google.rst:31
-msgid "Google Drive login"
-msgstr ""
-
-#: ../../action-types/google.rst:40 ../../action-types/google.rst:40
-msgid "Google Drive permission grant"
-msgstr ""
-
-#: ../../action-types/javascript.rst:2 ../../action-types/javascript.rst:2
-msgid "JavaScript action"
-msgstr ""
-
-#: ../../action-types/javascript.rst:12 ../../action-types/javascript.rst:12
-msgid "JavaScript configuration panel"
-msgstr ""
-
-#: ../../action-types/javascript.rst:24 ../../action-types/javascript.rst:24
-msgid "JavaScript test output"
-msgstr ""
-
-#: ../../action-types/javascript.rst:31 ../../action-types/javascript.rst:31
-msgid "Form taking input for JavaScript"
-msgstr ""
-
-#: ../../action-types/javascript.rst:33 ../../action-types/javascript.rst:33
-msgid ""
-"When you open the JavaScript configuration again, you'll see the variables "
-"section shows some of the form field variables."
-msgstr ""
-
-#: ../../action-types/javascript.rst:37 ../../action-types/javascript.rst:37
-msgid "JavaScript variables"
-msgstr ""
-
-#: ../../action-types/javascript.rst:46 ../../action-types/javascript.rst:46
-msgid "JavaScript test values"
-msgstr ""
-
-#: ../../action-types/javascript.rst:48 ../../action-types/javascript.rst:48
-msgid ""
-"When clicking `Test it` again, we can see the JSON structure of the variable"
-" data for the different variable types."
-msgstr ""
-
-#: ../../action-types/javascript.rst:52 ../../action-types/javascript.rst:52
-msgid "JavaScript JSON values"
-msgstr ""
-
-#: ../../action-types/user-task.rst:8 ../../action-types/user-task.rst:8
+#: ../../action-types/user-task.rst:8
 msgid "A user task in the process editor"
 msgstr ""
 
-#: ../../action-types/send-email.rst:6 ../../action-types/send-email.rst:6
-msgid "A send email task in the process editor"
-msgstr ""
-
-#: ../../action-types/google.rst:20 ../../action-types/google.rst:20
+#: ../../action-types/user-task.rst:10
 msgid ""
-"When you click on the button `Configure a Google Drive account`, a popup "
-"window will appear that helps you integrate Effektif with your Google Drive "
-"account."
+"A user task indicates that someone will perform a task. In the "
+"configuration form, you can specify the following optional details."
 msgstr ""
 
-#: ../../action-types/javascript.rst:54 ../../action-types/javascript.rst:54
-msgid ""
-"You can use these variables to send data to an external web service, using "
-"the `request module "
-"<https://github.com/mikeal/request/blob/master/README.md>`_. For example, "
-"the following script sends the value of the ``startDate`` variable in an "
-"HTTP POST request to an external web service. ::"
+#: ../../action-types/user-task.rst:13
+msgid "*General* - assign a task to a user or a :ref:`process role <roles>`."
 msgstr ""
 
-#: ../../action-types/javascript.rst:79 ../../action-types/javascript.rst:79
-msgid ""
-"This example uses a test endpoint configured using `Mocky "
-"<http://www.mocky.io/>`_ to return an HTTP response. This has the following "
-"result in the Effektif test console:"
+#: ../../action-types/user-task.rst:14
+msgid "*Form* - add a form to a task; submit the form to complete the task."
 msgstr ""
 
-#: ../../action-types/javascript.rst:85 ../../action-types/javascript.rst:85
-msgid "Updating a variable via an external web service"
-msgstr ""
-
-#: ../../action-types/javascript.rst:93 ../../action-types/javascript.rst:93
-msgid ""
-"The script then parses this JSON response using ``JSON.parse`` and updates "
-"the ``startDate`` variable in Effektif, as shown in the *Updated value* "
-"column in the test console’s variables table."
-msgstr ""
-
-#: ../../action-types/google.rst:10 ../../action-types/google.rst:10
-msgid ""
-"The Google Drive `Upload file` action sends one or more files to an account "
-"of your choice."
-msgstr ""
-
-#: ../../action-types/google.rst:15 ../../action-types/google.rst:84
-#: ../../action-types/google.rst:122 ../../action-types/box.rst:12
-#: ../../action-types/box.rst:12 ../../action-types/google.rst:15
-#: ../../action-types/google.rst:84 ../../action-types/google.rst:122
-msgid "Configuration"
-msgstr ""
-
-#: ../../action-types/google.rst:17 ../../action-types/google.rst:17
-msgid ""
-"After creating a Google Drive `Upload file` action, the configuration panel "
-"shows a button to start configuring the account."
-msgstr ""
-
-#: ../../action-types/google.rst:45 ../../action-types/box.rst:29
-#: ../../action-types/box.rst:29 ../../action-types/google.rst:45
-msgid "Upload file action"
-msgstr ""
-
-#: ../../action-types/google.rst:47 ../../action-types/google.rst:47
-msgid ""
-"Once you have configured your Google Drive account, the `Upload file` action"
-" configuration panel displays the account and also shows the folders in `My "
-"Drive` in your Google Drive account."
-msgstr ""
-
-#: ../../action-types/google.rst:53 ../../action-types/google.rst:53
-msgid "Google Drive `Upload file` authenticated configuration"
-msgstr ""
-
-#: ../../action-types/google.rst:79 ../../action-types/google.rst:79
-msgid ""
-"The Google Drive `Print File` action uses `Google Cloud Print "
-"<http://www.google.com/cloudprint/learn/>`_ to print a file that has been "
-"uploaded to a case."
-msgstr ""
-
-#: ../../action-types/google.rst:95 ../../action-types/google.rst:95
-msgid "Print file action"
-msgstr ""
-
-#: ../../action-types/google.rst:97 ../../action-types/google.rst:97
-msgid ""
-"Once you have configured your Google Drive account, the `Print file` action "
-"configuration panel displays the account, the printer settings, and the "
-"selected file to print."
-msgstr ""
-
-#: ../../action-types/google.rst:103 ../../action-types/google.rst:103
-msgid "Google Drive `Print file` authenticated configuration"
-msgstr ""
-
-#: ../../action-types/google.rst:105 ../../action-types/google.rst:105
-msgid ""
-"In the section `Files to upload` you can select the file variable that holds"
-" the file you want to print."
-msgstr ""
-
-#: ../../action-types/box.rst:2 ../../action-types/box.rst:2
-msgid "Box Upload file"
-msgstr ""
-
-#: ../../action-types/box.rst:6 ../../action-types/box.rst:6
-msgid "A box upload file task in the process editor"
-msgstr ""
-
-#: ../../action-types/box.rst:8 ../../action-types/box.rst:8
-msgid ""
-"The `Box <http://www.box.com/>`_ `Upload file` action saves one or more "
-"files to a Box account that you select."
-msgstr ""
-
-#: ../../action-types/box.rst:14 ../../action-types/box.rst:14
-msgid ""
-"After creating a Box `Upload file` action, the configuration panel shows a "
-"button to start configuring the account."
-msgstr ""
-
-#: ../../action-types/box.rst:24 ../../action-types/box.rst:24
-msgid "Box permission grant, after logging in to Box"
-msgstr ""
-
-#: ../../action-types/box.rst:31 ../../action-types/box.rst:31
-msgid ""
-"Once you have configured your Box account, the `Upload file` action "
-"configuration panel displays the account and also shows the folders in `All "
-"Files` in your Box account."
-msgstr ""
-
-#: ../../action-types/box.rst:37 ../../action-types/box.rst:37
-msgid "Box authenticated configuration"
-msgstr ""
-
-#: ../../action-types/box.rst:41 ../../action-types/box.rst:41
-msgid ""
-"On the configuration panel, next to `Target folder`, you can now browse and "
-"select the folder you want to upload the file(s) to."
-msgstr ""
-
-#: ../../action-types/google.rst:59 ../../action-types/box.rst:43
-#: ../../action-types/box.rst:43 ../../action-types/google.rst:59
-msgid ""
-"Next to `Folder name template`, you can optionally specify a subfolder name "
-"to create inside the target folder. This name template can include process "
-"variables, so you can create new subfolders dynamically to organise your "
-"files. For example, if your process variables include a unique customer ID, "
-"then you can use that to save each customer’s files in a separate folder. "
-"Use a forward slash (``/``) to separate nested subfolder levels."
-msgstr ""
-
-#: ../../action-types/user-task.rst:54 ../../action-types/user-task.rst:54
-msgid "Reminders"
-msgstr ""
-
-#: ../../action-types/user-task.rst:62 ../../action-types/user-task.rst:62
-msgid "Configuring user task reminders in the process editor"
-msgstr ""
-
-#: ../../action-types/user-task.rst:62 ../../action-types/user-task.rst:62
-msgid "Configuring user task reminders in the process editor"
-msgstr ""
-
-#: ../../action-types/user-task.rst:70 ../../action-types/user-task.rst:70
-msgid "Escalations"
-msgstr ""
-
-#: ../../action-types/user-task.rst:15 ../../action-types/user-task.rst:15
+#: ../../action-types/user-task.rst:15
 msgid "*Reminders* - task deadline notifications."
 msgstr ""
 
-#: ../../action-types/user-task.rst:16 ../../action-types/user-task.rst:16
+#: ../../action-types/user-task.rst:16
 msgid "*Escalations* -  automatic task reassignment."
 msgstr ""
 
-#: ../../action-types/user-task.rst:56 ../../action-types/user-task.rst:56
-msgid ""
-"Use the user task’s `Reminders` configuration panel tab to set up task "
-"deadline notifications. If you configure a `Due date` or `Reminder` period, "
-"then Effektif will send email when the deadline expires."
-msgstr ""
-
-#: ../../action-types/user-task.rst:72 ../../action-types/user-task.rst:72
-msgid ""
-"You can also use the :ref:`Reminders <reminders>` configuration panel tab to"
-" configure escalations. If you configure an `Escalation` period and an "
-"assignee, then Effektif will automatically reassign the task when the "
-"deadline expires, and send a notification to the new assignee."
-msgstr ""
-
-#: ../../action-types/user-task.rst:17 ../../action-types/user-task.rst:17
+#: ../../action-types/user-task.rst:17
 msgid "*Access Rights* - task permissions for users and groups."
 msgstr ""
 
-#: ../../action-types/user-task.rst:47 ../../action-types/user-task.rst:47
-msgid "Form"
+#: ../../action-types/user-task.rst:20
+msgid "General"
 msgstr ""
 
-#: ../../action-types/user-task.rst:81 ../../action-types/user-task.rst:81
-msgid "Access Rights"
-msgstr ""
-
-#: ../../action-types/user-task.rst:83 ../../action-types/user-task.rst:83
+#: ../../action-types/user-task.rst:22
 msgid ""
-"Use the `Access Rights` tab to set permissions for viewing, assigning and "
-"completing the task. See :ref:`Restricting access to user tasks <user-task-"
-"access>` for details."
+"Use the *General* tab to specify the task’s default assignee or "
+"candidates. You can select either individual users or organisation groups"
+" as candidates."
 msgstr ""
 
-#: ../../action-types/user-task.rst:27 ../../action-types/user-task.rst:27
+#: ../../action-types/user-task.rst:27
 msgid "Configuring user task assignment in the process editor"
 msgstr ""
 
-#: ../../action-types/user-task.rst:49 ../../action-types/user-task.rst:49
+#: ../../action-types/user-task.rst:29
 msgid ""
-"Use the form builder to create a user task form for entering and updating "
-"data as part of the user task."
+"You an also specify a role for the task’s assignment, like a BPMN swim "
+"lane, so that Effektif automatically assigns related tasks to the same "
+"person."
 msgstr ""
 
-#: ../../action-types/google.rst:4 ../../action-types/google.rst:4
-msgid "Google Drive - Upload file"
-msgstr ""
-
-#: ../../action-types/google.rst:8 ../../action-types/google.rst:8
-msgid "A Google Drive *Upload file* task in the process editor"
-msgstr ""
-
-#: ../../action-types/google.rst:73 ../../action-types/google.rst:73
-msgid "Google Drive - Print file"
-msgstr ""
-
-#: ../../action-types/google.rst:77 ../../action-types/google.rst:77
-msgid "A Google Drive *Print file* task in the process editor"
-msgstr ""
-
-#: ../../action-types/google.rst:112 ../../action-types/google.rst:112
-msgid "Google Drive - Add row to sheet"
-msgstr ""
-
-#: ../../action-types/google.rst:116 ../../action-types/google.rst:116
-msgid "A Google Drive *Add row to sheet* task in the process editor"
-msgstr ""
-
-#: ../../action-types/google.rst:118 ../../action-types/google.rst:118
-msgid ""
-"The Google Drive *Add row to sheet* action adds a row to a Google Sheets "
-"spreadsheet. You can use this to save the values of process variables at "
-"process milestones, and build a custom overview of cases."
-msgstr ""
-
-#: ../../action-types/google.rst:132 ../../action-types/google.rst:132
-msgid "Add row to sheet action"
-msgstr ""
-
-#: ../../action-types/google.rst:140 ../../action-types/google.rst:140
-msgid "Google Drive *Add row to sheet* authenticated configuration"
-msgstr ""
-
-#: ../../action-types/google.rst:134 ../../action-types/google.rst:134
-msgid ""
-"Once you have configured your Google Drive account, the *Add row to sheet* "
-"action configuration panel displays the account, the spreadsheet, the "
-"worksheet within the spreadsheet, and the worksheet columns."
-msgstr ""
-
-#: ../../action-types/google.rst:142 ../../action-types/google.rst:142
-msgid ""
-"Each column name, such as *Customer name* in this example, comes from a "
-"column heading in the spreadsheet. For each column, select one of the "
-":ref:`variables <variables>` from the list."
-msgstr ""
-
-#: ../../action-types/user-task.rst:34 ../../action-types/user-task.rst:34
+#: ../../action-types/user-task.rst:34
 msgid "Task name template"
 msgstr ""
 
-#: ../../action-types/user-task.rst:36 ../../action-types/user-task.rst:36
+#: ../../action-types/user-task.rst:36
 msgid ""
 "You can use task name templates to create dynamic task names from "
 ":ref:`variables <variables>`. Enter the task name template on the user "
-"task’s configuration panel’s *General* tab. In the text field, type a `#` to"
-" select a variable."
+"task’s configuration panel’s *General* tab. In the text field, type a `#`"
+" to select a variable."
 msgstr ""
 
-#: ../../action-types/user-task.rst:42 ../../action-types/user-task.rst:42
+#: ../../action-types/user-task.rst:42
 msgid "Using a task name template to configure dynamic task names"
 msgstr ""
 
-#: ../../action-types/user-task.rst:44 ../../action-types/user-task.rst:44
+#: ../../action-types/user-task.rst:44
 msgid ""
 "Use task name templates to avoid a :ref:`tasks` view that fills up with "
 "identically-named tasks."
 msgstr ""
 
-#: ../../action-types/send-email.rst:8 ../../action-types/send-email.rst:8
+#: ../../action-types/user-task.rst:49
+msgid "Form"
+msgstr ""
+
+#: ../../action-types/user-task.rst:51
+msgid ""
+"Use the form builder to create a user task form for entering and updating"
+" data as part of the user task."
+msgstr ""
+
+#: ../../action-types/user-task.rst:56
+msgid "Reminders"
+msgstr ""
+
+#: ../../action-types/user-task.rst:58
+msgid ""
+"Use the user task’s `Reminders` configuration panel tab to set up task "
+"deadline notifications. If you configure a `Due date` or `Reminder` "
+"period, then Effektif will send email when the deadline expires."
+msgstr ""
+
+#: ../../action-types/user-task.rst:64
+msgid "Configuring user task reminders in the process editor"
+msgstr ""
+
+#: ../../action-types/user-task.rst:66
+msgid ""
+"Effektif sends these notifications to the task’s assignee if the task has"
+" an assignee, or to all of the task’s candidates if the task it not "
+"assigned. If the task remains unassigned and does not have any "
+"candidates, Effektif sends the notification to the process’ owner."
+msgstr ""
+
+#: ../../action-types/user-task.rst:72
+msgid "Escalations"
+msgstr ""
+
+#: ../../action-types/user-task.rst:74
+msgid ""
+"You can also use the :ref:`Reminders <reminders>` configuration panel tab"
+" to configure escalations. If you configure an `Escalation` period and an"
+" assignee, then Effektif will automatically reassign the task when the "
+"deadline expires, and send a notification to the new assignee."
+msgstr ""
+
+#: ../../action-types/user-task.rst:79
+msgid ""
+"Sometimes, you don’t know who will take over a task that has passed its "
+"escalation deadline, so you choose one person in the process model. "
+"Instead, you can escalate task assignment to multiple people, or select a"
+" group."
+msgstr ""
+
+#: ../../action-types/user-task.rst:83
+msgid "Access Rights"
+msgstr ""
+
+#: ../../action-types/user-task.rst:85
+msgid ""
+"Use the `Access Rights` tab to set permissions for viewing, assigning and"
+" completing the task. See :ref:`Restricting access to user tasks <user-"
+"task-access>` for details."
+msgstr ""
+
+#: ../../action-types/send-email.rst:4
+msgid "Send email"
+msgstr ""
+
+#: ../../action-types/send-email.rst:8
+msgid "A send email task in the process editor"
+msgstr ""
+
+#: ../../action-types/send-email.rst:10
 msgid ""
 "The send email action sends an email to the specified user. In the "
 "configuration you can specify the following."
 msgstr ""
 
-#: ../../action-types/send-email.rst:32 ../../action-types/send-email.rst:32
-msgid ""
-"To add attachments, click the *Attachments* field and select a file field "
-"from the list. The list includes trigger email attachments and file upload "
-"form fields."
-msgstr ""
-
-#: ../../action-types/user-task.rst:20 ../../action-types/user-task.rst:20
-msgid "General"
-msgstr ""
-
-#: ../../action-types/user-task.rst:77 ../../action-types/user-task.rst:77
-msgid ""
-"Sometimes, you don’t know who will take over a task that has passed its "
-"escalation deadline, so you choose one person in the process model. Instead,"
-" you can escalate task assignment to multiple people, or select a group."
-msgstr ""
-
-#: ../../action-types/send-email.rst:13 ../../action-types/send-email.rst:13
+#: ../../action-types/send-email.rst:15
 msgid "Sender name"
 msgstr ""
 
-#: ../../action-types/send-email.rst:12 ../../action-types/send-email.rst:12
+#: ../../action-types/send-email.rst:14
 msgid ""
 "By default, Effektif sends the email with the `From` field set to "
-"*Effektif*. You can set this field to set the `From` field to your company "
-"or department name."
+"*Effektif*. You can set this field to set the `From` field to your "
+"company or department name."
 msgstr ""
 
-#: ../../action-types/send-email.rst:18 ../../action-types/send-email.rst:18
+#: ../../action-types/send-email.rst:20
 msgid "To"
 msgstr ""
 
-#: ../../action-types/send-email.rst:16 ../../action-types/send-email.rst:16
+#: ../../action-types/send-email.rst:18
 msgid ""
-"The people who Effektif sends the email to. You can enter one or more plain "
-"email addresses, or select email :ref:`variables <variables>` or users in "
-"the organization. Note that if you enter a plain email address, you must "
-"then select it from the pick list."
+"The people who Effektif sends the email to. You can enter one or more "
+"plain email addresses, or select email :ref:`variables <variables>` or "
+"users in the organization. Note that if you enter a plain email address, "
+"you must then select it from the pick list."
 msgstr ""
 
-#: ../../action-types/send-email.rst:22 ../../action-types/send-email.rst:22
+#: ../../action-types/send-email.rst:24
 msgid "Reply to"
 msgstr ""
 
-#: ../../action-types/send-email.rst:21 ../../action-types/send-email.rst:21
+#: ../../action-types/send-email.rst:23
 msgid ""
 "Effektif sends emails from the address `notifications@app.effektif.com`, "
 "which you cannot reply to. If you set this field to an alternative email "
 "address, you override the address for replies to the email."
 msgstr ""
 
-#: ../../action-types/send-email.rst:29 ../../action-types/send-email.rst:29
+#: ../../action-types/send-email.rst:31
 msgid "Subject"
 msgstr ""
 
-#: ../../action-types/send-email.rst:33 ../../action-types/send-email.rst:33
+#: ../../action-types/send-email.rst:27
+msgid ""
+"The email subject line. To use :ref:`variables <variables>` in the "
+"subject, type a `#` and select a field from the list. If the list "
+"contains too many variables, you can just keep typing after the `#` to "
+"filter the list. You can use the arrow keys to move the section, and "
+"*Enter* to select a field. To remove a variable, just delete it the same "
+"way you delete normal text."
+msgstr ""
+
+#: ../../action-types/send-email.rst:35
 msgid "Attachments"
 msgstr ""
 
-#: ../../action-types/send-email.rst:38 ../../action-types/send-email.rst:37
+#: ../../action-types/send-email.rst:34
+msgid ""
+"To add attachments, click the *Attachments* field and select a file field"
+" from the list. The list includes trigger email attachments and file "
+"upload form fields."
+msgstr ""
+
+#: ../../action-types/send-email.rst:40 ../../action-types/send-email.rst:39
 msgid "Body text"
 msgstr ""
 
-#: ../../action-types/send-email.rst:36 ../../action-types/send-email.rst:36
+#: ../../action-types/send-email.rst:38
 msgid ""
-"You can use variables in the main email body by typing a `#`, just like in "
-"the *Subject*. You can use `Markdown "
-"<http://daringfireball.net/projects/markdown/basics>`_ to format the email "
-"body by formatting text or including hyperlinks, headings or lists. Select "
-"the `Preview` tab to see how Effektif will format your email."
+"You can use variables in the main email body by typing a `#`, just like "
+"in the *Subject*. You can use `Markdown "
+"<http://daringfireball.net/projects/markdown/basics>`_ to format the "
+"email body by formatting text or including hyperlinks, headings or lists."
+" Select the `Preview` tab to see how Effektif will format your email."
 msgstr ""
 
-#: ../../action-types/box.rst:17 ../../action-types/box.rst:17
-msgid ""
-"When you click the `Configure a Box account` button, a popup window will "
-"open for you to authorise Effektif to use your Box account. After logging in"
-" to your Box account, if you have not already logged in, Box shows an "
-"authorization page."
+#: ../../action-types/google.rst:4
+msgid "Google Drive - Upload file"
 msgstr ""
 
-#: ../../action-types/box.rst:26 ../../action-types/box.rst:26
+#: ../../action-types/google.rst:8
+msgid "A Google Drive *Upload file* task in the process editor"
+msgstr ""
+
+#: ../../action-types/google.rst:10
 msgid ""
-"After granting access, the pop up will close and Effektif will have "
-"connected to your Box account."
+"The Google Drive `Upload file` action sends one or more files to an "
+"account of your choice."
+msgstr ""
+
+#: ../../action-types/google.rst:15 ../../action-types/google.rst:84
+#: ../../action-types/google.rst:122 ../../action-types/box.rst:12
+msgid "Configuration"
+msgstr ""
+
+#: ../../action-types/google.rst:17
+msgid ""
+"After creating a Google Drive `Upload file` action, the configuration "
+"panel shows a button to start configuring the account."
+msgstr ""
+
+#: ../../action-types/google.rst:20
+msgid ""
+"When you click on the button `Configure a Google Drive account`, a popup "
+"window will appear that helps you integrate Effektif with your Google "
+"Drive account."
+msgstr ""
+
+#: ../../action-types/google.rst:22
+msgid ""
+"Google will check that you have already logged in to Google. This check "
+"has three possible outcomes:"
+msgstr ""
+
+#: ../../action-types/google.rst:25
+msgid ""
+"If you have already authenticated with a single user to Google, the set-"
+"up process skips the log in page and you go straight to the "
+":ref:`permission screen <drive-permission>` below."
+msgstr ""
+
+#: ../../action-types/google.rst:27
+msgid "If you haven’t authenticated with Google, you will see a log in window:"
+msgstr ""
+
+#: ../../action-types/google.rst:31
+msgid "Google Drive login"
+msgstr ""
+
+#: ../../action-types/google.rst:33
+msgid ""
+"If you have authenticated with multiple Google accounts, select the "
+"account you want to use."
+msgstr ""
+
+#: ../../action-types/google.rst:35
+msgid ""
+"After you have completed authentication, you’ll see the following page "
+"that allows you to give Effektif access to your Google account."
+msgstr ""
+
+#: ../../action-types/google.rst:40
+msgid "Google Drive permission grant"
+msgstr ""
+
+#: ../../action-types/google.rst:42
+msgid ""
+"After accepting the permissions, the pop up will disappear and Effektif "
+"will have completed connecting to your account."
+msgstr ""
+
+#: ../../action-types/google.rst:45 ../../action-types/box.rst:29
+msgid "Upload file action"
+msgstr ""
+
+#: ../../action-types/google.rst:47
+msgid ""
+"Once you have configured your Google Drive account, the `Upload file` "
+"action configuration panel displays the account and also shows the "
+"folders in `My Drive` in your Google Drive account."
+msgstr ""
+
+#: ../../action-types/google.rst:53
+msgid "Google Drive `Upload file` authenticated configuration"
 msgstr ""
 
 #: ../../action-types/google.rst:55 ../../action-types/box.rst:39
-#: ../../action-types/box.rst:39 ../../action-types/google.rst:55
 msgid ""
 "Other people in your organization can see that you have configured an "
 "account, but they cannot see your email address or browse your account "
 "folders."
 msgstr ""
 
-#: ../../action-types.rst:6
+#: ../../action-types/google.rst:57
 msgid ""
-"The :ref:`process-builder` displays actions as rounded rectangles. Actions "
-"typically have a configuration panel that opens when you select the action."
+"In the `Target folder` section you can now browse and select the folder "
+"you want to upload the file(s) to."
 msgstr ""
 
-#: ../../action-types/user-task.rst:10 ../../action-types/user-task.rst:10
+#: ../../action-types/google.rst:59 ../../action-types/box.rst:43
 msgid ""
-"A user task indicates that someone will perform a task. In the configuration"
-" form, you can specify the following optional details."
-msgstr ""
-
-#: ../../action-types/user-task.rst:13 ../../action-types/user-task.rst:13
-msgid "*General* - assign a task to a user or a :ref:`process role <roles>`."
-msgstr ""
-
-#: ../../action-types/user-task.rst:14 ../../action-types/user-task.rst:14
-msgid "*Form* - add a form to a task; submit the form to complete the task."
-msgstr ""
-
-#: ../../action-types/user-task.rst:22 ../../action-types/user-task.rst:22
-msgid ""
-"Use the *General* tab to specify the task’s default assignee or candidates. "
-"You can select either individual users or organisation groups as candidates."
-msgstr ""
-
-#: ../../action-types/user-task.rst:29 ../../action-types/user-task.rst:29
-msgid ""
-"You an also specify a role for the task’s assignment, like a BPMN swim lane,"
-" so that Effektif automatically assigns related tasks to the same person."
-msgstr ""
-
-#: ../../action-types/user-task.rst:64 ../../action-types/user-task.rst:64
-msgid ""
-"Effektif sends these notifications to the task’s assignee if the task has an"
-" assignee, or to all of the task’s candidates if the task it not assigned. "
-"If the task remains unassigned and does not have any candidates, Effektif "
-"sends the notification to the process’ owner."
-msgstr ""
-
-#: ../../action-types/send-email.rst:25 ../../action-types/send-email.rst:25
-msgid ""
-"The email subject line. To use :ref:`variables <variables>` in the subject, "
-"type a `#` and select a field from the list. If the list contains too many "
-"variables, you can just keep typing after the `#` to filter the list. You "
-"can use the arrow keys to move the section, and *Enter* to select a field. "
-"To remove a variable, just delete it the same way you delete normal text."
-msgstr ""
-
-#: ../../action-types/google.rst:22 ../../action-types/google.rst:22
-msgid ""
-"Google will check that you have already logged in to Google. This check has "
-"three possible outcomes:"
-msgstr ""
-
-#: ../../action-types/google.rst:25 ../../action-types/google.rst:25
-msgid ""
-"If you have already authenticated with a single user to Google, the set-up "
-"process skips the log in page and you go straight to the :ref:`permission "
-"screen <drive-permission>` below."
-msgstr ""
-
-#: ../../action-types/google.rst:27 ../../action-types/google.rst:27
-msgid ""
-"If you haven’t authenticated with Google, you will see a log in window:"
-msgstr ""
-
-#: ../../action-types/google.rst:33 ../../action-types/google.rst:33
-msgid ""
-"If you have authenticated with multiple Google accounts, select the account "
-"you want to use."
-msgstr ""
-
-#: ../../action-types/google.rst:35 ../../action-types/google.rst:35
-msgid ""
-"After you have completed authentication, you’ll see the following page that "
-"allows you to give Effektif access to your Google account."
-msgstr ""
-
-#: ../../action-types/google.rst:42 ../../action-types/google.rst:42
-msgid ""
-"After accepting the permissions, the pop up will disappear and Effektif will"
-" have completed connecting to your account."
-msgstr ""
-
-#: ../../action-types/google.rst:57 ../../action-types/google.rst:57
-msgid ""
-"In the `Target folder` section you can now browse and select the folder you "
-"want to upload the file(s) to."
+"Next to `Folder name template`, you can optionally specify a subfolder "
+"name to create inside the target folder. This name template can include "
+"process variables, so you can create new subfolders dynamically to "
+"organise your files. For example, if your process variables include a "
+"unique customer ID, then you can use that to save each customer’s files "
+"in a separate folder. Use a forward slash (``/``) to separate nested "
+"subfolder levels."
 msgstr ""
 
 #: ../../action-types/google.rst:67 ../../action-types/box.rst:51
-#: ../../action-types/box.rst:51 ../../action-types/google.rst:67
 msgid ""
-"Next to `Files to upload`, you can select the variable field containing one "
-"or more files to upload. If the process did not already include a file "
-"variable, Effektif automatically creates a variable called 'File'. If the "
-"process variables did include a file or list of files, Effektif preselects "
-"it."
+"Next to `Files to upload`, you can select the variable field containing "
+"one or more files to upload. If the process did not already include a "
+"file variable, Effektif automatically creates a variable called 'File'. "
+"If the process variables did include a file or list of files, Effektif "
+"preselects it."
 msgstr ""
 
-#: ../../action-types/google.rst:86 ../../action-types/google.rst:86
+#: ../../action-types/google.rst:73
+msgid "Google Drive - Print file"
+msgstr ""
+
+#: ../../action-types/google.rst:77
+msgid "A Google Drive *Print file* task in the process editor"
+msgstr ""
+
+#: ../../action-types/google.rst:79
 msgid ""
-"After creating a Google Drive `Print file` action, the configuration panel "
-"shows a button to start configuring the account. This configuration has the "
-"same steps as in the `Upload file configuration <upload-file-"
+"The Google Drive `Print File` action uses `Google Cloud Print "
+"<http://www.google.com/cloudprint/learn/>`_ to print a file that has been"
+" uploaded to a case."
+msgstr ""
+
+#: ../../action-types/google.rst:86
+msgid ""
+"After creating a Google Drive `Print file` action, the configuration "
+"panel shows a button to start configuring the account. This configuration"
+" has the same steps as in the `Upload file configuration <upload-file-"
 "configuration>`_ (above)."
 msgstr ""
 
-#: ../../action-types/google.rst:90 ../../action-types/google.rst:90
+#: ../../action-types/google.rst:90
 msgid ""
-"When you have authenticated with a Google account and granted permission, "
-"you can configure the `Print file` action."
+"When you have authenticated with a Google account and granted permission,"
+" you can configure the `Print file` action."
 msgstr ""
 
-#: ../../action-types/google.rst:124 ../../action-types/google.rst:124
+#: ../../action-types/google.rst:95
+msgid "Print file action"
+msgstr ""
+
+#: ../../action-types/google.rst:97
 msgid ""
-"After creating a Google Drive *Add row to sheet* action, the configuration "
-"panel shows a button to start configuring the account. This configuration "
-"has the same steps as in the `Upload file configuration <upload-file-"
-"configuration>`_ (above)."
+"Once you have configured your Google Drive account, the `Print file` "
+"action configuration panel displays the account, the printer settings, "
+"and the selected file to print."
 msgstr ""
 
-#: ../../action-types/google.rst:128 ../../action-types/google.rst:128
+#: ../../action-types/google.rst:103
+msgid "Google Drive `Print file` authenticated configuration"
+msgstr ""
+
+#: ../../action-types/google.rst:105
 msgid ""
-"When you have authenticated with a Google account and granted permission, "
-"you can configure the *Add row to sheet* action."
+"In the section `Files to upload` you can select the file variable that "
+"holds the file you want to print."
 msgstr ""
 
-#: ../../action-types/javascript.rst:18 ../../action-types/javascript.rst:18
+#: ../../action-types/google.rst:112
+msgid "Google Drive - Add row to sheet"
+msgstr ""
+
+#: ../../action-types/google.rst:116
+msgid "A Google Drive *Add row to sheet* task in the process editor"
+msgstr ""
+
+#: ../../action-types/google.rst:118
 msgid ""
-"The lower section allows you to test the script. Click `Test it` to execute "
-"the JavaScript code. The test runner displays the results underneath:"
+"The Google Drive *Add row to sheet* action adds a row to a Google Sheets "
+"spreadsheet. You can use this to save the values of process variables at "
+"process milestones, and build a custom overview of cases."
 msgstr ""
 
-#: ../../action-types/javascript.rst:26 ../../action-types/javascript.rst:26
+#: ../../action-types/google.rst:124
 msgid ""
-"Next, we'll show how to work with data. Suppose that the process includes a "
-"form that has each type of field and looks like this:"
+"After creating a Google Drive *Add row to sheet* action, the "
+"configuration panel shows a button to start configuring the account. This"
+" configuration has the same steps as in the `Upload file configuration "
+"<upload-file-configuration>`_ (above)."
 msgstr ""
 
-#: ../../action-types/javascript.rst:39 ../../action-types/javascript.rst:39
+#: ../../action-types/google.rst:128
 msgid ""
-"Click `Show all fields` and select the variables you want to access in the "
-"script. In this example (below), you have selected all variables. For each "
-"variable that you select, you get an input field to specify a test value. "
-"Here you see all fields with a test value."
+"When you have authenticated with a Google account and granted permission,"
+" you can configure the *Add row to sheet* action."
 msgstr ""
 
-#: ../../action-types/javascript.rst:87 ../../action-types/javascript.rst:87
+#: ../../action-types/google.rst:132
+msgid "Add row to sheet action"
+msgstr ""
+
+#: ../../action-types/google.rst:134
 msgid ""
-"The two log statements, starting with *HTTP 200*, show the HTTP response "
-"from the web service. The response body (as set-up in Mocky) contains JSON "
-"data that includes an updated value for the ``startDate`` variable, changing"
-" the date from ``2015-06-15`` to ``2015-06-16``."
+"Once you have configured your Google Drive account, the *Add row to "
+"sheet* action configuration panel displays the account, the spreadsheet, "
+"the worksheet within the spreadsheet, and the worksheet columns."
 msgstr ""
 
-#: ../../action-types/sub-process.rst:4 ../../action-types/sub-process.rst:4
-msgid "Sub-process"
+#: ../../action-types/google.rst:140
+msgid "Google Drive *Add row to sheet* authenticated configuration"
 msgstr ""
 
-#: ../../action-types/sub-process.rst:8 ../../action-types/sub-process.rst:8
-msgid "A sub-process in the process editor"
-msgstr ""
-
-#: ../../action-types/sub-process.rst:17 ../../action-types/sub-process.rst:17
+#: ../../action-types/google.rst:142
 msgid ""
-"Using a sub-process to encapsulate a process that has a different process "
-"owner"
+"Each column name, such as *Customer name* in this example, comes from a "
+"column heading in the spreadsheet. For each column, select one of the "
+":ref:`variables <variables>` from the list."
 msgstr ""
 
-#: ../../action-types/sub-process.rst:10 ../../action-types/sub-process.rst:10
+#: ../../action-types/box.rst:2
+msgid "Box Upload file"
+msgstr ""
+
+#: ../../action-types/box.rst:6
+msgid "A box upload file task in the process editor"
+msgstr ""
+
+#: ../../action-types/box.rst:8
 msgid ""
-"A sub-process action represents an entire process as a single task. You can "
-"use sub-processes to simplify complex process models, by collapsing each "
-"sub-process into a single action. Then you can open the sub-process to see "
-"the next level of detail. You can also use sub-process to delegate "
-"responsibility for the process model to a different process owner."
+"The `Box <http://www.box.com/>`_ `Upload file` action saves one or more "
+"files to a Box account that you select."
 msgstr ""
 
-#: ../../action-types/sub-process.rst:19 ../../action-types/sub-process.rst:19
+#: ../../action-types/box.rst:14
 msgid ""
-"Configure the sub-process action in the process builder by selecting it, and"
-" choosing a process from the list. You cannot select the same process as the"
-" parent process, which would cause a loop, or an unpublished process."
+"After creating a Box `Upload file` action, the configuration panel shows "
+"a button to start configuring the account."
 msgstr ""
 
-#: ../../action-types/sub-process.rst:22 ../../action-types/sub-process.rst:22
+#: ../../action-types/box.rst:17
 msgid ""
-"When Effektif creates a sub-process, it starts a new case in the selected "
-"sub-process. After completing the sub-process case, Effektif continues "
-"executing the parent case."
+"When you click the `Configure a Box account` button, a popup window will "
+"open for you to authorise Effektif to use your Box account. After logging"
+" in to your Box account, if you have not already logged in, Box shows an "
+"authorization page."
 msgstr ""
 
-#: ../../action-types/javascript.rst:8 ../../action-types/javascript.rst:8
+#: ../../action-types/box.rst:24
+msgid "Box permission grant, after logging in to Box"
+msgstr ""
+
+#: ../../action-types/box.rst:26
+msgid ""
+"After granting access, the pop up will close and Effektif will have "
+"connected to your Box account."
+msgstr ""
+
+#: ../../action-types/box.rst:31
+msgid ""
+"Once you have configured your Box account, the `Upload file` action "
+"configuration panel displays the account and also shows the folders in "
+"`All Files` in your Box account."
+msgstr ""
+
+#: ../../action-types/box.rst:37
+msgid "Box authenticated configuration"
+msgstr ""
+
+#: ../../action-types/box.rst:41
+msgid ""
+"On the configuration panel, next to `Target folder`, you can now browse "
+"and select the folder you want to upload the file(s) to."
+msgstr ""
+
+#: ../../action-types/javascript.rst:4
+msgid "JavaScript action"
+msgstr ""
+
+#: ../../action-types/javascript.rst:6
+msgid ""
+"The JavaScript action allows developers to add JavaScript to process "
+"execution. Effektif runs the code on the server, using `Node.js "
+"<https://nodejs.org>`_. As well as Node.js’ JavaScript API, scripts can "
+"use the `lodash <https://www.npmjs.com/package/lodash>`_ and `request "
+"<https://www.npmjs.com/package/request>`_ libraries."
+msgstr ""
+
+#: ../../action-types/javascript.rst:10
 msgid ""
 "After creating or selecting a JavaScript action, the configuration panel "
 "looks like this:"
 msgstr ""
 
-#: ../../action-types/javascript.rst:14 ../../action-types/javascript.rst:14
+#: ../../action-types/javascript.rst:14
+msgid "JavaScript configuration panel"
+msgstr ""
+
+#: ../../action-types/javascript.rst:16
 msgid ""
 "The top section of the panel contains the JavaScript text editor. By "
 "default, it already contains ``console.log('Hello World!');``. Use the "
-"`console <https://nodejs.org/dist/latest-v5.x/docs/api/console.html>`_ API "
-"for log output when testing scripts."
+"`console <https://nodejs.org/dist/latest-v5.x/docs/api/console.html>`_ "
+"API for log output when testing scripts."
 msgstr ""
 
-#: ../../action-types/javascript.rst:4 ../../action-types/javascript.rst:4
+#: ../../action-types/javascript.rst:20
 msgid ""
-"The JavaScript action allows developers to add JavaScript to process "
-"execution. Effektif runs the code on the server, using `Node.js "
-"<https://nodejs.org>`_. As well as Node.js’ JavaScript API, scripts can use "
-"the `lodash <https://www.npmjs.com/package/lodash>`_ and `request "
-"<https://www.npmjs.com/package/request>`_ libraries."
+"The lower section allows you to test the script. Click `Test it` to "
+"execute the JavaScript code. The test runner displays the results "
+"underneath:"
+msgstr ""
+
+#: ../../action-types/javascript.rst:26
+msgid "JavaScript test output"
+msgstr ""
+
+#: ../../action-types/javascript.rst:28
+msgid ""
+"Next, we'll show how to work with data. Suppose that the process includes"
+" a form that has each type of field and looks like this:"
+msgstr ""
+
+#: ../../action-types/javascript.rst:33
+msgid "Form taking input for JavaScript"
+msgstr ""
+
+#: ../../action-types/javascript.rst:35
+msgid ""
+"When you open the JavaScript configuration again, you'll see the "
+"variables section shows some of the form field variables."
+msgstr ""
+
+#: ../../action-types/javascript.rst:39
+msgid "JavaScript variables"
+msgstr ""
+
+#: ../../action-types/javascript.rst:41
+msgid ""
+"Click `Show all fields` and select the variables you want to access in "
+"the script. In this example (below), you have selected all variables. For"
+" each variable that you select, you get an input field to specify a test "
+"value. Here you see all fields with a test value."
+msgstr ""
+
+#: ../../action-types/javascript.rst:48
+msgid "JavaScript test values"
+msgstr ""
+
+#: ../../action-types/javascript.rst:50
+msgid ""
+"When clicking `Test it` again, we can see the JSON structure of the "
+"variable data for the different variable types."
+msgstr ""
+
+#: ../../action-types/javascript.rst:54
+msgid "JavaScript JSON values"
+msgstr ""
+
+#: ../../action-types/javascript.rst:56
+msgid ""
+"You can use these variables to send data to an external web service, "
+"using the `request module "
+"<https://github.com/mikeal/request/blob/master/README.md>`_. For example,"
+" the following script sends the value of the ``startDate`` variable in an"
+" HTTP POST request to an external web service. ::"
+msgstr ""
+
+#: ../../action-types/javascript.rst:81
+msgid ""
+"This example uses a test endpoint configured using `Mocky "
+"<http://www.mocky.io/>`_ to return an HTTP response. This has the "
+"following result in the Effektif test console:"
+msgstr ""
+
+#: ../../action-types/javascript.rst:87
+msgid "Updating a variable via an external web service"
+msgstr ""
+
+#: ../../action-types/javascript.rst:89
+msgid ""
+"The two log statements, starting with *HTTP 200*, show the HTTP response "
+"from the web service. The response body (as set-up in Mocky) contains "
+"JSON data that includes an updated value for the ``startDate`` variable, "
+"changing the date from ``2015-06-15`` to ``2015-06-16``."
+msgstr ""
+
+#: ../../action-types/javascript.rst:95
+msgid ""
+"The script then parses this JSON response using ``JSON.parse`` and "
+"updates the ``startDate`` variable in Effektif, as shown in the *Updated "
+"value* column in the test console’s variables table."
+msgstr ""
+
+#: ../../action-types/sub-process.rst:4
+msgid "Sub-process"
+msgstr ""
+
+#: ../../action-types/sub-process.rst:8
+msgid "A sub-process in the process editor"
+msgstr ""
+
+#: ../../action-types/sub-process.rst:10
+msgid ""
+"A sub-process action represents an entire process as a single task. You "
+"can use sub-processes to simplify complex process models, by collapsing "
+"each sub-process into a single action. Then you can open the sub-process "
+"to see the next level of detail. You can also use sub-process to delegate"
+" responsibility for the process model to a different process owner."
+msgstr ""
+
+#: ../../action-types/sub-process.rst:17
+msgid ""
+"Configuring a sub-process and mapping an *Invoice* variable to a trigger "
+"form field"
+msgstr ""
+
+#: ../../action-types/sub-process.rst:19
+msgid ""
+"Configure the sub-process action in the process builder by selecting it, "
+"and choosing a process from the list. You cannot select the same process "
+"as the parent process, which would cause a loop, or an unpublished "
+"process."
+msgstr ""
+
+#: ../../action-types/sub-process.rst:22
+msgid ""
+"If you select a sub-process with a trigger form, you can also select "
+"variables that Effektif will use to auto-fill the trigger form fields "
+"when starting the sub-process case. In the example above, Effektif will "
+"populate the sub-process’ *Unpaid invoice* trigger form field with the "
+"file stored in the parent process’ *Invoice* variable."
+msgstr ""
+
+#: ../../action-types/sub-process.rst:25
+msgid ""
+"When Effektif creates a sub-process, it starts a new case in the selected"
+" sub-process. After completing the sub-process case, Effektif continues "
+"executing the parent case."
 msgstr ""
 
 #~ msgid ""
-#~ "The JavaScript action allows developers to add JavaScript to process "
-#~ "execution. Effektif runs the code on the server, using `Node.js "
-#~ "<https://nodejs.org>`_. As well as Node.js’ JavaScript API, developers can "
-#~ "use the `lodash <https://www.npmjs.com/package/lodash>`_ and `request "
-#~ "<https://www.npmjs.com/package/request>`_ libraries in scripts."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The JavaScript action allows developers to add JavaScript to process "
-#~ "execution. Effektif runs the code on the server, using `Node.js "
-#~ "<https://nodejs.org>`_. As well as the Node.js JavaScript API, developers "
-#~ "can use the `lodash <https://www.npmjs.com/package/lodash>`_ and `request "
-#~ "<https://www.npmjs.com/package/request>`_ libraries in scripts."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The top section of the panel contains the JavaScript text editor. By "
-#~ "default, it already contains ``console.log('Hello World!');``. Use `console "
-#~ "<https://nodejs.org/dist/latest-v5.x/docs/api/console.html>`_ for log output"
-#~ " when testing scripts scripts."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The top section of the panel contains the JavaScript text editor. By "
-#~ "default, it already contains ``console.log('Hello World!');``. Use `console`"
-#~ " for log output when testing scripts scripts."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The JavaScript action allows developers to add JavaScript to process "
-#~ "execution. Effektif runs the code on the server, using `Node.js "
-#~ "<https://nodejs.org>`_. As well as the Node.js JavaScript API, you can use "
-#~ "the `lodash <https://www.npmjs.com/package/lodash>`_ and `request "
-#~ "<https://www.npmjs.com/package/request>`_ libraries in your code."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The top section of the panel contains the JavaScript text editor. By "
-#~ "default, it already contains ``console.log('Hello World!');``. Use `console`"
-#~ " for log output when you test your scripts."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The top section of the panel contains the JavaScript text editor. By "
-#~ "default, it already contains ``console.log('Hello World!');``."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The JavaScript action allows developers to add JavaScript to process "
-#~ "execution. Effektif runs the code on the server, using `Node.js "
-#~ "<https://nodejs.org>`_."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The JavaScript action allows developers to add JavaScript to process "
-#~ "execution. After creating or selecting a JavaScript action, the "
-#~ "configuration panel looks like this:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "A sub-process action represents an entire process as a single task. You can "
-#~ "use sub-processes to simplify complex process models, by collapsing each "
-#~ "sub-process into a single action. Then you can open the sub-process to see "
-#~ "the next level detail. You can also use sub-process to delegate "
-#~ "responsibility for the process model to a different process owner."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Configure the sub-process action in the process builder by selecting it, and"
-#~ " choosing another published process from the list. You cannot select the "
-#~ "same process as the parent process, which would cause a loop, or an "
-#~ "unpublished process. When Effektif creates a sub-process, it starts a new "
-#~ "case in the selected sub-process. After completing the sub-process case, "
-#~ "Effektif continues executing the parent case."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "If you're already authenticated with a single user to Google, the login "
-#~ "screen is skipped and you go straight to the :ref:`permission screen <drive-"
-#~ "permission>` below."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "If you're not yet authenticated to Google in this browser yet, you'll get a "
-#~ "login window:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "If you're authenticated with multiple users to Google in this browser, "
-#~ "select the account you want to use."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "After authentication is complete, you'll see the following screen that "
-#~ "allows you to give Effektif access to your Google account."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Other people in your organization will be able to see that you have "
-#~ "configured an account, but they will not be able to see youro email address "
-#~ "or browse your account folders."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "In the section `Target folder` you can now browse and select the folder you "
-#~ "want to upload the file(s) to."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "In section `Files to upload`, you can select the variable field containing "
-#~ "one or more files to be uploaded. If there was no file variable, a variable "
-#~ "called 'File' is created automatically. If there was already a file or list "
-#~ "of files in the variables, it is preselected."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The top section of the panel is the JavaScript text editor. By default, it "
-#~ "already contains ``console.log('Hello World!');``."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The lower section allows you to test the script. Click `Test it` to execute "
-#~ "the JavaScript code. The results are displayed underneath:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Next, we'll show how to work with data. Suppose there is a form elsewhere in"
-#~ " the process that has each type of field and looks like this:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Click `Show all fields` and select the variables you want to access in the "
-#~ "script. In this example, all variables are selected. For each variable that "
-#~ "is selected, you get an input field to specify a test value. Here you see "
-#~ "all fields with a test value."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Google will perform a check if you're already logged in to Google in that "
-#~ "browser. There are 3 possible outcomes:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The two log statements, starting with *HTTP 200*, show the HTTP response "
-#~ "from the web service. The response body (as set-up in Mocky) is JSON data "
-#~ "that includes an updated value for the ``startDate`` variable, changing the "
-#~ "date from ``2015-06-15`` to ``2015-06-16``."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "After accepting the permissions, the pop up will disappear and the "
-#~ "connection with your account is established."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "When you have authenticated with a Google account and granted permission, "
-#~ "you are ready to configure the `Print file` action."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "After creating a Google Drive `Print file` action, the configuration panel "
-#~ "shows a button to start configuring the account. This configuration is the "
-#~ "same as in the `Upload file configuration <upload-file-configuration>`_ "
-#~ "(above)."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "*Form* - a task can be given a form. To complete the task, the form has to "
-#~ "be submitted."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Effektif sends these notifications to the task’s assignee if the task is "
-#~ "assigned, or to all of the task’s candidates if the task it not assigned. If"
-#~ " the task is unassigned and there are no candidates, Effektif sends the "
-#~ "notification to the process’ owner."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "A user task means a user has to perform a task. In the :ref:`case <cases>`, "
-#~ "a task will be created. In the configuration form, the following optional "
-#~ "details can be specified."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "You an also specify a role for the task’s assignment, like a BPMN swim lane,"
-#~ " so that related tasks are automatically assigned to the same person."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "After creating a Google Drive *Add row to sheet* action, the configuration "
-#~ "panel shows a button to start configuring the account. This configuration is"
-#~ " the same as in the `Upload file configuration <upload-file-configuration>`_"
-#~ " (above)."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "When you have authenticated with a Google account and granted permission, "
-#~ "you are ready to configure the *Add row to sheet* action."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Actions are displayed as rounded rectangles in the :ref:`process-builder`. "
-#~ "Actions typically have a configuration panel that opens when you select the "
-#~ "action."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "You an also specify a role for the task’s assignment, like a BPMN swim lane,"
-#~ " so that related tasks are automatically assigned to the same person."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "*Form* - a task can be given a form. To complete the task, the form has to "
-#~ "be submitted."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "A user task means a user has to perform a task. In the :ref:`case <cases>`, "
-#~ "a task will be created. In the configuration form, the following optional "
-#~ "details can be specified."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "*Form* - a task can be given a form. To complete the task, the form has to "
-#~ "be submitted."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "*General* - a task can be assigned to a user or a :ref:`process role "
-#~ "<roles>`."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Use the *General* tab to specify the task’s default assignee or candidates. "
-#~ "Candidates can be individual users or organisation groups."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The email subject line. To use :ref:`variables <variables>` in the subject, "
-#~ "type a `#` and select a field from the list. If the list is too long, you "
-#~ "can just keep typing after the `#` to filter the list. You can use the arrow"
-#~ " keys to move the section, and *Enter* to select a field. To remove a "
-#~ "variable, just delete it as if it’s normal text."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Next to `Files to upload`, you can select the variable field containing one "
-#~ "or more files to upload. If there was no file variable, a variable called "
-#~ "'File' is created automatically. If there was already a file or list of "
-#~ "files in the variables, it is preselected."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "When you click the `Configure a Box account` button, a popup window will "
-#~ "open for you to authorise Effektif to use your Box account. After logging in"
-#~ " to your Box account, if you are not already logged in, Box shows an "
-#~ "authorization page."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "After granting access, the pop up will close and Effektif will be connected "
-#~ "to your Box account."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Other people in your organization will be able to see that you have "
-#~ "configured an account, but they will not be able to see your email address "
-#~ "or browse your account folders."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Next to `Files to upload`, you can select the variable field containing one "
-#~ "or more files to be uploaded. If there was no file variable, a variable "
-#~ "called 'File' is created automatically. If there was already a file or list "
-#~ "of files in the variables, it is preselected."
 #~ msgstr ""
 
 #~ msgid "To:"
@@ -980,161 +715,10 @@ msgstr ""
 #~ msgid "Attachments:"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "The email subject line. To use :ref:`variables <variables>` in the subject, "
-#~ "type a `#` and select a field from the list. If the list is too long, you "
-#~ "can just keep typing after the `#` to narrow-down the list. You can use the "
-#~ "arrow keys to move the section, and *Enter* to select a field. To remove a "
-#~ "variable, just delete it as if it’s normal text."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "You can use variables in the main email body by typing a `#`, just like in "
-#~ "the *Subject*. You can use `Markdown "
-#~ "<http://daringfireball.net/projects/markdown/basics>`_ to format the email "
-#~ "body by formatting text or including hyperlinks, headings or lists."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The people to which the email is sent. You can type a plain email address, "
-#~ "select a variable, a variable field or a user in the organization."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "*Assignment* - a task can be assigned to a user or a :ref:`process role "
-#~ "<roles>`."
-#~ msgstr ""
-
 #~ msgid "Assignment"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Use the assignment tab to specify the task’s default assignee or candidates."
-#~ " Candidates can be individual users or organisation groups."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "*Assignment* - a task can be assigned to a user or a :ref:`process role "
-#~ "<roles>`."
-#~ msgstr ""
-
-#~ msgid "Assignment"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Use the assignment tab to specify the task’s default assignee or candidates."
-#~ " Candidates can be individual users or organisation groups."
-#~ msgstr ""
-
-#~ msgid "Assignment"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The send email action sends an email to the specified user. In the "
-#~ "configuration you can specify"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The subject of the email. To use process data in the subject, start by "
-#~ "typing a `#`. If the list of variable fields is too long, you can just keep "
-#~ "typing after the `#` to narrow the list. In combination, use the up and down"
-#~ " arrows to select the right field. Hit enter to select the field. To remove "
-#~ "variable fields from the subject, just delete it like it's normal text."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Just like in the subject, you can combine template text with variable fields"
-#~ " to Start by typing a `#`. See *Subject* above in this list for more details"
-#~ " instructions on using the `#`."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "To add attachments, click the attachments field. If there are files in the "
-#~ "workflow variables, they will be shown. Select one of the file variable "
-#~ "fields to add these as attachments to the mail."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "A user task means a user has to perform a task. In the :ref:`case <cases>`, "
-#~ "a task will be created. Use the configuration form to specify the following "
-#~ "optional details."
 #~ msgstr ""
 
 #~ msgid "*General* - assign a user or a :ref:`process role <roles>`."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "*Form* - add a form, which means submitting the form to complete the task."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "You can also specify a role for the task’s assignment, like a BPMN swim "
-#~ "lane, so that related tasks are automatically assigned to the same person. "
-#~ "For example, a meeting’s *Chairman* role applies to a single meeting’s "
-#~ "tasks, and isn’t anyone’s job title or a position defined within an "
-#~ "organisation. Like this *Chairman* role, an Effektif process defines roles "
-#~ "that you assign for each new case, and which do not usually correspond to "
-#~ "organisation job titles or groups."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "You can use variables in the main email body by typing a `#`, just like in "
-#~ "the *Subject*. You can use `Markdown "
-#~ "<http://daringfireball.net/projects/markdown/basics>`_ to format the email "
-#~ "body. You may find this useful for adding hyperlinks, headings and lists."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The send email action sends an email to the specified user. In the "
-#~ "configuration you can specify"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The subject of the email. To use process data in the subject, start by "
-#~ "typing a `#`. If the list of variable fields is too long, you can just keep "
-#~ "typing after the `#` to narrow the list. In combination, use the up and down"
-#~ " arrows to select the right field. Hit enter to select the field. To remove "
-#~ "variable fields from the subject, just delete it like it's normal text."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Just like in the subject, you can combine template text with variable fields"
-#~ " to Start by typing a `#`. See *Subject* above in this list for more details"
-#~ " instructions on using the `#`."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "To add attachments, click the attachments field. If there are files in the "
-#~ "workflow variables, they will be shown. Select one of the file variable "
-#~ "fields to add these as attachments to the mail."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "All actions are displayed as lines in the 'Simple action list' and as "
-#~ "rounded rectangles in the 'Advanced flows' view."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Actions typically have a configuration panel that opens up when you select "
-#~ "the action."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Each column name, such as *Customer name* in this example, comes from a "
-#~ "column heading in the spreadsheet. For each column, select one of the "
-#~ ":ref:`variables` from the list."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Each column name, such as *Customer name* in this example, comes from a "
-#~ "column heading in the spreadsheet. For each column, select one of the "
-#~ ":ref:`<variables>` from the list."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Once you have configured your Google Drive account, the *Add row to sheet* "
-#~ "action configuration panel displays the account, the spreadsheet, the "
-#~ "worksheet within the spreadsheet, and the worksheet column mappings."
 #~ msgstr ""
 
 #~ msgid "Google Drive Upload file"
@@ -1149,40 +733,6 @@ msgstr ""
 #~ msgid "A Google Drive print file task in the process editor"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "Use the *General* tab to specify the task’s default assignee or candidates. "
-#~ "Candidates can be individual users or organisation groups. If you specify a "
-#~ "default assignee, Effektif will automatically assign the task when creating "
-#~ "it. You can also specify multiple candidates, individually or using "
-#~ "organisation groups. Effektif sends :ref:`task created <task-created>` "
-#~ "notifications in both cases."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Use the assignment tab to specify the task’s assignee or candidates. If you "
-#~ "specify a default assignee, Effektif will automatically assign the task when"
-#~ " creating it. You can also specify multiple candidates, individually or "
-#~ "using organisation groups. Effektif sends :ref:`task created <task-created>`"
-#~ " notifications in both cases."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Use the **General** tab to specify the task’s default assignee or "
-#~ "candidates. Candidates can be individual users or organisation groups."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The JavaScript action allows developers to run a JavaScript to the process "
-#~ "execution. After creating or selecting a JavaScript action, the "
-#~ "configuration panel looks like this:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "A user task means a user has to perform a task. In the :ref:`case <cases>`, "
-#~ "a task will be created. In the configuration form, following optional "
-#~ "details can be specified:"
-#~ msgstr ""
-
 #~ msgid "Assignment:"
 #~ msgstr ""
 
@@ -1192,152 +742,39 @@ msgstr ""
 #~ msgid "Form:"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "A task can be given a form. To complete the task, the form has to be "
-#~ "submitted."
-#~ msgstr ""
-
 #~ msgid "Reminders:"
 #~ msgstr ""
 
 #~ msgid "Reminder emails and escalations."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "To add attachments, click the attachments field. If there are files in the "
-#~ "process variables, they will be shown. Select one of the file variable "
-#~ "fields to add these as attachments to the mail."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Use form builder to create a user task form for entering and updating data "
-#~ "as part of the user task."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "You can also use the `Reminders` configuration panel tab to configure "
-#~ "escalations. If you configure an `Escalation` period and an assignee, then "
-#~ "Effektif will automatically reassign the task when the deadline expires, and"
-#~ " send a notification to the new assignee."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Use the user task’s :ref:`Reminders <reminders>` configuration panel tab to "
-#~ "set up task deadline notifications. If you configure a `Due date` or "
-#~ "`Reminder` period, then Effektif will send email when the deadline expires."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "A user task means a user has to perform a task. In the :ref:`case <cases>`, "
-#~ "a task will be created. In the configuration form, the following optional "
-#~ "details can be specified:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "*Assignment* - a task can be assigned to a user or a :ref:`process role "
-#~ "<roles>`"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "*Reminders and escalations* - task deadline notification emails and "
-#~ "automatic reassignment."
 #~ msgstr ""
 
 #~ msgid "*Reminders* - reminder emails and escalations."
 #~ msgstr ""
 
-#~ msgid ""
-#~ "A user task means a user has to perform a task. In the :ref:`case <cases>`, "
-#~ "a task will be created. In the configuration form, following optional "
-#~ "details can be specified:"
-#~ msgstr ""
-
-#~ msgid "Assignment:"
-#~ msgstr ""
-
-#~ msgid "A task can be assigned to a user or a :ref:`process role <roles>`"
-#~ msgstr ""
-
-#~ msgid "Form:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "A task can be given a form. To complete the task, the form has to be "
-#~ "submitted."
-#~ msgstr ""
-
-#~ msgid "Reminders:"
-#~ msgstr ""
-
-#~ msgid "Reminder emails and escalations."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "After creating a Google Drive `Print file` action, the configuration panel "
-#~ "shows a button to start configuring the account. This configuration is the "
-#~ "same as in the `Upload file configuration upload-file-configuration_` "
-#~ "(above)."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "After creating a Google Drive `Print file` action, the configuration panel "
-#~ "shows a button to start configuring the account. This configuration is the "
-#~ "same as in the _`Upload file configuration <upload-file-configuration>` "
-#~ "(above)."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "After creating a Google Drive `Print file` action, the configuration panel "
-#~ "shows a button to start configuring the account. This configuration is the "
-#~ "same as in the `Upload file configuration <upload-file-configuration>` "
-#~ "(above)."
-#~ msgstr ""
-
 #~ msgid "Google Drive file upload"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The Google Drive file upload sends one or more files to an account of your "
-#~ "choice. After creating a Google Drive file upload action, the configuration "
-#~ "panel shows a button to start configuring the account."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "After accepting the permissions, the pop up will disappear and the "
-#~ "connection with your account is established. The Google Drive file upload "
-#~ "configuration will now display the account and also show the folders in 'My "
-#~ "Drive' in your Google Drive account."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "To add attachments, click the attachments field. If there are files in the "
-#~ "process variables, they will be shown. Select one of the file variable "
-#~ "fields to add these as attachments to the mail."
 #~ msgstr ""
 
 #~ msgid "Initial configuration file upload"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "When you click on the button `Configure a Google Drive account`, a popup "
-#~ "window will appear that helps you setup authentication and integrate "
-#~ "Effektif with your Google Drive account. The first screen shows what steps "
-#~ "that will happen in the authentication popup window."
-#~ msgstr ""
-
 #~ msgid "Google Drive authentication flow"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "After clicking `Click to continue`, the popup window will be redirected to "
-#~ "Google. Google will perform a check if you're already logged in to Google in"
-#~ " that browser. There are 3 possible outcomes:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "To show you the data structures, we've changed the JavaScript to print all "
-#~ "variables."
 #~ msgstr ""
 
 #~ msgid "JavaScript script"
 #~ msgstr ""
+
+#~ msgid ""
+#~ "The JavaScript action allows developers "
+#~ "to add JavaScript to process execution."
+#~ " After creating or selecting a "
+#~ "JavaScript action, the configuration panel "
+#~ "looks like this:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The top section of the panel "
+#~ "contains the JavaScript text editor. By"
+#~ " default, it already contains "
+#~ "``console.log('Hello World!');``."
+#~ msgstr ""
+

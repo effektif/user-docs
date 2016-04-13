@@ -7,16 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-28 18:28+0200\n"
-"PO-Revision-Date: 2016-03-30 15:30+0200\n"
+"POT-Creation-Date: 2016-04-13 15:11+0200\n"
+"PO-Revision-Date: 2016-04-13 11:08+0200\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.2.0\n"
-"Language: de\n"
-"X-Generator: Poedit 1.8.7\n"
 
 #: ../../profile.rst:4
 msgid "My profile"
@@ -24,12 +22,12 @@ msgstr "Mein Profil"
 
 #: ../../profile.rst:6
 msgid ""
-"On the top-right drop-down menu, select `My Profile` to view and edit your own "
-"Effektif user settings. The profile page has four sections:"
+"On the top-right drop-down menu, select `My Profile` to view and edit "
+"your own Effektif user settings. The profile page has four sections:"
 msgstr ""
-"Um Ihre persönlichen Effektif-Einstellungen einzusehen und zu ändern, wählen "
-"Sie in der oberen rechten Ecke des Nutzermenüs`Mein Profil`. Ihre Profilseite "
-"ist in vier Abschnitte unterteilt:"
+"Um Ihre persönlichen Effektif-Einstellungen einzusehen und zu ändern, "
+"wählen Sie in der oberen rechten Ecke des Nutzermenüs`Mein Profil`. Ihre "
+"Profilseite ist in vier Abschnitte unterteilt:"
 
 #: ../../profile.rst:10
 msgid ":ref:`Me <me>`"
@@ -53,8 +51,8 @@ msgstr "Ich"
 
 #: ../../profile.rst:20
 msgid ""
-"Use the `Me` section to update your user profile, including contact details and "
-"avatar image, or change your password."
+"Use the `Me` section to update your user profile, including contact "
+"details and avatar image, or change your password."
 msgstr ""
 "Im Abschnitt `Ich` können Sie Ihr Profil bearbeiten. Dazu gehört Ihre "
 "Kontaktadresse, sowie Ihr Profilbild. Sie können hier auch Ihr aktuelles "
@@ -66,11 +64,11 @@ msgstr "Einstellungen"
 
 #: ../../profile.rst:32
 msgid ""
-"Use the `Preferences` section to configure the Effektif user interface and "
-"notifications."
+"Use the `Preferences` section to configure the Effektif user interface "
+"and notifications."
 msgstr ""
-"In den `Einstellungen` können Sie festlegen in welcher Sprache Sie Effektif "
-"benutzen möchten. Des Weiteren haben Sie hier die Möglichkeit "
+"In den `Einstellungen` können Sie festlegen in welcher Sprache Sie "
+"Effektif benutzen möchten. Des Weiteren haben Sie hier die Möglichkeit "
 "Benachrichtigungen ein- bzw. abzuschalten. "
 
 #: ../../profile.rst:36
@@ -86,25 +84,58 @@ msgid ""
 "The `Organizations` section lists organizations that you belong to, and "
 "indicates whether you have the organization administrator role."
 msgstr ""
-"Unter `Organisationen` sehen Sie alle Organisationen, in denen Sie Mitglied "
-"sind. Hier können Sie auch nachvollziehen, in welchen Organisationen Sie "
-"Administratorrechte haben."
+"Unter `Organisationen` sehen Sie alle Organisationen, in denen Sie "
+"Mitglied sind. Hier können Sie auch nachvollziehen, in welchen "
+"Organisationen Sie Administratorrechte haben."
 
 #: ../../profile.rst:49
-msgid "You can use the leave icon to leave an organisation."
+msgid ""
+"You can use the leave icon to leave an organisation. When you leave an "
+"organisation, Effektif will:"
 msgstr ""
-"Um eine Organisation zu verlassen, klicken Sie auf das Icon rechts neben dem "
-"Organisationsnamen."
+"Sie können das Verlassen-Icon benutzen, um eine Organisation zu "
+"verlassen. Wenn Sie eine Organisation verlassen, wird Effektif:"
+
+#: ../../profile.rst:52
+msgid "remove you from the organisation’s groups"
+msgstr "Sie aus Gruppen der Organisation entfernen"
+
+#: ../../profile.rst:53
+msgid ""
+"remove you from process models (process owner, access controls, action "
+"candidates)"
+msgstr ""
+"Sie aus Prozessmodellen entfernen (Eigentümer, Zugriffsrechte, Aktions-"
+"Kandidaten)"
+
+#: ../../profile.rst:54
+msgid "unassign you from tasks in the organisation’s processes"
+msgstr "Sie aus Aufgaben der Prozesse dieser Organisation entfernen"
 
 #: ../../profile.rst:55
+msgid "remove your participation in cases of the organisation’s processes"
+msgstr "Ihre Beteiligung an Fällen in Prozessen der Organisation entfernen"
+
+#: ../../profile.rst:56
+msgid "free up one of the organisation’s Effektif licenses."
+msgstr "Ihre Effektif-Lizenz für die Organisation freigeben"
+
+#: ../../profile.rst:62
 msgid "Services"
 msgstr "Services"
 
-#: ../../profile.rst:57
+#: ../../profile.rst:64
 msgid ""
-"The `Services` section shows your personal configurations for third-party "
-"services, such as a linked Google Account."
+"The `Services` section shows your personal configurations for third-party"
+" services, such as a linked Google Account."
 msgstr ""
-"Im Bereich `Services` sehen Sie alle Dritt-Services, die Sie persönlich mit "
-"Effektif verknüpft haben. Sie können hier zentral Zugriff auf bestimmte "
-"Services mit Ihrem Account zurückziehen. "
+"Im Bereich `Services` sehen Sie alle Dritt-Services, die Sie persönlich "
+"mit Effektif verknüpft haben. Sie können hier zentral Zugriff auf "
+"bestimmte Services mit Ihrem Account zurückziehen. "
+
+#~ msgid "You can use the leave icon to leave an organisation."
+#~ msgstr ""
+#~ "Um eine Organisation zu verlassen, "
+#~ "klicken Sie auf das Icon rechts "
+#~ "neben dem Organisationsnamen."
+

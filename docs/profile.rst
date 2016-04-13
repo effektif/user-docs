@@ -47,6 +47,13 @@ and indicates whether you have the organization administrator role.
 .. figure:: /_static/images/profile/organizations.png
 
 You can use the leave icon to leave an organisation.
+When you leave an organisation, Effektif will:
+
+* remove you from the organisation’s groups
+* remove you from process models (process owner, access controls, action candidates)
+* unassign you from tasks in the organisation’s processes
+* remove your participation in cases of the organisation’s processes
+* free up one of the organisation’s Effektif licenses.
 
 
 .. _services:
