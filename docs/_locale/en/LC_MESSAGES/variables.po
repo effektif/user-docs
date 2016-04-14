@@ -43,15 +43,15 @@ msgstr ""
 msgid "Email type"
 msgstr ""
 
-#: ../../variables/data-types.rst:94 ../../variables/data-types.rst:94
+#: ../../variables/data-types.rst:96 ../../variables/data-types.rst:96
 msgid "ID type"
 msgstr ""
 
-#: ../../variables/data-types.rst:104 ../../variables/data-types.rst:104
+#: ../../variables/data-types.rst:106 ../../variables/data-types.rst:106
 msgid "Object types"
 msgstr ""
 
-#: ../../variables/data-types.rst:113 ../../variables/data-types.rst:113
+#: ../../variables/data-types.rst:115 ../../variables/data-types.rst:115
 msgid "List type"
 msgstr ""
 
@@ -79,21 +79,21 @@ msgstr ""
 msgid "An email has a composite type, with the properties:"
 msgstr ""
 
-#: ../../variables/data-types.rst:96 ../../variables/data-types.rst:96
+#: ../../variables/data-types.rst:98 ../../variables/data-types.rst:98
 msgid ""
 "An ID has special kind of string type. Effektif creates these IDs to "
 "identify objects; they have no other meaning. An ID string looks like "
 "``53fae958036471cea136ea83``."
 msgstr ""
 
-#: ../../variables/data-types.rst:106 ../../variables/data-types.rst:106
+#: ../../variables/data-types.rst:108 ../../variables/data-types.rst:108
 msgid ""
 "Objects have a composite type, with a list of named fields. For example: a "
 "user has an object type, with fields such as ``firstName``, ``lastName``, "
 "``mailAddress``."
 msgstr ""
 
-#: ../../variables/data-types.rst:115 ../../variables/data-types.rst:115
+#: ../../variables/data-types.rst:117 ../../variables/data-types.rst:117
 msgid ""
 "A list simply represents a collection of values. The list has an order and "
 "all elements have a single specified type."
@@ -183,29 +183,19 @@ msgstr ""
 msgid "The unique identifier for this user (:ref:`type-id`)"
 msgstr ""
 
-#: ../../variables/data-types.rst:58 ../../variables/data-types.rst:58
+#: ../../variables/data-types.rst:59 ../../variables/data-types.rst:59
 msgid "The user’s first name (:ref:`type-text`)"
 msgstr ""
 
-#: ../../variables/data-types.rst:59 ../../variables/data-types.rst:59
+#: ../../variables/data-types.rst:60 ../../variables/data-types.rst:60
 msgid "The user’s last name (:ref:`type-text`)"
 msgstr ""
 
-#: ../../variables/data-types.rst:86 ../../variables/data-types.rst:86
-msgid "The plain text message (:ref:`type-text`)"
-msgstr ""
-
-#: ../../variables/data-types.rst:87 ../../variables/data-types.rst:87
+#: ../../variables/data-types.rst:89 ../../variables/data-types.rst:89
 msgid "The HTML code for an HTML email (optional, :ref:`type-text`)"
 msgstr ""
 
-#: ../../variables/data-types.rst:88 ../../variables/data-types.rst:88
-msgid ""
-"The files to attach to the email (:ref:`List <type-list>` of :ref:`type-"
-"file`)"
-msgstr ""
-
-#: ../../variables/data-types.rst:60 ../../variables/data-types.rst:60
+#: ../../variables/data-types.rst:58 ../../variables/data-types.rst:58
 msgid "The user’s email address (:ref:`type-email-address`)"
 msgstr ""
 
@@ -217,20 +207,10 @@ msgstr ""
 msgid "The sender email address (:ref:`type-email-address`)"
 msgstr ""
 
-#: ../../variables/data-types.rst:83 ../../variables/data-types.rst:83
+#: ../../variables/data-types.rst:84 ../../variables/data-types.rst:84
 msgid ""
 "The email addresses of the recipients (:ref:`List <type-list>` of :ref"
 ":`type-email-address`)"
-msgstr ""
-
-#: ../../variables/data-types.rst:84 ../../variables/data-types.rst:84
-msgid ""
-"Email addresses that receive a copy of the message (:ref:`List <type-list>` "
-"of :ref:`type-email-address`)"
-msgstr ""
-
-#: ../../variables/data-types.rst:85 ../../variables/data-types.rst:85
-msgid "The subject of the email (:ref:`type-text`)"
 msgstr ""
 
 #: ../../variables.rst:20
@@ -322,6 +302,58 @@ msgid ""
 "*Handle customer order* process, you could use the case number as a "
 "generated order reference, for example."
 msgstr ""
+
+#: ../../variables/data-types.rst:83 ../../variables/data-types.rst:83
+msgid "The sender’s display name (optional, :ref:`type-text`)"
+msgstr ""
+
+#: ../../variables/data-types.rst:85 ../../variables/data-types.rst:85
+msgid ""
+"The email address to send replies to (optional, :ref:`type-email-address`)"
+msgstr ""
+
+#: ../../variables/data-types.rst:86 ../../variables/data-types.rst:86
+msgid ""
+"Email addresses that receive a copy of the message (optional, :ref:`List "
+"<type-list>` of :ref:`type-email-address`)"
+msgstr ""
+
+#: ../../variables/data-types.rst:87 ../../variables/data-types.rst:87
+msgid "The subject of the email (optional, :ref:`type-text`)"
+msgstr ""
+
+#: ../../variables/data-types.rst:88 ../../variables/data-types.rst:88
+msgid "The plain text message (optional, :ref:`type-text`)"
+msgstr ""
+
+#: ../../variables/data-types.rst:90 ../../variables/data-types.rst:90
+msgid ""
+"The files to attach to the email (optional, :ref:`List <type-list>` of :ref"
+":`type-file`)"
+msgstr ""
+
+#~ msgid "The plain text message (:ref:`type-text`)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The files to attach to the email (:ref:`List <type-list>` of :ref:`type-"
+#~ "file`)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Email addresses that receive a copy of the message (:ref:`List <type-list>` "
+#~ "of :ref:`type-email-address`)"
+#~ msgstr ""
+
+#~ msgid "The subject of the email (:ref:`type-text`)"
+#~ msgstr ""
+
+#~ msgid "The sender’s optional display name (:ref:`type-text`)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The optional email address to send replies to (:ref:`type-email-address`)"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "The *Name* field (:ref:`type-text`) stores the name that either the :ref"
