@@ -14,6 +14,14 @@ This can use references to variables, or to fields inside composite variables.
 The user interface guides you and shows the options you have.
 
 
+.. _type-choice:
+
+Choice type
+^^^^^^^^^^^
+
+The *Choice* type stores a text value from a fixed list of configured options.
+
+
 .. _type-date:
 
 Date type
@@ -71,6 +79,14 @@ Effektif creates these IDs to identify objects; they have no other meaning.
 An ID string looks like ``53fae958036471cea136ea83``.
 
 
+.. _type-link:
+
+Link type
+^^^^^^^^^
+
+The *Link* type stores an Internet address (URL), such as a web site address.
+
+
 .. _type-list:
 
 List type
@@ -78,6 +94,14 @@ List type
 
 A list simply represents a collection of values.
 The list has an order and all elements have a single specified type.
+
+
+.. _type-money:
+
+Money type
+^^^^^^^^^
+
+The *Money* type stores a currency amount for a particular currency.
 
 
 .. _type-number:
@@ -118,3 +142,11 @@ A user has an object type, with the following properties:
 :Email address: The user’s email address (:ref:`type-email-address`)
 :First name: The user’s first name (:ref:`type-text`)
 :Last name: The user’s last name (:ref:`type-text`)
+
+
+.. _type-checkbox:
+
+Yes/No Checkbox type
+^^^^^^^^^^^^^^^^^^^^
+
+The *Yes/No Checkbox* type stores a single value that represents either *Yes* or *No*.
