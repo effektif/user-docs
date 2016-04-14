@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-28 18:28+0200\n"
-"PO-Revision-Date: 2016-04-12 14:47+0200\n"
+"PO-Revision-Date: 2016-04-14 14:05+0200\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -30,63 +30,63 @@ msgstr "Datentypen"
 msgid "When using expressions or configuring some action, you refer to workflow data. This can use references to variables, or to fields inside composite variables. The user interface guides you and shows the options you have."
 msgstr "Wenn Sie Aktionen konfigurieren, referenzieren Sie Workflowdaten. Dies können Referenzen zu Variablen selbst oder Feldern innerhalb der Variablen sein. Die Nutzeroberfläche hilft Ihnen bei dieser Auswahl und zeigt jeweils alle verfügbaren Optionen auf. "
 
-#: ..\..\variables\data-types.rst:44 ..\..\variables\data-types.rst:44
+#: ..\..\variables\data-types.rst:67 ..\..\variables\data-types.rst:67
 msgid "File type"
 msgstr "Dateityp"
 
-#: ..\..\variables\data-types.rst:46 ..\..\variables\data-types.rst:46
+#: ..\..\variables\data-types.rst:69 ..\..\variables\data-types.rst:69
 msgid "The *file* type stores a file."
 msgstr "Der Typ *Datei* referenziert Dateien"
 
-#: ..\..\variables\data-types.rst:52 ..\..\variables\data-types.rst:52
+#: ..\..\variables\data-types.rst:136 ..\..\variables\data-types.rst:136
 msgid "User type"
 msgstr "Nutzer-Typ"
 
-#: ..\..\variables\data-types.rst:54 ..\..\variables\data-types.rst:54
+#: ..\..\variables\data-types.rst:138 ..\..\variables\data-types.rst:138
 msgid "A variable of type *user* refers to a user in your organization. A user has an object type, with the following properties:"
 msgstr "Variablen vom Typ *Nutzer* referenzierten Nutzer innerhalb Ihrer Organisation. Nutzer-Variablen haben erhalten die folgenden Felder:"
 
-#: ..\..\variables\data-types.rst:65 ..\..\variables\data-types.rst:65
+#: ..\..\variables\data-types.rst:59 ..\..\variables\data-types.rst:59
 msgid "Email address type"
-msgstr "Emailadressen-Typ"
+msgstr "E-Mail-Adressen-Typ"
 
-#: ..\..\variables\data-types.rst:67 ..\..\variables\data-types.rst:67
+#: ..\..\variables\data-types.rst:61 ..\..\variables\data-types.rst:61
 msgid "The *email address* type stores an email address."
-msgstr "Der Typ *Emailadresse* enthält Emailadressen."
+msgstr "Der Typ *E-Mail-Adresse* enthält E-Mail-Adressen."
 
-#: ..\..\variables\data-types.rst:73 ..\..\variables\data-types.rst:73
+#: ..\..\variables\data-types.rst:36 ..\..\variables\data-types.rst:36
 msgid "Email type"
-msgstr "Email-Typ"
+msgstr "E-Mail-Typ"
+
+#: ..\..\variables\data-types.rst:38 ..\..\variables\data-types.rst:38
+msgid "The *email type* stores an email, which the email trigger uses. A variable stores the email that triggers the process. You can use the email’s data fields, such as *from address* or the attachments, later in the process."
+msgstr "Der Typ *E-Mail* enthält alle Informationen über eine bestimmte Email. Dieser Typ wird zum Beispiel vom Email-Auslöser verwendet um Daten über die eingetroffene Email zur Verfügung zu stellen. Dadurch können Informationen, wie zum Beispiel der Absender oder die Anhänge im Workflow verwendet werden."
+
+#: ..\..\variables\data-types.rst:42 ..\..\variables\data-types.rst:42
+msgid "An email has a composite type, with the properties:"
+msgstr "E-Mails enthalten die folgenden Felder:"
 
 #: ..\..\variables\data-types.rst:75 ..\..\variables\data-types.rst:75
-msgid "The *email type* stores an email, which the email trigger uses. A variable stores the email that triggers the process. You can use the email’s data fields, such as *from address* or the attachments, later in the process."
-msgstr "Der Typ *Email* enthält alle Informationen über eine bestimmte Email. Dieser Typ wird zum Beispiel vom Email-Auslöser verwendet um Daten über die eingetroffene Email zur Verfügung zu stellen. Dadurch können Informationen, wie zum Beispiel der Absender oder die Anhänge im Workflow verwendet werden."
-
-#: ..\..\variables\data-types.rst:79 ..\..\variables\data-types.rst:79
-msgid "An email has a composite type, with the properties:"
-msgstr "Emails enthalten die folgenden Felder:"
-
-#: ..\..\variables\data-types.rst:94 ..\..\variables\data-types.rst:94
 msgid "ID type"
 msgstr "ID-Typ"
 
-#: ..\..\variables\data-types.rst:96 ..\..\variables\data-types.rst:96
+#: ..\..\variables\data-types.rst:77 ..\..\variables\data-types.rst:77
 msgid "An ID has special kind of string type. Effektif creates these IDs to identify objects; they have no other meaning. An ID string looks like ``53fae958036471cea136ea83``."
 msgstr "Ins werden genutzt um Ressourcen eindeutig identifizieren zu können. Sie werden ausschließlich von Effektif erzeugt und haben keine weitere Bedeutung. Ein Beispiel für eine ID ist ``53fae958036471cea136ea83``."
 
-#: ..\..\variables\data-types.rst:104 ..\..\variables\data-types.rst:104
+#: ..\..\variables\data-types.rst:118 ..\..\variables\data-types.rst:118
 msgid "Object types"
 msgstr "Objekt-Typen"
 
-#: ..\..\variables\data-types.rst:106 ..\..\variables\data-types.rst:106
+#: ..\..\variables\data-types.rst:120 ..\..\variables\data-types.rst:120
 msgid "Objects have a composite type, with a list of named fields. For example: a user has an object type, with fields such as ``firstName``, ``lastName``, ``mailAddress``."
 msgstr "Objekt-Typen sind zusammengesetzte Typen, die verschiedene Felder beinhalten. Ein Nutzer ist zum Beispiel ein Objekt mit Felder wie ``firstName``, ``lastName`` und ``mailAddress``."
 
-#: ..\..\variables\data-types.rst:113 ..\..\variables\data-types.rst:113
+#: ..\..\variables\data-types.rst:93 ..\..\variables\data-types.rst:93
 msgid "List type"
 msgstr "Listen-Typ"
 
-#: ..\..\variables\data-types.rst:115 ..\..\variables\data-types.rst:115
+#: ..\..\variables\data-types.rst:95 ..\..\variables\data-types.rst:95
 msgid "A list simply represents a collection of values. The list has an order and all elements have a single specified type."
 msgstr "Eine Liste fasst mehrere Objekte zusammen. Listen sind immer sortiert und beinhalten Elemente eines bestimmten Typs."
 
@@ -182,77 +182,136 @@ msgstr "Das *Link*-Feld enthält die Webadresse der Fallseite in Effektif. Sie k
 msgid "Variables store workflow information. Each variable has a user-defined name and a type. A type can represent a single value, like text or an email address. ‘Composite’ types such as user, file or email consist of several values. Composite types have a list of fields."
 msgstr "Variablen enthalten Workflow-Information. Jede Variable hat einen nutzerdefinierten Namen und Typen. Ein Typ kann ein einzelner Wert sein, wie Text oder eine E-Mail Adresse. Zusammengesetzte Typen, wie Nutzer-, Datei- oder E-Mail-Typen, besitzen mehrere Werte Zusammengesetzte Typen bestehen aus Listen mit Feldern."
 
-#: ..\..\variables\data-types.rst:20 ..\..\variables\data-types.rst:20
+#: ..\..\variables\data-types.rst:28 ..\..\variables\data-types.rst:28
 msgid "Date type"
 msgstr "Datumstyp"
 
-#: ..\..\variables\data-types.rst:22 ..\..\variables\data-types.rst:22
+#: ..\..\variables\data-types.rst:30 ..\..\variables\data-types.rst:30
 msgid "The *Date* type stores a date, or a date and a time of day."
 msgstr "Der *Datumstyp* enthält ein Datum, oder ein Datum und eine Tageszeit."
 
-#: ..\..\variables\data-types.rst:28 ..\..\variables\data-types.rst:28
+#: ..\..\variables\data-types.rst:110 ..\..\variables\data-types.rst:110
 msgid "Number type"
 msgstr "Zahl-Typ"
 
-#: ..\..\variables\data-types.rst:30 ..\..\variables\data-types.rst:30
+#: ..\..\variables\data-types.rst:112 ..\..\variables\data-types.rst:112
 msgid "The *Number* type stores a number."
 msgstr "Der *Zahl*-Typ beinhaltet eine Zahl"
 
-#: ..\..\variables\data-types.rst:36 ..\..\variables\data-types.rst:36
+#: ..\..\variables\data-types.rst:128 ..\..\variables\data-types.rst:128
 msgid "Text type"
 msgstr "Text-Typ"
 
-#: ..\..\variables\data-types.rst:38 ..\..\variables\data-types.rst:38
+#: ..\..\variables\data-types.rst:130 ..\..\variables\data-types.rst:130
 msgid "The *Text* type stores plain text."
 msgstr "Der *Text*-Typ speichert Klartext."
 
-#: ..\..\variables\data-types.rst:57 ..\..\variables\data-types.rst:57
+#: ..\..\variables\data-types.rst:141 ..\..\variables\data-types.rst:141
 msgid "The unique identifier for this user (:ref:`type-id`)"
 msgstr "Der einzigartige Identifikator für diesen Nutzer (:ref:`type-id`)"
 
-#: ..\..\variables\data-types.rst:58 ..\..\variables\data-types.rst:58
+#: ..\..\variables\data-types.rst:143 ..\..\variables\data-types.rst:143
 msgid "The user’s first name (:ref:`type-text`)"
 msgstr "Der Vorname des Nutzers (:ref:`type-text`)"
 
-#: ..\..\variables\data-types.rst:59 ..\..\variables\data-types.rst:59
+#: ..\..\variables\data-types.rst:144 ..\..\variables\data-types.rst:144
 msgid "The user’s last name (:ref:`type-text`)"
 msgstr "Der Nachname des Nutzers (:ref:`type-text`)"
 
-#: ..\..\variables\data-types.rst:60 ..\..\variables\data-types.rst:60
+#: ..\..\variables\data-types.rst:142 ..\..\variables\data-types.rst:142
 msgid "The user’s email address (:ref:`type-email-address`)"
 msgstr "Die E-Mail-Adresse des Nutzers (:ref:`type-email-address`)"
 
-#: ..\..\variables\data-types.rst:81 ..\..\variables\data-types.rst:81
+#: ..\..\variables\data-types.rst:44 ..\..\variables\data-types.rst:44
 msgid "The unique identifier for this email (:ref:`type-id`)"
 msgstr "Der individuelle Identitätscode für diese E-Mail (:ref:`type-id`)"
 
-#: ..\..\variables\data-types.rst:82 ..\..\variables\data-types.rst:82
+#: ..\..\variables\data-types.rst:45 ..\..\variables\data-types.rst:45
 msgid "The sender email address (:ref:`type-email-address`)"
 msgstr "Die E-Mail-Adresse des Senders (:ref:`type-email-address`)"
 
-#: ..\..\variables\data-types.rst:83 ..\..\variables\data-types.rst:83
+#: ..\..\variables\data-types.rst:47 ..\..\variables\data-types.rst:47
 msgid "The email addresses of the recipients (:ref:`List <type-list>` of :ref:`type-email-address`)"
 msgstr "Die E-Mail-Adressen der Empfänger (:ref:`List <type-list>` vom  :ref:`type-email-address`)"
 
-#: ..\..\variables\data-types.rst:84 ..\..\variables\data-types.rst:84
-msgid "Email addresses that receive a copy of the message (:ref:`List <type-list>` of :ref:`type-email-address`)"
-msgstr "Email Adressen in CC (:ref:`List <type-list>` of :ref:`type-email-address`)"
-
-#: ..\..\variables\data-types.rst:85 ..\..\variables\data-types.rst:85
-msgid "The subject of the email (:ref:`type-text`)"
-msgstr "Die Kopfzeile der E-Mail (:ref:`type-text`)"
-
-#: ..\..\variables\data-types.rst:86 ..\..\variables\data-types.rst:86
-msgid "The plain text message (:ref:`type-text`)"
-msgstr "Der Klartext der E-Mail (:ref:`type-text`)"
-
-#: ..\..\variables\data-types.rst:87 ..\..\variables\data-types.rst:87
+#: ..\..\variables\data-types.rst:52 ..\..\variables\data-types.rst:52
 msgid "The HTML code for an HTML email (optional, :ref:`type-text`)"
 msgstr "Der HTML-formatierte Inhalt der E-Mail (optional, :ref:`type-text`)"
 
-#: ..\..\variables\data-types.rst:88 ..\..\variables\data-types.rst:88
-msgid "The files to attach to the email (:ref:`List <type-list>` of :ref:`type-file`)"
-msgstr "Die Dateien, die an eine Email anzuhängen sind (:ref:`List <type-list>` von :ref:`type-file`)"
+#: ..\..\variables\data-types.rst:20 ..\..\variables\data-types.rst:20
+msgid "Choice type"
+msgstr "Auswahl-Typ"
+
+#: ..\..\variables\data-types.rst:22 ..\..\variables\data-types.rst:22
+msgid "The *Choice* type stores a text value from a fixed list of configured options."
+msgstr "Der *Auswahl*-Typ enthält einen Text-Wert aus einer festgelegten Liste konfigurierter Optionen"
+
+#: ..\..\variables\data-types.rst:46 ..\..\variables\data-types.rst:46
+msgid "The sender’s display name (optional, :ref:`type-text`)"
+msgstr "Der angezeigte Name des Senders (optional, :ref:`type-text`)"
+
+#: ..\..\variables\data-types.rst:48 ..\..\variables\data-types.rst:48
+msgid "The email address to send replies to (optional, :ref:`type-email-address`)"
+msgstr "Die E-Mail-Adresse, an die geantwortet werden soll (optional, :ref:`type-email-address`)"
+
+#: ..\..\variables\data-types.rst:49 ..\..\variables\data-types.rst:49
+msgid "Email addresses that receive a copy of the message (optional, :ref:`List <type-list>` of :ref:`type-email-address`)"
+msgstr "E-Mail-Adressen in CC (optional, :ref:`List <type-list>` of :ref:`type-email-address`)"
+
+#: ..\..\variables\data-types.rst:50 ..\..\variables\data-types.rst:50
+msgid "The subject of the email (optional, :ref:`type-text`)"
+msgstr "Die Kopfzeile der E-Mail (optional, :ref:`type-text`)"
+
+#: ..\..\variables\data-types.rst:51 ..\..\variables\data-types.rst:51
+msgid "The plain text message (optional, :ref:`type-text`)"
+msgstr "Die Klartextnachricht (optional, :ref:`type-text`)"
+
+#: ..\..\variables\data-types.rst:53 ..\..\variables\data-types.rst:53
+msgid "The files to attach to the email (optional, :ref:`List <type-list>` of :ref:`type-file`)"
+msgstr "Die an die E-Mail anzuhängenden Dateien (optional, :ref:`List <type-list>` of :ref:`type-file`)"
+
+#: ..\..\variables\data-types.rst:85 ..\..\variables\data-types.rst:85
+msgid "Link type"
+msgstr "Link-Typ"
+
+#: ..\..\variables\data-types.rst:87 ..\..\variables\data-types.rst:87
+msgid "The *Link* type stores an Internet address (URL), such as a web site address."
+msgstr "Der *Link*-Typ enthält eine Internetadresse (URL), wie z.B. die Adresse einer Website."
+
+#: ..\..\variables\data-types.rst:102 ..\..\variables\data-types.rst:102
+msgid "Money type"
+msgstr "Geldbetrag-Typ"
+
+#: ..\..\variables\data-types.rst:104 ..\..\variables\data-types.rst:104
+msgid "The *Money* type stores a currency amount for a particular currency."
+msgstr "Der *Geldbetrag*-Typ enthält eine Währungsmenge für eine bestimmte Währung."
+
+#: ..\..\variables\data-types.rst:150 ..\..\variables\data-types.rst:150
+msgid "Yes/No Checkbox type"
+msgstr "Ja/Nein Checkbox-Typ"
+
+#: ..\..\variables\data-types.rst:152 ..\..\variables\data-types.rst:152
+msgid "The *Yes/No Checkbox* type stores a single value that represents either *Yes* or *No*."
+msgstr "Der *Ja/Nein Checkbox*-Typ enthält einen einfachen Wert, der *Ja* oder *Nein* repräsentiert."
+
+#~ msgid ""
+#~ "Email addresses that receive a copy of the message (:ref:`List <type-list>` "
+#~ "of :ref:`type-email-address`)"
+#~ msgstr ""
+#~ "Email Adressen in CC (:ref:`List <type-list>` of :ref:`type-email-address`)"
+
+#~ msgid "The subject of the email (:ref:`type-text`)"
+#~ msgstr "Die Kopfzeile der E-Mail (:ref:`type-text`)"
+
+#~ msgid "The plain text message (:ref:`type-text`)"
+#~ msgstr "Der Klartext der E-Mail (:ref:`type-text`)"
+
+#~ msgid ""
+#~ "The files to attach to the email (:ref:`List <type-list>` of :ref:`type-"
+#~ "file`)"
+#~ msgstr ""
+#~ "Die Dateien, die an eine Email anzuhängen sind (:ref:`List <type-list>` von "
+#~ ":ref:`type-file`)"
 
 #~ msgid ""
 #~ "The forms and some of the actions use workflow data, called *variables*. "

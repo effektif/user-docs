@@ -14,57 +14,20 @@ This can use references to variables, or to fields inside composite variables.
 The user interface guides you and shows the options you have.
 
 
+.. _type-choice:
+
+Choice type
+^^^^^^^^^^^
+
+The *Choice* type stores a text value from a fixed list of configured options.
+
+
 .. _type-date:
 
 Date type
 ^^^^^^^^^
 
 The *Date* type stores a date, or a date and a time of day.
-
-
-.. _type-number:
-
-Number type
-^^^^^^^^^^^
-
-The *Number* type stores a number.
-
-
-.. _type-text:
-
-Text type
-^^^^^^^^^
-
-The *Text* type stores plain text.
-
-
-.. _type-file:
-
-File type
-^^^^^^^^^
-
-The *file* type stores a file.
-
-
-.. _type-user:
-
-User type
-^^^^^^^^^
-
-A variable of type *user* refers to a user in your organization.
-A user has an object type, with the following properties:
-
-:id: The unique identifier for this user (:ref:`type-id`)
-:firstName: The user’s first name (:ref:`type-text`)
-:lastName: The user’s last name (:ref:`type-text`)
-:emailAddress: The user’s email address (:ref:`type-email-address`)
-
-.. _type-email-address:
-
-Email address type
-^^^^^^^^^^^^^^^^^^
-
-The *email address* type stores an email address.
 
 
 .. _type-email:
@@ -78,14 +41,32 @@ You can use the email’s data fields, such as *from address* or the attachments
 
 An email has a composite type, with the properties:
 
-:id: The unique identifier for this email (:ref:`type-id`)
-:from: The sender email address (:ref:`type-email-address`)
-:to: The email addresses of the recipients (:ref:`List <type-list>` of :ref:`type-email-address`)
-:cc: Email addresses that receive a copy of the message (:ref:`List <type-list>` of :ref:`type-email-address`)
-:subject: The subject of the email (:ref:`type-text`)
-:bodyText: The plain text message (:ref:`type-text`)
-:bodyHtml: The HTML code for an HTML email (optional, :ref:`type-text`)
-:attachments: The files to attach to the email (:ref:`List <type-list>` of :ref:`type-file`)
+:ID: The unique identifier for this email (:ref:`type-id`)
+:From: The sender email address (:ref:`type-email-address`)
+:From name: The sender’s display name (optional, :ref:`type-text`)
+:To: The email addresses of the recipients (:ref:`List <type-list>` of :ref:`type-email-address`)
+:Reply to: The email address to send replies to (optional, :ref:`type-email-address`)
+:CC: Email addresses that receive a copy of the message (optional, :ref:`List <type-list>` of :ref:`type-email-address`)
+:Subject: The subject of the email (optional, :ref:`type-text`)
+:Body text: The plain text message (optional, :ref:`type-text`)
+:Body HTML: The HTML code for an HTML email (optional, :ref:`type-text`)
+:Attachments: The files to attach to the email (optional, :ref:`List <type-list>` of :ref:`type-file`)
+
+
+.. _type-email-address:
+
+Email address type
+^^^^^^^^^^^^^^^^^^
+
+The *email address* type stores an email address.
+
+
+.. _type-file:
+
+File type
+^^^^^^^^^
+
+The *file* type stores a file.
 
 
 .. _type-id:
@@ -98,6 +79,39 @@ Effektif creates these IDs to identify objects; they have no other meaning.
 An ID string looks like ``53fae958036471cea136ea83``.
 
 
+.. _type-link:
+
+Link type
+^^^^^^^^^
+
+The *Link* type stores an Internet address (URL), such as a web site address.
+
+
+.. _type-list:
+
+List type
+^^^^^^^^^
+
+A list simply represents a collection of values.
+The list has an order and all elements have a single specified type.
+
+
+.. _type-money:
+
+Money type
+^^^^^^^^^
+
+The *Money* type stores a currency amount for a particular currency.
+
+
+.. _type-number:
+
+Number type
+^^^^^^^^^^^
+
+The *Number* type stores a number.
+
+
 .. _type-object:
 
 Object types
@@ -107,10 +121,32 @@ Objects have a composite type, with a list of named fields.
 For example: a user has an object type,
 with fields such as ``firstName``, ``lastName``, ``mailAddress``.
 
-.. _type-list:
 
-List type
+.. _type-text:
+
+Text type
 ^^^^^^^^^
 
-A list simply represents a collection of values.
-The list has an order and all elements have a single specified type.
+The *Text* type stores plain text.
+
+
+.. _type-user:
+
+User type
+^^^^^^^^^
+
+A variable of type *user* refers to a user in your organization.
+A user has an object type, with the following properties:
+
+:ID: The unique identifier for this user (:ref:`type-id`)
+:Email address: The user’s email address (:ref:`type-email-address`)
+:First name: The user’s first name (:ref:`type-text`)
+:Last name: The user’s last name (:ref:`type-text`)
+
+
+.. _type-checkbox:
+
+Yes/No Checkbox type
+^^^^^^^^^^^^^^^^^^^^
+
+The *Yes/No Checkbox* type stores a single value that represents either *Yes* or *No*.
