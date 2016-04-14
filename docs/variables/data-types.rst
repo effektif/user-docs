@@ -22,51 +22,6 @@ Date type
 The *Date* type stores a date, or a date and a time of day.
 
 
-.. _type-number:
-
-Number type
-^^^^^^^^^^^
-
-The *Number* type stores a number.
-
-
-.. _type-text:
-
-Text type
-^^^^^^^^^
-
-The *Text* type stores plain text.
-
-
-.. _type-file:
-
-File type
-^^^^^^^^^
-
-The *file* type stores a file.
-
-
-.. _type-user:
-
-User type
-^^^^^^^^^
-
-A variable of type *user* refers to a user in your organization.
-A user has an object type, with the following properties:
-
-:ID: The unique identifier for this user (:ref:`type-id`)
-:Email address: The user’s email address (:ref:`type-email-address`)
-:First name: The user’s first name (:ref:`type-text`)
-:Last name: The user’s last name (:ref:`type-text`)
-
-.. _type-email-address:
-
-Email address type
-^^^^^^^^^^^^^^^^^^
-
-The *email address* type stores an email address.
-
-
 .. _type-email:
 
 Email type
@@ -90,6 +45,22 @@ An email has a composite type, with the properties:
 :Attachments: The files to attach to the email (optional, :ref:`List <type-list>` of :ref:`type-file`)
 
 
+.. _type-email-address:
+
+Email address type
+^^^^^^^^^^^^^^^^^^
+
+The *email address* type stores an email address.
+
+
+.. _type-file:
+
+File type
+^^^^^^^^^
+
+The *file* type stores a file.
+
+
 .. _type-id:
 
 ID type
@@ -98,6 +69,23 @@ ID type
 An ID has special kind of string type.
 Effektif creates these IDs to identify objects; they have no other meaning.
 An ID string looks like ``53fae958036471cea136ea83``.
+
+
+.. _type-list:
+
+List type
+^^^^^^^^^
+
+A list simply represents a collection of values.
+The list has an order and all elements have a single specified type.
+
+
+.. _type-number:
+
+Number type
+^^^^^^^^^^^
+
+The *Number* type stores a number.
 
 
 .. _type-object:
@@ -109,10 +97,24 @@ Objects have a composite type, with a list of named fields.
 For example: a user has an object type,
 with fields such as ``firstName``, ``lastName``, ``mailAddress``.
 
-.. _type-list:
 
-List type
+.. _type-text:
+
+Text type
 ^^^^^^^^^
 
-A list simply represents a collection of values.
-The list has an order and all elements have a single specified type.
+The *Text* type stores plain text.
+
+
+.. _type-user:
+
+User type
+^^^^^^^^^
+
+A variable of type *user* refers to a user in your organization.
+A user has an object type, with the following properties:
+
+:ID: The unique identifier for this user (:ref:`type-id`)
+:Email address: The user’s email address (:ref:`type-email-address`)
+:First name: The user’s first name (:ref:`type-text`)
+:Last name: The user’s last name (:ref:`type-text`)

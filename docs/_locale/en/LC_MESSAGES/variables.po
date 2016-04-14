@@ -19,39 +19,39 @@ msgstr ""
 msgid "Data types"
 msgstr ""
 
-#: ../../variables/data-types.rst:44 ../../variables/data-types.rst:44
+#: ../../variables/data-types.rst:59 ../../variables/data-types.rst:59
 msgid "File type"
 msgstr ""
 
-#: ../../variables/data-types.rst:46 ../../variables/data-types.rst:46
+#: ../../variables/data-types.rst:61 ../../variables/data-types.rst:61
 msgid "The *file* type stores a file."
 msgstr ""
 
-#: ../../variables/data-types.rst:52 ../../variables/data-types.rst:52
+#: ../../variables/data-types.rst:112 ../../variables/data-types.rst:112
 msgid "User type"
 msgstr ""
 
-#: ../../variables/data-types.rst:65 ../../variables/data-types.rst:65
+#: ../../variables/data-types.rst:51 ../../variables/data-types.rst:51
 msgid "Email address type"
 msgstr ""
 
-#: ../../variables/data-types.rst:67 ../../variables/data-types.rst:67
+#: ../../variables/data-types.rst:53 ../../variables/data-types.rst:53
 msgid "The *email address* type stores an email address."
 msgstr ""
 
-#: ../../variables/data-types.rst:73 ../../variables/data-types.rst:73
+#: ../../variables/data-types.rst:28 ../../variables/data-types.rst:28
 msgid "Email type"
 msgstr ""
 
-#: ../../variables/data-types.rst:96 ../../variables/data-types.rst:96
+#: ../../variables/data-types.rst:67 ../../variables/data-types.rst:67
 msgid "ID type"
 msgstr ""
 
-#: ../../variables/data-types.rst:106 ../../variables/data-types.rst:106
+#: ../../variables/data-types.rst:94 ../../variables/data-types.rst:94
 msgid "Object types"
 msgstr ""
 
-#: ../../variables/data-types.rst:115 ../../variables/data-types.rst:115
+#: ../../variables/data-types.rst:77 ../../variables/data-types.rst:77
 msgid "List type"
 msgstr ""
 
@@ -62,38 +62,38 @@ msgid ""
 "variables. The user interface guides you and shows the options you have."
 msgstr ""
 
-#: ../../variables/data-types.rst:54 ../../variables/data-types.rst:54
+#: ../../variables/data-types.rst:114 ../../variables/data-types.rst:114
 msgid ""
 "A variable of type *user* refers to a user in your organization. A user has "
 "an object type, with the following properties:"
 msgstr ""
 
-#: ../../variables/data-types.rst:75 ../../variables/data-types.rst:75
+#: ../../variables/data-types.rst:30 ../../variables/data-types.rst:30
 msgid ""
 "The *email type* stores an email, which the email trigger uses. A variable "
 "stores the email that triggers the process. You can use the email’s data "
 "fields, such as *from address* or the attachments, later in the process."
 msgstr ""
 
-#: ../../variables/data-types.rst:79 ../../variables/data-types.rst:79
+#: ../../variables/data-types.rst:34 ../../variables/data-types.rst:34
 msgid "An email has a composite type, with the properties:"
 msgstr ""
 
-#: ../../variables/data-types.rst:98 ../../variables/data-types.rst:98
+#: ../../variables/data-types.rst:69 ../../variables/data-types.rst:69
 msgid ""
 "An ID has special kind of string type. Effektif creates these IDs to "
 "identify objects; they have no other meaning. An ID string looks like "
 "``53fae958036471cea136ea83``."
 msgstr ""
 
-#: ../../variables/data-types.rst:108 ../../variables/data-types.rst:108
+#: ../../variables/data-types.rst:96 ../../variables/data-types.rst:96
 msgid ""
 "Objects have a composite type, with a list of named fields. For example: a "
 "user has an object type, with fields such as ``firstName``, ``lastName``, "
 "``mailAddress``."
 msgstr ""
 
-#: ../../variables/data-types.rst:117 ../../variables/data-types.rst:117
+#: ../../variables/data-types.rst:79 ../../variables/data-types.rst:79
 msgid ""
 "A list simply represents a collection of values. The list has an order and "
 "all elements have a single specified type."
@@ -171,43 +171,43 @@ msgid ""
 "values. Composite types have a list of fields."
 msgstr ""
 
-#: ../../variables/data-types.rst:36 ../../variables/data-types.rst:36
+#: ../../variables/data-types.rst:104 ../../variables/data-types.rst:104
 msgid "Text type"
 msgstr ""
 
-#: ../../variables/data-types.rst:38 ../../variables/data-types.rst:38
+#: ../../variables/data-types.rst:106 ../../variables/data-types.rst:106
 msgid "The *Text* type stores plain text."
 msgstr ""
 
-#: ../../variables/data-types.rst:57 ../../variables/data-types.rst:57
+#: ../../variables/data-types.rst:117 ../../variables/data-types.rst:117
 msgid "The unique identifier for this user (:ref:`type-id`)"
 msgstr ""
 
-#: ../../variables/data-types.rst:59 ../../variables/data-types.rst:59
+#: ../../variables/data-types.rst:119 ../../variables/data-types.rst:119
 msgid "The user’s first name (:ref:`type-text`)"
 msgstr ""
 
-#: ../../variables/data-types.rst:60 ../../variables/data-types.rst:60
+#: ../../variables/data-types.rst:120 ../../variables/data-types.rst:120
 msgid "The user’s last name (:ref:`type-text`)"
 msgstr ""
 
-#: ../../variables/data-types.rst:89 ../../variables/data-types.rst:89
+#: ../../variables/data-types.rst:44 ../../variables/data-types.rst:44
 msgid "The HTML code for an HTML email (optional, :ref:`type-text`)"
 msgstr ""
 
-#: ../../variables/data-types.rst:58 ../../variables/data-types.rst:58
+#: ../../variables/data-types.rst:118 ../../variables/data-types.rst:118
 msgid "The user’s email address (:ref:`type-email-address`)"
 msgstr ""
 
-#: ../../variables/data-types.rst:81 ../../variables/data-types.rst:81
+#: ../../variables/data-types.rst:36 ../../variables/data-types.rst:36
 msgid "The unique identifier for this email (:ref:`type-id`)"
 msgstr ""
 
-#: ../../variables/data-types.rst:82 ../../variables/data-types.rst:82
+#: ../../variables/data-types.rst:37 ../../variables/data-types.rst:37
 msgid "The sender email address (:ref:`type-email-address`)"
 msgstr ""
 
-#: ../../variables/data-types.rst:84 ../../variables/data-types.rst:84
+#: ../../variables/data-types.rst:39 ../../variables/data-types.rst:39
 msgid ""
 "The email addresses of the recipients (:ref:`List <type-list>` of :ref"
 ":`type-email-address`)"
@@ -240,11 +240,11 @@ msgid ""
 "due date does not always have a value."
 msgstr ""
 
-#: ../../variables/data-types.rst:28 ../../variables/data-types.rst:28
+#: ../../variables/data-types.rst:86 ../../variables/data-types.rst:86
 msgid "Number type"
 msgstr ""
 
-#: ../../variables/data-types.rst:30 ../../variables/data-types.rst:30
+#: ../../variables/data-types.rst:88 ../../variables/data-types.rst:88
 msgid "The *Number* type stores a number."
 msgstr ""
 
@@ -303,30 +303,30 @@ msgid ""
 "generated order reference, for example."
 msgstr ""
 
-#: ../../variables/data-types.rst:83 ../../variables/data-types.rst:83
+#: ../../variables/data-types.rst:38 ../../variables/data-types.rst:38
 msgid "The sender’s display name (optional, :ref:`type-text`)"
 msgstr ""
 
-#: ../../variables/data-types.rst:85 ../../variables/data-types.rst:85
+#: ../../variables/data-types.rst:40 ../../variables/data-types.rst:40
 msgid ""
 "The email address to send replies to (optional, :ref:`type-email-address`)"
 msgstr ""
 
-#: ../../variables/data-types.rst:86 ../../variables/data-types.rst:86
+#: ../../variables/data-types.rst:41 ../../variables/data-types.rst:41
 msgid ""
 "Email addresses that receive a copy of the message (optional, :ref:`List "
 "<type-list>` of :ref:`type-email-address`)"
 msgstr ""
 
-#: ../../variables/data-types.rst:87 ../../variables/data-types.rst:87
+#: ../../variables/data-types.rst:42 ../../variables/data-types.rst:42
 msgid "The subject of the email (optional, :ref:`type-text`)"
 msgstr ""
 
-#: ../../variables/data-types.rst:88 ../../variables/data-types.rst:88
+#: ../../variables/data-types.rst:43 ../../variables/data-types.rst:43
 msgid "The plain text message (optional, :ref:`type-text`)"
 msgstr ""
 
-#: ../../variables/data-types.rst:90 ../../variables/data-types.rst:90
+#: ../../variables/data-types.rst:45 ../../variables/data-types.rst:45
 msgid ""
 "The files to attach to the email (optional, :ref:`List <type-list>` of :ref"
 ":`type-file`)"
