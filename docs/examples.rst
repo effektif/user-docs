@@ -12,6 +12,7 @@ Select `Copy to your organisation` to open a copy of an example in the :ref:`pro
 If you don’t want to use an example you have copied, you can :ref:`delete it <copy-process>`.
 
 .. include:: examples/approve-document.rst
+.. include:: examples/approve-expense-claim.rst
 .. include:: examples/approve-vacation-request.rst
 .. include:: examples/fill-job-vacancy.rst
 .. include:: examples/follow-up-contact.rst

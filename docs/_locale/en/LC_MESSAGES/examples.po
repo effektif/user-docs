@@ -20,6 +20,7 @@ msgid "Approve Document (management)"
 msgstr ""
 
 #: ../../examples/approve-document.rst:7
+#: ../../examples/approve-expense-claim.rst:7
 #: ../../examples/approve-vacation-request.rst:7
 #: ../../examples/fill-job-vacancy.rst:7
 #: ../../examples/follow-up-contact.rst:7
@@ -32,6 +33,7 @@ msgstr ""
 #: ../../examples/respond-to-customer-email.rst:7
 #: ../../examples/ship-product-from-warehouse.rst:7
 #: ../../examples/sign-contract.rst:7 ../../examples/approve-document.rst:7
+#: ../../examples/approve-expense-claim.rst:7
 #: ../../examples/approve-vacation-request.rst:7
 #: ../../examples/fill-job-vacancy.rst:7
 #: ../../examples/follow-up-contact.rst:7
@@ -52,6 +54,7 @@ msgid "Approve the submitted document, after optional revision rounds."
 msgstr ""
 
 #: ../../examples/approve-document.rst:12
+#: ../../examples/approve-expense-claim.rst:12
 #: ../../examples/approve-vacation-request.rst:12
 #: ../../examples/fill-job-vacancy.rst:12
 #: ../../examples/follow-up-contact.rst:12
@@ -64,6 +67,7 @@ msgstr ""
 #: ../../examples/respond-to-customer-email.rst:12
 #: ../../examples/ship-product-from-warehouse.rst:12
 #: ../../examples/sign-contract.rst:12 ../../examples/approve-document.rst:12
+#: ../../examples/approve-expense-claim.rst:12
 #: ../../examples/approve-vacation-request.rst:12
 #: ../../examples/fill-job-vacancy.rst:12
 #: ../../examples/follow-up-contact.rst:12
@@ -88,6 +92,7 @@ msgid ""
 msgstr ""
 
 #: ../../examples/approve-document.rst:26
+#: ../../examples/approve-expense-claim.rst:17
 #: ../../examples/approve-vacation-request.rst:27
 #: ../../examples/fill-job-vacancy.rst:19
 #: ../../examples/follow-up-contact.rst:20
@@ -100,6 +105,7 @@ msgstr ""
 #: ../../examples/respond-to-customer-email.rst:19
 #: ../../examples/ship-product-from-warehouse.rst:21
 #: ../../examples/sign-contract.rst:18 ../../examples/approve-document.rst:26
+#: ../../examples/approve-expense-claim.rst:17
 #: ../../examples/approve-vacation-request.rst:27
 #: ../../examples/fill-job-vacancy.rst:19
 #: ../../examples/follow-up-contact.rst:20
@@ -116,6 +122,7 @@ msgid "Trigger"
 msgstr ""
 
 #: ../../examples/approve-document.rst:31
+#: ../../examples/approve-expense-claim.rst:22
 #: ../../examples/approve-vacation-request.rst:32
 #: ../../examples/fill-job-vacancy.rst:24
 #: ../../examples/follow-up-contact.rst:25
@@ -128,6 +135,7 @@ msgstr ""
 #: ../../examples/respond-to-customer-email.rst:24
 #: ../../examples/ship-product-from-warehouse.rst:26
 #: ../../examples/sign-contract.rst:23 ../../examples/approve-document.rst:31
+#: ../../examples/approve-expense-claim.rst:22
 #: ../../examples/approve-vacation-request.rst:32
 #: ../../examples/fill-job-vacancy.rst:24
 #: ../../examples/follow-up-contact.rst:25
@@ -153,6 +161,7 @@ msgid ""
 msgstr ""
 
 #: ../../examples/approve-document.rst:42
+#: ../../examples/approve-expense-claim.rst:31
 #: ../../examples/approve-vacation-request.rst:42
 #: ../../examples/fill-job-vacancy.rst:34
 #: ../../examples/follow-up-contact.rst:32
@@ -164,6 +173,7 @@ msgstr ""
 #: ../../examples/process-insurance-claim.rst:33
 #: ../../examples/ship-product-from-warehouse.rst:54
 #: ../../examples/sign-contract.rst:37 ../../examples/approve-document.rst:42
+#: ../../examples/approve-expense-claim.rst:31
 #: ../../examples/approve-vacation-request.rst:42
 #: ../../examples/fill-job-vacancy.rst:34
 #: ../../examples/follow-up-contact.rst:32
@@ -191,6 +201,7 @@ msgid ""
 msgstr ""
 
 #: ../../examples/approve-document.rst:51
+#: ../../examples/approve-expense-claim.rst:38
 #: ../../examples/approve-vacation-request.rst:47
 #: ../../examples/fill-job-vacancy.rst:40
 #: ../../examples/follow-up-contact.rst:38
@@ -202,6 +213,7 @@ msgstr ""
 #: ../../examples/process-insurance-claim.rst:40
 #: ../../examples/ship-product-from-warehouse.rst:59
 #: ../../examples/sign-contract.rst:43 ../../examples/approve-document.rst:51
+#: ../../examples/approve-expense-claim.rst:38
 #: ../../examples/approve-vacation-request.rst:47
 #: ../../examples/fill-job-vacancy.rst:40
 #: ../../examples/follow-up-contact.rst:38
@@ -225,6 +237,7 @@ msgid ""
 msgstr ""
 
 #: ../../examples/approve-document.rst:58
+#: ../../examples/approve-expense-claim.rst:45
 #: ../../examples/approve-vacation-request.rst:55
 #: ../../examples/follow-up-contact.rst:47
 #: ../../examples/fulfil-purchase-order.rst:50
@@ -234,6 +247,7 @@ msgstr ""
 #: ../../examples/plan-trade-fair-booth.rst:62
 #: ../../examples/respond-to-customer-email.rst:34
 #: ../../examples/approve-document.rst:58
+#: ../../examples/approve-expense-claim.rst:45
 #: ../../examples/approve-vacation-request.rst:55
 #: ../../examples/follow-up-contact.rst:47
 #: ../../examples/fulfil-purchase-order.rst:50
@@ -272,8 +286,10 @@ msgid ""
 msgstr ""
 
 #: ../../examples/approve-document.rst:72
+#: ../../examples/approve-expense-claim.rst:52
 #: ../../examples/approve-vacation-request.rst:63
 #: ../../examples/approve-document.rst:72
+#: ../../examples/approve-expense-claim.rst:52
 #: ../../examples/approve-vacation-request.rst:63
 msgid "Related processes"
 msgstr ""
@@ -1732,6 +1748,115 @@ msgid ""
 "parcels for multiple orders onto trucks. A different shipping process could "
 "arrange individual transport (e.g. by courier) for each order."
 msgstr ""
+
+#: ../../examples/approve-expense-claim.rst:4
+#: ../../examples/approve-expense-claim.rst:4
+msgid "Approve Expense Claim (management)"
+msgstr ""
+
+#: ../../examples/approve-expense-claim.rst:9
+#: ../../examples/approve-expense-claim.rst:9
+msgid "Submit an expense claim document for someone else to approve."
+msgstr ""
+
+#: ../../examples/approve-expense-claim.rst:14
+#: ../../examples/approve-expense-claim.rst:14
+msgid ""
+"Employees need to submit expense forms for their managers to approve, but if"
+" they all send them by e-mail, managers will find it difficult to keep "
+"track."
+msgstr ""
+
+#: ../../examples/approve-expense-claim.rst:19
+#: ../../examples/approve-expense-claim.rst:19
+msgid "Email - from the employee submitting the claim."
+msgstr ""
+
+#: ../../examples/approve-expense-claim.rst:24
+#: ../../examples/approve-expense-claim.rst:24
+msgid ""
+"The process consists of an approval decision task, followed by an "
+"administrative task to pay the expense claim."
+msgstr ""
+
+#: ../../examples/approve-expense-claim.rst:28
+#: ../../examples/approve-expense-claim.rst:28
+msgid ""
+"The manager may choose to only reject some items on the claim, in which case"
+" the process includes an additional task to list the rejected items, so that"
+" the person who pays the expense claim can recalculate the total."
+msgstr ""
+
+#: ../../examples/approve-expense-claim.rst:33
+#: ../../examples/approve-expense-claim.rst:33
+msgid "*Employee* - starts the case"
+msgstr ""
+
+#: ../../examples/approve-expense-claim.rst:34
+#: ../../examples/approve-expense-claim.rst:34
+msgid "*Manager* - approves the expense claim"
+msgstr ""
+
+#: ../../examples/approve-expense-claim.rst:35
+#: ../../examples/approve-expense-claim.rst:35
+msgid "*Financial administrator* - pays the approved expense claim"
+msgstr ""
+
+#: ../../examples/approve-expense-claim.rst:42
+#: ../../examples/approve-expense-claim.rst:42
+msgid "*Employee bank account* - used to pay the expenses"
+msgstr ""
+
+#: ../../examples/approve-expense-claim.rst:47
+#: ../../examples/approve-expense-claim.rst:47
+msgid ""
+"Replace the *Approve claim* task with a `Document Approval "
+"<http://www.effektif.com/news/document-workflow-patterns/#section-1>`_ "
+"pattern, to allow the employee to make corrections when the manager rejects "
+"the a claim."
+msgstr ""
+
+#: ../../examples/approve-expense-claim.rst:49
+#: ../../examples/approve-expense-claim.rst:49
+msgid ""
+"Add the `Result Notification <http://www.effektif.com/news/email-"
+"notification-workflow-patterns/#section-2>`_ pattern to notify the employee "
+"when the expenses have been paid."
+msgstr ""
+
+#: ../../examples/approve-expense-claim.rst:54
+#: ../../examples/approve-expense-claim.rst:54
+msgid ""
+":ref:`Approve Document <approve-document>` handles approving a document "
+"rather than an email request."
+msgstr ""
+
+#: ../../examples/approve-expense-claim.rst:55
+#: ../../examples/approve-expense-claim.rst:55
+msgid ""
+":ref:`Approve Vacation Request <approve-vacation-request>` handles approving"
+" a request from a form rather than an email."
+msgstr ""
+
+#: ../../examples/approve-expense-claim.rst:40
+#: ../../examples/approve-expense-claim.rst:40
+msgid "*Trigger email / From name* - Employee name - used to pay the expenses"
+msgstr ""
+
+#: ../../examples/approve-expense-claim.rst:41
+#: ../../examples/approve-expense-claim.rst:41
+msgid ""
+"*Trigger email / Attachments* - Expense form - table of expenses, used to "
+"approve the claim"
+msgstr ""
+
+#~ msgid "*Trigger email From name* - Employee name - used to pay the expenses"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Trigger email attachments* - Expense form - table of expenses, used to "
+#~ "approve the claim"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "A product manufacturer typically runs warehouses that contain an inventory "
