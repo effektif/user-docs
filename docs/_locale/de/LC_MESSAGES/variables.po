@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-28 18:28+0200\n"
-"PO-Revision-Date: 2016-04-14 14:05+0200\n"
+"PO-Revision-Date: 2016-04-15 10:33+0200\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -105,10 +105,6 @@ msgstr "Im Normalfall fügen Sie eine Variable zu Ihrem Workflow hinzu, indem Si
 #: ..\..\variables.rst:18
 msgid "A trigger form that populates a *Reference number* variable for use in a workflow"
 msgstr "Ein Auslöser-Formular, das eine *Referenznummer*-Variable zur Verwendung in einem Workflow ausfüllt"
-
-#: ..\..\variables.rst:20
-msgid "In addition to your own workflow variables, Effektif automatically creates variables that give you access to additional data in each case. The :ref:`case-variable` contains data from when Effektif creates the case. An :ref:`email-trigger` adds an :ref:`Email variable <email-variable>` that contains the trigger email."
-msgstr "Zusätzlich zu Ihren eigenen Variablen, erstellt Effektif automatisch Variablen in jedem Ihrer Fälle, die Ihnen Zugriff auf zusätzliche Daten ermöglichen. Die :ref:`case-variable` beinhaltet Informationen über die Erstellung des Falls. Ein :ref:`email-trigger` fügt eine :ref:`Email-Variable<email-variable>` hinzu, die die Auslöser-Email enhält."
 
 #: ..\..\variables.rst:24
 msgid "Variables can have different :ref:`data-types` that determine which kind of data the variable stores, such as text or a date, and whether the data is a single value or contains multiple fields."
@@ -293,6 +289,35 @@ msgstr "Ja/Nein Checkbox-Typ"
 #: ..\..\variables\data-types.rst:152 ..\..\variables\data-types.rst:152
 msgid "The *Yes/No Checkbox* type stores a single value that represents either *Yes* or *No*."
 msgstr "Der *Ja/Nein Checkbox*-Typ enthält einen einfachen Wert, der *Ja* oder *Nein* repräsentiert."
+
+#: ..\..\variables.rst:20
+msgid "In addition to your own workflow variables, Effektif automatically creates variables that give you access to additional data in each case. The :ref:`case-variable` contains data from when Effektif creates the case. An :ref:`email-trigger` adds an :ref:`Email variable <trigger-email-variable>` that contains the trigger email."
+msgstr "Außer Ihren eigenen Workflow-Variablen, erstellt Effektif automatisch Variablen, die Ihnen Zugriff auf weitere Informationen in jedem Fall Erlauben. Die :ref:`case-variable` beinhaltet Informationen über die Erstellung des jeweiligen Falls. Ein :ref:`email-trigger` fügt eine `E-Mail Variable <trigger-email-variable>` hinzu, die die Auslöser-E-Mail enthält."
+
+#: ..\..\variables\trigger-email.rst:4 ..\..\variables\trigger-email.rst:4
+msgid "Trigger email variable"
+msgstr "Auslöser-E-Mail Variable"
+
+#: ..\..\variables\trigger-email.rst:6 ..\..\variables\trigger-email.rst:6
+msgid "The *Trigger email* variable contains the email that started the case, for processes that have an :ref:`email-trigger`. You can use this variable to use information from the email that started the case during the process, and to send email to the sender."
+msgstr "Die *Auslöser-E-Mail* Variable enthält in Fällen mit E-Mail-Auslöser die E-Mail, die den Fall ausgelöst hat. Sie können diese Variable verwenden, um Informationen aus der Auslöser-E-Mail im Prozess zu nutzen, z.B. um eine Email zum Sender der Auslöser-E-Mail zu schicken."
+
+#: ..\..\variables\trigger-email.rst:9 ..\..\variables\trigger-email.rst:9
+msgid "This variable has the fields that the :ref:`type-email` defines. You cannot change their values."
+msgstr "Die Felder dieser Variable werden durch den :ref:`type-email` definiert. Sie können daher ihre Werte nicht ändern."
+
+#~ msgid ""
+#~ "In addition to your own workflow variables, Effektif automatically creates "
+#~ "variables that give you access to additional data in each case. The :ref"
+#~ ":`case-variable` contains data from when Effektif creates the case. An :ref"
+#~ ":`email-trigger` adds an :ref:`Email variable <email-variable>` that "
+#~ "contains the trigger email."
+#~ msgstr ""
+#~ "Zusätzlich zu Ihren eigenen Variablen, erstellt Effektif automatisch "
+#~ "Variablen in jedem Ihrer Fälle, die Ihnen Zugriff auf zusätzliche Daten "
+#~ "ermöglichen. Die :ref:`case-variable` beinhaltet Informationen über die "
+#~ "Erstellung des Falls. Ein :ref:`email-trigger` fügt eine :ref:`Email-"
+#~ "Variable<email-variable>` hinzu, die die Auslöser-Email enhält."
 
 #~ msgid ""
 #~ "Email addresses that receive a copy of the message (:ref:`List <type-list>` "
