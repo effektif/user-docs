@@ -63,21 +63,21 @@ msgid ""
 "deadline."
 msgstr ""
 
-#: ../../notifications.rst:123
+#: ../../notifications.rst:132
 msgid "Service account access expired"
 msgstr ""
 
-#: ../../notifications.rst:125
+#: ../../notifications.rst:134
 msgid ""
 "This notification indicates that access to an external service, such as "
 ":ref:`Google Drive <google-drive>`, has expired."
 msgstr ""
 
-#: ../../notifications.rst:133
+#: ../../notifications.rst:142
 msgid "License about to expire"
 msgstr ""
 
-#: ../../notifications.rst:137
+#: ../../notifications.rst:146
 msgid ""
 "Effektif sends this notification to the administrators of the the Effektif "
 "organisation whose license will expire."
@@ -131,22 +131,22 @@ msgid ""
 "cancelled an open invitation to join an organisation."
 msgstr ""
 
-#: ../../notifications.rst:111
+#: ../../notifications.rst:111 ../../notifications.rst:120
 msgid ""
 "Effektif sends this notification to the person the administrator invited."
 msgstr ""
 
-#: ../../notifications.rst:115
+#: ../../notifications.rst:124
 msgid "Password reset"
 msgstr ""
 
-#: ../../notifications.rst:117
+#: ../../notifications.rst:126
 msgid ""
 "Effektif sends a password reset notification when someone uses the `Reset "
 "your password` option."
 msgstr ""
 
-#: ../../notifications.rst:119
+#: ../../notifications.rst:128
 msgid ""
 "Effektif sends this notification to the email address entered on the "
 "password reset form."
@@ -197,13 +197,13 @@ msgid ""
 "`Receive notifications via email`."
 msgstr ""
 
-#: ../../notifications.rst:129
+#: ../../notifications.rst:138
 msgid ""
 "Effektif sends this notification to the Effektif user who configured their "
 "external service account."
 msgstr ""
 
-#: ../../notifications.rst:135
+#: ../../notifications.rst:144
 msgid "This notification indicates that an Effektif license will soon expire."
 msgstr ""
 
@@ -238,6 +238,17 @@ msgstr ""
 msgid ""
 "This notification indicates that a case has reached its due date and has "
 "open tasks."
+msgstr ""
+
+#: ../../notifications.rst:115
+msgid "Invitation resent"
+msgstr ""
+
+#: ../../notifications.rst:117
+msgid ""
+"This notification reminds someone that organisation administrator has "
+"invited them to join an organisation. Effektif support staff trigger this "
+"notification manually."
 msgstr ""
 
 #~ msgid ""
