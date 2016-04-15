@@ -365,15 +365,6 @@ msgstr ""
 msgid "Trigger email variable"
 msgstr ""
 
-#: ../../variables/trigger-email.rst:6 ../../variables/trigger-email.rst:6
-msgid ""
-"The *Trigger email* variable contains the email that started the case, for "
-"processes that have an :ref:`email-trigger`. You can use this variable to "
-"use information from the email that started the case during the process, and"
-" to send email to the sender. This variable has the fields that the :ref"
-":`type-email` defines. You cannot change their values."
-msgstr ""
-
 #: ../../variables.rst:20
 msgid ""
 "In addition to your own workflow variables, Effektif automatically creates "
@@ -382,6 +373,28 @@ msgid ""
 ":`email-trigger` adds an :ref:`Email variable <trigger-email-variable>` that"
 " contains the trigger email."
 msgstr ""
+
+#: ../../variables/trigger-email.rst:6 ../../variables/trigger-email.rst:6
+msgid ""
+"The *Trigger email* variable contains the email that started the case, for "
+"processes that have an :ref:`email-trigger`. You can use this variable to "
+"use information from the email that started the case during the process, and"
+" to send email to the sender."
+msgstr ""
+
+#: ../../variables/trigger-email.rst:9 ../../variables/trigger-email.rst:9
+msgid ""
+"This variable has the fields that the :ref:`type-email` defines. You cannot "
+"change their values."
+msgstr ""
+
+#~ msgid ""
+#~ "The *Trigger email* variable contains the email that started the case, for "
+#~ "processes that have an :ref:`email-trigger`. You can use this variable to "
+#~ "use information from the email that started the case during the process, and"
+#~ " to send email to the sender. This variable has the fields that the :ref"
+#~ ":`type-email` defines. You cannot change their values."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "In addition to your own workflow variables, Effektif automatically creates "
