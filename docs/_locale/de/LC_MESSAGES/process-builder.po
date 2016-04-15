@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-13 14:38+0200\n"
-"PO-Revision-Date: 2016-04-14 13:23+0200\n"
+"PO-Revision-Date: 2016-04-15 10:33+0200\n"
 "Last-Translator: Timotheus Kampik <timotheus.kampik@signavio.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -101,15 +101,7 @@ msgstr ""
 msgid "Mail trigger configuration"
 msgstr "Konfiguration des Emailauslösers"
 
-#: ..\..\process-builder\triggers.rst:47 ..\..\process-builder\triggers.rst:47
-msgid ""
-"The email trigger creates an email variable that stores the email that "
-"started the process."
-msgstr ""
-"Der Emailauslöser erstellt eine Prozessvariable mit der Sie auf die "
-"Informationen der Email (Absender, Inhalt, etc.) zugreifen können. "
-
-#: ..\..\process-builder\triggers.rst:50 ..\..\process-builder\triggers.rst:50
+#: ..\..\process-builder\triggers.rst:49 ..\..\process-builder\triggers.rst:49
 msgid ""
 "You can use an email trigger by adding the trigger email address to a "
 "mailing list, such as `support@example.com `or `info@example.com`. You’ll "
@@ -126,15 +118,15 @@ msgstr ""
 " neuer Fall des Prozesses in Effektif ausgelöst. Die Email taucht "
 "entsprechend im Ereignisstream auf:"
 
-#: ..\..\process-builder\triggers.rst:60 ..\..\process-builder\triggers.rst:60
+#: ..\..\process-builder\triggers.rst:59 ..\..\process-builder\triggers.rst:59
 msgid "Trigger mail in stream"
 msgstr "Startemail im Stream"
 
-#: ..\..\process-builder\triggers.rst:66 ..\..\process-builder\triggers.rst:66
+#: ..\..\process-builder\triggers.rst:65 ..\..\process-builder\triggers.rst:65
 msgid "Salesforce trigger"
 msgstr "Salesforce"
 
-#: ..\..\process-builder\triggers.rst:68 ..\..\process-builder\triggers.rst:68
+#: ..\..\process-builder\triggers.rst:67 ..\..\process-builder\triggers.rst:67
 msgid ""
 "A Salesforce trigger starts a new case in response to Salesforce sending an "
 "outbound message as part of a Salesforce workflow. Before you can use a "
@@ -146,7 +138,7 @@ msgstr ""
 "Auslöser nutzen können, müssen Sie ihn wie hier beschrieben konfigurieren: "
 ":ref:`Salesforce Integration <salesforce-integration>`."
 
-#: ..\..\process-builder\triggers.rst:72 ..\..\process-builder\triggers.rst:72
+#: ..\..\process-builder\triggers.rst:71 ..\..\process-builder\triggers.rst:71
 msgid ""
 "When you have configured a Salesforce service, you can select it as a "
 "process trigger, so that messages from Salesforce will now trigger new "
@@ -155,11 +147,11 @@ msgstr ""
 "Nachdem Sie einen Salesforce Service konfiguriert haben, können Sie ihn als "
 "Auslöser nutzen. "
 
-#: ..\..\process-builder\triggers.rst:78 ..\..\process-builder\triggers.rst:78
+#: ..\..\process-builder\triggers.rst:77 ..\..\process-builder\triggers.rst:77
 msgid "Example of a Salesforce trigger"
 msgstr "Beispiel eines Salesforce-Auslösers"
 
-#: ..\..\process-builder\triggers.rst:80 ..\..\process-builder\triggers.rst:80
+#: ..\..\process-builder\triggers.rst:79 ..\..\process-builder\triggers.rst:79
 msgid ""
 "In the process definition, you can use the Salesforce object fields from the"
 " Salesforce message just like normal :ref:`variables <variables>`."
@@ -1024,6 +1016,17 @@ msgstr ""
 "Protokollanten einnehmen. Die jeweilige Person besitzt nicht die "
 "Jobbeschreibung \"Protokollant\", sondern hat diese Rolle nur in dieser "
 "bestimmten Situation."
+
+#: ..\..\process-builder\triggers.rst:47 ..\..\process-builder\triggers.rst:47
+msgid "The email trigger creates a :ref:`trigger-email-variable`."
+msgstr "Der E-Mail-Auslöser erstellt eine :ref:`trigger-email-variable`."
+
+#~ msgid ""
+#~ "The email trigger creates an email variable that stores the email that "
+#~ "started the process."
+#~ msgstr ""
+#~ "Der Emailauslöser erstellt eine Prozessvariable mit der Sie auf die "
+#~ "Informationen der Email (Absender, Inhalt, etc.) zugreifen können. "
 
 #~ msgid ""
 #~ "You can think of actions like steps in a process. Action include things like"

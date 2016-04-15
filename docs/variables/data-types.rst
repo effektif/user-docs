@@ -99,7 +99,7 @@ The list has an order and all elements have a single specified type.
 .. _type-money:
 
 Money type
-^^^^^^^^^
+^^^^^^^^^^
 
 The *Money* type stores a currency amount for a particular currency.
 

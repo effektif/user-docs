@@ -44,8 +44,7 @@ After selecting the email trigger, you can see its email address:
 
    Mail trigger configuration
 
-The email trigger creates an email variable
-that stores the email that started the process.
+The email trigger creates a :ref:`trigger-email-variable`.
 
 You can use an email trigger by adding the trigger email address to a mailing list,
 such as `support@example.com `or `info@example.com`.

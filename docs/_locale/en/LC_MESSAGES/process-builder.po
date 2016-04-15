@@ -80,13 +80,7 @@ msgstr ""
 msgid "Mail trigger configuration"
 msgstr ""
 
-#: ../../process-builder/triggers.rst:47 ../../process-builder/triggers.rst:47
-msgid ""
-"The email trigger creates an email variable that stores the email that "
-"started the process."
-msgstr ""
-
-#: ../../process-builder/triggers.rst:50 ../../process-builder/triggers.rst:50
+#: ../../process-builder/triggers.rst:49 ../../process-builder/triggers.rst:49
 msgid ""
 "You can use an email trigger by adding the trigger email address to a "
 "mailing list, such as `support@example.com `or `info@example.com`. You’ll "
@@ -97,15 +91,15 @@ msgid ""
 "stream:"
 msgstr ""
 
-#: ../../process-builder/triggers.rst:60 ../../process-builder/triggers.rst:60
+#: ../../process-builder/triggers.rst:59 ../../process-builder/triggers.rst:59
 msgid "Trigger mail in stream"
 msgstr ""
 
-#: ../../process-builder/triggers.rst:66 ../../process-builder/triggers.rst:66
+#: ../../process-builder/triggers.rst:65 ../../process-builder/triggers.rst:65
 msgid "Salesforce trigger"
 msgstr ""
 
-#: ../../process-builder/triggers.rst:68 ../../process-builder/triggers.rst:68
+#: ../../process-builder/triggers.rst:67 ../../process-builder/triggers.rst:67
 msgid ""
 "A Salesforce trigger starts a new case in response to Salesforce sending an "
 "outbound message as part of a Salesforce workflow. Before you can use a "
@@ -113,18 +107,18 @@ msgid ""
 "integration>`."
 msgstr ""
 
-#: ../../process-builder/triggers.rst:72 ../../process-builder/triggers.rst:72
+#: ../../process-builder/triggers.rst:71 ../../process-builder/triggers.rst:71
 msgid ""
 "When you have configured a Salesforce service, you can select it as a "
 "process trigger, so that messages from Salesforce will now trigger new "
 "cases."
 msgstr ""
 
-#: ../../process-builder/triggers.rst:78 ../../process-builder/triggers.rst:78
+#: ../../process-builder/triggers.rst:77 ../../process-builder/triggers.rst:77
 msgid "Example of a Salesforce trigger"
 msgstr ""
 
-#: ../../process-builder/triggers.rst:80 ../../process-builder/triggers.rst:80
+#: ../../process-builder/triggers.rst:79 ../../process-builder/triggers.rst:79
 msgid ""
 "In the process definition, you can use the Salesforce object fields from the"
 " Salesforce message just like normal :ref:`variables <variables>`."
@@ -752,6 +746,15 @@ msgid ""
 "more process tasks. You can optionally configure a role with a list of "
 "candidates. Roles have the same function as swimlanes in BPMN."
 msgstr ""
+
+#: ../../process-builder/triggers.rst:47 ../../process-builder/triggers.rst:47
+msgid "The email trigger creates a :ref:`trigger-email-variable`."
+msgstr ""
+
+#~ msgid ""
+#~ "The email trigger creates an email variable that stores the email that "
+#~ "started the process."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Creating a role gives a process-specific name to whoever performs one or "

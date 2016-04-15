@@ -19,9 +19,10 @@ You can also create variables in a :ref:`javascript`, to capture data that the s
 
 In addition to your own workflow variables, Effektif automatically creates variables that give you access to additional data in each case.
 The :ref:`case-variable` contains data from when Effektif creates the case.
-An :ref:`email-trigger` adds an :ref:`Email variable <email-variable>` that contains the trigger email.
+An :ref:`email-trigger` adds an :ref:`Email variable <trigger-email-variable>` that contains the trigger email.
 
 Variables can have different :ref:`data-types` that determine which kind of data the variable stores, such as text or a date, and whether the data is a single value or contains multiple fields.
 
 .. include:: variables/case.rst
+.. include:: variables/trigger-email.rst
 .. include:: variables/data-types.rst
