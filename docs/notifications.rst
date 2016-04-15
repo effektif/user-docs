@@ -111,6 +111,15 @@ This notification informs someone that an organisation administrator has cancell
 Effektif sends this notification to the person the administrator invited.
 
 
+Invitation resent
+-----------------
+
+This notification reminds someone that organisation administrator has invited them to join an organisation.
+Effektif support staff trigger this notification manually.
+
+Effektif sends this notification to the person the administrator invited.
+
+
 Password reset
 --------------
 
