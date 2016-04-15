@@ -213,15 +213,6 @@ msgid ""
 ":`type-email-address`)"
 msgstr ""
 
-#: ../../variables.rst:20
-msgid ""
-"In addition to your own workflow variables, Effektif automatically creates "
-"variables that give you access to additional data in each case. The :ref"
-":`case-variable` contains data from when Effektif creates the case. An :ref"
-":`email-trigger` adds an :ref:`Email variable <email-variable>` that "
-"contains the trigger email."
-msgstr ""
-
 #: ../../variables/case.rst:6 ../../variables/case.rst:6
 msgid ""
 "The *Case* variable contains the data that starting a case creates. This "
@@ -369,6 +360,36 @@ msgid ""
 "The *Yes/No Checkbox* type stores a single value that represents either "
 "*Yes* or *No*."
 msgstr ""
+
+#: ../../variables/trigger-email.rst:4 ../../variables/trigger-email.rst:4
+msgid "Trigger email variable"
+msgstr ""
+
+#: ../../variables/trigger-email.rst:6 ../../variables/trigger-email.rst:6
+msgid ""
+"The *Trigger email* variable contains the email that started the case, for "
+"processes that have an :ref:`email-trigger`. You can use this variable to "
+"use information from the email that started the case during the process, and"
+" to send email to the sender. This variable has the fields that the :ref"
+":`type-email` defines. You cannot change their values."
+msgstr ""
+
+#: ../../variables.rst:20
+msgid ""
+"In addition to your own workflow variables, Effektif automatically creates "
+"variables that give you access to additional data in each case. The :ref"
+":`case-variable` contains data from when Effektif creates the case. An :ref"
+":`email-trigger` adds an :ref:`Email variable <trigger-email-variable>` that"
+" contains the trigger email."
+msgstr ""
+
+#~ msgid ""
+#~ "In addition to your own workflow variables, Effektif automatically creates "
+#~ "variables that give you access to additional data in each case. The :ref"
+#~ ":`case-variable` contains data from when Effektif creates the case. An :ref"
+#~ ":`email-trigger` adds an :ref:`Email variable <email-variable>` that "
+#~ "contains the trigger email."
+#~ msgstr ""
 
 #~ msgid "The plain text message (:ref:`type-text`)"
 #~ msgstr ""
