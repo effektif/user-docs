@@ -59,7 +59,7 @@ Fields
 ^^^^^^
 
 * *Order form* (File, required) - lists order lines of products to ship from the warehouse.
-* *Order reference* (Text, required) - extracted from the order form, uniquely identifies the order in Effektif.
+* *Order reference* (Text, required) - extracted from the order form, uniquely identifies the order in Signavio Workflow.
 
 Enhancements
 ^^^^^^^^^^^^

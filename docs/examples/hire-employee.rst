@@ -27,7 +27,7 @@ A recruitment process consists of a series of decisions, to reject the candidate
 
 .. figure:: /_static/images/examples/hire-employee.png
 
-If the hiring manager rejects the applicant at either stage, Effektif sends a standard rejection email.
+If the hiring manager rejects the applicant at either stage, Signavio Workflow sends a standard rejection email.
 
 Roles
 ^^^^^
@@ -39,7 +39,7 @@ Fields
 ^^^^^^
 
 * *CV* (File, mandatory) - the applicant’s CV, provided by the trigger form.
-* *Candidate email* (Email address, mandatory) - the email address that Effektif uses to send a rejection email.
+* *Candidate email* (Email address, mandatory) - the email address that Signavio Workflow uses to send a rejection email.
 
 Enhancements
 ^^^^^^^^^^^^

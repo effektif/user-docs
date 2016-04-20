@@ -3,9 +3,9 @@
 Organization settings
 =====================
 
-In Effektif, your organization represents a collection of Effektif users - typically a company - together with all their data in Effektif.
+In Signavio Workflow, your organization represents a collection of Signavio Workflow users - typically a company - together with all their data in Signavio Workflow.
 People outside your organization cannot see your organization’s data.
-After you log into Effektif, you see all the data inside one particular organization.
+After you log into Signavio Workflow, you see all the data inside one particular organization.
 If you belong to multiple organizations, you can switch between organizations by selecting a different organization under your name in the top right corner.
 
 Use the Organization settings page to set-up users and groups,
@@ -38,15 +38,15 @@ using the delete button next to the user name.
 Invitations
 -----------
 
-The invitations list shows who you have invited to use Effektif.
+The invitations list shows who you have invited to use Signavio Workflow.
 
 .. figure:: /_static/images/settings/invitations.png
 
-To invite someone to use Effektif,
+To invite someone to use Signavio Workflow,
 select the license they will use,
 enter their email address in the text field and click the *Invite* button.
 They will receive an email with a link to the registration page,
-where they can create an Effektif user that will become a member of the organization.
+where they can create a Signavio Workflow user that will become a member of the organization.
 
 
 Groups
@@ -75,6 +75,6 @@ The *Preferences* includes additional options that apply to the whole organizati
 
 .. figure:: /_static/images/settings/preferences.png
 
-*Time zone* affects how Effektif displays times.
+*Time zone* affects how Signavio Workflow displays times.
 
-*Email signature* replaces the default *Effektif team* signature at the bottom of :ref:`notification emails <notifications>`.
+*Email signature* replaces the default *Signavio Workflow team* signature at the bottom of :ref:`notification emails <notifications>`.

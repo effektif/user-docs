@@ -3,7 +3,7 @@
 Versions
 --------
 
-When you use the process editor to edit your process model, Effektif saves all of your changes immediately.
+When you use the process editor to edit your process model, Signavio Workflow saves all of your changes immediately.
 You can go back and edit the process again later,
 and it will not have changed.
 However, to execute a process by starting a new case you need a published version.

@@ -86,7 +86,7 @@ In this example, the *Interviewer* variable has the type *User*, which means tha
 Creating an ad-hoc case
 -----------------------
 
-Effektif supports two types of cases: cases that relate to a process and ad-hoc cases.
+Signavio Workflow supports two types of cases: cases that relate to a process and ad-hoc cases.
 An *ad-hoc case* does not have a predefined process.
 It creates a collaboration space that you can use to reach a one-off goal.
 The case brings together a set of tasks, a discussion and documents, and allows participants to share any relevant context information for the tasks.
@@ -104,7 +104,7 @@ Then the case header appears.
 
    Enter case title
 
-Next, type the case title and hit Enter. Effektif now creates the new case.
+Next, type the case title and hit Enter. Signavio Workflow now creates the new case.
 
 .. figure:: /_static/images/cases/create/view-case.png
 
@@ -142,7 +142,7 @@ Sometimes, you want to direct a comment to a specific person.
 While entering a comment, 
 you can ‘mention’ someone by typing a ``@`` and choosing their name from the list.
 When you mention someone in a comment,
-Effektif sends them an email notification to bring them into the discussion.
+Signavio Workflow sends them an email notification to bring them into the discussion.
 
 .. figure:: /_static/images/cases/comments/mention.png
 
@@ -205,7 +205,7 @@ select *Close this case*, and click again to confirm.
 Deleting a case
 ---------------
 
-You do not normally delete cases in Effektif: you close cases that you have finished working on.
+You do not normally delete cases in Signavio Workflow: you close cases that you have finished working on.
 However, you sometimes do need to delete cases, such as the test cases that you create while developing the initial versions of a process model.
 
 To delete a case, open the case and use its right-hand actions menu to select `Delete case`.

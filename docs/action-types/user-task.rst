@@ -28,7 +28,7 @@ You can select either individual users or organisation groups as candidates.
 
 You an also specify a role for the task’s assignment,
 like a BPMN swim lane,
-so that Effektif automatically assigns related tasks to the same person.
+so that Signavio Workflow automatically assigns related tasks to the same person.
 
 Task name template
 ^^^^^^^^^^^^^^^^^^
@@ -57,23 +57,23 @@ Reminders
 
 Use the user task’s `Reminders` configuration panel tab to set up task deadline notifications.
 If you configure a `Due date` or `Reminder` period,
-then Effektif will send email when the deadline expires.
+then Signavio Workflow will send email when the deadline expires.
 
 .. figure:: /_static/images/action-types/user-task-reminders.png
 
    Configuring user task reminders in the process editor
 
-Effektif sends these notifications to the task’s assignee if the task has an assignee,
+Signavio Workflow sends these notifications to the task’s assignee if the task has an assignee,
 or to all of the task’s candidates if the task it not assigned.
 If the task remains unassigned and does not have any candidates,
-Effektif sends the notification to the process’ owner.
+Signavio Workflow sends the notification to the process’ owner.
 
 Escalations
 ^^^^^^^^^^^
 
 You can also use the :ref:`Reminders <reminders>` configuration panel tab to configure escalations.
 If you configure an `Escalation` period and an assignee,
-then Effektif will automatically reassign the task when the deadline expires,
+then Signavio Workflow will automatically reassign the task when the deadline expires,
 and send a notification to the new assignee.
 
 Sometimes, you don’t know who will take over a task that has passed its escalation deadline, so you choose one person in the process model.

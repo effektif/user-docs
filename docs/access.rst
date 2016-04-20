@@ -3,7 +3,7 @@
 Access control
 ==============
 
-You can use access control in Effektif to restrict who can access a process,
+You can use access control in Signavio Workflow to restrict who can access a process,
 or specific tasks within a process.
 Processes and tasks default to public accessibility, which means that all users in the organization have access.
 When you configure access controls,

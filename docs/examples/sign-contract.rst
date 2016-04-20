@@ -23,7 +23,7 @@ Actions
 ^^^^^^^
 
 The core process consists of tasks for the signer to review the document and then sign it.
-Effektif then archives the signed document and notifies the requester.
+Signavio Workflow then archives the signed document and notifies the requester.
 
 .. figure:: /_static/images/examples/sign-contract.png
 

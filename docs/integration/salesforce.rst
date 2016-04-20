@@ -3,14 +3,14 @@
 Salesforce Integration
 ======================
 
-Effektif integrates with Salesforce workflows.
-You can configure this so that changes in Salesforce will automatically trigger Effektif processes.
+Signavio Workflow integrates with Salesforce workflows.
+You can configure this so that changes in Salesforce will automatically trigger Signavio Workflow processes.
 
-Effektif configuration
-----------------------
+Signavio Workflow configuration
+-------------------------------
 
-Before you can set-up Salesforce integration, you need to create an endpoint in Effektif that Salesforce can send information to.
-Set this up in Effektif as follows.
+Before you can set-up Salesforce integration, you need to create an endpoint in Signavio Workflow that Salesforce can send information to.
+Set this up in Signavio Workflow as follows.
 
 In the top-right user menu, select `My Organisation` and then select the `Services` tab.
 
@@ -37,9 +37,9 @@ Create or edit a new or existing workflow rule, and in the `Workflow Actions` se
 
 On the `Specify Workflow Actions` page, select `Add Workflow Action` and then `New Outbound Message`.
 
-On the `Configure Outbound Message` page, configure the new `Outbound Message`, to define which object fields to send to Effektif.
+On the `Configure Outbound Message` page, configure the new `Outbound Message`, to define which object fields to send to Signavio Workflow.
 
-In the `Endpoint URL` field, paste the `Endpoint URL` from the Effektif configuration you created earlier.
+In the `Endpoint URL` field, paste the `Endpoint URL` from the Signavio Workflow configuration you created earlier.
 
 .. figure:: /_static/images/integration/salesforce/salesforce-integration-4.png
 
@@ -49,12 +49,12 @@ To do this, click the `Activate` button at the top of the `Workflow Rule Detail`
 
 On the `Outbound message` page, next to `Endpoint WSDL`, select the `Click for WSDL` link, which opens a web service definition file.
 
-Save the ``workflowOutboundMessage.wsdl`` file, which you will use to configure Effektif, next.
+Save the ``workflowOutboundMessage.wsdl`` file, which you will use to configure Signavio Workflow, next.
 
-Finish Effektif configuration
------------------------------
+Finish Signavio Workflow configuration
+--------------------------------------
 
-For the final configuration step, use the web service definition file to configure the Salesforce service in Effektif.
+For the final configuration step, use the web service definition file to configure the Salesforce service in Signavio Workflow.
 
 In the top-right user menu, select `My Organisation`, select the `Services` tab, and then select the Salesforce trigger type you created earlier.
 
@@ -62,4 +62,4 @@ In the top-right user menu, select `My Organisation`, select the `Services` tab,
 
 Select `Upload document`, and select the ``workflowOutboundMessage.wsdl`` file you saved earlier.
 
-Now you can use the new :ref:`Salesforce trigger <trigger-salesforce>` in Effektif.
+Now you can use the new :ref:`Salesforce trigger <trigger-salesforce>` in Signavio Workflow.

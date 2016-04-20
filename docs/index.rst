@@ -1,5 +1,5 @@
-Effektif User Guide
-================================================
+Signavio Workflow User Guide
+============================
 
 .. toctree::
    :maxdepth: 2

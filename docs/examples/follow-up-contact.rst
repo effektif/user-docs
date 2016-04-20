@@ -14,7 +14,7 @@ Context
 Sales managers often have a large number of meetings with both qualified prospects and ad hoc contacts.
 They may use triage to prioritise follow-up, in order to maximise the number of qualified leads.
 To do this, the sales manager might write on their new contact’s business card, after their first meeting, to indicate whether to follow up *now*, *later* or *never*. Responding *now* might mean requesting another meeting, while *later* could mean sending a friendly but non-committal response.
-Although a simple to do list application might provide enough functionality for this scenario, using Effektif gives you the benefit on a case view that conveniently collects more information about each contact, but without the complexity of a full-featured sales pipeline tool.
+Although a simple to do list application might provide enough functionality for this scenario, using Signavio Workflow gives you the benefit on a case view that conveniently collects more information about each contact, but without the complexity of a full-featured sales pipeline tool.
 
 Trigger
 ^^^^^^^
