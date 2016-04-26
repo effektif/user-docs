@@ -76,12 +76,7 @@ You need to use the *Edit task* permission to restrict access to the approval us
 so that only managers can provide the approval.
 
 To apply user task restrictions, open a process and select the user task.
-In the user task configuration panel, select the *Access Rights* tab:
-
-.. figure:: /_static/images/access-control/task-rights.png
-
-   User task access rights
-
+In the user task configuration panel, select the *Access Rights* tab.
 Click the *Define specific access* button to configure access control.
 
 .. figure:: /_static/images/access-control/task-controls.png
