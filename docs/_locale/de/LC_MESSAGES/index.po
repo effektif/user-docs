@@ -13,6 +13,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.6.5\n"
 
-#: ..\..\index.rst:2
-msgid "Effektif User Guide"
-msgstr "Effektif Nutzerhandbuch"
+#: ../../index.rst:2
+msgid "Signavio Workflow User Guide"
+msgstr ""
+
+#~ msgid "Effektif User Guide"
+#~ msgstr "Effektif Nutzerhandbuch"
