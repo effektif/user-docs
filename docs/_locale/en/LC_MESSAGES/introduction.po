@@ -15,23 +15,12 @@ msgstr ""
 msgid "Introduction"
 msgstr ""
 
-#: ../../introduction.rst:25
-msgid "When to use Effektif"
-msgstr ""
-
 #: ../../introduction.rst:36
 msgid "Benefits"
 msgstr ""
 
 #: ../../introduction.rst:38
 msgid "You’ll get:"
-msgstr ""
-
-#: ../../introduction.rst:4
-msgid ""
-"Effektif is a web-based workflow modelling and execution platform. Although "
-"its heritage includes classical Business Process Management Systems (BPMS), "
-"Effektif dramatically simplifies workflow automation."
 msgstr ""
 
 #: ../../introduction.rst:30
@@ -84,21 +73,6 @@ msgid ""
 "tasks."
 msgstr ""
 
-#: ../../introduction.rst:19
-msgid ""
-"After you publish a process, you can start many individual cases. Effektif "
-"keeps track of which tasks and actions you have to perform for each case. "
-"Cases bring people together with relevant information that provides context "
-"for completing the tasks. You can also use cases as collaboration spaces for"
-" people to discuss and create new tasks for individual cases on the fly."
-msgstr ""
-
-#: ../../introduction.rst:27
-msgid ""
-"You will find Effektif useful for describing and collaborating on routine "
-"work. Use Effektif for:"
-msgstr ""
-
 #: ../../introduction.rst:40
 msgid "control where you need it"
 msgstr ""
@@ -107,19 +81,80 @@ msgstr ""
 msgid "flexibility"
 msgstr ""
 
+#: ../../introduction.rst:4
+msgid ""
+"Signavio Workflow is a web-based workflow modelling and execution platform. "
+"Although its heritage includes classical Business Process Management Systems"
+" (BPMS), Signavio Workflow dramatically simplifies workflow automation."
+msgstr ""
+
+#: ../../introduction.rst:19
+msgid ""
+"After you publish a process, you can start many individual cases. Signavio "
+"Workflow keeps track of which tasks and actions you have to perform for each"
+" case. Cases bring people together with relevant information that provides "
+"context for completing the tasks. You can also use cases as collaboration "
+"spaces for people to discuss and create new tasks for individual cases on "
+"the fly."
+msgstr ""
+
+#: ../../introduction.rst:25
+msgid "When to use Signavio Workflow"
+msgstr ""
+
+#: ../../introduction.rst:27
+msgid ""
+"You will find Signavio Workflow useful for describing and collaborating on "
+"routine work. Use Signavio Workflow for:"
+msgstr ""
+
 #: ../../introduction.rst:46
 msgid ""
-"agility - because you can change Effektif process models more easily than "
-"custom software."
+"agility - because you can change Signavio Workflow process models more "
+"easily than custom software."
 msgstr ""
 
 #: ../../introduction.rst:51
 msgid ""
 "Signavio uses open source software. We thank everyone involved in the open "
 "source community. Please download the :download:`list of open source "
-"components that Effektif uses <download/Open-Source-Components-"
-"Effektif.pdf>`  (PDF)."
+"components that Signavio Workflow uses <download/Open-Source-Components-"
+"Signavio-Workflow.pdf>`  (PDF)."
 msgstr ""
+
+#~ msgid "When to use Effektif"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Effektif is a web-based workflow modelling and execution platform. Although "
+#~ "its heritage includes classical Business Process Management Systems (BPMS), "
+#~ "Effektif dramatically simplifies workflow automation."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "After you publish a process, you can start many individual cases. Effektif "
+#~ "keeps track of which tasks and actions you have to perform for each case. "
+#~ "Cases bring people together with relevant information that provides context "
+#~ "for completing the tasks. You can also use cases as collaboration spaces for"
+#~ " people to discuss and create new tasks for individual cases on the fly."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You will find Effektif useful for describing and collaborating on routine "
+#~ "work. Use Effektif for:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "agility - because you can change Effektif process models more easily than "
+#~ "custom software."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Signavio uses open source software. We thank everyone involved in the open "
+#~ "source community. Please download the :download:`list of open source "
+#~ "components that Effektif uses <download/Open-Source-Components-"
+#~ "Effektif.pdf>`  (PDF)."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Signavio uses open source software. We thank everyone involved in the open "

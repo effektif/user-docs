@@ -130,14 +130,6 @@ msgid ""
 "than an email conversation."
 msgstr ""
 
-#: ../../cases.rst:141
-msgid ""
-"Sometimes, you want to direct a comment to a specific person. While entering"
-" a comment, you can ‘mention’ someone by typing a ``@`` and choosing their "
-"name from the list. When you mention someone in a comment, Effektif sends "
-"them an email notification to bring them into the discussion."
-msgstr ""
-
 #: ../../cases.rst:149
 msgid "Mentioning someone in a comment"
 msgstr ""
@@ -246,11 +238,6 @@ msgid ""
 "email address, first name, ID and last name."
 msgstr ""
 
-#: ../../cases.rst:107
-msgid ""
-"Next, type the case title and hit Enter. Effektif now creates the new case."
-msgstr ""
-
 #: ../../cases.rst:151
 msgid ""
 "You can also mention two specific groups, corresponding to people working on"
@@ -263,14 +250,6 @@ msgid ""
 "You normally close a case by completing all of its tasks. However, sometimes"
 " you want to abandon a case and stop working on a it. To do this you can "
 "manually close a case."
-msgstr ""
-
-#: ../../cases.rst:208
-msgid ""
-"You do not normally delete cases in Effektif: you close cases that you have "
-"finished working on. However, you sometimes do need to delete cases, such as"
-" the test cases that you create while developing the initial versions of a "
-"process model."
 msgstr ""
 
 #: ../../cases.rst:215
@@ -363,20 +342,69 @@ msgstr ""
 msgid "Creating an ad-hoc case"
 msgstr ""
 
-#: ../../cases.rst:89
-msgid ""
-"Effektif supports two types of cases: cases that relate to a process and ad-"
-"hoc cases. An *ad-hoc case* does not have a predefined process. It creates a"
-" collaboration space that you can use to reach a one-off goal. The case "
-"brings together a set of tasks, a discussion and documents, and allows "
-"participants to share any relevant context information for the tasks."
-msgstr ""
-
 #: ../../cases.rst:94
 msgid ""
 "To create a new ad-hoc case, navigate to *Cases*; on the *Cases of* menu, "
 "select *Cases without a process*, then click *Start new case*."
 msgstr ""
+
+#: ../../cases.rst:89
+msgid ""
+"Signavio Workflow supports two types of cases: cases that relate to a "
+"process and ad-hoc cases. An *ad-hoc case* does not have a predefined "
+"process. It creates a collaboration space that you can use to reach a one-"
+"off goal. The case brings together a set of tasks, a discussion and "
+"documents, and allows participants to share any relevant context information"
+" for the tasks."
+msgstr ""
+
+#: ../../cases.rst:107
+msgid ""
+"Next, type the case title and hit Enter. Signavio Workflow now creates the "
+"new case."
+msgstr ""
+
+#: ../../cases.rst:141
+msgid ""
+"Sometimes, you want to direct a comment to a specific person. While entering"
+" a comment, you can ‘mention’ someone by typing a ``@`` and choosing their "
+"name from the list. When you mention someone in a comment, Signavio Workflow"
+" sends them an email notification to bring them into the discussion."
+msgstr ""
+
+#: ../../cases.rst:208
+msgid ""
+"You do not normally delete cases in Signavio Workflow: you close cases that "
+"you have finished working on. However, you sometimes do need to delete "
+"cases, such as the test cases that you create while developing the initial "
+"versions of a process model."
+msgstr ""
+
+#~ msgid ""
+#~ "Sometimes, you want to direct a comment to a specific person. While entering"
+#~ " a comment, you can ‘mention’ someone by typing a ``@`` and choosing their "
+#~ "name from the list. When you mention someone in a comment, Effektif sends "
+#~ "them an email notification to bring them into the discussion."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Next, type the case title and hit Enter. Effektif now creates the new case."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You do not normally delete cases in Effektif: you close cases that you have "
+#~ "finished working on. However, you sometimes do need to delete cases, such as"
+#~ " the test cases that you create while developing the initial versions of a "
+#~ "process model."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Effektif supports two types of cases: cases that relate to a process and ad-"
+#~ "hoc cases. An *ad-hoc case* does not have a predefined process. It creates a"
+#~ " collaboration space that you can use to reach a one-off goal. The case "
+#~ "brings together a set of tasks, a discussion and documents, and allows "
+#~ "participants to share any relevant context information for the tasks."
+#~ msgstr ""
 
 #~ msgid "Creating a case"
 #~ msgstr ""

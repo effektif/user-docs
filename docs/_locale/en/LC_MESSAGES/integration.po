@@ -15,23 +15,6 @@ msgstr ""
 msgid "Salesforce Integration"
 msgstr ""
 
-#: ../../integration/salesforce.rst:6
-msgid ""
-"Effektif integrates with Salesforce workflows. You can configure this so "
-"that changes in Salesforce will automatically trigger Effektif processes."
-msgstr ""
-
-#: ../../integration/salesforce.rst:10
-msgid "Effektif configuration"
-msgstr ""
-
-#: ../../integration/salesforce.rst:12
-msgid ""
-"Before you can set-up Salesforce integration, you need to create an endpoint"
-" in Effektif that Salesforce can send information to. Set this up in "
-"Effektif as follows."
-msgstr ""
-
 #: ../../integration/salesforce.rst:15
 msgid ""
 "In the top-right user menu, select `My Organisation` and then select the "
@@ -71,18 +54,6 @@ msgid ""
 "then `New Outbound Message`."
 msgstr ""
 
-#: ../../integration/salesforce.rst:40
-msgid ""
-"On the `Configure Outbound Message` page, configure the new `Outbound "
-"Message`, to define which object fields to send to Effektif."
-msgstr ""
-
-#: ../../integration/salesforce.rst:42
-msgid ""
-"In the `Endpoint URL` field, paste the `Endpoint URL` from the Effektif "
-"configuration you created earlier."
-msgstr ""
-
 #: ../../integration/salesforce.rst:46
 msgid ""
 "Select `Save`. Do not forget to activate the workflow rule as soon as you "
@@ -94,16 +65,6 @@ msgstr ""
 msgid ""
 "On the `Outbound message` page, next to `Endpoint WSDL`, select the `Click "
 "for WSDL` link, which opens a web service definition file."
-msgstr ""
-
-#: ../../integration/salesforce.rst:52
-msgid ""
-"Save the ``workflowOutboundMessage.wsdl`` file, which you will use to "
-"configure Effektif, next."
-msgstr ""
-
-#: ../../integration/salesforce.rst:55
-msgid "Finish Effektif configuration"
 msgstr ""
 
 #: ../../integration/salesforce.rst:59
@@ -125,17 +86,99 @@ msgid ""
 "as follows."
 msgstr ""
 
+#: ../../integration/salesforce.rst:6
+msgid ""
+"Signavio Workflow integrates with Salesforce workflows. You can configure "
+"this so that changes in Salesforce will automatically trigger Signavio "
+"Workflow processes."
+msgstr ""
+
+#: ../../integration/salesforce.rst:10
+msgid "Signavio Workflow configuration"
+msgstr ""
+
+#: ../../integration/salesforce.rst:12
+msgid ""
+"Before you can set-up Salesforce integration, you need to create an endpoint"
+" in Signavio Workflow that Salesforce can send information to. Set this up "
+"in Signavio Workflow as follows."
+msgstr ""
+
+#: ../../integration/salesforce.rst:40
+msgid ""
+"On the `Configure Outbound Message` page, configure the new `Outbound "
+"Message`, to define which object fields to send to Signavio Workflow."
+msgstr ""
+
+#: ../../integration/salesforce.rst:42
+msgid ""
+"In the `Endpoint URL` field, paste the `Endpoint URL` from the Signavio "
+"Workflow configuration you created earlier."
+msgstr ""
+
+#: ../../integration/salesforce.rst:52
+msgid ""
+"Save the ``workflowOutboundMessage.wsdl`` file, which you will use to "
+"configure Signavio Workflow, next."
+msgstr ""
+
+#: ../../integration/salesforce.rst:55
+msgid "Finish Signavio Workflow configuration"
+msgstr ""
+
 #: ../../integration/salesforce.rst:57
 msgid ""
 "For the final configuration step, use the web service definition file to "
-"configure the Salesforce service in Effektif."
+"configure the Salesforce service in Signavio Workflow."
 msgstr ""
 
 #: ../../integration/salesforce.rst:65
 msgid ""
 "Now you can use the new :ref:`Salesforce trigger <trigger-salesforce>` in "
-"Effektif."
+"Signavio Workflow."
 msgstr ""
+
+#~ msgid ""
+#~ "Effektif integrates with Salesforce workflows. You can configure this so "
+#~ "that changes in Salesforce will automatically trigger Effektif processes."
+#~ msgstr ""
+
+#~ msgid "Effektif configuration"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Before you can set-up Salesforce integration, you need to create an endpoint"
+#~ " in Effektif that Salesforce can send information to. Set this up in "
+#~ "Effektif as follows."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "On the `Configure Outbound Message` page, configure the new `Outbound "
+#~ "Message`, to define which object fields to send to Effektif."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the `Endpoint URL` field, paste the `Endpoint URL` from the Effektif "
+#~ "configuration you created earlier."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Save the ``workflowOutboundMessage.wsdl`` file, which you will use to "
+#~ "configure Effektif, next."
+#~ msgstr ""
+
+#~ msgid "Finish Effektif configuration"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For the final configuration step, use the web service definition file to "
+#~ "configure the Salesforce service in Effektif."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Now you can use the new :ref:`Salesforce trigger <trigger-salesforce>` in "
+#~ "Effektif."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Before you can enable Salesforce triggers, you need to configure Outbound "

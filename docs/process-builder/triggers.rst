@@ -54,7 +54,7 @@ the process trigger address will also receive any email sent to the mailing list
 starting the process in Signavio Workflow.
 You will then see the email in the event stream:
 
-.. figure:: /_static/images/stream/mail-trigger.png
+.. figure:: /_static/images/process-builder/trigger/mail-event.png
 
    Trigger mail in stream
 

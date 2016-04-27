@@ -269,17 +269,6 @@ msgid ""
 " exclusive gateway:"
 msgstr ""
 
-#: ../../control-flow/exclusive-gateway.rst:37
-#: ../../control-flow/exclusive-gateway.rst:37
-msgid ""
-"In order to use the decision you need to name the buttons which will "
-"represent the deicion. For each button, the label on the right indicates the"
-" next action in the process, which Effektif will perform when someone clicks"
-" the button. In this example, when the user clicks the decision button "
-"`Print contract`, Effektif executes the `Print contract` task, but *not* the"
-" `Update contract` task."
-msgstr ""
-
 #: ../../control-flow/exclusive-gateway.rst:56
 #: ../../control-flow/exclusive-gateway.rst:56
 msgid ""
@@ -455,14 +444,6 @@ msgstr ""
 msgid "An intermediate timer event in the process editor"
 msgstr ""
 
-#: ../../control-flow/intermediate-timer-event.rst:10
-#: ../../control-flow/intermediate-timer-event.rst:10
-msgid ""
-"An intermediate timer event indicates that process execution waits for a "
-"timer. You can use this to prevent Effektif creating the next task in a "
-"process until it becomes relevant."
-msgstr ""
-
 #: ../../control-flow/intermediate-timer-event.rst:15
 #: ../../control-flow/intermediate-timer-event.rst:15
 msgid "Using an intermediate timer event to model an evaluation period"
@@ -474,6 +455,40 @@ msgid ""
 "Configure how long the timer waits by selecting the timer in the process "
 "editor."
 msgstr ""
+
+#: ../../control-flow/exclusive-gateway.rst:37
+#: ../../control-flow/exclusive-gateway.rst:37
+msgid ""
+"In order to use the decision you need to name the buttons which will "
+"represent the deicion. For each button, the label on the right indicates the"
+" next action in the process, which Signavio Workflow will perform when "
+"someone clicks the button. In this example, when the user clicks the "
+"decision button `Print contract`, Signavio Workflow executes the `Print "
+"contract` task, but *not* the `Update contract` task."
+msgstr ""
+
+#: ../../control-flow/intermediate-timer-event.rst:10
+#: ../../control-flow/intermediate-timer-event.rst:10
+msgid ""
+"An intermediate timer event indicates that process execution waits for a "
+"timer. You can use this to prevent Signavio Workflow creating the next task "
+"in a process until it becomes relevant."
+msgstr ""
+
+#~ msgid ""
+#~ "In order to use the decision you need to name the buttons which will "
+#~ "represent the deicion. For each button, the label on the right indicates the"
+#~ " next action in the process, which Effektif will perform when someone clicks"
+#~ " the button. In this example, when the user clicks the decision button "
+#~ "`Print contract`, Effektif executes the `Print contract` task, but *not* the"
+#~ " `Update contract` task."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "An intermediate timer event indicates that process execution waits for a "
+#~ "timer. You can use this to prevent Effektif creating the next task in a "
+#~ "process until it becomes relevant."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "A start event marks the start of a process. All process elements that do not"

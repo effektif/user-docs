@@ -58,7 +58,7 @@ For the final configuration step, use the web service definition file to configu
 
 In the top-right user menu, select `My Organisation`, select the `Services` tab, and then select the Salesforce trigger type you created earlier.
 
-.. figure:: /_static/images/integration/salesforce/salesforce-integration-5.png
+.. figure:: /_static/images/integration/salesforce/salesforce-integration-2.png
 
 Select `Upload document`, and select the ``workflowOutboundMessage.wsdl`` file you saved earlier.
 

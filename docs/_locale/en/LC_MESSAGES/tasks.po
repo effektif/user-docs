@@ -124,12 +124,6 @@ msgid ""
 "You can also add ad-hoc tasks to a case."
 msgstr ""
 
-#: ../../tasks.rst:10
-msgid ""
-"In Effektif, you can assign a task to a specific user, set a due date and "
-"add subtasks."
-msgstr ""
-
 #: ../../tasks.rst:17
 msgid ""
 "The *Inbox* shows an overview of your assigned tasks: a list of tasks for "
@@ -148,12 +142,6 @@ msgid ""
 "The left-hand side of the inbox has sections for tasks that have due dates, "
 "so you can prioritise your work. The right-hand side lists tasks that don’t "
 "have a due date."
-msgstr ""
-
-#: ../../tasks.rst:43
-msgid ""
-"Tasks with due dates have a clock indicator to the right of the task name. "
-"Effektif shows this indicator in red when a task’s due date has arrived."
 msgstr ""
 
 #: ../../tasks.rst:46
@@ -178,12 +166,6 @@ msgstr ""
 msgid ""
 "*Assignee filter* - shows tasks that have a specific assignee, or tasks that"
 " have a specific candidate."
-msgstr ""
-
-#: ../../tasks.rst:79
-msgid ""
-"When a process starts, Effektif creates a :ref:`case <cases>` and starts all"
-" elements that do not have incoming transitions."
 msgstr ""
 
 #: ../../tasks.rst:85
@@ -232,6 +214,40 @@ msgid ""
 "document or make a comment, you can still do that without reopening the "
 "task."
 msgstr ""
+
+#: ../../tasks.rst:10
+msgid ""
+"In Signavio Workflow, you can assign a task to a specific user, set a due "
+"date and add subtasks."
+msgstr ""
+
+#: ../../tasks.rst:43
+msgid ""
+"Tasks with due dates have a clock indicator to the right of the task name. "
+"Signavio Workflow shows this indicator in red when a task’s due date has "
+"arrived."
+msgstr ""
+
+#: ../../tasks.rst:79
+msgid ""
+"When a process starts, Signavio Workflow creates a :ref:`case <cases>` and "
+"starts all elements that do not have incoming transitions."
+msgstr ""
+
+#~ msgid ""
+#~ "In Effektif, you can assign a task to a specific user, set a due date and "
+#~ "add subtasks."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Tasks with due dates have a clock indicator to the right of the task name. "
+#~ "Effektif shows this indicator in red when a task’s due date has arrived."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When a process starts, Effektif creates a :ref:`case <cases>` and starts all"
+#~ " elements that do not have incoming transitions."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "When you see the `Reopen` button in a task, it means that someone completed "

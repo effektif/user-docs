@@ -13,9 +13,9 @@ Each case stores its own values for each workflow variable.
 You will usually add a variable to your workflow by adding a :ref:`form field <form-fields>`.
 You can also create variables in a :ref:`javascript`, to capture data that the script retrieves or calculates.
 
-.. figure:: /_static/images/variables/trigger-form.png
+.. figure:: /_static/images/forms/start-form.png
 
-   A trigger form that populates a *Reference number* variable for use in a workflow
+   A trigger form that populates *Name* and *Date of birth* variables for use in a workflow
 
 In addition to your own workflow variables, Signavio Workflow automatically creates variables that give you access to additional data in each case.
 The :ref:`case-variable` contains data from when Signavio Workflow creates the case.
