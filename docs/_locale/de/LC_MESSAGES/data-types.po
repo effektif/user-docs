@@ -185,11 +185,11 @@ msgstr "ID-Typ"
 #: ../../data-types.rst:89
 msgid ""
 "The ID type is a special kind of string. These IDs identify objects and "
-"they are always created by Effektif, and have no other meaning. An example "
+"they are always created by Signavio Workflow, and have no other meaning. An example "
 "of an ID string is ``53fae958036471cea136ea83``."
 msgstr ""
 "Der ID-Typ ist eine spezielle String-Art. Diese IDs identifizieren Objekte "
-"und werden von Effektif erstellt. Sie besitzen keinerlei Bedeutung für den "
+"und werden von Signavio Workflow erstellt. Sie besitzen keinerlei Bedeutung für den "
 "Nutzer. Ein Beispiel dieser Art von String wäre "
 "\"`53fae958036471cea136ea83\"."
 

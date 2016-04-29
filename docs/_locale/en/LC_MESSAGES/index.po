@@ -12,8 +12,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../index.rst:2
-msgid "Effektif User Guide"
+msgid "Signavio Workflow User Guide"
 msgstr ""
+
+#~ msgid "Effektif User Guide"
+#~ msgstr ""
 
 #~ msgid "Welcome to Effektif User Manual's documentation!"
 #~ msgstr ""

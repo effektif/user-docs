@@ -4,7 +4,7 @@ JavaScript action
 -----------------
 
 The JavaScript action allows developers to add JavaScript to process execution.
-Effektif runs the code on the server, using `Node.js <https://nodejs.org>`_.
+Signavio Workflow runs the code on the server, using `Node.js <https://nodejs.org>`_.
 As well as Node.js’ JavaScript API, scripts can use the `lodash <https://www.npmjs.com/package/lodash>`_ and `request <https://www.npmjs.com/package/request>`_ libraries.
 
 After creating or selecting a JavaScript action, the configuration panel looks like this:
@@ -80,7 +80,7 @@ in an HTTP POST request to an external web service. ::
 
 This example uses a test endpoint configured using `Mocky <http://www.mocky.io/>`_
 to return an HTTP response.
-This has the following result in the Effektif test console:
+This has the following result in the Signavio Workflow test console:
 
 .. figure:: /_static/images/action-types/javascript/javascript-8.png
 
@@ -93,5 +93,5 @@ an updated value for the ``startDate`` variable,
 changing the date from ``2015-06-15`` to ``2015-06-16``.
 
 The script then parses this JSON response using ``JSON.parse``
-and updates the ``startDate`` variable in Effektif,
+and updates the ``startDate`` variable in Signavio Workflow,
 as shown in the *Updated value* column in the test console’s variables table.

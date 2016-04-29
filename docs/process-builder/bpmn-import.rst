@@ -3,7 +3,7 @@
 BPMN import
 -----------
 
-You can import an Effektif process model from a BPMN 2.0 XML file.
+You can import a Signavio Workflow process model from a BPMN 2.0 XML file.
 You can use this to import a model that you created in another tool,
 or to load a file that you saved using the :ref:`BPMN export <bpmn-export>` option.
 
@@ -14,10 +14,10 @@ click the `Import BPMN` button and select the BPMN XML file.
 
    The `Import BPMN` button on the `Processes` page
 
-Effektif does not support all BPMN 2.0 elements, 
-so the process may appear differently in Effektif.
+Signavio Workflow does not support all BPMN 2.0 elements, 
+so the process may appear differently in Signavio Workflow.
 In particular:
 
-* BPMN swim lanes become :ref:`roles <roles>` in Effektif
-* tasks become :ref:`user tasks <user-task>` in Effektif
-* Effektif removes unsupported elements, such as timer events.
+* BPMN swim lanes become :ref:`roles <roles>` in Signavio Workflow
+* tasks become :ref:`user tasks <user-task>` in Signavio Workflow
+* Signavio Workflow removes unsupported elements, such as timer events.

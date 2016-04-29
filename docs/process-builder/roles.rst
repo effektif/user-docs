@@ -12,19 +12,19 @@ A process role only lasts for the duration of a case, while organizational roles
 For example, when you have a meeting, one person sometimes takes the role of chairperson.
 That person doesn’t have the job title *Meeting chair* - they’ve just adopted that role for the duration of the meeting.
 
-A process in Effektif can define roles, in the same way that a business meeting ‘process’ has roles for whoever chairs the meeting (the ‘Chair’) and whoever takes minutes (the ‘Secretary’).
+A process in Signavio Workflow can define roles, in the same way that a business meeting ‘process’ has roles for whoever chairs the meeting (the ‘Chair’) and whoever takes minutes (the ‘Secretary’).
 The following meeting process model assigns the tasks on the top row to the *Chair* and the tasks on the bottom row to the *Secretary*.
 
 .. figure:: /_static/images/process-builder/roles/example.png
 
    A *Meeting* process, with tasks for *Chair* (top row) and *Secretary* (bottom row) roles
 
-In each meeting (each :ref:`case <cases>` in Effektif), one person takes the role of chair, and one the role of secretary.
+In each meeting (each :ref:`case <cases>` in Signavio Workflow), one person takes the role of chair, and one the role of secretary.
 These assignments generally don’t change during a meeting.
-Similarly, Effektif role assignments don’t change during a case.
-Effektif automatically assigns each new task with a role assignment to the person who already has the role.
+Similarly, Signavio Workflow role assignments don’t change during a case.
+Signavio Workflow automatically assigns each new task with a role assignment to the person who already has the role.
 
-In Effektif, a process role works like a workflow variable that you use to assigning tasks.
+In Signavio Workflow, a process role works like a workflow variable that you use to assigning tasks.
 A role variable has the :ref:`type-user` and stores a single user.
 
 These process roles differ from organization roles.
@@ -53,11 +53,11 @@ Instead, assign the three tasks to a new role called ‘Support engineer’,
 and add the relevant people as candidates for the role.
 
 Creating the first task that has a role will notify all of the candidates for the role.
-When one of the candidates takes the task, Effektif will assign the subsequent tasks with the same role to the same person.
+When one of the candidates takes the task, Signavio Workflow will assign the subsequent tasks with the same role to the same person.
 That helps this person work more efficiently because they have the context knowledge about that case.
 
 If you reassign a task that has a role assignment,
-Effektif will update the role variable,
+Signavio Workflow will update the role variable,
 and assign all subsequent tasks with the same role to the new assignee.
 
 Using a form field to assign a role

@@ -17,7 +17,7 @@ Configuration
 After creating a Google Drive `Upload file` action,
 the configuration panel shows a button to start configuring the account.
 
-When you click on the button `Configure a Google Drive account`, a popup window will appear that helps you integrate Effektif with your Google Drive account.
+When you click on the button `Configure a Google Drive account`, a popup window will appear that helps you integrate Signavio Workflow with your Google Drive account.
 
 Google will check that you have already logged in to Google.
 This check has three possible outcomes:
@@ -32,14 +32,14 @@ This check has three possible outcomes:
 
 3. If you have authenticated with multiple Google accounts, select the account you want to use.
 
-After you have completed authentication, you’ll see the following page that allows you to give Effektif access to your Google account.
+After you have completed authentication, you’ll see the following page that allows you to give Signavio Workflow access to your Google account.
 
 .. _drive-permission:
 .. figure:: /_static/images/action-types/google-drive/fileupload-5.png
 
    Google Drive permission grant
 
-After accepting the permissions, the pop up will disappear and Effektif will have completed connecting to your account.
+After accepting the permissions, the pop up will disappear and Signavio Workflow will have completed connecting to your account.
 
 Upload file action
 ^^^^^^^^^^^^^^^^^^
@@ -65,8 +65,8 @@ then you can use that to save each customer’s files in a separate folder.
 Use a forward slash (``/``) to separate nested subfolder levels.
 
 Next to `Files to upload`, you can select the variable field containing one or more files to upload.
-If the process did not already include a file variable, Effektif automatically creates a variable called 'File'.
-If the process variables did include a file or list of files, Effektif preselects it.
+If the process did not already include a file variable, Signavio Workflow automatically creates a variable called 'File'.
+If the process variables did include a file or list of files, Signavio Workflow preselects it.
 
 
 Google Drive - Print file

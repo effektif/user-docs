@@ -79,13 +79,6 @@ msgstr ""
 msgid "An email has a composite type, with the properties:"
 msgstr ""
 
-#: ../../variables/data-types.rst:77 ../../variables/data-types.rst:77
-msgid ""
-"An ID has special kind of string type. Effektif creates these IDs to "
-"identify objects; they have no other meaning. An ID string looks like "
-"``53fae958036471cea136ea83``."
-msgstr ""
-
 #: ../../variables/data-types.rst:120 ../../variables/data-types.rst:120
 msgid ""
 "Objects have a composite type, with a list of named fields. For example: a "
@@ -128,12 +121,6 @@ msgid ""
 "These variables contain all of the information from forms as well as "
 "information required by the process actions. Each case stores its own values"
 " for each workflow variable."
-msgstr ""
-
-#: ../../variables.rst:18
-msgid ""
-"A trigger form that populates a *Reference number* variable for use in a "
-"workflow"
 msgstr ""
 
 #: ../../variables.rst:13
@@ -253,37 +240,11 @@ msgid ""
 "among cases for all processes."
 msgstr ""
 
-#: ../../variables/case.rst:44 ../../variables/case.rst:44
-msgid ""
-"The *Creator* field (:ref:`type-user`) records the Effektif user who started"
-" the case. The :ref:`type-user` includes name and email address fields, so "
-"you can use the case creator to configure a :ref:`send-email` action that "
-"automatically notifies the requestor of an approval process’ result."
-msgstr ""
-
 #: ../../variables/case.rst:53 ../../variables/case.rst:53
 msgid ""
 "The *Start date* (:ref:`type-date`) records when the :ref:`case-creator` "
 "started the case. In an order process, for example, you could use this as "
 "the order date."
-msgstr ""
-
-#: ../../variables/case.rst:71 ../../variables/case.rst:71
-msgid ""
-"The *Link* field (:ref:`type-text`) stores the URL of the case page in "
-"Effektif. You can include this link in the body of email you send using a "
-":ref:`send-email` action, so that the recipient can immediately open the "
-"case in Effektif. Effektif includes this link its own built-in :ref:`email "
-"notifications <notifications>`."
-msgstr ""
-
-#: ../../variables/case.rst:24 ../../variables/case.rst:24
-msgid ""
-"The *Name* field (:ref:`type-text`) stores the name that either the :ref"
-":`case-creator` entered manually, or that Effektif generated. Case "
-"participants can edit this name. You might use the case name variable in a "
-":ref:`send-email` action configuration, to send emails that clearly identify"
-" their context by prefixing the subject line with the case name."
 msgstr ""
 
 #: ../../variables/case.rst:34 ../../variables/case.rst:34
@@ -365,15 +326,6 @@ msgstr ""
 msgid "Trigger email variable"
 msgstr ""
 
-#: ../../variables.rst:20
-msgid ""
-"In addition to your own workflow variables, Effektif automatically creates "
-"variables that give you access to additional data in each case. The :ref"
-":`case-variable` contains data from when Effektif creates the case. An :ref"
-":`email-trigger` adds an :ref:`Email variable <trigger-email-variable>` that"
-" contains the trigger email."
-msgstr ""
-
 #: ../../variables/trigger-email.rst:6 ../../variables/trigger-email.rst:6
 msgid ""
 "The *Trigger email* variable contains the email that started the case, for "
@@ -387,6 +339,97 @@ msgid ""
 "This variable has the fields that the :ref:`type-email` defines. You cannot "
 "change their values."
 msgstr ""
+
+#: ../../variables.rst:20
+msgid ""
+"In addition to your own workflow variables, Signavio Workflow automatically "
+"creates variables that give you access to additional data in each case. The "
+":ref:`case-variable` contains data from when Signavio Workflow creates the "
+"case. An :ref:`email-trigger` adds an :ref:`Email variable <trigger-email-"
+"variable>` that contains the trigger email."
+msgstr ""
+
+#: ../../variables/case.rst:24 ../../variables/case.rst:24
+msgid ""
+"The *Name* field (:ref:`type-text`) stores the name that either the :ref"
+":`case-creator` entered manually, or that Signavio Workflow generated. Case "
+"participants can edit this name. You might use the case name variable in a "
+":ref:`send-email` action configuration, to send emails that clearly identify"
+" their context by prefixing the subject line with the case name."
+msgstr ""
+
+#: ../../variables/case.rst:44 ../../variables/case.rst:44
+msgid ""
+"The *Creator* field (:ref:`type-user`) records the Signavio Workflow user "
+"who started the case. The :ref:`type-user` includes name and email address "
+"fields, so you can use the case creator to configure a :ref:`send-email` "
+"action that automatically notifies the requestor of an approval process’ "
+"result."
+msgstr ""
+
+#: ../../variables/case.rst:71 ../../variables/case.rst:71
+msgid ""
+"The *Link* field (:ref:`type-text`) stores the URL of the case page in "
+"Signavio Workflow. You can include this link in the body of email you send "
+"using a :ref:`send-email` action, so that the recipient can immediately open"
+" the case in Signavio Workflow. Signavio Workflow includes this link its own"
+" built-in :ref:`email notifications <notifications>`."
+msgstr ""
+
+#: ../../variables/data-types.rst:77 ../../variables/data-types.rst:77
+msgid ""
+"An ID has special kind of string type. Signavio Workflow creates these IDs "
+"to identify objects; they have no other meaning. An ID string looks like "
+"``53fae958036471cea136ea83``."
+msgstr ""
+
+#: ../../variables.rst:18
+msgid ""
+"A trigger form that populates *Name* and *Date of birth* variables for use "
+"in a workflow"
+msgstr ""
+
+#~ msgid ""
+#~ "A trigger form that populates a *Reference number* variable for use in a "
+#~ "workflow"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "An ID has special kind of string type. Effektif creates these IDs to "
+#~ "identify objects; they have no other meaning. An ID string looks like "
+#~ "``53fae958036471cea136ea83``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The *Creator* field (:ref:`type-user`) records the Effektif user who started"
+#~ " the case. The :ref:`type-user` includes name and email address fields, so "
+#~ "you can use the case creator to configure a :ref:`send-email` action that "
+#~ "automatically notifies the requestor of an approval process’ result."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The *Link* field (:ref:`type-text`) stores the URL of the case page in "
+#~ "Effektif. You can include this link in the body of email you send using a "
+#~ ":ref:`send-email` action, so that the recipient can immediately open the "
+#~ "case in Effektif. Effektif includes this link its own built-in :ref:`email "
+#~ "notifications <notifications>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The *Name* field (:ref:`type-text`) stores the name that either the :ref"
+#~ ":`case-creator` entered manually, or that Effektif generated. Case "
+#~ "participants can edit this name. You might use the case name variable in a "
+#~ ":ref:`send-email` action configuration, to send emails that clearly identify"
+#~ " their context by prefixing the subject line with the case name."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In addition to your own workflow variables, Effektif automatically creates "
+#~ "variables that give you access to additional data in each case. The :ref"
+#~ ":`case-variable` contains data from when Effektif creates the case. An :ref"
+#~ ":`email-trigger` adds an :ref:`Email variable <trigger-email-variable>` that"
+#~ " contains the trigger email."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "The *Trigger email* variable contains the email that started the case, for "

@@ -16,7 +16,7 @@ However, no-one ever seems to have time to write detailed documentation at the s
 You can use a checklist to capture a set of tasks that might otherwise get forgotten, without any particular structure or sequence to the process.
 A checklist’s main value comes from identifying tasks that you might otherwise forget.
 A project initiation checklist addresses questions about the project’s overview and the project plan.
-An Effektif process can present simple forms that guide this initial data collection.
+An Signavio Workflow process can present simple forms that guide this initial data collection.
 
 Trigger
 ^^^^^^^

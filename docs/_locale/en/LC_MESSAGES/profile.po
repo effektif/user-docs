@@ -37,12 +37,6 @@ msgid ""
 "and avatar image, or change your password."
 msgstr ""
 
-#: ../../profile.rst:32
-msgid ""
-"Use the `Preferences` section to configure the Effektif user interface and "
-"notifications."
-msgstr ""
-
 #: ../../profile.rst:36
 msgid "Uncheck the checkboxes to disable all email notifications."
 msgstr ""
@@ -69,22 +63,10 @@ msgstr ""
 msgid ":ref:`Services <services>`"
 msgstr ""
 
-#: ../../profile.rst:6
-msgid ""
-"On the top-right drop-down menu, select `My Profile` to view and edit your "
-"own Effektif user settings. The profile page has four sections:"
-msgstr ""
-
 #: ../../profile.rst:44
 msgid ""
 "The `Organizations` section lists organizations that you belong to, and "
 "indicates whether you have the organization administrator role."
-msgstr ""
-
-#: ../../profile.rst:49
-msgid ""
-"You can use the leave icon to leave an organisation. When you leave an "
-"organisation, Effektif will:"
 msgstr ""
 
 #: ../../profile.rst:52
@@ -99,15 +81,51 @@ msgstr ""
 msgid "remove your participation in cases of the organisation’s processes"
 msgstr ""
 
-#: ../../profile.rst:56
-msgid "free up one of the organisation’s Effektif licenses."
-msgstr ""
-
 #: ../../profile.rst:53
 msgid ""
 "remove you from process models (process owner, access controls, action "
 "candidates)"
 msgstr ""
+
+#: ../../profile.rst:6
+msgid ""
+"On the top-right drop-down menu, select `My Profile` to view and edit your "
+"own Signavio Workflow user settings. The profile page has four sections:"
+msgstr ""
+
+#: ../../profile.rst:32
+msgid ""
+"Use the `Preferences` section to configure the Signavio Workflow user "
+"interface and notifications."
+msgstr ""
+
+#: ../../profile.rst:49
+msgid ""
+"You can use the leave icon to leave an organisation. When you leave an "
+"organisation, Signavio Workflow will:"
+msgstr ""
+
+#: ../../profile.rst:56
+msgid "free up one of the organisation’s Signavio Workflow licenses."
+msgstr ""
+
+#~ msgid ""
+#~ "Use the `Preferences` section to configure the Effektif user interface and "
+#~ "notifications."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "On the top-right drop-down menu, select `My Profile` to view and edit your "
+#~ "own Effektif user settings. The profile page has four sections:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can use the leave icon to leave an organisation. When you leave an "
+#~ "organisation, Effektif will:"
+#~ msgstr ""
+
+#~ msgid "free up one of the organisation’s Effektif licenses."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "remove you from process models (process owner, access control, action "

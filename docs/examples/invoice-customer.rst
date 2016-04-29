@@ -23,7 +23,7 @@ Form - an uploaded invoice from a separate process, and customer contact details
 Actions
 ^^^^^^^
 
-This process uses a user task to capture key information about an invoice, which Effektif then sends automatically by e-mail.
+This process uses a user task to capture key information about an invoice, which Signavio Workflow then sends automatically by e-mail.
 Another task checks for payment, with a due date based on the invoice payment terms.
 
 .. figure:: /_static/images/examples/invoice-customer.png
@@ -32,7 +32,7 @@ To reduce the number of unpaid invoices due to errors, this process starts with 
 The assignee checks the information on the invoice, perhaps by comparing it to a purchase order, and then optionally replaces the invoice with a new corrected version.
 
 The *Send Invoice* task automatically emails the invoice to the customer, and a *Check for payment* task requires the finance administrator to check for customer payment.
-If the customer has not paid by the invoice by the payment terms deadline, then Effektif sends a reminder email followed by a user task that uses daily reminders to chase the process.
+If the customer has not paid by the invoice by the payment terms deadline, then Signavio Workflow sends a reminder email followed by a user task that uses daily reminders to chase the process.
 
 Roles
 ^^^^^

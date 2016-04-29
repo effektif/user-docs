@@ -7,7 +7,7 @@ A task represents work that someone will presumably complete.
 :ref:`cases` typically include multiple tasks, usually those that the process defines.
 You can also add ad-hoc tasks to a case.
 
-In Effektif, you can assign a task to a specific user, set a due date and add subtasks.
+In Signavio Workflow, you can assign a task to a specific user, set a due date and add subtasks.
 
 .. _tasks-inbox:
 
@@ -41,7 +41,7 @@ The *All tasks* view shows tasks for all assignees.
 
 
 Tasks with due dates have a clock indicator to the right of the task name.
-Effektif shows this indicator in red when a task’s due date has arrived.
+Signavio Workflow shows this indicator in red when a task’s due date has arrived.
 
 You can use the controls on the right to filter the tasks list,
 which you will find useful when the workload increases.
@@ -76,7 +76,7 @@ After you have added a task, it appears in the list:
 
 .. figure:: /_static/images/tasks/create/view-task.png
 
-When a process starts, Effektif creates a :ref:`case <cases>` and starts all elements that do not have incoming transitions.
+When a process starts, Signavio Workflow creates a :ref:`case <cases>` and starts all elements that do not have incoming transitions.
 
 
 Assigning tasks

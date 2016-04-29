@@ -170,12 +170,6 @@ msgstr ""
 msgid "Entering multiple field values in two text fields"
 msgstr ""
 
-#: ../../forms.rst:6
-msgid ""
-"In Effektif, you can use forms to enter information when you run a process. "
-"You can use forms in two places: form triggers and user tasks."
-msgstr ""
-
 #: ../../forms.rst:72
 msgid ""
 "Use the `Description` text area to provide initial instructions to people "
@@ -225,13 +219,6 @@ msgid ""
 "cannot complete the form without a value for this field"
 msgstr ""
 
-#: ../../forms.rst:123
-msgid ""
-"Text fields also have an additional `Multi-line` option that configures "
-"Effektif to display the form field as a multi-line text input area, for "
-"longer text values."
-msgstr ""
-
 #: ../../forms.rst:125
 msgid ""
 "When you enable the `Allow entering multiple values` option, the field "
@@ -244,6 +231,30 @@ msgid ""
 "User fields also have a `Candidates` option that you can use to choose which"
 " users you can assign:"
 msgstr ""
+
+#: ../../forms.rst:6
+msgid ""
+"In Signavio Workflow, you can use forms to enter information when you run a "
+"process. You can use forms in two places: form triggers and user tasks."
+msgstr ""
+
+#: ../../forms.rst:123
+msgid ""
+"Text fields also have an additional `Multi-line` option that configures "
+"Signavio Workflow to display the form field as a multi-line text input area,"
+" for longer text values."
+msgstr ""
+
+#~ msgid ""
+#~ "In Effektif, you can use forms to enter information when you run a process. "
+#~ "You can use forms in two places: form triggers and user tasks."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Text fields also have an additional `Multi-line` option that configures "
+#~ "Effektif to display the form field as a multi-line text input area, for "
+#~ "longer text values."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "In Effektif, you can use forms to enter information when you run a process. "

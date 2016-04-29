@@ -7,22 +7,41 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-28 18:28+0200\n"
-"PO-Revision-Date: 2016-04-13 19:05+0200\n"
+"POT-Creation-Date: 2016-04-29 10:45+0200\n"
+"PO-Revision-Date: 2016-04-29 11:55+0200\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language-Team: \n"
-"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.2.0\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: de\n"
 "X-Generator: Poedit 1.8.7\n"
 
-#: ..\..\settings.rst:4
+#: ../../settings.rst:4
 msgid "Organization settings"
 msgstr "Organisationseinstellungen"
 
-#: ..\..\settings.rst:11
+#: ../../settings.rst:6
+msgid ""
+"In Signavio Workflow, your organization represents a collection of Signavio "
+"Workflow users - typically a company - together with all their data in "
+"Signavio Workflow. People outside your organization cannot see your "
+"organization’s data. After you log into Signavio Workflow, you see all the "
+"data inside one particular organization. If you belong to multiple "
+"organizations, you can switch between organizations by selecting a different "
+"organization under your name in the top right corner."
+msgstr ""
+"In Signavio Workflow wird Ihre Organisation - normalerweise eine Firma -  "
+"durch eine bestimmte Menge von Signavio Workflow-Nutzern dargestellt, zusammen "
+"mit all ihren Signavio Workflow-Daten. Personen außerhalb Ihrer Organisation "
+"können Ihre Daten nicht einsehen. Nachdem Sie sich in Signavio Workflow "
+"eingeloggt haben, können Sie den Datensatz einer bestimmten Organisation "
+"einsehen. Falls Sie mehreren Organisationen angehören, können Sie zwischen "
+"Organisationen wechseln, indem Sie oben rechts unter Ihrem Namen eine andere "
+"Organisation auswählen."
+
+#: ../../settings.rst:11
 msgid ""
 "Use the Organization settings page to set-up users and groups, manage "
 "invitations, and configure external services such as :ref:`salesforce-"
@@ -32,139 +51,122 @@ msgstr ""
 "Einladungen versenden und externe Services wie zum Beispiel die :ref:"
 "`Salesforce Integration` konfigurieren."
 
-#: ..\..\settings.rst:15
+#: ../../settings.rst:15
 msgid ""
 "At the top of the page, in the masthead, you can edit the organization name."
 msgstr ""
-"Im Kopfteil der Seite (dem türkis hinterlegten Teil) können Sie den Namen "
-"der Organisation ändern."
+"Im Kopfteil der Seite (dem türkis hinterlegten Teil) können Sie den Namen der "
+"Organisation ändern."
 
-#: ..\..\settings.rst:19
+#: ../../settings.rst:19
 msgid "Users"
 msgstr "Nutzer"
 
-#: ..\..\settings.rst:21
+#: ../../settings.rst:21
 msgid ""
 "The users list shows users who belong to your organization. You can expand "
 "each user’s entry to see their email address, license type, and membership "
 "type - indicating whether the user has the administrator role."
 msgstr ""
-"Die Nutzerliste zeigt alle Mitglieder in Ihrer Organisation. Sie können "
-"jeden Eintrag aufklappen um die Emailadresse, die Lizenz und die Art der "
+"Die Nutzerliste zeigt alle Mitglieder in Ihrer Organisation. Sie können jeden "
+"Eintrag aufklappen um die Emailadresse, die Lizenz und die Art der "
 "Mitgliedschaft für jeden Nutzer - reguläre Nutzer oder Administrator - "
 "einsehen."
 
-#: ..\..\settings.rst:28
+#: ../../settings.rst:28
 msgid ""
-"Administrators can promote other users to administrator: on an expanded "
-"user panel, click the *Promote to administrator* button."
+"Administrators can promote other users to administrator: on an expanded user "
+"panel, click the *Promote to administrator* button."
 msgstr ""
-"Administratoren können andere Nutzer zu Administratoren ernennen. Klappen "
-"Sie dazu einen Eintrag in der Nutzerliste auf und klicken Sie auf *Zum "
+"Administratoren können andere Nutzer zu Administratoren ernennen. Klappen Sie "
+"dazu einen Eintrag in der Nutzerliste auf und klicken Sie auf *Zum "
 "Administrator ernennen*."
 
-#: ..\..\settings.rst:34
+#: ../../settings.rst:34
 msgid ""
-"Administrators can also delete users, using the delete button next to the "
-"user name."
+"Administrators can also delete users, using the delete button next to the user "
+"name."
 msgstr ""
-"Administratoren können Nutzer auch löschen indem Sie auf den Papierkorb "
-"neben dem Nutzernamen klicken."
+"Administratoren können Nutzer auch löschen indem Sie auf den Papierkorb neben "
+"dem Nutzernamen klicken."
 
-#: ..\..\settings.rst:39
+#: ../../settings.rst:39
 msgid "Invitations"
 msgstr "Einladungen"
 
-#: ..\..\settings.rst:41
-msgid "The invitations list shows who you have invited to use Effektif."
+#: ../../settings.rst:41
+msgid "The invitations list shows who you have invited to use Signavio Workflow."
 msgstr ""
-"Die Liste der Einladungen zeigt Ihnen, wen Sie schon zu Effektif eingeladen "
-"haben."
+"Die Liste der Einladungen zeigt Ihnen, wen Sie schon zu Signavio Workflow "
+"eingeladen haben."
 
-#: ..\..\settings.rst:45
+#: ../../settings.rst:45
 msgid ""
-"To invite someone to use Effektif, select the license they will use, enter "
-"their email address in the text field and click the *Invite* button. They "
-"will receive an email with a link to the registration page, where they can "
-"create an Effektif user that will become a member of the organization."
+"To invite someone to use Signavio Workflow, select the license they will use, "
+"enter their email address in the text field and click the *Invite* button. "
+"They will receive an email with a link to the registration page, where they "
+"can create a Signavio Workflow user that will become a member of the "
+"organization."
 msgstr ""
-"Um jemanden zu Effektif einzuladen, wählen Sie zunächst die gewünschte "
-"Lizenz aus. Danach geben Sie im Textfeld darunter eine Emailadresse ein und "
-"klicken auf *Einladen*. Alle Personen, die Sie einladen erhalten darauf "
-"eine Email mit einem Link um Ihre Registrierung abzuschließen. Anschließend "
-"tauchen sie wie gewohnt in der Mitgliederliste Ihrer Organisation auf. "
+"Um jemanden zu Signavio Workflow einzuladen, wählen Sie zunächst die "
+"gewünschte Lizenz aus. Danach geben Sie im Textfeld darunter eine Emailadresse "
+"ein und klicken auf *Einladen*. Alle Personen, die Sie einladen erhalten "
+"darauf eine Email mit einem Link um Ihre Registrierung abzuschließen. "
+"Anschließend tauchen sie wie gewohnt in der Mitgliederliste Ihrer Organisation "
+"auf. "
 
-#: ..\..\settings.rst:53
+#: ../../settings.rst:53
 msgid "Groups"
 msgstr "Gruppen"
 
-#: ..\..\settings.rst:55
+#: ../../settings.rst:55
 msgid ""
-"The groups list shows the organization’s user groups. You can use these "
-"groups to define candidates for tasks in the :ref:`process builder <process-"
-"builder>`."
+"The groups list shows the organization’s user groups. You can use these groups "
+"to define candidates for tasks in the :ref:`process builder <process-builder>`."
 msgstr ""
 "Unter Gruppen finden Sie alle Gruppen, die in Ihrer Organisation definiert "
 "sind. Sie können Gruppen benutzen um Kandidaten für Aufgaben im :ref:"
 "`Prozesseditor <process-builder>` festzulegen."
 
-#: ..\..\settings.rst:60
+#: ../../settings.rst:60
 msgid ""
-"To create a new group, in the text field below the group list, enter a "
-"group name and click the *Create* button."
+"To create a new group, in the text field below the group list, enter a group "
+"name and click the *Create* button."
 msgstr ""
-"Um eine Neue Gruppe anzulegen, geben Sie zunächst den Namen im Textfeld "
-"unter der Liste aller Gruppen ein und klicken dann auf *Erstellen*."
+"Um eine Neue Gruppe anzulegen, geben Sie zunächst den Namen im Textfeld unter "
+"der Liste aller Gruppen ein und klicken dann auf *Erstellen*."
 
-#: ..\..\settings.rst:66
+#: ../../settings.rst:66
 msgid ""
-"Click a group’s name to expand its list of members, so you can edit the "
-"name and add or remove members,"
+"Click a group’s name to expand its list of members, so you can edit the name "
+"and add or remove members,"
 msgstr ""
 "Wenn Sie auf eine Gruppe klicken, sehen Sie die Liste aller Mitglieder. Sie "
 "können diese Liste bearbeiten indem Sie weitere Nutzer hinzufügen oder "
 "bestehende Mitglieder entfernen."
 
-#: ..\..\settings.rst:72
+#: ../../settings.rst:72
 msgid "Preferences"
 msgstr "Organisationseinstellungen"
 
-#: ..\..\settings.rst:74
+#: ../../settings.rst:74
 msgid ""
 "The *Preferences* includes additional options that apply to the whole "
 "organization."
 msgstr ""
-"Unter *Organisationseinstellungen* finden Sie Konfigurationsoptionen, die "
-"für Ihre gesamte Organisation zentral verwaltet werden."
+"Unter *Organisationseinstellungen* finden Sie Konfigurationsoptionen, die für "
+"Ihre gesamte Organisation zentral verwaltet werden."
 
-#: ..\..\settings.rst:78
-msgid "*Time zone* affects how Effektif displays times."
+#: ../../settings.rst:78
+msgid "*Time zone* affects how Signavio Workflow displays times."
 msgstr ""
-"Unter *Zeitzone* konfigurieren Sie die Anzeige von Zeiten in Effektif."
+"Unter *Zeitzone* konfigurieren Sie die Anzeige von Zeiten in Signavio Workflow."
 
-#: ..\..\settings.rst:80
+#: ../../settings.rst:80
 msgid ""
-"*Email signature* replaces the default *Effektif team* signature at the "
-"bottom of :ref:`notification emails <notifications>`."
+"*Email signature* replaces the default *Signavio Workflow team* signature at "
+"the bottom of :ref:`notification emails <notifications>`."
 msgstr ""
-"Unter *Email Signatur* ersetzen Sie die *Effektif Team*-Standardsignatur, "
-"die mit den :ref:`Effektif-Emailbenachrichtigungen<notifications>` "
-"verschickt wird."
-
-#: ..\..\settings.rst:6
-msgid ""
-"In Effektif, your organization represents a collection of Effektif users - "
-"typically a company - together with all their data in Effektif. People "
-"outside your organization cannot see your organization’s data. After you "
-"log into Effektif, you see all the data inside one particular organization. "
-"If you belong to multiple organizations, you can switch between "
-"organizations by selecting a different organization under your name in the "
-"top right corner."
-msgstr ""
-"In Effektif wird Ihre Organisation - normalerweise eine Firma -  durch eine "
-"bestimmte Menge von Effektif-Nutzern dargestellt, zusammen mit all ihren "
-"Effektif-Daten. Personen außerhalb Ihrer Organisation können Ihre Daten "
-"nicht einsehen. Nachdem Sie sich in Effektif eingeloggt haben, können Sie "
-"den Datensatz einer bestimmten Organisation einsehen. Falls Sie mehreren "
-"Organisationen angehören, können Sie zwischen Organisationen wechseln, "
-"indem Sie oben rechts unter Ihrem Namen eine andere Organisation auswählen."
+"Unter *Email Signatur* ersetzen Sie die *Signavio Workflow Team*-"
+"Standardsignatur, die mit den :ref:`Signavio Workflow-"
+"Emailbenachrichtigungen<notifications>` verschickt wird."

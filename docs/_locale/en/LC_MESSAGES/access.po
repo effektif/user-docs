@@ -122,25 +122,11 @@ msgid ""
 "approval."
 msgstr ""
 
-#: ../../access.rst:78
-msgid ""
-"To apply user task restrictions, open a process and select the user task. In"
-" the user task configuration panel, select the *Access Rights* tab:"
-msgstr ""
-
-#: ../../access.rst:83
-msgid "User task access rights"
-msgstr ""
-
-#: ../../access.rst:85
-msgid "Click the *Define specific access* button to configure access control."
-msgstr ""
-
-#: ../../access.rst:89
+#: ../../access.rst:84
 msgid "Configuring user task access control"
 msgstr ""
 
-#: ../../access.rst:91
+#: ../../access.rst:86
 msgid ""
 "You can now use the text box to search for users and groups, and use the "
 "checkboxes to grant permissions."
@@ -148,15 +134,6 @@ msgstr ""
 
 #: ../../access.rst:18
 msgid "*Edit process* - make changes to a process and publish new versions"
-msgstr ""
-
-#: ../../access.rst:6
-msgid ""
-"You can use access control in Effektif to restrict who can access a process,"
-" or specific tasks within a process. Processes and tasks default to public "
-"accessibility, which means that all users in the organization have access. "
-"When you configure access controls, you restrict access to specific users or"
-" groups."
 msgstr ""
 
 #: ../../access.rst:16
@@ -189,6 +166,41 @@ msgid ""
 "When you make a user task private, you can grant two different permissions "
 "to users and groups."
 msgstr ""
+
+#: ../../access.rst:6
+msgid ""
+"You can use access control in Signavio Workflow to restrict who can access a"
+" process, or specific tasks within a process. Processes and tasks default to"
+" public accessibility, which means that all users in the organization have "
+"access. When you configure access controls, you restrict access to specific "
+"users or groups."
+msgstr ""
+
+#: ../../access.rst:78
+msgid ""
+"To apply user task restrictions, open a process and select the user task. In"
+" the user task configuration panel, select the *Access Rights* tab. Click "
+"the *Define specific access* button to configure access control."
+msgstr ""
+
+#~ msgid ""
+#~ "To apply user task restrictions, open a process and select the user task. In"
+#~ " the user task configuration panel, select the *Access Rights* tab:"
+#~ msgstr ""
+
+#~ msgid "User task access rights"
+#~ msgstr ""
+
+#~ msgid "Click the *Define specific access* button to configure access control."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can use access control in Effektif to restrict who can access a process,"
+#~ " or specific tasks within a process. Processes and tasks default to public "
+#~ "accessibility, which means that all users in the organization have access. "
+#~ "When you configure access controls, you restrict access to specific users or"
+#~ " groups."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "You can use access control in Effektif to restrict who can access a process,"

@@ -21,7 +21,7 @@ The case variable’s *ID* (:ref:`type-id`) uniquely identifies this case among 
 Name
 ^^^^
 
-The *Name* field (:ref:`type-text`) stores the name that either the :ref:`case-creator` entered manually, or that Effektif generated.
+The *Name* field (:ref:`type-text`) stores the name that either the :ref:`case-creator` entered manually, or that Signavio Workflow generated.
 Case participants can edit this name.
 You might use the case name variable in a :ref:`send-email` action configuration, to send emails that clearly identify their context by prefixing the subject line with the case name.
 
@@ -41,7 +41,7 @@ In a *Handle customer order* process, you could use the case number as a generat
 Creator
 ^^^^^^^
 
-The *Creator* field (:ref:`type-user`) records the Effektif user who started the case.
+The *Creator* field (:ref:`type-user`) records the Signavio Workflow user who started the case.
 The :ref:`type-user` includes name and email address fields, so you can use the case creator to configure a :ref:`send-email` action that automatically notifies the requestor of an approval process’ result.
 
 
@@ -68,6 +68,6 @@ Unlike the other case variables, the due date does not always have a value.
 Case link
 ^^^^^^^^^
 
-The *Link* field (:ref:`type-text`) stores the URL of the case page in Effektif.
-You can include this link in the body of email you send using a :ref:`send-email` action, so that the recipient can immediately open the case in Effektif.
-Effektif includes this link its own built-in :ref:`email notifications <notifications>`.
+The *Link* field (:ref:`type-text`) stores the URL of the case page in Signavio Workflow.
+You can include this link in the body of email you send using a :ref:`send-email` action, so that the recipient can immediately open the case in Signavio Workflow.
+Signavio Workflow includes this link its own built-in :ref:`email notifications <notifications>`.

@@ -3,7 +3,7 @@
 Access control
 ==============
 
-You can use access control in Effektif to restrict who can access a process,
+You can use access control in Signavio Workflow to restrict who can access a process,
 or specific tasks within a process.
 Processes and tasks default to public accessibility, which means that all users in the organization have access.
 When you configure access controls,
@@ -76,12 +76,7 @@ You need to use the *Edit task* permission to restrict access to the approval us
 so that only managers can provide the approval.
 
 To apply user task restrictions, open a process and select the user task.
-In the user task configuration panel, select the *Access Rights* tab:
-
-.. figure:: /_static/images/access-control/task-rights.png
-
-   User task access rights
-
+In the user task configuration panel, select the *Access Rights* tab.
 Click the *Define specific access* button to configure access control.
 
 .. figure:: /_static/images/access-control/task-controls.png

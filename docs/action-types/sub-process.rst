@@ -19,8 +19,8 @@ You can also use sub-process to delegate responsibility for the process model to
 Configure the sub-process action in the process builder by selecting it, and choosing a process from the list.
 You cannot select the same process as the parent process, which would cause a loop, or an unpublished process.
 
-If you select a sub-process with a trigger form, you can also select variables that Effektif will use to auto-fill the trigger form fields when starting the sub-process case.
-In the example above, Effektif will populate the sub-process’ *Unpaid invoice* trigger form field with the file stored in the parent process’ *Invoice* variable.
+If you select a sub-process with a trigger form, you can also select variables that Signavio Workflow will use to auto-fill the trigger form fields when starting the sub-process case.
+In the example above, Signavio Workflow will populate the sub-process’ *Unpaid invoice* trigger form field with the file stored in the parent process’ *Invoice* variable.
 
-When Effektif creates a sub-process, it starts a new case in the selected sub-process.
-After completing the sub-process case, Effektif continues executing the parent case.
+When Signavio Workflow creates a sub-process, it starts a new case in the selected sub-process.
+After completing the sub-process case, Signavio Workflow continues executing the parent case.

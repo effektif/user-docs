@@ -7,305 +7,304 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-01 16:46+0200\n"
-"PO-Revision-Date: 2016-04-13 17:57+0200\n"
+"POT-Creation-Date: 2016-04-29 10:45+0200\n"
+"PO-Revision-Date: 2016-04-29 11:18+0200\n"
 "Last-Translator: Timotheus Kampik <timotheus.kampik@signavio.com>\n"
 "Language-Team: \n"
-"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.2.0\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: de\n"
 "X-Generator: Poedit 1.8.7\n"
 
-#: ..\..\cases.rst:4
+#: ../../cases.rst:4
 msgid "Cases"
 msgstr "Fälle"
 
-#: ..\..\cases.rst:6
+#: ../../cases.rst:6
 msgid "You can use a case as a small collaboration space for a particular goal. For example, ‘Hire employee’ or ‘Sign contract’. Cases typically represent more work than a simple task for a single person, but less than a whole project."
 msgstr "Sie können Fälle als Arbeitsbereich für ein bestimmtes Ziel verwenden. Dies können zum Beispiel Aufgaben wie 'Mitarbeiter einstellen' oder 'Vertrag unterschreiben' sein. In der Regel sind Fälle umfangreicher als normale Aufgaben die von einer Person erledigt werden können und kleiner als ein Komplettes Projekt."
 
-#: ..\..\cases.rst:10
+#: ../../cases.rst:10
 msgid "A case breaks the goal down into concrete action items (or tasks) so you can collaborate with other people. The case centralises all relevant context information about the topic, for sharing and discussion."
 msgstr "Fälle können ein größeres Ziel in kleinere Teilaufgaben zu zerlegen, um die Zusammenarbeit mit Kollegen zu vereinfachen. In einem Fall können alle relevanten Informationen rund um das Thema zusammengetragen und diskutiert werden."
 
-#: ..\..\cases.rst:17
+#: ../../cases.rst:17
 msgid "Viewing cases"
 msgstr "Fälle einsehen"
 
-#: ..\..\cases.rst:19
+#: ../../cases.rst:19
 msgid "The *Cases* view shows an overview of cases for a single process. To open the Cases view, select *Cases* from the main menu."
 msgstr "Die *Fälle*-Ansicht zeigt alle Fälle zu einem bestimmten Prozess. Um Sie zu öffnen, wählen Sie *Fälle* im Hauptmenü aus."
 
-#: ..\..\cases.rst:24
+#: ../../cases.rst:24
 msgid "The Cases view - cases of the ‘Hire employee’ process"
 msgstr "Die Fälle-Ansicht - Fälle des 'Mitarbeiter einstellen' Prozesses"
 
-#: ..\..\cases.rst:26
+#: ../../cases.rst:26
 msgid "The table shows cases for the *Hire employee* process. You can use the menu above the table to select a different process, ad hoc cases that don’t have a process, or cases of a deleted process. Each case in the table show the case name, grey and green task status bars, and additional columns that show the values of workflow :ref:`variables <variables>`."
 msgstr "Die Tabelle zeigt alle Fälle für den Prozess *Mitarbeiter einstellen*. Sie können das Menü am oberen Rand dazu benutzen um Fälle eines anderen Prozesses , Fälle die keinem Prozess zugeordnet sind oder Fälle gelöschter Prozesse einzusehen. Zu jedem Fall sehen Sie den Fallnamen, die Statusbalken für die abgeschlossenen, sowie noch offenen Aufgaben und weitere Spalten, die aktuelle Werte von :ref:`Variablen <variables>` im Workflow anzeigen. "
 
-#: ..\..\cases.rst:34
+#: ../../cases.rst:34
 msgid "The grey and green status bars show information about completed and open tasks when you hover the mouse cursor over them."
 msgstr "Die grauen und grünen Statusbalken zeigen Ihnen zusätzliche Information zu offenen und schon erledigten Aufgaben an, wenn Sie mit der Maus darüber fahren. "
 
-#: ..\..\cases.rst:39
+#: ../../cases.rst:39
 msgid "Hover over the grey bar to see a case’s completed tasks."
 msgstr "Fahren Sie über den grauen Balken um bereits abgeschlossene Aufgaben zu sehen. "
 
-#: ..\..\cases.rst:43
+#: ../../cases.rst:43
 msgid "Hover over the open bar to see a case’s open tasks."
 msgstr "Fahren Sie über den grünen Balken um noch offene Aufgaben im Fall zu sehen."
 
-#: ..\..\cases.rst:45
+#: ../../cases.rst:45
 msgid "These status bars appear to the left of the workflow data columns, which you can customize."
 msgstr "Rechts von den Statusbalken finden Sie Datenspalten, die Sie auch anpassen können."
 
-#: ..\..\cases.rst:58
-msgid "Customizing case view table columns"
-msgstr "Die Spalten in der Fälle-Ansicht anpassen"
-
-#: ..\..\cases.rst:60
-msgid "The *Cases* view’s table includes columns for workflow :ref:`variables <variables>`, which usually correspond to form fields on a trigger form or in a user task. You can select which fields the Cases view shows as table columns, so you can have a clear overview of the process’ cases."
-msgstr "Die Tabelle in der *Fälle*-Ansicht enthält :ref:`Variablen <variables>` aus Ihrem Workflow. Normalerweise sind dies Formularfelder aus dem Auslöser oder Aufgaben. Sie können Konfigurieren welche Felder hier ausgewählt werden, damit Sie immer einen klaren Überblick über die Fälle Ihrer Prozesse haben."
-
-#: ..\..\cases.rst:65
-msgid "To customize the table columns, open the Cases view and click the top-right *Configure columns* button."
-msgstr "Um die Spalten anzupassen, öffnen Sie die Fälle-Ansicht und klicken Sie auf *Spalten konfigurieren* in der oberen rechten Ecke. "
-
-#: ..\..\cases.rst:70
-msgid "Configuring table columns"
-msgstr "Tabellen-Spalten konfigurieren"
-
-#: ..\..\cases.rst:72
-msgid "Use the drag icon on the far left of the list of columns to change the column order, and click the delete icon on the far right to remove a column. You can also use the text box to edit the column’s heading."
-msgstr "Sie können die Reihenfolge einfach per Drag & Drop ändern, wenn Sie die einzelnen Einträge am äußeren linken Rand anfassen und nach oben oder unten ziehen. Klicken Sie auf das 'X' Symbol am rechten Rand um eine Spalte zu entfernen. Selbst den Titel einer Spalte können Sie einfach ändern, indem Sie den gewünschten Titel in das Textfeld eintragen."
-
-#: ..\..\cases.rst:76
-msgid "Below the list of columns, you’ll find a menu for selecting additional column to add to the table."
-msgstr "Unter der Liste mit den aktuell gewählten Spalten befindet sich ein Menü, mit dem Sie weitere Spalten zur Tabelle hinzufügen können."
-
-#: ..\..\cases.rst:80
-msgid "Adding a column to the table"
-msgstr "Eine Spalte zur Tabelle hinzufügen"
-
-#: ..\..\cases.rst:82
-msgid "The menu lists all of the workflow variables that the table does not currently include. In this example, the *Interviewer* variable has the type *User*, which means that you can access additional fields for the user’s email address, first name, ID and last name."
-msgstr "Das Menü listet alle verfügbaren Variablen auf, die momentan noch nicht in der Tabelle angezeigt werden. Da die *Interviewer*-Variable vom Typ *Nutzer* ist, stehen hier zusätzliche Felder wie zum Beispiel die Emailadresse oder der Vor- und Nachname des jeweiligen Nutzers zur Verfügung."
-
-#: ..\..\cases.rst:99
-msgid "Start a new task"
-msgstr "Einen neuen Fall starten"
-
-#: ..\..\cases.rst:101
-msgid "Then the case header appears."
-msgstr "Nach diesem Schritt erscheint der Kopfteil des neuen Falls."
-
-#: ..\..\cases.rst:105
-msgid "Enter case title"
-msgstr "Einen Namen eintragen"
-
-#: ..\..\cases.rst:107
-msgid "Next, type the case title and hit Enter. Effektif now creates the new case."
-msgstr "Als Nächstes benennen Sie den neuen Fall und drücken Sie anschließend auf Enter. Der neue Fall wird nun angelegt."
-
-#: ..\..\cases.rst:111
-msgid "New case"
-msgstr "Neuer Fall"
-
-#: ..\..\cases.rst:115
-msgid "Commenting on a case"
-msgstr "Einen Fall kommentieren"
-
-#: ..\..\cases.rst:117
-msgid "Working on a case often includes collaboration with other people. You can use the case view to discuss the case with other people, which results in a discussion in the event stream."
-msgstr "Bei der Bearbeitung eines Falls arbeiten Sie oft mit anderen Personen zusammen. Über die Fallansicht können Sie den Fall mit Arbeitspartnern diskutieren. Die Diskussion wird als Ereignisfeed angezeigt."
-
-#: ..\..\cases.rst:123
-msgid "Comments on a case - discussion with context"
-msgstr "Kommentare eines Falls - Diskussion im Fallkontext"
-
-#: ..\..\cases.rst:132
-msgid "Hover over the relative time to see the comment’s full time stamp:"
-msgstr "Bewegen Sie den Mauszeiger über die Zeitangabe, um die genaue Datums- und Zeitangabe des Kommentars einzusehen."
-
-#: ..\..\cases.rst:136
-msgid "To add a comment, type in the text box above the event stream. Everyone who has access to the case can follow the discussion. Keeping the discussion ‘inside’ the case preserves the context, which makes it easier to follow than an email conversation."
-msgstr "Um einen Kommentar hinzuzufügen, geben Sie den Text in das Textfeld über dem Ereignisfeed ein. Alle Personen, die Zugang zum Fall haben, können die Diskussion mitverfolgen. Dadurch, dass Sie die Diskussion 'direkt im Fall' halten, bleibt der Kontext erhalten. Dies erleichtert das Zuordnen von Information, insbesondere im Vergleich zu E-mail-Konversationen."
-
-#: ..\..\cases.rst:141
-msgid "Sometimes, you want to direct a comment to a specific person. While entering a comment, you can ‘mention’ someone by typing a ``@`` and choosing their name from the list. When you mention someone in a comment, Effektif sends them an email notification to bring them into the discussion."
-msgstr "In bestimmten Fällen wollen Sie einen Kommentar an eine spezifische Person adressieren. Dies erreichen Sie, indem im Textfeld ein ``@`` eingeben und den gewünschten Namen aus der anschließend angezeigten Liste auswählen. Wenn Sie jemanden in einem Kommentar erwähnen, sendet Effektif dieser Person eine Emailbenachrichtigung."
-
-#: ..\..\cases.rst:149
-msgid "Mentioning someone in a comment"
-msgstr "Jemanden in einem Kommentar erwähnen"
-
-#: ..\..\cases.rst:151
-msgid "You can also mention two specific groups, corresponding to people working on the case. Enter ``@all`` to mention all participants in the case. Enter ``@open`` to mention the assignees of open tasks within the case."
-msgstr "Sie können zudem zwei spezifische Gruppen erwähnen, die den Fall bearbeiten (sollen). Geben Sie ``@all`` ein, um alle Personen, die in den Fall involviert sind, zu erwähnen. Geben Sie ``@open`` ein, um alle Personen zu erwähnen, denen offene Aufgaben zugewiesen sind."
-
-#: ..\..\cases.rst:155
-msgid "You can also use `Markdown`_ formatting in comments, for things like text styles, headings and lists."
-msgstr "Sie können zudem `Markdown`_ in den Kommentaren verwenden, um zum Beispiel Überschriften und Listen einzufügen."
-
-#: ..\..\cases.rst:162
-msgid "Using Markdown formatting in a case comment"
-msgstr "Markdown zur Formatierung von Kommentaren verwenden"
-
-#: ..\..\cases.rst:164
-msgid "You may find Markdown most useful for adding links to external information that relates to the case."
-msgstr "Markdown ist besonders nützlich um Links zu externen Informationsquellen zu erstellen."
-
-#: ..\..\cases.rst:168
-msgid "A hyperlink in a case comment"
-msgstr "Einen Link in einem Kommentar verwenden"
-
-#: ..\..\cases.rst:172
-msgid "Attaching documents to a case"
-msgstr "Ein Dokument an einen Fall anhängen."
-
-#: ..\..\cases.rst:174
-msgid "As well as commenting on a case, to share information with the case’s participants, you can attach documents. For example, cases in a job vacancy process might require candidate CVs. Anyone can access the case can download a case’s documents, which makes them more useful than email attachments."
-msgstr "Um Informationen zu kommunizieren, können Sie zudem Dokumente an einen Fall anhängen. Zum Beispiel ist es in einem Bewerbungsprozess sinnvoll, den Lebenslauf des Bewerbers im Fall zu hinterlegen. Jede Person, die auf den Fall Zugreifen kann, kann direkt dort den Lebenslauf herunterladen und einsehen. Dies verhindert umständliches Suchen im Emailarchiv."
-
-#: ..\..\cases.rst:178
-msgid "To attach a document to a case, select the the `Upload a document` option next to where you add comments."
-msgstr "Um ein Dokument an einen Fall anzuhängen, wählen Sie die `Ein Dokument hochladen`-Option neben dem Kommentarfeld aus."
-
-#: ..\..\cases.rst:182
-msgid "A document attached to a case"
-msgstr "Ein an einen Fall angehängtes Dokument"
-
-#: ..\..\cases.rst:184
-msgid "The case’s event stream shows the document, with its file name and size. Click the icon on the right to open the document."
-msgstr "Der Ereignisfeed des Falls zeigt das Dokument mit Dateinamen und -Größe. Klicken Sie auf das *Link*-Symbol rechts um das Dokument zu öffnen."
-
-#: ..\..\cases.rst:187
-msgid "If cases regularly require the same document as part of the process, you can make this clearer to people who work on cases by adding a file upload form field to a :ref:`user task form <user-task-form>`."
-msgstr "Wenn Fälle regelmäßig einen bestimmten Dokumenttyp erfordern (zum Beispiel *Lebenslauf*), ist es sinnvoll hierfür explizit ein Dateiuploadformular zum entsprechenden :ref:`Nutzeraufgabenformular <user-task-form>` hinzuzufügen."
-
-#: ..\..\cases.rst:191
-msgid "Closing a case manually"
-msgstr "Fälle manuell schließen"
-
-#: ..\..\cases.rst:193
-msgid "You normally close a case by completing all of its tasks. However, sometimes you want to abandon a case and stop working on a it. To do this you can manually close a case."
-msgstr "Normalerweise wird ein Fall geschlossen wenn alle Aufgaben erledigt wurden. Allerdings kann es vorkommen, dass Sie einen Fall vorzeitig schließen möchten, da nicht weiter an ihm gearbeitet werden soll. In diesem Fall können Sie den Fall manuell schließen."
-
-#: ..\..\cases.rst:199
-msgid "Closing a case"
-msgstr "Einen Fall schließen"
-
-#: ..\..\cases.rst:201
-msgid "To close a case, select the ellipsis menu at the top-right of the case view, select *Close this case*, and click again to confirm."
-msgstr "Um einen Fall zu schließen, öffnen Sie das Fall-Menü in der oberen rechten Ecke der Fall-Ansicht und klicken Sie auf “Fall schließen”. Um die Aktion zu bestätigen, klicken Sie direkt danach noch einmal auf die Schaltfläche."
-
-#: ..\..\cases.rst:206
-msgid "Deleting a case"
-msgstr "Einen Fall löschen"
-
-#: ..\..\cases.rst:208
-msgid "You do not normally delete cases in Effektif: you close cases that you have finished working on. However, you sometimes do need to delete cases, such as the test cases that you create while developing the initial versions of a process model."
-msgstr "In Effektif sollten Sie Fälle typischerweise nicht löschen: Stattdessen schließen Sie Fälle, nachdem diese abgeschlossen sind. Allerdings ist unter bestimmten Umständen ein Löschen unumgänglich, zum Beispiel wenn Sie Testfälle während der Entwicklung von initialen Prozessversionen erstellt haben."
-
-#: ..\..\cases.rst:211
-msgid "To delete a case, open the case and use its right-hand actions menu to select `Delete case`."
-msgstr "Öffnen Sie zum Löschen den entsprechenden Fall und wählen Sie über das Aktionsmenü auf der rechten Seite `Löschen` aus."
-
-#: ..\..\cases.rst:215
-msgid "Exporting cases data"
-msgstr "Falldaten exportieren"
-
-#: ..\..\cases.rst:217
-msgid "You can export the information about a process’ cases to a `CSV file <https://en.wikipedia.org/wiki/Comma-separated_values>`_ that you can open in a spreadsheet. To export case data, open the :ref:`Cases overview <cases-overview>`, select a process, and then select *Export as CSV*. You may find this useful for reporting or auditing, for example."
-msgstr "Sie können Informationen über die Fälle eines Prozesses als `CSV-Tabelle <https://de.wikipedia.org/wiki/CSV_(Dateiformat)>`_ exportieren. Um Falldaten zu exportieren, öffnen Sie die :ref:`Fallübersicht <cases-overview>`, wählen Sie einen Prozess aus und klicken Sie auf *Als CSV exportieren*. Auf Basis der Exports können Sie zum Beispiel Reports erstellen und Audits vorbereiten."
-
-#: ..\..\cases.rst:127
-msgid "In the event stream, reply to existing comments to keep the discussion structured. Hover over the user avatar to see the user’s full name:"
-msgstr "In dem Ereignisfeed können Sie auf existierende Kommentare antworten, um die Diskussion zu lenken. Wenn Sie mit dem Mauszeiger über das Anzeigebild eines Nutzers gehen, wird dessen vollständiger Name angezeigt:"
-
-#: ..\..\cases.rst:223
-msgid "CSV export options"
-msgstr "CSV-Exportoptionen"
-
-#: ..\..\cases.rst:225
-msgid "Use the CSV export options to specify the ordering of exported cases, whether to filter by status (open or closed), and the output format. Try a different output format option if you have problems loading the exported CSV file into another application, such as Microsoft Excel. The output format options determine which characters the CSV output uses to quote and separate characters and lines:"
-msgstr "Benutzen Sie die CSV-Exportoptionen, um die Reihenfolge der exportierten Fälle und das Ausgabeformat festzulegen. Sie können auch bestimmen, ob nach Status (offen oder geschlossen) gefiltert werden soll. Probieren Sie verschiedene Ausgabeoptionen aus, falls die exportierten CSV-Dateien nicht korrekt in anderen Applikationen, wie Microsoft Excel, angezeigt oder geladen werden. In den Ausgabeoptionen können Sie bestimmen, welche Zeichen das CSV-Ausgabesystem  für Zitate und zur Trennung von Werten und Zeilen verwendet:"
-
-#: ..\..\cases.rst:229
-msgid "*Standard* - conventional CSV format"
-msgstr "*Standard* - Konventionelles CSV-Format"
-
-#: ..\..\cases.rst:230
-msgid "*Excel* - Microsoft Excel compatibility mode"
-msgstr "*Excel* - Microsoft Excel Kompatibilitätsmodus"
-
-#: ..\..\cases.rst:231
-msgid "*Excel (Northern Europe)* - better Excel compatibility for some European countries"
-msgstr "*Excel (Northern Europe)* - Bessere Excel-Kompatibilität für einige europäische Länder"
-
-#: ..\..\cases.rst:232
-msgid "*Tabs* - separate values with tabs instead of commas."
-msgstr "*Tabs* - trennen Sie die Werte mit Tabs (Tabulatortaste) anstelle von Kommas."
-
-#: ..\..\cases.rst:234
-msgid "The CSV export uses *UTF-8 text encoding*. Select *UTF-8* when opening the CSV in Microsoft Excel, for example, to preserve characters such as letters with accents."
-msgstr "Der CSV-Export verwendet *UTF-8 Text Encoding*.  Wählen Sie *UTF-8*, wenn Sie die CSV-Datei in Microsoft Excel öffnen, z.B. um spezielle Zeichen, wie Buchstaben mit Akzent, beizubehalten."
-
-#: ..\..\cases.rst:48
+#: ../../cases.rst:48
 msgid "Use the linked case name to open the case’s details page."
 msgstr "Benutzen Sie den verlinkten Fallnamen um die Details-Seite des Falls aufzurufen"
 
-#: ..\..\cases.rst:52
+#: ../../cases.rst:52
 msgid "Viewing case details"
 msgstr "Falldetails ansehen"
 
-#: ..\..\cases.rst:54
+#: ../../cases.rst:54
 msgid "Each case has an event stream that acts as an audit log and includes the information that case participants share during collaboration, such as comments, documents and links."
 msgstr "Jeder Fall besitzt einen Ereignisfeed das als Audit-Log dient und die Informationen beinhaltet, die Fallbeteiligte während ihrer Zusammenarbeit teilen, z.B. Kommentare, Dokumente und Links."
 
-#: ..\..\cases.rst:87
+#: ../../cases.rst:58
+msgid "Customizing case view table columns"
+msgstr "Die Spalten in der Fälle-Ansicht anpassen"
+
+#: ../../cases.rst:60
+msgid "The *Cases* view’s table includes columns for workflow :ref:`variables <variables>`, which usually correspond to form fields on a trigger form or in a user task. You can select which fields the Cases view shows as table columns, so you can have a clear overview of the process’ cases."
+msgstr "Die Tabelle in der *Fälle*-Ansicht enthält :ref:`Variablen <variables>` aus Ihrem Workflow. Normalerweise sind dies Formularfelder aus dem Auslöser oder Aufgaben. Sie können Konfigurieren welche Felder hier ausgewählt werden, damit Sie immer einen klaren Überblick über die Fälle Ihrer Prozesse haben."
+
+#: ../../cases.rst:65
+msgid "To customize the table columns, open the Cases view and click the top-right *Configure columns* button."
+msgstr "Um die Spalten anzupassen, öffnen Sie die Fälle-Ansicht und klicken Sie auf *Spalten konfigurieren* in der oberen rechten Ecke. "
+
+#: ../../cases.rst:70
+msgid "Configuring table columns"
+msgstr "Tabellen-Spalten konfigurieren"
+
+#: ../../cases.rst:72
+msgid "Use the drag icon on the far left of the list of columns to change the column order, and click the delete icon on the far right to remove a column. You can also use the text box to edit the column’s heading."
+msgstr "Sie können die Reihenfolge einfach per Drag & Drop ändern, wenn Sie die einzelnen Einträge am äußeren linken Rand anfassen und nach oben oder unten ziehen. Klicken Sie auf das 'X' Symbol am rechten Rand um eine Spalte zu entfernen. Selbst den Titel einer Spalte können Sie einfach ändern, indem Sie den gewünschten Titel in das Textfeld eintragen."
+
+#: ../../cases.rst:76
+msgid "Below the list of columns, you’ll find a menu for selecting additional column to add to the table."
+msgstr "Unter der Liste mit den aktuell gewählten Spalten befindet sich ein Menü, mit dem Sie weitere Spalten zur Tabelle hinzufügen können."
+
+#: ../../cases.rst:80
+msgid "Adding a column to the table"
+msgstr "Eine Spalte zur Tabelle hinzufügen"
+
+#: ../../cases.rst:82
+msgid "The menu lists all of the workflow variables that the table does not currently include. In this example, the *Interviewer* variable has the type *User*, which means that you can access additional fields for the user’s email address, first name, ID and last name."
+msgstr "Das Menü listet alle verfügbaren Variablen auf, die momentan noch nicht in der Tabelle angezeigt werden. Da die *Interviewer*-Variable vom Typ *Nutzer* ist, stehen hier zusätzliche Felder wie zum Beispiel die Emailadresse oder der Vor- und Nachname des jeweiligen Nutzers zur Verfügung."
+
+#: ../../cases.rst:87
 msgid "Creating an ad-hoc case"
 msgstr "Erstellen eines Ad-Hoc-Falles"
 
-#: ..\..\cases.rst:89
-msgid "Effektif supports two types of cases: cases that relate to a process and ad-hoc cases. An *ad-hoc case* does not have a predefined process. It creates a collaboration space that you can use to reach a one-off goal. The case brings together a set of tasks, a discussion and documents, and allows participants to share any relevant context information for the tasks."
-msgstr "Effektif unterstützt zwei Arten von Fällen: Fälle, die mit einem Prozess verknüpft sind und Ad-Hoc Fälle. Ein *Ad-Hoc Fall* besitzt keinen vorgefertigten Prozess. Er ermöglicht einen Raum für Zusammenarbeit bei einzigartigen Zielsetzungen. Der Fall beinhaltet eine Anzahl von Aktionen, eine Plattform für Diskussionen und Dokumente und erlaubt Beteiligten, jeglichen für Aktionen relevanten Kontext untereinander zu teilen."
+#: ../../cases.rst:89
+msgid "Signavio Workflow supports two types of cases: cases that relate to a process and ad-hoc cases. An *ad-hoc case* does not have a predefined process. It creates a collaboration space that you can use to reach a one-off goal. The case brings together a set of tasks, a discussion and documents, and allows participants to share any relevant context information for the tasks."
+msgstr "Signavio Workflow unterstützt zwei Arten von Fällen: Fälle, die mit einem Prozess verknüpft sind und Ad-Hoc Fälle. Ein *Ad-Hoc Fall* besitzt keinen vorgefertigten Prozess. Er ermöglicht einen Raum für Zusammenarbeit bei einzigartigen Zielsetzungen. Der Fall beinhaltet eine Anzahl von Aktionen, eine Plattform für Diskussionen und Dokumente und erlaubt Beteiligten, jeglichen für Aktionen relevanten Kontext untereinander zu teilen."
 
-#: ..\..\cases.rst:94
+#: ../../cases.rst:94
 msgid "To create a new ad-hoc case, navigate to *Cases*; on the *Cases of* menu, select *Cases without a process*, then click *Start new case*."
 msgstr "Um einen neuen Ad-Hoc Fall zu erstellen, navigieren Sie oben zum Tab *Fälle*, im *Fälle von*-Menü wählen Sie *Fälle ohne Prozess*. In der Auswahl erscheint *Ad-Hoc Aufgabenlisten*, klicken Sie *Neuen Fall starten*."
 
-#: ..\..\cases.rst:125
+#: ../../cases.rst:99
+msgid "Start a new task"
+msgstr "Einen neuen Fall starten"
+
+#: ../../cases.rst:101
+msgid "Then the case header appears."
+msgstr "Nach diesem Schritt erscheint der Kopfteil des neuen Falls."
+
+#: ../../cases.rst:105
+msgid "Enter case title"
+msgstr "Einen Namen eintragen"
+
+#: ../../cases.rst:107
+msgid "Next, type the case title and hit Enter. Signavio Workflow now creates the new case."
+msgstr "Als Nächstes benennen Sie den neuen Fall und drücken Sie anschließend auf Enter. Der neue Fall wird nun angelegt."
+
+#: ../../cases.rst:111
+msgid "New case"
+msgstr "Neuer Fall"
+
+#: ../../cases.rst:115
+msgid "Commenting on a case"
+msgstr "Einen Fall kommentieren"
+
+#: ../../cases.rst:117
+msgid "Working on a case often includes collaboration with other people. You can use the case view to discuss the case with other people, which results in a discussion in the event stream."
+msgstr "Bei der Bearbeitung eines Falls arbeiten Sie oft mit anderen Personen zusammen. Über die Fallansicht können Sie den Fall mit Arbeitspartnern diskutieren. Die Diskussion wird als Ereignisfeed angezeigt."
+
+#: ../../cases.rst:123
+msgid "Comments on a case - discussion with context"
+msgstr "Kommentare eines Falls - Diskussion im Fallkontext"
+
+#: ../../cases.rst:125
 msgid "By using case comments instead of email, participants ensure that discussions retain the full context for everyone involved."
 msgstr "Durch die Verwendung von Fallkommentaren anstatt von E-Mails stellen Sie sicher, dass der volle Kontext der Diskussion für alle Beteiligten über den Fall hinweg einsehbar bleibt"
+
+#: ../../cases.rst:127
+msgid "In the event stream, reply to existing comments to keep the discussion structured. Hover over the user avatar to see the user’s full name:"
+msgstr "In dem Ereignisfeed können Sie auf existierende Kommentare antworten, um die Diskussion zu lenken. Wenn Sie mit dem Mauszeiger über das Anzeigebild eines Nutzers gehen, wird dessen vollständiger Name angezeigt:"
+
+#: ../../cases.rst:132
+msgid "Hover over the relative time to see the comment’s full time stamp:"
+msgstr "Bewegen Sie den Mauszeiger über die Zeitangabe, um die genaue Datums- und Zeitangabe des Kommentars einzusehen."
+
+#: ../../cases.rst:136
+msgid "To add a comment, type in the text box above the event stream. Everyone who has access to the case can follow the discussion. Keeping the discussion ‘inside’ the case preserves the context, which makes it easier to follow than an email conversation."
+msgstr "Um einen Kommentar hinzuzufügen, geben Sie den Text in das Textfeld über dem Ereignisfeed ein. Alle Personen, die Zugang zum Fall haben, können die Diskussion mitverfolgen. Dadurch, dass Sie die Diskussion 'direkt im Fall' halten, bleibt der Kontext erhalten. Dies erleichtert das Zuordnen von Information, insbesondere im Vergleich zu E-mail-Konversationen."
+
+#: ../../cases.rst:141
+msgid "Sometimes, you want to direct a comment to a specific person. While entering a comment, you can ‘mention’ someone by typing a ``@`` and choosing their name from the list. When you mention someone in a comment, Signavio Workflow sends them an email notification to bring them into the discussion."
+msgstr "In bestimmten Fällen wollen Sie einen Kommentar an eine spezifische Person adressieren. Dies erreichen Sie, indem im Textfeld ein ``@`` eingeben und den gewünschten Namen aus der anschließend angezeigten Liste auswählen. Wenn Sie jemanden in einem Kommentar erwähnen, sendet Signavio Workflow dieser Person eine Emailbenachrichtigung."
+
+#: ../../cases.rst:149
+msgid "Mentioning someone in a comment"
+msgstr "Jemanden in einem Kommentar erwähnen"
+
+#: ../../cases.rst:151
+msgid "You can also mention two specific groups, corresponding to people working on the case. Enter ``@all`` to mention all participants in the case. Enter ``@open`` to mention the assignees of open tasks within the case."
+msgstr "Sie können zudem zwei spezifische Gruppen erwähnen, die den Fall bearbeiten (sollen). Geben Sie ``@all`` ein, um alle Personen, die in den Fall involviert sind, zu erwähnen. Geben Sie ``@open`` ein, um alle Personen zu erwähnen, denen offene Aufgaben zugewiesen sind."
+
+#: ../../cases.rst:155
+msgid "You can also use `Markdown`_ formatting in comments, for things like text styles, headings and lists."
+msgstr "Sie können zudem `Markdown`_ in den Kommentaren verwenden, um zum Beispiel Überschriften und Listen einzufügen."
+
+#: ../../cases.rst:162
+msgid "Using Markdown formatting in a case comment"
+msgstr "Markdown zur Formatierung von Kommentaren verwenden"
+
+#: ../../cases.rst:164
+msgid "You may find Markdown most useful for adding links to external information that relates to the case."
+msgstr "Markdown ist besonders nützlich um Links zu externen Informationsquellen zu erstellen."
+
+#: ../../cases.rst:168
+msgid "A hyperlink in a case comment"
+msgstr "Einen Link in einem Kommentar verwenden"
+
+#: ../../cases.rst:172
+msgid "Attaching documents to a case"
+msgstr "Ein Dokument an einen Fall anhängen."
+
+#: ../../cases.rst:174
+msgid "As well as commenting on a case, to share information with the case’s participants, you can attach documents. For example, cases in a job vacancy process might require candidate CVs. Anyone can access the case can download a case’s documents, which makes them more useful than email attachments."
+msgstr "Um Informationen zu kommunizieren, können Sie zudem Dokumente an einen Fall anhängen. Zum Beispiel ist es in einem Bewerbungsprozess sinnvoll, den Lebenslauf des Bewerbers im Fall zu hinterlegen. Jede Person, die auf den Fall Zugreifen kann, kann direkt dort den Lebenslauf herunterladen und einsehen. Dies verhindert umständliches Suchen im Emailarchiv."
+
+#: ../../cases.rst:178
+msgid "To attach a document to a case, select the the `Upload a document` option next to where you add comments."
+msgstr "Um ein Dokument an einen Fall anzuhängen, wählen Sie die `Ein Dokument hochladen`-Option neben dem Kommentarfeld aus."
+
+#: ../../cases.rst:182
+msgid "A document attached to a case"
+msgstr "Ein an einen Fall angehängtes Dokument"
+
+#: ../../cases.rst:184
+msgid "The case’s event stream shows the document, with its file name and size. Click the icon on the right to open the document."
+msgstr "Der Ereignisfeed des Falls zeigt das Dokument mit Dateinamen und -Größe. Klicken Sie auf das *Link*-Symbol rechts um das Dokument zu öffnen."
+
+#: ../../cases.rst:187
+msgid "If cases regularly require the same document as part of the process, you can make this clearer to people who work on cases by adding a file upload form field to a :ref:`user task form <user-task-form>`."
+msgstr "Wenn Fälle regelmäßig einen bestimmten Dokumenttyp erfordern (zum Beispiel *Lebenslauf*), ist es sinnvoll hierfür explizit ein Dateiuploadformular zum entsprechenden :ref:`Nutzeraufgabenformular <user-task-form>` hinzuzufügen."
+
+#: ../../cases.rst:191
+msgid "Closing a case manually"
+msgstr "Fälle manuell schließen"
+
+#: ../../cases.rst:193
+msgid "You normally close a case by completing all of its tasks. However, sometimes you want to abandon a case and stop working on a it. To do this you can manually close a case."
+msgstr "Normalerweise wird ein Fall geschlossen wenn alle Aufgaben erledigt wurden. Allerdings kann es vorkommen, dass Sie einen Fall vorzeitig schließen möchten, da nicht weiter an ihm gearbeitet werden soll. In diesem Fall können Sie den Fall manuell schließen."
+
+#: ../../cases.rst:199
+msgid "Closing a case"
+msgstr "Einen Fall schließen"
+
+#: ../../cases.rst:201
+msgid "To close a case, select the ellipsis menu at the top-right of the case view, select *Close this case*, and click again to confirm."
+msgstr "Um einen Fall zu schließen, öffnen Sie das Fall-Menü in der oberen rechten Ecke der Fall-Ansicht und klicken Sie auf “Fall schließen”. Um die Aktion zu bestätigen, klicken Sie direkt danach noch einmal auf die Schaltfläche."
+
+#: ../../cases.rst:206
+msgid "Deleting a case"
+msgstr "Einen Fall löschen"
+
+#: ../../cases.rst:208
+msgid "You do not normally delete cases in Signavio Workflow: you close cases that you have finished working on. However, you sometimes do need to delete cases, such as the test cases that you create while developing the initial versions of a process model."
+msgstr "Normalerweise werden Fälle in Signavio Workflow nicht gelöscht, sondern geschlossen, wenn sie beendet worden sind. Dennoch kann es hin und wieder nötig sein, einen Fall zu löschen, wie z.B. Testfälle, die Sie während der Modellierung des Prozesses laufen lassen, um den korrekten Ablauf eines Falles zu prüfen."
+
+#: ../../cases.rst:211
+msgid "To delete a case, open the case and use its right-hand actions menu to select `Delete case`."
+msgstr "Öffnen Sie zum Löschen den entsprechenden Fall und wählen Sie über das Aktionsmenü auf der rechten Seite `Löschen` aus."
+
+#: ../../cases.rst:215
+msgid "Exporting cases data"
+msgstr "Falldaten exportieren"
+
+#: ../../cases.rst:217
+msgid "You can export the information about a process’ cases to a `CSV file <https://en.wikipedia.org/wiki/Comma-separated_values>`_ that you can open in a spreadsheet. To export case data, open the :ref:`Cases overview <cases-overview>`, select a process, and then select *Export as CSV*. You may find this useful for reporting or auditing, for example."
+msgstr "Sie können Informationen über die Fälle eines Prozesses als `CSV-Tabelle <https://de.wikipedia.org/wiki/CSV_(Dateiformat)>`_ exportieren. Um Falldaten zu exportieren, öffnen Sie die :ref:`Fallübersicht <cases-overview>`, wählen Sie einen Prozess aus und klicken Sie auf *Als CSV exportieren*. Auf Basis der Exports können Sie zum Beispiel Reports erstellen und Audits vorbereiten."
+
+#: ../../cases.rst:223
+msgid "CSV export options"
+msgstr "CSV-Exportoptionen"
+
+#: ../../cases.rst:225
+msgid "Use the CSV export options to specify the ordering of exported cases, whether to filter by status (open or closed), and the output format. Try a different output format option if you have problems loading the exported CSV file into another application, such as Microsoft Excel. The output format options determine which characters the CSV output uses to quote and separate characters and lines:"
+msgstr "Benutzen Sie die CSV-Exportoptionen, um die Reihenfolge der exportierten Fälle und das Ausgabeformat festzulegen. Sie können auch bestimmen, ob nach Status (offen oder geschlossen) gefiltert werden soll. Probieren Sie verschiedene Ausgabeoptionen aus, falls die exportierten CSV-Dateien nicht korrekt in anderen Applikationen, wie Microsoft Excel, angezeigt oder geladen werden. In den Ausgabeoptionen können Sie bestimmen, welche Zeichen das CSV-Ausgabesystem  für Zitate und zur Trennung von Werten und Zeilen verwendet:"
+
+#: ../../cases.rst:229
+msgid "*Standard* - conventional CSV format"
+msgstr "*Standard* - Konventionelles CSV-Format"
+
+#: ../../cases.rst:230
+msgid "*Excel* - Microsoft Excel compatibility mode"
+msgstr "*Excel* - Microsoft Excel Kompatibilitätsmodus"
+
+#: ../../cases.rst:231
+msgid "*Excel (Northern Europe)* - better Excel compatibility for some European countries"
+msgstr "*Excel (Northern Europe)* - Bessere Excel-Kompatibilität für einige europäische Länder"
+
+#: ../../cases.rst:232
+msgid "*Tabs* - separate values with tabs instead of commas."
+msgstr "*Tabs* - trennen Sie die Werte mit Tabs (Tabulatortaste) anstelle von Kommas."
+
+#: ../../cases.rst:234
+msgid "The CSV export uses *UTF-8 text encoding*. Select *UTF-8* when opening the CSV in Microsoft Excel, for example, to preserve characters such as letters with accents."
+msgstr "Der CSV-Export verwendet *UTF-8 Text Encoding*.  Wählen Sie *UTF-8*, wenn Sie die CSV-Datei in Microsoft Excel öffnen, z.B. um spezielle Zeichen, wie Buchstaben mit Akzent, beizubehalten."
 
 #~ msgid "Creating a case"
 #~ msgstr "Einen Fall erstellen"
 
 #~ msgid ""
-#~ "To create a new case, navigate to *Cases*; on the *Cases of* menu, select "
-#~ "*Cases without a process*, then click *Start new case*."
 #~ msgstr ""
-#~ "Um einen neuen Fall anzulegen, öffnen Sie zunächst die Ansicht *Fälle*. "
-#~ "Unter *Fälle von* wählen Sie *Fälle ohne Prozess* und klicken danach direkt "
-#~ "neben dem Menü auf *Neuen Fall starten*."
 
 #~ msgid "Hover over the user avatar to see the user’s full name:"
 #~ msgstr ""
-#~ "Bewegen Sie den Mauszeiger über den Avatar des Nutzer um den vollen Namen "
-#~ "anzeigen zu lassen:"
 
 #~ msgid ""
-#~ "The CSV export uses *UTF-8 text encoding* - select *UTF-8* when opening the "
-#~ "CSV in Microsoft Excel, for example, to preserve characters such as letters "
-#~ "with accents."
+#~ "You do not normally delete cases "
+#~ "in Signavio Workflow: you close cases that "
+#~ "you have finished working on. However,"
+#~ " you sometimes do need to delete "
+#~ "cases, such as the test cases that"
+#~ " you create while developing the "
+#~ "initial versions of a process model."
 #~ msgstr ""
-#~ "Der CSV-Export verwendet *UTF-8 Text-Enkodierung*. Wählen Sie beim Öffnen - "
-#~ "zum Beispiel in Microsoft Excel - *UTF-8* aus, damit Zeichen wie "
-#~ "akzentuierte Buchstaben richtig dargestellt werden."
-
-#~ msgid ""
-#~ msgstr ""
+#~ "In Signavio Workflow sollten Sie Fälle "
+#~ "typischerweise nicht löschen: Stattdessen "
+#~ "schließen Sie Fälle, nachdem diese "
+#~ "abgeschlossen sind. Allerdings ist unter "
+#~ "bestimmten Umständen ein Löschen unumgänglich,"
+#~ " zum Beispiel wenn Sie Testfälle "
+#~ "während der Entwicklung von initialen "
+#~ "Prozessversionen erstellt haben."

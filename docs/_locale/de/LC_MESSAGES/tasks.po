@@ -2,317 +2,181 @@
 # Copyright (C) 2016, Signavio GmbH
 # This file is distributed under the same license as the User Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-01 15:57+0200\n"
-"PO-Revision-Date: 2016-04-01 16:33+0200\n"
+"POT-Creation-Date: 2016-04-29 10:45+0200\n"
+"PO-Revision-Date: 2016-04-29 11:56+0200\n"
 "Last-Translator: Timotheus Kampik <timotheus.kampik@signavio.com>\n"
 "Language-Team: \n"
-"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.2.0\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: de\n"
 "X-Generator: Poedit 1.8.7\n"
 
-#: ..\..\tasks.rst:4
+#: ../../tasks.rst:4
 msgid "Tasks"
 msgstr "Aufgaben"
 
-#: ..\..\tasks.rst:6
-msgid ""
-"A task represents work that someone will presumably complete. :ref:`cases` "
-"typically include multiple tasks, usually those that the process defines. "
-"You can also add ad-hoc tasks to a case."
-msgstr ""
-"Eine Aufgabe stellt einen Arbeitsschritt da, der von einer spezifischen "
-"Person zu erledigen ist. :ref:`Fälle <cases>` enthalten typischerweise "
-"mehrere Aufgaben, die Teil der Prozessdefinition sind. Sie können allerdings"
-" auch ad-hoc Aufgaben in einem Fall hinzufügen."
+#: ../../tasks.rst:6
+msgid "A task represents work that someone will presumably complete. :ref:`cases` typically include multiple tasks, usually those that the process defines. You can also add ad-hoc tasks to a case."
+msgstr "Eine Aufgabe stellt einen Arbeitsschritt da, der von einer spezifischen Person zu erledigen ist. :ref:`Fälle <cases>` enthalten typischerweise mehrere Aufgaben, die Teil der Prozessdefinition sind. Sie können allerdings auch ad-hoc Aufgaben in einem Fall hinzufügen."
 
-#: ..\..\tasks.rst:10
-msgid ""
-"In Effektif, you can assign a task to a specific user, set a due date and "
-"add subtasks."
-msgstr ""
-"In Effektif können Aufgaben an spezifische Nutzer zugewiesen werden, ein "
-"Fälligkeitsdatum haben und durch Unteraufgaben konkretisiert werden."
+#: ../../tasks.rst:10
+msgid "In Signavio Workflow, you can assign a task to a specific user, set a due date and add subtasks."
+msgstr "In Signavio Workflow können Aufgaben an spezifische Nutzer zugewiesen werden, ein Fälligkeitsdatum haben und durch Unteraufgaben konkretisiert werden."
 
-#: ..\..\tasks.rst:15
+#: ../../tasks.rst:15
 msgid "Viewing your tasks in the Inbox"
 msgstr "Aufgaben in der Inbox"
 
-#: ..\..\tasks.rst:17
-msgid ""
-"The *Inbox* shows an overview of your assigned tasks: a list of tasks for "
-"you to work on. To open the Inbox, select *Tasks* from the main menu and "
-"select the *Inbox* tab."
-msgstr ""
-"Die *Inbox* enthält alle Aufgaben, die Ihnen zugewiesen sind und ist somit "
-"eine Aufgabenliste zum Abarbeiten. Um die Inbox zu öffnen, klicken Sie auf "
-"*Aufgaben* im Hauptmenü und wählen den Tab *Inbox*."
+#: ../../tasks.rst:17
+msgid "The *Inbox* shows an overview of your assigned tasks: a list of tasks for you to work on. To open the Inbox, select *Tasks* from the main menu and select the *Inbox* tab."
+msgstr "Die *Inbox* enthält alle Aufgaben, die Ihnen zugewiesen sind und ist somit eine Aufgabenliste zum Abarbeiten. Um die Inbox zu öffnen, klicken Sie auf *Aufgaben* im Hauptmenü und wählen den Tab *Inbox*."
 
-#: ..\..\tasks.rst:24
+#: ../../tasks.rst:24
 msgid "The tasks Inbox"
 msgstr "Die Aufgaben-Inbox"
 
-#: ..\..\tasks.rst:26
-msgid ""
-"Each task shows the assignee - you for all Inbox tasks - and a link to the "
-"task itself."
-msgstr ""
-"Jede Aufgabe zeigt die zugewiesene Person an (im Falle der Inbox sind das "
-"jeweils Sie selbst) und einen Link um die Aufgabe zu öffnen."
+#: ../../tasks.rst:26
+msgid "Each task shows the assignee - you for all Inbox tasks - and a link to the task itself."
+msgstr "Jede Aufgabe zeigt die zugewiesene Person an (im Falle der Inbox sind das jeweils Sie selbst) und einen Link um die Aufgabe zu öffnen."
 
-#: ..\..\tasks.rst:28
-msgid ""
-"The left-hand side of the inbox has sections for tasks that have due dates, "
-"so you can prioritise your work. The right-hand side lists tasks that don’t "
-"have a due date."
-msgstr ""
-"Auf der linken Seite der Inbox sind die Aufgaben mit Fälligkeitsdatum in "
-"drei Kategorien unterteilt, um es Ihnen leichter zu machen Ihre Arbeit zu "
-"priorisieren. Aufgaben ohne Fälligkeitsdatum werden auf der rechten Seite "
-"angezeigt."
+#: ../../tasks.rst:28
+msgid "The left-hand side of the inbox has sections for tasks that have due dates, so you can prioritise your work. The right-hand side lists tasks that don’t have a due date."
+msgstr "Auf der linken Seite der Inbox sind die Aufgaben mit Fälligkeitsdatum in drei Kategorien unterteilt, um es Ihnen leichter zu machen Ihre Arbeit zu priorisieren. Aufgaben ohne Fälligkeitsdatum werden auf der rechten Seite angezeigt."
 
-#: ..\..\tasks.rst:34
+#: ../../tasks.rst:34
 msgid "Viewing all tasks"
 msgstr "Alle Aufgaben ansehen"
 
-#: ..\..\tasks.rst:36
+#: ../../tasks.rst:36
 msgid "The *All tasks* view shows tasks for all assignees."
-msgstr ""
-"Die *Alle Aufgaben*-Ansicht zeigt alle Aufgaben innerhalb Ihrer Organisation"
+msgstr "Die *Alle Aufgaben*-Ansicht zeigt alle Aufgaben innerhalb Ihrer Organisation"
 
-#: ..\..\tasks.rst:40
+#: ../../tasks.rst:40
 msgid "The list of all tasks"
 msgstr "Die Liste aller Aufgaben"
 
-#: ..\..\tasks.rst:43
-msgid ""
-"Tasks with due dates have a clock indicator to the right of the task name. "
-"Effektif shows this indicator in red when a task’s due date has arrived."
-msgstr ""
-"Aufgaben mit einem Fälligkeitsdatum zeigen ein kleines Uhr-Symbol an der "
-"rechten Seite an. Wenn dieses Symbol rot dargestellt wird, ist die Aufgabe "
-"fällig."
+#: ../../tasks.rst:43
+msgid "Tasks with due dates have a clock indicator to the right of the task name. Signavio Workflow shows this indicator in red when a task’s due date has arrived."
+msgstr "Aufgaben mit einem Fälligkeitsdatum zeigen ein kleines Uhr-Symbol an der rechten Seite an. Wenn dieses Symbol rot dargestellt wird, ist die Aufgabe fällig."
 
-#: ..\..\tasks.rst:46
-msgid ""
-"You can use the controls on the right to filter the tasks list, which you "
-"will find useful when the workload increases."
-msgstr ""
-"Mit den Reglern auf der rechten Seite können Sie die Ansicht nach bestimmten"
-" Aufgaben filtern. Dies ist besonders nützlich, wenn viel Arbeit zu "
-"erledigen ist."
+#: ../../tasks.rst:46
+msgid "You can use the controls on the right to filter the tasks list, which you will find useful when the workload increases."
+msgstr "Mit den Reglern auf der rechten Seite können Sie die Ansicht nach bestimmten Aufgaben filtern. Dies ist besonders nützlich, wenn viel Arbeit zu erledigen ist."
 
-#: ..\..\tasks.rst:51
+#: ../../tasks.rst:51
 msgid "Task filters"
 msgstr "Aufgaben-Filter"
 
-#: ..\..\tasks.rst:53
-msgid ""
-"The *All tasks* view includes several kinds of task filters, that you can "
-"use to manage a long list of tasks."
-msgstr ""
-"Die *Alle Aufgaben*-Ansicht beinhaltet viele Arten von Filtern, mit denen "
-"Sie die lange Liste von Aufgaben einschränken können."
+#: ../../tasks.rst:53
+msgid "The *All tasks* view includes several kinds of task filters, that you can use to manage a long list of tasks."
+msgstr "Die *Alle Aufgaben*-Ansicht beinhaltet viele Arten von Filtern, mit denen Sie die lange Liste von Aufgaben einschränken können."
 
-#: ..\..\tasks.rst:56
-msgid ""
-"*Involvement filter* - shows tasks according to how they relate to you, such"
-" as tasks you started."
-msgstr ""
-"*Filter nach Mitwirkung* - zeigt Aufgaben nach der Art wie Sie an den "
-"Aufgaben mitwirken."
+#: ../../tasks.rst:56
+msgid "*Involvement filter* - shows tasks according to how they relate to you, such as tasks you started."
+msgstr "*Filter nach Mitwirkung* - zeigt Aufgaben nach der Art wie Sie an den Aufgaben mitwirken."
 
-#: ..\..\tasks.rst:58
+#: ../../tasks.rst:58
 msgid "*Process* filter - shows tasks for a specific process."
 msgstr "*Prozessfilter* - zeigt Aufgaben für bestimmte Prozesse"
 
-#: ..\..\tasks.rst:59
-msgid ""
-"*Due date* filter - shows tasks according to their due dates, such as only "
-"overdue tasks."
-msgstr ""
-"*Fälligkeit* - zeigt Aufgaben basierend auf deren Fälligkeitsstatus, wie "
-"‘Aufgaben, die fällig sind’."
+#: ../../tasks.rst:59
+msgid "*Due date* filter - shows tasks according to their due dates, such as only overdue tasks."
+msgstr "*Fälligkeit* - zeigt Aufgaben basierend auf deren Fälligkeitsstatus, wie ‘Aufgaben, die fällig sind’."
 
-#: ..\..\tasks.rst:61
-msgid ""
-"*Completed* filter - shows complete tasks, which the task list normally "
-"excludes."
-msgstr ""
-"*Fertiggestellt* - zeigt auch bereits fertiggestellte Aufgaben an, die "
-"normalerweise nicht berücksichtigt werden."
+#: ../../tasks.rst:61
+msgid "*Completed* filter - shows complete tasks, which the task list normally excludes."
+msgstr "*Fertiggestellt* - zeigt auch bereits fertiggestellte Aufgaben an, die normalerweise nicht berücksichtigt werden."
 
-#: ..\..\tasks.rst:62
-msgid ""
-"*Assignee filter* - shows tasks that have a specific assignee, or tasks that"
-" have a specific candidate."
-msgstr ""
-"*Filter nach Mitwirkung* - zeigt Aufgaben an, die einer bestimmten Person "
-"zugewiesen sind oder einen spezifischen Kandidaten haben."
+#: ../../tasks.rst:62
+msgid "*Assignee filter* - shows tasks that have a specific assignee, or tasks that have a specific candidate."
+msgstr "*Filter nach Mitwirkung* - zeigt Aufgaben an, die einer bestimmten Person zugewiesen sind oder einen spezifischen Kandidaten haben."
 
-#: ..\..\tasks.rst:66
+#: ../../tasks.rst:66
 msgid "Creating case tasks"
 msgstr "Aufgaben erstellen"
 
-#: ..\..\tasks.rst:68
-msgid ""
-"To create tasks, open a case, and use the tasks list to add a new task. "
-"Enter the task title in the text box to create the task."
-msgstr ""
-"Um neue Aufgaben anzulegen öffnen Sie einen Fall und nutzen Sie die "
-"Aufgabenliste. Tragen Sie den Namen der neuen Aufgabe am unteren Ende der "
-"Aufgabenliste ein und bestätigen Sie mit *Enter* um eine neue Aufgabe "
-"anzulegen. "
+#: ../../tasks.rst:68
+msgid "To create tasks, open a case, and use the tasks list to add a new task. Enter the task title in the text box to create the task."
+msgstr "Um neue Aufgaben anzulegen öffnen Sie einen Fall und nutzen Sie die Aufgabenliste. Tragen Sie den Namen der neuen Aufgabe am unteren Ende der Aufgabenliste ein und bestätigen Sie mit *Enter* um eine neue Aufgabe anzulegen. "
 
-#: ..\..\tasks.rst:73
+#: ../../tasks.rst:73
 msgid "Type the title of the new task and type Enter"
 msgstr "Geben Sie einen Namen ein und bestätigen mit Enter"
 
-#: ..\..\tasks.rst:75
+#: ../../tasks.rst:75
 msgid "After you have added a task, it appears in the list:"
-msgstr ""
-"Nachdem Sie eine Aufgabe angelegt haben, erscheint diese in der Liste:"
+msgstr "Nachdem Sie eine Aufgabe angelegt haben, erscheint diese in der Liste:"
 
-#: ..\..\tasks.rst:79
-msgid ""
-"When a process starts, Effektif creates a :ref:`case <cases>` and starts all"
-" elements that do not have incoming transitions."
-msgstr ""
-"Wenn ein Prozess gestartet wird, wird ein :ref:`Fall <cases>` angelegt. Alle"
-" Elemente im Prozess, die keine eingehenden Sequenzfluss haben, werden "
-"sofort ausgeführt. "
+#: ../../tasks.rst:79
+msgid "When a process starts, Signavio Workflow creates a :ref:`case <cases>` and starts all elements that do not have incoming transitions."
+msgstr "Wenn ein Prozess gestartet wird, wird ein :ref:`Fall <cases>` angelegt. Alle Elemente im Prozess, die keine eingehenden Sequenzfluss haben, werden sofort ausgeführt."
 
-#: ..\..\tasks.rst:83
+#: ../../tasks.rst:83
 msgid "Assigning tasks"
 msgstr "Aufgaben zuweisen"
 
-#: ..\..\tasks.rst:85
-msgid ""
-"You can assign a task to yourself, or someone else, to indicate who you "
-"expect to work on the task. The assignee’s :ref:`tasks inbox <tasks-inbox>` "
-"lists assigned tasks, and the assignee receives task :ref:`notifications "
-"<notifications>` and :ref:`reminders <reminders>`."
-msgstr ""
-"Sie können Aufgaben entweder sich selbst oder einer anderen Person zuweisen."
-" Wenn eine Aufgabe zugewiesen ist, wird sie in der entsprechenden "
-":ref:`Aufgaben Inbox <tasks-inbox>` des Verantwortlichen angezeigt. Der "
-"Verantwortliche erhält darüber eine :ref:`Benachrichtigung <notifications>` "
-"und alle :ref:`Erinnerungen <reminders>`, die für die Aufgabe definiert "
-"sind, erreichen ihn nun auch. "
+#: ../../tasks.rst:85
+msgid "You can assign a task to yourself, or someone else, to indicate who you expect to work on the task. The assignee’s :ref:`tasks inbox <tasks-inbox>` lists assigned tasks, and the assignee receives task :ref:`notifications <notifications>` and :ref:`reminders <reminders>`."
+msgstr "Sie können Aufgaben entweder sich selbst oder einer anderen Person zuweisen. Wenn eine Aufgabe zugewiesen ist, wird sie in der entsprechenden :ref:`Aufgaben Inbox <tasks-inbox>` des Verantwortlichen angezeigt. Der Verantwortliche erhält darüber eine :ref:`Benachrichtigung <notifications>` und alle :ref:`Erinnerungen <reminders>`, die für die Aufgabe definiert sind, erreichen ihn nun auch. "
 
-#: ..\..\tasks.rst:89
-msgid ""
-"You can assign a task from anywhere a task appears in a task list. To assign"
-" the task, click the assignee button immediately to the left of the task "
-"name, to open the list of candidates."
-msgstr ""
-"Sie können Aufgaben überall dort direkt zuweisen, wo diese in einer "
-"Aufgabenliste auftauchen. Dazu drücken Sie einfach den Knopf direkt neben "
-"dem Namen der Aufgabe, worauf sich eine Liste mit den Kandidaten öffnet."
+#: ../../tasks.rst:89
+msgid "You can assign a task from anywhere a task appears in a task list. To assign the task, click the assignee button immediately to the left of the task name, to open the list of candidates."
+msgstr "Sie können Aufgaben überall dort direkt zuweisen, wo diese in einer Aufgabenliste auftauchen. Dazu drücken Sie einfach den Knopf direkt neben dem Namen der Aufgabe, worauf sich eine Liste mit den Kandidaten öffnet."
 
-#: ..\..\tasks.rst:95
+#: ../../tasks.rst:95
 msgid "Assigning a task"
 msgstr "Eine Aufgabe zuweisen"
 
-#: ..\..\tasks.rst:97
-msgid ""
-"To assign the task, select a candidate from the list, or type a name or "
-"email address to filter it first."
-msgstr ""
-"Um eine Aufgabe jemanden zuzuweisen, wählen Sie einen Kandidaten aus der "
-"Liste oder durchsuchen Sie die Liste, indem Sie einen Namen oder eine "
-"Emailadresse eintippen."
+#: ../../tasks.rst:97
+msgid "To assign the task, select a candidate from the list, or type a name or email address to filter it first."
+msgstr "Um eine Aufgabe jemanden zuzuweisen, wählen Sie einen Kandidaten aus der Liste oder durchsuchen Sie die Liste, indem Sie einen Namen oder eine Emailadresse eintippen."
 
-#: ..\..\tasks.rst:101
+#: ../../tasks.rst:101
 msgid "Setting due dates"
 msgstr "Fälligkeiten festlegen"
 
-#: ..\..\tasks.rst:103
-msgid ""
-"You can set a task’s due date, so that the assignee’s tasks inbox highlights"
-" overdue tasks. To set a task’s due date, open the task, and select the "
-"clock icon to open the date selector."
-msgstr ""
-"Sie können Fälligkeitsdaten für Aufgaben festlegen, damit diese in der "
-"Aufgaben-Inbox besonders hervorgehoben werden. Um ein Fälligkeitsdatum "
-"festzulegen, öffnen Sie eine Aufgaben und klicken Sie auf das Uhr-Icon um "
-"die Datumsauswahl zu öffnen."
+#: ../../tasks.rst:103
+msgid "You can set a task’s due date, so that the assignee’s tasks inbox highlights overdue tasks. To set a task’s due date, open the task, and select the clock icon to open the date selector."
+msgstr "Sie können Fälligkeitsdaten für Aufgaben festlegen, damit diese in der Aufgaben-Inbox besonders hervorgehoben werden. Um ein Fälligkeitsdatum festzulegen, öffnen Sie eine Aufgaben und klicken Sie auf das Uhr-Icon um die Datumsauswahl zu öffnen."
 
-#: ..\..\tasks.rst:110
+#: ../../tasks.rst:110
 msgid "Setting a task’s due date"
 msgstr "Das Fälligkeitsdatum einer Aufgabe festlegen"
 
-#: ..\..\tasks.rst:112
-msgid ""
-"As well as setting the due date manually, in an open case, you can also set "
-"a user task’s default due date in the process editor, on the user task’s "
-":ref:`reminders <reminders>` tab."
-msgstr ""
-"Sie können Fälligkeitsdaten manuell innerhalb eines laufenden Falls setzen "
-"oder Vorgabewerte hierfür im Prozesseditor festlegen. Weitere Informationen "
-"dazu finden Sie im Kapitel :ref:`Erinnerungen <reminders>`."
+#: ../../tasks.rst:112
+msgid "As well as setting the due date manually, in an open case, you can also set a user task’s default due date in the process editor, on the user task’s :ref:`reminders <reminders>` tab."
+msgstr "Sie können Fälligkeitsdaten manuell innerhalb eines laufenden Falls setzen oder Vorgabewerte hierfür im Prozesseditor festlegen. Weitere Informationen dazu finden Sie im Kapitel :ref:`Erinnerungen <reminders>`."
 
-#: ..\..\tasks.rst:118
+#: ../../tasks.rst:118
 msgid "Completing tasks"
 msgstr "Aufgaben abschließen"
 
-#: ..\..\tasks.rst:120
-msgid ""
-"Use the highlighted `Done` button (the square on the green background) to "
-"complete a task."
-msgstr ""
-"Einfache Aufgaben können mit einem Klick auf den `Fertig` Knopf (das Quadrat"
-" auf dem grünen Hintergrund) abgeschlossen werden."
+#: ../../tasks.rst:120
+msgid "Use the highlighted `Done` button (the square on the green background) to complete a task."
+msgstr "Einfache Aufgaben können mit einem Klick auf den `Fertig` Knopf (das Quadrat auf dem grünen Hintergrund) abgeschlossen werden."
 
-#: ..\..\tasks.rst:122
-msgid ""
-"When tasks have a form, the task page displays the form in the same position"
-" and includes the button(s) to complete the task at the bottom of the form. "
-"The task page normally only includes a `Done` button, but will display "
-"multiple buttons when you use a decision. Each of those buttons will "
-"register the decision and complete the task in one go."
-msgstr ""
-"Wenn eine Aufgaben ein Formular beinhaltet, finden Sie den `Fertig` Knopf "
-"unterhalb des Formulars. In der Regel wird dies der `Fertig` Knopf sein. "
-"Wenn jedoch eine Entscheidung auf eine Aufgabe folgt, dann werden die "
-"Entscheidungsmöglichkeiten als Knöpfe in der Task angezeigt."
+#: ../../tasks.rst:122
+msgid "When tasks have a form, the task page displays the form in the same position and includes the button(s) to complete the task at the bottom of the form. The task page normally only includes a `Done` button, but will display multiple buttons when you use a decision. Each of those buttons will register the decision and complete the task in one go."
+msgstr "Wenn eine Aufgaben ein Formular beinhaltet, finden Sie den `Fertig` Knopf unterhalb des Formulars. In der Regel wird dies der `Fertig` Knopf sein. Wenn jedoch eine Entscheidung auf eine Aufgabe folgt, dann werden die Entscheidungsmöglichkeiten als Knöpfe in der Task angezeigt."
 
-#: ..\..\tasks.rst:128
+#: ../../tasks.rst:128
 msgid "Reopening tasks"
 msgstr "Aufgaben wieder öffnen"
 
-#: ..\..\tasks.rst:130
-msgid ""
-"When the task page shows a `Reopen` button, it means that someone completed "
-"the task but you can reopen it. You cannot reopen a task that has a form, "
-"because completing the task finalises the form data. You may want to reopen "
-"a task that you closed a task by accident, or when you learn about "
-"additional work that belongs to this task. If you just forgot to attach a "
-"document or make a comment, you can still do that without reopening the "
-"task."
-msgstr ""
-"Viele abgeschlossene Aufgaben lassen sich über den `Wieder öffnen`-Button "
-"erneut öffnen. Bei formularbasierten Aufgaben ist dies jedoch nicht möglich."
-" Das erneute Öffnen einer Aufgabe ist zum Beispiel sinnvoll, wenn Sie eine "
-"Aufgabe aus Versehen abgeschlossen haben oder wenn die Aufgabe wider "
-"Erwartens weitere Arbeit erfordert. Falls Sie lediglich vergessen haben ein "
-"Dokument anzuhängen, können Sie dies auch nachholen, obwohl die Aufgabe "
-"abgeschlossen ist."
+#: ../../tasks.rst:130
+msgid "When the task page shows a `Reopen` button, it means that someone completed the task but you can reopen it. You cannot reopen a task that has a form, because completing the task finalises the form data. You may want to reopen a task that you closed a task by accident, or when you learn about additional work that belongs to this task. If you just forgot to attach a document or make a comment, you can still do that without reopening the task."
+msgstr "Viele abgeschlossene Aufgaben lassen sich über den `Wieder öffnen`-Button erneut öffnen. Bei formularbasierten Aufgaben ist dies jedoch nicht möglich. Das erneute Öffnen einer Aufgabe ist zum Beispiel sinnvoll, wenn Sie eine Aufgabe aus Versehen abgeschlossen haben oder wenn die Aufgabe wider Erwartens weitere Arbeit erfordert. Falls Sie lediglich vergessen haben ein Dokument anzuhängen, können Sie dies auch nachholen, obwohl die Aufgabe abgeschlossen ist."
 
-#: ..\..\tasks.rst:136
-msgid ""
-"Reopening a task instead of creating a new task has the advantage that the "
-"existing task retains its context."
-msgstr ""
-"Wenn Sie eine Aufgabe wieder öffnen, anstatt eine Neue zu erstellen, bleibt "
-"der Kontext der eigentlichen Aufgabe erhalten."
+#: ../../tasks.rst:136
+msgid "Reopening a task instead of creating a new task has the advantage that the existing task retains its context."
+msgstr "Wenn Sie eine Aufgabe wieder öffnen, anstatt eine Neue zu erstellen, bleibt der Kontext der eigentlichen Aufgabe erhalten."
 
 #~ msgid ""
 #~ msgstr ""
@@ -322,16 +186,3 @@ msgstr ""
 
 #~ msgid "Reopening a task"
 #~ msgstr "Eine Aufgabe wieder öffnen"
-
-#~ msgid ""
-#~ "When you see the `Reopen` button in a task, it means that someone completed "
-#~ "the task. You may want to reopen a task that you closed a task by accident, "
-#~ "or when you learn about additional work that belongs to this task. If you "
-#~ "just forgot to attach a document or make a comment, you can still do that "
-#~ "without reopening the task."
-#~ msgstr ""
-#~ "Über den `Wieder öffnen` Knopf können Sie eine Aufgabe wieder öffnen, zum "
-#~ "Beispiel wenn Sie sie aus Versehen geschlossen haben oder noch zusätzliche "
-#~ "Arbeit notwendig ist, bevor die Aufgabe wirklich erledigt ist. Falls Sie nur"
-#~ " vergessen haben ein Dokument oder einen Kommentar anzufügen, so können Sie "
-#~ "dies auch tun, selbst wenn die Aufgabe schon geschlossen wurde."
