@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-29 10:45+0200\n"
-"PO-Revision-Date: 2016-04-29 11:55+0200\n"
+"POT-Creation-Date: 2016-05-11 13:07+0200\n"
+"PO-Revision-Date: 2016-05-11 13:30+0200\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -151,7 +151,7 @@ msgstr "Organisationseinstellungen"
 
 #: ../../settings.rst:74
 msgid ""
-"The *Preferences* includes additional options that apply to the whole "
+"The *Preferences* include additional options that apply to the whole "
 "organization."
 msgstr ""
 "Unter *Organisationseinstellungen* finden Sie Konfigurationsoptionen, die für "
@@ -170,3 +170,52 @@ msgstr ""
 "Unter *Email Signatur* ersetzen Sie die *Signavio Workflow Team*-"
 "Standardsignatur, die mit den :ref:`Signavio Workflow-"
 "Emailbenachrichtigungen<notifications>` verschickt wird."
+
+#: ../../settings.rst:84
+msgid "Services"
+msgstr "Services"
+
+#: ../../settings.rst:86
+msgid ""
+"Use the *Services* tab to configure integration with cloud services for "
+"members of the organization to use. See :ref:`salesforce-integration`."
+msgstr ""
+"Verwenden Sie den *Services*-Tab, um die Cloud-Services Integration für die "
+"Nutzung durch Mitarbeiter Ihrer Organisation zu konfigurieren. Lesen Sie mehr "
+"unter :ref:`salesforce-integration`."
+
+#: ../../settings.rst:91
+msgid "Billing"
+msgstr "Zahlinformationen"
+
+#: ../../settings.rst:93
+msgid ""
+"Use the *Billing* tab to manage your organization’s licenses for Signavio "
+"Workflow. This page shows:"
+msgstr ""
+"Verwenden Sie den *Zahlinformationen*-Tab, um die Signavio Workflow-Lizenzen "
+"Ihrer Organisation zu verwalten. Die Seite zeigt:"
+
+#: ../../settings.rst:96
+msgid ""
+"the number of remaining user licenses - how many more people you can add to "
+"the organization"
+msgstr ""
+"Die Anzahl ungenutzter Lizenzen - wie viele Nutzer Sie noch zu Ihrer "
+"Organisation hinzufügen können"
+
+#: ../../settings.rst:97
+msgid ""
+"the license expiry date, after which you must renew your licenses to continue "
+"using Signavio Workflow."
+msgstr ""
+"Das Auslaufdatum Ihrer Lizenzen - wann Sie die Lizenzen erneuern müssen, um "
+"weiterhin mit Signavio Workflow zu arbeiten."
+
+#: ../../settings.rst:99
+msgid ""
+"The left-hand sidebar summarises your current license type. Click the *Upgrade "
+"your license* button to upgrade to another license type."
+msgstr ""
+"Die Leiste links zeigt Ihren Lizenztyp an. Klicken Sie *Upgraden Sie Ihre "
+"Lizenz* unten, um Ihren Lizenztyp upzugraden."
