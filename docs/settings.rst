@@ -71,10 +71,30 @@ and add or remove members,
 Preferences
 -----------
 
-The *Preferences* includes additional options that apply to the whole organization.
+The *Preferences* include additional options that apply to the whole organization.
 
 .. figure:: /_static/images/settings/preferences.png
 
 *Time zone* affects how Signavio Workflow displays times.
 
 *Email signature* replaces the default *Signavio Workflow team* signature at the bottom of :ref:`notification emails <notifications>`.
+
+
+Services
+--------
+
+Use the *Services* tab to configure integration with cloud services for members of the organization to use.
+See :ref:`salesforce-integration`.
+
+
+Billing
+-------
+
+Use the *Billing* tab to manage your organization’s licenses for Signavio Workflow.
+This page shows:
+
+* the number of remaining user licenses - how many more people you can add to the organization
+* the license expiry date, after which you must renew your licenses to continue using Signavio Workflow.
+
+The left-hand sidebar summarises your current license type.
+Click the *Upgrade your license* button to upgrade to another license type.
