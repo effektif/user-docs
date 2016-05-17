@@ -10,7 +10,7 @@ The following instructions assume Python is already installed.
 0. (optional) You might want to [set up a virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/).
 1. Install Python module dependencies - [PIP](https://pypi.python.org/pypi/pip), termcolor and tabulate:
 
-		sudo easy_install pip
+		sudo easy_install pip termcolor tabulate
 
 2. Set language environment variables:
 
