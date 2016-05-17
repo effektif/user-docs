@@ -8,9 +8,9 @@ See the [admin guide instructions](https://sites.google.com/a/effektif.com/effek
 The following instructions assume Python is already installed.
 
 0. (optional) You might want to [set up a virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/).
-1. Install Python module dependencies - [PIP](https://pypi.python.org/pypi/pip), termcolor and tabulate:
+1. Install Python module dependencies - [PIP](https://pypi.python.org/pypi/pip), termcolor, tabulate and Sphinx:
 
-		sudo easy_install pip termcolor tabulate
+		sudo easy_install pip termcolor tabulate sphinx
 
 2. Set language environment variables:
 
