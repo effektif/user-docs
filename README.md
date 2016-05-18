@@ -15,6 +15,7 @@ The following instructions assume Python is already installed.
 2. Set language environment variables:
 
 		export LC_ALL=en_US.UTF-8
+		export LC_CTYPE=en_US.UTF-8
 		export LANG=en_US.UTF-8
 
 3. Install all requirements:
