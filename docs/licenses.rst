@@ -3,7 +3,7 @@
 License types
 =============
 
-To log in to Signavio Workflow, your user account have a user license that has not expired.
+To log in to Signavio Workflow, your user account must have a user license that has not expired.
 You can choose between several license types:
 
 * Enterprise Cloud Free Trial
