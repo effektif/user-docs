@@ -50,7 +50,9 @@ Developer Cloud
 
 A free *Developer Cloud* license allows developers to create and test process models without having to purchase a license.
 You can only use this license in an organisation with a single user, which means that multiple people cannot use it for collaborative process execution.
-To downgrade a license to a *Developer Cloud* license, use the `purchasing <https://workflow.signavio.com/buy>`_ page.
+
+To register for a Developer Cloud license, first register for the free trial.
+Then use the `purchasing <https://workflow.signavio.com/buy>`_ page to downgrade the license to a Developer Cloud license.
 
 
 Academic Cloud
@@ -59,5 +61,7 @@ Academic Cloud
 A free *Academic Cloud* license allows university students to use Signavio Workflow to learn about workflow management.
 You may only use this license if you have a valid university email address.
 You may only use this license for educational purposes and not for administrative processes in an educational institution.
-To register for an academic license, use the *academic version* link at the bottom of the `purchasing <https://workflow.signavio.com/buy>`_ page.
+
+To register for an academic license, first register for the free trial.
+Then use the *academic version* link at the bottom of the `purchasing <https://workflow.signavio.com/buy>`_ page to extend the license period for one year.
 Alternatively, use the *Student? Click here* link at the bottom of the :ref:`billing` page in the application.
