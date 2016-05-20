@@ -5,6 +5,7 @@ Signavio Workflow User Guide
    :maxdepth: 2
 
    introduction
+   licenses
    cases
    tasks
    process-builder
