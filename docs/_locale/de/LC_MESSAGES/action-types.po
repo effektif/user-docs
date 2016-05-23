@@ -40,7 +40,7 @@ msgstr "User Tasks werden in Ihrer Organisation ausgeführt von Personen. In ein
 
 #: ../../action-types/user-task.rst:13
 msgid "*General* - assign a task to a user or a :ref:`process role <roles>`."
-msgstr "*Allgemein* - ein Task kann einem Nutzer oder einer :red:`Prozessrolle <roles>` zugewiesen werden."
+msgstr "*Allgemein* - ein Task kann einem Nutzer oder einer :ref:`Prozessrolle <roles>` zugewiesen werden."
 
 #: ../../action-types/user-task.rst:14
 msgid "*Form* - add a form to a task; submit the form to complete the task."
