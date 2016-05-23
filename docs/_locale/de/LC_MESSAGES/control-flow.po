@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 10:45+0200\n"
-"PO-Revision-Date: 2016-04-29 11:27+0200\n"
+"PO-Revision-Date: 2016-05-23 11:59+0200\n"
 "Last-Translator: Timotheus Kampik <timotheus.kampik@signavio.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -52,11 +52,11 @@ msgstr "Manuelle Entscheidung"
 
 #: ../../control-flow/exclusive-gateway.rst:16
 msgid "Use a manual decision for an exclusive gateway when a person must make a decision. A user task must precede the gateway; this task includes making the decision. The user interface presents the decision to the user as buttons on the user task form."
-msgstr "Wenn eine Person die Entscheidung treffen soll, verwenden Sie die `manuelle Entscheidung`. In diesem Fall muss direkt vor dem exklusiven Gateway ein User Task vorhanden sein. Im Nutzerinterface wird die Entscheidung in Form von mehreren Knöpfen für den Nutzer dargestellt."
+msgstr "Wenn eine Person die Entscheidung treffen soll, verwenden Sie die `manuelle Entscheidung`. In diesem Fall muss direkt vor dem exklusiven Gateway eine Aufgabe vorhanden sein. Im Nutzerinterface wird die Entscheidung in Form von mehreren Knöpfen für den Nutzer dargestellt."
 
 #: ../../control-flow/exclusive-gateway.rst:20
 msgid "Suppose you have a user task called ‘Review contract’, an exclusive gateway and the two user tasks ‘Print contract’ and ‘Update contract’:"
-msgstr "Se können zum Beispiel eine Aktivität namens `Vertrag prüfen`, ein exklusives Gateway und zwei weitere Aktivitäten `Vertrag drucken` und `Vertrag updated` haben:"
+msgstr "Sie können zum Beispiel eine Aktivität namens `Vertrag prüfen`, ein exklusives Gateway und zwei weitere Aktivitäten `Vertrag drucken` und `Vertrag updated` haben:"
 
 #: ../../control-flow/exclusive-gateway.rst:26
 msgid "An exclusive gateway must have at least one incoming and two outgoing transitions"

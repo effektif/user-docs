@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 10:45+0200\n"
-"PO-Revision-Date: 2016-04-29 11:38+0200\n"
+"PO-Revision-Date: 2016-05-23 12:10+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -127,7 +127,7 @@ msgstr "Der Prozess ist um den *Dokument überprüfen*-Task, der eine *Freigabe*
 
 #: ../../examples/approve-document.rst:38
 msgid "Adding a due date and reminders to the user tasks can help minimise cycle times. Adding escalation to the *Review document* task helps avoid a delay when the reviewer cannot complete the work."
-msgstr "Durch das Hinterlegen eines Fälligkeitsdatums und durch die Konfiguration von automatischen Erinnerungen können Sie die Durchlaufet der User Tanks minimieren. Eine Eskalationsoption für den *Dokument überprüfen*-Task verhindert Verzögerungen, falls der ursprüngliche Reviere nicht verfügbar ist."
+msgstr "Durch das Hinterlegen eines Fälligkeitsdatums und durch die Konfiguration von automatischen Erinnerungen können Sie die Laufzeiten der Aufgaben minimieren. Eine Eskalationsoption für die *Dokument überprüfen*-Aufgabe verhindert Verzögerungen, falls der ursprüngliche Reviewer nicht verfügbar ist."
 
 #: ../../examples/approve-document.rst:42
 #: ../../examples/approve-expense-claim.rst:31
@@ -147,7 +147,7 @@ msgstr "Rollen"
 
 #: ../../examples/approve-document.rst:44
 msgid "The two tasks correspond to two process roles."
-msgstr "Die zwei User Tasks entsprechen zwei verschieden Rollen."
+msgstr "Die zwei Aufgaben entsprechen zwei verschieden Rollen."
 
 #: ../../examples/approve-document.rst:46
 msgid "*Reviewer* (optional) - makes the approval decision: often a manager or supervisor."
@@ -306,11 +306,11 @@ msgstr "Formular - der Mitarbeiter und die Urlaubsdaten"
 
 #: ../../examples/approve-vacation-request.rst:34
 msgid "The process consists of a user task for a decision. Tasks to continue the process of going on vacation (or not) follow the decision."
-msgstr "Der Prozess besteht aus einem User Task und einer Entscheidung. Auf die Entscheidung folgen Aufgaben, die den Urlaubsprozess fortsetzen (oder nicht)."
+msgstr "Der Prozess besteht aus einer Aufgabe und einer Entscheidung. Auf die Entscheidung folgen Aufgaben, die den Urlaubsprozess fortsetzen (oder nicht)."
 
 #: ../../examples/approve-vacation-request.rst:39
 msgid "Adding a due date and reminders to the user task can help reduce cycle times."
-msgstr "Fügen Sie ein Fälligkeitsdatum zum User Task hinzu, um so kurze Durchlaufzeiten sicherzustellen."
+msgstr "Fügen Sie ein Fälligkeitsdatum zur Aufgabe hinzu, um so kurze Durchlaufzeiten sicherzustellen."
 
 #: ../../examples/approve-vacation-request.rst:44
 msgid "*Manager* - approves the request."
@@ -616,7 +616,7 @@ msgstr "Manuell."
 
 #: ../../examples/initiate-project.rst:29
 msgid "This process represents a checklist with one user task for each piece of required project documentation. Each user task adds a level of detail by splitting these project initiation summaries into sections."
-msgstr "Der Prozess bildet eine Checkliste ab. Jeder Nutzertask entspricht der Beschaffung eines Informationsobjekts. Hierdurch wird die Projektbeschreibung in mehrere Abschnitte unterteilt."
+msgstr "Der Prozess bildet eine Checkliste ab. Jede Aufgabe entspricht der Beschaffung eines Informationsobjekts. Hierdurch wird die Projektbeschreibung in mehrere Abschnitte unterteilt."
 
 #: ../../examples/initiate-project.rst:34
 msgid "The project manager can complete these tasks in any order."
@@ -624,7 +624,7 @@ msgstr "Der Projektmanager kann die Tasks in einer beliebigen Reihenfolge abschl
 
 #: ../../examples/initiate-project.rst:39
 msgid "*Project manager* - responsible for capturing the project summaries. In practice, the project manager may delegate these tasks to other team members, by assigning the user tasks."
-msgstr "*Projektmanager* - verantwortlich für die Erstellung der Projektbeschreibung. In der Praxis kann der Projektmanager diese Aufgaben delegieren, indem er die User Tasks seinen Mitarbeitern zuweist."
+msgstr "*Projektmanager* - verantwortlich für die Erstellung der Projektbeschreibung. In der Praxis kann der Projektmanager diese Aufgaben delegieren, indem er die Aufgaben seinen Mitarbeitern zuweist."
 
 #: ../../examples/initiate-project.rst:45
 msgid "The *Project overview* task includes the following fields."
@@ -704,7 +704,7 @@ msgstr "Um Fehler zu vermeiden, wird der Task *Rechnung überprüfen* direkt nac
 
 #: ../../examples/invoice-customer.rst:34
 msgid "The *Send Invoice* task automatically emails the invoice to the customer, and a *Check for payment* task requires the finance administrator to check for customer payment. If the customer has not paid by the invoice by the payment terms deadline, then Signavio Workflow sends a reminder email followed by a user task that uses daily reminders to chase the process."
-msgstr "Der *Rechnung senden*-Task schickt die Rechnung automatisch zum Kunden. Der Task *Zahlungseingang überprüfen* wird von einem Finanzadministrator ausgeführt. Falls der Kunde bis zur Deadline nicht bezahlt hat, verschickt Signavio Workflow automatisch eine Erinnerung und falls dieser nicht nachgekommen wird, wird der Vorgang zurück zum Finanzadministrator eskaliert."
+msgstr "Der *Rechnung senden*-Task schickt die Rechnung automatisch zum Kunden. Die Aufgabe *Zahlungseingang überprüfen* wird von einem Finanzadministrator ausgeführt. Falls der Kunde bis zur Deadline nicht bezahlt hat, verschickt Signavio Workflow automatisch eine Erinnerung und falls dieser nicht nachgekommen wird, wird der Vorgang zurück zum Finanzadministrator eskaliert."
 
 #: ../../examples/invoice-customer.rst:40
 msgid "*Finance administrator* - responsible for handling invoices within the company’s finance department."
@@ -816,7 +816,7 @@ msgstr "Manchmal gibt es sehr viel zu tun. Dieser Prozess besteht aus vielen ver
 
 #: ../../examples/plan-trade-fair-booth.rst:33
 msgid "Every user task may have its own due date, reminders and escalation."
-msgstr "Jeder User Task benötigt ein eigenes Fälligkeitsdatum, eine Erinnerungsfunktion und eine Eskalationsmöglichkeit."
+msgstr "Jede Aufgabe benötigt ein eigenes Fälligkeitsdatum, eine Erinnerungsfunktion und eine Eskalationsmöglichkeit."
 
 #: ../../examples/plan-trade-fair-booth.rst:38
 msgid "*Marketing team member* - responsible for the whole process."
@@ -904,7 +904,7 @@ msgstr "Der Prozess illustriert wie ein hohes Fallaufkommen verwaltet werden kan
 
 #: ../../examples/process-insurance-claim.rst:29
 msgid "In most cases, the top row of user tasks will process the claim. Only a few claims will require the *Investigate high-value claim* or *Process complex claim* tasks."
-msgstr "Die meisten Fälle durchlaufen lediglich die oberste Taskreihe. Nur die wenigen komplexen Fälle und Fälle mit hohen Forderungssummen erfordern die Tasks *Forderung überprüfen* und/oder *Komplexe Forderung bearbeiten*."
+msgstr "Die meisten Fälle durchlaufen lediglich die oberste Taskreihe. Nur die wenigen komplexen Fälle und Fälle mit hohen Forderungssummen erfordern die Aufgaben *Forderung überprüfen* und/oder *Komplexe Forderung bearbeiten*."
 
 #: ../../examples/process-insurance-claim.rst:35
 msgid "*Junior claims adjuster* - triages insurance claims and processes the straightforward ones."
@@ -948,15 +948,15 @@ msgstr "Email - eine Kundenanfrage."
 
 #: ../../examples/respond-to-customer-email.rst:26
 msgid "Unusually, this process consists of a single user task - for responding to the email - followed by an email task to send the reply."
-msgstr "Ungewöhnlicherweise besteht dieser Prozess aus lediglich einem User Task - dem Beantworten der Email - auf den ein *Email senden*-Task zum automatischen Versenden der Mail folgt."
+msgstr "Ungewöhnlicher Weise besteht dieser Prozess aus lediglich einer Aufgabe, die durch den Nutzer ausgeführt wird - dem Beantworten der E-Mail - auf die eine *E-Mail senden*-Aufgabe zum automatischen Versenden der Mail folgt."
 
 #: ../../examples/respond-to-customer-email.rst:30
 msgid "This process minimally demonstrates the value of task assignment. The process’ value comes from the automated notifications from setting the user task’s candidate group, due date, reminders and escalation."
-msgstr "Bei diesem Prozess handelt es ich um eine Minimalversion, die den Nutzen von Tankzuweisungen demonstrieren soll. Der Wert des Prozesses kommt von den automatischen Benachrichtigungen durch das setzen der Kandidatengruppe, Erinnerung, Fälligkeitsheadline und Eskalationsmöglichkeit des User Task."
+msgstr "Bei diesem Prozess handelt es ich um eine Minimalversion, die den Nutzen von Aufgabenzuweisungen demonstrieren soll. Der Wert des Prozesses kommt von den automatischen Benachrichtigungen durch das setzen der Kandidatengruppe, Erinnerung, Fälligkeitsheadline und Eskalationsmöglichkeit der Aufgabe."
 
 #: ../../examples/respond-to-customer-email.rst:36
 msgid "A simpler version of this process only has a single user task, and relies on the assignee to send the email normally."
-msgstr "Eine einfachere Version dieses Prozesses hat lediglich einen Nutzertask. Es ist notwendig, dass die verantwortliche Person die Email manuell versendet."
+msgstr "Eine einfachere Version dieses Prozesses hat lediglich eine Aufgabe, die manuell ausgeführt wird. Es ist notwendig, dass die verantwortliche Person die E-Mail manuell versendet."
 
 #: ../../examples/ship-product-from-warehouse.rst:4
 msgid "Ship Product From Warehouse (logistics)"
