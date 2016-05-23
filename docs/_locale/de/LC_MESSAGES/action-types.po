@@ -39,30 +39,14 @@ msgstr "Aufgaben"
 msgid "A user task in the process editor"
 msgstr "Eine Aufgabe im Prozess-Editor"
 
-<<<<<<< HEAD
+
 #: ../../action-types/user-task.rst:10
 msgid "A user task indicates that someone will perform a task. In the configuration form, you can specify the following optional details."
 msgstr "Aufgaben werden in Ihrer Organisation ausgeführt von Personen. In einem :ref:`Fall <cases>` wird hierzu eine Aufgabe angelegt. Für eine Aufgabe stehen die folgenden Konfigurationsmöglichkeiten zur Verfügung:"
-=======
-#: ../../action-types/user-task.rst:10 ../../action-types/user-task.rst:10
-msgid ""
-"A user task indicates that someone will perform a task. In the configuration"
-" form, you can specify the following optional details."
-msgstr ""
-"User Tasks werden in Ihrer Organisation ausgeführt von Personen. In einem "
-":ref:`Fall <cases>` wird hierzu eine Aufgabe angelegt. Für eine Aufgabe "
-"stehen die folgenden Konfigurationsmöglichkeiten zur Verfügung:"
->>>>>>> master
 
 #: ../../action-types/user-task.rst:13 ../../action-types/user-task.rst:13
 msgid "*General* - assign a task to a user or a :ref:`process role <roles>`."
-<<<<<<< HEAD
 msgstr "*Allgemein* - ein Task kann einem Nutzer oder einer :ref:`Prozessrolle <roles>` zugewiesen werden."
-=======
-msgstr ""
-"*Allgemein* - ein Task kann einem Nutzer oder einer :red:`Prozessrolle "
-"<roles>` zugewiesen werden."
->>>>>>> master
 
 #: ../../action-types/user-task.rst:14 ../../action-types/user-task.rst:14
 msgid "*Form* - add a form to a task; submit the form to complete the task."
