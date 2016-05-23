@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-29 10:45+0200\n"
-"PO-Revision-Date: 2016-04-29 11:18+0200\n"
+"PO-Revision-Date: 2016-05-23 11:58+0200\n"
 "Last-Translator: Timotheus Kampik <timotheus.kampik@signavio.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -386,6 +386,10 @@ msgstr ""
 "Klicken Sie auf das *Link*-Symbol rechts um das Dokument zu öffnen."
 
 #: ../../cases.rst:187
+<<<<<<< HEAD
+msgid "If cases regularly require the same document as part of the process, you can make this clearer to people who work on cases by adding a file upload form field to a :ref:`user task form <user-task-form>`."
+msgstr "Wenn Fälle regelmäßig einen bestimmten Dokumenttyp erfordern (zum Beispiel *Lebenslauf*), ist es sinnvoll hierfür explizit ein Dateiupload-Formular zum entsprechenden :ref:`Aufgabenformular <user-task-form>` hinzuzufügen."
+=======
 msgid ""
 "If cases regularly require the same document as part of the process, you can"
 " make this clearer to people who work on cases by adding a file upload form "
@@ -394,6 +398,7 @@ msgstr ""
 "Wenn Fälle regelmäßig einen bestimmten Dokumenttyp erfordern (zum Beispiel "
 "*Lebenslauf*), ist es sinnvoll hierfür explizit ein Dateiuploadformular zum "
 "entsprechenden :ref:`Nutzeraufgabenformular <user-task-form>` hinzuzufügen."
+>>>>>>> master
 
 #: ../../cases.rst:191
 msgid "Closing a case manually"
