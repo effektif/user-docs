@@ -126,23 +126,23 @@ msgstr ""
 msgid "Services"
 msgstr ""
 
-#: ../../settings.rst:91
+#: ../../settings.rst:93
 msgid "Billing"
 msgstr ""
 
-#: ../../settings.rst:93
+#: ../../settings.rst:95
 msgid ""
 "Use the *Billing* tab to manage your organization’s licenses for Signavio "
 "Workflow. This page shows:"
 msgstr ""
 
-#: ../../settings.rst:97
+#: ../../settings.rst:99
 msgid ""
 "the license expiry date, after which you must renew your licenses to "
 "continue using Signavio Workflow."
 msgstr ""
 
-#: ../../settings.rst:99
+#: ../../settings.rst:101
 msgid ""
 "The left-hand sidebar summarises your current license type. Click the "
 "*Upgrade your license* button to upgrade to another license type."
@@ -154,7 +154,7 @@ msgid ""
 "members of the organization to use. See :ref:`salesforce-integration`."
 msgstr ""
 
-#: ../../settings.rst:96
+#: ../../settings.rst:98
 msgid ""
 "the number of remaining user licenses - how many more people you can add to "
 "the organization"

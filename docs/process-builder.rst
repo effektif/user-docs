@@ -13,6 +13,7 @@ You can think of an executable process as a kind of software,
 but you will find it easier to build automation using processes.
 With Signavio Workflow, non-technical people can create useful processes.
 
+.. include:: process-builder/create.rst
 .. include:: process-builder/triggers.rst
 .. include:: process-builder/actions.rst
 .. include:: process-builder/details.rst
