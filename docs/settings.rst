@@ -87,6 +87,8 @@ Use the *Services* tab to configure integration with cloud services for members 
 See :ref:`salesforce-integration`.
 
 
+.. _billing:
+
 Billing
 -------
 
