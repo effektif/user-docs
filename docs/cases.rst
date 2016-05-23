@@ -8,7 +8,52 @@ For example, ‘Hire employee’ or ‘Sign contract’.
 Cases typically represent more work than a simple task for a single person, but less than a whole project.
 
 A case breaks the goal down into concrete action items (or tasks) so you can collaborate with other people.
-The case centralises all relevant context information about the topic, for sharing and discussion.
+The case brings together a set of tasks, a discussion and documents, and allows participants to share any relevant context information for the tasks.
+
+
+.. _start-adhoc:
+
+Starting an ad-hoc case
+-----------------------
+
+Signavio Workflow supports two types of cases: cases that relate to a process and ad-hoc cases.
+An *ad-hoc case* does not have a predefined process.
+It creates a collaboration space that you can use to reach a one-off goal.
+
+To create a new ad-hoc case, navigate to *Cases*;
+on the *Cases of* menu, select *Cases without a process*, then click *Start new case*.
+
+.. figure:: /_static/images/cases/create/create-case.png
+
+   Start a new task
+
+Then the case header appears.
+
+.. figure:: /_static/images/cases/create/name-case.png
+
+   Enter case title
+
+Next, type the case title and hit Enter. Signavio Workflow now creates the new case.
+
+.. figure:: /_static/images/cases/create/view-case.png
+
+   New case
+
+
+Starting a new process case
+---------------------------
+
+A *process case* uses the latest version of the workflow defined by a published process.
+It creates a collaboration space for working towards a predefined goal.
+
+You can create a new process case by selecting the *Start new case* button in one of three places:
+
+#. in the process builder, on the :ref:`versions` page, next to the latest published version
+#. on the *Processes* page, next to the name of each published process
+#. on the :ref:`cases overview <cases-overview>` page, for the selected process.
+
+If the process does not define a trigger, then you enter a case name as when :ref:`start-adhoc`.
+Other trigger types generate their own case names, or use a :ref:`case name template <details>`.
 
 
 .. _cases-overview:
@@ -81,34 +126,6 @@ Below the list of columns, you’ll find a menu for selecting additional column 
 
 The menu lists all of the workflow variables that the table does not currently include.
 In this example, the *Interviewer* variable has the type *User*, which means that you can access additional fields for the user’s email address, first name, ID and last name.
-
-
-Creating an ad-hoc case
------------------------
-
-Signavio Workflow supports two types of cases: cases that relate to a process and ad-hoc cases.
-An *ad-hoc case* does not have a predefined process.
-It creates a collaboration space that you can use to reach a one-off goal.
-The case brings together a set of tasks, a discussion and documents, and allows participants to share any relevant context information for the tasks.
-
-To create a new ad-hoc case, navigate to *Cases*;
-on the *Cases of* menu, select *Cases without a process*, then click *Start new case*.
-
-.. figure:: /_static/images/cases/create/create-case.png
-
-   Start a new task
-
-Then the case header appears.
-
-.. figure:: /_static/images/cases/create/name-case.png
-
-   Enter case title
-
-Next, type the case title and hit Enter. Signavio Workflow now creates the new case.
-
-.. figure:: /_static/images/cases/create/view-case.png
-
-   New case
 
 
 Commenting on a case
