@@ -297,7 +297,7 @@ msgstr ""
 "Das Menü listet alle verfügbaren Variablen auf, die momentan noch nicht "
 "in der Tabelle angezeigt werden. Da die *Interviewer*-Variable vom Typ "
 "*Nutzer* ist, stehen hier zusätzliche Felder wie zum Beispiel die "
-"Emailadresse oder der Vor- und Nachname des jeweiligen Nutzers zur "
+"E-Mail Adresse oder der Vor- und Nachname des jeweiligen Nutzers zur "
 "Verfügung."
 
 #: ../../cases.rst:132
@@ -354,7 +354,7 @@ msgstr ""
 "dem Ereignisfeed ein. Alle Personen, die Zugang zum Fall haben, können "
 "die Diskussion mitverfolgen. Dadurch, dass Sie die Diskussion 'direkt im "
 "Fall' halten, bleibt der Kontext erhalten. Dies erleichtert das Zuordnen "
-"von Information, insbesondere im Vergleich zu E-mail-Konversationen."
+"von Information, insbesondere im Vergleich zu E-Mail Konversationen."
 
 #: ../../cases.rst:158
 msgid ""
@@ -425,7 +425,7 @@ msgstr ""
 "Fall anhängen. Zum Beispiel ist es in einem Bewerbungsprozess sinnvoll, "
 "den Lebenslauf des Bewerbers im Fall zu hinterlegen. Jede Person, die auf"
 " den Fall Zugreifen kann, kann direkt dort den Lebenslauf herunterladen "
-"und einsehen. Dies verhindert umständliches Suchen im Emailarchiv."
+"und einsehen. Dies verhindert umständliches Suchen im E-Mail Avfgrchiv."
 
 #: ../../cases.rst:195
 msgid ""

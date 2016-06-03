@@ -100,7 +100,7 @@ msgstr ""
 "Signavio Workflow für begrenzte Zeit testen ohne eine Lizenz kaufen zu "
 "müssen. Verwenden Sie die `Registrierungsseite <https://workflow."
 "signavio.com/registration>`_ um eine Testlizenz zu bekommen. Wenn die "
-"Testlizenz abgelaufen ist, schickt Ihnen Signavio Workflow eine Email, "
+"Testlizenz abgelaufen ist, schickt Ihnen Signavio Workflow eine E-Mail, "
 "um Sie zum Kauf von Lizenzen einzuladen."
 
 #: ../../licenses.rst:37

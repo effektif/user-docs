@@ -24,7 +24,7 @@ msgstr "Aufgaben"
 
 #: ../../tasks.rst:6
 msgid "A task represents work that someone will presumably complete. :ref:`cases` typically include multiple tasks, usually those that the process defines. You can also add ad-hoc tasks to a case."
-msgstr "Eine Aufgabe stellt einen Arbeitsschritt da, der von einer spezifischen Person zu erledigen ist. :ref:`Fälle <cases>` enthalten typischerweise mehrere Aufgaben, die Teil der Prozessdefinition sind. Sie können allerdings auch ad-hoc Aufgaben in einem Fall hinzufügen."
+msgstr "Eine Aufgabe stellt einen Arbeitsschritt dar, der von einer spezifischen Person zu erledigen ist. :ref:`Fälle <cases>` enthalten typischerweise mehrere Aufgaben, die Teil der Prozessdefinition sind. Sie können allerdings auch Ad-Hoc Aufgaben in einem Fall hinzufügen."
 
 #: ../../tasks.rst:10
 msgid "In Signavio Workflow, you can assign a task to a specific user, set a due date and add subtasks."
@@ -44,7 +44,7 @@ msgstr "Die Aufgaben-Inbox"
 
 #: ../../tasks.rst:26
 msgid "Each task shows the assignee - you for all Inbox tasks - and a link to the task itself."
-msgstr "Jede Aufgabe zeigt die zugewiesene Person an (im Falle der Inbox sind das jeweils Sie selbst) und einen Link um die Aufgabe zu öffnen."
+msgstr "Jede Aufgabe zeigt die zugewiesene Person an (im Falle der Inbox sind das jeweils Sie selbst) und einen Link, um die Aufgabe zu öffnen."
 
 #: ../../tasks.rst:28
 msgid "The left-hand side of the inbox has sections for tasks that have due dates, so you can prioritise your work. The right-hand side lists tasks that don’t have a due date."
@@ -56,7 +56,7 @@ msgstr "Alle Aufgaben ansehen"
 
 #: ../../tasks.rst:36
 msgid "The *All tasks* view shows tasks for all assignees."
-msgstr "Die *Alle Aufgaben*-Ansicht zeigt alle Aufgaben innerhalb Ihrer Organisation"
+msgstr "Die *Alle Aufgaben*-Ansicht zeigt alle Aufgaben innerhalb Ihrer Organisation."
 
 #: ../../tasks.rst:40
 msgid "The list of all tasks"
@@ -64,7 +64,7 @@ msgstr "Die Liste aller Aufgaben"
 
 #: ../../tasks.rst:43
 msgid "Tasks with due dates have a clock indicator to the right of the task name. Signavio Workflow shows this indicator in red when a task’s due date has arrived."
-msgstr "Aufgaben mit einem Fälligkeitsdatum zeigen ein kleines Uhr-Symbol an der rechten Seite an. Wenn dieses Symbol rot dargestellt wird, ist die Aufgabe fällig."
+msgstr "Aufgaben mit einem Fälligkeitsdatum besitzen ein kleines Uhr-Symbol an der rechten Seite. Wenn dieses Symbol rot dargestellt wird, ist die Aufgabe fällig."
 
 #: ../../tasks.rst:46
 msgid "You can use the controls on the right to filter the tasks list, which you will find useful when the workload increases."
@@ -116,7 +116,7 @@ msgstr "Nachdem Sie eine Aufgabe angelegt haben, erscheint diese in der Liste:"
 
 #: ../../tasks.rst:79
 msgid "When a process starts, Signavio Workflow creates a :ref:`case <cases>` and starts all elements that do not have incoming transitions."
-msgstr "Wenn ein Prozess gestartet wird, wird ein :ref:`Fall <cases>` angelegt. Alle Elemente im Prozess, die keine eingehenden Sequenzfluss haben, werden sofort ausgeführt."
+msgstr "Wenn ein Prozess gestartet wird, wird ein :ref:`Fall <cases>` angelegt. Alle Elemente im Prozess, die keinen eingehenden Sequenzfluss haben, werden sofort ausgeführt."
 
 #: ../../tasks.rst:83
 msgid "Assigning tasks"
@@ -128,7 +128,7 @@ msgstr "Sie können Aufgaben entweder sich selbst oder einer anderen Person zuwe
 
 #: ../../tasks.rst:89
 msgid "You can assign a task from anywhere a task appears in a task list. To assign the task, click the assignee button immediately to the left of the task name, to open the list of candidates."
-msgstr "Sie können Aufgaben überall dort direkt zuweisen, wo diese in einer Aufgabenliste auftauchen. Dazu drücken Sie einfach den Knopf direkt neben dem Namen der Aufgabe, worauf sich eine Liste mit den Kandidaten öffnet."
+msgstr "Sie können Aufgaben überall dort direkt zuweisen, wo diese in einer Aufgabenliste auftauchen. Dazu drücken Sie einfach den Button direkt neben dem Namen der Aufgabe, worauf sich eine Liste mit den Kandidaten öffnet."
 
 #: ../../tasks.rst:95
 msgid "Assigning a task"
@@ -136,7 +136,7 @@ msgstr "Eine Aufgabe zuweisen"
 
 #: ../../tasks.rst:97
 msgid "To assign the task, select a candidate from the list, or type a name or email address to filter it first."
-msgstr "Um eine Aufgabe jemanden zuzuweisen, wählen Sie einen Kandidaten aus der Liste oder durchsuchen Sie die Liste, indem Sie einen Namen oder eine Emailadresse eintippen."
+msgstr "Um eine Aufgabe zuzuweisen, wählen Sie einen Kandidaten aus der Liste oder durchsuchen Sie die Liste, indem Sie einen Namen oder eine E-Mail Adresse eintippen."
 
 #: ../../tasks.rst:101
 msgid "Setting due dates"
@@ -144,7 +144,7 @@ msgstr "Fälligkeiten festlegen"
 
 #: ../../tasks.rst:103
 msgid "You can set a task’s due date, so that the assignee’s tasks inbox highlights overdue tasks. To set a task’s due date, open the task, and select the clock icon to open the date selector."
-msgstr "Sie können Fälligkeitsdaten für Aufgaben festlegen, damit diese in der Aufgaben-Inbox besonders hervorgehoben werden. Um ein Fälligkeitsdatum festzulegen, öffnen Sie eine Aufgaben und klicken Sie auf das Uhr-Icon um die Datumsauswahl zu öffnen."
+msgstr "Sie können Fälligkeitsdaten für Aufgaben festlegen, damit diese in der Aufgaben-Inbox besonders hervorgehoben werden. Um ein Fälligkeitsdatum festzulegen, öffnen Sie eine Aufgabe und klicken Sie auf das Uhr-Icon um die Datumsauswahl zu öffnen."
 
 #: ../../tasks.rst:110
 msgid "Setting a task’s due date"
@@ -160,11 +160,11 @@ msgstr "Aufgaben abschließen"
 
 #: ../../tasks.rst:120
 msgid "Use the highlighted `Done` button (the square on the green background) to complete a task."
-msgstr "Einfache Aufgaben können mit einem Klick auf den `Fertig` Knopf (das Quadrat auf dem grünen Hintergrund) abgeschlossen werden."
+msgstr "Einfache Aufgaben können mit einem Klick auf den `Fertig` Button (das Quadrat auf dem grünen Hintergrund) abgeschlossen werden."
 
 #: ../../tasks.rst:122
 msgid "When tasks have a form, the task page displays the form in the same position and includes the button(s) to complete the task at the bottom of the form. The task page normally only includes a `Done` button, but will display multiple buttons when you use a decision. Each of those buttons will register the decision and complete the task in one go."
-msgstr "Wenn eine Aufgaben ein Formular beinhaltet, finden Sie den `Fertig` Knopf unterhalb des Formulars. In der Regel wird dies der `Fertig` Knopf sein. Wenn jedoch eine Entscheidung auf eine Aufgabe folgt, dann werden die Entscheidungsmöglichkeiten als Knöpfe in der Task angezeigt."
+msgstr "Wenn eine Aufgabe ein Formular beinhaltet, finden Sie den Button bzw. die Buttons zum Abschließen der Aufgabe unterhalb des Formulars. In der Regel wird dies der `Fertig` Button sein. Wenn jedoch eine Entscheidung auf eine Aufgabe folgt, dann werden die Entscheidungsmöglichkeiten als Buttons in der Task angezeigt."
 
 #: ../../tasks.rst:128
 msgid "Reopening tasks"
@@ -172,7 +172,7 @@ msgstr "Aufgaben wieder öffnen"
 
 #: ../../tasks.rst:130
 msgid "When the task page shows a `Reopen` button, it means that someone completed the task but you can reopen it. You cannot reopen a task that has a form, because completing the task finalises the form data. You may want to reopen a task that you closed a task by accident, or when you learn about additional work that belongs to this task. If you just forgot to attach a document or make a comment, you can still do that without reopening the task."
-msgstr "Viele abgeschlossene Aufgaben lassen sich über den `Wieder öffnen`-Button erneut öffnen. Bei formularbasierten Aufgaben ist dies jedoch nicht möglich. Das erneute Öffnen einer Aufgabe ist zum Beispiel sinnvoll, wenn Sie eine Aufgabe aus Versehen abgeschlossen haben oder wenn die Aufgabe wider Erwartens weitere Arbeit erfordert. Falls Sie lediglich vergessen haben ein Dokument anzuhängen, können Sie dies auch nachholen, obwohl die Aufgabe abgeschlossen ist."
+msgstr "Viele abgeschlossene Aufgaben lassen sich über den `Wieder öffnen` Button erneut öffnen. Bei formularbasierten Aufgaben ist dies jedoch nicht möglich. Das erneute Öffnen einer Aufgabe ist zum Beispiel dann sinnvoll, wenn Sie eine Aufgabe aus Versehen abgeschlossen haben oder wenn die Aufgabe wider Erwartens weitere Arbeit erfordert. Falls Sie lediglich vergessen haben ein Dokument anzuhängen, können Sie dies auch nachholen, obwohl die Aufgabe abgeschlossen ist."
 
 #: ../../tasks.rst:136
 msgid "Reopening a task instead of creating a new task has the advantage that the existing task retains its context."
