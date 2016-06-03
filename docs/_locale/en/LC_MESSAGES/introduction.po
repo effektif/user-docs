@@ -63,29 +63,12 @@ msgstr ""
 msgid "Acknowledgements"
 msgstr ""
 
-#: ../../introduction.rst:15
-msgid ""
-"A process - strictly a process *model* - defines a template for repetitive "
-"work. The people who manage work typically create processes and specify the "
-"tasks and actions that you must completed to reach a certain goal. For "
-"example: for every :ref:`Hire employee <hire-employee>` case, someone must "
-"complete the *Plan interview*, *Interview candidate* and *Send job offer* "
-"tasks."
-msgstr ""
-
 #: ../../introduction.rst:40
 msgid "control where you need it"
 msgstr ""
 
 #: ../../introduction.rst:41
 msgid "flexibility"
-msgstr ""
-
-#: ../../introduction.rst:4
-msgid ""
-"Signavio Workflow is a web-based workflow modelling and execution platform. "
-"Although its heritage includes classical Business Process Management Systems"
-" (BPMS), Signavio Workflow dramatically simplifies workflow automation."
 msgstr ""
 
 #: ../../introduction.rst:19
@@ -121,6 +104,39 @@ msgid ""
 "components that Signavio Workflow uses <download/Open-Source-Components-"
 "Signavio-Workflow.pdf>`  (PDF)."
 msgstr ""
+
+#: ../../introduction.rst:4
+msgid ""
+"`Signavio Workflow <http://www.signavio.com/products/workflow/>`_ is a web-"
+"based workflow modelling and execution platform. Although its heritage "
+"includes classical Business Process Management Systems (BPMS), Signavio "
+"Workflow dramatically simplifies workflow automation."
+msgstr ""
+
+#: ../../introduction.rst:15
+msgid ""
+"A process - strictly a process *model* - defines a template for repetitive "
+"work. The people who manage work typically create processes and specify the "
+"tasks and actions that you must complete to reach a certain goal. For "
+"example: for every :ref:`Hire employee <hire-employee>` case, someone must "
+"complete the *Plan interview*, *Interview candidate* and *Send job offer* "
+"tasks."
+msgstr ""
+
+#~ msgid ""
+#~ "A process - strictly a process *model* - defines a template for repetitive "
+#~ "work. The people who manage work typically create processes and specify the "
+#~ "tasks and actions that you must completed to reach a certain goal. For "
+#~ "example: for every :ref:`Hire employee <hire-employee>` case, someone must "
+#~ "complete the *Plan interview*, *Interview candidate* and *Send job offer* "
+#~ "tasks."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Signavio Workflow is a web-based workflow modelling and execution platform. "
+#~ "Although its heritage includes classical Business Process Management Systems"
+#~ " (BPMS), Signavio Workflow dramatically simplifies workflow automation."
+#~ msgstr ""
 
 #~ msgid "When to use Effektif"
 #~ msgstr ""

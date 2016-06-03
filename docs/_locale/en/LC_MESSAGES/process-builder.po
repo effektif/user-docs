@@ -753,6 +753,77 @@ msgid ""
 " original process, and leaves a copy with no cases."
 msgstr ""
 
+#: ../../process-builder/create.rst:4 ../../process-builder/create.rst:4
+msgid "Creating a process"
+msgstr ""
+
+#: ../../process-builder/create.rst:6 ../../process-builder/create.rst:6
+msgid ""
+"To create a process, select *Processes* in the main menu, then the *Create "
+"new process* button. In the text input field, enter a process name."
+msgstr ""
+
+#: ../../process-builder/create.rst:13 ../../process-builder/create.rst:13
+msgid "Choosing a good process name"
+msgstr ""
+
+#: ../../process-builder/create.rst:15 ../../process-builder/create.rst:15
+msgid ""
+"Use the following guidelines to choose a good process name, to make the list"
+" of processes easier to read and talk about."
+msgstr ""
+
+#: ../../process-builder/create.rst:17 ../../process-builder/create.rst:17
+msgid "Describe the process goal."
+msgstr ""
+
+#: ../../process-builder/create.rst:18 ../../process-builder/create.rst:18
+msgid ""
+"Use an imperative verb phrase that completes a sentence like *For your next "
+"job, you have to…*"
+msgstr ""
+
+#: ../../process-builder/create.rst:19 ../../process-builder/create.rst:19
+msgid "Use more than one word, to get a descriptive name."
+msgstr ""
+
+#: ../../process-builder/create.rst:20 ../../process-builder/create.rst:20
+msgid "Avoid using more than three or four words."
+msgstr ""
+
+#: ../../process-builder/create.rst:21 ../../process-builder/create.rst:21
+msgid "Avoid vague words like ‘manage’, ‘do’, ‘process’ or ‘handle’."
+msgstr ""
+
+#: ../../process-builder/create.rst:23 ../../process-builder/create.rst:23
+msgid ""
+"*Hire employee*, for example, summarises a process better than "
+"*Recruitment*."
+msgstr ""
+
+#: ../../process-builder/create.rst:27 ../../process-builder/create.rst:27
+msgid "Next steps for a new process"
+msgstr ""
+
+#: ../../process-builder/create.rst:29 ../../process-builder/create.rst:29
+msgid ""
+"Once you have created a process, continue to build the process model using "
+"the following process builder sections."
+msgstr ""
+
+#: ../../process-builder/create.rst:31 ../../process-builder/create.rst:31
+msgid ":ref:`triggers` determine how you start new cases for the process"
+msgstr ""
+
+#: ../../process-builder/create.rst:32 ../../process-builder/create.rst:32
+msgid ""
+":ref:`actions` define the flow for tasks and other steps in the process"
+msgstr ""
+
+#: ../../process-builder/create.rst:33 ../../process-builder/create.rst:33
+msgid ":ref:`details` include process metadata and access control."
+msgstr ""
+
 #~ msgid ""
 #~ "Use the process builder to create and configure executable processes. You "
 #~ "can think of an executable process as a kind of software, but you will find "

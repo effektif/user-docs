@@ -1,7 +1,7 @@
 Introduction
 ============
 
-Signavio Workflow is a web-based workflow modelling and execution platform.
+`Signavio Workflow <http://www.signavio.com/products/workflow/>`_ is a web-based workflow modelling and execution platform.
 Although its heritage includes classical Business Process Management Systems (BPMS),
 Signavio Workflow dramatically simplifies workflow automation.
 
