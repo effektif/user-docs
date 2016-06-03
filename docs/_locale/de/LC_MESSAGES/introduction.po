@@ -24,7 +24,7 @@ msgstr "Einleitung"
 
 #: ../../introduction.rst:4
 msgid "`Signavio Workflow <http://www.signavio.com/products/workflow/>`_ is a web-based workflow modelling and execution platform. Although its heritage includes classical Business Process Management Systems (BPMS), Signavio Workflow dramatically simplifies workflow automation."
-msgstr "`Signavio Workflow <http://www.signavio.com/de/products/workflow/>`_ ist eine webbasierte Workflowmodellierungs- und Ausführungsplattform. Trotz seiner Verwandschaft nit klassischen Business Process Management Systemen (BPMS), vereinfacht Signavio Workflow die Workflow-Automatisierung stark."
+msgstr "`Signavio Workflow <http://www.signavio.com/de/products/workflow/>`_ ist eine webbasierte Workflowmodellierungs- und Ausführungsplattform. Trotz seiner Verwandschaft mit klassischen Business Process Management Systemen (BPMS), vereinfacht Signavio Workflow die Workflow-Automatisierung stark."
 
 #: ../../introduction.rst:11
 msgid "How it works"
