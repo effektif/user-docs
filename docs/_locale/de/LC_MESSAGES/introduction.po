@@ -2,20 +2,20 @@
 # Copyright (C) 2016, Signavio GmbH
 # This file is distributed under the same license as the User Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-29 10:45+0200\n"
-"PO-Revision-Date: 2016-04-29 11:42+0200\n"
+"POT-Creation-Date: 2016-06-03 10:39+0200\n"
+"PO-Revision-Date: 2016-06-03 10:41+0200\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language-Team: \n"
-"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"Language: de\n"
 "X-Generator: Poedit 1.8.7\n"
 
 #: ../../introduction.rst:2
@@ -23,63 +23,28 @@ msgid "Introduction"
 msgstr "Einleitung"
 
 #: ../../introduction.rst:4
-msgid ""
-"Signavio Workflow is a web-based workflow modelling and execution platform. "
-"Although its heritage includes classical Business Process Management Systems"
-" (BPMS), Signavio Workflow dramatically simplifies workflow automation."
-msgstr ""
-"Signavio Workflow ist eine web-basierte Prozessmodellierungs- und "
-"Ausführungsplattform, die im Kern ein Business Process Management System "
-"(BPMNS) ist, jedoch die Automatisierung von Workflows dramatisch "
-"vereinfacht. "
+msgid "`Signavio Workflow <http://www.signavio.com/products/workflow/>`_ is a web-based workflow modelling and execution platform. Although its heritage includes classical Business Process Management Systems (BPMS), Signavio Workflow dramatically simplifies workflow automation."
+msgstr "`Signavio Workflow <http://www.signavio.com/products/workflow/>`_ ist eine webbasierte Workflowmodellierungs- und Ausführungsplattform. Trotz seiner Verwandschaft nit klassischen Business Process Management Systemen (BPMS), vereinfacht Signavio Workflow die Workflow-Automatisierung stark."
 
 #: ../../introduction.rst:11
 msgid "How it works"
 msgstr "So funktioniert's"
 
 #: ../../introduction.rst:15
-msgid ""
-"A process - strictly a process *model* - defines a template for repetitive "
-"work. The people who manage work typically create processes and specify the "
-"tasks and actions that you must completed to reach a certain goal. For "
-"example: for every :ref:`Hire employee <hire-employee>` case, someone must "
-"complete the *Plan interview*, *Interview candidate* and *Send job offer* "
-"tasks."
-msgstr ""
-"Prozesse - oder streng genommen *Prozessmodelle* - sind Vorlagen für "
-"wiederkehrende Arbeiten. Typischerweise werden Prozesse von Mitarbeitern "
-"angelegt, die koordinieren, welche Aufgaben erledigt werden müssen, um ein "
-"bestimmtes Ziel zu erreichen. Zum Beispiel müssen im Fall einer "
-"Neuanstellung die Aufgaben :ref:`Mitarbeiter einstellen <hire-employee>`, "
-"*Vertrag vorbereiten* und *Email Konto anlegen* abgeschlossen werden."
+msgid "A process - strictly a process *model* - defines a template for repetitive work. The people who manage work typically create processes and specify the tasks and actions that you must complete to reach a certain goal. For example: for every :ref:`Hire employee <hire-employee>` case, someone must complete the *Plan interview*, *Interview candidate* and *Send job offer* tasks."
+msgstr "Prozesse - oder streng genommen *Prozessmodelle* - sind Vorlagen für wiederkehrende Arbeiten. Typischerweise werden Prozesse von Mitarbeitern angelegt, die koordinieren, welche Aufgaben erledigt werden müssen um ein bestimmtes Ziel zu erreichen. Zum Beispiel müssen im Fall einer Neuanstellung die Aufgaben :ref:`Mitarbeiter einstellen <hire-employee>`, *Vertrag vorbereiten* und *Email Konto anlegen* abgeschlossen werden."
 
 #: ../../introduction.rst:19
-msgid ""
-"After you publish a process, you can start many individual cases. Signavio "
-"Workflow keeps track of which tasks and actions you have to perform for each"
-" case. Cases bring people together with relevant information that provides "
-"context for completing the tasks. You can also use cases as collaboration "
-"spaces for people to discuss and create new tasks for individual cases on "
-"the fly."
-msgstr ""
-"Nachdem ein Prozess veröffentlicht wurde können viele individuelle Fälle "
-"gestartet werden. Signavio Workflow überwacht dabei welche Aufgaben und "
-"Aktivitäten ausgeführt werden müssen. Mit Fällen können Sie Kollegen "
-"zusammenbringen um alle relevanten Informationen, die zur Durchführung "
-"benötigt werden, zusammenzutragen. In jedem Fall können alle Themen rund um "
-"eine Aufgabe diskutiert und weitere Aufgaben on-the-fly angelegt werden."
+msgid "After you publish a process, you can start many individual cases. Signavio Workflow keeps track of which tasks and actions you have to perform for each case. Cases bring people together with relevant information that provides context for completing the tasks. You can also use cases as collaboration spaces for people to discuss and create new tasks for individual cases on the fly."
+msgstr "Nachdem ein Prozess veröffentlicht wurde können viele individuelle Fälle gestartet werden. Signavio Workflow überwacht dabei welche Aufgaben und Aktivitäten ausgeführt werden müssen. Mit Fällen können Sie Kollegen zusammenbringen um alle relevanten Informationen, die zur Durchführung benötigt werden, zusammenzutragen. In jedem Fall können alle Themen rund um eine Aufgabe diskutiert und weitere Aufgaben on-the-fly angelegt werden."
 
 #: ../../introduction.rst:25
 msgid "When to use Signavio Workflow"
 msgstr "Wann ist Signavio Workflow zu verwenden"
 
 #: ../../introduction.rst:27
-msgid ""
-"You will find Signavio Workflow useful for describing and collaborating on "
-"routine work. Use Signavio Workflow for:"
-msgstr ""
-"Signavio Workflow eignet sich ideal um immer wiederkehrenden Arbeiten zu "
-"beschreiben und gemeinsam zu erledigen. Nutzen Sie Signavio Workflow um:"
+msgid "You will find Signavio Workflow useful for describing and collaborating on routine work. Use Signavio Workflow for:"
+msgstr "Signavio Workflow eignet sich ideal um immer wiederkehrenden Arbeiten zu beschreiben und gemeinsam zu erledigen. Nutzen Sie Signavio Workflow um:"
 
 #: ../../introduction.rst:30
 msgid "coordinating tasks and handovers"
@@ -115,8 +80,7 @@ msgstr "Flexibilität"
 
 #: ../../introduction.rst:42
 msgid "fewer delays (with automatic triggers, actions and timers)"
-msgstr ""
-"Weniger Verzögerungen (durch automatische Auslöser, Aktionen und Timer)"
+msgstr "Weniger Verzögerungen (durch automatische Auslöser, Aktionen und Timer)"
 
 #: ../../introduction.rst:43
 msgid "no more miscommunications during handovers"
@@ -131,9 +95,7 @@ msgid "clarity - visibility of who has to do what"
 msgstr "Klarheit - wer muss was tun"
 
 #: ../../introduction.rst:46
-msgid ""
-"agility - because you can change Signavio Workflow process models more "
-"easily than custom software."
+msgid "agility - because you can change Signavio Workflow process models more easily than custom software."
 msgstr "Agilität - Prozesse können leichter geändert werden als Software."
 
 #: ../../introduction.rst:49
@@ -141,20 +103,8 @@ msgid "Acknowledgements"
 msgstr "Danksagungen"
 
 #: ../../introduction.rst:51
-msgid ""
-"Signavio uses open source software. We thank everyone involved in the open "
-"source community. Please download the :download:`list of open source "
-"components that Signavio Workflow uses <download/Open-Source-Components-"
-"Signavio-Workflow.pdf>`  (PDF)."
-msgstr ""
-"Signavio benutzt Open Source Software. Wir möchten allen in der Open Source "
-"Community danken. Bitte folgen Sie :download:`diesem Link <download/Open-"
-"Source-Components-Signavio-Workflow.pdf>`, um eine Liste von allen Open "
-"Source Komponenten einzusehen, die wir in dieser Anwendung verwenden."
-
-#: ../../introduction.rst:25
-msgid "When to use Signavio Workflow"
-msgstr "Einsatzmöglichkeiten für Signavio Workflow"
+msgid "Signavio uses open source software. We thank everyone involved in the open source community. Please download the :download:`list of open source components that Signavio Workflow uses <download/Open-Source-Components-Signavio-Workflow.pdf>`  (PDF)."
+msgstr "Signavio benutzt Open Source Software. Wir möchten allen in der Open Source Community danken. Bitte folgen Sie :download:`diesem Link <download/Open-Source-Components-Signavio-Workflow.pdf>`, um eine Liste von allen Open Source Komponenten einzusehen, die wir in dieser Anwendung verwenden."
 
 #~ msgid "Use Signavio Workflow for:"
 #~ msgstr "Nutzen Sie Signavio Workflow um:"
@@ -194,3 +144,18 @@ msgstr "Einsatzmöglichkeiten für Signavio Workflow"
 
 #~ msgid ""
 #~ msgstr ""
+
+#~ msgid ""
+#~ "Signavio Workflow is a web-based "
+#~ "workflow modelling and execution platform. "
+#~ "Although its heritage includes classical "
+#~ "Business Process Management Systems (BPMS),"
+#~ " Signavio Workflow dramatically simplifies "
+#~ "workflow automation."
+#~ msgstr ""
+#~ "Signavio Workflow ist eine web-basierte"
+#~ " Prozessmodellierungs- und Ausführungsplattform, "
+#~ "die im Kern ein Business Process "
+#~ "Management System (BPMNS) ist, jedoch "
+#~ "die Automatisierung von Workflows dramatisch"
+#~ " vereinfacht. "
