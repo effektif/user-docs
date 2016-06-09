@@ -305,14 +305,6 @@ msgid ""
 "uploaded to a case."
 msgstr ""
 
-#: ../../action-types/google.rst:86 ../../action-types/google.rst:86
-msgid ""
-"After creating a Google Drive `Print file` action, the configuration panel "
-"shows a button to start configuring the account. This configuration has the "
-"same steps as in the `Upload file configuration <upload-file-"
-"configuration>`_ (above)."
-msgstr ""
-
 #: ../../action-types/google.rst:90 ../../action-types/google.rst:90
 msgid ""
 "When you have authenticated with a Google account and granted permission, "
@@ -353,14 +345,6 @@ msgid ""
 "The Google Drive *Add row to sheet* action adds a row to a Google Sheets "
 "spreadsheet. You can use this to save the values of process variables at "
 "process milestones, and build a custom overview of cases."
-msgstr ""
-
-#: ../../action-types/google.rst:124 ../../action-types/google.rst:124
-msgid ""
-"After creating a Google Drive *Add row to sheet* action, the configuration "
-"panel shows a button to start configuring the account. This configuration "
-"has the same steps as in the `Upload file configuration <upload-file-"
-"configuration>`_ (above)."
 msgstr ""
 
 #: ../../action-types/google.rst:128 ../../action-types/google.rst:128
@@ -700,6 +684,36 @@ msgid ""
 "selected sub-process. After completing the sub-process case, Signavio "
 "Workflow continues executing the parent case."
 msgstr ""
+
+#: ../../action-types/google.rst:86 ../../action-types/google.rst:86
+msgid ""
+"After creating a Google Drive `Print file` action, the configuration panel "
+"shows a button to start configuring the account. This configuration has the "
+"same steps as in the :ref:`Upload file configuration <upload-file-"
+"configuration>` (above)."
+msgstr ""
+
+#: ../../action-types/google.rst:124 ../../action-types/google.rst:124
+msgid ""
+"After creating a Google Drive *Add row to sheet* action, the configuration "
+"panel shows a button to start configuring the account. This configuration "
+"has the same steps as in the :ref:`Upload file configuration <upload-file-"
+"configuration>`(above)."
+msgstr ""
+
+#~ msgid ""
+#~ "After creating a Google Drive *Add row to sheet* action, the configuration "
+#~ "panel shows a button to start configuring the account. This configuration "
+#~ "has the same steps as in the `Upload file configuration <upload-file-"
+#~ "configuration>`_ (above)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "After creating a Google Drive `Print file` action, the configuration panel "
+#~ "shows a button to start configuring the account. This configuration has the "
+#~ "same steps as in the `Upload file configuration <upload-file-"
+#~ "configuration>`_ (above)."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "You an also specify a role for the task’s assignment, like a BPMN swim lane,"

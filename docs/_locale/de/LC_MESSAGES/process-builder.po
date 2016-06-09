@@ -2,19 +2,21 @@
 # Copyright (C) 2016, Signavio GmbH
 # This file is distributed under the same license as the User Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-03 15:07+0200\n"
-"PO-Revision-Date: 2016-05-23 12:13+0200\n"
+"PO-Revision-Date: 2016-06-09 12:30+0200\n"
 "Last-Translator: Timotheus Kampik <timotheus.kampik@signavio.com>\n"
 "Language-Team: \n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"X-Generator: Poedit 1.8.8\n"
 
 #: ../../process-builder.rst:4
 msgid "Process builder"
@@ -22,17 +24,16 @@ msgstr "Prozesseditor"
 
 #: ../../process-builder.rst:6
 msgid ""
-"A process defines a template for automating repetitive work, like a "
-"recipe that describes the actions that you perform to achieve a goal. For"
-" example, consider a :ref:`Hire employee <hire-employee>` process. Each "
-"time an organization hires someone, the recruitment team has to complete "
-"a number of tasks, including ‘Evaluate CV’, ‘Plan interview’ and "
-"‘Interview candidate’. Each time someone starts the process, Signavio "
-"Workflow creates a new case."
+"A process defines a template for automating repetitive work, like a recipe "
+"that describes the actions that you perform to achieve a goal. For example, "
+"consider a :ref:`Hire employee <hire-employee>` process. Each time an "
+"organization hires someone, the recruitment team has to complete a number of"
+" tasks, including ‘Evaluate CV’, ‘Plan interview’ and ‘Interview candidate’."
+" Each time someone starts the process, Signavio Workflow creates a new case."
 msgstr ""
-"Ein Prozess beschreibt eine Vorlage für repetitive Arbeitsabläufe, wie "
-"eine Anleitung, das die Aktionen beschreibt, die Sie durchführen müssen "
-"um ein bestimmtes Ziel zu erreichen. Stellen Sie sich z.B. einen "
+"Ein Prozess beschreibt eine Vorlage für repetitive Arbeitsabläufe, wie eine "
+"Anleitung, das die Aktionen beschreibt, die Sie durchführen müssen um ein "
+"bestimmtes Ziel zu erreichen. Stellen Sie sich z.B. einen "
 ":ref:`Einstellungsprozess <hire-employee>` vor. Jedes Mal, wenn eine "
 "Organisation eine neue Person einstellt, muss das Personalteam gewisse "
 "Aufgaben erledigen, z.B. 'Lebenslauf evaluieren', 'Interview planen' und "
@@ -41,312 +42,310 @@ msgstr ""
 
 #: ../../process-builder.rst:11
 msgid ""
-"Use the process builder to create and configure executable processes. You"
-" can think of an executable process as a kind of software, but you will "
-"find it easier to build automation using processes. With Signavio "
-"Workflow, non-technical people can create useful processes."
+"Use the process builder to create and configure executable processes. You "
+"can think of an executable process as a kind of software, but you will find "
+"it easier to build automation using processes. With Signavio Workflow, non-"
+"technical people can create useful processes."
 msgstr ""
 "Mit dem Prozesseditor können Sie ausführbare Prozesse erstellen und "
-"bearbeiten. Ein ausführbarer Prozess ist eine IT-Lösung zur Ausführung "
-"eines Geschäftsablaufs. Die Automatisierung von Prozessen mit Signavio "
-"Workflow ermöglicht es auch Fachanwendern ohne technisches Wissen und "
-"Zugriff auf eine IT-Entwicklungsabteilung, Prozesse zu erstellen und "
-"auszuführen."
+"bearbeiten. Ein ausführbarer Prozess ist eine IT-Lösung zur Ausführung eines"
+" Geschäftsablaufs. Die Automatisierung von Prozessen mit Signavio Workflow "
+"ermöglicht es auch Fachanwendern ohne technisches Wissen und Zugriff auf "
+"eine IT-Entwicklungsabteilung, Prozesse zu erstellen und auszuführen."
 
-#: ../../process-builder/create.rst:4
+#: ../../process-builder/create.rst:4 ../../process-builder/create.rst:4
 msgid "Creating a process"
 msgstr "Einen neuen Prozess erstellen"
 
-#: ../../process-builder/create.rst:6
+#: ../../process-builder/create.rst:6 ../../process-builder/create.rst:6
 msgid ""
-"To create a process, select *Processes* in the main menu, then the "
-"*Create new process* button. In the text input field, enter a process "
-"name."
+"To create a process, select *Processes* in the main menu, then the *Create "
+"new process* button. In the text input field, enter a process name."
 msgstr ""
-"Um einen neuen Prozess zu erstellen,  klicken Sie im *Prozesse*-Tab "
-"rechts oben auf *Neuen Prozess erstellen.* Geben Sie einen Prozessnamen "
-"in das dann erscheinende Feld ein."
+"Um einen neuen Prozess zu erstellen,  klicken Sie im *Prozesse*-Tab rechts "
+"oben auf *Neuen Prozess erstellen.* Geben Sie einen Prozessnamen in das dann"
+" erscheinende Feld ein."
 
-#: ../../process-builder/create.rst:13
+#: ../../process-builder/create.rst:13 ../../process-builder/create.rst:13
 msgid "Choosing a good process name"
 msgstr "Einen guten Prozessnamen wählen"
 
-#: ../../process-builder/create.rst:15
+#: ../../process-builder/create.rst:15 ../../process-builder/create.rst:15
 msgid ""
-"Use the following guidelines to choose a good process name, to make the "
-"list of processes easier to read and talk about."
+"Use the following guidelines to choose a good process name, to make the list"
+" of processes easier to read and talk about."
 msgstr ""
 "Verwenden Sie die folgenden Richtlinien, um einen guten Prozessnamen zu "
-"wählen. Dies kann nützlich sein, um sich schneller im Tool zurecht zu "
-"finden und dabei helfen, Prozesse effektiver zu diskutieren."
+"wählen. Dies kann nützlich sein, um sich schneller im Tool zurecht zu finden"
+" und dabei helfen, Prozesse effektiver zu diskutieren."
 
-#: ../../process-builder/create.rst:17
+#: ../../process-builder/create.rst:17 ../../process-builder/create.rst:17
 msgid "Describe the process goal."
 msgstr "Beschreiben Sie das Prozessziel."
 
-#: ../../process-builder/create.rst:18
+#: ../../process-builder/create.rst:18 ../../process-builder/create.rst:18
 msgid ""
-"Use an imperative verb phrase that completes a sentence like *For your "
-"next job, you have to…*"
+"Use an imperative verb phrase that completes a sentence like *For your next "
+"job, you have to…*"
 msgstr ""
 "Formulieren Sie eine klare Anweisung, die einen Satz wie *Bei dieser "
 "Aufgabe, müssen Sie...* vollendet."
 
-#: ../../process-builder/create.rst:19
+#: ../../process-builder/create.rst:19 ../../process-builder/create.rst:19
 msgid "Use more than one word, to get a descriptive name."
 msgstr ""
-"Verwenden Sie mehr als ein Wort, um einen Namen zu bekommen, der den "
-"Vorgang beschreibt."
+"Verwenden Sie mehr als ein Wort, um einen Namen zu bekommen, der den Vorgang"
+" beschreibt."
 
-#: ../../process-builder/create.rst:20
+#: ../../process-builder/create.rst:20 ../../process-builder/create.rst:20
 msgid "Avoid using more than three or four words."
 msgstr "Verwenden Sie nicht mehr als drei oder vier Wörter."
 
-#: ../../process-builder/create.rst:21
+#: ../../process-builder/create.rst:21 ../../process-builder/create.rst:21
 msgid "Avoid vague words like ‘manage’, ‘do’, ‘process’ or ‘handle’."
 msgstr ""
-"Vermeiden Sie ungenaue Formulierungen wie 'Bearbeiten Sie...' , "
-"'Verwalten Sie...' oder 'Machen Sie...'"
+"Vermeiden Sie ungenaue Formulierungen wie 'Bearbeiten Sie...' , 'Verwalten "
+"Sie...' oder 'Machen Sie...'"
 
-#: ../../process-builder/create.rst:23
+#: ../../process-builder/create.rst:23 ../../process-builder/create.rst:23
 #, fuzzy
 msgid ""
 "*Hire employee*, for example, summarises a process better than "
 "*Recruitment*."
 msgstr ""
-"Die Beschreibung 'Mitarbeiter Einstellen' fasst einen Prozess z.B. besser"
-" zusammen als 'Recruitment'."
+"Die Beschreibung 'Mitarbeiter Einstellen' fasst einen Prozess z.B. besser "
+"zusammen als 'Recruitment'."
 
-#: ../../process-builder/create.rst:27
+#: ../../process-builder/create.rst:27 ../../process-builder/create.rst:27
 msgid "Next steps for a new process"
 msgstr "Weitere Schritte bei der Erstellung eines Prozesses"
 
-#: ../../process-builder/create.rst:29
+#: ../../process-builder/create.rst:29 ../../process-builder/create.rst:29
 msgid ""
-"Once you have created a process, continue to build the process model "
-"using the following process builder sections."
+"Once you have created a process, continue to build the process model using "
+"the following process builder sections."
 msgstr ""
-"In den folgenden Sektionen des Prozesseditors können Sie den Prozess nach"
-" seiner Erstellung weiter konfigurieren. "
+"In den folgenden Sektionen des Prozesseditors können Sie den Prozess nach "
+"seiner Erstellung weiter konfigurieren. "
 
-#: ../../process-builder/create.rst:31
+#: ../../process-builder/create.rst:31 ../../process-builder/create.rst:31
 msgid ":ref:`triggers` determine how you start new cases for the process"
 msgstr ""
 "Im Tab :ref:`triggers` definieren Sie, wann neue Fälle für den Prozess "
 "gestartet werden."
 
-#: ../../process-builder/create.rst:32
-msgid ":ref:`actions` define the flow for tasks and other steps in the process"
+#: ../../process-builder/create.rst:32 ../../process-builder/create.rst:32
+msgid ""
+":ref:`actions` define the flow for tasks and other steps in the process"
 msgstr ""
 "Im Tab :ref:`actions`  definieren Sie den Sequenzfluss für Aufgaben und "
 "andere Prozessschritte."
 
-#: ../../process-builder/create.rst:33
+#: ../../process-builder/create.rst:33 ../../process-builder/create.rst:33
 msgid ":ref:`details` include process metadata and access control."
 msgstr ""
 "Der Tab :ref:`details` beinhaltet Prozess-Metadaten und die "
 "Zugangskontrolle."
 
-#: ../../process-builder/triggers.rst:4
+#: ../../process-builder/triggers.rst:4 ../../process-builder/triggers.rst:4
 msgid "Triggers"
 msgstr "Auslöser"
 
-#: ../../process-builder/triggers.rst:6
+#: ../../process-builder/triggers.rst:6 ../../process-builder/triggers.rst:6
 msgid ""
 "A trigger in a process specifies how the process starts. Triggers do not "
 "have any relation to :ref:`start events <start-event>`."
 msgstr ""
-"Auslöser definieren wie ein Prozess gestartet wird. Bei Signavio Workflow"
-" gibt es keinen Zusammenhang zwischen Auslösern und Start Events, wie Sie"
-" sie vielleicht aus BPMN kennen. Weitere Informationen hierzu finden Sie "
-"unter :ref:`Startereignisse <start-event>`."
+"Auslöser definieren wie ein Prozess gestartet wird. Bei Signavio Workflow "
+"gibt es keinen Zusammenhang zwischen Auslösern und Start Events, wie Sie sie"
+" vielleicht aus BPMN kennen. Weitere Informationen hierzu finden Sie unter "
+":ref:`Startereignisse <start-event>`."
 
-#: ../../process-builder/triggers.rst:11
+#: ../../process-builder/triggers.rst:11 ../../process-builder/triggers.rst:11
 msgid "Manual trigger"
 msgstr "Manuell"
 
-#: ../../process-builder/triggers.rst:13
+#: ../../process-builder/triggers.rst:13 ../../process-builder/triggers.rst:13
 msgid ""
 "A manual trigger gives you the simplest way to start a process. With a "
 "manual trigger, you start processes manually in Signavio Workflow, by "
 "selecting `Start new case` and then selecting the process to start."
 msgstr ""
-"Am einfachsten Starten Sie einen Prozess manuell. Klicken Sie hierfür auf"
-" `Neuen Fall starten` in der Prozessliste."
+"Am einfachsten Starten Sie einen Prozess manuell. Klicken Sie hierfür auf "
+"`Neuen Fall starten` in der Prozessliste."
 
-#: ../../process-builder/triggers.rst:21
+#: ../../process-builder/triggers.rst:21 ../../process-builder/triggers.rst:21
 msgid "Form trigger"
 msgstr "Formular"
 
-#: ../../process-builder/triggers.rst:23
+#: ../../process-builder/triggers.rst:23 ../../process-builder/triggers.rst:23
 msgid ""
-"With a form trigger, you use a form to start a process. After selecting "
-"the form trigger, you can use the form builder to specify form fields."
+"With a form trigger, you use a form to start a process. After selecting the "
+"form trigger, you can use the form builder to specify form fields."
 msgstr ""
-"Wenn Sie die Option `Formular` wählen, müssen Nutzer ein Formular "
-"ausfüllen um neue Prozesse zu starten. Das Formular selbst können Sie "
-"dann mit unserem Formulareditor erstellen."
+"Wenn Sie die Option `Formular` wählen, müssen Nutzer ein Formular ausfüllen "
+"um neue Prozesse zu starten. Das Formular selbst können Sie dann mit unserem"
+" Formulareditor erstellen."
 
-#: ../../process-builder/triggers.rst:28
+#: ../../process-builder/triggers.rst:28 ../../process-builder/triggers.rst:28
 msgid ""
-"Form trigger configuration - using the form builder to define a trigger "
-"form"
+"Form trigger configuration - using the form builder to define a trigger form"
 msgstr ""
 "Formular-Auslöser Konfiguration - Nutzen Sie den Formular-Editor um den "
 "Auslöser zu erstellen"
 
-#: ../../process-builder/triggers.rst:37
+#: ../../process-builder/triggers.rst:37 ../../process-builder/triggers.rst:37
 msgid "Email trigger"
 msgstr "E-Mail-Auslöser"
 
-#: ../../process-builder/triggers.rst:39
+#: ../../process-builder/triggers.rst:39 ../../process-builder/triggers.rst:39
 msgid ""
 "An email trigger starts a new case for each email that you send to the "
-"trigger’s Signavio Workflow email address. Note this differs from reading"
-" an existing email account, such as your own. After selecting the email "
+"trigger’s Signavio Workflow email address. Note this differs from reading an"
+" existing email account, such as your own. After selecting the email "
 "trigger, you can see its email address:"
 msgstr ""
-"Hierbei wird für jede E-Mail, die an die entsprechende E-Mail Adresse des"
-" Prozesses geschickt wird, ein neuer Fall erstellt. Die Adresse, die Sie "
+"Hierbei wird für jede E-Mail, die an die entsprechende E-Mail Adresse des "
+"Prozesses geschickt wird, ein neuer Fall erstellt. Die Adresse, die Sie "
 "hierfür nutzen müssen, wird in der Beschreibung des Auslösers angezeigt:"
 
-#: ../../process-builder/triggers.rst:45
+#: ../../process-builder/triggers.rst:45 ../../process-builder/triggers.rst:45
 msgid "Mail trigger configuration"
 msgstr "Konfiguration des E-Mailauslösers"
 
-#: ../../process-builder/triggers.rst:47
+#: ../../process-builder/triggers.rst:47 ../../process-builder/triggers.rst:47
 msgid "The email trigger creates a :ref:`trigger-email-variable`."
 msgstr "Der E-Mail-Auslöser erstellt eine :ref:`trigger-email-variable`."
 
-#: ../../process-builder/triggers.rst:49
+#: ../../process-builder/triggers.rst:49 ../../process-builder/triggers.rst:49
 msgid ""
 "You can use an email trigger by adding the trigger email address to a "
-"mailing list, such as `support@example.com `or `info@example.com`. You’ll"
-" have to ask the administrator of the mailing list to add the process "
-"trigger’s email address to the list. Once you have done this, the process"
-" trigger address will also receive any email sent to the mailing list, "
-"starting the process in Signavio Workflow. You will then see the email in"
-" the event stream:"
+"mailing list, such as `support@example.com `or `info@example.com`. You’ll "
+"have to ask the administrator of the mailing list to add the process "
+"trigger’s email address to the list. Once you have done this, the process "
+"trigger address will also receive any email sent to the mailing list, "
+"starting the process in Signavio Workflow. You will then see the email in "
+"the event stream:"
 msgstr ""
 "Sie können E-Mail-Auslöser mit Mailinglisten, wie zum Beispiel "
-"`support@example.com` oder `info@example.com`, verknüpfen. Bitten Sie "
-"hierzu den Administrator der Mailingliste, die E-Mail Adresse des "
-"Auslösers in die Mailingliste aufzunehmen. Anschließend wird mit jeder "
-"E-Mail an die Liste ein neuer Fall des Prozesses in Signavio Workflow "
-"ausgelöst. Die E-Mail taucht entsprechend im Ereignisstream auf:"
+"`support@example.com` oder `info@example.com`, verknüpfen. Bitten Sie hierzu"
+" den Administrator der Mailingliste, die E-Mail Adresse des Auslösers in die"
+" Mailingliste aufzunehmen. Anschließend wird mit jeder E-Mail an die Liste "
+"ein neuer Fall des Prozesses in Signavio Workflow ausgelöst. Die E-Mail "
+"taucht entsprechend im Ereignisstream auf:"
 
-#: ../../process-builder/triggers.rst:59
+#: ../../process-builder/triggers.rst:59 ../../process-builder/triggers.rst:59
 msgid "Trigger mail in stream"
 msgstr "Startemail im Stream"
 
-#: ../../process-builder/triggers.rst:65
+#: ../../process-builder/triggers.rst:65 ../../process-builder/triggers.rst:65
 msgid "Salesforce trigger"
 msgstr "Salesforce"
 
-#: ../../process-builder/triggers.rst:67
+#: ../../process-builder/triggers.rst:67 ../../process-builder/triggers.rst:67
 msgid ""
-"A Salesforce trigger starts a new case in response to Salesforce sending "
-"an outbound message as part of a Salesforce workflow. Before you can use "
-"a Salesforce trigger, configure :ref:`Salesforce Integration <salesforce-"
+"A Salesforce trigger starts a new case in response to Salesforce sending an "
+"outbound message as part of a Salesforce workflow. Before you can use a "
+"Salesforce trigger, configure :ref:`Salesforce Integration <salesforce-"
 "integration>`."
 msgstr ""
-"Prozesse können auch durch eine Nachricht von Salesforce gestartet werden"
-" nachdem dort eine bestimmte Aktion erfolgt ist. Bevor Sie den "
-"Salesforce-Auslöser nutzen können, müssen Sie ihn wie hier beschrieben "
-"konfigurieren: :ref:`Salesforce Integration <salesforce-integration>`."
+"Prozesse können auch durch eine Nachricht von Salesforce gestartet werden "
+"nachdem dort eine bestimmte Aktion erfolgt ist. Bevor Sie den Salesforce-"
+"Auslöser nutzen können, müssen Sie ihn wie hier beschrieben konfigurieren: "
+":ref:`Salesforce Integration <salesforce-integration>`."
 
-#: ../../process-builder/triggers.rst:71
+#: ../../process-builder/triggers.rst:71 ../../process-builder/triggers.rst:71
 msgid ""
 "When you have configured a Salesforce service, you can select it as a "
 "process trigger, so that messages from Salesforce will now trigger new "
 "cases."
 msgstr ""
-"Nachdem Sie einen Salesforce Service konfiguriert haben, können Sie ihn "
-"als Auslöser nutzen. "
+"Nachdem Sie einen Salesforce Service konfiguriert haben, können Sie ihn als "
+"Auslöser nutzen. "
 
-#: ../../process-builder/triggers.rst:77
+#: ../../process-builder/triggers.rst:77 ../../process-builder/triggers.rst:77
 msgid "Example of a Salesforce trigger"
 msgstr "Beispiel eines Salesforce-Auslösers"
 
-#: ../../process-builder/triggers.rst:79
+#: ../../process-builder/triggers.rst:79 ../../process-builder/triggers.rst:79
 msgid ""
-"In the process definition, you can use the Salesforce object fields from "
-"the Salesforce message just like normal :ref:`variables <variables>`."
+"In the process definition, you can use the Salesforce object fields from the"
+" Salesforce message just like normal :ref:`variables <variables>`."
 msgstr ""
-"In der Prozessdefinition können Sie nun auch Felder, die in der Nachricht"
-" von Salesforce enthalten sind, wie normale :ref:`Variablen <variables>` "
+"In der Prozessdefinition können Sie nun auch Felder, die in der Nachricht "
+"von Salesforce enthalten sind, wie normale :ref:`Variablen <variables>` "
 "nutzen. "
 
-#: ../../process-builder/actions.rst:4
+#: ../../process-builder/actions.rst:4 ../../process-builder/actions.rst:4
 msgid "Actions"
 msgstr "Aktionen"
 
-#: ../../process-builder/actions.rst:6
+#: ../../process-builder/actions.rst:6 ../../process-builder/actions.rst:6
 msgid ""
 "Actions represent the steps in a process - things to do. Action include "
 "things like user tasks in Signavio Workflow, operations on a file in a "
 "document management system or any other actions that represent work that "
-"someone will perform as part of a process. When starting a process, "
-"Signavio Workflow will ‘execute’ the actions in a process in the proper "
-"order. The process :ref:`control flow <control-flow>` determines this "
-"ordering, using transitions, gateways and events."
+"someone will perform as part of a process. When starting a process, Signavio"
+" Workflow will ‘execute’ the actions in a process in the proper order. The "
+"process :ref:`control flow <control-flow>` determines this ordering, using "
+"transitions, gateways and events."
 msgstr ""
-"Aktionen repräsentieren die einzelnen Schritte eines Prozesses - was zu "
-"tun ist. Aktionen beinhalten Dinge wie Aufgaben in Signavio Workflow, "
+"Aktionen repräsentieren die einzelnen Schritte eines Prozesses - was zu tun "
+"ist. Aktionen beinhalten Dinge wie Aufgaben in Signavio Workflow, "
 "Datenoperationen in einem Datenmanagementsystem oder beliebige andere "
 "Aktionen die Arbeitsschritte repräsentieren, die jemand als Teil eines "
 "Prozesses ausführen muss. Wenn ein Prozess gestartet wird, wird Signavio "
 "Workflow die Aktionen des Prozesses in der geplanten Reihenfolge "
-"'ausführen'. Der :ref:`Kontrollfluss <control-flow>` des Prozesses "
-"bestimmt diese Ordnung unter der Verwendung von Transitionen, Gateways "
-"und Ereignisse."
+"'ausführen'. Der :ref:`Kontrollfluss <control-flow>` des Prozesses bestimmt "
+"diese Ordnung unter der Verwendung von Transitionen, Gateways und "
+"Ereignisse."
 
-#: ../../process-builder/actions.rst:11
+#: ../../process-builder/actions.rst:11 ../../process-builder/actions.rst:11
 msgid ""
-"A process can include different :ref:`action-types`. A user task will "
-"create a task in a case. A ‘Send Email’ action will send an email. A "
-"‘Google file upload’ action will upload a file to a Google Drive folder."
+"A process can include different :ref:`action-types`. A user task will create"
+" a task in a case. A ‘Send Email’ action will send an email. A ‘Google file "
+"upload’ action will upload a file to a Google Drive folder."
 msgstr ""
-"Ein Prozess kann verschiedene Arten von :ref:`action-types` beinhalten: "
-"Eine Aufgabe erstellt eine Aufgabe in einem Fall, eine `E-Mail Senden` "
-"Aktivität verschickt eine E-Mail und eine `Google Dateiupload` Aktion "
-"lädt eine Datei in einen Google Drive Ordner hoch. "
+"Ein Prozess kann verschiedene Arten von :ref:`action-types` beinhalten: Eine"
+" Aufgabe erstellt eine Aufgabe in einem Fall, eine `E-Mail Senden` Aktivität"
+" verschickt eine E-Mail und eine `Google Dateiupload` Aktion lädt eine Datei"
+" in einen Google Drive Ordner hoch. "
 
-#: ../../process-builder/actions.rst:18
+#: ../../process-builder/actions.rst:18 ../../process-builder/actions.rst:18
 msgid "The *Process builder*’s actions palette"
 msgstr "Die Palette an Aktionen im *Prozess-Editor*"
 
-#: ../../process-builder/actions.rst:20
+#: ../../process-builder/actions.rst:20 ../../process-builder/actions.rst:20
 msgid ""
 "The `BPMN "
-"<http://en.wikipedia.org/wiki/Business_Process_Model_and_Notation>`_ "
-"diagram editor shows actions and control flow elements, such as events "
-"and gateways. Use the diagram editor to add sequential flows between "
-"actions, decisions and other control flow behaviour."
+"<http://en.wikipedia.org/wiki/Business_Process_Model_and_Notation>`_ diagram"
+" editor shows actions and control flow elements, such as events and "
+"gateways. Use the diagram editor to add sequential flows between actions, "
+"decisions and other control flow behaviour."
 msgstr ""
 "Der `BPMN "
 "<http://en.wikipedia.org/wiki/Business_Process_Model_and_Notation>`_ "
 "Diagrammeditor zeigt Ihnen die einzelnen Aktionen, sowie "
-"Kontrollflusselemente wie Events und Gateways an. Sie können mit dem "
-"Editor Sequenzflüsse zwischen den Aktivitäten erstellen, Entscheidungen "
-"hinzufügen oder auf andere Weise den Kontrollfluss beeinflussen."
+"Kontrollflusselemente wie Events und Gateways an. Sie können mit dem Editor "
+"Sequenzflüsse zwischen den Aktivitäten erstellen, Entscheidungen hinzufügen "
+"oder auf andere Weise den Kontrollfluss beeinflussen."
 
-#: ../../process-builder/actions.rst:27
+#: ../../process-builder/actions.rst:27 ../../process-builder/actions.rst:27
 msgid "Adding a transition"
 msgstr "Transitionen hinzufügen"
 
-#: ../../process-builder/actions.rst:29
+#: ../../process-builder/actions.rst:29 ../../process-builder/actions.rst:29
 msgid ""
 "You can create a transition in the `Advanced flows` view. A transition "
 "specifies sequential flow, which means the next action only starts when "
 "someone has completed the previous one."
 msgstr ""
-"Transitionen können im `Prozessfluss-Editor` erzeugt werden. Sie "
-"beschreiben einen sequenziellen Fluss durch den Prozess. Dies bedeutet, "
-"dass Aktionen nur dann ausgeführt werden, wenn die vorangehenden Aktionen"
-" bearbeitet wurden."
+"Transitionen können im `Prozessfluss-Editor` erzeugt werden. Sie beschreiben"
+" einen sequenziellen Fluss durch den Prozess. Dies bedeutet, dass Aktionen "
+"nur dann ausgeführt werden, wenn die vorangehenden Aktionen bearbeitet "
+"wurden."
 
-#: ../../process-builder/actions.rst:33
+#: ../../process-builder/actions.rst:33 ../../process-builder/actions.rst:33
 msgid ""
 "To add a transition, click to select the first action. Several symbols "
 "appear to the right of the selected element:"
@@ -354,53 +353,54 @@ msgstr ""
 "Um eine Transition hinzuzufügen klicken Sie auf eine Aktion im Prozess. "
 "Darauf erscheinen neben der Aktion einige Symbole. "
 
-#: ../../process-builder/actions.rst:38
+#: ../../process-builder/actions.rst:38 ../../process-builder/actions.rst:38
 msgid ""
 "Start creating a transition by dragging the transition symbol to the "
 "destination"
 msgstr ""
-"Um eine Transition zu erzeugen, ziehen Sie das Transitions-Symbol auf die"
-" Zielaktion"
+"Um eine Transition zu erzeugen, ziehen Sie das Transitions-Symbol auf die "
+"Zielaktion"
 
-#: ../../process-builder/actions.rst:40
+#: ../../process-builder/actions.rst:40 ../../process-builder/actions.rst:40
 msgid ""
 "Click the transition symbol |transition-symbol| and drag it to the "
-"destination element. When you drag the symbol over the destination "
-"element, it indicates that you can drop to create the transition:"
+"destination element. When you drag the symbol over the destination element, "
+"it indicates that you can drop to create the transition:"
 msgstr ""
-"Klicken Sie das Transitions-Symbol |transition-symbol| und ziehen Sie es "
-"auf das Zielelement. Wenn Sie sich mit dem Mauszeiger über dem "
-"Zielelement befinden und es mit der aktuellen Aktivität verbunden werden "
-"kann, leuchten die Ecken grün auf und ein grüner Haken erscheint neben "
-"dem Transitions-Symbol."
+"Klicken Sie das Transitions-Symbol |transition-symbol| und ziehen Sie es auf"
+" das Zielelement. Wenn Sie sich mit dem Mauszeiger über dem Zielelement "
+"befinden und es mit der aktuellen Aktivität verbunden werden kann, leuchten "
+"die Ecken grün auf und ein grüner Haken erscheint neben dem Transitions-"
+"Symbol."
 
-#: ../../process-builder/actions.rst:47
+#: ../../process-builder/actions.rst:47 ../../process-builder/actions.rst:47
 msgid "Creating a transition hovering over destination"
 msgstr "Ziehen Sie die Transition auf das Zielelement."
 
-#: ../../process-builder/actions.rst:49
-msgid "Release the mouse button over the destination to create the transition."
+#: ../../process-builder/actions.rst:49 ../../process-builder/actions.rst:49
+msgid ""
+"Release the mouse button over the destination to create the transition."
 msgstr "Um die Transition endgültig zu erzeugen lassen Sie die Maus los. "
 
-#: ../../process-builder/actions.rst:53
+#: ../../process-builder/actions.rst:53 ../../process-builder/actions.rst:53
 msgid "Creating the next user task"
 msgstr "Folgeaufgaben erstellen"
 
-#: ../../process-builder/actions.rst:55
+#: ../../process-builder/actions.rst:55 ../../process-builder/actions.rst:55
 msgid ""
-"You can easily create the next User Task in a process in the same way you"
-" created transitions, above. Start by selecting the previous action:"
+"You can easily create the next User Task in a process in the same way you "
+"created transitions, above. Start by selecting the previous action:"
 msgstr ""
-"Die nächste Aufgabe nach einer bereits bestehenden Aufgabe zu erstellen "
-"ist ganz einfach: Gehen Sie auf ähnliche Weise vor, wie schon bei den "
+"Die nächste Aufgabe nach einer bereits bestehenden Aufgabe zu erstellen ist "
+"ganz einfach: Gehen Sie auf ähnliche Weise vor, wie schon bei den "
 "Transitionen. Zunächst markieren Sie die Aktion auf die die neue folgen "
 "soll."
 
-#: ../../process-builder/actions.rst:60
+#: ../../process-builder/actions.rst:60 ../../process-builder/actions.rst:60
 msgid "Start creating the next user task by dragging the action symbol"
 msgstr "Erstellen Sie Folgeaufgaben in dem Sie das Aktions-Symbol ziehen."
 
-#: ../../process-builder/actions.rst:62
+#: ../../process-builder/actions.rst:62 ../../process-builder/actions.rst:62
 msgid ""
 "Click the rounded rectangle symbol |task-symbol| and drag it to an empty "
 "place on the canvas."
@@ -408,82 +408,83 @@ msgstr ""
 "Klicken Sie das Aufgaben-Symbol |task-symbol| und ziehen Sie es an die "
 "Stelle, wo die neue Aufgabe erstellt werden soll."
 
-#: ../../process-builder/actions.rst:68
+#: ../../process-builder/actions.rst:68 ../../process-builder/actions.rst:68
 msgid "Drag the rounded rectangle symbol to an empty place"
 msgstr "Ziehen Sie das Aufgaben-Symbol an die gewünschte Stelle"
 
-#: ../../process-builder/actions.rst:70
+#: ../../process-builder/actions.rst:70 ../../process-builder/actions.rst:70
 msgid ""
 "Drop the symbol where you want to create the next user task. Release the "
-"mouse button to create new user task where you dropped it, with a "
-"transition from the previous action."
+"mouse button to create new user task where you dropped it, with a transition"
+" from the previous action."
 msgstr ""
-"Lassen Sie das Symbol an der Stelle los, wo die neue Aufgabe erstellt "
-"werden soll. Zwischen der neuen Aufgabe und der bereits bestehenden wird "
+"Lassen Sie das Symbol an der Stelle los, wo die neue Aufgabe erstellt werden"
+" soll. Zwischen der neuen Aufgabe und der bereits bestehenden wird "
 "automatisch eine Transition erstellt. "
 
-#: ../../process-builder/actions.rst:76
+#: ../../process-builder/actions.rst:76 ../../process-builder/actions.rst:76
 msgid "Adding the next user task and its transition at the same time"
 msgstr "Fügen Sie Folgeaufgaben inklusive der Transition hinzu"
 
-#: ../../process-builder/actions.rst:78
+#: ../../process-builder/actions.rst:78 ../../process-builder/actions.rst:78
 msgid ""
-"Alternatively, just click the user task icon |task-symbol| to create a "
-"new user task in the default location, with a transition."
+"Alternatively, just click the user task icon |task-symbol| to create a new "
+"user task in the default location, with a transition."
 msgstr ""
 "Alternativ können Sie einfach auf das Aufgaben-Symbol klicken um eine "
 "Folgeaufgabe an der Standardposition etwas weiter rechts neben der "
 "bestehenden Aktion zu erstellen."
 
-#: ../../process-builder/actions.rst:83
+#: ../../process-builder/actions.rst:83 ../../process-builder/actions.rst:83
 msgid "Control flow elements"
 msgstr "Kontrollfluss-Elemente"
 
-#: ../../process-builder/actions.rst:85
+#: ../../process-builder/actions.rst:85 ../../process-builder/actions.rst:85
 #, fuzzy
 msgid ""
 "The diagram also includes control flow elements, such as events and "
-"gateways. Unlike actions, control flow elements don’t represent something"
-" that should happen. Instead, you use events and gateways to specify the "
-"flow between the actions."
+"gateways. Unlike actions, control flow elements don’t represent something "
+"that should happen. Instead, you use events and gateways to specify the flow"
+" between the actions."
 msgstr ""
-"Des Weiteren enthält ein Diagramm Kontrollflusselemente, wie zum Beispiel"
-" Ereignisse und Gateways. Im Gegensatz zu Aktionen (Tasks) stehen "
-"Kontrollflusselemente nicht für Aufgaben, die von Personen oder Computern"
-" bearbeitet werden müssen, sondern für die Auslöser und Bedingungen "
-"dieser Aktionen."
+"Des Weiteren enthält ein Diagramm Kontrollflusselemente, wie zum Beispiel "
+"Ereignisse und Gateways. Im Gegensatz zu Aktionen (Tasks) stehen "
+"Kontrollflusselemente nicht für Aufgaben, die von Personen oder Computern "
+"bearbeitet werden müssen, sondern für die Auslöser und Bedingungen dieser "
+"Aktionen."
 
-#: ../../process-builder/details.rst:4
+#: ../../process-builder/details.rst:4 ../../process-builder/details.rst:4
 msgid "Details"
 msgstr "Details"
 
-#: ../../process-builder/details.rst:6
+#: ../../process-builder/details.rst:6 ../../process-builder/details.rst:6
 msgid ""
-"In the process builder, select the *Details* tab to further configure the"
-" process."
+"In the process builder, select the *Details* tab to further configure the "
+"process."
 msgstr ""
 "Wählen Sie den *Details*-Tab im Prozesseditor, um den Prozess weiter zu "
 "konfigurieren."
 
-#: ../../process-builder/details.rst:10
+#: ../../process-builder/details.rst:10 ../../process-builder/details.rst:10
 msgid "Configuring process details"
 msgstr "Konfiguration von Prozessdetails"
 
-#: ../../process-builder/details.rst:12
+#: ../../process-builder/details.rst:12 ../../process-builder/details.rst:12
 msgid "On the *General* tab, configure the following process properties."
-msgstr "Im *Allgemein*-Tab konfigurieren Sie die folgenden Prozesseigenschaften"
+msgstr ""
+"Im *Allgemein*-Tab konfigurieren Sie die folgenden Prozesseigenschaften"
 
-#: ../../process-builder/details.rst:14
+#: ../../process-builder/details.rst:14 ../../process-builder/details.rst:14
 msgid ""
 "*Process owner* - shown on the *Processes* page to indicate who has "
 "responsibility for a process model, and used as the default recipient of "
 "some :ref:`notifications <notifications>`."
 msgstr ""
-"*Eigentümer* - ist sichtbar auf der *Prozess* Seite und zeigt an, wer für"
-" den Prozess verantwortlich ist und als Standardempfänger für einige "
+"*Eigentümer* - ist sichtbar auf der *Prozess* Seite und zeigt an, wer für "
+"den Prozess verantwortlich ist und als Standardempfänger für einige "
 ":ref:`Benachrichtigungen <notifications>` dient."
 
-#: ../../process-builder/details.rst:15
+#: ../../process-builder/details.rst:15 ../../process-builder/details.rst:15
 msgid ""
 "*Process description* - documents a process, usually by describing the "
 "process goal."
@@ -491,127 +492,125 @@ msgstr ""
 "*Prozessbeschreibung* - dokumentiert einen Prozess, normalerweise durch "
 "Beschreibung des Prozessziels."
 
-#: ../../process-builder/details.rst:16
+#: ../../process-builder/details.rst:16 ../../process-builder/details.rst:16
 msgid ""
 "*Case name template* - the name for new cases of this process, usually "
 "containing trigger :ref:`variables <variables>` so that each case has a "
 "different name."
 msgstr ""
 "*Vorlage für Fallnamen* - der Name für neue Fälle dieses Prozesses, "
-"normalerweise enthält dieser Prozess-Auslöser  :ref:`Variablen "
-"<variables>`, damit jeder Fall einen anderen Namen bekommt."
+"normalerweise enthält dieser Prozess-Auslöser  :ref:`Variablen <variables>`,"
+" damit jeder Fall einen anderen Namen bekommt."
 
-#: ../../process-builder/details.rst:18
+#: ../../process-builder/details.rst:18 ../../process-builder/details.rst:18
 msgid ""
 "Use the *Access control* tab to restrict access to this process and its "
 "cases."
 msgstr ""
-"Verwenden Sie den Tab *Zugriffsrechte*, um Zugang zu diesem Prozess und "
-"zu seinen Fällen einzuschränken."
+"Verwenden Sie den Tab *Zugriffsrechte*, um Zugang zu diesem Prozess und zu "
+"seinen Fällen einzuschränken."
 
-#: ../../process-builder/details.rst:20
+#: ../../process-builder/details.rst:20 ../../process-builder/details.rst:20
 msgid ""
 "Use the *Field overview* tab to view and rename this process’ "
 ":ref:`variables <variables>`."
 msgstr ""
-"Verwenden Sie den Tab *Feldübersicht*, um den Prozess anzuschauen und "
-"seinen Namen zu verändern."
+"Verwenden Sie den Tab *Feldübersicht*, um den Prozess anzuschauen und seinen"
+" Namen zu verändern."
 
-#: ../../process-builder/versions.rst:4
+#: ../../process-builder/versions.rst:4 ../../process-builder/versions.rst:4
 msgid "Versions"
 msgstr "Versionen"
 
-#: ../../process-builder/versions.rst:6
+#: ../../process-builder/versions.rst:6 ../../process-builder/versions.rst:6
 msgid ""
 "When you use the process editor to edit your process model, Signavio "
-"Workflow saves all of your changes immediately. You can go back and edit "
-"the process again later, and it will not have changed. However, to "
-"execute a process by starting a new case you need a published version."
+"Workflow saves all of your changes immediately. You can go back and edit the"
+" process again later, and it will not have changed. However, to execute a "
+"process by starting a new case you need a published version."
 msgstr ""
 "Wenn Sie den Signavio Workflow Prozesseditor verwenden, werden alle Ihre "
-"Änderungen automatisch gespeichert. Sie können also einen Prozess "
-"verlassen, ohne explizit zu speichern. Um einen Prozess auszuführen, "
-"müssen Sie allerdings zunächst eine Version veröffentlichen."
+"Änderungen automatisch gespeichert. Sie können also einen Prozess verlassen,"
+" ohne explizit zu speichern. Um einen Prozess auszuführen, müssen Sie "
+"allerdings zunächst eine Version veröffentlichen."
 
-#: ../../process-builder/versions.rst:12
+#: ../../process-builder/versions.rst:12 ../../process-builder/versions.rst:12
 msgid "Publishing a process version"
 msgstr "Eine Version veröffentlichen"
 
-#: ../../process-builder/versions.rst:14
+#: ../../process-builder/versions.rst:14 ../../process-builder/versions.rst:14
 msgid ""
 "The process editor’s `Versions` tab shows a list of published versions. "
-"Until you publish the first version, this page shows a message that there"
-" the process has ‘no published versions’."
+"Until you publish the first version, this page shows a message that there "
+"the process has ‘no published versions’."
 msgstr ""
 "Im Reiter `Versionen` des Prozesseditors finden Sie eine Liste von "
 "veröffentlichten Versionen. Bevor Sie die erste Version Ihres Prozesses "
 "veröffentlicht haben, zeigt diese Seite nur einen Hinweis an, dass noch "
 "keine Versionen veröffentlicht wurden."
 
-#: ../../process-builder/versions.rst:20
+#: ../../process-builder/versions.rst:20 ../../process-builder/versions.rst:20
 msgid "The process editor’s `Versions` tab with no published versions"
 msgstr "Der Reiter `Versionen` ohne eine veröffentlichte Version."
 
-#: ../../process-builder/versions.rst:22
+#: ../../process-builder/versions.rst:22 ../../process-builder/versions.rst:22
 msgid ""
-"You can only start a new case for a process that has a published version,"
-" hence the light green button displays ‘Publish to run this process’. "
-"After you publish the first version, the list shows version #1 and you "
-"can start a new case using that version."
+"You can only start a new case for a process that has a published version, "
+"hence the light green button displays ‘Publish to run this process’. After "
+"you publish the first version, the list shows version #1 and you can start a"
+" new case using that version."
 msgstr ""
-"Um einen Fall anzulegen, muss der entsprechende Prozess veröffentlicht "
-"sein - dafür gibt es den Button `Zum Ausführen veröffentlichen`. Nachdem "
-"Sie die erste Version veröffentlicht haben, zeigt die Liste einen Eintrag"
-" mit der Version #1 und Sie können nun Fälle dieses Prozesses starten. "
+"Um einen Fall anzulegen, muss der entsprechende Prozess veröffentlicht sein "
+"- dafür gibt es den Button `Zum Ausführen veröffentlichen`. Nachdem Sie die "
+"erste Version veröffentlicht haben, zeigt die Liste einen Eintrag mit der "
+"Version #1 und Sie können nun Fälle dieses Prozesses starten. "
 
-#: ../../process-builder/versions.rst:29
+#: ../../process-builder/versions.rst:29 ../../process-builder/versions.rst:29
 msgid "The `Versions` list after publishing the first version"
 msgstr "Die `Versions`-Liste mit dem ersten Eintrag"
 
-#: ../../process-builder/versions.rst:31
+#: ../../process-builder/versions.rst:31 ../../process-builder/versions.rst:31
 msgid ""
-"Version #1 always has the description `Initial version`. For later "
-"versions, you can add your own description."
+"Version #1 always has the description `Initial version`. For later versions,"
+" you can add your own description."
 msgstr ""
-"Die Version mit der Nummer #1 hat immer die Beschriftung `Initiale "
-"Version`. Bei späteren Versionen können Sie selbst eine Beschreibung "
-"hinzufügen. "
+"Die Version mit der Nummer #1 hat immer die Beschriftung `Initiale Version`."
+" Bei späteren Versionen können Sie selbst eine Beschreibung hinzufügen. "
 
-#: ../../process-builder/versions.rst:35
+#: ../../process-builder/versions.rst:35 ../../process-builder/versions.rst:35
 msgid "Adding version comments"
 msgstr "Versionskommentare hinzufügen"
 
-#: ../../process-builder/versions.rst:37
+#: ../../process-builder/versions.rst:37 ../../process-builder/versions.rst:37
 msgid ""
 "After the first published version, you can add a comment to describe the "
 "changes when you publish a new version of a process."
 msgstr ""
 "Nach der ersten veröffentlichten Version können Sie zu jeder weiteren "
-"Version eine Beschreibung hinzufügen, die die Änderungen beschreibt, die "
-"Sie vorgenommen haben. "
+"Version eine Beschreibung hinzufügen, die die Änderungen beschreibt, die Sie"
+" vorgenommen haben. "
 
-#: ../../process-builder/versions.rst:42
+#: ../../process-builder/versions.rst:42 ../../process-builder/versions.rst:42
 msgid ""
-"The `Publish changes` prompt, where you can add an optional version "
-"comment"
+"The `Publish changes` prompt, where you can add an optional version comment"
 msgstr ""
 "Der `Änderungen veröffentlichen` Dialog, indem Sie eine optionale "
 "Beschreibung hinzufügen können"
 
-#: ../../process-builder/versions.rst:44
+#: ../../process-builder/versions.rst:44 ../../process-builder/versions.rst:44
 msgid ""
-"You can omit the version comment, but it helps collaboration between team"
-" members by making process modelling more transparent."
+"You can omit the version comment, but it helps collaboration between team "
+"members by making process modelling more transparent."
 msgstr ""
-"Das hinterlegen eines Versionskommentars ist keine Pflicht, er hilft "
-"jedoch bei der Kollaboration von mehreren Team-Mitgliedern, da er die "
+"Das hinterlegen eines Versionskommentars ist keine Pflicht, er hilft jedoch "
+"bei der Kollaboration von mehreren Team-Mitgliedern, da er die "
 "Prozessgestaltung transparenter macht. "
 
-#: ../../process-builder/versions.rst:50
+#: ../../process-builder/versions.rst:50 ../../process-builder/versions.rst:50
 msgid "Published versions with descriptive version comments"
 msgstr "Veröffentlichte Versionen mit beschreibenden Versionskommentaren"
 
-#: ../../process-builder/versions.rst:52
+#: ../../process-builder/versions.rst:52 ../../process-builder/versions.rst:52
 msgid ""
 "In this example, each version has a short comment that describes the "
 "changes."
@@ -619,49 +618,50 @@ msgstr ""
 "In diesem Beispiel hat jede Version einen kurzen Kommentar, der die "
 "Änderungen beschreibt."
 
-#: ../../process-builder/versions.rst:55
+#: ../../process-builder/versions.rst:55 ../../process-builder/versions.rst:55
 msgid "Writing good version comments"
 msgstr "Gute Versionskommentare schreiben"
 
-#: ../../process-builder/versions.rst:57
+#: ../../process-builder/versions.rst:57 ../../process-builder/versions.rst:57
 msgid ""
-"When you write version comments, use the following tips to make them more"
-" consistent and useful."
+"When you write version comments, use the following tips to make them more "
+"consistent and useful."
 msgstr ""
-"Befolgen Sie den diese Richtlinien, um Ihre Versionskommentare konsistent"
-" und nützlich zu gestalten. "
+"Befolgen Sie den diese Richtlinien, um Ihre Versionskommentare konsistent "
+"und nützlich zu gestalten. "
 
-#: ../../process-builder/versions.rst:60
+#: ../../process-builder/versions.rst:60 ../../process-builder/versions.rst:60
 msgid ""
-"Make the comment an imperative phrase that starts with a word like ‘Add’ "
-"or ‘Fix’."
+"Make the comment an imperative phrase that starts with a word like ‘Add’ or "
+"‘Fix’."
 msgstr ""
 "Verwenden Sie  einen kurzen und sachlichen Stil, wie z.B. `Aktivität "
 "hinzugefügt` oder `Fehler behoben`."
 
-#: ../../process-builder/versions.rst:61
+#: ../../process-builder/versions.rst:61 ../../process-builder/versions.rst:61
 msgid ""
 "Capitalise the first word and don’t include a full-stop at the end, for "
 "consistency."
 msgstr ""
-"Schreiben Sie das erste Wort groß und beenden Sie den Kommentar nicht mit"
-" einem Punkt (der Konsistenz halber)"
+"Schreiben Sie das erste Wort groß und beenden Sie den Kommentar nicht mit "
+"einem Punkt (der Konsistenz halber)"
 
-#: ../../process-builder/versions.rst:63
+#: ../../process-builder/versions.rst:63 ../../process-builder/versions.rst:63
 msgid "Describe specifics, instead of vaguely referring to ‘changes’."
 msgstr "Schreiben Sie klar und sprechen Sie nicht nur vage über `Änderungen`."
 
-#: ../../process-builder/versions.rst:64
+#: ../../process-builder/versions.rst:64 ../../process-builder/versions.rst:64
 msgid "Keep it short; 3-10 words usually suffice."
 msgstr "Fassen Sie sich kurz; 5-12 Worte sind normalerweise genug."
 
-#: ../../process-builder/versions.rst:65
-msgid "Consider making the comment longer to explain why you made this change."
+#: ../../process-builder/versions.rst:65 ../../process-builder/versions.rst:65
+msgid ""
+"Consider making the comment longer to explain why you made this change."
 msgstr ""
-"Falls zum Verständnis notwendig, schreiben Sie in einem längeren "
-"Kommentar, um zu erklären, weshalb eine Änderung vorgenommen wurde."
+"Falls zum Verständnis notwendig, schreiben Sie in einem längeren Kommentar, "
+"um zu erklären, weshalb eine Änderung vorgenommen wurde."
 
-#: ../../process-builder/versions.rst:67
+#: ../../process-builder/versions.rst:67 ../../process-builder/versions.rst:67
 msgid ""
 "You may find it easier to publish a series of small changes, creating a "
 "number of intermediate versions instead of one big change. Fine-grained "
@@ -672,442 +672,453 @@ msgstr ""
 "Änderungen pro Version machen es einfacher, diese in der Historie "
 "nachzuverfolgen. "
 
-#: ../../process-builder/variables.rst:2
+#: ../../process-builder/variables.rst:2 ../../process-builder/variables.rst:2
 msgid "Variables"
 msgstr "Variablen"
 
-#: ../../process-builder/variables.rst:4
+#: ../../process-builder/variables.rst:4 ../../process-builder/variables.rst:4
 msgid ":ref:`variables` store workflow data when the process runs."
-msgstr ":ref:`variables` enthalten die Workflowdaten eines laufenden Prozesses."
+msgstr ""
+":ref:`variables` enthalten die Workflowdaten eines laufenden Prozesses."
 
-#: ../../process-builder/roles.rst:4
+#: ../../process-builder/roles.rst:4 ../../process-builder/roles.rst:4
 msgid "Roles"
 msgstr "Rollen"
 
-#: ../../process-builder/roles.rst:6
+#: ../../process-builder/roles.rst:6 ../../process-builder/roles.rst:6
 msgid ""
 "Creating a role gives a process-specific name to whoever performs one or "
 "more process tasks. You can optionally configure a role with a list of "
 "candidates. Roles have the same function as swimlanes in BPMN."
 msgstr ""
-"Die Erstellung einer Rolle gibt den Personen, die bestimmte "
-"Prozessaufgaben ausführen, eine prozessspezifische Bezeichnung. Sie haben"
-" in Signavio Workflow die Möglichkeit, eine Liste von Kandidaten für "
-"Rollen zu definieren. Rollen haben hier die gleiche Bedeutung, wie "
-"Swimlanes in BPMN."
+"Die Erstellung einer Rolle gibt den Personen, die bestimmte Prozessaufgaben "
+"ausführen, eine prozessspezifische Bezeichnung. Sie haben in Signavio "
+"Workflow die Möglichkeit, eine Liste von Kandidaten für Rollen zu "
+"definieren. Rollen haben hier die gleiche Bedeutung, wie Swimlanes in BPMN."
 
-#: ../../process-builder/roles.rst:10
+#: ../../process-builder/roles.rst:10 ../../process-builder/roles.rst:10
 msgid ""
-"Process roles differ from organizational roles. A process role only lasts"
-" for the duration of a case, while organizational roles last longer and "
+"Process roles differ from organizational roles. A process role only lasts "
+"for the duration of a case, while organizational roles last longer and "
 "relate to the job you perform at the organization. For example, when you "
 "have a meeting, one person sometimes takes the role of chairperson. That "
 "person doesn’t have the job title *Meeting chair* - they’ve just adopted "
 "that role for the duration of the meeting."
 msgstr ""
-"Prozessrollen unterscheiden sich von Organisationsrollen. Eine "
-"Prozessrolle existiert nur so lange, wie der Prozess läuft, während "
-"Organisationsrollen dauerhaft existieren und mit einer Position verbunden"
-" sind. Zum Beispiel können  bestimmte Personen in einem Meeting reihum "
-"die Rolle des Leiters einnehmen. Die jeweilige Person besitzt nicht die "
-"Jobbeschreibung *Meetingsleitung,* sondern hat diese Rolle nur in dieser "
-"bestimmten Situation inne."
+"Prozessrollen unterscheiden sich von Organisationsrollen. Eine Prozessrolle "
+"existiert nur so lange, wie der Prozess läuft, während Organisationsrollen "
+"dauerhaft existieren und mit einer Position verbunden sind. Zum Beispiel "
+"können  bestimmte Personen in einem Meeting reihum die Rolle des Leiters "
+"einnehmen. Die jeweilige Person besitzt nicht die Jobbeschreibung "
+"*Meetingsleitung,* sondern hat diese Rolle nur in dieser bestimmten "
+"Situation inne."
 
-#: ../../process-builder/roles.rst:15
+#: ../../process-builder/roles.rst:15 ../../process-builder/roles.rst:15
 msgid ""
 "A process in Signavio Workflow can define roles, in the same way that a "
 "business meeting ‘process’ has roles for whoever chairs the meeting (the "
-"‘Chair’) and whoever takes minutes (the ‘Secretary’). The following "
-"meeting process model assigns the tasks on the top row to the *Chair* and"
-" the tasks on the bottom row to the *Secretary*."
+"‘Chair’) and whoever takes minutes (the ‘Secretary’). The following meeting "
+"process model assigns the tasks on the top row to the *Chair* and the tasks "
+"on the bottom row to the *Secretary*."
 msgstr ""
-"Dementsprechend werden Rollen in Signavio Workflow-Prozessen verwendet. "
-"Das folgende Meeting-Prozessmodell ordnet die Aufgaben in der oberen "
-"Reihe der **Meetingsleitung** zu und die Aufgaben in der unteren Reihe "
-"der **Meetingsassistenz**."
+"Dementsprechend werden Rollen in Signavio Workflow-Prozessen verwendet. Das "
+"folgende Meeting-Prozessmodell ordnet die Aufgaben in der oberen Reihe der "
+"**Meetingsleitung** zu und die Aufgaben in der unteren Reihe der "
+"**Meetingsassistenz**."
 
-#: ../../process-builder/roles.rst:20
+#: ../../process-builder/roles.rst:20 ../../process-builder/roles.rst:20
 msgid ""
 "A *Meeting* process, with tasks for *Chair* (top row) and *Secretary* "
 "(bottom row) roles"
 msgstr ""
-"Ein *Meeting*-Prozess mit Aufgaben für die Rollen *Meetingsleitung* "
-"(obere Reihe) und *Meetingsassistenz* (untere Reihe)"
+"Ein *Meeting*-Prozess mit Aufgaben für die Rollen *Meetingsleitung* (obere "
+"Reihe) und *Meetingsassistenz* (untere Reihe)"
 
-#: ../../process-builder/roles.rst:22
+#: ../../process-builder/roles.rst:22 ../../process-builder/roles.rst:22
 msgid ""
-"In each meeting (each :ref:`case <cases>` in Signavio Workflow), one "
-"person takes the role of chair, and one the role of secretary. These "
-"assignments generally don’t change during a meeting. Similarly, Signavio "
-"Workflow role assignments don’t change during a case. Signavio Workflow "
-"automatically assigns each new task with a role assignment to the person "
-"who already has the role."
+"In each meeting (each :ref:`case <cases>` in Signavio Workflow), one person "
+"takes the role of chair, and one the role of secretary. These assignments "
+"generally don’t change during a meeting. Similarly, Signavio Workflow role "
+"assignments don’t change during a case. Signavio Workflow automatically "
+"assigns each new task with a role assignment to the person who already has "
+"the role."
 msgstr ""
-"Rollen können ad-hoc eingenommen werden. In jedem Meeting (jedem "
-":ref:`Fall <cases>` in Signavio Workflow) wird einer Person die Aufgabe "
-"der Meetingsleitung übertragen und einer weiteren Person die Rolle der "
+"Rollen können ad-hoc eingenommen werden. In jedem Meeting (jedem :ref:`Fall "
+"<cases>` in Signavio Workflow) wird einer Person die Aufgabe der "
+"Meetingsleitung übertragen und einer weiteren Person die Rolle der "
 "Meetingsassistenz. Während eines Falldurchlaufs ändern sich "
-"Rollenzuweisungen nicht: Jede neue Aufgabe einer Rolle wird automatisch "
-"der entsprechenden Person zugewiesen."
+"Rollenzuweisungen nicht: Jede neue Aufgabe einer Rolle wird automatisch der "
+"entsprechenden Person zugewiesen."
 
-#: ../../process-builder/roles.rst:27
+#: ../../process-builder/roles.rst:27 ../../process-builder/roles.rst:27
 msgid ""
-"In Signavio Workflow, a process role works like a workflow variable that "
-"you use to assigning tasks. A role variable has the :ref:`type-user` and "
-"stores a single user."
+"In Signavio Workflow, a process role works like a workflow variable that you"
+" use to assigning tasks. A role variable has the :ref:`type-user` and stores"
+" a single user."
 msgstr ""
-"Eine Prozessrolle in Signavio Workflow ist eine Art Workflowvariable, die"
-" für die Zuweisung von Aufgaben verwendet wird. Eine Rolle ist eine "
-"Variable des Typs *Nutzer* - sie referenziert pro Aufgabe genau einen "
-"Nutzer."
+"Eine Prozessrolle in Signavio Workflow ist eine Art Workflowvariable, die "
+"für die Zuweisung von Aufgaben verwendet wird. Eine Rolle ist eine Variable "
+"des Typs *Nutzer* - sie referenziert pro Aufgabe genau einen Nutzer."
 
-#: ../../process-builder/roles.rst:30
+#: ../../process-builder/roles.rst:30 ../../process-builder/roles.rst:30
 msgid ""
 "These process roles differ from organization roles. For example, you can "
-"have the *Team lead* role in your organization, an assignment that does "
-"not necessarily have an end date. A process role, such as *Meeting "
-"chair*, has a different scope and only applies for the duration of a "
-"single case."
+"have the *Team lead* role in your organization, an assignment that does not "
+"necessarily have an end date. A process role, such as *Meeting chair*, has a"
+" different scope and only applies for the duration of a single case."
 msgstr ""
 "Diese Prozessrollen entsprechen nicht zwingend Organisationsrollen. Sie "
 "können zum Beispiel in Ihrer Organisation die Rolle des *Team Leads* "
-"einnehmen und diese Rolle für unbegrenzte Zeit innehaben. Eine "
-"Prozessrolle wie *Meetingsleitung* wird hingegen lediglich im Kontext "
-"eines einzelnen Falles zugewiesen."
+"einnehmen und diese Rolle für unbegrenzte Zeit innehaben. Eine Prozessrolle "
+"wie *Meetingsleitung* wird hingegen lediglich im Kontext eines einzelnen "
+"Falles zugewiesen."
 
-#: ../../process-builder/roles.rst:34
+#: ../../process-builder/roles.rst:34 ../../process-builder/roles.rst:34
 msgid ""
-"To assign a role to a user task, open the task’s configuration panel, "
-"select the `Assignment` tab, and use the `Assign using a role` menu on "
-"the right-hand side."
+"To assign a role to a user task, open the task’s configuration panel, select"
+" the `Assignment` tab, and use the `Assign using a role` menu on the right-"
+"hand side."
 msgstr ""
 "Um eine Rolle einer Nutzeraufgabe zuzuweisen, öffnen Sie die "
 "Konfigurationsleiste der Aufgabe, wählen Sie das `Allgemein`-Tab aus und "
-"verwenden Sie das `Zuweisen mittels einer Rolle`-Menü auf der rechten "
-"Seite."
+"verwenden Sie das `Zuweisen mittels einer Rolle`-Menü auf der rechten Seite."
 
-#: ../../process-builder/roles.rst:38
+#: ../../process-builder/roles.rst:38 ../../process-builder/roles.rst:38
 msgid ""
-"To assign a role, use the menu to create a new role or select an existing"
-" role"
+"To assign a role, use the menu to create a new role or select an existing "
+"role"
 msgstr ""
 "Um eine Rolle zuzuweisen, verwenden Sie das Menü um eine neue Rolle zu "
 "erstellen oder eine Existierende auszuwählen."
 
-#: ../../process-builder/roles.rst:40
-msgid "You can also use the edit icon next to the role name to rename the role."
+#: ../../process-builder/roles.rst:40 ../../process-builder/roles.rst:40
+msgid ""
+"You can also use the edit icon next to the role name to rename the role."
 msgstr ""
-"Sie können zudem das Editierungsicon neben der Rolle anwählen, um die "
-"Rolle umzubenennen."
+"Sie können zudem das Editierungsicon neben der Rolle anwählen, um die Rolle "
+"umzubenennen."
 
-#: ../../process-builder/roles.rst:43
+#: ../../process-builder/roles.rst:43 ../../process-builder/roles.rst:43
 msgid "Role candidates"
 msgstr "Kandidaten für eine Rolle"
 
-#: ../../process-builder/roles.rst:45
+#: ../../process-builder/roles.rst:45 ../../process-builder/roles.rst:45
 msgid ""
 "You can use a role to assign multiple tasks a person from a group of "
 "candidates. For example, you might have a support process that includes "
 "three user tasks that you assign to a support engineer."
 msgstr ""
 "Über eine Rolle können Sie einer Person aus einer Gruppe von Kandidaten "
-"mehrere Aufgaben zuweisen. In einem Supportprozess kann es zum Beispiel "
-"drei Aufgaben geben, die einem Kundenbetreuer zugewiesen sind."
+"mehrere Aufgaben zuweisen. In einem Supportprozess kann es zum Beispiel drei"
+" Aufgaben geben, die einem Kundenbetreuer zugewiesen sind."
 
-#: ../../process-builder/roles.rst:50
+#: ../../process-builder/roles.rst:50 ../../process-builder/roles.rst:50
 msgid ""
-"Assigning a task to a *Support engineer* role with candidates Alice and "
-"Ben"
+"Assigning a task to a *Support engineer* role with candidates Alice and Ben"
 msgstr ""
-"Eine Aufgabe der Rolle `Kundenbetreuer` zuweisen mit den Kandidaten Alice"
-" und Ben"
+"Eine Aufgabe der Rolle `Kundenbetreuer` zuweisen mit den Kandidaten Alice "
+"und Ben"
 
-#: ../../process-builder/roles.rst:52
+#: ../../process-builder/roles.rst:52 ../../process-builder/roles.rst:52
 msgid ""
-"Instead, assign the three tasks to a new role called ‘Support engineer’, "
-"and add the relevant people as candidates for the role."
+"Instead, assign the three tasks to a new role called ‘Support engineer’, and"
+" add the relevant people as candidates for the role."
 msgstr ""
 "Weisen Sie die drei Aufgaben einer neuen Rolle zu. Nennen Sie die Rolle "
 "'Kundenbetreuer' und fügen Sie relevante Personen als Kandidaten für die "
 "Rolle hinzu."
 
-#: ../../process-builder/roles.rst:55
+#: ../../process-builder/roles.rst:55 ../../process-builder/roles.rst:55
 msgid ""
-"Creating the first task that has a role will notify all of the candidates"
-" for the role. When one of the candidates takes the task, Signavio "
-"Workflow will assign the subsequent tasks with the same role to the same "
-"person. That helps this person work more efficiently because they have "
-"the context knowledge about that case."
+"Creating the first task that has a role will notify all of the candidates "
+"for the role. When one of the candidates takes the task, Signavio Workflow "
+"will assign the subsequent tasks with the same role to the same person. That"
+" helps this person work more efficiently because they have the context "
+"knowledge about that case."
 msgstr ""
 "Sobald die erste Aufgabe erstellt wird, die einer bestimmten Rolle "
-"zugewiesen ist, werden alle Kandidaten für diese Rolle informiert. Wenn "
-"eine Person die Aufgabe übernimmt, werden auch alle weiteren Aufgaben der"
-" Rolle dieser Person zugewiesen. Dies ist effizienter, da die "
-"entsprechende Person schon das kontextspezifische Fallwissen besitzt."
+"zugewiesen ist, werden alle Kandidaten für diese Rolle informiert. Wenn eine"
+" Person die Aufgabe übernimmt, werden auch alle weiteren Aufgaben der Rolle "
+"dieser Person zugewiesen. Dies ist effizienter, da die entsprechende Person "
+"schon das kontextspezifische Fallwissen besitzt."
 
-#: ../../process-builder/roles.rst:59
+#: ../../process-builder/roles.rst:59 ../../process-builder/roles.rst:59
 msgid ""
-"If you reassign a task that has a role assignment, Signavio Workflow will"
-" update the role variable, and assign all subsequent tasks with the same "
-"role to the new assignee."
+"If you reassign a task that has a role assignment, Signavio Workflow will "
+"update the role variable, and assign all subsequent tasks with the same role"
+" to the new assignee."
 msgstr ""
 "Wenn Sie die Zuweisung ändern, kümmert sich Signavio Workflow natürlich "
 "darum, dass alle Aufgaben die einer Rolle zugewiesen waren entsprechend "
 "aktualisiert werden. "
 
-#: ../../process-builder/roles.rst:64
+#: ../../process-builder/roles.rst:64 ../../process-builder/roles.rst:64
 msgid "Using a form field to assign a role"
 msgstr "Wie man per Formularfeld eine Rolle setzt"
 
-#: ../../process-builder/roles.rst:66
+#: ../../process-builder/roles.rst:66 ../../process-builder/roles.rst:66
 msgid ""
-"When you execute a process, you normally assign a specific person to a "
-"role by using the assignee button to select someone. Sometimes, you want "
-"this assignment to an explicit part of the process, to make sure the "
-"assignment happens at the right time. For example, you may find it "
-"important to assign the *Support engineer* before completing an *Initial "
-"investigation* task."
+"When you execute a process, you normally assign a specific person to a role "
+"by using the assignee button to select someone. Sometimes, you want this "
+"assignment to an explicit part of the process, to make sure the assignment "
+"happens at the right time. For example, you may find it important to assign "
+"the *Support engineer* before completing an *Initial investigation* task."
 msgstr ""
-"Wenn Sie einen Prozess ausführen, dann weisen Sie eine Person in der "
-"Regel einer Rolle zu, indem Sie den *Zuweisen* Button benutzen. Manchmal "
-"soll allerdings genau diese Zuweisung Teil des Prozesses selbst sein um "
-"sicher zu stellen, dass die Zuweisung zur richtigen Zeit passiert. Zum "
-"Beispiel kann es wichtig sein, den *Kundenbetreuer* zuzuweisen bevor die "
-"Aufgabe *Initiale Nachforschungen anstellen* abgeschlossen wird."
+"Wenn Sie einen Prozess ausführen, dann weisen Sie eine Person in der Regel "
+"einer Rolle zu, indem Sie den *Zuweisen* Button benutzen. Manchmal soll "
+"allerdings genau diese Zuweisung Teil des Prozesses selbst sein um sicher zu"
+" stellen, dass die Zuweisung zur richtigen Zeit passiert. Zum Beispiel kann "
+"es wichtig sein, den *Kundenbetreuer* zuzuweisen bevor die Aufgabe *Initiale"
+" Nachforschungen anstellen* abgeschlossen wird."
 
-#: ../../process-builder/roles.rst:73
+#: ../../process-builder/roles.rst:73 ../../process-builder/roles.rst:73
 msgid ""
-"You can do this by adding the role assignment to a form, because you can "
-"use task assignment roles as process variables, just like any other "
-"*User* form field."
+"You can do this by adding the role assignment to a form, because you can use"
+" task assignment roles as process variables, just like any other *User* form"
+" field."
 msgstr ""
-"Sie können hierfür einfach die Rolle zu einem Formular hinzufügen: Rollen"
-" sind in Signavio Workflow Prozessvariablen, wie jedes andere *Nutzer* "
+"Sie können hierfür einfach die Rolle zu einem Formular hinzufügen: Rollen "
+"sind in Signavio Workflow Prozessvariablen, wie jedes andere *Nutzer* "
 "Formularfeld auch."
 
-#: ../../process-builder/roles.rst:79
+#: ../../process-builder/roles.rst:79 ../../process-builder/roles.rst:79
 msgid "Adding the *Support engineer* role assignment to a form"
 msgstr "Die *Kundenbetreuer* Rolle zu einem Formular hinzufügen"
 
-#: ../../process-builder/roles.rst:81
+#: ../../process-builder/roles.rst:81 ../../process-builder/roles.rst:81
 msgid ""
-"To add a role assignment to a form, first define the process role, such "
-"as the *Support engineer* role created above, then on the form, under the"
-" *Reuse field* heading, select the role variable to add it to the form."
+"To add a role assignment to a form, first define the process role, such as "
+"the *Support engineer* role created above, then on the form, under the "
+"*Reuse field* heading, select the role variable to add it to the form."
 msgstr ""
 "Um eine Rolle in einem Formular zu verwenden, erstellen Sie zuerst die "
-"gewünschte Rolle wie zum Beispiel den *Kundenbetreuer*. Danach können Sie"
-" diesen unterhalb des Formulars bei *Ein Feld wiederverwenden* ganz "
-"einfach auswählen."
+"gewünschte Rolle wie zum Beispiel den *Kundenbetreuer*. Danach können Sie "
+"diesen unterhalb des Formulars bei *Ein Feld wiederverwenden* ganz einfach "
+"auswählen."
 
-#: ../../process-builder/roles.rst:86
+#: ../../process-builder/roles.rst:86 ../../process-builder/roles.rst:86
 msgid ""
-"Alternatively, you can first define the *Support engineer* role by adding"
-" a field with type *User* to the *Initial investigation* task’s form, and"
-" then select the *Support engineer* role on another user task’s *General*"
-" configuration."
+"Alternatively, you can first define the *Support engineer* role by adding a "
+"field with type *User* to the *Initial investigation* task’s form, and then "
+"select the *Support engineer* role on another user task’s *General* "
+"configuration."
 msgstr ""
-"Alternativ können Sie die *Kundenbetreuer*-Rolle definieren, indem Sie "
-"den Typ *Nutzer* zum Formular der Aufgabe *Initiale Nachforschungen "
-"anstellen* hinzufügen und anschließen die Rolle *Kundenbetreuer* in der "
-"Konfiguration einer Nutzeraufgabe auswählen."
+"Alternativ können Sie die *Kundenbetreuer*-Rolle definieren, indem Sie den "
+"Typ *Nutzer* zum Formular der Aufgabe *Initiale Nachforschungen anstellen* "
+"hinzufügen und anschließen die Rolle *Kundenbetreuer* in der Konfiguration "
+"einer Nutzeraufgabe auswählen."
 
-#: ../../process-builder/locking.rst:4
+#: ../../process-builder/locking.rst:4 ../../process-builder/locking.rst:4
 msgid "Process locking"
 msgstr "Bearbeitungsblockierung"
 
-#: ../../process-builder/locking.rst:6
+#: ../../process-builder/locking.rst:6 ../../process-builder/locking.rst:6
 msgid ""
-"In the process builder, only one person can edit a process at a time. "
-"While someone continues to edit a process, the `Processes` list shows a "
-"message."
+"In the process builder, only one person can edit a process at a time. While "
+"someone continues to edit a process, the `Processes` list shows a message."
 msgstr ""
-"Ein Prozess kann im Prozesseditor nicht von mehreren Personen "
-"gleichzeitig bearbeitet werden, da es ansonsten sehr wahrscheinlich ist, "
-"dass die bearbeitenden Nutzer ihre Änderungen gegenseitig überschreiben. "
-"Wenn jemand einen Prozess bearbeitet, wird dies daher in der "
-"`Prozesse`-Liste angezeigt."
+"Ein Prozess kann im Prozesseditor nicht von mehreren Personen gleichzeitig "
+"bearbeitet werden, da es ansonsten sehr wahrscheinlich ist, dass die "
+"bearbeitenden Nutzer ihre Änderungen gegenseitig überschreiben. Wenn jemand "
+"einen Prozess bearbeitet, wird dies daher in der `Prozesse`-Liste angezeigt."
 
-#: ../../process-builder/locking.rst:11
+#: ../../process-builder/locking.rst:11 ../../process-builder/locking.rst:11
 msgid "The `Processes` list message while someone else edits the process"
 msgstr ""
-"Der Hinweis in der `Prozesse`-Liste, wenn ein Prozess bereits editiert "
-"wird"
+"Der Hinweis in der `Prozesse`-Liste, wenn ein Prozess bereits editiert wird"
 
-#: ../../process-builder/locking.rst:13
+#: ../../process-builder/locking.rst:13 ../../process-builder/locking.rst:13
 msgid ""
 "You can still open the process, but you will see a warning message "
 "explaining that you cannot make changes:"
 msgstr ""
 "In einer solchen Situation können Sie den Prozess trotzdem öffnen. "
-"Allerdings wird Ihnen dann eine Warnung angezeigt und eine Bearbeitung "
-"des Prozesses ist nicht möglich:"
+"Allerdings wird Ihnen dann eine Warnung angezeigt und eine Bearbeitung des "
+"Prozesses ist nicht möglich:"
 
-#: ../../process-builder/locking.rst:18
-msgid "Warning that you cannot edit a process at the same time as someone else"
+#: ../../process-builder/locking.rst:18 ../../process-builder/locking.rst:18
+msgid ""
+"Warning that you cannot edit a process at the same time as someone else"
 msgstr ""
 "Warnung, dass Änderungen an einem Prozess nicht von mehreren Personen "
 "gleichzeitig durchgeführt werden können"
 
-#: ../../process-builder/locking.rst:20
+#: ../../process-builder/locking.rst:20 ../../process-builder/locking.rst:20
 msgid ""
-"You can edit the process and make changes after the other person leaves "
-"the process editor, by opening the `Tasks` list, for example."
+"You can edit the process and make changes after the other person leaves the "
+"process editor, by opening the `Tasks` list, for example."
 msgstr ""
-"Nachdem die editierende Person die Bearbeitungsansicht verlässt (z.B. "
-"indem sie zum Tab *Aufgaben* wechselt), können Sie den Prozess wieder "
-"bearbeiten."
+"Nachdem die editierende Person die Bearbeitungsansicht verlässt (z.B. indem "
+"sie zum Tab *Aufgaben* wechselt), können Sie den Prozess wieder bearbeiten."
 
+#: ../../process-builder/bpmn-import.rst:4
 #: ../../process-builder/bpmn-import.rst:4
 msgid "BPMN import"
 msgstr "BPMN Import"
 
 #: ../../process-builder/bpmn-import.rst:6
+#: ../../process-builder/bpmn-import.rst:6
 msgid ""
-"You can import a Signavio Workflow process model from a BPMN 2.0 XML "
-"file. You can use this to import a model that you created in another "
-"tool, or to load a file that you saved using the :ref:`BPMN export <bpmn-"
-"export>` option."
+"You can import a Signavio Workflow process model from a BPMN 2.0 XML file. "
+"You can use this to import a model that you created in another tool, or to "
+"load a file that you saved using the :ref:`BPMN export <bpmn-export>` "
+"option."
 msgstr ""
 "Sie können ein Signavio Workflow Prozessmodel als BPMN 2.0 XML Datei "
-"importieren. Hiermit können Sie Modelle, die Sie in anderen Tools "
-"erstellt haben, in Signavio Workflow verwenden oder Backups, die Sie "
-"vorher über die :ref:`BPMN Exportfunktion <bpmn-export>` gespeichert "
-"haben, wiederherstellen."
+"importieren. Hiermit können Sie Modelle, die Sie in anderen Tools erstellt "
+"haben, in Signavio Workflow verwenden oder Backups, die Sie vorher über die "
+":ref:`BPMN Exportfunktion <bpmn-export>` gespeichert haben, "
+"wiederherstellen."
 
 #: ../../process-builder/bpmn-import.rst:10
+#: ../../process-builder/bpmn-import.rst:10
 msgid ""
-"To import a process model, on the `Processes` page, click the `Import "
-"BPMN` button and select the BPMN XML file."
+"To import a process model, on the `Processes` page, click the `Import BPMN` "
+"button and select the BPMN XML file."
 msgstr ""
-"Um ein Prozessmodell zu importieren, wechseln Sie in die "
-"`Prozesse`-Ansicht, klicken Sie auf `BPMN importieren` und wählen Sie "
-"eine BPMN 2.0 XML Datei aus."
+"Um ein Prozessmodell zu importieren, wechseln Sie in die `Prozesse`-Ansicht,"
+" klicken Sie auf `BPMN importieren` und wählen Sie eine BPMN 2.0 XML Datei "
+"aus."
 
+#: ../../process-builder/bpmn-import.rst:15
 #: ../../process-builder/bpmn-import.rst:15
 msgid "The `Import BPMN` button on the `Processes` page"
 msgstr "Die `BPMN importieren`-Schaltfläche der `Prozesse`-Ansicht."
 
 #: ../../process-builder/bpmn-import.rst:17
+#: ../../process-builder/bpmn-import.rst:17
 msgid ""
-"Signavio Workflow does not support all BPMN 2.0 elements, so the process "
-"may appear differently in Signavio Workflow. In particular:"
+"Signavio Workflow does not support all BPMN 2.0 elements, so the process may"
+" appear differently in Signavio Workflow. In particular:"
 msgstr ""
-"Signavio Workflow unterstützt nicht alle BPMN 2.0 Elemente. Ein "
-"importierter Prozess wird in Signavio Workflow unter Umständen also "
-"verändert dargestellt. Berücksichtigen Sie insbesondere Folgendes:"
+"Signavio Workflow unterstützt nicht alle BPMN 2.0 Elemente. Ein importierter"
+" Prozess wird in Signavio Workflow unter Umständen also verändert "
+"dargestellt. Berücksichtigen Sie insbesondere Folgendes:"
 
+#: ../../process-builder/bpmn-import.rst:21
 #: ../../process-builder/bpmn-import.rst:21
 msgid "BPMN swim lanes become :ref:`roles <roles>` in Signavio Workflow"
 msgstr "BPMN Swim Lanes werden in Signavio Workflow zu :ref:`Rollen <roles>`"
 
 #: ../../process-builder/bpmn-import.rst:22
+#: ../../process-builder/bpmn-import.rst:22
 msgid "tasks become :ref:`user tasks <user-task>` in Signavio Workflow"
 msgstr "Tasks werden in Signavio Workflow zu :ref:`Aufgaben <user-task>`"
 
 #: ../../process-builder/bpmn-import.rst:23
+#: ../../process-builder/bpmn-import.rst:23
 msgid "Signavio Workflow removes unsupported elements, such as timer events."
 msgstr ""
-"Nicht unterstützte Elemente, wie zum Beispiel Zeit-Startereignisse, "
-"werden entfernt."
+"Nicht unterstützte Elemente, wie zum Beispiel Zeit-Startereignisse, werden "
+"entfernt."
 
+#: ../../process-builder/bpmn-export.rst:4
 #: ../../process-builder/bpmn-export.rst:4
 msgid "BPMN export"
 msgstr "BPMN Export"
 
 #: ../../process-builder/bpmn-export.rst:6
+#: ../../process-builder/bpmn-export.rst:6
 msgid ""
-"You can export a Signavio Workflow process model as a BPMN 2.0 XML file. "
-"You may find this useful for opening the model in another tool that "
-"supports BPMN, or to make a backup that you can load using the :ref:`BPMN"
-" import <bpmn-import>` option."
+"You can export a Signavio Workflow process model as a BPMN 2.0 XML file. You"
+" may find this useful for opening the model in another tool that supports "
+"BPMN, or to make a backup that you can load using the :ref:`BPMN import "
+"<bpmn-import>` option."
 msgstr ""
 "Sie können ein Signavio Workflow Prozessmodel als BPMN 2.0 XML-Datei "
-"exportieren. Anschließend können Sie das Diagramm in einem beliebigen "
-"Tool öffnen, das den offenen BPMN 2.0 Standard unterstützt. Die "
-"Exportfunktion ermöglich zudem das Erstellen von Backups: ein :ref:`Re-"
-"Import <bpmn-import>` ist jederzeit möglich."
+"exportieren. Anschließend können Sie das Diagramm in einem beliebigen Tool "
+"öffnen, das den offenen BPMN 2.0 Standard unterstützt. Die Exportfunktion "
+"ermöglich zudem das Erstellen von Backups: ein :ref:`Re-Import <bpmn-"
+"import>` ist jederzeit möglich."
 
 #: ../../process-builder/bpmn-export.rst:10
+#: ../../process-builder/bpmn-export.rst:10
 msgid ""
-"To export a process model, first open it in the Signavio Workflow process"
-" editor. Select the menu next to the `Publish changes` button, then "
-"select `Export BPMN 2.0 XML`."
+"To export a process model, first open it in the Signavio Workflow process "
+"editor. Select the menu next to the `Publish changes` button, then select "
+"`Export BPMN 2.0 XML`."
 msgstr ""
 "Um einen Prozess zu exportieren, öffnen Sie ihn zunächst in Signavio "
 "Workflow. Wählen Sie im Menü neben dem `Zum Ausführen veröffentlichen` "
 "Button den Punkt `BPMN 2.0 XML exportieren`."
 
 #: ../../process-builder/bpmn-export.rst:16
-msgid "Using the `Export BPMN 2.0 XML` option to save a process model in a file"
+#: ../../process-builder/bpmn-export.rst:16
+msgid ""
+"Using the `Export BPMN 2.0 XML` option to save a process model in a file"
 msgstr ""
 "Benutzen Sie den BPMN 2.0 XML Export um einen Prozess als Datei zu "
 "speichern."
 
 #: ../../process-builder/bpmn-export.rst:18
+#: ../../process-builder/bpmn-export.rst:18
 msgid ""
-"This results in a file download that describes your process model in BPMN"
-" format. Signavio Workflow only exports one kind of BPMN file, so it "
-"doesn’t give you any options to configure."
+"This results in a file download that describes your process model in BPMN "
+"format. Signavio Workflow only exports one kind of BPMN file, so it doesn’t "
+"give you any options to configure."
 msgstr ""
-"Anschließend wird der Download der Datei im BPMN-Format gestartet. Da es "
-"nur eine Art von BPMN-Dateien gibt, müssen Sie auch keine weiteren "
-"Optionen konfigurieren."
+"Anschließend wird der Download der Datei im BPMN-Format gestartet. Da es nur"
+" eine Art von BPMN-Dateien gibt, müssen Sie auch keine weiteren Optionen "
+"konfigurieren."
 
+#: ../../process-builder/copy-delete.rst:4
 #: ../../process-builder/copy-delete.rst:4
 msgid "Copying & deleting processes"
 msgstr "Prozesse kopieren und löschen"
 
 #: ../../process-builder/copy-delete.rst:6
+#: ../../process-builder/copy-delete.rst:6
 msgid ""
-"You can create a copy of a process or delete it using the process menu "
-"shown in the previous section."
+"You can create a copy of a process or delete it using the process menu shown"
+" in the previous section."
 msgstr "Über das Prozessmenü können Sie zudem Prozesse kopieren und löschen."
 
 #: ../../process-builder/copy-delete.rst:8
+#: ../../process-builder/copy-delete.rst:8
 msgid ""
-"The `Create a copy` option duplicates the process in the same "
-"organisation. You may find it useful to duplicate a process if you want "
-"to experiment with changes without publishing changes to a live process. "
-"You may also want to duplicate a process to model a special case of the "
-"process, instead of adding a conditional flow to the standard process."
+"The `Create a copy` option duplicates the process in the same organisation. "
+"You may find it useful to duplicate a process if you want to experiment with"
+" changes without publishing changes to a live process. You may also want to "
+"duplicate a process to model a special case of the process, instead of "
+"adding a conditional flow to the standard process."
 msgstr ""
-"Über die Schaltfläche `Eine Kopie erstellen` duplizieren Sie einen "
-"Prozess in der entsprechenden Organisation. Dies ist insbesondere "
-"hilfreich, wenn Sie mit dem Prozess experimentieren wollen, ohne dass "
-"Nutzer der Prozessfälle direkt von den Änderungen betroffen sind. Ein "
-"weiterer Fall, bei dem das Kopieren eines Prozesses sehr nützlich sein "
-"kann, ist die Erstellung einer neuen Prozessvariante. Wenn Sie einen "
-"neuen Prozess erstellen, vermeiden Sie unnötige konditionelle "
-"Sequenzfluss-Verzweigungen. "
+"Über die Schaltfläche `Eine Kopie erstellen` duplizieren Sie einen Prozess "
+"in der entsprechenden Organisation. Dies ist insbesondere hilfreich, wenn "
+"Sie mit dem Prozess experimentieren wollen, ohne dass Nutzer der "
+"Prozessfälle direkt von den Änderungen betroffen sind. Ein weiterer Fall, "
+"bei dem das Kopieren eines Prozesses sehr nützlich sein kann, ist die "
+"Erstellung einer neuen Prozessvariante. Wenn Sie einen neuen Prozess "
+"erstellen, vermeiden Sie unnötige konditionelle Sequenzfluss-Verzweigungen. "
 
+#: ../../process-builder/copy-delete.rst:12
 #: ../../process-builder/copy-delete.rst:12
 msgid ""
 "The `Delete process` option permanently deletes a process and all of its "
-"cases. You cannot undo this operation, so you must enter a confirmation. "
-"You might want to delete a process that you created by duplicating "
-"another process in order to experiment with changes in the model."
+"cases. You cannot undo this operation, so you must enter a confirmation. You"
+" might want to delete a process that you created by duplicating another "
+"process in order to experiment with changes in the model."
 msgstr ""
-"Über die `Prozess löschen` Schaltfläche löschen Sie einen Prozess und "
-"alle Fälle des Prozesses **unwiderruflich**. Da Sie das Löschen nicht "
-"rückgängig machen können, müssen Sie den Vorgang explizit bestätigen. Ein"
-" typischer Anwendungsfall für das Löschen eines Prozesses ist das "
-"Verwerfen einer experimentellen Kopie eines Prozesses. "
+"Über die `Prozess löschen` Schaltfläche löschen Sie einen Prozess und alle "
+"Fälle des Prozesses **unwiderruflich**. Da Sie das Löschen nicht rückgängig "
+"machen können, müssen Sie den Vorgang explizit bestätigen. Ein typischer "
+"Anwendungsfall für das Löschen eines Prozesses ist das Verwerfen einer "
+"experimentellen Kopie eines Prozesses. "
 
+#: ../../process-builder/copy-delete.rst:16
 #: ../../process-builder/copy-delete.rst:16
 msgid ""
 "In Signavio Workflow, you cannot currently delete cases, which you might "
 "want to do if you have created test cases while developing the process. "
 "However, you can use `Create a copy` and `Delete process` to duplicate a "
-"process and then delete the original. This deletes all of the cases with "
-"the original process, and leaves a copy with no cases."
+"process and then delete the original. This deletes all of the cases with the"
+" original process, and leaves a copy with no cases."
 msgstr ""
 "In Signavio Workflow können Sie derzeit keine Fälle löschen, was Sie mit "
 "Testfällen aus der Entwicklungsphase von Prozessen evtl. tun möchten. In "
 "diesem Fall, können Sie `Eine Kopie erstellen` und `Prozess löschen` "
-"verwenden, um den Prozess zu duplizieren und das Original zu entfernen. "
-"So werden alle alten Fälle gelöscht. Das neue Prozessduplikat besitzt "
-"noch keine Fälle."
+"verwenden, um den Prozess zu duplizieren und das Original zu entfernen. So "
+"werden alle alten Fälle gelöscht. Das neue Prozessduplikat besitzt noch "
+"keine Fälle."
 
 #~ msgid ""
 #~ msgstr ""
@@ -1117,4 +1128,3 @@ msgstr ""
 
 #~ msgid "Advanced flows view"
 #~ msgstr "Der Prozessfluss-Editor "
-
