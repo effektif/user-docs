@@ -85,7 +85,7 @@ Configuration
 
 After creating a Google Drive `Print file` action,
 the configuration panel shows a button to start configuring the account.
-This configuration has the same steps as in the `Upload file configuration <upload-file-configuration>`_ (above).
+This configuration has the same steps as in the :ref:`Upload file configuration <upload-file-configuration>` (above).
 
 When you have authenticated with a Google account and granted permission,
 you can configure the `Print file` action.
@@ -123,7 +123,7 @@ Configuration
 
 After creating a Google Drive *Add row to sheet* action,
 the configuration panel shows a button to start configuring the account.
-This configuration has the same steps as in the `Upload file configuration <upload-file-configuration>`_ (above).
+This configuration has the same steps as in the :ref:`Upload file configuration <upload-file-configuration>`(above).
 
 When you have authenticated with a Google account and granted permission,
 you can configure the *Add row to sheet* action.

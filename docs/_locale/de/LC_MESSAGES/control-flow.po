@@ -76,14 +76,6 @@ msgid "Manual decision"
 msgstr "Manuelle Entscheidung"
 
 #: ../../control-flow/exclusive-gateway.rst:16
-<<<<<<< HEAD
-msgid "Use a manual decision for an exclusive gateway when a person must make a decision. A user task must precede the gateway; this task includes making the decision. The user interface presents the decision to the user as buttons on the user task form."
-msgstr "Wenn eine Person die Entscheidung treffen soll, verwenden Sie die `manuelle Entscheidung`. In diesem Fall muss direkt vor dem exklusiven Gateway eine Aufgabe vorhanden sein. Im Nutzerinterface wird die Entscheidung in Form von mehreren Knöpfen für den Nutzer dargestellt."
-
-#: ../../control-flow/exclusive-gateway.rst:20
-msgid "Suppose you have a user task called ‘Review contract’, an exclusive gateway and the two user tasks ‘Print contract’ and ‘Update contract’:"
-msgstr "Sie können zum Beispiel eine Aktivität namens `Vertrag prüfen`, ein exklusives Gateway und zwei weitere Aktivitäten `Vertrag drucken` und `Vertrag updated` haben:"
-=======
 #: ../../control-flow/exclusive-gateway.rst:16
 msgid ""
 "Use a manual decision for an exclusive gateway when a person must make a "
@@ -102,10 +94,9 @@ msgid ""
 "Suppose you have a user task called ‘Review contract’, an exclusive gateway "
 "and the two user tasks ‘Print contract’ and ‘Update contract’:"
 msgstr ""
-"Se können zum Beispiel eine Aktivität namens `Vertrag prüfen`, ein "
+"Sie können zum Beispiel eine Aktivität namens `Vertrag prüfen`, ein "
 "exklusives Gateway und zwei weitere Aktivitäten `Vertrag drucken` und "
 "`Vertrag updated` haben:"
->>>>>>> master
 
 #: ../../control-flow/exclusive-gateway.rst:26
 #: ../../control-flow/exclusive-gateway.rst:26
