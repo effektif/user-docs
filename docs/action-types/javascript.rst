@@ -1,9 +1,9 @@
 .. _javascript:
 
-JavaScript action
------------------
+JavaScript action (Script task)
+-------------------------------
 
-The JavaScript action allows developers to add JavaScript to process execution.
+The JavaScript action, called a *Script Task* in BPMN, allows developers to add JavaScript to process execution.
 Signavio Workflow runs the code on the server, using `Node.js <https://nodejs.org>`_.
 As well as Node.js’ JavaScript API, scripts can use the `lodash <https://www.npmjs.com/package/lodash>`_ and `request <https://www.npmjs.com/package/request>`_ libraries.
 
