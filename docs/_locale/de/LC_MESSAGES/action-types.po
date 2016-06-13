@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-29 10:45+0200\n"
-"PO-Revision-Date: 2016-06-09 12:39+0200\n"
+"POT-Creation-Date: 2016-06-13 10:57+0200\n"
+"PO-Revision-Date: 2016-06-13 11:01+0200\n"
 "Last-Translator: Timotheus Kampik <timotheus.kampik@signavio.com>\n"
 "Language-Team: \n"
-"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
-"X-Generator: Poedit 1.8.8\n"
+"Language: de\n"
+"X-Generator: Poedit 1.8.7\n"
 
 #: ../../action-types.rst:4
 msgid "Action Types"
@@ -26,506 +26,478 @@ msgstr "Aktions-Typen"
 msgid "The :ref:`process-builder` displays actions as rounded rectangles. Actions typically have a configuration panel that opens when you select the action."
 msgstr "Aktionen werden in Signavio Workflow als Rechtecke mit abgerundeten Ecken im :red:`process-builder` dargestellt und haben typischerweise ein Konfigurationspanel, das sich beim Auswählen der Aktion öffnet."
 
-#: ../../action-types/user-task.rst:4 ../../action-types/user-task.rst:4
+#: ../../action-types/user-task.rst:4
 msgid "User task"
 msgstr "Aufgaben"
 
-#: ../../action-types/user-task.rst:8 ../../action-types/user-task.rst:8
+#: ../../action-types/user-task.rst:8
 msgid "A user task in the process editor"
 msgstr "Eine Aufgabe im Prozess-Editor"
 
-#: ../../action-types/user-task.rst:10 ../../action-types/user-task.rst:10
+#: ../../action-types/user-task.rst:10
 msgid "A user task indicates that someone will perform a task. In the configuration form, you can specify the following optional details."
 msgstr "Aufgaben werden in Ihrer Organisation ausgeführt von Personen. In einem :ref:`Fall <cases>` wird hierzu eine Aufgabe angelegt. Für eine Aufgabe stehen die folgenden Konfigurationsmöglichkeiten zur Verfügung:"
 
-#: ../../action-types/user-task.rst:13 ../../action-types/user-task.rst:13
+#: ../../action-types/user-task.rst:13
 msgid "*General* - assign a task to a user or a :ref:`process role <roles>`."
 msgstr "*Allgemein* - ein Task kann einem Nutzer oder einer :ref:`Prozessrolle <roles>` zugewiesen werden."
 
-#: ../../action-types/user-task.rst:14 ../../action-types/user-task.rst:14
+#: ../../action-types/user-task.rst:14
 msgid "*Form* - add a form to a task; submit the form to complete the task."
 msgstr "*Formular* - Sie können ein Formular zu einer Aufgabe hinzufügen. Mit dem Absenden des Formulars wird die Aufgabe erledigt."
 
-#: ../../action-types/user-task.rst:15 ../../action-types/user-task.rst:15
+#: ../../action-types/user-task.rst:15
 msgid "*Reminders* - task deadline notifications."
 msgstr "*Erinnerungen* - Senden Sie Erinnerungen und legen Sie Fälligkeiten fest."
 
-#: ../../action-types/user-task.rst:16 ../../action-types/user-task.rst:16
+#: ../../action-types/user-task.rst:16
 msgid "*Escalations* -  automatic task reassignment."
 msgstr "*Eskalation* - Weisen Sie die Aufgabe automatisch anderen Personen zu."
 
-#: ../../action-types/user-task.rst:17 ../../action-types/user-task.rst:17
+#: ../../action-types/user-task.rst:17
 msgid "*Access Rights* - task permissions for users and groups."
 msgstr "*Zugriffsrechte* - Definieren Sie Zugriffsrechte für Nutzer und Gruppen."
 
-#: ../../action-types/user-task.rst:20 ../../action-types/user-task.rst:20
+#: ../../action-types/user-task.rst:20
 msgid "General"
 msgstr "Allgemein"
 
-#: ../../action-types/user-task.rst:22 ../../action-types/user-task.rst:22
+#: ../../action-types/user-task.rst:22
 msgid "Use the *General* tab to specify the task’s default assignee or candidates. You can select either individual users or organisation groups as candidates."
 msgstr "Unter *Allgemein* können Sie Verantwortliche für Aufgaben festlegen oder eine Liste von Kandidaten definieren. Kandidaten können entweder mehrere Nutzer oder Nutzergruppen sein."
 
-#: ../../action-types/user-task.rst:27 ../../action-types/user-task.rst:27
+#: ../../action-types/user-task.rst:27
 msgid "Configuring user task assignment in the process editor"
 msgstr "Zuweisung einer Aufgabe im Prozesseditor konfigurieren"
 
-#: ../../action-types/user-task.rst:29 ../../action-types/user-task.rst:29
+#: ../../action-types/user-task.rst:29
 msgid "You an also specify a role for the task’s assignment, like a BPMN swim lane, so that Signavio Workflow automatically assigns related tasks to the same person."
 msgstr "Sie können auch :ref:`Rollen <process-roles>` für die Zuweisung nutzen. Diese ähneln den Lanes aus BPMN. Pro Fall weist Signavio Workflow die Aufgaben einer Rolle der gleichen Person zu."
 
-#: ../../action-types/user-task.rst:34 ../../action-types/user-task.rst:34
+#: ../../action-types/user-task.rst:34
 msgid "Task name template"
 msgstr "Vorlage für Aufgabennamen"
 
-#: ../../action-types/user-task.rst:36 ../../action-types/user-task.rst:36
+#: ../../action-types/user-task.rst:36
 msgid "You can use task name templates to create dynamic task names from :ref:`variables <variables>`. Enter the task name template on the user task’s configuration panel’s *General* tab. In the text field, type a `#` to select a variable."
 msgstr "Sie können Vorlagen für Aufgabennamen verwenden, um dynamische Aufgabennamen auf Basis von :ref:`Variablen <variables>` zu erstellen. Geben Sie die Vorlage über das *Allgemein*-Tab des Konfigurationspanels ein und geben Sie `#` ein um die gewünschte Variable auswählen zu können."
 
-#: ../../action-types/user-task.rst:42 ../../action-types/user-task.rst:42
+#: ../../action-types/user-task.rst:42
 msgid "Using a task name template to configure dynamic task names"
 msgstr "Verwenden Sie Vorlagen für Aufgabennamen um dynamische Aufgabennamen zu konfigurieren."
 
-#: ../../action-types/user-task.rst:44 ../../action-types/user-task.rst:44
+#: ../../action-types/user-task.rst:44
 msgid "Use task name templates to avoid a :ref:`tasks` view that fills up with identically-named tasks."
 msgstr "Verwenden Sie Vorlagen für Aufgabennamen um zu verhindern, dass sich die :ref:`tasks` - Ansicht mit identisch bezeichneten Aufgaben füllt."
 
-#: ../../action-types/user-task.rst:49 ../../action-types/user-task.rst:49
+#: ../../action-types/user-task.rst:49
 msgid "Form"
 msgstr "Formular"
 
-#: ../../action-types/user-task.rst:51 ../../action-types/user-task.rst:51
+#: ../../action-types/user-task.rst:51
 msgid "Use the form builder to create a user task form for entering and updating data as part of the user task."
 msgstr "Benutzen Sie den Formulareditor, um neue Daten aufzunehmen oder bestehende zu verändern."
 
-#: ../../action-types/user-task.rst:56 ../../action-types/user-task.rst:56
+#: ../../action-types/user-task.rst:56
 msgid "Reminders"
 msgstr "Erinnerungen"
 
-#: ../../action-types/user-task.rst:58 ../../action-types/user-task.rst:58
+#: ../../action-types/user-task.rst:58
 msgid "Use the user task’s `Reminders` configuration panel tab to set up task deadline notifications. If you configure a `Due date` or `Reminder` period, then Signavio Workflow will send email when the deadline expires."
 msgstr "Unter `Erinnerungen` können Sie die Fälligkeit für einzelne Aufgaben festlegen. Wenn Sie eine `Fälligkeit` oder `Erinnerung` festlegen, wird Signavio Workflow für die von Ihnen konfigurierte Periode Erinnerungen versenden."
 
-#: ../../action-types/user-task.rst:64 ../../action-types/user-task.rst:64
+#: ../../action-types/user-task.rst:64
 msgid "Configuring user task reminders in the process editor"
 msgstr "Erinnerungen im Prozesseditor konfigurieren"
 
-#: ../../action-types/user-task.rst:66 ../../action-types/user-task.rst:66
+#: ../../action-types/user-task.rst:66
 msgid "Signavio Workflow sends these notifications to the task’s assignee if the task has an assignee, or to all of the task’s candidates if the task it not assigned. If the task remains unassigned and does not have any candidates, Signavio Workflow sends the notification to the process’ owner."
 msgstr "Signavio Workflow sendet die Erinnerungen an den Verantwortlichen, wenn die Aufgabe einer Person zugewiesen ist. Ist die Aufgabe noch nicht zugewiesen, bekommen alle Kandidaten eine Benachrichtigung. Sollte die Aufgabe niemandem zugewiesen sein und sind auch keine Kandidaten konfiguriert, so bekommt der Prozess-Eigentümer die Benachrichtigung."
 
-#: ../../action-types/user-task.rst:72 ../../action-types/user-task.rst:72
+#: ../../action-types/user-task.rst:72
 msgid "Escalations"
 msgstr "Eskalation"
 
-#: ../../action-types/user-task.rst:74 ../../action-types/user-task.rst:74
+#: ../../action-types/user-task.rst:74
 msgid "You can also use the :ref:`Reminders <reminders>` configuration panel tab to configure escalations. If you configure an `Escalation` period and an assignee, then Signavio Workflow will automatically reassign the task when the deadline expires, and send a notification to the new assignee."
 msgstr "Sie können die Konfiguration für :ref:`Erinnerungen <reminders>` auch dazu nutzen, um Eskalationen zu definieren. Wenn Sie dies tun, wird Signavio Workflow die Aufgabe automatisch nach Ablauf der von Ihnen festgelegten Zeitspanne an die von Ihnen konfigurierte Person zuweisen. Der neue Verantwortliche für die Aufgabe erhält auch eine Benachrichtigung von Signavio Workflow."
 
-#: ../../action-types/user-task.rst:79 ../../action-types/user-task.rst:79
+#: ../../action-types/user-task.rst:79
 msgid "Sometimes, you don’t know who will take over a task that has passed its escalation deadline, so you choose one person in the process model. Instead, you can escalate task assignment to multiple people, or select a group."
 msgstr "Manchmal wissen Sie nicht, wer eine Aufgabe, deren Eskalations-Deadline überschritten ist, übernehmen soll. In solchen Fällen können Sie die Aufgabenzuweisung an mehrere Personen oder eine Gruppe eskalieren."
 
-#: ../../action-types/user-task.rst:83 ../../action-types/user-task.rst:83
+#: ../../action-types/user-task.rst:83
 msgid "Access Rights"
 msgstr "Zugriffsrechte"
 
-#: ../../action-types/user-task.rst:85 ../../action-types/user-task.rst:85
+#: ../../action-types/user-task.rst:85
 msgid "Use the `Access Rights` tab to set permissions for viewing, assigning and completing the task. See :ref:`Restricting access to user tasks <user-task-access>` for details."
 msgstr "Mit den `Zugriffsrechten` können Sie beeinflussen, wer eine Aufgabe sehen und bearbeiten kann. Nähere Informationen hierzu finden Sie unter :ref:`Zugriff auf Aufgaben einschränken <user-task-access>`. "
 
-#: ../../action-types/send-email.rst:4 ../../action-types/send-email.rst:4
+#: ../../action-types/send-email.rst:4
 msgid "Send email"
 msgstr "Email senden"
 
-#: ../../action-types/send-email.rst:8 ../../action-types/send-email.rst:8
+#: ../../action-types/send-email.rst:8
 msgid "A send email task in the process editor"
 msgstr "Eine Email senden Aktion im Prozess-Editor"
 
-#: ../../action-types/send-email.rst:10 ../../action-types/send-email.rst:10
+#: ../../action-types/send-email.rst:10
 msgid "The send email action sends an email to the specified user. In the configuration you can specify the following."
 msgstr "Die *E-mail senden*-Aktion sendet eine Email an einen spezifischen Nutzer. In der Konfiguration können Sie Folgendes hinterlegen:"
 
-#: ../../action-types/send-email.rst:15 ../../action-types/send-email.rst:15
+#: ../../action-types/send-email.rst:15
 msgid "Sender name"
 msgstr "Absendername"
 
-#: ../../action-types/send-email.rst:14 ../../action-types/send-email.rst:14
+#: ../../action-types/send-email.rst:14
 msgid "By default, Signavio Workflow sends the email with the `From` field set to *Signavio Workflow*. You can set this field to set the `From` field to your company or department name."
 msgstr "Sie können in das *Absendername*-Feld zum Beispiel den Namen Ihrer Firma oder Abteilung eintragen. Standardmäßig verschickt Signavio Workflow Emails mit dem Absendernamen *Signavio Workflow*."
 
-#: ../../action-types/send-email.rst:20 ../../action-types/send-email.rst:20
+#: ../../action-types/send-email.rst:20
 msgid "To"
 msgstr "An"
 
-#: ../../action-types/send-email.rst:18 ../../action-types/send-email.rst:18
+#: ../../action-types/send-email.rst:18
 msgid "The people who Signavio Workflow sends the email to. You can enter one or more plain email addresses, or select email :ref:`variables <variables>` or users in the organization. Note that if you enter a plain email address, you must then select it from the pick list."
 msgstr "Die Adressen bzw. Personen, an die Signavio Workflow die Email verschickt. Hier können Sie eine oder mehrere Emailadressen direkt eintragen, eine :ref:`Variable <variables>` verwenden oder Benutzer Ihrer Organisation auswählen. Wählen Sie nach der Eingabe das gewünschte Feld der Auswahlliste."
 
-#: ../../action-types/send-email.rst:24 ../../action-types/send-email.rst:24
+#: ../../action-types/send-email.rst:24
 msgid "Reply to"
 msgstr "Antwort an"
 
-#: ../../action-types/send-email.rst:23 ../../action-types/send-email.rst:23
+#: ../../action-types/send-email.rst:23
 msgid "Signavio Workflow sends emails from the address `notifications@workflow.signavio.com`, which you cannot reply to. If you set this field to an alternative email address, you override the address for replies to the email."
 msgstr "Signavio Workflow verschickt die Emails über die Adresse `notifications@workflow.signavio.com`. Sie können dieser Adresse nicht antworten. Wenn Sie über das `Antwort an`-Feld eine Adresse hinterlegen, werden Antworten automatisch an diese Adresse verschickt."
 
-#: ../../action-types/send-email.rst:31 ../../action-types/send-email.rst:31
+#: ../../action-types/send-email.rst:31
 msgid "Subject"
 msgstr "Betreff"
 
-#: ../../action-types/send-email.rst:27 ../../action-types/send-email.rst:27
+#: ../../action-types/send-email.rst:27
 msgid "The email subject line. To use :ref:`variables <variables>` in the subject, type a `#` and select a field from the list. If the list contains too many variables, you can just keep typing after the `#` to filter the list. You can use the arrow keys to move the section, and *Enter* to select a field. To remove a variable, just delete it the same way you delete normal text."
 msgstr "Die Betreffzeile der Email. Um :ref:`Variablen <variables>` zu verwenden, geben Sie ein `#`-Zeichen ein und wählen Sie ein Feld aus der Liste aus. Fall die Liste zu lang ist, tippen Sie nach der `#` einfach weiter, um die Ergebnisse zu filtern. Sie können mit den Pfeiltasten den gewünschten Vorschlag auswählen und die Auswahl mit *Enter* bestätigen. Eine Variable können Sie wie normalen Text wieder entfernen.\""
 
-#: ../../action-types/send-email.rst:35 ../../action-types/send-email.rst:35
+#: ../../action-types/send-email.rst:35
 msgid "Attachments"
 msgstr "Dateianhänge"
 
-#: ../../action-types/send-email.rst:34 ../../action-types/send-email.rst:34
+#: ../../action-types/send-email.rst:34
 msgid "To add attachments, click the *Attachments* field and select a file field from the list. The list includes trigger email attachments and file upload form fields."
 msgstr "Um Anhänge hinzuzufügen, wählen Sie das *Anhänge*-Feld aus und selektieren Sie ein Dateienfeld der Liste. Die Liste enthält Email-Anhänge von Auslösern und Dateiupload Formularfelder."
 
-#: ../../action-types/send-email.rst:40 ../../action-types/send-email.rst:39
+#: ../../action-types/send-email.rst:39 ../../action-types/send-email.rst:40
 msgid "Body text"
 msgstr "Inhaltstext"
 
-#: ../../action-types/send-email.rst:38 ../../action-types/send-email.rst:38
+#: ../../action-types/send-email.rst:38
 msgid "You can use variables in the main email body by typing a `#`, just like in the *Subject*. You can use `Markdown <http://daringfireball.net/projects/markdown/basics>`_ to format the email body by formatting text or including hyperlinks, headings or lists. Select the `Preview` tab to see how Signavio Workflow will format your email."
 msgstr "Wie in der Betreffzeile können Sie im Inhaltstext Variablen mit dem `#`-Zeichen referenzieren. Mit `Markdown <http://daringfireball.net/projects/markdown/basics>`_ können Sie die den Text formatieren und zum Beispiel Überschriften, Listen und Links einfügen. Wählen Sie den `Vorschau`-Tab aus, um zu sehen, wie der formatierte Text aussieht."
 
-#: ../../action-types/google.rst:4 ../../action-types/google.rst:4
+#: ../../action-types/google.rst:4
 msgid "Google Drive - Upload file"
 msgstr "Google Drive - Datei hochladen"
 
-#: ../../action-types/google.rst:8 ../../action-types/google.rst:8
+#: ../../action-types/google.rst:8
 msgid "A Google Drive *Upload file* task in the process editor"
 msgstr "Eine Google Drive *Datei hochladen*-Aktion im Prozesseditor"
 
-#: ../../action-types/google.rst:10 ../../action-types/google.rst:10
+#: ../../action-types/google.rst:10
 msgid "The Google Drive `Upload file` action sends one or more files to an account of your choice."
 msgstr "Die Google Drive `Dateiupload` Aktion sendet eine oder mehrere Dateien zu einem Google Drive Konto Ihrer Wahl."
 
-#: ../../action-types/google.rst:15 ../../action-types/google.rst:84
-#: ../../action-types/google.rst:122 ../../action-types/box.rst:12
 #: ../../action-types/box.rst:12 ../../action-types/google.rst:15
 #: ../../action-types/google.rst:84 ../../action-types/google.rst:122
 msgid "Configuration"
 msgstr "Konfiguration"
 
-#: ../../action-types/google.rst:17 ../../action-types/google.rst:17
+#: ../../action-types/google.rst:17
 msgid "After creating a Google Drive `Upload file` action, the configuration panel shows a button to start configuring the account."
 msgstr "Nach Erstellung einer Google Drive `Dateiupload` Aktion, wird im Konfigurationspanel ein Button angezeigt um das Konto auszuwählen."
 
-#: ../../action-types/google.rst:20 ../../action-types/google.rst:20
+#: ../../action-types/google.rst:20
 msgid "When you click on the button `Configure a Google Drive account`, a popup window will appear that helps you integrate Signavio Workflow with your Google Drive account."
 msgstr "Wenn Sie den Knopf `Fügen Sie ein Google Drive Konto hinzu` klicken, öffnet sich ein Popup welches Sie durch die weiteren Schritte leitet, um die Integration zwischen Signavio Workflow und Google Drive aufzusetzen."
 
-#: ../../action-types/google.rst:22 ../../action-types/google.rst:22
+#: ../../action-types/google.rst:22
 msgid "Google will check that you have already logged in to Google. This check has three possible outcomes:"
 msgstr "Google prüft nun ob Sie bereits eingeloggt sind. Die Überprüfung hat drei mögliche Resultate führen kann:"
 
-#: ../../action-types/google.rst:25 ../../action-types/google.rst:25
+#: ../../action-types/google.rst:25
 msgid "If you have already authenticated with a single user to Google, the set-up process skips the log in page and you go straight to the :ref:`permission screen <drive-permission>` below."
 msgstr "Wenn Sie bereits eingeloggt sind und genau ein Google Konto besitzen, werden Sie direkt aufgefordert Signavio Workflow :ref:`gewisse Aktionen zu erlauben <drive-permissions>`."
 
-#: ../../action-types/google.rst:27 ../../action-types/google.rst:27
+#: ../../action-types/google.rst:27
 msgid "If you haven’t authenticated with Google, you will see a log in window:"
 msgstr "Falls Sie noch nicht eingeloggt sind, sehen Sie ein Login-Fenster:"
 
-#: ../../action-types/google.rst:31 ../../action-types/google.rst:31
+#: ../../action-types/google.rst:31
 msgid "Google Drive login"
 msgstr "Google Drive Login"
 
-#: ../../action-types/google.rst:33 ../../action-types/google.rst:33
+#: ../../action-types/google.rst:33
 msgid "If you have authenticated with multiple Google accounts, select the account you want to use."
 msgstr "Falls Sie mehrere Konten bei Google Drive hinterlegt haben, wählen Sie nun das gewünschte Konto aus."
 
-#: ../../action-types/google.rst:35 ../../action-types/google.rst:35
+#: ../../action-types/google.rst:35
 msgid "After you have completed authentication, you’ll see the following page that allows you to give Signavio Workflow access to your Google account."
 msgstr "Nachdem Sie erfolgreich authentifiziert wurden, sehen Sie den folgenden Dialog, über den Sie Signavio Workflow Zugriff auf bestimmte Aktionen innerhalb Ihres Google Kontos gestatten."
 
-#: ../../action-types/google.rst:40 ../../action-types/google.rst:40
+#: ../../action-types/google.rst:40
 msgid "Google Drive permission grant"
 msgstr "Zugriffsbeschränkungen in Google Drive"
 
-#: ../../action-types/google.rst:42 ../../action-types/google.rst:42
+#: ../../action-types/google.rst:42
 msgid "After accepting the permissions, the pop up will disappear and Signavio Workflow will have completed connecting to your account."
 msgstr "Nachdem der Zugriff gewährt wurde, schließt sich das Popup-Fenster. Damit ist die Verknüpfung zu Ihrem Konto eingerichtet."
 
-#: ../../action-types/google.rst:45 ../../action-types/box.rst:29
 #: ../../action-types/box.rst:29 ../../action-types/google.rst:45
 msgid "Upload file action"
 msgstr "Dateiupload Aktion"
 
-#: ../../action-types/google.rst:47 ../../action-types/google.rst:47
+#: ../../action-types/google.rst:47
 msgid "Once you have configured your Google Drive account, the `Upload file` action configuration panel displays the account and also shows the folders in `My Drive` in your Google Drive account."
 msgstr "Wenn Sie Ihr Google Drive-Konto verknüpft haben, zeigt das Konfigurationspanel alle Verzeichnisse innerhalb Ihres Kontos an."
 
-#: ../../action-types/google.rst:53 ../../action-types/google.rst:53
+#: ../../action-types/google.rst:53
 msgid "Google Drive `Upload file` authenticated configuration"
 msgstr "Google Drive `Datei-Upload` Konfiguration"
 
-#: ../../action-types/google.rst:55 ../../action-types/box.rst:39
 #: ../../action-types/box.rst:39 ../../action-types/google.rst:55
 msgid "Other people in your organization can see that you have configured an account, but they cannot see your email address or browse your account folders."
 msgstr "Andere Personen in Ihrer Organisation werden sehen können, dass Sie Ihren Box Account hinterlegt haben. Es ist diesen jedoch nicht möglich, Ihre Emailadresse einzusehen oder die Ordner Ihres Accounts einzusehen."
 
-#: ../../action-types/google.rst:57 ../../action-types/google.rst:57
+#: ../../action-types/google.rst:57
 msgid "In the `Target folder` section you can now browse and select the folder you want to upload the file(s) to."
 msgstr "Unter `Zielordner` legen Sie fest, wo Ihre Dateien gespeichert werden sollen."
 
-#: ../../action-types/google.rst:59 ../../action-types/box.rst:43
 #: ../../action-types/box.rst:43 ../../action-types/google.rst:59
 msgid "Next to `Folder name template`, you can optionally specify a subfolder name to create inside the target folder. This name template can include process variables, so you can create new subfolders dynamically to organise your files. For example, if your process variables include a unique customer ID, then you can use that to save each customer’s files in a separate folder. Use a forward slash (``/``) to separate nested subfolder levels."
 msgstr "Im Feld `Vorlage für Ordnername` können Sie den Namen eines Unterordners spezifizieren, der im von Ihnen gewählten Verzeichnis angelegt werden soll. Für den Namen können Sie auch Felder aus dem Prozess verwenden, um so dynamisch Ordner anzulegen. Wenn Sie zum Beispiel eine Kundennummer aufnehmen, können Sie Dokumente, die Sie einem Kunden zuordnen möchten immer im entsprechenden Ordner ablegen. Wenn Sie Felder durch einen Schrägstrich (``/``) voneinander trennen, legt Signavio Workflow sogar ganze Hierarchien von Ordnern für Sie an. "
 
-#: ../../action-types/google.rst:67 ../../action-types/box.rst:51
 #: ../../action-types/box.rst:51 ../../action-types/google.rst:67
 msgid "Next to `Files to upload`, you can select the variable field containing one or more files to upload. If the process did not already include a file variable, Signavio Workflow automatically creates a variable called 'File'. If the process variables did include a file or list of files, Signavio Workflow preselects it."
 msgstr "Neben `Hochzuladende Dateien` können Sie eine oder mehrere Dateien auswählen, die Sie hochladen möchten. Falls der Prozess noch keine Datei-Variable besitzt, erstellt Signavio Workflow automatisch eine Variable mit dem Namen 'Datei'. Falls die Prozessvariablen eine Datei oder eine Liste von Dateien beinhalteten, markiert Signavio Workflow diese."
 
-#: ../../action-types/google.rst:73 ../../action-types/google.rst:73
+#: ../../action-types/google.rst:73
 msgid "Google Drive - Print file"
 msgstr "Google Drive - Datei drucken"
 
-#: ../../action-types/google.rst:77 ../../action-types/google.rst:77
+#: ../../action-types/google.rst:77
 msgid "A Google Drive *Print file* task in the process editor"
 msgstr "Eine Google Drive *Datei drucken*-Aktion im Prozesseditor"
 
-#: ../../action-types/google.rst:79 ../../action-types/google.rst:79
+#: ../../action-types/google.rst:79
 msgid "The Google Drive `Print File` action uses `Google Cloud Print <http://www.google.com/cloudprint/learn/>`_ to print a file that has been uploaded to a case."
 msgstr "Die Google Drive `Datei drucken` Aktion benutzt `Google Cloud Print <http://www.google.com/cloudprint/learn/>`_ um Dateien zu drucken, die in einem Fall hochgeladen wurden."
 
-#: ../../action-types/google.rst:90 ../../action-types/google.rst:90
-msgid "When you have authenticated with a Google account and granted permission, you can configure the `Print file` action."
-msgstr "Wenn Sie einen Google Drive Account hinterlegt haben, können Sie die `Datei drucken`-Aktion konfigurieren."
-
-#: ../../action-types/google.rst:95 ../../action-types/google.rst:95
-msgid "Print file action"
-msgstr "Datei drucken Aktion"
-
-#: ../../action-types/google.rst:97 ../../action-types/google.rst:97
-msgid "Once you have configured your Google Drive account, the `Print file` action configuration panel displays the account, the printer settings, and the selected file to print."
-msgstr "Nachdem Sie Ihren Google Drive Account hinterlegt haben können Sie in der `Datei drucken` Aktion die Druckereinstellungen und die Datei, die gedruckt werden soll, konfigurieren."
-
-#: ../../action-types/google.rst:103 ../../action-types/google.rst:103
-msgid "Google Drive `Print file` authenticated configuration"
-msgstr "Google Drive `Datei drucken` Konfiguration"
-
-#: ../../action-types/google.rst:105 ../../action-types/google.rst:105
-msgid "In the section `Files to upload` you can select the file variable that holds the file you want to print."
-msgstr "Im Abschnitt `Zu druckende Dateien` wählen Sie die Dateien aus, die Sie drucken möchten."
-
-#: ../../action-types/google.rst:112 ../../action-types/google.rst:112
-msgid "Google Drive - Add row to sheet"
-msgstr "Google Drive - Zeile in Tabelle hinzufügen"
-
-#: ../../action-types/google.rst:116 ../../action-types/google.rst:116
-msgid "A Google Drive *Add row to sheet* task in the process editor"
-msgstr "Eine Google Drive *Zeile in Tabelle hinzufügen*-Aktion im Prozesseditor"
-
-#: ../../action-types/google.rst:118 ../../action-types/google.rst:118
-msgid "The Google Drive *Add row to sheet* action adds a row to a Google Sheets spreadsheet. You can use this to save the values of process variables at process milestones, and build a custom overview of cases."
-msgstr "Eine Google Drive *Zeile in Tabelle hinzufügen*-Aktion fügt eine Zeile zu einem Google Sheets Tabellenblatt hinzu. So können Sie Prozessvariablen beim Erreichen von Meilensteinen abspeichern und eine individuelle Übersicht über Ihre Fälle erstellen."
-
-#: ../../action-types/google.rst:128 ../../action-types/google.rst:128
-msgid "When you have authenticated with a Google account and granted permission, you can configure the *Add row to sheet* action."
-msgstr "Sobald Sie sich mit Ihrem Google-Account authentifiziert und den Zugriff bestätigt haben, können Sie die *Zeile in Tabelle hinzufügen*-Aktion konfigurieren."
-
-#: ../../action-types/google.rst:132 ../../action-types/google.rst:132
-msgid "Add row to sheet action"
-msgstr "Zeile in Tabelle hinzufügen-Aktion"
-
-#: ../../action-types/google.rst:134 ../../action-types/google.rst:134
-msgid "Once you have configured your Google Drive account, the *Add row to sheet* action configuration panel displays the account, the spreadsheet, the worksheet within the spreadsheet, and the worksheet columns."
-msgstr "Sobald Sie Ihren Google Drive-Account hinterlegt haben, zeigt das *Zeile in Tabelle hinzufügen*-Aktion-Konfigurationspanel den Account, die Tabellenmappe, das Datenblatt der Mappe und die Tabellenspalten an."
-
-#: ../../action-types/google.rst:140 ../../action-types/google.rst:140
-msgid "Google Drive *Add row to sheet* authenticated configuration"
-msgstr "Google Drive *Zeile in Tabelle hinzufügen*: Konfigurationseinstellung nach erfolgreicher Authentifizierung"
-
-#: ../../action-types/google.rst:142 ../../action-types/google.rst:142
-msgid "Each column name, such as *Customer name* in this example, comes from a column heading in the spreadsheet. For each column, select one of the :ref:`variables <variables>` from the list."
-msgstr "Die Spaltennamen, wie im Beispiel *Kundenname*, werden auf Basis der Tabellenspalten generiert. Wählen Sie für jede Spalte eine :ref:`Variable <variables>` aus der Liste aus."
-
-#: ../../action-types/box.rst:2 ../../action-types/box.rst:2
-msgid "Box Upload file"
-msgstr "Box Dateiupload"
-
-#: ../../action-types/box.rst:6 ../../action-types/box.rst:6
-msgid "A box upload file task in the process editor"
-msgstr "Eine Box Datei-Upload Aktion im Prozesseditor"
-
-#: ../../action-types/box.rst:8 ../../action-types/box.rst:8
-msgid "The `Box <http://www.box.com/>`_ `Upload file` action saves one or more files to a Box account that you select."
-msgstr "Die `Box <http://www.box.com>`_ `Dateiupload` Aktion speichert eine oder mehrere Dateien in einem von Ihnen konfigurierten Box Account."
-
-#: ../../action-types/box.rst:14 ../../action-types/box.rst:14
-msgid "After creating a Box `Upload file` action, the configuration panel shows a button to start configuring the account."
-msgstr "Nachdem Sie eine Box `Dateiupload` Aktion angelegt haben, sehen Sie im Konfigurationsdialog einen Knopf um Ihren Box Account mit Signavio Workflow zu verbinden."
-
-#: ../../action-types/box.rst:17 ../../action-types/box.rst:17
-msgid "When you click the `Configure a Box account` button, a popup window will open for you to authorise Signavio Workflow to use your Box account. After logging in to your Box account, if you have not already logged in, Box shows an authorization page."
-msgstr "Wenn sie auf `Fügen Sie ein Box Konto hinzu` klicken, öffnet sich ein Popup-Fenster, dass Sie auffordert, Signavio Workflow Zugriff auf Ihren Box Account zu geben. Dazu müssen Sie sich gegebenenfalls noch in Ihrem Box Account anmelden."
-
-#: ../../action-types/box.rst:24 ../../action-types/box.rst:24
-msgid "Box permission grant, after logging in to Box"
-msgstr "Erlauben Sie Signavio Workflow den Zugriff auf Ihren Box Account."
-
-#: ../../action-types/box.rst:26 ../../action-types/box.rst:26
-msgid "After granting access, the pop up will close and Signavio Workflow will have connected to your Box account."
-msgstr "Nachdem Sie Signavio Workflow den Zugriff gestattet haben, schließt sich das Fenster. Signavio Workflow ist nun mit Ihrem Box Account verbunden."
-
-#: ../../action-types/box.rst:31 ../../action-types/box.rst:31
-msgid "Once you have configured your Box account, the `Upload file` action configuration panel displays the account and also shows the folders in `All Files` in your Box account."
-msgstr "Sobald Ihr Account konfiguriert ist, sehen Sie in der `Dateiupload` Aktion den von Ihnen verknüpften Account, sowie die weiteren Konfigurationsmöglichkeiten. "
-
-#: ../../action-types/box.rst:37 ../../action-types/box.rst:37
-msgid "Box authenticated configuration"
-msgstr "Box `Dateiupload` Konfiguration"
-
-#: ../../action-types/box.rst:41 ../../action-types/box.rst:41
-msgid "On the configuration panel, next to `Target folder`, you can now browse and select the folder you want to upload the file(s) to."
-msgstr "In der Konfiguration gleich neben `Zielordner` können Sie Ihre Ordner durchstöbern und den Ordner auswählen, in den die Dateien hochgeladen werden sollen. "
-
-#: ../../action-types/javascript.rst:4 ../../action-types/javascript.rst:4
-msgid "JavaScript action"
-msgstr "JavaScript"
-
-#: ../../action-types/javascript.rst:10 ../../action-types/javascript.rst:10
-msgid "After creating or selecting a JavaScript action, the configuration panel looks like this:"
-msgstr "Nachdem eine JavaScript-Aktion erstellt oder ausgewählt wurde, sieht der Konfigurationsdialog wie folgt aus:"
-
-#: ../../action-types/javascript.rst:14 ../../action-types/javascript.rst:14
-msgid "JavaScript configuration panel"
-msgstr "JavaScript Konfigurationsdialog"
-
-#: ../../action-types/javascript.rst:16 ../../action-types/javascript.rst:16
-msgid "The top section of the panel contains the JavaScript text editor. By default, it already contains ``console.log('Hello World!');``. Use the `console <https://nodejs.org/dist/latest-v5.x/docs/api/console.html>`_ API for log output when testing scripts."
-msgstr "Der obere Teil des Dialogs enthält den JavaScript Editor. Standardmäßig ist bereits ``console.log('Hello World!');`` eingetragen. Verwenden Sie das `console Modul <https://nodejs.org/dist/latest-v5.x/docs/api/console.html>`_ beim testen von Scripts für den Log-Output."
-
-#: ../../action-types/javascript.rst:20 ../../action-types/javascript.rst:20
-msgid "The lower section allows you to test the script. Click `Test it` to execute the JavaScript code. The test runner displays the results underneath:"
-msgstr "Im unteren Teil können Sie ihr Script testen. Klicken Sie hierzu auf `Test starten`. Die Ergebnisse eines Testlaufs werden direkt darunter angezeigt."
-
-#: ../../action-types/javascript.rst:26 ../../action-types/javascript.rst:26
-msgid "JavaScript test output"
-msgstr "JavaScript Test-Ausgabe"
-
-#: ../../action-types/javascript.rst:28 ../../action-types/javascript.rst:28
-msgid "Next, we'll show how to work with data. Suppose that the process includes a form that has each type of field and looks like this:"
-msgstr "Als nächstes zeigen wir Ihnen, wie Sie mit Daten arbeiten. Nehmen wir einmal an, im Prozess wäre ein Formular mit den folgenden Feldern definiert:"
-
-#: ../../action-types/javascript.rst:33 ../../action-types/javascript.rst:33
-msgid "Form taking input for JavaScript"
-msgstr "Formular als Eingabe für das JavaScript"
-
-#: ../../action-types/javascript.rst:35 ../../action-types/javascript.rst:35
-msgid "When you open the JavaScript configuration again, you'll see the variables section shows some of the form field variables."
-msgstr "Wenn Sie die Konfiguration für die JavaScript Aktion erneut öffnen können Sie sehen, das im unteren Teil einige der Formularfelder als Variablen angezeigt werden."
-
-#: ../../action-types/javascript.rst:39 ../../action-types/javascript.rst:39
-msgid "JavaScript variables"
-msgstr "JavaScript Variablen"
-
-#: ../../action-types/javascript.rst:41 ../../action-types/javascript.rst:41
-msgid "Click `Show all fields` and select the variables you want to access in the script. In this example (below), you have selected all variables. For each variable that you select, you get an input field to specify a test value. Here you see all fields with a test value."
-msgstr "Klicken Sie auf `Alle Felder anzeigen` und wählen Sie die Variablen aus, auf die Sie im Script zugreifen möchten. In unserem Beispiel sind alle Variablen ausgewählt. Für jede ausgewählte Variable wird ein Eingabefeld erstellt, indem Sie Testwerte hinterlegen können. Im Beispiel haben alle Felder einen Testwert."
-
-#: ../../action-types/javascript.rst:48 ../../action-types/javascript.rst:48
-msgid "JavaScript test values"
-msgstr "JavaScript Testwerte"
-
-#: ../../action-types/javascript.rst:50 ../../action-types/javascript.rst:50
-msgid "When clicking `Test it` again, we can see the JSON structure of the variable data for the different variable types."
-msgstr "Geben Sie ein paar Testwerte ein und klicken Sie anschließend erneut auf `Test starten`. Sie können nun sehen, wie jedes Feld im JavaScript repräsentiert wird. "
-
-#: ../../action-types/javascript.rst:54 ../../action-types/javascript.rst:54
-msgid "JavaScript JSON values"
-msgstr "JavaScript JSON-Werte"
-
-#: ../../action-types/javascript.rst:56 ../../action-types/javascript.rst:56
-msgid "You can use these variables to send data to an external web service, using the `request module <https://github.com/mikeal/request/blob/master/README.md>`_. For example, the following script sends the value of the ``startDate`` variable in an HTTP POST request to an external web service. ::"
-msgstr "Die verschiedenen Felder können Sie jetzt nutzen, um zum Beispiel einen externen Service anzusprechen. Wir stellen Ihnen hierfür das `request Modul <https://github.com/mikeal/request/blob/master/README.md>`_ zur Verfügung. Das folgende Script sendet Beispielsweise den Wert der Variable ``startDate`` per HTTP POST Request an einen externen Web-Service. ::"
-
-#: ../../action-types/javascript.rst:81 ../../action-types/javascript.rst:81
-msgid "This example uses a test endpoint configured using `Mocky <http://www.mocky.io/>`_ to return an HTTP response. This has the following result in the Signavio Workflow test console:"
-msgstr "Der Endpunkt im Beispiel wurde bei `Mocky <http://www.mocky.io/>`_ so konfiguriert, dass er eine HTTP Response zurück gibt. In der Signavio Workflow Konsole würden Sie dann die folgenden Ergebnisse sehen:"
-
-#: ../../action-types/javascript.rst:87 ../../action-types/javascript.rst:87
-msgid "Updating a variable via an external web service"
-msgstr "Den Wert eines Feldes mit Hilfe eines externen Web Services setzen"
-
-#: ../../action-types/javascript.rst:89 ../../action-types/javascript.rst:89
-msgid "The two log statements, starting with *HTTP 200*, show the HTTP response from the web service. The response body (as set-up in Mocky) contains JSON data that includes an updated value for the ``startDate`` variable, changing the date from ``2015-06-15`` to ``2015-06-16``."
-msgstr "Die beiden mit *HTTP 200* beginnenden Logeinträge zeigen die Antwort des Web-Services. Der Response Body (der in Mocky konfiguriert wurde) beinhaltet JSON Daten, die einen neuen Wert für das Feld ``startDate`` beinhalten und es von ``2015-06-15`` zu ``2015-06-16`` ändern."
-
-#: ../../action-types/javascript.rst:95 ../../action-types/javascript.rst:95
-msgid "The script then parses this JSON response using ``JSON.parse`` and updates the ``startDate`` variable in Signavio Workflow, as shown in the *Updated value* column in the test console’s variables table."
-msgstr "Unser Skript parst den Wert der Response mittels ``JSON.parse`` und aktualisiert anschließend das ``startDate`` Feld in Signavio Workflow. Dieses Verhalten sehen Sie auch in der Spalte *Neu zugewiesener Wert* in der Test-Konsole."
-
-#: ../../action-types/sub-process.rst:4 ../../action-types/sub-process.rst:4
-msgid "Sub-process"
-msgstr "Subprozess"
-
-#: ../../action-types/sub-process.rst:8 ../../action-types/sub-process.rst:8
-msgid "A sub-process in the process editor"
-msgstr "Ein Subprozess im Prozesseditor"
-
-#: ../../action-types/sub-process.rst:10 ../../action-types/sub-process.rst:10
-msgid "A sub-process action represents an entire process as a single task. You can use sub-processes to simplify complex process models, by collapsing each sub-process into a single action. Then you can open the sub-process to see the next level of detail. You can also use sub-process to delegate responsibility for the process model to a different process owner."
-msgstr "Über Subprozess-Aktion wird ein ganzer Prozess zu einem einzigen Task zusammengefasst. Mit der Hilfe von Subprozessen können Sie komplexe Prozessmodelle vereinfachen. Wenn Sie den Subprozess öffnen, gelangen Sie dementsprechend auf die nächste Detailebene. Über Subprozesse können Sie zudem die Verantwortung für das Prozessmodel auf einen anderen Prozessverantwortlichen übertragen."
-
-#: ../../action-types/sub-process.rst:17 ../../action-types/sub-process.rst:17
-msgid "Configuring a sub-process and mapping an *Invoice* variable to a trigger form field"
-msgstr "Konfiguration eines Subprozesses und Mapping der Variablen *Rechnung* zu einem Auslöser-Formularfeld"
-
-#: ../../action-types/sub-process.rst:19 ../../action-types/sub-process.rst:19
-msgid "Configure the sub-process action in the process builder by selecting it, and choosing a process from the list. You cannot select the same process as the parent process, which would cause a loop, or an unpublished process."
-msgstr "Konfigurieren Sie den Subprozess, indem Sie das Element im Prozesseditor anklicken und einen Prozess aus der Liste auswählen. Es ist nicht möglich, einen Elternprozess auszuwählen, da dies eine Endlosschleife erzeugen würde. Zudem muss der referenzierte Prozess veröffentlicht sein."
-
-#: ../../action-types/sub-process.rst:22 ../../action-types/sub-process.rst:22
-msgid "If you select a sub-process with a trigger form, you can also select variables that Signavio Workflow will use to auto-fill the trigger form fields when starting the sub-process case. In the example above, Signavio Workflow will populate the sub-process’ *Unpaid invoice* trigger form field with the file stored in the parent process’ *Invoice* variable."
-msgstr "Falls Sie einen Subprozess mit einem Auslöser-Formular gewählt haben, können Sie auch Variablen auswählen, die Signavio Workflow benutzen soll, um die Auslöser-Formularfelder automatisch auszufüllen, wenn der Subprozess gestartet wird. Im obenstehenden Beispiel, wird Signavio Workflow das Auslöser-Formularfeld *Unbezahlte Rechnung* des Subprozesses mit Hilfe der Datei ausfüllen, die im Hauptprozess als *Rechnung*-Variable definiert ist."
-
-#: ../../action-types/sub-process.rst:25 ../../action-types/sub-process.rst:25
-msgid "When Signavio Workflow creates a sub-process, it starts a new case in the selected sub-process. After completing the sub-process case, Signavio Workflow continues executing the parent case."
-msgstr "Wenn Signavio Workflow eine Subprozessinstanz erstellt, wird ein neuer Fall im referenzierten Prozess gestartet. Nachdem dieser Prozess beendet ist, geht die Ausführung im Elternprozess weiter."
-
-#: ../../action-types/javascript.rst:6 ../../action-types/javascript.rst:6
-msgid "The JavaScript action allows developers to add JavaScript to process execution. Signavio Workflow runs the code on the server, using `Node.js <https://nodejs.org>`_. As well as Node.js’ JavaScript API, scripts can use the `lodash <https://www.npmjs.com/package/lodash>`_ and `request <https://www.npmjs.com/package/request>`_ libraries."
-msgstr "Die JavaScript-Aktion erlaubt es Entwicklern, JavaScript zur Ausführung ihrer Prozesse hinzuzufügen. Signavio Workflow führt die Scripts unter Verwendung von `Node.js <https://nodejs.org>`_ auf dem Server aus. Zudem können Scripts auch die `lodash <https://www.npmjs.com/package/lodash>`_  und `request <https://www.npmjs.com/package/request>`_ Bibliotheken verwenden."
-
-#: ../../action-types/google.rst:86 ../../action-types/google.rst:86
+#: ../../action-types/google.rst:86
 msgid "After creating a Google Drive `Print file` action, the configuration panel shows a button to start configuring the account. This configuration has the same steps as in the :ref:`Upload file configuration <upload-file-configuration>` (above)."
 msgstr "Nachdem Sie die Google Drive *Datei drucken*-Aktion erstellt haben, wird Ihnen - analog zu den anderen Google Drive-Aktionen - eine Schaltfläche angezeigt, über die Sie ein Google Drive Konto wie unter :ref:`Datei hochladen - Konfiguration <upload-file-configuration>` beschrieben hinterlegen können."
 
-#: ../../action-types/google.rst:124 ../../action-types/google.rst:124
+#: ../../action-types/google.rst:90
+msgid "When you have authenticated with a Google account and granted permission, you can configure the `Print file` action."
+msgstr "Wenn Sie einen Google Drive Account hinterlegt haben, können Sie die `Datei drucken`-Aktion konfigurieren."
+
+#: ../../action-types/google.rst:95
+msgid "Print file action"
+msgstr "Datei drucken Aktion"
+
+#: ../../action-types/google.rst:97
+msgid "Once you have configured your Google Drive account, the `Print file` action configuration panel displays the account, the printer settings, and the selected file to print."
+msgstr "Nachdem Sie Ihren Google Drive Account hinterlegt haben können Sie in der `Datei drucken` Aktion die Druckereinstellungen und die Datei, die gedruckt werden soll, konfigurieren."
+
+#: ../../action-types/google.rst:103
+msgid "Google Drive `Print file` authenticated configuration"
+msgstr "Google Drive `Datei drucken` Konfiguration"
+
+#: ../../action-types/google.rst:105
+msgid "In the section `Files to upload` you can select the file variable that holds the file you want to print."
+msgstr "Im Abschnitt `Zu druckende Dateien` wählen Sie die Dateien aus, die Sie drucken möchten."
+
+#: ../../action-types/google.rst:112
+msgid "Google Drive - Add row to sheet"
+msgstr "Google Drive - Zeile in Tabelle hinzufügen"
+
+#: ../../action-types/google.rst:116
+msgid "A Google Drive *Add row to sheet* task in the process editor"
+msgstr "Eine Google Drive *Zeile in Tabelle hinzufügen*-Aktion im Prozesseditor"
+
+#: ../../action-types/google.rst:118
+msgid "The Google Drive *Add row to sheet* action adds a row to a Google Sheets spreadsheet. You can use this to save the values of process variables at process milestones, and build a custom overview of cases."
+msgstr "Eine Google Drive *Zeile in Tabelle hinzufügen*-Aktion fügt eine Zeile zu einem Google Sheets Tabellenblatt hinzu. So können Sie Prozessvariablen beim Erreichen von Meilensteinen abspeichern und eine individuelle Übersicht über Ihre Fälle erstellen."
+
+#: ../../action-types/google.rst:124
 msgid "After creating a Google Drive *Add row to sheet* action, the configuration panel shows a button to start configuring the account. This configuration has the same steps as in the :ref:`Upload file configuration <upload-file-configuration>`(above)."
 msgstr "Nachdem Sie die Google Drive *Zeile in Tabelle hinzufügen*-Aktion erstellt haben, wird Ihnen - analog zu den anderen Google Drive-Aktionen - eine Schaltfläche angezeigt, über die Sie ein Google Drive Konto wie unter :ref:`Datei hochladen - Konfiguration <upload-file-configuration>` beschrieben hinterlegen können."
 
-#~ msgid ""
-#~ "After creating a Google Drive *Add row to sheet* action, the configuration "
-#~ "panel shows a button to start configuring the account. This configuration "
-#~ "has the same steps as in the `Upload file configuration <upload-file-"
-#~ "configuration>`_ (above)."
-#~ msgstr ""
-#~ "Nachdem Sie die Google Drive *Zeile in Tabelle hinzufügen*-Aktion erstellt "
-#~ "haben, wird Ihnen - analog zu den anderen Google Drive-Aktionen - eine "
-#~ "Schaltfläche angezeigt, über die Sie ein Google Drive Konto wie unter "
-#~ "`upload-file-configuration`_ beschrieben hinterlegen können."
+#: ../../action-types/google.rst:128
+msgid "When you have authenticated with a Google account and granted permission, you can configure the *Add row to sheet* action."
+msgstr "Sobald Sie sich mit Ihrem Google-Account authentifiziert und den Zugriff bestätigt haben, können Sie die *Zeile in Tabelle hinzufügen*-Aktion konfigurieren."
 
-#~ msgid ""
-#~ "After creating a Google Drive `Print file` action, the configuration panel "
-#~ "shows a button to start configuring the account. This configuration has the "
-#~ "same steps as in the `Upload file configuration <upload-file-"
-#~ "configuration>`_ (above)."
-#~ msgstr ""
-#~ "Nachdem Sie eine Google Drive `Datei drucken` Aktion angelegt haben, sehen "
-#~ "Sie einen Knopf um einen Account zu hinterlegen. Der Konfigurationsdialog "
-#~ "ist derselbe, den Sie auch schon bei der `Datei-Upload Konfiguration "
-#~ "<upload-file-configuration>`_ weiter oben gesehen haben."
+#: ../../action-types/google.rst:132
+msgid "Add row to sheet action"
+msgstr "Zeile in Tabelle hinzufügen-Aktion"
+
+#: ../../action-types/google.rst:134
+msgid "Once you have configured your Google Drive account, the *Add row to sheet* action configuration panel displays the account, the spreadsheet, the worksheet within the spreadsheet, and the worksheet columns."
+msgstr "Sobald Sie Ihren Google Drive-Account hinterlegt haben, zeigt das *Zeile in Tabelle hinzufügen*-Aktion-Konfigurationspanel den Account, die Tabellenmappe, das Datenblatt der Mappe und die Tabellenspalten an."
+
+#: ../../action-types/google.rst:140
+msgid "Google Drive *Add row to sheet* authenticated configuration"
+msgstr "Google Drive *Zeile in Tabelle hinzufügen*: Konfigurationseinstellung nach erfolgreicher Authentifizierung"
+
+#: ../../action-types/google.rst:142
+msgid "Each column name, such as *Customer name* in this example, comes from a column heading in the spreadsheet. For each column, select one of the :ref:`variables <variables>` from the list."
+msgstr "Die Spaltennamen, wie im Beispiel *Kundenname*, werden auf Basis der Tabellenspalten generiert. Wählen Sie für jede Spalte eine :ref:`Variable <variables>` aus der Liste aus."
+
+#: ../../action-types/box.rst:2
+msgid "Box Upload file"
+msgstr "Box Dateiupload"
+
+#: ../../action-types/box.rst:6
+msgid "A box upload file task in the process editor"
+msgstr "Eine Box Datei-Upload Aktion im Prozesseditor"
+
+#: ../../action-types/box.rst:8
+msgid "The `Box <http://www.box.com/>`_ `Upload file` action saves one or more files to a Box account that you select."
+msgstr "Die `Box <http://www.box.com>`_ `Dateiupload` Aktion speichert eine oder mehrere Dateien in einem von Ihnen konfigurierten Box Account."
+
+#: ../../action-types/box.rst:14
+msgid "After creating a Box `Upload file` action, the configuration panel shows a button to start configuring the account."
+msgstr "Nachdem Sie eine Box `Dateiupload` Aktion angelegt haben, sehen Sie im Konfigurationsdialog einen Knopf um Ihren Box Account mit Signavio Workflow zu verbinden."
+
+#: ../../action-types/box.rst:17
+msgid "When you click the `Configure a Box account` button, a popup window will open for you to authorise Signavio Workflow to use your Box account. After logging in to your Box account, if you have not already logged in, Box shows an authorization page."
+msgstr "Wenn sie auf `Fügen Sie ein Box Konto hinzu` klicken, öffnet sich ein Popup-Fenster, dass Sie auffordert, Signavio Workflow Zugriff auf Ihren Box Account zu geben. Dazu müssen Sie sich gegebenenfalls noch in Ihrem Box Account anmelden."
+
+#: ../../action-types/box.rst:24
+msgid "Box permission grant, after logging in to Box"
+msgstr "Erlauben Sie Signavio Workflow den Zugriff auf Ihren Box Account."
+
+#: ../../action-types/box.rst:26
+msgid "After granting access, the pop up will close and Signavio Workflow will have connected to your Box account."
+msgstr "Nachdem Sie Signavio Workflow den Zugriff gestattet haben, schließt sich das Fenster. Signavio Workflow ist nun mit Ihrem Box Account verbunden."
+
+#: ../../action-types/box.rst:31
+msgid "Once you have configured your Box account, the `Upload file` action configuration panel displays the account and also shows the folders in `All Files` in your Box account."
+msgstr "Sobald Ihr Account konfiguriert ist, sehen Sie in der `Dateiupload` Aktion den von Ihnen verknüpften Account, sowie die weiteren Konfigurationsmöglichkeiten. "
+
+#: ../../action-types/box.rst:37
+msgid "Box authenticated configuration"
+msgstr "Box `Dateiupload` Konfiguration"
+
+#: ../../action-types/box.rst:41
+msgid "On the configuration panel, next to `Target folder`, you can now browse and select the folder you want to upload the file(s) to."
+msgstr "In der Konfiguration gleich neben `Zielordner` können Sie Ihre Ordner durchstöbern und den Ordner auswählen, in den die Dateien hochgeladen werden sollen. "
+
+#: ../../action-types/javascript.rst:4
+msgid "JavaScript action (Script task)"
+msgstr "JavaScript Aktion (Skript-Aufgabe)"
+
+#: ../../action-types/javascript.rst:6
+msgid "The JavaScript action, called a *Script Task* in BPMN, allows developers to add JavaScript to process execution. Signavio Workflow runs the code on the server, using `Node.js <https://nodejs.org>`_. As well as Node.js’ JavaScript API, scripts can use the `lodash <https://www.npmjs.com/package/lodash>`_ and `request <https://www.npmjs.com/package/request>`_ libraries."
+msgstr "Die JavaScript-Aktion erlaubt es Entwicklern, JavaScript zur Ausführung ihrer Prozesse hinzuzufügen. Signavio Workflow führt die Scripts unter Verwendung von `Node.js <https://nodejs.org>`_ auf dem Server aus. Zudem können Scripts auch die `lodash <https://www.npmjs.com/package/lodash>`_  und `request <https://www.npmjs.com/package/request>`_ Bibliotheken verwenden."
+
+#: ../../action-types/javascript.rst:10
+msgid "After creating or selecting a JavaScript action, the configuration panel looks like this:"
+msgstr "Nachdem eine JavaScript-Aktion erstellt oder ausgewählt wurde, sieht der Konfigurationsdialog wie folgt aus:"
+
+#: ../../action-types/javascript.rst:14
+msgid "JavaScript configuration panel"
+msgstr "JavaScript Konfigurationsdialog"
+
+#: ../../action-types/javascript.rst:16
+msgid "The top section of the panel contains the JavaScript text editor. By default, it already contains ``console.log('Hello World!');``. Use the `console <https://nodejs.org/dist/latest-v5.x/docs/api/console.html>`_ API for log output when testing scripts."
+msgstr "Der obere Teil des Dialogs enthält den JavaScript Editor. Standardmäßig ist bereits ``console.log('Hello World!');`` eingetragen. Verwenden Sie das `console Modul <https://nodejs.org/dist/latest-v5.x/docs/api/console.html>`_ beim testen von Scripts für den Log-Output."
+
+#: ../../action-types/javascript.rst:20
+msgid "The lower section allows you to test the script. Click `Test it` to execute the JavaScript code. The test runner displays the results underneath:"
+msgstr "Im unteren Teil können Sie ihr Script testen. Klicken Sie hierzu auf `Test starten`. Die Ergebnisse eines Testlaufs werden direkt darunter angezeigt."
+
+#: ../../action-types/javascript.rst:26
+msgid "JavaScript test output"
+msgstr "JavaScript Test-Ausgabe"
+
+#: ../../action-types/javascript.rst:28
+msgid "Next, we'll show how to work with data. Suppose that the process includes a form that has each type of field and looks like this:"
+msgstr "Als nächstes zeigen wir Ihnen, wie Sie mit Daten arbeiten. Nehmen wir einmal an, im Prozess wäre ein Formular mit den folgenden Feldern definiert:"
+
+#: ../../action-types/javascript.rst:33
+msgid "Form taking input for JavaScript"
+msgstr "Formular als Eingabe für das JavaScript"
+
+#: ../../action-types/javascript.rst:35
+msgid "When you open the JavaScript configuration again, you'll see the variables section shows some of the form field variables."
+msgstr "Wenn Sie die Konfiguration für die JavaScript Aktion erneut öffnen können Sie sehen, das im unteren Teil einige der Formularfelder als Variablen angezeigt werden."
+
+#: ../../action-types/javascript.rst:39
+msgid "JavaScript variables"
+msgstr "JavaScript Variablen"
+
+#: ../../action-types/javascript.rst:41
+msgid "Click `Show all fields` and select the variables you want to access in the script. In this example (below), you have selected all variables. For each variable that you select, you get an input field to specify a test value. Here you see all fields with a test value."
+msgstr "Klicken Sie auf `Alle Felder anzeigen` und wählen Sie die Variablen aus, auf die Sie im Script zugreifen möchten. In unserem Beispiel sind alle Variablen ausgewählt. Für jede ausgewählte Variable wird ein Eingabefeld erstellt, indem Sie Testwerte hinterlegen können. Im Beispiel haben alle Felder einen Testwert."
+
+#: ../../action-types/javascript.rst:48
+msgid "JavaScript test values"
+msgstr "JavaScript Testwerte"
+
+#: ../../action-types/javascript.rst:50
+msgid "When clicking `Test it` again, we can see the JSON structure of the variable data for the different variable types."
+msgstr "Geben Sie ein paar Testwerte ein und klicken Sie anschließend erneut auf `Test starten`. Sie können nun sehen, wie jedes Feld im JavaScript repräsentiert wird. "
+
+#: ../../action-types/javascript.rst:54
+msgid "JavaScript JSON values"
+msgstr "JavaScript JSON-Werte"
+
+#: ../../action-types/javascript.rst:56
+msgid "You can use these variables to send data to an external web service, using the `request module <https://github.com/mikeal/request/blob/master/README.md>`_. For example, the following script sends the value of the ``startDate`` variable in an HTTP POST request to an external web service. ::"
+msgstr "Die verschiedenen Felder können Sie jetzt nutzen, um zum Beispiel einen externen Service anzusprechen. Wir stellen Ihnen hierfür das `request Modul <https://github.com/mikeal/request/blob/master/README.md>`_ zur Verfügung. Das folgende Script sendet Beispielsweise den Wert der Variable ``startDate`` per HTTP POST Request an einen externen Web-Service. ::"
+
+#: ../../action-types/javascript.rst:81
+msgid "This example uses a test endpoint configured using `Mocky <http://www.mocky.io/>`_ to return an HTTP response. This has the following result in the Signavio Workflow test console:"
+msgstr "Der Endpunkt im Beispiel wurde bei `Mocky <http://www.mocky.io/>`_ so konfiguriert, dass er eine HTTP Response zurück gibt. In der Signavio Workflow Konsole würden Sie dann die folgenden Ergebnisse sehen:"
+
+#: ../../action-types/javascript.rst:87
+msgid "Updating a variable via an external web service"
+msgstr "Den Wert eines Feldes mit Hilfe eines externen Web Services setzen"
+
+#: ../../action-types/javascript.rst:89
+msgid "The two log statements, starting with *HTTP 200*, show the HTTP response from the web service. The response body (as set-up in Mocky) contains JSON data that includes an updated value for the ``startDate`` variable, changing the date from ``2015-06-15`` to ``2015-06-16``."
+msgstr "Die beiden mit *HTTP 200* beginnenden Logeinträge zeigen die Antwort des Web-Services. Der Response Body (der in Mocky konfiguriert wurde) beinhaltet JSON Daten, die einen neuen Wert für das Feld ``startDate`` beinhalten und es von ``2015-06-15`` zu ``2015-06-16`` ändern."
+
+#: ../../action-types/javascript.rst:95
+msgid "The script then parses this JSON response using ``JSON.parse`` and updates the ``startDate`` variable in Signavio Workflow, as shown in the *Updated value* column in the test console’s variables table."
+msgstr "Unser Skript parst den Wert der Response mittels ``JSON.parse`` und aktualisiert anschließend das ``startDate`` Feld in Signavio Workflow. Dieses Verhalten sehen Sie auch in der Spalte *Neu zugewiesener Wert* in der Test-Konsole."
+
+#: ../../action-types/sub-process.rst:4
+msgid "Sub-process"
+msgstr "Subprozess"
+
+#: ../../action-types/sub-process.rst:8
+msgid "A sub-process in the process editor"
+msgstr "Ein Subprozess im Prozesseditor"
+
+#: ../../action-types/sub-process.rst:10
+msgid "A sub-process action represents an entire process as a single task. You can use sub-processes to simplify complex process models, by collapsing each sub-process into a single action. Then you can open the sub-process to see the next level of detail. You can also use sub-process to delegate responsibility for the process model to a different process owner."
+msgstr "Über Subprozess-Aktion wird ein ganzer Prozess zu einem einzigen Task zusammengefasst. Mit der Hilfe von Subprozessen können Sie komplexe Prozessmodelle vereinfachen. Wenn Sie den Subprozess öffnen, gelangen Sie dementsprechend auf die nächste Detailebene. Über Subprozesse können Sie zudem die Verantwortung für das Prozessmodel auf einen anderen Prozessverantwortlichen übertragen."
+
+#: ../../action-types/sub-process.rst:17
+msgid "Configuring a sub-process and mapping an *Invoice* variable to a trigger form field"
+msgstr "Konfiguration eines Subprozesses und Mapping der Variablen *Rechnung* zu einem Auslöser-Formularfeld"
+
+#: ../../action-types/sub-process.rst:19
+msgid "Configure the sub-process action in the process builder by selecting it, and choosing a process from the list. You cannot select the same process as the parent process, which would cause a loop, or an unpublished process."
+msgstr "Konfigurieren Sie den Subprozess, indem Sie das Element im Prozesseditor anklicken und einen Prozess aus der Liste auswählen. Es ist nicht möglich, einen Elternprozess auszuwählen, da dies eine Endlosschleife erzeugen würde. Zudem muss der referenzierte Prozess veröffentlicht sein."
+
+#: ../../action-types/sub-process.rst:22
+msgid "If you select a sub-process with a trigger form, you can also select variables that Signavio Workflow will use to auto-fill the trigger form fields when starting the sub-process case. In the example above, Signavio Workflow will populate the sub-process’ *Unpaid invoice* trigger form field with the file stored in the parent process’ *Invoice* variable."
+msgstr "Falls Sie einen Subprozess mit einem Auslöser-Formular gewählt haben, können Sie auch Variablen auswählen, die Signavio Workflow benutzen soll, um die Auslöser-Formularfelder automatisch auszufüllen, wenn der Subprozess gestartet wird. Im obenstehenden Beispiel, wird Signavio Workflow das Auslöser-Formularfeld *Unbezahlte Rechnung* des Subprozesses mit Hilfe der Datei ausfüllen, die im Hauptprozess als *Rechnung*-Variable definiert ist."
+
+#: ../../action-types/sub-process.rst:25
+msgid "When Signavio Workflow creates a sub-process, it starts a new case in the selected sub-process. After completing the sub-process case, Signavio Workflow continues executing the parent case."
+msgstr "Wenn Signavio Workflow eine Subprozessinstanz erstellt, wird ein neuer Fall im referenzierten Prozess gestartet. Nachdem dieser Prozess beendet ist, geht die Ausführung im Elternprozess weiter."
 
 #~ msgid ""
 #~ msgstr ""
