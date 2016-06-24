@@ -18,11 +18,9 @@ msgstr ""
 "Generated-By: Babel 2.3.4\n"
 "X-Generator: Poedit 1.8.7\n"
 
-#: ../../examples.rst:4
 msgid "Example processes"
 msgstr "Beispielprozesse"
 
-#: ../../examples.rst:6
 msgid ""
 "This chapter describes a number of example processes. Signavio Workflow "
 "includes some of these examples within the application, so you don’t have to"
@@ -37,7 +35,6 @@ msgstr ""
 "Features von Signavio Workflow kennenzulernen und in Ihre eigene Prozesse zu"
 " übertragen."
 
-#: ../../examples.rst:10
 msgid ""
 "In the main menu, select `Examples` to browse the list, and expand each "
 "example to read a description. Select `Copy to your organisation` to open a "
@@ -53,78 +50,20 @@ msgstr ""
 "Beispielprozess nicht verwenden möchten, können Sie ihn wieder :ref:`löschen"
 " <copy-process>`."
 
-#: ../../examples/approve-document.rst:4 ../../examples/approve-document.rst:4
 msgid "Approve Document (management)"
 msgstr "Dokument Freigeben (Management)"
 
-#: ../../examples/approve-document.rst:7
-#: ../../examples/approve-expense-claim.rst:7
-#: ../../examples/approve-vacation-request.rst:7
-#: ../../examples/fill-job-vacancy.rst:7
-#: ../../examples/follow-up-contact.rst:7
-#: ../../examples/fulfil-purchase-order.rst:7
-#: ../../examples/hire-employee.rst:7 ../../examples/initiate-project.rst:7
-#: ../../examples/invoice-customer.rst:7
-#: ../../examples/open-new-customer-account.rst:7
-#: ../../examples/plan-trade-fair-booth.rst:7
-#: ../../examples/process-insurance-claim.rst:7
-#: ../../examples/respond-to-customer-email.rst:7
-#: ../../examples/ship-product-from-warehouse.rst:7
-#: ../../examples/sign-contract.rst:7 ../../examples/approve-document.rst:7
-#: ../../examples/approve-expense-claim.rst:7
-#: ../../examples/approve-vacation-request.rst:7
-#: ../../examples/fill-job-vacancy.rst:7
-#: ../../examples/follow-up-contact.rst:7
-#: ../../examples/fulfil-purchase-order.rst:7
-#: ../../examples/hire-employee.rst:7 ../../examples/initiate-project.rst:7
-#: ../../examples/invoice-customer.rst:7
-#: ../../examples/open-new-customer-account.rst:7
-#: ../../examples/plan-trade-fair-booth.rst:7
-#: ../../examples/process-insurance-claim.rst:7
-#: ../../examples/respond-to-customer-email.rst:7
-#: ../../examples/ship-product-from-warehouse.rst:7
-#: ../../examples/sign-contract.rst:7
 msgid "Process goal"
 msgstr "Prozessziel"
 
-#: ../../examples/approve-document.rst:9 ../../examples/approve-document.rst:9
 msgid "Approve the submitted document, after optional revision rounds."
 msgstr ""
 "Das Prozessziel ist die Freigabe des eingereichten Dokuments, gegebenenfalls"
 " nach mehreren Revisionsdurchgängen."
 
-#: ../../examples/approve-document.rst:12
-#: ../../examples/approve-expense-claim.rst:12
-#: ../../examples/approve-vacation-request.rst:12
-#: ../../examples/fill-job-vacancy.rst:12
-#: ../../examples/follow-up-contact.rst:12
-#: ../../examples/fulfil-purchase-order.rst:12
-#: ../../examples/hire-employee.rst:12 ../../examples/initiate-project.rst:12
-#: ../../examples/invoice-customer.rst:12
-#: ../../examples/open-new-customer-account.rst:12
-#: ../../examples/plan-trade-fair-booth.rst:12
-#: ../../examples/process-insurance-claim.rst:12
-#: ../../examples/respond-to-customer-email.rst:12
-#: ../../examples/ship-product-from-warehouse.rst:12
-#: ../../examples/sign-contract.rst:12 ../../examples/approve-document.rst:12
-#: ../../examples/approve-expense-claim.rst:12
-#: ../../examples/approve-vacation-request.rst:12
-#: ../../examples/fill-job-vacancy.rst:12
-#: ../../examples/follow-up-contact.rst:12
-#: ../../examples/fulfil-purchase-order.rst:12
-#: ../../examples/hire-employee.rst:12 ../../examples/initiate-project.rst:12
-#: ../../examples/invoice-customer.rst:12
-#: ../../examples/open-new-customer-account.rst:12
-#: ../../examples/plan-trade-fair-booth.rst:12
-#: ../../examples/process-insurance-claim.rst:12
-#: ../../examples/respond-to-customer-email.rst:12
-#: ../../examples/ship-product-from-warehouse.rst:12
-#: ../../examples/sign-contract.rst:12
 msgid "Context"
 msgstr "Kontext"
 
-#: ../../examples/approve-document.rst:14
-#: ../../examples/approve-document.rst:14
 msgid ""
 "Employees need to submit expense forms for their managers to approve, but if"
 " they all send them by e-mail their managers will find it difficult to keep "
@@ -137,8 +76,6 @@ msgstr ""
 "Kostenabrechnung typischerweise als Spreadsheet ein, in dem die Kosten "
 "aufgelistet sind."
 
-#: ../../examples/approve-document.rst:17
-#: ../../examples/approve-document.rst:17
 msgid ""
 "Employees also prepare proposals and reports that require management sign-"
 "off before the author may distribute them. The frequently have trouble "
@@ -148,8 +85,6 @@ msgstr ""
 "vom Management freigegeben werden müssen. Hierbei gibt es oft Komplikationen"
 " bei der Verwaltung der vielen Versionen der Dokumente."
 
-#: ../../examples/approve-document.rst:20
-#: ../../examples/approve-document.rst:20
 msgid ""
 "You can treat expense forms as a specific example of process documents. "
 "Business processes often use documents to capture a process milestone. "
@@ -167,73 +102,15 @@ msgstr ""
 "wenn Sie eine größere Anzahl an Freigaben verwalten müssen oder wenn Sie ein"
 " zentrales Register aller Freigaben benötigen."
 
-#: ../../examples/approve-document.rst:26
-#: ../../examples/approve-expense-claim.rst:17
-#: ../../examples/approve-vacation-request.rst:27
-#: ../../examples/fill-job-vacancy.rst:19
-#: ../../examples/follow-up-contact.rst:20
-#: ../../examples/fulfil-purchase-order.rst:19
-#: ../../examples/hire-employee.rst:19 ../../examples/initiate-project.rst:22
-#: ../../examples/invoice-customer.rst:19
-#: ../../examples/open-new-customer-account.rst:22
-#: ../../examples/plan-trade-fair-booth.rst:21
-#: ../../examples/process-insurance-claim.rst:17
-#: ../../examples/respond-to-customer-email.rst:19
-#: ../../examples/ship-product-from-warehouse.rst:21
-#: ../../examples/sign-contract.rst:18 ../../examples/approve-document.rst:26
-#: ../../examples/approve-expense-claim.rst:17
-#: ../../examples/approve-vacation-request.rst:27
-#: ../../examples/fill-job-vacancy.rst:19
-#: ../../examples/follow-up-contact.rst:20
-#: ../../examples/fulfil-purchase-order.rst:19
-#: ../../examples/hire-employee.rst:19 ../../examples/initiate-project.rst:22
-#: ../../examples/invoice-customer.rst:19
-#: ../../examples/open-new-customer-account.rst:22
-#: ../../examples/plan-trade-fair-booth.rst:21
-#: ../../examples/process-insurance-claim.rst:17
-#: ../../examples/respond-to-customer-email.rst:19
-#: ../../examples/ship-product-from-warehouse.rst:21
-#: ../../examples/sign-contract.rst:18
 msgid "Trigger"
 msgstr "Auslöser"
 
-#: ../../examples/approve-document.rst:28
-#: ../../examples/approve-document.rst:28
 msgid "Form - the uploaded document and its author."
 msgstr "Formular - das hochgeladene Dokument und dessen Verfasser"
 
-#: ../../examples/approve-document.rst:31
-#: ../../examples/approve-expense-claim.rst:22
-#: ../../examples/approve-vacation-request.rst:32
-#: ../../examples/fill-job-vacancy.rst:24
-#: ../../examples/follow-up-contact.rst:25
-#: ../../examples/fulfil-purchase-order.rst:24
-#: ../../examples/hire-employee.rst:24 ../../examples/initiate-project.rst:27
-#: ../../examples/invoice-customer.rst:24
-#: ../../examples/open-new-customer-account.rst:28
-#: ../../examples/plan-trade-fair-booth.rst:26
-#: ../../examples/process-insurance-claim.rst:22
-#: ../../examples/respond-to-customer-email.rst:24
-#: ../../examples/ship-product-from-warehouse.rst:26
-#: ../../examples/sign-contract.rst:23 ../../examples/approve-document.rst:31
-#: ../../examples/approve-expense-claim.rst:22
-#: ../../examples/approve-vacation-request.rst:32
-#: ../../examples/fill-job-vacancy.rst:24
-#: ../../examples/follow-up-contact.rst:25
-#: ../../examples/fulfil-purchase-order.rst:24
-#: ../../examples/hire-employee.rst:24 ../../examples/initiate-project.rst:27
-#: ../../examples/invoice-customer.rst:24
-#: ../../examples/open-new-customer-account.rst:28
-#: ../../examples/plan-trade-fair-booth.rst:26
-#: ../../examples/process-insurance-claim.rst:22
-#: ../../examples/respond-to-customer-email.rst:24
-#: ../../examples/ship-product-from-warehouse.rst:26
-#: ../../examples/sign-contract.rst:23
 msgid "Actions"
 msgstr "Aktionen"
 
-#: ../../examples/approve-document.rst:33
-#: ../../examples/approve-document.rst:33
 msgid ""
 "The process centres on a *Review document* task, which results in a decision"
 " to either *Approve* or *Reject* the document. Rejecting the document "
@@ -245,8 +122,6 @@ msgstr ""
 " *Dokument anpassen*. Hier ist der Verfasser gefragt. Er muss eine "
 "korrigierte Version des Dokuments zur Verfügung stellen."
 
-#: ../../examples/approve-document.rst:38
-#: ../../examples/approve-document.rst:38
 msgid ""
 "Adding a due date and reminders to the user tasks can help minimise cycle "
 "times. Adding escalation to the *Review document* task helps avoid a delay "
@@ -258,41 +133,12 @@ msgstr ""
 "verhindert Verzögerungen, falls der ursprüngliche Reviewer nicht verfügbar "
 "ist."
 
-#: ../../examples/approve-document.rst:42
-#: ../../examples/approve-expense-claim.rst:31
-#: ../../examples/approve-vacation-request.rst:42
-#: ../../examples/fill-job-vacancy.rst:34
-#: ../../examples/follow-up-contact.rst:32
-#: ../../examples/fulfil-purchase-order.rst:36
-#: ../../examples/hire-employee.rst:33 ../../examples/initiate-project.rst:37
-#: ../../examples/invoice-customer.rst:38
-#: ../../examples/open-new-customer-account.rst:38
-#: ../../examples/plan-trade-fair-booth.rst:36
-#: ../../examples/process-insurance-claim.rst:33
-#: ../../examples/ship-product-from-warehouse.rst:54
-#: ../../examples/sign-contract.rst:37 ../../examples/approve-document.rst:42
-#: ../../examples/approve-expense-claim.rst:31
-#: ../../examples/approve-vacation-request.rst:42
-#: ../../examples/fill-job-vacancy.rst:34
-#: ../../examples/follow-up-contact.rst:32
-#: ../../examples/fulfil-purchase-order.rst:36
-#: ../../examples/hire-employee.rst:33 ../../examples/initiate-project.rst:37
-#: ../../examples/invoice-customer.rst:38
-#: ../../examples/open-new-customer-account.rst:38
-#: ../../examples/plan-trade-fair-booth.rst:36
-#: ../../examples/process-insurance-claim.rst:33
-#: ../../examples/ship-product-from-warehouse.rst:54
-#: ../../examples/sign-contract.rst:37
 msgid "Roles"
 msgstr "Rollen"
 
-#: ../../examples/approve-document.rst:44
-#: ../../examples/approve-document.rst:44
 msgid "The two tasks correspond to two process roles."
 msgstr "Die zwei Aufgaben entsprechen zwei verschieden Rollen."
 
-#: ../../examples/approve-document.rst:46
-#: ../../examples/approve-document.rst:46
 msgid ""
 "*Reviewer* (optional) - makes the approval decision: often a manager or "
 "supervisor."
@@ -300,8 +146,6 @@ msgstr ""
 "*Reviewer* - Trifft die Freigabeentscheidung: Oft ein Manager oder "
 "Vorgesetzter."
 
-#: ../../examples/approve-document.rst:47
-#: ../../examples/approve-document.rst:47
 msgid ""
 "*Author* - prepares the document. If the trigger form assigns this role, "
 "then Signavio Workflow will automatically assign the *Update document* to "
@@ -311,36 +155,9 @@ msgstr ""
 " zuweist, setzt Signavio Workflow automatisch den Verfasser als "
 "verantwortliche Person für *Dokument anpassen*."
 
-#: ../../examples/approve-document.rst:51
-#: ../../examples/approve-expense-claim.rst:38
-#: ../../examples/approve-vacation-request.rst:47
-#: ../../examples/fill-job-vacancy.rst:40
-#: ../../examples/follow-up-contact.rst:38
-#: ../../examples/fulfil-purchase-order.rst:42
-#: ../../examples/hire-employee.rst:39 ../../examples/initiate-project.rst:43
-#: ../../examples/invoice-customer.rst:43
-#: ../../examples/open-new-customer-account.rst:43
-#: ../../examples/plan-trade-fair-booth.rst:41
-#: ../../examples/process-insurance-claim.rst:40
-#: ../../examples/ship-product-from-warehouse.rst:59
-#: ../../examples/sign-contract.rst:43 ../../examples/approve-document.rst:51
-#: ../../examples/approve-expense-claim.rst:38
-#: ../../examples/approve-vacation-request.rst:47
-#: ../../examples/fill-job-vacancy.rst:40
-#: ../../examples/follow-up-contact.rst:38
-#: ../../examples/fulfil-purchase-order.rst:42
-#: ../../examples/hire-employee.rst:39 ../../examples/initiate-project.rst:43
-#: ../../examples/invoice-customer.rst:43
-#: ../../examples/open-new-customer-account.rst:43
-#: ../../examples/plan-trade-fair-booth.rst:41
-#: ../../examples/process-insurance-claim.rst:40
-#: ../../examples/ship-product-from-warehouse.rst:59
-#: ../../examples/sign-contract.rst:43
 msgid "Fields"
 msgstr "Felder"
 
-#: ../../examples/approve-document.rst:53
-#: ../../examples/approve-document.rst:53
 msgid ""
 "*Document* (File, mandatory) - the document to review. The author uploads "
 "the first version on the trigger form, followed by a new version each time "
@@ -351,39 +168,15 @@ msgstr ""
 "anpassen*-Task, den Signavio Workflow erstellt, wird eine neue Version "
 "bereitgestellt."
 
-#: ../../examples/approve-document.rst:55
-#: ../../examples/approve-document.rst:55
 msgid ""
 "*Author* (User, mandatory) - used to assign the role and notify the author."
 msgstr ""
 "*Verfasser* (Nutzer, Pflichtfeld) - verwendet zur Rollenzuweisung und "
 "Benachrichtigung des Verfassers."
 
-#: ../../examples/approve-document.rst:58
-#: ../../examples/approve-expense-claim.rst:45
-#: ../../examples/approve-vacation-request.rst:55
-#: ../../examples/follow-up-contact.rst:47
-#: ../../examples/fulfil-purchase-order.rst:50
-#: ../../examples/initiate-project.rst:64
-#: ../../examples/invoice-customer.rst:49
-#: ../../examples/open-new-customer-account.rst:58
-#: ../../examples/plan-trade-fair-booth.rst:62
-#: ../../examples/respond-to-customer-email.rst:34
-#: ../../examples/approve-document.rst:58
-#: ../../examples/approve-expense-claim.rst:45
-#: ../../examples/approve-vacation-request.rst:55
-#: ../../examples/follow-up-contact.rst:47
-#: ../../examples/fulfil-purchase-order.rst:50
-#: ../../examples/initiate-project.rst:64
-#: ../../examples/invoice-customer.rst:49
-#: ../../examples/open-new-customer-account.rst:58
-#: ../../examples/plan-trade-fair-booth.rst:62
-#: ../../examples/respond-to-customer-email.rst:34
 msgid "Extensions"
 msgstr "Erweiterungen"
 
-#: ../../examples/approve-document.rst:60
-#: ../../examples/approve-document.rst:60
 msgid ""
 "The document’s readers may find it useful to have access to the document "
 "outside Signavio Workflow. The organisation may also require a backup. You "
@@ -395,8 +188,6 @@ msgstr ""
 "nach der Freigabe zum Prozess hinzufügen, der das freigegebene Dokument "
 "archiviert oder per Email versendet."
 
-#: ../../examples/approve-document.rst:64
-#: ../../examples/approve-document.rst:64
 msgid ""
 "To archive the approved document, add a Google Drive or Box *Upload file* "
 "task. This saves a copy of the document for people to read, but they still "
@@ -407,8 +198,6 @@ msgstr ""
 "Leser gespeichert. Allerdings benötigen die Leser noch eine Benachrichtigung"
 " um zu wissen, dass das entsprechende Dokument existiert."
 
-#: ../../examples/approve-document.rst:67
-#: ../../examples/approve-document.rst:67
 msgid ""
 "An email task notifies the author and other stakeholders that the document "
 "has been approved. The email template can include any reviewer comments and "
@@ -421,17 +210,9 @@ msgstr ""
 "Unter Umständen kann es nützlich sein, die Email an eine Verteilerliste zu "
 "senden."
 
-#: ../../examples/approve-document.rst:72
-#: ../../examples/approve-expense-claim.rst:52
-#: ../../examples/approve-vacation-request.rst:63
-#: ../../examples/approve-document.rst:72
-#: ../../examples/approve-expense-claim.rst:52
-#: ../../examples/approve-vacation-request.rst:63
 msgid "Related processes"
 msgstr "Ähnliche Prozesse"
 
-#: ../../examples/approve-document.rst:74
-#: ../../examples/approve-document.rst:74
 msgid ""
 ":ref:`Approve Vacation Request <approve-vacation-request>` handles approving"
 " a form rather than a document."
@@ -439,20 +220,14 @@ msgstr ""
 ":ref:`Urlaubsantrag genehmigen <approve-vacation-request>` behandelt die "
 "Freigabe eines Signavio Workflow-Formulars an Stelle eines Dokuments."
 
-#: ../../examples/approve-expense-claim.rst:4
-#: ../../examples/approve-expense-claim.rst:4
 msgid "Approve Expense Claim (management)"
 msgstr "Abrechnung genehmigen (Management)"
 
-#: ../../examples/approve-expense-claim.rst:9
-#: ../../examples/approve-expense-claim.rst:9
 msgid "Submit an expense claim document for someone else to approve."
 msgstr ""
 "Das Prozessziel ist eine durch einen Manager genehmigte (bzw. bearbeitete) "
 "Abrechnung."
 
-#: ../../examples/approve-expense-claim.rst:14
-#: ../../examples/approve-expense-claim.rst:14
 msgid ""
 "Employees need to submit expense forms for their managers to approve, but if"
 " they all send them by e-mail, managers will find it difficult to keep "
@@ -462,13 +237,9 @@ msgstr ""
 "um sie genehmigen zu lassen. Falls die Formulare jedoch per E-Mail eingehen,"
 " werden es die Manager schwer haben auf dem Laufenden zu bleiben. "
 
-#: ../../examples/approve-expense-claim.rst:19
-#: ../../examples/approve-expense-claim.rst:19
 msgid "Email - from the employee submitting the claim."
 msgstr "E-Mail - von dem Mitarbeiter, der die Abrechnung einreicht."
 
-#: ../../examples/approve-expense-claim.rst:24
-#: ../../examples/approve-expense-claim.rst:24
 msgid ""
 "The process consists of an approval decision task, followed by an "
 "administrative task to pay the expense claim."
@@ -476,8 +247,6 @@ msgstr ""
 "Der Prozess besteht aus einer Genehmigungsentscheidung (Aktion), gefolgt von"
 " einer administrativen Aufgabe, der Auszahlung der Abrechnungssumme."
 
-#: ../../examples/approve-expense-claim.rst:28
-#: ../../examples/approve-expense-claim.rst:28
 msgid ""
 "The manager may choose to only reject some items on the claim, in which case"
 " the process includes an additional task to list the rejected items, so that"
@@ -488,30 +257,20 @@ msgstr ""
 " Posten aufzulisten. So kann die auszahlende Person die neue "
 "Auszahlungssumme ausrechnen."
 
-#: ../../examples/approve-expense-claim.rst:33
-#: ../../examples/approve-expense-claim.rst:33
 msgid "*Employee* - starts the case"
 msgstr "Ein *Mitarbeiter* startet den Fall."
 
-#: ../../examples/approve-expense-claim.rst:34
-#: ../../examples/approve-expense-claim.rst:34
 msgid "*Manager* - approves the expense claim"
 msgstr "Ein *Manager* genehmigt die Abrechnung."
 
-#: ../../examples/approve-expense-claim.rst:35
-#: ../../examples/approve-expense-claim.rst:35
 msgid "*Financial administrator* - pays the approved expense claim"
 msgstr "Die *Kasse* zahlt die genehmigte Summe aus."
 
-#: ../../examples/approve-expense-claim.rst:40
-#: ../../examples/approve-expense-claim.rst:40
 msgid "*Trigger email / From name* - Employee name - used to pay the expenses"
 msgstr ""
 "DIe *Auslöser-E-Mail / von Name* (Name des Mitarbeiters) wird zur Auszahlung"
 " der Summe verwendet."
 
-#: ../../examples/approve-expense-claim.rst:41
-#: ../../examples/approve-expense-claim.rst:41
 msgid ""
 "*Trigger email / Attachments* - Expense form - table of expenses, used to "
 "approve the claim"
@@ -519,13 +278,9 @@ msgstr ""
 "Die *Auslöser-E-Mail / Anhänge* (Abrechnungsformular - \"Tabelle mit "
 "Ausgaben\"), wird dazu verwendet, die Abrechnung zu überprüfen."
 
-#: ../../examples/approve-expense-claim.rst:42
-#: ../../examples/approve-expense-claim.rst:42
 msgid "*Employee bank account* - used to pay the expenses"
 msgstr "Die *Kontodaten Mitarbeiter* wird zur Auszahlung der Summe verwendet."
 
-#: ../../examples/approve-expense-claim.rst:47
-#: ../../examples/approve-expense-claim.rst:47
 msgid ""
 "Replace the *Approve claim* task with a `Document Approval "
 "<http://www.effektif.com/news/document-workflow-patterns/#section-1>`_ "
@@ -537,8 +292,6 @@ msgstr ""
 "workflow-patterns/#section-1>`_, um dem Mitarbeiter zu erlauben, Korrekturen"
 " vorzunehmen falls der Manager die Anfrage ablehnt."
 
-#: ../../examples/approve-expense-claim.rst:49
-#: ../../examples/approve-expense-claim.rst:49
 msgid ""
 "Add the `Result Notification <http://www.effektif.com/news/email-"
 "notification-workflow-patterns/#section-2>`_ pattern to notify the employee "
@@ -549,8 +302,6 @@ msgstr ""
 "patterns/#section-2>`_ hinzu, um den Mitarbeiter zu informieren, sobald der "
 "Prozess bzw. Fall abgeschlossen ist."
 
-#: ../../examples/approve-expense-claim.rst:54
-#: ../../examples/approve-expense-claim.rst:54
 msgid ""
 ":ref:`Approve Document <approve-document>` handles approving a document "
 "rather than an email request."
@@ -558,8 +309,6 @@ msgstr ""
 "Der Prozess :ref:`Dokument freigeben<approve-document>` erklärt wie Sie ein "
 "Dokument anstatt einer E-Mail-Anfrage freigeben, bzw. zu genehmigen."
 
-#: ../../examples/approve-expense-claim.rst:55
-#: ../../examples/approve-expense-claim.rst:55
 msgid ""
 ":ref:`Approve Vacation Request <approve-vacation-request>` handles approving"
 " a request from a form rather than an email."
@@ -568,20 +317,14 @@ msgstr ""
 " erklärt, wie Sie eine Formular-Anfrage anstatt einer E-Mail-Anfrage "
 "genehmigen bzw. freigeben können."
 
-#: ../../examples/approve-vacation-request.rst:4
-#: ../../examples/approve-vacation-request.rst:4
 msgid "Approve Vacation Request (HR)"
 msgstr "Urlaubsantrag genehmigen (HR)"
 
-#: ../../examples/approve-vacation-request.rst:9
-#: ../../examples/approve-vacation-request.rst:9
 msgid "Approve an employee’s planned vacation dates."
 msgstr ""
 "Das Ziel des Prozesses ist die Genehmigung eines Urlaubsantrags eines "
 "Mitarbeiters."
 
-#: ../../examples/approve-vacation-request.rst:14
-#: ../../examples/approve-vacation-request.rst:14
 msgid ""
 "Employees need to request vacation dates, so that their managers can make "
 "sure that they don’t all go on vacation at the same time. Employees "
@@ -597,8 +340,6 @@ msgstr ""
 " Kommunikation und das manuelle Übertragen von Daten. Wenn der Koordinator "
 "nicht erreichbar ist, entstehen Probleme."
 
-#: ../../examples/approve-vacation-request.rst:18
-#: ../../examples/approve-vacation-request.rst:18
 msgid ""
 "Vacation requests exemplify form based requests, where an employee requires "
 "an approval based on information whose structure you know in advance. An "
@@ -610,8 +351,6 @@ msgstr ""
 "Urlaubstagen ist eine der einfachsten Aufgaben, die im Unternehmensbetrieb "
 "zwischen mehreren Personen koordiniert werden muss."
 
-#: ../../examples/approve-vacation-request.rst:21
-#: ../../examples/approve-vacation-request.rst:21
 msgid ""
 "Despite this process’ simplicity, the obvious spreadsheet plus e-mail "
 "approach leads to enough problems to make it worth using Signavio Workflow "
@@ -628,13 +367,9 @@ msgstr ""
 "Kommunikationsaufwand und Koordinationsprobleme verursacht. Daher ist es "
 "sinnvoll, den Prozess über Signavio Workflow ordentlich zu strukturieren."
 
-#: ../../examples/approve-vacation-request.rst:29
-#: ../../examples/approve-vacation-request.rst:29
 msgid "Form - the employee and the requested dates."
 msgstr "Formular - der Mitarbeiter und die Urlaubsdaten"
 
-#: ../../examples/approve-vacation-request.rst:34
-#: ../../examples/approve-vacation-request.rst:34
 msgid ""
 "The process consists of a user task for a decision. Tasks to continue the "
 "process of going on vacation (or not) follow the decision."
@@ -643,8 +378,6 @@ msgstr ""
 "Entscheidung folgen Aufgaben, die den Urlaubsprozess fortsetzen (oder "
 "nicht)."
 
-#: ../../examples/approve-vacation-request.rst:39
-#: ../../examples/approve-vacation-request.rst:39
 msgid ""
 "Adding a due date and reminders to the user task can help reduce cycle "
 "times."
@@ -652,13 +385,9 @@ msgstr ""
 "Fügen Sie ein Fälligkeitsdatum zur Aufgabe hinzu, um so kurze "
 "Durchlaufzeiten sicherzustellen."
 
-#: ../../examples/approve-vacation-request.rst:44
-#: ../../examples/approve-vacation-request.rst:44
 msgid "*Manager* - approves the request."
 msgstr "*Manager* - genehmigt die Anfrage"
 
-#: ../../examples/approve-vacation-request.rst:49
-#: ../../examples/approve-vacation-request.rst:49
 msgid ""
 "*Employee* (User, mandatory) - the employee making the request. This, plus "
 "the other fields, should give the manager enough information to make the "
@@ -667,18 +396,12 @@ msgstr ""
 "*Mitarbeiter* (Nutzer, Pflichtfeld) - der Mitarbeiter, der die Anfrage "
 "stellt."
 
-#: ../../examples/approve-vacation-request.rst:51
-#: ../../examples/approve-vacation-request.rst:51
 msgid "*Start date* (Date) - vacation start date."
 msgstr "*Startdatum* (Datum) - das Startdatum des Urlaubs"
 
-#: ../../examples/approve-vacation-request.rst:52
-#: ../../examples/approve-vacation-request.rst:52
 msgid "*End date* (Date) - vacation end date."
 msgstr "*Enddatum* (Datum) - das Enddatum des Urlaubs"
 
-#: ../../examples/approve-vacation-request.rst:57
-#: ../../examples/approve-vacation-request.rst:57
 msgid ""
 "You might extend the process with an additional task for the employee to "
 "provide additional information, or change the initial request, if the "
@@ -691,8 +414,6 @@ msgstr ""
 "Dies vermeidet, dass für jeden abgelehnten Urlaubszeitraum ein neuer Fall "
 "erstellt werden muss."
 
-#: ../../examples/approve-vacation-request.rst:60
-#: ../../examples/approve-vacation-request.rst:60
 msgid ""
 "You could also extend this process with additional tasks to support what "
 "happens when the employee goes on vacation, such as assigning a person to "
@@ -701,8 +422,6 @@ msgstr ""
 "Sie können den Prozess zudem um einen Task erweitern, der die "
 "Verantwortungsübergabe vor Urlaubsbeginn unterstützt."
 
-#: ../../examples/approve-vacation-request.rst:65
-#: ../../examples/approve-vacation-request.rst:65
 msgid ""
 ":ref:`Approve Document <approve-document>` handles approving a document "
 "rather than a form."
@@ -710,16 +429,12 @@ msgstr ""
 ":ref:`Dokument freigeben <approve-document>` behandelt die Freigabe eines "
 "Dokuments an Stelle eines Formulars."
 
-#: ../../examples/fill-job-vacancy.rst:4 ../../examples/fill-job-vacancy.rst:4
 msgid "Fill Job Vacancy (HR)"
 msgstr "Offenen Stelle besetzen (HR)"
 
-#: ../../examples/fill-job-vacancy.rst:9 ../../examples/fill-job-vacancy.rst:9
 msgid "Fill a vacant position within the organisation."
 msgstr "Besetzen Sie eine offene Stelle in der Organisation."
 
-#: ../../examples/fill-job-vacancy.rst:14
-#: ../../examples/fill-job-vacancy.rst:14
 msgid ""
 "Job applications drive the :ref:`Hire employee <hire-employee>` process, "
 "which makes it suitable for organisations that usually have open positions "
@@ -734,13 +449,9 @@ msgstr ""
 "Stelle kann daher schnell besetzt werden. In unserem Beispiel wird der "
 "Prozess von der Erstellung eines neuen Stellenprofils ausgelöst."
 
-#: ../../examples/fill-job-vacancy.rst:21
-#: ../../examples/fill-job-vacancy.rst:21
 msgid "Form - describes a job requisition."
 msgstr "Formular - Beschreibt ein Stellenprofil"
 
-#: ../../examples/fill-job-vacancy.rst:26
-#: ../../examples/fill-job-vacancy.rst:26
 msgid ""
 "The core process consists of an approval for the requisition, followed by "
 "advertising the vacancy, interviewing candidates, and closing the vacancy."
@@ -749,8 +460,6 @@ msgstr ""
 " Veröffentlichung der Stellenausschreibung, dem Durchführen von Interviews "
 "und dem Schließen der Stellenausschreibung."
 
-#: ../../examples/fill-job-vacancy.rst:30
-#: ../../examples/fill-job-vacancy.rst:30
 msgid ""
 "In addition, the hiring organisation passes the vacancy to one or more "
 "external recruiters, by email, who may also supply applicants. A second "
@@ -760,8 +469,6 @@ msgstr ""
 "Rekrutier geschickt. Eine zweite Email informiert die Rekrutier sobald die "
 "Stelle besetzt ist."
 
-#: ../../examples/fill-job-vacancy.rst:36
-#: ../../examples/fill-job-vacancy.rst:36
 msgid ""
 "*Recruiter* - the internal HR employee who coordinates the recruitment "
 "process. The basic version of this process excludes the hiring manager, who "
@@ -773,8 +480,6 @@ msgstr ""
 "Manager, der im :ref:`Mitarbeiter einstellen <hire-employee>`-Subprozess "
 "mitwirkt, sowie externe Recruiter oder Headhunter."
 
-#: ../../examples/fill-job-vacancy.rst:42
-#: ../../examples/fill-job-vacancy.rst:42
 msgid ""
 "The trigger form defines the following fields that make up the job "
 "requisition."
@@ -782,47 +487,27 @@ msgstr ""
 "Das Auslöserformular legt die Felder fest, aus denen die Stellenbeschreibung"
 " besteht."
 
-#: ../../examples/fill-job-vacancy.rst:44
-#: ../../examples/fill-job-vacancy.rst:44
 msgid "*Job title* (Text, required)"
 msgstr "*Jobtittel* (Text, Pflichtfeld)"
 
-#: ../../examples/fill-job-vacancy.rst:45
-#: ../../examples/fill-job-vacancy.rst:45
 msgid "*Job description* (Text)"
 msgstr "*Jobbeschreibung* (Text)"
 
-#: ../../examples/fill-job-vacancy.rst:46
-#: ../../examples/fill-job-vacancy.rst:46
 msgid "*Maximum salary* (Money)"
 msgstr "*Maximalgehalt* (Geldbetrag)"
 
-#: ../../examples/fill-job-vacancy.rst:47
-#: ../../examples/fill-job-vacancy.rst:47
 msgid "*Replaces existing position* (Yes/No)"
 msgstr "*Ersetzt besehende Position* (Ja/Nein)"
 
-#: ../../examples/fill-job-vacancy.rst:48
-#: ../../examples/fill-job-vacancy.rst:48
 msgid "*Requesting manager* (User)"
 msgstr "*Verwantwortlicher Manager* (User)"
 
-#: ../../examples/fill-job-vacancy.rst:51 ../../examples/hire-employee.rst:45
-#: ../../examples/ship-product-from-warehouse.rst:65
-#: ../../examples/sign-contract.rst:50 ../../examples/fill-job-vacancy.rst:51
-#: ../../examples/hire-employee.rst:45
-#: ../../examples/ship-product-from-warehouse.rst:65
-#: ../../examples/sign-contract.rst:50
 msgid "Enhancements"
 msgstr "Verbesserungen"
 
-#: ../../examples/fill-job-vacancy.rst:53
-#: ../../examples/fill-job-vacancy.rst:53
 msgid "To improve this process you could:"
 msgstr "Zur Verbesserung des Prozesses können Sie:"
 
-#: ../../examples/fill-job-vacancy.rst:55
-#: ../../examples/fill-job-vacancy.rst:55
 msgid ""
 "extend the trigger form to include more structured information about the job"
 " vacancy"
@@ -830,20 +515,14 @@ msgstr ""
 "das Auslöserformular erweitern, sodass weitere strukturierte Informationen "
 "hinterlegt werden können"
 
-#: ../../examples/fill-job-vacancy.rst:56
-#: ../../examples/fill-job-vacancy.rst:56
 msgid "skip the initial requisition approval to simplify the process"
 msgstr ""
 "die initiale Freigabe des Stellenprofils weglassen um den Prozess zu "
 "vereinfachen"
 
-#: ../../examples/fill-job-vacancy.rst:57
-#: ../../examples/fill-job-vacancy.rst:57
 msgid "elaborate the requisition approval with correction steps"
 msgstr "die Freigabe des Stellenprofils um Korrekturschritte erweitern"
 
-#: ../../examples/fill-job-vacancy.rst:58
-#: ../../examples/fill-job-vacancy.rst:58
 msgid ""
 "do the *Publish vacancy on web site* task in parallel with other ways to "
 "announce the vacancy, such as advertising"
@@ -852,8 +531,6 @@ msgstr ""
 "weiteren Tasks ausführen, die die Ausschreibung über weitere Kanäle "
 "veröffentlichen."
 
-#: ../../examples/fill-job-vacancy.rst:59
-#: ../../examples/fill-job-vacancy.rst:59
 msgid ""
 "expand the interview task to include the whole individual recruitment "
 "process, as in :ref:`Hire employee <hire-employee>`."
@@ -862,18 +539,12 @@ msgstr ""
 "abbildet, wie unter :ref:`Mitarbeiter einstellen <hire-employee>` "
 "beschrieben."
 
-#: ../../examples/follow-up-contact.rst:4
-#: ../../examples/follow-up-contact.rst:4
 msgid "Follow-up Contact (sales)"
 msgstr "Follow-up von Geschäftskontakt durchführen"
 
-#: ../../examples/follow-up-contact.rst:9
-#: ../../examples/follow-up-contact.rst:9
 msgid "Develop a business contact into a sales opportunity."
 msgstr "Entwickeln Sie einen Geschäftskontakt zu einer Sales Opportunity"
 
-#: ../../examples/follow-up-contact.rst:14
-#: ../../examples/follow-up-contact.rst:14
 msgid ""
 "Sales managers often have a large number of meetings with both qualified "
 "prospects and ad hoc contacts. They may use triage to prioritise follow-up, "
@@ -898,8 +569,6 @@ msgstr ""
 "zu verwalten - ohne dass es notwendig ist, ein komplettes Sales-Pipeline "
 "Tool zu erwerben und zu konfigurieren."
 
-#: ../../examples/follow-up-contact.rst:22
-#: ../../examples/follow-up-contact.rst:22
 msgid ""
 "Form - specifies the contact’s name and contact details, or perhaps a scan "
 "of the business card."
@@ -907,8 +576,6 @@ msgstr ""
 "Formular - spezifiziert den Kontaktnamen und Kontaktdetails oder "
 "möglicherweise einen Scan der Visitenkarte."
 
-#: ../../examples/follow-up-contact.rst:27
-#: ../../examples/follow-up-contact.rst:27
 msgid ""
 "This process records the result of a business meeting by triaging contacts "
 "according to what follow-up they require."
@@ -916,8 +583,6 @@ msgstr ""
 "Der Prozess dokumentiert das Ergebnis eines Geschäftsmeetings, indem es "
 "Kontakte den Follow-Up-Anforderungen entsprechend einstuft."
 
-#: ../../examples/follow-up-contact.rst:34
-#: ../../examples/follow-up-contact.rst:34
 msgid ""
 "*Sales Manager* - member of a business development team. The process only "
 "has this one role, as it does not include collaboration with team members."
@@ -925,8 +590,6 @@ msgstr ""
 "*Salesmanager* - Mitarbeiter eines Business Development-Teams. Dies ist die "
 "einzige Rolle, da der Prozess keine Kollaboration mit Kollegen erfordert."
 
-#: ../../examples/follow-up-contact.rst:40
-#: ../../examples/follow-up-contact.rst:40
 msgid ""
 "The process data consists of whatever information the sales manager uses to "
 "triage the contact and follow up."
@@ -934,15 +597,11 @@ msgstr ""
 "Die Datengrundlage des Prozesses basiert auf den Informationen, die der "
 "Salesmanager für die Einstufung und das Follow-Up benötigt."
 
-#: ../../examples/follow-up-contact.rst:42
-#: ../../examples/follow-up-contact.rst:42
 msgid ""
 "*Contact name* (Text, required) - the name of the prospect - the potential "
 "customer."
 msgstr "*Kontaktname* (Text, Pflichtfeld) - der Name des potentiellen Kunden"
 
-#: ../../examples/follow-up-contact.rst:43
-#: ../../examples/follow-up-contact.rst:43
 msgid ""
 "*Telephone number* (Text) - the contact’s phone number, in case the sales "
 "manager doesn’t use an external address book."
@@ -950,8 +609,6 @@ msgstr ""
 "*Telefonnummer* (Text) - die Telefonnummer des Kontakts, falls der "
 "Salesmanager kein externes Adressbuch verwendet."
 
-#: ../../examples/follow-up-contact.rst:44
-#: ../../examples/follow-up-contact.rst:44
 msgid ""
 "*Job title, Company* (Text) - the contact’s job, which the sales manager "
 "might use to prioritise and triage the contact."
@@ -959,8 +616,6 @@ msgstr ""
 "*Jobtittel, Firma* (Text) - der Job des Kontakts, den der Salesmanager "
 "möglicherweise bei der Einstufung berücksichtigt."
 
-#: ../../examples/follow-up-contact.rst:49
-#: ../../examples/follow-up-contact.rst:49
 msgid ""
 "You could extend this process to include the next steps in the larger sales "
 "process, following the first sales meeting, such as a product demo."
@@ -968,8 +623,6 @@ msgstr ""
 "Sie können diesen Prozess erweitern, sodass er die nächsten Schritte des "
 "Salesprozesses enthätl, zum Beispiel die Durchführung einer Produktdemo."
 
-#: ../../examples/follow-up-contact.rst:51
-#: ../../examples/follow-up-contact.rst:51
 msgid ""
 "Setting up meetings might involve introducing a collaboration with a "
 "secretary. Similarly, a demo might requires collaboration with a product "
@@ -979,13 +632,9 @@ msgstr ""
 "Entsprechend kann die Demo die Zusammenarbeit mit einer Produktspezialistin "
 "voraussetzen."
 
-#: ../../examples/fulfil-purchase-order.rst:4
-#: ../../examples/fulfil-purchase-order.rst:4
 msgid "Fulfil Purchase Order (sales)"
 msgstr "Produktbestellung bearbeiten"
 
-#: ../../examples/fulfil-purchase-order.rst:9
-#: ../../examples/fulfil-purchase-order.rst:9
 msgid ""
 "Fulfil a customer’s purchase order, e.g by shipping a product, and issuing "
 "an invoice."
@@ -993,8 +642,6 @@ msgstr ""
 "Das Prozessziel ist die Bearbeitung einer Kundenbestellung, also das "
 "Versenden der Produkte und die Ausstellung einer Rechnung."
 
-#: ../../examples/fulfil-purchase-order.rst:14
-#: ../../examples/fulfil-purchase-order.rst:14
 msgid ""
 "The core activities of many companies include selling things to their "
 "customers and giving them what they pay for. Different companies’ high-level"
@@ -1009,13 +656,9 @@ msgstr ""
 "werden, um den Unterschieden der Firmen, Produkten und Zielgruppen gerecht "
 "zu werden."
 
-#: ../../examples/fulfil-purchase-order.rst:21
-#: ../../examples/fulfil-purchase-order.rst:21
 msgid "Form - provides the purchase order."
 msgstr "Forumlar - stellt die Bestellung dar."
 
-#: ../../examples/fulfil-purchase-order.rst:26
-#: ../../examples/fulfil-purchase-order.rst:26
 msgid ""
 "In this process, an incoming purchase order form essentially triggers two "
 "tasks: *Fulfil order* and *Issue invoice*."
@@ -1023,8 +666,6 @@ msgstr ""
 "In diesem Prozess triggert eine Bestellung zwei Tasks: *Produkte "
 "verschicken* und *Rechnung stellen*."
 
-#: ../../examples/fulfil-purchase-order.rst:30
-#: ../../examples/fulfil-purchase-order.rst:30
 msgid ""
 "To prevent an exception when the company cannot fulfil the purchase order "
 "due to lack of stock, the workflow starts with a check task and a waiting "
@@ -1038,8 +679,6 @@ msgstr ""
 "Überprüfung des Lagerbestandes, solange die bestellten Produkte nicht "
 "vorhanden sind."
 
-#: ../../examples/fulfil-purchase-order.rst:33
-#: ../../examples/fulfil-purchase-order.rst:33
 msgid ""
 "The trigger form captures the customer e-mail address, so that rejecting the"
 " invoice with a rejection reason can use a :ref:`Send E-mail <send-email>` "
@@ -1049,8 +688,6 @@ msgstr ""
 "Ablehungsemail automatisch über einen ref:`Email senden <send-email>`-Task "
 "verschickt werden."
 
-#: ../../examples/fulfil-purchase-order.rst:38
-#: ../../examples/fulfil-purchase-order.rst:38
 msgid ""
 "*Warehouse operator* - a person who works in the warehouse and ships "
 "customer orders."
@@ -1058,8 +695,6 @@ msgstr ""
 "*Lagermitarbeiter* - eine Person, die die Produkte im Lager für den Versand "
 "vorbereitet"
 
-#: ../../examples/fulfil-purchase-order.rst:39
-#: ../../examples/fulfil-purchase-order.rst:39
 msgid ""
 "*Financial administrator* - a member of the finance team, who issues "
 "invoices."
@@ -1067,8 +702,6 @@ msgstr ""
 "*Finanzadministrator* - Mitarbeiter des Finanzteams, der die Rechnungen "
 "erstellt"
 
-#: ../../examples/fulfil-purchase-order.rst:44
-#: ../../examples/fulfil-purchase-order.rst:44
 msgid ""
 "*Purchase order* (File, required) - the complete order details, including "
 "order lines. Signavio Workflow forms don’t support tabular data, so you "
@@ -1078,8 +711,6 @@ msgstr ""
 " tabellarischer Form. Da Signavio Workflow keine Tabellen unterstützt, "
 "können diese Informationen nicht direkt im Formular gepflegt werden."
 
-#: ../../examples/fulfil-purchase-order.rst:46
-#: ../../examples/fulfil-purchase-order.rst:46
 msgid ""
 "*PO reference* (Text, required) - the purchase order reference, extracted "
 "from the purchase order itself, to identify the case in Signavio Workflow"
@@ -1087,21 +718,15 @@ msgstr ""
 "*Bestellreferenz* (Text, Pflichtfeld) - die Bestellreferenz aus dem "
 "Bestelldokument, um den Fall in Signavio Workflow identifizieren zu können"
 
-#: ../../examples/fulfil-purchase-order.rst:47
-#: ../../examples/fulfil-purchase-order.rst:47
 msgid ""
 "*Customer email* (Email address, required) - used to send notifications."
 msgstr ""
 "*Kundenemail* (Emailadresse, Pflichtfeld) - um Benachrichtigungen zu "
 "versenden."
 
-#: ../../examples/fulfil-purchase-order.rst:52
-#: ../../examples/fulfil-purchase-order.rst:52
 msgid "To extend this basic process, you could:"
 msgstr "Um den Prozess zu erweitern, können Sie:"
 
-#: ../../examples/fulfil-purchase-order.rst:54
-#: ../../examples/fulfil-purchase-order.rst:54
 msgid ""
 "include the whole *Close customer invoice* process, replacing the final "
 "*Issue invoice* task, to make this an order-to-cash process"
@@ -1110,8 +735,6 @@ msgstr ""
 "*Rechnung stellen*-Task ersetzen), um so einen kompletten *Bestellung-zu-"
 "Einnahmen*-Prozess abzubilden."
 
-#: ../../examples/fulfil-purchase-order.rst:55
-#: ../../examples/fulfil-purchase-order.rst:55
 msgid ""
 "replace the *Wait for available stock* task with an automated version that "
 "precedes the *Check purchase order* task, so that the order only gets a "
@@ -1120,16 +743,12 @@ msgstr ""
 "den Task *Auf Wareneingang warten* automatisieren, sodass eine manuelle "
 "Prüfung nur dann durchgeführt werden muss, sobald die Waren vorliegen."
 
-#: ../../examples/fulfil-purchase-order.rst:56
-#: ../../examples/fulfil-purchase-order.rst:56
 msgid ""
 "perform the *Fulfil order* and *Issue invoice* tasks in parallel, depending "
 "on how people handle exceptions in *Fulfil order*"
 msgstr ""
 "die Tanks *Produkte verschicken* und *Rechnung stellen* parallel ausführen"
 
-#: ../../examples/fulfil-purchase-order.rst:57
-#: ../../examples/fulfil-purchase-order.rst:57
 msgid ""
 "replace the order form file upload with separate form fields, using a list "
 "of text values for the order lines, with each order line - product code, "
@@ -1139,16 +758,13 @@ msgstr ""
 "Formularfelder des Typs 'Liste', wobei jeder Bestellposten - Produktcode, "
 "Beschreibung und Menge - einen Textwert ausmacht."
 
-#: ../../examples/hire-employee.rst:4 ../../examples/hire-employee.rst:4
 msgid "Hire Employee (HR)"
 msgstr "Mitarbeiter einstellen (HR)"
 
-#: ../../examples/hire-employee.rst:9 ../../examples/hire-employee.rst:9
 msgid "Send a job offer letter to a successful job applicant."
 msgstr ""
 "Das Prozessziel ist, einem erfolgreichen Bewerber ein Jobangebot zuzusenden."
 
-#: ../../examples/hire-employee.rst:14 ../../examples/hire-employee.rst:14
 msgid ""
 "Recruiting an employee requires a long elapsed time to complete - typically "
 "a couple of months - and involves a number of people. Unless very few people"
@@ -1164,11 +780,9 @@ msgstr ""
 "verschiedenen Aufgaben - wie Interviews und Vertragsausarbeitung - jeweils "
 "von Spezialisten übernommen."
 
-#: ../../examples/hire-employee.rst:21 ../../examples/hire-employee.rst:21
 msgid "Form - for uploading the candidate’s CV."
 msgstr "Formular - für das Hochladen des Lebenslaufs des Bewerbers."
 
-#: ../../examples/hire-employee.rst:26 ../../examples/hire-employee.rst:26
 msgid ""
 "A recruitment process consists of a series of decisions, to reject the "
 "candidate or cointinue. This simplified process has these decision points "
@@ -1179,7 +793,6 @@ msgstr ""
 "ziehen. In diesem vereinfachten Prozess sind Entscheidungen nach der "
 "Bewertung des Lebenslaufs und nach einem Interview notwendig."
 
-#: ../../examples/hire-employee.rst:30 ../../examples/hire-employee.rst:30
 msgid ""
 "If the hiring manager rejects the applicant at either stage, Signavio "
 "Workflow sends a standard rejection email."
@@ -1188,7 +801,6 @@ msgstr ""
 "Entscheidungen ablehnt, verschickt Signavio Workflow eine Standardemail, die"
 " die Ablehnung enthält."
 
-#: ../../examples/hire-employee.rst:35 ../../examples/hire-employee.rst:35
 msgid ""
 "*Hiring manager* - the person who takes responsibility for assessing a "
 "candidate and whether to reject the candidate or proceed: the *Evaluate CV* "
@@ -1197,7 +809,6 @@ msgstr ""
 "*Personalverantwortlicher* - Die Person, die den Lebenslauf evaluiert und "
 "das Interview durchführt und über eine etwaige Ablehnung entscheidet."
 
-#: ../../examples/hire-employee.rst:36 ../../examples/hire-employee.rst:36
 msgid ""
 "*Recruiter* - an HR assistant who coordinates the recruitment process: the "
 "*Plan interview* and *Send job offer* tasks."
@@ -1205,14 +816,12 @@ msgstr ""
 "*Recruiter* ein HR Assistent, der die Tasks *Interview planen* und "
 "*Jobangebot versenden* übernimmt."
 
-#: ../../examples/hire-employee.rst:41 ../../examples/hire-employee.rst:41
 msgid ""
 "*CV* (File, mandatory) - the applicant’s CV, provided by the trigger form."
 msgstr ""
 "*Lebenslauf* (Datei, Pflichtfeld) - der Lebenslauf des Bewerbers wird über "
 "das Auslöserformular bereitgestellt."
 
-#: ../../examples/hire-employee.rst:42 ../../examples/hire-employee.rst:42
 msgid ""
 "*Candidate email* (Email address, mandatory) - the email address that "
 "Signavio Workflow uses to send a rejection email."
@@ -1221,7 +830,6 @@ msgstr ""
 " an die Signavio Workflow gegebenenfalls automatisch eine Ablehungs-Email "
 "verschickt."
 
-#: ../../examples/hire-employee.rst:47 ../../examples/hire-employee.rst:47
 msgid ""
 "The trigger form could allow uploading additional documents, such as a "
 "covering letter, which some organisations like to receive."
@@ -1229,7 +837,6 @@ msgstr ""
 "Das Auslöserformular kann zudem das Hochladen weiterer Dokumente, wie zum "
 "Beispiel Anschreiben und Referenzen, erlauben."
 
-#: ../../examples/hire-employee.rst:48 ../../examples/hire-employee.rst:48
 msgid ""
 "Instead of a trigger form, use an e-mail trigger to accept applications by "
 "e-mail, including the CV as an attachment."
@@ -1237,7 +844,6 @@ msgstr ""
 "Anstelle eines Auslöserformulars kann ein Emailauslöser verwendet werden. "
 "Der Lebenslauf kann über den Anhang der Email übertragen werden."
 
-#: ../../examples/hire-employee.rst:49 ../../examples/hire-employee.rst:49
 msgid ""
 "If the organisation has to deal with a high case volume, the trigger form "
 "could capture information that you could use to prioritise cases, such as "
@@ -1247,7 +853,6 @@ msgstr ""
 "Felder zur Periodisierung im Formular bereitstellen, wie zum Beispiel das "
 "*Verfügbarkeitsdatum* des Bewerbers."
 
-#: ../../examples/hire-employee.rst:50 ../../examples/hire-employee.rst:50
 msgid ""
 "The trigger form could include additional information to allow automatic "
 "pre-screening, to cover cases that do not justify starting the process, such"
@@ -1256,7 +861,6 @@ msgstr ""
 "Das Auslöserformular kann zudem weitere Felder zur Vorauswahl enthalten, zum"
 " Beispiel wenn ein valides Arbeitsvisum eine zwingende Voraussetzung ist."
 
-#: ../../examples/hire-employee.rst:51 ../../examples/hire-employee.rst:51
 msgid ""
 "You could add additional interview stages, such as a telephone screen, "
 "second interview, or a post-offer visit."
@@ -1265,11 +869,9 @@ msgstr ""
 "ein Telefon-Screening, ein weiteres On-Site-Interview oder ein "
 "Kennenlerntreffen nach einem Angebot."
 
-#: ../../examples/initiate-project.rst:4 ../../examples/initiate-project.rst:4
 msgid "Initiate Project (project delivery)"
 msgstr "Projekt initiieren (Projektmanagement)"
 
-#: ../../examples/initiate-project.rst:9 ../../examples/initiate-project.rst:9
 msgid ""
 "Complete checklists that capture basic information when starting a new "
 "project."
@@ -1277,8 +879,6 @@ msgstr ""
 "Eine komplette Checkliste, die die Basisinformationen für einen neuen "
 "Projektstart enthält."
 
-#: ../../examples/initiate-project.rst:14
-#: ../../examples/initiate-project.rst:14
 msgid ""
 "When a project organisation starts a new project, the project team (or "
 "project manager) needs to capture a project overview that introduces the "
@@ -1301,13 +901,9 @@ msgstr ""
 "entsprechende Aufgabendefinition kann in Signavio Workflow vorgenommen "
 "werden."
 
-#: ../../examples/initiate-project.rst:24
-#: ../../examples/initiate-project.rst:24
 msgid "Manual."
 msgstr "Manuell."
 
-#: ../../examples/initiate-project.rst:29
-#: ../../examples/initiate-project.rst:29
 msgid ""
 "This process represents a checklist with one user task for each piece of "
 "required project documentation. Each user task adds a level of detail by "
@@ -1317,15 +913,11 @@ msgstr ""
 "Beschaffung eines Informationsobjekts. Hierdurch wird die "
 "Projektbeschreibung in mehrere Abschnitte unterteilt."
 
-#: ../../examples/initiate-project.rst:34
-#: ../../examples/initiate-project.rst:34
 msgid "The project manager can complete these tasks in any order."
 msgstr ""
 "Der Projektmanager kann die Tasks in einer beliebigen Reihenfolge "
 "abschließen."
 
-#: ../../examples/initiate-project.rst:39
-#: ../../examples/initiate-project.rst:39
 msgid ""
 "*Project manager* - responsible for capturing the project summaries. In "
 "practice, the project manager may delegate these tasks to other team "
@@ -1335,63 +927,39 @@ msgstr ""
 "Projektbeschreibung. In der Praxis kann der Projektmanager diese Aufgaben "
 "delegieren, indem er die Aufgaben seinen Mitarbeitern zuweist."
 
-#: ../../examples/initiate-project.rst:45
-#: ../../examples/initiate-project.rst:45
 msgid "The *Project overview* task includes the following fields."
 msgstr "Der *Projektüberblick*-Task beinhaltet die folgenden Felder."
 
-#: ../../examples/initiate-project.rst:47
-#: ../../examples/initiate-project.rst:47
 msgid "*Business context* (Text)"
 msgstr "*Businesskontext* (Text)"
 
-#: ../../examples/initiate-project.rst:48
-#: ../../examples/initiate-project.rst:48
 msgid "*Vision* (Text)"
 msgstr "*Vision* (Text)"
 
-#: ../../examples/initiate-project.rst:49
-#: ../../examples/initiate-project.rst:49
 msgid "*Goals* (Text, multiple values)"
 msgstr "*Goals* (Text, Liste)"
 
-#: ../../examples/initiate-project.rst:50
-#: ../../examples/initiate-project.rst:50
 msgid "*Deliverables* (Text, multiple values)"
 msgstr "*Deliverables* (Text, Liste)"
 
-#: ../../examples/initiate-project.rst:52
-#: ../../examples/initiate-project.rst:52
 msgid "Similarly, the *Project plan* task captures a summary for each of:"
 msgstr "Der *Projektplan* enthält dementsprechend:"
 
-#: ../../examples/initiate-project.rst:54
-#: ../../examples/initiate-project.rst:54
 msgid "*Resources* (Text, multiple values)"
 msgstr "*Ressourcen* (Text, Liste)"
 
-#: ../../examples/initiate-project.rst:55
-#: ../../examples/initiate-project.rst:55
 msgid "*Approach* (Text)"
 msgstr "*Ansatz* (Text)"
 
-#: ../../examples/initiate-project.rst:56
-#: ../../examples/initiate-project.rst:56
 msgid "*Start date* (Date)"
 msgstr "*Startdatum* (Datum)"
 
-#: ../../examples/initiate-project.rst:57
-#: ../../examples/initiate-project.rst:57
 msgid "*Success factors* (Text, multiple values)"
 msgstr "*Erfolgsfaktoren* (Text, Liste)"
 
-#: ../../examples/initiate-project.rst:58
-#: ../../examples/initiate-project.rst:58
 msgid "*Risks* (Text, multiple values)"
 msgstr "*Risiken* (Text, Liste)"
 
-#: ../../examples/initiate-project.rst:60
-#: ../../examples/initiate-project.rst:60
 msgid ""
 "You could simplify these forms by using *Yes/No* choices instead of text "
 "fields, turning each task into a checklist of its own. However, asking "
@@ -1405,8 +973,6 @@ msgstr ""
 "entsprechenden Problematik, während Checklisten zum reflexartigen Abhaken "
 "einladen."
 
-#: ../../examples/initiate-project.rst:66
-#: ../../examples/initiate-project.rst:66
 msgid ""
 "In general, you will extend this process with additional checklist tasks for"
 " project initiation work. You can extend this process to include a project "
@@ -1416,18 +982,14 @@ msgstr ""
 "Projektinitiierung notwendig sind. Zudem können Sie eine Freigabetalk "
 "anfügen."
 
-#: ../../examples/invoice-customer.rst:4 ../../examples/invoice-customer.rst:4
 msgid "Invoice Customer (finance)"
 msgstr "Rechnung erstellen (Finanzen)"
 
-#: ../../examples/invoice-customer.rst:9 ../../examples/invoice-customer.rst:9
 msgid "Get a customer invoice paid and closed."
 msgstr ""
 "Das Ziel ist es eine Rechnung zu versenden und den Zahlungseingang "
 "sicherzustellen."
 
-#: ../../examples/invoice-customer.rst:14
-#: ../../examples/invoice-customer.rst:14
 msgid ""
 "In any business, the most obvious example critical process includes getting "
 "paid by customers. This starts with sending invoices but also includes "
@@ -1438,8 +1000,6 @@ msgstr ""
 "jedem Betrieb. Der Prozess beginnt mit dem Versenden der Rechnung und "
 "beinhaltet Erinnerungen falls Rechnungen nicht direkt bezahlt werden."
 
-#: ../../examples/invoice-customer.rst:21
-#: ../../examples/invoice-customer.rst:21
 msgid ""
 "Form - an uploaded invoice from a separate process, and customer contact "
 "details."
@@ -1447,8 +1007,6 @@ msgstr ""
 "Forumlar - die Rechnungsdatei aus einem separaten Prozess sowie "
 "Kundenkontaktdaten."
 
-#: ../../examples/invoice-customer.rst:26
-#: ../../examples/invoice-customer.rst:26
 msgid ""
 "This process uses a user task to capture key information about an invoice, "
 "which Signavio Workflow then sends automatically by e-mail. Another task "
@@ -1459,8 +1017,6 @@ msgstr ""
 " verschickt. Eine andere Aufgabe überprüft mit Hilfe des Fälligkeitsdatums "
 "in den Zahlungsregularien, ob eine Zahlung erfolgt ist"
 
-#: ../../examples/invoice-customer.rst:31
-#: ../../examples/invoice-customer.rst:31
 msgid ""
 "To reduce the number of unpaid invoices due to errors, this process starts "
 "with a *Check invoice* task. The assignee checks the information on the "
@@ -1472,8 +1028,6 @@ msgstr ""
 "Bestelldokument dienen. Fall notwendig wird die Rechnung durch eine "
 "korrigierte Version ersetzt."
 
-#: ../../examples/invoice-customer.rst:34
-#: ../../examples/invoice-customer.rst:34
 msgid ""
 "The *Send Invoice* task automatically emails the invoice to the customer, "
 "and a *Check for payment* task requires the finance administrator to check "
@@ -1488,8 +1042,6 @@ msgstr ""
 "nachgekommen wird, wird der Vorgang zurück zum Finanzadministrator "
 "eskaliert."
 
-#: ../../examples/invoice-customer.rst:40
-#: ../../examples/invoice-customer.rst:40
 msgid ""
 "*Finance administrator* - responsible for handling invoices within the "
 "company’s finance department."
@@ -1497,8 +1049,6 @@ msgstr ""
 "*Finanzadministrator* - verantwortlich für die Verwaltung von Rechnung "
 "innerhalb der Finanzabteilung der Firma."
 
-#: ../../examples/invoice-customer.rst:45
-#: ../../examples/invoice-customer.rst:45
 msgid ""
 "*Invoice* (File, mandatory) - produced by a separate process, typically a "
 "formatted PDF document."
@@ -1506,13 +1056,9 @@ msgstr ""
 "*Rechnung* (Datei, Pflichtfeld) - generiert durch einen separaten Prozess "
 "und typischerweise im PDF-Format."
 
-#: ../../examples/invoice-customer.rst:46
-#: ../../examples/invoice-customer.rst:46
 msgid "*Customer e-mail* (E-mail address) - for notifications"
 msgstr "*Kundenemail* (Emailadresse) - für Benachrichtigungen"
 
-#: ../../examples/invoice-customer.rst:51
-#: ../../examples/invoice-customer.rst:51
 msgid ""
 "You may add a reminder email to the process, to prompt the customer to pay "
 "before the payment terms run out."
@@ -1520,20 +1066,14 @@ msgstr ""
 "Sie können einen weiteren Task hinzufügen, um den Kunden schon kurz *vor* "
 "Ablaufen der Deadline zu erinnern."
 
-#: ../../examples/open-new-customer-account.rst:4
-#: ../../examples/open-new-customer-account.rst:4
 msgid "Open New Customer Account (banking)"
 msgstr "Neues Kundenkonto eröffnen (Banking)"
 
-#: ../../examples/open-new-customer-account.rst:9
-#: ../../examples/open-new-customer-account.rst:9
 msgid "Create a new customer bank account for a retail bank."
 msgstr ""
 "Das Prozessziel ist die Eröffnung eines Kundenkontos in einer "
 "Privatkundenbank."
 
-#: ../../examples/open-new-customer-account.rst:14
-#: ../../examples/open-new-customer-account.rst:14
 msgid ""
 "Retail banking handles many high volume processes by standardising and "
 "optimising them, especially customer contact processes. Customer contact "
@@ -1544,8 +1084,6 @@ msgstr ""
 "Kundenkontakt Teil des Prozesses ist. Kundenkontakt startet hier mit der "
 "Eröffnung eines neuen Kontos."
 
-#: ../../examples/open-new-customer-account.rst:17
-#: ../../examples/open-new-customer-account.rst:17
 msgid ""
 "This on-boarding business process has parallels in other service industries."
 " A similar ‘new customer account’ process might apply to insurance products,"
@@ -1559,8 +1097,6 @@ msgstr ""
 "längerfristiges Dienstleistungsangebot und erhält entweder eine Absage oder "
 "eine Bestätigung und möglicherweise ein 'Starter Pack'."
 
-#: ../../examples/open-new-customer-account.rst:24
-#: ../../examples/open-new-customer-account.rst:24
 msgid ""
 "Form - a completed customer application. The bank employee may use this "
 "information or additional documentation to reject the application."
@@ -1568,8 +1104,6 @@ msgstr ""
 "Formular - ein ausgefüllter Kundenantrag. Der Bankangestellte kann dieses "
 "Dokument ablehnen oder bestätigen."
 
-#: ../../examples/open-new-customer-account.rst:30
-#: ../../examples/open-new-customer-account.rst:30
 msgid ""
 "This process consists of a series of checks, followed by tasks to set-up a "
 "new account, if the bank employee approved the customer’s request for a new "
@@ -1578,8 +1112,6 @@ msgstr ""
 "Der Prozess besteht aus einer Reihe von Überprüfungen, gefolgt von Aufgaben "
 "die das neue Konto erstellen, falls der Antrag genehmigt wird."
 
-#: ../../examples/open-new-customer-account.rst:34
-#: ../../examples/open-new-customer-account.rst:34
 msgid ""
 "This structure makes this process similar to other approval processes, "
 "including the rejection notification tasks. If the bank employee accepts the"
@@ -1587,40 +1119,26 @@ msgid ""
 " a several account set-up tasks in parallel."
 msgstr "Von der Struktur her ähnelt der Prozess einem Freigabeprozess"
 
-#: ../../examples/open-new-customer-account.rst:40
-#: ../../examples/open-new-customer-account.rst:40
 msgid "*Bank employee* - responsible for the whole account creation process."
 msgstr ""
 "*Bankangestellter* - verantwortlich für den gesamten "
 "Kontoerstellungsprozess."
 
-#: ../../examples/open-new-customer-account.rst:45
-#: ../../examples/open-new-customer-account.rst:45
 msgid "The process starts with initial information from the customer:"
 msgstr "Zum Prozessstart liegen die folgenden Kundeninformationen vor:"
 
-#: ../../examples/open-new-customer-account.rst:47
-#: ../../examples/open-new-customer-account.rst:47
 msgid "*Customer name* (Text, mandatory)"
 msgstr "*Kundenname* (Text, Pflichtfeld)"
 
-#: ../../examples/open-new-customer-account.rst:48
-#: ../../examples/open-new-customer-account.rst:48
 msgid "*Address* (Text, mandatory)"
 msgstr "*Addresse* (Text, Pflichtfeld)"
 
-#: ../../examples/open-new-customer-account.rst:49
-#: ../../examples/open-new-customer-account.rst:49
 msgid "*Date of birth* (Date, mandatory)"
 msgstr "*Geburtsdatum* (Datum, Pflichtfeld)"
 
-#: ../../examples/open-new-customer-account.rst:50
-#: ../../examples/open-new-customer-account.rst:50
 msgid "*Contact e-mail* (Email address, mandatory)"
 msgstr "*Emailadresse* (Emailadresse, Pflichtfeld)"
 
-#: ../../examples/open-new-customer-account.rst:51
-#: ../../examples/open-new-customer-account.rst:51
 msgid ""
 "*Supporting documentation* (File, multiple values) - additional documents, "
 "such as proof of address, which the process might specify individually."
@@ -1628,18 +1146,12 @@ msgstr ""
 "*Nachweisdokumente* (Datei, Liste) - zusätzliche Dokumente wie "
 "Adressnachweis oder Kopie des Personalausweises."
 
-#: ../../examples/open-new-customer-account.rst:53
-#: ../../examples/open-new-customer-account.rst:53
 msgid "The process later adds further information, including:"
 msgstr "Später im Prozess werden die folgenden Informationen hinzugefügt:"
 
-#: ../../examples/open-new-customer-account.rst:55
-#: ../../examples/open-new-customer-account.rst:55
 msgid "*Account number* (Number) - created for the new account."
 msgstr "*Kontonummer* (Nummer) - wird für jedes neue Konto generiert."
 
-#: ../../examples/open-new-customer-account.rst:60
-#: ../../examples/open-new-customer-account.rst:60
 msgid ""
 "A real retail bank’s workflow for creating a new customer account would "
 "include more tasks than this. In practice, back-office systems would "
@@ -1651,18 +1163,12 @@ msgstr ""
 "viele Backoffice-Systeme viele Tasks automatisieren. Eine Integration mit "
 "diesen Systemen setzt zusätzliches IT-Know-How voraus."
 
-#: ../../examples/plan-trade-fair-booth.rst:4
-#: ../../examples/plan-trade-fair-booth.rst:4
 msgid "Plan Trade Fair Booth (marketing)"
 msgstr "Messestand planen (Marketing)"
 
-#: ../../examples/plan-trade-fair-booth.rst:9
-#: ../../examples/plan-trade-fair-booth.rst:9
 msgid "Have a stand at a trade fair."
 msgstr "Das Prozessziel ist ein eingerichteter Stand auf einer Fachmesse."
 
-#: ../../examples/plan-trade-fair-booth.rst:14
-#: ../../examples/plan-trade-fair-booth.rst:14
 msgid ""
 "Attending a trade fair requires organisation far in advance of the event, "
 "with coordination between multiple people and a hard deadline. Checklists "
@@ -1676,8 +1182,6 @@ msgstr ""
 "Aufgaben zu behalten. Zudem müssen Abhängigkeiten zwischen Aufgaben "
 "kontrolliert werden."
 
-#: ../../examples/plan-trade-fair-booth.rst:17
-#: ../../examples/plan-trade-fair-booth.rst:17
 msgid ""
 "Getting this done requires expertise about which tasks to perform, how long "
 "they take, and their dependencies. That makes this process model more "
@@ -1689,13 +1193,9 @@ msgstr ""
 "vorliegende Modell besser als Beispielsworkflow denn als praxisfähiger "
 "Workflow geeignet."
 
-#: ../../examples/plan-trade-fair-booth.rst:23
-#: ../../examples/plan-trade-fair-booth.rst:23
 msgid "*Form* - specifies details of the trade fair booking."
 msgstr "*Formular* - Spezifika der Messebuchung"
 
-#: ../../examples/plan-trade-fair-booth.rst:28
-#: ../../examples/plan-trade-fair-booth.rst:28
 msgid ""
 "Sometimes you just have a lot to do. This process consists of planning many "
 "activities, some of which can happen in parallel, but which may require long"
@@ -1705,51 +1205,33 @@ msgstr ""
 "verschiedenen Aktivitäten - einige können parallel ausgeführt werden, "
 "während andere genau in den Zeitplan integriert werden müssen."
 
-#: ../../examples/plan-trade-fair-booth.rst:33
-#: ../../examples/plan-trade-fair-booth.rst:33
 msgid "Every user task may have its own due date, reminders and escalation."
 msgstr ""
 "Jede Aufgabe benötigt ein eigenes Fälligkeitsdatum, eine Erinnerungsfunktion"
 " und eine Eskalationsmöglichkeit."
 
-#: ../../examples/plan-trade-fair-booth.rst:38
-#: ../../examples/plan-trade-fair-booth.rst:38
 msgid "*Marketing team member* - responsible for the whole process."
 msgstr "*Marketingmitarbeiter* - verantwortlich für den gesamten Prozess."
 
-#: ../../examples/plan-trade-fair-booth.rst:43
-#: ../../examples/plan-trade-fair-booth.rst:43
 msgid ""
 "The trigger form specifies trade fair booking details, including the fields:"
 msgstr "Im Auslöserformular werden die folgenden Buchungsdetails festgelegt:"
 
-#: ../../examples/plan-trade-fair-booth.rst:45
-#: ../../examples/plan-trade-fair-booth.rst:45
 msgid "*Trade fair name* (Text, mandatory)"
 msgstr "*Messename* (Text, Pflichtfeld)"
 
-#: ../../examples/plan-trade-fair-booth.rst:46
-#: ../../examples/plan-trade-fair-booth.rst:46
 msgid "*Address* (Text)"
 msgstr "*Adresse* (Text)"
 
-#: ../../examples/plan-trade-fair-booth.rst:47
-#: ../../examples/plan-trade-fair-booth.rst:47
 msgid "*Booth location/number* (Text)"
 msgstr "*Standortnummer des Stands* (Text)"
 
-#: ../../examples/plan-trade-fair-booth.rst:48
-#: ../../examples/plan-trade-fair-booth.rst:48
 msgid "*Start* (Date)"
 msgstr "*Startdatum* (Datum)"
 
-#: ../../examples/plan-trade-fair-booth.rst:49
-#: ../../examples/plan-trade-fair-booth.rst:49
 msgid "*End* (Date)"
 msgstr "*Enddatum* (Datum)"
 
-#: ../../examples/plan-trade-fair-booth.rst:51
-#: ../../examples/plan-trade-fair-booth.rst:51
 msgid ""
 "Each task can include its own checklist of requirements or subtasks. For "
 "example, the *Design booth* task might include the Yes/No fields for:"
@@ -1758,38 +1240,24 @@ msgstr ""
 "enthalten. Der Task *Standdesign ausarbeiten* kann zum Beispiel Ja/Nein-"
 "Felder für die folgenden Punkte auflisten:"
 
-#: ../../examples/plan-trade-fair-booth.rst:54
-#: ../../examples/plan-trade-fair-booth.rst:54
 msgid "text content"
 msgstr "Textinhalte"
 
-#: ../../examples/plan-trade-fair-booth.rst:55
-#: ../../examples/plan-trade-fair-booth.rst:55
 msgid "exhibition wall"
 msgstr "Ausstellungswand"
 
-#: ../../examples/plan-trade-fair-booth.rst:56
-#: ../../examples/plan-trade-fair-booth.rst:56
 msgid "roll-ups"
 msgstr "Rollups"
 
-#: ../../examples/plan-trade-fair-booth.rst:57
-#: ../../examples/plan-trade-fair-booth.rst:57
 msgid "flyers"
 msgstr "Flyer"
 
-#: ../../examples/plan-trade-fair-booth.rst:58
-#: ../../examples/plan-trade-fair-booth.rst:58
 msgid "brochures"
 msgstr "Broschüren"
 
-#: ../../examples/plan-trade-fair-booth.rst:59
-#: ../../examples/plan-trade-fair-booth.rst:59
 msgid "posters."
 msgstr "Poster."
 
-#: ../../examples/plan-trade-fair-booth.rst:64
-#: ../../examples/plan-trade-fair-booth.rst:64
 msgid ""
 "You could simplify this process by extracting design activities, so that "
 "this process requires an existing stand design. This might also simplify "
@@ -1800,8 +1268,6 @@ msgstr ""
 "Designaktivitäten in einen anderen Prozess extrahieren. Hierdurch "
 "erleichtern Sie die Planung."
 
-#: ../../examples/plan-trade-fair-booth.rst:67
-#: ../../examples/plan-trade-fair-booth.rst:67
 msgid ""
 "The basic version of this process does not rely on roles, on the assumption "
 "that team members know who does what. You might find it useful to define "
@@ -1812,20 +1278,14 @@ msgstr ""
 " unter Umständen sinnvoll, Rollen zu definieren und die Zuweisung der "
 "Aufgaben zu automatisieren."
 
-#: ../../examples/process-insurance-claim.rst:4
-#: ../../examples/process-insurance-claim.rst:4
 msgid "Process Claim (insurance)"
 msgstr "Versicherungsfall bearbeiten (Versicherungen)"
 
-#: ../../examples/process-insurance-claim.rst:9
-#: ../../examples/process-insurance-claim.rst:9
 msgid "Process an insurance claim in order to make a payout to a customer"
 msgstr ""
 "Das Prozessziel ist die Bearbeitung eines Versicherungsfalls mit "
 "anschließender Auszahlung an den Kunden."
 
-#: ../../examples/process-insurance-claim.rst:14
-#: ../../examples/process-insurance-claim.rst:14
 msgid ""
 "Sometimes, a large team has to collaborate on high-volume task processing, "
 "such as assessing insurance claims."
@@ -1833,13 +1293,9 @@ msgstr ""
 "Oft bearbeitet ein großes Team high-volume Tasks wie bei der Bearbeitung "
 "eines Versicherungfalls."
 
-#: ../../examples/process-insurance-claim.rst:19
-#: ../../examples/process-insurance-claim.rst:19
 msgid "Form - an insured customer’s completed claim form."
 msgstr "Formular - ausgefülltes Fallformular eines Versicherungskunden."
 
-#: ../../examples/process-insurance-claim.rst:24
-#: ../../examples/process-insurance-claim.rst:24
 msgid ""
 "This process illustrates how to handle large case volumes, by splitting the "
 "process into tasks that you can assign to different groups of people Junior "
@@ -1852,8 +1308,6 @@ msgstr ""
 "abarbeiten, während Seniormitarbeiter lediglich komplizierte und "
 "risikoreiche Aufgaben übernehmen."
 
-#: ../../examples/process-insurance-claim.rst:29
-#: ../../examples/process-insurance-claim.rst:29
 msgid ""
 "In most cases, the top row of user tasks will process the claim. Only a few "
 "claims will require the *Investigate high-value claim* or *Process complex "
@@ -1863,28 +1317,20 @@ msgstr ""
 "wenigen komplexen Fälle und Fälle mit hohen Forderungssummen erfordern die "
 "Aufgaben *Forderung überprüfen* und/oder *Komplexe Forderung bearbeiten*."
 
-#: ../../examples/process-insurance-claim.rst:35
-#: ../../examples/process-insurance-claim.rst:35
 msgid ""
 "*Junior claims adjuster* - triages insurance claims and processes the "
 "straightforward ones."
 msgstr ""
 "*Juniorfallbearbeiter* - stuft den Antrag ein und bearbeitet einfache Fälle."
 
-#: ../../examples/process-insurance-claim.rst:36
-#: ../../examples/process-insurance-claim.rst:36
 msgid ""
 "*Investigator* - investigates high-value claims to protect against "
 "fraudulent claims."
 msgstr "*Prüfer* - prüft hohe Forderungen, um Betrugsfälle zu vermeiden."
 
-#: ../../examples/process-insurance-claim.rst:37
-#: ../../examples/process-insurance-claim.rst:37
 msgid "*Senior claims adjuster* - processes complex claims."
 msgstr "*Seniorfallbearbeiter* - bearbeitet komplexe Fälle."
 
-#: ../../examples/process-insurance-claim.rst:42
-#: ../../examples/process-insurance-claim.rst:42
 msgid ""
 "*Claim form* (File, mandatory) - the form provided by the customer, via the "
 "trigger form."
@@ -1892,8 +1338,6 @@ msgstr ""
 "*Antragsformular* (Datei, Pflichtfeld) - das vom Kunden ausgefüllte "
 "Formular, das über den Auslöser bereit gestellt wird."
 
-#: ../../examples/process-insurance-claim.rst:43
-#: ../../examples/process-insurance-claim.rst:43
 msgid ""
 "*Total value* (Money, mandatory) - the total value of the claim, which the "
 "junior adjuster extracts from the claim form in the *Calculate claim value* "
@@ -1902,8 +1346,6 @@ msgstr ""
 "*Gesamtsumme* (Geldbetrag, Pflichtfeld) - die Gesamtsumme des Antrags, die "
 "der Juniorfallbearbeiter aus dem Formular extrahiert."
 
-#: ../../examples/process-insurance-claim.rst:44
-#: ../../examples/process-insurance-claim.rst:44
 msgid ""
 "*Payout* (Money, mandatory) - the amount to pay to the customer if the "
 "adjuster approves the claim."
@@ -1911,19 +1353,13 @@ msgstr ""
 "*Auszahlung* (Geldbetrag, Pflichtfeld) - der Geldbetrag, den der Kunde bei "
 "stattgegebenem Antrag erhält."
 
-#: ../../examples/respond-to-customer-email.rst:4
-#: ../../examples/respond-to-customer-email.rst:4
 msgid "Respond To Email (customer service)"
 msgstr "Antwort verfassen (Kundenservice)"
 
-#: ../../examples/respond-to-customer-email.rst:9
-#: ../../examples/respond-to-customer-email.rst:9
 msgid ""
 "Respond to a (potential) customer’s email enquiry by sending an email reply."
 msgstr "Beantwortung der Anfrage eines (potentiellen) Kunden via Email."
 
-#: ../../examples/respond-to-customer-email.rst:14
-#: ../../examples/respond-to-customer-email.rst:14
 msgid ""
 "Companies often have a contact email address on their web site, like "
 "*info@example.com*, that routes customer email to a mailing list that "
@@ -1943,13 +1379,9 @@ msgstr ""
 "beantworteten Anfragen oder mehrfachen und im schlimmsten Fall "
 "widersprüchlichen Antworten."
 
-#: ../../examples/respond-to-customer-email.rst:21
-#: ../../examples/respond-to-customer-email.rst:21
 msgid "Email - a customer request."
 msgstr "Email - eine Kundenanfrage."
 
-#: ../../examples/respond-to-customer-email.rst:26
-#: ../../examples/respond-to-customer-email.rst:26
 msgid ""
 "Unusually, this process consists of a single user task - for responding to "
 "the email - followed by an email task to send the reply."
@@ -1958,8 +1390,6 @@ msgstr ""
 " durch den Nutzer ausgeführt wird - dem Beantworten der E-Mail - auf die "
 "eine *E-Mail senden*-Aufgabe zum automatischen Versenden der Mail folgt."
 
-#: ../../examples/respond-to-customer-email.rst:30
-#: ../../examples/respond-to-customer-email.rst:30
 msgid ""
 "This process minimally demonstrates the value of task assignment. The "
 "process’ value comes from the automated notifications from setting the user "
@@ -1970,8 +1400,6 @@ msgstr ""
 "den automatischen Benachrichtigungen durch das setzen der Kandidatengruppe, "
 "Erinnerung, Fälligkeitsheadline und Eskalationsmöglichkeit der Aufgabe."
 
-#: ../../examples/respond-to-customer-email.rst:36
-#: ../../examples/respond-to-customer-email.rst:36
 msgid ""
 "A simpler version of this process only has a single user task, and relies on"
 " the assignee to send the email normally."
@@ -1980,13 +1408,9 @@ msgstr ""
 "manuell ausgeführt wird. Es ist notwendig, dass die verantwortliche Person "
 "die E-Mail manuell versendet."
 
-#: ../../examples/ship-product-from-warehouse.rst:4
-#: ../../examples/ship-product-from-warehouse.rst:4
 msgid "Ship Product From Warehouse (logistics)"
 msgstr "Produkte aus Lager versenden (Logistik)"
 
-#: ../../examples/ship-product-from-warehouse.rst:9
-#: ../../examples/ship-product-from-warehouse.rst:9
 msgid ""
 "In a warehouse operation, fulfil an order by shipping physical products to "
 "the customer."
@@ -1994,8 +1418,6 @@ msgstr ""
 "Im einem Lager wird eine Bestellung durch das Verschicken physischer "
 "Produkte bearbeitet."
 
-#: ../../examples/ship-product-from-warehouse.rst:14
-#: ../../examples/ship-product-from-warehouse.rst:14
 msgid ""
 "A product manufacturer typically runs warehouses that contain an inventory "
 "of products, ready to ship to customers. In the warehouse, a customer order "
@@ -2006,8 +1428,6 @@ msgstr ""
 "enthalten. Im Lager wird aus der bisher informationszentrierte "
 "Bestellprozess mit physischen Aktivitäten und Produkten verbunden."
 
-#: ../../examples/ship-product-from-warehouse.rst:17
-#: ../../examples/ship-product-from-warehouse.rst:17
 msgid ""
 "This process participates in a broader customer order process that happens "
 "in the context of a warehouse. The order status that triggers this process, "
@@ -2018,15 +1438,11 @@ msgstr ""
 "wird durch den Bestellstatus bestimmt, der den Prozess auslöst und bei "
 "Prozessabschluss entsprechend geändert wird."
 
-#: ../../examples/ship-product-from-warehouse.rst:23
-#: ../../examples/ship-product-from-warehouse.rst:23
 msgid ""
 "*Form* - an order form that lists order lines for the products to ship."
 msgstr ""
 "*Formular* - ein Bestellformular, das die bestellten Produkte auflistet."
 
-#: ../../examples/ship-product-from-warehouse.rst:28
-#: ../../examples/ship-product-from-warehouse.rst:28
 msgid ""
 "The process takes a customer order and ships physical inventory from a "
 "warehouse. Warehouse staff retrieve the order and perform a sequence of "
@@ -2036,13 +1452,9 @@ msgstr ""
 "einem Lagerinventar. Vor dem Versenden werden die Produkte von "
 "Lagermitarbeitern abgeholt, verpackt und weiter bearbeitet."
 
-#: ../../examples/ship-product-from-warehouse.rst:33
-#: ../../examples/ship-product-from-warehouse.rst:33
 msgid "A long sequence of tasks characterises this process, as follows."
 msgstr "Diesen Prozess charakterisiert eine lange Folge von Tasks:"
 
-#: ../../examples/ship-product-from-warehouse.rst:35
-#: ../../examples/ship-product-from-warehouse.rst:35
 msgid ""
 "*Retrieve customer order* - retrieve the order from the order management "
 "system and make it available to warehouse staff, e.g. by printing it or "
@@ -2052,8 +1464,6 @@ msgstr ""
 "Bestellverwaltungssystem für die Lagermitarbeiter - zum Beispiel Ausdrucken "
 "der Bestellung oder Übertragung auf die entsprechenden mobilen Endgeräte."
 
-#: ../../examples/ship-product-from-warehouse.rst:37
-#: ../../examples/ship-product-from-warehouse.rst:37
 msgid ""
 "*Pick items* - for each order line, finding the items in the warehouse and "
 "adding them to a ‘basket’, possibly for multiple orders at once with an "
@@ -2063,21 +1473,15 @@ msgstr ""
 "einem 'Warenkorb', möglicherweise für mehrere Bestellungen gleichzeitig, um "
 "Laufwege effizient zu nutzen."
 
-#: ../../examples/ship-product-from-warehouse.rst:38
-#: ../../examples/ship-product-from-warehouse.rst:38
 msgid ""
 "*Pack items into parcels* - efficiently pack items into standard parcels."
 msgstr "*Produkte verpacken* - Verpacken der Produkte in Standardpakete."
 
-#: ../../examples/ship-product-from-warehouse.rst:39
-#: ../../examples/ship-product-from-warehouse.rst:39
 msgid ""
 "*Weigh parcels* - to capture parcel weight and dimensions, for the shipping "
 "label."
 msgstr "*Pakete wiegen* - Wiegen der Pakete und Feststellung der Ausmaße."
 
-#: ../../examples/ship-product-from-warehouse.rst:40
-#: ../../examples/ship-product-from-warehouse.rst:40
 msgid ""
 "*Print shipping labels* - print and attached labels showing the customer "
 "delivery address and other information such as weight and dimensions."
@@ -2085,8 +1489,6 @@ msgstr ""
 "*Paketbeschriftungen drucken* - Drucken und ankleben der Beschriftungen mit "
 "Lieferadresse und weitere Informationen wie Gewicht und Maße."
 
-#: ../../examples/ship-product-from-warehouse.rst:41
-#: ../../examples/ship-product-from-warehouse.rst:41
 msgid ""
 "*Move to loading dock* - stack parcels ready for loading on the next truck. "
 "Inspect packing quality - quality control to check for correctly packed "
@@ -2096,8 +1498,6 @@ msgstr ""
 "Verladerampe. **Verpackungsqualität überprüfen** - stellen Sie die Qualität "
 "der Verpackung sicher."
 
-#: ../../examples/ship-product-from-warehouse.rst:43
-#: ../../examples/ship-product-from-warehouse.rst:43
 msgid ""
 "*Check parcel count* - a ‘head-count’ to check that there no orders have "
 "missing parcels."
@@ -2105,8 +1505,6 @@ msgstr ""
 "*Paketanzahl überprüfen* - Sicherstellung, dass keine Pakete einer "
 "Bestellung fehlen."
 
-#: ../../examples/ship-product-from-warehouse.rst:44
-#: ../../examples/ship-product-from-warehouse.rst:44
 msgid ""
 "*Load parcels on truck* - loading happens in a batch together with parcels "
 "for other orders, and may only happen once per day."
@@ -2115,8 +1513,6 @@ msgstr ""
 "Bestellungen als 'Taskstapel' durchgeführt - zum Beispiel lediglich einmal "
 "am Tag."
 
-#: ../../examples/ship-product-from-warehouse.rst:45
-#: ../../examples/ship-product-from-warehouse.rst:45
 msgid ""
 "*Update order status* - record process completion in the order management "
 "system, which may trigger other processes such as invoicing the customer."
@@ -2125,16 +1521,12 @@ msgstr ""
 "Prozessabsolvierung im Bestellverwaltungssystem. Dies kann andere Prozesse, "
 "wie zum Beispiel das versenden einer Rechnung, auslösen."
 
-#: ../../examples/ship-product-from-warehouse.rst:46
-#: ../../examples/ship-product-from-warehouse.rst:46
 msgid ""
 "*Adjust stock levels* - update the warehouse’s inventory management system."
 msgstr ""
 "*Lagerbestand aktualisieren* - Aktualisierung des Lagerinventars im "
 "entsprechenden IT-System."
 
-#: ../../examples/ship-product-from-warehouse.rst:47
-#: ../../examples/ship-product-from-warehouse.rst:47
 msgid ""
 "*Send delivery instructions* - provide the transport company with the "
 "information they require to deliver the shipment."
@@ -2142,8 +1534,6 @@ msgstr ""
 "*Lieferanweisung an Transporteur senden* - Versand der Lieferanweisungen an "
 "den Transporteur."
 
-#: ../../examples/ship-product-from-warehouse.rst:49
-#: ../../examples/ship-product-from-warehouse.rst:49
 msgid ""
 "Warehouse staff will take advantage of this process’ flexibility in "
 "practice. Staff may perform the tasks sequentially in practice, even though "
@@ -2158,8 +1548,6 @@ msgstr ""
 "abfertigen, auf Grund von Wartezeiten, wie z. B. bis der nächste Transporter"
 " zur Beladung zu Verfügung steht."
 
-#: ../../examples/ship-product-from-warehouse.rst:56
-#: ../../examples/ship-product-from-warehouse.rst:56
 msgid ""
 "*Warehouse operator* - responsible for operations in the warehouse, moving "
 "goods from stock to trucks for shipment."
@@ -2167,8 +1555,6 @@ msgstr ""
 "*Lagermitarbeiter* - verantwortlich für die Warenbewegungen im Lagerhaus und"
 " das Beladen der Lastwagen."
 
-#: ../../examples/ship-product-from-warehouse.rst:61
-#: ../../examples/ship-product-from-warehouse.rst:61
 msgid ""
 "*Order form* (File, required) - lists order lines of products to ship from "
 "the warehouse."
@@ -2176,8 +1562,6 @@ msgstr ""
 "**Bestellformular* (Datei, Pflichtfeld) - listet die bestellten Produkte "
 "auf."
 
-#: ../../examples/ship-product-from-warehouse.rst:62
-#: ../../examples/ship-product-from-warehouse.rst:62
 msgid ""
 "*Order reference* (Text, required) - extracted from the order form, uniquely"
 " identifies the order in Signavio Workflow."
@@ -2185,13 +1569,9 @@ msgstr ""
 "*Bestellreferenz* (Text, Pflichtfeld) - aus dem Bestellformular extrahiert, "
 "identifiziert die Bestellung in Signavio Workflow."
 
-#: ../../examples/ship-product-from-warehouse.rst:67
-#: ../../examples/ship-product-from-warehouse.rst:67
 msgid "To extend or enhance this process, you could:"
 msgstr "Um den Prozess zu erweitern oder zu verbessern, können Sie"
 
-#: ../../examples/ship-product-from-warehouse.rst:69
-#: ../../examples/ship-product-from-warehouse.rst:69
 msgid ""
 "trigger the process from an external order management system, as a result of"
 " an order status change"
@@ -2199,16 +1579,12 @@ msgstr ""
 "triggern Sie den Prozess über eine externes Bestellungsverwaltungssystem als"
 " Ergebnis einer Änderung des Bestellstatus."
 
-#: ../../examples/ship-product-from-warehouse.rst:70
-#: ../../examples/ship-product-from-warehouse.rst:70
 msgid ""
 "automate the *Retrieve customer order* and *Print shipping labels* tasks"
 msgstr ""
 "automatisieren Sie den Task *Bestellung empfangen* und *Paketbeschriftungen "
 "drucken*"
 
-#: ../../examples/ship-product-from-warehouse.rst:71
-#: ../../examples/ship-product-from-warehouse.rst:71
 msgid ""
 "add information to *The Pick stock items* task, e.g. by scanning bar codes "
 "to record the picked items’ serial numbers"
@@ -2217,14 +1593,10 @@ msgstr ""
 "hinzu, zum Beispiel indem die Seriennummer der geholten Produkte über einen "
 "Barcodescanner eingelesen wird"
 
-#: ../../examples/ship-product-from-warehouse.rst:72
-#: ../../examples/ship-product-from-warehouse.rst:72
 msgid "make the *Inspect packing quality* task optional or randomised.."
 msgstr ""
 "gestalten Sie den Task *Verpackungsqualität* als optional oder zufällig."
 
-#: ../../examples/ship-product-from-warehouse.rst:74
-#: ../../examples/ship-product-from-warehouse.rst:74
 msgid ""
 "In this process, transport runs on a fixed schedule: warehouse staff load "
 "parcels for multiple orders onto trucks. A different shipping process could "
@@ -2235,15 +1607,12 @@ msgstr ""
 "anderer Prozess könnte individuelle Lieferungen - zum Beispiel über einen "
 "Kurierservice - vorsehen."
 
-#: ../../examples/sign-contract.rst:4 ../../examples/sign-contract.rst:4
 msgid "Sign Contract (management)"
 msgstr "Dokument unterzeichnen (Management)"
 
-#: ../../examples/sign-contract.rst:9 ../../examples/sign-contract.rst:9
 msgid "Sign a document and archive the signed copy."
 msgstr "Unterzeichnet ein Dokument und archiviert die unterzeichnete Kopie."
 
-#: ../../examples/sign-contract.rst:14 ../../examples/sign-contract.rst:14
 msgid ""
 "Managers frequently have to sign contracts, and approve other documents. "
 "This may take some time, if a backlog has built up, in which case the "
@@ -2253,11 +1622,9 @@ msgstr ""
 "Wenn sich entsprechende Anfragen anhäufen, ist es hilfreich, dass dies für "
 "den Anfragenden sichtbar ist."
 
-#: ../../examples/sign-contract.rst:20 ../../examples/sign-contract.rst:20
 msgid "*Manual* - the requester uploads a document for a manager to sign."
 msgstr "*Manuell* - der Anfragende lädt ein Dokument zur Unterzeichnung hoch."
 
-#: ../../examples/sign-contract.rst:25 ../../examples/sign-contract.rst:25
 msgid ""
 "The core process consists of tasks for the signer to review the document and"
 " then sign it. Signavio Workflow then archives the signed document and "
@@ -2267,11 +1634,9 @@ msgstr ""
 "Unterzeichnung des Dokuments. Nach diesen Tasks archiviert Signavio Workflow"
 " das Dokument und informiert den Anfragenden."
 
-#: ../../examples/sign-contract.rst:30 ../../examples/sign-contract.rst:30
 msgid "This process includes three additional scenarios:"
 msgstr "Dieser Prozess enthält die folgenden zusätzlichen Szenarios."
 
-#: ../../examples/sign-contract.rst:32 ../../examples/sign-contract.rst:32
 msgid ""
 "The signer requests that someone else sign the document, and reassigns the "
 "*Signer* role."
@@ -2280,7 +1645,6 @@ msgstr ""
 "unterzeichnen und weist die Aufgabe dieser Person über die "
 "*Unterzeichner*-Rolle zu."
 
-#: ../../examples/sign-contract.rst:33 ../../examples/sign-contract.rst:33
 msgid ""
 "The signer requests a change to the document, and the requester gets a new "
 "task to update the document."
@@ -2288,7 +1652,6 @@ msgstr ""
 "Der Unterzeichner fragt Änderungen an und der Anfragende erhält einen neuen "
 "Task, um das Dokument zu aktualisieren."
 
-#: ../../examples/sign-contract.rst:34 ../../examples/sign-contract.rst:34
 msgid ""
 "The signer declines to sign the document, and the requester receives a "
 "notification."
@@ -2296,11 +1659,9 @@ msgstr ""
 "Der Unterzeichner verweigert die Unterschrift und der Anfragende wird "
 "benachrichtigt."
 
-#: ../../examples/sign-contract.rst:39 ../../examples/sign-contract.rst:39
 msgid "*Requester* - submits the document and makes any required corrections."
 msgstr "*Anfragender* - händigt das Dokument ein und arbeitet Änderungen ein."
 
-#: ../../examples/sign-contract.rst:40 ../../examples/sign-contract.rst:40
 msgid ""
 "*Signer* - responsible for deciding whether to sign the document, and adding"
 " the signature."
@@ -2308,14 +1669,12 @@ msgstr ""
 "*Unterzeichner* - verantwortlich für die Unterzeichnung und formelle "
 "Freigabe des Dokuments."
 
-#: ../../examples/sign-contract.rst:45 ../../examples/sign-contract.rst:45
 msgid ""
 "*Original document* (File, mandatory) - the document that requires a "
 "signature."
 msgstr ""
 "*Orginaldokument* (Datei, Pflichtfeld) - das zu unterzeichnende Dokument."
 
-#: ../../examples/sign-contract.rst:46 ../../examples/sign-contract.rst:46
 msgid ""
 "*Change request* (Text, multiple values) - a correction or addition that the"
 " signer requests before signing."
@@ -2323,11 +1682,9 @@ msgstr ""
 "*Änderungsanfrage* (Text, mehrere Werte) - Korrekturen oder Ergänzungen, die"
 " der Unterzeichner anfragt."
 
-#: ../../examples/sign-contract.rst:47 ../../examples/sign-contract.rst:47
 msgid "*Signed document* (File, mandatory)."
 msgstr "*Unterzeichnete Dokumente* (Datei, Pflichtfeld)"
 
-#: ../../examples/sign-contract.rst:52 ../../examples/sign-contract.rst:52
 msgid ""
 "You could simplify the process by removing one or more of the extra cases."
 msgstr ""

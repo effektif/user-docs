@@ -11,15 +11,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../terminology.rst:2
 msgid "Terminology"
 msgstr ""
 
-#: ../../terminology.rst:5
 msgid "Organization"
 msgstr ""
 
-#: ../../terminology.rst:7
 msgid ""
 "An organization represents a collection of Effektif users - typically a "
 "company - together with all their data in Effektif. People outside the "

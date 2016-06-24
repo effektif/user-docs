@@ -11,101 +11,80 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../profile.rst:4
 msgid "My profile"
 msgstr ""
 
-#: ../../profile.rst:18
 msgid "Me"
 msgstr ""
 
-#: ../../profile.rst:30
 msgid "Preferences"
 msgstr ""
 
-#: ../../profile.rst:42
 msgid "Organizations"
 msgstr ""
 
-#: ../../profile.rst:62
 msgid "Services"
 msgstr ""
 
-#: ../../profile.rst:20
 msgid ""
 "Use the `Me` section to update your user profile, including contact details "
 "and avatar image, or change your password."
 msgstr ""
 
-#: ../../profile.rst:36
 msgid "Uncheck the checkboxes to disable all email notifications."
 msgstr ""
 
-#: ../../profile.rst:64
 msgid ""
 "The `Services` section shows your personal configurations for third-party "
 "services, such as a linked Google Account."
 msgstr ""
 
-#: ../../profile.rst:10
 msgid ":ref:`Me <me>`"
 msgstr ""
 
-#: ../../profile.rst:11
 msgid ":ref:`Preferences <preferences>`"
 msgstr ""
 
-#: ../../profile.rst:12
 msgid ":ref:`Organizations <organizations>`"
 msgstr ""
 
-#: ../../profile.rst:13
 msgid ":ref:`Services <services>`"
 msgstr ""
 
-#: ../../profile.rst:44
 msgid ""
 "The `Organizations` section lists organizations that you belong to, and "
 "indicates whether you have the organization administrator role."
 msgstr ""
 
-#: ../../profile.rst:52
 msgid "remove you from the organisation’s groups"
 msgstr ""
 
-#: ../../profile.rst:54
 msgid "unassign you from tasks in the organisation’s processes"
 msgstr ""
 
-#: ../../profile.rst:55
 msgid "remove your participation in cases of the organisation’s processes"
 msgstr ""
 
-#: ../../profile.rst:53
 msgid ""
 "remove you from process models (process owner, access controls, action "
 "candidates)"
 msgstr ""
 
-#: ../../profile.rst:6
 msgid ""
 "On the top-right drop-down menu, select `My Profile` to view and edit your "
 "own Signavio Workflow user settings. The profile page has four sections:"
 msgstr ""
 
-#: ../../profile.rst:32
 msgid ""
 "Use the `Preferences` section to configure the Signavio Workflow user "
 "interface and notifications."
 msgstr ""
 
-#: ../../profile.rst:49
 msgid ""
 "You can use the leave icon to leave an organisation. When you leave an "
 "organisation, Signavio Workflow will:"
 msgstr ""
 
-#: ../../profile.rst:56
 msgid "free up one of the organisation’s Signavio Workflow licenses."
 msgstr ""
 

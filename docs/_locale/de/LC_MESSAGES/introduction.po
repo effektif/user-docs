@@ -18,91 +18,69 @@ msgstr ""
 "Language: de\n"
 "X-Generator: Poedit 1.8.7\n"
 
-#: ../../introduction.rst:2
 msgid "Introduction"
 msgstr "Einleitung"
 
-#: ../../introduction.rst:4
 msgid "`Signavio Workflow <http://www.signavio.com/products/workflow/>`_ is a web-based workflow modelling and execution platform. Although its heritage includes classical Business Process Management Systems (BPMS), Signavio Workflow dramatically simplifies workflow automation."
 msgstr "`Signavio Workflow <http://www.signavio.com/de/products/workflow/>`_ ist eine webbasierte Workflowmodellierungs- und Ausführungsplattform. Trotz seiner Verwandschaft mit klassischen Business Process Management Systemen (BPMS), vereinfacht Signavio Workflow die Workflow-Automatisierung stark."
 
-#: ../../introduction.rst:11
 msgid "How it works"
 msgstr "So funktioniert's"
 
-#: ../../introduction.rst:15
 msgid "A process - strictly a process *model* - defines a template for repetitive work. The people who manage work typically create processes and specify the tasks and actions that you must complete to reach a certain goal. For example: for every :ref:`Hire employee <hire-employee>` case, someone must complete the *Plan interview*, *Interview candidate* and *Send job offer* tasks."
 msgstr "Prozesse - oder streng genommen *Prozessmodelle* - sind Vorlagen für wiederkehrende Arbeiten. Typischerweise werden Prozesse von Mitarbeitern angelegt, die koordinieren, welche Aufgaben erledigt werden müssen um ein bestimmtes Ziel zu erreichen. Zum Beispiel müssen im Fall einer Neuanstellung die Aufgaben :ref:`Mitarbeiter einstellen <hire-employee>`, *Vertrag vorbereiten* und *Email Konto anlegen* abgeschlossen werden."
 
-#: ../../introduction.rst:19
 msgid "After you publish a process, you can start many individual cases. Signavio Workflow keeps track of which tasks and actions you have to perform for each case. Cases bring people together with relevant information that provides context for completing the tasks. You can also use cases as collaboration spaces for people to discuss and create new tasks for individual cases on the fly."
 msgstr "Nachdem ein Prozess veröffentlicht wurde können viele individuelle Fälle gestartet werden. Signavio Workflow überwacht dabei welche Aufgaben und Aktivitäten ausgeführt werden müssen. Mit Fällen können Sie Kollegen zusammenbringen um alle relevanten Informationen, die zur Durchführung benötigt werden, zusammenzutragen. In jedem Fall können alle Themen rund um eine Aufgabe diskutiert und weitere Aufgaben on-the-fly angelegt werden."
 
-#: ../../introduction.rst:25
 msgid "When to use Signavio Workflow"
 msgstr "Wann ist Signavio Workflow zu verwenden"
 
-#: ../../introduction.rst:27
 msgid "You will find Signavio Workflow useful for describing and collaborating on routine work. Use Signavio Workflow for:"
 msgstr "Signavio Workflow eignet sich ideal um immer wiederkehrenden Arbeiten zu beschreiben und gemeinsam zu erledigen. Nutzen Sie Signavio Workflow um:"
 
-#: ../../introduction.rst:30
 msgid "coordinating tasks and handovers"
 msgstr "Aufgaben und Übergaben zu koordinieren"
 
-#: ../../introduction.rst:31
 msgid "approvals"
 msgstr "Freigaben durchzuführen"
 
-#: ../../introduction.rst:32
 msgid "routing documents"
 msgstr "Dokumente zu leiten"
 
-#: ../../introduction.rst:33
 msgid "fully-fledged business processes."
 msgstr "Komplexe Geschäftsprozesse zu handhaben"
 
-#: ../../introduction.rst:36
 msgid "Benefits"
 msgstr "Vorteile"
 
-#: ../../introduction.rst:38
 msgid "You’ll get:"
 msgstr "Was Sie bekommen:"
 
-#: ../../introduction.rst:40
 msgid "control where you need it"
 msgstr "Kontrolle an den Stellen, an denen sie gebraucht wird"
 
-#: ../../introduction.rst:41
 msgid "flexibility"
 msgstr "Flexibilität"
 
-#: ../../introduction.rst:42
 msgid "fewer delays (with automatic triggers, actions and timers)"
 msgstr "Weniger Verzögerungen (durch automatische Auslöser, Aktionen und Timer)"
 
-#: ../../introduction.rst:43
 msgid "no more miscommunications during handovers"
 msgstr "Klare Kommunikation von Übergaben"
 
-#: ../../introduction.rst:44
 msgid "traceability - data on who did what"
 msgstr "Nachverfolgbarkeit - wer hat was getan"
 
-#: ../../introduction.rst:45
 msgid "clarity - visibility of who has to do what"
 msgstr "Klarheit - wer muss was tun"
 
-#: ../../introduction.rst:46
 msgid "agility - because you can change Signavio Workflow process models more easily than custom software."
 msgstr "Agilität - Prozesse können leichter geändert werden als Software."
 
-#: ../../introduction.rst:49
 msgid "Acknowledgements"
 msgstr "Danksagungen"
 
-#: ../../introduction.rst:51
 msgid "Signavio uses open source software. We thank everyone involved in the open source community. Please download the :download:`list of open source components that Signavio Workflow uses <download/Open-Source-Components-Signavio-Workflow.pdf>`  (PDF)."
 msgstr "Signavio benutzt Open Source Software. Wir möchten allen in der Open Source Community danken. Bitte folgen Sie :download:`diesem Link <download/Open-Source-Components-Signavio-Workflow.pdf>`, um eine Liste von allen Open Source Komponenten einzusehen, die wir in dieser Anwendung verwenden."
 

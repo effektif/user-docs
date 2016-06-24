@@ -18,66 +18,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-#: ../../licenses.rst:4
 msgid "License types"
 msgstr ""
 
-#: ../../licenses.rst:6
 msgid ""
 "To log in to Signavio Workflow, your user account must have a user license "
 "that has not expired. You can choose between several license types:"
 msgstr ""
 
-#: ../../licenses.rst:9 ../../licenses.rst:27
 msgid "Enterprise Cloud Free Trial"
 msgstr ""
 
-#: ../../licenses.rst:10 ../../licenses.rst:35
 msgid "Enterprise Cloud"
 msgstr ""
 
-#: ../../licenses.rst:11 ../../licenses.rst:42
 msgid "Professional Cloud"
 msgstr ""
 
-#: ../../licenses.rst:12 ../../licenses.rst:49
 msgid "Developer Cloud"
 msgstr ""
 
-#: ../../licenses.rst:13 ../../licenses.rst:59
 msgid "Academic Cloud"
 msgstr ""
 
-#: ../../licenses.rst:15
 msgid ""
 "The *Feature Overview* section on the `Signavio Workflow product page "
 "<http://www.signavio.com/products/workflow/>`_ shows the main differences "
 "between these versions. These differences affect:"
 msgstr ""
 
-#: ../../licenses.rst:18
 msgid "the license expiry period - typically one or twelve months"
 msgstr ""
 
-#: ../../licenses.rst:19
 msgid "which software features you can use"
 msgstr ""
 
-#: ../../licenses.rst:20
 msgid "the amount of user file storage"
 msgstr ""
 
-#: ../../licenses.rst:21
 msgid "the support level."
 msgstr ""
 
-#: ../../licenses.rst:23
 msgid ""
 "The :ref:`billing` page in the application shows details of the current "
 "license type."
 msgstr ""
 
-#: ../../licenses.rst:29
 msgid ""
 "The free trial license lets you try the full version of the software for a "
 "limited period without purchasing a license. To create a trial license, use "
@@ -86,7 +72,6 @@ msgid ""
 "purchase licenses."
 msgstr ""
 
-#: ../../licenses.rst:37
 msgid ""
 "A *Enterprise Cloud* license gives you full access to all features with "
 "minimum limitations. To purchase *Enterprise Cloud* licenses, contact "
@@ -94,7 +79,6 @@ msgid ""
 "<mailto:sales@signavio.com?subject=Signavio%20Workflow%20Enterprise%20Cloud>`_."
 msgstr ""
 
-#: ../../licenses.rst:44
 msgid ""
 "A *Professional Cloud* license gives you access to core features for a lower"
 " license cost than *Enterprise Cloud*. To purchase *Professional Cloud* "
@@ -102,7 +86,6 @@ msgid ""
 "<mailto:sales@signavio.com?subject=Signavio%20Workflow%20Professional%20Cloud>`_."
 msgstr ""
 
-#: ../../licenses.rst:51
 msgid ""
 "A free *Developer Cloud* license allows developers to create and test "
 "process models without having to purchase a license. You can only use this "
@@ -110,14 +93,12 @@ msgid ""
 "people cannot use it for collaborative process execution."
 msgstr ""
 
-#: ../../licenses.rst:54
 msgid ""
 "To register for a Developer Cloud license, first register for the free "
 "trial. Then use the `purchasing <https://workflow.signavio.com/buy>`_ page "
 "to downgrade the license to a Developer Cloud license."
 msgstr ""
 
-#: ../../licenses.rst:61
 msgid ""
 "A free *Academic Cloud* license allows university students to use Signavio "
 "Workflow to learn about workflow management. You may only use this license "
@@ -126,7 +107,6 @@ msgid ""
 "educational institution."
 msgstr ""
 
-#: ../../licenses.rst:65
 msgid ""
 "To register for an academic license, first register for the free trial. Then"
 " use the *academic version* link at the bottom of the `purchasing "

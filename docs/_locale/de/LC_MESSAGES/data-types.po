@@ -13,11 +13,9 @@ msgstr ""
 "Language: de\n"
 "X-Generator: Poedit 1.8.7\n"
 
-#: ../../data-types.rst:2
 msgid "Data types"
 msgstr "Daten-Typen"
 
-#: ../../data-types.rst:4
 msgid ""
 "The forms and some of the actions are linked to workflow data, called "
 "*variables*. Workflow variables are mostly created automatically, as when "
@@ -30,7 +28,6 @@ msgstr ""
 "ist ein Datentyp zugeordnet. Dieses Kapitel listet die möglichen Datentypen "
 "der verschiedenen Variablen."
 
-#: ../../data-types.rst:15
 msgid ""
 "Workflow information is stored in variables. Each variable has a user-"
 "defined name and a type. A type can be a single value, like a string (text) "
@@ -43,7 +40,6 @@ msgstr ""
 "\"Benutzer\" \"Datei\" oder \"Email\", sie bestehen aus mehreren Werten. "
 "Zusammengesetzte Typen besitzen eine Werteliste."
 
-#: ../../data-types.rst:21
 msgid ""
 "When using expressions or configuring some action, references are made to "
 "workflow data. These can be references to variables, or to fields inside "
@@ -56,27 +52,21 @@ msgstr ""
 "Nutzeroberfläche hilft Ihnen bei dieser Auswahl und zeigt jeweils alle "
 "verfügbaren Optionen auf. "
 
-#: ../../data-types.rst:29
 msgid "String type"
 msgstr "String-Typ"
 
-#: ../../data-types.rst:31
 msgid "The *String* type stores plain text."
 msgstr "Der *String*-Typ enthält Klartext"
 
-#: ../../data-types.rst:37
 msgid "File type"
 msgstr "Dateityp"
 
-#: ../../data-types.rst:39
 msgid "The *file* type stores a file."
 msgstr "Der *File*-Typ enthält eine Datei"
 
-#: ../../data-types.rst:45
 msgid "User type"
 msgstr "Benutzertyp"
 
-#: ../../data-types.rst:47
 msgid ""
 "A variable of type *user* refers to a user in your organization. A user is "
 "an object type with the following properties:"
@@ -84,38 +74,30 @@ msgstr ""
 "Variablen vom Typ *Nutzer* referenzierten Nutzer innerhalb Ihrer "
 "Organisation. Der Nutzer ist ein Objekttyp mit den folgenden Eigenschaften:"
 
-#: ../../data-types.rst:50
 msgid "(:ref:`id <type-id>`) The unique identifier for this user"
 msgstr ""
 "(:ref:`id <type-id>`) Der für diesen Nutzer einzigartige Identifikator"
 
-#: ../../data-types.rst:51
 msgid "(:ref:`string <type-string>`) The user’s first name"
 msgstr "(:ref:`string <type-string>`) Der Vorname des Nutzers"
 
-#: ../../data-types.rst:52
 msgid "(:ref:`string <type-string>`) The user’s last name"
 msgstr "(:ref:`string <type-string>`) Der Nachname des Nutzers"
 
-#: ../../data-types.rst:53
 msgid ""
 "(:ref:`emailAddress <type-email-address>`) The email address of the user"
 msgstr ""
 "(:ref:`emailAddress <type-email-address>`) Die Email-Adresse des Nutzers"
 
-#: ../../data-types.rst:58
 msgid "Email address type"
 msgstr "Email-Adress-Typ"
 
-#: ../../data-types.rst:60
 msgid "The *email address* type stores an email address."
 msgstr "Der Typ *Email-Adresse* enthält eine Email Adresse"
 
-#: ../../data-types.rst:66
 msgid "Email type"
 msgstr "Email-Typ"
 
-#: ../../data-types.rst:68
 msgid ""
 "The *email type* stores an email, and is used by the email trigger. The "
 "email that triggers the process will be stored as a variable. The data "
@@ -127,20 +109,16 @@ msgstr ""
 "gespeichert. Die Datenfelder in der Email, wie *von Adresse* oder Anhänge, "
 "können später verwendet werden."
 
-#: ../../data-types.rst:72
 msgid "An email is a composite type with the properties:"
 msgstr "Eine Email ist ein zusammengesetzter Typ mit folgenden Eigenschaften:"
 
-#: ../../data-types.rst:74
 msgid ":ref:`id <type-id>`: The unique identifier for this email"
 msgstr ":ref:`id <type-id>`:  Der für diese Email einzigartige Identifikator"
 
-#: ../../data-types.rst:75
 msgid "(:ref:`emailAddress <type-email-address>`) The sender email address"
 msgstr ""
 "(:ref:`emailAddress <type-email-address>`) Die Email Adresse des Absenders"
 
-#: ../../data-types.rst:76
 msgid ""
 "(:ref:`list <type-list>` of :ref:`emailAddress <type-email-address>`) The "
 "email addresses of the recipients"
@@ -148,7 +126,6 @@ msgstr ""
 "(:ref:`list <type-list>` of :ref:`emailAddress <type-email-address>`) Die "
 "Email Adressen der Empfänger"
 
-#: ../../data-types.rst:77
 msgid ""
 "(:ref:`list <type-list>` of :ref:`emailAddress <type-email-address>`) Email "
 "addresses that receive a carbon copy of the message"
@@ -156,21 +133,17 @@ msgstr ""
 "(:ref:`list <type-list>` of :ref:`emailAddress <type-email-address>`) Die "
 "Email Adressen in CC"
 
-#: ../../data-types.rst:78
 msgid "(:ref:`string <type-string>`) The subject of the email"
 msgstr "(:ref:`string <type-string>`) Die Überschrift der Email"
 
-#: ../../data-types.rst:79
 msgid "(:ref:`string <type-string>`) The plain text message"
 msgstr "(:ref:`string <type-string>`) Die Klartext-Nachricht"
 
-#: ../../data-types.rst:80
 msgid ""
 "(:ref:`string <type-string>`) The HTML code for an HTML email (optional)"
 msgstr ""
 "(:ref:`string <type-string>`) Der HTML-Code für eine HTML-Email(optional)"
 
-#: ../../data-types.rst:81
 msgid ""
 "(:ref:`list <type-list>` of :ref:`file <type-file>`) The files to attach to "
 "the email"
@@ -178,11 +151,9 @@ msgstr ""
 "(:ref:`list <type-list>` of :ref:`file <type-file>`) Dateien, die an die "
 "Email anzuhängen sind"
 
-#: ../../data-types.rst:87
 msgid "ID type"
 msgstr "ID-Typ"
 
-#: ../../data-types.rst:89
 msgid ""
 "The ID type is a special kind of string. These IDs identify objects and "
 "they are always created by Signavio Workflow, and have no other meaning. An example "
@@ -193,11 +164,9 @@ msgstr ""
 "Nutzer. Ein Beispiel dieser Art von String wäre "
 "\"`53fae958036471cea136ea83\"."
 
-#: ../../data-types.rst:98
 msgid "Object types"
 msgstr "Objekttypen"
 
-#: ../../data-types.rst:100
 msgid ""
 "Object types are composite data types that have a list of fields. Each "
 "field has a name. For example: a user is an object type, with fields such "
@@ -207,7 +176,6 @@ msgstr ""
 "enthalten. Jedes Feld besitzt einen Namen. Zum Beispiel ist ein Benutzer "
 "ein Objekttyp mit Feldern wie \"firstName\", \"lastName\", \"emailAddress\"."
 
-#: ../../data-types.rst:105
 msgid ""
 "When an action requires data, like the ``files`` in a `Google File Upload`, "
 "it’s possible to bind those input parameters to variables or fields inside "
@@ -217,11 +185,9 @@ msgstr ""
 "'Google File Upload', ist es möglich, diese Inputparameter an Variablen "
 "oder Felder in Variabel-Objekten zu binden."
 
-#: ../../data-types.rst:113
 msgid "List type"
 msgstr "Listen-Typ"
 
-#: ../../data-types.rst:115
 msgid ""
 "A list is simply a collection of values. The list is ordered and all "
 "elements are of a specified type."
@@ -229,6 +195,5 @@ msgstr ""
 "Eine Liste ist eine einfache Sammlung von Variablen. Die Liste ist geordnet "
 "und für jedes Element ist ein Typ definiert."
 
-#: ../../data-types.rst:13
 msgid "Variables"
 msgstr "Variablen"

@@ -37,4 +37,5 @@ mv $1/_build .
 
 cd ..
 python cleanup.py
+python remove_rst_refs_in_po_files.py $1
 python find_missing_images.py $1

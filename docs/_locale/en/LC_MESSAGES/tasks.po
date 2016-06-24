@@ -11,164 +11,132 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../tasks.rst:4
 msgid "Tasks"
 msgstr ""
 
-#: ../../tasks.rst:15
 msgid "Viewing your tasks in the Inbox"
 msgstr ""
 
-#: ../../tasks.rst:24
 msgid "The tasks Inbox"
 msgstr ""
 
-#: ../../tasks.rst:34
 msgid "Viewing all tasks"
 msgstr ""
 
-#: ../../tasks.rst:36
 msgid "The *All tasks* view shows tasks for all assignees."
 msgstr ""
 
-#: ../../tasks.rst:40
 msgid "The list of all tasks"
 msgstr ""
 
-#: ../../tasks.rst:51
 msgid "Task filters"
 msgstr ""
 
-#: ../../tasks.rst:53
 msgid ""
 "The *All tasks* view includes several kinds of task filters, that you can "
 "use to manage a long list of tasks."
 msgstr ""
 
-#: ../../tasks.rst:56
 msgid ""
 "*Involvement filter* - shows tasks according to how they relate to you, such"
 " as tasks you started."
 msgstr ""
 
-#: ../../tasks.rst:58
 msgid "*Process* filter - shows tasks for a specific process."
 msgstr ""
 
-#: ../../tasks.rst:66
 msgid "Creating case tasks"
 msgstr ""
 
-#: ../../tasks.rst:68
 msgid ""
 "To create tasks, open a case, and use the tasks list to add a new task. "
 "Enter the task title in the text box to create the task."
 msgstr ""
 
-#: ../../tasks.rst:73
 msgid "Type the title of the new task and type Enter"
 msgstr ""
 
-#: ../../tasks.rst:75
 msgid "After you have added a task, it appears in the list:"
 msgstr ""
 
-#: ../../tasks.rst:95
 msgid "Assigning a task"
 msgstr ""
 
-#: ../../tasks.rst:89
 msgid ""
 "You can assign a task from anywhere a task appears in a task list. To assign"
 " the task, click the assignee button immediately to the left of the task "
 "name, to open the list of candidates."
 msgstr ""
 
-#: ../../tasks.rst:97
 msgid ""
 "To assign the task, select a candidate from the list, or type a name or "
 "email address to filter it first."
 msgstr ""
 
-#: ../../tasks.rst:83
 msgid "Assigning tasks"
 msgstr ""
 
-#: ../../tasks.rst:118
 msgid "Completing tasks"
 msgstr ""
 
-#: ../../tasks.rst:128
 msgid "Reopening tasks"
 msgstr ""
 
-#: ../../tasks.rst:101
 msgid "Setting due dates"
 msgstr ""
 
-#: ../../tasks.rst:110
 msgid "Setting a task’s due date"
 msgstr ""
 
-#: ../../tasks.rst:112
 msgid ""
 "As well as setting the due date manually, in an open case, you can also set "
 "a user task’s default due date in the process editor, on the user task’s "
 ":ref:`reminders <reminders>` tab."
 msgstr ""
 
-#: ../../tasks.rst:6
 msgid ""
 "A task represents work that someone will presumably complete. :ref:`cases` "
 "typically include multiple tasks, usually those that the process defines. "
 "You can also add ad-hoc tasks to a case."
 msgstr ""
 
-#: ../../tasks.rst:17
 msgid ""
 "The *Inbox* shows an overview of your assigned tasks: a list of tasks for "
 "you to work on. To open the Inbox, select *Tasks* from the main menu and "
 "select the *Inbox* tab."
 msgstr ""
 
-#: ../../tasks.rst:26
 msgid ""
 "Each task shows the assignee - you for all Inbox tasks - and a link to the "
 "task itself."
 msgstr ""
 
-#: ../../tasks.rst:28
 msgid ""
 "The left-hand side of the inbox has sections for tasks that have due dates, "
 "so you can prioritise your work. The right-hand side lists tasks that don’t "
 "have a due date."
 msgstr ""
 
-#: ../../tasks.rst:46
 msgid ""
 "You can use the controls on the right to filter the tasks list, which you "
 "will find useful when the workload increases."
 msgstr ""
 
-#: ../../tasks.rst:59
 msgid ""
 "*Due date* filter - shows tasks according to their due dates, such as only "
 "overdue tasks."
 msgstr ""
 
-#: ../../tasks.rst:61
 msgid ""
 "*Completed* filter - shows complete tasks, which the task list normally "
 "excludes."
 msgstr ""
 
-#: ../../tasks.rst:62
 msgid ""
 "*Assignee filter* - shows tasks that have a specific assignee, or tasks that"
 " have a specific candidate."
 msgstr ""
 
-#: ../../tasks.rst:85
 msgid ""
 "You can assign a task to yourself, or someone else, to indicate who you "
 "expect to work on the task. The assignee’s :ref:`tasks inbox <tasks-inbox>` "
@@ -176,20 +144,17 @@ msgid ""
 "<notifications>` and :ref:`reminders <reminders>`."
 msgstr ""
 
-#: ../../tasks.rst:103
 msgid ""
 "You can set a task’s due date, so that the assignee’s tasks inbox highlights"
 " overdue tasks. To set a task’s due date, open the task, and select the "
 "clock icon to open the date selector."
 msgstr ""
 
-#: ../../tasks.rst:120
 msgid ""
 "Use the highlighted `Done` button (the square on the green background) to "
 "complete a task."
 msgstr ""
 
-#: ../../tasks.rst:122
 msgid ""
 "When tasks have a form, the task page displays the form in the same position"
 " and includes the button(s) to complete the task at the bottom of the form. "
@@ -198,13 +163,11 @@ msgid ""
 "register the decision and complete the task in one go."
 msgstr ""
 
-#: ../../tasks.rst:136
 msgid ""
 "Reopening a task instead of creating a new task has the advantage that the "
 "existing task retains its context."
 msgstr ""
 
-#: ../../tasks.rst:130
 msgid ""
 "When the task page shows a `Reopen` button, it means that someone completed "
 "the task but you can reopen it. You cannot reopen a task that has a form, "
@@ -215,20 +178,17 @@ msgid ""
 "task."
 msgstr ""
 
-#: ../../tasks.rst:10
 msgid ""
 "In Signavio Workflow, you can assign a task to a specific user, set a due "
 "date and add subtasks."
 msgstr ""
 
-#: ../../tasks.rst:43
 msgid ""
 "Tasks with due dates have a clock indicator to the right of the task name. "
 "Signavio Workflow shows this indicator in red when a task’s due date has "
 "arrived."
 msgstr ""
 
-#: ../../tasks.rst:79
 msgid ""
 "When a process starts, Signavio Workflow creates a :ref:`case <cases>` and "
 "starts all elements that do not have incoming transitions."

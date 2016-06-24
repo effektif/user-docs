@@ -18,11 +18,9 @@ msgstr ""
 "Generated-By: Babel 2.3.4\n"
 "X-Generator: Poedit 1.8.7\n"
 
-#: ../../settings.rst:4
 msgid "Organization settings"
 msgstr "Organisationseinstellungen"
 
-#: ../../settings.rst:6
 msgid ""
 "In Signavio Workflow, your organization represents a collection of Signavio "
 "Workflow users - typically a company - together with all their data in "
@@ -41,7 +39,6 @@ msgstr ""
 "Sie zwischen Organisationen wechseln, indem Sie oben rechts unter Ihrem "
 "Namen eine andere Organisation auswählen."
 
-#: ../../settings.rst:11
 msgid ""
 "Use the Organization settings page to set-up users and groups, manage "
 "invitations, and configure external services such as :ref:`salesforce-"
@@ -51,18 +48,15 @@ msgstr ""
 "Einladungen versenden und externe Services wie zum Beispiel die "
 ":ref:`Salesforce Integration` konfigurieren."
 
-#: ../../settings.rst:15
 msgid ""
 "At the top of the page, in the masthead, you can edit the organization name."
 msgstr ""
 "Im Kopfteil der Seite (dem türkis hinterlegten Teil) können Sie den Namen "
 "der Organisation ändern."
 
-#: ../../settings.rst:19
 msgid "Users"
 msgstr "Nutzer"
 
-#: ../../settings.rst:21
 msgid ""
 "The users list shows users who belong to your organization. You can expand "
 "each user’s entry to see their email address, license type, and membership "
@@ -73,7 +67,6 @@ msgstr ""
 "Mitgliedschaft für jeden Nutzer - reguläre Nutzer oder Administrator - "
 "einsehen."
 
-#: ../../settings.rst:28
 msgid ""
 "Administrators can promote other users to administrator: on an expanded user"
 " panel, click the *Promote to administrator* button."
@@ -82,7 +75,6 @@ msgstr ""
 "Sie dazu einen Eintrag in der Nutzerliste auf und klicken Sie auf *Zum "
 "Administrator ernennen*."
 
-#: ../../settings.rst:34
 msgid ""
 "Administrators can also delete users, using the delete button next to the "
 "user name."
@@ -90,18 +82,15 @@ msgstr ""
 "Administratoren können Nutzer auch löschen indem Sie auf den Papierkorb "
 "neben dem Nutzernamen klicken."
 
-#: ../../settings.rst:39
 msgid "Invitations"
 msgstr "Einladungen"
 
-#: ../../settings.rst:41
 msgid ""
 "The invitations list shows who you have invited to use Signavio Workflow."
 msgstr ""
 "Die Liste der Einladungen zeigt Ihnen, wen Sie schon zu Signavio Workflow "
 "eingeladen haben."
 
-#: ../../settings.rst:45
 msgid ""
 "To invite someone to use Signavio Workflow, select the license they will "
 "use, enter their email address in the text field and click the *Invite* "
@@ -116,11 +105,9 @@ msgstr ""
 "abzuschließen. Anschließend tauchen sie wie gewohnt in der Mitgliederliste "
 "Ihrer Organisation auf. "
 
-#: ../../settings.rst:53
 msgid "Groups"
 msgstr "Gruppen"
 
-#: ../../settings.rst:55
 msgid ""
 "The groups list shows the organization’s user groups. You can use these "
 "groups to define candidates for tasks in the :ref:`process builder <process-"
@@ -130,7 +117,6 @@ msgstr ""
 "sind. Sie können Gruppen benutzen um Kandidaten für Aufgaben im "
 ":ref:`Prozesseditor <process-builder>` festzulegen."
 
-#: ../../settings.rst:60
 msgid ""
 "To create a new group, in the text field below the group list, enter a group"
 " name and click the *Create* button."
@@ -138,7 +124,6 @@ msgstr ""
 "Um eine Neue Gruppe anzulegen, geben Sie zunächst den Namen im Textfeld "
 "unter der Liste aller Gruppen ein und klicken dann auf *Erstellen*."
 
-#: ../../settings.rst:66
 msgid ""
 "Click a group’s name to expand its list of members, so you can edit the name"
 " and add or remove members,"
@@ -147,11 +132,9 @@ msgstr ""
 "können diese Liste bearbeiten indem Sie weitere Nutzer hinzufügen oder "
 "bestehende Mitglieder entfernen."
 
-#: ../../settings.rst:72
 msgid "Preferences"
 msgstr "Organisationseinstellungen"
 
-#: ../../settings.rst:74
 msgid ""
 "The *Preferences* include additional options that apply to the whole "
 "organization."
@@ -159,13 +142,11 @@ msgstr ""
 "Unter *Organisationseinstellungen* finden Sie Konfigurationsoptionen, die "
 "für Ihre gesamte Organisation zentral verwaltet werden."
 
-#: ../../settings.rst:78
 msgid "*Time zone* affects how Signavio Workflow displays times."
 msgstr ""
 "Unter *Zeitzone* konfigurieren Sie die Anzeige von Zeiten in Signavio "
 "Workflow."
 
-#: ../../settings.rst:80
 msgid ""
 "*Email signature* replaces the default *Signavio Workflow team* signature at"
 " the bottom of :ref:`notification emails <notifications>`."
@@ -174,11 +155,9 @@ msgstr ""
 "Team*-Standardsignatur, die mit den :ref:`Signavio Workflow-"
 "Emailbenachrichtigungen<notifications>` verschickt wird."
 
-#: ../../settings.rst:84
 msgid "Services"
 msgstr "Services"
 
-#: ../../settings.rst:86
 msgid ""
 "Use the *Services* tab to configure integration with cloud services for "
 "members of the organization to use. See :ref:`salesforce-integration`."
@@ -187,11 +166,9 @@ msgstr ""
 "Nutzung durch Mitarbeiter Ihrer Organisation zu konfigurieren. Lesen Sie "
 "mehr unter :ref:`salesforce-integration`."
 
-#: ../../settings.rst:93
 msgid "Billing"
 msgstr "Zahlinformationen"
 
-#: ../../settings.rst:95
 msgid ""
 "Use the *Billing* tab to manage your organization’s licenses for Signavio "
 "Workflow. This page shows:"
@@ -199,7 +176,6 @@ msgstr ""
 "Verwenden Sie den *Zahlinformationen*-Tab, um die Signavio Workflow-Lizenzen"
 " Ihrer Organisation zu verwalten. Die Seite zeigt:"
 
-#: ../../settings.rst:98
 msgid ""
 "the number of remaining user licenses - how many more people you can add to "
 "the organization"
@@ -207,7 +183,6 @@ msgstr ""
 "Die Anzahl ungenutzter Lizenzen - wie viele Nutzer Sie noch zu Ihrer "
 "Organisation hinzufügen können"
 
-#: ../../settings.rst:99
 msgid ""
 "the license expiry date, after which you must renew your licenses to "
 "continue using Signavio Workflow."
@@ -215,7 +190,6 @@ msgstr ""
 "Das Auslaufdatum Ihrer Lizenzen - wann Sie die Lizenzen erneuern müssen, um "
 "weiterhin mit Signavio Workflow zu arbeiten."
 
-#: ../../settings.rst:101
 msgid ""
 "The left-hand sidebar summarises your current license type. Click the "
 "*Upgrade your license* button to upgrade to another license type."

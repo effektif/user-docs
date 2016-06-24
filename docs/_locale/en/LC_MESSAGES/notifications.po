@@ -11,164 +11,130 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../notifications.rst:37
 msgid "Task created"
 msgstr ""
 
-#: ../../notifications.rst:39
 msgid ""
 "This notification indicates that a new task has been created within a case."
 msgstr ""
 
-#: ../../notifications.rst:49
 msgid "Task assigned"
 msgstr ""
 
-#: ../../notifications.rst:51
 msgid ""
 "This notification indicates that someone has assigned an existing task "
 "within a case."
 msgstr ""
 
-#: ../../notifications.rst:59
 msgid "Mentioned in a comment"
 msgstr ""
 
-#: ../../notifications.rst:61
 msgid ""
 "This notification indicates that someone has been mentioned in a comment on "
 "a case."
 msgstr ""
 
-#: ../../notifications.rst:69
 msgid "Reminder scheduled"
 msgstr ""
 
-#: ../../notifications.rst:78
 msgid "Task escalated"
 msgstr ""
 
-#: ../../notifications.rst:80
 msgid ""
 "This notification indicates that an open task has reached its escalation "
 "deadline."
 msgstr ""
 
-#: ../../notifications.rst:132
 msgid "Service account access expired"
 msgstr ""
 
-#: ../../notifications.rst:134
 msgid ""
 "This notification indicates that access to an external service, such as "
 ":ref:`Google Drive <google-drive>`, has expired."
 msgstr ""
 
-#: ../../notifications.rst:142
 msgid "License about to expire"
 msgstr ""
 
-#: ../../notifications.rst:4
 msgid "Notifications"
 msgstr ""
 
-#: ../../notifications.rst:90
 msgid "New user registered"
 msgstr ""
 
-#: ../../notifications.rst:98
 msgid "Invited to join organisation"
 msgstr ""
 
-#: ../../notifications.rst:107
 msgid "Invitation cancelled"
 msgstr ""
 
-#: ../../notifications.rst:109
 msgid ""
 "This notification informs someone that an organisation administrator has "
 "cancelled an open invitation to join an organisation."
 msgstr ""
 
-#: ../../notifications.rst:124
 msgid "Password reset"
 msgstr ""
 
-#: ../../notifications.rst:71
 msgid "This notification reminds case participants that a task remains open."
 msgstr ""
 
-#: ../../notifications.rst:17
 msgid "Case due"
 msgstr ""
 
-#: ../../notifications.rst:19
 msgid "This notification indicates that a case has reached its due date."
 msgstr ""
 
-#: ../../notifications.rst:27
 msgid "Case task due"
 msgstr ""
 
-#: ../../notifications.rst:29
 msgid ""
 "This notification indicates that a case has reached its due date and has "
 "open tasks."
 msgstr ""
 
-#: ../../notifications.rst:115
 msgid "Invitation resent"
 msgstr ""
 
-#: ../../notifications.rst:6
 msgid ""
 "Signavio Workflow sends a variety of email notifications, to keep process "
 "participants up-to-date with cases they work on and to avoid task handover "
 "delays, when someone assigns a task."
 msgstr ""
 
-#: ../../notifications.rst:11
 msgid ""
 "To avoid unnecessary notifications, Signavio Workflow waits a short time "
 "before sending notifications and omits notifications that have become "
 "obsolete."
 msgstr ""
 
-#: ../../notifications.rst:21
 msgid "Signavio Workflow sends this notification to the case’s process owner."
 msgstr ""
 
-#: ../../notifications.rst:31
 msgid ""
 "Signavio Workflow sends this notification to the assignees of open tasks in "
 "the case."
 msgstr ""
 
-#: ../../notifications.rst:41
 msgid ""
 "Signavio Workflow sends this notification to the task’s default assignee, if"
 " the task has one. Signavio Workflow also sends this notification to each of"
 " the task candidates, or every member of each candidate group, if defined."
 msgstr ""
 
-#: ../../notifications.rst:45 ../../notifications.rst:55
-#: ../../notifications.rst:65
 msgid ""
 "Signavio Workflow does not send this notification if you disable `Receive "
 "notifications via email` in :ref:`Preferences`."
 msgstr ""
 
-#: ../../notifications.rst:53
 msgid "Signavio Workflow sends this notification to the task’s new assignee."
 msgstr ""
 
-#: ../../notifications.rst:63
 msgid ""
 "Signavio Workflow sends this notification to each user mentioned in the "
 "comment."
 msgstr ""
 
-#: ../../notifications.rst:73
 msgid ""
 "Signavio Workflow sends this notification to the task’s assignee when "
 "someone assigns the task, or to all of the task’s candidates if the task "
@@ -176,32 +142,27 @@ msgid ""
 "candidates, Signavio Workflow sends the notification to the process’ owner."
 msgstr ""
 
-#: ../../notifications.rst:82
 msgid ""
 "Signavio Workflow sends this notification to the task’s new assignee, as "
 "configured in the user task, or every member of each candidate group, if "
 "defined."
 msgstr ""
 
-#: ../../notifications.rst:86
 msgid ""
 "Signavio Workflow always sends this notification, even if recipients have "
 "disabled `Receive notifications via email`."
 msgstr ""
 
-#: ../../notifications.rst:92
 msgid ""
 "Signavio Workflow sends a registration notification when someone registers a"
 " Signavio Workflow trial account."
 msgstr ""
 
-#: ../../notifications.rst:94
 msgid ""
 "Signavio Workflow sends this notification to the email address entered on "
 "the registration form."
 msgstr ""
 
-#: ../../notifications.rst:100
 msgid ""
 "This notification indicates that an organisation administrator has invited "
 "someone to join an organisation. Signavio Workflow also sends a reminder for"
@@ -209,50 +170,42 @@ msgid ""
 "invitation."
 msgstr ""
 
-#: ../../notifications.rst:103
 msgid ""
 "Signavio Workflow sends this notification to the person the administrator "
 "invited, who may or may not already have a Signavio Workflow account."
 msgstr ""
 
-#: ../../notifications.rst:111 ../../notifications.rst:120
 msgid ""
 "Signavio Workflow sends this notification to the person the administrator "
 "invited."
 msgstr ""
 
-#: ../../notifications.rst:117
 msgid ""
 "This notification reminds someone that organisation administrator has "
 "invited them to join an organisation. Signavio Workflow support staff "
 "trigger this notification manually."
 msgstr ""
 
-#: ../../notifications.rst:126
 msgid ""
 "Signavio Workflow sends a password reset notification when someone uses the "
 "`Reset your password` option."
 msgstr ""
 
-#: ../../notifications.rst:128
 msgid ""
 "Signavio Workflow sends this notification to the email address entered on "
 "the password reset form."
 msgstr ""
 
-#: ../../notifications.rst:138
 msgid ""
 "Signavio Workflow sends this notification to the Signavio Workflow user who "
 "configured their external service account."
 msgstr ""
 
-#: ../../notifications.rst:144
 msgid ""
 "This notification indicates that a Signavio Workflow license will soon "
 "expire."
 msgstr ""
 
-#: ../../notifications.rst:146
 msgid ""
 "Signavio Workflow sends this notification to the administrators of the the "
 "Signavio Workflow organisation whose license will expire."

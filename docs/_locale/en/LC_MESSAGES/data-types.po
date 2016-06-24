@@ -11,11 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../data-types.rst:2
 msgid "Data types"
 msgstr ""
 
-#: ../../data-types.rst:4
 msgid ""
 "The forms and some of the actions are linked to workflow data, called "
 "*variables*. Workflow variables are mostly created automatically, as when "
@@ -23,7 +21,6 @@ msgid ""
 " the data types variables can have."
 msgstr ""
 
-#: ../../data-types.rst:15
 msgid ""
 "Workflow information is stored in variables. Each variable has a user-"
 "defined name and a type. A type can be a single value, like a string (text) "
@@ -31,7 +28,6 @@ msgid ""
 "consisting of several values. Composite types have a list of fields."
 msgstr ""
 
-#: ../../data-types.rst:21
 msgid ""
 "When using expressions or configuring some action, references are made to "
 "workflow data. These can be references to variables, or to fields inside "
@@ -39,62 +35,48 @@ msgid ""
 " have."
 msgstr ""
 
-#: ../../data-types.rst:29
 msgid "String type"
 msgstr ""
 
-#: ../../data-types.rst:31
 msgid "The *String* type stores plain text."
 msgstr ""
 
-#: ../../data-types.rst:37
 msgid "File type"
 msgstr ""
 
-#: ../../data-types.rst:39
 msgid "The *file* type stores a file."
 msgstr ""
 
-#: ../../data-types.rst:45
 msgid "User type"
 msgstr ""
 
-#: ../../data-types.rst:47
 msgid ""
 "A variable of type *user* refers to a user in your organization. A user is "
 "an object type with the following properties:"
 msgstr ""
 
-#: ../../data-types.rst:50
 msgid "(:ref:`id <type-id>`) The unique identifier for this user"
 msgstr ""
 
-#: ../../data-types.rst:51
 msgid "(:ref:`string <type-string>`) The user’s first name"
 msgstr ""
 
-#: ../../data-types.rst:52
 msgid "(:ref:`string <type-string>`) The user’s last name"
 msgstr ""
 
-#: ../../data-types.rst:53
 msgid ""
 "(:ref:`emailAddress <type-email-address>`) The email address of the user"
 msgstr ""
 
-#: ../../data-types.rst:58
 msgid "Email address type"
 msgstr ""
 
-#: ../../data-types.rst:60
 msgid "The *email address* type stores an email address."
 msgstr ""
 
-#: ../../data-types.rst:66
 msgid "Email type"
 msgstr ""
 
-#: ../../data-types.rst:68
 msgid ""
 "The *email type* stores an email, and is used by the email trigger. The "
 "email that triggers the process will be stored as a variable. The data "
@@ -102,89 +84,72 @@ msgid ""
 "later on."
 msgstr ""
 
-#: ../../data-types.rst:72
 msgid "An email is a composite type with the properties:"
 msgstr ""
 
-#: ../../data-types.rst:74
 msgid ":ref:`id <type-id>`: The unique identifier for this email"
 msgstr ""
 
-#: ../../data-types.rst:75
 msgid "(:ref:`emailAddress <type-email-address>`) The sender email address"
 msgstr ""
 
-#: ../../data-types.rst:76
 msgid ""
 "(:ref:`list <type-list>` of :ref:`emailAddress <type-email-address>`) The "
 "email addresses of the recipients"
 msgstr ""
 
-#: ../../data-types.rst:77
 msgid ""
 "(:ref:`list <type-list>` of :ref:`emailAddress <type-email-address>`) Email "
 "addresses that receive a carbon copy of the message"
 msgstr ""
 
-#: ../../data-types.rst:78
 msgid "(:ref:`string <type-string>`) The subject of the email"
 msgstr ""
 
-#: ../../data-types.rst:79
 msgid "(:ref:`string <type-string>`) The plain text message"
 msgstr ""
 
-#: ../../data-types.rst:80
 msgid ""
 "(:ref:`string <type-string>`) The HTML code for an HTML email (optional)"
 msgstr ""
 
-#: ../../data-types.rst:81
 msgid ""
 "(:ref:`list <type-list>` of :ref:`file <type-file>`) The files to attach to "
 "the email"
 msgstr ""
 
-#: ../../data-types.rst:87
 msgid "ID type"
 msgstr ""
 
-#: ../../data-types.rst:89
 msgid ""
 "The ID type is a special kind of string. These IDs identify objects and they"
 " are always created by Effektif, and have no other meaning. An example of an"
 " ID string is ``53fae958036471cea136ea83``."
 msgstr ""
 
-#: ../../data-types.rst:98
 msgid "Object types"
 msgstr ""
 
-#: ../../data-types.rst:100
 msgid ""
 "Object types are composite data types that have a list of fields. Each field"
 " has a name. For example: a user is an object type, with fields such as "
 "``firstName``, ``lastName``, ``mailAddress``."
 msgstr ""
 
-#: ../../data-types.rst:105
 msgid ""
 "When an action requires data, like the ``files`` in a `Google File Upload`, "
 "it’s possible to bind those input parameters to variables or fields inside "
 "variable objects."
 msgstr ""
 
-#: ../../data-types.rst:113
 msgid "List type"
 msgstr ""
 
-#: ../../data-types.rst:115
 msgid ""
 "A list is simply a collection of values. The list is ordered and all "
 "elements are of a specified type."
 msgstr ""
 
-#: ../../data-types.rst:13
 msgid "Variables"
 msgstr ""
 

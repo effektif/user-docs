@@ -14,10 +14,8 @@ msgstr ""
 "Generated-By: Babel 2.3.4\n"
 "X-Generator: Poedit 1.8.7\n"
 
-#: ../../index.rst:2
 msgid "Signavio Workflow User Guide"
 msgstr "Signavio Workflow Nutzerhandbuch"
 
-#: ../../index.rst:2
 msgid "Signavio Workflow User Guide"
 msgstr "Signavio Workflow Nutzerhandbuch"

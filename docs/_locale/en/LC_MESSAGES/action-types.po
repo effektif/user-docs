@@ -16,69 +16,54 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.2.0\n"
 
-#: ../../action-types.rst:4
 msgid "Action Types"
 msgstr ""
 
-#: ../../action-types.rst:6
 msgid ""
 "The :ref:`process-builder` displays actions as rounded rectangles. Actions "
 "typically have a configuration panel that opens when you select the action."
 msgstr ""
 
-#: ../../action-types/user-task.rst:4 ../../action-types/user-task.rst:4
 msgid "User task"
 msgstr ""
 
-#: ../../action-types/user-task.rst:8 ../../action-types/user-task.rst:8
 msgid "A user task in the process editor"
 msgstr ""
 
-#: ../../action-types/user-task.rst:10 ../../action-types/user-task.rst:10
 msgid ""
 "A user task indicates that someone will perform a task. In the configuration"
 " form, you can specify the following optional details."
 msgstr ""
 
-#: ../../action-types/user-task.rst:13 ../../action-types/user-task.rst:13
 msgid "*General* - assign a task to a user or a :ref:`process role <roles>`."
 msgstr ""
 
-#: ../../action-types/user-task.rst:14 ../../action-types/user-task.rst:14
 msgid "*Form* - add a form to a task; submit the form to complete the task."
 msgstr ""
 
-#: ../../action-types/user-task.rst:15 ../../action-types/user-task.rst:15
 msgid "*Reminders* - task deadline notifications."
 msgstr ""
 
-#: ../../action-types/user-task.rst:16 ../../action-types/user-task.rst:16
 msgid "*Escalations* -  automatic task reassignment."
 msgstr ""
 
-#: ../../action-types/user-task.rst:17 ../../action-types/user-task.rst:17
 msgid "*Access Rights* - task permissions for users and groups."
 msgstr ""
 
-#: ../../action-types/user-task.rst:20 ../../action-types/user-task.rst:20
 msgid "General"
 msgstr ""
 
-#: ../../action-types/user-task.rst:22 ../../action-types/user-task.rst:22
 msgid ""
 "Use the *General* tab to specify the task’s default assignee or candidates. "
 "You can select either individual users or organisation groups as candidates."
 msgstr ""
 
-#: ../../action-types/user-task.rst:27 ../../action-types/user-task.rst:27
 msgid "Configuring user task assignment in the process editor"
 msgstr ""
 
-#: ../../action-types/user-task.rst:34 ../../action-types/user-task.rst:34
 msgid "Task name template"
 msgstr ""
 
-#: ../../action-types/user-task.rst:36 ../../action-types/user-task.rst:36
 msgid ""
 "You can use task name templates to create dynamic task names from "
 ":ref:`variables <variables>`. Enter the task name template on the user "
@@ -86,87 +71,69 @@ msgid ""
 " select a variable."
 msgstr ""
 
-#: ../../action-types/user-task.rst:42 ../../action-types/user-task.rst:42
 msgid "Using a task name template to configure dynamic task names"
 msgstr ""
 
-#: ../../action-types/user-task.rst:44 ../../action-types/user-task.rst:44
 msgid ""
 "Use task name templates to avoid a :ref:`tasks` view that fills up with "
 "identically-named tasks."
 msgstr ""
 
-#: ../../action-types/user-task.rst:49 ../../action-types/user-task.rst:49
 msgid "Form"
 msgstr ""
 
-#: ../../action-types/user-task.rst:51 ../../action-types/user-task.rst:51
 msgid ""
 "Use the form builder to create a user task form for entering and updating "
 "data as part of the user task."
 msgstr ""
 
-#: ../../action-types/user-task.rst:56 ../../action-types/user-task.rst:56
 msgid "Reminders"
 msgstr ""
 
-#: ../../action-types/user-task.rst:64 ../../action-types/user-task.rst:64
 msgid "Configuring user task reminders in the process editor"
 msgstr ""
 
-#: ../../action-types/user-task.rst:72 ../../action-types/user-task.rst:72
 msgid "Escalations"
 msgstr ""
 
-#: ../../action-types/user-task.rst:79 ../../action-types/user-task.rst:79
 msgid ""
 "Sometimes, you don’t know who will take over a task that has passed its "
 "escalation deadline, so you choose one person in the process model. Instead,"
 " you can escalate task assignment to multiple people, or select a group."
 msgstr ""
 
-#: ../../action-types/user-task.rst:83 ../../action-types/user-task.rst:83
 msgid "Access Rights"
 msgstr ""
 
-#: ../../action-types/user-task.rst:85 ../../action-types/user-task.rst:85
 msgid ""
 "Use the `Access Rights` tab to set permissions for viewing, assigning and "
 "completing the task. See :ref:`Restricting access to user tasks <user-task-"
 "access>` for details."
 msgstr ""
 
-#: ../../action-types/send-email.rst:4 ../../action-types/send-email.rst:4
 msgid "Send email"
 msgstr ""
 
-#: ../../action-types/send-email.rst:8 ../../action-types/send-email.rst:8
 msgid "A send email task in the process editor"
 msgstr ""
 
-#: ../../action-types/send-email.rst:10 ../../action-types/send-email.rst:10
 msgid ""
 "The send email action sends an email to the specified user. In the "
 "configuration you can specify the following."
 msgstr ""
 
-#: ../../action-types/send-email.rst:15 ../../action-types/send-email.rst:15
 msgid "Sender name"
 msgstr ""
 
-#: ../../action-types/send-email.rst:20 ../../action-types/send-email.rst:20
 msgid "To"
 msgstr ""
 
-#: ../../action-types/send-email.rst:24 ../../action-types/send-email.rst:24
 msgid "Reply to"
 msgstr ""
 
-#: ../../action-types/send-email.rst:31 ../../action-types/send-email.rst:31
 msgid "Subject"
 msgstr ""
 
-#: ../../action-types/send-email.rst:27 ../../action-types/send-email.rst:27
 msgid ""
 "The email subject line. To use :ref:`variables <variables>` in the subject, "
 "type a `#` and select a field from the list. If the list contains too many "
@@ -175,112 +142,86 @@ msgid ""
 "To remove a variable, just delete it the same way you delete normal text."
 msgstr ""
 
-#: ../../action-types/send-email.rst:35 ../../action-types/send-email.rst:35
 msgid "Attachments"
 msgstr ""
 
-#: ../../action-types/send-email.rst:34 ../../action-types/send-email.rst:34
 msgid ""
 "To add attachments, click the *Attachments* field and select a file field "
 "from the list. The list includes trigger email attachments and file upload "
 "form fields."
 msgstr ""
 
-#: ../../action-types/send-email.rst:40 ../../action-types/send-email.rst:39
 msgid "Body text"
 msgstr ""
 
-#: ../../action-types/google.rst:4 ../../action-types/google.rst:4
 msgid "Google Drive - Upload file"
 msgstr ""
 
-#: ../../action-types/google.rst:8 ../../action-types/google.rst:8
 msgid "A Google Drive *Upload file* task in the process editor"
 msgstr ""
 
-#: ../../action-types/google.rst:10 ../../action-types/google.rst:10
 msgid ""
 "The Google Drive `Upload file` action sends one or more files to an account "
 "of your choice."
 msgstr ""
 
-#: ../../action-types/google.rst:15 ../../action-types/google.rst:84
-#: ../../action-types/google.rst:122 ../../action-types/box.rst:12
-#: ../../action-types/box.rst:12 ../../action-types/google.rst:15
-#: ../../action-types/google.rst:84 ../../action-types/google.rst:122
 msgid "Configuration"
 msgstr ""
 
-#: ../../action-types/google.rst:17 ../../action-types/google.rst:17
 msgid ""
 "After creating a Google Drive `Upload file` action, the configuration panel "
 "shows a button to start configuring the account."
 msgstr ""
 
-#: ../../action-types/google.rst:22 ../../action-types/google.rst:22
 msgid ""
 "Google will check that you have already logged in to Google. This check has "
 "three possible outcomes:"
 msgstr ""
 
-#: ../../action-types/google.rst:25 ../../action-types/google.rst:25
 msgid ""
 "If you have already authenticated with a single user to Google, the set-up "
 "process skips the log in page and you go straight to the :ref:`permission "
 "screen <drive-permission>` below."
 msgstr ""
 
-#: ../../action-types/google.rst:27 ../../action-types/google.rst:27
 msgid ""
 "If you haven’t authenticated with Google, you will see a log in window:"
 msgstr ""
 
-#: ../../action-types/google.rst:31 ../../action-types/google.rst:31
 msgid "Google Drive login"
 msgstr ""
 
-#: ../../action-types/google.rst:33 ../../action-types/google.rst:33
 msgid ""
 "If you have authenticated with multiple Google accounts, select the account "
 "you want to use."
 msgstr ""
 
-#: ../../action-types/google.rst:40 ../../action-types/google.rst:40
 msgid "Google Drive permission grant"
 msgstr ""
 
-#: ../../action-types/google.rst:45 ../../action-types/box.rst:29
-#: ../../action-types/box.rst:29 ../../action-types/google.rst:45
 msgid "Upload file action"
 msgstr ""
 
-#: ../../action-types/google.rst:47 ../../action-types/google.rst:47
 msgid ""
 "Once you have configured your Google Drive account, the `Upload file` action"
 " configuration panel displays the account and also shows the folders in `My "
 "Drive` in your Google Drive account."
 msgstr ""
 
-#: ../../action-types/google.rst:53 ../../action-types/google.rst:53
 msgid "Google Drive `Upload file` authenticated configuration"
 msgstr ""
 
-#: ../../action-types/google.rst:55 ../../action-types/box.rst:39
-#: ../../action-types/box.rst:39 ../../action-types/google.rst:55
 msgid ""
 "Other people in your organization can see that you have configured an "
 "account, but they cannot see your email address or browse your account "
 "folders."
 msgstr ""
 
-#: ../../action-types/google.rst:57 ../../action-types/google.rst:57
 msgid ""
 "In the `Target folder` section you can now browse and select the folder you "
 "want to upload the file(s) to."
 msgstr ""
 
-#: ../../action-types/google.rst:59 ../../action-types/box.rst:43
-#: ../../action-types/box.rst:43 ../../action-types/google.rst:59
 msgid ""
 "Next to `Folder name template`, you can optionally specify a subfolder name "
 "to create inside the target folder. This name template can include process "
@@ -290,147 +231,116 @@ msgid ""
 "Use a forward slash (``/``) to separate nested subfolder levels."
 msgstr ""
 
-#: ../../action-types/google.rst:73 ../../action-types/google.rst:73
 msgid "Google Drive - Print file"
 msgstr ""
 
-#: ../../action-types/google.rst:77 ../../action-types/google.rst:77
 msgid "A Google Drive *Print file* task in the process editor"
 msgstr ""
 
-#: ../../action-types/google.rst:79 ../../action-types/google.rst:79
 msgid ""
 "The Google Drive `Print File` action uses `Google Cloud Print "
 "<http://www.google.com/cloudprint/learn/>`_ to print a file that has been "
 "uploaded to a case."
 msgstr ""
 
-#: ../../action-types/google.rst:90 ../../action-types/google.rst:90
 msgid ""
 "When you have authenticated with a Google account and granted permission, "
 "you can configure the `Print file` action."
 msgstr ""
 
-#: ../../action-types/google.rst:95 ../../action-types/google.rst:95
 msgid "Print file action"
 msgstr ""
 
-#: ../../action-types/google.rst:97 ../../action-types/google.rst:97
 msgid ""
 "Once you have configured your Google Drive account, the `Print file` action "
 "configuration panel displays the account, the printer settings, and the "
 "selected file to print."
 msgstr ""
 
-#: ../../action-types/google.rst:103 ../../action-types/google.rst:103
 msgid "Google Drive `Print file` authenticated configuration"
 msgstr ""
 
-#: ../../action-types/google.rst:105 ../../action-types/google.rst:105
 msgid ""
 "In the section `Files to upload` you can select the file variable that holds"
 " the file you want to print."
 msgstr ""
 
-#: ../../action-types/google.rst:112 ../../action-types/google.rst:112
 msgid "Google Drive - Add row to sheet"
 msgstr ""
 
-#: ../../action-types/google.rst:116 ../../action-types/google.rst:116
 msgid "A Google Drive *Add row to sheet* task in the process editor"
 msgstr ""
 
-#: ../../action-types/google.rst:118 ../../action-types/google.rst:118
 msgid ""
 "The Google Drive *Add row to sheet* action adds a row to a Google Sheets "
 "spreadsheet. You can use this to save the values of process variables at "
 "process milestones, and build a custom overview of cases."
 msgstr ""
 
-#: ../../action-types/google.rst:128 ../../action-types/google.rst:128
 msgid ""
 "When you have authenticated with a Google account and granted permission, "
 "you can configure the *Add row to sheet* action."
 msgstr ""
 
-#: ../../action-types/google.rst:132 ../../action-types/google.rst:132
 msgid "Add row to sheet action"
 msgstr ""
 
-#: ../../action-types/google.rst:134 ../../action-types/google.rst:134
 msgid ""
 "Once you have configured your Google Drive account, the *Add row to sheet* "
 "action configuration panel displays the account, the spreadsheet, the "
 "worksheet within the spreadsheet, and the worksheet columns."
 msgstr ""
 
-#: ../../action-types/google.rst:140 ../../action-types/google.rst:140
 msgid "Google Drive *Add row to sheet* authenticated configuration"
 msgstr ""
 
-#: ../../action-types/google.rst:142 ../../action-types/google.rst:142
 msgid ""
 "Each column name, such as *Customer name* in this example, comes from a "
 "column heading in the spreadsheet. For each column, select one of the "
 ":ref:`variables <variables>` from the list."
 msgstr ""
 
-#: ../../action-types/box.rst:2 ../../action-types/box.rst:2
 msgid "Box Upload file"
 msgstr ""
 
-#: ../../action-types/box.rst:6 ../../action-types/box.rst:6
 msgid "A box upload file task in the process editor"
 msgstr ""
 
-#: ../../action-types/box.rst:8 ../../action-types/box.rst:8
 msgid ""
 "The `Box <http://www.box.com/>`_ `Upload file` action saves one or more "
 "files to a Box account that you select."
 msgstr ""
 
-#: ../../action-types/box.rst:14 ../../action-types/box.rst:14
 msgid ""
 "After creating a Box `Upload file` action, the configuration panel shows a "
 "button to start configuring the account."
 msgstr ""
 
-#: ../../action-types/box.rst:24 ../../action-types/box.rst:24
 msgid "Box permission grant, after logging in to Box"
 msgstr ""
 
-#: ../../action-types/box.rst:31 ../../action-types/box.rst:31
 msgid ""
 "Once you have configured your Box account, the `Upload file` action "
 "configuration panel displays the account and also shows the folders in `All "
 "Files` in your Box account."
 msgstr ""
 
-#: ../../action-types/box.rst:37 ../../action-types/box.rst:37
 msgid "Box authenticated configuration"
 msgstr ""
 
-#: ../../action-types/box.rst:41 ../../action-types/box.rst:41
 msgid ""
 "On the configuration panel, next to `Target folder`, you can now browse and "
 "select the folder you want to upload the file(s) to."
 msgstr ""
 
-#: ../../action-types/javascript.rst:4 ../../action-types/javascript.rst:4
-msgid "JavaScript action"
-msgstr ""
-
-#: ../../action-types/javascript.rst:10 ../../action-types/javascript.rst:10
 msgid ""
 "After creating or selecting a JavaScript action, the configuration panel "
 "looks like this:"
 msgstr ""
 
-#: ../../action-types/javascript.rst:14 ../../action-types/javascript.rst:14
 msgid "JavaScript configuration panel"
 msgstr ""
 
-#: ../../action-types/javascript.rst:16 ../../action-types/javascript.rst:16
 msgid ""
 "The top section of the panel contains the JavaScript text editor. By "
 "default, it already contains ``console.log('Hello World!');``. Use the "
@@ -438,37 +348,30 @@ msgid ""
 "for log output when testing scripts."
 msgstr ""
 
-#: ../../action-types/javascript.rst:20 ../../action-types/javascript.rst:20
 msgid ""
 "The lower section allows you to test the script. Click `Test it` to execute "
 "the JavaScript code. The test runner displays the results underneath:"
 msgstr ""
 
-#: ../../action-types/javascript.rst:26 ../../action-types/javascript.rst:26
 msgid "JavaScript test output"
 msgstr ""
 
-#: ../../action-types/javascript.rst:28 ../../action-types/javascript.rst:28
 msgid ""
 "Next, we'll show how to work with data. Suppose that the process includes a "
 "form that has each type of field and looks like this:"
 msgstr ""
 
-#: ../../action-types/javascript.rst:33 ../../action-types/javascript.rst:33
 msgid "Form taking input for JavaScript"
 msgstr ""
 
-#: ../../action-types/javascript.rst:35 ../../action-types/javascript.rst:35
 msgid ""
 "When you open the JavaScript configuration again, you'll see the variables "
 "section shows some of the form field variables."
 msgstr ""
 
-#: ../../action-types/javascript.rst:39 ../../action-types/javascript.rst:39
 msgid "JavaScript variables"
 msgstr ""
 
-#: ../../action-types/javascript.rst:41 ../../action-types/javascript.rst:41
 msgid ""
 "Click `Show all fields` and select the variables you want to access in the "
 "script. In this example (below), you have selected all variables. For each "
@@ -476,21 +379,17 @@ msgid ""
 "Here you see all fields with a test value."
 msgstr ""
 
-#: ../../action-types/javascript.rst:48 ../../action-types/javascript.rst:48
 msgid "JavaScript test values"
 msgstr ""
 
-#: ../../action-types/javascript.rst:50 ../../action-types/javascript.rst:50
 msgid ""
 "When clicking `Test it` again, we can see the JSON structure of the variable"
 " data for the different variable types."
 msgstr ""
 
-#: ../../action-types/javascript.rst:54 ../../action-types/javascript.rst:54
 msgid "JavaScript JSON values"
 msgstr ""
 
-#: ../../action-types/javascript.rst:56 ../../action-types/javascript.rst:56
 msgid ""
 "You can use these variables to send data to an external web service, using "
 "the `request module "
@@ -499,11 +398,9 @@ msgid ""
 "HTTP POST request to an external web service. ::"
 msgstr ""
 
-#: ../../action-types/javascript.rst:87 ../../action-types/javascript.rst:87
 msgid "Updating a variable via an external web service"
 msgstr ""
 
-#: ../../action-types/javascript.rst:89 ../../action-types/javascript.rst:89
 msgid ""
 "The two log statements, starting with *HTTP 200*, show the HTTP response "
 "from the web service. The response body (as set-up in Mocky) contains JSON "
@@ -511,15 +408,12 @@ msgid ""
 " the date from ``2015-06-15`` to ``2015-06-16``."
 msgstr ""
 
-#: ../../action-types/sub-process.rst:4 ../../action-types/sub-process.rst:4
 msgid "Sub-process"
 msgstr ""
 
-#: ../../action-types/sub-process.rst:8 ../../action-types/sub-process.rst:8
 msgid "A sub-process in the process editor"
 msgstr ""
 
-#: ../../action-types/sub-process.rst:10 ../../action-types/sub-process.rst:10
 msgid ""
 "A sub-process action represents an entire process as a single task. You can "
 "use sub-processes to simplify complex process models, by collapsing each "
@@ -528,34 +422,29 @@ msgid ""
 "responsibility for the process model to a different process owner."
 msgstr ""
 
-#: ../../action-types/sub-process.rst:17 ../../action-types/sub-process.rst:17
 msgid ""
 "Configuring a sub-process and mapping an *Invoice* variable to a trigger "
 "form field"
 msgstr ""
 
-#: ../../action-types/sub-process.rst:19 ../../action-types/sub-process.rst:19
 msgid ""
 "Configure the sub-process action in the process builder by selecting it, and"
 " choosing a process from the list. You cannot select the same process as the"
 " parent process, which would cause a loop, or an unpublished process."
 msgstr ""
 
-#: ../../action-types/user-task.rst:29 ../../action-types/user-task.rst:29
 msgid ""
 "You an also specify a role for the task’s assignment, like a BPMN swim lane,"
 " so that Signavio Workflow automatically assigns related tasks to the same "
 "person."
 msgstr ""
 
-#: ../../action-types/user-task.rst:58 ../../action-types/user-task.rst:58
 msgid ""
 "Use the user task’s `Reminders` configuration panel tab to set up task "
 "deadline notifications. If you configure a `Due date` or `Reminder` period, "
 "then Signavio Workflow will send email when the deadline expires."
 msgstr ""
 
-#: ../../action-types/user-task.rst:66 ../../action-types/user-task.rst:66
 msgid ""
 "Signavio Workflow sends these notifications to the task’s assignee if the "
 "task has an assignee, or to all of the task’s candidates if the task it not "
@@ -563,7 +452,6 @@ msgid ""
 "Signavio Workflow sends the notification to the process’ owner."
 msgstr ""
 
-#: ../../action-types/user-task.rst:74 ../../action-types/user-task.rst:74
 msgid ""
 "You can also use the :ref:`Reminders <reminders>` configuration panel tab to"
 " configure escalations. If you configure an `Escalation` period and an "
@@ -571,14 +459,12 @@ msgid ""
 "the deadline expires, and send a notification to the new assignee."
 msgstr ""
 
-#: ../../action-types/send-email.rst:14 ../../action-types/send-email.rst:14
 msgid ""
 "By default, Signavio Workflow sends the email with the `From` field set to "
 "*Signavio Workflow*. You can set this field to set the `From` field to your "
 "company or department name."
 msgstr ""
 
-#: ../../action-types/send-email.rst:18 ../../action-types/send-email.rst:18
 msgid ""
 "The people who Signavio Workflow sends the email to. You can enter one or "
 "more plain email addresses, or select email :ref:`variables <variables>` or "
@@ -586,7 +472,6 @@ msgid ""
 " must then select it from the pick list."
 msgstr ""
 
-#: ../../action-types/send-email.rst:23 ../../action-types/send-email.rst:23
 msgid ""
 "Signavio Workflow sends emails from the address "
 "`notifications@workflow.signavio.com`, which you cannot reply to. If you set"
@@ -594,7 +479,6 @@ msgid ""
 "replies to the email."
 msgstr ""
 
-#: ../../action-types/send-email.rst:38 ../../action-types/send-email.rst:38
 msgid ""
 "You can use variables in the main email body by typing a `#`, just like in "
 "the *Subject*. You can use `Markdown "
@@ -603,27 +487,22 @@ msgid ""
 "the `Preview` tab to see how Signavio Workflow will format your email."
 msgstr ""
 
-#: ../../action-types/google.rst:20 ../../action-types/google.rst:20
 msgid ""
 "When you click on the button `Configure a Google Drive account`, a popup "
 "window will appear that helps you integrate Signavio Workflow with your "
 "Google Drive account."
 msgstr ""
 
-#: ../../action-types/google.rst:35 ../../action-types/google.rst:35
 msgid ""
 "After you have completed authentication, you’ll see the following page that "
 "allows you to give Signavio Workflow access to your Google account."
 msgstr ""
 
-#: ../../action-types/google.rst:42 ../../action-types/google.rst:42
 msgid ""
 "After accepting the permissions, the pop up will disappear and Signavio "
 "Workflow will have completed connecting to your account."
 msgstr ""
 
-#: ../../action-types/google.rst:67 ../../action-types/box.rst:51
-#: ../../action-types/box.rst:51 ../../action-types/google.rst:67
 msgid ""
 "Next to `Files to upload`, you can select the variable field containing one "
 "or more files to upload. If the process did not already include a file "
@@ -632,7 +511,6 @@ msgid ""
 "Workflow preselects it."
 msgstr ""
 
-#: ../../action-types/box.rst:17 ../../action-types/box.rst:17
 msgid ""
 "When you click the `Configure a Box account` button, a popup window will "
 "open for you to authorise Signavio Workflow to use your Box account. After "
@@ -640,36 +518,23 @@ msgid ""
 " an authorization page."
 msgstr ""
 
-#: ../../action-types/box.rst:26 ../../action-types/box.rst:26
 msgid ""
 "After granting access, the pop up will close and Signavio Workflow will have"
 " connected to your Box account."
 msgstr ""
 
-#: ../../action-types/javascript.rst:6 ../../action-types/javascript.rst:6
-msgid ""
-"The JavaScript action allows developers to add JavaScript to process "
-"execution. Signavio Workflow runs the code on the server, using `Node.js "
-"<https://nodejs.org>`_. As well as Node.js’ JavaScript API, scripts can use "
-"the `lodash <https://www.npmjs.com/package/lodash>`_ and `request "
-"<https://www.npmjs.com/package/request>`_ libraries."
-msgstr ""
-
-#: ../../action-types/javascript.rst:81 ../../action-types/javascript.rst:81
 msgid ""
 "This example uses a test endpoint configured using `Mocky "
 "<http://www.mocky.io/>`_ to return an HTTP response. This has the following "
 "result in the Signavio Workflow test console:"
 msgstr ""
 
-#: ../../action-types/javascript.rst:95 ../../action-types/javascript.rst:95
 msgid ""
 "The script then parses this JSON response using ``JSON.parse`` and updates "
 "the ``startDate`` variable in Signavio Workflow, as shown in the *Updated "
 "value* column in the test console’s variables table."
 msgstr ""
 
-#: ../../action-types/sub-process.rst:22 ../../action-types/sub-process.rst:22
 msgid ""
 "If you select a sub-process with a trigger form, you can also select "
 "variables that Signavio Workflow will use to auto-fill the trigger form "
@@ -678,14 +543,12 @@ msgid ""
 "with the file stored in the parent process’ *Invoice* variable."
 msgstr ""
 
-#: ../../action-types/sub-process.rst:25 ../../action-types/sub-process.rst:25
 msgid ""
 "When Signavio Workflow creates a sub-process, it starts a new case in the "
 "selected sub-process. After completing the sub-process case, Signavio "
 "Workflow continues executing the parent case."
 msgstr ""
 
-#: ../../action-types/google.rst:86 ../../action-types/google.rst:86
 msgid ""
 "After creating a Google Drive `Print file` action, the configuration panel "
 "shows a button to start configuring the account. This configuration has the "
@@ -693,13 +556,35 @@ msgid ""
 "configuration>` (above)."
 msgstr ""
 
-#: ../../action-types/google.rst:124 ../../action-types/google.rst:124
 msgid ""
 "After creating a Google Drive *Add row to sheet* action, the configuration "
 "panel shows a button to start configuring the account. This configuration "
 "has the same steps as in the :ref:`Upload file configuration <upload-file-"
 "configuration>`(above)."
 msgstr ""
+
+msgid "JavaScript action (Script task)"
+msgstr ""
+
+msgid ""
+"The JavaScript action, called a *Script Task* in BPMN, allows developers to "
+"add JavaScript to process execution. Signavio Workflow runs the code on the "
+"server, using `Node.js <https://nodejs.org>`_. As well as Node.js’ "
+"JavaScript API, scripts can use the `lodash "
+"<https://www.npmjs.com/package/lodash>`_ and `request "
+"<https://www.npmjs.com/package/request>`_ libraries."
+msgstr ""
+
+#~ msgid "JavaScript action"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The JavaScript action allows developers to add JavaScript to process "
+#~ "execution. Signavio Workflow runs the code on the server, using `Node.js "
+#~ "<https://nodejs.org>`_. As well as Node.js’ JavaScript API, scripts can use "
+#~ "the `lodash <https://www.npmjs.com/package/lodash>`_ and `request "
+#~ "<https://www.npmjs.com/package/request>`_ libraries."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "After creating a Google Drive *Add row to sheet* action, the configuration "

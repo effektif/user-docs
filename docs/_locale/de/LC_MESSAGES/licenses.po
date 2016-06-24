@@ -19,11 +19,9 @@ msgstr ""
 "Generated-By: Babel 2.3.4\n"
 "X-Generator: Poedit 1.8.7\n"
 
-#: ../../licenses.rst:4
 msgid "License types"
 msgstr "Lizenztypen"
 
-#: ../../licenses.rst:6
 msgid ""
 "To log in to Signavio Workflow, your user account must have a user license "
 "that has not expired. You can choose between several license types:"
@@ -32,27 +30,21 @@ msgstr ""
 "Nutzerlizenz, die nicht abgelaufen ist. Sie können zwischen mehreren "
 "Lizenztypen wählen:"
 
-#: ../../licenses.rst:9 ../../licenses.rst:27
 msgid "Enterprise Cloud Free Trial"
 msgstr "Enterprise Cloud Free Trial"
 
-#: ../../licenses.rst:10 ../../licenses.rst:35
 msgid "Enterprise Cloud"
 msgstr "Enterprise Cloud"
 
-#: ../../licenses.rst:11 ../../licenses.rst:42
 msgid "Professional Cloud"
 msgstr "Professional Cloud"
 
-#: ../../licenses.rst:12 ../../licenses.rst:49
 msgid "Developer Cloud"
 msgstr "Developer Cloud"
 
-#: ../../licenses.rst:13 ../../licenses.rst:59
 msgid "Academic Cloud"
 msgstr "Academic Cloud"
 
-#: ../../licenses.rst:15
 msgid ""
 "The *Feature Overview* section on the `Signavio Workflow product page "
 "<http://www.signavio.com/products/workflow/>`_ shows the main differences "
@@ -63,23 +55,18 @@ msgstr ""
 "Unterschiede zwischen den verschiedenen Versionen. Diese Unterschiede "
 "beeinflussen:"
 
-#: ../../licenses.rst:18
 msgid "the license expiry period - typically one or twelve months"
 msgstr "die Laufzeit der Lizenz - normalerweise ein- oder zwölf Monate"
 
-#: ../../licenses.rst:19
 msgid "which software features you can use"
 msgstr "welche Features der Software Sie verwenden können"
 
-#: ../../licenses.rst:20
 msgid "the amount of user file storage"
 msgstr "die Menge an Speicherplatz pro Nutzer"
 
-#: ../../licenses.rst:21
 msgid "the support level."
 msgstr "den Support Level."
 
-#: ../../licenses.rst:23
 msgid ""
 "The :ref:`billing` page in the application shows details of the current "
 "license type."
@@ -87,7 +74,6 @@ msgstr ""
 "Die Seite :ref:`billing` in der Applikation zeigt die Details Ihres "
 "Lizenztyps an."
 
-#: ../../licenses.rst:29
 msgid ""
 "The free trial license lets you try the full version of the software for a "
 "limited period without purchasing a license. To create a trial license, use "
@@ -102,7 +88,6 @@ msgstr ""
 "bekommen. Wenn die Testlizenz abgelaufen ist, schickt Ihnen Signavio "
 "Workflow eine E-Mail, um Sie zum Kauf von Lizenzen einzuladen."
 
-#: ../../licenses.rst:37
 msgid ""
 "A *Enterprise Cloud* license gives you full access to all features with "
 "minimum limitations. To purchase *Enterprise Cloud* licenses, contact "
@@ -114,7 +99,6 @@ msgstr ""
 " kontaktieren Sie `sales@signavio.com "
 "<mailto:sales@signavio.com?subject=Signavio%20Workflow%20Enterprise%20Cloud>`_."
 
-#: ../../licenses.rst:44
 msgid ""
 "A *Professional Cloud* license gives you access to core features for a lower"
 " license cost than *Enterprise Cloud*. To purchase *Professional Cloud* "
@@ -127,7 +111,6 @@ msgstr ""
 "`sales@signavio.com "
 "<mailto:sales@signavio.com?subject=Signavio%20Workflow%20Professional%20Cloud>`_."
 
-#: ../../licenses.rst:51
 msgid ""
 "A free *Developer Cloud* license allows developers to create and test "
 "process models without having to purchase a license. You can only use this "
@@ -141,7 +124,6 @@ msgstr ""
 "kann somit auch nicht zum kollaborativen Arbeiten mit anderen Personen "
 "verwendet werden."
 
-#: ../../licenses.rst:54
 msgid ""
 "To register for a Developer Cloud license, first register for the free "
 "trial. Then use the `purchasing <https://workflow.signavio.com/buy>`_ page "
@@ -152,7 +134,6 @@ msgstr ""
 "`Lizenzerwerbsseite <https://workflow.signavio.com/buy>`__ um zu einer "
 "*Developer Cloud Lizenz* downzugraden."
 
-#: ../../licenses.rst:61
 msgid ""
 "A free *Academic Cloud* license allows university students to use Signavio "
 "Workflow to learn about workflow management. You may only use this license "
@@ -167,7 +148,6 @@ msgstr ""
 "einer Bildungseinrichtung nur für akademische und nicht für administrative "
 "Zwecke einsetzen."
 
-#: ../../licenses.rst:65
 msgid ""
 "To register for an academic license, first register for the free trial. Then"
 " use the *academic version* link at the bottom of the `purchasing "
