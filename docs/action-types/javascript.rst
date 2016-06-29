@@ -56,27 +56,9 @@ When clicking `Test it` again, we can see the JSON structure of the variable dat
 You can use these variables to send data to an external web service, 
 using the `request module <https://github.com/mikeal/request/blob/master/README.md>`_.
 For example, the following script sends the value of the ``startDate`` variable
-in an HTTP POST request to an external web service. ::
+in an HTTP POST request to an external web service.
 
-	var requestBody = { "startDate" : startDate };
-
-	request.post( {
-		url: 'http://www.mocky.io/v2/55798e08bdbf280d0d423cb8', 
-		body: JSON.stringify(requestBody),
-		headers: { 'Content-Type': 'application/json' }
-	  },
-	  function (error, response, responseBody) {
-		var log = "HTTP " + response.statusCode + "\n" + responseBody;
-		if (!error && response.statusCode === 200) {
-		  console.info(log);
-		  var responseData = JSON.parse(responseBody);
-		  startDate = responseData.startDate;
-		}
-		else {
-		  console.error(log);
-		}
-	  }
-	);
+.. figure:: /_static/images/action-types/javascript/javascript-9.png
 
 This example uses a test endpoint configured using `Mocky <http://www.mocky.io/>`_
 to return an HTTP response.
