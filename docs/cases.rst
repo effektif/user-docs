@@ -31,7 +31,7 @@ Then the case header appears.
 
 .. figure:: /_static/images/cases/create/name-case.png
 
-   Enter case title
+   Enter case name
 
 Next, type the case title and hit Enter. Signavio Workflow now creates the new case.
 
@@ -96,6 +96,12 @@ Use the linked case name to open the case’s details page.
 Viewing case details
 --------------------
 
+The case details view shows the case name, with case participants’ avatar pictures underneath, and the case’s task list.
+
+.. figure:: /_static/images/tutorials/ad-hoc/document-task.png
+
+   Case details view, showing one task and the event stream
+
 Each case has an event stream that acts as an audit log and includes the information that case participants share during collaboration, such as comments, documents and links.
 
 
@@ -127,6 +133,8 @@ Below the list of columns, you’ll find a menu for selecting additional column 
 The menu lists all of the workflow variables that the table does not currently include.
 In this example, the *Interviewer* variable has the type *User*, which means that you can access additional fields for the user’s email address, first name, ID and last name.
 
+
+:: _comments:
 
 Commenting on a case
 --------------------

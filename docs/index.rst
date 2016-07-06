@@ -1,6 +1,8 @@
 Signavio Workflow User Guide
 ============================
 
+Skip to the :ref:`tutorials` if you don’t want to read a manual.
+
 .. toctree::
    :maxdepth: 2
 
@@ -19,3 +21,4 @@ Signavio Workflow User Guide
    settings
    variables
    examples
+   tutorials
