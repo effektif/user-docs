@@ -6,14 +6,17 @@ Using an ad hoc case for a document approval
 This tutorial introduces the simplest way to get started with Signavio Workflow.
 You can start without first defining a process by :ref:`start-adhoc`.
 
-Workflows are often used for document approvals, so this tutorial uses the example of approving a report, called *June report*.
+People often use workflows for document approvals, so this tutorial uses the example of approving a report, called *June report*.
 
-In the main menu, select *Cases* and then in the *Cases of* list, select *Cases without a process* from the bottom of the list.
-This opens :ref:`Cases <cases-overview>` view, which you can use to create and view :ref:`ad hoc cases <start-adhoc>`.
+In the main menu, select *Cases* and then select *Cases without a process* from the bottom of the drop-down list.
+This shows the :ref:`Cases <cases-overview>` view, which you can use to create and view :ref:`ad hoc cases <start-adhoc>`.
 
 .. figure:: /_static/images/tutorials/ad-hoc/cases.png
 
    The cases view, where you can start a new case
+
+.. note:: *Ad hoc* cases do not use a pre-defined process model.
+   You can also :ref:`start process cases <start-process>`.
 
 Select *Start new case* to start creating a new ad hoc case.
 This opens the case name prompt.
@@ -39,25 +42,25 @@ The event stream now shows the corresponding events, labelled *added a document*
    Adding a document to the event stream and a task to the task list
 
 .. note:: You can add as many tasks to the case as you like.
-   Use separate tasks for work that different people will do, or work that will be completed at different times.
+   Use separate tasks for work that different people will do, or work that will they will complete at different times.
    
    You can also use the text box above the event stream to :ref:`add comments to the case <comments>`, to add information and collaborate with other people.
 
 Select the *Approve report* task in the list to open the task details view.
 Under the task name, use the assignee selector to assign the task to someone, who will receive a :ref:`notification <task-assigned>`.
-Use the date selector to choose a due date, which will result in reminders if the case is not complete in time.
+Use the date selector to choose a due date, which will result in reminders if the case’s assignee does not complete it in time.
 
 .. figure:: /_static/images/tutorials/ad-hoc/task.png
 
    Details of a task within a case
 
 Select the *Done* button to complete the task.
-As this is the only open task in the case, this closes the case as well.
-You can see that the case is closed by the grey case name background, and from the most event in the event stream.
+As the case does not contain any other open tasks, this closes the case as well.
+You can recognise the case’s closed status by the grey case name background, and from the most recent event in the event stream.
 
 .. figure:: /_static/images/tutorials/ad-hoc/closed.png
 
-   A closed case, after its last task is complete
+   A closed case, after completing its last task
 
 
 .. note:: You can use a similar case for any other kind of approval.

@@ -40,6 +40,8 @@ Next, type the case title and hit Enter. Signavio Workflow now creates the new c
    New case
 
 
+.. _start-process:
+
 Starting a new process case
 ---------------------------
 
