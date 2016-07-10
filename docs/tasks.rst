@@ -97,6 +97,18 @@ to open the list of candidates.
 To assign the task, select a candidate from the list, or type a name or email address to filter it first.
 
 
+Viewing task details
+--------------------
+
+Selecting a task opens the task details view, which you can use to edit the task name, assign the task, or set a due date.
+This is where you complete a task’s form, if it has one.
+You can also add ad hoc subtasks.
+
+.. figure:: /_static/images/tutorials/ad-hoc/task.png
+
+   Details of a task within a case
+
+
 Setting due dates
 -----------------
 

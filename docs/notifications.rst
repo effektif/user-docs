@@ -45,6 +45,8 @@ or every member of each candidate group, if defined.
 Signavio Workflow does not send this notification if you disable `Receive notifications via email` in :ref:`Preferences`.
 
 
+.. _task-assigned:
+
 Task assigned
 -------------
 
