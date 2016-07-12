@@ -28,7 +28,10 @@ def touch(name, times=None):
 def clean_txts(path, language):
     sys.path.append(path)
     import clean_txts
-    shutil.rmtree('_build/html/_sources')
+
+    if os.path.isdir('_build/html/_sources'):
+        shutil.rmtree('_build/html/_sources')
+
     build_txt = subprocess.Popen(['sphinx-build', '-a', '-b', 'text','-D' 'language=' + language,\
                                    '..', '../_build_txt'])
     build_txt.wait()
