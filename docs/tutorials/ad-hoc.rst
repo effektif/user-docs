@@ -13,10 +13,10 @@ This shows the :ref:`Cases <cases-overview>` view, which you can use to create a
 
 .. figure:: /_static/images/tutorials/ad-hoc/cases.png
 
-   The cases view, where you can start a new case
+   The *Cases* view, where you can start a new case
 
 .. note:: *Ad hoc* cases do not use a pre-defined process model.
-   You can also :ref:`start process cases <start-process>`.
+   You can also :ref:`create an approval process model <tutorial-new-process>`.
 
 Select *Start new case* to start creating a new ad hoc case.
 This opens the case name prompt.
@@ -65,7 +65,6 @@ You can recognise the case’s closed status by the grey case name background, a
 
 .. note:: You can use a similar case for any other kind of approval.
    Use event stream comments to add any required information, and add approval tasks the same way.
-
    Next steps:
    
    * use an ad hoc case for another kind of collaboration task
