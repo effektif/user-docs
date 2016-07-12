@@ -28,21 +28,15 @@ rm -rf docs/_build
 
 cd "$PWD"/docs/$1
 
-sphinx-build -M text . ../_build_txt
 sphinx-build -M $MODE . _build
 
-rm -rf  _build/html/_sources
-
 cd ..
-mv _build_txt/text $1/_build/html/_sources
-rm -rf _build_txt
 rm -rf _build
 
 mv $1/_build .
 
 cd ..
 python cleanup.py
-python clean_txts.py
 python remove_rst_refs_in_po_files.py $1
 python find_missing_images.py $1
 

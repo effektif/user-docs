@@ -12,10 +12,10 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
-import sys
-import os
+import sys, os, subprocess, shutil
 
 import effektif_sphinx_theme
+
 
 def touch(name, times=None):
     if not os.path.exists(os.path.dirname(name)):
@@ -23,6 +23,18 @@ def touch(name, times=None):
 
     with open(name, 'a'):
         os.utime(name, times)
+
+
+def clean_txts(path, language):
+    sys.path.append(path)
+    import clean_txts
+    shutil.rmtree('_build/html/_sources')
+    build_txt = subprocess.Popen(['sphinx-build', '-a', '-b', 'text','-D' 'language=' + language,\
+                                   '..', '../_build_txt'])
+    build_txt.wait()
+    clean_txts.clean()
+    shutil.move('../_build_txt/', '_build/html/_sources')
+
 
 def prepare(cwd, path, lang):
   sys.path.append(path)
@@ -32,6 +44,18 @@ def prepare(cwd, path, lang):
   prepare_language(cwd, lang=lang)
 
   touch('%s/_build/latex/EffektifUserGuide.tex' % cwd)
+
+  def build_search_snippets(app, docname):
+      shutil.rmtree('_build/html/_sources')
+      build_txt = subprocess.Popen(['sphinx-build', '-a', '-b', 'text', '..', '../_build_txt'])
+      build_txt.wait()
+      clean_txts(PROJECT_PATH)
+      shutil.move('../_build_txt/' + language, '_build/html')
+      shutil.move('_build/html/' + language, '_build/html/_sources')
+
+  def setup(app):
+      app.connect('build-finished', build_search_snippets)
+
 
 AUTHORS = [" ".join(pair) for pair in sorted([
   ('T.', 'Baeyens'),
