@@ -136,7 +136,7 @@ The menu lists all of the workflow variables that the table does not currently i
 In this example, the *Interviewer* variable has the type *User*, which means that you can access additional fields for the user’s email address, first name, ID and last name.
 
 
-:: _comments:
+.. _comments:
 
 Commenting on a case
 --------------------
