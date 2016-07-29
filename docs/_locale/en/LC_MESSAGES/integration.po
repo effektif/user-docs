@@ -1,17 +1,192 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-17 10:39+0200\n"
+"POT-Creation-Date: 2016-07-29 12:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+
+msgid "Custom data connectors"
+msgstr ""
+
+msgid ""
+"When you define a process in Signavio Workflow, you often include your "
+"own data in the process definition, such as the list of options for a "
+"form field. This works well for small lists that don’t change often or "
+"that belong to the process, such as a list of document statuses in a "
+"document approval process. However, fixed lists in the process definition"
+" become difficult to maintain when the data changes frequently or "
+"includes a large number of items, such as a list of products or "
+"customers."
+msgstr ""
+
+msgid ""
+"With Signavio Workflow, you can also integrate dynamic structured data "
+"from other IT systems into your workflows. The workflow system "
+"communicates with a third-party system using a *connector*, which a the "
+"customer or a partner implements and hosts."
+msgstr ""
+
+msgid ""
+"A connector provides a web service that translates between the external "
+"system and Signavio Workflow. The connector implements a defined "
+"interface, which Signavio Workflow uses to access data in a format it can"
+" use. Signavio Workflow and the connector communicate over *HTTP* or "
+"*HTTPS*, with *JSON* as the data format. The open standards that define "
+"HTTP and JSON make it possible to implement connectors in any programming"
+" language."
+msgstr ""
+
+msgid "Using connectors"
+msgstr ""
+
+msgid ""
+"A connector can provide data to :ref:`user-task` form fields. A connector"
+" reference field:"
+msgstr ""
+
+msgid "makes it possible to select from a dynamic list of records"
+msgstr ""
+
+msgid "supports auto-complete so you can work with a large number of records"
+msgstr ""
+
+msgid "can include structured data for each record."
+msgstr ""
+
+msgid "Implementing a connector"
+msgstr ""
+
+msgid ""
+"Every connector provides a descriptor which defines the types of records "
+"that it provides. A connector can provide one or multiple types of "
+"records. Every record type again defines its structure, a list of fields "
+"with a key, a name and a data type."
+msgstr ""
+
+msgid "The"
+msgstr ""
+
+msgid ""
+"Our example connector will connect to a fictional customer database. "
+"Every customer record has the following fields:"
+msgstr ""
+
+msgid "``id`` - a unique identifier"
+msgstr ""
+
+msgid "``fullName`` - the name of the customer"
+msgstr ""
+
+msgid "``email`` - the email address of the customer"
+msgstr ""
+
+msgid ""
+"``subscriptionType`` - the type of the subscription - bronze, silver or "
+"gold"
+msgstr ""
+
+msgid "``discount`` - the default discount for the customer"
+msgstr ""
+
+msgid "``since`` - the registration date"
+msgstr ""
+
+msgid ""
+"A complete example record provided by the connector in *JSON* would look "
+"like this::"
+msgstr ""
+
+msgid "Connector descriptor"
+msgstr ""
+
+msgid ""
+"The connector provides a descriptor which gives some basic information "
+"like a name and a description and more detailed information about the "
+"structure of the provided data."
+msgstr ""
+
+msgid "``key`` - a unique key which identifies the connector"
+msgstr ""
+
+msgid ""
+"a *key* should only consist of alphanumeric characters (a - z, A - Z, 0 -"
+" 9)"
+msgstr ""
+
+msgid "``name`` - a name for the connector which is shown in the UI"
+msgstr ""
+
+msgid "``description`` - a more detailed description of the connector"
+msgstr ""
+
+msgid "``typeDescriptors`` - a list of one or more descriptors for record types"
+msgstr ""
+
+msgid "``version`` - the version of the connector"
+msgstr ""
+
+msgid ""
+"the connector version should be increased with any change of the provided"
+" data structure"
+msgstr ""
+
+msgid "``protocolVersion`` - the version of the used connector protocol"
+msgstr ""
+
+msgid "the current version is ``1``"
+msgstr ""
+
+msgid ""
+"The connector will provide its descriptor upon a *GET* request to its "
+"base URL. If your connector"
+msgstr ""
+
+msgid ""
+"An example of a connector descriptor without any type descriptors would "
+"like this::"
+msgstr ""
+
+msgid "The connector is available"
+msgstr ""
+
+msgid "Record type descriptor"
+msgstr ""
+
+msgid "A complete example our connector descriptor would look like this::"
+msgstr ""
+
+msgid "Data types and formats"
+msgstr ""
+
+msgid "Authentication"
+msgstr ""
+
+msgid "Configuring a connector"
+msgstr ""
 
 msgid "Salesforce Integration"
+msgstr ""
+
+msgid ""
+"Signavio Workflow integrates with Salesforce workflows. You can configure"
+" this so that changes in Salesforce will automatically trigger Signavio "
+"Workflow processes."
+msgstr ""
+
+msgid "Signavio Workflow configuration"
+msgstr ""
+
+msgid ""
+"Before you can set-up Salesforce integration, you need to create an "
+"endpoint in Signavio Workflow that Salesforce can send information to. "
+"Set this up in Signavio Workflow as follows."
 msgstr ""
 
 msgid ""
@@ -24,11 +199,16 @@ msgid ""
 "`Create`."
 msgstr ""
 
-msgid ""
-"Copy the generated `Endpoint URL`, or leave this window open for later."
+msgid "Copy the generated `Endpoint URL`, or leave this window open for later."
 msgstr ""
 
 msgid "Salesforce configuration"
+msgstr ""
+
+msgid ""
+"Before you can enable Salesforce triggers, you need to configure Outbound"
+" messages - a kind of Salesforce workflow action. Set this up in "
+"Salesforce as follows."
 msgstr ""
 
 msgid ""
@@ -47,48 +227,6 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Select `Save`. Do not forget to activate the workflow rule as soon as you "
-"have finished the configuration. To do this, click the `Activate` button at "
-"the top of the `Workflow Rule Detail` page."
-msgstr ""
-
-msgid ""
-"On the `Outbound message` page, next to `Endpoint WSDL`, select the `Click "
-"for WSDL` link, which opens a web service definition file."
-msgstr ""
-
-msgid ""
-"In the top-right user menu, select `My Organisation`, select the `Services` "
-"tab, and then select the Salesforce trigger type you created earlier."
-msgstr ""
-
-msgid ""
-"Select `Upload document`, and select the ``workflowOutboundMessage.wsdl`` "
-"file you saved earlier."
-msgstr ""
-
-msgid ""
-"Before you can enable Salesforce triggers, you need to configure Outbound "
-"messages - a kind of Salesforce workflow action. Set this up in Salesforce "
-"as follows."
-msgstr ""
-
-msgid ""
-"Signavio Workflow integrates with Salesforce workflows. You can configure "
-"this so that changes in Salesforce will automatically trigger Signavio "
-"Workflow processes."
-msgstr ""
-
-msgid "Signavio Workflow configuration"
-msgstr ""
-
-msgid ""
-"Before you can set-up Salesforce integration, you need to create an endpoint"
-" in Signavio Workflow that Salesforce can send information to. Set this up "
-"in Signavio Workflow as follows."
-msgstr ""
-
-msgid ""
 "On the `Configure Outbound Message` page, configure the new `Outbound "
 "Message`, to define which object fields to send to Signavio Workflow."
 msgstr ""
@@ -96,6 +234,17 @@ msgstr ""
 msgid ""
 "In the `Endpoint URL` field, paste the `Endpoint URL` from the Signavio "
 "Workflow configuration you created earlier."
+msgstr ""
+
+msgid ""
+"Select `Save`. Do not forget to activate the workflow rule as soon as you"
+" have finished the configuration. To do this, click the `Activate` button"
+" at the top of the `Workflow Rule Detail` page."
+msgstr ""
+
+msgid ""
+"On the `Outbound message` page, next to `Endpoint WSDL`, select the "
+"`Click for WSDL` link, which opens a web service definition file."
 msgstr ""
 
 msgid ""
@@ -112,64 +261,42 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Now you can use the new :ref:`Salesforce trigger <trigger-salesforce>` in "
-"Signavio Workflow."
+"In the top-right user menu, select `My Organisation`, select the "
+"`Services` tab, and then select the Salesforce trigger type you created "
+"earlier."
+msgstr ""
+
+msgid ""
+"Select `Upload document`, and select the ``workflowOutboundMessage.wsdl``"
+" file you saved earlier."
+msgstr ""
+
+msgid ""
+"Now you can use the new :ref:`Salesforce trigger <trigger-salesforce>` in"
+" Signavio Workflow."
 msgstr ""
 
 #~ msgid ""
-#~ "Effektif integrates with Salesforce workflows. You can configure this so "
-#~ "that changes in Salesforce will automatically trigger Effektif processes."
 #~ msgstr ""
 
 #~ msgid "Effektif configuration"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Before you can set-up Salesforce integration, you need to create an endpoint"
-#~ " in Effektif that Salesforce can send information to. Set this up in "
-#~ "Effektif as follows."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "On the `Configure Outbound Message` page, configure the new `Outbound "
-#~ "Message`, to define which object fields to send to Effektif."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "In the `Endpoint URL` field, paste the `Endpoint URL` from the Effektif "
-#~ "configuration you created earlier."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Save the ``workflowOutboundMessage.wsdl`` file, which you will use to "
-#~ "configure Effektif, next."
 #~ msgstr ""
 
 #~ msgid "Finish Effektif configuration"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "For the final configuration step, use the web service definition file to "
-#~ "configure the Salesforce service in Effektif."
+#~ "A complete example record provided by"
+#~ " the connector in *JSON* would look"
+#~ " like this: ::"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Now you can use the new :ref:`Salesforce trigger <trigger-salesforce>` in "
-#~ "Effektif."
+#~ "An example of a connector descriptor "
+#~ "without any type descriptors would like"
+#~ " this: ::"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "Before you can enable Salesforce triggers, you need to configure Outbound "
-#~ "messages, which are one kind of Salesforce workflow action. Set this up in "
-#~ "Salesforce as follows."
+#~ msgid "A complete example our connector descriptor would look like this: ::"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "The final configuration step is to use the web service definition file to "
-#~ "configure the Salesforce service in Effektif."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Now you are ready to use the new :ref:`Salesforce trigger <trigger-"
-#~ "salesforce>` in Effektif."
-#~ msgstr ""

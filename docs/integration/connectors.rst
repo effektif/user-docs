@@ -3,28 +3,32 @@
 Custom data connectors
 ======================
 
-Signavio Workflow offers a generic way to integrate data from other software systems into your workflows.
-The workflow system communicates with third party system using a *connector*.
-The connector is a web service which acts as a translator between the other system and Signavio Workflow.
-It provides a well defined interface, which can be accessed by Signavio Workflow and transforms any data to a format supported by Signavio Workflow.
+When you define a process in Signavio Workflow, you often include your own data in the process definition, such as the list of options for a form field.
+This works well for small lists that don’t change often or that belong to the process, such as a list of document statuses in a document approval process.
+However, fixed lists in the process definition become difficult to maintain when the data changes frequently or includes a large number of items, such as a list of products or customers.
 
+With Signavio Workflow, you can also integrate dynamic structured data from other IT systems into your workflows.
+The workflow system communicates with a third-party system using a *connector*, which a the customer or a partner implements and hosts.
 
-The communication between Signavio Workflow and the connector happens over *HTTP* / *HTTPS* and uses *JSON* as the exchange format.
-The connector has to be implemented and hosted by the customer or a partner.
-Due to the communication over *HTTP* and *JSON*, the connector can be implemented in any programming language.
+A connector provides a web service that translates between the external system and Signavio Workflow.
+The connector implements a defined interface, which Signavio Workflow uses to access data in a format it can use.
+Signavio Workflow and the connector communicate over *HTTP* or *HTTPS*, with *JSON* as the data format.
+The open standards that define HTTP and JSON make it possible to implement connectors in any programming language.
 
+Using a connector
+-----------------
 
-The data provided by a connector can be used in user task forms.
+A connector can provide data to :ref:`user-task` form fields.
+A connector reference field:
 
-**TODO:**
+.. **TODO:**
 
-* can be used as form field with auto-complete
-* read-only for now, writing data comes later
-* connector provides a list of choices
-* connector provides extended data for a single record
+* makes it possible to select from a dynamic list of records
+* supports auto-complete so you can work with a large number of records
+* can include structured data for each record.
 
-Connector basics
-----------------
+Implementing a connector
+------------------------
 
 Every connector provides a descriptor which defines the types of records that it provides.
 A connector can provide one or multiple types of records.
@@ -42,7 +46,7 @@ Every customer record has the following fields:
 * ``discount`` - the default discount for the customer
 * ``since`` - the registration date
 
-A complete example record provided by the connector in *JSON* would look like this: ::
+A complete example record provided by the connector in *JSON* would look like this::
 
 	{
 		"id" : "1a2b3c",
@@ -77,7 +81,7 @@ The connector provides a descriptor which gives some basic information like a na
 The connector will provide its descriptor upon a *GET* request to its base URL.
 If your connector 
 
-An example of a connector descriptor without any type descriptors would like this: ::
+An example of a connector descriptor without any type descriptors would like this::
 
 	{
 	  "key" : "customers",
@@ -93,7 +97,7 @@ The connector is available
 Record type descriptor
 ^^^^^^^^^^^^^^^^^^^^^^
 
-A complete example our connector descriptor would look like this: ::
+A complete example our connector descriptor would look like this::
 
 	{
 	  "key" : "customers",
@@ -162,6 +166,6 @@ Authentication
 
 
 
-Setup a new connector in Signavio Workflow
-------------------------------------------
+Configuring a connector
+-----------------------
 
