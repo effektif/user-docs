@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-07 12:24+0200\n"
+"POT-Creation-Date: 2016-07-21 09:56+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -186,9 +186,6 @@ msgid ""
 "currently include. In this example, the *Interviewer* variable has the "
 "type *User*, which means that you can access additional fields for the "
 "user’s email address, first name, ID and last name."
-msgstr ""
-
-msgid ":: _comments:"
 msgstr ""
 
 msgid "Commenting on a case"
@@ -428,5 +425,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Enter case title"
+#~ msgstr ""
+
+#~ msgid ":: _comments:"
 #~ msgstr ""
 
