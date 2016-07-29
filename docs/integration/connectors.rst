@@ -5,7 +5,7 @@ Custom data connectors
 
 Signavio Workflow offers a generic way to integrate data from other software systems into your workflows.
 The workflow system communicates with third party system using a *connector*.
-The connector acts as a translator between the other system and Signavio Workflow.
+The connector is a web service which acts as a translator between the other system and Signavio Workflow.
 It provides a well defined interface, which can be accessed by Signavio Workflow and transforms any data to a format supported by Signavio Workflow.
 
 
@@ -30,16 +30,17 @@ Every connector provides a descriptor which defines the types of records that it
 A connector can provide one or multiple types of records.
 Every record type again defines its structure, a list of fields with a key, a name and a data type.
 
+The 
 
 Our example connector will connect to a fictional customer database.
 Every customer record has the following fields:
 
-:id: a unique identifier
-:fullName: the name of the customer
-:email: the email address of the customer
-:subscriptionType: the type of the subscription - bronze, silver or gold
-:discount: the default discount for the customer
-:since: the registration date
+* ``id`` - a unique identifier
+* ``fullName`` - the name of the customer
+* ``email`` - the email address of the customer
+* ``subscriptionType`` - the type of the subscription - bronze, silver or gold
+* ``discount`` - the default discount for the customer
+* ``since`` - the registration date
 
 A complete example record provided by the connector in *JSON* would look like this: ::
 
@@ -58,20 +59,20 @@ Connector descriptor
 The connector provides a descriptor which gives some basic information like a name and a description and more detailed information about the structure of the provided data.
 
 
-* *key* - a unique key which identifies the connector
+* ``key`` - a unique key which identifies the connector
 
   * a *key* should only consist of alphanumeric characters (a - z, A - Z, 0 - 9)
 
-* *name* - a name for the connector which is shown in the UI
-* *description* - a more detailed description of the connector
-* *typeDescriptors* - a list of one or more descriptors for record types
-* *version* - the version of the connector
+* ``name`` - a name for the connector which is shown in the UI
+* ``description`` - a more detailed description of the connector
+* ``typeDescriptors`` - a list of one or more descriptors for record types
+* ``version`` - the version of the connector
 	
 	* the connector version should be increased with any change of the provided data structure
 
-* *protocolVersion* - the version of the used connector protocol 
+* ``protocolVersion`` - the version of the used connector protocol 
 
- * the current version is `1`
+ * the current version is ``1``
 
 The connector will provide its descriptor upon a *GET* request to its base URL.
 If your connector 
