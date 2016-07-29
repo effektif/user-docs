@@ -30,9 +30,32 @@ Every connector provides a descriptor which defines the types of records that it
 A connector can provide one or multiple types of records.
 Every record type again defines its structure, a list of fields with a key, a name and a data type.
 
-The 
+The connector itself is implemented as a web service and must be hosted in a location which is available to Signavio Workflow.
+This location can be in a private network for an on-premise version of Signavio Workflow and must be publicly available if you use the SaaS version of Signavio Workflow.
+The URL where the connector is located is called the *endpoint URL*.
+
+A connector offers three different types of requests.
+The shown paths are relative to the connectors URL endpoint.
+
+* ``GET /`` 
+
+	* provides the connector descriptor, see :ref:`connector-descriptor`
+
+* ``GET /:typeKey/options?filter=:filterValue``
+
+	* provides a list of options for the specified record type, see :ref:`connector-type-options` 
+	* ``typeKey`` represents the chosen key for a type descriptor
+	* ``filterValue`` is the search query entered by the user
+	* the returned list of options should have a limited size
+
+* ``GET /:typeKey/:id``
+
+	* provides a single record of the specifed type
+	* ``typeKey`` represents the chosen key for a type descriptor
+	* ``id`` represents the unique of the record
 
 Our example connector will connect to a fictional customer database.
+The endpoint URL of the connector will be ``https://example.org/workflow/connector``.
 Every customer record has the following fields:
 
 * ``id`` - a unique identifier
@@ -45,19 +68,21 @@ Every customer record has the following fields:
 A complete example record provided by the connector in *JSON* would look like this: ::
 
 	{
-		"id" : "1a2b3c",
+		"id" : "7g8h9i",
 		"fullName" : "Charlie Chester",
-		"email" : "charlie@company.com",
+		"email" : "charlie@example.org",
 		"subscriptionType" : "silver",
-		"discount" : 20,
-		"since" : "2012-02-14T09:20:00Z"
+		"discount" : 15,
+		"since" : "2012-02-14T09:20:00.000Z"
 	}
 
+This example record would be retrieved by executig a ``GET`` request to ``https://example.org/workflow/connector/customer/7g8h9i``.
+
+.. _connector-descriptor:
 Connector descriptor
 ^^^^^^^^^^^^^^^^^^^^
 
 The connector provides a descriptor which gives some basic information like a name and a description and more detailed information about the structure of the provided data.
-
 
 * ``key`` - a unique key which identifies the connector
 
@@ -74,7 +99,7 @@ The connector provides a descriptor which gives some basic information like a na
 
  * the current version is ``1``
 
-The connector will provide its descriptor upon a *GET* request to its base URL.
+The connector will provide its descriptor upon a ``GET`` request to its base URL.
 If your connector 
 
 An example of a connector descriptor without any type descriptors would like this: ::
@@ -90,8 +115,19 @@ An example of a connector descriptor without any type descriptors would like thi
 
 The connector is available 
 
+.. _connector-type-descriptor:
 Record type descriptor
 ^^^^^^^^^^^^^^^^^^^^^^
+
+A type descriptor is used to describe the format of the data provided by the connector.
+
+* ``key`` - a unique identifiere within the connector descriptor
+
+	* a key should only consist of alphanumeric characters (a - z, A - Z, 0 - 9)
+	* the key will be used in the URL to retrieve a list of options and single records
+
+* ``name`` - 
+* ``fields`` - the data type  
 
 A complete example our connector descriptor would look like this: ::
 
@@ -153,12 +189,31 @@ A complete example our connector descriptor would look like this: ::
 	  "protocolVersion" : 1
 	}
 
+.. _connector-type-options
+Record type options
+^^^^^^^^^^^^^^^^^^^
+
+
+.. _connector-data-types:
 Data types and formats
 ----------------------
 
 
+
 Authentication
 --------------
+
+**TODO:**
+
+* HTTP basic authentication, 
+	
+	* provide username and password
+
+* token authorization
+
+	* provide name and token
+	* specify location (header or query parameter)
+
 
 
 
