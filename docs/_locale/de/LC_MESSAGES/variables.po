@@ -40,7 +40,7 @@ msgid ""
 "to capture data that the script retrieves or calculates."
 msgstr ""
 "Im Normalfall fügen Sie eine Variable zu Ihrem Workflow hinzu, indem Sie "
-":ref:` Formularfelder<form-fields>` hinzufügen. Sie können auch in  einem "
+":ref:`Formularfelder <form-fields>` hinzufügen. Sie können auch in  einem "
 ":ref:`javascript` Variablen definieren, um Daten, die das Script berechnet "
 "oder abruft, zu erfassen."
 
