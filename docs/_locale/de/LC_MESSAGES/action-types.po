@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-27 13:15+0200\n"
-"PO-Revision-Date: 2016-07-27 16:55+0200\n"
+"POT-Creation-Date: 2016-07-29 10:02+0200\n"
+"PO-Revision-Date: 2016-07-29 11:07+0200\n"
 "Last-Translator: Timotheus Kampik <timotheus.kampik@signavio.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -249,8 +249,8 @@ msgstr "Eine Google Drive *Zeile in Tabelle hinzufügen*-Aktion im Prozesseditor
 msgid "The Google Drive *Add row to sheet* action adds a row to a Google Sheets spreadsheet. You can use this to save the values of process variables at process milestones, and build a custom overview of cases."
 msgstr "Eine Google Drive *Zeile in Tabelle hinzufügen*-Aktion fügt eine Zeile zu einem Google Sheets Tabellenblatt hinzu. So können Sie Prozessvariablen beim Erreichen von Meilensteinen abspeichern und eine individuelle Übersicht über Ihre Fälle erstellen."
 
-msgid "After creating a Google Drive *Add row to sheet* action, the configuration panel shows a button to start configuring the account. This configuration has the same steps as in the :ref:`Upload file configuration <upload-file-configuration>`(above)."
-msgstr "Nachdem Sie die Google Drive *Zeile in Tabelle hinzufügen*-Aktion erstellt haben, wird Ihnen - analog zu den anderen Google Drive-Aktionen - eine Schaltfläche angezeigt, über die Sie ein Google Drive Konto wie unter :ref:`Datei hochladen - Konfiguration <upload-file-configuration>` beschrieben hinterlegen können."
+msgid "After creating a Google Drive *Add row to sheet* action, the configuration panel shows a button to start configuring the account. This configuration has the same steps as in the :ref:`Upload file configuration <upload-file-configuration>` (above)."
+msgstr "Nachdem Sie die Google Drive *Zeile in Tabelle hinzufügen*-Aktion erstellt haben, wird Ihnen - analog zu den anderen Google Drive-Aktionen - eine Schaltfläche angezeigt, über die Sie ein Google Drive Konto hinterlegen können, wie im Kapitel :ref:`Datei hochladen - Konfiguration <upload-file-configuration>` beschrieben."
 
 msgid "When you have authenticated with a Google account and granted permission, you can configure the *Add row to sheet* action."
 msgstr "Sobald Sie sich mit Ihrem Google-Account authentifiziert und den Zugriff bestätigt haben, können Sie die *Zeile in Tabelle hinzufügen*-Aktion konfigurieren."
@@ -266,6 +266,63 @@ msgstr "Google Drive *Zeile in Tabelle hinzufügen*: Konfigurationseinstellung n
 
 msgid "Each column name, such as *Customer name* in this example, comes from a column heading in the spreadsheet. For each column, select one of the :ref:`variables <variables>` from the list."
 msgstr "Die Spaltennamen, wie im Beispiel *Kundenname*, werden auf Basis der Tabellenspalten generiert. Wählen Sie für jede Spalte eine :ref:`Variable <variables>` aus der Liste aus."
+
+msgid "Google Drive - Add calendar event"
+msgstr "Google Drive -Termin zum Kalender hinzufügen"
+
+msgid "A Google Drive *Add calendar event* task in the process editor"
+msgstr "Eine Google Drive *Termin zum Kalender hinzufügen*-Aktion im Prozesseditor"
+
+msgid "The Google Drive *Add calendar event* action adds an event to a Google Calendar. You can use this to schedule meetings or time to work on a task, based on the values of process variables."
+msgstr "Die Google Drive Aktion *Termin zum Kalender hinzufügen* fügt einen Termin zu einem Google Kalender hinzu. Sie können diese Aktion verwenden, um Meetings oder Arbeitszeiten festzulegen. Die nötigen Informationen werden aus den Prozessvariablen erzeugt."
+
+msgid "After creating a Google Drive *Add calendar event* action, the configuration panel shows a button to start configuring the account. This configuration has the same steps as in the :ref:`Upload file configuration <upload-file-configuration>` (above)."
+msgstr "Nachdem Sie die Google Drive Aktion *Termin zum Kalender hinzufügen* erstellt haben, wird Ihnen - analog zu den anderen Google Drive-Aktionen - eine Schaltfläche angezeigt, über die Sie ein Google Drive Konto hinterlegen können, wie im Kapitel :ref:`Datei hochladen - Konfiguration <upload-file-configuration>` beschrieben."
+
+msgid "When you have authenticated with a Google account and granted permission, you can configure the *Add calendar event* action."
+msgstr "Sobald Sie sich mit Ihrem Google-Account authentifiziert und den Zugriff bestätigt haben, können Sie die Aktion *Termin zum Kalender hinzufügen* konfigurieren."
+
+msgid "Add calendar event action"
+msgstr "Eine Aktion vom Typ 'Termin zum Kalender hinzufügen'"
+
+msgid "Once you have configured your Google Drive account, the *Add calendar event* action configuration panel shows the calendar event fields."
+msgstr "Nachdem Sie Ihren Google Drive Account hinterlegt haben, zeigt das Konfigurationspanel der Aktion die Formularfelder zur Konfiguration des Termins, der zum Google Kalender hinzugefügt werden soll."
+
+msgid "Google Drive *Add calendar event* authenticated configuration"
+msgstr "Google Drive *Termin zum Kalender hinzufügen*: Konfigurationseinstellungen nach erfolgreicher Authentifizierung"
+
+msgid "In the configuration you can specify the following."
+msgstr "Im Konfigurationsdialog können Sie die folgenden Einstellungen konfigurieren."
+
+msgid "Calendar"
+msgstr "Kalender"
+
+msgid "The calendar within the selected Google account."
+msgstr "Der Kalender im gewählten Google Account."
+
+msgid "Event summary (optional)"
+msgstr "Terminbezeichnung (optional)"
+
+msgid "A text variable to use as the name of the new calendar event. If you don’t select a text variable, the event name will be blank."
+msgstr "Eine Textvariable, die den Namen des neuen Kalendereintrags festlegt. Falls Sie keine Textvariable wählen, bleibt der Name des Termins im Kalender leer."
+
+msgid "Start date"
+msgstr "Startdatum"
+
+msgid "A date variable for the event’s start date and time."
+msgstr "Eine Datumsvariable, die die Tageszeit und das Datum enthält, an dem der Termin beginnt."
+
+msgid "End date"
+msgstr "Enddatum"
+
+msgid "A date variable for the event’s end date and time."
+msgstr "Eine Datumsvariable, die die Tageszeit und das Datum enthält, an dem der Termin endet."
+
+msgid "Attendees (optional)"
+msgstr "Teilnehmer (optional)"
+
+msgid "Email address variables for people to invite to the calendar event."
+msgstr "E-Mail-Adress-Variablen, die die  einzuladenden Teilnehmer auflisten. "
 
 msgid "Box Upload file"
 msgstr "Box Dateiupload"
