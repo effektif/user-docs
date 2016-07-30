@@ -79,6 +79,23 @@ Alternatively, just click the user task icon |task-symbol| to create a new user 
 with a transition.
 
 
+Changing the action type
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Sometimes, modifying a process means changing an action from one type to another.
+In the recruitment process, you might change the action to reject the candidate from a manual task to an automatic email task.
+
+To make this change, first select the action in the process editor to open the configuration panel, then click the action type icon at the top-left corner of the configuration panel to open the list of action types.
+Next, select *Send Email* from the list to change the action type.
+
+.. figure:: /_static/images/process-builder/action-change-type.png
+
+   Changing a :ref:`user-task` to a :ref:`send-email` task.
+
+.. warning:: Changing the action type discards the previous action type’s configuration, such as a user task form or an email template.
+   If you change the action type back, the original configuration will not be restored.
+
+
 Control flow elements
 ^^^^^^^^^^^^^^^^^^^^^
 
