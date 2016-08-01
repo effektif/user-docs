@@ -343,6 +343,7 @@ A data type defines which kind of value and format a field in a record can have.
 A type descriptor represents a data type as a JSON object, whose ``name`` property contains the data type name.
 
 Data types may use additional properties for type-specific configuration.
+Furthermore, the expected format a record value depends on the data type.
 
 Choice type
 ^^^^^^^^^^^
@@ -399,15 +400,18 @@ For ``date`` and ``time`` only the respective parts of a timestamp are considere
 	  "kind" : "datetime"
 	}
 
-Every date value in a record must be formatted as a [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) string in UTC.
+Every date type value in a record must be formatted as a [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) string in UTC.
 The used format is ``YYYY-MM-DDThh:mm:ss.SSSZ``, an example value looks like this::
 
 	"2012-02-14T09:20:00.000Z"
 
+``date`` and ``time`` strings need to be transmitted in that format as well.
+As mentioned before, for those types only the first respectively the last part of the timestamp is considered during the execution.
+
 Email address type
 ^^^^^^^^^^^^^^^^^^
 
-
+The email address type represents, as the name already indicates, an email address.
 
 * ``name`` - ``emailAddress``
 
@@ -417,8 +421,12 @@ Email address type
 	  "name" : "emailAddress"
 	}
 
+The record value must be a plain string.
+
 Link type
 ^^^^^^^^^
+
+A link represents an Internet address (URL), such as a web site address.
 
 * ``name`` - ``link``
 
@@ -428,8 +436,12 @@ Link type
 	  "name" : "link"
 	}
 
+The record value must be a plain string.
+
 Money type
 ^^^^^^^^^^
+
+A money value is a combination of an ``amount`` and a ``currency``. 
 
 * ``name`` - ``money``
 
@@ -439,8 +451,21 @@ Money type
 	  "name" : "money"
 	}
 
+The record value is a JSON object with the two fields ``amount`` and ``currency``.
+The ``amount`` can be any number.
+The ``currency`` is a [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) string which represents the respective currency.
+
+:: 
+
+	{
+	  "amount" : 12.40
+	  "currency" : "EUR"
+	}
+
 Number type
 ^^^^^^^^^^^
+
+A number can be either an integer or a decimal.
 
 * ``name`` - ``number``
 
@@ -450,8 +475,22 @@ Number type
 	  "name" : "number"
 	}
 
+The record value is the plain number.
+The decimal mark is a single ``.``.
+
+:: 
+
+	{
+	  "myInteger" : 42,
+	  "myDecimal" : 42.42
+	}
+
 Text type
 ^^^^^^^^^
+
+A text can contain any string.
+Optionally, a single line text can be turned into a multi line text by adding the flag ``multiLine`` to the data type.
+
 
 * ``name`` - ``text``
 * ``multiLine`` - (optional) if set to ``true`` the text field will allow multiple lines of input
@@ -469,8 +508,12 @@ Text type
 	  "multiLine" : true
 	}
 
+The record value must be a plain string.
+
 Yes/No Checkbox type
 ^^^^^^^^^^^^^^^^^^^^^
+
+The yes/no checkbox type represents a single boolean value which can be ``true`` or ``false``.
 
 * ``name`` - ``boolean``
 
@@ -480,6 +523,13 @@ Yes/No Checkbox type
 	  "name" : "boolean"
 	}
 
+The record value must be a boolean value, either ``true`` or ``false``.
+
+:: 
+
+	{
+	  "myCheckbox" : true
+	}
 
 Authentication
 --------------
