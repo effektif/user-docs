@@ -97,7 +97,14 @@ Connector descriptor
 
 The connector provides a descriptor which gives some basic information like a name and a description and more detailed information about the structure of the provided data.
 
-.. **TODO: specify HTTP request URL, method, response Content-Type**
+.. list-table:: Fetch record type options
+	
+	* - Request URL
+	  - ``/``
+	* - Request method
+	  - ``GET``	  
+	* - Response Content-Type
+	  - ``application/json``
 
 The response body must be a JSON object with the following fields.
 
@@ -170,6 +177,9 @@ A record field descriptor specifies one data field of a record type.
      - The field name shown in the user interface
    * - ``type``
      - The field’s data type - see :ref:`connector-data-types` 
+
+.. hint::
+	The field ``id`` with type ``text`` is mandatory for every record type and doesn't need to be defined explicitly.
 
 An example for the ``fullName`` of our customer record type looks like this ::
 
@@ -312,6 +322,18 @@ Furthermore, the connector must implement the following endpoint:
 	  - ``application/json``
 
 
+For our customer example a single record would be retrieved by executig a ``GET`` request to ``https://example.org/workflow/connector/customer/7g8h9i``::
+
+	{
+	  "id" : "7g8h9i",
+	  "fullName" : "Charlie Chester",
+	  "email" : "charlie@example.org",
+	  "subscriptionType" : "silver",
+	  "discount" : 15,
+	  "since" : "2012-02-14T09:20:00.000Z"
+	}
+
+
 .. _connector-data-types:
 
 Data types and formats
@@ -325,12 +347,17 @@ Data types may use additional properties for type-specific configuration.
 Choice type
 ^^^^^^^^^^^
 
+A choice type represents a value from a fixed list of configured options.
+
 * ``name`` - ``choice``
 * ``options`` - an array of choice options
 	
-Every choice option consists of an ``id`` and ``name``. 
+Every choice option consists of an ``id`` and a ``name``. 
 The ``id`` of a choice option will be used as the field value in a record.
 The ``name`` will be shown to the user in the UI.
+
+The value of the ``id`` should be a string consisting of alphanumeric characters (a-z, A-Z, 0-9).
+A choice type must not have two options with the same ``id``.
 
 ::
 
@@ -355,6 +382,9 @@ The ``name`` will be shown to the user in the UI.
 Date type
 ^^^^^^^^^
 
+Signavio Workflow supports three different kinds of date types: ``date``, ``time``, ``datetime``.
+For ``date`` and ``time`` only the respective parts of a timestamp are considered when evaluating conditions in a workflow. 
+
 * ``name`` - ``date``
 * ``kind`` - (required) defines whether the value is a simple date, a time or both
 
@@ -369,8 +399,15 @@ Date type
 	  "kind" : "datetime"
 	}
 
+Every date value in a record must be formatted as a [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) string in UTC.
+The used format is ``YYYY-MM-DDThh:mm:ss.SSSZ``, an example value looks like this::
+
+	"2012-02-14T09:20:00.000Z"
+
 Email address type
 ^^^^^^^^^^^^^^^^^^
+
+
 
 * ``name`` - ``emailAddress``
 
@@ -447,7 +484,9 @@ Yes/No Checkbox type
 Authentication
 --------------
 
-**TODO:**
+Connector
+
+.. **TODO:**
 
 * HTTP basic authentication, 
 	
