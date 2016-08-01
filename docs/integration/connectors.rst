@@ -38,7 +38,7 @@ To implement a connector, you publish three different kinds of resource.
 Signavio Workflow accesses the connector on the web, via the public Internet, or via a private intranet for an on-premise installation.
 The URL where the connector is located is called the *endpoint URL*.
 
-For example, consider a connector that accesses a fictional customer database, that you publish at the endpoint URL ``https://example.org/workflow/connector``.
+For example, consider a connector that accesses a fictional customer database, that you publish at the endpoint URL ``https://example.org/connector``.
 In this example, each customer record has the following fields.
 
 .. list-table:: Example - customer record fields
@@ -59,7 +59,7 @@ In this example, each customer record has the following fields.
    * - ``since``
      - Registration date
 
-A complete example customer record, formatted as *JSON*, would look like this::
+A complete example customer record, formatted as *JSON*, would then look like this::
 
 	{
 	  "id" : "7g8h9i",
@@ -70,14 +70,14 @@ A complete example customer record, formatted as *JSON*, would look like this::
 	  "since" : "2012-02-14T09:20:00.000Z"
 	}
 
-This example includes enough information to implement a complete connector.
+This example now includes enough information to implement a complete connector.
 
 .. _connector-descriptor:
 
 Connector descriptor
 ^^^^^^^^^^^^^^^^^^^^
 
-A connector needs a descriptor to provide basic information, such as its name and description, and more detailed information about the structure of the data the connector provides.
+A connector needs a descriptor to provide basic information, such as its name and description, as well as detailed information about the structure of the data the connector provides.
 When you implement a connector, you must make the descriptor available as the following HTTP resource.
 
 URL
@@ -95,7 +95,7 @@ The response body must be a JSON object with the following fields.
    * - Property
      - Description
    * - ``key``
-     - Unique connector identifier - only alphanumeric characters (a-z, A-Z, 0-9)
+     - Unique alphanumeric key (characters a-z, A-Z, 0-9) that identifies the connector
    * - ``name``
      - The connector name shown in the user interface
    * - ``description``
@@ -108,7 +108,7 @@ The response body must be a JSON object with the following fields.
      - The connector protocol version.
        The current version is ``1``.
 
-For example, the JSON response body for a connector descriptor without any type descriptors would like this::
+For example, the JSON response body for a connector descriptor without any type descriptors would look like this::
 
 	{
 	  "key" : "customers",
@@ -119,12 +119,12 @@ For example, the JSON response body for a connector descriptor without any type 
 	  "protocolVersion" : 1
 	}
 
-In our example, you would retrieve the connector descriptor by sending the HTTP request ``GET https://example.org/workflow/connector/``.
+In our example, you would retrieve the connector descriptor by sending the HTTP request ``GET https://example.org/connector/``.
 
 .. _connector-type-descriptor:
 
-A record type descriptor describes the format of the data the connector provides, such as the format of a customer record.
-A record type is a complex structure that includes one or more fields, each of which has a key, a name and a data type.
+A **record type descriptor** describes the format of the data the connector provides, such as the format of a customer record.
+The ``typeDescriptors`` property in the JSON response is an array of record type descriptor JSON objects.
 
 .. list-table:: Record type descriptor properties
    :header-rows: 1
@@ -132,19 +132,31 @@ A record type is a complex structure that includes one or more fields, each of w
    * - Property
      - Description
    * - ``key``
-     - Uniquely identifies the record type within the connector descriptor - only alphanumeric characters (a-z, A-Z, 0-9). The key will be used in the URL to retrieve a list of options and single records.
+     - Unique alphanumeric key (characters a-z, A-Z, 0-9) that identifies the record type within the connector descriptor, used in :ref:`connector-type-options` and :ref:`connector-record-details` URLs
    * - ``name``
-     - The type name shown in the form editor user interface
+     - The type name shown in the form builder user interface
    * - ``fields``
-     - An array of :ref:`field descriptors <connector-field-descriptor>`
+     - An array of :ref:`record field descriptors <connector-field-descriptor>`
    * - ``optionsAvailable``
      - Boolean value - ``true`` indicates that the connector provides a list of record options, used to provide a list in the user interface for user selection
    * - ``fetchOneAvailable``
-     - Boolean value - ``true`` indicates that single records can be fetched by the ID from the options list
+     - Boolean value - ``true`` indicates that single records can be fetched by the ID in the options list
+
+For example, the JSON object for a customer record type descriptor, without any fields, would look like this::
+
+	{
+	  "key" : "customer",
+	  "name" : "Customer",
+	  "fields" : [ ],
+	  "optionsAvailable" : true,
+	  "fetchOneAvailable" : true
+	}
 
 .. _connector-field-descriptor:
 
-A record field descriptor specifies one data field of a record type.
+A **record field descriptor** specifies one field of a record type.
+A record type is a complex structure that includes one or more fields, such as a customer’s full name.
+Each field has a key, a name and a data type.
 
 .. list-table:: Record field descriptor properties
    :header-rows: 1
@@ -152,14 +164,14 @@ A record field descriptor specifies one data field of a record type.
    * - Property
      - Description
    * - ``key``
-     - Uniquely identifies the field type within the record type - only alphanumeric characters (a-z, A-Z, 0-9).
+     - Unique alphanumeric key (characters a-z, A-Z, 0-9) that identifies the field type within the record type
    * - ``name``
      - The field name shown in the user interface
    * - ``type``
-     - The field’s data type - see :ref:`connector-data-types` 
+     - A JSON object that describes field’s data type - see :ref:`connector-data-types` 
 
 .. hint::
-	The field ``id`` with type ``text`` is mandatory for every record type and doesn't need to be defined explicitly.
+	Every record type automatically includes an ``id`` field with type ``text``, so you don’t have to define it explicitly.
 
 An example for the ``fullName`` of our customer record type looks like this ::
 
@@ -236,11 +248,12 @@ A complete example of our connector descriptor would look like this::
 Record type options
 ^^^^^^^^^^^^^^^^^^^
 
-When a record type is used in a user task, the user will see a form field which allows to enter a search query and select one of the shown results.
-Every result represents a record provided by the connector.
+When you use a record type on a form, you will see a form field where you can enter a search query and select one of the options shown.
+Each result represents a record provided by the connector.
 In order to show a selection of different records to the user, a connector can provide a list of options for a record type.
-First of all, the ``optionsAvailable`` flag in the type descriptor must be set to ``true``.
-Furthermore, the connector must implement the following endpoint:
+
+To make a list of options available to forms, in the :ref:`connector-type-descriptor`, set the ``optionsAvailable`` flag to ``true``.
+The connector must also make the options available as the following HTTP resource.
 
 URL (relative to the endpoint URL)
    ``/:type/options`` - with path parameter ``:type`` - a record type key
@@ -260,11 +273,11 @@ Each object in the array must have the following fields.
    * - Property
      - Description
    * - ``id``
-     - Unique option identifier - matches the ``id`` of the actual record
+     - Unique string record ID
    * - ``name``
-     - The label text shown in the user interface, which could aggregate multiple record fields like ``fullName (email)``
+     - The text label shown in the user interface, which could aggregate multiple record fields like ``fullName (email)``
 
-For our customer example the option list response would look like this::
+For example, a list of customer options, with URL ``https://example.org/connector/customer/options``, would look like this::
 
 	[ {
 	  "id" : "1a2b3c",
@@ -277,22 +290,19 @@ For our customer example the option list response would look like this::
 	  "name" : "Charlie Chester"
 	} ]
 
-
-
 .. _connector-record-details:
 
 Record details
 ^^^^^^^^^^^^^^
 
-When a record was selected by the user, the contained data of the record can be used in the workflow. 
-Therefore, the single record will be fetched from the connector.
-Signavio Worfklow stores only the ID of the record as a reference to the record. 
-The record will be fetched every time the nested data is accessed.
-In order to activate fetching of single records, the ``fetchOneAvailable`` flag in the type descriptor must be set to ``true``.
-Furthermore, the connector must implement the following endpoint:
+When you use a connector form field to select a record, you can use the record’s data in the workflow. 
+Signavio Workflow only stores the record’s ID as a reference, and fetches the entire record when needed, when accessing the nested data.
+
+To make a record’s fields available, in the :ref:`connector-type-descriptor`, set the ``fetchOneAvailable`` flag to ``true``.
+The connector must also make the records available as the following HTTP resource.
 
 URL (relative to the endpoint URL)
-   ``GET /:type/:id`` - with path parameters 
+   ``/:type/:id`` - with path parameters 
    ``:type`` - a record type key, and
    ``:id`` - a record ID
 Request methods
@@ -300,7 +310,7 @@ Request methods
 Response content type
   ``application/json``
 
-For our customer example a single record would be retrieved by executig a ``GET`` request to ``https://example.org/workflow/connector/customer/7g8h9i``::
+For example, a customer record, with URL ``https://example.org/connector/customer/7g8h9i``, would look like this::
 
 	{
 	  "id" : "7g8h9i",
