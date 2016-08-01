@@ -41,21 +41,17 @@ The URL where the connector is located is called the *endpoint URL*.
 A connector offers three different types of requests.
 The shown paths are relative to the connectors URL endpoint.
 
-* ``GET /`` 
+* ``GET /`` - the :ref:`connector-descriptor`
 
-	* provides the connector descriptor, see :ref:`connector-descriptor`
+* ``GET /:typeKey/options?filter=:filterValue`` - the connector’s :ref:`connector-type-options`
 
-* ``GET /:typeKey/options?filter=:filterValue``
-
-	* provides a list of options for the specified record type, see :ref:`connector-type-options` 
 	* ``:typeKey`` represents the chosen key for a type descriptor
 	* the query parameter ``filter`` is added in case the user enters a search string
 	* ``:filterValue`` is the search query entered by the user
 	* the returned list of options should have a limited size
 
-* ``GET /:typeKey/:id``
+* ``GET /:typeKey/:id`` - a single record of the specified type
 
-	* provides a single record of the specifed type
 	* ``:typeKey`` represents the chosen key for a type descriptor
 	* ``:id`` represents the unique of the record
 
@@ -63,46 +59,66 @@ Our example connector will connect to a fictional customer database.
 The endpoint URL of the connector will be ``https://example.org/workflow/connector``.
 Every customer record has the following fields:
 
-* ``id`` - a unique identifier
-* ``fullName`` - the name of the customer
-* ``email`` - the email address of the customer
-* ``subscriptionType`` - the type of the subscription - bronze, silver or gold
-* ``discount`` - the default discount for the customer
-* ``since`` - the registration date
+.. list-table:: Example - customer record fields
+   :header-rows: 1
+
+   * - Property name
+     - Description
+   * - ``id``
+     - Unique identifier
+   * - ``fullName``
+     - Full name
+   * - ``email``
+     - Email address
+   * - ``subscriptionType``
+     - Type of subscription - bronze, silver or gold
+   * - ``discount``
+     - Default discount
+   * - ``since``
+     - Registration date
 
 A complete example record provided by the connector in *JSON* would look like this::
 
 	{
-		"id" : "7g8h9i",
-		"fullName" : "Charlie Chester",
-		"email" : "charlie@example.org",
-		"subscriptionType" : "silver",
-		"discount" : 15,
-		"since" : "2012-02-14T09:20:00.000Z"
+	  "id" : "7g8h9i",
+	  "fullName" : "Charlie Chester",
+	  "email" : "charlie@example.org",
+	  "subscriptionType" : "silver",
+	  "discount" : 15,
+	  "since" : "2012-02-14T09:20:00.000Z"
 	}
 
 This example record would be retrieved by executig a ``GET`` request to ``https://example.org/workflow/connector/customer/7g8h9i``.
 
 .. _connector-descriptor:
+
 Connector descriptor
 ^^^^^^^^^^^^^^^^^^^^
 
 The connector provides a descriptor which gives some basic information like a name and a description and more detailed information about the structure of the provided data.
 
-* ``key`` - a unique key which identifies the connector
+.. **TODO: specify HTTP request URL, method, response Content-Type**
 
-  * a key should only consist of alphanumeric characters (a - z, A - Z, 0 - 9)
+The response body must be a JSON object with the following fields.
 
-* ``name`` - a name for the connector which is shown in the UI
-* ``description`` - a more detailed description of the connector
-* ``typeDescriptors`` - a list of one or more descriptors for record types
-* ``version`` - the version of the connector
-	
-	* the connector version should be increased with any change of the provided data structure
+.. list-table:: Connector descriptor properties
+   :header-rows: 1
 
-* ``protocolVersion`` - the version of the used connector protocol 
-
-	* the current version is ``1``
+   * - Property name
+     - Description
+   * - ``key``
+     - Unique connector identifier - only alphanumeric characters (a-z, A-Z, 0-9)
+   * - ``name``
+     - The connector name shown in the user interface
+   * - ``description``
+     - Detailed connector description
+   * - ``typeDescriptors``
+     - List of one or more descriptors for record types
+   * - ``version``
+     - The connector version, which should increase if the provided data structure changes
+   * - ``protocolVersion``
+     - The connector protocol version.
+       The current version is ``1``.
 
 The connector will provide its descriptor upon a ``GET`` request to the connector endpoint URL.
 
@@ -120,50 +136,50 @@ An example of a connector descriptor without any type descriptors would like thi
 In our example, you would retrieve the connector descriptor by executing a ``GET`` request to ``https://example.org/workflow/connector/``.
 
 .. _connector-type-descriptor:
-Record type descriptor
-^^^^^^^^^^^^^^^^^^^^^^
 
-A type descriptor is used to describe the format of the data provided by the connector.
+A record type descriptor describes the format of the data the connector provides.
 
-* ``key`` - a unique identifier within the connector descriptor
+.. list-table:: Record type descriptor properties
+   :header-rows: 1
 
-	* a key should only consist of alphanumeric characters (a - z, A - Z, 0 - 9)
-	* the key will be used in the URL to retrieve a list of options and single records
-
-* ``name`` - the name of the type which is shown in the form editor
-* ``fields`` - an array of field descriptors, see :ref:`connector-field-descriptor`
-* ``optionsAvailable`` - a boolean value indicating that a list of record options can be retrieved
-
-	* must be set to ``true`` if the user should be able to select a record from a list of options
-
-* ``fetchOneAvailable`` - a boolean value indicating that single records can be fetched by ID
-
-	* if set to ``true``, records selected before can be fetched
+   * - Property name
+     - Description
+   * - ``key``
+     - Uniquely identifies the record type within the connector descriptor - only alphanumeric characters (a-z, A-Z, 0-9). The key will be used in the URL to retrieve a list of options and single records.
+   * - ``name``
+     - The type name shown in the form editor user interface
+   * - ``fields``
+     - An array of :ref:`field descriptors <connector-field-descriptor>`
+   * - ``optionsAvailable``
+     - Boolean value - ``true`` indicates that the connector provides a list of record options, used to provide a list in the user interface for user selection
+   * - ``fetchOneAvailable``
+     - Boolean value - ``true`` indicates that single records can be fetched by the ID from the options list
 
 .. _connector-field-descriptor:
-Record field descriptor
-^^^^^^^^^^^^^^^^^^^^^^^
 
 A record field descriptor specifies one data field of a record type.
 
-* ``key`` - a unique identifier within the record type
+.. list-table:: Record field descriptor properties
+   :header-rows: 1
 
-	* a key should only consist of alphanumeric characters (a - z, A - Z, 0 - 9)
-
-* ``name`` - the name of the field which will be shown in the UI
-* ``type`` - the data type of the field, see :ref:`connector-data-types` 
+   * - Property name
+     - Description
+   * - ``key``
+     - Uniquely identifies the field type within the record type - only alphanumeric characters (a-z, A-Z, 0-9).
+   * - ``name``
+     - The field name shown in the user interface
+   * - ``type``
+     - The field’s data type - see :ref:`connector-data-types` 
 
 An example for the ``fullName`` of our customer record type looks like this ::
 
 	{
-		"key" : "fullName",
-		"name" : "Name",
-		"type" : {
-			"name" : "text"
-		}
+	  "key" : "fullName",
+	  "name" : "Name",
+	  "type" : {
+	    "name" : "text"
+	  }
 	}
-
-
 
 A complete example of our connector descriptor would look like this::
 
@@ -225,7 +241,8 @@ A complete example of our connector descriptor would look like this::
 	  "protocolVersion" : 1
 	}
 
-.. _connector-type-options
+.. _connector-type-options:
+
 Record type options
 ^^^^^^^^^^^^^^^^^^^
 
@@ -235,22 +252,21 @@ In order to show a selection of different records to the user, a connector can p
 First of all, the ``optionsAvailable`` flag in the type descriptor must be set to ``true``.
 Furthermore, the connector must implement the request ``GET /:typeKey/options``.
 
-The result of the request is an array of JSON object with the properties ``id`` and ``name``::
-	
-	[
-		{
-			"id" : "optionId",
-			"name" : "title of the option"
-		}, ...
-	]
+.. **TODO: specify HTTP request URL, method, response Content-Type**
 
-* ``id`` - matches the ``id`` of the actual record
-* ``name`` - any text that will be shown to the user
+The response body must be an array of JSON objects, each with the following fields.
 
-	* the name could also contain an aggregation of multiple record values like ``fullName (email)``
+.. list-table:: Record type options object properties
+   :header-rows: 1
 
+   * - Property name
+     - Description
+   * - ``id``
+     - Unique option identifier - matches the ``id`` of the actual record
+   * - ``name``
+     - The label text shown in the user interface, which could aggregate multiple record fields like ``fullName (email)``
 
-For our customer example the option list would like this::
+For our customer example the option list response would look like this::
 
 	[ {
 	  "id" : "1a2b3c",
@@ -264,21 +280,23 @@ For our customer example the option list would like this::
 	} ]
 
 .. _connector-data-types:
+
+
+.. **TODO: Single record resource**
+
+
 Data types and formats
 ----------------------
 
 A data type defines which kind of value and format a field in a record can have.
-Data types are represented in the type descriptor as JSON objects.
-The different data types are distinguished by the contained field ``type``.
+A type descriptor represents a data type as a JSON object, whose ``name`` property contains the data type name.
 
-* ``type`` : name of the data type
-
-Data types can have additional fields containing type specific configuration.
+Data types may use additional properties for type-specific configuration.
 
 Choice type
 ^^^^^^^^^^^
 
-* ``type`` - ``choice``
+* ``name`` - ``choice``
 * ``options`` - an array of choice options
 	
 Every choice option consists of an ``id`` and ``name``. 
@@ -288,27 +306,27 @@ The ``name`` will be shown to the user in the UI.
 ::
 
 	{
-		"type" : "choice",
-		"options" : [
-			{
-				"id" : "bronze",
-				"name" : "Bronze"
-			},
-			{
-				"id" : "silver",
-				"name" : "Silver"
-			},
-			{
-				"id" : "gold",
-				"name" : "Gold"
-			}
-		]	
+	  "name" : "choice",
+	  "options" : [
+		{
+		  "id" : "bronze",
+		  "name" : "Bronze"
+		},
+		{
+		  "id" : "silver",
+		  "name" : "Silver"
+		},
+		{
+		  "id" : "gold",
+		  "name" : "Gold"
+		}
+	  ]  
 	}
 
 Date type
 ^^^^^^^^^
 
-* ``type`` - ``date``
+* ``name`` - ``date``
 * ``kind`` - (required) defines whether the value is a simple date, a time or both
 
 	* ``date``
@@ -318,85 +336,83 @@ Date type
 :: 
 
 	{
-		"type" : "date",
-		"kind" : "datetime"
+	  "name" : "date",
+	  "kind" : "datetime"
 	}
 
 Email address type
 ^^^^^^^^^^^^^^^^^^
 
-* ``type`` - ``emailAddress``
+* ``name`` - ``emailAddress``
 
 :: 
 
 	{
-		"type" : "emailAddress"
+	  "name" : "emailAddress"
 	}
 
 Link type
 ^^^^^^^^^
 
-* ``type`` - ``link``
+* ``name`` - ``link``
 
 ::
 
 	{
-		"type" : "link"
+	  "name" : "link"
 	}
 
 Money type
 ^^^^^^^^^^
 
-* ``type`` - ``money``
+* ``name`` - ``money``
 
 :: 
 
 	{
-		"type" : "money"
+	  "name" : "money"
 	}
 
 Number type
 ^^^^^^^^^^^
 
-* ``type`` - ``number``
+* ``name`` - ``number``
 
 ::
 
 	{
-		"type" : "number"
+	  "name" : "number"
 	}
 
 Text type
 ^^^^^^^^^
 
-* ``type`` - ``text``
+* ``name`` - ``text``
 * ``multiLine`` - (optional) if set to ``true`` the text field will allow multiple lines of input
 
 :: 
 
 	{
-		"type" : "text"
+	  "name" : "text"
 	}
 
 ::
 
 	{
-		"type" : "text",
-		"multiLine" : true
+	  "name" : "text",
+	  "multiLine" : true
 	}
 
 Yes/No Checkbox type
 ^^^^^^^^^^^^^^^^^^^^^
 
-* ``type`` - ``boolean``
+* ``name`` - ``boolean``
 
 ::
 
 	{
-		"type" : "boolean"
+	  "name" : "boolean"
 	}
-
-
 
 
 Authentication

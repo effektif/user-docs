@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-29 12:38+0200\n"
+"POT-Creation-Date: 2016-08-01 11:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr ""
 msgid ""
 "With Signavio Workflow, you can also integrate dynamic structured data "
 "from other IT systems into your workflows. The workflow system "
-"communicates with a third-party system using a *connector*, which a the "
+"communicates with a third-party system using a *connector*, which a "
 "customer or a partner implements and hosts."
 msgstr ""
 
@@ -43,7 +43,7 @@ msgid ""
 " language."
 msgstr ""
 
-msgid "Using connectors"
+msgid "Using a connector"
 msgstr ""
 
 msgid ""
@@ -70,37 +70,108 @@ msgid ""
 "with a key, a name and a data type."
 msgstr ""
 
-msgid "The"
+msgid ""
+"The connector itself is implemented as a web service and must be hosted "
+"in a location which is available to Signavio Workflow. This location can "
+"be in a private network for an on-premise version of Signavio Workflow "
+"and must be publicly available if you use the SaaS version of Signavio "
+"Workflow. The URL where the connector is located is called the *endpoint "
+"URL*."
 msgstr ""
 
 msgid ""
-"Our example connector will connect to a fictional customer database. "
-"Every customer record has the following fields:"
+"A connector offers three different types of requests. The shown paths are"
+" relative to the connectors URL endpoint."
 msgstr ""
 
-msgid "``id`` - a unique identifier"
-msgstr ""
-
-msgid "``fullName`` - the name of the customer"
-msgstr ""
-
-msgid "``email`` - the email address of the customer"
+msgid "``GET /`` - the :ref:`connector-descriptor`"
 msgstr ""
 
 msgid ""
-"``subscriptionType`` - the type of the subscription - bronze, silver or "
-"gold"
+"``GET /:typeKey/options?filter=:filterValue`` - the :ref:`connector-type-"
+"options`"
 msgstr ""
 
-msgid "``discount`` - the default discount for the customer"
+msgid "``:typeKey`` represents the chosen key for a type descriptor"
 msgstr ""
 
-msgid "``since`` - the registration date"
+msgid ""
+"the query parameter ``filter`` is added in case the user enters a search "
+"string"
+msgstr ""
+
+msgid "``:filterValue`` is the search query entered by the user"
+msgstr ""
+
+msgid "the returned list of options should have a limited size"
+msgstr ""
+
+msgid "``GET /:typeKey/:id`` - a single record of the specifed type"
+msgstr ""
+
+msgid "``:id`` represents the unique of the record"
+msgstr ""
+
+msgid ""
+"Our example connector will connect to a fictional customer database. The "
+"endpoint URL of the connector will be "
+"``https://example.org/workflow/connector``. Every customer record has the"
+" following fields:"
+msgstr ""
+
+msgid "Example - customer record fields"
+msgstr ""
+
+msgid "Property name"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "``id``"
+msgstr ""
+
+msgid "Unique identifier"
+msgstr ""
+
+msgid "``fullName``"
+msgstr ""
+
+msgid "Full name"
+msgstr ""
+
+msgid "``email``"
+msgstr ""
+
+msgid "Email address"
+msgstr ""
+
+msgid "``subscriptionType``"
+msgstr ""
+
+msgid "Type of subscription - bronze, silver or gold"
+msgstr ""
+
+msgid "``discount``"
+msgstr ""
+
+msgid "Default discount"
+msgstr ""
+
+msgid "``since``"
+msgstr ""
+
+msgid "Registration date"
 msgstr ""
 
 msgid ""
 "A complete example record provided by the connector in *JSON* would look "
 "like this::"
+msgstr ""
+
+msgid ""
+"This example record would be retrieved by executig a ``GET`` request to "
+"``https://example.org/workflow/connector/customer/7g8h9i``."
 msgstr ""
 
 msgid "Connector descriptor"
@@ -112,40 +183,50 @@ msgid ""
 "structure of the provided data."
 msgstr ""
 
-msgid "``key`` - a unique key which identifies the connector"
+msgid "Connector descriptor properties"
+msgstr ""
+
+msgid "``key``"
+msgstr ""
+
+msgid "Unique connector identifier - only alphanumeric characters (a-z, A-Z, 0-9)"
+msgstr ""
+
+msgid "``name``"
+msgstr ""
+
+msgid "The connector name shown in the user interface"
+msgstr ""
+
+msgid "``description``"
+msgstr ""
+
+msgid "Detailed connector description"
+msgstr ""
+
+msgid "``typeDescriptors``"
+msgstr ""
+
+msgid "List of one or more descriptors for record types"
+msgstr ""
+
+msgid "``version``"
 msgstr ""
 
 msgid ""
-"a *key* should only consist of alphanumeric characters (a - z, A - Z, 0 -"
-" 9)"
+"The connector version, which should increase if the provided data "
+"structure changes"
 msgstr ""
 
-msgid "``name`` - a name for the connector which is shown in the UI"
+msgid "``protocolVersion``"
 msgstr ""
 
-msgid "``description`` - a more detailed description of the connector"
-msgstr ""
-
-msgid "``typeDescriptors`` - a list of one or more descriptors for record types"
-msgstr ""
-
-msgid "``version`` - the version of the connector"
+msgid "The connector protocol version. The current version is ``1``."
 msgstr ""
 
 msgid ""
-"the connector version should be increased with any change of the provided"
-" data structure"
-msgstr ""
-
-msgid "``protocolVersion`` - the version of the used connector protocol"
-msgstr ""
-
-msgid "the current version is ``1``"
-msgstr ""
-
-msgid ""
-"The connector will provide its descriptor upon a *GET* request to its "
-"base URL. If your connector"
+"The connector will provide its descriptor upon a ``GET`` request to the "
+"connector endpoint URL."
 msgstr ""
 
 msgid ""
@@ -153,19 +234,217 @@ msgid ""
 "like this::"
 msgstr ""
 
-msgid "The connector is available"
+msgid ""
+"In our example, you would retrieve the connector descriptor by executing "
+"a ``GET`` request to ``https://example.org/workflow/connector/``."
 msgstr ""
 
-msgid "Record type descriptor"
+msgid ""
+"A record type descriptor describes the format of the data the connector "
+"provides."
 msgstr ""
 
-msgid "A complete example our connector descriptor would look like this::"
+msgid "Record type descriptor properties"
+msgstr ""
+
+msgid ""
+"Uniquely identifies the record type within the connector descriptor - "
+"only alphanumeric characters (a-z, A-Z, 0-9). The key will be used in the"
+" URL to retrieve a list of options and single records."
+msgstr ""
+
+msgid "The type name shown in the form editor user interface"
+msgstr ""
+
+msgid "``fields``"
+msgstr ""
+
+msgid "An array of :ref:`field descriptors <connector-field-descriptor>`"
+msgstr ""
+
+msgid "``optionsAvailable``"
+msgstr ""
+
+msgid ""
+"Boolean value - ``true`` indicates that the connector provides a list of "
+"record options, used to provide a list in the user interface for user "
+"selection"
+msgstr ""
+
+msgid "``fetchOneAvailable``"
+msgstr ""
+
+msgid ""
+"Boolean value - ``true`` indicates that single records can be fetched by "
+"the ID from the options list"
+msgstr ""
+
+msgid "A record field descriptor specifies one data field of a record type."
+msgstr ""
+
+msgid "Record field descriptor properties"
+msgstr ""
+
+msgid ""
+"Uniquely identifies the field type within the record type - only "
+"alphanumeric characters (a-z, A-Z, 0-9)."
+msgstr ""
+
+msgid "The field name shown in the user interface"
+msgstr ""
+
+msgid "``type``"
+msgstr ""
+
+msgid "The field’s data type - see :ref:`connector-data-types`"
+msgstr ""
+
+msgid ""
+"An example for the ``fullName`` of our customer record type looks like "
+"this ::"
+msgstr ""
+
+msgid "A complete example of our connector descriptor would look like this::"
+msgstr ""
+
+msgid "Record type options"
+msgstr ""
+
+msgid ""
+"When a record type is used in a user task, the user will see a form field"
+" which allows to enter a search query and select one of the shown "
+"results. Every result represents a record provided by the connector. In "
+"order to show a selection of different records to the user, a connector "
+"can provide a list of options for a record type. First of all, the "
+"``optionsAvailable`` flag in the type descriptor must be set to ``true``."
+" Furthermore, the connector must implement the request ``GET "
+"/:typeKey/options``."
+msgstr ""
+
+msgid "The response body must be an array of JSON objects."
+msgstr ""
+
+msgid "Record type options object properties"
+msgstr ""
+
+msgid "Unique option identifier - matches the ``id`` of the actual record"
+msgstr ""
+
+msgid ""
+"The label text shown in the user interface, which could aggregate "
+"multiple record fields like ``fullName (email)``"
+msgstr ""
+
+msgid "For our customer example the option list response would look like this::"
 msgstr ""
 
 msgid "Data types and formats"
 msgstr ""
 
+msgid ""
+"A data type defines which kind of value and format a field in a record "
+"can have. A type descriptor represents a data type as a JSON object, "
+"whose ``name`` property contains the data type name."
+msgstr ""
+
+msgid "Data types may use additional properties for type-specific configuration."
+msgstr ""
+
+msgid "Choice type"
+msgstr ""
+
+msgid "``name`` - ``choice``"
+msgstr ""
+
+msgid "``options`` - an array of choice options"
+msgstr ""
+
+msgid ""
+"Every choice option consists of an ``id`` and ``name``. The ``id`` of a "
+"choice option will be used as the field value in a record. The ``name`` "
+"will be shown to the user in the UI."
+msgstr ""
+
+msgid "Date type"
+msgstr ""
+
+msgid "``name`` - ``date``"
+msgstr ""
+
+msgid ""
+"``kind`` - (required) defines whether the value is a simple date, a time "
+"or both"
+msgstr ""
+
+msgid "``date``"
+msgstr ""
+
+msgid "``time``"
+msgstr ""
+
+msgid "``datetime``"
+msgstr ""
+
+msgid "Email address type"
+msgstr ""
+
+msgid "``name`` - ``emailAddress``"
+msgstr ""
+
+msgid "Link type"
+msgstr ""
+
+msgid "``name`` - ``link``"
+msgstr ""
+
+msgid "Money type"
+msgstr ""
+
+msgid "``name`` - ``money``"
+msgstr ""
+
+msgid "Number type"
+msgstr ""
+
+msgid "``name`` - ``number``"
+msgstr ""
+
+msgid "Text type"
+msgstr ""
+
+msgid "``name`` - ``text``"
+msgstr ""
+
+msgid ""
+"``multiLine`` - (optional) if set to ``true`` the text field will allow "
+"multiple lines of input"
+msgstr ""
+
+msgid "Yes/No Checkbox type"
+msgstr ""
+
+msgid "``name`` - ``boolean``"
+msgstr ""
+
 msgid "Authentication"
+msgstr ""
+
+msgid "**TODO:**"
+msgstr ""
+
+msgid "HTTP basic authentication,"
+msgstr ""
+
+msgid "provide username and password"
+msgstr ""
+
+msgid "token authorization"
+msgstr ""
+
+msgid "provide name and token"
+msgstr ""
+
+msgid "specify location (header or query parameter)"
 msgstr ""
 
 msgid "Configuring a connector"
@@ -285,18 +564,186 @@ msgstr ""
 #~ msgid "Finish Effektif configuration"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "A complete example record provided by"
-#~ " the connector in *JSON* would look"
-#~ " like this: ::"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "An example of a connector descriptor "
-#~ "without any type descriptors would like"
-#~ " this: ::"
-#~ msgstr ""
-
 #~ msgid "A complete example our connector descriptor would look like this: ::"
+#~ msgstr ""
+
+#~ msgid "Using connectors"
+#~ msgstr ""
+
+#~ msgid "The"
+#~ msgstr ""
+
+#~ msgid "The connector is available"
+#~ msgstr ""
+
+#~ msgid "A complete example our connector descriptor would look like this::"
+#~ msgstr ""
+
+#~ msgid "``id`` - a unique identifier"
+#~ msgstr ""
+
+#~ msgid "``fullName`` - the name of the customer"
+#~ msgstr ""
+
+#~ msgid "``email`` - the email address of the customer"
+#~ msgstr ""
+
+#~ msgid "``discount`` - the default discount for the customer"
+#~ msgstr ""
+
+#~ msgid "``since`` - the registration date"
+#~ msgstr ""
+
+#~ msgid "Customer example fields"
+#~ msgstr ""
+
+#~ msgid "``key`` - a unique key which identifies the connector"
+#~ msgstr ""
+
+#~ msgid "``name`` - a name for the connector which is shown in the UI"
+#~ msgstr ""
+
+#~ msgid "``description`` - a more detailed description of the connector"
+#~ msgstr ""
+
+#~ msgid "``version`` - the version of the connector"
+#~ msgstr ""
+
+#~ msgid "``protocolVersion`` - the version of the used connector protocol"
+#~ msgstr ""
+
+#~ msgid "the current version is ``1``"
+#~ msgstr ""
+
+#~ msgid "Values"
+#~ msgstr ""
+
+#~ msgid "Unique key which identifies the connector"
+#~ msgstr ""
+
+#~ msgid "a name for the connector which is shown in the UI"
+#~ msgstr ""
+
+#~ msgid "a more detailed description of the connector"
+#~ msgstr ""
+
+#~ msgid "a list of one or more descriptors for record types"
+#~ msgstr ""
+
+#~ msgid "The connector protocol version"
+#~ msgstr ""
+
+#~ msgid "The current version is ``1``"
+#~ msgstr ""
+
+#~ msgid "Unique key which identifies the connector."
+#~ msgstr ""
+
+#~ msgid "Keys use use alphanumeric characters (a-z, A-Z, 0-9)"
+#~ msgstr ""
+
+#~ msgid "The connector protocol version."
+#~ msgstr ""
+
+#~ msgid "The current version is ``1``."
+#~ msgstr ""
+
+#~ msgid "``key`` - a unique identifier within the connector descriptor"
+#~ msgstr ""
+
+#~ msgid "``name`` - the name of the type which is shown in the form editor"
+#~ msgstr ""
+
+#~ msgid "if set to ``true``, records selected before can be fetched"
+#~ msgstr ""
+
+#~ msgid "Record type descriptor"
+#~ msgstr ""
+
+#~ msgid "Record field descriptor"
+#~ msgstr ""
+
+#~ msgid "``key`` - a unique identifier within the record type"
+#~ msgstr ""
+
+#~ msgid "``name`` - the name of the field which will be shown in the UI"
+#~ msgstr ""
+
+#~ msgid "``type`` - the data type of the field, see :ref:`connector-data-types`"
+#~ msgstr ""
+
+#~ msgid "Field name"
+#~ msgstr ""
+
+#~ msgid "Connector descriptor fields"
+#~ msgstr ""
+
+#~ msgid "Record type descriptor fields"
+#~ msgstr ""
+
+#~ msgid "Record field descriptor fields"
+#~ msgstr ""
+
+#~ msgid "``id`` - matches the ``id`` of the actual record"
+#~ msgstr ""
+
+#~ msgid "``name`` - any text that will be shown to the user"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid "For our customer example the option list would like this::"
+#~ msgstr ""
+
+#~ msgid "``GET /``"
+#~ msgstr ""
+
+#~ msgid "provides the connector descriptor, see :ref:`connector-descriptor`"
+#~ msgstr ""
+
+#~ msgid "``type`` : name of the data type"
+#~ msgstr ""
+
+#~ msgid "``type`` - ``choice``"
+#~ msgstr ""
+
+#~ msgid "``type`` - ``date``"
+#~ msgstr ""
+
+#~ msgid "``type`` - ``emailAddress``"
+#~ msgstr ""
+
+#~ msgid "``type`` - ``link``"
+#~ msgstr ""
+
+#~ msgid "``type`` - ``money``"
+#~ msgstr ""
+
+#~ msgid "``type`` - ``number``"
+#~ msgstr ""
+
+#~ msgid "``type`` - ``text``"
+#~ msgstr ""
+
+#~ msgid "``type`` - ``boolean``"
+#~ msgstr ""
+
+#~ msgid "``GET /`` the :ref:`connector-descriptor`"
+#~ msgstr ""
+
+#~ msgid "``GET /:typeKey/options?filter=:filterValue``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "provides a list of options for the"
+#~ " specified record type, see :ref"
+#~ ":`connector-type-options`"
+#~ msgstr ""
+
+#~ msgid "``GET /:typeKey/:id``"
+#~ msgstr ""
+
+#~ msgid "provides a single record of the specifed type"
 #~ msgstr ""
 
