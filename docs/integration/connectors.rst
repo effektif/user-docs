@@ -8,12 +8,11 @@ This works well for small lists that don’t change often or that belong to the 
 However, fixed lists in the process definition become difficult to maintain when the data changes frequently or includes a large number of items, such as a list of products or customers.
 
 With Signavio Workflow, you can also integrate dynamic structured data from other IT systems into your workflows.
-The workflow system communicates with a third-party system using a *connector*, which a customer or a partner implements and hosts.
+The workflow system fetches data from a third-party system using a *connector*, which a customer or a partner implements and hosts.
 
 A connector provides a web service that translates between the external system and Signavio Workflow.
 The connector implements a defined interface, which Signavio Workflow uses to access data in a format it can use.
-Signavio Workflow and the connector communicate over *HTTP* or *HTTPS*, with *JSON* as the data format.
-The open standards that define HTTP and JSON make it possible to implement connectors in any programming language.
+Signavio Workflow and the connector communicate over *HTTP* or *HTTPS*, which makes it possible to implement connectors in any programming language.
 
 Using a connector
 -----------------
@@ -30,39 +29,22 @@ A connector reference field:
 Implementing a connector
 ------------------------
 
-Every connector provides a descriptor which defines the types of records that it provides.
-A connector can provide one or multiple types of records.
-Every record type again defines its structure, a list of fields with a key, a name and a data type.
+To implement a connector, you publish three different kinds of resource.
 
-The connector itself is implemented as a web service and must be hosted in a location which is available to Signavio Workflow.
-This location can be in a private network for an on-premise version of Signavio Workflow and must be publicly available if you use the SaaS version of Signavio Workflow.
+#. :ref:`connector-descriptor` - defines one or more record types, each of which defines a list of fields.
+#. :ref:`connector-type-options` - a list of records for each record type the connector defines.
+#. :ref:`connector-record-details` (optional) - all fields for one record from the list of records.
+
+Signavio Workflow accesses the connector on the web, via the public Internet, or via a private intranet for an on-premise installation.
 The URL where the connector is located is called the *endpoint URL*.
 
-A connector offers three different types of requests.
-The shown paths are relative to the connectors URL endpoint.
-
-* ``GET /`` - the :ref:`connector-descriptor`
-
-* ``GET /:typeKey/options?filter=:filterValue`` - the connector’s :ref:`connector-type-options`
-
-	* ``:typeKey`` represents the chosen key for a type descriptor
-	* the query parameter ``filter`` is added in case the user enters a search string
-	* ``:filterValue`` is the search query entered by the user
-	* the returned list of options should have a limited size
-
-* ``GET /:typeKey/:id`` - :ref:`connector-single-record` of the specified type
-
-	* ``:typeKey`` represents the chosen key for a type descriptor
-	* ``:id`` represents the unique of the record
-
-Our example connector will connect to a fictional customer database.
-The endpoint URL of the connector will be ``https://example.org/workflow/connector``.
-Every customer record has the following fields:
+For example, consider a connector that accesses a fictional customer database, that you publish at the endpoint URL ``https://example.org/workflow/connector``.
+In this example, each customer record has the following fields.
 
 .. list-table:: Example - customer record fields
    :header-rows: 1
 
-   * - Property name
+   * - Property
      - Description
    * - ``id``
      - Unique identifier
@@ -73,11 +55,11 @@ Every customer record has the following fields:
    * - ``subscriptionType``
      - Type of subscription - bronze, silver or gold
    * - ``discount``
-     - Default discount
+     - Default customer discount
    * - ``since``
      - Registration date
 
-A complete example record provided by the connector in *JSON* would look like this::
+A complete example customer record, formatted as *JSON*, would look like this::
 
 	{
 	  "id" : "7g8h9i",
@@ -88,30 +70,29 @@ A complete example record provided by the connector in *JSON* would look like th
 	  "since" : "2012-02-14T09:20:00.000Z"
 	}
 
-This example record would be retrieved by executig a ``GET`` request to ``https://example.org/workflow/connector/customer/7g8h9i``.
+This example includes enough information to implement a complete connector.
 
 .. _connector-descriptor:
 
 Connector descriptor
 ^^^^^^^^^^^^^^^^^^^^
 
-The connector provides a descriptor which gives some basic information like a name and a description and more detailed information about the structure of the provided data.
+A connector needs a descriptor to provide basic information, such as its name and description, and more detailed information about the structure of the data the connector provides.
+When you implement a connector, you must make the descriptor available as the following HTTP resource.
 
-.. list-table:: Fetch record type options
-	
-	* - Request URL
-	  - ``/``
-	* - Request method
-	  - ``GET``	  
-	* - Response Content-Type
-	  - ``application/json``
+URL
+   ``/`` - the connector’s *endpoint URL*
+Request methods
+   GET - fetches the connector descriptor
+Response content type
+  ``application/json``
 
 The response body must be a JSON object with the following fields.
 
 .. list-table:: Connector descriptor properties
    :header-rows: 1
 
-   * - Property name
+   * - Property
      - Description
    * - ``key``
      - Unique connector identifier - only alphanumeric characters (a-z, A-Z, 0-9)
@@ -127,9 +108,7 @@ The response body must be a JSON object with the following fields.
      - The connector protocol version.
        The current version is ``1``.
 
-The connector will provide its descriptor upon a ``GET`` request to the connector endpoint URL.
-
-An example of a connector descriptor without any type descriptors would like this::
+For example, the JSON response body for a connector descriptor without any type descriptors would like this::
 
 	{
 	  "key" : "customers",
@@ -140,16 +119,17 @@ An example of a connector descriptor without any type descriptors would like thi
 	  "protocolVersion" : 1
 	}
 
-In our example, you would retrieve the connector descriptor by executing a ``GET`` request to ``https://example.org/workflow/connector/``.
+In our example, you would retrieve the connector descriptor by sending the HTTP request ``GET https://example.org/workflow/connector/``.
 
 .. _connector-type-descriptor:
 
-A record type descriptor describes the format of the data the connector provides.
+A record type descriptor describes the format of the data the connector provides, such as the format of a customer record.
+A record type is a complex structure that includes one or more fields, each of which has a key, a name and a data type.
 
 .. list-table:: Record type descriptor properties
    :header-rows: 1
 
-   * - Property name
+   * - Property
      - Description
    * - ``key``
      - Uniquely identifies the record type within the connector descriptor - only alphanumeric characters (a-z, A-Z, 0-9). The key will be used in the URL to retrieve a list of options and single records.
@@ -169,7 +149,7 @@ A record field descriptor specifies one data field of a record type.
 .. list-table:: Record field descriptor properties
    :header-rows: 1
 
-   * - Property name
+   * - Property
      - Description
    * - ``key``
      - Uniquely identifies the field type within the record type - only alphanumeric characters (a-z, A-Z, 0-9).
@@ -262,23 +242,22 @@ In order to show a selection of different records to the user, a connector can p
 First of all, the ``optionsAvailable`` flag in the type descriptor must be set to ``true``.
 Furthermore, the connector must implement the following endpoint:
 
-.. list-table:: Fetch record type options
-	
-	* - Request URL
-	  - ``/:typeKey/options?filter=:filterValue``
-	* - Request method
-	  - ``GET``	  
-	* - Response Content-Type
-	  - ``application/json``
+URL (relative to the endpoint URL)
+   ``/:type/options`` - with path parameter ``:type`` - a record type key
+Query string (optional)
+   ``filter=:query`` - added in case the user enters a search, where `:query` encodes the search string
+Request methods
+   GET - fetches the list of record type options
+Response content type
+  ``application/json``
 
-
-
-The response body must be an array of JSON objects, each with the following fields.
+The response body must be an array of JSON objects, which should have a limited size.
+Each object in the array must have the following fields.
 
 .. list-table:: Record type options object properties
    :header-rows: 1
 
-   * - Property name
+   * - Property
      - Description
    * - ``id``
      - Unique option identifier - matches the ``id`` of the actual record
@@ -300,27 +279,26 @@ For our customer example the option list response would look like this::
 
 
 
-.. _connector-single-record:
+.. _connector-record-details:
 
-Fetch single record
-^^^^^^^^^^^^^^^^^^^
+Record details
+^^^^^^^^^^^^^^
 
 When a record was selected by the user, the contained data of the record can be used in the workflow. 
 Therefore, the single record will be fetched from the connector.
 Signavio Worfklow stores only the ID of the record as a reference to the record. 
-The record will be fetched everytime the nested data is accessed.
+The record will be fetched every time the nested data is accessed.
 In order to activate fetching of single records, the ``fetchOneAvailable`` flag in the type descriptor must be set to ``true``.
 Furthermore, the connector must implement the following endpoint:
 
-.. list-table:: Fetch record type options
-	
-	* - Request URL
-	  - ``/:typeKey/:id``
-	* - Request method
-	  - ``GET``	  
-	* - Response Content-Type
-	  - ``application/json``
-
+URL (relative to the endpoint URL)
+   ``GET /:type/:id`` - with path parameters 
+   ``:type`` - a record type key, and
+   ``:id`` - a record ID
+Request methods
+   GET - fetches details for a single record
+Response content type
+  ``application/json``
 
 For our customer example a single record would be retrieved by executig a ``GET`` request to ``https://example.org/workflow/connector/customer/7g8h9i``::
 
