@@ -50,7 +50,7 @@ The shown paths are relative to the connectors URL endpoint.
 	* ``:filterValue`` is the search query entered by the user
 	* the returned list of options should have a limited size
 
-* ``GET /:typeKey/:id`` - a single record of the specified type
+* ``GET /:typeKey/:id`` - :ref:`connector-single-record` of the specified type
 
 	* ``:typeKey`` represents the chosen key for a type descriptor
 	* ``:id`` represents the unique of the record
@@ -250,9 +250,18 @@ When a record type is used in a user task, the user will see a form field which 
 Every result represents a record provided by the connector.
 In order to show a selection of different records to the user, a connector can provide a list of options for a record type.
 First of all, the ``optionsAvailable`` flag in the type descriptor must be set to ``true``.
-Furthermore, the connector must implement the request ``GET /:typeKey/options``.
+Furthermore, the connector must implement the following endpoint:
 
-.. **TODO: specify HTTP request URL, method, response Content-Type**
+.. list-table:: Fetch record type options
+	
+	* - Request URL
+	  - ``/:typeKey/options?filter=:filterValue``
+	* - Request method
+	  - ``GET``	  
+	* - Response Content-Type
+	  - ``application/json``
+
+
 
 The response body must be an array of JSON objects, each with the following fields.
 
@@ -279,11 +288,31 @@ For our customer example the option list response would look like this::
 	  "name" : "Charlie Chester"
 	} ]
 
+
+
+.. _connector-single-record:
+
+Fetch single record
+^^^^^^^^^^^^^^^^^^^
+
+When a record was selected by the user, the contained data of the record can be used in the workflow. 
+Therefore, the single record will be fetched from the connector.
+Signavio Worfklow stores only the ID of the record as a reference to the record. 
+The record will be fetched everytime the nested data is accessed.
+In order to activate fetching of single records, the ``fetchOneAvailable`` flag in the type descriptor must be set to ``true``.
+Furthermore, the connector must implement the following endpoint:
+
+.. list-table:: Fetch record type options
+	
+	* - Request URL
+	  - ``/:typeKey/:id``
+	* - Request method
+	  - ``GET``	  
+	* - Response Content-Type
+	  - ``application/json``
+
+
 .. _connector-data-types:
-
-
-.. **TODO: Single record resource**
-
 
 Data types and formats
 ----------------------
