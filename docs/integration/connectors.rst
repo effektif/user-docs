@@ -354,25 +354,27 @@ The user interface shows the ``name`` property’s value to the user.
 
 The data type JSON object for a choice type with three options looks like this::
 
-	{
+	"type" : {
 	  "name" : "choice",
 	  "options" : [
-		{
-		  "id" : "bronze",
-		  "name" : "Bronze"
-		},
-		{
-		  "id" : "silver",
-		  "name" : "Silver"
-		},
-		{
-		  "id" : "gold",
-		  "name" : "Gold"
-		}
+	    {
+	      "id" : "b",
+	      "name" : "Bronze"
+	    },
+	    {
+	      "id" : "s",
+	      "name" : "Silver"
+	    },
+	    {
+	      "id" : "g",
+	      "name" : "Gold"
+	    }
 	  ]  
 	}
 
-A field value stores the ``id`` property’s value.
+A field value stores the ``id`` property’s value::
+
+	"value" : "g"
 
 Date type
 ^^^^^^^^^
@@ -391,7 +393,7 @@ A date represents either a date and time (such as *2012-02-14 09:20*), just a da
 
 :: 
 
-	{
+	"type" : {
 	  "name" : "date",
 	  "kind" : "datetime"
 	}
@@ -399,7 +401,7 @@ A date represents either a date and time (such as *2012-02-14 09:20*), just a da
 Date values must always use the ``YYYY-MM-DDThh:mm:ss.SSSZ`` `ISO 8601 <https://en.wikipedia.org/wiki/ISO_8601>`_ date format and the UTC time zone.
 For example::
 
-	"2012-02-14T09:20:00.000Z"
+	"value" : "2012-02-14T09:20:00.000Z"
 
 All date types use this format - ``datetime``, ``date`` and ``time``.
 For ``date`` and ``time`` values, execution only uses the first and last parts of the values, respectively.
@@ -409,59 +411,39 @@ Email address type
 
 An email address type represents an email address.
 
-.. list-table::
-   :header-rows: 1
-
-   * - Property
-     - Values
-   * - ``name``
-     - ``emailAddress``
-
 :: 
 
-	{
+	"type" : {
 	  "name" : "emailAddress"
 	}
 
-An email address value stores a plain string.
+An email address value stores a plain string::
+
+	"value" : "alice@example.org"
 
 Link type
 ^^^^^^^^^
 
 A link type represents an Internet address (a URL), such as a web site address.
 
-.. list-table::
-   :header-rows: 1
-
-   * - Property
-     - Values
-   * - ``name``
-     - ``link``
-
 ::
 
-	{
+	"type" : {
 	  "name" : "link"
 	}
 
-A link value stores a plain string.
+A link value stores a plain string::
+
+	"value" : "http://www.example.org/"
 
 Money type
 ^^^^^^^^^^
 
 A money type represents the combination of an *amount* and a *currency*.
 
-.. list-table::
-   :header-rows: 1
-
-   * - Property
-     - Values
-   * - ``name``
-     - ``money``
-
 :: 
 
-	{
+	"type" : {
 	  "name" : "money"
 	}
 
@@ -471,7 +453,7 @@ The ``currency`` property stores an `ISO 4217 <https://en.wikipedia.org/wiki/ISO
 
 :: 
 
-	{
+	"value" : {
 	  "amount" : 12.40
 	  "currency" : "EUR"
 	}
@@ -481,17 +463,9 @@ Number type
 
 A number type represents either an integer or decimal number.
 
-.. list-table::
-   :header-rows: 1
-
-   * - Property
-     - Values
-   * - ``name``
-     - ``number``
-
 ::
 
-	{
+	"type" : {
 	  "name" : "number"
 	}
 
@@ -500,8 +474,8 @@ A number value stores a plain number, using a single ``.`` as decimal separator.
 :: 
 
 	{
-	  "myInteger" : 42,
-	  "myDecimal" : 42.42
+	  "integerValue" : 42,
+	  "decimalValue" : 42.42
 	}
 
 Text type
@@ -522,35 +496,29 @@ Optionally, a single line text can be turned into a multi line text by adding th
 
 :: 
 
-	{
+	"type" : {
 	  "name" : "text"
 	}
 
 ::
 
-	{
+	"type" : {
 	  "name" : "text",
 	  "multiLine" : true
 	}
 
-A text value stores a plain string.
+A text value stores a plain string::
+
+	"value" : "Example"
 
 Yes/No Checkbox type
 ^^^^^^^^^^^^^^^^^^^^^
 
 A yes/no checkbox type represents a choice between the values ‘yes’ and ‘no’.
 
-.. list-table::
-   :header-rows: 1
-
-   * - Property
-     - Values
-   * - ``name``
-     - ``boolean``
-
 ::
 
-	{
+	"type" : {
 	  "name" : "boolean"
 	}
 
@@ -558,33 +526,34 @@ A yes/no checkbox value stores a Boolean value - ``true`` or ``false``.
 
 :: 
 
-	{
-	  "myCheckbox" : true
-	}
+	"value" : true
 
 Authentication
 --------------
 
-Due to the fact that a connector is publicly accessible, any provided data will be publicly available as well.
-In order to prevent unauthorized access, the connector can implement one of two authentication mechanisms.
+Publishing a connector makes it publicly accessible, as well as any data that the connector provides.
+To prevent unauthorized access, the connector can implement authentication, so that only Signavio Workflow can access the data.
+Connectors may use one of two authentication mechanisms.
 
-HTTP basic authentication
+HTTP Basic authentication
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-A simple method for authentication is [HTTP basic authentication](https://en.wikipedia.org/wiki/Basic_access_authentication).
-While configuring a connector, you can specify a username and a password.
-Your connector endpoint then needs to check the ``Authorization`` header which contains the Base64 encoded username and password and verify their values.
+Connectors can use `HTTP basic authentication <https://en.wikipedia.org/wiki/Basic_access_authentication>`_ to restrict access using a username and password that you specify when configuring the connector.
+To implement HTTP Basic authentication, your connector endpoints must:
 
-Signavio Workflow will provide the ``Authorization`` header pre-emptively on the first request, the connector will not be required to send the authentication challenge.
+#. send an HTTP *401 Unauthorized* response, with an empty response body, for any request that does not include valid credentials
+#. check the credentials in the ``Authorization`` HTTP header field, when provided, by decoding the Base64-encoded username and password and verifying their values.
+
+When a connector’s configuration includes a username and password, Signavio Workflow will pre-emptively include the ``Authorization`` header when sending requests to the connector endpoints.
+This avoids an additional *401 Unauthorized* response and a new request for the authentication challenge.
 
 Token authentication
 ^^^^^^^^^^^^^^^^^^^^
 
-Similar to an API key, you can choose a password (token) which will be provided in a header or query parameter upon every request send to the connector.
-The configuration allows you to choose whether you want to use a request header field or a query parameter which is added to the URL.
-Furthermore, you can pick the name of the respective header field / query parameter.
+Similar to an API key, you can choose a password (token) that Signavio Workflow will include in a request header field or URL query string, for every request it sends the connector endpoints.
+In the connector configuration, you can choose between a request header field or a URL query string parameter, and specify the header or parameter name.
 
-The connector then simply needs to check the respective header field value / query parameter value.
+The connector endpoints can then authenticate requests by checking the respective header field or query string parameter value.
 
 Configuring a connector
 -----------------------
