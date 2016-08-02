@@ -258,7 +258,7 @@ The connector must also make the options available as the following HTTP resourc
 URL (relative to the endpoint URL)
    ``/:type/options`` - with path parameter ``:type`` - a record type key
 Query string (optional)
-   ``filter=:query`` - added in case the user enters a search, where `:query` encodes the search string
+   ``filter=:query`` - added when the user enters a search; ``:query`` encodes the search string
 Request methods
    GET - fetches the list of record type options
 Response content type
@@ -321,6 +321,7 @@ For example, a customer record, with URL ``https://example.org/connector/custome
 	  "since" : "2012-02-14T09:20:00.000Z"
 	}
 
+Selecting this customer record from the customer options list would give the workflow access to all of this customer’s fields.
 
 .. _connector-data-types:
 
@@ -338,17 +339,20 @@ Choice type
 
 A choice type represents a value from a fixed list of configured options.
 
-* ``name`` - ``choice``
-* ``options`` - an array of choice options
-	
-Every choice option consists of an ``id`` and a ``name``. 
-The ``id`` of a choice option will be used as the field value in a record.
-The ``name`` will be shown to the user in the UI.
+.. list-table::
+   :header-rows: 1
 
-The value of the ``id`` should be a string consisting of alphanumeric characters (a-z, A-Z, 0-9).
-A choice type must not have two options with the same ``id``.
+   * - Property
+     - Values
+   * - ``name``
+     - ``choice``
+   * - ``options``
+     - A JSON array of choice option objects, each with ``id`` and ``name`` properties
 
-::
+The ``id`` property stores a unique alphanumeric key (characters a-z, A-Z, 0-9) that identifies the option within the choice type; no two options may have the same ``id``.
+The user interface shows the ``name`` property’s value to the user.
+
+The data type JSON object for a choice type with three options looks like this::
 
 	{
 	  "name" : "choice",
@@ -368,18 +372,22 @@ A choice type must not have two options with the same ``id``.
 	  ]  
 	}
 
+A field value stores the ``id`` property’s value.
+
 Date type
 ^^^^^^^^^
 
-Signavio Workflow supports three different kinds of date types: ``date``, ``time``, ``datetime``.
-For ``date`` and ``time`` only the respective parts of a timestamp are considered when evaluating conditions in a workflow. 
+A date represents either a date and time (such as *2012-02-14 09:20*), just a date (*2012-02-14*), or just a time (*09:20*).
 
-* ``name`` - ``date``
-* ``kind`` - (required) defines whether the value is a simple date, a time or both
+.. list-table::
+   :header-rows: 1
 
-	* ``date``
-	* ``time``
-	* ``datetime``
+   * - Property
+     - Values
+   * - ``name``
+     - ``date``
+   * - ``kind``
+     -  ``date``, ``time``, ``datetime``; specifies whether the value is a date, a time of day or both (required)
 
 :: 
 
@@ -388,20 +396,26 @@ For ``date`` and ``time`` only the respective parts of a timestamp are considere
 	  "kind" : "datetime"
 	}
 
-Every date type value in a record must be formatted as a [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) string in UTC.
-The used format is ``YYYY-MM-DDThh:mm:ss.SSSZ``, an example value looks like this::
+Date values must always use the ``YYYY-MM-DDThh:mm:ss.SSSZ`` `ISO 8601 <https://en.wikipedia.org/wiki/ISO_8601>`_ date format and the UTC time zone.
+For example::
 
 	"2012-02-14T09:20:00.000Z"
 
-``date`` and ``time`` strings need to be transmitted in that format as well.
-As mentioned before, for those types only the first respectively the last part of the timestamp is considered during the execution.
+All date types use this format - ``datetime``, ``date`` and ``time``.
+For ``date`` and ``time`` values, execution only uses the first and last parts of the values, respectively.
 
 Email address type
 ^^^^^^^^^^^^^^^^^^
 
-The email address type represents, as the name already indicates, an email address.
+An email address type represents an email address.
 
-* ``name`` - ``emailAddress``
+.. list-table::
+   :header-rows: 1
+
+   * - Property
+     - Values
+   * - ``name``
+     - ``emailAddress``
 
 :: 
 
@@ -409,14 +423,20 @@ The email address type represents, as the name already indicates, an email addre
 	  "name" : "emailAddress"
 	}
 
-The record value must be a plain string.
+An email address value stores a plain string.
 
 Link type
 ^^^^^^^^^
 
-A link represents an Internet address (URL), such as a web site address.
+A link type represents an Internet address (a URL), such as a web site address.
 
-* ``name`` - ``link``
+.. list-table::
+   :header-rows: 1
+
+   * - Property
+     - Values
+   * - ``name``
+     - ``link``
 
 ::
 
@@ -424,14 +444,20 @@ A link represents an Internet address (URL), such as a web site address.
 	  "name" : "link"
 	}
 
-The record value must be a plain string.
+A link value stores a plain string.
 
 Money type
 ^^^^^^^^^^
 
-A money value is a combination of an ``amount`` and a ``currency``. 
+A money type represents the combination of an *amount* and a *currency*.
 
-* ``name`` - ``money``
+.. list-table::
+   :header-rows: 1
+
+   * - Property
+     - Values
+   * - ``name``
+     - ``money``
 
 :: 
 
@@ -439,9 +465,9 @@ A money value is a combination of an ``amount`` and a ``currency``.
 	  "name" : "money"
 	}
 
-The record value is a JSON object with the two fields ``amount`` and ``currency``.
-The ``amount`` can be any number.
-The ``currency`` is a [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) string which represents the respective currency.
+A money value stores a JSON object with the fields ``amount`` and ``currency``.
+The ``amount`` property stores a number.
+The ``currency`` property stores an `ISO 4217 <https://en.wikipedia.org/wiki/ISO_4217>`_ currency code.
 
 :: 
 
@@ -453,9 +479,15 @@ The ``currency`` is a [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) string 
 Number type
 ^^^^^^^^^^^
 
-A number can be either an integer or a decimal.
+A number type represents either an integer or decimal number.
 
-* ``name`` - ``number``
+.. list-table::
+   :header-rows: 1
+
+   * - Property
+     - Values
+   * - ``name``
+     - ``number``
 
 ::
 
@@ -463,8 +495,7 @@ A number can be either an integer or a decimal.
 	  "name" : "number"
 	}
 
-The record value is the plain number.
-The decimal mark is a single ``.``.
+A number value stores a plain number, using a single ``.`` as decimal separator.
 
 :: 
 
@@ -476,12 +507,18 @@ The decimal mark is a single ``.``.
 Text type
 ^^^^^^^^^
 
-A text can contain any string.
+A text type represents a string - either a single line of text or multiple lines.
 Optionally, a single line text can be turned into a multi line text by adding the flag ``multiLine`` to the data type.
 
+.. list-table::
+   :header-rows: 1
 
-* ``name`` - ``text``
-* ``multiLine`` - (optional) if set to ``true`` the text field will allow multiple lines of input
+   * - Property
+     - Values
+   * - ``name``
+     - ``text``
+   * - ``multiLine``
+     - (optional) if set to ``true`` the text field will allow multiple lines of input
 
 :: 
 
@@ -496,14 +533,20 @@ Optionally, a single line text can be turned into a multi line text by adding th
 	  "multiLine" : true
 	}
 
-The record value must be a plain string.
+A text value stores a plain string.
 
 Yes/No Checkbox type
 ^^^^^^^^^^^^^^^^^^^^^
 
-The yes/no checkbox type represents a single boolean value which can be ``true`` or ``false``.
+A yes/no checkbox type represents a choice between the values ‘yes’ and ‘no’.
 
-* ``name`` - ``boolean``
+.. list-table::
+   :header-rows: 1
+
+   * - Property
+     - Values
+   * - ``name``
+     - ``boolean``
 
 ::
 
@@ -511,7 +554,7 @@ The yes/no checkbox type represents a single boolean value which can be ``true``
 	  "name" : "boolean"
 	}
 
-The record value must be a boolean value, either ``true`` or ``false``.
+A yes/no checkbox value stores a Boolean value - ``true`` or ``false``.
 
 :: 
 
