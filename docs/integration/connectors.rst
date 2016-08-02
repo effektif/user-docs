@@ -522,21 +522,26 @@ The record value must be a boolean value, either ``true`` or ``false``.
 Authentication
 --------------
 
-Connector
+Due to the fact that a connector is publicly accessible, any provided data will be publicly available as well.
+In order to prevent unauthorized access, the connector can implement one of two authentication mechanisms.
 
-.. **TODO:**
+HTTP basic authentication
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* HTTP basic authentication, 
-	
-	* provide username and password
+A simple method for authentication is [HTTP basic authentication](https://en.wikipedia.org/wiki/Basic_access_authentication).
+While configuring a connector, you can specify a username and a password.
+Your connector endpoint then needs to check the ``Authorization`` header which contains the Base64 encoded username and password and verify their values.
 
-* token authorization
+Signavio Workflow will provide the ``Authorization`` header pre-emptively on the first request, the connector will not be required to send the authentication challenge.
 
-	* provide name and token
-	* specify location (header or query parameter)
+Token authentication
+^^^^^^^^^^^^^^^^^^^^
 
+Similar to an API key, you can choose a password (token) which will be provided in a header or query parameter upon every request send to the connector.
+The configuration allows you to choose whether you want to use a request header field or a query parameter which is added to the URL.
+Furthermore, you can pick the name of the respective header field / query parameter.
 
-
+The connector then simply needs to check the respective header field value / query parameter value.
 
 Configuring a connector
 -----------------------
