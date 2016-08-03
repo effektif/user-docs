@@ -18,6 +18,12 @@ Using a connector
 -----------------
 
 A connector can provide data to :ref:`user-task` form fields.
+For example, you can create a connector that provides a list of customers, which adds a *Customer* type in the form builder:
+
+.. figure:: /_static/images/integration/connectors/form-builder.png
+
+   A *Customer* connector type in the form builder, at the bottom of the list of field types
+
 A connector reference field:
 
 .. **TODO:**
