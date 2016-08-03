@@ -535,6 +535,8 @@ Publishing a connector makes it publicly accessible, as well as any data that th
 To prevent unauthorized access, the connector can implement authentication, so that only Signavio Workflow can access the data.
 Connectors may use one of two authentication mechanisms.
 
+.. warning:: Both HTTP Basic and token authentication send an unencrypted password over the network, so you should only allow access to private connectors via HTTPS.
+
 HTTP Basic authentication
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -552,6 +554,8 @@ Token authentication
 
 Similar to an API key, you can choose a password (token) that Signavio Workflow will include in a request header field or URL query string, for every request it sends the connector endpoints.
 In the connector configuration, you can choose between a request header field or a URL query string parameter, and specify the header or parameter name.
+
+.. warning:: Query string parameters are not encrypted by HTTPS and typically appear in log files, so only use query string token authentication for testing a connector on a trusted network with the on-premise edition of Signavio Workflow, and switch to a header field token for production use.
 
 The connector endpoints can then authenticate requests by checking the respective header field or query string parameter value.
 
