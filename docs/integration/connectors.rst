@@ -562,3 +562,19 @@ The connector endpoints can then authenticate requests by checking the respectiv
 Configuring a connector
 -----------------------
 
+To configure connectors, on the top-right menu, select *Services & Connectors*, then select the *Connectors* tab.
+When you have published your connector, you can add it here.
+
+.. **TODO: configure authentication**
+
+Select *Add new connector* and enter the connector’s endpoint URL.
+
+.. figure:: /_static/images/integration/connectors/add.png
+
+   Adding a new connector with the endpoint URL ``https://example.org/connector``
+
+When you add a connector, Signavio Workflow fetches the connector descriptor and shows a summary:
+
+.. figure:: /_static/images/integration/connectors/configure.png
+
+   Connector summary, including an overview of record and field types
