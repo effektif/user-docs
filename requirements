@@ -20,4 +20,4 @@ tornado==4.1
 watchdog==0.8.3
 wsgiref==0.1.2
 
-git+https://github.com/effektif/sphinx_rtd_theme.git@bcc973b95a45c69537916b8c15977bf4baf35253#egg=effektif-sphinx-theme==acb8bc9ebee81e32f2a3447586e8ab81b06ca453
+git+https://github.com/effektif/sphinx_rtd_theme.git@0b8827e04b803873002fcab0cd52394965744fc5#egg=effektif-sphinx-theme==0b8827e04b803873002fcab0cd52394965744fc5

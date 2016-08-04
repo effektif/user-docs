@@ -123,7 +123,7 @@ Configuration
 
 After creating a Google Drive *Add row to sheet* action,
 the configuration panel shows a button to start configuring the account.
-This configuration has the same steps as in the :ref:`Upload file configuration <upload-file-configuration>`(above).
+This configuration has the same steps as in the :ref:`Upload file configuration <upload-file-configuration>` (above).
 
 When you have authenticated with a Google account and granted permission,
 you can configure the *Add row to sheet* action.
@@ -141,3 +141,49 @@ the spreadsheet, the worksheet within the spreadsheet, and the worksheet columns
 
 Each column name, such as *Customer name* in this example, comes from a column heading in the spreadsheet.
 For each column, select one of the :ref:`variables <variables>` from the list.
+
+
+.. _add-calendar-event:
+
+Google Drive - Add calendar event
+-------------------------------
+
+.. figure:: /_static/images/action-types/google-drive/calendar-task.png
+
+   A Google Drive *Add calendar event* task in the process editor
+
+The Google Drive *Add calendar event* action adds an event to a Google Calendar.
+You can use this to schedule meetings or time to work on a task, based on the values of process variables.
+
+Configuration
+^^^^^^^^^^^^^
+
+After creating a Google Drive *Add calendar event* action,
+the configuration panel shows a button to start configuring the account.
+This configuration has the same steps as in the :ref:`Upload file configuration <upload-file-configuration>` (above).
+
+When you have authenticated with a Google account and granted permission,
+you can configure the *Add calendar event* action.
+
+Add calendar event action
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Once you have configured your Google Drive account, the *Add calendar event* action configuration panel shows the calendar event fields.
+
+.. figure:: /_static/images/action-types/google-drive/calendar-configuration.png
+
+   Google Drive *Add calendar event* authenticated configuration
+
+In the configuration you can specify the following.
+
+Calendar
+    The calendar within the selected Google account.
+Event summary (optional)
+    A text variable to use as the name of the new calendar event.
+    If you don’t select a text variable, the event name will be blank.
+Start date
+    A date variable for the event’s start date and time.
+End date
+    A date variable for the event’s end date and time.
+Attendees (optional)
+    Email address variables for people to invite to the calendar event.
