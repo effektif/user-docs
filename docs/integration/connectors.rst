@@ -592,3 +592,40 @@ When you add a connector, Signavio Workflow fetches the connector descriptor and
 .. figure:: /_static/images/integration/connectors/configure.png
 
    Connector summary, including an overview of record and field types
+
+HTTP Basic authentication
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: /_static/images/integration/connectors/authentication-basic.png
+
+   Configuring basic authentication
+
+signavio
+8n4f-Rm3V-Xz0r-Igew-L1fK
+
+Authorization: Basic c2lnbmF2aW86OG40Zi1SbTNWLVh6MHItSWdldy1MMWZL
+
+Request header authentication
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: /_static/images/integration/connectors/authentication-header.png
+
+   Configuring request header authentication
+
+X-Auth-Token: OG40Zi1SbTNWLVh6MHItSWdldy1MMWZL
+
+X-Auth-Token
+OG40Zi1SbTNWLVh6MHItSWdldy1MMWZL
+
+
+URL query parameter authentication
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: /_static/images/integration/connectors/authentication-url.png
+
+   Configuring URL query string parameter authentication
+
+GET /?token=OG40Zi1SbTNWLVh6MHItSWdldy1MMWZL HTTP/1.1
+
+token
+OG40Zi1SbTNWLVh6MHItSWdldy1MMWZL

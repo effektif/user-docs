@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-03 15:10+0200\n"
+"POT-Creation-Date: 2016-08-08 15:32+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,8 +46,17 @@ msgid "Using a connector"
 msgstr ""
 
 msgid ""
-"A connector can provide data to :ref:`user-task` form fields. A connector"
-" reference field:"
+"A connector can provide data to :ref:`user-task` form fields. For "
+"example, you can create a connector that provides a list of customers, "
+"which adds a *Customer* type in the form builder:"
+msgstr ""
+
+msgid ""
+"A *Customer* connector type in the form builder, at the bottom of the "
+"list of field types"
+msgstr ""
+
+msgid "A connector reference field:"
 msgstr ""
 
 msgid "makes it possible to select from a dynamic list of records"
@@ -663,6 +672,33 @@ msgstr ""
 msgid "Connector summary, including an overview of record and field types"
 msgstr ""
 
+msgid "Configuring basic authentication"
+msgstr ""
+
+msgid "signavio 8n4f-Rm3V-Xz0r-Igew-L1fK"
+msgstr ""
+
+msgid "Authorization: Basic c2lnbmF2aW86OG40Zi1SbTNWLVh6MHItSWdldy1MMWZL"
+msgstr ""
+
+msgid "Request header authentication"
+msgstr ""
+
+msgid "Configuring request header authentication"
+msgstr ""
+
+msgid "X-Auth-Token OG40Zi1SbTNWLVh6MHItSWdldy1MMWZL"
+msgstr ""
+
+msgid "URL query parameter authentication"
+msgstr ""
+
+msgid "Configuring URL query string parameter authentication"
+msgstr ""
+
+msgid "token OG40Zi1SbTNWLVh6MHItSWdldy1MMWZL"
+msgstr ""
+
 msgid "Salesforce Integration"
 msgstr ""
 
@@ -1066,5 +1102,11 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "specify location (header or query parameter)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A connector can provide data to "
+#~ ":ref:`user-task` form fields. A "
+#~ "connector reference field:"
 #~ msgstr ""
 
