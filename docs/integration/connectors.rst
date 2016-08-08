@@ -42,7 +42,7 @@ To implement a connector, you publish three different kinds of resource.
 #. :ref:`connector-record-details` (optional) - all fields for one record from the list of records.
 
 Signavio Workflow accesses the connector on the web, via the public Internet, or via a private intranet for an on-premise installation.
-The URL where the connector is located is called the *endpoint URL*.
+Signavio Workflow calls the connector’s URL the *endpoint URL*.
 
 For example, consider a connector that accesses a fictional customer database, that you publish at the endpoint URL ``https://example.org/connector``.
 In this example, each customer record has the following fields.
@@ -94,7 +94,7 @@ Request methods
 Response content type
   ``application/json``
 
-The response body must be a JSON object with the following fields.
+The response body must contain a JSON object with the following fields.
 
 .. list-table:: Connector descriptor properties
    :header-rows: 1
@@ -113,8 +113,7 @@ The response body must be a JSON object with the following fields.
    * - ``version``
      - The connector version, which should increase if the provided data structure changes
    * - ``protocolVersion``
-     - The connector protocol version.
-       The current version is ``1``.
+     - The connector protocol version, currently ``1``.
 
 For example, the JSON response body for a connector descriptor without any type descriptors would look like this::
 
@@ -132,7 +131,7 @@ In our example, you would retrieve the connector descriptor by sending the HTTP 
 .. _connector-type-descriptor:
 
 A **record type descriptor** describes the format of the data the connector provides, such as the format of a customer record.
-The ``typeDescriptors`` property in the JSON response is an array of record type descriptor JSON objects.
+In the JSON response, the ``typeDescriptors`` property’s value contains an array of record type descriptor JSON objects.
 
 .. list-table:: Record type descriptor properties
    :header-rows: 1
@@ -149,7 +148,7 @@ The ``typeDescriptors`` property in the JSON response is an array of record type
    * - ``optionsAvailable``
      - Boolean value - ``true`` indicates that the connector provides a list of record options, used to provide a list in the user interface for user selection
    * - ``fetchOneAvailable``
-     - Boolean value - ``true`` indicates that single records can be fetched by the ID in the options list
+     - Boolean value - ``true`` indicates that Signavio Workflow can fetch single records by the ID used in the options list
 
 For example, the JSON object for a customer record type descriptor, without any fields, would look like this::
 
@@ -164,7 +163,7 @@ For example, the JSON object for a customer record type descriptor, without any 
 .. _connector-field-descriptor:
 
 A **record field descriptor** specifies one field of a record type.
-A record type is a complex structure that includes one or more fields, such as a customer’s full name.
+A record type has a complex structure that includes one or more fields, such as a customer’s full name.
 Each field has a key, a name and a data type.
 
 .. list-table:: Record field descriptor properties
@@ -274,7 +273,7 @@ Request methods
 Response content type
   ``application/json``
 
-The response body must be an array of JSON objects, which should have a limited size.
+The response body must contain an array of JSON objects, which should have a limited size.
 Each object in the array must have the following fields.
 
 .. list-table:: Record type options object properties
@@ -402,7 +401,7 @@ A date represents either a date and time (such as *2012-02-14 09:20*), just a da
    * - ``name``
      - ``date``
    * - ``kind``
-     -  ``date``, ``time``, ``datetime``; specifies whether the value is a date, a time of day or both (required)
+     -  ``date``, ``time``, ``datetime``; specifies whether the value describes a date, a time of day or both (required)
 
 :: 
 
@@ -495,7 +494,7 @@ Text type
 ^^^^^^^^^
 
 A text type represents a string - either a single line of text or multiple lines.
-Optionally, a single line text can be turned into a multi line text by adding the flag ``multiLine`` to the data type.
+Optionally, to indicate that text may contain multiple lines, add the flag ``multiLine`` to the data type.
 
 .. list-table::
    :header-rows: 1
@@ -542,37 +541,6 @@ A yes/no checkbox value stores a Boolean value - ``true`` or ``false``.
 
 	"value" : true
 
-Authentication
---------------
-
-Publishing a connector makes it publicly accessible, as well as any data that the connector provides.
-To prevent unauthorized access, the connector can implement authentication, so that only Signavio Workflow can access the data.
-Connectors may use one of two authentication mechanisms.
-
-.. warning:: Both HTTP Basic and token authentication send an unencrypted password over the network, so you should only allow access to private connectors via HTTPS.
-
-HTTP Basic authentication
-^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Connectors can use `HTTP basic authentication <https://en.wikipedia.org/wiki/Basic_access_authentication>`_ to restrict access using a username and password that you specify when configuring the connector.
-To implement HTTP Basic authentication, your connector endpoints must:
-
-#. send an HTTP *401 Unauthorized* response, with an empty response body, for any request that does not include valid credentials
-#. check the credentials in the ``Authorization`` HTTP header field, when provided, by decoding the Base64-encoded username and password and verifying their values.
-
-When a connector’s configuration includes a username and password, Signavio Workflow will pre-emptively include the ``Authorization`` header when sending requests to the connector endpoints.
-This avoids an additional *401 Unauthorized* response and a new request for the authentication challenge.
-
-Token authentication
-^^^^^^^^^^^^^^^^^^^^
-
-Similar to an API key, you can choose a password (token) that Signavio Workflow will include in a request header field or URL query string, for every request it sends the connector endpoints.
-In the connector configuration, you can choose between a request header field or a URL query string parameter, and specify the header or parameter name.
-
-.. warning:: Query string parameters are not encrypted by HTTPS and typically appear in log files, so only use query string token authentication for testing a connector on a trusted network with the on-premise edition of Signavio Workflow, and switch to a header field token for production use.
-
-The connector endpoints can then authenticate requests by checking the respective header field or query string parameter value.
-
 Configuring a connector
 -----------------------
 
@@ -593,39 +561,70 @@ When you add a connector, Signavio Workflow fetches the connector descriptor and
 
    Connector summary, including an overview of record and field types
 
+Authentication
+--------------
+
+Publishing a connector makes it publicly accessible, as well as any data that the connector provides.
+To prevent unauthorized access, the connector can implement authentication, so that only Signavio Workflow can access the data.
+Connectors may use one of two authentication mechanisms.
+
 HTTP Basic authentication
 ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Connectors can use `HTTP basic authentication <https://en.wikipedia.org/wiki/Basic_access_authentication>`_ to restrict access using a username and password that you specify when configuring the connector.
+To implement HTTP Basic authentication, your connector endpoints must:
+
+#. send an HTTP *401 Unauthorized* response, with an empty response body, for any request that does not include valid credentials
+#. check the credentials in the ``Authorization`` HTTP header field, when provided, by decoding the Base64-encoded username and password and verifying their values.
+
+.. warning:: HTTP Basic authentication sends an unencrypted password over the network, so you should only allow access to private connectors via HTTPS.
+
+To use basic authentication, use the *Authentication* field to select *HTTP Basic authentication*, and enter a username and password:
 
 .. figure:: /_static/images/integration/connectors/authentication-basic.png
 
    Configuring basic authentication
 
-signavio
-8n4f-Rm3V-Xz0r-Igew-L1fK
+When you configure a connector to use Basic authentication, Signavio Workflow will pre-emptively include an ``Authorization`` header when sending requests to the connector endpoints.
+In Basic authentication, the header value consists of the authentication scheme name ``Basic`` followed by a space and the Base64-encoded username and password, separated by a colon (``signavio:8n4f-Rm3V-Xz0r-Igew-L1fK``).
+This results in a request header that looks like::
 
-Authorization: Basic c2lnbmF2aW86OG40Zi1SbTNWLVh6MHItSWdldy1MMWZL
+   Authorization: Basic c2lnbmF2aW86OG40Zi1SbTNWLVh6MHItSWdldy1MMWZL
 
-Request header authentication
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Sending this header with every request avoids an additional *401 Unauthorized* response and a new request for the authentication challenge.
+
+Token authentication
+^^^^^^^^^^^^^^^^^^^^
+
+Similar to an API key, you can choose a password (token) that Signavio Workflow will include in a request header field or URL query string, for every request it sends the connector endpoints.
+In the connector configuration, you can choose between a request header field or a URL query string parameter, and specify the header or parameter name.
+
+.. warning:: Token authentication sends an unencrypted password over the network, so you should only allow access to private connectors via HTTPS.
+
+The connector endpoints can then authenticate requests by checking the respective header field or query string parameter value.
+
+To use a token in the request header, use the *Authentication* field to select *HTTP request header*, and enter a header name and header value.
 
 .. figure:: /_static/images/integration/connectors/authentication-header.png
 
    Configuring request header authentication
 
-X-Auth-Token: OG40Zi1SbTNWLVh6MHItSWdldy1MMWZL
+HTTP headers only allow a restricted subset of ASCII characters in header names, which typically only use letters and dashes, such as `Auth-Token`.
+Header values only support ‘visible ASCII characters’, so to allow arbitrary authentication tokens, use a Base64-encoded value.
+Configuring token authentication results in a request header like::
 
-X-Auth-Token
-OG40Zi1SbTNWLVh6MHItSWdldy1MMWZL
+   Auth-Token: OG40Zi1SbTNWLVh6MHItSWdldy1MMWZL
 
-
-URL query parameter authentication
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+For testing, developers may find it more convenient to retrieve the authentication from the URL query string.
+To use this option, select *URL query parameter* and enter a parameter name and value:
 
 .. figure:: /_static/images/integration/connectors/authentication-url.png
 
    Configuring URL query string parameter authentication
 
-GET /?token=OG40Zi1SbTNWLVh6MHItSWdldy1MMWZL HTTP/1.1
+This results in HTTP requests with a URL query string, like this::
 
-token
-OG40Zi1SbTNWLVh6MHItSWdldy1MMWZL
+   GET /?token=OG40Zi1SbTNWLVh6MHItSWdldy1MMWZL HTTP/1.1
+   Host: example.org
+
+.. warning:: HTTP does not encrypt query string parameters, which typically appear in log files, so only use query string token authentication for testing a connector on a trusted network with the on-premise edition of Signavio Workflow, and switch to a header field token for production use.
