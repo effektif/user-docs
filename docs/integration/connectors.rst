@@ -49,6 +49,7 @@ In this example, each customer record has the following fields.
 
 .. list-table:: Example - customer record fields
    :header-rows: 1
+   :widths: 25 75
 
    * - Property
      - Description
@@ -97,6 +98,7 @@ The response body must be a JSON object with the following fields.
 
 .. list-table:: Connector descriptor properties
    :header-rows: 1
+   :widths: 25 75
 
    * - Property
      - Description
@@ -134,6 +136,7 @@ The ``typeDescriptors`` property in the JSON response is an array of record type
 
 .. list-table:: Record type descriptor properties
    :header-rows: 1
+   :widths: 25 75
 
    * - Property
      - Description
@@ -166,6 +169,7 @@ Each field has a key, a name and a data type.
 
 .. list-table:: Record field descriptor properties
    :header-rows: 1
+   :widths: 25 75
 
    * - Property
      - Description
@@ -275,6 +279,7 @@ Each object in the array must have the following fields.
 
 .. list-table:: Record type options object properties
    :header-rows: 1
+   :widths: 25 75
 
    * - Property
      - Description
@@ -347,6 +352,7 @@ A choice type represents a value from a fixed list of configured options.
 
 .. list-table::
    :header-rows: 1
+   :widths: 25 75
 
    * - Property
      - Values
@@ -389,6 +395,7 @@ A date represents either a date and time (such as *2012-02-14 09:20*), just a da
 
 .. list-table::
    :header-rows: 1
+   :widths: 25 75
 
    * - Property
      - Values
@@ -492,6 +499,7 @@ Optionally, a single line text can be turned into a multi line text by adding th
 
 .. list-table::
    :header-rows: 1
+   :widths: 25 75
 
    * - Property
      - Values
