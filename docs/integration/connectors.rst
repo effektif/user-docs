@@ -561,6 +561,16 @@ When you add a connector, Signavio Workflow fetches the connector descriptor and
 
    Connector summary, including an overview of record and field types
 
+If you make changes to your connector, such as adding or renaming a field, you need to reload the configuration.
+On the connector’s top-right menu, select *Reload connector* to fetch the latest version of the descriptor.
+
+Deleting a connector
+--------------------
+
+You can delete a connector if you no longer wish to use it.
+On the connector’s top-right menu, select *Delete connector* to remove its configuration from Signavio Workflow.
+If you delete a connector by mistake, select *Add new connector* and enter the endpoint URL again.
+
 Authentication
 --------------
 
