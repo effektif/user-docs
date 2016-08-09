@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-30 09:55+0200\n"
-"PO-Revision-Date: 2016-08-01 10:38+0200\n"
+"POT-Creation-Date: 2016-06-03 15:07+0200\n"
+"PO-Revision-Date: 2016-07-27 17:03+0200\n"
 "Last-Translator: Timotheus Kampik <timotheus.kampik@signavio.com>\n"
 "Language-Team: \n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 1.3\n"
-"Language: de\n"
+"Generated-By: Babel 2.3.4\n"
 "X-Generator: Poedit 1.8.8\n"
 
 msgid "Process builder"
@@ -185,21 +185,6 @@ msgstr "Fügen Sie Folgeaufgaben inklusive der Transition hinzu"
 
 msgid "Alternatively, just click the user task icon |task-symbol| to create a new user task in the default location, with a transition."
 msgstr "Alternativ können Sie einfach auf das Aufgaben-Symbol klicken um eine Folgeaufgabe an der Standardposition etwas weiter rechts neben der bestehenden Aktion zu erstellen."
-
-msgid "Changing the action type"
-msgstr "Den Aktionstyp verändern"
-
-msgid "Sometimes, modifying a process means changing an action from one type to another. In the recruitment process, you might change the action to reject the candidate from a manual task to an automatic email task."
-msgstr "Manchmal müssen Sie  eine Aktion in eine andere Art Aktion umwandeln, um einen Prozess anzupassen. Im Recruitment-Prozess könnten Sie z.B. die Aktion 'Kandidaten über Ablehnung informieren' von einer manuellen Aufgabe in eine automatische 'E-Mail senden'-Aktion umwandeln."
-
-msgid "To make this change, first select the action in the process editor to open the configuration panel, then click the action type icon at the top-left corner of the configuration panel to open the list of action types. Next, select *Send Email* from the list to change the action type."
-msgstr "Um diese Änderung vorzunehmen, wählen Sie zunächst die zu ändernde Aktion im Prozesseditor aus, um das Konfigurationspanel zu öffnen. Klicken Sie dann das kleine Icon oben links im Konfigurationspanel, um die Liste von möglichen Aktionstypen anzuzeigen, in die die Aktion transformiert werden kann. Wir wählen *E-Mail senden*, um die Aufgabe in eine E-mail Aktion umzuwandeln."
-
-msgid "Changing a :ref:`user-task` to a :ref:`send-email` task."
-msgstr "Eine :ref:`user-task` in eine :ref:`send-email`-Aktion umwandeln."
-
-msgid "Changing the action type discards the previous action type’s configuration, such as a user task form or an email template. If you change the action type back, the original configuration will not be restored."
-msgstr "Wenn Sie eine Aktion transformieren, werden die Einstellungen der ursprünglichen Aktion gelöscht, wie z.B. Formularfelder oder eine E.Mail Vorlage. Wenn Sie die Transformation rückgängig machen, wird die Konfiguration nicht wieder hergestellt."
 
 msgid "Control flow elements"
 msgstr "Kontrollfluss-Elemente"
