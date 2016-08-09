@@ -342,7 +342,7 @@ A data type defines which kind of value and format a field in a record can have.
 A type descriptor represents a data type as a JSON object, whose ``name`` property contains the data type name.
 
 Data types may use additional properties for type-specific configuration.
-Furthermore, the expected format a record value depends on the data type.
+Furthermore, the expected format of a record value depends on the data type.
 
 Choice type
 ^^^^^^^^^^^
@@ -596,7 +596,7 @@ Sending this header with every request avoids an additional *401 Unauthorized* r
 Token authentication
 ^^^^^^^^^^^^^^^^^^^^
 
-Similar to an API key, you can choose a password (token) that Signavio Workflow will include in a request header field or URL query string, for every request it sends the connector endpoints.
+Similar to an API key, you can choose a password (token) that Signavio Workflow will include in a request header field or URL query string, for every request it sends to the connector endpoints.
 In the connector configuration, you can choose between a request header field or a URL query string parameter, and specify the header or parameter name.
 
 .. warning:: Token authentication sends an unencrypted password over the network, so you should only allow access to private connectors via HTTPS.
