@@ -638,3 +638,13 @@ This results in HTTP requests with a URL query string, like this::
    Host: example.org
 
 .. warning:: HTTP does not encrypt query string parameters, which typically appear in log files, so only use query string token authentication for testing a connector on a trusted network with the on-premise edition of Signavio Workflow, and switch to a header field token for production use.
+
+Connector examples
+------------------
+
+To help you develop your own connectors, Signavio has published several example connectors that show you what a connector implementation looks like.
+These examples use several different programming languages, including Java, Python, JavaScript, Scala and Go:
+
+https://github.com/signavio/connector-examples
+
+These examples have an open-source Apache License.
