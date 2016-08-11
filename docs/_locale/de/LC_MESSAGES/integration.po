@@ -1,80 +1,827 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016, Signavio GmbH
-# This file is distributed under the same license as the User Guide package.
+# This file is distributed under the same license as the Signavio Workflow
+# package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-29 10:45+0200\n"
+"POT-Creation-Date: 2016-08-11 13:23+0200\n"
 "PO-Revision-Date: 2016-04-29 11:40+0200\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language-Team: \n"
-"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
-"X-Generator: Poedit 1.8.7\n"
+"Generated-By: Babel 2.2.0\n"
+
+msgid "Custom data connectors"
+msgstr ""
+
+msgid ""
+"When you define a process in Signavio Workflow, you often include your "
+"own data in the process definition, such as the list of options for a "
+"form field. This works well for small lists that don’t change often or "
+"that belong to the process, such as a list of document statuses in a "
+"document approval process. However, fixed lists in the process definition"
+" become difficult to maintain when the data changes frequently or "
+"includes a large number of items, such as a list of products or "
+"customers."
+msgstr ""
+
+msgid ""
+"With Signavio Workflow, you can also integrate dynamic structured data "
+"from other IT systems into your workflows. The workflow system fetches "
+"data from a third-party system using a *connector*, which a customer or a"
+" partner implements and hosts."
+msgstr ""
+
+msgid ""
+"A connector provides a web service that translates between the external "
+"system and Signavio Workflow. The connector implements a defined "
+"interface, which Signavio Workflow uses to access data in a format it can"
+" use. Signavio Workflow and the connector communicate over *HTTP* or "
+"*HTTPS*, which makes it possible to implement connectors in any "
+"programming language."
+msgstr ""
+
+msgid "Using a connector"
+msgstr ""
+
+msgid ""
+"A connector can provide data to :ref:`user-task` form fields. For "
+"example, you can create a connector that provides a list of customers, "
+"which adds a *Customer* type in the form builder:"
+msgstr ""
+
+msgid ""
+"A *Customer* connector type in the form builder, at the bottom of the "
+"list of field types"
+msgstr ""
+
+msgid "A connector reference field:"
+msgstr ""
+
+msgid "makes it possible to select from a dynamic list of records"
+msgstr ""
+
+msgid "supports auto-complete so you can work with a large number of records"
+msgstr ""
+
+msgid "can include structured data for each record."
+msgstr ""
+
+msgid "Implementing a connector"
+msgstr ""
+
+msgid "To implement a connector, you publish three different kinds of resource."
+msgstr ""
+
+msgid ""
+":ref:`connector-descriptor` - defines one or more record types, each of "
+"which defines a list of fields."
+msgstr ""
+
+msgid ""
+":ref:`connector-type-options` - a list of records for each record type "
+"the connector defines."
+msgstr ""
+
+msgid ""
+":ref:`connector-record-details` (optional) - all fields for one record "
+"from the list of records."
+msgstr ""
+
+msgid ""
+"Signavio Workflow accesses the connector on the web, via the public "
+"Internet, or via a private intranet for an on-premise installation. "
+"Signavio Workflow calls the connector’s URL the *endpoint URL*."
+msgstr ""
+
+msgid ""
+"For example, consider a connector that accesses a fictional customer "
+"database, that you publish at the endpoint URL "
+"``https://example.org/connector``. In this example, each customer record "
+"has the following fields."
+msgstr ""
+
+#: ../../integration/connectors.rst
+msgid "Example - customer record fields"
+msgstr ""
+
+msgid "Property"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "``id``"
+msgstr ""
+
+msgid "Unique identifier"
+msgstr ""
+
+msgid "``fullName``"
+msgstr ""
+
+msgid "Full name"
+msgstr ""
+
+msgid "``email``"
+msgstr ""
+
+msgid "Email address"
+msgstr ""
+
+msgid "``subscriptionType``"
+msgstr ""
+
+msgid "Type of subscription - bronze, silver or gold"
+msgstr ""
+
+msgid "``discount``"
+msgstr ""
+
+msgid "Default customer discount"
+msgstr ""
+
+msgid "``since``"
+msgstr ""
+
+msgid "Registration date"
+msgstr ""
+
+msgid ""
+"A complete example customer record, formatted as *JSON*, would then look "
+"like this::"
+msgstr ""
+
+msgid ""
+"This example now includes enough information to implement a complete "
+"connector."
+msgstr ""
+
+msgid "Connector descriptor"
+msgstr ""
+
+msgid ""
+"A connector needs a descriptor to provide basic information, such as its "
+"name and description, as well as detailed information about the structure"
+" of the data the connector provides. When you implement a connector, you "
+"must make the descriptor available as the following HTTP resource."
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "``/`` - the connector’s *endpoint URL*"
+msgstr ""
+
+msgid "Request methods"
+msgstr ""
+
+msgid "GET - fetches the connector descriptor"
+msgstr ""
+
+msgid "Response content type"
+msgstr ""
+
+msgid "``application/json``"
+msgstr ""
+
+msgid "The response body must contain a JSON object with the following fields."
+msgstr ""
+
+#: ../../integration/connectors.rst
+msgid "Connector descriptor properties"
+msgstr ""
+
+msgid "``key``"
+msgstr ""
+
+msgid ""
+"Unique alphanumeric key (characters a-z, A-Z, 0-9) that identifies the "
+"connector"
+msgstr ""
+
+msgid "``name``"
+msgstr ""
+
+msgid "The connector name shown in the user interface"
+msgstr ""
+
+msgid "``description``"
+msgstr ""
+
+msgid "Detailed connector description"
+msgstr ""
+
+msgid "``typeDescriptors``"
+msgstr ""
+
+msgid "List of one or more descriptors for record types"
+msgstr ""
+
+msgid "``version``"
+msgstr ""
+
+msgid ""
+"The connector version, which should increase if the provided data "
+"structure changes"
+msgstr ""
+
+msgid "``protocolVersion``"
+msgstr ""
+
+msgid "The connector protocol version, currently ``1``."
+msgstr ""
+
+msgid ""
+"For example, the JSON response body for a connector descriptor without "
+"any type descriptors would look like this::"
+msgstr ""
+
+msgid ""
+"In our example, you would retrieve the connector descriptor by sending "
+"the HTTP request ``GET https://example.org/connector/``."
+msgstr ""
+
+msgid ""
+"A **record type descriptor** describes the format of the data the "
+"connector provides, such as the format of a customer record. In the JSON "
+"response, the ``typeDescriptors`` property’s value contains an array of "
+"record type descriptor JSON objects."
+msgstr ""
+
+#: ../../integration/connectors.rst
+msgid "Record type descriptor properties"
+msgstr ""
+
+msgid ""
+"Unique alphanumeric key (characters a-z, A-Z, 0-9) that identifies the "
+"record type within the connector descriptor, used in :ref:`connector-"
+"type-options` and :ref:`connector-record-details` URLs"
+msgstr ""
+
+msgid "The type name shown in the form builder user interface"
+msgstr ""
+
+msgid "``fields``"
+msgstr ""
+
+msgid "An array of :ref:`record field descriptors <connector-field-descriptor>`"
+msgstr ""
+
+msgid "``optionsAvailable``"
+msgstr ""
+
+msgid ""
+"Boolean value - ``true`` indicates that the connector provides a list of "
+"record options, used to provide a list in the user interface for user "
+"selection"
+msgstr ""
+
+msgid "``fetchOneAvailable``"
+msgstr ""
+
+msgid ""
+"Boolean value - ``true`` indicates that Signavio Workflow can fetch "
+"single records by the ID used in the options list"
+msgstr ""
+
+msgid ""
+"For example, the JSON object for a customer record type descriptor, "
+"without any fields, would look like this::"
+msgstr ""
+
+msgid ""
+"A **record field descriptor** specifies one field of a record type. A "
+"record type has a complex structure that includes one or more fields, "
+"such as a customer’s full name. Each field has a key, a name and a data "
+"type."
+msgstr ""
+
+#: ../../integration/connectors.rst
+msgid "Record field descriptor properties"
+msgstr ""
+
+msgid ""
+"Unique alphanumeric key (characters a-z, A-Z, 0-9) that identifies the "
+"field type within the record type"
+msgstr ""
+
+msgid "The field name shown in the user interface"
+msgstr ""
+
+msgid "``type``"
+msgstr ""
+
+msgid ""
+"A JSON object that describes field’s data type - see :ref:`connector-"
+"data-types`"
+msgstr ""
+
+msgid ""
+"Every record type automatically includes an ``id`` field with type "
+"``text``, so you don’t have to define it explicitly."
+msgstr ""
+
+msgid ""
+"An example for the ``fullName`` of our customer record type looks like "
+"this ::"
+msgstr ""
+
+msgid "A complete example of our connector descriptor would look like this::"
+msgstr ""
+
+msgid "Record type options"
+msgstr ""
+
+msgid ""
+"When you use a record type on a form, you will see a form field where you"
+" can enter a search query and select one of the options shown. Each "
+"result represents a record provided by the connector. In order to show a "
+"selection of different records to the user, a connector can provide a "
+"list of options for a record type."
+msgstr ""
+
+msgid ""
+"To make a list of options available to forms, in the :ref:`connector-"
+"type-descriptor`, set the ``optionsAvailable`` flag to ``true``. The "
+"connector must also make the options available as the following HTTP "
+"resource."
+msgstr ""
+
+msgid "URL (relative to the endpoint URL)"
+msgstr ""
+
+msgid "``/:type/options`` - with path parameter ``:type`` - a record type key"
+msgstr ""
+
+msgid "Query string (optional)"
+msgstr ""
+
+msgid ""
+"``filter=:query`` - added when the user enters a search; ``:query`` "
+"encodes the search string"
+msgstr ""
+
+msgid "GET - fetches the list of record type options"
+msgstr ""
+
+msgid ""
+"The response body must contain an array of JSON objects, which should "
+"have a limited size. Each object in the array must have the following "
+"fields."
+msgstr ""
+
+#: ../../integration/connectors.rst
+msgid "Record type options object properties"
+msgstr ""
+
+msgid "Unique string record ID"
+msgstr ""
+
+msgid ""
+"The text label shown in the user interface, which could aggregate "
+"multiple record fields like ``fullName (email)``"
+msgstr ""
+
+msgid ""
+"For example, a list of customer options, with URL "
+"``https://example.org/connector/customer/options``, would look like "
+"this::"
+msgstr ""
+
+msgid "Record details"
+msgstr ""
+
+msgid ""
+"When you use a connector form field to select a record, you can use the "
+"record’s data in the workflow. Signavio Workflow only stores the record’s"
+" ID as a reference, and fetches the entire record when needed, when "
+"accessing the nested data."
+msgstr ""
+
+msgid ""
+"To make a record’s fields available, in the :ref:`connector-type-"
+"descriptor`, set the ``fetchOneAvailable`` flag to ``true``. The "
+"connector must also make the records available as the following HTTP "
+"resource."
+msgstr ""
+
+msgid ""
+"``/:type/:id`` - with path parameters ``:type`` - a record type key, and "
+"``:id`` - a record ID"
+msgstr ""
+
+msgid "GET - fetches details for a single record"
+msgstr ""
+
+msgid ""
+"For example, a customer record, with URL "
+"``https://example.org/connector/customer/7g8h9i``, would look like this::"
+msgstr ""
+
+msgid ""
+"Selecting this customer record from the customer options list would give "
+"the workflow access to all of this customer’s fields."
+msgstr ""
+
+msgid "Data types and formats"
+msgstr ""
+
+msgid ""
+"A data type defines which kind of value and format a field in a record "
+"can have. A type descriptor represents a data type as a JSON object, "
+"whose ``name`` property contains the data type name."
+msgstr ""
+
+msgid ""
+"Data types may use additional properties for type-specific configuration."
+" Furthermore, the expected format of a record value depends on the data "
+"type."
+msgstr ""
+
+msgid "Choice type"
+msgstr ""
+
+msgid "A choice type represents a value from a fixed list of configured options."
+msgstr ""
+
+msgid "Values"
+msgstr ""
+
+msgid "``choice``"
+msgstr ""
+
+msgid "``options``"
+msgstr ""
+
+msgid ""
+"A JSON array of choice option objects, each with ``id`` and ``name`` "
+"properties"
+msgstr ""
+
+msgid ""
+"The ``id`` property stores a unique alphanumeric key (characters a-z, "
+"A-Z, 0-9) that identifies the option within the choice type; no two "
+"options may have the same ``id``. The user interface shows the ``name`` "
+"property’s value to the user."
+msgstr ""
+
+msgid ""
+"The data type JSON object for a choice type with three options looks like"
+" this::"
+msgstr ""
+
+msgid "A field value stores the ``id`` property’s value::"
+msgstr ""
+
+msgid "Date type"
+msgstr ""
+
+msgid ""
+"A date represents either a date and time (such as *2012-02-14 09:20*), "
+"just a date (*2012-02-14*), or just a time (*09:20*)."
+msgstr ""
+
+msgid "``date``"
+msgstr ""
+
+msgid "``kind``"
+msgstr ""
+
+msgid ""
+"``date``, ``time``, ``datetime``; specifies whether the value describes a"
+" date, a time of day or both (required)"
+msgstr ""
+
+msgid ""
+"Date values must always use the ``YYYY-MM-DDThh:mm:ss.SSSZ`` `ISO 8601 "
+"<https://en.wikipedia.org/wiki/ISO_8601>`_ date format and the UTC time "
+"zone. For example::"
+msgstr ""
+
+msgid ""
+"All date types use this format - ``datetime``, ``date`` and ``time``. For"
+" ``date`` and ``time`` values, execution only uses the first and last "
+"parts of the values, respectively."
+msgstr ""
+
+msgid "Email address type"
+msgstr ""
+
+msgid "An email address type represents an email address."
+msgstr ""
+
+msgid "An email address value stores a plain string::"
+msgstr ""
+
+msgid "Link type"
+msgstr ""
+
+msgid ""
+"A link type represents an Internet address (a URL), such as a web site "
+"address."
+msgstr ""
+
+msgid "A link value stores a plain string::"
+msgstr ""
+
+msgid "Money type"
+msgstr ""
+
+msgid "A money type represents the combination of an *amount* and a *currency*."
+msgstr ""
+
+msgid ""
+"A money value stores a JSON object with the fields ``amount`` and "
+"``currency``. The ``amount`` property stores a number. The ``currency`` "
+"property stores an `ISO 4217 <https://en.wikipedia.org/wiki/ISO_4217>`_ "
+"currency code."
+msgstr ""
+
+msgid "Number type"
+msgstr ""
+
+msgid "A number type represents either an integer or decimal number."
+msgstr ""
+
+msgid ""
+"A number value stores a plain number, using a single ``.`` as decimal "
+"separator."
+msgstr ""
+
+msgid "Text type"
+msgstr ""
+
+msgid ""
+"A text type represents a string - either a single line of text or "
+"multiple lines. Optionally, to indicate that text may contain multiple "
+"lines, add the flag ``multiLine`` to the data type."
+msgstr ""
+
+msgid "``text``"
+msgstr ""
+
+msgid "``multiLine``"
+msgstr ""
+
+msgid ""
+"(optional) if set to ``true`` the text field will allow multiple lines of"
+" input"
+msgstr ""
+
+msgid "A text value stores a plain string::"
+msgstr ""
+
+msgid "Yes/No Checkbox type"
+msgstr ""
+
+msgid ""
+"A yes/no checkbox type represents a choice between the values ‘yes’ and "
+"‘no’."
+msgstr ""
+
+msgid "A yes/no checkbox value stores a Boolean value - ``true`` or ``false``."
+msgstr ""
+
+msgid "Configuring a connector"
+msgstr ""
+
+msgid ""
+"To configure connectors, on the top-right menu, select *Services & "
+"Connectors*, then select the *Connectors* tab. When you have published "
+"your connector, you can add it here."
+msgstr ""
+
+msgid "Select *Add new connector* and enter the connector’s endpoint URL."
+msgstr ""
+
+msgid ""
+"Adding a new connector with the endpoint URL "
+"``https://example.org/connector``"
+msgstr ""
+
+msgid ""
+"When you add a connector, Signavio Workflow fetches the connector "
+"descriptor and shows a summary:"
+msgstr ""
+
+msgid "Connector summary, including an overview of record and field types"
+msgstr ""
+
+msgid ""
+"If you make changes to your connector, such as adding or renaming a "
+"field, you need to reload the configuration. On the connector’s top-right"
+" menu, select *Reload connector* to fetch the latest version of the "
+"descriptor."
+msgstr ""
+
+msgid "Deleting a connector"
+msgstr ""
+
+msgid ""
+"You can delete a connector if you no longer wish to use it. On the "
+"connector’s top-right menu, select *Delete connector* to remove its "
+"configuration from Signavio Workflow. If you delete a connector by "
+"mistake, select *Add new connector* and enter the endpoint URL again."
+msgstr ""
+
+msgid "Authentication"
+msgstr ""
+
+msgid ""
+"Publishing a connector makes it publicly accessible, as well as any data "
+"that the connector provides. To prevent unauthorized access, the "
+"connector can implement authentication, so that only Signavio Workflow "
+"can access the data. Connectors may use one of two authentication "
+"mechanisms."
+msgstr ""
+
+msgid "HTTP Basic authentication"
+msgstr ""
+
+msgid ""
+"Connectors can use `HTTP basic authentication "
+"<https://en.wikipedia.org/wiki/Basic_access_authentication>`_ to restrict"
+" access using a username and password that you specify when configuring "
+"the connector. To implement HTTP Basic authentication, your connector "
+"endpoints must:"
+msgstr ""
+
+msgid ""
+"send an HTTP *401 Unauthorized* response, with an empty response body, "
+"for any request that does not include valid credentials"
+msgstr ""
+
+msgid ""
+"check the credentials in the ``Authorization`` HTTP header field, when "
+"provided, by decoding the Base64-encoded username and password and "
+"verifying their values."
+msgstr ""
+
+msgid ""
+"HTTP Basic authentication sends an unencrypted password over the network,"
+" so you should only allow access to private connectors via HTTPS."
+msgstr ""
+
+msgid ""
+"To use basic authentication, use the *Authentication* field to select "
+"*HTTP Basic authentication*, and enter a username and password:"
+msgstr ""
+
+msgid "Configuring basic authentication"
+msgstr ""
+
+msgid ""
+"When you configure a connector to use Basic authentication, Signavio "
+"Workflow will pre-emptively include an ``Authorization`` header when "
+"sending requests to the connector endpoints. In Basic authentication, the"
+" header value consists of the authentication scheme name ``Basic`` "
+"followed by a space and the Base64-encoded username and password, "
+"separated by a colon (``signavio:8n4f-Rm3V-Xz0r-Igew-L1fK``). This "
+"results in a request header that looks like::"
+msgstr ""
+
+msgid ""
+"Sending this header with every request avoids an additional *401 "
+"Unauthorized* response and a new request for the authentication "
+"challenge."
+msgstr ""
+
+msgid "Token authentication"
+msgstr ""
+
+msgid ""
+"Similar to an API key, you can choose a password (token) that Signavio "
+"Workflow will include in a request header field or URL query string, for "
+"every request it sends to the connector endpoints. In the connector "
+"configuration, you can choose between a request header field or a URL "
+"query string parameter, and specify the header or parameter name."
+msgstr ""
+
+msgid ""
+"Token authentication sends an unencrypted password over the network, so "
+"you should only allow access to private connectors via HTTPS."
+msgstr ""
+
+msgid ""
+"The connector endpoints can then authenticate requests by checking the "
+"respective header field or query string parameter value."
+msgstr ""
+
+msgid ""
+"To use a token in the request header, use the *Authentication* field to "
+"select *HTTP request header*, and enter a header name and header value."
+msgstr ""
+
+msgid "Configuring request header authentication"
+msgstr ""
+
+msgid ""
+"HTTP headers only allow a restricted subset of ASCII characters in header"
+" names, which typically only use letters and dashes, such as `Auth-"
+"Token`. Header values only support ‘visible ASCII characters’, so to "
+"allow arbitrary authentication tokens, use a Base64-encoded value. "
+"Configuring token authentication results in a request header like::"
+msgstr ""
+
+msgid ""
+"For testing, developers may find it more convenient to retrieve the "
+"authentication from the URL query string. To use this option, select *URL"
+" query parameter* and enter a parameter name and value:"
+msgstr ""
+
+msgid "Configuring URL query string parameter authentication"
+msgstr ""
+
+msgid "This results in HTTP requests with a URL query string, like this::"
+msgstr ""
+
+msgid ""
+"HTTP does not encrypt query string parameters, which typically appear in "
+"log files, so only use query string token authentication for testing a "
+"connector on a trusted network with the on-premise edition of Signavio "
+"Workflow, and switch to a header field token for production use."
+msgstr ""
+
+msgid "Connector examples"
+msgstr ""
+
+msgid ""
+"To help you develop your own connectors, Signavio has published several "
+"example connectors that show you what a connector implementation looks "
+"like. These examples use several different programming languages, "
+"including Java, Python, JavaScript, Scala and Go:"
+msgstr ""
+
+msgid "https://github.com/signavio/connector-examples"
+msgstr ""
+
+msgid "These examples have an open-source Apache License."
+msgstr ""
 
 msgid "Salesforce Integration"
 msgstr "Salesforce Integration"
 
 msgid ""
-"Signavio Workflow integrates with Salesforce workflows. You can configure "
-"this so that changes in Salesforce will automatically trigger Signavio "
+"Signavio Workflow integrates with Salesforce workflows. You can configure"
+" this so that changes in Salesforce will automatically trigger Signavio "
 "Workflow processes."
 msgstr ""
-"Signavio Workflow ist mit Salesforce Workflows integriert. Sie können diese "
-"Workflows so konfigurieren, dass Änderungen in Ihrem Salesforce automatisch "
-"Workflows in Signavio Workflow auslösen."
+"Signavio Workflow ist mit Salesforce Workflows integriert. Sie können "
+"diese Workflows so konfigurieren, dass Änderungen in Ihrem Salesforce "
+"automatisch Workflows in Signavio Workflow auslösen."
 
 msgid "Signavio Workflow configuration"
 msgstr "Signavio Workflow Konfiguration"
 
 msgid ""
-"Before you can set-up Salesforce integration, you need to create an endpoint"
-" in Signavio Workflow that Salesforce can send information to. Set this up "
-"in Signavio Workflow as follows."
+"Before you can set-up Salesforce integration, you need to create an "
+"endpoint in Signavio Workflow that Salesforce can send information to. "
+"Set this up in Signavio Workflow as follows."
 msgstr ""
-"Bevor Sie anfangen können, müssen Sie zunächst einen Endpunkt für Salesforce"
-" in Signavio Workflow einrichten. Hierdurch wird es Salesforce ermöglicht "
-"Daten an Signavio Workflow zu übermitteln. Gehen Sie wie folgt vor:"
+"Bevor Sie anfangen können, müssen Sie zunächst einen Endpunkt für "
+"Salesforce in Signavio Workflow einrichten. Hierdurch wird es Salesforce "
+"ermöglicht Daten an Signavio Workflow zu übermitteln. Gehen Sie wie folgt"
+" vor:"
 
 msgid ""
 "In the top-right user menu, select `My Organisation` and then select the "
 "`Services` tab."
 msgstr ""
-"Im Nutzermenü oben rechts wählen Sie zunächst `Organisationseinstellungen` "
-"und dann `Services`."
+"Im Nutzermenü oben rechts wählen Sie zunächst "
+"`Organisationseinstellungen` und dann `Services`."
 
 msgid ""
 "Under the Salesforce heading, enter a new trigger type name and select "
 "`Create`."
 msgstr ""
-"Um einen neuen Auslöser zu anzulegen, tragen Sie einen Namen für die Aktion "
-"(z.B. Neuer Lead wurde erzeugt) ein und wählen dann `Erstellen`."
+"Um einen neuen Auslöser zu anzulegen, tragen Sie einen Namen für die "
+"Aktion (z.B. Neuer Lead wurde erzeugt) ein und wählen dann `Erstellen`."
 
-msgid ""
-"Copy the generated `Endpoint URL`, or leave this window open for later."
+msgid "Copy the generated `Endpoint URL`, or leave this window open for later."
 msgstr ""
-"Kopieren Sie den Wert `Endpunkt-URL` oder lassen Sie diese Seite für später "
-"offen. Wir werden diesen Wert im weiteren Verlauf der Konfiguration noch "
-"benötigen."
+"Kopieren Sie den Wert `Endpunkt-URL` oder lassen Sie diese Seite für "
+"später offen. Wir werden diesen Wert im weiteren Verlauf der "
+"Konfiguration noch benötigen."
 
 msgid "Salesforce configuration"
 msgstr "Salesforce Konfiguration"
 
 msgid ""
-"Before you can enable Salesforce triggers, you need to configure Outbound "
-"messages - a kind of Salesforce workflow action. Set this up in Salesforce "
-"as follows."
+"Before you can enable Salesforce triggers, you need to configure Outbound"
+" messages - a kind of Salesforce workflow action. Set this up in "
+"Salesforce as follows."
 msgstr ""
 "Bevor Sie Salesforce Trigger benutzen können, müssen Sie `ausgehende "
-"Nachrichten` in Salesforce konfigurieren. Solche Nachrichten sind ein Typ "
-"von Workflow Aktionen innerhalb von Salesforce. Gehen Sie hierzu wie folgt "
-"vor:"
+"Nachrichten` in Salesforce konfigurieren. Solche Nachrichten sind ein Typ"
+" von Workflow Aktionen innerhalb von Salesforce. Gehen Sie hierzu wie "
+"folgt vor:"
 
 msgid ""
 "Select the Setup menu item, and select `Build` → `Create` → `Workflow & "
@@ -87,23 +834,24 @@ msgid ""
 "Create or edit a new or existing workflow rule, and in the `Workflow "
 "Actions` section, select `Edit`."
 msgstr ""
-"Legen Sie eine neue Workflow-Regel and oder bearbeiten Sie eine Bestehende."
+"Legen Sie eine neue Workflow-Regel and oder bearbeiten Sie eine "
+"Bestehende."
 
 msgid ""
 "On the `Specify Workflow Actions` page, select `Add Workflow Action` and "
 "then `New Outbound Message`."
 msgstr ""
-"Im dritten Schritt `Workflow-Aktionen angeben` wählen Sie unter `Workflow-"
-"Aktion hinzufügen` den Eintrag `Neue ausgehende Nachricht`."
+"Im dritten Schritt `Workflow-Aktionen angeben` wählen Sie unter "
+"`Workflow-Aktion hinzufügen` den Eintrag `Neue ausgehende Nachricht`."
 
 msgid ""
 "On the `Configure Outbound Message` page, configure the new `Outbound "
 "Message`, to define which object fields to send to Signavio Workflow."
 msgstr ""
-"Im folgenden Konfigurationsdialog spezifizieren Sie nun die Daten, die an "
-"Signavio Workflow übermittelt werden sollen. Alle Daten, die Sie hier "
-"auswählen sind später als Prozessvariablen in Workflows, die diesen Auslöser"
-" nutzen verfügbar."
+"Im folgenden Konfigurationsdialog spezifizieren Sie nun die Daten, die an"
+" Signavio Workflow übermittelt werden sollen. Alle Daten, die Sie hier "
+"auswählen sind später als Prozessvariablen in Workflows, die diesen "
+"Auslöser nutzen verfügbar."
 
 msgid ""
 "In the `Endpoint URL` field, paste the `Endpoint URL` from the Signavio "
@@ -113,20 +861,20 @@ msgstr ""
 "Workflow erzeugt haben eintragen. "
 
 msgid ""
-"Select `Save`. Do not forget to activate the workflow rule as soon as you "
-"have finished the configuration. To do this, click the `Activate` button at "
-"the top of the `Workflow Rule Detail` page."
+"Select `Save`. Do not forget to activate the workflow rule as soon as you"
+" have finished the configuration. To do this, click the `Activate` button"
+" at the top of the `Workflow Rule Detail` page."
 msgstr ""
-"Vergessen Sie nicht die Regel zu speichern und zu aktivieren, nachdem Sie "
-"die Konfiguration abgeschlossen haben."
+"Vergessen Sie nicht die Regel zu speichern und zu aktivieren, nachdem Sie"
+" die Konfiguration abgeschlossen haben."
 
 msgid ""
-"On the `Outbound message` page, next to `Endpoint WSDL`, select the `Click "
-"for WSDL` link, which opens a web service definition file."
+"On the `Outbound message` page, next to `Endpoint WSDL`, select the "
+"`Click for WSDL` link, which opens a web service definition file."
 msgstr ""
 "Lassen Sie sich nun noch die Details zu Ihrer `ausgehenden Nachricht` "
-"anzeigen. Neben dem Punkt `Endpunkt WSDL` klicken Sie auf `Zur WSDL-Anzeige "
-"hier klicken`."
+"anzeigen. Neben dem Punkt `Endpunkt WSDL` klicken Sie auf `Zur WSDL-"
+"Anzeige hier klicken`."
 
 msgid ""
 "Save the ``workflowOutboundMessage.wsdl`` file, which you will use to "
@@ -146,26 +894,25 @@ msgstr ""
 "bekommen haben, in Signavio Workflow hochladen. "
 
 msgid ""
-"In the top-right user menu, select `My Organisation`, select the `Services` "
-"tab, and then select the Salesforce trigger type you created earlier."
+"In the top-right user menu, select `My Organisation`, select the "
+"`Services` tab, and then select the Salesforce trigger type you created "
+"earlier."
 msgstr ""
 "Navigieren Sie wieder in ihrem Nutzermenü oben rechts zu "
 "`Organisationseinstellungen` und dann zu `Services`. Wählen Sie nun den "
 "Salesforce-Auslöser, den Sie zuvor erstellt haben."
 
 msgid ""
-"Select `Upload document`, and select the ``workflowOutboundMessage.wsdl`` "
-"file you saved earlier."
+"Select `Upload document`, and select the ``workflowOutboundMessage.wsdl``"
+" file you saved earlier."
 msgstr ""
-"Klicken Sie auf `Datei hochladen` und wählen Sie die Datei, die Sie zuvor "
-"gespeichert haben."
+"Klicken Sie auf `Datei hochladen` und wählen Sie die Datei, die Sie zuvor"
+" gespeichert haben."
 
 msgid ""
-"Now you can use the new :ref:`Salesforce trigger <trigger-salesforce>` in "
-"Signavio Workflow."
+"Now you can use the new :ref:`Salesforce trigger <trigger-salesforce>` in"
+" Signavio Workflow."
 msgstr ""
-"Der :ref:`Salesforce-Auslöser <trigger-salesforce>` steht nun in all Ihren "
-"Prozessen zur Verfügung."
+"Der :ref:`Salesforce-Auslöser <trigger-salesforce>` steht nun in all "
+"Ihren Prozessen zur Verfügung."
 
-msgid "Signavio Workflow configuration"
-msgstr "Signavio Workflow Konfiguration"
