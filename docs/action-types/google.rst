@@ -68,6 +68,7 @@ Next to `Files to upload`, you can select the variable field containing one or m
 If the process did not already include a file variable, Signavio Workflow automatically creates a variable called 'File'.
 If the process variables did include a file or list of files, Signavio Workflow preselects it.
 
+.. _google-print:
 
 Google Drive - Print file
 -------------------------

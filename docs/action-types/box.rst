@@ -1,3 +1,5 @@
+.. _box-upload:
+
 Box Upload file
 ------------------------
 

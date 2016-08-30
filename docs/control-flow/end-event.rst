@@ -1,3 +1,5 @@
+.. _end-event:
+
 End event
 ---------
 

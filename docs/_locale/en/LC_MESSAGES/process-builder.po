@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-08 15:32+0200\n"
+"POT-Creation-Date: 2016-08-30 18:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -628,16 +628,131 @@ msgstr ""
 
 msgid ""
 "Signavio Workflow does not support all BPMN 2.0 elements, so the process "
-"may appear differently in Signavio Workflow. In particular:"
+"may appear differently in Signavio Workflow. The following table lists "
+"supported BPMN elements, and the corresponding action type."
 msgstr ""
 
-msgid "BPMN swim lanes become :ref:`roles <roles>` in Signavio Workflow"
+msgid "Imported BPMN elements"
 msgstr ""
 
-msgid "tasks become :ref:`user tasks <user-task>` in Signavio Workflow"
+msgid "BPMN element"
 msgstr ""
 
-msgid "Signavio Workflow removes unsupported elements, such as timer events."
+msgid "Action type"
+msgstr ""
+
+msgid "Business rule task"
+msgstr ""
+
+msgid ":ref:`dmn`"
+msgstr ""
+
+msgid "Call activity"
+msgstr ""
+
+msgid ":ref:`sub-process`"
+msgstr ""
+
+msgid "End event"
+msgstr ""
+
+msgid ":ref:`end-event`"
+msgstr ""
+
+msgid "Exclusive gateway"
+msgstr ""
+
+msgid ":ref:`exclusive-gateway`"
+msgstr ""
+
+msgid "Intermediate timer event"
+msgstr ""
+
+msgid ":ref:`intermediate-timer-event`"
+msgstr ""
+
+msgid "Manual task"
+msgstr ""
+
+msgid ":ref:`user-task`"
+msgstr ""
+
+msgid "Parallel gateway"
+msgstr ""
+
+msgid ":ref:`parallel-gateway`"
+msgstr ""
+
+msgid "Script task"
+msgstr ""
+
+msgid ":ref:`javascript`"
+msgstr ""
+
+msgid "Send task (``type=email``)"
+msgstr ""
+
+msgid ":ref:`send-email`"
+msgstr ""
+
+msgid "Service task (``type=changeState``)"
+msgstr ""
+
+msgid "Signavio Process Editor state change"
+msgstr ""
+
+msgid "Service task (``type=boxFileUpload``)"
+msgstr ""
+
+msgid ":ref:`box-upload`"
+msgstr ""
+
+msgid "Service task (``type=googleAddCalendarEvent``)"
+msgstr ""
+
+msgid ":ref:`add-calendar-event`"
+msgstr ""
+
+msgid "Service task (``type=googleCloudPrint``)"
+msgstr ""
+
+msgid ":ref:`google-print`"
+msgstr ""
+
+msgid "Service task (``type=googleDriveAddRow``)"
+msgstr ""
+
+msgid ":ref:`add-row-to-sheet`"
+msgstr ""
+
+msgid "Service task (``type=googleDriveFileUpload``)"
+msgstr ""
+
+msgid ":ref:`google-drive`"
+msgstr ""
+
+msgid "Start event"
+msgstr ""
+
+msgid ":ref:`start-event`"
+msgstr ""
+
+msgid "Sub-process (embedded)"
+msgstr ""
+
+msgid "Swim lanes"
+msgstr ""
+
+msgid ":ref:`roles`"
+msgstr ""
+
+msgid "Task"
+msgstr ""
+
+msgid "User task"
+msgstr ""
+
+msgid "Signavio Workflow removes unsupported elements, such as message events."
 msgstr ""
 
 msgid "BPMN export"
@@ -699,6 +814,15 @@ msgstr ""
 #~ msgid ""
 #~ msgstr ""
 
+#~ msgid "BPMN swim lanes become :ref:`roles <roles>` in Signavio Workflow"
+#~ msgstr ""
+
+#~ msgid "tasks become :ref:`user tasks <user-task>` in Signavio Workflow"
+#~ msgstr ""
+
+#~ msgid "Signavio Workflow removes unsupported elements, such as timer events."
+#~ msgstr ""
+
 #~ msgid "BPMN swim lanes become :ref:`roles <roles>` in Effektif"
 #~ msgstr ""
 
@@ -715,5 +839,14 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Form documents"
+#~ msgstr ""
+
+#~ msgid ":ref:`dmn-rule-task`"
+#~ msgstr ""
+
+#~ msgid ":ref:`javascript-action-script-task`"
+#~ msgstr ""
+
+#~ msgid "Send task"
 #~ msgstr ""
 

@@ -1,3 +1,5 @@
+.. _parallel-gateway:
+
 Parallel Gateway
 ----------------
 
