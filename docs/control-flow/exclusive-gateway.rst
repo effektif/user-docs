@@ -1,3 +1,5 @@
+.. _exclusive-gateway:
+
 Exclusive gateway
 -----------------
 

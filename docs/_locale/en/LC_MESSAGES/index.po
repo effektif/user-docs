@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Effektif User Manual 2.17.3\n"
@@ -27,15 +27,14 @@ msgstr ""
 #~ msgid "Contents:"
 #~ msgstr ""
 
-#~ msgid "If you don’t want to read a manual, you can skip to the first tutorial."
+#~ msgid ""
+#~ "If you don’t want to read a manual, you can skip to the first tutorial."
 #~ msgstr ""
 
 #~ msgid ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "If you don’t want to read a "
-#~ "manual, you can skip to the first"
-#~ " :ref:`tutorial <tutorials>`."
+#~ "If you don’t want to read a manual, you can skip to the first :ref:`tutorial"
+#~ " <tutorials>`."
 #~ msgstr ""
-
