@@ -18,7 +18,7 @@ Signavio Workflow does not support all BPMN 2.0 elements,
 so the process may appear differently in Signavio Workflow.
 The following table lists supported BPMN elements, and the corresponding action type.
 
-.. list-table:: Imported BPMN elements
+.. list-table:: Supported BPMN elements
    :header-rows: 1
 
    * - BPMN element
