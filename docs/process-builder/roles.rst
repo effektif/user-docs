@@ -25,7 +25,7 @@ Similarly, Signavio Workflow role assignments don’t change during a case.
 Signavio Workflow automatically assigns each new task with a role assignment to the person who already has the role.
 
 In Signavio Workflow, a process role works like a workflow variable that you use to assigning tasks.
-A role variable has the :ref:`type-user` and stores a single user.
+A role variable has the :ref:`type-user` type and stores a single user.
 
 These process roles differ from organization roles.
 For example, you can have the *Team lead* role in your organization, an assignment that does not necessarily have an end date.
