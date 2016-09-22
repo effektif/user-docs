@@ -87,7 +87,7 @@ The assignee’s :ref:`tasks inbox <tasks-inbox>` lists assigned tasks,
 and the assignee receives task :ref:`notifications <notifications>` and :ref:`reminders <reminders>`.
 
 You can assign a task from anywhere a task appears in a task list.
-To assign the task, click the assignee button immediately to the left of the task name,
+First, click the assignee button immediately to the left of the task name,
 to open the list of candidates.
 
 .. figure:: /_static/images/tasks/assign.png
