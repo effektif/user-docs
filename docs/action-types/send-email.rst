@@ -20,7 +20,7 @@ To
     Note that if you enter a plain email address, you must then select it from the pick list.
 
 Reply to
-	Signavio Workflow sends emails from the address `notifications@workflow.signavio.com`, which you cannot reply to.
+	Signavio Workflow sends emails from the address `notifications@workflow.signavio.com` (Europe server), respectively `notifications@workflow-us.signavio.com` (US server) , which you cannot reply to.
 	If you set this field to an alternative email address, you override the address for replies to the email.
 
 Subject
