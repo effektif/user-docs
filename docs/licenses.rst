@@ -27,7 +27,7 @@ Enterprise Cloud Free Trial
 ---------------------------
 
 The free trial license lets you try the full version of the software for a limited period without purchasing a license.
-To create a trial license, use the `registration <https://workflow.signavio.com/registration>`_ page.
+To create a trial license, use the registration page (`Europe server <https://workflow.signavio.com/registration>`_, `US server <https://workflow-us.signavio.com/registration>`_).
 When the trial expires, Signavio Workflow will send you an email inviting you to purchase licenses.
 
 
@@ -52,7 +52,7 @@ A free *Developer Cloud* license allows developers to create and test process mo
 You can only use this license in an organisation with a single user, which means that multiple people cannot use it for collaborative process execution.
 
 To register for a Developer Cloud license, first register for the free trial.
-Then use the `purchasing <https://workflow.signavio.com/buy>`_ page to downgrade the license to a Developer Cloud license.
+Then use the purchasing page (`Europe server <https://workflow.signavio.com/buy>`_, `US server <https://workflow-us.signavio.com/buy>`_) to downgrade the license to a Developer Cloud license.
 
 
 Academic Cloud
@@ -63,5 +63,5 @@ You may only use this license if you have a valid university email address.
 You may only use this license for educational purposes and not for administrative processes in an educational institution.
 
 To register for an academic license, first register for the free trial.
-Then use the *academic version* link at the bottom of the `purchasing <https://workflow.signavio.com/buy>`_ page to extend the license period for one year.
+Then use the *academic version* link at the bottom of the purchasing page (`Europe server <https://workflow.signavio.com/buy>`_, `US server <https://workflow-us.signavio.com/buy>`_) to extend the license period for one year.
 Alternatively, use the *Student? Click here* link at the bottom of the :ref:`billing` page in the application.
