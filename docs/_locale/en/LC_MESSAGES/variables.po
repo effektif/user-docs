@@ -1,235 +1,246 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-30 18:58+0200\n"
+"POT-Creation-Date: 2016-09-01 18:37+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
 
 msgid "Variables"
 msgstr ""
 
-msgid "Data types"
-msgstr ""
-
-msgid "File type"
-msgstr ""
-
-msgid "The *file* type stores a file."
-msgstr ""
-
-msgid "User type"
-msgstr ""
-
-msgid "Email address type"
-msgstr ""
-
-msgid "The *email address* type stores an email address."
-msgstr ""
-
-msgid "Email type"
-msgstr ""
-
-msgid "ID type"
-msgstr ""
-
-msgid "Object types"
-msgstr ""
-
-msgid "List type"
-msgstr ""
-
 msgid ""
-"When using expressions or configuring some action, you refer to workflow "
-"data. This can use references to variables, or to fields inside composite "
-"variables. The user interface guides you and shows the options you have."
-msgstr ""
-
-msgid ""
-"A variable of type *user* refers to a user in your organization. A user has "
-"an object type, with the following properties:"
-msgstr ""
-
-msgid ""
-"The *email type* stores an email, which the email trigger uses. A variable "
-"stores the email that triggers the process. You can use the email’s data "
-"fields, such as *from address* or the attachments, later in the process."
-msgstr ""
-
-msgid "An email has a composite type, with the properties:"
-msgstr ""
-
-msgid ""
-"Objects have a composite type, with a list of named fields. For example: a "
-"user has an object type, with fields such as ``firstName``, ``lastName``, "
-"``mailAddress``."
-msgstr ""
-
-msgid ""
-"A list simply represents a collection of values. The list has an order and "
-"all elements have a single specified type."
-msgstr ""
-
-msgid "Case ID"
-msgstr ""
-
-msgid "Case number"
-msgstr ""
-
-msgid "Creator"
-msgstr ""
-
-msgid "Start date"
-msgstr ""
-
-msgid "Due date"
-msgstr ""
-
-msgid "Case link"
+"*Variables* contain the workflow data that the process defines. You can "
+"use variables in a case name template and when configuring the output of "
+"some action types. For example, you can use variables to repeat workflow "
+"data on a :ref:`user task form <user-task-form>`, or include a variable "
+"value in an :ref:`email task <send-email>` subject line or body text."
 msgstr ""
 
 msgid ""
 "These variables contain all of the information from forms as well as "
-"information required by the process actions. Each case stores its own values"
-" for each workflow variable."
+"information required by the process actions. Each case stores its own "
+"values for each workflow variable."
 msgstr ""
 
 msgid ""
 "You will usually add a variable to your workflow by adding a :ref:`form "
-"field <form-fields>`. You can also create variables in a :ref:`javascript`, "
-"to capture data that the script retrieves or calculates."
+"field <form-fields>`. You can also create variables in a "
+":ref:`javascript`, to capture data that the script retrieves or "
+"calculates."
+msgstr ""
+
+msgid ""
+"A trigger form that populates *Name* and *Date of birth* variables for "
+"use in a workflow"
+msgstr ""
+
+msgid ""
+"In addition to your own workflow variables, Signavio Workflow "
+"automatically creates variables that give you access to additional data "
+"in each case. The :ref:`case-variable` contains data from when Signavio "
+"Workflow creates the case. An :ref:`email-trigger` adds an :ref:`Email "
+"variable <trigger-email-variable>` that contains the trigger email."
+msgstr ""
+
+msgid ""
+"Variables can have different :ref:`data-types` that determine which kind "
+"of data the variable stores, such as text or a date, and whether the data"
+" is a single value or contains multiple fields."
 msgstr ""
 
 msgid "Case variable"
 msgstr ""
 
 msgid ""
-"*Variables* contain the workflow data that the process defines. You can use "
-"variables in a case name template and when configuring the output of some "
-"action types. For example, you can use variables to repeat workflow data on "
-"a :ref:`user task form <user-task-form>`, or include a variable value in an "
-":ref:`email task <send-email>` subject line or body text."
-msgstr ""
-
-msgid ""
-"Variables can have different :ref:`data-types` that determine which kind of "
-"data the variable stores, such as text or a date, and whether the data is a "
-"single value or contains multiple fields."
-msgstr ""
-
-msgid ""
-"Variables store workflow information. Each variable has a user-defined name "
-"and a type. A type can represent a single value, like text or an email "
-"address. ‘Composite’ types such as user, file or email consist of several "
-"values. Composite types have a list of fields."
-msgstr ""
-
-msgid "Text type"
-msgstr ""
-
-msgid "The *Text* type stores plain text."
-msgstr ""
-
-msgid "The unique identifier for this user (:ref:`type-id`)"
-msgstr ""
-
-msgid "The user’s first name (:ref:`type-text`)"
-msgstr ""
-
-msgid "The user’s last name (:ref:`type-text`)"
-msgstr ""
-
-msgid "The HTML code for an HTML email (optional, :ref:`type-text`)"
-msgstr ""
-
-msgid "The user’s email address (:ref:`type-email-address`)"
-msgstr ""
-
-msgid "The unique identifier for this email (:ref:`type-id`)"
-msgstr ""
-
-msgid "The sender email address (:ref:`type-email-address`)"
-msgstr ""
-
-msgid ""
-"The email addresses of the recipients (:ref:`List <type-list>` of :ref"
-":`type-email-address`)"
-msgstr ""
-
-msgid ""
 "The *Case* variable contains the data that starting a case creates. This "
-"variable has several fields. You cannot change most of this data, except for"
-" the case name and due date."
+"variable has several fields. You cannot change most of this data, except "
+"for the case name and due date."
+msgstr ""
+
+msgid "An email has a composite type, with the follow properties."
+msgstr ""
+
+msgid "Property"
+msgstr ""
+
+msgid "JavaScript"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Case ID"
+msgstr ""
+
+msgid "``id``"
+msgstr ""
+
+msgid ":ref:`type-id`"
+msgstr ""
+
+msgid "Unique identifier"
 msgstr ""
 
 msgid "Name"
 msgstr ""
 
+msgid "``name``"
+msgstr ""
+
+msgid ":ref:`type-text`"
+msgstr ""
+
+msgid "Entered or generated editable name"
+msgstr ""
+
+msgid "Case number"
+msgstr ""
+
+msgid "``caseNumber``"
+msgstr ""
+
+msgid ":ref:`type-number`"
+msgstr ""
+
+msgid "Sequential case number"
+msgstr ""
+
+msgid "Creator"
+msgstr ""
+
+msgid "``creatorId``"
+msgstr ""
+
+msgid ":ref:`type-user`"
+msgstr ""
+
+msgid "User who created the case"
+msgstr ""
+
+msgid "Start date"
+msgstr ""
+
+msgid "``createTime``"
+msgstr ""
+
+msgid ":ref:`type-date`"
+msgstr ""
+
+msgid "Date and time the *Creator* started the case"
+msgstr ""
+
+msgid "Due date"
+msgstr ""
+
+msgid "``dueDate``"
+msgstr ""
+
+msgid "Optional editable due date"
+msgstr ""
+
+msgid "Case link"
+msgstr ""
+
+msgid "``link``"
+msgstr ""
+
+msgid "URL of the case page in Signavio Workflow"
+msgstr ""
+
 msgid ""
-"The *Due date* field (:ref:`type-date`) stores the due date that case "
-"participants can set on the case view. Unlike the other case variables, the "
-"due date does not always have a value."
-msgstr ""
-
-msgid "Number type"
-msgstr ""
-
-msgid "The *Number* type stores a number."
-msgstr ""
-
-msgid "Date type"
-msgstr ""
-
-msgid "The *Date* type stores a date, or a date and a time of day."
+"The case variable’s *ID* uniquely identifies this case among cases for "
+"all processes."
 msgstr ""
 
 msgid ""
-"The case variable’s *ID* (:ref:`type-id`) uniquely identifies this case "
-"among cases for all processes."
+"The *Name* field stores the name that either the :ref:`case-creator` "
+"entered manually, or that Signavio Workflow generated. Case participants "
+"can edit this name. You might use the case name variable in a :ref:`send-"
+"email` action configuration, to send emails that clearly identify their "
+"context by prefixing the subject line with the case name."
 msgstr ""
 
 msgid ""
-"The *Start date* (:ref:`type-date`) records when the :ref:`case-creator` "
-"started the case. In an order process, for example, you could use this as "
-"the order date."
+"The *Number* field stores a sequential case number. Each process uses a "
+"separate case number sequence for its cases. In a *Handle customer order*"
+" process, you could use the case number as a generated order reference, "
+"for example."
 msgstr ""
 
 msgid ""
-"The *Number* field (:ref:`type-number`) stores a sequential case number. "
-"Each process uses a separate case number sequence for its cases. In a "
-"*Handle customer order* process, you could use the case number as a "
-"generated order reference, for example."
-msgstr ""
-
-msgid "The sender’s display name (optional, :ref:`type-text`)"
+"The *Creator* field records the Signavio Workflow user who started the "
+"case. The :ref:`type-user` type includes name and email address fields, "
+"so you can use the case creator to configure a :ref:`send-email` action "
+"that automatically notifies the requestor of an approval process’ result."
 msgstr ""
 
 msgid ""
-"The email address to send replies to (optional, :ref:`type-email-address`)"
+"The *Start date* records when the :ref:`case-creator` started the case. "
+"In an order process, for example, you could use this as the order date."
 msgstr ""
 
 msgid ""
-"Email addresses that receive a copy of the message (optional, :ref:`List "
-"<type-list>` of :ref:`type-email-address`)"
-msgstr ""
-
-msgid "The subject of the email (optional, :ref:`type-text`)"
-msgstr ""
-
-msgid "The plain text message (optional, :ref:`type-text`)"
+"The *Due date* field stores the due date that case participants can set "
+"on the case view. Unlike the other case variables, the due date does not "
+"always have a value."
 msgstr ""
 
 msgid ""
-"The files to attach to the email (optional, :ref:`List <type-list>` of :ref"
-":`type-file`)"
+"The *Link* field stores the URL of the case page in Signavio Workflow. "
+"You can include this link in the body of email you send using a :ref"
+":`send-email` action, so that the recipient can immediately open the case"
+" in Signavio Workflow. Signavio Workflow includes this link its own "
+"built-in :ref:`email notifications <notifications>`."
 msgstr ""
 
-msgid "Choice type"
+msgid "Trigger email variable"
+msgstr ""
+
+msgid ""
+"The *Trigger email* variable contains the email that started the case, "
+"for processes that have an :ref:`email-trigger`. You can use this "
+"variable to use information from the email that started the case during "
+"the process, and to send email to the sender."
+msgstr ""
+
+msgid ""
+"This variable has the fields that the :ref:`type-email` type defines. You"
+" cannot change their values."
+msgstr ""
+
+msgid "Data types"
+msgstr ""
+
+msgid ""
+"Variables store workflow information. Each variable has a user-defined "
+"name and a type. A type can represent a single value, like text or an "
+"email address. ‘Composite’ types such as user, file or email consist of "
+"several values."
+msgstr ""
+
+msgid ""
+"Composite types have a list of fields, each with its own (possibly "
+"composite) type. The table of fields includes the JavaScript name that "
+"you use to access a field in JavaScript code."
+msgstr ""
+
+msgid ""
+"When using expressions or configuring some action, you refer to workflow "
+"data. This can use references to variables, or to fields inside composite"
+" variables. The user interface guides you and shows the options you have."
+msgstr ""
+
+msgid "Choice"
 msgstr ""
 
 msgid ""
@@ -237,7 +248,164 @@ msgid ""
 "options."
 msgstr ""
 
-msgid "Link type"
+msgid "Date"
+msgstr ""
+
+msgid "The *Date* type stores a date, or a date and a time of day."
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid ""
+"The *email type* stores an email, which the email trigger uses. A "
+"variable stores the email that triggers the process. You can use the "
+"email’s data fields, such as *from address* or the attachments, later in "
+"the process."
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+msgid "The unique identifier for this email"
+msgstr ""
+
+msgid "From"
+msgstr ""
+
+msgid "``from``"
+msgstr ""
+
+msgid ":ref:`type-email-address`"
+msgstr ""
+
+msgid "The sender email address"
+msgstr ""
+
+msgid "From name"
+msgstr ""
+
+msgid "``fromName``"
+msgstr ""
+
+msgid "The sender’s display name (optional)"
+msgstr ""
+
+msgid "To"
+msgstr ""
+
+msgid "``to``"
+msgstr ""
+
+msgid ":ref:`type-list` of :ref:`type-email-address`"
+msgstr ""
+
+msgid "The email addresses of the recipients"
+msgstr ""
+
+msgid "Reply to"
+msgstr ""
+
+msgid "``replyTo``"
+msgstr ""
+
+msgid "The email address to send replies to (optional)"
+msgstr ""
+
+msgid "CC"
+msgstr ""
+
+msgid "``cc``"
+msgstr ""
+
+msgid "Email addresses that receive a copy of the message (optional)"
+msgstr ""
+
+msgid "Subject"
+msgstr ""
+
+msgid "``subject``"
+msgstr ""
+
+msgid "The subject of the email (optional)"
+msgstr ""
+
+msgid "Body text"
+msgstr ""
+
+msgid "``bodyText``"
+msgstr ""
+
+msgid "The plain text message (optional)"
+msgstr ""
+
+msgid "Body HTML"
+msgstr ""
+
+msgid "``bodyHtml``"
+msgstr ""
+
+msgid "The HTML code for an HTML email (optional)"
+msgstr ""
+
+msgid "Attachments"
+msgstr ""
+
+msgid "``attachmentIds``"
+msgstr ""
+
+msgid ":ref:`type-list` of :ref:`type-file`"
+msgstr ""
+
+msgid "The files to attach to the email (optional)"
+msgstr ""
+
+msgid "Email address"
+msgstr ""
+
+msgid "The *email address* type stores an email address."
+msgstr ""
+
+msgid "File"
+msgstr ""
+
+msgid "The *file* type stores a file."
+msgstr ""
+
+msgid "Content type"
+msgstr ""
+
+msgid "``contentType``"
+msgstr ""
+
+msgid "The file’s `media type <https://en.wikipedia.org/wiki/Media_type>`_"
+msgstr ""
+
+msgid "File name"
+msgstr ""
+
+msgid "``fileName``"
+msgstr ""
+
+msgid "The file’s name"
+msgstr ""
+
+msgid "Owner"
+msgstr ""
+
+msgid "``owner``"
+msgstr ""
+
+msgid "The user who uploaded the file"
+msgstr ""
+
+msgid ""
+"An ID has special kind of string type. Signavio Workflow creates these "
+"IDs to identify objects; they have no other meaning. An ID string looks "
+"like ``53fae958036471cea136ea83``."
+msgstr ""
+
+msgid "Link"
 msgstr ""
 
 msgid ""
@@ -245,13 +413,77 @@ msgid ""
 "address."
 msgstr ""
 
-msgid "Money type"
+msgid "List"
+msgstr ""
+
+msgid ""
+"A list simply represents a collection of values. The list has an order "
+"and all elements have a single specified type."
+msgstr ""
+
+msgid "Money"
 msgstr ""
 
 msgid "The *Money* type stores a currency amount for a particular currency."
 msgstr ""
 
-msgid "Yes/No Checkbox type"
+msgid "Number"
+msgstr ""
+
+msgid "The *Number* type stores a number."
+msgstr ""
+
+msgid "Object types"
+msgstr ""
+
+msgid ""
+"Objects have a composite type, with a list of named fields. For example: "
+"a user has an object type, with fields such as ``firstName``, "
+"``lastName``, ``mailAddress``."
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "The *Text* type stores plain text."
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid ""
+"A variable of type *user* refers to a user in your organization. A user "
+"has an object type, with the following properties."
+msgstr ""
+
+msgid "The unique identifier for this user"
+msgstr ""
+
+msgid "``emailAddress``"
+msgstr ""
+
+msgid "The user’s email address"
+msgstr ""
+
+msgid "First name"
+msgstr ""
+
+msgid "``firstName``"
+msgstr ""
+
+msgid "The user’s first name"
+msgstr ""
+
+msgid "Last name"
+msgstr ""
+
+msgid "``lastName``"
+msgstr ""
+
+msgid "The user’s last name"
+msgstr ""
+
+msgid "Yes/No Checkbox"
 msgstr ""
 
 msgid ""
@@ -259,133 +491,10 @@ msgid ""
 "*Yes* or *No*."
 msgstr ""
 
-msgid "Trigger email variable"
-msgstr ""
-
-msgid ""
-"The *Trigger email* variable contains the email that started the case, for "
-"processes that have an :ref:`email-trigger`. You can use this variable to "
-"use information from the email that started the case during the process, and"
-" to send email to the sender."
-msgstr ""
-
-msgid ""
-"This variable has the fields that the :ref:`type-email` defines. You cannot "
-"change their values."
-msgstr ""
-
-msgid ""
-"In addition to your own workflow variables, Signavio Workflow automatically "
-"creates variables that give you access to additional data in each case. The "
-":ref:`case-variable` contains data from when Signavio Workflow creates the "
-"case. An :ref:`email-trigger` adds an :ref:`Email variable <trigger-email-"
-"variable>` that contains the trigger email."
-msgstr ""
-
-msgid ""
-"The *Name* field (:ref:`type-text`) stores the name that either the :ref"
-":`case-creator` entered manually, or that Signavio Workflow generated. Case "
-"participants can edit this name. You might use the case name variable in a "
-":ref:`send-email` action configuration, to send emails that clearly identify"
-" their context by prefixing the subject line with the case name."
-msgstr ""
-
-msgid ""
-"The *Creator* field (:ref:`type-user`) records the Signavio Workflow user "
-"who started the case. The :ref:`type-user` includes name and email address "
-"fields, so you can use the case creator to configure a :ref:`send-email` "
-"action that automatically notifies the requestor of an approval process’ "
-"result."
-msgstr ""
-
-msgid ""
-"The *Link* field (:ref:`type-text`) stores the URL of the case page in "
-"Signavio Workflow. You can include this link in the body of email you send "
-"using a :ref:`send-email` action, so that the recipient can immediately open"
-" the case in Signavio Workflow. Signavio Workflow includes this link its own"
-" built-in :ref:`email notifications <notifications>`."
-msgstr ""
-
-msgid ""
-"An ID has special kind of string type. Signavio Workflow creates these IDs "
-"to identify objects; they have no other meaning. An ID string looks like "
-"``53fae958036471cea136ea83``."
-msgstr ""
-
-msgid ""
-"A trigger form that populates *Name* and *Date of birth* variables for use "
-"in a workflow"
-msgstr ""
-
 #~ msgid ""
-#~ "A trigger form that populates a *Reference number* variable for use in a "
-#~ "workflow"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "An ID has special kind of string type. Effektif creates these IDs to "
-#~ "identify objects; they have no other meaning. An ID string looks like "
-#~ "``53fae958036471cea136ea83``."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The *Creator* field (:ref:`type-user`) records the Effektif user who started"
-#~ " the case. The :ref:`type-user` includes name and email address fields, so "
-#~ "you can use the case creator to configure a :ref:`send-email` action that "
-#~ "automatically notifies the requestor of an approval process’ result."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The *Link* field (:ref:`type-text`) stores the URL of the case page in "
-#~ "Effektif. You can include this link in the body of email you send using a "
-#~ ":ref:`send-email` action, so that the recipient can immediately open the "
-#~ "case in Effektif. Effektif includes this link its own built-in :ref:`email "
-#~ "notifications <notifications>`."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The *Name* field (:ref:`type-text`) stores the name that either the :ref"
-#~ ":`case-creator` entered manually, or that Effektif generated. Case "
-#~ "participants can edit this name. You might use the case name variable in a "
-#~ ":ref:`send-email` action configuration, to send emails that clearly identify"
-#~ " their context by prefixing the subject line with the case name."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "In addition to your own workflow variables, Effektif automatically creates "
-#~ "variables that give you access to additional data in each case. The :ref"
-#~ ":`case-variable` contains data from when Effektif creates the case. An :ref"
-#~ ":`email-trigger` adds an :ref:`Email variable <trigger-email-variable>` that"
-#~ " contains the trigger email."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The *Trigger email* variable contains the email that started the case, for "
-#~ "processes that have an :ref:`email-trigger`. You can use this variable to "
-#~ "use information from the email that started the case during the process, and"
-#~ " to send email to the sender. This variable has the fields that the :ref"
-#~ ":`type-email` defines. You cannot change their values."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "In addition to your own workflow variables, Effektif automatically creates "
-#~ "variables that give you access to additional data in each case. The :ref"
-#~ ":`case-variable` contains data from when Effektif creates the case. An :ref"
-#~ ":`email-trigger` adds an :ref:`Email variable <email-variable>` that "
-#~ "contains the trigger email."
 #~ msgstr ""
 
 #~ msgid "The plain text message (:ref:`type-text`)"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The files to attach to the email (:ref:`List <type-list>` of :ref:`type-"
-#~ "file`)"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Email addresses that receive a copy of the message (:ref:`List <type-list>` "
-#~ "of :ref:`type-email-address`)"
 #~ msgstr ""
 
 #~ msgid "The subject of the email (:ref:`type-text`)"
@@ -394,76 +503,7 @@ msgstr ""
 #~ msgid "The sender’s optional display name (:ref:`type-text`)"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "The optional email address to send replies to (:ref:`type-email-address`)"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The *Name* field (:ref:`type-text`) stores the name that either the :ref"
-#~ ":`case-creator` entered manually, or that Effektif generated. Case "
-#~ "participants can edit this name."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The *Number* field (:ref:`type-number`) stores a sequential case number. "
-#~ "Each process uses a separate case number sequence for its cases."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "You might use the case name variable in a :ref:`send-email` action "
-#~ "configuration, to send emails that clearly identify their context by "
-#~ "prefixing the subject line with the case name."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "In a *Handle customer order* process, you could use the case number as a "
-#~ "generated order reference, for example."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The case variable’s *ID* (:ref:`type-id`) uniquely identifies this case, for"
-#~ " all processes."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The *Creator* field (:ref:`type-user`) records the Effektif user who started"
-#~ " the case."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The *Start date* (:ref:`type-date`) records when the :ref:`case-creator` "
-#~ "started the case."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The *Link* field (:ref:`type-text`) stores the URL of the case page in "
-#~ "Effektif."
-#~ msgstr ""
-
 #~ msgid "Case name"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "In addition to your own workflow variables, Effektif automatically creates "
-#~ "variables that give you access to additional data in each case. The "
-#~ ":ref:`Case variable <case-variable>` contains data from when Effektif "
-#~ "creates the case. An :ref:`email-trigger` adds an :ref:`Email variable "
-#~ "<email-variable>` that contains the trigger email."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "In addition to your own workflow variables, Effektif automatically creates "
-#~ "variables that give you access to additional data in each case. The "
-#~ ":ref:`Case variable case-variable` contains data from when Effektif creates "
-#~ "the case. An :ref:`email-trigger` adds an :ref:`Email variable <email-"
-#~ "variable>` that contains the trigger email."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "In addition to your own workflow variables, Effektif automatically creates "
-#~ "variables that give you access to additional data in each case. The :ref"
-#~ ":`case-variable` contains data from when Effektif creates the case. An :ref"
-#~ ":`email-trigger` adds an *Email variable* that contains the trigger email."
 #~ msgstr ""
 
 #~ msgid "(:ref:`type-email-address`) The sender email address"
@@ -476,16 +516,6 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "(:ref:`type-id`) The unique identifier for this email"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "(:ref:`List <type-list>` of :ref:`type-email-address`) The email addresses "
-#~ "of the recipients"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "(:ref:`List <type-list>` of :ref:`type-email-address`) Email addresses that "
-#~ "receive a carbon copy of the message"
 #~ msgstr ""
 
 #~ msgid "(:ref:`type-id`) The unique identifier for this user"
@@ -503,50 +533,16 @@ msgstr ""
 #~ msgid ":ref:`type-id`: The unique identifier for this email"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "(:ref:`list <type-list>` of :ref:`type-email-address`) The email addresses "
-#~ "of the recipients"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "(:ref:`list <type-list>` of :ref:`type-email-address`) Email addresses that "
-#~ "receive a carbon copy of the message"
-#~ msgstr ""
-
 #~ msgid "(:ref:`type-text`) The plain text message"
 #~ msgstr ""
 
 #~ msgid "(:ref:`type-text`) The HTML code for an HTML email (optional)"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "(:ref:`List <type-list>` of :ref:`type-file`) The files to attach to the "
-#~ "email"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "(:ref:`emailAddress <type-email-address>`) The email address of the user"
-#~ msgstr ""
-
 #~ msgid ":ref:`id <type-id>`: The unique identifier for this email"
 #~ msgstr ""
 
 #~ msgid "(:ref:`emailAddress <type-email-address>`) The sender email address"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "(:ref:`list <type-list>` of :ref:`emailAddress <type-email-address>`) The "
-#~ "email addresses of the recipients"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "(:ref:`list <type-list>` of :ref:`emailAddress <type-email-address>`) Email "
-#~ "addresses that receive a carbon copy of the message"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "(:ref:`list <type-list>` of :ref:`file <type-file>`) The files to attach to "
-#~ "the email"
 #~ msgstr ""
 
 #~ msgid "(:ref:`string <type-text>`) The user’s first name"
@@ -585,162 +581,107 @@ msgstr ""
 #~ msgid "(:ref:`string <type-string>`) The plain text message"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "(:ref:`string <type-string>`) The HTML code for an HTML email (optional)"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Variables store workflow information. Each variable has a user-defined name "
-#~ "and a type. A type can represent a single value, like a string (text) or an "
-#~ "email address. ‘Composite’ types such as user, file or email consist of "
-#~ "several values. Composite types have a list of fields."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "A workflow variable can contain a single value, such as a reference number, "
-#~ "or contain multiple fields. An email variable’s fields, for example, include"
-#~ " `From`, `To`, `Subject` and `Attachments`."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "In addition to your own workflow variables, Effektif automatically creates "
-#~ "variables that give you access to additional information in each case. The "
-#~ ":ref:`case-variable` contains data from when Effektif creates the case. The "
-#~ "*Email variable* contains the trigger email, for a process that uses an :ref"
-#~ ":`email-trigger`."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "*Variables* contain the workflow data that the process defines. You can use "
-#~ "variables in a case name template and when configuring the output of some "
-#~ "action types, to repeat workflow data on a :ref:`user task form <user-task-"
-#~ "form>`, or include a variable value in an :ref:`email task <send-email>` "
-#~ "subject line or body text, for example."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "In addition to your own workflow variables, Effektif automatically creates "
-#~ "variables that give you access to additional information in each case. The "
-#~ ":ref:`case-variable` contains data from Effektif creates the case. The "
-#~ "*Email variable* contains the trigger email, for a process that uses an :ref"
-#~ ":`email-trigger`."
-#~ msgstr ""
-
 #~ msgid "*Case* variable"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "In addition to your own workflow variables, Effektif automatically creates "
-#~ "variables that give you access to additional information in each case. :ref"
-#~ ":`case-variable` contains data from Effektif creates the case. The *Email "
-#~ "variable* contains the trigger email, for a process that uses an :ref"
-#~ ":`email-trigger`."
 #~ msgstr ""
 
 #~ msgid "The *Case* variable"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "The forms and some of the actions use workflow data, called *variables*. You"
-#~ " can use variables in a case name template and when configuring the output "
-#~ "of other actions, to repeat workflow data on a :ref:`user task form <user-"
-#~ "task-form>`, or include a variable value in an :ref:`email task <send-"
-#~ "email>` subject line or body text, for example."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The most common way to add a variable to your workflow is to add a "
-#~ ":ref:`form field <form-fields>`. You can also create variables in a "
-#~ ":ref:`javascript`, to capture data that the script retrieves or calculates."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "A workflow variable can contain a single value, such as a reference number, "
-#~ "or containing multiple fields, such as an email, which has fields like "
-#~ "`from`, `to`, `subject` and `attachments`."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The forms and some of the actions use workflow data, called *variables*. The"
-#~ " most common way to add a variable to your workflow is to add a :ref:`form "
-#~ "field <form-fields>`. You can also create variables in a :ref:`javascript`, "
-#~ "to capture data that the script retrieves or calculates."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The forms and some of the actions use workflow data, called *variables*. The"
-#~ " most common way to add a variable to your workflow is to add a :ref:`form "
-#~ "<forms>` field. You can also create variables in a :ref:`javascript`, to "
-#~ "capture data that the script retrieves or calculates."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The forms and some of the actions use workflow data, called *variables*. "
-#~ "Effektif usually creates workflow variables automatically, as when creating "
-#~ "a new form field."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Workflow information is stored in variables. Each variable has a user-"
-#~ "defined name and a type. A type can be a single value, like a string (text) "
-#~ "or an email address. Other types like user, file or email are composite - "
-#~ "consisting of several values. Composite types have a list of fields."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "When using expressions or configuring some action, references are made to "
-#~ "workflow data. These can be references to variables, or to fields inside "
-#~ "composite variables. The user interface guides you and shows the options you"
-#~ " have."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "A variable of type *user* refers to a user in your organization. A user is "
-#~ "an object type with the following properties:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The *email type* stores an email, and is used by the email trigger. The "
-#~ "email that triggers the process will be stored as a variable. The data "
-#~ "fields in the email, such as *from address* or the attachments can be used "
-#~ "later on."
-#~ msgstr ""
-
 #~ msgid "An email is a composite type with the properties:"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "The ID type is a special kind of string. These IDs identify objects and they"
-#~ " are always created by Effektif, and have no other meaning. An example of an"
-#~ " ID string is ``53fae958036471cea136ea83``."
+#~ msgid "An email has a composite type, with the properties:"
+#~ msgstr ""
+
+#~ msgid "The HTML code for an HTML email (optional, :ref:`type-text`)"
+#~ msgstr ""
+
+#~ msgid "The unique identifier for this email (:ref:`type-id`)"
+#~ msgstr ""
+
+#~ msgid "The sender email address (:ref:`type-email-address`)"
+#~ msgstr ""
+
+#~ msgid "The sender’s display name (optional, :ref:`type-text`)"
+#~ msgstr ""
+
+#~ msgid "The subject of the email (optional, :ref:`type-text`)"
+#~ msgstr ""
+
+#~ msgid "The plain text message (optional, :ref:`type-text`)"
+#~ msgstr ""
+
+#~ msgid "Choice type"
+#~ msgstr ""
+
+#~ msgid "Date type"
+#~ msgstr ""
+
+#~ msgid "Email type"
+#~ msgstr ""
+
+#~ msgid "Email address type"
+#~ msgstr ""
+
+#~ msgid "File type"
+#~ msgstr ""
+
+#~ msgid "ID type"
+#~ msgstr ""
+
+#~ msgid "Link type"
+#~ msgstr ""
+
+#~ msgid "List type"
+#~ msgstr ""
+
+#~ msgid "Money type"
+#~ msgstr ""
+
+#~ msgid "Number type"
+#~ msgstr ""
+
+#~ msgid "Text type"
+#~ msgstr ""
+
+#~ msgid "User type"
+#~ msgstr ""
+
+#~ msgid "Yes/No Checkbox type"
+#~ msgstr ""
+
+#~ msgid ":ref:`List <type-list>` of :ref:`type-email-address`"
+#~ msgstr ""
+
+#~ msgid ":ref:`List <type-list>` of :ref:`type-file`"
+#~ msgstr ""
+
+#~ msgid "The unique identifier for this user (:ref:`type-id`)"
+#~ msgstr ""
+
+#~ msgid "The user’s email address (:ref:`type-email-address`)"
+#~ msgstr ""
+
+#~ msgid "The user’s first name (:ref:`type-text`)"
+#~ msgstr ""
+
+#~ msgid "The user’s last name (:ref:`type-text`)"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Object types are composite data types that have a list of fields. Each field"
-#~ " has a name. For example: a user is an object type, with fields such as "
-#~ "``firstName``, ``lastName``, ``mailAddress``."
+#~ "This variable has the fields that "
+#~ "the :ref:`type-email` defines. You "
+#~ "cannot change their values."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "A list is simply a collection of values. The list is ordered and all "
-#~ "elements are of a specified type."
+#~ "Variables store workflow information. Each "
+#~ "variable has a user-defined name "
+#~ "and a type. A type can represent"
+#~ " a single value, like text or "
+#~ "an email address. ‘Composite’ types such"
+#~ " as user, file or email consist "
+#~ "of several values. Composite types have"
+#~ " a list of fields."
 #~ msgstr ""
 
-#~ msgid ""
-#~ "The forms and some of the actions are linked to workflow data, called "
-#~ "*variables*. Workflow variables are mostly created automatically, as when "
-#~ "creating a new form field."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "When an action requires data, like the ``files`` in a `Google File Upload`, "
-#~ "it’s possible to bind those input parameters to variables or fields inside "
-#~ "variable objects."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The forms and some of the actions are linked to workflow data, called "
-#~ "*variables*. Workflow variables are mostly created automatically, as when "
-#~ "creating a new form field. Each variable has a data type. This section lists"
-#~ " the data types variables can have."
-#~ msgstr ""

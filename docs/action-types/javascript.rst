@@ -25,6 +25,9 @@ The test runner displays the results underneath:
 
    JavaScript test output
 
+The middle section shows the :ref:`process variables <variables>`, starting with just the *Case* variable for a new process.
+If you add an :ref:`email trigger <email-trigger>` to the process, you will also see a *Trigger email* variable.
+
 Next, we'll show how to work with data.
 Suppose that the process includes a form that has each type of field and looks like this:
 
@@ -39,6 +42,9 @@ When you open the JavaScript configuration again, you'll see the variables secti
    JavaScript variables
 
 Click `Show all fields` and select the variables you want to access in the script.
+The script can access the variables using the *JavaScript variable* name from the table.
+To access object variables’ fields, use the field names specified for the corresponding data type: :ref:`Case <case-variable>`, :ref:`type-email`, :ref:`type-file` or :ref:`type-user`.
+
 In this example (below), you have selected all variables.
 For each variable that you select, you get an input field to specify a test value.
 Here you see all fields with a test value.
@@ -52,6 +58,9 @@ When clicking `Test it` again, we can see the JSON structure of the variable dat
 .. figure:: /_static/images/action-types/javascript/javascript-7.png
 
    JavaScript JSON values
+
+The *contract* and *salesRepresentative* variables have complex types, :ref:`type-file` and :ref:`type-user`, so the table only shows an ID.
+The *Updated value* column shows the result of assigning new values to these variables in the script.
 
 You can use these variables to send data to an external web service, 
 using the `request module <https://github.com/mikeal/request/blob/master/README.md>`_.
