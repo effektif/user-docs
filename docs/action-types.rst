@@ -13,3 +13,4 @@ Actions typically have a configuration panel that opens when you select the acti
 .. include:: action-types/javascript.rst
 .. include:: action-types/sub-process.rst
 .. include:: action-types/dmn.rst
+.. include:: action-types/map-variables.rst
