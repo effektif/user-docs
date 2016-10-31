@@ -1,4 +1,4 @@
-.. _settings:
+_.. _settings:
 
 Organization settings
 =====================
@@ -100,3 +100,15 @@ This page shows:
 
 The left-hand sidebar summarises your current license type.
 Click the *Upgrade your license* button to upgrade to another license type.
+
+Single Sign-On
+--------------
+
+Single sign-on (SSO) makes it possible to access Signavio Workflow using an existing corporate user account, so you do not have to log in to Signavio Workflow separately.
+This feature is available on request, to organisations with an :ref:`enterprise_cloud` license.
+To activate SSO for your organization, send a request using the *Send feedback* option in the application.
+
+`G Suite <https://support.google.com/a/answer/6087519?hl=en&ref_topic=6304963>`_ (formerly Google Apps) is currently the only supported SSO provider.
+
+Signavio Workflow supports `Security Assertion Markup Language (SAML) 2.0 <https://en.wikipedia.org/wiki/SAML_2.0>`_ Identity Provider-initiated SSO using the HTTP POST binding.
+Please contact us if you want to use a SAML 2.0 Identity Provider that is not listed above.
