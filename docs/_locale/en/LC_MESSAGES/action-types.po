@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-27 18:00+0200\n"
+"POT-Creation-Date: 2016-10-31 13:19+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -521,9 +521,7 @@ msgid ""
 "The JavaScript action, called a *Script Task* in BPMN, allows developers "
 "to add JavaScript to process execution. Signavio Workflow runs the code "
 "on the server, using `Node.js <https://nodejs.org>`_. As well as Node.js’"
-" JavaScript API, scripts can use the `lodash "
-"<https://www.npmjs.com/package/lodash>`_ and `request "
-"<https://www.npmjs.com/package/request>`_ libraries."
+" JavaScript API, scripts can use additional libraries (see below)."
 msgstr ""
 
 msgid ""
@@ -541,6 +539,85 @@ msgid ""
 "API for log output when testing scripts."
 msgstr ""
 
+msgid "JavaScript libraries"
+msgstr ""
+
+msgid ""
+"Script tasks support a number of popular JavaScript libraries. To import "
+"a package, use our custom ``require`` function:"
+msgstr ""
+
+msgid "You can also choose another name for the import:"
+msgstr ""
+
+#: ../../action-types/javascript.rst
+msgid "Supported JavaScript libraries"
+msgstr ""
+
+msgid "Library"
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "`CSV <https://www.npmjs.com/package/csv>`_"
+msgstr ""
+
+msgid "``csv``"
+msgstr ""
+
+msgid "CSV generation, parsing, transformation and serialization"
+msgstr ""
+
+msgid "`Lodash <https://www.npmjs.com/package/lodash>`_"
+msgstr ""
+
+msgid "``lodash``"
+msgstr ""
+
+msgid "Convenience functions for working with collections and values"
+msgstr ""
+
+msgid "`moment <https://www.npmjs.com/package/moment>`_"
+msgstr ""
+
+msgid "``moment``"
+msgstr ""
+
+msgid ""
+"Parse, validate, manipulate, and display dates; with `Twix "
+"<https://www.npmjs.com/package/twix>`_ date range support"
+msgstr ""
+
+msgid "`request <https://www.npmjs.com/package/request>`_"
+msgstr ""
+
+msgid "``request``"
+msgstr ""
+
+msgid "Simplified HTTP request client"
+msgstr ""
+
+msgid "`validator <https://www.npmjs.com/package/validator>`_"
+msgstr ""
+
+msgid "``validator``"
+msgstr ""
+
+msgid "String validation and sanitization"
+msgstr ""
+
+msgid ""
+"The ``_`` (Lodash) and ``request`` packages are always imported, for "
+"backwards compatibility."
+msgstr ""
+
+msgid "Testing scripts"
+msgstr ""
+
 msgid ""
 "The lower section allows you to test the script. Click `Test it` to "
 "execute the JavaScript code. The test runner displays the results "
@@ -555,6 +632,9 @@ msgid ""
 "starting with just the *Case* variable for a new process. If you add an "
 ":ref:`email trigger <email-trigger>` to the process, you will also see a "
 "*Trigger email* variable."
+msgstr ""
+
+msgid "Using process variables"
 msgstr ""
 
 msgid ""
@@ -604,6 +684,9 @@ msgid ""
 ":ref:`type-file` and :ref:`type-user`, so the table only shows an ID. The"
 " *Updated value* column shows the result of assigning new values to these"
 " variables in the script."
+msgstr ""
+
+msgid "Calling an external web service"
 msgstr ""
 
 msgid ""
@@ -912,5 +995,18 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Transfer the BPMN model to Signavio Workflow."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The JavaScript action, called a *Script"
+#~ " Task* in BPMN, allows developers to"
+#~ " add JavaScript to process execution. "
+#~ "Signavio Workflow runs the code on "
+#~ "the server, using `Node.js "
+#~ "<https://nodejs.org>`_. As well as Node.js’"
+#~ " JavaScript API, scripts can use the"
+#~ " `lodash <https://www.npmjs.com/package/lodash>`_ and"
+#~ " `request <https://www.npmjs.com/package/request>`_ "
+#~ "libraries."
 #~ msgstr ""
 

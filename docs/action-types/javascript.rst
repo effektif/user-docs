@@ -5,7 +5,10 @@ JavaScript action (Script task)
 
 The JavaScript action, called a *Script Task* in BPMN, allows developers to add JavaScript to process execution.
 Signavio Workflow runs the code on the server, using `Node.js <https://nodejs.org>`_.
-As well as Node.js’ JavaScript API, scripts can use the `lodash <https://www.npmjs.com/package/lodash>`_ and `request <https://www.npmjs.com/package/request>`_ libraries.
+As well as Node.js’ JavaScript API, scripts can use additional libraries (see below).
+
+Configuration
+^^^^^^^^^^^^^
 
 After creating or selecting a JavaScript action, the configuration panel looks like this:
 
@@ -17,6 +20,50 @@ The top section of the panel contains the JavaScript text editor.
 By default, it already contains ``console.log('Hello World!');``.
 Use the `console <https://nodejs.org/dist/latest-v5.x/docs/api/console.html>`_ API for log output when testing scripts.
 
+JavaScript libraries
+^^^^^^^^^^^^^^^^^^^^
+
+Script tasks support a number of popular JavaScript libraries.
+To import a package, use our custom ``require`` function:
+
+.. code:: javascript
+
+   var moment = require('moment');
+
+You can also choose another name for the import:
+
+.. code:: javascript
+
+   var stringValidator = require('validator');
+
+.. list-table:: Supported JavaScript libraries
+   :header-rows: 1
+   :widths: 12 13 75
+
+   * - Library
+     - Import
+     - Description
+   * - `CSV <https://www.npmjs.com/package/csv>`_
+     - ``csv``
+     - CSV generation, parsing, transformation and serialization
+   * - `Lodash <https://www.npmjs.com/package/lodash>`_
+     - ``lodash``
+     - Convenience functions for working with collections and values
+   * - `moment <https://www.npmjs.com/package/moment>`_
+     - ``moment``
+     - Parse, validate, manipulate, and display dates; with `Twix <https://www.npmjs.com/package/twix>`_ date range support
+   * - `request <https://www.npmjs.com/package/request>`_
+     - ``request``
+     - Simplified HTTP request client
+   * - `validator <https://www.npmjs.com/package/validator>`_
+     - ``validator``
+     - String validation and sanitization
+
+The ``_`` (Lodash) and ``request`` packages are always imported, for backwards compatibility.
+
+Testing scripts
+^^^^^^^^^^^^^^^ 
+
 The lower section allows you to test the script.
 Click `Test it` to execute the JavaScript code.
 The test runner displays the results underneath:
@@ -27,6 +74,9 @@ The test runner displays the results underneath:
 
 The middle section shows the :ref:`process variables <variables>`, starting with just the *Case* variable for a new process.
 If you add an :ref:`email trigger <email-trigger>` to the process, you will also see a *Trigger email* variable.
+
+Using process variables
+^^^^^^^^^^^^^^^^^^^^^^^
 
 Next, we'll show how to work with data.
 Suppose that the process includes a form that has each type of field and looks like this:
@@ -62,6 +112,9 @@ When clicking `Test it` again, we can see the JSON structure of the variable dat
 The *contract* and *salesRepresentative* variables have complex types, :ref:`type-file` and :ref:`type-user`, so the table only shows an ID.
 The *Updated value* column shows the result of assigning new values to these variables in the script.
 
+Calling an external web service
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 You can use these variables to send data to an external web service, 
 using the `request module <https://github.com/mikeal/request/blob/master/README.md>`_.
 For example, the following script sends the value of the ``startDate`` variable
@@ -86,3 +139,4 @@ changing the date from ``2015-06-15`` to ``2015-06-16``.
 The script then parses this JSON response using ``JSON.parse``
 and updates the ``startDate`` variable in Signavio Workflow,
 as shown in the *Updated value* column in the test console’s variables table.
+

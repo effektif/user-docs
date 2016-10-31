@@ -147,7 +147,7 @@ For each column, select one of the :ref:`variables <variables>` from the list.
 .. _add-calendar-event:
 
 Google Drive - Add calendar event
--------------------------------
+---------------------------------
 
 .. figure:: /_static/images/action-types/google-drive/calendar-task.png
 
