@@ -14,9 +14,9 @@ An update to this guide could resolve this by specifying a different base style 
 ## Signavio software and product names
 
 * **Collaboration Portal**
-* **Explorer**
 * **Signavio Business Transformation Platform** optionally omitting **Signavio** after the first use
 * **Signavio Decision Manager** optionally omitting **Signavio** after the first use
+* **Signavio Explorer**
 * **Signavio Process Editor** optionally omitting **Signavio** after the first use
 * **Signavio Process Intelligence** optionally omitting **Signavio** after the first use
 * **Signavio Workflow**
