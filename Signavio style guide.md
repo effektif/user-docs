@@ -14,13 +14,20 @@ Although these style guides use US English, we write for an international audien
 
 ## Signavio software and product names
 
+Use the product names as written:
+
 * **Collaboration Portal**
-* **Signavio Business Transformation Platform** optionally omitting **Signavio** after the first use
-* **Signavio Decision Manager** optionally omitting **Signavio** after the first use
+* **Signavio Business Transformation Platform**
+* **Signavio Decision Manager**
 * **Signavio Explorer**
-* **Signavio Process Editor** optionally omitting **Signavio** after the first use
-* **Signavio Process Intelligence** optionally omitting **Signavio** after the first use
+* **Signavio Process Editor**
+* **Signavio Process Intelligence**
 * **Signavio Workflow**
+
+Omit **the** before names: ‘Signavio Explorer’, not ‘the Signavio Explorer’.
+
+For names longer than two words, you may omit **Signavio** after the first use.
+
 
 ## Capitalization
 
