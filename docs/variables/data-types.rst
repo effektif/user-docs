@@ -125,11 +125,11 @@ The *file* type stores a file.
      - :ref:`type-text`
      - The file’s `media type <https://en.wikipedia.org/wiki/Media_type>`_
    * - File name
-     - ``fileName``
+     - ``name``
      - :ref:`type-text`
      - The file’s name
    * - Owner
-     - ``owner``
+     - ``ownerId``
      - :ref:`type-user`
      - The user who uploaded the file
 
