@@ -1,0 +1,210 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Signavio GmbH
+# This file is distributed under the same license as the Signavio Workflow
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Signavio Workflow 3.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-09 19:52+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+msgid "Forms"
+msgstr ""
+
+msgid ""
+"In Signavio Workflow, you can use forms to enter information when you run"
+" a process. You can use forms in two places: form triggers and user "
+"tasks."
+msgstr ""
+
+msgid "Form triggers"
+msgstr ""
+
+msgid ""
+"You use a :ref:`form trigger <form-trigger>` to set the values of "
+":ref:`workflow variables <variables>` when you start a new case for a "
+"process."
+msgstr ""
+
+msgid "Starting a new case with a form trigger"
+msgstr ""
+
+msgid ""
+"This form has a description (`Enter personal details`) and two fields. "
+"The icon next to the `Name` field label indicates that the field has an "
+"additional description."
+msgstr ""
+
+msgid ""
+"To add a form trigger to a process, use the process builder’s "
+":ref:`Triggers <triggers>` page to select `When a form is submitted`."
+msgstr ""
+
+msgid "User task forms"
+msgstr ""
+
+msgid ""
+"You use a :ref:`user task <user-task>` form to view and edit the values "
+"of :ref:`workflow variables <variables>`."
+msgstr ""
+
+msgid "Viewing and editing values on a user task form"
+msgstr ""
+
+msgid ""
+"To add a user task form to a process, use the process builder’s "
+":ref:`Actions <actions>` page to add a user task, and on the user task’s "
+"configuration panel, select the `Form` tab."
+msgstr ""
+
+msgid "Viewing form data"
+msgstr ""
+
+msgid "When you enter data in a form, it appears on the case view’s event stream:"
+msgstr ""
+
+msgid "Form data in a case event stream"
+msgstr ""
+
+msgid ""
+"You can use the `forms` link at the top of event stream to only show form"
+" data."
+msgstr ""
+
+msgid "Using the form builder"
+msgstr ""
+
+msgid ""
+"To create a form in the process editor, for a form trigger or user task, "
+"you use the form builder."
+msgstr ""
+
+msgid "The process editor’s form builder for a new empty form"
+msgstr ""
+
+msgid ""
+"Use the `Description` text area to provide initial instructions to people"
+" who complete the form. You can use `Markdown "
+"<http://daringfireball.net/projects/markdown/basics>`_ to format the "
+"description, which makes it convenient to link to additional information,"
+" for example."
+msgstr ""
+
+msgid ""
+"The `Add a field` second contains a field types palette. Click one of the"
+" field types to add a field of that type to the form."
+msgstr ""
+
+msgid ""
+"The `Reuse a field` section lists variables that have already been "
+"defined on other forms, such as a trigger form:"
+msgstr ""
+
+msgid "Adding an existing workflow variable to a form"
+msgstr ""
+
+msgid ""
+"Adding an existing field to a form makes it possible to view or update "
+"existing information, such as a user task form that you use to complete "
+"information the person who started the case did not enter on the trigger "
+"form."
+msgstr ""
+
+msgid "Configuring form fields"
+msgstr ""
+
+msgid "The `Fields` section shows the fields you add to a form:"
+msgstr ""
+
+msgid "Configuring a form field in the process editor’s form builder"
+msgstr ""
+
+msgid ""
+"Select a field in the `Fields` section to open its configuration panel. "
+"The top row of the field configuration panel shows the field type label, "
+"the editable field name."
+msgstr ""
+
+msgid ""
+"To delete a field, click the delete button in the top-right corner, and "
+"click the confirmation tick mark button to confirm:"
+msgstr ""
+
+msgid "Deleting a form field"
+msgstr ""
+
+msgid "You can also configure the following properties."
+msgstr ""
+
+msgid ""
+"`Description` - an optional field description, shown via context-"
+"sensitive help icon"
+msgstr ""
+
+msgid ""
+"`Initial value` - an optional default value that pre-populates the form "
+"field"
+msgstr ""
+
+msgid ""
+"`Read-only` - specifies that you cannot edit the value, used to display "
+"previously-entered information"
+msgstr ""
+
+msgid ""
+"`Mandatory` - specifies that you must enter a field value, so that you "
+"cannot complete the form without a value for this field"
+msgstr ""
+
+msgid ""
+"`Allow entering multiple values` - specifies that the field has a list of"
+" values that you add and remove independently"
+msgstr ""
+
+msgid ""
+"Text fields also have an additional `Multi-line` option that configures "
+"Signavio Workflow to display the form field as a multi-line text input "
+"area, for longer text values."
+msgstr ""
+
+msgid ""
+"When you enable the `Allow entering multiple values` option, the field "
+"appears differently on forms. Entering a value adds it to the list. Use "
+"the × icon to remove a value."
+msgstr ""
+
+msgid "Entering multiple field values in two text fields"
+msgstr ""
+
+msgid "Choice fields have a `Options` - the list of values to choose between:"
+msgstr ""
+
+msgid "Choice field configuration"
+msgstr ""
+
+msgid ""
+"Date fields have a `Date/time` option for choosing between a date and "
+"time, just a date without a time of day, or just a time:"
+msgstr ""
+
+msgid "Date field configuration"
+msgstr ""
+
+msgid ""
+"User fields also have a `Candidates` option that you can use to choose "
+"which users you can assign:"
+msgstr ""
+
+msgid "User field configuration"
+msgstr ""
+

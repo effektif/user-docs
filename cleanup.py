@@ -6,3 +6,4 @@ CWD = os.path.dirname(os.path.realpath(__file__))
 
 remove_stale_data('%s/docs/en' % CWD)
 remove_stale_data('%s/docs/de' % CWD)
+remove_stale_data('%s/docs/fr' % CWD)
