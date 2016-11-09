@@ -23,6 +23,6 @@ An :ref:`email-trigger` adds an :ref:`Email variable <trigger-email-variable>` t
 
 Variables can have different :ref:`data-types` that determine which kind of data the variable stores, such as text or a date, and whether the data is a single value or contains multiple fields.
 
-.. include:: variables/case.rst
-.. include:: variables/trigger-email.rst
-.. include:: variables/data-types.rst
+.. include:: include_variables/case.rst
+.. include:: include_variables/trigger-email.rst
+.. include:: include_variables/data-types.rst

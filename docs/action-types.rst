@@ -6,11 +6,11 @@ Action Types
 The :ref:`process-builder` displays actions as rounded rectangles.
 Actions typically have a configuration panel that opens when you select the action.
 
-.. include:: action-types/user-task.rst
-.. include:: action-types/send-email.rst
-.. include:: action-types/google.rst
-.. include:: action-types/box.rst
-.. include:: action-types/javascript.rst
-.. include:: action-types/sub-process.rst
-.. include:: action-types/dmn.rst
-.. include:: action-types/map-variables.rst
+.. include:: include_action-types/user-task.rst
+.. include:: include_action-types/send-email.rst
+.. include:: include_action-types/google.rst
+.. include:: include_action-types/box.rst
+.. include:: include_action-types/javascript.rst
+.. include:: include_action-types/sub-process.rst
+.. include:: include_action-types/dmn.rst
+.. include:: include_action-types/map-variables.rst
