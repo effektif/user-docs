@@ -23,9 +23,10 @@ public class Screenshots {
       LoginPage login = new LoginPage(driver);
       login.go();
       screenshot(driver, "login.png");
-      login.loginAs("alice@example.org", "x");
-      screenshot(driver, "processes.png");
-
+      Page tasks = login.loginAs("alice@example.org", "x");
+      screenshot(driver, "tasks.png");
+      ProfilePage page = tasks.openProfile();
+      screenshot(driver, "profile.png");
     } finally {
       driver.quit();
     }
