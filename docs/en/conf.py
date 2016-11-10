@@ -8,6 +8,11 @@ sys.path.append(PROJECT_PATH)
 
 from conf import *
 
+latex_documents = [
+  ('index', 'SignavioWorkflowUserGuide.tex', u'Signavio Workflow User Guide',
+   ", ".join(AUTHORS), 'manual'),
+]
+
 language = 'en'
 
 prepare(CWD, PROJECT_PATH, language)

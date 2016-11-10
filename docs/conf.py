@@ -46,7 +46,7 @@ def prepare(cwd, path, lang):
 
   prepare_language(cwd, lang=lang)
 
-  touch('%s/_build/latex/EffektifUserGuide.tex' % cwd)
+  touch('%s/_build/latex/SignavioWorkflowUserGuide.tex' % cwd)
 
 
 AUTHORS = [" ".join(pair) for pair in sorted([
@@ -222,7 +222,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'EffektifUserGuidedoc'
+htmlhelp_basename = 'SignavioWorkflowUserGuidedoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -237,14 +237,6 @@ latex_elements = {
 # Additional stuff for the LaTeX preamble.
 #'preamble': '',
 }
-
-# Grouping the document tree into LaTeX files. List of tuples
-# (source start file, target name, title,
-#  author, documentclass [howto, manual, or own class]).
-latex_documents = [
-  ('index', 'EffektifUserGuide.tex', u'Effektif User Guide',
-   ", ".join(AUTHORS), 'manual'),
-]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
@@ -272,8 +264,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'effektifuserguide', u'Effektif User Guide',
-     [u'Tom Baeyens, Jan-Felix Schwarz, Philipp Giese, Peter Hilton, Christian Wiggert'], 1)
+    ('index', 'signavioworkflowuserguide', u'Signavio Workflow User Guide',
+     ", ".join(AUTHORS), 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -286,8 +278,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'EffektifUserGuide', u'Effektif User Guide',
-   u'Tom Baeyens, Jan-Felix Schwarz, Philipp Giese, Peter Hilton, Christian Wiggert', 'EffektifUserGuide', 'One line description of project.',
+  ('index', 'SignavioWorkflowUserGuide', u'Signavio Workflow User Guide',
+  ", ".join(AUTHORS),
    'Miscellaneous'),
 ]
 

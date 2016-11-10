@@ -7,6 +7,11 @@ sys.path.append(PROJECT_PATH)
 
 from conf import *
 
+latex_documents = [
+  ('index', 'SignavioWorkflowUserGuide.tex', u'Signavio Workflow Nutzerhandbuch',
+   ", ".join(AUTHORS), 'manual'),
+]
+
 language = 'de'
 
 prepare(CWD, PROJECT_PATH, language)
@@ -18,4 +23,3 @@ def build_search_snippets(app, docname):
 
 def setup(app):
     app.connect('build-finished', build_search_snippets)
-
