@@ -1,9 +1,10 @@
-import org.openqa.selenium.WebDriver;
+/**
+ * The Tasks inbox.
+ */
+class TasksPage extends Page {
 
-public class TasksPage extends Page {
-
-  TasksPage(WebDriver driver) {
-    super(driver);
+  TasksPage(Session session) {
+    super(session);
   }
 
   @Override

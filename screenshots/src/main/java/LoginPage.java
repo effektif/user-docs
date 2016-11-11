@@ -1,23 +1,29 @@
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 
+/**
+ * The log in page, when logged out.
+ */
 class LoginPage extends Page {
 
-  LoginPage(WebDriver driver) {
-    super(driver);
+  LoginPage(Session session) {
+    super(session);
   }
 
-  void go() {
+  LoginPage go() {
     driver.get(APP_URL + "logout");
     waitUntilLoaded();
+    return this;
   }
 
+  /**
+   * Submits the log in form.
+   */
   Page loginAs(String username, String password) {
     driver.findElement(By.id("login-mail")).sendKeys(username);
     driver.findElement(By.id("login-password")).sendKeys(password);
     driver.findElement(By.tagName("button")).submit();
     waitUntilLoaded();
-    return new TasksPage(driver);
+    return new TasksPage(session);
   }
 
   @Override
