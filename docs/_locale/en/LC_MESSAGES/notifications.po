@@ -1,88 +1,39 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-15 17:17+0200\n"
+"POT-Creation-Date: 2016-11-25 17:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
 
-msgid "Task created"
+msgid "Notifications reference"
 msgstr ""
 
 msgid ""
-"This notification indicates that a new task has been created within a case."
-msgstr ""
-
-msgid "Task assigned"
-msgstr ""
-
-msgid ""
-"This notification indicates that someone has assigned an existing task "
-"within a case."
-msgstr ""
-
-msgid "Mentioned in a comment"
+"Signavio Workflow sends a variety of email notifications, to keep process"
+" participants up-to-date with cases they work on and to avoid task "
+"handover delays, when someone assigns a task."
 msgstr ""
 
 msgid ""
-"This notification indicates that someone has been mentioned in a comment on "
-"a case."
-msgstr ""
-
-msgid "Reminder scheduled"
-msgstr ""
-
-msgid "Task escalated"
-msgstr ""
-
-msgid ""
-"This notification indicates that an open task has reached its escalation "
-"deadline."
-msgstr ""
-
-msgid "Service account access expired"
-msgstr ""
-
-msgid ""
-"This notification indicates that access to an external service, such as "
-":ref:`Google Drive <google-drive>`, has expired."
-msgstr ""
-
-msgid "License about to expire"
-msgstr ""
-
-msgid "Notifications"
-msgstr ""
-
-msgid "New user registered"
-msgstr ""
-
-msgid "Invited to join organisation"
-msgstr ""
-
-msgid "Invitation cancelled"
-msgstr ""
-
-msgid ""
-"This notification informs someone that an organisation administrator has "
-"cancelled an open invitation to join an organisation."
-msgstr ""
-
-msgid "Password reset"
-msgstr ""
-
-msgid "This notification reminds case participants that a task remains open."
+"To avoid unnecessary notifications, Signavio Workflow waits a short time "
+"before sending notifications and omits notifications that have become "
+"obsolete."
 msgstr ""
 
 msgid "Case due"
 msgstr ""
 
 msgid "This notification indicates that a case has reached its due date."
+msgstr ""
+
+msgid "Signavio Workflow sends this notification to the case’s process owner."
 msgstr ""
 
 msgid "Case task due"
@@ -93,41 +44,48 @@ msgid ""
 "open tasks."
 msgstr ""
 
-msgid "Invitation resent"
+msgid ""
+"Signavio Workflow sends this notification to the assignees of open tasks "
+"in the case."
+msgstr ""
+
+msgid "Task created"
 msgstr ""
 
 msgid ""
-"Signavio Workflow sends a variety of email notifications, to keep process "
-"participants up-to-date with cases they work on and to avoid task handover "
-"delays, when someone assigns a task."
+"This notification indicates that a new task has been created within a "
+"case."
 msgstr ""
 
 msgid ""
-"To avoid unnecessary notifications, Signavio Workflow waits a short time "
-"before sending notifications and omits notifications that have become "
-"obsolete."
-msgstr ""
-
-msgid "Signavio Workflow sends this notification to the case’s process owner."
-msgstr ""
-
-msgid ""
-"Signavio Workflow sends this notification to the assignees of open tasks in "
-"the case."
+"Signavio Workflow sends this notification to the task’s default assignee,"
+" if the task has one. Signavio Workflow also sends this notification to "
+"each of the task candidates, or every member of each candidate group, if "
+"defined."
 msgstr ""
 
 msgid ""
-"Signavio Workflow sends this notification to the task’s default assignee, if"
-" the task has one. Signavio Workflow also sends this notification to each of"
-" the task candidates, or every member of each candidate group, if defined."
+"Signavio Workflow does not send this notification if you disable `Receive"
+" notifications via email` in :ref:`Preferences`."
+msgstr ""
+
+msgid "Task assigned"
 msgstr ""
 
 msgid ""
-"Signavio Workflow does not send this notification if you disable `Receive "
-"notifications via email` in :ref:`Preferences`."
+"This notification indicates that someone has assigned an existing task "
+"within a case."
 msgstr ""
 
 msgid "Signavio Workflow sends this notification to the task’s new assignee."
+msgstr ""
+
+msgid "Mentioned in a comment"
+msgstr ""
+
+msgid ""
+"This notification indicates that someone has been mentioned in a comment "
+"on a case."
 msgstr ""
 
 msgid ""
@@ -135,11 +93,26 @@ msgid ""
 "comment."
 msgstr ""
 
+msgid "Reminder scheduled"
+msgstr ""
+
+msgid "This notification reminds case participants that a task remains open."
+msgstr ""
+
 msgid ""
 "Signavio Workflow sends this notification to the task’s assignee when "
 "someone assigns the task, or to all of the task’s candidates if the task "
 "does not have an assignee. If the task does not have an assignee or "
-"candidates, Signavio Workflow sends the notification to the process’ owner."
+"candidates, Signavio Workflow sends the notification to the process’ "
+"owner."
+msgstr ""
+
+msgid "Task escalated"
+msgstr ""
+
+msgid ""
+"This notification indicates that an open task has reached its escalation "
+"deadline."
 msgstr ""
 
 msgid ""
@@ -149,35 +122,52 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Signavio Workflow always sends this notification, even if recipients have "
-"disabled `Receive notifications via email`."
+"Signavio Workflow always sends this notification, even if recipients have"
+" disabled `Receive notifications via email`."
+msgstr ""
+
+msgid "New user registered"
 msgstr ""
 
 msgid ""
-"Signavio Workflow sends a registration notification when someone registers a"
-" Signavio Workflow trial account."
+"Signavio Workflow sends a registration notification when someone "
+"registers a Signavio Workflow trial account."
 msgstr ""
 
 msgid ""
-"Signavio Workflow sends this notification to the email address entered on "
-"the registration form."
+"Signavio Workflow sends this notification to the email address entered on"
+" the registration form."
+msgstr ""
+
+msgid "Invited to join organisation"
 msgstr ""
 
 msgid ""
-"This notification indicates that an organisation administrator has invited "
-"someone to join an organisation. Signavio Workflow also sends a reminder for"
-" this notification when an administrator selects the option to resend the "
-"invitation."
+"This notification indicates that an organisation administrator has "
+"invited someone to join an organisation. Signavio Workflow also sends a "
+"reminder for this notification when an administrator selects the option "
+"to resend the invitation."
 msgstr ""
 
 msgid ""
-"Signavio Workflow sends this notification to the person the administrator "
-"invited, who may or may not already have a Signavio Workflow account."
+"Signavio Workflow sends this notification to the person the administrator"
+" invited, who may or may not already have a Signavio Workflow account."
+msgstr ""
+
+msgid "Invitation cancelled"
 msgstr ""
 
 msgid ""
-"Signavio Workflow sends this notification to the person the administrator "
-"invited."
+"This notification informs someone that an organisation administrator has "
+"cancelled an open invitation to join an organisation."
+msgstr ""
+
+msgid ""
+"Signavio Workflow sends this notification to the person the administrator"
+" invited."
+msgstr ""
+
+msgid "Invitation resent"
 msgstr ""
 
 msgid ""
@@ -186,19 +176,33 @@ msgid ""
 "trigger this notification manually."
 msgstr ""
 
-msgid ""
-"Signavio Workflow sends a password reset notification when someone uses the "
-"`Reset your password` option."
+msgid "Password reset"
 msgstr ""
 
 msgid ""
-"Signavio Workflow sends this notification to the email address entered on "
-"the password reset form."
+"Signavio Workflow sends a password reset notification when someone uses "
+"the `Reset your password` option."
 msgstr ""
 
 msgid ""
-"Signavio Workflow sends this notification to the Signavio Workflow user who "
-"configured their external service account."
+"Signavio Workflow sends this notification to the email address entered on"
+" the password reset form."
+msgstr ""
+
+msgid "Service account access expired"
+msgstr ""
+
+msgid ""
+"This notification indicates that access to an external service, such as "
+":ref:`Google Drive <google-drive>`, has expired."
+msgstr ""
+
+msgid ""
+"Signavio Workflow sends this notification to the Signavio Workflow user "
+"who configured their external service account."
+msgstr ""
+
+msgid "License about to expire"
 msgstr ""
 
 msgid ""
@@ -207,95 +211,14 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Signavio Workflow sends this notification to the administrators of the the "
-"Signavio Workflow organisation whose license will expire."
+"Signavio Workflow sends this notification to the administrators of the "
+"the Signavio Workflow organisation whose license will expire."
 msgstr ""
 
 #~ msgid "Effektif sends this notification to the task’s new assignee."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Effektif sends this notification to each user mentioned in the comment."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Effektif sends this notification to the administrators of the the Effektif "
-#~ "organisation whose license will expire."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Effektif sends a registration notification when someone registers an "
-#~ "Effektif trial account."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Effektif sends this notification to the email address entered on the "
-#~ "registration form."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "This notification indicates that an organisation administrator has invited "
-#~ "someone to join an organisation. Effektif also sends a reminder for this "
-#~ "notification when an administrator selects the option to resend the "
-#~ "invitation."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Effektif sends this notification to the person the administrator invited, "
-#~ "who may or may not already have an Effektif account."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Effektif sends this notification to the person the administrator invited."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Effektif sends a password reset notification when someone uses the `Reset "
-#~ "your password` option."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Effektif sends this notification to the email address entered on the "
-#~ "password reset form."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Effektif does not send this notification if you disable `Receive "
-#~ "notifications via email` in :ref:`Preferences`."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Effektif sends a variety of email notifications, to keep process "
-#~ "participants up-to-date with cases they work on and to avoid task handover "
-#~ "delays, when someone assigns a task."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Effektif sends this notification to the task’s default assignee, if the task"
-#~ " has one. Effektif also sends this notification to each of the task "
-#~ "candidates, or every member of each candidate group, if defined."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Effektif sends this notification to the task’s assignee when someone assigns"
-#~ " the task, or to all of the task’s candidates if the task does not have an "
-#~ "assignee. If the task does not have an assignee or candidates, Effektif "
-#~ "sends the notification to the process’ owner."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Effektif sends this notification to the task’s new assignee, as configured "
-#~ "in the user task, or every member of each candidate group, if defined."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Effektif always sends this notification, even if recipients have disabled "
-#~ "`Receive notifications via email`."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Effektif sends this notification to the Effektif user who configured their "
-#~ "external service account."
 #~ msgstr ""
 
 #~ msgid "This notification indicates that an Effektif license will soon expire."
@@ -304,99 +227,12 @@ msgstr ""
 #~ msgid "Effektif sends this notification to the case’s process owner."
 #~ msgstr ""
 
-#~ msgid ""
-#~ "Effektif sends this notification to the assignees of open tasks in the case."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "To avoid unnecessary notifications, Effektif waits a short time before "
-#~ "sending notifications and omits notifications that have become obsolete."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "This notification reminds someone that organisation administrator has "
-#~ "invited them to join an organisation. Effektif support staff trigger this "
-#~ "notification manually."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "This notification indicates that a case has reached its due date, and has "
-#~ "open tasks."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Effektif sends a variety of email notifications, to keep process "
-#~ "participants up-to-date with cases they are involved in and to avoid task "
-#~ "handover delays, when a task is assigned to someone."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Effektif sends this notification to the task’s default assignee, if there is"
-#~ " one. Effektif also sends this notification to each of the task candidates, "
-#~ "or every member of each candidate group, if defined."
-#~ msgstr ""
-
 #~ msgid "This notification is a scheduled reminder that a task is open."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Effektif sends this notification to the Effektif user whose external service"
-#~ " account is used."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "This notification indicates that an Effektif license is about to expire."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Effektif sends this notification to the task’s assignee if the task is "
-#~ "assigned, or to all of the task’s candidates if the task it not assigned. If"
-#~ " the task is unassigned and there are no candidates, Effektif sends the "
-#~ "notification to the process’ owner."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Effektif sends this notification to the task’s new assignee, who the task is"
-#~ " being escalated to, or every member of each candidate group, if defined."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Effektif always sends this notification, even if `Receive notifications via "
-#~ "email` is disabled."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Effektif does not send this notification if the :ref:`Preferences` section’s"
-#~ " `Receive notifications via email` option is disabled."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Effektif does not send this notification if `Receive notifications via "
-#~ "email` option is disabled in :ref:`Preferences`."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Effektif sends this notification to the task’s new assignee, who the task is"
-#~ " being escalated to."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Unless otherwise specified, you can stop receiving these notifications in "
-#~ ":ref:`Preferences` section, by disabling the `Receive notifications via "
-#~ "email` option."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Effektif sends this notification to the tasks assignee if the task is "
-#~ "assigned, or to all of the task’s candidates if the task it not assigned. If"
-#~ " the task is unassigned and there are no candidates, Effektif sends the "
-#~ "notification to the process’ owner."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Effektif sends this notification to the tasks new assignee, who the task is "
-#~ "being escalated to."
 #~ msgstr ""
 
 #~ msgid "Email Notifications"
 #~ msgstr ""
+
+#~ msgid "Notifications"
+#~ msgstr ""
+

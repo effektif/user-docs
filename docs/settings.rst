@@ -1,4 +1,4 @@
-_.. _settings:
+.. _settings:
 
 Organization settings
 =====================

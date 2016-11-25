@@ -14,12 +14,13 @@ Skip to the :ref:`tutorials` if you don’t want to read a manual.
    action-types
    forms
    control-flow
-   notifications
    access
-   integration/connectors
-   integration/salesforce
    profile
    settings
+   notifications
    variables
+   integration/javascript
+   integration/connectors
+   integration/salesforce
    examples
    tutorials
