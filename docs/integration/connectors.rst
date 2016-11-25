@@ -581,22 +581,22 @@ Connectors may use one of two authentication mechanisms.
 HTTP Basic authentication
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Connectors can use `HTTP basic authentication <https://en.wikipedia.org/wiki/Basic_access_authentication>`_ to restrict access using a username and password that you specify when configuring the connector.
+Connectors can use `HTTP basic authentication <https://en.wikipedia.org/wiki/Basic_access_authentication>`_ to restrict access using a user name and password that you specify when configuring the connector.
 To implement HTTP Basic authentication, your connector endpoints must:
 
 #. send an HTTP *401 Unauthorized* response, with an empty response body, for any request that does not include valid credentials
-#. check the credentials in the ``Authorization`` HTTP header field, when provided, by decoding the Base64-encoded username and password and verifying their values.
+#. check the credentials in the ``Authorization`` HTTP header field, when provided, by decoding the Base64-encoded user name and password and verifying their values.
 
 .. warning:: HTTP Basic authentication sends an unencrypted password over the network, so you should only allow access to private connectors via HTTPS.
 
-To use basic authentication, use the *Authentication* field to select *HTTP Basic authentication*, and enter a username and password:
+To use basic authentication, use the *Authentication* field to select *HTTP Basic authentication*, and enter a user name and password:
 
 .. figure:: /_static/images/integration/connectors/authentication-basic.png
 
    Configuring basic authentication
 
 When you configure a connector to use Basic authentication, Signavio Workflow will pre-emptively include an ``Authorization`` header when sending requests to the connector endpoints.
-In Basic authentication, the header value consists of the authentication scheme name ``Basic`` followed by a space and the Base64-encoded username and password, separated by a colon (``signavio:8n4f-Rm3V-Xz0r-Igew-L1fK``).
+In Basic authentication, the header value consists of the authentication scheme name ``Basic`` followed by a space and the Base64-encoded user name and password, separated by a colon (``signavio:8n4f-Rm3V-Xz0r-Igew-L1fK``).
 This results in a request header that looks like::
 
    Authorization: Basic c2lnbmF2aW86OG40Zi1SbTNWLVh6MHItSWdldy1MMWZL

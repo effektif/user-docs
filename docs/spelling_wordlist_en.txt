@@ -39,7 +39,6 @@ triaging
 unassign
 Uncheck
 unencrypted
-username
 workflow
 Workflow
 workflows
