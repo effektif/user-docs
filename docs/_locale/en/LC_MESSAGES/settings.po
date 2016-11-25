@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-31 17:28+0100\n"
+"POT-Creation-Date: 2016-11-25 17:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,9 +11,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
-
-msgid "_.. _settings:"
-msgstr ""
 
 msgid "Organization settings"
 msgstr ""
@@ -174,5 +171,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "*Time zone* affects how times are displayed."
+#~ msgstr ""
+
+#~ msgid "_.. _settings:"
 #~ msgstr ""
 
