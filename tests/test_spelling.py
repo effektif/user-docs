@@ -8,9 +8,7 @@ def setup(app, status, warning):
     app.build()
     global lines
     with open(app.outdir + '/output.txt') as f:
-        print f
         lines = f.readlines()
-        print lines
         lines = [line.replace('\n', '').replace('\r', '') for line in lines]
 
 def test_spelling():

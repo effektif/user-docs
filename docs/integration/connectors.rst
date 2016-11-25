@@ -177,7 +177,7 @@ Each field has a key, a name and a data type.
    * - ``name``
      - The field name shown in the user interface
    * - ``type``
-     - A JSON object that describes field’s data type - see :ref:`connector-data-types` 
+     - A JSON object that describes field’s data type - see :ref:`connector-data-types`
 
 .. hint::
 	Every record type automatically includes an ``id`` field with type ``text``, so you don’t have to define it explicitly.
@@ -305,14 +305,14 @@ For example, a list of customer options, with URL ``https://example.org/connecto
 Record details
 ^^^^^^^^^^^^^^
 
-When you use a connector form field to select a record, you can use the record’s data in the workflow. 
+When you use a connector form field to select a record, you can use the record’s data in the workflow.
 Signavio Workflow only stores the record’s ID as a reference, and fetches the entire record when needed, when accessing the nested data.
 
 To make a record’s fields available, in the :ref:`connector-type-descriptor`, set the ``fetchOneAvailable`` flag to ``true``.
 The connector must also make the records available as the following HTTP resource.
 
 URL (relative to the endpoint URL)
-   ``/:type/:id`` - with path parameters 
+   ``/:type/:id`` - with path parameters
    ``:type`` - a record type key, and
    ``:id`` - a record ID
 Request methods
@@ -380,7 +380,7 @@ The data type JSON object for a choice type with three options looks like this::
 	      "id" : "g",
 	      "name" : "Gold"
 	    }
-	  ]  
+	  ]
 	}
 
 A field value stores the ``id`` property’s value::
@@ -403,7 +403,7 @@ A date represents either a date and time (such as *2012-02-14 09:20*), just a da
    * - ``kind``
      -  ``date``, ``time``, ``datetime``; specifies whether the value describes a date, a time of day or both (required)
 
-:: 
+::
 
 	"type" : {
 	  "name" : "date",
@@ -423,7 +423,7 @@ Email address type
 
 An email address type represents an email address.
 
-:: 
+::
 
 	"type" : {
 	  "name" : "emailAddress"
@@ -453,7 +453,7 @@ Money type
 
 A money type represents the combination of an *amount* and a *currency*.
 
-:: 
+::
 
 	"type" : {
 	  "name" : "money"
@@ -463,7 +463,7 @@ A money value stores a JSON object with the fields ``amount`` and ``currency``.
 The ``amount`` property stores a number.
 The ``currency`` property stores an `ISO 4217 <https://en.wikipedia.org/wiki/ISO_4217>`_ currency code.
 
-:: 
+::
 
 	"value" : {
 	  "amount" : 12.40
@@ -483,7 +483,7 @@ A number type represents either an integer or decimal number.
 
 A number value stores a plain number, using a single ``.`` as decimal separator.
 
-:: 
+::
 
 	{
 	  "integerValue" : 42,
@@ -507,7 +507,7 @@ Optionally, to indicate that text may contain multiple lines, add the flag ``mul
    * - ``multiLine``
      - (optional) if set to ``true`` the text field will allow multiple lines of input
 
-:: 
+::
 
 	"type" : {
 	  "name" : "text"
@@ -537,7 +537,7 @@ A yes/no checkbox type represents a choice between the values ‘yes’ and ‘n
 
 A yes/no checkbox value stores a Boolean value - ``true`` or ``false``.
 
-:: 
+::
 
 	"value" : true
 

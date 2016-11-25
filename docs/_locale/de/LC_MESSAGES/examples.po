@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-09 19:05+0100\n"
-"PO-Revision-Date: 2016-11-25 17:47+0100\n"
+"POT-Creation-Date: 2016-11-25 19:38+0100\n"
+"PO-Revision-Date: 2016-11-25 19:50+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -354,7 +354,8 @@ msgstr "Die Rekrutierung eines Mitarbeiters zieht sich in der Regel eine Zeit la
 msgid "Form - for uploading the candidate’s CV."
 msgstr "Formular - für das Hochladen des Lebenslaufs des Bewerbers."
 
-msgid "A recruitment process consists of a series of decisions, to reject the candidate or cointinue. This simplified process has these decision points after evaluating the applicant’s CV and a single interview."
+#, fuzzy
+msgid "A recruitment process consists of a series of decisions, to reject the candidate or continue. This simplified process has these decision points after evaluating the applicant’s CV and a single interview."
 msgstr "Ein Bewerbungsprozess beinhaltet eine Reihe von Entscheidungen, die jeweils ein Fortfahren mit dem Bewerbungsprozess oder eine Ablehnung nach sich ziehen. In diesem vereinfachten Prozess sind Entscheidungen nach der Bewertung des Lebenslaufs und nach einem Interview notwendig."
 
 msgid "If the hiring manager rejects the applicant at either stage, Signavio Workflow sends a standard rejection email."

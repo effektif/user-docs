@@ -63,7 +63,7 @@ and assign all subsequent tasks with the same role to the new assignee.
 Using a form field to assign a role
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-When you execute a process, 
+When you execute a process,
 you normally assign a specific person to a role by using the assignee button to select someone.
 Sometimes, you want this assignment to an explicit part of the process,
 to make sure the assignment happens at the right time.

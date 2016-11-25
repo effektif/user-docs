@@ -17,7 +17,7 @@ After creating a Box `Upload file` action,
 the configuration panel shows a button to start configuring the account.
 
 When you click the `Configure a Box account` button,
-a popup window will open for you to authorise Signavio Workflow to use your Box account.
+a pop-up window will open for you to authorise Signavio Workflow to use your Box account.
 After logging in to your Box account, if you have not already logged in,
 Box shows an authorization page.
 
@@ -42,11 +42,11 @@ Other people in your organization can see that you have configured an account, b
 
 On the configuration panel, next to `Target folder`, you can now browse and select the folder you want to upload the file(s) to.
 
-Next to `Folder name template`, 
+Next to `Folder name template`,
 you can optionally specify a subfolder name to create inside the target folder.
-This name template can include process variables, 
+This name template can include process variables,
 so you can create new subfolders dynamically to organise your files.
-For example, if your process variables include a unique customer ID, 
+For example, if your process variables include a unique customer ID,
 then you can use that to save each customer’s files in a separate folder.
 Use a forward slash (``/``) to separate nested subfolder levels.
 
