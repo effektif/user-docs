@@ -8,6 +8,10 @@ sys.path.append(PROJECT_PATH)
 
 from conf import *
 
+# spellcheck options
+spelling_lang='en_GB'
+spelling_word_list_filename='../spelling_wordlist_en.txt'
+
 latex_documents = [
   ('index', 'SignavioWorkflowUserGuide.tex', u'Signavio Workflow User Guide',
    ", ".join(AUTHORS), 'manual'),
@@ -19,7 +23,8 @@ prepare(CWD, PROJECT_PATH, language)
 
 
 def build_search_snippets(app, docname):
-    clean_txts(PROJECT_PATH, language)
+    if app.builder.name == 'html':
+        clean_txts(PROJECT_PATH, language)
 
 
 def setup(app):
