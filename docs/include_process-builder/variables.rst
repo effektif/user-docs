@@ -11,7 +11,7 @@ These variables contain all of the information from forms as well as information
 Each case stores its own values for each workflow variable.
 
 You will usually add a variable to your workflow by adding a :ref:`form field <form-fields>`.
-You can also create variables in a :ref:`javascript`, to capture data that the script retrieves or calculates.
+You can also create variables in a :ref:`javascript-action`, to capture data that the script retrieves or calculates.
 
 .. figure:: /_static/images/forms/start-form.png
 

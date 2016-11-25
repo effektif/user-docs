@@ -1,7 +1,7 @@
 .. _notifications:
 
-Notifications
-===================
+Notifications reference
+=======================
 
 Signavio Workflow sends a variety of email notifications,
 to keep process participants up-to-date with cases they work on
