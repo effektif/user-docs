@@ -24,7 +24,7 @@ Use the product names as written:
 * **Signavio Process Intelligence**
 * **Signavio Workflow**
 
-Omit **the** before names: ‘Signavio Explorer’, not ‘the Signavio Explorer’.
+Omit **the** before names: use _Signavio Explorer_, not _the Signavio Explorer_.
 
 For names longer than two words, you may omit **Signavio** after the first use.
 
