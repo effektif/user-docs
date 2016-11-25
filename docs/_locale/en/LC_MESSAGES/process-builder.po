@@ -1,13 +1,14 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016, Signavio GmbH
-# This file is distributed under the same license as the User Guide package.
+# Translations template for PROJECT.
+# Copyright (C) 2016 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: User Guide 2.22\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-25 17:43+0100\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2016-11-25 18:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -848,52 +849,4 @@ msgid ""
 "process and then delete the original. This deletes all of the cases with "
 "the original process, and leaves a copy with no cases."
 msgstr ""
-
-#~ msgid ""
-#~ msgstr ""
-
-#~ msgid "BPMN swim lanes become :ref:`roles <roles>` in Signavio Workflow"
-#~ msgstr ""
-
-#~ msgid "tasks become :ref:`user tasks <user-task>` in Signavio Workflow"
-#~ msgstr ""
-
-#~ msgid "Signavio Workflow removes unsupported elements, such as timer events."
-#~ msgstr ""
-
-#~ msgid "BPMN swim lanes become :ref:`roles <roles>` in Effektif"
-#~ msgstr ""
-
-#~ msgid "tasks become :ref:`user tasks <user-task>` in Effektif"
-#~ msgstr ""
-
-#~ msgid "Effektif removes unsupported elements, such as timer events."
-#~ msgstr ""
-
-#~ msgid "Be concise; 3-10 words is usually about right."
-#~ msgstr ""
-
-#~ msgid "unsupported elements, such as timer events, are removed."
-#~ msgstr ""
-
-#~ msgid "Form documents"
-#~ msgstr ""
-
-#~ msgid ":ref:`dmn-rule-task`"
-#~ msgstr ""
-
-#~ msgid ":ref:`javascript-action-script-task`"
-#~ msgstr ""
-
-#~ msgid "Send task"
-#~ msgstr ""
-
-#~ msgid "Imported BPMN elements"
-#~ msgstr ""
-
-#~ msgid ":ref:`variables` store workflow data when the process runs."
-#~ msgstr ""
-
-#~ msgid ":ref:`javascript`"
-#~ msgstr ""
 

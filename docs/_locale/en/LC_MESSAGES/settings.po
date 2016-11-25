@@ -1,9 +1,14 @@
+# Translations template for PROJECT.
+# Copyright (C) 2016 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: User Guide 2.22\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-25 17:43+0100\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2016-11-25 18:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -160,19 +165,4 @@ msgid ""
 "SSO using the HTTP POST binding. Please contact us if you want to use a "
 "SAML 2.0 Identity Provider that is not listed above."
 msgstr ""
-
-#~ msgid ""
-#~ msgstr ""
-
-#~ msgid "The invitations list shows who you have invited to use Effektif."
-#~ msgstr ""
-
-#~ msgid "*Time zone* affects how Effektif displays times."
-#~ msgstr ""
-
-#~ msgid "*Time zone* affects how times are displayed."
-#~ msgstr ""
-
-#~ msgid "_.. _settings:"
-#~ msgstr ""
 
