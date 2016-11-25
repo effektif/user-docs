@@ -14,7 +14,7 @@ click the `Import BPMN` button and select the BPMN XML file.
 
    The `Import BPMN` button on the `Processes` page
 
-Signavio Workflow does not support all BPMN 2.0 elements, 
+Signavio Workflow does not support all BPMN 2.0 elements,
 so the process may appear differently in Signavio Workflow.
 The following table lists supported BPMN elements, and the corresponding action type.
 
@@ -38,7 +38,7 @@ The following table lists supported BPMN elements, and the corresponding action 
    * - Parallel gateway
      - :ref:`parallel-gateway`
    * - Script task
-     - :ref:`javascript`
+     - :ref:`script-task`
    * - Send task (``type=email``)
      - :ref:`send-email`
    * - Service task (``type=changeState``)
@@ -63,5 +63,5 @@ The following table lists supported BPMN elements, and the corresponding action 
      - :ref:`user-task`
    * - User task
      - :ref:`user-task`
-  
+
 Signavio Workflow removes unsupported elements, such as message events.

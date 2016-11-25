@@ -24,7 +24,7 @@ Use the product names as written:
 * **Signavio Process Intelligence**
 * **Signavio Workflow**
 
-Omit **the** before names: ‘Signavio Explorer’, not ‘the Signavio Explorer’.
+Omit **the** before names: use _Signavio Explorer_, not _the Signavio Explorer_.
 
 For names longer than two words, you may omit **Signavio** after the first use.
 
@@ -43,4 +43,9 @@ For names longer than two words, you may omit **Signavio** after the first use.
 
 **Dictionary** Refers to the [Dictionary](https://editor.signavio.com/userguide/en/dictionary/) feature in **Process Editor** and **Decision Manager**; for a list of defined terms, use _Glossary_.
 
+**Email** Omit hyphen.
+
+**Modeling** US English spelling with one ‘l’.
+
 **Signavio** Refers to the company; for software, use the product name.
+
