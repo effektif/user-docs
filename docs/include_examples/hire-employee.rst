@@ -23,7 +23,7 @@ Form - for uploading the candidate’s CV.
 Actions
 ^^^^^^^
 
-A recruitment process consists of a series of decisions, to reject the candidate or cointinue. This simplified process has these decision points after evaluating the applicant’s CV and a single interview.
+A recruitment process consists of a series of decisions, to reject the candidate or continue. This simplified process has these decision points after evaluating the applicant’s CV and a single interview.
 
 .. figure:: /_static/images/examples/hire-employee.png
 

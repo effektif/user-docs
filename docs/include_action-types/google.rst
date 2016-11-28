@@ -17,7 +17,7 @@ Configuration
 After creating a Google Drive `Upload file` action,
 the configuration panel shows a button to start configuring the account.
 
-When you click on the button `Configure a Google Drive account`, a popup window will appear that helps you integrate Signavio Workflow with your Google Drive account.
+When you click on the button `Configure a Google Drive account`, a pop-up window will appear that helps you integrate Signavio Workflow with your Google Drive account.
 
 Google will check that you have already logged in to Google.
 This check has three possible outcomes:

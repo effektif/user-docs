@@ -1,4 +1,6 @@
 _build/
-*.sublime-workspace
 .DS_Store
+venv/
 *.pyc
+*.sublime-workspace
+tests/root/_build/
