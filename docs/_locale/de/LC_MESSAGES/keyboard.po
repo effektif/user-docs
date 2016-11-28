@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Signavio GmbH
+# This file is distributed under the same license as the Signavio Workflow
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Signavio Workflow 3.15\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-28 17:22+0100\n"
+"PO-Revision-Date: 2016-11-28 17:34+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"X-Generator: Poedit 1.8.11\n"
+
+msgid "Keyboard shortcuts"
+msgstr "Tastaturkürzel"
+
+msgid ""
+"In some parts of the software, you can use the keyboard as well as the "
+"mouse for specific operations."
+msgstr ""
+"In einigen Bereichen der Anwendung können Sie Tastaturkürzel anstelle "
+"der Maus verwenden, um bestimmte Aktionen schneller durchzuführen."
+
+msgid "Process builder"
+msgstr "Prozesseditor"
+
+msgid "arrow keys"
+msgstr "Pfeiltasten"
+
+msgid "Move the selected diagram element"
+msgstr "Bewegen das ausgewählte Diagrammelement"
+
+msgid "Delete"
+msgstr "Entfernen"
+
+msgid "Delete the selected diagram element"
+msgstr "Entfernt das ausgewählte Diagrammelement"
+
+msgid "Case details view"
+msgstr "Falldetail-Ansicht"
+
+msgid "R"
+msgstr "R"
+
+msgid "Refresh case"
+msgstr "Aktualisiert den Fall"
