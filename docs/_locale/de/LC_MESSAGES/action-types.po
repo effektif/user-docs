@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-28 17:22+0100\n"
-"PO-Revision-Date: 2016-11-28 17:30+0100\n"
+"PO-Revision-Date: 2016-11-28 22:50+0100\n"
 "Last-Translator: Christian Wiggert <christian.wiggert@signavio.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgid "A user task in the process editor"
 msgstr "Eine Aufgabe im Prozess-Editor"
 
 msgid "A user task indicates that someone will perform a task. In the configuration form, you can specify the following optional details."
-msgstr "Aufgaben werden in Ihrer Organisation ausgeführt von Personen. In einem :ref:`Fall <cases>` wird hierzu eine Aufgabe angelegt. Für eine Aufgabe stehen die folgenden Konfigurationsmöglichkeiten zur Verfügung:"
+msgstr "Aufgaben werden in Ihrer Organisation ausgeführt von Personen. Für eine Aufgabe stehen die folgenden Konfigurationsmöglichkeiten zur Verfügung:"
 
 msgid "*General* - assign a task to a user or a :ref:`process role <roles>`."
 msgstr "*Allgemein* - ein Task kann einem Nutzer oder einer :ref:`Prozessrolle <roles>` zugewiesen werden."
@@ -59,7 +59,7 @@ msgid "Configuring user task assignment in the process editor"
 msgstr "Zuweisung einer Aufgabe im Prozesseditor konfigurieren"
 
 msgid "You an also specify a role for the task’s assignment, like a BPMN swim lane, so that Signavio Workflow automatically assigns related tasks to the same person."
-msgstr "Sie können auch :ref:`Rollen <process-roles>` für die Zuweisung nutzen. Diese ähneln den Lanes aus BPMN. Pro Fall weist Signavio Workflow die Aufgaben einer Rolle der gleichen Person zu."
+msgstr "Sie können auch Rollen für die Zuweisung nutzen. Diese ähneln den Lanes aus BPMN. Pro Fall weist Signavio Workflow die Aufgaben einer Rolle der gleichen Person zu."
 
 msgid "Task name template"
 msgstr "Vorlage für Aufgabennamen"
@@ -221,7 +221,7 @@ msgid "Google will check that you have already logged in to Google. This check h
 msgstr "Google prüft nun ob Sie bereits eingeloggt sind. Die Überprüfung hat drei mögliche Resultate führen kann:"
 
 msgid "If you have already authenticated with a single user to Google, the set-up process skips the log in page and you go straight to the :ref:`permission screen <drive-permission>` below."
-msgstr "Wenn Sie bereits eingeloggt sind und genau ein Google Konto besitzen, werden Sie direkt aufgefordert Signavio Workflow :ref:`gewisse Aktionen zu erlauben <drive-permissions>`."
+msgstr "Wenn Sie bereits eingeloggt sind und genau ein Google Konto besitzen, werden Sie direkt aufgefordert Signavio Workflow :ref:`gewisse Aktionen zu erlauben <drive-permission>`."
 
 msgid "If you haven’t authenticated with Google, you will see a log in window:"
 msgstr "Falls Sie noch nicht eingeloggt sind, sehen Sie ein Login-Fenster:"
@@ -521,7 +521,7 @@ msgid "A `Map variables` task in the process editor"
 msgstr "Eine `Variable zuweisen`-Task im Prozesseditor"
 
 msgid "The `Map variables` action copies the value of one :ref:`variable <variables>` to another. You can use this to set the value of a process variable automatically, instead of manually using a :ref:`form <forms>`."
-msgstr "Die `Variable zuweisen`-Aktion kopiert den Wert einer :ref:`Variablen <variables>` in eine andere Variable. Sie können hiermit die Werte von Prozessvariablen automatisch setzen anstatt sie manuell festlegen zu müssen."
+msgstr "Die `Variable zuweisen`-Aktion kopiert den Wert einer :ref:`Variablen <variables>` in eine andere Variable. Sie können hiermit die Werte von Prozessvariablen automatisch setzen anstatt sie manuell über ein :ref:`Formular <forms>` festlegen zu müssen."
 
 msgid "In some processes, the person who started the case should participate in the process by adopting one of the process’ :ref:`roles <roles>`. Consider an application process, where the person who starts the case must then complete a task to provide additional information."
 msgstr "In einigen Prozessen soll die Person, die den Fall gestartet hat, im Prozess eine der :ref:`Prozessrollen <roles>` übernehmen. Als Beispiel kann ein Bewerbungsprozess dienen, in dem die Person, die den Fall erstellt hat, im Laufe des Prozesses zusätzliche Informationen bereitstellen muss."
@@ -530,7 +530,7 @@ msgid "Configuring a `Map variables` task in the process editor"
 msgstr "Eine `Variable zuweisen`-Task im Prozesseditor konfigurieren"
 
 msgid "In this example, the `Provide additional information` action assigns the task using an `Applicant` role. When the applicant starts a case, the `Map variables` task automatically sets this role to the value of the `Case creator`. This automatically assigns the `Provide additional information` task, and any other tasks that use the same role, to the person who started the case."
-msgstr "In diesem Beispiel ordnet die `Zusätzliche Informationen bereitstellen`-Aktion die Task über eine `Bewerber`-Rolle zu. Wenn der Bewerber einen Fall startet, setzt die `Variablen zuordnen`-Task diese Rolle auf den Wert der Variable `Ersteller`. Damit werden die `Zusätzliche Informationen bereitstellen `-Task und alle anderen Tasks der Rolle automatisch der Person zu gewiesen, die den Fall erstellt hat."
+msgstr "In diesem Beispiel ordnet die `Zusätzliche Informationen bereitstellen`-Aktion die Task über eine `Bewerber`-Rolle zu. Wenn der Bewerber einen Fall startet, setzt die `Variablen zuordnen`-Task diese Rolle auf den Wert der Variable `Ersteller`. Damit werden die `Zusätzliche Informationen bereitstellen`-Task und alle anderen Tasks der Rolle automatisch der Person zu gewiesen, die den Fall erstellt hat."
 
 #~ msgid ""
 #~ msgstr ""
