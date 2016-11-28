@@ -15,11 +15,3 @@ latex_documents = [
 language = 'de'
 
 prepare(CWD, PROJECT_PATH, language)
-
-
-def build_search_snippets(app, docname):
-    clean_txts(PROJECT_PATH, language)
-
-
-def setup(app):
-    app.connect('build-finished', build_search_snippets)
