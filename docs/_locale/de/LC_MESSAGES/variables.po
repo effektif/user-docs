@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-25 17:44+0100\n"
-"PO-Revision-Date: 2016-11-25 18:03+0100\n"
+"PO-Revision-Date: 2016-11-28 22:46+0100\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -127,7 +127,7 @@ msgid "The case variable’s *ID* uniquely identifies this case among cases for 
 msgstr "Die *ID* der Fallvariable identifiziert diesen Fall unter allen Prozessfällen eindeutig."
 
 msgid "The *Name* field stores the name that either the :ref:`case-creator` entered manually, or that Signavio Workflow generated. Case participants can edit this name. You might use the case name variable in a :ref:`send-email` action configuration, to send emails that clearly identify their context by prefixing the subject line with the case name."
-msgstr "Das *Name*-Feld Speicher den Namen, der entweder vom :ref:`case-creator` manuell eingegeben oder von Signavio Workflow generiert wurde. Fallbeteiligte können diesen Namen editieren. Sie können die Fallnamen-Variable in einer ref:`send-email`-Aktivität verwenden, um Emails zu versenden, die den Kontext über den Fallnamen als Präfix der Betreffszeile genau angeben."
+msgstr "Das *Name*-Feld Speicher den Namen, der entweder vom :ref:`case-creator` manuell eingegeben oder von Signavio Workflow generiert wurde. Fallbeteiligte können diesen Namen editieren. Sie können die Fallnamen-Variable in einer :ref:`send-email`-Aktivität verwenden, um Emails zu versenden, die den Kontext über den Fallnamen als Präfix der Betreffzeile genau angeben."
 
 msgid "The *Number* field stores a sequential case number. Each process uses a separate case number sequence for its cases. In a *Handle customer order* process, you could use the case number as a generated order reference, for example."
 msgstr "Das *Fallnummer*-Feld enthält eine fortlaufende Fallnummer. Jeder Prozess besitzt eine eigene Fallnummer-Sequenz für seine Fälle. In einem *Bestellungsverarbeitungsprozess* können Sie die Fallnummer zum Beispiel als Bestellnummer verwenden."
@@ -136,13 +136,13 @@ msgid "The *Creator* field records the Signavio Workflow user who started the ca
 msgstr "Das *Ersteller*-Feld enthält Informationen über den Signavio Workflow-Nutzer, der den Fall gestartet hat. Der :ref:`type-user` enthält die Namen- und E-Mail-Adress-Felder. So können Sie den *Ersteller* des Falles dazu verwenden, um eine :ref:`send-email` Aktion zu erstellen, die den Anfragenden automatisch über den Ausgang eines Approval-Prozesses informiert.\""
 
 msgid "The *Start date* records when the :ref:`case-creator` started the case. In an order process, for example, you could use this as the order date."
-msgstr "Das Feld *Startdatum* enthält Informationen darüber, wann der Ersteller einen Fall erstellt hat. In einem Bestellprozess können sie dies z.B. als Bestelldatum verwenden."
+msgstr "Das Feld *Startdatum* enthält Informationen darüber, wann der :ref:`case-creator` einen Fall erstellt hat. In einem Bestellprozess können sie dies z.B. als Bestelldatum verwenden."
 
 msgid "The *Due date* field stores the due date that case participants can set on the case view. Unlike the other case variables, the due date does not always have a value."
 msgstr "Das Feld *Fälligkeit* enthält das Fälligkeitsdatum, das Fallbeteiligte in der Fallübersicht setzen können. Im Gegensatz zu den anderen Fallvariablen, besitzt dieses Feld nicht immer einen Wert."
 
 msgid "The *Link* field stores the URL of the case page in Signavio Workflow. You can include this link in the body of email you send using a :ref:`send-email` action, so that the recipient can immediately open the case in Signavio Workflow. Signavio Workflow includes this link its own built-in :ref:`email notifications <notifications>`."
-msgstr "Das *Link*-Feld enthält die Webadresse der Fallseite in Signavio Workflow. Sie können diesen Link in eine Email einfügen, die sie über eine :ref:`send-email` Aktion versenden. So kann der Empfänger den Fall sofort in Signavio Workflow öffnen. Signavio Workflow fügt diesen Link eigenständig in E-Mails ein, die über die eingebaute :ref:`Benachrichtigungsfunktion <notifications>`versendet werden.\""
+msgstr "Das *Link*-Feld enthält die Webadresse der Fallseite in Signavio Workflow. Sie können diesen Link in eine Email einfügen, die sie über eine :ref:`send-email` Aktion versenden. So kann der Empfänger den Fall sofort in Signavio Workflow öffnen. Signavio Workflow fügt diesen Link eigenständig in E-Mails ein, die über die eingebaute :ref:`Benachrichtigungsfunktion <notifications>` versendet werden.\""
 
 msgid "Trigger email variable"
 msgstr "Auslöser-E-Mail Variable"

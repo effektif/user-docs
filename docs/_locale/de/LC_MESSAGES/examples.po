@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-25 19:38+0100\n"
-"PO-Revision-Date: 2016-11-25 19:50+0100\n"
+"PO-Revision-Date: 2016-11-28 22:42+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -310,7 +310,7 @@ msgid "To prevent an exception when the company cannot fulfil the purchase order
 msgstr "Um zu verhindern, dass im späteren Prozessverlauf ein Problem aufgrund von mangelndem Lagerbestand auftritt, wird zu Beginn abgefragt, ob die Produkte verfügbar sind. Der Task *Auf Wareneingang warten* triggert eine tägliche Überprüfung des Lagerbestandes, solange die bestellten Produkte nicht vorhanden sind."
 
 msgid "The trigger form captures the customer e-mail address, so that rejecting the invoice with a rejection reason can use a :ref:`Send E-mail <send-email>` task to send a notification."
-msgstr "Da das Auslöserformular die Emailadresse des Kunden enthält, kann eine Ablehungsemail automatisch über einen ref:`Email senden <send-email>`-Task verschickt werden."
+msgstr "Da das Auslöserformular die Emailadresse des Kunden enthält, kann eine Ablehnungsemail automatisch über einen :ref:`Email senden <send-email>`-Task verschickt werden."
 
 msgid "*Warehouse operator* - a person who works in the warehouse and ships customer orders."
 msgstr "*Lagermitarbeiter* - eine Person, die die Produkte im Lager für den Versand vorbereitet"
@@ -354,7 +354,6 @@ msgstr "Die Rekrutierung eines Mitarbeiters zieht sich in der Regel eine Zeit la
 msgid "Form - for uploading the candidate’s CV."
 msgstr "Formular - für das Hochladen des Lebenslaufs des Bewerbers."
 
-#, fuzzy
 msgid "A recruitment process consists of a series of decisions, to reject the candidate or continue. This simplified process has these decision points after evaluating the applicant’s CV and a single interview."
 msgstr "Ein Bewerbungsprozess beinhaltet eine Reihe von Entscheidungen, die jeweils ein Fortfahren mit dem Bewerbungsprozess oder eine Ablehnung nach sich ziehen. In diesem vereinfachten Prozess sind Entscheidungen nach der Bewertung des Lebenslaufs und nach einem Interview notwendig."
 
@@ -680,7 +679,7 @@ msgid "A long sequence of tasks characterises this process, as follows."
 msgstr "Diesen Prozess charakterisiert eine lange Folge von Tasks:"
 
 msgid "*Retrieve customer order* - retrieve the order from the order management system and make it available to warehouse staff, e.g. by printing it or transferring to a work queue in a handheld device."
-msgstr "**Bestellung empfangen* - Bereitstellung der Bestellung aus dem Bestellverwaltungssystem für die Lagermitarbeiter - zum Beispiel Ausdrucken der Bestellung oder Übertragung auf die entsprechenden mobilen Endgeräte."
+msgstr "*Bestellung empfangen* - Bereitstellung der Bestellung aus dem Bestellverwaltungssystem für die Lagermitarbeiter - zum Beispiel Ausdrucken der Bestellung oder Übertragung auf die entsprechenden mobilen Endgeräte."
 
 msgid "*Pick items* - for each order line, finding the items in the warehouse and adding them to a ‘basket’, possibly for multiple orders at once with an efficient planned route through the warehouse."
 msgstr "*Produkte aus dem Lage holen* - Hinzufügen aller Produkte der Bestellung zu einem 'Warenkorb', möglicherweise für mehrere Bestellungen gleichzeitig, um Laufwege effizient zu nutzen."
@@ -695,7 +694,7 @@ msgid "*Print shipping labels* - print and attached labels showing the customer 
 msgstr "*Paketbeschriftungen drucken* - Drucken und ankleben der Beschriftungen mit Lieferadresse und weitere Informationen wie Gewicht und Maße."
 
 msgid "*Move to loading dock* - stack parcels ready for loading on the next truck. Inspect packing quality - quality control to check for correctly packed parcels."
-msgstr "*Pakete zur Laderampe transportieren* - Stapeln der Pakete vor der Verladerampe. **Verpackungsqualität überprüfen** - stellen Sie die Qualität der Verpackung sicher."
+msgstr "*Pakete zur Laderampe transportieren* - Stapeln der Pakete vor der Verladerampe. *Verpackungsqualität überprüfen* - stellen Sie die Qualität der Verpackung sicher."
 
 msgid "*Check parcel count* - a ‘head-count’ to check that there no orders have missing parcels."
 msgstr "*Paketanzahl überprüfen* - Sicherstellung, dass keine Pakete einer Bestellung fehlen."
@@ -719,7 +718,7 @@ msgid "*Warehouse operator* - responsible for operations in the warehouse, movin
 msgstr "*Lagermitarbeiter* - verantwortlich für die Warenbewegungen im Lagerhaus und das Beladen der Lastwagen."
 
 msgid "*Order form* (File, required) - lists order lines of products to ship from the warehouse."
-msgstr "**Bestellformular* (Datei, Pflichtfeld) - listet die bestellten Produkte auf."
+msgstr "*Bestellformular* (Datei, Pflichtfeld) - listet die bestellten Produkte auf."
 
 msgid "*Order reference* (Text, required) - extracted from the order form, uniquely identifies the order in Signavio Workflow."
 msgstr "*Bestellreferenz* (Text, Pflichtfeld) - aus dem Bestellformular extrahiert, identifiziert die Bestellung in Signavio Workflow."
