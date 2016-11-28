@@ -38,7 +38,7 @@ The following table lists supported BPMN elements, and the corresponding action 
    * - Parallel gateway
      - :ref:`parallel-gateway`
    * - Script task
-     - :ref:`script-task`
+     - :ref:`javascript`
    * - Send task (``type=email``)
      - :ref:`send-email`
    * - Service task (``type=changeState``)
