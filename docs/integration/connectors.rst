@@ -261,7 +261,7 @@ When you use a record type on a form, you will see a form field where you can en
 Each result represents a record provided by the connector.
 In order to show a selection of different records to the user, a connector can provide a list of options for a record type.
 
-To make a list of options available to forms, in the :ref:`connector-type-descriptor`, set the ``optionsAvailable`` flag to ``true``.
+To make a list of options available to forms, in the :ref:`connector-descriptor`, set the ``optionsAvailable`` flag to ``true``.
 The connector must also make the options available as the following HTTP resource.
 
 URL (relative to the endpoint URL)
@@ -308,7 +308,7 @@ Record details
 When you use a connector form field to select a record, you can use the record’s data in the workflow.
 Signavio Workflow only stores the record’s ID as a reference, and fetches the entire record when needed, when accessing the nested data.
 
-To make a record’s fields available, in the :ref:`connector-type-descriptor`, set the ``fetchOneAvailable`` flag to ``true``.
+To make a record’s fields available, in the :ref:`connector-descriptor`, set the ``fetchOneAvailable`` flag to ``true``.
 The connector must also make the records available as the following HTTP resource.
 
 URL (relative to the endpoint URL)
