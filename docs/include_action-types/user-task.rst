@@ -43,8 +43,6 @@ In the text field, type a `#` to select a variable.
 
 Use task name templates to avoid a :ref:`tasks` view that fills up with identically-named tasks.
 
-.. _user-task-form:
-
 Form
 ^^^^
 
@@ -84,4 +82,3 @@ Access Rights
 
 Use the `Access Rights` tab to set permissions for viewing, assigning and completing the task.
 See :ref:`Restricting access to user tasks <user-task-access>` for details.
-
