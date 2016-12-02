@@ -1,4 +1,4 @@
-Effektif User Manual [![Documentation Status](https://readthedocs.org/projects/effektif/badge/?version=latest)](https://readthedocs.org/projects/effektif/?badge=latest)
+Effektif User Manual [![Documentation Status](https://readthedocs.org/projects/effektif/badge/?version=latest)](https://readthedocs.org/projects/effektif/?badge=latest) [![Build Status](https://travis-ci.org/effektif/user-docs.svg?branch=master)](https://travis-ci.org/effektif/user-docs)
 =======
 
 See the [admin guide instructions](https://sites.google.com/a/effektif.com/effektif/general/admin-guide) for more information.
