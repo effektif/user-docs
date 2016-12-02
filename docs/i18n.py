@@ -5,7 +5,7 @@ from tabulate import tabulate
 from shutil import copyfile, rmtree, copytree
 
 # all available languages of the documentation
-LANGUAGES = ['de', 'en']
+LANGUAGES = ['de', 'en', 'fr']
 
 DEFAULT_LANG = 'en'
 PROJET_PATH = os.path.dirname(os.path.realpath(__file__))
@@ -110,4 +110,3 @@ def prepare_language(cwd, path=PROJET_PATH, lang=DEFAULT_LANG):
     remove_stale_data(cwd)
 
     copy_sources(cwd, origin=path)
-
