@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-28 17:22+0100\n"
-"PO-Revision-Date: 2016-11-28 22:50+0100\n"
+"PO-Revision-Date: 2016-12-07 14:36+0100\n"
 "Last-Translator: Christian Wiggert <christian.wiggert@signavio.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -154,50 +154,47 @@ msgstr "Wie in der Betreffzeile können Sie im Inhaltstext Variablen mit dem `#`
 msgid "Create document"
 msgstr "Dokument erstellen"
 
-#, fuzzy
 msgid "A create document action in the process editor"
-msgstr "Eine Aufgabe im Prozess-Editor"
+msgstr "Eine “Dokument erstellen”-Aktion im Prozesseditor"
 
 msgid "The `Create document` action allows you to create a file that contains case information."
-msgstr ""
+msgstr "Mit der `Dokument erstellen`-Aktion können Sie Dateien erstellen, die Fallinformation enthalten."
 
 msgid "When you use the :ref:`Send email action <send-email>` or :ref:`Upload file <google-drive>` to save information from a case, you use a file variable for email attachments or the file to save. You normally provide these files via a form. You can also use the `Create document` action to create a new file using data from other variables."
-msgstr ""
+msgstr "Sie können über eine :ref:`Email senden <send-email>`- oder eine :ref:`Datei hochladen <google-drive>`-Aktion Fallinformationen als Dokumente speichern. Alternativ können Sie die `Dokument erstellen`-Aktion verwenden, und so ein neues Dokument direkt erstellen."
 
 msgid "Consider a shipping process whose trigger form includes details of a ‘recipient’ to ship a product to and a shipping address. This process can use a `Create document` action to prepare a shipping label for printing:"
-msgstr ""
+msgstr "Nehmen wir zum Beispiel einen Versandprozess, dessen Auslöser den Kundennamen und die Lieferadresse enthält. Dieser Prozess kann eine `Dokument erstellen`-Aktion verwenden, um die Paketbeschriftung automatisch zu generieren:"
 
-#, fuzzy
 msgid "Configuring a create document action in the process editor"
-msgstr "Erinnerungen im Prozesseditor konfigurieren"
+msgstr "“Dokument erstellen”-Aktionen im Prozesseditor konfigurieren"
 
 msgid "Select a `Create document` action in the process editor to configure the following options."
-msgstr ""
+msgstr "Wählen Sie eine `Dokument erstellen`-Aktion um Prozesseditor aus und konfigurieren Sie die folgenden Einstellungen:"
 
 msgid "Document name"
-msgstr ""
+msgstr "Dokumentname"
 
 msgid "Defines the name of the file variable that will store the created document."
-msgstr ""
+msgstr "Definiert den Namen der Dateivariable, die das erstellte Dokument enthält."
 
-#, fuzzy
 msgid "File name"
-msgstr "Absendername"
+msgstr "Dateiname"
 
 msgid "Defines the document’s filename. Type `#` to include placeholders for variables."
-msgstr ""
+msgstr "Definiert"
 
 msgid "File format"
-msgstr ""
+msgstr "Dateiformat"
 
 msgid "Choose between Microsoft Word, plain text, and comma-separated values (CSV) file types."
-msgstr ""
+msgstr "Wählen Sie zwischen Microsoft Word, Klartext und kommaseparierten Werten (CSV) aus."
 
 msgid "Use the text area to enter a template for the new document. Type `#` to include placeholders for variables, as you would in a :ref:`Send email action <send-email>`’s template."
-msgstr ""
+msgstr "Verwenden Sie das Textfeld, um ein Template für das neue Dokument einzugeben. Referenzierten Sie Platzhaltervariablen mit `#`, genau so wie im Template der :ref:`Email senden <send-email>`-Aktion."
 
 msgid "Note that the `Create document` action does not currently support formatting text."
-msgstr ""
+msgstr "Hinweis: Die `Dokument erstellen`-Aktion unterstützt momentan keine Textformatierung."
 
 msgid "Google Drive - Upload file"
 msgstr "Google Drive - Datei hochladen"
