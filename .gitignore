@@ -3,4 +3,4 @@ _build/
 venv/
 *.pyc
 *.sublime-workspace
-tests/root/_build/
+tests/root/

@@ -181,7 +181,7 @@ msgid "Attaching documents to a case"
 msgstr "Ein Dokument an einen Fall anhängen."
 
 msgid "As well as commenting on a case, to share information with the case’s participants, you can attach documents. For example, cases in a job vacancy process might require candidate CVs. Anyone can access the case can download a case’s documents, which makes them more useful than email attachments."
-msgstr "Um Informationen zu kommunizieren, können Sie zudem Dokumente an einen Fall anhängen. Zum Beispiel ist es in einem Bewerbungsprozess sinnvoll, den Lebenslauf des Bewerbers im Fall zu hinterlegen. Jede Person, die auf den Fall Zugreifen kann, kann direkt dort den Lebenslauf herunterladen und einsehen. Dies verhindert umständliches Suchen im E-Mail Avfgrchiv."
+msgstr "Um Informationen zu kommunizieren, können Sie zudem Dokumente an einen Fall anhängen. Zum Beispiel ist es in einem Bewerbungsprozess sinnvoll, den Lebenslauf des Bewerbers im Fall zu hinterlegen. Jede Person, die auf den Fall Zugreifen kann, kann direkt dort den Lebenslauf herunterladen und einsehen. Dies verhindert umständliches Suchen im Email-Archiv."
 
 msgid "To attach a document to a case, select the the `Upload a document` option next to where you add comments."
 msgstr "Um ein Dokument an einen Fall anzuhängen, wählen Sie die `Ein Dokument hochladen`-Option neben dem Kommentarfeld aus."
