@@ -3,8 +3,7 @@ python:
   - "2.7"
 # command to install dependencies
 install:
-  - sudo apt-get remove myspell-de-de
-  - sudo apt-get install aspell-de-de
+  - sudo apt-get install aspell-de
   - sudo apt-get install python-enchant
   - pip install -r requirements
 # command to run tests
