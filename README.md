@@ -5,13 +5,15 @@ See the [admin guide instructions](https://sites.google.com/a/effektif.com/effek
 
 ## Set-up
 
-The following instructions assume Python is already installed.
+On macOS, the easiest approach is to use [Homebrew](http://brew.sh) to install the latest version of Python 2 and the [PIP](https://pypi.python.org/pypi/pip) package manager.
+Using the Python that the OS provides seems harder.
+Alternatively, if you use Python for other things, you migth prefer to  [set up a virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/).
 
-0. (optional) You might want to [set up a virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/).
-1. Install Python module dependencies - [PIP](https://pypi.python.org/pypi/pip), termcolor and tabulate:
+1. Install Python and PIP using Homebrew
 
-		sudo easy_install pip termcolor tabulate
-
+		brew install python
+		pip install --upgrade pip setuptools
+		
 2. Set language environment variables:
 
 		export LC_ALL=en_US.UTF-8
