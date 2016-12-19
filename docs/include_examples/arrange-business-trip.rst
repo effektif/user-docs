@@ -28,7 +28,7 @@ The process mainly consists of four tasks, that the assistant can complete in pa
 .. figure :: /_static/images/examples/arrange-business-trip.png
 
 The `Book hire car` task applies for travellers who do not use public transport.
-The `Prepare trip folder` task is a checklist of information to give the traveller as a printed itinerary.
+The `Prepare trip folder` task includes a checklist of information to give the traveller as a printed itinerary.
 
 Roles
 ^^^^^
