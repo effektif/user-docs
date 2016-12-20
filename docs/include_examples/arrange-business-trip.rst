@@ -47,7 +47,7 @@ Trigger form fields:
 
 `Book flights` user task fields:
 
-* *Flights required?* (Yes/No) - whether the trip requires flight bookings
+* *Flights required?* (Yes/No) - whether the trip requires flight bookings, based on the destination
 * *Outbound date* (Date) - flight information
 * *Outbound flight no.* (Text) - flight information
 * *Return date* (Date) - flight information

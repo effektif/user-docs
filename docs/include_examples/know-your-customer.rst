@@ -24,7 +24,7 @@ Actions
 
 The process starts with an initial task to capture the customer information that forms the basis of the identity checks.
 In this example, three script tasks implement KYC checks by calling external systems that perform the checks.
-Finally, an automatic check, supported by a manual check for uncertain cases, determines the follow-up actions.
+Finally, an automatic check, supported by a manual approval for inconclusive cases, determines the follow-up actions.
 
 .. figure :: /_static/images/examples/know-your-customer.png
 
@@ -34,7 +34,7 @@ This process therefore ‘decorates’ the usual on-boarding process with additi
 Roles
 ^^^^^
 
-*Branch Services - Account Representative* - the only role in this process, to perform the initial data entry and manual approval tasks.
+*Branch Services - Account Representative* - performs the initial data entry and manual approval.
 
 Fields
 ^^^^^^
@@ -48,4 +48,4 @@ Fields
 Related processes
 ^^^^^^^^^^^^^^^^^
 
-:ref:`approve-document` generalizes this process.
+:ref:`approve-document` generalizes this approval process.

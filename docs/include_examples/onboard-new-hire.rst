@@ -6,7 +6,7 @@ Onboard new hire (HR)
 Process goal
 ^^^^^^^^^^^^
 
-Learn about the new hire, create a working environment where the new hire can start working and allow the new hire to learn about the company.
+Create a working environment where the new hire can learn about the company and start work.
 
 Context
 ^^^^^^^
@@ -34,11 +34,11 @@ The first day itself forms the next phase, followed by a longer follow-up and ev
 Roles
 ^^^^^
 
-* *HR assistant* - introduces the new hire to the company.
-* *Line manager* - introduces the new hire to their daily work.
+* *HR assistant* - introduces the new hire to the company
+* *Line manager* - introduces the new hire to their daily work
 
 Fields
 ^^^^^^
 
-* *New hire - full name* (Text) - used as input to various tasks, such as creating the new hire’s email account
-* *New hire - home address* (Text) - used for sending a welcome pack to the new hire.
+* *New hire - full name* (Text) - input for various tasks, such as creating an email account
+* *New hire - home address* (Text) - used for sending a welcome pack to the new hire

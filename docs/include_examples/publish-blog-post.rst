@@ -11,7 +11,7 @@ Publish a blog post on the company website.
 Context
 ^^^^^^^
 
-In a product company such as `Signavio <http://www.signavio.com>`_, the marketing department often publishes a blog about the company’s products.
+In a product company such as `Signavio <http://www.signavio.com>`_, the marketing department typically publishes a blog about the company’s products.
 Writing and publishing a product blog post involves several people, who must coordinate their work to make it possible to publish new blog posts on a regular schedule.
 
 Trigger

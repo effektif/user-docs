@@ -24,7 +24,7 @@ Actions
 ^^^^^^^
 
 The process extends the basic :ref:`approve-document` process, by adding explicit approval tasks for specific people.
-All three approving the draft document indicates successful review.
+Three approvals of the draft document indicate successful review.
 
 .. figure :: /_static/images/examples/approve-meeting-minutes.png
 
@@ -33,7 +33,7 @@ After approval, the `Distribution List Result Notification` and `Document Archiv
 Roles
 ^^^^^
 
-*Meeting secretary* - the only role in this process, to perform the `Update minutes` task, because specific people complete the approval tasks in this example.
+*Meeting secretary* - updates the draft minutes following review feedback; the process does not define any other roles because specific people complete the approval tasks.
 
 Fields
 ^^^^^^
@@ -46,4 +46,4 @@ Fields
 Related processes
 ^^^^^^^^^^^^^^^^^
 
-:ref:`approve-document` generalizes this process.
+:ref:`approve-document` generalizes this approval process.
