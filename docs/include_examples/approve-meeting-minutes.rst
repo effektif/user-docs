@@ -46,4 +46,4 @@ Fields
 Related processes
 ^^^^^^^^^^^^^^^^^
 
-:ref:`approve-document` generalizes this approval process.
+:ref:`approve-document` generalises this approval process.

@@ -13,7 +13,7 @@ Context
 
 People who travel frequently for work sometimes get support from office assistants who arrange the trips.
 This includes booking travel and accommodation according to the traveller’s preferences.
-When the assistants have a large number of overlapping trips to organize, Signavio Workflow helps them keep track.
+When the assistants have a large number of overlapping trips to organise, Signavio Workflow helps them keep track.
 
 Trigger
 ^^^^^^^
