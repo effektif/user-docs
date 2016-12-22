@@ -3,7 +3,7 @@
 Adding a decision to an approval process
 ----------------------------------------
 
-An approval processes like document approvals require a clear decision, such as whether to *Approve* or *Reject* a document.
+An approval process such as a document approval requires a clear decision, such as whether to *Approve* or *Reject* a document.
 This tutorial continues the document approval process example from the previous tutorial and shows you how to add a manual decision to a user task form.
 
 To start, create a basic approval process with a single user task, as in the :ref:`first document process <tutorial-new-process>` tutorial:
