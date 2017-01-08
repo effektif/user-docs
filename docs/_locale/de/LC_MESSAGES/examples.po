@@ -613,7 +613,7 @@ msgid "Form - an insured customer’s completed claim form."
 msgstr "Formular - ausgefülltes Fallformular eines Versicherungskunden."
 
 msgid "This process illustrates how to handle large case volumes, by splitting the process into tasks that you can assign to different groups of people Junior staff can handle most tasks and only assign hard tasks to a smaller group of senior staff."
-msgstr "Der Prozess illustriert wie ein hohes Fallaufkommen verwaltet werden kann indem der Prozess in Task eingeteilt wird, die verschiedenen Personengruppen zugewiesen kann. So können Juniormitarbeiter die meisten Tanks schnell abarbeiten, während Seniormitarbeiter lediglich komplizierte und risikoreiche Aufgaben übernehmen."
+msgstr "Der Prozess illustriert wie ein hohes Fallaufkommen verwaltet werden kann indem der Prozess in Task eingeteilt wird, die verschiedenen Personengruppen zugewiesen kann. So können Junior-Mitarbeiter die meisten Tanks schnell abarbeiten, während Senior-Mitarbeiter lediglich komplizierte und risikoreiche Aufgaben übernehmen."
 
 msgid "In most cases, the top row of user tasks will process the claim. Only a few claims will require the *Investigate high-value claim* or *Process complex claim* tasks."
 msgstr "Die meisten Fälle durchlaufen lediglich die oberste Aufgabenreihe. Nur die wenigen komplexen Fälle und Fälle mit hohen Forderungssummen erfordern die Aufgaben *Forderung überprüfen* und/oder *Komplexe Forderung bearbeiten*."
@@ -631,7 +631,7 @@ msgid "*Claim form* (File, mandatory) - the form provided by the customer, via t
 msgstr "*Antragsformular* (Datei, Pflichtfeld) - das vom Kunden ausgefüllte Formular, das über den Auslöser bereit gestellt wird."
 
 msgid "*Total value* (Money, mandatory) - the total value of the claim, which the junior adjuster extracts from the claim form in the *Calculate claim value* task."
-msgstr "*Gesamtsumme* (Geldbetrag, Pflichtfeld) - die Gesamtsumme des Antrags, die der Juniorfallbearbeiter aus dem Formular extrahiert."
+msgstr "*Gesamtsumme* (Geldbetrag, Pflichtfeld) - die Gesamtsumme des Antrags, die der Junior-Fallbearbeiter aus dem Formular extrahiert."
 
 msgid "*Payout* (Money, mandatory) - the amount to pay to the customer if the adjuster approves the claim."
 msgstr "*Auszahlung* (Geldbetrag, Pflichtfeld) - der Geldbetrag, den der Kunde bei stattgegebenem Antrag erhält."

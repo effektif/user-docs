@@ -58,6 +58,7 @@ Enterprise
 Ereignisfeed
 Ereignisstream
 Eskalations
+Eskalationsdeadline
 Eskalationsmöglichkeit
 Eskalationsoption
 Event

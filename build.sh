@@ -28,16 +28,14 @@ rm -rf docs/_build
 
 cd "$PWD"/docs/$1
 
-sphinx-build -M $MODE . _build
+BUILDDIR="../_build"
+
+sphinx-build -M $MODE . $BUILDDIR
 
 cd ..
-rm -rf _build
-
-mv $1/_build .
+rm -rf $BUILDDIR
 
 cd ..
 python cleanup.py
 python remove_rst_refs_in_po_files.py $1
 python find_missing_images.py $1
-
-
