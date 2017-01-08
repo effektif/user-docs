@@ -106,7 +106,7 @@ msgid "Approve Expense Claim (management)"
 msgstr "Abrechnung genehmigen (Management)"
 
 msgid "Submit an expense claim document for someone else to approve."
-msgstr "Das Prozessziel ist eine durch einen Manager genehmigte (bzw. bearbeitete) Abrechnung."
+msgstr "Das Prozessziel ist eine durch einen Manager genehmigte (beziehungsweise bearbeitete) Abrechnung."
 
 msgid "Employees need to submit expense forms for their managers to approve, but if they all send them by e-mail, managers will find it difficult to keep track."
 msgstr "Mitarbeiter müssen die Abrechnungsformulare bei ihren Managern einreichen, um sie genehmigen zu lassen. Falls die Formulare jedoch per E-Mail eingehen, werden es die Manager schwer haben auf dem Laufenden zu bleiben. "
@@ -130,7 +130,7 @@ msgid "*Financial administrator* - pays the approved expense claim"
 msgstr "Die *Kasse* zahlt die genehmigte Summe aus."
 
 msgid "*Trigger email / From name* - Employee name - used to pay the expenses"
-msgstr "DIe *Auslöser-E-Mail / von Name* (Name des Mitarbeiters) wird zur Auszahlung der Summe verwendet."
+msgstr "Die *Auslöser-E-Mail / von Name* (Name des Mitarbeiters) wird zur Auszahlung der Summe verwendet."
 
 msgid "*Trigger email / Attachments* - Expense form - table of expenses, used to approve the claim"
 msgstr "Die *Auslöser-E-Mail / Anhänge* (Abrechnungsformular - \"Tabelle mit Ausgaben\"), wird dazu verwendet, die Abrechnung zu überprüfen."
@@ -142,13 +142,13 @@ msgid "Replace the *Approve claim* task with a `Document Approval <http://www.ef
 msgstr "Ersetzen Sie die *Genehmigungsanfrage*-Aktion durch ein `Dokumentengenehmigungsschema <http://www.effektif.com/news/document-workflow-patterns/#section-1>`_, um dem Mitarbeiter zu erlauben, Korrekturen vorzunehmen falls der Manager die Anfrage ablehnt."
 
 msgid "Add the `Result Notification <http://www.effektif.com/news/email-notification-workflow-patterns/#section-2>`_ pattern to notify the employee when the expenses have been paid."
-msgstr "Fügen Sie das `Ergebnis-Benachrichtigungsschema <http://www.effektif.com/news/email-notification-workflow-patterns/#section-2>`_ hinzu, um den Mitarbeiter zu informieren, sobald der Prozess bzw. Fall abgeschlossen ist."
+msgstr "Fügen Sie das `Ergebnis-Benachrichtigungsschema <http://www.effektif.com/news/email-notification-workflow-patterns/#section-2>`_ hinzu, um den Mitarbeiter zu informieren, sobald der Prozess beziehungsweise Fall abgeschlossen ist."
 
 msgid ":ref:`Approve Document <approve-document>` handles approving a document rather than an email request."
-msgstr "Der Prozess :ref:`Dokument freigeben<approve-document>` erklärt wie Sie ein Dokument anstatt einer E-Mail-Anfrage freigeben, bzw. zu genehmigen."
+msgstr "Der Prozess :ref:`Dokument freigeben<approve-document>` erklärt wie Sie ein Dokument anstatt einer E-Mail-Anfrage freigeben, beziehungsweise zu genehmigen."
 
 msgid ":ref:`Approve Vacation Request <approve-vacation-request>` handles approving a request from a form rather than an email."
-msgstr "Der Prozess  :ref:`Urlaubsantrag genehmigen (HR) <approve-vacation-request>` erklärt, wie Sie eine Formular-Anfrage anstatt einer E-Mail-Anfrage genehmigen bzw. freigeben können."
+msgstr "Der Prozess  :ref:`Urlaubsantrag genehmigen (HR) <approve-vacation-request>` erklärt, wie Sie eine Formular-Anfrage anstatt einer E-Mail-Anfrage genehmigen beziehungsweise freigeben können."
 
 msgid "Approve Vacation Request (HR)"
 msgstr "Urlaubsantrag genehmigen (HR)"
@@ -187,7 +187,7 @@ msgid "*End date* (Date) - vacation end date."
 msgstr "*Enddatum* (Datum) - das Enddatum des Urlaubs"
 
 msgid "You might extend the process with an additional task for the employee to provide additional information, or change the initial request, if the manager rejected the request. This would avoid the need for more cases than vacations, which would clutter the case view."
-msgstr "Sie können den Prozess mit einem zusätzlichen Task erweitern, um Vorgesetzten die Möglichkeit zu geben, weitere Informationen oder Änderungen anzufragen, falls die initale Urlaubsanfrage nicht genehmigt werden kann. Dies vermeidet, dass für jeden abgelehnten Urlaubszeitraum ein neuer Fall erstellt werden muss."
+msgstr "Sie können den Prozess mit einem zusätzlichen Task erweitern, um Vorgesetzten die Möglichkeit zu geben, weitere Informationen oder Änderungen anzufragen, falls die initiale Urlaubsanfrage nicht genehmigt werden kann. Dies vermeidet, dass für jeden abgelehnten Urlaubszeitraum ein neuer Fall erstellt werden muss."
 
 msgid "You could also extend this process with additional tasks to support what happens when the employee goes on vacation, such as assigning a person to take over their work."
 msgstr "Sie können den Prozess zudem um einen Task erweitern, der die Verantwortungsübergabe vor Urlaubsbeginn unterstützt."
@@ -211,7 +211,7 @@ msgid "The core process consists of an approval for the requisition, followed by
 msgstr "Der Kernprozess besteht aus der Freigabe des Stellenprofils, gefolgt von der Veröffentlichung der Stellenausschreibung, dem Durchführen von Interviews und dem Schließen der Stellenausschreibung."
 
 msgid "In addition, the hiring organisation passes the vacancy to one or more external recruiters, by email, who may also supply applicants. A second email notifies the recruiters when the vacancy has been filled."
-msgstr "Zudem wird die Stellenausschreibung per Email an einen oder mehrere externe Rekrutier geschickt. Eine zweite Email informiert die Rekrutier sobald die Stelle besetzt ist."
+msgstr "Zudem wird die Stellenausschreibung per Email an einen oder mehrere externe Recruiter geschickt. Eine zweite Email informiert die Recruiter sobald die Stelle besetzt ist."
 
 msgid "*Recruiter* - the internal HR employee who coordinates the recruitment process. The basic version of this process excludes the hiring manager, who participates in the :ref:`Hire Employee <hire-employee>` subprocess. This process also excludes the external recruiter or headhunter."
 msgstr "*Recruiter* - der interne HR-Mitarbeiter, der den Einstellungsprozess koordiniert. Die Basisversion des Prozesses berücksichtigt nicht den HR Manager, der im :ref:`Mitarbeiter einstellen <hire-employee>`-Subprozess mitwirkt, sowie externe Recruiter oder Headhunter."
@@ -271,7 +271,7 @@ msgid "This process records the result of a business meeting by triaging contact
 msgstr "Der Prozess dokumentiert das Ergebnis eines Geschäftsmeetings, indem es Kontakte den Follow-Up-Anforderungen entsprechend einstuft."
 
 msgid "*Sales Manager* - member of a business development team. The process only has this one role, as it does not include collaboration with team members."
-msgstr "*Salesmanager* - Mitarbeiter eines Business Development-Teams. Dies ist die einzige Rolle, da der Prozess keine Kollaboration mit Kollegen erfordert."
+msgstr "*Salesmanager* - Mitarbeiter eines Business Entwicklungsteams. Dies ist die einzige Rolle, da der Prozess keine Kollaboration mit Kollegen erfordert."
 
 msgid "The process data consists of whatever information the sales manager uses to triage the contact and follow up."
 msgstr "Die Datengrundlage des Prozesses basiert auf den Informationen, die der Salesmanager für die Einstufung und das Follow-Up benötigt."
@@ -286,7 +286,7 @@ msgid "*Job title, Company* (Text) - the contact’s job, which the sales manage
 msgstr "*Jobtittel, Firma* (Text) - der Job des Kontakts, den der Salesmanager möglicherweise bei der Einstufung berücksichtigt."
 
 msgid "You could extend this process to include the next steps in the larger sales process, following the first sales meeting, such as a product demo."
-msgstr "Sie können diesen Prozess erweitern, sodass er die nächsten Schritte des Salesprozesses enthätl, zum Beispiel die Durchführung einer Produktdemo."
+msgstr "Sie können diesen Prozess erweitern, sodass er die nächsten Schritte des Salesprozesses enthält, zum Beispiel die Durchführung einer Produktdemo."
 
 msgid "Setting up meetings might involve introducing a collaboration with a secretary. Similarly, a demo might requires collaboration with a product specialist."
 msgstr "Die Meetingsfindung kann Koordination mit einem Sekretär erfordern. Entsprechend kann die Demo die Zusammenarbeit mit einer Produktspezialistin voraussetzen."
@@ -301,7 +301,7 @@ msgid "The core activities of many companies include selling things to their cus
 msgstr "Die Kernaktivitäten vieler Firmen sind der Verkauf und die Lieferung von Produkten zu Kunden. Die High-Level-Prozesse vieler Firmen sind sehr ähnlich, sodass es möglich ist, generische Prozessblaupausen zu erstellen. Natürlich können diese Blaupausen anschließend individuell implementiert werden, um den Unterschieden der Firmen, Produkten und Zielgruppen gerecht zu werden."
 
 msgid "Form - provides the purchase order."
-msgstr "Forumlar - stellt die Bestellung dar."
+msgstr "Formular - stellt die Bestellung dar."
 
 msgid "In this process, an incoming purchase order form essentially triggers two tasks: *Fulfil order* and *Issue invoice*."
 msgstr "In diesem Prozess triggert eine Bestellung zwei Tasks: *Produkte verschicken* und *Rechnung stellen*."
@@ -370,7 +370,7 @@ msgid "*CV* (File, mandatory) - the applicant’s CV, provided by the trigger fo
 msgstr "*Lebenslauf* (Datei, Pflichtfeld) - der Lebenslauf des Bewerbers wird über das Auslöserformular bereitgestellt."
 
 msgid "*Candidate email* (Email address, mandatory) - the email address that Signavio Workflow uses to send a rejection email."
-msgstr "*Emailadresse des Bewerbers* (Emailadresse, Pflichtfeld) - die Emailadresse, an die Signavio Workflow gegebenenfalls automatisch eine Ablehungs-Email verschickt."
+msgstr "*Emailadresse des Bewerbers* (Emailadresse, Pflichtfeld) - die Emailadresse, an die Signavio Workflow gegebenenfalls automatisch eine Ablehungsemail verschickt."
 
 msgid "The trigger form could allow uploading additional documents, such as a covering letter, which some organisations like to receive."
 msgstr "Das Auslöserformular kann zudem das Hochladen weiterer Dokumente, wie zum Beispiel Anschreiben und Referenzen, erlauben."
@@ -379,13 +379,13 @@ msgid "Instead of a trigger form, use an e-mail trigger to accept applications b
 msgstr "Anstelle eines Auslöserformulars kann ein Emailauslöser verwendet werden. Der Lebenslauf kann über den Anhang der Email übertragen werden."
 
 msgid "If the organisation has to deal with a high case volume, the trigger form could capture information that you could use to prioritise cases, such as the *Candidate availability date*."
-msgstr "Falls Ihre Organisation sehr viele Bewerbungen bearbeiten muss, können Sie Felder zur Periodisierung im Formular bereitstellen, wie zum Beispiel das *Verfügbarkeitsdatum* des Bewerbers."
+msgstr "Falls Ihre Organisation sehr viele Bewerbungen bearbeiten muss, können Sie Felder zur Priorisierung im Formular bereitstellen, wie zum Beispiel das *Verfügbarkeitsdatum* des Bewerbers."
 
 msgid "The trigger form could include additional information to allow automatic pre-screening, to cover cases that do not justify starting the process, such as an applicant with no work visa."
 msgstr "Das Auslöserformular kann zudem weitere Felder zur Vorauswahl enthalten, zum Beispiel wenn ein valides Arbeitsvisum eine zwingende Voraussetzung ist."
 
 msgid "You could add additional interview stages, such as a telephone screen, second interview, or a post-offer visit."
-msgstr "Desweiteren können Sie zusätzliche Interviews einführen, wie zum Beispiel ein Telefon-Screening, ein weiteres On-Site-Interview oder ein Kennenlerntreffen nach einem Angebot."
+msgstr "Des Weiteren können Sie zusätzliche Interviews einführen, wie zum Beispiel ein Telefon-Screening, ein weiteres On-Site-Interview oder ein Kennenlerntreffen nach einem Angebot."
 
 msgid "Initiate Project (project delivery)"
 msgstr "Projekt initiieren (Projektmanagement)"
@@ -445,7 +445,7 @@ msgid "You could simplify these forms by using *Yes/No* choices instead of text 
 msgstr "Sie können die Formulare vereinfachen, indem Sie *Ja/Nein*-Felder anstelle von Textfeldern verwenden. So wird aus jedem Task eine Checkliste. Allerdings fördern offene Fragen eine tiefere Auseinandersetzung mit der entsprechenden Problematik, während Checklisten zum reflexartigen Abhaken einladen."
 
 msgid "In general, you will extend this process with additional checklist tasks for project initiation work. You can extend this process to include a project approval task, based on the information given."
-msgstr "Sie können den Prozess natürlich um zusätzliche Tanks erweitern, die zur Projektinitiierung notwendig sind. Zudem können Sie eine Freigabetalk anfügen."
+msgstr "Sie können den Prozess natürlich um zusätzliche Tanks erweitern, die zur Projektinitiierung notwendig sind. Zudem können Sie eine Freigabetask anfügen."
 
 msgid "Invoice Customer (finance)"
 msgstr "Rechnung erstellen (Finanzen)"
@@ -457,7 +457,7 @@ msgid "In any business, the most obvious example critical process includes getti
 msgstr "Die Sicherstellung der Bezahlung durch Kunden ist ein wichtiger Prozess in jedem Betrieb. Der Prozess beginnt mit dem Versenden der Rechnung und beinhaltet Erinnerungen falls Rechnungen nicht direkt bezahlt werden."
 
 msgid "Form - an uploaded invoice from a separate process, and customer contact details."
-msgstr "Forumlar - die Rechnungsdatei aus einem separaten Prozess sowie Kundenkontaktdaten."
+msgstr "Formular - die Rechnungsdatei aus einem separaten Prozess sowie Kundenkontaktdaten."
 
 msgid "This process uses a user task to capture key information about an invoice, which Signavio Workflow then sends automatically by e-mail. Another task checks for payment, with a due date based on the invoice payment terms."
 msgstr "Dieser Prozess verwendet eine Nutzeraufgabe, um Schlüsselinformationen über eine Rechnung zu erhalten, die Signavio Workflow dann automatisch per E-Mail verschickt. Eine andere Aufgabe überprüft mit Hilfe des Fälligkeitsdatums in den Zahlungsregularien, ob eine Zahlung erfolgt ist"
@@ -613,7 +613,7 @@ msgid "Form - an insured customer’s completed claim form."
 msgstr "Formular - ausgefülltes Fallformular eines Versicherungskunden."
 
 msgid "This process illustrates how to handle large case volumes, by splitting the process into tasks that you can assign to different groups of people Junior staff can handle most tasks and only assign hard tasks to a smaller group of senior staff."
-msgstr "Der Prozess illustriert wie ein hohes Fallaufkommen verwaltet werden kann indem der Prozess in Task eingeteilt wird, die verschiedenen Personengruppen zugewiesen kann. So können Juniormitarbeiter die meisten Tanks schnell abarbeiten, während Seniormitarbeiter lediglich komplizierte und risikoreiche Aufgaben übernehmen."
+msgstr "Der Prozess illustriert wie ein hohes Fallaufkommen verwaltet werden kann indem der Prozess in Task eingeteilt wird, die verschiedenen Personengruppen zugewiesen kann. So können Junior-Mitarbeiter die meisten Tanks schnell abarbeiten, während Senior-Mitarbeiter lediglich komplizierte und risikoreiche Aufgaben übernehmen."
 
 msgid "In most cases, the top row of user tasks will process the claim. Only a few claims will require the *Investigate high-value claim* or *Process complex claim* tasks."
 msgstr "Die meisten Fälle durchlaufen lediglich die oberste Aufgabenreihe. Nur die wenigen komplexen Fälle und Fälle mit hohen Forderungssummen erfordern die Aufgaben *Forderung überprüfen* und/oder *Komplexe Forderung bearbeiten*."
@@ -631,7 +631,7 @@ msgid "*Claim form* (File, mandatory) - the form provided by the customer, via t
 msgstr "*Antragsformular* (Datei, Pflichtfeld) - das vom Kunden ausgefüllte Formular, das über den Auslöser bereit gestellt wird."
 
 msgid "*Total value* (Money, mandatory) - the total value of the claim, which the junior adjuster extracts from the claim form in the *Calculate claim value* task."
-msgstr "*Gesamtsumme* (Geldbetrag, Pflichtfeld) - die Gesamtsumme des Antrags, die der Juniorfallbearbeiter aus dem Formular extrahiert."
+msgstr "*Gesamtsumme* (Geldbetrag, Pflichtfeld) - die Gesamtsumme des Antrags, die der Junior-Fallbearbeiter aus dem Formular extrahiert."
 
 msgid "*Payout* (Money, mandatory) - the amount to pay to the customer if the adjuster approves the claim."
 msgstr "*Auszahlung* (Geldbetrag, Pflichtfeld) - der Geldbetrag, den der Kunde bei stattgegebenem Antrag erhält."
@@ -652,7 +652,7 @@ msgid "Unusually, this process consists of a single user task - for responding t
 msgstr "Ungewöhnlicher Weise besteht dieser Prozess aus lediglich einer Aufgabe, die durch den Nutzer ausgeführt wird - dem Beantworten der E-Mail - auf die eine *E-Mail senden*-Aufgabe zum automatischen Versenden der Mail folgt."
 
 msgid "This process minimally demonstrates the value of task assignment. The process’ value comes from the automated notifications from setting the user task’s candidate group, due date, reminders and escalation."
-msgstr "Bei diesem Prozess handelt es ich um eine Minimalversion, die den Nutzen von Aufgabenzuweisungen demonstrieren soll. Der Wert des Prozesses kommt von den automatischen Benachrichtigungen durch das setzen der Kandidatengruppe, Erinnerung, Fälligkeitsheadline und Eskalationsmöglichkeit der Aufgabe."
+msgstr "Bei diesem Prozess handelt es ich um eine Minimalversion, die den Nutzen von Aufgabenzuweisungen demonstrieren soll. Der Wert des Prozesses kommt von den automatischen Benachrichtigungen durch das setzen der Kandidatengruppe, Erinnerung, Deadline und Eskalationsmöglichkeit der Aufgabe."
 
 msgid "A simpler version of this process only has a single user task, and relies on the assignee to send the email normally."
 msgstr "Eine einfachere Version dieses Prozesses hat lediglich eine Aufgabe, die manuell ausgeführt wird. Es ist notwendig, dass die verantwortliche Person die E-Mail manuell versendet."
@@ -700,7 +700,7 @@ msgid "*Check parcel count* - a ‘head-count’ to check that there no orders h
 msgstr "*Paketanzahl überprüfen* - Sicherstellung, dass keine Pakete einer Bestellung fehlen."
 
 msgid "*Load parcels on truck* - loading happens in a batch together with parcels for other orders, and may only happen once per day."
-msgstr "*Pakete verladen* - der Verladevorgang wird zusammen mit anderen Bestellungen als 'Taskstapel' durchgeführt - zum Beispiel lediglich einmal am Tag."
+msgstr "*Pakete verladen* - der Verladevorgang wird zusammen mit anderen Bestellungen als 'Stapel' abgearbeitet - zum Beispiel lediglich einmal am Tag."
 
 msgid "*Update order status* - record process completion in the order management system, which may trigger other processes such as invoicing the customer."
 msgstr "*Bestellungsstatus auf 'versandt' aktualisieren* -Dokumentation der Prozessabsolvierung im Bestellverwaltungssystem. Dies kann andere Prozesse, wie zum Beispiel das versenden einer Rechnung, auslösen."

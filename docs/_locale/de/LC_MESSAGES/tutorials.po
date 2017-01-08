@@ -433,9 +433,9 @@ msgstr ""
 "Verwendung der Zugriffskontrolle, um die Ausführung bestimmter Aktionen "
 "auf bestimmte Rollen einzuschränken"
 
-#, fuzzy
+#
 msgid "Adding a decision to an approval process"
-msgstr "Ihr erster Freigabeprozess"
+msgstr "Eine Entscheidung zu einem Freigabeprozess hinzufügen"
 
 msgid ""
 "An approval process such as a document approval requires a clear "
@@ -560,4 +560,3 @@ msgid ""
 "practice, many kinds of business processes use one or manual decisions "
 "that you can add in the same way."
 msgstr ""
-

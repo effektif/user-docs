@@ -1104,7 +1104,7 @@ msgid ""
 "Create or edit a new or existing workflow rule, and in the `Workflow "
 "Actions` section, select `Edit`."
 msgstr ""
-"Legen Sie eine neue Workflow-Regel and oder bearbeiten Sie eine "
+"Legen Sie eine neue Workflow-Regel an oder bearbeiten Sie eine "
 "Bestehende."
 
 msgid ""
@@ -1207,4 +1207,3 @@ msgstr ""
 #~ " the records available as the "
 #~ "following HTTP resource."
 #~ msgstr ""
-
