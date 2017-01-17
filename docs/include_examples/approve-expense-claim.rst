@@ -44,9 +44,9 @@ Fields
 Extensions
 ^^^^^^^^^^
 
-Replace the *Approve claim* task with a `Document Approval <http://www.effektif.com/news/document-workflow-patterns/#section-1>`_ pattern, to allow the employee to make corrections when the manager rejects the a claim.
+Replace the *Approve claim* task with a `Document Approval <http://www.signavio.com/post/document-workflow-patterns/>`_ pattern, to allow the employee to make corrections when the manager rejects the a claim.
 
-Add the `Result Notification <http://www.effektif.com/news/email-notification-workflow-patterns/#section-2>`_ pattern to notify the employee when the expenses have been paid.
+Add the `Result Notification <http://www.signavio.com/post/email-notification-workflow-patterns/>`_ pattern to notify the employee when the expenses have been paid.
 
 Related processes
 ^^^^^^^^^^^^^^^^^
