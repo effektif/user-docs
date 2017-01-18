@@ -23,7 +23,7 @@ msgid "Process builder"
 msgstr "Prozesseditor"
 
 msgid "A process defines a template for automating repetitive work, like a recipe that describes the actions that you perform to achieve a goal. For example, consider a :ref:`Hire employee <hire-employee>` process. Each time an organization hires someone, the recruitment team has to complete a number of tasks, including ‘Evaluate CV’, ‘Plan interview’ and ‘Interview candidate’. Each time someone starts the process, Signavio Workflow creates a new case."
-msgstr "Ein Prozess beschreibt eine Vorlage für repetitive Arbeitsabläufe, wie eine Anleitung, das die Aktionen beschreibt, die Sie durchführen müssen um ein bestimmtes Ziel zu erreichen. Stellen Sie sich z.B. einen :ref:`Einstellungsprozess <hire-employee>` vor. Jedes Mal, wenn eine Organisation eine neue Person einstellt, muss das Personalteam gewisse Aufgaben erledigen, z.B. 'Lebenslauf evaluieren', 'Interview planen' und 'Interview ausführen'. Jedes Mal, wenn jemand diesen Prozess startet, erstellt Signavio Workflow einen neuen Fall."
+msgstr "Ein Prozess beschreibt eine Vorlage für sich wiederholende Arbeitsabläufe, wie eine Anleitung, das die Aktionen beschreibt, die Sie durchführen müssen um ein bestimmtes Ziel zu erreichen. Stellen Sie sich z.B. einen :ref:`Einstellungsprozess <hire-employee>` vor. Jedes Mal, wenn eine Organisation eine neue Person einstellt, muss das Personalteam gewisse Aufgaben erledigen, z.B. 'Lebenslauf evaluieren', 'Interview planen' und 'Interview ausführen'. Jedes Mal, wenn jemand diesen Prozess startet, erstellt Signavio Workflow einen neuen Fall."
 
 msgid "Use the process builder to create and configure executable processes. You can think of an executable process as a kind of software, but you will find it easier to build automation using processes. With Signavio Workflow, non-technical people can create useful processes."
 msgstr "Mit dem Prozesseditor können Sie ausführbare Prozesse erstellen und bearbeiten. Ein ausführbarer Prozess ist eine IT-Lösung zur Ausführung eines Geschäftsablaufs. Die Automatisierung von Prozessen mit Signavio Workflow ermöglicht es auch Fachanwendern ohne technisches Wissen und Zugriff auf eine IT-Entwicklungsabteilung, Prozesse zu erstellen und auszuführen."
@@ -95,19 +95,19 @@ msgid "Form trigger configuration - using the form builder to define a trigger f
 msgstr "Formular-Auslöser Konfiguration - Nutzen Sie den Formular-Editor um den Auslöser zu erstellen"
 
 msgid "Email trigger"
-msgstr "E-Mail-Auslöser"
+msgstr "Email-Auslöser"
 
 msgid "An email trigger starts a new case for each email that you send to the trigger’s Signavio Workflow email address. Note this differs from reading an existing email account, such as your own. After selecting the email trigger, you can see its email address:"
-msgstr "Hierbei wird für jede E-Mail, die an die entsprechende E-Mail Adresse des Prozesses geschickt wird, ein neuer Fall erstellt. Die Adresse, die Sie hierfür nutzen müssen, wird in der Beschreibung des Auslösers angezeigt:"
+msgstr "Hierbei wird für jede Email, die an die entsprechende Email Adresse des Prozesses geschickt wird, ein neuer Fall erstellt. Die Adresse, die Sie hierfür nutzen müssen, wird in der Beschreibung des Auslösers angezeigt:"
 
 msgid "Mail trigger configuration"
-msgstr "Konfiguration des E-Mailauslösers"
+msgstr "Konfiguration des Emailauslösers"
 
 msgid "The email trigger creates a :ref:`trigger-email-variable`."
-msgstr "Der E-Mail-Auslöser erstellt eine :ref:`trigger-email-variable`."
+msgstr "Der Email-Auslöser erstellt eine :ref:`trigger-email-variable`."
 
 msgid "You can use an email trigger by adding the trigger email address to a mailing list, such as `support@example.com `or `info@example.com`. You’ll have to ask the administrator of the mailing list to add the process trigger’s email address to the list. Once you have done this, the process trigger address will also receive any email sent to the mailing list, starting the process in Signavio Workflow. You will then see the email in the event stream:"
-msgstr "Sie können E-Mail-Auslöser mit Mailinglisten, wie zum Beispiel `support@example.com` oder `info@example.com`, verknüpfen. Bitten Sie hierzu den Administrator der Mailingliste, die E-Mail Adresse des Auslösers in die Mailingliste aufzunehmen. Anschließend wird mit jeder E-Mail an die Liste ein neuer Fall des Prozesses in Signavio Workflow ausgelöst. Die E-Mail taucht entsprechend im Ereignisstream auf:"
+msgstr "Sie können Email-Auslöser mit Mailinglisten, wie zum Beispiel `support@example.com` oder `info@example.com`, verknüpfen. Bitten Sie hierzu den Administrator der Mailingliste, die Email Adresse des Auslösers in die Mailingliste aufzunehmen. Anschließend wird mit jeder Email an die Liste ein neuer Fall des Prozesses in Signavio Workflow ausgelöst. Die Email taucht entsprechend im Ereignisstream auf:"
 
 msgid "Trigger mail in stream"
 msgstr "Startemail im Stream"
@@ -134,7 +134,7 @@ msgid "Actions represent the steps in a process - things to do. Action include t
 msgstr "Aktionen repräsentieren die einzelnen Schritte eines Prozesses - was zu tun ist. Aktionen beinhalten Dinge wie Aufgaben in Signavio Workflow, Datenoperationen in einem Datenmanagementsystem oder beliebige andere Aktionen die Arbeitsschritte repräsentieren, die jemand als Teil eines Prozesses ausführen muss. Wenn ein Prozess gestartet wird, wird Signavio Workflow die Aktionen des Prozesses in der geplanten Reihenfolge 'ausführen'. Der :ref:`Kontrollfluss <control-flow>` des Prozesses bestimmt diese Ordnung unter der Verwendung von Transitionen, Gateways und Ereignisse."
 
 msgid "A process can include different :ref:`action-types`. A user task will create a task in a case. A ‘Send Email’ action will send an email. A ‘Google file upload’ action will upload a file to a Google Drive folder."
-msgstr "Ein Prozess kann verschiedene Arten von :ref:`action-types` beinhalten: Eine Aufgabe erstellt eine Aufgabe in einem Fall, eine `E-Mail Senden` Aktivität verschickt eine E-Mail und eine `Google Dateiupload` Aktion lädt eine Datei in einen Google Drive Ordner hoch. "
+msgstr "Ein Prozess kann verschiedene Arten von :ref:`action-types` beinhalten: Eine Aufgabe erstellt eine Aufgabe in einem Fall, eine `Email Senden` Aktivität verschickt eine Email und eine `Google Dateiupload` Aktion lädt eine Datei in einen Google Drive Ordner hoch. "
 
 msgid "The *Process builder*’s actions palette"
 msgstr "Die Palette an Aktionen im *Prozess-Editor*"
@@ -191,10 +191,10 @@ msgid "Changing the action type"
 msgstr "Den Aktionstyp verändern"
 
 msgid "Sometimes, modifying a process means changing an action from one type to another. In the recruitment process, you might change the action to reject the candidate from a manual task to an automatic email task."
-msgstr "Manchmal müssen Sie  eine Aktion in eine andere Art Aktion umwandeln, um einen Prozess anzupassen. Im Recruitment-Prozess könnten Sie z.B. die Aktion 'Kandidaten über Ablehnung informieren' von einer manuellen Aufgabe in eine automatische 'E-Mail senden'-Aktion umwandeln."
+msgstr "Manchmal müssen Sie  eine Aktion in eine andere Art Aktion umwandeln, um einen Prozess anzupassen. Im Recruitment-Prozess könnten Sie z.B. die Aktion 'Kandidaten über Ablehnung informieren' von einer manuellen Aufgabe in eine automatische 'Email senden'-Aktion umwandeln."
 
 msgid "To make this change, first select the action in the process editor to open the configuration panel, then click the action type icon at the top-left corner of the configuration panel to open the list of action types. Next, select *Send Email* from the list to change the action type."
-msgstr "Um diese Änderung vorzunehmen, wählen Sie zunächst die zu ändernde Aktion im Prozesseditor aus, um das Konfigurationspanel zu öffnen. Klicken Sie dann das kleine Icon oben links im Konfigurationspanel, um die Liste von möglichen Aktionstypen anzuzeigen, in die die Aktion transformiert werden kann. Wir wählen *E-Mail senden*, um die Aufgabe in eine E-mail Aktion umzuwandeln."
+msgstr "Um diese Änderung vorzunehmen, wählen Sie zunächst die zu ändernde Aktion im Prozesseditor aus, um das Konfigurationspanel zu öffnen. Klicken Sie dann das kleine Icon oben links im Konfigurationspanel, um die Liste von möglichen Aktionstypen anzuzeigen, in die die Aktion transformiert werden kann. Wir wählen *Email senden*, um die Aufgabe in eine Email-Aktion umzuwandeln."
 
 msgid "Changing a :ref:`user-task` to a :ref:`send-email` task."
 msgstr "Eine :ref:`user-task` in eine :ref:`send-email`-Aktion umwandeln."
@@ -305,7 +305,7 @@ msgid "Variables"
 msgstr "Variablen"
 
 msgid "*Variables* contain the workflow data that the process defines. You can use variables in a case name template and when configuring the output of some action types. For example, you can use variables to repeat workflow data on a :ref:`user task form <user-task-form>`, or include a variable value in an :ref:`email task <send-email>` subject line or body text."
-msgstr "*Variablen* beinhalten die Workflow-Daten, die durch den Prozess definiert werden. Mit Hilfe von Variablen können Sie Vorlagen zur Namensgebung für Fälle erstellen und die Ausgabekonfiguration einiger Aktionstypen konfigurieren. Zum Beispiel können Sie Variablen benutzen, um Workflow-Daten, z.B. in einem :ref:`Aufgabenformular<user-task-form>`, mehrmals zu verwenden oder einen variablen Wert in einer  :ref:`E-Mail-Aktion<send-email>` in  Kopfzeile oder Text zu verwenden."
+msgstr "*Variablen* beinhalten die Workflow-Daten, die durch den Prozess definiert werden. Mit Hilfe von Variablen können Sie Vorlagen zur Namensgebung für Fälle erstellen und die Ausgabekonfiguration einiger Aktionstypen konfigurieren. Zum Beispiel können Sie Variablen benutzen, um Workflow-Daten, z.B. in einem :ref:`Aufgabenformular<user-task-form>`, mehrmals zu verwenden oder einen variablen Wert in einer  :ref:`Email-Aktion<send-email>` in  Kopfzeile oder Text zu verwenden."
 
 msgid "These variables contain all of the information from forms as well as information required by the process actions. Each case stores its own values for each workflow variable."
 msgstr "Diese Variablen beinhalten alle Formulardaten und die Informationen, die benötigt werden, um die Aktionen des Prozesses auszuführen. Jeder Fall besitzt seine eigenen Werte für jede Workflow-Variable."
@@ -317,7 +317,7 @@ msgid "A trigger form that populates *Name* and *Date of birth* variables for us
 msgstr "Ein Auslöser-Formular, das eine *Referenznummer*-Variable zur Verwendung in einem Workflow ausfüllt"
 
 msgid "In addition to your own workflow variables, Signavio Workflow automatically creates variables that give you access to additional data in each case. The :ref:`case-variable` contains data from when Signavio Workflow creates the case. An :ref:`email-trigger` adds an :ref:`Email variable <trigger-email-variable>` that contains the trigger email."
-msgstr "Außer Ihren eigenen Workflow-Variablen erstellt Signavio Workflow automatisch Variablen, die Ihnen Zugriff auf weitere Informationen in jedem Fall erlauben. Die :ref:`case-variable` beinhaltet Informationen über die Erstellung des jeweiligen Falls. Ein :ref:`email-trigger` fügt eine :ref:`E-Mail Variable<trigger-email-variable>` hinzu, die die Auslöser-Email enthält."
+msgstr "Außer Ihren eigenen Workflow-Variablen erstellt Signavio Workflow automatisch Variablen, die Ihnen Zugriff auf weitere Informationen in jedem Fall erlauben. Die :ref:`case-variable` beinhaltet Informationen über die Erstellung des jeweiligen Falls. Ein :ref:`email-trigger` fügt eine :ref:`Email Variable<trigger-email-variable>` hinzu, die die Auslöser-Email enthält."
 
 msgid "Variables can have different :ref:`data-types` that determine which kind of data the variable stores, such as text or a date, and whether the data is a single value or contains multiple fields."
 msgstr "Variablen können verschiedene :ref:`data-types` enthalten, die festlegen, welche Art von Daten die Variable enthält, so wie einen Text oder ein Datum. Außerdem legt der Datentyp fest, ob die Variable einen Wert oder mehrere Felder enthält."
@@ -353,7 +353,7 @@ msgid "To assign a role, use the menu to create a new role or select an existing
 msgstr "Um eine Rolle zuzuweisen, verwenden Sie das Menü um eine neue Rolle zu erstellen oder eine Existierende auszuwählen."
 
 msgid "You can also use the edit icon next to the role name to rename the role."
-msgstr "Sie können zudem das Editierungsicon neben der Rolle anwählen, um die Rolle umzubenennen."
+msgstr "Sie können zudem das Editierungssymbol neben der Rolle anwählen, um die Rolle umzubenennen."
 
 msgid "Role candidates"
 msgstr "Kandidaten für eine Rolle"
@@ -525,7 +525,7 @@ msgid ":ref:`google-drive`"
 msgstr ":ref:`google-drive`"
 
 msgid "Start event"
-msgstr "Startevent"
+msgstr "Startereignis"
 
 msgid ":ref:`start-event`"
 msgstr ":ref:`start-event`"
@@ -552,7 +552,7 @@ msgid "BPMN export"
 msgstr "BPMN Export"
 
 msgid "You can export a Signavio Workflow process model as a BPMN 2.0 XML file. You may find this useful for opening the model in another tool that supports BPMN, or to make a backup that you can load using the :ref:`BPMN import <bpmn-import>` option."
-msgstr "Sie können ein Signavio Workflow Prozessmodel als BPMN 2.0 XML-Datei exportieren. Anschließend können Sie das Diagramm in einem beliebigen Tool öffnen, das den offenen BPMN 2.0 Standard unterstützt. Die Exportfunktion ermöglich zudem das Erstellen von Backups: ein :ref:`Re-Import <bpmn-import>` ist jederzeit möglich."
+msgstr "Sie können ein Signavio Workflow Prozessmodel als BPMN 2.0 XML-Datei exportieren. Anschließend können Sie das Diagramm in einem beliebigen Tool öffnen, das den offenen BPMN 2.0 Standard unterstützt. Die Exportfunktion ermöglicht zudem das Erstellen von Backups: ein :ref:`Re-Import <bpmn-import>` ist jederzeit möglich."
 
 msgid "To export a process model, first open it in the Signavio Workflow process editor. Select the menu next to the `Publish changes` button, then select `Export BPMN 2.0 XML`."
 msgstr "Um einen Prozess zu exportieren, öffnen Sie ihn zunächst in Signavio Workflow. Wählen Sie im Menü neben dem `Zum Ausführen veröffentlichen` Button den Punkt `BPMN 2.0 XML exportieren`."
@@ -576,7 +576,7 @@ msgid "The `Delete process` option permanently deletes a process and all of its 
 msgstr "Über die `Prozess löschen` Schaltfläche löschen Sie einen Prozess und alle Fälle des Prozesses **unwiderruflich**. Da Sie das Löschen nicht rückgängig machen können, müssen Sie den Vorgang explizit bestätigen. Ein typischer Anwendungsfall für das Löschen eines Prozesses ist das Verwerfen einer experimentellen Kopie eines Prozesses. "
 
 msgid "In Signavio Workflow, you cannot currently delete cases, which you might want to do if you have created test cases while developing the process. However, you can use `Create a copy` and `Delete process` to duplicate a process and then delete the original. This deletes all of the cases with the original process, and leaves a copy with no cases."
-msgstr "In Signavio Workflow können Sie derzeit keine Fälle löschen, was Sie mit Testfällen aus der Entwicklungsphase von Prozessen evtl. tun möchten. In diesem Fall, können Sie `Eine Kopie erstellen` und `Prozess löschen` verwenden, um den Prozess zu duplizieren und das Original zu entfernen. So werden alle alten Fälle gelöscht. Das neue Prozessduplikat besitzt noch keine Fälle."
+msgstr "In Signavio Workflow können Sie derzeit keine Fälle löschen, was Sie mit Testfällen aus der Entwicklungsphase von Prozessen eventuell. tun möchten. In diesem Fall, können Sie `Eine Kopie erstellen` und `Prozess löschen` verwenden, um den Prozess zu duplizieren und das Original zu entfernen. So werden alle alten Fälle gelöscht. Das neue Prozessduplikat besitzt noch keine Fälle."
 
 #~ msgid "BPMN swim lanes become :ref:`roles <roles>` in Signavio Workflow"
 #~ msgstr "BPMN Swim Lanes werden in Signavio Workflow zu :ref:`Rollen <roles>`"

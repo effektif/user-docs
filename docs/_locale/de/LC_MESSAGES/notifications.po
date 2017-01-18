@@ -16,7 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-#, fuzzy
 msgid "Notifications reference"
 msgstr "Benachrichtigungen"
 
@@ -294,4 +293,3 @@ msgstr ""
 
 #~ msgid ""
 #~ msgstr ""
-

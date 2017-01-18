@@ -9,7 +9,11 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-28 17:22+0100\n"
+<<<<<<< HEAD
+"PO-Revision-Date: 2016-12-11 20:31+0100\n"
+=======
 "PO-Revision-Date: 2017-01-07 15:18+0100\n"
+>>>>>>> master
 "Last-Translator: Christian Wiggert <christian.wiggert@signavio.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -98,7 +102,7 @@ msgid "You can also use the :ref:`Reminders <reminders>` configuration panel tab
 msgstr "Sie können die Konfiguration für :ref:`Erinnerungen <reminders>` auch dazu nutzen, um Eskalationen zu definieren. Wenn Sie dies tun, wird Signavio Workflow die Aufgabe automatisch nach Ablauf der von Ihnen festgelegten Zeitspanne an die von Ihnen konfigurierte Person zuweisen. Der neue Verantwortliche für die Aufgabe erhält auch eine Benachrichtigung von Signavio Workflow."
 
 msgid "Sometimes, you don’t know who will take over a task that has passed its escalation deadline, so you choose one person in the process model. Instead, you can escalate task assignment to multiple people, or select a group."
-msgstr "Manchmal wissen Sie nicht, wer eine Aufgabe, deren Eskalations-Deadline überschritten ist, übernehmen soll. In solchen Fällen können Sie die Aufgabenzuweisung an mehrere Personen oder eine Gruppe eskalieren."
+msgstr "Manchmal wissen Sie nicht, wer eine Aufgabe, deren Eskalationsdeadline überschritten ist, übernehmen soll. In solchen Fällen können Sie die Aufgabenzuweisung an mehrere Personen oder eine Gruppe eskalieren."
 
 msgid "Access Rights"
 msgstr "Zugriffsrechte"
@@ -125,7 +129,7 @@ msgid "To"
 msgstr "An"
 
 msgid "The people who Signavio Workflow sends the email to. You can enter one or more plain email addresses, or select email :ref:`variables <variables>` or users in the organization. Note that if you enter a plain email address, you must then select it from the pick list."
-msgstr "Die Adressen bzw. Personen, an die Signavio Workflow die Email verschickt. Hier können Sie eine oder mehrere Emailadressen direkt eintragen, eine :ref:`Variable <variables>` verwenden oder Benutzer Ihrer Organisation auswählen. Wählen Sie nach der Eingabe das gewünschte Feld der Auswahlliste."
+msgstr "Die Adressen beziehungsweise Personen, an die Signavio Workflow die Email verschickt. Hier können Sie eine oder mehrere Emailadressen direkt eintragen, eine :ref:`Variable <variables>` verwenden oder Benutzer Ihrer Organisation auswählen. Wählen Sie nach der Eingabe das gewünschte Feld der Auswahlliste."
 
 msgid "Reply to"
 msgstr "Antwort an"
@@ -368,7 +372,7 @@ msgid "Attendees (optional)"
 msgstr "Teilnehmer (optional)"
 
 msgid "Email address variables for people to invite to the calendar event."
-msgstr "E-Mail-Adress-Variablen, die die  einzuladenden Teilnehmer auflisten. "
+msgstr "Emailadresse-Variablen, die die  einzuladenden Teilnehmer auflisten. "
 
 msgid "Box Upload file"
 msgstr "Box Dateiupload"
@@ -419,7 +423,7 @@ msgid "A sub-process in the process editor"
 msgstr "Ein Subprozess im Prozesseditor"
 
 msgid "A sub-process action represents an entire process as a single task. You can use sub-processes to simplify complex process models, by collapsing each sub-process into a single action. Then you can open the sub-process to see the next level of detail. You can also use a sub-process to delegate responsibility for the process model to a different process owner."
-msgstr "Über Subprozess-Aktion wird ein ganzer Prozess zu einem einzigen Task zusammengefasst. Mit der Hilfe von Subprozessen können Sie komplexe Prozessmodelle vereinfachen. Wenn Sie den Subprozess öffnen, gelangen Sie dementsprechend auf die nächste Detailebene. Über Subprozesse können Sie zudem die Verantwortung für das Prozessmodel auf einen anderen Prozessverantwortlichen übertragen."
+msgstr "Über Subprozess-Aktion wird ein ganzer Prozess zu einem einzigen Task zusammengefasst. Mit der Hilfe von Subprozessen können Sie komplexe Prozessmodelle vereinfachen. Wenn Sie den Subprozess öffnen, gelangen Sie dementsprechend auf die nächste Detailebene. Über Subprozesse können Sie zudem die Verantwortung für das Prozessmodell auf einen anderen Prozessverantwortlichen übertragen."
 
 msgid "When Signavio Workflow creates a sub-process, it starts a new case in the selected sub-process. After completing the sub-process case, Signavio Workflow continues executing the parent case."
 msgstr "Wenn Signavio Workflow eine Subprozessinstanz erstellt, wird ein neuer Fall im referenzierten Prozess gestartet. Nachdem dieser Prozess beendet ist, geht die Ausführung im Elternprozess weiter."
@@ -431,7 +435,7 @@ msgid "Configuring a sub-process and mapping an *Invoice* variable to a trigger 
 msgstr "Konfiguration eines Subprozesses und Mapping der Variablen *Rechnung* zu einem Auslöser-Formularfeld"
 
 msgid "If you select a sub-process with a trigger form, you can also select ‘input variables’ that Signavio Workflow will use to auto-fill the trigger form fields when starting the sub-process case. In the example above, Signavio Workflow will populate the sub-process’ *Unpaid invoice* trigger form field with the file stored in the parent process’ *Invoice* variable."
-msgstr "Falls Sie einen Subprozess mit einem Auslöser-Formular gewählt haben, können Sie auch Variablen auswählen, die Signavio Workflow benutzen soll, um die Auslöser-Formularfelder automatisch auszufüllen, wenn der Subprozess gestartet wird. Im obenstehenden Beispiel, wird Signavio Workflow das Auslöser-Formularfeld *Unbezahlte Rechnung* des Subprozesses mit Hilfe der Datei ausfüllen, die im Hauptprozess als *Rechnung*-Variable definiert ist."
+msgstr "Falls Sie einen Subprozess mit einem Auslöser-Formular gewählt haben, können Sie auch Variablen auswählen, die Signavio Workflow benutzen soll, um die Auslöser-Formularfelder automatisch auszufüllen, wenn der Subprozess gestartet wird. Im oben stehenden Beispiel, wird Signavio Workflow das Auslöser-Formularfeld *Unbezahlte Rechnung* des Subprozesses mit Hilfe der Datei ausfüllen, die im Hauptprozess als *Rechnung*-Variable definiert ist."
 
 msgid "If you want to capture the result of running a sub-process, you can use the *Outputs* tab to add ‘outputs’. Adding an output creates a variable that gets its value from a field in the sub-process when the sub-process completes."
 msgstr "Falls Sie das Ergebnis eines Subprozesses festhalten möchten, können Sie den *Outputs*-Tab verwenden, um 'Outputs' hinzuzufügen. Wenn Sie einen Output definieren, wird eine in anderen Aktionen als Input auswählbare Variable erstellt, die ihren Wert aus einem Formularfeld des Subprozess-Outputs erhält, sobald der Subprozess beendet ist."
@@ -509,7 +513,7 @@ msgid "Configuring a rule task’s outputs in Signavio Workflow"
 msgstr "Outputkonfiguration einer Entscheidung in Signavio Workflow"
 
 msgid "You can now use the calculated *Total price* variable else where in the process. Add the existing *Total price* field as a read-only field to the *Check total price* user task. Finally, add the *Total price* field to the *Send quotation* email task’s template, to send the quotation."
-msgstr "Sie können die Output-Variable der Entscheidung nun auch an anderen Stellen im Prozess einsetzen. Wir fügen das Feld *Total Price* als read-only Feld der Aufgabe *Check Total Price* ein. Als letzten Schritt, fügen wir das Feld *Total Price* in die Vorlage der E-Mail-Aufgabe *Send quotation* ein."
+msgstr "Sie können die Output-Variable der Entscheidung nun auch an anderen Stellen im Prozess einsetzen. Wir fügen das Feld *Total Price* als schreibgeschütztes Feld der Aufgabe *Check Total Price* ein. Als letzten Schritt, fügen wir das Feld *Total Price* in die Vorlage der E-Mail-Aufgabe *Send quotation* ein."
 
 msgid "Map variables"
 msgstr "Variable zuweisen"
