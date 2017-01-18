@@ -43,6 +43,7 @@ sanitization
 Scala
 serialization
 Setup
+shortcuts
 Signavio
 subfolder
 subfolders
