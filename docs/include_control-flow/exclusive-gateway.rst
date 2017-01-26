@@ -76,6 +76,7 @@ In this example, the decision variable has the value ‘Approve’ or ‘Reject�
 The variable has the name ‘Decision’, by default, or the name of the gateway if it has one.
 You can change the variable name on the process editor’s `Details` tab, in the `Field overview`.
 
+.. _exclusive-gateway-automatic:
 
 Automatic decision
 ^^^^^^^^^^^^^^^^^^
