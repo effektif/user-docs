@@ -38,6 +38,8 @@ Description
 Developer
 Diagrammeditor
 Diagrammelement
+Diagrammfreigaben
+Diagrammzustand
 DMN
 Dokumentenfreigabeprozess
 Dokumentenfreigabeprozesse
