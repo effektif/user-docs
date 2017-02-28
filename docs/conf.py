@@ -48,7 +48,7 @@ AUTHORS = [" ".join(pair) for pair in sorted([
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #sys.path.insert(0, os.path.abspath('.'))
 
-# -- General configuration ------------------------------------------------
+# -- General configuration -ok-----------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
 #needs_sphinx = '1.0'
@@ -56,7 +56,7 @@ AUTHORS = [" ".join(pair) for pair in sorted([
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinxcontrib.spelling', 'sphinxprettysearchresults']
+# extensions = ['sphinxcontrib.spelling', 'sphinxprettysearchresults']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

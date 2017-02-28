@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Signavio Workflow 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-09 19:52+0100\n"
+"POT-Creation-Date: 2017-02-28 14:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -108,7 +108,6 @@ msgid ""
 "has the following fields."
 msgstr ""
 
-#: ../../integration/connectors.rst
 msgid "Example - customer record fields"
 msgstr ""
 
@@ -195,7 +194,6 @@ msgstr ""
 msgid "The response body must contain a JSON object with the following fields."
 msgstr ""
 
-#: ../../integration/connectors.rst
 msgid "Connector descriptor properties"
 msgstr ""
 
@@ -256,7 +254,6 @@ msgid ""
 "record type descriptor JSON objects."
 msgstr ""
 
-#: ../../integration/connectors.rst
 msgid "Record type descriptor properties"
 msgstr ""
 
@@ -304,7 +301,6 @@ msgid ""
 "type."
 msgstr ""
 
-#: ../../integration/connectors.rst
 msgid "Record field descriptor properties"
 msgstr ""
 
@@ -350,9 +346,8 @@ msgstr ""
 
 msgid ""
 "To make a list of options available to forms, in the :ref:`connector-"
-"type-descriptor`, set the ``optionsAvailable`` flag to ``true``. The "
-"connector must also make the options available as the following HTTP "
-"resource."
+"descriptor`, set the ``optionsAvailable`` flag to ``true``. The connector"
+" must also make the options available as the following HTTP resource."
 msgstr ""
 
 msgid "URL (relative to the endpoint URL)"
@@ -378,7 +373,6 @@ msgid ""
 "fields."
 msgstr ""
 
-#: ../../integration/connectors.rst
 msgid "Record type options object properties"
 msgstr ""
 
@@ -407,10 +401,9 @@ msgid ""
 msgstr ""
 
 msgid ""
-"To make a record’s fields available, in the :ref:`connector-type-"
-"descriptor`, set the ``fetchOneAvailable`` flag to ``true``. The "
-"connector must also make the records available as the following HTTP "
-"resource."
+"To make a record’s fields available, in the :ref:`connector-descriptor`, "
+"set the ``fetchOneAvailable`` flag to ``true``. The connector must also "
+"make the records available as the following HTTP resource."
 msgstr ""
 
 msgid ""
@@ -649,7 +642,7 @@ msgstr ""
 msgid ""
 "Connectors can use `HTTP basic authentication "
 "<https://en.wikipedia.org/wiki/Basic_access_authentication>`_ to restrict"
-" access using a username and password that you specify when configuring "
+" access using a user name and password that you specify when configuring "
 "the connector. To implement HTTP Basic authentication, your connector "
 "endpoints must:"
 msgstr ""
@@ -661,7 +654,7 @@ msgstr ""
 
 msgid ""
 "check the credentials in the ``Authorization`` HTTP header field, when "
-"provided, by decoding the Base64-encoded username and password and "
+"provided, by decoding the Base64-encoded user name and password and "
 "verifying their values."
 msgstr ""
 
@@ -672,7 +665,7 @@ msgstr ""
 
 msgid ""
 "To use basic authentication, use the *Authentication* field to select "
-"*HTTP Basic authentication*, and enter a username and password:"
+"*HTTP Basic authentication*, and enter a user name and password:"
 msgstr ""
 
 msgid "Configuring basic authentication"
@@ -683,7 +676,7 @@ msgid ""
 "Workflow will pre-emptively include an ``Authorization`` header when "
 "sending requests to the connector endpoints. In Basic authentication, the"
 " header value consists of the authentication scheme name ``Basic`` "
-"followed by a space and the Base64-encoded username and password, "
+"followed by a space and the Base64-encoded user name and password, "
 "separated by a colon (``signavio:8n4f-Rm3V-Xz0r-Igew-L1fK``). This "
 "results in a request header that looks like::"
 msgstr ""
@@ -764,6 +757,225 @@ msgid "https://github.com/signavio/connector-examples"
 msgstr ""
 
 msgid "These examples have an open-source Apache License."
+msgstr ""
+
+msgid "JavaScript integration"
+msgstr ""
+
+msgid ""
+"You can integrate with external systems by writing JavaScript code in a "
+":ref:`javascript-action`. Signavio Workflow runs the code on the server, "
+"using `Node.js <https://nodejs.org>`_. As well as Node.js’ JavaScript "
+"API, scripts can use additional libraries (see below)."
+msgstr ""
+
+msgid "Script task configuration"
+msgstr ""
+
+msgid ""
+"After creating or selecting a JavaScript action, the configuration panel "
+"looks like this:"
+msgstr ""
+
+msgid "JavaScript configuration panel"
+msgstr ""
+
+msgid ""
+"The top section of the panel contains the JavaScript text editor. By "
+"default, it already contains ``console.log('Hello World!');``. Use the "
+"`console <https://nodejs.org/dist/latest-v5.x/docs/api/console.html>`_ "
+"API for log output when testing scripts."
+msgstr ""
+
+msgid "JavaScript libraries"
+msgstr ""
+
+msgid ""
+"Script tasks support a number of popular JavaScript libraries. To import "
+"a package, use our custom ``require`` function:"
+msgstr ""
+
+msgid "You can also choose another name for the import:"
+msgstr ""
+
+msgid "Supported JavaScript libraries"
+msgstr ""
+
+msgid "Library"
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+msgid "`CSV <https://www.npmjs.com/package/csv>`_"
+msgstr ""
+
+msgid "``csv``"
+msgstr ""
+
+msgid "CSV generation, parsing, transformation and serialization"
+msgstr ""
+
+msgid "`Lodash <https://www.npmjs.com/package/lodash>`_"
+msgstr ""
+
+msgid "``lodash``"
+msgstr ""
+
+msgid "Convenience functions for working with collections and values"
+msgstr ""
+
+msgid "`moment <https://www.npmjs.com/package/moment>`_"
+msgstr ""
+
+msgid "``moment``"
+msgstr ""
+
+msgid ""
+"Parse, validate, manipulate, and display dates; with `Twix "
+"<https://www.npmjs.com/package/twix>`_ date range support"
+msgstr ""
+
+msgid "`request <https://www.npmjs.com/package/request>`_"
+msgstr ""
+
+msgid "``request``"
+msgstr ""
+
+msgid "Simplified HTTP request client"
+msgstr ""
+
+msgid "`validator <https://www.npmjs.com/package/validator>`_"
+msgstr ""
+
+msgid "``validator``"
+msgstr ""
+
+msgid "String validation and sanitization"
+msgstr ""
+
+msgid ""
+"The ``_`` (Lodash) and ``request`` packages are always imported, for "
+"backwards compatibility."
+msgstr ""
+
+msgid "Testing scripts"
+msgstr ""
+
+msgid ""
+"The lower section allows you to test the script. Click `Test it` to "
+"execute the JavaScript code. The test runner displays the results "
+"underneath:"
+msgstr ""
+
+msgid "JavaScript test output"
+msgstr ""
+
+msgid ""
+"The middle section shows the :ref:`process variables <variables>`, "
+"starting with just the *Case* variable for a new process. If you add an "
+":ref:`email trigger <email-trigger>` to the process, you will also see a "
+"*Trigger email* variable."
+msgstr ""
+
+msgid "Using process variables"
+msgstr ""
+
+msgid ""
+"Next, we'll show how to work with data. Suppose that the process includes"
+" a form that has each type of field and looks like this:"
+msgstr ""
+
+msgid "Form taking input for JavaScript"
+msgstr ""
+
+msgid ""
+"When you open the JavaScript configuration again, you'll see the "
+"variables section shows some of the form field variables."
+msgstr ""
+
+msgid "JavaScript variables"
+msgstr ""
+
+msgid ""
+"Click `Show all fields` and select the variables you want to access in "
+"the script. The script can access the variables using the *JavaScript "
+"variable* name from the table. To access object variables’ fields, use "
+"the field names specified for the corresponding data type: :ref:`Case "
+"<case-variable>`, :ref:`type-email`, :ref:`type-file` or :ref:`type-"
+"user`."
+msgstr ""
+
+msgid ""
+"In this example (below), you have selected all variables. For each "
+"variable that you select, you get an input field to specify a test value."
+" Here you see all fields with a test value."
+msgstr ""
+
+msgid "JavaScript test values"
+msgstr ""
+
+msgid ""
+"When clicking `Test it` again, we can see the JSON structure of the "
+"variable data for the different variable types."
+msgstr ""
+
+msgid "JavaScript JSON values"
+msgstr ""
+
+msgid ""
+"The *contract* and *salesRepresentative* variables have complex types, "
+":ref:`type-file` and :ref:`type-user`, so the table only shows an ID. The"
+" *Updated value* column shows the result of assigning new values to these"
+" variables in the script."
+msgstr ""
+
+msgid "Looking up Signavio Workflow data"
+msgstr ""
+
+msgid ""
+"In a JavaScript task, you might need to select a Signavio Workflow user "
+"based on external data, to assign a role. To do this, you can use the "
+"built-in ``users`` API to find a user by their email address."
+msgstr ""
+
+msgid ""
+"This example uses the value of a previously-supplied "
+"``reviewerEmailAddress`` :ref:`type-email-address` variable to set a "
+"``reviewer`` :ref:`type-user` variable."
+msgstr ""
+
+msgid "Calling an external web service"
+msgstr ""
+
+msgid ""
+"You can use these variables to send data to an external web service, "
+"using the `request module "
+"<https://github.com/mikeal/request/blob/master/README.md>`_. For example,"
+" the following script sends the value of the ``startDate`` variable in an"
+" HTTP POST request to an external web service."
+msgstr ""
+
+msgid ""
+"This example uses a test endpoint configured using `Mocky "
+"<http://www.mocky.io/>`_ to return an HTTP response. This has the "
+"following result in the Signavio Workflow test console:"
+msgstr ""
+
+msgid "Updating a variable via an external web service"
+msgstr ""
+
+msgid ""
+"The two log statements, starting with *HTTP 200*, show the HTTP response "
+"from the web service. The response body (as set-up in Mocky) contains "
+"JSON data that includes an updated value for the ``startDate`` variable, "
+"changing the date from ``2015-06-15`` to ``2015-06-16``."
+msgstr ""
+
+msgid ""
+"The script then parses this JSON response using ``JSON.parse`` and "
+"updates the ``startDate`` variable in Signavio Workflow, as shown in the "
+"*Updated value* column in the test console’s variables table."
 msgstr ""
 
 msgid "Salesforce Integration"
@@ -870,4 +1082,65 @@ msgid ""
 "Now you can use the new :ref:`Salesforce trigger <trigger-salesforce>` in"
 " Signavio Workflow."
 msgstr ""
+
+#~ msgid ""
+#~ "To make a list of options "
+#~ "available to forms, in the :ref"
+#~ ":`connector-type-descriptor`, set the "
+#~ "``optionsAvailable`` flag to ``true``. The "
+#~ "connector must also make the options "
+#~ "available as the following HTTP "
+#~ "resource."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To make a record’s fields available, "
+#~ "in the :ref:`connector-type-descriptor`, "
+#~ "set the ``fetchOneAvailable`` flag to "
+#~ "``true``. The connector must also make"
+#~ " the records available as the "
+#~ "following HTTP resource."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Connectors can use `HTTP basic "
+#~ "authentication "
+#~ "<https://en.wikipedia.org/wiki/Basic_access_authentication>`_ to"
+#~ " restrict access using a username and"
+#~ " password that you specify when "
+#~ "configuring the connector. To implement "
+#~ "HTTP Basic authentication, your connector "
+#~ "endpoints must:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "check the credentials in the "
+#~ "``Authorization`` HTTP header field, when "
+#~ "provided, by decoding the Base64-encoded "
+#~ "username and password and verifying "
+#~ "their values."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To use basic authentication, use the "
+#~ "*Authentication* field to select *HTTP "
+#~ "Basic authentication*, and enter a "
+#~ "username and password:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you configure a connector to "
+#~ "use Basic authentication, Signavio Workflow"
+#~ " will pre-emptively include an "
+#~ "``Authorization`` header when sending requests"
+#~ " to the connector endpoints. In Basic"
+#~ " authentication, the header value consists"
+#~ " of the authentication scheme name "
+#~ "``Basic`` followed by a space and "
+#~ "the Base64-encoded username and password, "
+#~ "separated by a colon (``signavio:8n4f-"
+#~ "Rm3V-Xz0r-Igew-L1fK``). This results "
+#~ "in a request header that looks "
+#~ "like::"
+#~ msgstr ""
 

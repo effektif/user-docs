@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Signavio Workflow 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-09 19:52+0100\n"
+"POT-Creation-Date: 2017-02-28 14:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -217,6 +217,74 @@ msgid ""
 "email."
 msgstr ""
 
+msgid "Create document"
+msgstr ""
+
+msgid "A create document action in the process editor"
+msgstr ""
+
+msgid ""
+"The `Create document` action allows you to create a file that contains "
+"case information."
+msgstr ""
+
+msgid ""
+"When you use the :ref:`Send email action <send-email>` or :ref:`Upload "
+"file <google-drive>` to save information from a case, you use a file "
+"variable for email attachments or the file to save. You normally provide "
+"these files via a form. You can also use the `Create document` action to "
+"create a new file using data from other variables."
+msgstr ""
+
+msgid ""
+"Consider a shipping process whose trigger form includes details of a "
+"‘recipient’ to ship a product to and a shipping address. This process can"
+" use a `Create document` action to prepare a shipping label for printing:"
+msgstr ""
+
+msgid "Configuring a create document action in the process editor"
+msgstr ""
+
+msgid ""
+"Select a `Create document` action in the process editor to configure the "
+"following options."
+msgstr ""
+
+msgid "Document name"
+msgstr ""
+
+msgid ""
+"Defines the name of the file variable that will store the created "
+"document."
+msgstr ""
+
+msgid "File name"
+msgstr ""
+
+msgid ""
+"Defines the document’s filename. Type `#` to include placeholders for "
+"variables."
+msgstr ""
+
+msgid "File format"
+msgstr ""
+
+msgid ""
+"Choose between Microsoft Word, plain text, and comma-separated values "
+"(CSV) file types."
+msgstr ""
+
+msgid ""
+"Use the text area to enter a template for the new document. Type `#` to "
+"include placeholders for variables, as you would in a :ref:`Send email "
+"action <send-email>`’s template."
+msgstr ""
+
+msgid ""
+"Note that the `Create document` action does not currently support "
+"formatting text."
+msgstr ""
+
 msgid "Google Drive - Upload file"
 msgstr ""
 
@@ -237,8 +305,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"When you click on the button `Configure a Google Drive account`, a popup "
-"window will appear that helps you integrate Signavio Workflow with your "
+"When you click on the button `Configure a Google Drive account`, a pop-up"
+" window will appear that helps you integrate Signavio Workflow with your "
 "Google Drive account."
 msgstr ""
 
@@ -488,8 +556,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"When you click the `Configure a Box account` button, a popup window will "
-"open for you to authorise Signavio Workflow to use your Box account. "
+"When you click the `Configure a Box account` button, a pop-up window will"
+" open for you to authorise Signavio Workflow to use your Box account. "
 "After logging in to your Box account, if you have not already logged in, "
 "Box shows an authorization page."
 msgstr ""
@@ -516,209 +584,18 @@ msgid ""
 "and select the folder you want to upload the file(s) to."
 msgstr ""
 
-msgid "JavaScript action (Script task)"
+msgid "JavaScript action"
 msgstr ""
 
 msgid ""
 "The JavaScript action, called a *Script Task* in BPMN, allows developers "
-"to add JavaScript to process execution. Signavio Workflow runs the code "
-"on the server, using `Node.js <https://nodejs.org>`_. As well as Node.js’"
-" JavaScript API, scripts can use additional libraries (see below)."
+"to add JavaScript code to process execution."
 msgstr ""
 
-msgid ""
-"After creating or selecting a JavaScript action, the configuration panel "
-"looks like this:"
+msgid "A JavaScript action in the process editor"
 msgstr ""
 
-msgid "JavaScript configuration panel"
-msgstr ""
-
-msgid ""
-"The top section of the panel contains the JavaScript text editor. By "
-"default, it already contains ``console.log('Hello World!');``. Use the "
-"`console <https://nodejs.org/dist/latest-v5.x/docs/api/console.html>`_ "
-"API for log output when testing scripts."
-msgstr ""
-
-msgid "JavaScript libraries"
-msgstr ""
-
-msgid ""
-"Script tasks support a number of popular JavaScript libraries. To import "
-"a package, use our custom ``require`` function:"
-msgstr ""
-
-msgid "You can also choose another name for the import:"
-msgstr ""
-
-#: ../../include_action-types/javascript.rst
-msgid "Supported JavaScript libraries"
-msgstr ""
-
-msgid "Library"
-msgstr ""
-
-msgid "Import"
-msgstr ""
-
-msgid "Description"
-msgstr ""
-
-msgid "`CSV <https://www.npmjs.com/package/csv>`_"
-msgstr ""
-
-msgid "``csv``"
-msgstr ""
-
-msgid "CSV generation, parsing, transformation and serialization"
-msgstr ""
-
-msgid "`Lodash <https://www.npmjs.com/package/lodash>`_"
-msgstr ""
-
-msgid "``lodash``"
-msgstr ""
-
-msgid "Convenience functions for working with collections and values"
-msgstr ""
-
-msgid "`moment <https://www.npmjs.com/package/moment>`_"
-msgstr ""
-
-msgid "``moment``"
-msgstr ""
-
-msgid ""
-"Parse, validate, manipulate, and display dates; with `Twix "
-"<https://www.npmjs.com/package/twix>`_ date range support"
-msgstr ""
-
-msgid "`request <https://www.npmjs.com/package/request>`_"
-msgstr ""
-
-msgid "``request``"
-msgstr ""
-
-msgid "Simplified HTTP request client"
-msgstr ""
-
-msgid "`validator <https://www.npmjs.com/package/validator>`_"
-msgstr ""
-
-msgid "``validator``"
-msgstr ""
-
-msgid "String validation and sanitization"
-msgstr ""
-
-msgid ""
-"The ``_`` (Lodash) and ``request`` packages are always imported, for "
-"backwards compatibility."
-msgstr ""
-
-msgid "Testing scripts"
-msgstr ""
-
-msgid ""
-"The lower section allows you to test the script. Click `Test it` to "
-"execute the JavaScript code. The test runner displays the results "
-"underneath:"
-msgstr ""
-
-msgid "JavaScript test output"
-msgstr ""
-
-msgid ""
-"The middle section shows the :ref:`process variables <variables>`, "
-"starting with just the *Case* variable for a new process. If you add an "
-":ref:`email trigger <email-trigger>` to the process, you will also see a "
-"*Trigger email* variable."
-msgstr ""
-
-msgid "Using process variables"
-msgstr ""
-
-msgid ""
-"Next, we'll show how to work with data. Suppose that the process includes"
-" a form that has each type of field and looks like this:"
-msgstr ""
-
-msgid "Form taking input for JavaScript"
-msgstr ""
-
-msgid ""
-"When you open the JavaScript configuration again, you'll see the "
-"variables section shows some of the form field variables."
-msgstr ""
-
-msgid "JavaScript variables"
-msgstr ""
-
-msgid ""
-"Click `Show all fields` and select the variables you want to access in "
-"the script. The script can access the variables using the *JavaScript "
-"variable* name from the table. To access object variables’ fields, use "
-"the field names specified for the corresponding data type: :ref:`Case "
-"<case-variable>`, :ref:`type-email`, :ref:`type-file` or :ref:`type-"
-"user`."
-msgstr ""
-
-msgid ""
-"In this example (below), you have selected all variables. For each "
-"variable that you select, you get an input field to specify a test value."
-" Here you see all fields with a test value."
-msgstr ""
-
-msgid "JavaScript test values"
-msgstr ""
-
-msgid ""
-"When clicking `Test it` again, we can see the JSON structure of the "
-"variable data for the different variable types."
-msgstr ""
-
-msgid "JavaScript JSON values"
-msgstr ""
-
-msgid ""
-"The *contract* and *salesRepresentative* variables have complex types, "
-":ref:`type-file` and :ref:`type-user`, so the table only shows an ID. The"
-" *Updated value* column shows the result of assigning new values to these"
-" variables in the script."
-msgstr ""
-
-msgid "Calling an external web service"
-msgstr ""
-
-msgid ""
-"You can use these variables to send data to an external web service, "
-"using the `request module "
-"<https://github.com/mikeal/request/blob/master/README.md>`_. For example,"
-" the following script sends the value of the ``startDate`` variable in an"
-" HTTP POST request to an external web service."
-msgstr ""
-
-msgid ""
-"This example uses a test endpoint configured using `Mocky "
-"<http://www.mocky.io/>`_ to return an HTTP response. This has the "
-"following result in the Signavio Workflow test console:"
-msgstr ""
-
-msgid "Updating a variable via an external web service"
-msgstr ""
-
-msgid ""
-"The two log statements, starting with *HTTP 200*, show the HTTP response "
-"from the web service. The response body (as set-up in Mocky) contains "
-"JSON data that includes an updated value for the ``startDate`` variable, "
-"changing the date from ``2015-06-15`` to ``2015-06-16``."
-msgstr ""
-
-msgid ""
-"The script then parses this JSON response using ``JSON.parse`` and "
-"updates the ``startDate`` variable in Signavio Workflow, as shown in the "
-"*Updated value* column in the test console’s variables table."
+msgid "See :ref:`javascript` for a developer guide to using JavaScript actions."
 msgstr ""
 
 msgid "Sub-process"
@@ -893,6 +770,53 @@ msgid ""
 "the *Send quotation* email task’s template, to send the quotation."
 msgstr ""
 
+msgid "Signavio - Set model state"
+msgstr ""
+
+msgid "A `Set model state` action in the Signavio Workflow process builder"
+msgstr ""
+
+msgid ""
+"When you use `Signavio Process Editor <http://www.signavio.com/products"
+"/process-editor/>`_ for process modelling, you can use Signavio Workflow "
+"to manage process diagram approvals. Signavio Process Editor triggers "
+"these process diagram approval workflows, which run in Signavio Workflow "
+"and in turn update the process model in Signavio Process Editor."
+msgstr ""
+
+msgid ""
+"To use the `Set model state` task, you need to have access to `Signavio "
+"Process Editor <http://www.signavio.com/products/process-editor/>`_. This"
+" task only works in a process that has the `Signavio approval` trigger."
+msgstr ""
+
+msgid ""
+"The `Set model state` action automatically updates the ‘diagram state’ in"
+" Signavio Process Editor, e.g. to mark the diagram as *approved* or *in "
+"progress*. You typically use this as part of a process that performs a "
+"management approval that marks the diagram as *accepted* or *rejected*."
+msgstr ""
+
+msgid "A process diagram approval workflow that uses `Set model state` actions"
+msgstr ""
+
+msgid ""
+"Select a `Set model state` action to configure which process `Model "
+"state` the `Set model state` action will set."
+msgstr ""
+
+msgid ""
+"Configuring a `Set model state` action to set a Signavio Process Editor "
+"diagram’s status"
+msgstr ""
+
+msgid ""
+"Signavio Process Editor defines these `Model state` options. See "
+"`Managing approval workflows "
+"<https://editor.signavio.com/userguide/en/workspace_admin/manage_software_config/config_workflows.html"
+"#managing-approval-workflows>`_ for instructions on how to set this up."
+msgstr ""
+
 msgid "Map variables"
 msgstr ""
 
@@ -923,4 +847,275 @@ msgid ""
 "information` task, and any other tasks that use the same role, to the "
 "person who started the case."
 msgstr ""
+
+#~ msgid ""
+#~ "When you click on the button "
+#~ "`Configure a Google Drive account`, a"
+#~ " popup window will appear that helps"
+#~ " you integrate Signavio Workflow with "
+#~ "your Google Drive account."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you click the `Configure a "
+#~ "Box account` button, a popup window "
+#~ "will open for you to authorise "
+#~ "Signavio Workflow to use your Box "
+#~ "account. After logging in to your "
+#~ "Box account, if you have not "
+#~ "already logged in, Box shows an "
+#~ "authorization page."
+#~ msgstr ""
+
+#~ msgid "JavaScript action (Script task)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The JavaScript action, called a *Script"
+#~ " Task* in BPMN, allows developers to"
+#~ " add JavaScript to process execution. "
+#~ "Signavio Workflow runs the code on "
+#~ "the server, using `Node.js "
+#~ "<https://nodejs.org>`_. As well as Node.js’"
+#~ " JavaScript API, scripts can use "
+#~ "additional libraries (see below)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "After creating or selecting a JavaScript"
+#~ " action, the configuration panel looks "
+#~ "like this:"
+#~ msgstr ""
+
+#~ msgid "JavaScript configuration panel"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The top section of the panel "
+#~ "contains the JavaScript text editor. By"
+#~ " default, it already contains "
+#~ "``console.log('Hello World!');``. Use the "
+#~ "`console "
+#~ "<https://nodejs.org/dist/latest-v5.x/docs/api/console.html>`_ "
+#~ "API for log output when testing "
+#~ "scripts."
+#~ msgstr ""
+
+#~ msgid "JavaScript libraries"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Script tasks support a number of "
+#~ "popular JavaScript libraries. To import "
+#~ "a package, use our custom ``require``"
+#~ " function:"
+#~ msgstr ""
+
+#~ msgid "You can also choose another name for the import:"
+#~ msgstr ""
+
+#~ msgid "Supported JavaScript libraries"
+#~ msgstr ""
+
+#~ msgid "Library"
+#~ msgstr ""
+
+#~ msgid "Import"
+#~ msgstr ""
+
+#~ msgid "Description"
+#~ msgstr ""
+
+#~ msgid "`CSV <https://www.npmjs.com/package/csv>`_"
+#~ msgstr ""
+
+#~ msgid "``csv``"
+#~ msgstr ""
+
+#~ msgid "CSV generation, parsing, transformation and serialization"
+#~ msgstr ""
+
+#~ msgid "`Lodash <https://www.npmjs.com/package/lodash>`_"
+#~ msgstr ""
+
+#~ msgid "``lodash``"
+#~ msgstr ""
+
+#~ msgid "Convenience functions for working with collections and values"
+#~ msgstr ""
+
+#~ msgid "`moment <https://www.npmjs.com/package/moment>`_"
+#~ msgstr ""
+
+#~ msgid "``moment``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Parse, validate, manipulate, and display "
+#~ "dates; with `Twix "
+#~ "<https://www.npmjs.com/package/twix>`_ date range "
+#~ "support"
+#~ msgstr ""
+
+#~ msgid "`request <https://www.npmjs.com/package/request>`_"
+#~ msgstr ""
+
+#~ msgid "``request``"
+#~ msgstr ""
+
+#~ msgid "Simplified HTTP request client"
+#~ msgstr ""
+
+#~ msgid "`validator <https://www.npmjs.com/package/validator>`_"
+#~ msgstr ""
+
+#~ msgid "``validator``"
+#~ msgstr ""
+
+#~ msgid "String validation and sanitization"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The ``_`` (Lodash) and ``request`` "
+#~ "packages are always imported, for "
+#~ "backwards compatibility."
+#~ msgstr ""
+
+#~ msgid "Testing scripts"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The lower section allows you to "
+#~ "test the script. Click `Test it` "
+#~ "to execute the JavaScript code. The "
+#~ "test runner displays the results "
+#~ "underneath:"
+#~ msgstr ""
+
+#~ msgid "JavaScript test output"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The middle section shows the "
+#~ ":ref:`process variables <variables>`, starting "
+#~ "with just the *Case* variable for "
+#~ "a new process. If you add an "
+#~ ":ref:`email trigger <email-trigger>` to "
+#~ "the process, you will also see a"
+#~ " *Trigger email* variable."
+#~ msgstr ""
+
+#~ msgid "Using process variables"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Next, we'll show how to work with"
+#~ " data. Suppose that the process "
+#~ "includes a form that has each type"
+#~ " of field and looks like this:"
+#~ msgstr ""
+
+#~ msgid "Form taking input for JavaScript"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you open the JavaScript "
+#~ "configuration again, you'll see the "
+#~ "variables section shows some of the "
+#~ "form field variables."
+#~ msgstr ""
+
+#~ msgid "JavaScript variables"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click `Show all fields` and select "
+#~ "the variables you want to access "
+#~ "in the script. The script can "
+#~ "access the variables using the "
+#~ "*JavaScript variable* name from the "
+#~ "table. To access object variables’ "
+#~ "fields, use the field names specified"
+#~ " for the corresponding data type: "
+#~ ":ref:`Case <case-variable>`, :ref:`type-"
+#~ "email`, :ref:`type-file` or :ref:`type-"
+#~ "user`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In this example (below), you have "
+#~ "selected all variables. For each "
+#~ "variable that you select, you get "
+#~ "an input field to specify a test"
+#~ " value. Here you see all fields "
+#~ "with a test value."
+#~ msgstr ""
+
+#~ msgid "JavaScript test values"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When clicking `Test it` again, we "
+#~ "can see the JSON structure of the"
+#~ " variable data for the different "
+#~ "variable types."
+#~ msgstr ""
+
+#~ msgid "JavaScript JSON values"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The *contract* and *salesRepresentative* "
+#~ "variables have complex types, :ref:`type-"
+#~ "file` and :ref:`type-user`, so the "
+#~ "table only shows an ID. The "
+#~ "*Updated value* column shows the result"
+#~ " of assigning new values to these "
+#~ "variables in the script."
+#~ msgstr ""
+
+#~ msgid "Calling an external web service"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can use these variables to "
+#~ "send data to an external web "
+#~ "service, using the `request module "
+#~ "<https://github.com/mikeal/request/blob/master/README.md>`_. For"
+#~ " example, the following script sends "
+#~ "the value of the ``startDate`` variable"
+#~ " in an HTTP POST request to an"
+#~ " external web service."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This example uses a test endpoint "
+#~ "configured using `Mocky <http://www.mocky.io/>`_ "
+#~ "to return an HTTP response. This "
+#~ "has the following result in the "
+#~ "Signavio Workflow test console:"
+#~ msgstr ""
+
+#~ msgid "Updating a variable via an external web service"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The two log statements, starting with"
+#~ " *HTTP 200*, show the HTTP response"
+#~ " from the web service. The response"
+#~ " body (as set-up in Mocky) "
+#~ "contains JSON data that includes an "
+#~ "updated value for the ``startDate`` "
+#~ "variable, changing the date from "
+#~ "``2015-06-15`` to ``2015-06-16``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The script then parses this JSON "
+#~ "response using ``JSON.parse`` and updates "
+#~ "the ``startDate`` variable in Signavio "
+#~ "Workflow, as shown in the *Updated "
+#~ "value* column in the test console’s "
+#~ "variables table."
+#~ msgstr ""
 
