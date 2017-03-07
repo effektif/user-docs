@@ -23,8 +23,8 @@ This report now appears in the list of reports that you see when you select `Ana
 By default, only you can see the report in the list.
 
 
-Viewing and exporting report results
-------------------------------------
+Viewing and exporting results
+-----------------------------
 
 The report page’s table shows cases, with one case per row.
 The table header indicates the number of cases included in the report.
@@ -35,11 +35,11 @@ If you have special presentation requirements, you may want to use the same data
 To do this, you can download the same data as a `CSV file <https://en.wikipedia.org/wiki/Comma-separated_values>`_ that you can open in spreadsheet software.
 
 
-Selecting cases to include in a report
---------------------------------------
+Selecting cases to include
+--------------------------
 
 For most reports, you won’t want to include all of a process’ cases.
-After all, that’s what the :ref:`Cases view <cases-overview>` already shows.
+After all, the :ref:`Cases view <cases-overview>` already shows an overview of all cases.
 Instead, you can restrict which cases the report includes, by status or by the values of the process’ :ref:`variables`.
 
 .. figure:: /_static/images/analytics/process.png
@@ -50,8 +50,8 @@ In this example, the *Evaluate training course* process collects ratings for tra
 To create a report that uses these evaluations, select closed cases, which correspond to completed evaulations.
 
 
-Excluding cases from the report with filters
---------------------------------------------
+Excluding cases with filters
+----------------------------
 
 Filtering by status lets you create separate reports for completed work, such as a monthly productivity report, and outstanding work.
 To filter cases by status, use the first pick-list to select between `all cases`, `open cases` and `closed cases`.
@@ -68,23 +68,31 @@ You can add multiple conditions to further restrict which cases the report inclu
 A monthly case report would have two conditions for the `Case / End date` field, using the `is after` and `is before` conditions to define a date range.
 
 
-Grouping cases to display a pie chart
--------------------------------------
+Grouping and charts
+-------------------
 
 As well as listing cases in a table, you can also group cases by one of the process variables, so that cases with the same value appear together in the table.
 Grouping cases can also add a visualisation to the report.
 
+To show a pie chart of the different values for a variable, such as the course evaluation ratings, select the *Rating* variable from the *Group by* list.
+Then select the *Count* of *Case* values to count the evaluations with each distinct rating value.
+
 .. figure:: /_static/images/analytics/group-count.png
 
-  Grouping evaluations by rating, and counting the number of evaluations for each rating
+  Grouping evaluations by rating, and counting the number of evaluations with rating 3, 4 or 5
+
+Reports can also calculate *average* values for a numeric field, as well as counting cases.
+To show a bar chart of the average rating for each course, group by the *Course* (title) and show the *Average* of *Rating* values.
 
 .. figure:: /_static/images/analytics/group-average.png
 
   Grouping evaluations by course title, and calculating each course’s averge rating
 
+As well as *Average*, you can also show the *Minimum* or *Maximum* for each rating.
 
-Sharing a report with other people
-----------------------------------
+
+Sharing a report
+----------------
 
 You can share a report so that other people in your organisation can run the report, without the ability to edit the report’s configuration.
 
