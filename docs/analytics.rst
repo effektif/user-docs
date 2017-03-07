@@ -15,8 +15,8 @@ Creating a new report
 ---------------------
 
 To create a new report, select `Analytics` in the menu, and then `Create new report`.
-Enter a name for your report that decribes the data, such as *First quarter sales*.
-The finish setting up a basic report, use the list labled `Select a process` to choose one of your organization’s published reports.
+Enter a name for your report that describes the data, such as *First quarter sales*.
+The finish setting up a basic report, use the list labelled `Select a process` to choose one of your organization’s published reports.
 
 When you create a report and select a process, the report shows a table of all of the process’ cases.
 This report now appears in the list of reports that you see when you select `Analytics`.
@@ -47,7 +47,7 @@ Instead, you can restrict which cases the report includes, by status or by the v
    Selecting a process and whether to include open or closed cases
 
 In this example, the *Evaluate training course* process collects ratings for training courses.
-To create a report that uses these evaluations, select closed cases, which correspond to completed evaulations.
+To create a report that uses these evaluations, select closed cases, which correspond to completed evaluations.
 
 
 Excluding cases with filters
