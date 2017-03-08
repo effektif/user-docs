@@ -244,3 +244,14 @@ Workflowdaten
 Workflowmodellierungs
 Workflows
 Workflowvariable
+Analytics
+Reporting
+Teamressourcen
+Teamaufgaben
+aggregiert
+Reportdaten
+Reportliste
+Prozessvariable
+Tortendiagramm
+Bewertungsvariablen
+Reportnamen
