@@ -109,10 +109,10 @@ Single Sign-On
 Single sign-on (SSO) makes it possible to access Signavio Workflow using an existing corporate user account, so you do not have to log in to Signavio Workflow separately.
 To request SSO for your organization, send a request using the *Send feedback* option in the application, including your `SAML 2.0 Identity Provider Metadata <https://en.wikipedia.org/wiki/SAML_2.0#Identity_Provider_Metadata>`_.
 
-`G Suite <https://support.google.com/a/answer/6087519?hl=en&ref_topic=6304963>`_ (formerly Google Apps) is currently the only supported SSO provider.
+Signavio Workflow currently only supports the `G Suite <https://support.google.com/a/answer/6087519?hl=en&ref_topic=6304963>`_ (formerly Google Apps) SSO provider.
 
 Signavio Workflow supports `Security Assertion Markup Language (SAML) 2.0 <https://en.wikipedia.org/wiki/SAML_2.0>`_ Identity Provider-initiated SSO using the HTTP POST binding.
-Please contact us if you want to use a SAML 2.0 Identity Provider that is not listed above.
+Please contact us if you want to use a SAML 2.0 Identity Provider other than those listed above.
 
 .. _labels:
 

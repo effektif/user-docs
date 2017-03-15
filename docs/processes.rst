@@ -15,6 +15,7 @@ With Signavio Workflow, non-technical people can create useful processes.
 
 .. include:: include_processes/list.rst
 .. include:: include_processes/create.rst
+.. include:: include_processes/labels.rst
 .. include:: include_processes/triggers.rst
 .. include:: include_processes/actions.rst
 .. include:: include_processes/details.rst
