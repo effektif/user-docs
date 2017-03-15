@@ -113,3 +113,22 @@ To request SSO for your organization, send a request using the *Send feedback* o
 
 Signavio Workflow supports `Security Assertion Markup Language (SAML) 2.0 <https://en.wikipedia.org/wiki/SAML_2.0>`_ Identity Provider-initiated SSO using the HTTP POST binding.
 Please contact us if you want to use a SAML 2.0 Identity Provider that is not listed above.
+
+.. _labels:
+
+Labels
+------
+
+Most organizations soon have enough processes to make it inconvient to browse the processes list.
+To keep your processes tidy, you can define and use labels, to categorize processes by department, status or however you like.
+
+Use the *Labels* tab to define labels for your organization.
+You start with a set of default labels, but you can customize the list.
+
+.. figure:: /_static/images/settings/labels.png
+
+   Configuring labels - used to categorize processes
+
+To add a new label, enter a name in the text input field and select *Create*.
+Select a label or its edit icon to change its name or color.
+To delete a label, select the delete icon on the far right.
