@@ -10,7 +10,7 @@ or to load a file that you saved using the :ref:`BPMN export <bpmn-export>` opti
 To import a process model, on the `Processes` page,
 click the `Import BPMN` button and select the BPMN XML file.
 
-.. figure:: /_static/images/process-builder/bpmn-import.png
+.. figure:: /_static/images/processes/bpmn-import.png
 
    The `Import BPMN` button on the `Processes` page
 

@@ -53,7 +53,7 @@ Groups
 ------
 
 The groups list shows the organization’s user groups.
-You can use these groups to define candidates for tasks in the :ref:`process builder <process-builder>`.
+You can use these groups to define candidates for tasks in the :ref:`process builder <processes>`.
 
 .. figure:: /_static/images/settings/groups.png
 

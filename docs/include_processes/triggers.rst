@@ -23,7 +23,7 @@ Form trigger
 With a form trigger, you use a form to start a process.
 After selecting the form trigger, you can use the form builder to specify form fields.
 
-.. figure:: /_static/images/process-builder/trigger/form.png
+.. figure:: /_static/images/processes/trigger/form.png
 
    Form trigger configuration - using the form builder to define a trigger form
 
@@ -40,7 +40,7 @@ An email trigger starts a new case for each email that you send to the triggerâ€
 Note this differs from reading an existing email account, such as your own.
 After selecting the email trigger, you can see its email address:
 
-.. figure:: /_static/images/process-builder/trigger/mail.png
+.. figure:: /_static/images/processes/trigger/mail.png
 
    Mail trigger configuration
 
@@ -54,7 +54,7 @@ the process trigger address will also receive any email sent to the mailing list
 starting the process in Signavio Workflow.
 You will then see the email in the event stream:
 
-.. figure:: /_static/images/process-builder/trigger/mail-event.png
+.. figure:: /_static/images/processes/trigger/mail-event.png
 
    Trigger mail in stream
 
@@ -72,7 +72,7 @@ When you have configured a Salesforce service,
 you can select it as a process trigger,
 so that messages from Salesforce will now trigger new cases.
 
-.. figure:: /_static/images/process-builder/trigger/salesforce.png
+.. figure:: /_static/images/processes/trigger/salesforce.png
 
    Example of a Salesforce trigger
 
