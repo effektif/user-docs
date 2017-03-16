@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-28 17:22+0100\n"
-"PO-Revision-Date: 2017-02-15 15:07+0100\n"
+"PO-Revision-Date: 2017-03-16 19:57+0100\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -23,19 +23,19 @@ msgid "Custom data connectors"
 msgstr "Konfigurierbare Datenschnittstellen"
 
 msgid "When you define a process in Signavio Workflow, you often include your own data in the process definition, such as the list of options for a form field. This works well for small lists that don’t change often or that belong to the process, such as a list of document statuses in a document approval process. However, fixed lists in the process definition become difficult to maintain when the data changes frequently or includes a large number of items, such as a list of products or customers."
-msgstr "Wenn Sie einen Prozess im Signavio Workflow definieren, fügen Sie häufig Ihre eigenen Daten in die Prozessdefinition ein, zum Beispiel in die Optionsliste für ein Formularfeld. Dies eignet sich für kleine Listen, die sich nicht häufig ändern oder die bereits zum Prozess gehören, zum Beispiel eine Liste mit dem jeweiligen Stand in einem Genehmigungsprozess für ein Dokument. Jedoch werden diese Listen in der Prozessdefinition schwer zu pflegen sein, wenn sich die Daten häufig ändern oder eine große Anzahl von Elementen umfasst, zum Beispiel eine Liste der Produkte oder Kunden."
+msgstr "Wenn Sie einen Prozess im Signavio Workflow definieren, fügen Sie häufig Ihre eigenen Daten in die Prozessdefinition ein. Zum Beispiel in die Optionsliste für ein Formularfeld. Dies eignet sich für kleine Listen, die sich nicht häufig ändern oder die bereits zum Prozess gehören. Beispielhaft eine Liste mit dem jeweiligen Stand in einem Freigabeprozess für ein Dokument. Jedoch werden diese Listen in der Prozessdefinition schwer zu warten sein, wenn sich die Daten häufig ändern oder eine große Anzahl von Elementen umfasst, eine Liste der Produkte oder Kunden zum Beispiel."
 
 msgid "With Signavio Workflow, you can also integrate dynamic structured data from other IT systems into your workflows. The workflow system fetches data from a third-party system using a *connector*, which a customer or a partner implements and hosts."
-msgstr "Mit Signavio Workflow integrieren Sie dynamische und strukturierte Daten aus anderen IT-Systemen in Ihre Workflows. Das Workflow-System extrahiert die Daten aus einem Drittsystem mit einer *Datenschnittstelle*, die ein Kunde oder Partner implementiert und verwaltet."
+msgstr "Mit Signavio Workflow integrieren Sie dynamische und strukturierte Daten aus anderen IT-Systemen in Ihre Workflows. Das Workflow-System extrahiert die Daten aus einem Drittsystem mit einer *Datenschnittstelle*, die ein Kunde oder ein Partner implementiert und verwaltet."
 
 msgid "A connector provides a web service that translates between the external system and Signavio Workflow. The connector implements a defined interface, which Signavio Workflow uses to access data in a format it can use. Signavio Workflow and the connector communicate over *HTTP* or *HTTPS*, which makes it possible to implement connectors in any programming language."
-msgstr "Eine Datenschnittstelle stellt einen Webdienst bereit, der zwischen dem externen System und Signavio Workflow \"übersetzt\". Die Schnittstelle implementiert ein Interface, das Signavio Workflow verwendet, um auf Daten in einem Format zuzugreifen, die Sie direkt verwenden können. Signavio Workflow und die Schnittstelle kommunizieren dabei über * HTTP * oder * HTTPS *, und ermöglichen es Schnittstellen in einer beliebigen Programmiersprache umzusetzen."
+msgstr "Eine Datenschnittstelle stellt einen Webdienst bereit, der zwischen dem externen System und Signavio Workflow \"übersetzt\". Die Schnittstelle implementiert ein Interface, das Signavio Workflow verwendet, um auf Daten in einem Format zuzugreifen. Sie können diese direkt verwenden. Signavio Workflow und die Schnittstelle kommunizieren dabei über * HTTP * oder * HTTPS *, und ermöglichen es Schnittstellen in einer beliebigen Programmiersprache umzusetzen."
 
 msgid "Using a connector"
 msgstr "Verwendung der Datenschnittstellen"
 
 msgid "A connector can provide data to :ref:`user-task` form fields. For example, you can create a connector that provides a list of customers, which adds a *Customer* type in the form builder:"
-msgstr "Ein Schnittstelle kann Daten zu ref:`user-task` Formularfeldern liefern. Beispielsweise können Sie eine Datenschnittstelle erstellen, die eine Liste von Kunden bereitstellt, die einen *Kundentyp* zum Formular-Generator hinzufügt:"
+msgstr "Ein Schnittstelle kann Daten zu :ref:`user-task` Formularfeldern liefern. Beispielsweise können Sie eine Datenschnittstelle erstellen, die eine Liste von Kunden bereitstellt, die einen *Kunden*-Typ zum Formular-Generator hinzufügt:"
 
 msgid "A *Customer* connector type in the form builder, at the bottom of the list of field types"
 msgstr "Eine *Kundenschnittstellen-Typ* im Formular-Ersteller, am Ende der Liste "
@@ -44,13 +44,13 @@ msgid "A connector reference field:"
 msgstr "Ein Datenschnittstellen-Referenzfeld: "
 
 msgid "makes it possible to select from a dynamic list of records"
-msgstr "Ermöglicht es aus einer dynamischen Liste von Aufzeichnungen zu wählen"
+msgstr "Ermöglicht es aus einer dynamischen Liste von Einträgen zu wählen"
 
 msgid "supports auto-complete so you can work with a large number of records"
-msgstr "Unterstützt die Auto-Vervollständigung, sodass Sie mit einer großen Anzahl an Aufzeichnungen arbeiten können"
+msgstr "Unterstützt die Auto-Vervollständigung, sodass Sie mit einer großen Anzahl an Einträgen arbeiten können"
 
 msgid "can include structured data for each record."
-msgstr "Kann strukturierte Daten für jede Aufzeichnung enthalten"
+msgstr "Kann strukturierte Daten für jede Eintrag enthalten"
 
 msgid "Implementing a connector"
 msgstr "Eine Datenschnittstelle implementieren"
@@ -59,16 +59,16 @@ msgid "To implement a connector, you publish three different kinds of resource."
 msgstr "Um eine Datenschnittstelle zu implementieren, müssen Sie drei verschiedene Ressourcen veröffentlichen:"
 
 msgid ":ref:`connector-descriptor` - defines one or more record types, each of which defines a list of fields."
-msgstr ":ref:`connector-descriptor` – definiert eine oder mehrere Aufzeichnungsarten, die jede für sich eine Liste von Feldern definiert"
+msgstr ":ref:`connector-descriptor` – definiert eine oder mehrere Eintragstypen, der jeder für sich eine Liste von Feldern definiert"
 
 msgid ":ref:`connector-type-options` - a list of records for each record type the connector defines."
-msgstr ":ref:`connector-type-options` – eine Liste von Aufzeichnungen für jeden Aufzeichungstyp, den die Datenschnittstelle definiert"
+msgstr ":ref:`connector-type-options` – eine Liste von Einträgen für jeden Typ, der die Datenschnittstelle definiert"
 
 msgid ":ref:`connector-record-details` (optional) - all fields for one record from the list of records."
-msgstr ":ref:`connector-record-details`  – Alle Felder für eine Aufzeichnung aus der Liste der Aufzeichnungen. "
+msgstr ":ref:`connector-record-details`  – Alle Felder für einen Eintrag aus der Liste der Einträge"
 
 msgid "Signavio Workflow accesses the connector on the web, via the public Internet, or via a private intranet for an on-premise installation. Signavio Workflow calls the connector’s URL the *endpoint URL*."
-msgstr "Signavio Workflow verbindet sich mittels eines öffentlichen Internetzugangs mit der Datenschnittstelle, oder mittels eines privaten Intranets für eine On-Premise-Installation. Signavio Workflow ruft dann die URL der Datenschnittstelle – die *Endpoint-URL * auf."
+msgstr "Signavio Workflow verbindet sich mittels eines öffentlichen Internetzugangs mit der Datenschnittstelle, oder mittels eines privaten Intranets für eine On-Premise-Installation. Dann ruft es die URL der Datenschnittstelle – die *Endpoint-URL * auf."
 
 msgid "For example, consider a connector that accesses a fictional customer database, that you publish at the endpoint URL ``https://example.org/connector``. In this example, each customer record has the following fields."
 msgstr "Ein Beispiel: Sie verwenden eine Datenschnittstelle einer fiktiven Kundendatenbank, die Sie auf der Endpoint-URL ``https://example.org/connector` veröffentlichen. In diesem Beispiel hat jeder Kunde die folgenden Felder:"
@@ -84,40 +84,40 @@ msgid "Description"
 msgstr "Beschreibung"
 
 msgid "``id``"
-msgstr "``Identifkationsnummer``"
+msgstr ""
 
 msgid "Unique identifier"
 msgstr "Ermöglicht die eindeutige Identifikation"
 
 msgid "``fullName``"
-msgstr "``Vor- und Nachname``"
+msgstr ""
 
 msgid "Full name"
-msgstr "-"
+msgstr "Vor und Nachname"
 
 msgid "``email``"
-msgstr "``E-Mail``"
+msgstr ""
 
 msgid "Email address"
-msgstr "-"
+msgstr "E-Mail Adresse"
 
 msgid "``subscriptionType``"
-msgstr "``Abonnementtyp``"
+msgstr ""
 
 msgid "Type of subscription - bronze, silver or gold"
-msgstr "Typ des Abos – Bronze, Silber oder Gold"
+msgstr "Typ des Abonnements – Bronze, Silber oder Gold"
 
 msgid "``discount``"
-msgstr "``Preisnachlass``"
+msgstr ""
 
 msgid "Default customer discount"
-msgstr "–"
+msgstr "Voreingestellt Preisnachlass"
 
 msgid "``since``"
-msgstr "``Mitglied seit``"
+msgstr ""
 
 msgid "Registration date"
-msgstr "``Datum der Registration``"
+msgstr "Datum der Registration"
 
 msgid "A complete example customer record, formatted as *JSON*, would then look like this::"
 msgstr "Ein vollständiger Beispieleintrag formattiert als *JSON*, würde dann so aussehen: "
@@ -126,7 +126,7 @@ msgid "This example now includes enough information to implement a complete conn
 msgstr "Dieses Beispiel enthält jetzt genug Informationen, um einen vollständige Datenschnittstelle zu implementieren. "
 
 msgid "Connector descriptor"
-msgstr "Beschreibung der Datenschnittstelle"
+msgstr "Deskriptor der Datenschnittstelle"
 
 msgid "A connector needs a descriptor to provide basic information, such as its name and description, as well as detailed information about the structure of the data the connector provides. When you implement a connector, you must make the descriptor available as the following HTTP resource."
 msgstr "Eine Datenschnittstelle benötigt eine Beschreibung, um grundlegende Informationen bereitzustellen – wie zum Beispiel Name und Bezeichnung sowie detaillierte Informationen über die Struktur, die von der Datenschnittstelle bereitgestellt wird. Wenn Sie eine Datenschnittstelle implementieren, müssen Sie die Beschreibung als die folgende HTTP Ressource bereitstellen:"
@@ -141,10 +141,10 @@ msgid "Request methods"
 msgstr "Abfragemethode"
 
 msgid "GET - fetches the connector descriptor"
-msgstr "GET - verwendet die Beschreibung der Datenschnittstelle"
+msgstr "GET - „fetched“ den Deskriptor der Datenschnittstelle"
 
 msgid "Response content type"
-msgstr "Content-Type der Antwort"
+msgstr "Content-Typ der Antwort"
 
 msgid "``application/json``"
 msgstr "``application/json``"
@@ -154,108 +154,108 @@ msgstr "Die Antwort muss ein JSON-Objekt mit den folgenden Feldern enthalten."
 
 #: ../../integration/connectors.rst
 msgid "Connector descriptor properties"
-msgstr "Die Eigenschaften der Datenschnittstelle"
+msgstr "Die Eigenschaften des Deskriptors der Datenschnittstelle"
 
 msgid "``key``"
-msgstr "``Key``"
+msgstr ""
 
 msgid "Unique alphanumeric key (characters a-z, A-Z, 0-9) that identifies the connector"
-msgstr "Eindeutige Identifikationsnummer ( von A-Z oder 0-), um die Datenschnittstelle zu identifizieren"
+msgstr "Eindeutige Identifikationsnummer ( von A-Z oder 0-9), um die Datenschnittstelle zu identifizieren"
 
 msgid "``name``"
-msgstr "``Name``"
+msgstr ""
 
 msgid "The connector name shown in the user interface"
 msgstr "Der Name der Datenschnittstelle, der im Userinterface angezeigt wird"
 
 msgid "``description``"
-msgstr "``Beschreibung``"
+msgstr ""
 
 msgid "Detailed connector description"
 msgstr "Detaillierte Beschreibung der Datenschnittstelle"
 
 msgid "``typeDescriptors``"
-msgstr "``Typbeschreibungen``"
+msgstr ""
 
 msgid "List of one or more descriptors for record types"
-msgstr "Die Liste für ein oder mehrere Beschreibungen der Eintragstypen"
+msgstr "Die Liste für eine oder mehrere Beschreibungen der Eintragstypen"
 
 msgid "``version``"
-msgstr "``Version``"
+msgstr ""
 
 msgid "The connector version, which should increase if the provided data structure changes"
 msgstr "Die Datenschnittstelle, die darüber informiert, wenn sich die Datenstruktur verändert"
 
 msgid "``protocolVersion``"
-msgstr "``Protokollversion``"
+msgstr ""
 
 msgid "The connector protocol version, currently ``1``."
 msgstr "Die Protokollversion der Datenschnittstelle, momentan ``1``"
 
 msgid "For example, the JSON response body for a connector descriptor without any type descriptors would look like this::"
-msgstr "Zum Beispiel: Die Antwort von JSON für eine Beschreibung der Datenschnittstelle, in der die Beschreibung der einzelnen Typen aber fehlen, würde folgendermaßen aussehen:"
+msgstr "Zum Beispiel: Die Antwort von JSON für eine Beschreibung der Datenschnittstelle, in der die Beschreibung der einzelnen Typen fehlen, würde folgendermaßen aussehen:"
 
 msgid "In our example, you would retrieve the connector descriptor by sending the HTTP request ``GET https://example.org/connector/``."
-msgstr "In unserem Beispiel, würden Sie die Beschreibungen der Datenschnittstelle abrufen, wenn Sie den HTTP-Request ``GET https://example.org/connector/` absenden."
+msgstr "In unserem Beispiel würden Sie die Beschreibungen der Datenschnittstelle abrufen, wenn Sie den HTTP-Request ``GET https://example.org/connector/` absenden"
 
 msgid "A **record type descriptor** describes the format of the data the connector provides, such as the format of a customer record. In the JSON response, the ``typeDescriptors`` property’s value contains an array of record type descriptor JSON objects."
-msgstr "Eine **Beschreibung des Eintragstyps** charakterisiert die Formatierung der Daten in der jeweiligen Schnittstelle, zum Beispiel die Formatierung der Kundeneinträge. In der Antwort von JSON enthält der Wert der``Typbeschreibung``ein Feld von Eintragstypen-Beschreibung als JSON-Objekte."
+msgstr "Ein **Eintragstyp des Deskriptors** charakterisiert die Formatierung der Daten in der jeweiligen Schnittstelle, zum Beispiel die Formatierung der Kundeneinträge. In der Antwort von JSON enthält der``typeDeskriptor``ein Feld von Eintragstypen-Beschreibung als JSON-Objekte"
 
 #: ../../integration/connectors.rst
 msgid "Record type descriptor properties"
-msgstr "Eigenschaften der Eintragstypen"
+msgstr "Eigenschaften der Einträge des Deskriptors"
 
 msgid "Unique alphanumeric key (characters a-z, A-Z, 0-9) that identifies the record type within the connector descriptor, used in :ref:`connector-type-options` and :ref:`connector-record-details` URLs"
-msgstr "Ein eindeutiger alphanumerischer Schlüssel( wie A-Z, 0-9), der die Eintragstypen inmitten der Schnittstellenbeschreibungen identfiziert, wie in :ref:`connector-type-options`und den :ref:`connector-record-details` URLs"
+msgstr "Ein eindeutiger alphanumerischer Schlüssel( wie A-Z oder 0-9), der die Eintragstypen inmitten der Schnittstellenbeschreibungen identfiziert, wie in :ref:`connector-type-options`und den :ref:`connector-record-details` URLs"
 
 msgid "The type name shown in the form builder user interface"
-msgstr "Der Typname, der im Formularersteller des User Interfaces angezeigt wird "
+msgstr "Der Typname, der im Formular-Ersteller des Userinterfaces angezeigt wird "
 
 msgid "``fields``"
-msgstr "Felder"
+msgstr ""
 
 msgid "An array of :ref:`record field descriptors <connector-field-descriptor>`"
-msgstr "Ein Feld von  :ref:`record field descriptors <connector-field-descriptor>`"
+msgstr "Ein Feld von  :ref:`Deskriptoren der Eintragssfelder <connector-field-descriptor>`"
 
 msgid "``optionsAvailable``"
-msgstr "``optionsAvailable``"
+msgstr ""
 
 msgid "Boolean value - ``true`` indicates that the connector provides a list of record options, used to provide a list in the user interface for user selection"
-msgstr "Booleanwerte – ``wahr``impliziert, dass die Schnittstelle eine Liste von Eintragsoptionen bereitstellt. Dies wird für eine Liste im Userinterface für die User-Auswahl verwendet"
+msgstr "Booleanwerte – ``true``impliziert, dass die Schnittstelle eine Liste von Eintragsoptionen bereitstellt. Diese wird für eine Liste im Userinterface für die User-Auswahl verwendet"
 
 msgid "``fetchOneAvailable``"
-msgstr "``fetchOneAvailable``"
+msgstr ""
 
 msgid "Boolean value - ``true`` indicates that Signavio Workflow can fetch single records by the ID used in the options list"
-msgstr "Boooleanwert – ``true``impliziert, dass Signavio Workflow einzelne Einträge mittels der Identifikationsnummer abrufen kann, die in der Optionenliste verwendet werden"
+msgstr "Boooleanwert – ``true``impliziert, dass Signavio Workflow einzelne Einträge mittels der ID abrufen kann, die in der Optionsliste verwendet werden"
 
 msgid "For example, the JSON object for a customer record type descriptor, without any fields, would look like this::"
-msgstr "Zum Beispiel: Das JSON Objekt für ein ein Typbeschreibung eines Kundeintrages ohne Felder, würde folgendermaßen aussehen:"
+msgstr "Zum Beispiel: Das JSON Objekt für die Typbeschreibung eines Kundeintrags, ohne Felder, würde folgendermaßen aussehen:"
 
 msgid "A **record field descriptor** specifies one field of a record type. A record type has a complex structure that includes one or more fields, such as a customer’s full name. Each field has a key, a name and a data type."
-msgstr "Ein **Beschreibung des Eintragsfeldes** spezifiziert genau ein Feld des Eintragstypes. Ein Eintragystp hat eine komplexe Struktur, die ein oder mehrere Felder einschließt so wie der vollständige Name des Kundens. Jedes Feld hat einen Schlüssel – einen Namen und einen Datentyp."
+msgstr "Ein **Deskriptor des Eintragsfeld** spezifiziert genau ein Feld des Eintragstyps. Ein Eintrag hat eine komplexe Struktur, die ein oder mehrere Felder einschließt, zum Beispiel den vollständigen Namen eines Kunden. Jedes Feld hat einen Schlüssel, einen Namen und einen Datentyp."
 
 #: ../../integration/connectors.rst
 msgid "Record field descriptor properties"
-msgstr "Eigenschaften von Eintragsfeldern"
+msgstr "Eigenschaften von Eintragsfeldern der Deskriptoren"
 
 msgid "Unique alphanumeric key (characters a-z, A-Z, 0-9) that identifies the field type within the record type"
-msgstr "Ein alphanumerischer Schlüssel ( von A-Z oder von 0-9), der die Eintragstypen innerhalb des Feldtyps identifziert"
+msgstr "Ein alphanumerischer Schlüssel ( von A-Z oder von 0-9), der die Feldtypen innerhalb der Einträge identifiziert"
 
 msgid "The field name shown in the user interface"
 msgstr "Der Feldname, der im Userinterface angezeigt wird"
 
 msgid "``type``"
-msgstr "``Typ`"
+msgstr ""
 
 msgid "A JSON object that describes field’s data type - see :ref:`connector-data-types`"
 msgstr "Ein JSON-Objekt, dass die Felddatentypen beschreibt – mehr unter :ref:`connector-data-types`"
 
 msgid "Every record type automatically includes an ``id`` field with type ``text``, so you don’t have to define it explicitly."
-msgstr "Jeder Eintragstyp enthält automatisch seine ``Identifikationsnummer``mit ``Text`, damit Sie ihn nicht erst explizit definieren müssen."
+msgstr "Jeder Eintragstyp enthält automatisch seine ``id``mit ``text`, damit Sie ihn nicht explizit definieren müssen"
 
 msgid "An example for the ``fullName`` of our customer record type looks like this ::"
-msgstr "Ein Beispiel für den ``Vor- und Nachnamen``von unserem Kundeneintragstypen schaut folgendermaßen aus:"
+msgstr "Ein Beispiel für den ``fullName``(Vor- und Nachnamen) von unserem Kundenaufzeichungstypen schaut folgendermaßen aus::"
 
 msgid "A complete example of our connector descriptor would look like this::"
 msgstr "Ein vollständiges Beispiel von unserer Beschreibung der Schnittstelle würde folgendermaßen aussehen::"
@@ -264,38 +264,38 @@ msgid "Record type options"
 msgstr "Optionen für Eintragstypen"
 
 msgid "When you use a record type on a form, you will see a form field where you can enter a search query and select one of the options shown. Each result represents a record provided by the connector. In order to show a selection of different records to the user, a connector can provide a list of options for a record type."
-msgstr "Wenn Sie den Eintragstypen auf einem Formular anwenden, werden sie ein ein Formularfeld sehen, auf dem sie eine Suchanfrage durchführen können und auf dem sie eine der unterstehenden Optionen auswählen können. Jedes Ergebnis repräsentiert einen Eintrag, der von der Schnittstelle bereitgestellt wird. In der Reihenfolge, in der eine Auswahl für verschiedene Einträge für den Benutzer sichtbar wird, kann die Schnittstelle eine Liste mit Eintragstypen bereitstellen."
+msgstr "Wenn Sie den Eintragstypen auf einem Formular anwenden, werden sie ein Formularfeld sehen, auf dem sie eine Suchanfrage durchführen eine der unterstehenden Optionen auswählen können. Jedes Ergebnis repräsentiert einen Eintrag, der von der Schnittstelle bereitgestellt wird. In der Reihenfolge, in der eine Auswahl für verschiedene Einträge für den Benutzer sichtbar wird, kann die Schnittstelle eine Liste mit Eintragstypen bereitstellen."
 
 msgid "To make a list of options available to forms, in the :ref:`connector-descriptor`, set the ``optionsAvailable`` flag to ``true``. The connector must also make the options available as the following HTTP resource."
-msgstr "Um eine Liste der verfügbaren Optionen für Formulare zu erstellen, setzen Sie das `optionsAvailable` in der :ref:`connector-descriptor` auf ``wahr``. Die Datenschnittstelle muss die Optionen ebenso für die folgenden HTTP Ressourcen bereitstellen."
+msgstr "Um eine Liste der Optionen für Formulare zu erstellen, setzen Sie das ``optionsAvailable`` in der :ref:`connector-descriptor` auf ``true``. Die Datenschnittstelle muss die Optionen ebenso für die folgenden HTTP Ressourcen bereitstellen."
 
 msgid "URL (relative to the endpoint URL)"
 msgstr "URL (Relativ zur Endpoint-URL)"
 
 msgid "``/:type/options`` - with path parameter ``:type`` - a record type key"
-msgstr "``/:type/options`` – mit den Pfadparameter ``:type``– ein Schlüssel für den Eintragstyp "
+msgstr "``/:type/options`` – mit den Pfadparameter ``:type`` ein Schlüssel für den Eintragstypen"
 
 msgid "Query string (optional)"
 msgstr "Ein String für die Suche (optional)"
 
 msgid "``filter=:query`` - added when the user enters a search; ``:query`` encodes the search string"
-msgstr "``filter=:query`` – wird hinzugefügt, wenn der Benutzer eine Suchanfrage aufgibt; `:query``encodiert den Suchstring"
+msgstr "``filter=:query`` – wird hinzugefügt, wenn der Benutzer eine Suchanfrage aufgibt; ``:query``encodiert den Suchstring"
 
 msgid "GET - fetches the list of record type options"
-msgstr "GET – übernimmt die Liste der Eintragstyp-Optionen"
+msgstr "GET – „fetched“ die Liste der Eintragstyp-Optionen"
 
 msgid "The response body must contain an array of JSON objects, which should have a limited size. Each object in the array must have the following fields."
-msgstr "Die Antwort muss ein Feld mit JSON-Objekten enthalten, das eine eingeschränkte Größe besitzt. Jedes Objekt im Feld(Array?) muss dafür die folgenden Felder aufweisen: "
+msgstr "Die Antwort muss ein Feld mit JSON-Objekten enthalten, dessen Größe eingeschränkt ist. Jedes Objekt im Feld muss dafür die folgenden Felder aufweisen: "
 
 #: ../../integration/connectors.rst
 msgid "Record type options object properties"
-msgstr "?????"
+msgstr "Optionen der Eintragstypen für Objekteigenschaften"
 
 msgid "Unique string record ID"
-msgstr "Eindeutige ???"
+msgstr "Eindeutige ID des Stringeintrags"
 
 msgid "The text label shown in the user interface, which could aggregate multiple record fields like ``fullName (email)``"
-msgstr "Das Label aus dem Userinterface, das verschiedene Eintragsfelder zusammenträgt wie ``Vor- und Nachname (email)``"
+msgstr "Das Label aus dem Userinterface, das verschiedene Eintragsfelder zusammenträgt wie ``fullName (email)``"
 
 msgid "For example, a list of customer options, with URL ``https://example.org/connector/customer/options``, would look like this::"
 msgstr "Zum Beispiel: Eine Lister von Kundenoptionen, mit URL ``https://example.org/connector/customer/options`, würde folgendermaßen aussehen: "
@@ -304,122 +304,121 @@ msgid "Record details"
 msgstr "Eintragsdetails"
 
 msgid "When you use a connector form field to select a record, you can use the record’s data in the workflow. Signavio Workflow only stores the record’s ID as a reference, and fetches the entire record when needed, when accessing the nested data."
-msgstr "Wenn Sie eine Schnittstelle verwenden, um die einen Eintrag auszuwählen, können Sie die Daten des Eintrags im Workflow verwenden. Signanvio Workflow speichert ausschließlich die Identifkationsnummer des Eintrags als eine Referenz, und greift erst mit dem Zugriff auf die verschachtelten Daten(???) und den  auf den gesamten Eintrag zu."
+msgstr "Wenn Sie eine Schnittstelle verwenden, um einen Eintrag auszuwählen, können Sie die Daten des Eintrags im Workflow verwenden. Signavio Workflow speichert ausschließlich die ID des Eintrags als eine Referenz, und greift erst auf den Eintrag zu, wenn er benötigt wird, bzw. wenn auf die verschachtelten Daten zugegriffen wird."
 
 msgid "To make a record’s fields available, in the :ref:`connector-descriptor`, set the ``fetchOneAvailable`` flag to ``true``. The connector must also make the records available as the following HTTP resource."
-msgstr "Um ein Eintragsfeld verfügbar zu machen "
+msgstr "Um ein Eintragsfeld verfügbar zu machen, setzen Sie das `fetchOneAvailable``-Flag auf``true``. Die Schnittstelle muss die Einträge ebenso für diese HTTP Ressourcen bereitstellen:"
 
 msgid "``/:type/:id`` - with path parameters ``:type`` - a record type key, and ``:id`` - a record ID"
-msgstr "``/:type/:id`` – mit den Pfadparametern ``:type``– ein Eintragstyp-Schlüssel, und ``:id`` - als Eintragsidentifikationsnummer"
+msgstr "``/:type/:id`` – mit den Pfadparametern ``:type``als ein Eintragstyp-Schlüssel und ``:id`` als als Eintragsidentifikationsnummer"
 
 msgid "GET - fetches details for a single record"
-msgstr "GET -  "
+msgstr "GET -  „fetched“ die Details für die einzelnen Einträge"
 
 msgid "For example, a customer record, with URL ``https://example.org/connector/customer/7g8h9i``, would look like this::"
 msgstr "Zum Beispiel, ein Kundeneintrag mit der URL ``https://example.org/connector/customer/7g8h9i``, würde folgendermaßen aussehen: "
 
 msgid "Selecting this customer record from the customer options list would give the workflow access to all of this customer’s fields."
-msgstr "Die Auswahl des Kundeneintrags aus der Optionsliste des Kunden würde dem Workflow Zugriff auf alle Kundenfelder geben."
+msgstr "Die Auswahl des Kundeneintrags aus der Optionsliste des Kunden würde dem Workflow Zugriff auf alle Kundenfelder ermöglichen."
 
 msgid "Data types and formats"
 msgstr "Datentypen und Formate "
 
 msgid "A data type defines which kind of value and format a field in a record can have. A type descriptor represents a data type as a JSON object, whose ``name`` property contains the data type name."
-msgstr "Ein Datentyp definiert, welche Art von Werten und Formaten ein Feld des Eintrages haben kann. Eine Typbeschreibung repräsentiert Datentyp als JSON Objekte, die ``Name``-Eigenschaft enthält den Datentyp Name."
+msgstr "Ein Datentyp definiert, welche Art von Werten und Formaten ein Feld des Eintrags haben kann. Eine Typ Deskriptor repräsentiert Datentype als JSON Objekte, deren ``name``-Eigenschaften den Datentyp name enthält."
 
 msgid "Data types may use additional properties for type-specific configuration. Furthermore, the expected format of a record value depends on the data type."
-msgstr "Datentypen können ebenso zusätzliche Eigenschaften für spezifische Konfigurationen aufweisen. Außerdem hängt das erwartete Format eines Eintragswert vom Datentypen ab. "
+msgstr "Datentypen können ebenso zusätzliche Eigenschaften für spezifische Konfigurationen aufweisen. Außerdem hängt das Format eines Eintragswert vom Datentypen ab. "
 
 msgid "Choice type"
 msgstr "Auswahltyp"
 
 msgid "A choice type represents a value from a fixed list of configured options."
-msgstr "Ein Auwahltyp repräsentiert einen Wert aus einer festgesetzten Liste von konfigurierbaren Optionen."
+msgstr "Ein Auwahltyp repräsentiert einen Wert aus einer Liste von konfigurierbaren Optionen."
 
 msgid "Values"
 msgstr "Werte"
 
 msgid "``choice``"
-msgstr "``Auswahl`"
+msgstr ""
 
 msgid "``options``"
-msgstr "``Optionen``"
+msgstr ""
 
 msgid "A JSON array of choice option objects, each with ``id`` and ``name`` properties"
-msgstr "Ein JSON-Array für die Auswahlobjekte mit `Ìdentifikationsnummer``und ``Namens``eigenschaften"
+msgstr "Ein JSON-Array für die Auswahlobjekte mit ``id``und ``name``-Eigenschaft"
 
 msgid "The ``id`` property stores a unique alphanumeric key (characters a-z, A-Z, 0-9) that identifies the option within the choice type; no two options may have the same ``id``. The user interface shows the ``name`` property’s value to the user."
-msgstr "Die ``Identifikationsnummer``-Eigenschaft enthält einen einzigartigen Wert(von A-Z und 0-9) der die Optionen innerhalb des Auswahltyps identifiziert; keine zwei Optionen haben dabei dieselbe ``Identifikationsnummer``. Das Userinterface zeigt die ``Namens``-Eigenschaft zum Benutzer."
+msgstr "Die ``id``-Eigenschaft enthält einen einzigartigen Schlüssel(von A-Z und 0-9) der die Optionen innerhalb des Auswahltyps identifiziert; keine zwei Optionen haben dabei dieselbe ``id``. Das Userinterface zeigt die ``Namens``-Eigenschaft für den Benutzer."
 
 msgid "The data type JSON object for a choice type with three options looks like this::"
-msgstr "Das Datentyp-JSON Objekt für Auswahltypen mit drei Optionen sieht folgendermaßen aus:"
+msgstr "Das JSON Objekt für Auswahltypen mit drei Optionen sieht folgendermaßen aus:"
 
 msgid "A field value stores the ``id`` property’s value::"
-msgstr "Ein Feldwert enthält den Wert der ``Identifikationsnummer``:"
+msgstr "Ein Feldwert enthält den Wert der ``id``::"
 
 msgid "Date type"
 msgstr "Datumstyp"
 
 msgid "A date represents either a date and time (such as *2012-02-14 09:20*), just a date (*2012-02-14*), or just a time (*09:20*)."
-msgstr "Ein Datum ist entweder ein Datum und eine Zeit( so wie *2012-1-14 09:20*), nur ein Datum (*2012-02-14*), oder nur eine Zeit (*09:20*).\n"
-"(Herausfinden, wie die Daten im deutschen dargestellt werden?)"
+msgstr "Ein Datum ist entweder ein Datum und eine Zeit( in etwa *2012-1-14 09:20*), nur ein Datum (*2012-02-14*), oder nur eine Zeit (*09:20*)."
 
 msgid "``date``"
-msgstr "``Datum``"
+msgstr ""
 
 msgid "``kind``"
-msgstr "``Art``"
+msgstr ""
 
 msgid "``date``, ``time``, ``datetime``; specifies whether the value describes a date, a time of day or both (required)"
-msgstr "``date``, ``time``, ``datetime``; specifies whether the value describes a date, a time of day or both (required)"
+msgstr "``date``, ``time``, ``datetime``; beschreibt ob der Wert ein Datum, einen Zeitpunkt oder beides beschreibt (notwendig)"
 
 msgid "Date values must always use the ``YYYY-MM-DDThh:mm:ss.SSSZ`` `ISO 8601 <https://en.wikipedia.org/wiki/ISO_8601>`_ date format and the UTC time zone. For example::"
-msgstr "Datumswerte müssen immer das ``YYYY-MM-DDThh:mm:ss.SSSZ`` `ISO 8601 <https://en.wikipedia.org/wiki/ISO_8601>`_ Datenformat und die jeweilige"
+msgstr "Datumswerte müssen immer das ``YYYY-MM-DDThh:mm:ss.SSSZ`` `ISO 8601 <https://en.wikipedia.org/wiki/ISO_8601>`_ Datenformat und die jeweilige Zeitzone (UTC) verwenden. Zum Beispiel::"
 
 msgid "All date types use this format - ``datetime``, ``date`` and ``time``. For ``date`` and ``time`` values, execution only uses the first and last parts of the values, respectively."
-msgstr ""
+msgstr "Alle Datumstypen benutzen dieses Format - ``datetime``, ``date`` und ``time``. Beziehungsweise: Für ``date`` und ``time`` Werte läuft die Ausführung nur über den ersten Teil und den letzten Teil dieser Werte."
 
 msgid "Email address type"
 msgstr "Typ der E-Mailadresse"
 
 msgid "An email address type represents an email address."
-msgstr ""
+msgstr "Eine E-mailadresse-Typ repräsentiert eine E-Mail Adresse."
 
 msgid "An email address value stores a plain string::"
-msgstr ""
+msgstr "Ein E-Mail Adresswert enthält einen Plain-String::"
 
 msgid "Link type"
-msgstr ""
+msgstr "Link-Typ"
 
 msgid "A link type represents an Internet address (a URL), such as a web site address."
-msgstr ""
+msgstr "Ein Link repräsentiert eine Internetadresse (als URL)."
 
 msgid "A link value stores a plain string::"
-msgstr ""
+msgstr "Auch ein Linkwert enthält einen Plain-String::"
 
 msgid "Money type"
-msgstr ""
+msgstr "Geldbetrag-Typ"
 
 msgid "A money type represents the combination of an *amount* and a *currency*."
-msgstr ""
+msgstr "Ein Geldtbetrag-Typ beschreibt eine Kombination aus *amount*(Summe) und *currency*(Währung)"
 
 msgid "A money value stores a JSON object with the fields ``amount`` and ``currency``. The ``amount`` property stores a number. The ``currency`` property stores an `ISO 4217 <https://en.wikipedia.org/wiki/ISO_4217>`_ currency code."
-msgstr ""
+msgstr "Ein Geldbetrags-Typ speichert ein JSON-Objekt in den Feldern ``amount``und``currency``. Die ``amount``-Eigenschaft "
 
 msgid "Number type"
-msgstr ""
+msgstr "Nummern-Typ"
 
 msgid "A number type represents either an integer or decimal number."
-msgstr ""
+msgstr "Eine Nummern-Typ repräsentiert entweder einen Integer oder einen Dezimalnummer"
 
 msgid "A number value stores a plain number, using a single ``.`` as decimal separator."
-msgstr ""
+msgstr "Ein Nummernwert speichert eine Nummer, und verwendet nur einen einzigen ``.``als Komma."
 
 msgid "Text type"
-msgstr ""
+msgstr "Texttyp"
 
 msgid "A text type represents a string - either a single line of text or multiple lines. Optionally, to indicate that text may contain multiple lines, add the flag ``multiLine`` to the data type."
-msgstr ""
+msgstr "Ein Texttyp repräsentiert einen String – entweder eine einzelne Zeile oder über mehrere Zeilen. Optional, um anzuzeigen, dass der Text mehrere Zeilen enthält, können Sie das flag ``multiLine`` mit zum Datentypen verwenden."
 
 msgid "``text``"
 msgstr ""
@@ -428,124 +427,124 @@ msgid "``multiLine``"
 msgstr ""
 
 msgid "(optional) if set to ``true`` the text field will allow multiple lines of input"
-msgstr ""
+msgstr "(optional) wenn Sie den Feldwert auf ``true`` setzen, erlaubt es ihnen mehrfache Outputfelder"
 
 msgid "A text value stores a plain string::"
-msgstr ""
+msgstr "Ein Textwert speichert einen String"
 
 msgid "Yes/No Checkbox type"
-msgstr ""
+msgstr "Ja/Nein-Checkbox-Typ"
 
 msgid "A yes/no checkbox type represents a choice between the values ‘yes’ and ‘no’."
-msgstr ""
+msgstr "Ein Ja/Nein-Checkbox-Typ repräsentiert eine Auswahl zwischen den Werten ‘Ja’ und ‘Nein’."
 
 msgid "A yes/no checkbox value stores a Boolean value - ``true`` or ``false``."
-msgstr ""
+msgstr "Damit speichert ein Ja/Nein-Checkbox-Wert einen Booleanwert zwischen ``true`` oder ``false``."
 
 msgid "Configuring a connector"
-msgstr ""
+msgstr "Eine Schnittstelle konfigurieren"
 
 msgid "To configure connectors, on the top-right menu, select *Services & Connectors*, then select the *Connectors* tab. When you have published your connector, you can add it here."
-msgstr "Um Schnittstellen im oberen rechten Menü zu konfigurieren, wähle *...*, dann wähle das *...* Tab. Wenn du die Datenschnittstelle veröffentlich hast, kannst Du sie hier hinzufügen."
+msgstr "Um Schnittstellen im oberen rechten Menü zu konfigurieren, wählen Sie *Services & Konnektoren*, dann wählen Sie das *Konnektoren* Tab. Wenn Sie Ihre Datenschnittstelle schon veröffentlicht haben, können Sie diese hier hinzufügen. "
 
 msgid "Select *Add new connector* and enter the connector’s endpoint URL."
-msgstr "Wähle **...** und trage die Endpoint-URL der Schnittstelle ein. "
+msgstr "Wähle **Neuen Konrektor hinzufügen** und trage die Endpoint-URL der Schnittstelle ein. "
 
 msgid "Adding a new connector with the endpoint URL ``https://example.org/connector``"
 msgstr "Hinzufügen einer neuen Schnittstelle mit der Endpoint URL ``https://example.org/connector`"
 
 msgid "When you add a connector, Signavio Workflow fetches the connector descriptor and shows a summary:"
-msgstr "Wenn Sie einen Schnittstelle hinzufügen, übernimmt Signavio Workflow die Beschreibung der Schnittstelle und zeigt eine Zusammenfassung:"
+msgstr "Wenn Sie einen Schnittstelle hinzufügen, übernimmt Signavio Workflow die Beschreibung der Schnittstelle und zeigt eine Zusammenfassung dieser:"
 
 msgid "Connector summary, including an overview of record and field types"
 msgstr "Die Zusammenfassung der Schnittstelle enthält eine Übersicht der Eintrage und Feldtypen"
 
 msgid "If you make changes to your connector, such as adding or renaming a field, you need to reload the configuration. On the connector’s top-right menu, select *Reload connector* to fetch the latest version of the descriptor."
-msgstr "Wenn Du eine Veränderung an der Schnittstelle durchführst, wie zum Beispiel das Hinzufügen oder Umbennen von Feldern, musst Du die Konfiguration neuladen. Am rechten oberen Rand des Schnittstellenmenüs, wähle **..**, um auf die letzte Version der Beschreibung zuzugreifen. "
+msgstr "Wenn Sie eine Veränderung an der Schnittstelle durchführen, wie zum Beispiel das Hinzufügen oder das Umbennen von Feldern, müssen Sie die Konfiguration neuladen. Am rechten oberen Rand des Schnittstellenmenüs, wählen Sie **Konnektor aktualisieren**, um auf die aktuellste Version des Deskriptors zuzugreifen. "
 
 msgid "Deleting a connector"
 msgstr "Löschen einer Schnittstelle"
 
 msgid "You can delete a connector if you no longer wish to use it. On the connector’s top-right menu, select *Delete connector* to remove its configuration from Signavio Workflow. If you delete a connector by mistake, select *Add new connector* and enter the endpoint URL again."
-msgstr "Sie können eine Schnittstelle löschen, wenn Sie diese nicht länger benutzen wollen. An der rechten oberen Ecke des Menüs, wähle den *...*, um die Konfiguration von Signavio Workflow zu entfernen. Wenn Sie eine Schnittstelle im versehen löschen, wählen Sie **..** und tragen sie die Endpoint-URL erneut ein."
+msgstr "Sie können eine Schnittstelle löschen, wenn Sie diese nicht länger benutzen wollen. An der rechten oberen Ecke des Menüs, wählen Sie *Konnektor löschen*, um die Konfiguration von Signavio Workflow zu entfernen. Wenn Sie eine Schnittstelle versehentlich löschen, wählen Sie **Neuen Konnektor hinzufügen** und tragen sie die Endpoint-URL erneut ein."
 
 msgid "Authentication"
 msgstr "Authentifizierung "
 
 msgid "Publishing a connector makes it publicly accessible, as well as any data that the connector provides. To prevent unauthorized access, the connector can implement authentication, so that only Signavio Workflow can access the data. Connectors may use one of two authentication mechanisms."
-msgstr ""
+msgstr "Wenn ein Konnektor veröffentlicht wird, macht es ihn öffentlich verfügbar, genauso wie alle Daten die diese Datenschnittstelle bereitstellt. Um unauthorisierten Zugriff zu verhindern, können Sie die Datenschnittstelle mit einer Authentifizierung implementieren, sodass nur Signavio Workflow auf die Daten zugreifen kann. Die Datenschnittstelle kann eine von zwei Authentifizierungsmechanismen verwenden."
 
 msgid "HTTP Basic authentication"
-msgstr ""
+msgstr "HTTP Basic Authentication"
 
 msgid "Connectors can use `HTTP basic authentication <https://en.wikipedia.org/wiki/Basic_access_authentication>`_ to restrict access using a user name and password that you specify when configuring the connector. To implement HTTP Basic authentication, your connector endpoints must:"
-msgstr ""
+msgstr "Datenschnittstellen können die HTTP Basic Authentication verwenden <https://en.wikipedia.org/wiki/Basic_access_authentication>`, um Zugriffe zu beschränken. Dabei verwenden Sie einen Benutzernamen und ein Password, dass Sie einrichten können, wenn Sie den Konrektor konfigurieren. Um HTTP-Authentifizierung zu verwenden, müssen die Endpunkte Ihrer Datenschnittstellen: "
 
 msgid "send an HTTP *401 Unauthorized* response, with an empty response body, for any request that does not include valid credentials"
-msgstr ""
+msgstr "Eine HTTP *401 Unauthorized*-Antwort versenden. Der Response Body ist damit leer. Als Antwort auf jede Anfrage, die falsche Anmeldeinformationen enthält"
 
 msgid "check the credentials in the ``Authorization`` HTTP header field, when provided, by decoding the Base64-encoded user name and password and verifying their values."
-msgstr ""
+msgstr "Überprüfen Sie die Anmeldeinformationen im `Authorization`` HTTP-Header-Feld, indem Sie über Base64-Encodierung Benutzernamen und Password decodieren und ihre Werte verifizieren."
 
 msgid "HTTP Basic authentication sends an unencrypted password over the network, so you should only allow access to private connectors via HTTPS."
-msgstr ""
+msgstr "HTTP-Authentifizierung sendet ein unverschlüsseltes Password über das Netzwerk, also sollten sie nur mit privaten Datenschnittstellen Zugriff über HTTPS gewähren."
 
 msgid "To use basic authentication, use the *Authentication* field to select *HTTP Basic authentication*, and enter a user name and password:"
-msgstr ""
+msgstr "Um die Standardauthentifizierung zu verwenden, benutzen Sie das *Authentication* Feld und wählen Sie *HTTP Basic authentication* aus. Dann geben Sie einen Benutzernamen und ein Passwort ein:"
 
 msgid "Configuring basic authentication"
-msgstr ""
+msgstr "Configuring Basic Authentication"
 
 msgid "When you configure a connector to use Basic authentication, Signavio Workflow will pre-emptively include an ``Authorization`` header when sending requests to the connector endpoints. In Basic authentication, the header value consists of the authentication scheme name ``Basic`` followed by a space and the Base64-encoded user name and password, separated by a colon (``signavio:8n4f-Rm3V-Xz0r-Igew-L1fK``). This results in a request header that looks like::"
-msgstr ""
+msgstr "Wenn Sie eine Datenschnittstelle konfigurieren, um Standardauthentifizierung zu verwenden, wird Signavio Workflow präventiv einen ``Authorization``-Header enthalten, wenn Sie Anfragen an die Connector-Endpunkte versenden. In der Basic Authentication, besteht der Header-Wert aus einem Authentifizierung-Schema namens '' Basic'', auf das ein Leerzeichen und ein Base64-codierter Benutzername und ein Passwort folgt. Getrennt wird  es durch einen Doppelpunkt (\"Signavio:8n4f-Rm3V-Xz0r-Igew-L1fK''). Dadurch entsteht ein Request-Header, der aussieht wie::"
 
 msgid "Sending this header with every request avoids an additional *401 Unauthorized* response and a new request for the authentication challenge."
-msgstr ""
+msgstr "Diesen Header bei jeder Anfrage mitzusenden, vermeidet ein zusätzliches * 401 Unauthorized * Antwort und einen neue Anfrage für die die Authentifizierungsaufforderung."
 
 msgid "Token authentication"
-msgstr ""
+msgstr "Token Authentifizierung"
 
 msgid "Similar to an API key, you can choose a password (token) that Signavio Workflow will include in a request header field or URL query string, for every request it sends to the connector endpoints. In the connector configuration, you can choose between a request header field or a URL query string parameter, and specify the header or parameter name."
-msgstr "Ähnlich wie bei einen API-Schlüssel, können Sie ein Kennwort (Token), dass Signavio Workflow in einer Anfrage-Header-Feld hinzufügen möchten oder eine URL-Abfragezeichenfolge, für jede Anforderung, die es mit den Endpunkten Connector sendet. In den Connector-Konfiguration können Sie wählen zwischen einem Anfrage-Header-Feld oder einen URL-Abfrage-String-Parameter und die Kopf- oder Parameter Namen angeben."
+msgstr "Ähnlich wie bei einen API-Schlüssel können Sie ein Kennwort (Token) auswählen, dass Signavio Workflow in einem Anfrage-Header-Feld oder einem URL Query string hinzufügt. Dies gilt für jede Anforderung, die es mit den Endpunkten Connector sendet. In den Connector-Konfiguration können Sie dafür zwischen einem Anfrage-Header-Feld oder einen URL-Abfrage-String-Parameter auswählen, und damit die Header- oder Parameternamen angeben."
 
 msgid "Token authentication sends an unencrypted password over the network, so you should only allow access to private connectors via HTTPS."
-msgstr "Token-Authentifizierung sendet eine unverschlüsselte Kennwort über das Netzwerk, so dass Sie nur Zugriff auf private Anschlüsse über HTTPS zulassen sollte."
+msgstr "Die Token Authentication sendet eine unverschlüsselte Kennwort über das Netzwerk, so dass Sie nur Zugriff auf private Anschlüsse über HTTPS zulassen sollten."
 
 msgid "The connector endpoints can then authenticate requests by checking the respective header field or query string parameter value."
-msgstr "Die Connector-Endpunkte können dann authentifizieren anhand den jeweiligen Header Feld oder Abfrage Zeichenfolge Parameterwert."
+msgstr "Die Endpunkte der Datenschnittstelle können dann Anfragen authentifizieren, in dem sie die jeweiligen Header Felder oder Zeichenfolgen überprüfen."
 
 msgid "To use a token in the request header, use the *Authentication* field to select *HTTP request header*, and enter a header name and header value."
-msgstr "Um ein Token in der Request-Header verwenden, verwenden die * Authentisierung * Feld, wählen * HTTP Anfrage-Header * und geben Sie einen Header und Header-Wert."
+msgstr "Um ein Token in der Request-Header zu verwenden, benutzen Sie bitte das *Authentifizierungs*-Feld und wählen * HTTP Anfrage-Header *. Dann geben Sie einen Header und Header-Wert ein."
 
 msgid "Configuring request header authentication"
-msgstr "Konfigure "
+msgstr "Header-Authentifizeriungsanfragen konfigurieren"
 
 msgid "HTTP headers only allow a restricted subset of ASCII characters in header names, which typically only use letters and dashes, such as `Auth-Token`. Header values only support ‘visible ASCII characters’, so to allow arbitrary authentication tokens, use a Base64-encoded value. Configuring token authentication results in a request header like::"
-msgstr "HTTP-Headern erlauben nur eine eingeschränkte Teilmenge von ASCII-Zeichen im Header-Namen, die in der Regel verwenden Sie nur Buchstaben und Bindestriche, z. B. \"Auth-Token\". Headerwerte unterstützen nur \"sichtbare ASCII-Zeichen\", also um willkürliche Authentifizierungstoken zu ermöglichen, verwenden Sie einen Base64-codierte Wert. Konfigurieren von token-Authentifizierung Ergebnisse in einem Request-Header wie::"
+msgstr "HTTP-Header erlauben nur eine eingeschränkte Teilmenge von ASCII-Zeichen im Header-Namen. In der Regel verwenden Sie nur Buchstaben und Bindestriche, z. B. \"Auth-Token\". Headerwerte unterstützen dabei nur \"sichtbare ASCII-Zeichen\". Um willkürliche Authentifizierungstoken zu ermöglichen, verwenden Sie einen Base64-codierte Wert. Das Konfigurieren von Token-Authentifizierung resultiert in einem Request-Header wie::"
 
 msgid "For testing, developers may find it more convenient to retrieve the authentication from the URL query string. To use this option, select *URL query parameter* and enter a parameter name and value:"
-msgstr "Zum testen, können Entwickler finden es bequemer, die Authentifizierung von der URL-Abfragezeichenfolge abrufen. Um diese Option zu verwenden, wählen Sie * URL Abfrage Parameter * und geben Sie einen Parameternamen und Wert:"
+msgstr "Zum Testen könnten Entwickler es bequemer finden, die Authentifizierung von der URL-Abfragezeichenfolgen abrufen. Um diese Option zu verwenden, wählen Sie * URL Abfrage Parameter * und geben Sie einen Parameternamen und Wert:"
 
 msgid "Configuring URL query string parameter authentication"
-msgstr ""
+msgstr "Konfigurieren von URL Query Strings und Parameter Authentifizierung(???)"
 
 msgid "This results in HTTP requests with a URL query string, like this::"
-msgstr ""
+msgstr "Diese resultiert in HTTP Anfragen, deren URL Query String folgendermaßen aussieht::"
 
 msgid "HTTP does not encrypt query string parameters, which typically appear in log files, so only use query string token authentication for testing a connector on a trusted network with the on-premise edition of Signavio Workflow, and switch to a header field token for production use."
-msgstr "HTTP nicht Abfrage, die Zeichenfolgenparameter, die in der Regel in Log-Dateien angezeigt werden, so dass nur Abfrage Zeichenfolge token-Authentifizierung verwenden, zum Testen eines Connectors auf einem vertrauenswürdigen Netzwerk mit der lokalen Ausgabe der Signavio Workflow zu verschlüsseln, und wechseln Sie in ein Header-Feld-Token für den Produktiveinsatz."
+msgstr "HTTP verschlüsselt keine Query String Parameter, die typischerweise in Protokolldateien auftauchen. Benutzen Sie also bitte nur String Token Authentifizierung zum Testen einer Datenschnittstelle auf einem vertrauenswürdigen Netzwerk mit On-premise edition von Signavio Workflow. Wechseln Sie für den wirklichen Einsatz eines Produktes auf den Header-Token."
 
 msgid "Connector examples"
-msgstr ""
+msgstr "Beispiele von Datenschnittstellen"
 
 msgid "To help you develop your own connectors, Signavio has published several example connectors that show you what a connector implementation looks like. These examples use several different programming languages, including Java, Python, JavaScript, Scala and Go:"
-msgstr ""
+msgstr "Um Ihnen zu helfen, Ihre eigenen Datenschnittstellen zu veröffentlichten, hat Signavio mehrere Beispiel veröffentlicht, die Ihnen zeigen, wie die Implementierung einer Datenschnittstelle aussieht. Diese Beispiele verwenden mehrere Programmiersprachen, einschließlich Java, Python, JavaScript, Scala und Go:"
 
 msgid "https://github.com/signavio/connector-examples"
-msgstr ""
+msgstr "https://github.com/signavio/connector-examples"
 
 msgid "These examples have an open-source Apache License."
-msgstr ""
+msgstr "Die Beispiele haben eine Open-Source Apache Lizenz."
 
 msgid "JavaScript integration"
 msgstr "JavaScript-Integration"
