@@ -6,7 +6,7 @@ Creating a process
 To create a process, select *Processes* in the main menu, then the *Create new process* button.
 In the text input field, enter a process name.
 
-.. figure:: /_static/images/process-builder/create.png
+.. figure:: /_static/images/processes/create.png
 
 
 Choosing a good process name

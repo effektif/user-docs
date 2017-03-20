@@ -5,7 +5,7 @@ Details
 
 In the process builder, select the *Details* tab to further configure the process.
 
-.. figure:: /_static/images/process-builder/details-general.png
+.. figure:: /_static/images/processes/details-general.png
 
    Configuring process details
 

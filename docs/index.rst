@@ -10,7 +10,7 @@ Skip to the :ref:`tutorials` if you don’t want to read a manual.
    licenses
    tasks
    cases
-   process-builder
+   processes
    analytics
    action-types
    forms

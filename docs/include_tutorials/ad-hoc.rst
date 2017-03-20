@@ -43,7 +43,7 @@ The event stream now shows the corresponding events, labelled *added a document*
 
 .. note:: You can add as many tasks to the case as you like.
    Use separate tasks for work that different people will do, or work that will they will complete at different times.
-   
+
    You can also use the text box above the event stream to :ref:`add comments to the case <comments>`, to add information and collaborate with other people.
 
 Select the *Approve report* task in the list to open the task details view.
@@ -66,6 +66,6 @@ You can recognise the case’s closed status by the grey case name background, a
 .. note:: You can use a similar case for any other kind of approval.
    Use event stream comments to add any required information, and add approval tasks the same way.
    Next steps:
-   
+
    * use an ad hoc case for another kind of collaboration task
-   * use the :ref:`process-builder` to define a template for a repeatable process.
+   * use the :ref:`process builder <processes>` to define a template for a repeatable process.

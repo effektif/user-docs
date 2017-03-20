@@ -11,7 +11,7 @@ To export a process model, first open it in the Signavio Workflow process editor
 Select the menu next to the `Publish changes` button,
 then select `Export BPMN 2.0 XML`.
 
-.. figure:: /_static/images/process-builder/bpmn-export.png
+.. figure:: /_static/images/processes/bpmn-export.png
 
    Using the `Export BPMN 2.0 XML` option to save a process model in a file
 
