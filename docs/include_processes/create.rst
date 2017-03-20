@@ -22,6 +22,8 @@ Use the following guidelines to choose a good process name, to make the list of 
 
 *Hire employee*, for example, summarises a process better than *Recruitment*.
 
+If you group or annotate process names by adding prefixes or suffixes, consider using :ref:`process-labels` instead.
+
 
 Next steps for a new process
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
