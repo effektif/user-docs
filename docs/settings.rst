@@ -119,7 +119,7 @@ Please contact us if you want to use a SAML 2.0 Identity Provider other than tho
 Labels
 ------
 
-Most organizations soon have enough processes to make it inconvient to browse the processes list.
+Most organizations soon have enough processes to make it inconvenient to browse the processes list.
 To keep your processes tidy, you can define and use labels, to categorize processes by department, status or however you like.
 
 Use the *Labels* tab to define labels for your organization.
