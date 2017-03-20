@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-13 14:31+0100\n"
-"PO-Revision-Date: 2017-03-15 18:57+0100\n"
+"PO-Revision-Date: 2017-03-20 14:16+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -163,13 +163,13 @@ msgid "Form - the uploaded draft meeting minutes."
 msgstr "Formular – das hochgeladene Sitzungsprotokoll"
 
 msgid "The process extends the basic :ref:`approve-document` process, by adding explicit approval tasks for specific people. Three approvals of the draft document indicate successful review."
-msgstr "Dieser Prozess erweitert den zugrunde liegenden :ref:`approve-document` Prozess, indem die Freigabe bzw. Zustimmungsaufgaben für bestimmte Mitarbeiter hinzugefügt werden. Drei Zustimmungen für einen Entwurf konstituieren eine erfolgreiche Review."
+msgstr "Dieser Prozess erweitert den zugrunde liegenden :ref:`approve-document` -Prozess, indem die Freigabe bzw. Zustimmungsaufgaben für bestimmte Mitarbeiter hinzugefügt werden. Drei Zustimmungen für einen Entwurf konstituieren eine erfolgreiche Review."
 
 msgid "After approval, the `Distribution List Result Notification` and `Document Archive patterns` make the approved minutes immediately available and stored in a central location."
-msgstr "Nach der Zustimmung kann das Protokoll (hier optional) an die Mitarbeiter verteilt werden oder im Google Drive archiviert werden."
+msgstr "Nach der Zustimmung kann das Protokoll (hier optional) an die Mitarbeiter verteilt oder im Google Drive archiviert werden."
 
 msgid "*Meeting secretary* - updates the draft minutes following review feedback; the process does not define any other roles because specific people complete the approval tasks."
-msgstr "Protokollsekretär – aktualisiert das Entwurfsprotokoll nach dem Feedback; der Prozess benötigt neben ihm keine weiteren Rollen, denn die Zustimmenden Mitarbeiten werden nicht als Rollen sondern als Kandidaten zugewiesen."
+msgstr "Protokollsekretär – aktualisiert das Entwurfsprotokoll nach dem Feedback; der Prozess benötigt neben ihm keine weiteren Rollen, denn die Reviewer werden nicht als Rollen sondern als Kandidaten zugewiesen."
 
 msgid "*Meeting minutes* (File, mandatory) - the trigger form field for the draft minutes"
 msgstr "Sitzungsprotokoll (Datei, notwendig) – das Auslöserfeld für das Entwurfsprotokoll"
@@ -235,13 +235,13 @@ msgid "Arrange business trip (Admin)"
 msgstr "Eine Geschäftsreise organisieren"
 
 msgid "Make bookings for a business trip, such as travel and accommodation."
-msgstr "Einen Geschäftsreise zu buchen: Zum Beispiel Transport und Unterkunft"
+msgstr "Eine Geschäftsreise zu buchen: Zum Beispiel Transport und Unterkunft"
 
 msgid "People who travel frequently for work sometimes get support from office assistants who arrange the trips. This includes booking travel and accommodation according to the traveller’s preferences. When the assistants have a large number of overlapping trips to organise, Signavio Workflow helps them keep track."
-msgstr "Mitarbeiter, die oft für die Arbeit verreisen, bekommen Hilfe von Büroassistenten, die diese Reisen arrangieren. Das schließt sowohl die Buchung des Transportmittels als auch die Unterkunft mit ein – je nach Präferenz des Reisenden. Wenn die Assistenten einen große Anzahl an sich überschneidenden Reisen organisieren, hilft ihnen Signavio Workflow den Überblick zu behalten."
+msgstr "Mitarbeiter, die oft über die Arbeit verreisen, erhalten Hilfe von Büroassistenten, um diese Reisen zu arrangieren. Das schließt sowohl die Buchung des Transportmittels als auch die Unterkunft ein – je nach Präferenz des Reisenden. Wenn die Assistenten einen große Anzahl an sich überschneidenden Reisen organisieren, hilft ihnen Signavio Workflow den Überblick zu behalten."
 
 msgid "Form - information about the trip, for bookings."
-msgstr "Formular – Informationen über die Reise, für den Buchungsvorgang."
+msgstr "Formular – Informationen über die Reise für den Buchungsvorgang."
 
 msgid "The process mainly consists of four tasks, that the assistant can complete in parallel."
 msgstr "Der Prozess besteht aus vier Aufgaben, die der Assistent parallel abschließen kann"
@@ -250,7 +250,7 @@ msgid "The `Book hire car` task applies for travellers who do not use public tra
 msgstr "Die Auto mieten`-Aufgabe wird für Reisende verwendet, die keinen öffentlichen Transportmittel verwenden. Die `Reiseordner vorbereiten`-Aufgabe beinhaltet eine Checkliste, die dem Reisenden mitgegeben werden kann."
 
 msgid "*Office assistant* - a secretary, personal assistant, office manager or other admin staff role who arranges trips."
-msgstr "* Büroassistent* – Ein Sekretär, ein persönlicher Assistent, ein Büromanager oder weitere Verwaltungsmitarbeiter, die Geschäftsreisen organisieren"
+msgstr "*Büroassistent* – Ein Sekretär, ein persönlicher Assistent, ein Büromanager oder Verwaltungsmitarbeiter, die Geschäftsreisen organisieren"
 
 msgid "Trigger form fields:"
 msgstr "Auslösende Formularfelder"
@@ -265,7 +265,7 @@ msgid "*End date* (Date, mandatory) - the date of the trip’s last appointment 
 msgstr "*Abreisedatum* (Datum, notwendig) - Der Termin der letzten Geschäftsverabredung oder das Ende einer Veranstaltung"
 
 msgid "*Use public transport* (Yes/No) - whether the traveller prefers to use public transport and taxis"
-msgstr "*Mit öffentlichen Verkehrsmitteln reisen* (Ja/Nein) - wenn der Reisende bevorzugt öffentliche Transportmittel oder Taxis verwendet"
+msgstr "*Mit öffentlichen Verkehrsmitteln reisen* (Ja/Nein) - wenn der Reisende bevorzugt, öffentliche Transportmittel oder Taxis verwendet"
 
 msgid "`Book flights` user task fields:"
 msgstr "`Einen Flug buchen` Benutzeraufgabenfelder: "
@@ -286,7 +286,7 @@ msgid "*Return flight no.* (Text) - flight information"
 msgstr "*Rückreise Flugnummer* – Fluginformationen"
 
 msgid "Trip folder checklist fields, which indicate whether the ‘trip folder’ - an itinerary for the traveller - includes the corresponding information:"
-msgstr "Reiseordner Checkliste, die angibt ob der ‘Reiseordner’ die korrespondierenden Informationen enthält"
+msgstr "Reiseordner Checkliste, die angibt, ob der ‘Reiseordner’ die korrespondierenden Informationen enthält"
 
 msgid "*Car hire reservation* (Yes/No)"
 msgstr "*Autoreservierungen* (Ja/Nein)"
@@ -316,7 +316,7 @@ msgid "*Train tickets* (Yes/No)"
 msgstr "*Zugticket* (Ja/Nein)"
 
 msgid "This process could include more kinds of travel arrangements. Also, the final task could become a task to upload an electronic version of the itinerary that the process sends to the traveller using a :ref:`send-email` task."
-msgstr "Dieser Prozess enthält mehrere Formen von Reisearten. Ebenso könnte es die letzte Aufgabe sein, ein elektronische Version des Reiseplans hochzuladen, die der Prozess dem Reisenden sendet, unter Verwendung von der :ref:`send-email`-Aufgabe."
+msgstr "Dieser Prozess enthält mehrere Formen von Reisearten. Ebenso könnte es letzte Aufgabe sein, ein elektronische Version des Reiseplans hochzuladen, die der Prozess dem Reisenden sendet: Zum Beispiel unter Verwendung der :ref:`send-email`-Aufgabe."
 
 msgid "Fill Job Vacancy (HR)"
 msgstr "Offenen Stelle besetzen (HR)"
@@ -616,10 +616,10 @@ msgid "None."
 msgstr "Keinen."
 
 msgid "The process starts with an initial task to capture the customer information that forms the basis of the identity checks. In this example, three script tasks implement KYC checks by calling external systems that perform the checks. Finally, an automatic check, supported by a manual approval for inconclusive cases, determines the follow-up actions."
-msgstr "Dieser Prozess beginnt mit der initialen Aufgabe, die Informationen des Kundens festzuhalten, und bildet damit die Grundlage für den Identitätscheck. In diesem Beispiel implementieren die Scriptaufgaben die KYC Prüfungen, indem sie externe System aufrufen, die diese Prüfungen ausführen. Schließlich entscheidet ein automatischer Check über die Folgeaktionen, und wird von einer manuellen Bestätigung für unklare Fälle ergänzt."
+msgstr "Dieser Prozess beginnt mit der initialen Aufgabe, die Informationen des Kundens festzuhalten, und bildet damit die Grundlage für den Identitätscheck. In diesem Beispiel implementieren die Scriptaufgaben die KYC Prüfungen, indem sie externe System aufrufen, die diese Prüfungen ausführen. Schließlich entscheidet ein automatischer Check über die Konsequenzen, und wird von einer manuellen Bestätigung für unklare Fälle ergänzt."
 
 msgid "In the case of successful identity checks, a sub-process models the main work of on-boarding the customer. This process therefore ‘decorates’ the usual on-boarding process with additional approvals."
-msgstr "Im Falle einer erfolgreichen Bestätigung der Identität, modelliert ein Unterprozess das Onboarden des Kunden. Dieser Prozess ‘dekoriert’ damit den gewöhnlichen Onboarding-Prozess mit zusätzlichen Freigabemechanismen."
+msgstr "Nachdem die Identität erfolgreich bestätigt wurde, modelliert ein Unterprozess das Onboarden des Kunden. Dieser Prozess ‘dekoriert’ den gewöhnlichen Onboarding-Prozess mit zusätzlichen Freigabemechanismen."
 
 msgid "*Branch Services - Account Representative* - performs the initial data entry and manual approval."
 msgstr "*Kundenberater* – führt die Dateneingabe und die manuelle Freigabe durch"
@@ -628,7 +628,7 @@ msgid "*Customer name* (Text, mandatory) - identifying information used for iden
 msgstr "*Kundenname* (Text, notwendig) – identifiziert die Informationen, die für den Identitätscheck benötigt werden"
 
 msgid "*Customer address* (Text, mandatory) - identifying information used for identity checks"
-msgstr "*Kundenadresse* (Text, notwendig) – identifiziere die Informationen, die für den Identitätscheck benötigt werden"
+msgstr "*Kundenadresse* (Text, notwendig) – identifiziert die Informationen, die für den Identitätscheck benötigt werden"
 
 msgid "*Valid name & address?* (Boolean) - result of an identity check"
 msgstr "*Gültiger Name & Adresse?* (Boolean) – Ergebnis des Identitätschecks "
@@ -646,7 +646,7 @@ msgid "Create a working environment where the new hire can learn about the compa
 msgstr "Ein angenehmes Umfeld schaffen, in dem ein neuer Mitarbeiter das Unternehmen kennenlernt und seine Arbeit aufnehmen kann"
 
 msgid "When companies don’t pay attention to onboarding, they experience problems like an employee arriving on their first day to discover that no-one can welcome them, or that they don’t have a desk. This kind of problem wastes time and creates a bad first impression. A company’s human resources staff typically improves the employee onboarding experience by implementing a consistent process."
-msgstr "Wenn ein Unternehmen keine Acht auf das Onboarden/dasEinführung von Mitarbeitern gibt, kann es passieren, dass ein Mitarbeiter an seinem ersten Tag auftaucht, und niemand ihn begrüßt, bzw. ihm nicht einmal einen Schreibtisch zur Verfügung steht."
+msgstr "Wenn ein Unternehmen keine Acht auf das Onboarden/das Einführung von Mitarbeitern gibt, kann es passieren, dass ein Mitarbeiter an seinem ersten Tag auftaucht, und niemand ihn begrüßt, bzw. ihm nicht einmal einen Schreibtisch zur Verfügung steht."
 
 msgid "Form - the new hire’s name and address."
 msgstr "Formular – Der Name und die Adresse des neuen Angestellten"
@@ -655,7 +655,7 @@ msgid "The process consists of four phases, which occur at different times."
 msgstr "Dieser Prozess besteht aus vier Phasen, die an unterschiedliche Zeitpunkten auftreten. "
 
 msgid "The process starts when the new hire signs an employment contract, at which point the company can send a welcome pack. Next, various parts of the company must complete preparation tasks before the new hire’s first day in office. The first day itself forms the next phase, followed by a longer follow-up and evaluation phase, possibly in the form of a formal trial period."
-msgstr "Der Prozess beginnt, wenn der neue Angestellte seinen Arbeitsvertrag unterschreibt. An diesem Punkt kann das Unternehmen ihm ein Willkommenspaket senden. Als nächstes muss das Unternehmen einige Vorbereitungen für den ersten Tag des Angestellten treffen. Der erste Tag selbst leitet die nächste Phase ein, gefolgt von einer Follow-Up und einer Evaluierungsphase, möglicherweise in Form einer formellen Probezeit."
+msgstr "Der Prozess beginnt, wenn der neue Angestellte seinen Arbeitsvertrag unterschreibt. An diesem Punkt kann das Unternehmen ihm ein Willkommenspaket senden. Als nächstes muss das Unternehmen Vorbereitungen für den ersten Tag des Angestellten treffen. Der erste Tag selbst leitet die nächste Phase ein, gefolgt von einem Follow-Up und einer Evaluierungsphase, möglicherweise in Form einer formellen Probezeit."
 
 msgid "*HR assistant* - introduces the new hire to the company"
 msgstr "*HR Mitarbeiter* – stellt den neuen Angestellten der Firma vor"
@@ -829,7 +829,7 @@ msgid "Publish blog post (Marketing)"
 msgstr "Einen Blogartikel veröffentlichen (Marketing)"
 
 msgid "Publish a blog post on the company website."
-msgstr "Einen Blogartikel auf der Firmenwebsite zu veröffentlichen"
+msgstr "Einen Blogartikel auf der Firmenwebsite veröffentlichen"
 
 msgid "In a product company such as `Signavio <http://www.signavio.com>`_, the marketing department typically publishes a blog about the company’s products. Writing and publishing a product blog post involves several people, who must coordinate their work to make it possible to publish new blog posts on a regular schedule."
 msgstr "In einem Unternehmen wie `Signavio <http://www.signavio.com>`_, veröffentlicht die Marketingabteilung typischerweise Blogartikel über das Produkte des Unternehmens. Das Schreiben und das Veröffentlichen schließt einige Mitarbeiter ein, die ihre Arbeit untereinander koordinieren müssen, um es zu ermöglichen, neue Blogartikel auf regulärer Basis zu veröffentlichen. "
@@ -838,16 +838,16 @@ msgid "Form - a proposal for a new blog post."
 msgstr "Formular – ein Vorschlag für einen neuen Blogartikel"
 
 msgid "The process consists of three phases: proposal, writing and publication. Between each phase, an approval checks whether the process can proceed. The process ends with a `Result Notification`."
-msgstr "Dieser Prozess besteht aus drei Phasen: Einem Entwurf, dem Schreiben und der Publikation. Zwischen diesen Phasen wird mittels Bestätigung überprüft, ob der Prozess fortgesetzt werden kann. Der Prozess endet mit einer Benachrichtigung an den Mitarbeiter."
+msgstr "Dieser Prozess besteht aus drei Phasen: Einem Entwurf, dem Schreiben und der Publikation. Zwischen diesen Phasen wird mittels Bestätigung überprüft, ob der Prozess fortgesetzt wird. Der Prozess endet mit einer Benachrichtigung an den Mitarbeiter."
 
 msgid "The model uses a separate sub-process for selecting a stock photo for the blog post, rather than a single task. This allows the design team to design and manage their own process for selecting photos and other illustrations for blog posts. This sub-process proceeds in parallel, based on information in the article proposal, while the author writes the article."
-msgstr "Das Model benutzt einen separaten Unterprozess, um eine Illustration für den Blogartikel auszuwählen, anstatt dafür einzelne Aufgaben zu verwenden. Das erlaubt dem Designern einen eigenen Prozess für die Gestaltung des Blogartikels einzuleiten. Dieser Unterprozess wird parallel fortgesetzt, während der Autor den Artikel schreibt – basierend auf den Informationen über den Artikelentwurf."
+msgstr "Das Model benutzt einen separaten Unterprozess, um eine Illustration für den Blogartikel auszuwählen, anstatt dafür einzelne Aufgaben zu verwenden. Dies erlaubt dem Designern einen eigenen Prozess für die Gestaltung des Blogartikels einzuleiten. Dieser Unterprozess wird parallel fortgesetzt, während der Autor den Artikel schreibt – basierend auf den Informationen über den Artikelentwurf."
 
 msgid "*Author* - triggers the process by submitting an article proposal, writes the article content, and publishes the article using the blog’s content management system (CMS). For some blog posts, a technical writer from one of the product teams takes this role."
-msgstr "*Autor* – löst den Prozess aus, indem er einen Artikelentwurf einreicht. Er schreibt den Artikel, und veröffentlicht den Artikel über das Content Management System( CMS) des Blogs. Für einige Blogs,übernimmt ein Technical Writer aus den Produktteams diese Role."
+msgstr "*Autor* – löst den Prozess aus, indem er einen Artikelentwurf einreicht. Er schreibt den Artikel, und veröffentlicht den Artikel über das Content Management System (CMS) des Blogs. Für einige Blogs, übernimmt ein Technical Writer aus den Produktteams diese Role."
 
 msgid "*Content Manager* - performs the two approvals – the initial article proposal and the finished article content."
-msgstr "*Content Manager* –  muss zwei Mal zustimmen: beim Einreichen über den Artikelentwurfs und über den fertiggeschriebenen Artikel"
+msgstr "*Content Manager* –  muss zwei Mal zustimmen: beim Einreichen über den Artikelentwurfs und später den fertiggeschriebenen Artikel"
 
 msgid "*Copy Editor* - a member of the marketing team, who reviews and corrects the draft article."
 msgstr "*Editor* – ein Mitglied des Marketingteams, der den Entwurf editiert und korrigiert"
@@ -856,7 +856,7 @@ msgid "*Designer* - a member of the marketing website design team, who selects s
 msgstr "*Designer* – ein Mitarbeiter der Marketing Website, der die Bilder und Illustrationen für den Artikel auswählt"
 
 msgid "The process defines several variables, which capture the data for each case (each blog post). All but one of the fields first appear on the trigger form, and make up the blog post proposal."
-msgstr "Der Prozess definiert einige Variablen, welche die Daten für jeden einzelnen Fall abdecken ( bzw. jeden Blogartikel). Alle außer einem dieser Formularfelder erscheinen zuerst auf dem Auslöserformular, und konstituieren damit den Entwurf des Blogartikels."
+msgstr "Der Prozess definiert einige Variablen, welche die Daten für jeden einzelnen Fall abdecken (bzw. jeden Blogartikel). Alle außer eines dieser Formularfelder erscheinen zuerst auf dem Auslöserformular, und konstituieren damit den Entwurf des Blogartikels."
 
 msgid "*Author* - the role described above, selected here manually as a Required Role Assignment."
 msgstr "*Autor* – oberstehend bereits beschrieben. Wird hier als eine notwendige Rolle vorausgesetzt"
@@ -874,16 +874,16 @@ msgid "*Planned publication date* - allows the Content Manager to position the b
 msgstr "*Geplantes Publikationsdatum* – erlaubt dem Content Manager den Blogartikel in den Publikationsplan zu integrieren"
 
 msgid "*Draft blog post* - the URL of the draft article in the online collaboration platform."
-msgstr "*Entwurf des Blogartikels* – Die URL des Entwurfs, auf der Collaboration Plattform"
+msgstr "*Entwurf des Blogartikels* – Die URL des Entwurfs auf der Collaboration Plattform"
 
 msgid "*Published URL* - the URL of the published article on the Signavio website, used to share the published article. The trigger form includes every field except this one, which the publication task sets at the end of the process for use in the final `Result Notification`."
-msgstr "*Veröffentlichte URL* – Die URL des Artikels auf der Signavio Website, um den Artikel zu teilen. Das Ausleseformular enthält alle Felder mit einer Ausnahme: Es wird von der Publikations-Aufgabe an das Ende des Prozesses für die finale `Ergebnissbenachrichtung` gesetzt."
+msgstr "*Veröffentlichte URL* – Die URL des Artikels auf der Signavio Website, um den Artikel zu teilen. Das Auslöseformular enthält alle Felder mit einer Ausnahme: Es wird von der Publikations-Aufgabe an das Ende des Prozesses für die finale `Ergebnissbenachrichtung` gesetzt."
 
 msgid "This process model shown simplifies the complete process. For example, the model does not include the social media marketing tasks that the Social Media Manager performs."
 msgstr "Dieses Prozessmodell vereinfacht den Prozess der Veröffentlichung eines Blogartikels. Zum Beispiel enthält das Modell keine Social Media Marketing Aufgabe, die der Social Media Manager ausführen würde."
 
 msgid "This example does not include integration between the workflow and the two external systems: the online collaboration tool used for writing draft articles, and the content management system that serves blog posts. In principle, the process could automatically generate an empty draft article in the first system when the process starts, and automatically push the finished article to the CMS. In practice, the marketing team might not perform these tasks frequently enough or find them time-consuming enough to make this worthwhile."
-msgstr "Dieser Beispiel enthält zudem keine Integration zwischen dem Workflow und den zwei externen Systemen: Sowohl für das CMS als auch das Online Collaborationswerkzeug, das für das Schreiben von Entwürfen verwendet wird. Theoretisch könnte der Prozess automatisch einen leeren Artikel generieren, wenn der Prozess beginnt, und ihn sobald er fertig ist, an das CMS weiterreichen. Praktisch wird das Marketing Team diese Aufgaben nicht häufig genug ausführen oder als zu zeitaufwendig empfinden, um ein solches System aufzusetzen."
+msgstr "Dieser Beispiel enthält zudem keine Integration zwischen dem Workflow und den zwei externen Systemen: Sowohl für das CMS als auch das Online Collaborationswerkzeug, das zum Schreiben von Entwürfen verwendet wird. Theoretisch könnte der Prozess automatisch einen leeren Artikel generieren, wenn der Prozess beginnt – und ihn sobald er fertig ist, an das CMS weiterreichen. Praktisch wird das Marketing Team diese Aufgaben nicht häufig genug ausführen oder es als zu zeitaufwendig empfinden, ein solches System aufzusetzen."
 
 msgid "Respond To Email (customer service)"
 msgstr "Antwort verfassen (Kundenservice)"
