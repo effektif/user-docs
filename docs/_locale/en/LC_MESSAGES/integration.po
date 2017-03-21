@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-28 17:17+0100\n"
+"POT-Creation-Date: 2017-03-21 17:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,10 +102,6 @@ msgid ""
 "has the following fields."
 msgstr ""
 
-#: ../../integration/connectors.rst
-msgid "Example - customer record fields"
-msgstr ""
-
 msgid "Property"
 msgstr ""
 
@@ -189,10 +185,6 @@ msgstr ""
 msgid "The response body must contain a JSON object with the following fields."
 msgstr ""
 
-#: ../../integration/connectors.rst
-msgid "Connector descriptor properties"
-msgstr ""
-
 msgid "``key``"
 msgstr ""
 
@@ -250,10 +242,6 @@ msgid ""
 "record type descriptor JSON objects."
 msgstr ""
 
-#: ../../integration/connectors.rst
-msgid "Record type descriptor properties"
-msgstr ""
-
 msgid ""
 "Unique alphanumeric key (characters a-z, A-Z, 0-9) that identifies the "
 "record type within the connector descriptor, used in :ref:`connector-"
@@ -296,10 +284,6 @@ msgid ""
 "record type has a complex structure that includes one or more fields, "
 "such as a customer’s full name. Each field has a key, a name and a data "
 "type."
-msgstr ""
-
-#: ../../integration/connectors.rst
-msgid "Record field descriptor properties"
 msgstr ""
 
 msgid ""
@@ -369,10 +353,6 @@ msgid ""
 "The response body must contain an array of JSON objects, which should "
 "have a limited size. Each object in the array must have the following "
 "fields."
-msgstr ""
-
-#: ../../integration/connectors.rst
-msgid "Record type options object properties"
 msgstr ""
 
 msgid "Unique string record ID"
@@ -795,10 +775,6 @@ msgid ""
 msgstr ""
 
 msgid "You can also choose another name for the import:"
-msgstr ""
-
-#: ../../integration/javascript.rst
-msgid "Supported JavaScript libraries"
 msgstr ""
 
 msgid "Library"
@@ -1386,22 +1362,21 @@ msgstr ""
 #~ msgid "token OG40Zi1SbTNWLVh6MHItSWdldy1MMWZL"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "To make a list of options "
-#~ "available to forms, in the :ref"
-#~ ":`connector-type-descriptor`, set the "
-#~ "``optionsAvailable`` flag to ``true``. The "
-#~ "connector must also make the options "
-#~ "available as the following HTTP "
-#~ "resource."
+#~ msgid "Example - customer record fields"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "To make a record’s fields available, "
-#~ "in the :ref:`connector-type-descriptor`, "
-#~ "set the ``fetchOneAvailable`` flag to "
-#~ "``true``. The connector must also make"
-#~ " the records available as the "
-#~ "following HTTP resource."
+#~ msgid "Connector descriptor properties"
+#~ msgstr ""
+
+#~ msgid "Record type descriptor properties"
+#~ msgstr ""
+
+#~ msgid "Record field descriptor properties"
+#~ msgstr ""
+
+#~ msgid "Record type options object properties"
+#~ msgstr ""
+
+#~ msgid "Supported JavaScript libraries"
 #~ msgstr ""
 
