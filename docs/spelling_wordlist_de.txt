@@ -46,6 +46,7 @@ Drag
 Drive
 Drop
 Editierungssymbol
+elements
 Email
 Emailadresse
 Emailadressen
@@ -112,6 +113,7 @@ Label
 Lanes
 Lead
 Leads
+libraries
 Lodash
 Logeinträge
 Markdown
@@ -198,6 +200,7 @@ Statusänderung
 Statusbalken
 Stream
 String
+Supported
 Supportmitarbeiter
 Supportprozess
 Swimlanes
