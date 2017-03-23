@@ -39,6 +39,7 @@ To implement a connector, you publish three different kinds of resource.
 
 #. :ref:`connector-descriptor` - defines one or more record types, each of which defines a list of fields.
 #. :ref:`connector-type-options` - a list of records for each record type the connector defines.
+#. :ref:`connector-type-option` - a single record from the :ref:`connector-type-options` list.
 #. :ref:`connector-record-details` (optional) - all fields for one record from the list of records.
 
 Signavio Workflow accesses the connector on the web, via the public Internet, or via a private intranet for an on-premise installation.
@@ -265,7 +266,7 @@ To make a list of options available to forms, in the :ref:`connector-descriptor`
 The connector must also make the options available as the following HTTP resource.
 
 URL (relative to the endpoint URL)
-   ``/:type/options`` - with path parameter ``:type`` - a record type key
+   ``/:type/options`` - with path parameter ``:type`` (a record type key)
 Query string (optional)
    ``filter=:query`` - added when the user enters a search; ``:query`` encodes the search string
 Request methods
@@ -273,7 +274,7 @@ Request methods
 Response content type
   ``application/json``
 
-The response body must contain an array of JSON objects, which should have a limited size.
+The response body must contain an array of JSON objects, which should have a limited maximum length.
 Each object in the array must have the following fields.
 
 .. list-table:: Record type options object properties
@@ -299,6 +300,30 @@ For example, a list of customer options, with URL ``https://example.org/connecto
 	  "id" : "7g8h9i",
 	  "name" : "Charlie Chester"
 	} ]
+
+.. _connector-type-option:
+
+Record type option (single option)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+After someone selects an option, the case user interface may later display the selected option in other contexts.
+Connectors that set the ``optionsAvailable`` flag to ``true`` must also make it possible to look up a single option by its ID, in order to display the option name.
+
+URL (relative to the endpoint URL)
+   ``/:type/options/:id`` - with path parameters ``:type`` (a record type key) and ``:id`` (the option ID)
+Request methods
+   GET - fetches a single record type option
+Response content type
+  ``application/json``
+
+The response body must contain a single JSON object, with the same fields as the objects in the :ref:`connector-type-options` response.
+
+For example, a single customer option, with URL ``https://example.org/connector/customer/options/1a2b3c``, would look like this::
+
+	{
+	  "id" : "1a2b3c",
+	  "name" : "Alice Allgood"
+	}
 
 .. _connector-record-details:
 
