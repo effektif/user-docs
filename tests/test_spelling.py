@@ -15,7 +15,7 @@ def test_spelling_en(app, status, warning):
     copy_srcdir_to_tmpdir=False, outdir='root/_build')
 def test_spelling_de(app, status, warning):
     app.build()
-    exceptions = ['integration/connectors', 'tutorials', 'settings.rst']
+    exceptions = ['integration/connectors', 'tutorials']
     with open(app.outdir + '/output.txt') as f:
         lines = f.readlines()
         parsedLines = []

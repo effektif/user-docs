@@ -3,12 +3,11 @@
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-02-14 16:13+0100\n"
+"POT-Creation-Date: 2017-03-13 14:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,18 +21,19 @@ msgstr ""
 
 msgid ""
 "This chapter describes a number of example processes. Signavio Workflow "
-"includes some of these examples within the application, so you don’t have"
-" to start from scratch when you develop your first process model. These "
-"examples may also give you some inspiration for how to use Signavio "
-"Workflow’s features in your own models."
+"includes some of these include_examples within the application, so you "
+"don’t have to start from scratch when you develop your first process "
+"model. These include_examples may also give you some inspiration for how "
+"to use Signavio Workflow’s features in your own models."
 msgstr ""
 
 msgid ""
-"In the main menu, select `Examples` to browse the list, and expand each "
-"example to read a description. Select `Copy to your organisation` to open"
-" a copy of an example in the :ref:`process-builder`, so you can explore "
-"the process model, modify it and publish it. If you don’t want to use an "
-"example you have copied, you can :ref:`delete it <copy-process>`."
+"In the main menu, select `include_examples` to browse the list, and "
+"expand each example to read a description. Select `Copy to your "
+"organisation` to open a copy of an example in the :ref:`process-builder`,"
+" so you can explore the process model, modify it and publish it. If you "
+"don’t want to use an example you have copied, you can :ref:`delete it "
+"<copy-process>`."
 msgstr ""
 
 msgid "Approve Document (management)"
@@ -204,15 +204,15 @@ msgstr ""
 
 msgid ""
 "Replace the *Approve claim* task with a `Document Approval "
-"<http://www.signavio.com/post/document-workflow-patterns/>`_ pattern, to "
+"<http://www.signavio.com/post/document-workflow-patterns>`_ pattern, to "
 "allow the employee to make corrections when the manager rejects the a "
 "claim."
 msgstr ""
 
 msgid ""
 "Add the `Result Notification <http://www.signavio.com/post/email-"
-"notification-workflow-patterns/>`_ pattern to notify the employee when "
-"the expenses have been paid."
+"notification-workflow-patterns>`_ pattern to notify the employee when the"
+" expenses have been paid."
 msgstr ""
 
 msgid ""
@@ -223,6 +223,60 @@ msgstr ""
 msgid ""
 ":ref:`Approve Vacation Request <approve-vacation-request>` handles "
 "approving a request from a form rather than an email."
+msgstr ""
+
+msgid "Approve meeting minutes (Management)"
+msgstr ""
+
+msgid "Review, approve and archive the minutes of a meeting."
+msgstr ""
+
+msgid ""
+"Formal meetings produce minutes that the meeting chair must approve "
+"before distribution. Delays in this approval process can reduce the value"
+" of the minutes, and frustrate attendees. At the same time, the archive "
+"of meeting minutes forms an important record, which makes it important "
+"not to lose track of minutes."
+msgstr ""
+
+msgid "Form - the uploaded draft meeting minutes."
+msgstr ""
+
+msgid ""
+"The process extends the basic :ref:`approve-document` process, by adding "
+"explicit approval tasks for specific people. Three approvals of the draft"
+" document indicate successful review."
+msgstr ""
+
+msgid ""
+"After approval, the `Distribution List Result Notification` and `Document"
+" Archive patterns` make the approved minutes immediately available and "
+"stored in a central location."
+msgstr ""
+
+msgid ""
+"*Meeting secretary* - updates the draft minutes following review "
+"feedback; the process does not define any other roles because specific "
+"people complete the approval tasks."
+msgstr ""
+
+msgid ""
+"*Meeting minutes* (File, mandatory) - the trigger form field for the "
+"draft minutes"
+msgstr ""
+
+msgid ""
+"*Approved by Jack* (Yes/No) - records whether this reviewer approves the "
+"current version of the minutes, checked with the other approval results"
+msgstr ""
+
+msgid "*Approved by John* (Yes/No) - same as *Approved by Jack*"
+msgstr ""
+
+msgid "*Approved by Mary* (Yes/No) - same as *Approved by Jack*"
+msgstr ""
+
+msgid ":ref:`approve-document` generalises this approval process."
 msgstr ""
 
 msgid "Approve Vacation Request (HR)"
@@ -301,6 +355,121 @@ msgstr ""
 msgid ""
 ":ref:`Approve Document <approve-document>` handles approving a document "
 "rather than a form."
+msgstr ""
+
+msgid "Arrange business trip (Admin)"
+msgstr ""
+
+msgid "Make bookings for a business trip, such as travel and accommodation."
+msgstr ""
+
+msgid ""
+"People who travel frequently for work sometimes get support from office "
+"assistants who arrange the trips. This includes booking travel and "
+"accommodation according to the traveller’s preferences. When the "
+"assistants have a large number of overlapping trips to organise, Signavio"
+" Workflow helps them keep track."
+msgstr ""
+
+msgid "Form - information about the trip, for bookings."
+msgstr ""
+
+msgid ""
+"The process mainly consists of four tasks, that the assistant can "
+"complete in parallel."
+msgstr ""
+
+msgid ""
+"The `Book hire car` task applies for travellers who do not use public "
+"transport. The `Prepare trip folder` task includes a checklist of "
+"information to give the traveller as a printed itinerary."
+msgstr ""
+
+msgid ""
+"*Office assistant* - a secretary, personal assistant, office manager or "
+"other admin staff role who arranges trips."
+msgstr ""
+
+msgid "Trigger form fields:"
+msgstr ""
+
+msgid ""
+"*Destination* (Text, mandatory) - the address of the trip’s destination, "
+"such as a client’s office"
+msgstr ""
+
+msgid ""
+"*Start date* (Date, mandatory) - the date of the trip’s first appointment"
+" or the start of an event"
+msgstr ""
+
+msgid ""
+"*End date* (Date, mandatory) - the date of the trip’s last appointment or"
+" the end of an event"
+msgstr ""
+
+msgid ""
+"*Use public transport* (Yes/No) - whether the traveller prefers to use "
+"public transport and taxis"
+msgstr ""
+
+msgid "`Book flights` user task fields:"
+msgstr ""
+
+msgid ""
+"*Flights required?* (Yes/No) - whether the trip requires flight bookings,"
+" based on the destination"
+msgstr ""
+
+msgid "*Outbound date* (Date) - flight information"
+msgstr ""
+
+msgid "*Outbound flight no.* (Text) - flight information"
+msgstr ""
+
+msgid "*Return date* (Date) - flight information"
+msgstr ""
+
+msgid "*Return flight no.* (Text) - flight information"
+msgstr ""
+
+msgid ""
+"Trip folder checklist fields, which indicate whether the ‘trip folder’ - "
+"an itinerary for the traveller - includes the corresponding information:"
+msgstr ""
+
+msgid "*Car hire reservation* (Yes/No)"
+msgstr ""
+
+msgid "*Destination city map* (Yes/No)"
+msgstr ""
+
+msgid "*Dinner reservation* (Yes/No)"
+msgstr ""
+
+msgid "*Envelope for receipts* (Yes/No)"
+msgstr ""
+
+msgid "*Flight details* (Yes/No)"
+msgstr ""
+
+msgid "*Hotel reservation* (Yes/No)"
+msgstr ""
+
+msgid "*Meeting documents* (Yes/No)"
+msgstr ""
+
+msgid "*Meeting schedule* (Yes/No)"
+msgstr ""
+
+msgid "*Train tickets* (Yes/No)"
+msgstr ""
+
+msgid ""
+"This process could include more kinds of travel arrangements. Also, the "
+"final task could become a task to upload an electronic version of the "
+"itinerary that the process sends to the traveller using a :ref:`send-"
+"email` task."
 msgstr ""
 
 msgid "Fill Job Vacancy (HR)"
@@ -765,6 +934,108 @@ msgid ""
 "pay before the payment terms run out."
 msgstr ""
 
+msgid "Know your customer (KYC - Banking)"
+msgstr ""
+
+msgid "Perform identity checks before starting the customer onboarding process."
+msgstr ""
+
+msgid ""
+"`Know your customer <https://en.wikipedia.org/wiki/Know_your_customer>`_ "
+"(KYC) legislation requires banks to verify their customers’ identities. "
+"Standard processes like this example help banks ensure compliance, and "
+"provide audit records."
+msgstr ""
+
+msgid "None."
+msgstr ""
+
+msgid ""
+"The process starts with an initial task to capture the customer "
+"information that forms the basis of the identity checks. In this example,"
+" three script tasks implement KYC checks by calling external systems that"
+" perform the checks. Finally, an automatic check, supported by a manual "
+"approval for inconclusive cases, determines the follow-up actions."
+msgstr ""
+
+msgid ""
+"In the case of successful identity checks, a sub-process models the main "
+"work of on-boarding the customer. This process therefore ‘decorates’ the "
+"usual on-boarding process with additional approvals."
+msgstr ""
+
+msgid ""
+"*Branch Services - Account Representative* - performs the initial data "
+"entry and manual approval."
+msgstr ""
+
+msgid ""
+"*Customer name* (Text, mandatory) - identifying information used for "
+"identity checks"
+msgstr ""
+
+msgid ""
+"*Customer address* (Text, mandatory) - identifying information used for "
+"identity checks"
+msgstr ""
+
+msgid "*Valid name & address?* (Boolean) - result of an identity check"
+msgstr ""
+
+msgid "*Valid name for Interpol & PEP?* (Boolean) - result of an identity check"
+msgstr ""
+
+msgid "*Account verified?* (Boolean) - result of an identity check"
+msgstr ""
+
+msgid "Onboard new hire (HR)"
+msgstr ""
+
+msgid ""
+"Create a working environment where the new hire can learn about the "
+"company and start work."
+msgstr ""
+
+msgid ""
+"When companies don’t pay attention to onboarding, they experience "
+"problems like an employee arriving on their first day to discover that "
+"no-one can welcome them, or that they don’t have a desk. This kind of "
+"problem wastes time and creates a bad first impression. A company’s human"
+" resources staff typically improves the employee onboarding experience by"
+" implementing a consistent process."
+msgstr ""
+
+msgid "Form - the new hire’s name and address."
+msgstr ""
+
+msgid "The process consists of four phases, which occur at different times."
+msgstr ""
+
+msgid ""
+"The process starts when the new hire signs an employment contract, at "
+"which point the company can send a welcome pack. Next, various parts of "
+"the company must complete preparation tasks before the new hire’s first "
+"day in office. The first day itself forms the next phase, followed by a "
+"longer follow-up and evaluation phase, possibly in the form of a formal "
+"trial period."
+msgstr ""
+
+msgid "*HR assistant* - introduces the new hire to the company"
+msgstr ""
+
+msgid "*Line manager* - introduces the new hire to their daily work"
+msgstr ""
+
+msgid ""
+"*New hire - full name* (Text) - input for various tasks, such as creating"
+" an email account"
+msgstr ""
+
+msgid ""
+"*New hire - home address* (Text) - used for sending a welcome pack to the"
+" new hire"
+msgstr ""
+
 msgid "Open New Customer Account (banking)"
 msgstr ""
 
@@ -985,6 +1256,117 @@ msgstr ""
 msgid ""
 "*Payout* (Money, mandatory) - the amount to pay to the customer if the "
 "adjuster approves the claim."
+msgstr ""
+
+msgid "Publish blog post (Marketing)"
+msgstr ""
+
+msgid "Publish a blog post on the company website."
+msgstr ""
+
+msgid ""
+"In a product company such as `Signavio <http://www.signavio.com>`_, the "
+"marketing department typically publishes a blog about the company’s "
+"products. Writing and publishing a product blog post involves several "
+"people, who must coordinate their work to make it possible to publish new"
+" blog posts on a regular schedule."
+msgstr ""
+
+msgid "Form - a proposal for a new blog post."
+msgstr ""
+
+msgid ""
+"The process consists of three phases: proposal, writing and publication. "
+"Between each phase, an approval checks whether the process can proceed. "
+"The process ends with a `Result Notification`."
+msgstr ""
+
+msgid ""
+"The model uses a separate sub-process for selecting a stock photo for the"
+" blog post, rather than a single task. This allows the design team to "
+"design and manage their own process for selecting photos and other "
+"illustrations for blog posts. This sub-process proceeds in parallel, "
+"based on information in the article proposal, while the author writes the"
+" article."
+msgstr ""
+
+msgid ""
+"*Author* - triggers the process by submitting an article proposal, writes"
+" the article content, and publishes the article using the blog’s content "
+"management system (CMS). For some blog posts, a technical writer from one"
+" of the product teams takes this role."
+msgstr ""
+
+msgid ""
+"*Content Manager* - performs the two approvals – the initial article "
+"proposal and the finished article content."
+msgstr ""
+
+msgid ""
+"*Copy Editor* - a member of the marketing team, who reviews and corrects "
+"the draft article."
+msgstr ""
+
+msgid ""
+"*Designer* - a member of the marketing website design team, who selects "
+"stock photography or other illustrations for the article."
+msgstr ""
+
+msgid ""
+"The process defines several variables, which capture the data for each "
+"case (each blog post). All but one of the fields first appear on the "
+"trigger form, and make up the blog post proposal."
+msgstr ""
+
+msgid ""
+"*Author* - the role described above, selected here manually as a Required"
+" Role Assignment."
+msgstr ""
+
+msgid "*Title* - the article title, which identifies the case."
+msgstr ""
+
+msgid "*Category* - used when the blog has multiple sections."
+msgstr ""
+
+msgid ""
+"*Description* - describes the article’s topic, so the design team can "
+"select a suitable photo without having to wait for the final article "
+"text."
+msgstr ""
+
+msgid ""
+"*Planned publication date* - allows the Content Manager to position the "
+"blog post in the publication schedule."
+msgstr ""
+
+msgid ""
+"*Draft blog post* - the URL of the draft article in the online "
+"collaboration platform."
+msgstr ""
+
+msgid ""
+"*Published URL* - the URL of the published article on the Signavio "
+"website, used to share the published article. The trigger form includes "
+"every field except this one, which the publication task sets at the end "
+"of the process for use in the final `Result Notification`."
+msgstr ""
+
+msgid ""
+"This process model shown simplifies the complete process. For example, "
+"the model does not include the social media marketing tasks that the "
+"Social Media Manager performs."
+msgstr ""
+
+msgid ""
+"This example does not include integration between the workflow and the "
+"two external systems: the online collaboration tool used for writing "
+"draft articles, and the content management system that serves blog posts."
+" In principle, the process could automatically generate an empty draft "
+"article in the first system when the process starts, and automatically "
+"push the finished article to the CMS. In practice, the marketing team "
+"might not perform these tasks frequently enough or find them time-"
+"consuming enough to make this worthwhile."
 msgstr ""
 
 msgid "Respond To Email (customer service)"
@@ -1229,33 +1611,7 @@ msgstr ""
 #~ msgid ""
 #~ msgstr ""
 
-#~ msgid ""
-#~ "This chapter describes a number of "
-#~ "example processes. Signavio Workflow includes"
-#~ " some of these include_examples within "
-#~ "the application, so you don’t have "
-#~ "to start from scratch when you "
-#~ "develop your first process model. These"
-#~ " include_examples may also give you "
-#~ "some inspiration for how to use "
-#~ "Signavio Workflow’s features in your own"
-#~ " models."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "In the main menu, select "
-#~ "`include_examples` to browse the list, "
-#~ "and expand each example to read a"
-#~ " description. Select `Copy to your "
-#~ "organisation` to open a copy of an"
-#~ " example in the :ref:`process-builder`, "
-#~ "so you can explore the process "
-#~ "model, modify it and publish it. "
-#~ "If you don’t want to use an "
-#~ "example you have copied, you can "
-#~ ":ref:`delete it <copy-process>`."
-#~ msgstr ""
-
+<<<<<<< HEAD
 #~ msgid ""
 #~ "Replace the *Approve claim* task with"
 #~ " a `Document Approval "
@@ -1272,4 +1628,3 @@ msgstr ""
 #~ " the employee when the expenses have"
 #~ " been paid."
 #~ msgstr ""
-

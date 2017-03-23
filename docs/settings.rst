@@ -106,10 +106,9 @@ Click the *Upgrade your license* button to upgrade to another license type.
 Single Sign-On
 --------------
 
-.. note:: This feature requires an :ref:`enterprise_cloud` license.
-
 Single sign-on (SSO) makes it possible to access Signavio Workflow using an existing corporate user account, so you do not have to log in to Signavio Workflow separately.
-To request SSO for your organization, send a request using the *Send feedback* option in the application, including your `SAML 2.0 Identity Provider Metadata <https://en.wikipedia.org/wiki/SAML_2.0#Identity_Provider_Metadata>`_.
+This feature is available on request, to organisations with an :ref:`enterprise_cloud` license.
+To activate SSO for your organization, send a request using the *Send feedback* option in the application, including your `SAML 2.0 Identity Provider Metadata <https://en.wikipedia.org/wiki/SAML_2.0#Identity_Provider_Metadata>`_.
 
 `G Suite <https://support.google.com/a/answer/6087519?hl=en&ref_topic=6304963>`_ (formerly Google Apps) is currently the only supported SSO provider.
 

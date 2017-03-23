@@ -46,15 +46,3 @@ To build the documentation for a specific language you need to use the language 
 The files in `docs/_locale` are used for translations. Update these with:
 
 	./i18n.sh
-	
-## Windows/cygwin troubleshooting
-When setting up the build on a Windows machine with cygwin, the following issues may occur:
-
-* cygwin cannot execute the `build.sh` file.
-
-  As a quick fix, run `sed -i 's/\r$//' build.sh i18n.sh``. Make sure you don't commit the changes to `b
-  uild.sh` and ì18n.sh`.
-  
-* pip doesn't install the dependencies in cygwin python's `site-package` directory.
-
-  Go to `/usr/lib/python2.7/site-packages` and install the requirements there. For example: `pip install termcolor -t .`.

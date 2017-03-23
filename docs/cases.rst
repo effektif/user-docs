@@ -107,9 +107,7 @@ The case details view shows the case name, with case participants’ avatar pict
 Each case has an event stream that acts as an audit log and includes the information that case participants share during collaboration, such as comments, documents and links.
 
 
-.. _configure-columns:
-
-Configuring case view table columns
+Customizing case view table columns
 -----------------------------------
 
 The *Cases* view’s table includes columns for workflow :ref:`variables <variables>`,
@@ -168,7 +166,7 @@ Keeping the discussion ‘inside’ the case preserves the context,
 which makes it easier to follow than an email conversation.
 
 Sometimes, you want to direct a comment to a specific person.
-While entering a comment,
+While entering a comment, 
 you can ‘mention’ someone by typing a ``@`` and choosing their name from the list.
 When you mention someone in a comment,
 Signavio Workflow sends them an email notification to bring them into the discussion.
