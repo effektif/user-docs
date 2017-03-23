@@ -15,6 +15,8 @@ and configure external services such as :ref:`salesforce-integration`.
 At the top of the page, in the masthead, you can edit the organization name.
 
 
+.. _users:
+
 Users
 -----
 

@@ -10,6 +10,9 @@ However, fixed lists in the process definition become difficult to maintain when
 With Signavio Workflow, you can also integrate dynamic structured data from other IT systems into your workflows.
 The workflow system fetches data from a third-party system using a *connector*, which a customer or a partner implements and hosts.
 
+.. note:: Only organization administrators can configure this feature.
+   If you need to use this feature, ask one of your organization’s administrators to use the :ref:`users` list to make you an administrator in your organization.
+
 A connector provides a web service that translates between the external system and Signavio Workflow.
 The connector implements a defined interface, which Signavio Workflow uses to access data in a format it can use.
 Signavio Workflow and the connector communicate over *HTTP* or *HTTPS*, which makes it possible to implement connectors in any programming language.

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-23 13:37+0100\n"
-"PO-Revision-Date: 2017-03-23 13:59+0100\n"
+"POT-Creation-Date: 2017-03-23 15:33+0100\n"
+"PO-Revision-Date: 2017-03-23 15:42+0100\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -27,6 +27,9 @@ msgstr "Wenn Sie einen Prozess im Signavio Workflow definieren, fügen Sie norma
 
 msgid "With Signavio Workflow, you can also integrate dynamic structured data from other IT systems into your workflows. The workflow system fetches data from a third-party system using a *connector*, which a customer or a partner implements and hosts."
 msgstr "Mit Signavio Workflow integrieren Sie Daten aus anderen IT-Systemen dynamisch in Ihre Workflows. Das Workflow-System extrahiert die Daten aus einem Drittsystem mit einer *Datenschnittstelle*, die Sie oder einer Ihrer Business-Partner bereitstellen."
+
+msgid "Only organization administrators can configure this feature. If you need to use this feature, ask one of your organization’s administrators to use the :ref:`users` list to make you an administrator in your organization."
+msgstr "Dieses Feature kann ausschließlich von Administratoren Ihrer Signavio Workflow-Organisation konfiguriert werden. Falls Sie dieses Feature verwenden möchten, bitten Sie einen Ihrer Administratoren gegebenenfalls darum, Sie über die :ref:`users`-Verwaltung  ebenfalls zum Administrator zu ernennen."
 
 msgid "A connector provides a web service that translates between the external system and Signavio Workflow. The connector implements a defined interface, which Signavio Workflow uses to access data in a format it can use. Signavio Workflow and the connector communicate over *HTTP* or *HTTPS*, which makes it possible to implement connectors in any programming language."
 msgstr "Eine solche Datenschnittstelle bietet einen Webdienst an, der zwischen dem externen System und Signavio Workflow \"übersetzt”. Dadurch kann Signavio Workflow auf die Daten in einem passenden Austauschformat zugreifen. Signavio Workflow und die Schnittstelle kommunizieren dabei über *HTTP* oder *HTTPS*. Entsprechend können Schnittstellen in einer beliebigen Programmiersprache umgesetzt werden."
