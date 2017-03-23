@@ -53,7 +53,7 @@ Groups
 ------
 
 The groups list shows the organization’s user groups.
-You can use these groups to define candidates for tasks in the :ref:`process builder <processes>`.
+You can use these groups to define candidates for tasks in the :ref:`process builder <process-builder>`.
 
 .. figure:: /_static/images/settings/groups.png
 
@@ -104,31 +104,11 @@ Click the *Upgrade your license* button to upgrade to another license type.
 Single Sign-On
 --------------
 
-.. note:: This feature requires an :ref:`enterprise_cloud` license.
-
 Single sign-on (SSO) makes it possible to access Signavio Workflow using an existing corporate user account, so you do not have to log in to Signavio Workflow separately.
-To request SSO for your organization, send a request using the *Send feedback* option in the application, including your `SAML 2.0 Identity Provider Metadata <https://en.wikipedia.org/wiki/SAML_2.0#Identity_Provider_Metadata>`_.
+This feature is available on request, to organisations with an :ref:`enterprise_cloud` license.
+To activate SSO for your organization, send a request using the *Send feedback* option in the application, including your `SAML 2.0 Identity Provider Metadata <https://en.wikipedia.org/wiki/SAML_2.0#Identity_Provider_Metadata>`_.
 
-Signavio Workflow currently only supports the `G Suite <https://support.google.com/a/answer/6087519?hl=en&ref_topic=6304963>`_ (formerly Google Apps) SSO provider.
+`G Suite <https://support.google.com/a/answer/6087519?hl=en&ref_topic=6304963>`_ (formerly Google Apps) is currently the only supported SSO provider.
 
 Signavio Workflow supports `Security Assertion Markup Language (SAML) 2.0 <https://en.wikipedia.org/wiki/SAML_2.0>`_ Identity Provider-initiated SSO using the HTTP POST binding.
-Please contact us if you want to use a SAML 2.0 Identity Provider other than those listed above.
-
-.. _labels:
-
-Labels
-------
-
-Most organizations soon have enough processes to make it inconvenient to browse the processes list.
-To keep your processes tidy, you can define and use labels, to categorize processes by department, status or however you like.
-
-Use the *Labels* tab to define labels for your organization.
-You start with a set of default labels, but you can customize the list.
-
-.. figure:: /_static/images/settings/labels.png
-
-   Configuring labels - used to categorize processes
-
-To add a new label, enter a name in the text input field and select *Create*.
-Select a label or its edit icon to change its name or color.
-To delete a label, select the delete icon on the far right.
+Please contact us if you want to use a SAML 2.0 Identity Provider that is not listed above.

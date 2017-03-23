@@ -8,8 +8,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-07 13:07+0100\n"
-"PO-Revision-Date: 2017-02-07 14:00+0100\n"
+"POT-Creation-Date: 2016-11-28 17:22+0100\n"
+<<<<<<< HEAD
+"PO-Revision-Date: 2016-12-11 20:31+0100\n"
+=======
+"PO-Revision-Date: 2017-01-07 15:18+0100\n"
+>>>>>>> master
 "Last-Translator: Christian Wiggert <christian.wiggert@signavio.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -510,33 +514,6 @@ msgstr "Outputkonfiguration einer Entscheidung in Signavio Workflow"
 
 msgid "You can now use the calculated *Total price* variable else where in the process. Add the existing *Total price* field as a read-only field to the *Check total price* user task. Finally, add the *Total price* field to the *Send quotation* email task’s template, to send the quotation."
 msgstr "Sie können die Output-Variable der Entscheidung nun auch an anderen Stellen im Prozess einsetzen. Wir fügen das Feld *Total Price* als schreibgeschütztes Feld der Aufgabe *Check Total Price* ein. Als letzten Schritt, fügen wir das Feld *Total Price* in die Vorlage der E-Mail-Aufgabe *Send quotation* ein."
-
-msgid "Signavio - Set model state"
-msgstr "Signavio - Modellzustand setzen"
-
-msgid "A `Set model state` action in the Signavio Workflow process builder"
-msgstr "Eine `Modellzustand setzen`-Aktion "
-
-msgid "When you use `Signavio Process Editor <http://www.signavio.com/products/process-editor/>`_ for process modelling, you can use Signavio Workflow to manage process diagram approvals. Signavio Process Editor triggers these process diagram approval workflows, which run in Signavio Workflow and in turn update the process model in Signavio Process Editor."
-msgstr "Wenn Sie den `Signavio Process Editor <https://www.signavio.com/de/products/process-editor-de/>`__ zur Prozessmodellierung verwenden, können Sie mit Signavio Workflow Diagrammfreigaben verwalten. Nachdem Nutzer Freigabe-Workflows im Signavio Process Editor ausgelöst haben, wird die Freigabe in Signavio Workflow durchgeführt. Durch die Freigabe ändert sich wiederum der Status des Diagramms im Process Editor."
-
-msgid "To use the `Set model state` task, you need to have access to `Signavio Process Editor <http://www.signavio.com/products/process-editor/>`_. This task only works in a process that has the `Signavio approval` trigger."
-msgstr "Um die `Modellzustand setzen`-Aktion auszulösen, benötigt Ihr Signavio Workflow-System Zugriff auf den `Signavio Process Editor <https://www.signavio.com/de/products/process-editor-de/>`__. Die Aktion funktioniert ausschließlich in Prozessen, die den `Signavio Freigabe`-Auslöser haben."
-
-msgid "The `Set model state` action automatically updates the ‘diagram state’ in Signavio Process Editor, e.g. to mark the diagram as *approved* or *in progress*. You typically use this as part of a process that performs a management approval that marks the diagram as *accepted* or *rejected*."
-msgstr "Die `Modellzustand setzen`-Aktion aktualisiert den Diagrammzustand im Signavio Process Editor automatisch, zum Beispiel um ein Diagramm als *freigegeben* oder *in Bearbeitung*  zu kennzeichnen. Typischerweise wird diese Aktion als Teil eines Prozesses verwendet, mit dem eine Management-Freigabe durchgeführt wird und der ein Diagramm als *akzeptiert* oder *abgelehnt* markiert."
-
-msgid "A process diagram approval workflow that uses `Set model state` actions"
-msgstr "Ein Freigabe-Workflow, der die `Modellzustand setzen`-Aktion verwendet."
-
-msgid "Select a `Set model state` action to configure which process `Model state` the `Set model state` action will set."
-msgstr "Wählen Sie eine `Modellzustand setzen`-Aktion aus und konfigurieren Sie den Zustand, der von der Aktion gesetzt werden soll. "
-
-msgid "Configuring a `Set model state` action to set a Signavio Process Editor diagram’s status"
-msgstr "Konfigurieren Sie eine `Modellzustand setzen`-Aktion, um den Zustand eines Diagramms im Signavio Process Editor zu ändern."
-
-msgid "Signavio Process Editor defines these `Model state` options. See `Managing approval workflows <https://editor.signavio.com/userguide/en/workspace_admin/manage_software_config/config_workflows.html#managing-approval-workflows>`_ for instructions on how to set this up."
-msgstr "Die Modellzustandsoptionen werden im Signavio Process Editor definiert. Unter `Freigabe-Workflows verwalten <https://editor.signavio.com/userguide/en/workspace_admin/manage_software_config/config_workflows.html#managing-approval-workflows>`__ finden Sie die entsprechende Konfigurationsanleitung."
 
 msgid "Map variables"
 msgstr "Variable zuweisen"

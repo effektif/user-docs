@@ -8,10 +8,9 @@ Skip to the :ref:`tutorials` if you don’t want to read a manual.
 
    introduction
    licenses
-   tasks
    cases
-   processes
-   analytics
+   tasks
+   process-builder
    action-types
    forms
    control-flow

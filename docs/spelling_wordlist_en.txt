@@ -1,16 +1,13 @@
-Analytics
 Apps
 aren
 assignee
 assignees
 authorization
-categorize
 checkbox
 checkboxes
 checklist
 checklists
 Checklists
-color
 customize
 Customizing
 doesn
@@ -46,7 +43,6 @@ sanitization
 Scala
 serialization
 Setup
-shortcuts
 Signavio
 subfolder
 subfolders
