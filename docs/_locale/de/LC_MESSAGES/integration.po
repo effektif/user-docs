@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-21 18:11+0100\n"
-"PO-Revision-Date: 2017-03-21 22:29+0100\n"
+"POT-Creation-Date: 2017-03-23 13:37+0100\n"
+"PO-Revision-Date: 2017-03-23 13:59+0100\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -63,6 +63,9 @@ msgstr ":ref:`connector-descriptor` – definiert eine oder mehrere Eintragstype
 
 msgid ":ref:`connector-type-options` - a list of records for each record type the connector defines."
 msgstr ":ref:`connector-type-options` – eine Liste von Einträgen für jeden Typ, der die Datenschnittstelle definiert"
+
+msgid ":ref:`connector-type-option` - a single record from the :ref:`connector-type-options` list."
+msgstr ":ref:`connector-type-option` - einen einzelnen Eintrag aus der :ref:`connector-type-options`-Liste."
 
 msgid ":ref:`connector-record-details` (optional) - all fields for one record from the list of records."
 msgstr ":ref:`connector-record-details`  – Alle Felder für einen Eintrag aus der Liste der Einträge"
@@ -145,7 +148,10 @@ msgstr "Content-Typ der Antwort"
 msgid "``application/json``"
 msgstr "``application/json``"
 
-msgid "The response body must contain a JSON object with the following fields."
+msgid "Response body"
+msgstr "Antwort"
+
+msgid "A JSON object with the following fields."
 msgstr "Die Antwort muss ein JSON-Objekt mit den folgenden Feldern enthalten."
 
 msgid "``key``"
@@ -233,7 +239,7 @@ msgid "``type``"
 msgstr "``type``"
 
 msgid "A JSON object that describes field’s data type - see :ref:`connector-data-types`"
-msgstr "Ein JSON-Objekt, dass die Felddatentypen beschreibt – mehr unter :ref:`connector-data-types`"
+msgstr "Ein JSON-Objekt, dass die Felddatentypen beschreibt . Lesen Sie mehr unter :ref:`connector-data-types`."
 
 msgid "Every record type automatically includes an ``id`` field with type ``text``, so you don’t have to define it explicitly."
 msgstr "Jeder Eintragstyp enthält automatisch seine ``id`` mit ``text``, damit Sie ihn nicht explizit definieren müssen."
@@ -256,7 +262,7 @@ msgstr "Um eine Liste der Optionen für Formulare zu erstellen, setzen Sie die `
 msgid "URL (relative to the endpoint URL)"
 msgstr "URL (Relativ zur Endpoint-URL)"
 
-msgid "``/:type/options`` - with path parameter ``:type`` - a record type key"
+msgid "``/:type/options`` - with path parameter ``:type`` (a record type key)"
 msgstr "``/:type/options`` – mit den Pfadparameter ``:type`` - ein Schlüssel für den Eintragstypen"
 
 msgid "Query string (optional)"
@@ -268,8 +274,8 @@ msgstr "``filter=:query`` – wird hinzugefügt, wenn der Benutzer eine Suchanfr
 msgid "GET - fetches the list of record type options"
 msgstr "GET – fragt die Liste der Eintragstyp-Optionen an"
 
-msgid "The response body must contain an array of JSON objects, which should have a limited size. Each object in the array must have the following fields."
-msgstr "Die Antwort muss ein Array mit JSON-Objekten enthalten, dessen Größe eingeschränkt ist. Jedes Objekt im Feld muss dafür die folgenden Felder aufweisen: "
+msgid "An array of JSON objects, which should have a limited maximum length. Each object in the array must have the following fields."
+msgstr "Die Antwort muss ein Array mit JSON-Objekten enthalten, dessen Größe eingeschränkt ist. Jedes Objekt im Feld muss dafür die folgenden Felder aufweisen:"
 
 msgid "Unique string record ID"
 msgstr "Eindeutige ID des Stringeintrags"
@@ -279,6 +285,24 @@ msgstr "Das Label in der Nutzeroberfläche, das verschiedene Eintragsfelder zusa
 
 msgid "For example, a list of customer options, with URL ``https://example.org/connector/customer/options``, would look like this::"
 msgstr "Eine Liste von Kundenoptionen mit der URL ``https://example.org/connector/customer/options`` würde beispielsweise so aussehen: "
+
+msgid "Record type option (single option)"
+msgstr "Optionen für Eintragstypen (Einzeloption)"
+
+msgid "After someone selects an option, the case user interface may later display the selected option in other contexts. Connectors that set the ``optionsAvailable`` flag to ``true`` must also make it possible to look up a single option by its ID, in order to display the option name."
+msgstr "Nachdem eine Option ausgewählt wurde, zeigt die Nutzeroberfläche die Option möglicherweise in anderen Zusammenhängen an. Schnittstellen, bei denen die ``optionsAvailable``-Variable auf ``true`` gesetzt wurde, müssen es ermöglichen, eine einzelne Option über deren ID abzufragen."
+
+msgid "``/:type/options/:id`` - with path parameters ``:type`` (a record type key) and ``:id`` (the option ID)"
+msgstr "``/:type/:id`` – mit den Pfadparametern ``:type`` als ein Eintragstyp-Schlüssel und ``:id`` als Eintragsidentifikationsnummer"
+
+msgid "GET - fetches a single record type option"
+msgstr "GET – fragt eine einzelne Eintragstyp-Option an"
+
+msgid "A single JSON object, with the same fields as the objects in the :ref:`connector-type-options` response."
+msgstr "Ein einzelnes JSON-Objekt, das die selben Felder wie ein Objekt der :ref:`connector-type-options`  hat."
+
+msgid "For example, a single customer option, with URL ``https://example.org/connector/customer/options/1a2b3c``, would look like this::"
+msgstr "Eine einzelne Kundenoption mit der URL ``https://example.org/connector/customer/options/1a2b3c`` würde beispielsweise so aussehen: "
 
 msgid "Record details"
 msgstr "Eintragsdetails"
@@ -290,10 +314,13 @@ msgid "To make a record’s fields available, in the :ref:`connector-descriptor`
 msgstr "Um ein Eintragsfeld verfügbar zu machen, setzen Sie das ``fetchOneAvailable`` -Flag im :ref:`connector-descriptor` auf ``true``. Die Schnittstelle muss die Einträge ebenso für diese HTTP Ressourcen bereitstellen:"
 
 msgid "``/:type/:id`` - with path parameters ``:type`` - a record type key, and ``:id`` - a record ID"
-msgstr "``/:type/:id`` – mit den Pfadparametern ``:type`` als ein Eintragstyp-Schlüssel und ``:id`` als als Eintragsidentifikationsnummer"
+msgstr "``/:type/:id`` – mit den Pfadparametern ``:type`` als ein Eintragstyp-Schlüssel und ``:id`` als Eintragsidentifikationsnummer"
 
 msgid "GET - fetches details for a single record"
 msgstr "GET -  fragt die Details für die einzelnen Einträge an"
+
+msgid "A JSON object containing all fields of the record with the requested ID."
+msgstr "Ein JSON-Objekt, das alle Felder des Eintrags mit der angegebenen ID enthält."
 
 msgid "For example, a customer record, with URL ``https://example.org/connector/customer/7g8h9i``, would look like this::"
 msgstr "Ein Kundeneintrag mit der URL ``https://example.org/connector/customer/7g8h9i``, würde zum Beispiel folgendermaßen aussehen:"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-21 17:57+0100\n"
+"POT-Creation-Date: 2017-03-23 13:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,6 +82,11 @@ msgstr ""
 msgid ""
 ":ref:`connector-type-options` - a list of records for each record type "
 "the connector defines."
+msgstr ""
+
+msgid ""
+":ref:`connector-type-option` - a single record from the :ref:`connector-"
+"type-options` list."
 msgstr ""
 
 msgid ""
@@ -182,7 +187,10 @@ msgstr ""
 msgid "``application/json``"
 msgstr ""
 
-msgid "The response body must contain a JSON object with the following fields."
+msgid "Response body"
+msgstr ""
+
+msgid "A JSON object with the following fields."
 msgstr ""
 
 msgid "``key``"
@@ -335,7 +343,7 @@ msgstr ""
 msgid "URL (relative to the endpoint URL)"
 msgstr ""
 
-msgid "``/:type/options`` - with path parameter ``:type`` - a record type key"
+msgid "``/:type/options`` - with path parameter ``:type`` (a record type key)"
 msgstr ""
 
 msgid "Query string (optional)"
@@ -350,9 +358,8 @@ msgid "GET - fetches the list of record type options"
 msgstr ""
 
 msgid ""
-"The response body must contain an array of JSON objects, which should "
-"have a limited size. Each object in the array must have the following "
-"fields."
+"An array of JSON objects, which should have a limited maximum length. "
+"Each object in the array must have the following fields."
 msgstr ""
 
 msgid "Unique string record ID"
@@ -367,6 +374,35 @@ msgid ""
 "For example, a list of customer options, with URL "
 "``https://example.org/connector/customer/options``, would look like "
 "this::"
+msgstr ""
+
+msgid "Record type option (single option)"
+msgstr ""
+
+msgid ""
+"After someone selects an option, the case user interface may later "
+"display the selected option in other contexts. Connectors that set the "
+"``optionsAvailable`` flag to ``true`` must also make it possible to look "
+"up a single option by its ID, in order to display the option name."
+msgstr ""
+
+msgid ""
+"``/:type/options/:id`` - with path parameters ``:type`` (a record type "
+"key) and ``:id`` (the option ID)"
+msgstr ""
+
+msgid "GET - fetches a single record type option"
+msgstr ""
+
+msgid ""
+"A single JSON object, with the same fields as the objects in the :ref"
+":`connector-type-options` response."
+msgstr ""
+
+msgid ""
+"For example, a single customer option, with URL "
+"``https://example.org/connector/customer/options/1a2b3c``, would look "
+"like this::"
 msgstr ""
 
 msgid "Record details"
@@ -391,6 +427,9 @@ msgid ""
 msgstr ""
 
 msgid "GET - fetches details for a single record"
+msgstr ""
+
+msgid "A JSON object containing all fields of the record with the requested ID."
 msgstr ""
 
 msgid ""
@@ -1378,5 +1417,19 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Supported JavaScript libraries"
+#~ msgstr ""
+
+#~ msgid "The response body must contain a JSON object with the following fields."
+#~ msgstr ""
+
+#~ msgid "``/:type/options`` - with path parameter ``:type`` - a record type key"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The response body must contain an "
+#~ "array of JSON objects, which should "
+#~ "have a limited size. Each object "
+#~ "in the array must have the "
+#~ "following fields."
 #~ msgstr ""
 
