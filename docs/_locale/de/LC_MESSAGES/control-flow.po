@@ -127,13 +127,13 @@ msgid "A parallel gateway in the process editor"
 msgstr "Ein paralleles Gateway im Prozesseditor"
 
 msgid "Use parallel gateways to model tasks that people will complete at the same time as each other, or one at a time but not in a particular order. To do this, you *fork* and *join* the sequence flow."
-msgstr "Mit parallelen Gateways können ausdrücken, dass Aktivitäten parallel bzw. in keiner bestimmten Reihenfolge ausgeführt werden sollen. Hierfür müssen Sie den Sequenzfluss `teilen` und später wieder `zusammenführen`."
+msgstr "Mit parallelen Gateways können ausdrücken, dass Aktivitäten parallel beziehungsweise in keiner bestimmten Reihenfolge ausgeführt werden sollen. Hierfür müssen Sie den Sequenzfluss `teilen` und später wieder `zusammenführen`."
 
 msgid "Forking"
 msgstr "Sequenzfluss teilen"
 
 msgid "With a parallel gateway, you can fork execution into multiple, concurrent flows. When process execution arrives in a parallel gateway, the workflow engine creates a new individual execution flow for each of the gateway’s outgoing transitions. Let’s look at the following purchase order example:"
-msgstr "Mit einem parallelen Gateway können Sie die Ausführung eines Sequenzflusses in mehrere, nebenläufige Flüsse aufteilen. Wenn die Prozessausführung an einem parallelen Gateway angekommen ist, werden eigenständige Flüsse für jede ausgehende Transition des Gateways erzeugt. Sehen wir uns dazu das folgende Beispiel an."
+msgstr "Mit einem parallelen Gateway können Sie die Ausführung eines Sequenzflusses in mehrere, parallele Flüsse aufteilen. Wenn die Prozessausführung an einem parallelen Gateway angekommen ist, werden eigenständige Flüsse für jede ausgehende Transition des Gateways erzeugt. Sehen wir uns dazu das folgende Beispiel an."
 
 msgid "A parallel gateway example"
 msgstr "Beispiel eines parallelen Gateways"

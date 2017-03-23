@@ -7,6 +7,11 @@ sys.path.append(PROJECT_PATH)
 
 from conf import *
 
+# spellcheck options
+spelling_lang='de_DE'
+tokenizer_lang='en_US'
+spelling_word_list_filename='../spelling_wordlist_de.txt'
+
 latex_documents = [
   ('index', 'SignavioWorkflowUserGuide.tex', u'Signavio Workflow Nutzerhandbuch',
    ", ".join(AUTHORS), 'manual'),

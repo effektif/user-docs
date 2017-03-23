@@ -133,7 +133,7 @@ msgid "The *Number* field stores a sequential case number. Each process uses a s
 msgstr "Das *Fallnummer*-Feld enthält eine fortlaufende Fallnummer. Jeder Prozess besitzt eine eigene Fallnummer-Sequenz für seine Fälle. In einem *Bestellungsverarbeitungsprozess* können Sie die Fallnummer zum Beispiel als Bestellnummer verwenden."
 
 msgid "The *Creator* field records the Signavio Workflow user who started the case. The :ref:`type-user` type includes name and email address fields, so you can use the case creator to configure a :ref:`send-email` action that automatically notifies the requestor of an approval process’ result."
-msgstr "Das *Ersteller*-Feld enthält Informationen über den Signavio Workflow-Nutzer, der den Fall gestartet hat. Der :ref:`type-user` enthält die Namen- und E-Mail-Adress-Felder. So können Sie den *Ersteller* des Falles dazu verwenden, um eine :ref:`send-email` Aktion zu erstellen, die den Anfragenden automatisch über den Ausgang eines Approval-Prozesses informiert.\""
+msgstr "Das *Ersteller*-Feld enthält Informationen über den Signavio Workflow-Nutzer, der den Fall gestartet hat. Der :ref:`type-user` enthält die Name- und Emailadresse-Felder. So können Sie den *Ersteller* des Falles dazu verwenden, um eine :ref:`send-email` Aktion zu erstellen, die den Anfragenden automatisch über den Ausgang eines Approval-Prozesses informiert.\""
 
 msgid "The *Start date* records when the :ref:`case-creator` started the case. In an order process, for example, you could use this as the order date."
 msgstr "Das Feld *Startdatum* enthält Informationen darüber, wann der :ref:`case-creator` einen Fall erstellt hat. In einem Bestellprozess können sie dies z.B. als Bestelldatum verwenden."

@@ -90,7 +90,7 @@ msgstr ""
 "(:ref:`emailAddress <type-email-address>`) Die Email-Adresse des Nutzers"
 
 msgid "Email address type"
-msgstr "Email-Adress-Typ"
+msgstr "Emailadresse-Typ"
 
 msgid "The *email address* type stores an email address."
 msgstr "Der Typ *Email-Adresse* enthält eine Email Adresse"

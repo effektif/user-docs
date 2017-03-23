@@ -61,7 +61,7 @@ msgid ""
 msgstr ""
 "In den `Einstellungen` können Sie festlegen in welcher Sprache Sie Signavio "
 "Workflow benutzen möchten. Des Weiteren haben Sie hier die Möglichkeit "
-"Benachrichtigungen ein- bzw. abzuschalten. "
+"Benachrichtigungen ein- beziehungsweise abzuschalten. "
 
 msgid "Uncheck the checkboxes to disable all email notifications."
 msgstr "Um Emailbenachrichtigungen abzuschalten deaktivieren Sie alle Checkboxen."
