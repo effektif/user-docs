@@ -89,13 +89,13 @@ A connector needs a descriptor to provide basic information, such as its name an
 When you implement a connector, you must make the descriptor available as the following HTTP resource.
 
 URL
-   ``/`` - the connector’s *endpoint URL*
+  ``/`` - the connector’s *endpoint URL*
 Request methods
-   GET - fetches the connector descriptor
+  GET - fetches the connector descriptor
 Response content type
   ``application/json``
-
-The response body must contain a JSON object with the following fields.
+Response body
+  A JSON object with the following fields.
 
 .. list-table:: Connector descriptor properties
    :header-rows: 1
@@ -273,9 +273,9 @@ Request methods
    GET - fetches the list of record type options
 Response content type
   ``application/json``
-
-The response body must contain an array of JSON objects, which should have a limited maximum length.
-Each object in the array must have the following fields.
+Response body
+  An array of JSON objects, which should have a limited maximum length.
+  Each object in the array must have the following fields.
 
 .. list-table:: Record type options object properties
    :header-rows: 1
@@ -315,8 +315,8 @@ Request methods
    GET - fetches a single record type option
 Response content type
   ``application/json``
-
-The response body must contain a single JSON object, with the same fields as the objects in the :ref:`connector-type-options` response.
+Response body
+  A single JSON object, with the same fields as the objects in the :ref:`connector-type-options` response.
 
 For example, a single customer option, with URL ``https://example.org/connector/customer/options/1a2b3c``, would look like this::
 
@@ -344,6 +344,8 @@ Request methods
    GET - fetches details for a single record
 Response content type
   ``application/json``
+Response body
+  A JSON object containing all fields of the record with the requested ID.
 
 For example, a customer record, with URL ``https://example.org/connector/customer/7g8h9i``, would look like this::
 
