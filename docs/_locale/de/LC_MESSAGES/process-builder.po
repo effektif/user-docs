@@ -17,6 +17,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
+msgid "Processes"
+msgstr "Prozesse"
+
 msgid "Process builder"
 msgstr "Prozesseditor"
 
@@ -1200,4 +1203,3 @@ msgstr ""
 
 #~ msgid "Supported BPMN elements"
 #~ msgstr "Unterstützte BPMN-Elemente"
-

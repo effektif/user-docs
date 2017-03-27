@@ -15,7 +15,7 @@ That person doesn’t have the job title *Meeting chair* - they’ve just adopte
 A process in Signavio Workflow can define roles, in the same way that a business meeting ‘process’ has roles for whoever chairs the meeting (the ‘Chair’) and whoever takes minutes (the ‘Secretary’).
 The following meeting process model assigns the tasks on the top row to the *Chair* and the tasks on the bottom row to the *Secretary*.
 
-.. figure:: /_static/images/process-builder/roles/example.png
+.. figure:: /_static/images/processes/roles/example.png
 
    A *Meeting* process, with tasks for *Chair* (top row) and *Secretary* (bottom row) roles
 
@@ -33,7 +33,7 @@ A process role, such as *Meeting chair*, has a different scope and only applies 
 
 To assign a role to a user task, open the task’s configuration panel, select the `Assignment` tab, and use the `Assign using a role` menu on the right-hand side.
 
-.. figure:: /_static/images/process-builder/roles/assign.png
+.. figure:: /_static/images/processes/roles/assign.png
 
    To assign a role, use the menu to create a new role or select an existing role
 
@@ -45,7 +45,7 @@ Role candidates
 You can use a role to assign multiple tasks a person from a group of candidates.
 For example, you might have a support process that includes three user tasks that you assign to a support engineer.
 
-.. figure:: /_static/images/process-builder/roles/roles.png
+.. figure:: /_static/images/processes/roles/roles.png
 
    Assigning a task to a *Support engineer* role with candidates Alice and Ben
 
@@ -74,7 +74,7 @@ You can do this by adding the role assignment to a form,
 because you can use task assignment roles as process variables,
 just like any other *User* form field.
 
-.. figure:: /_static/images/process-builder/roles/form-field.png
+.. figure:: /_static/images/processes/roles/form-field.png
 
    Adding the *Support engineer* role assignment to a form
 

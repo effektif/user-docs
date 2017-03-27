@@ -112,6 +112,19 @@ When clicking `Test it` again, we can see the JSON structure of the variable dat
 The *contract* and *salesRepresentative* variables have complex types, :ref:`type-file` and :ref:`type-user`, so the table only shows an ID.
 The *Updated value* column shows the result of assigning new values to these variables in the script.
 
+Looking up Signavio Workflow data
+---------------------------------
+
+In a JavaScript task, you might need to select a Signavio Workflow user based on external data, to assign a role.
+To do this, you can use the built-in ``users`` API to find a user by their email address.
+
+.. code:: javascript
+
+   const users = require('users');
+   reviewer = users.findByEmail(reviewerEmailAddress);
+
+This example uses the value of a previously-supplied ``reviewerEmailAddress`` :ref:`type-email-address` variable to set a ``reviewer`` :ref:`type-user` variable.
+
 Calling an external web service
 -------------------------------
 

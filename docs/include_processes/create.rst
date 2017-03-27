@@ -6,7 +6,7 @@ Creating a process
 To create a process, select *Processes* in the main menu, then the *Create new process* button.
 In the text input field, enter a process name.
 
-.. figure:: /_static/images/process-builder/create.png
+.. figure:: /_static/images/processes/create.png
 
 
 Choosing a good process name
@@ -21,6 +21,8 @@ Use the following guidelines to choose a good process name, to make the list of 
 #. Avoid vague words like ‘manage’, ‘do’, ‘process’ or ‘handle’.
 
 *Hire employee*, for example, summarises a process better than *Recruitment*.
+
+If you group or annotate process names by adding prefixes or suffixes, consider using :ref:`process-labels` instead.
 
 
 Next steps for a new process

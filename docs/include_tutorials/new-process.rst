@@ -10,7 +10,7 @@ This tutorial uses the example of a recurring process for approving some kind of
 #. running the process - starting a new ‘case’ that groups the tasks for approving one particular report.
 
 To get started, in the main menu, select *Processes*.
-This shows the *Processes* view, which you can use to create and view :ref:`processes <process-builder>`.
+This shows the *Processes* view, which you can use to create and view :ref:`processes`.
 
 .. figure:: /_static/images/tutorials/new-process/processes.png
 
@@ -90,7 +90,7 @@ Now you have created an run your process for the first time, you can repeat the 
 .. note:: Creating and running a simple approval process is just the beginning.
    There are many ways you can enhance the *Approve report* process.
    Next steps include the following.
-   
+
    * Adding an explicit approval decision using an exclusive gateway
    * Adding a result notification using the send email action
    * Using organisation groups to define task candidates

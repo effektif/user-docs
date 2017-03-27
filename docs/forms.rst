@@ -10,7 +10,7 @@ You can use forms in two places: form triggers and user tasks.
 Form triggers
 -------------
 
-You use a :ref:`form trigger <form-trigger>` 
+You use a :ref:`form trigger <form-trigger>`
 to set the values of :ref:`workflow variables <variables>`
 when you start a new case for a process.
 
@@ -24,7 +24,7 @@ and two fields.
 The icon next to the `Name` field label indicates that the field has an additional description.
 
 To add a form trigger to a process,
-use the process builder’s :ref:`Triggers <triggers>` page to 
+use the process builder’s :ref:`Triggers <triggers>` page to
 select `When a form is submitted`.
 
 
@@ -33,7 +33,7 @@ select `When a form is submitted`.
 User task forms
 ---------------
 
-You use a :ref:`user task <user-task>` form 
+You use a :ref:`user task <user-task>` form
 to view and edit the values of :ref:`workflow variables <variables>`.
 
 .. figure:: /_static/images/forms/user-task-form.png
@@ -41,7 +41,7 @@ to view and edit the values of :ref:`workflow variables <variables>`.
    Viewing and editing values on a user task form
 
 To add a user task form to a process,
-use the process builder’s :ref:`Actions <actions>` page to add a user task, 
+use the process builder’s :ref:`Actions <actions>` page to add a user task,
 and on the user task’s configuration panel, select the `Form` tab.
 
 
@@ -57,6 +57,7 @@ it appears on the case view’s event stream:
 
 You can use the `forms` link at the top of event stream to only show form data.
 
+.. _form-builder:
 
 Using the form builder
 ----------------------
@@ -100,7 +101,7 @@ The `Fields` section shows the fields you add to a form:
 
    Configuring a form field in the process editor’s form builder
 
-Select a field in the `Fields` section to open its configuration panel. 
+Select a field in the `Fields` section to open its configuration panel.
 The top row of the field configuration panel shows the field type label,
 the editable field name.
 
@@ -147,4 +148,3 @@ User fields also have a `Candidates` option that you can use to choose which use
 .. figure:: /_static/images/forms/builder-user.png
 
    User field configuration
-

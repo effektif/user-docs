@@ -38,6 +38,8 @@ Description
 Developer
 Diagrammeditor
 Diagrammelement
+Diagrammfreigaben
+Diagrammzustand
 DMN
 Dokumentenfreigabeprozess
 Dokumentenfreigabeprozesse
@@ -46,6 +48,7 @@ Drag
 Drive
 Drop
 Editierungssymbol
+elements
 Email
 Emailadresse
 Emailadressen
@@ -112,6 +115,7 @@ Label
 Lanes
 Lead
 Leads
+libraries
 Lodash
 Logeinträge
 Markdown
@@ -198,6 +202,7 @@ Statusänderung
 Statusbalken
 Stream
 String
+Supported
 Supportmitarbeiter
 Supportprozess
 Swimlanes
@@ -239,3 +244,14 @@ Workflowdaten
 Workflowmodellierungs
 Workflows
 Workflowvariable
+Analytics
+Reporting
+Teamressourcen
+Teamaufgaben
+aggregiert
+Reportdaten
+Reportliste
+Prozessvariable
+Tortendiagramm
+Bewertungsvariablen
+Reportnamen

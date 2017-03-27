@@ -21,14 +21,22 @@ Form trigger
 ^^^^^^^^^^^^
 
 With a form trigger, you use a form to start a process.
-After selecting the form trigger, you can use the form builder to specify form fields.
+After selecting the form trigger, use the :ref:`form builder <form-builder>` to specify form fields.
 
-.. figure:: /_static/images/process-builder/trigger/form.png
+.. figure:: /_static/images/processes/trigger/form.png
 
    Form trigger configuration - using the form builder to define a trigger form
 
-.. todo
-.. For more information on the form builder, see Form builder.
+For some processes, such as an HR request from an employee, the person who starts the case doesn’t have access to view the case.
+This means that after using a form trigger to start a case, they don’t see the case details view, and might not know that the case started successfully.
+For these processes, you can now use the *Confirmation Message* template to show a message to the case creator.
+
+.. figure:: /_static/images/processes/trigger/form-confirmation.png
+
+   Form trigger confirmation - shown to the case creator after starting a case
+
+In the template, you can use placeholders to insert trigger form field values.
+If you do not define a confirmation message, then you won’t see a confirmation page when the case starts.
 
 
 .. _email-trigger:
@@ -40,7 +48,7 @@ An email trigger starts a new case for each email that you send to the trigger�
 Note this differs from reading an existing email account, such as your own.
 After selecting the email trigger, you can see its email address:
 
-.. figure:: /_static/images/process-builder/trigger/mail.png
+.. figure:: /_static/images/processes/trigger/mail.png
 
    Mail trigger configuration
 
@@ -54,7 +62,7 @@ the process trigger address will also receive any email sent to the mailing list
 starting the process in Signavio Workflow.
 You will then see the email in the event stream:
 
-.. figure:: /_static/images/process-builder/trigger/mail-event.png
+.. figure:: /_static/images/processes/trigger/mail-event.png
 
    Trigger mail in stream
 
@@ -72,7 +80,7 @@ When you have configured a Salesforce service,
 you can select it as a process trigger,
 so that messages from Salesforce will now trigger new cases.
 
-.. figure:: /_static/images/process-builder/trigger/salesforce.png
+.. figure:: /_static/images/processes/trigger/salesforce.png
 
    Example of a Salesforce trigger
 
