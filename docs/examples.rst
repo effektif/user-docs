@@ -13,16 +13,21 @@ If you don’t want to use an example you have copied, you can :ref:`delete it <
 
 .. include:: include_examples/approve-document.rst
 .. include:: include_examples/approve-expense-claim.rst
+.. include:: include_examples/approve-meeting-minutes.rst
 .. include:: include_examples/approve-vacation-request.rst
+.. include:: include_examples/arrange-business-trip.rst
 .. include:: include_examples/fill-job-vacancy.rst
 .. include:: include_examples/follow-up-contact.rst
 .. include:: include_examples/fulfil-purchase-order.rst
 .. include:: include_examples/hire-employee.rst
 .. include:: include_examples/initiate-project.rst
 .. include:: include_examples/invoice-customer.rst
+.. include:: include_examples/know-your-customer.rst
+.. include:: include_examples/onboard-new-hire.rst
 .. include:: include_examples/open-new-customer-account.rst
 .. include:: include_examples/plan-trade-fair-booth.rst
 .. include:: include_examples/process-insurance-claim.rst
+.. include:: include_examples/publish-blog-post.rst
 .. include:: include_examples/respond-to-customer-email.rst
 .. include:: include_examples/ship-product-from-warehouse.rst
 .. include:: include_examples/sign-contract.rst
