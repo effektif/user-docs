@@ -7,7 +7,7 @@ The *Case* variable contains the data that starting a case creates.
 This variable has several fields.
 You cannot change most of this data, except for the case name and due date.
 
-An email has a composite type, with the follow properties.
+An email has a composite type, with the following properties.
 
 .. list-table::
    :header-rows: 1
@@ -63,6 +63,7 @@ The *Name* field stores the name that either the :ref:`case-creator` entered man
 Case participants can edit this name.
 You might use the case name variable in a :ref:`send-email` action configuration, to send emails that clearly identify their context by prefixing the subject line with the case name.
 
+You can update the case name in a :ref:`JavaScript action <case-updates>` by assigning a value to ``_case.name``.
 
 .. _case-number:
 
@@ -99,6 +100,8 @@ Due date
 
 The *Due date* field stores the due date that case participants can set on the case view.
 Unlike the other case variables, the due date does not always have a value.
+
+You can update the case due date in a :ref:`JavaScript action <case-updates>` by assigning a value to ``_case.dueDate``.
 
 
 .. _case-link:
