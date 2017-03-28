@@ -112,6 +112,26 @@ When clicking `Test it` again, we can see the JSON structure of the variable dat
 The *contract* and *salesRepresentative* variables have complex types, :ref:`type-file` and :ref:`type-user`, so the table only shows an ID.
 The *Updated value* column shows the result of assigning new values to these variables in the script.
 
+.. _case-updates:
+
+Updating case information
+-------------------------
+
+The process variables always include the built-in :ref:`Case <case-variable>` variable, which contains information about the current case.
+Sometimes, you want to update this case information using data from process variables.
+You can update some of the this case variable’s fields, as follows.
+
+.. code:: javascript
+
+   // Set the case name using a template.
+   _case.name = `Case ${_case.caseNumber}`;
+
+   // Set the case’s due date using a date variable set on a form.
+   _case.dueDate = releaseDate;
+
+A :ref:`case name template <details>` can only use :ref:`form-trigger` fields to set the case name when the process starts.
+However, when you can set the case name directly in a JavaScript action, you don’t have this restriction.
+
 Looking up Signavio Workflow data
 ---------------------------------
 
