@@ -14,6 +14,7 @@ The case brings together a set of tasks, a discussion and documents, and allows 
 .. include:: include_cases/start-adhoc.rst
 .. include:: include_cases/start-process.rst
 .. include:: include_cases/view.rst
+.. include:: include_cases/other-activities.rst
 .. include:: include_cases/configure-columns.rst
 .. include:: include_cases/comments.rst
 .. include:: include_cases/documents.rst
