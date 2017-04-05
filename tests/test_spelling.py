@@ -16,7 +16,7 @@ def test_spelling_en(app, status, warning):
 def test_spelling_de(app, status, warning):
     app.build()
     exceptions = ['integration/connectors', 'tutorials', 'settings', # Not to translated.
-        'processes', 'action-types', 'analytics', 'control-flow', 'examples'] # Pending tranlsation
+        'processes', 'action-types', 'analytics', 'control-flow', 'examples', 'cases'] # Pending tranlsation
     with open(app.outdir + '/output.txt') as f:
         lines = f.readlines()
         parsedLines = []
