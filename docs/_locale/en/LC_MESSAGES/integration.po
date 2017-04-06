@@ -3,11 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
-"POT-Creation-Date: 2017-03-27 11:34+0200\n"
-=======
-"POT-Creation-Date: 2017-03-23 13:37+0100\n"
->>>>>>> b4fe784... translate single option connector endpoint #212
+"POT-Creation-Date: 2017-04-06 18:35+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -949,6 +945,24 @@ msgid ""
 " variables in the script."
 msgstr ""
 
+msgid "Updating case information"
+msgstr ""
+
+msgid ""
+"The process variables always include the built-in :ref:`Case <case-"
+"variable>` variable, which contains information about the current case. "
+"Sometimes, you want to update this case information using data from "
+"process variables. You can update some of the this case variable’s "
+"fields, as follows."
+msgstr ""
+
+msgid ""
+"A :ref:`case name template <details>` can only use :ref:`form-trigger` "
+"fields to set the case name when the process starts. However, when you "
+"can set the case name directly in a JavaScript action, you don’t have "
+"this restriction."
+msgstr ""
+
 msgid "Looking up Signavio Workflow data"
 msgstr ""
 
@@ -1444,11 +1458,6 @@ msgstr ""
 #~ msgid "``/:type/options`` - with path parameter ``:type`` - a record type key"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "The response body must contain an "
-#~ "array of JSON objects, which should "
-#~ "have a limited size. Each object "
-#~ "in the array must have the "
-#~ "following fields."
+#~ msgid "Updating case variables"
 #~ msgstr ""
 
