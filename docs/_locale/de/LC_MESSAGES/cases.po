@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-08 11:47+0100\n"
-"PO-Revision-Date: 2017-03-08 19:40+0100\n"
+"POT-Creation-Date: 2017-04-06 13:12+0200\n"
+"PO-Revision-Date: 2017-04-06 18:15+0200\n"
 "Last-Translator: Timotheus Kampik <timotheus.kampik@signavio.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 "Language: de\n"
-"X-Generator: Poedit 1.8.12\n"
+"X-Generator: Poedit 2.0\n"
 
 msgid "Cases"
 msgstr "Fälle"
@@ -111,6 +111,36 @@ msgstr "Die Fall-Detailansicht zeigt eine Aufgabe und den Ereignisfeed an"
 msgid "Each case has an event stream that acts as an audit log and includes the information that case participants share during collaboration, such as comments, documents and links."
 msgstr "Jeder Fall besitzt einen Ereignisfeed das als Audit-Log dient und die Informationen beinhaltet, die Fallbeteiligte während ihrer Zusammenarbeit teilen, z.B. Kommentare, Dokumente und Links."
 
+msgid "Other open activities"
+msgstr "Weitere Aktivitäten"
+
+msgid "The *Tasks* list shows the case’s open and closed tasks. In most cases, completing the last task will close the case. However a case must sometimes wait for a sub-process, which doesn’t correspond to a task in the *Tasks* list. Instead, the case view lists open sub-processes under the *Other open activities* heading, underneath the *Tasks* list."
+msgstr "Die *Aufgaben*-Liste zeigt offenen und geschlossene Aktivitäten eines Falls an. Typischerweise wird nach der Ausführung der letzten Aktivität der Fall geschlossen. Allerdings muss ein Fall manchmal auf einen Unterprozess warten. Offene Unterprozesse werden in der Fallansicht unter *Weitere Aktivitäten* angezeigt."
+
+msgid "The case details view, showing a link to a sub-process under ‘Other open activities’"
+msgstr "Die Fall-Detailansicht zeigt einen Link zu einem Unterprozess under *Weitere Aktivitäten* an."
+
+msgid "This *Invoice customer* example shows the following event stream, in chronological order."
+msgstr "Im Beispiel *Zahlung sicherstellen* treten die folgenden Ereignisse in chronologischer Reihenfolge auf."
+
+msgid "The case started by sending an invoice by email."
+msgstr "Der Fall beginnt mit dem Senden einer Rechnung per Email."
+
+msgid "The case created a *Check payment* task."
+msgstr "Im Fall wird automatisch eine *Zahlung überprüfen*-Aktivität erstellt."
+
+msgid "Someone completed the *Check payment* task, with the result *Unpaid*."
+msgstr "Der *Zahlung überprüfen*-Task wird mit dem Ergebnis *nicht bezahlt* beendet."
+
+msgid "The case sent a payment reminder email to the customer."
+msgstr "Das System verschickt eine Zahlungserinnerung per Email."
+
+msgid "The case started a *Payment recovery* sub-process."
+msgstr "Der Fall startet den Unterprozess *Zahlung einziehen*."
+
+msgid "At this stage, the case will wait for the *Payment recovery* sub-process before it creates the next task in the invoice process. Until then, the *Tasks* list will continue to only show the completed task, and the *Other open activities* list shows a link to the sub-process case."
+msgstr "Nun wartet das System auf den Abschluss des Unterprozesses, bevor es die nächste Aktivität des Falls erstellt. Bis dann wird die *Aktivitäten*-Liste lediglich abgeschlossene Aktivitäten anzeigen, während die *Weitere Aktivitäten*-Liste einen Link zum Fall des Unterprozesses enthält."
+
 msgid "Configuring case view table columns"
 msgstr "Die Spalten in der Fälle-Ansicht anpassen"
 
@@ -118,7 +148,7 @@ msgid "The *Cases* view’s table includes columns for workflow :ref:`variables 
 msgstr "Die Tabelle in der *Fälle*-Ansicht enthält :ref:`Variablen <variables>` aus Ihrem Workflow. Normalerweise sind dies Formularfelder aus dem Auslöser oder Aufgaben. Sie können Konfigurieren welche Felder hier ausgewählt werden, damit Sie immer einen klaren Überblick über die Fälle Ihrer Prozesse haben."
 
 msgid "To customize the table columns, open the Cases view and click the top-right *Configure columns* button."
-msgstr "Um die Spalten anzupassen, öffnen Sie die Fälle-Ansicht und klicken Sie auf *Spalten konfigurieren* in der oberen rechten Ecke. "
+msgstr "Um die Spalten anzupassen, öffnen Sie die Fälle-Ansicht und klicken Sie auf *Spalten konfigurieren* in der oberen rechten Ecke."
 
 msgid "Configuring table columns"
 msgstr "Tabellen-Spalten konfigurieren"
