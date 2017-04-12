@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-12 15:42+0200\n"
-"PO-Revision-Date: 2017-04-12 19:16+0200\n"
+"PO-Revision-Date: 2017-04-12 19:34+0200\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -503,7 +503,7 @@ msgid "Configuring basic authentication"
 msgstr "HTTP Basic Authentication konfigurieren"
 
 msgid "When you configure a connector to use Basic authentication, Workflow Accelerator will pre-emptively include an ``Authorization`` header when sending requests to the connector endpoints. In Basic authentication, the header value consists of the authentication scheme name ``Basic`` followed by a space and the Base64-encoded user name and password, separated by a colon (``signavio:8n4f-Rm3V-Xz0r-Igew-L1fK``). This results in a request header that looks like::"
-msgstr ""
+msgstr "Wenn Sie eine Datenschnittstelle konfigurieren, um HTTP Basic Authentication zu verwenden, wird Signavio Workflow Accelerator präventiv einen ``Authorization``-Header erstellen, wenn es Anfragen an die Endpunkte der Datenschnittstelle versendet. In der Basic Authentication besteht der Header-Wert aus dem Namen des Authentifizierungsschemas - ``Basic`` - auf das ein Leerzeichen und ein Base64-enkodierter Benutzername und ein Passwort folgt. Getrennt wird  es durch einen Doppelpunkt (``Signavio:8n4f-Rm3V-Xz0r-Igew-L1fK'``). Dadurch entsteht ein Request-Header, der aussieht wie::"
 
 msgid "Sending this header with every request avoids an additional *401 Unauthorized* response and a new request for the authentication challenge."
 msgstr "Wenn Sie diesen Header bei jeder Anfrage mitsenden, vermeidet er eine zusätzliche *401 Unauthorized*-Antwort und eine neue Authentifizierungsanfrage."
@@ -778,7 +778,6 @@ msgstr "Navigieren Sie wieder in ihrem Nutzermenü oben rechts zu `Organisations
 msgid "Select `Upload document`, and select the ``workflowOutboundMessage.wsdl`` file you saved earlier."
 msgstr "Klicken Sie auf `Datei hochladen` und wählen Sie die Datei, die Sie zuvor gespeichert haben."
 
-#, fuzzy
 msgid "Now you can use the new :ref:`Salesforce trigger <trigger-salesforce>` in Workflow Accelerator."
 msgstr "Der :ref:`Salesforce-Auslöser <trigger-salesforce>` steht nun in all Ihren Prozessen zur Verfügung."
 

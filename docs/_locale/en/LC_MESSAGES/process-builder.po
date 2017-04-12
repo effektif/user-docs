@@ -8,11 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-<<<<<<< HEAD
+
 "POT-Creation-Date: 2017-03-21 17:57+0100\n"
-=======
-"POT-Creation-Date: 2017-03-15 13:13+0100\n"
->>>>>>> new_master
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -855,4 +852,3 @@ msgstr ""
 
 #~ msgid "Supported BPMN elements"
 #~ msgstr ""
-
