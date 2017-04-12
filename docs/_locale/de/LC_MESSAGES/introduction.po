@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-12 15:42+0200\n"
-"PO-Revision-Date: 2017-04-12 18:24+0200\n"
+"PO-Revision-Date: 2017-04-12 19:15+0200\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgid "A process - strictly a process *model* - defines a template for repetitiv
 msgstr "Prozesse - oder streng genommen *Prozessmodelle* - sind Vorlagen für wiederkehrende Arbeiten. Typischerweise werden Prozesse von Mitarbeitern angelegt, die koordinieren, welche Aufgaben erledigt werden müssen um ein bestimmtes Ziel zu erreichen. Zum Beispiel müssen im Fall einer Neuanstellung die Aufgaben :ref:`Mitarbeiter einstellen <hire-employee>`, *Vertrag vorbereiten* und *Email Konto anlegen* abgeschlossen werden."
 
 msgid "After you publish a process, you can start many individual cases. Workflow Accelerator keeps track of which tasks and actions you have to perform for each case. Cases bring people together with relevant information that provides context for completing the tasks. You can also use cases as collaboration spaces for people to discuss and create new tasks for individual cases on the fly."
-msgstr "Nachdem ein Prozess veröffentlicht wurde können viele individuelle Fälle gestartet werden. Signavio Workflow Accelerator überwacht dabei welche Aufgaben und Aktivitäten ausgeführt werden müssen. Mit Fällen können Sie Kollegen zusammenbringen um alle relevanten Informationen, die zur Durchführung benötigt werden, zusammenzutragen. In jedem Fall können alle Themen rund um eine Aufgabe diskutiert und weitere Aufgaben on-the-fly angelegt werden."
+msgstr "Nachdem ein Prozess veröffentlicht wurde können viele individuelle Fälle gestartet werden. Signavio Workflow Accelerator überwacht dabei welche Aufgaben und Aktivitäten ausgeführt werden müssen. Mit Fällen können Sie Kollegen zusammenbringen um alle relevanten Informationen, die zur Durchführung benötigt werden, zusammenzutragen. In jedem Fall können alle Themen rund um eine Aufgabe diskutiert und weitere Aufgaben spontan angelegt werden."
 
 msgid "When to use Workflow Accelerator"
 msgstr "Wann ist Signavio Workflow Accelerator zu verwenden"

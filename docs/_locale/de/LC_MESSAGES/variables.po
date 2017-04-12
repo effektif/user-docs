@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-12 15:42+0200\n"
-"PO-Revision-Date: 2017-04-12 18:47+0200\n"
+"PO-Revision-Date: 2017-04-12 19:14+0200\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -136,7 +136,7 @@ msgid "The *Number* field stores a sequential case number. Each process uses a s
 msgstr "Das *Fallnummer*-Feld enthält eine fortlaufende Fallnummer. Jeder Prozess besitzt eine eigene Fallnummer-Sequenz für seine Fälle. In einem *Bestellungsverarbeitungsprozess* können Sie die Fallnummer zum Beispiel als Bestellnummer verwenden."
 
 msgid "The *Creator* field records the Workflow Accelerator user who started the case. The :ref:`type-user` type includes name and email address fields, so you can use the case creator to configure a :ref:`send-email` action that automatically notifies the requestor of an approval process’ result."
-msgstr ""
+msgstr "Das *Ersteller*-Feld enthält Informationen über den Signavio Workflow Accelerator-Nutzer, der den Fall gestartet hat. Der :ref:`type-user` enthält die Name- und Emailadresse-Felder. So können Sie den *Ersteller* des Falles dazu verwenden, um eine :ref:`send-email` Aktion zu erstellen, die den Anfragenden automatisch über den Ausgang eines Approval-Prozesses informiert.\""
 
 msgid "The *Start date* records when the :ref:`case-creator` started the case. In an order process, for example, you could use this as the order date."
 msgstr "Das Feld *Startdatum* enthält Informationen darüber, wann der :ref:`case-creator` einen Fall erstellt hat. In einem Bestellprozess können sie dies z.B. als Bestelldatum verwenden."
