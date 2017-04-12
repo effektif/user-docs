@@ -3,8 +3,8 @@
 My profile
 ==========
 
-On the top-right drop-down menu, select `My Profile` 
-to view and edit your own Signavio Workflow user settings.
+On the top-right drop-down menu, select `My Profile`
+to view and edit your own Signavio Workflow Accelerator user settings.
 The profile page has four sections:
 
 * :ref:`Me <me>`
@@ -29,7 +29,7 @@ or change your password.
 Preferences
 -----------
 
-Use the `Preferences` section to configure the Signavio Workflow user interface and notifications.
+Use the `Preferences` section to configure the Workflow Accelerator user interface and notifications.
 
 .. figure:: /_static/images/profile/preferences.png
 
@@ -47,13 +47,13 @@ and indicates whether you have the organization administrator role.
 .. figure:: /_static/images/profile/organizations.png
 
 You can use the leave icon to leave an organisation.
-When you leave an organisation, Signavio Workflow will:
+When you leave an organisation, Workflow Accelerator will:
 
 * remove you from the organisation’s groups
 * remove you from process models (process owner, access controls, action candidates)
 * unassign you from tasks in the organisation’s processes
 * remove your participation in cases of the organisation’s processes
-* free up one of the organisation’s Signavio Workflow licenses.
+* free up one of the organisation’s Workflow Accelerator licenses.
 
 
 .. _services:
@@ -65,4 +65,3 @@ The `Services` section shows your personal configurations for third-party servic
 such as a linked Google Account.
 
 .. figure:: /_static/images/profile/services.png
-

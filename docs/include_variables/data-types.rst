@@ -140,7 +140,7 @@ ID
 ^^
 
 An ID has special kind of string type.
-Signavio Workflow creates these IDs to identify objects; they have no other meaning.
+Workflow Accelerator creates these IDs to identify objects; they have no other meaning.
 An ID string looks like ``53fae958036471cea136ea83``.
 
 

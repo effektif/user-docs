@@ -4,7 +4,7 @@ JavaScript integration
 ======================
 
 You can integrate with external systems by writing JavaScript code in a :ref:`javascript-action`.
-Signavio Workflow runs the code on the server, using `Node.js <https://nodejs.org>`_.
+Signavio Workflow Accelerator runs the code on the server, using `Node.js <https://nodejs.org>`_.
 As well as Node.js’ JavaScript API, scripts can use additional libraries (see below).
 
 Script task configuration
@@ -132,10 +132,10 @@ You can update some of the this case variable’s fields, as follows.
 A :ref:`case name template <details>` can only use :ref:`form-trigger` fields to set the case name when the process starts.
 However, when you can set the case name directly in a JavaScript action, you don’t have this restriction.
 
-Looking up Signavio Workflow data
+Looking up Workflow Accelerator data
 ---------------------------------
 
-In a JavaScript task, you might need to select a Signavio Workflow user based on external data, to assign a role.
+In a JavaScript task, you might need to select a Workflow Accelerator user based on external data, to assign a role.
 To do this, you can use the built-in ``users`` API to find a user by their email address.
 
 .. code:: javascript
@@ -157,7 +157,7 @@ in an HTTP POST request to an external web service.
 
 This example uses a test endpoint configured using `Mocky <http://www.mocky.io/>`_
 to return an HTTP response.
-This has the following result in the Signavio Workflow test console:
+This has the following result in the Workflow Accelerator test console:
 
 .. figure:: /_static/images/action-types/javascript/javascript-8.png
 
@@ -170,5 +170,5 @@ an updated value for the ``startDate`` variable,
 changing the date from ``2015-06-15`` to ``2015-06-16``.
 
 The script then parses this JSON response using ``JSON.parse``
-and updates the ``startDate`` variable in Signavio Workflow,
+and updates the ``startDate`` variable in Workflow Accelerator,
 as shown in the *Updated value* column in the test console’s variables table.

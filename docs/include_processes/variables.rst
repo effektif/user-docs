@@ -17,8 +17,8 @@ You can also create variables in a :ref:`javascript-action`, to capture data tha
 
    A trigger form that populates *Name* and *Date of birth* variables for use in a workflow
 
-In addition to your own workflow variables, Signavio Workflow automatically creates variables that give you access to additional data in each case.
-The :ref:`case-variable` contains data from when Signavio Workflow creates the case.
+In addition to your own workflow variables, Workflow Accelerator automatically creates variables that give you access to additional data in each case.
+The :ref:`case-variable` contains data from when Workflow Accelerator creates the case.
 An :ref:`email-trigger` adds an :ref:`Email variable <trigger-email-variable>` that contains the trigger email.
 
 Variables can have different :ref:`data-types` that determine which kind of data the variable stores, such as text or a date, and whether the data is a single value or contains multiple fields.

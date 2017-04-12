@@ -17,7 +17,7 @@ After creating a Box `Upload file` action,
 the configuration panel shows a button to start configuring the account.
 
 When you click the `Configure a Box account` button,
-a pop-up window will open for you to authorise Signavio Workflow to use your Box account.
+a pop-up window will open for you to authorise Workflow Accelerator to use your Box account.
 After logging in to your Box account, if you have not already logged in,
 Box shows an authorization page.
 
@@ -25,7 +25,7 @@ Box shows an authorization page.
 
    Box permission grant, after logging in to Box
 
-After granting access, the pop up will close and Signavio Workflow will have connected to your Box account.
+After granting access, the pop up will close and Workflow Accelerator will have connected to your Box account.
 
 Upload file action
 ^^^^^^^^^^^^^^^^^^
@@ -51,5 +51,5 @@ then you can use that to save each customer’s files in a separate folder.
 Use a forward slash (``/``) to separate nested subfolder levels.
 
 Next to `Files to upload`, you can select the variable field containing one or more files to upload.
-If the process did not already include a file variable, Signavio Workflow automatically creates a variable called 'File'.
-If the process variables did include a file or list of files, Signavio Workflow preselects it.
+If the process did not already include a file variable, Workflow Accelerator automatically creates a variable called 'File'.
+If the process variables did include a file or list of files, Workflow Accelerator preselects it.

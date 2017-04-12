@@ -1,5 +1,5 @@
-Signavio Workflow User Guide
-============================
+Signavio Workflow Accelerator User Guide
+========================================
 
 Skip to the :ref:`tutorials` if you don’t want to read a manual.
 

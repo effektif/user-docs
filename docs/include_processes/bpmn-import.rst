@@ -3,7 +3,7 @@
 BPMN import
 -----------
 
-You can import a Signavio Workflow process model from a BPMN 2.0 XML file.
+You can import a Workflow Accelerator process model from a BPMN 2.0 XML file.
 You can use this to import a model that you created in another tool,
 or to load a file that you saved using the :ref:`BPMN export <bpmn-export>` option.
 
@@ -14,8 +14,8 @@ click the `Import BPMN` button and select the BPMN XML file.
 
    The `Import BPMN` button on the `Processes` page
 
-Signavio Workflow does not support all BPMN 2.0 elements,
-so the process may appear differently in Signavio Workflow.
+Workflow Accelerator does not support all BPMN 2.0 elements,
+so the process may appear differently in Workflow Accelerator.
 The following table lists supported BPMN elements, and the corresponding action type.
 
 .. list-table:: Supported BPMN elements
@@ -64,4 +64,4 @@ The following table lists supported BPMN elements, and the corresponding action 
    * - User task
      - :ref:`user-task`
 
-Signavio Workflow removes unsupported elements, such as message events.
+Workflow Accelerator removes unsupported elements, such as message events.

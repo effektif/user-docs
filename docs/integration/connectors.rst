@@ -3,16 +3,16 @@
 Custom data connectors
 ======================
 
-When you define a process in Signavio Workflow, you often include your own data in the process definition, such as the list of options for a form field.
+When you define a process in Signavio Workflow Accelerator, you often include your own data in the process definition, such as the list of options for a form field.
 This works well for small lists that don’t change often or that belong to the process, such as a list of document statuses in a document approval process.
 However, fixed lists in the process definition become difficult to maintain when the data changes frequently or includes a large number of items, such as a list of products or customers.
 
-With Signavio Workflow, you can also integrate dynamic structured data from other IT systems into your workflows.
+With Workflow Accelerator, you can also integrate dynamic structured data from other IT systems into your workflows.
 The workflow system fetches data from a third-party system using a *connector*, which a customer or a partner implements and hosts.
 
-A connector provides a web service that translates between the external system and Signavio Workflow.
-The connector implements a defined interface, which Signavio Workflow uses to access data in a format it can use.
-Signavio Workflow and the connector communicate over *HTTP* or *HTTPS*, which makes it possible to implement connectors in any programming language.
+A connector provides a web service that translates between the external system and Workflow Accelerator.
+The connector implements a defined interface, which Workflow Accelerator uses to access data in a format it can use.
+Workflow Accelerator and the connector communicate over *HTTP* or *HTTPS*, which makes it possible to implement connectors in any programming language.
 
 Using a connector
 -----------------
@@ -42,8 +42,8 @@ To implement a connector, you publish three different kinds of resource.
 #. :ref:`connector-type-option` - a single record from the :ref:`connector-type-options` list.
 #. :ref:`connector-record-details` (optional) - all fields for one record from the list of records.
 
-Signavio Workflow accesses the connector on the web, via the public Internet, or via a private intranet for an on-premise installation.
-Signavio Workflow calls the connector’s URL the *endpoint URL*.
+Workflow Accelerator accesses the connector on the web, via the public Internet, or via a private intranet for an on-premise installation.
+Workflow Accelerator calls the connector’s URL the *endpoint URL*.
 
 For example, consider a connector that accesses a fictional customer database, that you publish at the endpoint URL ``https://example.org/connector``.
 In this example, each customer record has the following fields.
@@ -149,7 +149,7 @@ In the JSON response, the ``typeDescriptors`` property’s value contains an arr
    * - ``optionsAvailable``
      - Boolean value - ``true`` indicates that the connector provides a list of record options, used to provide a list in the user interface for user selection
    * - ``fetchOneAvailable``
-     - Boolean value - ``true`` indicates that Signavio Workflow can fetch single records by the ID used in the options list
+     - Boolean value - ``true`` indicates that Workflow Accelerator can fetch single records by the ID used in the options list
 
 For example, the JSON object for a customer record type descriptor, without any fields, would look like this::
 
@@ -331,7 +331,7 @@ Record details
 ^^^^^^^^^^^^^^
 
 When you use a connector form field to select a record, you can use the record’s data in the workflow.
-Signavio Workflow only stores the record’s ID as a reference, and fetches the entire record when needed, when accessing the nested data.
+Workflow Accelerator only stores the record’s ID as a reference, and fetches the entire record when needed, when accessing the nested data.
 
 To make a record’s fields available, in the :ref:`connector-descriptor`, set the ``fetchOneAvailable`` flag to ``true``.
 The connector must also make the records available as the following HTTP resource.
@@ -582,7 +582,7 @@ Select *Add new connector* and enter the connector’s endpoint URL.
 
    Adding a new connector with the endpoint URL ``https://example.org/connector``
 
-When you add a connector, Signavio Workflow fetches the connector descriptor and shows a summary:
+When you add a connector, Workflow Accelerator fetches the connector descriptor and shows a summary:
 
 .. figure:: /_static/images/integration/connectors/configure.png
 
@@ -595,14 +595,14 @@ Deleting a connector
 --------------------
 
 You can delete a connector if you no longer wish to use it.
-On the connector’s top-right menu, select *Delete connector* to remove its configuration from Signavio Workflow.
+On the connector’s top-right menu, select *Delete connector* to remove its configuration from Workflow Accelerator.
 If you delete a connector by mistake, select *Add new connector* and enter the endpoint URL again.
 
 Authentication
 --------------
 
 Publishing a connector makes it publicly accessible, as well as any data that the connector provides.
-To prevent unauthorized access, the connector can implement authentication, so that only Signavio Workflow can access the data.
+To prevent unauthorized access, the connector can implement authentication, so that only Workflow Accelerator can access the data.
 Connectors may use one of two authentication mechanisms.
 
 HTTP Basic authentication
@@ -622,7 +622,7 @@ To use basic authentication, use the *Authentication* field to select *HTTP Basi
 
    Configuring basic authentication
 
-When you configure a connector to use Basic authentication, Signavio Workflow will pre-emptively include an ``Authorization`` header when sending requests to the connector endpoints.
+When you configure a connector to use Basic authentication, Workflow Accelerator will pre-emptively include an ``Authorization`` header when sending requests to the connector endpoints.
 In Basic authentication, the header value consists of the authentication scheme name ``Basic`` followed by a space and the Base64-encoded user name and password, separated by a colon (``signavio:8n4f-Rm3V-Xz0r-Igew-L1fK``).
 This results in a request header that looks like::
 
@@ -633,7 +633,7 @@ Sending this header with every request avoids an additional *401 Unauthorized* r
 Token authentication
 ^^^^^^^^^^^^^^^^^^^^
 
-Similar to an API key, you can choose a password (token) that Signavio Workflow will include in a request header field or URL query string, for every request it sends to the connector endpoints.
+Similar to an API key, you can choose a password (token) that Workflow Accelerator will include in a request header field or URL query string, for every request it sends to the connector endpoints.
 In the connector configuration, you can choose between a request header field or a URL query string parameter, and specify the header or parameter name.
 
 .. warning:: Token authentication sends an unencrypted password over the network, so you should only allow access to private connectors via HTTPS.
@@ -664,7 +664,7 @@ This results in HTTP requests with a URL query string, like this::
    GET /?token=OG40Zi1SbTNWLVh6MHItSWdldy1MMWZL HTTP/1.1
    Host: example.org
 
-.. warning:: HTTP does not encrypt query string parameters, which typically appear in log files, so only use query string token authentication for testing a connector on a trusted network with the on-premise edition of Signavio Workflow, and switch to a header field token for production use.
+.. warning:: HTTP does not encrypt query string parameters, which typically appear in log files, so only use query string token authentication for testing a connector on a trusted network with the on-premise edition of Workflow Accelerator, and switch to a header field token for production use.
 
 Connector examples
 ------------------

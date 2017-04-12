@@ -23,7 +23,7 @@ Actions
 ^^^^^^^
 
 The core process consists of tasks for the signer to review the document and then sign it.
-Signavio Workflow then archives the signed document and notifies the requester.
+Workflow Accelerator then archives the signed document and notifies the requester.
 
 .. figure:: /_static/images/examples/sign-contract.png
 

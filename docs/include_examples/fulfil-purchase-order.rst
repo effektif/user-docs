@@ -42,8 +42,8 @@ Fields
 ^^^^^^
 
 * *Purchase order* (File, required) - the complete order details, including order lines.
-  Signavio Workflow forms don’t support tabular data, so you cannot enter order lines normally.
-* *PO reference* (Text, required) - the purchase order reference, extracted from the purchase order itself, to identify the case in Signavio Workflow
+  Workflow Accelerator forms don’t support tabular data, so you cannot enter order lines normally.
+* *PO reference* (Text, required) - the purchase order reference, extracted from the purchase order itself, to identify the case in Workflow Accelerator
 * *Customer email* (Email address, required) - used to send notifications.
 
 Extensions
