@@ -133,7 +133,7 @@ A :ref:`case name template <details>` can only use :ref:`form-trigger` fields to
 However, when you can set the case name directly in a JavaScript action, you don’t have this restriction.
 
 Looking up Workflow Accelerator data
----------------------------------
+------------------------------------
 
 In a JavaScript task, you might need to select a Workflow Accelerator user based on external data, to assign a role.
 To do this, you can use the built-in ``users`` API to find a user by their email address.

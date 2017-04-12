@@ -52,7 +52,7 @@ On the `Outbound message` page, next to `Endpoint WSDL`, select the `Click for W
 Save the ``workflowOutboundMessage.wsdl`` file, which you will use to configure Workflow Accelerator, next.
 
 Finish Workflow Accelerator configuration
---------------------------------------
+-----------------------------------------
 
 For the final configuration step, use the web service definition file to configure the Salesforce service in Workflow Accelerator.
 
