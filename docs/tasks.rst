@@ -18,3 +18,4 @@ In Signavio Workflow, you can assign a task to a specific user, set a due date a
 .. include:: include_tasks/filters.rst
 .. include:: include_tasks/inbox.rst
 .. include:: include_tasks/reopen.rst
+.. include:: include_tasks/skip.rst
