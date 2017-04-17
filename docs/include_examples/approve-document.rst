@@ -45,19 +45,19 @@ The two tasks correspond to two process roles.
 
 * *Reviewer* (optional) - makes the approval decision: often a manager or supervisor.
 * *Author* - prepares the document.
-  If the trigger form assigns this role, then Signavio Workflow will automatically assign the *Update document* to the author and send a notification.
+  If the trigger form assigns this role, then Signavio Workflow Accelerator will automatically assign the *Update document* to the author and send a notification.
 
 Fields
 ^^^^^^
 
 * *Document* (File, mandatory) - the document to review.
-  The author uploads the first version on the trigger form, followed by a new version each time Signavio Workflow creates a new *Update document* task.
+  The author uploads the first version on the trigger form, followed by a new version each time Workflow Accelerator creates a new *Update document* task.
 * *Author* (User, mandatory) - used to assign the role and notify the author.
 
 Extensions
 ^^^^^^^^^^
 
-The document’s readers may find it useful to have access to the document outside Signavio Workflow.
+The document’s readers may find it useful to have access to the document outside Workflow Accelerator.
 The organisation may also require a backup.
 You could add an integration task to the process after the decision to approve the document, in order to archive or email the document.
 

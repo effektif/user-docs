@@ -5,10 +5,10 @@ Signavio - Set model state
 
 .. figure:: /_static/images/action-types/process-editor/set-model-state.png
 
-   A `Set model state` action in the Signavio Workflow process builder
+   A `Set model state` action in the Workflow Accelerator process builder
 
-When you use `Signavio Process Editor <http://www.signavio.com/products/process-editor/>`_ for process modelling, you can use Signavio Workflow to manage process diagram approvals.
-Signavio Process Editor triggers these process diagram approval workflows, which run in Signavio Workflow and in turn update the process model in Signavio Process Editor.
+When you use `Signavio Process Editor <http://www.signavio.com/products/process-editor/>`_ for process modelling, you can use Workflow Accelerator to manage process diagram approvals.
+Signavio Process Editor triggers these process diagram approval workflows, which run in Workflow Accelerator and in turn update the process model in Signavio Process Editor.
 
 .. note:: To use the `Set model state` task, you need to have access to
    `Signavio Process Editor <http://www.signavio.com/products/process-editor/>`_.

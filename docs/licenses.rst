@@ -3,14 +3,14 @@
 License types
 =============
 
-To log in to Signavio Workflow, your user account must have a user license that has not expired.
+To log in to Signavio Workflow Accelerator, your user account must have a user license that has not expired.
 You can choose between several license types:
 
 * Enterprise Cloud Free Trial
 * Enterprise Cloud
 * Academic Cloud
 
-The *Feature Overview* section on the `Signavio Workflow product page <http://www.signavio.com/products/workflow/>`__ shows the main differences between these versions.
+The *Feature Overview* section on the `Workflow Accelerator product page <http://www.signavio.com/products/workflow/>`__ shows the main differences between these versions.
 These differences affect:
 
 * the license expiry period - typically one or twelve months
@@ -26,7 +26,7 @@ Enterprise Cloud Free Trial
 
 The free trial license lets you try the full version of the software for a limited period without purchasing a license.
 To create a trial license, use the registration page (`Europe server <https://workflow.signavio.com/registration>`__, `US server <https://workflow-us.signavio.com/registration>`__).
-When the trial expires, Signavio Workflow will send you an email inviting you to purchase licenses.
+When the trial expires, Workflow Accelerator will send you an email inviting you to purchase licenses.
 
 
 .. _enterprise_cloud:
@@ -41,7 +41,7 @@ To purchase *Enterprise Cloud* licenses, contact `sales@signavio.com <mailto:sal
 Academic Cloud
 --------------
 
-A free *Academic Cloud* license allows university students to use Signavio Workflow to learn about workflow management.
+A free *Academic Cloud* license allows university students to use Workflow Accelerator to learn about workflow management.
 You may only use this license if you have a valid university email address.
 You may only use this license for educational purposes and not for administrative processes in an educational institution.
 

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Effektif User Manual 2.17.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-07 10:37+0200\n"
+"POT-Creation-Date: 2017-04-12 15:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 1.3\n"
 
-msgid "Signavio Workflow User Guide"
+msgid "Signavio Workflow Accelerator User Guide"
 msgstr ""
 
 msgid "Skip to the :ref:`tutorials` if you don’t want to read a manual."
@@ -28,13 +28,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "If you don’t want to read a manual, you can skip to the first tutorial."
 #~ msgstr ""
 
-#~ msgid ""
+#~ msgid "Signavio Workflow User Guide"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "If you don’t want to read a manual, you can skip to the first :ref:`tutorial"
-#~ " <tutorials>`."
-#~ msgstr ""

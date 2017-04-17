@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-06 13:12+0200\n"
-"PO-Revision-Date: 2017-04-06 18:15+0200\n"
+"POT-Creation-Date: 2017-04-12 15:42+0200\n"
+"PO-Revision-Date: 2017-04-12 18:12+0200\n"
 "Last-Translator: Timotheus Kampik <timotheus.kampik@signavio.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 "Language: de\n"
-"X-Generator: Poedit 2.0\n"
+"X-Generator: Poedit 2.0.1\n"
 
 msgid "Cases"
 msgstr "Fälle"
@@ -30,8 +30,8 @@ msgstr "Fälle können ein größeres Ziel in kleinere Teilaufgaben zu zerlegen,
 msgid "Starting an ad-hoc case"
 msgstr "Erstellen eines Ad-Hoc-Falles"
 
-msgid "Signavio Workflow supports two types of cases: cases that relate to a process and ad-hoc cases. An *ad-hoc case* does not have a predefined process. It creates a collaboration space that you can use to reach a one-off goal."
-msgstr "Signavio Workflow unterstützt zwei Arten von Fällen: Fälle, die mit einem Prozess verknüpft sind und Ad-Hoc Fälle. Ein *Ad-Hoc Fall* besitzt keinen vorgefertigten Prozess. Er ermöglicht einen Raum für Zusammenarbeit bei einzigartigen Zielsetzungen. Der Fall beinhaltet eine Anzahl von Aktionen, eine Plattform für Diskussionen und Dokumente und erlaubt Beteiligten, jeglichen für Aktionen relevanten Kontext untereinander zu teilen."
+msgid "Signavio Workflow Accelerator supports two types of cases: cases that relate to a process and ad-hoc cases. An *ad-hoc case* does not have a predefined process. It creates a collaboration space that you can use to reach a one-off goal."
+msgstr "Signavio Workflow Accelerator unterstützt zwei Arten von Fällen: Fälle, die mit einem Prozess verknüpft sind und Ad-Hoc Fälle. Ein *Ad-Hoc Fall* besitzt keinen vorgefertigten Prozess. Er ermöglicht einen Raum für Zusammenarbeit bei einzigartigen Zielsetzungen. Der Fall beinhaltet eine Anzahl von Aktionen, eine Plattform für Diskussionen und Dokumente und erlaubt Beteiligten, jeglichen für Aktionen relevanten Kontext untereinander zu teilen."
 
 msgid "To create a new ad-hoc case, navigate to *Cases*; on the *Cases of* menu, select *Cases without a process*, then click *Start new case*."
 msgstr "Um einen neuen Ad-Hoc Fall zu erstellen, navigieren Sie oben zum Tab *Fälle*, im *Fälle von*-Menü wählen Sie *Fälle ohne Prozess*. In der Auswahl erscheint *Ad-Hoc Aufgabenlisten*, klicken Sie *Neuen Fall starten*."
@@ -45,7 +45,7 @@ msgstr "Nach diesem Schritt erscheint der Kopfteil des neuen Falls."
 msgid "Enter case name"
 msgstr "Einen Namen eintragen"
 
-msgid "Next, type the case title and hit Enter. Signavio Workflow now creates the new case."
+msgid "Next, type the case title and hit Enter. Workflow Accelerator now creates the new case."
 msgstr "Als Nächstes benennen Sie den neuen Fall und drücken Sie anschließend auf Enter. Der neue Fall wird nun angelegt."
 
 msgid "New case"
@@ -186,8 +186,8 @@ msgstr "Bewegen Sie den Mauszeiger über die Zeitangabe, um die genaue Datums- u
 msgid "To add a comment, type in the text box above the event stream. Everyone who has access to the case can follow the discussion. Keeping the discussion ‘inside’ the case preserves the context, which makes it easier to follow than an email conversation."
 msgstr "Um einen Kommentar hinzuzufügen, geben Sie den Text in das Textfeld über dem Ereignisfeed ein. Alle Personen, die Zugang zum Fall haben, können die Diskussion mitverfolgen. Dadurch, dass Sie die Diskussion 'direkt im Fall' halten, bleibt der Kontext erhalten. Dies erleichtert das Zuordnen von Information, insbesondere im Vergleich zu E-Mail Konversationen."
 
-msgid "Sometimes, you want to direct a comment to a specific person. While entering a comment, you can ‘mention’ someone by typing a ``@`` and choosing their name from the list. When you mention someone in a comment, Signavio Workflow sends them an email notification to bring them into the discussion."
-msgstr "In bestimmten Fällen wollen Sie einen Kommentar an eine spezifische Person adressieren. Dies erreichen Sie, indem im Textfeld ein ``@`` eingeben und den gewünschten Namen aus der anschließend angezeigten Liste auswählen. Wenn Sie jemanden in einem Kommentar erwähnen, sendet Signavio Workflow dieser Person eine Emailbenachrichtigung."
+msgid "Sometimes, you want to direct a comment to a specific person. While entering a comment, you can ‘mention’ someone by typing a ``@`` and choosing their name from the list. When you mention someone in a comment, Workflow Accelerator sends them an email notification to bring them into the discussion."
+msgstr "In bestimmten Fällen wollen Sie einen Kommentar an eine spezifische Person adressieren. Dies erreichen Sie, indem im Textfeld ein ``@`` eingeben und den gewünschten Namen aus der anschließend angezeigten Liste auswählen. Wenn Sie jemanden in einem Kommentar erwähnen, sendet Signavio Workflow Accelerator dieser Person eine Emailbenachrichtigung."
 
 msgid "Mentioning someone in a comment"
 msgstr "Jemanden in einem Kommentar erwähnen"
@@ -240,8 +240,8 @@ msgstr "Um einen Fall zu schließen, öffnen Sie das Fall-Menü in der oberen re
 msgid "Deleting a case"
 msgstr "Einen Fall löschen"
 
-msgid "You do not normally delete cases in Signavio Workflow: you close cases that you have finished working on. However, you sometimes do need to delete cases, such as the test cases that you create while developing the initial versions of a process model."
-msgstr "Normalerweise werden Fälle in Signavio Workflow nicht gelöscht, sondern geschlossen, wenn sie beendet worden sind. Dennoch kann es hin und wieder nötig sein, einen Fall zu löschen, wie z.B. Testfälle, die Sie während der Modellierung des Prozesses laufen lassen, um den korrekten Ablauf eines Falles zu prüfen."
+msgid "You do not normally delete cases in Workflow Accelerator: you close cases that you have finished working on. However, you sometimes do need to delete cases, such as the test cases that you create while developing the initial versions of a process model."
+msgstr "Normalerweise werden Fälle in Signavio Workflow Accelerator nicht gelöscht, sondern geschlossen, wenn sie beendet worden sind. Dennoch kann es hin und wieder nötig sein, einen Fall zu löschen, wie z.B. Testfälle, die Sie während der Modellierung des Prozesses laufen lassen, um den korrekten Ablauf eines Falles zu prüfen."
 
 msgid "To delete a case, open the case and use its right-hand actions menu to select `Delete case`."
 msgstr "Öffnen Sie zum Löschen den entsprechenden Fall und wählen Sie über das Aktionsmenü auf der rechten Seite `Löschen` aus."

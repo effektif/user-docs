@@ -28,7 +28,7 @@ You can select either individual users or organisation groups as candidates.
 
 You an also specify a role for the task’s assignment,
 like a BPMN swim lane,
-so that Signavio Workflow automatically assigns related tasks to the same person.
+so that Signavio Workflow Accelerator automatically assigns related tasks to the same person.
 
 Task name template
 ^^^^^^^^^^^^^^^^^^
@@ -55,23 +55,23 @@ Reminders
 
 Use the user task’s `Reminders` configuration panel tab to set up task deadline notifications.
 If you configure a `Due date` or `Reminder` period,
-then Signavio Workflow will send email when the deadline expires.
+then Workflow Accelerator will send email when the deadline expires.
 
 .. figure:: /_static/images/action-types/user-task-reminders.png
 
    Configuring user task reminders in the process editor
 
-Signavio Workflow sends these notifications to the task’s assignee if the task has an assignee,
+Workflow Accelerator sends these notifications to the task’s assignee if the task has an assignee,
 or to all of the task’s candidates if the task it not assigned.
 If the task remains unassigned and does not have any candidates,
-Signavio Workflow sends the notification to the process’ owner.
+Workflow Accelerator sends the notification to the process’ owner.
 
 Escalations
 ^^^^^^^^^^^
 
 You can also use the :ref:`Reminders <reminders>` configuration panel tab to configure escalations.
 If you configure an `Escalation` period and an assignee,
-then Signavio Workflow will automatically reassign the task when the deadline expires,
+then Workflow Accelerator will automatically reassign the task when the deadline expires,
 and send a notification to the new assignee.
 
 Sometimes, you don’t know who will take over a task that has passed its escalation deadline, so you choose one person in the process model.

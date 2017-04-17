@@ -11,16 +11,16 @@ The send email action sends an email to the specified user.
 In the configuration you can specify the following.
 
 Sender name
-    By default, Signavio Workflow sends the email with the `From` field set to *Signavio Workflow*.
+    By default, Workflow Accelerator sends the email with the `From` field set to *Workflow Accelerator*.
     You can set this field to set the `From` field to your company or department name.
 
 To
-    The people who Signavio Workflow sends the email to.
+    The people who Workflow Accelerator sends the email to.
     You can enter one or more plain email addresses, or select email :ref:`variables <variables>` or users in the organization.
     Note that if you enter a plain email address, you must then select it from the pick list.
 
 Reply to
-	Signavio Workflow sends emails from the address `notifications@workflow.signavio.com` (Europe server), respectively `notifications@workflow-us.signavio.com` (US server) , which you cannot reply to.
+	Workflow Accelerator sends emails from the address `notifications@workflow.signavio.com` (Europe server), respectively `notifications@workflow-us.signavio.com` (US server) , which you cannot reply to.
 	If you set this field to an alternative email address, you override the address for replies to the email.
 
 Subject
@@ -37,4 +37,4 @@ Attachments
 Body text
     You can use variables in the main email body by typing a `#`, just like in the *Subject*.
     You can use `Markdown <http://daringfireball.net/projects/markdown/basics>`_ to format the email body by formatting text or including hyperlinks, headings or lists.
-    Select the `Preview` tab to see how Signavio Workflow will format your email.
+    Select the `Preview` tab to see how Workflow Accelerator will format your email.

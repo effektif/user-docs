@@ -3,7 +3,7 @@
 Starting an ad-hoc case
 -----------------------
 
-Signavio Workflow supports two types of cases: cases that relate to a process and ad-hoc cases.
+Signavio Workflow Accelerator supports two types of cases: cases that relate to a process and ad-hoc cases.
 An *ad-hoc case* does not have a predefined process.
 It creates a collaboration space that you can use to reach a one-off goal.
 
@@ -20,7 +20,7 @@ Then the case header appears.
 
    Enter case name
 
-Next, type the case title and hit Enter. Signavio Workflow now creates the new case.
+Next, type the case title and hit Enter. Workflow Accelerator now creates the new case.
 
 .. figure:: /_static/images/cases/create/view-case.png
 
