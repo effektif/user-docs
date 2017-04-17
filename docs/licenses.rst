@@ -8,8 +8,6 @@ You can choose between several license types:
 
 * Enterprise Cloud Free Trial
 * Enterprise Cloud
-* Professional Cloud
-* Developer Cloud
 * Academic Cloud
 
 The *Feature Overview* section on the `Workflow Accelerator product page <http://www.signavio.com/products/workflow/>`__ shows the main differences between these versions.
@@ -38,23 +36,6 @@ Enterprise Cloud
 
 A *Enterprise Cloud* license gives you full access to all features with minimum limitations.
 To purchase *Enterprise Cloud* licenses, contact `sales@signavio.com <mailto:sales@signavio.com?subject=Signavio%20Workflow%20Enterprise%20Cloud>`__.
-
-
-Professional Cloud
-------------------
-
-A *Professional Cloud* license gives you access to core features for a lower license cost than *Enterprise Cloud*.
-To purchase *Professional Cloud* licenses, contact `sales@signavio.com <mailto:sales@signavio.com?subject=Signavio%20Workflow%20Professional%20Cloud>`__.
-
-
-Developer Cloud
----------------
-
-A free *Developer Cloud* license allows developers to create and test process models without having to purchase a license.
-You can only use this license in an organisation with a single user, which means that multiple people cannot use it for collaborative process execution.
-
-To register for a Developer Cloud license, first register for the free trial.
-Then use the purchasing page (`Europe server <https://workflow.signavio.com/buy>`__, `US server <https://workflow-us.signavio.com/buy>`__) to downgrade the license to a Developer Cloud license.
 
 
 Academic Cloud
