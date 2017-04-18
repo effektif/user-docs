@@ -8,7 +8,7 @@ sys.path.append(PROJECT_PATH)
 from conf import *
 
 latex_documents = [
-  ('index', 'SignavioWorkflowUserGuide.tex', u"Le guide de l'utilisateur Signavio Workflow",
+  ('index', 'SignavioWorkflowUserGuide.tex', u"Le guide de l'utilisateur Signavio Workflow Accelerator",
    ", ".join(AUTHORS), 'manual'),
 ]
 

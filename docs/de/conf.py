@@ -13,7 +13,7 @@ tokenizer_lang='en_US'
 spelling_word_list_filename='../spelling_wordlist_de.txt'
 
 latex_documents = [
-  ('index', 'SignavioWorkflowUserGuide.tex', u'Signavio Workflow Nutzerhandbuch',
+  ('index', 'SignavioWorkflowUserGuide.tex', u'Signavio Workflow Accelerator Nutzerhandbuch',
    ", ".join(AUTHORS), 'manual'),
 ]
 

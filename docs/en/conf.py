@@ -13,7 +13,7 @@ spelling_lang='en_GB'
 spelling_word_list_filename='../spelling_wordlist_en.txt'
 
 latex_documents = [
-  ('index', 'SignavioWorkflowUserGuide.tex', u'Signavio Workflow User Guide',
+  ('index', 'SignavioWorkflowUserGuide.tex', u'Signavio Workflow Accelerator User Guide',
    ", ".join(AUTHORS), 'manual'),
 ]
 
