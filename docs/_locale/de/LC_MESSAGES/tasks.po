@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-18 10:04+0200\n"
-"PO-Revision-Date: 2017-04-18 10:24+0200\n"
+"PO-Revision-Date: 2017-04-18 10:38+0200\n"
 "Last-Translator: Timotheus Kampik <timotheus.kampik@signavio.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -154,7 +154,7 @@ msgid "When a process includes an :ref:`intermediate-timer-event`, case executio
 msgstr "Wenn ein Prozess ein :ref:`Zeit-Zwischenereignis <intermediate-timer-event>` enthält, wartet der Fall auf das Ablaufen eines Timers, bevor die Fallausführung weitergeht. Manchmal ist es sinnvoll, zur nächsten Aufgabe zu springen, bevor der Timer abgelaufen ist."
 
 msgid "You can manually skip a timer, without waiting for its configured delay. The :ref:`case details <cases-details>` view shows open timers under the :ref:`cases-other-activities` heading."
-msgstr "Sie können Timer überspringen, ohne die konfigurierte Zeitspanne abzuwarten. Die :ref:`Fallansicht <case-details>` zeigt offene Timer unter der :ref:`Weiter Aktivitäten <cases-other-activities>`-Überschrift an."
+msgstr "Sie können Timer überspringen, ohne die konfigurierte Zeitspanne abzuwarten. Die :ref:`Fallansicht <cases-details>` zeigt offene Timer unter der :ref:`Weiter Aktivitäten <cases-other-activities>`-Überschrift an."
 
 msgid "A pending intermediate timer event in the other activities list"
 msgstr "Ein ausstehender Timer in der ‘Weitere Aktivitäten’-Liste."
