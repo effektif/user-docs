@@ -4,16 +4,11 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Signavio Workflow 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
-"POT-Creation-Date: 2017-04-12 15:03+0200\n"
-=======
 "POT-Creation-Date: 2017-04-13 12:21+0200\n"
->>>>>>> master
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,7 +68,6 @@ msgid ""
 "licenses."
 msgstr ""
 
-#, python-format
 msgid ""
 "A *Enterprise Cloud* license gives you full access to all features with "
 "minimum limitations. To purchase *Enterprise Cloud* licenses, contact "
@@ -100,84 +94,3 @@ msgstr ""
 
 #~ msgid ""
 #~ msgstr ""
-
-<<<<<<< HEAD
-#~ msgid ""
-#~ "To log in to Signavio Workflow, "
-#~ "your user account must have a user"
-#~ " license that has not expired. You"
-#~ " can choose between several license "
-#~ "types:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The *Feature Overview* section on the"
-#~ " `Signavio Workflow product page "
-#~ "<http://www.signavio.com/products/workflow/>`__ shows the"
-#~ " main differences between these versions."
-#~ " These differences affect:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The free trial license lets you "
-#~ "try the full version of the "
-#~ "software for a limited period without"
-#~ " purchasing a license. To create a"
-#~ " trial license, use the registration "
-#~ "page (`Europe server "
-#~ "<https://workflow.signavio.com/registration>`__, `US "
-#~ "server <https://workflow-"
-#~ "us.signavio.com/registration>`__). When the trial"
-#~ " expires, Signavio Workflow will send "
-#~ "you an email inviting you to "
-#~ "purchase licenses."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "A free *Academic Cloud* license allows"
-#~ " university students to use Signavio "
-#~ "Workflow to learn about workflow "
-#~ "management. You may only use this "
-#~ "license if you have a valid "
-#~ "university email address. You may only"
-#~ " use this license for educational "
-#~ "purposes and not for administrative "
-#~ "processes in an educational institution."
-=======
-#~ msgid "Professional Cloud"
-#~ msgstr ""
-
-#~ msgid "Developer Cloud"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "A *Professional Cloud* license gives you"
-#~ " access to core features for a "
-#~ "lower license cost than *Enterprise "
-#~ "Cloud*. To purchase *Professional Cloud* "
-#~ "licenses, contact `sales@signavio.com "
-#~ "<mailto:sales@signavio.com?subject=Signavio%20Workflow%20Professional%20Cloud>`__."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "A free *Developer Cloud* license allows"
-#~ " developers to create and test "
-#~ "process models without having to "
-#~ "purchase a license. You can only "
-#~ "use this license in an organisation "
-#~ "with a single user, which means "
-#~ "that multiple people cannot use it "
-#~ "for collaborative process execution."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "To register for a Developer Cloud "
-#~ "license, first register for the free "
-#~ "trial. Then use the purchasing page "
-#~ "(`Europe server <https://workflow.signavio.com/buy>`__,"
-#~ " `US server <https://workflow-"
-#~ "us.signavio.com/buy>`__) to downgrade the "
-#~ "license to a Developer Cloud license."
->>>>>>> master
-#~ msgstr ""
-

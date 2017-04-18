@@ -15,3 +15,4 @@ You can use this to prevent Workflow Accelerator creating the next task in a pro
    Using an intermediate timer event to model an evaluation period
 
 Configure how long the timer waits by selecting the timer in the process editor.
+In an open case, you can :ref:`skip a timer <tasks-skip-timer>` manually.
