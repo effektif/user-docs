@@ -3,7 +3,7 @@
 Using an ad hoc case for a document approval
 --------------------------------------------
 
-This tutorial introduces the simplest way to get started with Signavio Workflow.
+This tutorial introduces the simplest way to get started with Workflow Accelerator.
 You can start without first defining a process by :ref:`start-adhoc`.
 
 People often use workflows for document approvals, so this tutorial uses the example of approving a report, called *June report*.

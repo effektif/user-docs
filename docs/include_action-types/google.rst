@@ -17,7 +17,7 @@ Configuration
 After creating a Google Drive `Upload file` action,
 the configuration panel shows a button to start configuring the account.
 
-When you click on the button `Configure a Google Drive account`, a pop-up window will appear that helps you integrate Signavio Workflow with your Google Drive account.
+When you click on the button `Configure a Google Drive account`, a pop-up window will appear that helps you integrate Workflow Accelerator with your Google Drive account.
 
 Google will check that you have already logged in to Google.
 This check has three possible outcomes:
@@ -32,14 +32,14 @@ This check has three possible outcomes:
 
 3. If you have authenticated with multiple Google accounts, select the account you want to use.
 
-After you have completed authentication, you’ll see the following page that allows you to give Signavio Workflow access to your Google account.
+After you have completed authentication, you’ll see the following page that allows you to give Workflow Accelerator access to your Google account.
 
 .. _drive-permission:
 .. figure:: /_static/images/action-types/google-drive/fileupload-5.png
 
    Google Drive permission grant
 
-After accepting the permissions, the pop up will disappear and Signavio Workflow will have completed connecting to your account.
+After accepting the permissions, the pop up will disappear and Workflow Accelerator will have completed connecting to your account.
 
 Upload file action
 ^^^^^^^^^^^^^^^^^^
@@ -56,17 +56,17 @@ Other people in your organization can see that you have configured an account, b
 
 In the `Target folder` section you can now browse and select the folder you want to upload the file(s) to.
 
-Next to `Folder name template`, 
+Next to `Folder name template`,
 you can optionally specify a subfolder name to create inside the target folder.
-This name template can include process variables, 
+This name template can include process variables,
 so you can create new subfolders dynamically to organise your files.
-For example, if your process variables include a unique customer ID, 
+For example, if your process variables include a unique customer ID,
 then you can use that to save each customer’s files in a separate folder.
 Use a forward slash (``/``) to separate nested subfolder levels.
 
 Next to `Files to upload`, you can select the variable field containing one or more files to upload.
-If the process did not already include a file variable, Signavio Workflow automatically creates a variable called 'File'.
-If the process variables did include a file or list of files, Signavio Workflow preselects it.
+If the process did not already include a file variable, Workflow Accelerator automatically creates a variable called 'File'.
+If the process variables did include a file or list of files, Workflow Accelerator preselects it.
 
 .. _google-print:
 

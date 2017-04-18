@@ -34,6 +34,7 @@ which you can customize.
 
 Use the linked case name to open the case’s details page.
 
+.. _cases-details:
 
 Viewing case details
 --------------------

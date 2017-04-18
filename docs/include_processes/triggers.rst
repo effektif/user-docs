@@ -11,7 +11,7 @@ Manual trigger
 ^^^^^^^^^^^^^^
 
 A manual trigger gives you the simplest way to start a process.
-With a manual trigger, you start processes manually in Signavio Workflow,
+With a manual trigger, you start processes manually in Signavio Workflow Accelerator,
 by selecting `Start new case` and then selecting the process to start.
 
 
@@ -44,7 +44,7 @@ If you do not define a confirmation message, then you won’t see a confirmation
 Email trigger
 ^^^^^^^^^^^^^
 
-An email trigger starts a new case for each email that you send to the trigger’s Signavio Workflow email address.
+An email trigger starts a new case for each email that you send to the trigger’s Workflow Accelerator email address.
 Note this differs from reading an existing email account, such as your own.
 After selecting the email trigger, you can see its email address:
 
@@ -59,7 +59,7 @@ such as `support@example.com `or `info@example.com`.
 You’ll have to ask the administrator of the mailing list to add the process trigger’s email address to the list.
 Once you have done this,
 the process trigger address will also receive any email sent to the mailing list,
-starting the process in Signavio Workflow.
+starting the process in Workflow Accelerator.
 You will then see the email in the event stream:
 
 .. figure:: /_static/images/processes/trigger/mail-event.png

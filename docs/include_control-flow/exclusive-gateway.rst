@@ -38,8 +38,8 @@ you have configured the exclusive gateway:
 
 In order to use the decision you need to name the buttons which will represent the decision.
 For each button, the label on the right indicates the next action in the process,
-which Signavio Workflow will perform when someone clicks the button.
-In this example, when the user clicks the decision button `Print contract`, Signavio Workflow executes the `Print contract` task, but *not* the `Update contract` task.
+which Signavio Workflow Accelerator will perform when someone clicks the button.
+In this example, when the user clicks the decision button `Print contract`, Workflow Accelerator executes the `Print contract` task, but *not* the `Update contract` task.
 
 You can easily change the text on the buttons.
 For example, change them to `Approve` and `Reject`:

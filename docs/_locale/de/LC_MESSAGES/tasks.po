@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-23 14:09+0200\n"
-"PO-Revision-Date: 2016-11-25 18:02+0100\n"
+"POT-Creation-Date: 2017-04-18 10:04+0200\n"
+"PO-Revision-Date: 2017-04-18 10:38+0200\n"
 "Last-Translator: Timotheus Kampik <timotheus.kampik@signavio.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 "Language: de\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 2.0.1\n"
 
 msgid "Tasks"
 msgstr "Aufgaben"
@@ -24,23 +24,8 @@ msgstr "Aufgaben"
 msgid "A task represents work that someone will presumably complete. :ref:`cases` typically include multiple tasks, usually those that the process defines. You can also add ad-hoc tasks to a case."
 msgstr "Eine Aufgabe stellt einen Arbeitsschritt dar, der von einer spezifischen Person zu erledigen ist. :ref:`Fälle <cases>` enthalten typischerweise mehrere Aufgaben, die Teil der Prozessdefinition sind. Sie können allerdings auch Ad-Hoc Aufgaben in einem Fall hinzufügen."
 
-msgid "In Signavio Workflow, you can assign a task to a specific user, set a due date and add subtasks."
-msgstr "In Signavio Workflow können Aufgaben an spezifische Nutzer zugewiesen werden, ein Fälligkeitsdatum haben und durch Unteraufgaben konkretisiert werden."
-
-msgid "Viewing your tasks in the Inbox"
-msgstr "Aufgaben in der Inbox"
-
-msgid "The *Inbox* shows an overview of your assigned tasks: a list of tasks for you to work on. To open the Inbox, select *Tasks* from the main menu and select the *Inbox* tab."
-msgstr "Die *Inbox* enthält alle Aufgaben, die Ihnen zugewiesen sind und ist somit eine Aufgabenliste zum Abarbeiten. Um die Inbox zu öffnen, klicken Sie auf *Aufgaben* im Hauptmenü und wählen den Tab *Inbox*."
-
-msgid "The tasks Inbox"
-msgstr "Die Aufgaben-Inbox"
-
-msgid "Each task shows the assignee - you for all Inbox tasks - and a link to the task itself."
-msgstr "Jede Aufgabe zeigt die zugewiesene Person an (im Falle der Inbox sind das jeweils Sie selbst) und einen Link, um die Aufgabe zu öffnen."
-
-msgid "The left-hand side of the inbox has sections for tasks that have due dates, so you can prioritise your work. The right-hand side lists tasks that don’t have a due date."
-msgstr "Auf der linken Seite der Inbox sind die Aufgaben mit Fälligkeitsdatum in drei Kategorien unterteilt, um es Ihnen leichter zu machen Ihre Arbeit zu priorisieren. Aufgaben ohne Fälligkeitsdatum werden auf der rechten Seite angezeigt."
+msgid "In Signavio Workflow Accelerator, you can assign a task to a specific user, set a due date and add subtasks."
+msgstr "In Signavio Workflow Accelerator können Aufgaben an spezifische Nutzer zugewiesen werden, ein Fälligkeitsdatum haben und durch Unteraufgaben konkretisiert werden."
 
 msgid "Viewing all tasks"
 msgstr "Alle Aufgaben ansehen"
@@ -51,47 +36,11 @@ msgstr "Die *Alle Aufgaben*-Ansicht zeigt alle Aufgaben innerhalb Ihrer Organisa
 msgid "The list of all tasks"
 msgstr "Die Liste aller Aufgaben"
 
-msgid "Tasks with due dates have a clock indicator to the right of the task name. Signavio Workflow shows this indicator in red when a task’s due date has arrived."
+msgid "Tasks with due dates have a clock indicator to the right of the task name. Signavio Workflow Accelerator shows this indicator in red when a task’s due date has arrived."
 msgstr "Aufgaben mit einem Fälligkeitsdatum besitzen ein kleines Uhr-Symbol an der rechten Seite. Wenn dieses Symbol rot dargestellt wird, ist die Aufgabe fällig."
 
 msgid "You can use the controls on the right to filter the tasks list, which you will find useful when the workload increases."
 msgstr "Mit den Reglern auf der rechten Seite können Sie die Ansicht nach bestimmten Aufgaben filtern. Dies ist besonders nützlich, wenn viel Arbeit zu erledigen ist."
-
-msgid "Task filters"
-msgstr "Aufgaben-Filter"
-
-msgid "The *All tasks* view includes several kinds of task filters, that you can use to manage a long list of tasks."
-msgstr "Die *Alle Aufgaben*-Ansicht beinhaltet viele Arten von Filtern, mit denen Sie die lange Liste von Aufgaben einschränken können."
-
-msgid "*Involvement filter* - shows tasks according to how they relate to you, such as tasks you started."
-msgstr "*Filter nach Mitwirkung* - zeigt Aufgaben nach der Art wie Sie an den Aufgaben mitwirken."
-
-msgid "*Process* filter - shows tasks for a specific process."
-msgstr "*Prozessfilter* - zeigt Aufgaben für bestimmte Prozesse"
-
-msgid "*Due date* filter - shows tasks according to their due dates, such as only overdue tasks."
-msgstr "*Fälligkeit* - zeigt Aufgaben basierend auf deren Fälligkeitsstatus, wie ‘Aufgaben, die fällig sind’."
-
-msgid "*Completed* filter - shows complete tasks, which the task list normally excludes."
-msgstr "*Fertiggestellt* - zeigt auch bereits fertiggestellte Aufgaben an, die normalerweise nicht berücksichtigt werden."
-
-msgid "*Assignee filter* - shows tasks that have a specific assignee, or tasks that have a specific candidate."
-msgstr "*Filter nach Mitwirkung* - zeigt Aufgaben an, die einer bestimmten Person zugewiesen sind oder einen spezifischen Kandidaten haben."
-
-msgid "Creating case tasks"
-msgstr "Aufgaben erstellen"
-
-msgid "To create tasks, open a case, and use the tasks list to add a new task. Enter the task title in the text box to create the task."
-msgstr "Um neue Aufgaben anzulegen öffnen Sie einen Fall und nutzen Sie die Aufgabenliste. Tragen Sie den Namen der neuen Aufgabe am unteren Ende der Aufgabenliste ein und bestätigen Sie mit *Enter* um eine neue Aufgabe anzulegen. "
-
-msgid "Type the title of the new task and type Enter"
-msgstr "Geben Sie einen Namen ein und bestätigen mit Enter"
-
-msgid "After you have added a task, it appears in the list:"
-msgstr "Nachdem Sie eine Aufgabe angelegt haben, erscheint diese in der Liste:"
-
-msgid "When a process starts, Signavio Workflow creates a :ref:`case <cases>` and starts all elements that do not have incoming transitions."
-msgstr "Wenn ein Prozess gestartet wird, wird ein :ref:`Fall <cases>` angelegt. Alle Elemente im Prozess, die keinen eingehenden Sequenzfluss haben, werden sofort ausgeführt."
 
 msgid "Assigning tasks"
 msgstr "Aufgaben zuweisen"
@@ -107,6 +56,30 @@ msgstr "Eine Aufgabe zuweisen"
 
 msgid "To assign the task, select a candidate from the list, or type a name or email address to filter it first."
 msgstr "Um eine Aufgabe zuzuweisen, wählen Sie einen Kandidaten aus der Liste oder durchsuchen Sie die Liste, indem Sie einen Namen oder eine E-Mail Adresse eintippen."
+
+msgid "Completing tasks"
+msgstr "Aufgaben abschließen"
+
+msgid "Use the highlighted `Done` button (the square on the green background) to complete a task."
+msgstr "Einfache Aufgaben können mit einem Klick auf den `Fertig` Button (das Quadrat auf dem grünen Hintergrund) abgeschlossen werden."
+
+msgid "When tasks have a form, the task page displays the form in the same position and includes the button(s) to complete the task at the bottom of the form. The task page normally only includes a `Done` button, but will display multiple buttons when you use a decision. Each of those buttons will register the decision and complete the task in one go."
+msgstr "Wenn eine Aufgabe ein Formular beinhaltet, finden Sie den Button beziehungsweise die Buttons zum Abschließen der Aufgabe unterhalb des Formulars. In der Regel wird dies der `Fertig` Button sein. Wenn jedoch eine Entscheidung auf eine Aufgabe folgt, dann werden die Entscheidungsmöglichkeiten als Buttons in der Task angezeigt."
+
+msgid "Creating case tasks"
+msgstr "Aufgaben erstellen"
+
+msgid "To create tasks, open a case, and use the tasks list to add a new task. Enter the task title in the text box to create the task."
+msgstr "Um neue Aufgaben anzulegen öffnen Sie einen Fall und nutzen Sie die Aufgabenliste. Tragen Sie den Namen der neuen Aufgabe am unteren Ende der Aufgabenliste ein und bestätigen Sie mit *Enter* um eine neue Aufgabe anzulegen. "
+
+msgid "Type the title of the new task and type Enter"
+msgstr "Geben Sie einen Namen ein und bestätigen mit Enter"
+
+msgid "After you have added a task, it appears in the list:"
+msgstr "Nachdem Sie eine Aufgabe angelegt haben, erscheint diese in der Liste:"
+
+msgid "When a process starts, Signavio Workflow Accelerator creates a :ref:`case <cases>` and starts all elements that do not have incoming transitions."
+msgstr "Wenn ein Prozess gestartet wird, wird ein :ref:`Fall <cases>` angelegt. Alle Elemente im Prozess, die keinen eingehenden Sequenzfluss haben, werden sofort ausgeführt."
 
 msgid "Viewing task details"
 msgstr "Die *Alle Aufgaben*-Ansicht"
@@ -129,14 +102,41 @@ msgstr "Das Fälligkeitsdatum einer Aufgabe festlegen"
 msgid "As well as setting the due date manually, in an open case, you can also set a user task’s default due date in the process editor, on the user task’s :ref:`reminders <reminders>` tab."
 msgstr "Sie können Fälligkeitsdaten manuell innerhalb eines laufenden Falls setzen oder Vorgabewerte hierfür im Prozesseditor festlegen. Weitere Informationen dazu finden Sie im Kapitel :ref:`Erinnerungen <reminders>`."
 
-msgid "Completing tasks"
-msgstr "Aufgaben abschließen"
+msgid "Task filters"
+msgstr "Aufgaben-Filter"
 
-msgid "Use the highlighted `Done` button (the square on the green background) to complete a task."
-msgstr "Einfache Aufgaben können mit einem Klick auf den `Fertig` Button (das Quadrat auf dem grünen Hintergrund) abgeschlossen werden."
+msgid "The *All tasks* view includes several kinds of task filters, that you can use to manage a long list of tasks."
+msgstr "Die *Alle Aufgaben*-Ansicht beinhaltet viele Arten von Filtern, mit denen Sie die lange Liste von Aufgaben einschränken können."
 
-msgid "When tasks have a form, the task page displays the form in the same position and includes the button(s) to complete the task at the bottom of the form. The task page normally only includes a `Done` button, but will display multiple buttons when you use a decision. Each of those buttons will register the decision and complete the task in one go."
-msgstr "Wenn eine Aufgabe ein Formular beinhaltet, finden Sie den Button beziehungsweise die Buttons zum Abschließen der Aufgabe unterhalb des Formulars. In der Regel wird dies der `Fertig` Button sein. Wenn jedoch eine Entscheidung auf eine Aufgabe folgt, dann werden die Entscheidungsmöglichkeiten als Buttons in der Task angezeigt."
+msgid "*Involvement filter* - shows tasks according to how they relate to you, such as tasks you started."
+msgstr "*Filter nach Mitwirkung* - zeigt Aufgaben nach der Art wie Sie an den Aufgaben mitwirken."
+
+msgid "*Process* filter - shows tasks for a specific process."
+msgstr "*Prozessfilter* - zeigt Aufgaben für bestimmte Prozesse"
+
+msgid "*Due date* filter - shows tasks according to their due dates, such as only overdue tasks."
+msgstr "*Fälligkeit* - zeigt Aufgaben basierend auf deren Fälligkeitsstatus, wie ‘Aufgaben, die fällig sind’."
+
+msgid "*Completed* filter - shows complete tasks, which the task list normally excludes."
+msgstr "*Fertiggestellt* - zeigt auch bereits fertiggestellte Aufgaben an, die normalerweise nicht berücksichtigt werden."
+
+msgid "*Assignee filter* - shows tasks that have a specific assignee, or tasks that have a specific candidate."
+msgstr "*Filter nach Mitwirkung* - zeigt Aufgaben an, die einer bestimmten Person zugewiesen sind oder einen spezifischen Kandidaten haben."
+
+msgid "Viewing your tasks in the Inbox"
+msgstr "Aufgaben in der Inbox"
+
+msgid "The *Inbox* shows an overview of your assigned tasks: a list of tasks for you to work on. To open the Inbox, select *Tasks* from the main menu and select the *Inbox* tab."
+msgstr "Die *Inbox* enthält alle Aufgaben, die Ihnen zugewiesen sind und ist somit eine Aufgabenliste zum Abarbeiten. Um die Inbox zu öffnen, klicken Sie auf *Aufgaben* im Hauptmenü und wählen den Tab *Inbox*."
+
+msgid "The tasks Inbox"
+msgstr "Die Aufgaben-Inbox"
+
+msgid "Each task shows the assignee - you for all Inbox tasks - and a link to the task itself."
+msgstr "Jede Aufgabe zeigt die zugewiesene Person an (im Falle der Inbox sind das jeweils Sie selbst) und einen Link, um die Aufgabe zu öffnen."
+
+msgid "The left-hand side of the inbox has sections for tasks that have due dates, so you can prioritise your work. The right-hand side lists tasks that don’t have a due date."
+msgstr "Auf der linken Seite der Inbox sind die Aufgaben mit Fälligkeitsdatum in drei Kategorien unterteilt, um es Ihnen leichter zu machen Ihre Arbeit zu priorisieren. Aufgaben ohne Fälligkeitsdatum werden auf der rechten Seite angezeigt."
 
 msgid "Reopening tasks"
 msgstr "Aufgaben wieder öffnen"
@@ -146,6 +146,21 @@ msgstr "Viele abgeschlossene Aufgaben lassen sich über den `Wieder öffnen` But
 
 msgid "Reopening a task instead of creating a new task has the advantage that the existing task retains its context."
 msgstr "Wenn Sie eine Aufgabe wieder öffnen, anstatt eine Neue zu erstellen, bleibt der Kontext der eigentlichen Aufgabe erhalten."
+
+msgid "Skipping intermediate timer events"
+msgstr "Timer überspringen"
+
+msgid "When a process includes an :ref:`intermediate-timer-event`, case execution waits for the timer to complete before continuing. Sometimes, you want to continue immediately without waiting for the timer."
+msgstr "Wenn ein Prozess ein :ref:`Zeit-Zwischenereignis <intermediate-timer-event>` enthält, wartet der Fall auf das Ablaufen eines Timers, bevor die Fallausführung weitergeht. Manchmal ist es sinnvoll, zur nächsten Aufgabe zu springen, bevor der Timer abgelaufen ist."
+
+msgid "You can manually skip a timer, without waiting for its configured delay. The :ref:`case details <cases-details>` view shows open timers under the :ref:`cases-other-activities` heading."
+msgstr "Sie können Timer überspringen, ohne die konfigurierte Zeitspanne abzuwarten. Die :ref:`Fallansicht <cases-details>` zeigt offene Timer unter der :ref:`Weiter Aktivitäten <cases-other-activities>`-Überschrift an."
+
+msgid "A pending intermediate timer event in the other activities list"
+msgstr "Ein ausstehender Timer in der ‘Weitere Aktivitäten’-Liste."
+
+msgid "To skip the intermediate timer event, use the *Skip timer* button to the right of the timer name."
+msgstr "Um einen Timer zu überspringen, wählen Sie den *Timer überspringen*-Button rechts neben dem Namen des Timers aus."
 
 #~ msgid ""
 #~ msgstr ""

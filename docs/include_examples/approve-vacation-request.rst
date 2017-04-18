@@ -18,7 +18,7 @@ However, this generates a lot of e-mail, and fails when the coordinator goes on 
 Vacation requests exemplify form based requests, where an employee requires an approval based on information whose structure you know in advance.
 An employee requesting vacation days for specific dates illustrates perhaps the simplest example of human tasks that multiple people co-ordinate.
 
-Despite this process’ simplicity, the obvious spreadsheet plus e-mail approach leads to enough problems to make it worth using Signavio Workflow instead.
+Despite this process’ simplicity, the obvious spreadsheet plus e-mail approach leads to enough problems to make it worth using Workflow Accelerator instead.
 In principle, one person can easily receive vacation requests by e-mail and maintain a spreadsheet, but this fails when this person goes on vacation.
 This irony illustrates the need for notify a group about new unassigned tasks, so that several people can approve vacation requests between themselves.
 

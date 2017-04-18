@@ -3,6 +3,7 @@ Ablehungsemail
 Absendername
 Absendernamen
 Academic
+Accelerator
 Administratorrechte
 aggregiert
 Aktivitäts
@@ -246,6 +247,7 @@ Telko
 Template
 Textvariable
 Timer
+Timers
 Tortendiagramm
 Trial
 Trigger
