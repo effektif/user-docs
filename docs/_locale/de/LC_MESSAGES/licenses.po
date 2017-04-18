@@ -85,7 +85,6 @@ msgstr ""
 "Workflow Accelerator eine E-Mail, um Sie zum Kauf von Lizenzen "
 "einzuladen."
 
-#, python-format
 msgid ""
 "A *Enterprise Cloud* license gives you full access to all features with "
 "minimum limitations. To purchase *Enterprise Cloud* licenses, contact "
@@ -212,4 +211,3 @@ msgstr ""
 #~ "diese Lizenz in einer Bildungseinrichtung "
 #~ "nur für akademische und nicht für "
 #~ "administrative Zwecke einsetzen."
-

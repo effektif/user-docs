@@ -12,4 +12,4 @@ After you have added a task, it appears in the list:
 
 .. figure:: /_static/images/tasks/create/view-task.png
 
-When a process starts, Signavio Workflow creates a :ref:`case <cases>` and starts all elements that do not have incoming transitions.
+When a process starts, Signavio Workflow Accelerator creates a :ref:`case <cases>` and starts all elements that do not have incoming transitions.
