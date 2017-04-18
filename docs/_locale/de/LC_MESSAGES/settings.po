@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-12 15:42+0200\n"
-"PO-Revision-Date: 2017-04-12 18:46+0200\n"
+"PO-Revision-Date: 2017-04-18 12:29+0200\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -112,19 +112,19 @@ msgid "Workflow Accelerator supports `Security Assertion Markup Language (SAML) 
 msgstr "Signavio Workflow Accelerator unterstützt `Security Assertion Markup Language (SAML) 2.0 <https://en.wikipedia.org/wiki/SAML_2.0>`_ Identity Provider-initiierten SSO mit HTTP POST-Bindung. Kontaktieren Sie uns bitte, falls Ihr gewünschter SSO-Anbieter nicht von unterstützt wird."
 
 msgid "Labels"
-msgstr ""
+msgstr "Labels"
 
 msgid "Most organizations soon have enough processes to make it inconvenient to browse the processes list. To keep your processes tidy, you can define and use labels, to categorize processes by department, status or however you like."
-msgstr ""
+msgstr "Typischerweise haben Sie in Ihrer Organisation nach einiger Zeit so viele Prozesse erstellt, dass es umständlich wird, auf der Suche nach einem Prozess durch die gesamte Liste zu scrollen. Um Ihre Prozesse besser zu organisieren, können Sie Labels verwenden, die Ihre Prozesse zum Beispiel nach Abteilung oder Status kategorisieren."
 
 msgid "Use the *Labels* tab to define labels for your organization. You start with a set of default labels, but you can customize the list."
-msgstr ""
+msgstr "Wechseln Sie in den *Labels*-Tab, um Labels für Ihre Organisation zu definieren. Standardmäßig sind schon einige Labels vorhanden. Sie können die Liste jedoch anpassen und erweitern."
 
 msgid "Configuring labels - used to categorize processes"
-msgstr ""
+msgstr "Labels konfigurieren um Prozesse zu kategorisieren"
 
 msgid "To add a new label, enter a name in the text input field and select *Create*. Select a label or its edit icon to change its name or color. To delete a label, select the delete icon on the far right."
-msgstr ""
+msgstr "Um ein neues Label hinzuzufügen, geben Sie einen Namen in das Textfeld ein und klicken Sie auf *Erstellen*. Wählen Sie ein Label oder dessen ‘Bearbeiten’-Button aus, um den Namen oder die Farbe anzupassen. Um ein Label zu löschen, wählen Sie das *Löschen*-Symbol auf der rechten Seite aus."
 
 #~ msgid ""
 #~ msgstr ""
