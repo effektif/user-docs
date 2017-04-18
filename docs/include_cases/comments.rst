@@ -31,7 +31,7 @@ Sometimes, you want to direct a comment to a specific person.
 While entering a comment,
 you can ‘mention’ someone by typing a ``@`` and choosing their name from the list.
 When you mention someone in a comment,
-Signavio Workflow sends them an email notification to bring them into the discussion.
+Workflow Accelerator sends them an email notification to bring them into the discussion.
 
 .. figure:: /_static/images/cases/comments/mention.png
 

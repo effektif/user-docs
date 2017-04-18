@@ -44,7 +44,7 @@ An email has a composite type, with the following properties.
    * - Case link
      - ``link``
      - :ref:`type-text`
-     - URL of the case page in Signavio Workflow
+     - URL of the case page in Signavio Workflow Accelerator
 
 .. _case-id:
 
@@ -59,7 +59,7 @@ The case variable’s *ID* uniquely identifies this case among cases for all pro
 Name
 ^^^^
 
-The *Name* field stores the name that either the :ref:`case-creator` entered manually, or that Signavio Workflow generated.
+The *Name* field stores the name that either the :ref:`case-creator` entered manually, or that Workflow Accelerator generated.
 Case participants can edit this name.
 You might use the case name variable in a :ref:`send-email` action configuration, to send emails that clearly identify their context by prefixing the subject line with the case name.
 
@@ -80,7 +80,7 @@ In a *Handle customer order* process, you could use the case number as a generat
 Creator
 ^^^^^^^
 
-The *Creator* field records the Signavio Workflow user who started the case.
+The *Creator* field records the Workflow Accelerator user who started the case.
 The :ref:`type-user` type includes name and email address fields, so you can use the case creator to configure a :ref:`send-email` action that automatically notifies the requestor of an approval process’ result.
 
 
@@ -109,6 +109,6 @@ You can update the case due date in a :ref:`JavaScript action <case-updates>` by
 Case link
 ^^^^^^^^^
 
-The *Link* field stores the URL of the case page in Signavio Workflow.
-You can include this link in the body of email you send using a :ref:`send-email` action, so that the recipient can immediately open the case in Signavio Workflow.
-Signavio Workflow includes this link its own built-in :ref:`email notifications <notifications>`.
+The *Link* field stores the URL of the case page in Workflow Accelerator.
+You can include this link in the body of email you send using a :ref:`send-email` action, so that the recipient can immediately open the case in Workflow Accelerator.
+Workflow Accelerator includes this link its own built-in :ref:`email notifications <notifications>`.

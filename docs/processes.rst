@@ -6,12 +6,12 @@ Processes
 A process defines a template for automating repetitive work, like a recipe that describes the actions that you perform to achieve a goal.
 For example, consider a :ref:`Hire employee <hire-employee>` process.
 Each time an organization hires someone, the recruitment team has to complete a number of tasks, including ‘Evaluate CV’, ‘Plan interview’ and ‘Interview candidate’.
-Each time someone starts the process, Signavio Workflow creates a new case.
+Each time someone starts the process, Workflow Accelerator creates a new case.
 
 Use the process builder to create and configure executable processes.
 You can think of an executable process as a kind of software,
 but you will find it easier to build automation using processes.
-With Signavio Workflow, non-technical people can create useful processes.
+With Workflow Accelerator, non-technical people can create useful processes.
 
 .. include:: include_processes/list.rst
 .. include:: include_processes/create.rst

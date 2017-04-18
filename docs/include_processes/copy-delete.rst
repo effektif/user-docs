@@ -13,6 +13,6 @@ The `Delete process` option permanently deletes a process and all of its cases.
 You cannot undo this operation, so you must enter a confirmation.
 You might want to delete a process that you created by duplicating another process in order to experiment with changes in the model.
 
-In Signavio Workflow, you cannot currently delete cases, which you might want to do if you have created test cases while developing the process.
+In Workflow Accelerator, you cannot currently delete cases, which you might want to do if you have created test cases while developing the process.
 However, you can use `Create a copy` and `Delete process` to duplicate a process and then delete the original.
 This deletes all of the cases with the original process, and leaves a copy with no cases.

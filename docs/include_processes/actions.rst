@@ -4,8 +4,8 @@ Actions
 -------
 
 Actions represent the steps in a process - things to do.
-Action include things like user tasks in Signavio Workflow, operations on a file in a document management system or any other actions that represent work that someone will perform as part of a process.
-When starting a process, Signavio Workflow will ‘execute’ the actions in a process in the proper order.
+Action include things like user tasks in Workflow Accelerator, operations on a file in a document management system or any other actions that represent work that someone will perform as part of a process.
+When starting a process, Workflow Accelerator will ‘execute’ the actions in a process in the proper order.
 The process :ref:`control flow <control-flow>` determines this ordering, using transitions, gateways and events.
 
 A process can include different :ref:`action-types`.

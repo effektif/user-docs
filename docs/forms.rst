@@ -3,7 +3,7 @@
 Forms
 =====
 
-In Signavio Workflow, you can use forms to enter information when you run a process.
+In Signavio Workflow Accelerator, you can use forms to enter information when you run a process.
 You can use forms in two places: form triggers and user tasks.
 
 
@@ -121,7 +121,7 @@ You can also configure the following properties.
 * `Mandatory` - specifies that you must enter a field value, so that you cannot complete the form without a value for this field
 * `Allow entering multiple values` - specifies that the field has a list of values that you add and remove independently
 
-Text fields also have an additional `Multi-line` option that configures Signavio Workflow to display the form field as a multi-line text input area, for longer text values.
+Text fields also have an additional `Multi-line` option that configures Workflow Accelerator to display the form field as a multi-line text input area, for longer text values.
 
 When you enable the `Allow entering multiple values` option, the field appears differently on forms.
 Entering a value adds it to the list.

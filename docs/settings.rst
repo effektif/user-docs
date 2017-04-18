@@ -3,9 +3,9 @@
 Organization settings
 =====================
 
-In Signavio Workflow, your organization represents a collection of Signavio Workflow users - typically a company - together with all their data in Signavio Workflow.
+In Signavio Workflow Accelerator, your organization represents a collection of Workflow Accelerator users - typically a company - together with all their data in Workflow Accelerator.
 People outside your organization cannot see your organization’s data.
-After you log into Signavio Workflow, you see all the data inside one particular organization.
+After you log into Workflow Accelerator, you see all the data inside one particular organization.
 If you belong to multiple organizations, you can switch between organizations by selecting a different organization under your name in the top right corner.
 
 Use the Organization settings page to set-up users and groups,
@@ -38,15 +38,15 @@ using the delete button next to the user name.
 Invitations
 -----------
 
-The invitations list shows who you have invited to use Signavio Workflow.
+The invitations list shows who you have invited to use Workflow Accelerator.
 
 .. figure:: /_static/images/settings/invitations.png
 
-To invite someone to use Signavio Workflow,
+To invite someone to use Workflow Accelerator,
 select the license they will use,
 enter their email address in the text field and click the *Invite* button.
 They will receive an email with a link to the registration page,
-where they can create a Signavio Workflow user that will become a member of the organization.
+where they can create a Workflow Accelerator user that will become a member of the organization.
 
 
 Groups
@@ -75,9 +75,9 @@ The *Preferences* include additional options that apply to the whole organizatio
 
 .. figure:: /_static/images/settings/preferences.png
 
-*Time zone* affects how Signavio Workflow displays times.
+*Time zone* affects how Workflow Accelerator displays times.
 
-*Email signature* replaces the default *Signavio Workflow team* signature at the bottom of :ref:`notification emails <notifications>`.
+*Email signature* replaces the default *Workflow Accelerator team* signature at the bottom of :ref:`notification emails <notifications>`.
 
 
 Services
@@ -92,11 +92,11 @@ See :ref:`salesforce-integration`.
 Billing
 -------
 
-Use the *Billing* tab to manage your organization’s licenses for Signavio Workflow.
+Use the *Billing* tab to manage your organization’s licenses for Workflow Accelerator.
 This page shows:
 
 * the number of remaining user licenses - how many more people you can add to the organization
-* the license expiry date, after which you must renew your licenses to continue using Signavio Workflow.
+* the license expiry date, after which you must renew your licenses to continue using Workflow Accelerator.
 
 The left-hand sidebar summarises your current license type.
 Click the *Upgrade your license* button to upgrade to another license type.
@@ -106,12 +106,12 @@ Single Sign-On
 
 .. note:: This feature requires an :ref:`enterprise_cloud` license.
 
-Single sign-on (SSO) makes it possible to access Signavio Workflow using an existing corporate user account, so you do not have to log in to Signavio Workflow separately.
+Single sign-on (SSO) makes it possible to access Workflow Accelerator using an existing corporate user account, so you do not have to log in to Workflow Accelerator separately.
 To request SSO for your organization, send a request using the *Send feedback* option in the application, including your `SAML 2.0 Identity Provider Metadata <https://en.wikipedia.org/wiki/SAML_2.0#Identity_Provider_Metadata>`_.
 
-Signavio Workflow currently only supports the `G Suite <https://support.google.com/a/answer/6087519?hl=en&ref_topic=6304963>`_ (formerly Google Apps) SSO provider.
+Workflow Accelerator currently only supports the `G Suite <https://support.google.com/a/answer/6087519?hl=en&ref_topic=6304963>`_ (formerly Google Apps) SSO provider.
 
-Signavio Workflow supports `Security Assertion Markup Language (SAML) 2.0 <https://en.wikipedia.org/wiki/SAML_2.0>`_ Identity Provider-initiated SSO using the HTTP POST binding.
+Workflow Accelerator supports `Security Assertion Markup Language (SAML) 2.0 <https://en.wikipedia.org/wiki/SAML_2.0>`_ Identity Provider-initiated SSO using the HTTP POST binding.
 Please contact us if you want to use a SAML 2.0 Identity Provider other than those listed above.
 
 .. _labels:
