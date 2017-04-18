@@ -4,12 +4,11 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Signavio Workflow 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-12 15:42+0200\n"
+"POT-Creation-Date: 2017-04-07 18:10+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -938,4 +937,3 @@ msgstr ""
 
 #~ msgid "Signavio Workflow removes unsupported elements, such as message events."
 #~ msgstr ""
-
