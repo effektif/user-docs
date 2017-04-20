@@ -129,6 +129,12 @@ You can update some of the this case variable’s fields, as follows.
    // Set the case’s due date using a date variable set on a form.
    _case.dueDate = releaseDate;
 
+   // Set the case’s priority, using text values '0' (high) to '3' (low)
+   // priorities defines constant values high, medium, normal, and low
+   const priorities = require('priorities')
+   _case.priority = priorities.low
+
+
 A :ref:`case name template <details>` can only use :ref:`form-trigger` fields to set the case name when the process starts.
 However, when you can set the case name directly in a JavaScript action, you don’t have this restriction.
 

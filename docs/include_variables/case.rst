@@ -41,6 +41,10 @@ An email has a composite type, with the following properties.
      - ``dueDate``
      - :ref:`type-date`
      - Optional editable due date
+   * - Priority
+     - ``priority``
+     - :ref:`type-text`
+     - Case priority - values ``'0'`` (high) to ``'3'`` (low)
    * - Case link
      - ``link``
      - :ref:`type-text`
