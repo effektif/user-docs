@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-20 14:43+0200\n"
-"PO-Revision-Date: 2017-04-20 15:59+0200\n"
+"POT-Creation-Date: 2017-05-01 21:34+0200\n"
+"PO-Revision-Date: 2017-05-01 21:46+0200\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language: de\n"
 "Language-Team: \n"
@@ -76,9 +76,6 @@ msgstr "Signavio Workflow Accelerator verbindet sich mittels eines öffentlichen
 
 msgid "For example, consider a connector that accesses a fictional customer database, that you publish at the endpoint URL ``https://example.org/connector``. In this example, each customer record has the following fields."
 msgstr "Ein Beispiel: Sie verwenden eine Datenschnittstelle einer fiktiven Kundendatenbank, die Sie auf der Endpoint-URL ``https://example.org/connector`` veröffentlichen. In diesem Beispiel hat jeder Kunde die folgenden Felder:"
-
-msgid "Example - customer record fields"
-msgstr "Beispiel - Kunden-Datensatz"
 
 msgid "Property"
 msgstr "Eigenschaft"
@@ -158,9 +155,6 @@ msgstr "Antwort"
 msgid "A JSON object with the following fields."
 msgstr "Die Antwort muss ein JSON-Objekt mit den folgenden Feldern enthalten."
 
-msgid "Connector descriptor properties"
-msgstr "Eigenschaften des Deskriptors der Datenschnittstelle"
-
 msgid "``key``"
 msgstr "``key``"
 
@@ -206,9 +200,6 @@ msgstr "In unserem Beispiel würden Sie die Beschreibungen der Datenschnittstell
 msgid "A **record type descriptor** describes the format of the data the connector provides, such as the format of a customer record. In the JSON response, the ``typeDescriptors`` property’s value contains an array of record type descriptor JSON objects."
 msgstr "Ein **Eintragstyp des Deskriptors** charakterisiert die Formatierung der Daten in der jeweiligen Schnittstelle, zum Beispiel die Formatierung der Kundeneinträge. In der Antwort von JSON enthält der ``typeDeskriptor`` ein Feld von Eintragstypen-Beschreibung als JSON-Objekte:"
 
-msgid "Record type descriptor properties"
-msgstr "Eigenschaften des Eintagstyps des Deskriptors"
-
 msgid "Unique alphanumeric key (characters a-z, A-Z, 0-9) that identifies the record type within the connector descriptor, used in :ref:`connector-type-options` and :ref:`connector-record-details` URLs"
 msgstr "Ein eindeutiger alphanumerischer Schlüssel (wie A-Z oder 0-9), der die Eintragstypen inmitten der Schnittstellenbeschreibungen identifiziert, wie in :ref:`connector-type-options` und den :ref:`connector-record-details` URLs."
 
@@ -238,9 +229,6 @@ msgstr "Das JSON Objekt für die Typbeschreibung eines Kundeintrags, ohne Felder
 
 msgid "A **record field descriptor** specifies one field of a record type. A record type has a complex structure that includes one or more fields, such as a customer’s full name. Each field has a key, a name and a data type."
 msgstr "Ein **Deskriptor des Eintragsfeld** spezifiziert genau ein Feld des Eintragstyps. Ein Eintrag hat eine komplexe Struktur, die ein oder mehrere Felder einschließt, zum Beispiel den vollständigen Namen eines Kunden. Jedes Feld hat einen Schlüssel, einen Namen und einen Datentyp."
-
-msgid "Record field descriptor properties"
-msgstr "Eigenschaften des Deskriptors des Eintagsfelds"
 
 msgid "Unique alphanumeric key (characters a-z, A-Z, 0-9) that identifies the field type within the record type"
 msgstr "Ein alphanumerischer Schlüssel ( von A-Z oder von 0-9), der die Feldtypen innerhalb der Einträge identifiziert"
@@ -289,9 +277,6 @@ msgstr "GET – fragt die Liste der Eintragstyp-Optionen an"
 
 msgid "An array of JSON objects, which should have a limited maximum length. Each object in the array must have the following fields."
 msgstr "Die Antwort muss ein Array mit JSON-Objekten enthalten, dessen Größe eingeschränkt ist. Jedes Objekt im Feld muss dafür die folgenden Felder aufweisen:"
-
-msgid "Record type options object properties"
-msgstr "Datentyp-Optionen - Objekteigenschaften"
 
 msgid "Unique string record ID"
 msgstr "Eindeutige ID des Stringeintrags"
@@ -596,9 +581,6 @@ msgstr "Skript-Tasks unterstützen eine Reihe gängiger JavaScript-Bibliotheken.
 msgid "You can also choose another name for the import:"
 msgstr "Sie können für den Import auch einen anderen Namen wählen:"
 
-msgid "Supported JavaScript libraries"
-msgstr "Unterstützte JavaScript-Bibliotheken"
-
 msgid "Library"
 msgstr "Bibliothek"
 
@@ -746,8 +728,8 @@ msgstr "Salesforce konfigurieren"
 msgid "Before you can set-up Salesforce integration, you need to create an endpoint in Workflow Accelerator that Salesforce can send information to. Set this up in Workflow Accelerator as follows."
 msgstr "Bevor Sie anfangen können, müssen Sie zunächst einen Endpunkt für Salesforce in Signavio Workflow einrichten. Hierdurch wird es Salesforce ermöglicht Daten an Signavio Workflow Accelerator zu übermitteln. Gehen Sie wie folgt vor:"
 
-msgid "In the top-right user menu, select `My Organisation` and then select the `Services` tab."
-msgstr "Im Nutzermenü oben rechts wählen Sie zunächst `Organisationseinstellungen` und dann `Services`."
+msgid "In the top-right user menu, select `Services & Connectors`."
+msgstr "Wählen Sie im Nutzermenü oben rechts `Services & Konnektoren` aus."
 
 msgid "Under the Salesforce heading, enter a new trigger type name and select `Create`."
 msgstr "Um einen neuen Auslöser zu anzulegen, tragen Sie einen Namen für die Aktion (z.B. Neuer Lead wurde erzeugt) ein und wählen dann `Erstellen`."
@@ -791,8 +773,8 @@ msgstr "Signavio Workflow AcceleratorKonfiguration"
 msgid "For the final configuration step, use the web service definition file to configure the Salesforce service in Workflow Accelerator."
 msgstr "Im letzten Schritt müssen Sie nun die WSDL-Datei, die Sie von Salesforce bekommen haben, in Signavio Workflow Accelerator hochladen."
 
-msgid "In the top-right user menu, select `My Organisation`, select the `Services` tab, and then select the Salesforce trigger type you created earlier."
-msgstr "Navigieren Sie wieder in ihrem Nutzermenü oben rechts zu `Organisationseinstellungen` und dann zu `Services`. Wählen Sie nun den Salesforce-Auslöser, den Sie zuvor erstellt haben."
+msgid "In the top-right user menu, select `Services & Connectors`, and then select the Salesforce trigger type you created earlier."
+msgstr "Navigieren Sie nun im Nutzermenü oben rechts zu `Organisationseinstellungen` und dann zu `Services & Konnektoren`. Wählen Sie nun den Salesforce-Auslöser aus, den Sie zuvor erstellt haben."
 
 msgid "Select `Upload document`, and select the ``workflowOutboundMessage.wsdl`` file you saved earlier."
 msgstr "Klicken Sie auf `Datei hochladen` und wählen Sie die Datei, die Sie zuvor gespeichert haben."
@@ -804,19 +786,19 @@ msgstr "Der :ref:`Salesforce-Auslöser <trigger-salesforce>` steht nun in all Ih
 #~ msgstr ""
 
 #~ msgid "Example - customer record fields"
-#~ msgstr "Beispiel – Kundeneintragsfeld"
+#~ msgstr "Beispiel - Kunden-Datensatz"
 
 #~ msgid "Connector descriptor properties"
-#~ msgstr "Die Eigenschaften des Deskriptors der Datenschnittstelle"
+#~ msgstr "Eigenschaften des Deskriptors der Datenschnittstelle"
 
 #~ msgid "Record type descriptor properties"
-#~ msgstr "Eigenschaften der Einträge des Deskriptors"
+#~ msgstr "Eigenschaften des Eintagstyps des Deskriptors"
 
 #~ msgid "Record field descriptor properties"
-#~ msgstr "Eigenschaften von Eintragsfeldern der Deskriptoren"
+#~ msgstr "Eigenschaften des Deskriptors des Eintagsfelds"
 
 #~ msgid "Record type options object properties"
-#~ msgstr "Optionen der Eintragstypen für Objekteigenschaften"
+#~ msgstr "Datentyp-Optionen - Objekteigenschaften"
 
 #~ msgid "Supported JavaScript libraries"
 #~ msgstr "Unterstützte JavaScript-Bibliotheken"

@@ -12,7 +12,7 @@ Workflow Accelerator configuration
 Before you can set-up Salesforce integration, you need to create an endpoint in Workflow Accelerator that Salesforce can send information to.
 Set this up in Workflow Accelerator as follows.
 
-In the top-right user menu, select `My Organisation` and then select the `Services` tab.
+In the top-right user menu, select `Services & Connectors`.
 
 
 .. figure:: /_static/images/integration/salesforce/salesforce-integration-1.png
@@ -56,7 +56,7 @@ Finish Workflow Accelerator configuration
 
 For the final configuration step, use the web service definition file to configure the Salesforce service in Workflow Accelerator.
 
-In the top-right user menu, select `My Organisation`, select the `Services` tab, and then select the Salesforce trigger type you created earlier.
+In the top-right user menu, select `Services & Connectors`, and then select the Salesforce trigger type you created earlier.
 
 .. figure:: /_static/images/integration/salesforce/salesforce-integration-2.png
 
