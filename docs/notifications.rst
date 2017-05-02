@@ -66,6 +66,7 @@ Workflow Accelerator sends this notification to each user mentioned in the comme
 
 Workflow Accelerator does not send this notification if you disable `Receive notifications via email` in :ref:`Preferences`.
 
+.. _task-reminder:
 
 Reminder scheduled
 ------------------

@@ -1,3 +1,5 @@
+.. _tasks-due-dates:
+
 Setting due dates
 -----------------
 
