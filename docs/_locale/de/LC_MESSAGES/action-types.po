@@ -8,15 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-12 15:42+0200\n"
-"PO-Revision-Date: 2017-04-12 18:11+0200\n"
+"POT-Creation-Date: 2017-05-05 15:39+0200\n"
+"PO-Revision-Date: 2017-05-05 16:15+0200\n"
 "Last-Translator: Christian Wiggert <christian.wiggert@signavio.com>\n"
+"Language: de\n"
 "Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
-"Language: de\n"
+"Generated-By: Babel 2.4.0\n"
 "X-Generator: Poedit 2.0.1\n"
 
 msgid "Action Types"
@@ -88,14 +89,38 @@ msgstr "Unter `Erinnerungen` können Sie die Fälligkeit für einzelne Aufgaben 
 msgid "Configuring user task reminders in the process editor"
 msgstr "Erinnerungen im Prozesseditor konfigurieren"
 
+msgid "The three settings work as follows."
+msgstr "Die drei Einstellungen funktionieren wie folgt:"
+
+msgid "*Due date* specifies an automatic :ref:`task due date <tasks-due-dates>` relative to the task’s creation date, which results in a :ref:`case-task-due` notification, and changes how the task appears in the :ref:`Inbox <tasks-inbox>`"
+msgstr "Die *Fälligkeit* legt für die Aktivität ein :ref:`Fälligkeitsdatum <tasks-due-dates>` fest, das auf dem Erstelldatum der Aufgabe basiert. Wenn das Fälligkeitsdatum erreicht ist, verschickt das System eine :ref:`Benachrichtigung <case-task-due>` und hebt den Task in der :ref:`Aufgaben-Inbox <tasks-inbox>` besonders hervor."
+
+msgid "*Reminder* works separately from the due date and only sends a :ref:`reminder <task-reminder>` notification, which you can use to remind task assignees and candidates earlier than the task deadline"
+msgstr "Die *Erinnerung* ist dazu da, um schon vor dem Fälligkeitsdatum eine :ref:`Erinnerung <task-reminder>` zu versenden."
+
+msgid "*Continue reminding* further configures the *Reminder* by repeating the :ref:`reminder <task-reminder>` notification up to 25 times"
+msgstr "Über *Erneut erinnern alle* legen Sie fest, mit welchem Intervall :ref:`Erinnerungen <task-reminder>` wiederholt werden sollen - bis zu 25 mal."
+
 msgid "Workflow Accelerator sends these notifications to the task’s assignee if the task has an assignee, or to all of the task’s candidates if the task it not assigned. If the task remains unassigned and does not have any candidates, Workflow Accelerator sends the notification to the process’ owner."
 msgstr "Signavio Workflow Accelerator sendet die Erinnerungen an den Verantwortlichen, wenn die Aufgabe einer Person zugewiesen ist. Ist die Aufgabe noch nicht zugewiesen, bekommen alle Kandidaten eine Benachrichtigung. Sollte die Aufgabe niemandem zugewiesen sein und sind auch keine Kandidaten konfiguriert, so bekommt der Prozess-Eigentümer die Benachrichtigung."
 
 msgid "Escalations"
 msgstr "Eskalation"
 
-msgid "You can also use the :ref:`Reminders <reminders>` configuration panel tab to configure escalations. If you configure an `Escalation` period and an assignee, then Workflow Accelerator will automatically reassign the task when the deadline expires, and send a notification to the new assignee."
-msgstr "Sie können die Konfiguration für :ref:`Erinnerungen <reminders>` auch dazu nutzen, um Eskalationen zu definieren. Wenn Sie dies tun, wird Signavio Workflow Accelerator die Aufgabe automatisch nach Ablauf der von Ihnen festgelegten Zeitspanne an die von Ihnen konfigurierte Person zuweisen. Der neue Verantwortliche für die Aufgabe erhält auch eine Benachrichtigung von Signavio Workflow Accelerator."
+msgid "You can also use the :ref:`Reminders <reminders>` configuration panel tab to configure escalations. Use escalations to automatically reassign a user task when a deadline expires."
+msgstr "Sie können die Konfiguration für :ref:`Erinnerungen <reminders>` auch dazu nutzen, um Eskalationen zu definieren. Mit Eskalationen werden Aufgaben nach Ablauf einer von Ihnen festgelegten Zeitspanne neu zugewiesen."
+
+msgid "Configuring user task escalation in the process editor"
+msgstr "Eskalationen im Prozesseditor konfigurieren"
+
+msgid "On the :ref:`Reminders <reminders>` configuration panel, select *Escalations*."
+msgstr "Wählen Sie im :ref:`Erinnerungen <reminders>`-Konfigurationspanel *Eskalation* aus."
+
+msgid "In the *After* field, set a period to wait after the task creation date, at which point Workflow Accelerator will automatically reassign the task."
+msgstr "Legen Sie im Feld *Nach* fest, wie lange das System warten soll, bis es die Aufgabe automatisch neu zuweisen soll."
+
+msgid "In the *Escalate to* field, select a user or candidate group to escalate to, who will receive a :ref:`task escalation <task-escalation>` notification."
+msgstr "Legen Sie im Feld *Eskalieren an* fest, zu welchem Nutzer oder welcher Nutzergruppe die Aufgabe eskaliert werden soll. Die Nutzer erhalten im Falle einer :ref:`Eskalation <task-escalation>` eine entsprechende Benachrichtigung."
 
 msgid "Sometimes, you don’t know who will take over a task that has passed its escalation deadline, so you choose one person in the process model. Instead, you can escalate task assignment to multiple people, or select a group."
 msgstr "Manchmal wissen Sie nicht, wer eine Aufgabe, deren Eskalationsdeadline überschritten ist, übernehmen soll. In solchen Fällen können Sie die Aufgabenzuweisung an mehrere Personen oder eine Gruppe eskalieren."
@@ -383,7 +408,7 @@ msgid "After creating a Box `Upload file` action, the configuration panel shows 
 msgstr "Nachdem Sie eine Box `Dateiupload` Aktion angelegt haben, sehen Sie im Konfigurationsdialog einen Knopf um Ihren Box Account mit Signavio Workflow zu verbinden."
 
 msgid "When you click the `Configure a Box account` button, a pop-up window will open for you to authorise Workflow Accelerator to use your Box account. After logging in to your Box account, if you have not already logged in, Box shows an authorization page."
-msgstr ""
+msgstr "Wenn sie auf `Fügen Sie ein Box Konto hinzu` klicken, öffnet sich ein Popup-Fenster, dass Sie auffordert, Workflow Accelerator Zugriff auf Ihren Box Account zu geben. Dazu müssen Sie sich gegebenenfalls noch in Ihrem Box Account anmelden."
 
 msgid "Box permission grant, after logging in to Box"
 msgstr "Erlauben Sie Signavio Workflow den Zugriff auf Ihren Box Account."
