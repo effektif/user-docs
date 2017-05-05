@@ -77,6 +77,8 @@ Workflow Accelerator sends this notification to the task’s assignee when someo
 If the task does not have an assignee or candidates, Workflow Accelerator sends the notification to the process’ owner.
 
 
+.. _task-escalation:
+
 Task escalated
 --------------
 
