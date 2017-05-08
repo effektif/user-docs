@@ -804,10 +804,10 @@ msgstr ""
 msgid "Use Signavio Decision Manager to create a DMN model."
 msgstr ""
 
-msgid "Use Signavio Process Editor to create a BPMN process model."
+msgid "Use Signavio Process Manager to create a BPMN process model."
 msgstr ""
 
-msgid "In Signavio Process Editor, link a rule task to the DMN model."
+msgid "In Signavio Process Manager, link a rule task to the DMN model."
 msgstr ""
 
 msgid "In Signavio Explorer, transfer the BPMN model to Signavio Workflow."
@@ -836,7 +836,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Next, model the price quotation process in Signavio Process Editor, by "
+"Next, model the price quotation process in Signavio Process Manager, by "
 "creating the following model. Link the *Calculate price* rule task to the"
 " *Calculate price* DMN model that you created earlier."
 msgstr ""
