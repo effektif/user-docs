@@ -42,7 +42,7 @@ The following table lists supported BPMN elements, and the corresponding action 
    * - Send task (``type=email``)
      - :ref:`send-email`
    * - Service task (``type=changeState``)
-     - Signavio Process Editor state change
+     - Signavio Process Manager state change
    * - Service task (``type=boxFileUpload``)
      - :ref:`box-upload`
    * - Service task (``type=googleAddCalendarEvent``)

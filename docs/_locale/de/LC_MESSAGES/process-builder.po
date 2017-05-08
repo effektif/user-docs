@@ -490,8 +490,8 @@ msgstr ":ref:`send-email`"
 msgid "Service task (``type=changeState``)"
 msgstr "Service-Task (``type=changeState``)"
 
-msgid "Signavio Process Editor state change"
-msgstr "Statusänderung im Signavio Process Editor"
+msgid "Signavio Process Manager state change"
+msgstr "Statusänderung im Signavio Process Manager"
 
 msgid "Service task (``type=boxFileUpload``)"
 msgstr "Service-Task (``type=boxFileUpload``)"
