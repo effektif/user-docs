@@ -3,9 +3,6 @@
 Analytics (reporting)
 =====================
 
-.. note:: This feature requires an :ref:`enterprise_cloud` license.
-  For early access to the Analytics Beta release, send a request using the *Send feedback* option in the application.
-
 When you work in or manage a team, you sometimes have questions about the work in progress or completed work.
 For example, management decisions about team resources might depend on what work the team completed last month and what work remains incomplete.
 While day-to-day case work focuses on completing one task at a time, managing a team of case workers demands an aggregated overview of the team’s work.
