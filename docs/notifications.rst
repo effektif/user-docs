@@ -76,6 +76,7 @@ This notification reminds case participants that a task remains open.
 Workflow Accelerator sends this notification to the task’s assignee when someone assigns the task, or to all of the task’s candidates if the task does not have an assignee.
 If the task does not have an assignee or candidates, Workflow Accelerator sends the notification to the process’ owner.
 
+.. _task-escalation:
 
 .. _task-escalation:
 
