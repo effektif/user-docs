@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-01 21:32+0200\n"
+"POT-Creation-Date: 2017-05-17 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -107,6 +107,10 @@ msgid ""
 "has the following fields."
 msgstr ""
 
+#: ../../integration/connectors.rst
+msgid "Example - customer record fields"
+msgstr ""
+
 msgid "Property"
 msgstr ""
 
@@ -193,6 +197,10 @@ msgstr ""
 msgid "A JSON object with the following fields."
 msgstr ""
 
+#: ../../integration/connectors.rst
+msgid "Connector descriptor properties"
+msgstr ""
+
 msgid "``key``"
 msgstr ""
 
@@ -250,6 +258,10 @@ msgid ""
 "record type descriptor JSON objects."
 msgstr ""
 
+#: ../../integration/connectors.rst
+msgid "Record type descriptor properties"
+msgstr ""
+
 msgid ""
 "Unique alphanumeric key (characters a-z, A-Z, 0-9) that identifies the "
 "record type within the connector descriptor, used in :ref:`connector-"
@@ -292,6 +304,10 @@ msgid ""
 "record type has a complex structure that includes one or more fields, "
 "such as a customer’s full name. Each field has a key, a name and a data "
 "type."
+msgstr ""
+
+#: ../../integration/connectors.rst
+msgid "Record field descriptor properties"
 msgstr ""
 
 msgid ""
@@ -360,6 +376,10 @@ msgstr ""
 msgid ""
 "An array of JSON objects, which should have a limited maximum length. "
 "Each object in the array must have the following fields."
+msgstr ""
+
+#: ../../integration/connectors.rst
+msgid "Record type options object properties"
 msgstr ""
 
 msgid "Unique string record ID"
@@ -814,6 +834,10 @@ msgid ""
 msgstr ""
 
 msgid "You can also choose another name for the import:"
+msgstr ""
+
+#: ../../integration/javascript.rst
+msgid "Supported JavaScript libraries"
 msgstr ""
 
 msgid "Library"

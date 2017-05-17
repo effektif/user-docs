@@ -4,7 +4,7 @@ Processes
 =========
 
 A process defines a template for automating repetitive work, like a recipe that describes the actions that you perform to achieve a goal.
-For example, consider a :ref:`Hire employee <hire-employee>` process.
+For example, consider a `Hire employee <https://www.signavio.com/workflow-examples/hire-employee/>`_ process.
 Each time an organization hires someone, the recruitment team has to complete a number of tasks, including ‘Evaluate CV’, ‘Plan interview’ and ‘Interview candidate’.
 Each time someone starts the process, Workflow Accelerator creates a new case.
 
