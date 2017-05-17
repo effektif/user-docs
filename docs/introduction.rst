@@ -14,7 +14,7 @@ How it works
 
 A process - strictly a process *model* - defines a template for repetitive work.
 The people who manage work typically create processes and specify the tasks and actions that you must complete to reach a certain goal.
-For example: for every :ref:`Hire employee <hire-employee>` case, someone must complete the *Plan interview*, *Interview candidate* and *Send job offer* tasks.
+For example: for every `Hire employee <https://www.signavio.com/workflow-examples/hire-employee/>`_ case, someone must complete the *Plan interview*, *Interview candidate* and *Send job offer* tasks.
 
 After you publish a process, you can start many individual cases.
 Workflow Accelerator keeps track of which tasks and actions you have to perform for each case.
