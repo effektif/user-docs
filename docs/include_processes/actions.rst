@@ -93,7 +93,7 @@ Next, select *Send Email* from the list to change the action type.
    Changing a :ref:`user-task` to a :ref:`send-email` task.
 
 .. warning:: Changing the action type discards the previous action type’s configuration, such as a user task form or an email template.
-   If you change the action type back, the original configuration will not be restored.
+   If you change the action type back, the editor will not restore the original configuration.
 
 
 Control flow elements

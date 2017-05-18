@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-17 16:38+0200\n"
-"PO-Revision-Date: 2017-05-17 16:39+0200\n"
+"POT-Creation-Date: 2017-05-18 13:42+0200\n"
+"PO-Revision-Date: 2017-05-18 14:08+0200\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language: de\n"
 "Language-Team: \n"
@@ -25,14 +25,14 @@ msgstr "Einleitung"
 msgid "`Signavio Workflow Accelerator <http://www.signavio.com/products/workflow/>`_ is a web-based workflow modelling and execution platform. Although its heritage includes classical Business Process Management Systems (BPMS), Workflow Accelerator dramatically simplifies workflow automation."
 msgstr "`Signavio Workflow Accelerator <http://www.signavio.com/de/products/workflow/>`_ ist eine webbasierte Workflowmodellierungs- und Ausführungsplattform. Trotz seiner Verwandtschaft mit klassischen Business Process Management Systemen (BPMS), vereinfacht Signavio Workflow die Workflow-Automatisierung stark."
 
-msgid "How it works"
-msgstr "So funktioniert's"
+msgid "Examples"
+msgstr "Beispiele:"
 
-msgid "A process - strictly a process *model* - defines a template for repetitive work. The people who manage work typically create processes and specify the tasks and actions that you must complete to reach a certain goal. For example: for every `Hire employee <https://www.signavio.com/workflow-examples/hire-employee/>`_ case, someone must complete the *Plan interview*, *Interview candidate* and *Send job offer* tasks."
-msgstr "Prozesse - oder streng genommen *Prozessmodelle* - sind Vorlagen für wiederkehrende Arbeiten. Typischerweise werden Prozesse von Mitarbeitern angelegt, die koordinieren, welche Aufgaben erledigt werden müssen um ein bestimmtes Ziel zu erreichen. Zum Beispiel müssen im Fall einer Neuanstellung die Aufgaben `Mitarbeiter einstellen <https://www.signavio.com/de/workflow-beispiele/hrmitarbeiter-einstellen/>`_, *Vertrag vorbereiten* und *Email Konto anlegen* abgeschlossen werden."
+msgid "Browse the `Workflow examples <https://www.signavio.com/workflow-examples/>`_ to see different ways to apply workflow automation. You can use workflow automation for a variety of business processes - both for industry-specific processes, and for central functions such as human resources."
+msgstr "Auf der Signavio-Webseite stellen wir Ihnen unter `Workflow-Beispiele <https://www.signavio.com/de/workflow-beispiele/>`_ einige Anwendungsbeispiele zur Verfügung. Sie können Workflow-Automatisierung für verschiedene Prozesse - sowohl Industrie-spezifisch als auch für allgemeine Funktionen wie HR - verwenden."
 
-msgid "After you publish a process, you can start many individual cases. Workflow Accelerator keeps track of which tasks and actions you have to perform for each case. Cases bring people together with relevant information that provides context for completing the tasks. You can also use cases as collaboration spaces for people to discuss and create new tasks for individual cases on the fly."
-msgstr "Nachdem ein Prozess veröffentlicht wurde können viele individuelle Fälle gestartet werden. Signavio Workflow Accelerator überwacht dabei welche Aufgaben und Aktivitäten ausgeführt werden müssen. Mit Fällen können Sie Kollegen zusammenbringen um alle relevanten Informationen, die zur Durchführung benötigt werden, zusammenzutragen. In jedem Fall können alle Themen rund um eine Aufgabe diskutiert und weitere Aufgaben spontan angelegt werden."
+msgid "In the application itself, you can select *Examples* from the drop-down menu (top-right). On the *Examples* page, select *Copy to your organization* to create a copy of the example that you can edit to see how it works, and adapt to your own business process."
+msgstr "In der Anwendung selber können Sie im Auswahl-Menü oben rechts unter *Beispiele* einige Workflows einsehen. Klicken Sie auf *In meine Organisation kopieren*, um den Workflow anpassen und ausführen zu können."
 
 msgid "When to use Workflow Accelerator"
 msgstr "Wann ist Signavio Workflow Accelerator zu verwenden"
@@ -78,6 +78,15 @@ msgstr "Klarheit - wer muss was tun"
 
 msgid "agility - because you can change Workflow Accelerator process models more easily than custom software."
 msgstr "Agilität - Prozesse können leichter geändert werden als Software."
+
+msgid "How it works"
+msgstr "So funktioniert's"
+
+msgid "A process - strictly a process *model* - defines a template for repetitive work. The people who manage work typically create processes and specify the tasks and actions that you must complete to reach a certain goal. For example: for every `Hire employee <https://www.signavio.com/workflow-examples/hire-employee/>`_ case, someone must complete the *Plan interview*, *Interview candidate* and *Send job offer* tasks."
+msgstr "Prozesse - oder streng genommen *Prozessmodelle* - sind Vorlagen für wiederkehrende Arbeiten. Typischerweise werden Prozesse von Mitarbeitern angelegt, die koordinieren, welche Aufgaben erledigt werden müssen um ein bestimmtes Ziel zu erreichen. Zum Beispiel müssen im Fall einer Neuanstellung die Aufgaben `Mitarbeiter einstellen <https://www.signavio.com/de/workflow-beispiele/hrmitarbeiter-einstellen/>`_, *Vertrag vorbereiten* und *Email Konto anlegen* abgeschlossen werden."
+
+msgid "After you publish a process, you can start many individual cases. Workflow Accelerator keeps track of which tasks and actions you have to perform for each case. Cases bring people together with relevant information that provides context for completing the tasks. You can also use cases as collaboration spaces for people to discuss and create new tasks for individual cases on the fly."
+msgstr "Nachdem ein Prozess veröffentlicht wurde können viele individuelle Fälle gestartet werden. Signavio Workflow Accelerator überwacht dabei welche Aufgaben und Aktivitäten ausgeführt werden müssen. Mit Fällen können Sie Kollegen zusammenbringen um alle relevanten Informationen, die zur Durchführung benötigt werden, zusammenzutragen. In jedem Fall können alle Themen rund um eine Aufgabe diskutiert und weitere Aufgaben spontan angelegt werden."
 
 msgid "Acknowledgements"
 msgstr "Danksagungen"

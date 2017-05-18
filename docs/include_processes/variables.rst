@@ -21,4 +21,4 @@ In addition to your own workflow variables, Workflow Accelerator automatically c
 The :ref:`case-variable` contains data from when Workflow Accelerator creates the case.
 An :ref:`email-trigger` adds an :ref:`Email variable <trigger-email-variable>` that contains the trigger email.
 
-Variables can have different :ref:`data-types` that determine which kind of data the variable stores, such as text or a date, and whether the data is a single value or contains multiple fields.
+Variables can have different :ref:`data-types` that determine which kind of data the variable stores, such as text or a date, and whether the data has a single value or contains multiple fields.

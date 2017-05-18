@@ -7,19 +7,14 @@ Workflow Accelerator dramatically simplifies workflow automation.
 
 .. figure:: /_static/images/introduction.png
 
-How it works
-------------
+Examples
+--------
 
-.. image:: /_static/images/how-it-works.png
+Browse the `Workflow examples <https://www.signavio.com/workflow-examples/>`_ to see different ways to apply workflow automation.
+You can use workflow automation for a variety of business processes - both for industry-specific processes, and for central functions such as human resources.
 
-A process - strictly a process *model* - defines a template for repetitive work.
-The people who manage work typically create processes and specify the tasks and actions that you must complete to reach a certain goal.
-For example: for every `Hire employee <https://www.signavio.com/workflow-examples/hire-employee/>`_ case, someone must complete the *Plan interview*, *Interview candidate* and *Send job offer* tasks.
-
-After you publish a process, you can start many individual cases.
-Workflow Accelerator keeps track of which tasks and actions you have to perform for each case.
-Cases bring people together with relevant information that provides context for completing the tasks.
-You can also use cases as collaboration spaces for people to discuss and create new tasks for individual cases on the fly.
+In the application itself, you can select *Examples* from the drop-down menu (top-right).
+On the *Examples* page, select *Copy to your organization* to create a copy of the example that you can edit to see how it works, and adapt to your own business process.
 
 When to use Workflow Accelerator
 --------------------------------
@@ -44,6 +39,20 @@ You’ll get:
 - traceability - data on who did what
 - clarity - visibility of who has to do what
 - agility - because you can change Workflow Accelerator process models more easily than custom software.
+
+How it works
+------------
+
+.. image:: /_static/images/how-it-works.png
+
+A process - strictly a process *model* - defines a template for repetitive work.
+The people who manage work typically create processes and specify the tasks and actions that you must complete to reach a certain goal.
+For example: for every `Hire employee <https://www.signavio.com/workflow-examples/hire-employee/>`_ case, someone must complete the *Plan interview*, *Interview candidate* and *Send job offer* tasks.
+
+After you publish a process, you can start many individual cases.
+Workflow Accelerator keeps track of which tasks and actions you have to perform for each case.
+Cases bring people together with relevant information that provides context for completing the tasks.
+You can also use cases as collaboration spaces for people to discuss and create new tasks for individual cases on the fly.
 
 Acknowledgements
 ----------------
