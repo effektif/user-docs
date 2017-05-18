@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Signavio Workflow 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-17 16:38+0200\n"
-"PO-Revision-Date: 2017-05-17 16:43+0200\n"
+"POT-Creation-Date: 2017-05-18 13:42+0200\n"
+"PO-Revision-Date: 2017-05-18 13:51+0200\n"
 "Last-Translator: \n"
 "Language: de\n"
 "Language-Team: \n"
@@ -248,7 +248,7 @@ msgstr "Um diese Änderung vorzunehmen, wählen Sie zunächst die zu ändernde A
 msgid "Changing a :ref:`user-task` to a :ref:`send-email` task."
 msgstr "Eine :ref:`user-task` in eine :ref:`send-email`-Aktion umwandeln."
 
-msgid "Changing the action type discards the previous action type’s configuration, such as a user task form or an email template. If you change the action type back, the original configuration will not be restored."
+msgid "Changing the action type discards the previous action type’s configuration, such as a user task form or an email template. If you change the action type back, the editor will not restore the original configuration."
 msgstr "Wenn Sie eine Aktion transformieren, werden die Einstellungen der ursprünglichen Aktion gelöscht, wie z.B. Formularfelder oder eine E.Mail Vorlage. Wenn Sie die Transformation rückgängig machen, wird die Konfiguration nicht wieder hergestellt."
 
 msgid "Control flow elements"
@@ -368,7 +368,7 @@ msgstr "Ein Auslöser-Formular, das eine *Referenznummer*-Variable zur Verwendun
 msgid "In addition to your own workflow variables, Workflow Accelerator automatically creates variables that give you access to additional data in each case. The :ref:`case-variable` contains data from when Workflow Accelerator creates the case. An :ref:`email-trigger` adds an :ref:`Email variable <trigger-email-variable>` that contains the trigger email."
 msgstr "Außer Ihren eigenen Workflow-Variablen erstellt Signavio Workflow Accelerator automatisch Variablen, die Ihnen Zugriff auf weitere Informationen in jedem Fall erlauben. Die :ref:`case-variable` beinhaltet Informationen über die Erstellung des jeweiligen Falls. Ein :ref:`email-trigger` fügt eine :ref:`Email Variable<trigger-email-variable>` hinzu, die die Auslöser-Email enthält."
 
-msgid "Variables can have different :ref:`data-types` that determine which kind of data the variable stores, such as text or a date, and whether the data is a single value or contains multiple fields."
+msgid "Variables can have different :ref:`data-types` that determine which kind of data the variable stores, such as text or a date, and whether the data has a single value or contains multiple fields."
 msgstr "Variablen können verschiedene :ref:`data-types` enthalten, die festlegen, welche Art von Daten die Variable enthält, so wie einen Text oder ein Datum. Außerdem legt der Datentyp fest, ob die Variable einen Wert oder mehrere Felder enthält."
 
 msgid "Roles"
