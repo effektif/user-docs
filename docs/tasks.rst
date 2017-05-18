@@ -19,3 +19,5 @@ In Signavio Workflow Accelerator, you can assign a task to a specific user, set 
 .. include:: include_tasks/inbox.rst
 .. include:: include_tasks/reopen.rst
 .. include:: include_tasks/skip.rst
+.. include:: include_tasks/skip-error.rst
+.. include:: include_tasks/retry.rst
