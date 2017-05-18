@@ -81,5 +81,5 @@ The case view event stream (right) now shows the *Approve* decision.
 
    After completing the form, the event stream shows the *Approve* decision
 
-Decisions like these aren’t only for document approval processes.
+Decisions like these don’t only occur in document approval processes.
 In practice, many kinds of business processes use one or manual decisions that you can add in the same way.

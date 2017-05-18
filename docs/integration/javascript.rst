@@ -59,7 +59,7 @@ You can also choose another name for the import:
      - ``validator``
      - String validation and sanitization
 
-The ``_`` (Lodash) and ``request`` packages are always imported, for backwards compatibility.
+The JavaScript action always imports the ``_`` (Lodash) and ``request`` packages, for backwards compatibility.
 
 Testing scripts
 ---------------

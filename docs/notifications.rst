@@ -36,7 +36,7 @@ Workflow Accelerator sends this notification to the assignees of open tasks in t
 Task created
 ------------
 
-This notification indicates that a new task has been created within a case.
+This notification indicates that the process has created a new task within a case.
 
 Workflow Accelerator sends this notification to the task’s default assignee, if the task has one.
 Workflow Accelerator also sends this notification to each of the task candidates,
@@ -60,7 +60,7 @@ Workflow Accelerator does not send this notification if you disable `Receive not
 Mentioned in a comment
 ----------------------
 
-This notification indicates that someone has been mentioned in a comment on a case.
+This notification indicates that a comment on a case has mentioned someone.
 
 Workflow Accelerator sends this notification to each user mentioned in the comment.
 

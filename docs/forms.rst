@@ -79,7 +79,7 @@ which makes it convenient to link to additional information, for example.
 The `Add a field` second contains a field types palette.
 Click one of the field types to add a field of that type to the form.
 
-The `Reuse a field` section lists variables that have already been defined on other forms,
+The `Reuse a field` section lists variables that the process has already defined on other forms,
 such as a trigger form:
 
 .. figure:: /_static/images/forms/builder-reuse-field.png
