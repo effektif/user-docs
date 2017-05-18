@@ -79,7 +79,7 @@ Google Drive - Print file
 
 The Google Drive `Print File` action
 uses `Google Cloud Print <http://www.google.com/cloudprint/learn/>`_
-to print a file that has been uploaded to a case.
+to print a file that a case participant has uploaded to a case.
 
 Configuration
 ^^^^^^^^^^^^^
@@ -181,7 +181,7 @@ Calendar
     The calendar within the selected Google account.
 Event summary (optional)
     A text variable to use as the name of the new calendar event.
-    If you don’t select a text variable, the event name will be blank.
+    If you don’t select a text variable, the event will have a blank name.
 Start date
     A date variable for the event’s start date and time.
 End date

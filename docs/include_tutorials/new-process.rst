@@ -38,7 +38,7 @@ Then select the field to open its configuration panel on the right, enter the fi
 
    The *Trigger* tab, after defining a form trigger to start a case by uploading a file
 
-After choosing how the process starts, the next step is to define the ‘actions’ that you will perform when running the process.
+After choosing how the process starts, next define the ‘actions’ that you will perform when running the process.
 
 Select the *Actions* to load the graphical process editor.
 In the actions palette, select *Start* to add a start event to the diagram.
@@ -57,7 +57,7 @@ Next select the start event, user task and end event in turn, and use the config
    The *Actions* tab, after adding a single *Approve report* action to a process
 
 This simple process model only contains a single task, to approve the report.
-The start and end events are optional, but their names help clarify the start and end statuses.
+Models don’t have to contain start and end events, but their names help clarify the start and end statuses.
 Later, you can improve the workflow in various ways, but first you should run the process that you have defined so far, so you can see how it works.
 
 Select *Publish to run this process*.
@@ -67,7 +67,7 @@ This creates a published version of the process, and shows the *Versions* tab, w
 
    The *Versions* tab, after publishing the first version of a process
 
-Now that the process is published, you can use it as a template to create the first ‘case’ for approving a document.
+Now that you have published the process, you can use it as a template to create the first ‘case’ for approving a document.
 
 Select *Start new case* to start a new case.
 This shows the trigger form you set-up earlier, which consists of a file upload field and a submit button.
@@ -87,8 +87,7 @@ The first entry in the event stream, on the bottom-right, shows the the trigger 
 
 Now you have created an run your process for the first time, you can repeat the same steps to develop your process further: select *Processes*, select the process from the list, make changes to the process model in the process editor, publish a new version and then start a new case to try out the updated process.
 
-.. note:: Creating and running a simple approval process is just the beginning.
-   There are many ways you can enhance the *Approve report* process.
+.. note:: After creating and running a simple approval process, you can enhance it in several ways.
    Next steps include the following.
 
    * Adding an explicit approval decision using an exclusive gateway
