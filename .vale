@@ -1,0 +1,3 @@
+StylesPath = ./styles
+[*.{md,rst}]
+BasedOnStyles = docs
