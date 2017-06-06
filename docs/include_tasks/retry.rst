@@ -7,6 +7,6 @@ You can manually retry some failed tasks, after resolving the external issue, so
 
 .. figure:: /_static/images/tasks/retry.png
 
-   An option to retry an task that could succeed on the next try
+   An option to retry a task that could succeed on the next try
 
 To retry a failed task, use the *Retry task* button to the right of the task name in the case’s task list.
