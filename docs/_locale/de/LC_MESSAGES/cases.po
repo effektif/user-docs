@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-18 09:47+0200\n"
-"PO-Revision-Date: 2017-06-02 11:18+0200\n"
+"PO-Revision-Date: 2017-06-02 18:09+0200\n"
 "Last-Translator: Timotheus Kampik <timotheus.kampik@signavio.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -121,7 +121,7 @@ msgid "The case view lists the following types of open activity under the *Other
 msgstr "Die Fallansicht listet die folgenden Arten von offenen Aktivitäten unter der Überschrift *Andere offene Aktivitäten* unter der *Aufgaben*-Liste auf:"
 
 msgid ":ref:`intermediate-timer-event` - which you can :ref:`skip manually <tasks-skip-timer>`"
-msgstr ":ref:`intermediate-timer-event`, welches Sie :ref:`manuell überspringen <tasks-skip-timer>`können"
+msgstr ":ref:`intermediate-timer-event`, welches Sie :ref:`manuell überspringen <tasks-skip-timer>` können"
 
 msgid ":ref:`sub-process`"
 msgstr ":ref:`sub-process`"
