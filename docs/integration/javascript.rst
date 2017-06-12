@@ -51,7 +51,7 @@ You can also choose another name for the import:
      - Convenience functions for working with collections and values
    * - `moment <https://www.npmjs.com/package/moment>`_
      - ``moment``
-     - Parse, validate, manipulate, and display dates; with `Twix <https://www.npmjs.com/package/twix>`_ date range support
+     - Parse, validate, manipulate, and display dates; with `Twix <https://www.npmjs.com/package/twix>`_ date range, and `moment-business-days <https://github.com/kalmecak/moment-business-days>`_ support
    * - `request <https://www.npmjs.com/package/request>`_
      - ``request``
      - Simplified HTTP request client
