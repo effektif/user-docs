@@ -78,8 +78,6 @@ If the task does not have an assignee or candidates, Workflow Accelerator sends 
 
 .. _task-escalation:
 
-.. _task-escalation:
-
 Task escalated
 --------------
 
