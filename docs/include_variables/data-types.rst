@@ -31,6 +31,12 @@ Date
 
 The *Date* type stores a date, or a date and a time of day.
 
+Duration
+^^^^^^^^
+
+The *Duration* type stores the length of a period of time, such as *2 weeks*.
+In the user interface, you can select from different time units.
+In JavaScript actions, *Duration* values store a number of seconds.
 
 .. _type-email:
 
