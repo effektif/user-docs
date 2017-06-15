@@ -41,8 +41,8 @@ For each button, the label on the right indicates the next action in the process
 which Signavio Workflow Accelerator will perform when someone clicks the button.
 In this example, when the user clicks the decision button `Print contract`, Workflow Accelerator executes the `Print contract` task, but *not* the `Update contract` task.
 
-You can easily change the text on the buttons.
-For example, change them to `Approve` and `Reject`:
+You can easily change the text on the buttons, and order they appear in.
+For example, change them to `Approve` and `Reject`, and drag the `Approve` button configuration to the top so that `Approve` appears first on the form:
 
 .. figure:: /_static/images/control-flow/excl-gateway-human-3.png
 
