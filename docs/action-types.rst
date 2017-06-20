@@ -7,6 +7,7 @@ The :ref:`process builder <processes>` displays actions as rounded rectangles.
 Actions typically have a configuration panel that opens when you select the action.
 
 .. include:: include_action-types/user-task.rst
+.. include:: include_action-types/multi-user-task.rst
 .. include:: include_action-types/send-email.rst
 .. include:: include_action-types/create-document.rst
 .. include:: include_action-types/google.rst
