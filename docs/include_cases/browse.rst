@@ -1,7 +1,7 @@
 .. _cases-overview:
 
-Viewing cases
--------------
+Browsing cases
+--------------
 
 The *Cases* view shows an overview of cases for a single process.
 To open the Cases view, select *Cases* from the main menu.
