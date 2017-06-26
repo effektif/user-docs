@@ -16,7 +16,7 @@ You can search in case names.
 
    Search page input field
 
-The search results show a list case search results, up to a maximum of ten results.
+The search results show a list of case names, up to a maximum of ten results.
 Hover a case name to show case details on the right.
 
 .. figure:: /_static/images/cases/search/results.png
