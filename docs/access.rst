@@ -37,7 +37,7 @@ For example, use the permission:
   while the second group has visibility of work on cases that they cannot themselves collaborate on.
 * *View cases*, assigned to a group,
   to restrict access to cases that contain sensitive information,
-* *Create reports*, granted to a business user group to allow them to analyze the process effectivity.
+* *Create reports*, granted to a business user group to allow them to analyse process metrics.
 
 To apply process restrictions, open a process and select *Details*.
 
