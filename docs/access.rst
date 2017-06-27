@@ -13,13 +13,14 @@ you restrict access to specific users or groups.
 Restricting access to processes
 -------------------------------
 
-When you make a process private, you can grant five different permissions to users and groups.
+When you make a process private, you can grant six different permissions to users and groups.
 
 #. *Edit process* - make changes to a process and publish new versions
 #. *Start process* - start new cases for the process
 #. *View process* - see the process in the list of processes
 #. *Edit cases* - work on the process’ cases, by editing or completing tasks
-#. *View cases* - see the cases for the process.
+#. *View cases* - see the cases for the process
+#. *Create reports* - create reports of the process.
 
 You can use these access controls in several ways, to restrict how people work on processes.
 For example, use the permission:
@@ -35,7 +36,8 @@ For example, use the permission:
   to allow the first group to work on cases,
   while the second group has visibility of work on cases that they cannot themselves collaborate on.
 * *View cases*, assigned to a group,
-  to restrict access to cases that contain sensitive information.
+  to restrict access to cases that contain sensitive information,
+* *Create reports*, granted to a business user group to allow them to analyze the process effectivity.
 
 To apply process restrictions, open a process and select *Details*.
 
