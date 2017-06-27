@@ -1,7 +1,7 @@
 .. _cases-overview:
 
-Viewing cases
--------------
+Browsing cases
+--------------
 
 The *Cases* view shows an overview of cases for a single process.
 To open the Cases view, select *Cases* from the main menu.
@@ -33,16 +33,3 @@ These status bars appear to the left of the workflow data columns,
 which you can customize.
 
 Use the linked case name to open the case’s details page.
-
-.. _cases-details:
-
-Viewing case details
---------------------
-
-The case details view shows the case name, with case participants’ avatar pictures underneath, and the case’s task list.
-
-.. figure:: /_static/images/tutorials/ad-hoc/document-task.png
-
-   Case details view, showing one task and the event stream
-
-Each case has an event stream that acts as an audit log and includes the information that case participants share during collaboration, such as comments, documents and links.

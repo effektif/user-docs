@@ -7,15 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-18 09:47+0200\n"
-"PO-Revision-Date: 2017-06-02 18:09+0200\n"
+"POT-Creation-Date: 2017-06-27 08:37+0200\n"
+"PO-Revision-Date: 2017-06-27 10:08+0200\n"
 "Last-Translator: Timotheus Kampik <timotheus.kampik@signavio.com>\n"
+"Language: de\n"
 "Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
-"Language: de\n"
+"Generated-By: Babel 2.4.0\n"
 "X-Generator: Poedit 2.0.2\n"
 
 msgid "Cases"
@@ -61,19 +62,19 @@ msgid "You can create a new process case by selecting the *Start new case* butto
 msgstr "Sie können einen neuen Fall erstellen, indem Sie den Button *Neuen Fall starten* an einem dieser 3 Orte in der Applikation klicken:"
 
 msgid "in the process builder, on the :ref:`versions` page, next to the latest published version"
-msgstr "Im Prozesseditor im Tab  :ref:`versions`,  rechts neben der neusten veröffentlichten Version"
+msgstr "im Prozesseditor im Tab  :ref:`versions`,  rechts neben der neusten veröffentlichten Version"
 
 msgid "on the *Processes* page, next to the name of each published process"
-msgstr "Im Tab *Prozesse,* rechts neben dem Namen bei jedem veröffentlichten Prozess"
+msgstr "im Tab *Prozesse,* rechts neben dem Namen bei jedem veröffentlichten Prozess"
 
 msgid "on the :ref:`cases overview <cases-overview>` page, for the selected process."
-msgstr "Im Tab :ref:`Fälle, <cases-overview>` des ausgewählten Prozesses rechts oben."
+msgstr "im Tab :ref:`Fälle, <cases-overview>` des ausgewählten Prozesses rechts oben."
 
 msgid "If the process does not define a trigger, then you enter a case name as when :ref:`start-adhoc`. Other trigger types generate their own case names, or use a :ref:`case name template <details>`."
 msgstr "Falls der Prozess keinen vordefinierten Auslöser besitzt, geben Sie einen Fallnamen ein, wie beim :ref:`start-adhoc`. Andere Auslöser-Typen generieren ihre eigenen Fallnamen oder verwenden eine :ref:`Vorlage für Fallnamen <details>`."
 
-msgid "Viewing cases"
-msgstr "Fälle einsehen"
+msgid "Browsing cases"
+msgstr "Fälle durchsuchen"
 
 msgid "The *Cases* view shows an overview of cases for a single process. To open the Cases view, select *Cases* from the main menu."
 msgstr "Die *Fälle*-Ansicht zeigt alle Fälle zu einem bestimmten Prozess. Um Sie zu öffnen, wählen Sie *Fälle* im Hauptmenü aus."
@@ -82,22 +83,46 @@ msgid "The Cases view - cases of the ‘Hire employee’ process"
 msgstr "Die Fälle-Ansicht - Fälle des 'Mitarbeiter einstellen' Prozesses"
 
 msgid "The table shows cases for the *Hire employee* process. You can use the menu above the table to select a different process, ad hoc cases that don’t have a process, or cases of a deleted process. Each case in the table show the case name, grey and green task status bars, and additional columns that show the values of workflow :ref:`variables <variables>`."
-msgstr "Die Tabelle zeigt alle Fälle für den Prozess *Mitarbeiter einstellen*. Sie können das Menü am oberen Rand dazu benutzen um Fälle eines anderen Prozesses , Fälle die keinem Prozess zugeordnet sind oder Fälle gelöschter Prozesse einzusehen. Zu jedem Fall sehen Sie den Fallnamen, die Statusbalken für die abgeschlossenen, sowie noch offenen Aufgaben und weitere Spalten, die aktuelle Werte von :ref:`Variablen <variables>` im Workflow anzeigen. "
+msgstr "Die Tabelle zeigt alle Fälle für den Prozess *Mitarbeitereinstellung*. Sie können das Menü am oberen Rand dazu benutzen, um Fälle eines anderen Prozesses, Fälle die keinem Prozess zugeordnet sind oder Fälle gelöschter Prozesse einzusehen. Zu jedem Fall sehen Sie den Fallnamen, die Statusbalken für die abgeschlossenen, sowie noch offenen Aufgaben und weitere Spalten, die aktuelle Werte von :ref:`Variablen <variables>` im Workflow anzeigen."
 
 msgid "The grey and green status bars show information about completed and open tasks when you hover the mouse cursor over them."
-msgstr "Die grauen und grünen Statusbalken zeigen Ihnen zusätzliche Information zu offenen und schon erledigten Aufgaben an, wenn Sie mit der Maus darüber fahren. "
+msgstr "Die grauen und grünen Statusbalken zeigen Ihnen zusätzliche Informationen zu offenen und schon erledigten Aufgaben an, wenn Sie mit der Maus darüber fahren."
 
 msgid "Hover over the grey bar to see a case’s completed tasks."
-msgstr "Fahren Sie über den grauen Balken um bereits abgeschlossene Aufgaben zu sehen. "
+msgstr "Fahren Sie über den grauen Balken, um bereits abgeschlossene Aufgaben zu sehen."
 
 msgid "Hover over the open bar to see a case’s open tasks."
-msgstr "Fahren Sie über den grünen Balken um noch offene Aufgaben im Fall zu sehen."
+msgstr "Fahren Sie über den grünen Balken, um noch offene Aufgaben im Fall zu sehen."
 
 msgid "These status bars appear to the left of the workflow data columns, which you can customize."
 msgstr "Rechts von den Statusbalken finden Sie Datenspalten, die Sie auch anpassen können."
 
 msgid "Use the linked case name to open the case’s details page."
-msgstr "Benutzen Sie den verlinkten Fallnamen um die Details-Seite des Falls aufzurufen"
+msgstr "Benutzen Sie den verlinkten Fallnamen um die Details-Seite des Falls aufzurufen."
+
+msgid "Searching for cases"
+msgstr "Fälle suchen"
+
+msgid "You can search for cases via the search option in the main menu bar."
+msgstr "Sie können über die Suchoption in der Hauptmenüleiste nach Fällen suchen."
+
+msgid "Main menu search icon"
+msgstr "Hauptmenü Suchsymbol"
+
+msgid "Select the search menu item to open the search page, and enter a search term. You can search in case names."
+msgstr "Wählen Sie den Menüpunkt Suche, um die Suchseite zu öffnen und geben Sie einen Suchbegriff ein. Sie können in Fallnamen suchen."
+
+msgid "Search page input field"
+msgstr "Suchseite Eingabefeld"
+
+msgid "The search results show a list of case names, up to a maximum of ten results. Hover a case name to show case details on the right."
+msgstr "Die Suchergebnisse zeigen eine Liste von Fallnamen, maximal zehn Einträge. Bewegen Sie den Mauszeiger über einen Fallnamen, um Details auf der rechten Seite anzuzeigen."
+
+msgid "Case search results with one case highlighted"
+msgstr "Suchergebnisse von Fällen mit einem hervorgehobenen Fall"
+
+msgid "Note that the case icon next to the case name indicates the case status - open or closed. Select the case name to open the case."
+msgstr "Beachten Sie, dass das Symbol neben dem Fallnamen den Status anzeigt - offen oder geschlossen. Wählen Sie den Fallnamen, um den Fall zu öffnen."
 
 msgid "Viewing case details"
 msgstr "Falldetails ansehen"
@@ -130,7 +155,7 @@ msgid "For example, consider a customer invoice process that includes a payment 
 msgstr "Betrachten Sie beispielsweise einen Kunden Rechnungsprozess, der den Subprozess „Rückerstattung“ enthält."
 
 msgid "The case details view, showing a link to a sub-process under ‘Other open activities’"
-msgstr "Die Fall-Detailansicht zeigt einen Link zu einem Unterprozess under *Weitere Aktivitäten* an."
+msgstr "Die Fall-Detailansicht zeigt einen Link zu einem Unterprozess under *Weitere Aktivitäten* an"
 
 msgid "This *Invoice customer* example shows the following event stream, in chronological order."
 msgstr "Im Beispiel *Zahlung sicherstellen* treten die folgenden Ereignisse in chronologischer Reihenfolge auf."
@@ -187,13 +212,13 @@ msgid "Comments on a case - discussion with context"
 msgstr "Kommentare eines Falls - Diskussion im Fallkontext"
 
 msgid "By using case comments instead of email, participants ensure that discussions retain the full context for everyone involved."
-msgstr "Durch die Verwendung von Fallkommentaren anstatt von E-Mails stellen Sie sicher, dass der volle Kontext der Diskussion für alle Beteiligten über den Fall hinweg einsehbar bleibt"
+msgstr "Durch die Verwendung von Fallkommentaren anstatt von E-Mails stellen Sie sicher, dass der volle Kontext der Diskussion für alle Beteiligten über den Fall hinweg einsehbar bleibt."
 
 msgid "In the event stream, reply to existing comments to keep the discussion structured. Hover over the user avatar to see the user’s full name:"
 msgstr "In dem Ereignisfeed können Sie auf existierende Kommentare antworten, um die Diskussion zu lenken. Wenn Sie mit dem Mauszeiger über das Anzeigebild eines Nutzers gehen, wird dessen vollständiger Name angezeigt:"
 
 msgid "Hover over the relative time to see the comment’s full time stamp:"
-msgstr "Bewegen Sie den Mauszeiger über die Zeitangabe, um die genaue Datums- und Zeitangabe des Kommentars einzusehen."
+msgstr "Bewegen Sie den Mauszeiger über die Zeitangabe, um die genaue Datums- und Zeitangabe des Kommentars einzusehen:"
 
 msgid "To add a comment, type in the text box above the event stream. Everyone who has access to the case can follow the discussion. Keeping the discussion ‘inside’ the case preserves the context, which makes it easier to follow than an email conversation."
 msgstr "Um einen Kommentar hinzuzufügen, geben Sie den Text in das Textfeld über dem Ereignisfeed ein. Alle Personen, die Zugang zum Fall haben, können die Diskussion mitverfolgen. Dadurch, dass Sie die Diskussion 'direkt im Fall' halten, bleibt der Kontext erhalten. Dies erleichtert das Zuordnen von Information, insbesondere im Vergleich zu E-Mail Konversationen."
@@ -220,7 +245,7 @@ msgid "A hyperlink in a case comment"
 msgstr "Einen Link in einem Kommentar verwenden"
 
 msgid "Attaching documents to a case"
-msgstr "Ein Dokument an einen Fall anhängen."
+msgstr "Ein Dokument an einen Fall anhängen"
 
 msgid "As well as commenting on a case, to share information with the case’s participants, you can attach documents. For example, cases in a job vacancy process might require candidate CVs. Anyone can access the case can download a case’s documents, which makes them more useful than email attachments."
 msgstr "Um Informationen zu kommunizieren, können Sie zudem Dokumente an einen Fall anhängen. Zum Beispiel ist es in einem Bewerbungsprozess sinnvoll, den Lebenslauf des Bewerbers im Fall zu hinterlegen. Jede Person, die auf den Fall Zugreifen kann, kann direkt dort den Lebenslauf herunterladen und einsehen. Dies verhindert umständliches Suchen im Email-Archiv."
