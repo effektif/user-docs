@@ -1,7 +1,7 @@
 .. _multi-user-task:
 
 Multi-user task
----------
+---------------
 
 .. figure:: /_static/images/action-types/multi-user-task/multi-user-task.png
 
