@@ -31,8 +31,34 @@ click the *Promote to administrator* button.
 
 .. figure:: /_static/images/settings/user.png
 
+Replacements
+------------
+
 Administrators can also delete users,
 using the delete button next to the user name.
+
+If you want to delete a user account, for example,
+because the user is leaving your organization, unfinished tasks to this account may still exist.
+In this case, specify a replacement who will take over open task assignements.
+The substitute will then have exactly all access rights to complete these tasks,
+but not automatically inherits all rolls or rights of the deleted user.
+
+The substitute takes over
+
+* in workflows: owner, assignments, candidates, default values for form fields, transition conditions, JavaScript test values, access
+* in reports: owner, access
+* in open tasks: assignments, candidates, access
+* in cases: access
+
+.. hint:: Please note that deleted users are removed from all groups he was a member of and no replacement is set.
+
+Whenever you delete a user,
+a dialog where you can define a replacement appears.
+
+.. figure:: /_static/images/settings/replacements.png
+
+Deleted users with task assignments and without replacement set,
+are listed as *Former users* and administrators are weekly reminded to specify a substitute.
 
 
 Invitations
