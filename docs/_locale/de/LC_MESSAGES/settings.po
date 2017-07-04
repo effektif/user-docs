@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-09 17:33+0200\n"
-"PO-Revision-Date: 2017-05-09 17:38+0200\n"
+"POT-Creation-Date: 2017-07-04 10:56+0200\n"
+"PO-Revision-Date: 2017-07-04 11:14+0200\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language: de\n"
 "Language-Team: \n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Poedit 2.0.1\n"
+"X-Generator: Poedit 2.0.2\n"
 
 msgid "Organization settings"
 msgstr "Organisationseinstellungen"
@@ -40,8 +40,38 @@ msgstr "Die Nutzerliste zeigt alle Mitglieder in Ihrer Organisation. Sie können
 msgid "Administrators can promote other users to administrator: on an expanded user panel, click the *Promote to administrator* button."
 msgstr "Administratoren können andere Nutzer zu Administratoren ernennen. Klappen Sie dazu einen Eintrag in der Nutzerliste auf und klicken Sie auf *Zum Administrator ernennen*."
 
+msgid "Replacements"
+msgstr "Vertreter"
+
 msgid "Administrators can also delete users, using the delete button next to the user name."
 msgstr "Administratoren können Nutzer auch löschen indem Sie auf den Papierkorb neben dem Nutzernamen klicken."
+
+msgid "If you want to delete a user account, for example, because the user is leaving your organization, unfinished tasks to this account may still exist. In this case, specify a replacement who will take over open task assignements. The substitute will then have exactly all access rights to complete these tasks, but not automatically inherits all rolls or rights of the deleted user."
+msgstr "Wenn Sie ein Benutzerkonto löschen möchten, da der Nutzer beispielsweise Ihre Organisation verlässt, könnten noch unerledigte Aufgaben vorliegen. In diesem Fall haben Sie die Möglichkeit, einen Vertreter zu bestimmen, der diese offenen Aufgaben übernehmen soll. Der Vertreter erhält dann genau die Zugriffsrechte, die er für die Erledigung der Aufgabe benötigt, erbt jedoch nicht automatisch Rollen und Rechte des gelöschten Nutzers."
+
+msgid "The substitute takes over"
+msgstr "Der Vertreter übernimmt"
+
+msgid "in workflows: owner, assignments, candidates, default values for form fields, transition conditions, JavaScript test values, access"
+msgstr "In Workflows: Owner, Zuweisungen, Kandidaten, Standardwerte von Formfeldern, Übergabebedingungen, JavaScript Testwerte, Zugriff"
+
+msgid "in reports: owner, access"
+msgstr "in Reports: Owner, Zugriff"
+
+msgid "in open tasks: assignments, candidates, access"
+msgstr "In offenen Aufgaben: Zuweisungen, Kandidaten, Zugriff"
+
+msgid "in cases: access"
+msgstr "in Fällen: Zugriff"
+
+msgid "Please note that deleted users are removed from all groups he was a member of and no replacement is set."
+msgstr "Bitte beachten Sie, dass die Gruppenzuweisungen, die der gelöschte Nutzer innehatte, beim Vertreter nicht übernommen werden."
+
+msgid "Whenever you delete a user, a dialog where you can define a replacement appears."
+msgstr "Jedes Mal, wenn Sie ein Benutzerkonto löschen, erscheint der Dialog zum Spezifizieren eines Vertreters."
+
+msgid "Deleted users with task assignments and without replacement set, are listed as *Former users* and administrators are weekly reminded to specify a substitute."
+msgstr "Benutzer, die noch offene Aufgabenzuweisungen haben und für die noch kein Vertreter definiert ist, werden unter *Ehemalige Nutzer* aufgelistet. Administratoren erhalten dann wöchentlich eine Erinnerung, einen Vertreter für diese zu definieren."
 
 msgid "Invitations"
 msgstr "Einladungen"
@@ -143,3 +173,16 @@ msgstr "Um ein neues Label hinzuzufügen, geben Sie einen Namen in das Textfeld 
 
 #~ msgid "This feature requires an :ref:`enterprise_cloud` license."
 #~ msgstr "Für dieses Feature benötigen Sie eine :ref:`enterprise_cloud`-Lizenz."
+
+#~ msgid ""
+#~ "If you want to delete a user "
+#~ "account, for example, because the user"
+#~ " is leaving your organization, unfinished"
+#~ " tasks to this account may still "
+#~ "exist. In this case, specify a "
+#~ "replacement who will taken over open "
+#~ "task assignements."
+#~ msgstr ""
+
+#~ msgid "The substitute will take over"
+#~ msgstr ""
