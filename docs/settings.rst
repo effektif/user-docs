@@ -39,16 +39,17 @@ using the delete button next to the user name.
 
 If you want to delete a user account, for example,
 because the user is leaving your organization, unfinished tasks to this account may still exist.
-In this case, specify a replacement who will take over open task assignements.
-The substitute will then have exactly all access rights to complete these tasks,
-but not automatically inherits all rolls or rights of the deleted user.
+In this case, specify a replacement who will take over open task assignments.
+The substitute will then have exactly all access rights to complete open tasks and cases,
+but not automatically inherits group memberships of the deleted user.
+Please also be aware that the assignment for closed tasks is not changed for audit reasons.
 
 The substitute takes over
 
-* in workflows: owner, assignments, candidates, default values for form fields, transition conditions, JavaScript test values, access
-* in reports: owner, access
-* in open tasks: assignments, candidates, access
-* in cases: access
+* in workflows: owner, assignments, candidates, default values for form fields, transition conditions, JavaScript test values, access rights
+* in reports: owner, access rights
+* in open tasks: assignments, candidates, access rights
+* in cases: access rights
 
 .. hint:: Please note that deleted users are removed from all groups he was a member of and no replacement is set.
 
