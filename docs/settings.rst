@@ -54,7 +54,7 @@ The substitute takes over
 .. hint:: Please note that deleted users are removed from all groups he was a member of and no replacement is set.
 
 Whenever you delete a user,
-a dialog where you can define a replacement appears.
+a dialogue where you can define a replacement appears.
 
 .. figure:: /_static/images/settings/replacements.png
 
