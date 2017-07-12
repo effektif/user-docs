@@ -17,3 +17,4 @@ Actions typically have a configuration panel that opens when you select the acti
 .. include:: include_action-types/dmn.rst
 .. include:: include_action-types/process-editor.rst
 .. include:: include_action-types/map-variables.rst
+.. include:: include_action-types/document-template.rst
