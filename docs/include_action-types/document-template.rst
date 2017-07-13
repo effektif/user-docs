@@ -4,13 +4,13 @@ Document template
 -----------------
 
 If you are modelling a workflow, there is often the need to collect the information input entered by users of the workflow tasks.
-These data are added dynamically to a document, which is then used as a basis for a later audit, for example for further decisions.
+Workflow Accelerator can add these data dynamically to a Microsoft Word document, which is then used as a basis for a later audit, for example for further decisions.
 Because data are collected in a Word file, the content can be modified subsequently.
 To do this, add the action type 'Document template' in your workflow.
 With this action, a task is assigned to users including the request to specify the necessary information in a custom task form.
-The information retrieved from this task form is inserted by Workflow Accelerator in the uploaded template.
+Workflow Accelerator applies the information that is retrieved from this task form to the uploaded template.
 
-Suppose your company has set up a workflow for contracts or quotations, in which several departments must define relevant data through the assignment of workflow tasks.
+Suppose your company has set up a workflow for contracts or quotations, in which several roles define the relevant document data in different Workflow Accelerator tasks.
 The contract or quotation is created based on a standard template, so that required information from the workflow are assigned accordingly in an output form.
 At the end of the process, the output document containing all relevant information is made available to a sales person, who has then the ability to make any personal additions before the contract or quotation will be sent to the customer.
 
