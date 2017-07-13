@@ -1,0 +1,40 @@
+.. _search:
+
+Search
+======
+
+The search function in Workflow Accelerator helps you to find specific for tasks, cases, processes and reports.
+Search terms are searched in names and description of the respective category.
+With the exception of the search for cases: here, only the name is taken into account.
+
+How to search in Workflow Accelerator:
+
+* wildcards are not supported
+* with search terms in quotation marks, you can search for a coherent string
+* exclude search terms by a - (minus) before the search term
+* upper/lower case is not taken into account
+* you must enter at least three characters for the search term
+* stemming is a method of search
+
+You can open the search page via the search option in the main menu bar.
+
+.. figure:: /_static/images/search/search.png
+
+   Main menu search icon
+
+Enter a search term.
+
+.. figure:: /_static/images/search/input.png
+
+   Search page input field
+
+The search results show a list with the first ten entries per category.
+If you do not find the required search result in the list, you need to refine your search by adding or excluding keywords, for example.
+Hover an entry to show details on the right.
+
+.. figure:: /_static/images/search/results.png
+
+   Search results with one entry highlighted.
+
+Note that the case icon next to the case name indicates the case status - open or closed.
+Select the case name to open the case.
