@@ -11,13 +11,13 @@ With this action, a task is assigned to users including the request to specify t
 Workflow Accelerator applies the information that is retrieved from this task form to the uploaded template.
 
 Suppose your company has set up a workflow for contracts or quotations, in which several roles define the relevant document data in different Workflow Accelerator tasks.
-The contract or quotation is created based on a standard template, so that required information from the workflow are assigned accordingly in an output form.
+The contract or quotation is created based on a standard template, so that required data from the workflow are assigned accordingly in an output form.
 At the end of the process, the output document containing all relevant information is made available to a sales person, who has then the ability to make any personal additions before the contract or quotation will be sent to the customer.
 
 A prerequisite for the implementation of this feature is that the applied template is a Microsoft Word document that contains the required content controls.
 You will find a detailed description of these elements here: https://msdn.microsoft.com/en-us/library/bb386200.aspx
 
-.. hint:: Please note that currently only text and plain text are supported as type of content controls.
+.. hint:: Please note that currently only text and plain text are supported as types of content controls.
 
 .. figure:: /_static/images/action-types/document-template/upload-template.png
 
