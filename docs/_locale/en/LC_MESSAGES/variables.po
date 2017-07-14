@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-06-15 09:14+0200\n"
+"POT-Creation-Date: 2017-07-14 11:57+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -132,6 +132,27 @@ msgid "``link``"
 msgstr ""
 
 msgid "URL of the case page in Signavio Workflow Accelerator"
+msgstr ""
+
+msgid "Cycle time"
+msgstr ""
+
+msgid "``duration``"
+msgstr ""
+
+msgid ":ref:`type-duration`"
+msgstr ""
+
+msgid "The duration the case has been open"
+msgstr ""
+
+msgid "Milestone"
+msgstr ""
+
+msgid "``milestone``"
+msgstr ""
+
+msgid "The last milestone the case is has passed"
 msgstr ""
 
 msgid ""
