@@ -31,6 +31,8 @@ Date
 
 The *Date* type stores a date, or a date and a time of day.
 
+.. _type-duration:
+
 Duration
 ^^^^^^^^
 
