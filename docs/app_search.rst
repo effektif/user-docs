@@ -1,4 +1,4 @@
-.. _search:
+.. _app_search:
 
 Search
 ======
