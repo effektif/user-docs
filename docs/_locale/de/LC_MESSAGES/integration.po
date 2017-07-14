@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-12 17:30+0200\n"
-"PO-Revision-Date: 2017-06-12 17:42+0200\n"
+"POT-Creation-Date: 2017-07-14 14:45+0200\n"
+"PO-Revision-Date: 2017-07-14 14:46+0200\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language: de\n"
 "Language-Team: \n"
@@ -77,7 +77,6 @@ msgstr "Signavio Workflow Accelerator verbindet sich mittels eines öffentlichen
 msgid "For example, consider a connector that accesses a fictional customer database, that you publish at the endpoint URL ``https://example.org/connector``. In this example, each customer record has the following fields."
 msgstr "Ein Beispiel: Sie verwenden eine Datenschnittstelle einer fiktiven Kundendatenbank, die Sie auf der Endpoint-URL ``https://example.org/connector`` veröffentlichen. In diesem Beispiel hat jeder Kunde die folgenden Felder:"
 
-#: ../../integration/connectors.rst
 msgid "Example - customer record fields"
 msgstr "Beispiel - Kunden-Datensatz"
 
@@ -159,7 +158,6 @@ msgstr "Antwort"
 msgid "A JSON object with the following fields."
 msgstr "Die Antwort muss ein JSON-Objekt mit den folgenden Feldern enthalten."
 
-#: ../../integration/connectors.rst
 msgid "Connector descriptor properties"
 msgstr "Deskriptor der Datenschnittstelle"
 
@@ -208,7 +206,6 @@ msgstr "In unserem Beispiel würden Sie die Beschreibungen der Datenschnittstell
 msgid "A **record type descriptor** describes the format of the data the connector provides, such as the format of a customer record. In the JSON response, the ``typeDescriptors`` property’s value contains an array of record type descriptor JSON objects."
 msgstr "Ein **Eintragstyp des Deskriptors** charakterisiert die Formatierung der Daten in der jeweiligen Schnittstelle, zum Beispiel die Formatierung der Kundeneinträge. In der Antwort von JSON enthält der ``typeDeskriptor`` ein Feld von Eintragstypen-Beschreibung als JSON-Objekte:"
 
-#: ../../integration/connectors.rst
 msgid "Record type descriptor properties"
 msgstr "Optionen für Eintragstypen"
 
@@ -242,7 +239,6 @@ msgstr "Das JSON Objekt für die Typbeschreibung eines Kundeintrags, ohne Felder
 msgid "A **record field descriptor** specifies one field of a record type. A record type has a complex structure that includes one or more fields, such as a customer’s full name. Each field has a key, a name and a data type."
 msgstr "Ein **Deskriptor des Eintragsfeld** spezifiziert genau ein Feld des Eintragstyps. Ein Eintrag hat eine komplexe Struktur, die ein oder mehrere Felder einschließt, zum Beispiel den vollständigen Namen eines Kunden. Jedes Feld hat einen Schlüssel, einen Namen und einen Datentyp."
 
-#: ../../integration/connectors.rst
 msgid "Record field descriptor properties"
 msgstr "Eigenschaften des Deskriptors des Eintagsfelds"
 
@@ -294,7 +290,6 @@ msgstr "GET – fragt die Liste der Eintragstyp-Optionen an"
 msgid "An array of JSON objects, which should have a limited maximum length. Each object in the array must have the following fields."
 msgstr "Die Antwort muss ein Array mit JSON-Objekten enthalten, dessen Größe eingeschränkt ist. Jedes Objekt im Feld muss dafür die folgenden Felder aufweisen:"
 
-#: ../../integration/connectors.rst
 msgid "Record type options object properties"
 msgstr "Optionen für Eintragstypen (einzelne Option)"
 
@@ -601,7 +596,6 @@ msgstr "Skript-Tasks unterstützen eine Reihe gängiger JavaScript-Bibliotheken.
 msgid "You can also choose another name for the import:"
 msgstr "Sie können für den Import auch einen anderen Namen wählen:"
 
-#: ../../integration/javascript.rst
 msgid "Supported JavaScript libraries"
 msgstr "JavaScript-Bibliotheken"
 
@@ -703,6 +697,12 @@ msgstr "JavaScript JSON-Werte"
 
 msgid "The *contract* and *salesRepresentative* variables have complex types, :ref:`type-file` and :ref:`type-user`, so the table only shows an ID. The *Updated value* column shows the result of assigning new values to these variables in the script."
 msgstr "Die Variablen *vertrag* und *verwantwortlicherVertriebler* haben komplexe Datentypen - :ref:`type-file` und :ref:`type-user`. Daher zeigt die Tabelle lediglich die ID. Die Spalte *Neu zugewiesener Wert* zeigt das Ergebnis einer möglichen Neuzuweisung von Werten zu den Variablen im Skript."
+
+msgid "To access :ref:`file <type-file>` content, you need to require the ``files`` API. In this example, ``contract`` is a file variable, which has to be activated for the script task."
+msgstr "Um auf :ref:`Datei <type-file>`-Inhalte zuzugreifen, können Sie die ``Files``-API verwenden. In diesem Beispiel ist ``contract`` eine Datei-Variable, die Sie in der entsprechenden JavaScript-Aufgabe anlegen müssen."
+
+msgid "The following example loads a CSV file and parses its content:"
+msgstr "Das folgende Beispiel lädt eine CSV-Datei und parst dessen Inhalt:"
 
 msgid "Updating case information"
 msgstr "Fallinformationen aktualisieren"
@@ -918,3 +918,12 @@ msgstr "Der :ref:`Salesforce-Auslöser <trigger-salesforce>` steht nun in all Ih
 
 #~ msgid "Finish Signavio Workflow configuration"
 #~ msgstr "Signavio Workflow Konfiguration abschließen"
+
+#~ msgid ""
+#~ "To access :ref:`file <type-file>` "
+#~ "content, you need to require the "
+#~ "``files`` API."
+#~ msgstr ""
+#~ "Um auf :ref:`Datei <type-file>`-Inhalte "
+#~ "zuzugreifen, können Sie die ``Files``-API "
+#~ "verwenden."
