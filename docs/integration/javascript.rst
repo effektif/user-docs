@@ -127,7 +127,8 @@ The following example loads a CSV file and parses its content:
   const files = require('files')
   const csv = require('csv')
 
-  const csvFile = files.getContent(cSV.id)
+  // reportCsv is a file variable, which has to be activated for the script task.
+  const csvFile = files.getContent(reportCsv.id)
 
   csv.parse(csvFile.buffer.toString('utf-8'), {
       auto_parse: true,
