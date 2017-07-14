@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-12 17:30+0200\n"
+"POT-Creation-Date: 2017-07-14 14:45+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -107,7 +107,6 @@ msgid ""
 "has the following fields."
 msgstr ""
 
-#: ../../integration/connectors.rst
 msgid "Example - customer record fields"
 msgstr ""
 
@@ -197,7 +196,6 @@ msgstr ""
 msgid "A JSON object with the following fields."
 msgstr ""
 
-#: ../../integration/connectors.rst
 msgid "Connector descriptor properties"
 msgstr ""
 
@@ -258,7 +256,6 @@ msgid ""
 "record type descriptor JSON objects."
 msgstr ""
 
-#: ../../integration/connectors.rst
 msgid "Record type descriptor properties"
 msgstr ""
 
@@ -306,7 +303,6 @@ msgid ""
 "type."
 msgstr ""
 
-#: ../../integration/connectors.rst
 msgid "Record field descriptor properties"
 msgstr ""
 
@@ -378,7 +374,6 @@ msgid ""
 "Each object in the array must have the following fields."
 msgstr ""
 
-#: ../../integration/connectors.rst
 msgid "Record type options object properties"
 msgstr ""
 
@@ -836,7 +831,6 @@ msgstr ""
 msgid "You can also choose another name for the import:"
 msgstr ""
 
-#: ../../integration/javascript.rst
 msgid "Supported JavaScript libraries"
 msgstr ""
 
@@ -968,6 +962,15 @@ msgid ""
 ":ref:`type-file` and :ref:`type-user`, so the table only shows an ID. The"
 " *Updated value* column shows the result of assigning new values to these"
 " variables in the script."
+msgstr ""
+
+msgid ""
+"To access :ref:`file <type-file>` content, you need to require the "
+"``files`` API. In this example, ``contract`` is a file variable, which "
+"has to be activated for the script task."
+msgstr ""
+
+msgid "The following example loads a CSV file and parses its content:"
 msgstr ""
 
 msgid "Updating case information"
@@ -1516,5 +1519,26 @@ msgstr ""
 #~ "dates; with `Twix "
 #~ "<https://www.npmjs.com/package/twix>`_ date range "
 #~ "support"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To access :ref:`file <type-file>` "
+#~ "content, you need to require the "
+#~ "``files`` API."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In this example ``contract`` is a "
+#~ "file variable, which has to be "
+#~ "activated for the script task."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To access :ref:`file <type-file>` "
+#~ "content, you need to require the "
+#~ "``files`` API. In this example "
+#~ "``contract`` is a file variable, which"
+#~ " has to be activated for the "
+#~ "script task."
 #~ msgstr ""
 
