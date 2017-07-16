@@ -15,3 +15,17 @@ latex_documents = [
 language = 'fr'
 
 prepare(CWD, PROJECT_PATH, language)
+
+def build_search_snippets(app, docname):
+    if app.builder.name == 'html':
+        try:
+            clean_txts(PROJECT_PATH, language)
+        except:
+            pass
+
+
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+
+if on_rtd:
+    def setup(app):
+        app.connect('build-finished', build_search_snippets)
