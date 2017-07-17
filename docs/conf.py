@@ -36,7 +36,7 @@ def clean_txts(path, language):
     build_txt.wait()
     clean_txts.clean()
     shutil.move('../_build_txt/', '_build/html/_sources')
-    
+
 def prepare(cwd, path, lang):
   sys.path.append(path)
 
@@ -68,7 +68,8 @@ AUTHORS = [" ".join(pair) for pair in sorted([
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinxcontrib.spelling']
+extensions = ['sphinxcontrib.spelling', 'sphinxprettysearchresults']
+use_old_search_snippets = True
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
