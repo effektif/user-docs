@@ -3,7 +3,7 @@
 Search
 ======
 
-The search function in Workflow Accelerator helps you find specific for tasks, cases, processes and reports.
+The search function in Workflow Accelerator helps you find specific tasks, cases, processes and reports.
 Search terms are searched in names and description of the respective category.
 With the exception of the search for cases: here, only the name is taken into account.
 
