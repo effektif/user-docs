@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-07 15:58+0200\n"
-"PO-Revision-Date: 2017-07-07 18:38+0200\n"
+"POT-Creation-Date: 2017-07-18 16:27+0200\n"
+"PO-Revision-Date: 2017-07-18 16:31+0200\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language: de\n"
 "Language-Team: \n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "Organization settings"
 msgstr "Organisationseinstellungen"
 
-msgid "In Signavio Workflow Accelerator, your organization represents a collection of Workflow Accelerator users - typically a company - together with all their data in Workflow Accelerator. People outside your organization cannot see your organization’s data. After you log into Workflow Accelerator, you see all the data inside one particular organization. If you belong to multiple organizations, you can switch between organizations by selecting a different organization under your name in the top right corner."
+msgid "In Signavio Workflow Accelerator, your organization represents a collection of Workflow Accelerator users - typically a company - together with all their data in Workflow Accelerator. People outside your organization cannot see your organization's data. After you log into Workflow Accelerator, you see all the data inside one particular organization. If you belong to multiple organizations, you can switch between organizations by selecting a different organization under your name in the top right corner."
 msgstr "In Signavio Workflow Accelerator wird Ihre Organisation - normalerweise eine Firma -  durch eine bestimmte Menge von Signavio Workflow Accelerator-Nutzern dargestellt, zusammen mit all ihren Signavio Workflow Accelerator-Daten. Personen außerhalb Ihrer Organisation können Ihre Daten nicht einsehen. Nachdem Sie sich in Signavio Workflow Accelerator eingeloggt haben, können Sie den Datensatz einer bestimmten Organisation einsehen. Falls Sie mehreren Organisationen angehören, können Sie zwischen Organisationen wechseln, indem Sie oben rechts unter Ihrem Namen eine andere Organisation auswählen."
 
 msgid "Use the Organization settings page to set-up users and groups, manage invitations, and configure external services such as :ref:`salesforce-integration`."
@@ -85,7 +85,7 @@ msgstr "Um jemanden zu Signavio Workflow Accelerator einzuladen, wählen Sie zun
 msgid "Groups"
 msgstr "Gruppen"
 
-msgid "The groups list shows the organization’s user groups. You can use these groups to define candidates for tasks in the :ref:`process builder <processes>`."
+msgid "The groups list shows the organization's user groups. You can use these groups to define candidates for tasks in the :ref:`process builder <processes>`."
 msgstr "Unter Gruppen finden Sie alle Gruppen, die in Ihrer Organisation definiert sind. Sie können Gruppen benutzen um Kandidaten für Aufgaben im :ref:`Prozesseditor <processes>` festzulegen."
 
 msgid "To create a new group, in the text field below the group list, enter a group name and click the *Create* button."
@@ -115,7 +115,7 @@ msgstr "Verwenden Sie den *Services*-Tab, um die Cloud-Services Integration für
 msgid "Billing"
 msgstr "Zahlinformationen"
 
-msgid "Use the *Billing* tab to manage your organization’s licenses for Workflow Accelerator. This page shows:"
+msgid "Use the *Billing* tab to manage your organization's licenses for Workflow Accelerator. This page shows:"
 msgstr "Verwenden Sie den *Zahlinformationen*-Tab, um die Signavio Workflow Accelerator-Lizenzen Ihrer Organisation zu verwalten. Die Seite zeigt:"
 
 msgid "the number of remaining user licenses - how many more people you can add to the organization"

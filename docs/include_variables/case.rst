@@ -63,7 +63,7 @@ An email has a composite type, with the following properties.
 Case ID
 ^^^^^^^
 
-The case variable’s *ID* uniquely identifies this case among cases for all processes.
+The case variable's *ID* uniquely identifies this case among cases for all processes.
 
 
 .. _case-name:

@@ -4,7 +4,7 @@ Setting due dates
 -----------------
 
 You can set a task’s due date,
-so that the assignee’s tasks inbox highlights overdue tasks.
+so that the assignee's tasks inbox highlights overdue tasks.
 To set a task’s due date, open the task,
 and select the clock icon to open the date selector.
 

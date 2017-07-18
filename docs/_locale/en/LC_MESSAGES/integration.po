@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-12 17:30+0200\n"
+"POT-Creation-Date: 2017-07-18 16:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -107,7 +107,6 @@ msgid ""
 "has the following fields."
 msgstr ""
 
-#: ../../integration/connectors.rst
 msgid "Example - customer record fields"
 msgstr ""
 
@@ -197,7 +196,6 @@ msgstr ""
 msgid "A JSON object with the following fields."
 msgstr ""
 
-#: ../../integration/connectors.rst
 msgid "Connector descriptor properties"
 msgstr ""
 
@@ -258,7 +256,6 @@ msgid ""
 "record type descriptor JSON objects."
 msgstr ""
 
-#: ../../integration/connectors.rst
 msgid "Record type descriptor properties"
 msgstr ""
 
@@ -306,7 +303,6 @@ msgid ""
 "type."
 msgstr ""
 
-#: ../../integration/connectors.rst
 msgid "Record field descriptor properties"
 msgstr ""
 
@@ -378,7 +374,6 @@ msgid ""
 "Each object in the array must have the following fields."
 msgstr ""
 
-#: ../../integration/connectors.rst
 msgid "Record type options object properties"
 msgstr ""
 
@@ -836,7 +831,6 @@ msgstr ""
 msgid "You can also choose another name for the import:"
 msgstr ""
 
-#: ../../integration/javascript.rst
 msgid "Supported JavaScript libraries"
 msgstr ""
 
@@ -977,7 +971,7 @@ msgid ""
 "The process variables always include the built-in :ref:`Case <case-"
 "variable>` variable, which contains information about the current case. "
 "Sometimes, you want to update this case information using data from "
-"process variables. You can update some of the this case variable’s "
+"process variables. You can update some of the this case variable's "
 "fields, as follows."
 msgstr ""
 
@@ -1033,7 +1027,7 @@ msgstr ""
 msgid ""
 "The script then parses this JSON response using ``JSON.parse`` and "
 "updates the ``startDate`` variable in Workflow Accelerator, as shown in "
-"the *Updated value* column in the test console’s variables table."
+"the *Updated value* column in the test console's variables table."
 msgstr ""
 
 msgid "Salesforce Integration"
@@ -1516,5 +1510,25 @@ msgstr ""
 #~ "dates; with `Twix "
 #~ "<https://www.npmjs.com/package/twix>`_ date range "
 #~ "support"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The process variables always include the"
+#~ " built-in :ref:`Case <case-variable>` "
+#~ "variable, which contains information about "
+#~ "the current case. Sometimes, you want"
+#~ " to update this case information "
+#~ "using data from process variables. You"
+#~ " can update some of the this "
+#~ "case variable’s fields, as follows."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The script then parses this JSON "
+#~ "response using ``JSON.parse`` and updates "
+#~ "the ``startDate`` variable in Workflow "
+#~ "Accelerator, as shown in the *Updated"
+#~ " value* column in the test console’s"
+#~ " variables table."
 #~ msgstr ""
 

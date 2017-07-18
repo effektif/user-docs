@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-12 17:30+0200\n"
-"PO-Revision-Date: 2017-06-12 17:42+0200\n"
+"POT-Creation-Date: 2017-07-18 16:27+0200\n"
+"PO-Revision-Date: 2017-07-18 16:31+0200\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language: de\n"
 "Language-Team: \n"
@@ -77,7 +77,6 @@ msgstr "Signavio Workflow Accelerator verbindet sich mittels eines öffentlichen
 msgid "For example, consider a connector that accesses a fictional customer database, that you publish at the endpoint URL ``https://example.org/connector``. In this example, each customer record has the following fields."
 msgstr "Ein Beispiel: Sie verwenden eine Datenschnittstelle einer fiktiven Kundendatenbank, die Sie auf der Endpoint-URL ``https://example.org/connector`` veröffentlichen. In diesem Beispiel hat jeder Kunde die folgenden Felder:"
 
-#: ../../integration/connectors.rst
 msgid "Example - customer record fields"
 msgstr "Beispiel - Kunden-Datensatz"
 
@@ -159,7 +158,6 @@ msgstr "Antwort"
 msgid "A JSON object with the following fields."
 msgstr "Die Antwort muss ein JSON-Objekt mit den folgenden Feldern enthalten."
 
-#: ../../integration/connectors.rst
 msgid "Connector descriptor properties"
 msgstr "Deskriptor der Datenschnittstelle"
 
@@ -208,7 +206,6 @@ msgstr "In unserem Beispiel würden Sie die Beschreibungen der Datenschnittstell
 msgid "A **record type descriptor** describes the format of the data the connector provides, such as the format of a customer record. In the JSON response, the ``typeDescriptors`` property’s value contains an array of record type descriptor JSON objects."
 msgstr "Ein **Eintragstyp des Deskriptors** charakterisiert die Formatierung der Daten in der jeweiligen Schnittstelle, zum Beispiel die Formatierung der Kundeneinträge. In der Antwort von JSON enthält der ``typeDeskriptor`` ein Feld von Eintragstypen-Beschreibung als JSON-Objekte:"
 
-#: ../../integration/connectors.rst
 msgid "Record type descriptor properties"
 msgstr "Optionen für Eintragstypen"
 
@@ -242,7 +239,6 @@ msgstr "Das JSON Objekt für die Typbeschreibung eines Kundeintrags, ohne Felder
 msgid "A **record field descriptor** specifies one field of a record type. A record type has a complex structure that includes one or more fields, such as a customer’s full name. Each field has a key, a name and a data type."
 msgstr "Ein **Deskriptor des Eintragsfeld** spezifiziert genau ein Feld des Eintragstyps. Ein Eintrag hat eine komplexe Struktur, die ein oder mehrere Felder einschließt, zum Beispiel den vollständigen Namen eines Kunden. Jedes Feld hat einen Schlüssel, einen Namen und einen Datentyp."
 
-#: ../../integration/connectors.rst
 msgid "Record field descriptor properties"
 msgstr "Eigenschaften des Deskriptors des Eintagsfelds"
 
@@ -294,7 +290,6 @@ msgstr "GET – fragt die Liste der Eintragstyp-Optionen an"
 msgid "An array of JSON objects, which should have a limited maximum length. Each object in the array must have the following fields."
 msgstr "Die Antwort muss ein Array mit JSON-Objekten enthalten, dessen Größe eingeschränkt ist. Jedes Objekt im Feld muss dafür die folgenden Felder aufweisen:"
 
-#: ../../integration/connectors.rst
 msgid "Record type options object properties"
 msgstr "Optionen für Eintragstypen (einzelne Option)"
 
@@ -601,7 +596,6 @@ msgstr "Skript-Tasks unterstützen eine Reihe gängiger JavaScript-Bibliotheken.
 msgid "You can also choose another name for the import:"
 msgstr "Sie können für den Import auch einen anderen Namen wählen:"
 
-#: ../../integration/javascript.rst
 msgid "Supported JavaScript libraries"
 msgstr "JavaScript-Bibliotheken"
 
@@ -707,7 +701,7 @@ msgstr "Die Variablen *vertrag* und *verwantwortlicherVertriebler* haben komplex
 msgid "Updating case information"
 msgstr "Fallinformationen aktualisieren"
 
-msgid "The process variables always include the built-in :ref:`Case <case-variable>` variable, which contains information about the current case. Sometimes, you want to update this case information using data from process variables. You can update some of the this case variable’s fields, as follows."
+msgid "The process variables always include the built-in :ref:`Case <case-variable>` variable, which contains information about the current case. Sometimes, you want to update this case information using data from process variables. You can update some of the this case variable's fields, as follows."
 msgstr "Prozessvariablen enthalten immer eine :ref:`Fall <case-variable>`-Variable, die Informationen über den aktuellen Fall enthält. In bestimmten Fällen möchten Sie diese Informationen mit Daten von Prozessvariablen aktualisieren. Hierfür können Sie Felder der Fallvariablen wie folgt anpassen:"
 
 msgid "A :ref:`case name template <details>` can only use :ref:`form-trigger` fields to set the case name when the process starts. However, when you can set the case name directly in a JavaScript action, you don’t have this restriction."
@@ -737,7 +731,7 @@ msgstr "Den Wert eines Feldes mit Hilfe eines externen Web Services setzen"
 msgid "The two log statements, starting with *HTTP 200*, show the HTTP response from the web service. The response body (as set-up in Mocky) contains JSON data that includes an updated value for the ``startDate`` variable, changing the date from ``2015-06-15`` to ``2015-06-16``."
 msgstr "Die beiden mit *HTTP 200* beginnenden Logeinträge zeigen die Antwort des Web-Services. Der Response Body (der in Mocky konfiguriert wurde) beinhaltet JSON Daten, die einen neuen Wert für das Feld ``startdatum`` beinhalten und es von ``2016-02-05`` zu ``2016-07-02`` ändern."
 
-msgid "The script then parses this JSON response using ``JSON.parse`` and updates the ``startDate`` variable in Workflow Accelerator, as shown in the *Updated value* column in the test console’s variables table."
+msgid "The script then parses this JSON response using ``JSON.parse`` and updates the ``startDate`` variable in Workflow Accelerator, as shown in the *Updated value* column in the test console's variables table."
 msgstr "Unser Skript parst den Wert der Response mittels ``JSON.parse`` und aktualisiert anschließend das ``startdatum`` Feld in Signavio Workflow Accelerator. Dieses Verhalten sehen Sie auch in der Spalte *Neu zugewiesener Wert* in der Test-Konsole."
 
 msgid "Salesforce Integration"

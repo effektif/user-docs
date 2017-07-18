@@ -4,7 +4,7 @@ Organization settings
 =====================
 
 In Signavio Workflow Accelerator, your organization represents a collection of Workflow Accelerator users - typically a company - together with all their data in Workflow Accelerator.
-People outside your organization cannot see your organization’s data.
+People outside your organization cannot see your organization's data.
 After you log into Workflow Accelerator, you see all the data inside one particular organization.
 If you belong to multiple organizations, you can switch between organizations by selecting a different organization under your name in the top right corner.
 
@@ -79,7 +79,7 @@ where they can create a Workflow Accelerator user that will become a member of t
 Groups
 ------
 
-The groups list shows the organization’s user groups.
+The groups list shows the organization's user groups.
 You can use these groups to define candidates for tasks in the :ref:`process builder <processes>`.
 
 .. figure:: /_static/images/settings/groups.png
@@ -119,7 +119,7 @@ See :ref:`salesforce-integration`.
 Billing
 -------
 
-Use the *Billing* tab to manage your organization’s licenses for Workflow Accelerator.
+Use the *Billing* tab to manage your organization's licenses for Workflow Accelerator.
 This page shows:
 
 * the number of remaining user licenses - how many more people you can add to the organization
