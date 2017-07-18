@@ -145,7 +145,7 @@ Updating case information
 
 The process variables always include the built-in :ref:`Case <case-variable>` variable, which contains information about the current case.
 Sometimes, you want to update this case information using data from process variables.
-You can update some of the this case variable’s fields, as follows.
+You can update some of the this case variable's fields, as follows.
 
 .. code:: js
 
@@ -203,4 +203,4 @@ changing the date from ``2015-06-15`` to ``2015-06-16``.
 
 The script then parses this JSON response using ``JSON.parse``
 and updates the ``startDate`` variable in Workflow Accelerator,
-as shown in the *Updated value* column in the test console’s variables table.
+as shown in the *Updated value* column in the test console's variables table.

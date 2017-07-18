@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Signavio GmbH
+# This file is distributed under the same license as the Signavio Workflow
+# Accelerator package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Signavio Workflow Accelerator 3.15\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-18 10:15+0200\n"
+"PO-Revision-Date: 2017-07-18 10:16+0200\n"
+"Last-Translator: \n"
+"Language: de\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 2.0.2\n"
+
+msgid "Search"
+msgstr "Suche"
+
+msgid ""
+"The search function in Workflow Accelerator helps you find specific tasks, "
+"cases, processes and reports. Search terms are searched in names and "
+"description of the respective category. With the exception of the search for "
+"cases: here, only the name is taken into account."
+msgstr ""
+"Die Suchfunktion in Workflow Accelerator hilft Ihnen, gezielt nach Aufgaben, "
+"Fällen, Prozessen und Reports zu suchen. Der von Ihnen eingegebene "
+"Suchbegriff wird im Namen und der Beschreibung der jeweiligen Kategorie "
+"gesucht – Ausnahme bildet hierbei die Such nach den Fällen: hier wird "
+"lediglich der Name berücksichtigt."
+
+msgid "How to search in Workflow Accelerator:"
+msgstr "Wichtige Hinweise zur Suche:"
+
+msgid "Wildcards are not supported."
+msgstr "Wildcards werden nicht unterstützt."
+
+msgid ""
+"With search terms in quotation marks, you can search for a coherent string."
+msgstr ""
+"Mit Suchbegriffen in Anführungszeichen können Sie nach einer "
+"zusammenhängenden Zeichenkette suchen."
+
+msgid "Exclude search terms by a - (minus) before the search term."
+msgstr ""
+"Über ein - (Minus) vor dem Suchbegriff schließen Sie diesen von der Suche aus."
+
+msgid "Upper/lower case is not taken into account."
+msgstr "Groß- und Kleinschreibung wird nicht berücksichtigt."
+
+msgid "You must enter at least three characters for the search term."
+msgstr "Sie müssen einen Suchbegriff mit mindestens drei Zeichen eingeben."
+
+msgid "You can open the search page via the search option in the main menu bar."
+msgstr "Öffnen Sie die Suchseite über die Suchoption in der Hauptmenüleiste."
+
+msgid "Main menu search icon"
+msgstr "Suchsymbol in der Hauptmenüleiste"
+
+msgid "Enter a search term."
+msgstr "Geben Sie einen Suchbegriff ein."
+
+msgid "Search page input field"
+msgstr "Eingabefeld für Suchbegriffe"
+
+msgid ""
+"The search results show a list with the first ten entries per category. If "
+"you do not find the required search result in the list, you need to refine "
+"your search by adding or excluding keywords, for example. Hover an entry to "
+"show details on the right."
+msgstr ""
+"Suchergebnisse werden in einer Liste mit den jeweils ersten zehn Einträgen "
+"pro Kategorie angezeigt. Sollten Sie nicht das gewünschte Suchergebnis in der "
+"Liste finden, verfeinern Sie Ihre Suche, indem Sie beispielsweise "
+"Suchbegriffe hinzufügen oder ausschließen. Fahren Sie mit der Maus über einen "
+"Eintrag in der Ergebnisliste, um Details zu dem jeweiligen Eintrag anzuzeigen."
+
+msgid "Search results with one entry highlighted."
+msgstr "Suchergebnisse mit einem hervorgehobenen Eintrag."
+
+msgid ""
+"The case icon next to the case name indicates the case status - open or "
+"closed."
+msgstr ""
+"Beachten Sie, dass das Symbol neben dem Fallnamen den Status anzeigt - offen "
+"oder geschlossen. Wählen Sie den Fallnamen, um den Fall zu öffnen."
+
+msgid "Select the case name to open the case."
+msgstr "Wählen Sie den Fallnamen aus, um den Fall zu öffnen."
+
+#~ msgid "stemming is a method of search"
+#~ msgstr "Stemming wird unterstützt"

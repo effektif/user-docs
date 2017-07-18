@@ -65,7 +65,7 @@ You can use this to re-use the result of a decision later in the process,
 either to display the entered value on another form,
 or to use the value in an automatic decision’s condition.
 
-During workflow execution, selecting a decision sets the variable’s value to the selected decision -
+During workflow execution, selecting a decision sets the variable's value to the selected decision -
 the text on the decision button.
 In this example, the decision variable has the value ‘Approve’ or ‘Reject’.
 
