@@ -26,13 +26,13 @@ JavaScript libraries
 Script tasks support a number of popular JavaScript libraries.
 To import a package, use our custom ``require`` function:
 
-.. code:: javascript
+.. code:: js
 
    var moment = require('moment');
 
 You can also choose another name for the import:
 
-.. code:: javascript
+.. code:: js
 
    var stringValidator = require('validator');
 
@@ -112,6 +112,32 @@ When clicking `Test it` again, we can see the JSON structure of the variable dat
 The *contract* and *salesRepresentative* variables have complex types, :ref:`type-file` and :ref:`type-user`, so the table only shows an ID.
 The *Updated value* column shows the result of assigning new values to these variables in the script.
 
+To access :ref:`file <type-file>` content, you need to require the ``files`` API.
+In this example, ``contract`` is a file variable, which has to be activated for the script task.
+
+.. code:: js
+
+  const files = require('files')
+  const fileContent = files.getContent(contract)
+
+The following example loads a CSV file and parses its content:
+
+.. code:: js
+
+  const files = require('files')
+  const csv = require('csv')
+
+  // reportCsv is a file variable, which has to be activated for the script task.
+  const csvFile = files.getContent(reportCsv.id)
+
+  csv.parse(csvFile.buffer.toString('utf-8'), {
+      auto_parse: true,
+      columns: true,
+  }, (error, data) => {
+      console.log(data)
+  })
+
+
 .. _case-updates:
 
 Updating case information
@@ -121,7 +147,7 @@ The process variables always include the built-in :ref:`Case <case-variable>` va
 Sometimes, you want to update this case information using data from process variables.
 You can update some of the this case variable's fields, as follows.
 
-.. code:: javascript
+.. code:: js
 
    // Set the case name using a template.
    _case.name = `Case ${_case.caseNumber}`;
@@ -144,7 +170,7 @@ Looking up Workflow Accelerator data
 In a JavaScript task, you might need to select a Workflow Accelerator user based on external data, to assign a role.
 To do this, you can use the built-in ``users`` API to find a user by their email address.
 
-.. code:: javascript
+.. code:: js
 
    const users = require('users');
    reviewer = users.findByEmail(reviewerEmailAddress);

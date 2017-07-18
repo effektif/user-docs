@@ -56,7 +56,7 @@ An email has a composite type, with the following properties.
    * - Milestone
      - ``milestone``
      - :ref:`type-text`
-     - The last milestone the case is has passed
+     - The last milestone the case has passed
 
 .. _case-id:
 

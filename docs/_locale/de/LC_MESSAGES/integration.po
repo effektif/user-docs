@@ -698,6 +698,12 @@ msgstr "JavaScript JSON-Werte"
 msgid "The *contract* and *salesRepresentative* variables have complex types, :ref:`type-file` and :ref:`type-user`, so the table only shows an ID. The *Updated value* column shows the result of assigning new values to these variables in the script."
 msgstr "Die Variablen *vertrag* und *verwantwortlicherVertriebler* haben komplexe Datentypen - :ref:`type-file` und :ref:`type-user`. Daher zeigt die Tabelle lediglich die ID. Die Spalte *Neu zugewiesener Wert* zeigt das Ergebnis einer möglichen Neuzuweisung von Werten zu den Variablen im Skript."
 
+msgid "To access :ref:`file <type-file>` content, you need to require the ``files`` API. In this example, ``contract`` is a file variable, which has to be activated for the script task."
+msgstr "Um auf :ref:`Datei <type-file>`-Inhalte zuzugreifen, können Sie die ``Files``-API verwenden. In diesem Beispiel ist ``contract`` eine Datei-Variable, die Sie in der entsprechenden JavaScript-Aufgabe anlegen müssen."
+
+msgid "The following example loads a CSV file and parses its content:"
+msgstr "Das folgende Beispiel lädt eine CSV-Datei und parst dessen Inhalt:"
+
 msgid "Updating case information"
 msgstr "Fallinformationen aktualisieren"
 
@@ -912,3 +918,12 @@ msgstr "Der :ref:`Salesforce-Auslöser <trigger-salesforce>` steht nun in all Ih
 
 #~ msgid "Finish Signavio Workflow configuration"
 #~ msgstr "Signavio Workflow Konfiguration abschließen"
+
+#~ msgid ""
+#~ "To access :ref:`file <type-file>` "
+#~ "content, you need to require the "
+#~ "``files`` API."
+#~ msgstr ""
+#~ "Um auf :ref:`Datei <type-file>`-Inhalte "
+#~ "zuzugreifen, können Sie die ``Files``-API "
+#~ "verwenden."
