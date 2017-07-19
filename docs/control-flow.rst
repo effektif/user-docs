@@ -11,3 +11,4 @@ You use transitions, gateways and events to specify the processing order of the 
 .. include:: include_control-flow/start-event.rst
 .. include:: include_control-flow/end-event.rst
 .. include:: include_control-flow/intermediate-timer-event.rst
+.. include:: include_control-flow/milestone.rst
