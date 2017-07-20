@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-19 16:02+0200\n"
-"PO-Revision-Date: 2017-07-19 16:21+0200\n"
+"POT-Creation-Date: 2017-07-20 09:55+0200\n"
+"PO-Revision-Date: 2017-07-20 10:09+0200\n"
 "Last-Translator: Timotheus Kampik <timotheus.kampik@signavio.com>\n"
 "Language: de\n"
 "Language-Team: \n"
@@ -238,7 +238,7 @@ msgstr "Meilenstein"
 msgid "A milestone in the process editor"
 msgstr "Ein Meilenstein im Prozesseditor"
 
-msgid "A milestone is an intermediate event which allows you to mark an important event or a turning point within a process. By setting milestones process owners obtain an overview of the workflow progress."
+msgid "A milestone is an intermediate event which allows you to mark an important event or a turning point within a process. By setting milestones, process owners obtain an overview of the workflow progress."
 msgstr "Ein Meilenstein ist ein Zwischenereignis, mit dem Sie ein wichtiges Ereignis oder einen Wendepunkt innerhalb eines Prozesses markieren können. Durch den Einsatz von Meilensteinen erhalten Prozessverantwortliche eine Übersicht über den laufenden Workflow."
 
 msgid "You can set a milestone either by using the intermediate event or via a script task."
@@ -247,11 +247,8 @@ msgstr "Ein Meilenstein kann entweder als Zwischenereignis oder als JavaScript-A
 msgid "**Script task sample**:"
 msgstr "**Beispiel JavaScript-Aktion**:"
 
-msgid "\"_case.milestone = 'Document archived'"
-msgstr "„_case.milestone = ‚Dokument archiviert‘‚"
-
-msgid "When using the intermediate event, you can reuse any variables from the workflow to create the milestone text by using #."
-msgstr "Wenn der Meilenstein in Form eines Zwischenereignisses eingesetzt wird, können Sie alle Variablen aus dem Workflow als Meilenstein-Text wiederverwenden. Klicken Sie „#„ , um eine Variable auszuwählen."
+msgid "When using the intermediate event, you can reuse any variables from the workflow to create the milestone text by typing ``#``."
+msgstr "Wenn der Meilenstein in Form eines Zwischenereignisses eingesetzt wird, können Sie alle Variablen aus dem Workflow als Meilenstein-Text wiederverwenden. Tippen Sie ``#``, um eine Variable auszuwählen."
 
 msgid "To show the current milestone, add the field 'Case/Milestone' as a column in the case list."
 msgstr "Um den aktuellen Meilenstein anzuzeigen, fügen Sie das Feld „Fall/ Meilenstein“ als Tabellenspalte in der Fall-Liste hinzu."
@@ -290,3 +287,6 @@ msgstr "Bitte beachten Sie, dass immer nur jeweils der aktuellste Meilenstein an
 #~ "the field Case/Milestone as a column "
 #~ "in the case list."
 #~ msgstr ""
+
+#~ msgid "\"_case.milestone = 'Document archived'"
+#~ msgstr "„_case.milestone = ‚Dokument archiviert‘‚"
