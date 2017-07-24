@@ -112,6 +112,13 @@ When clicking `Test it` again, we can see the JSON structure of the variable dat
 The *contract* and *salesRepresentative* variables have complex types, :ref:`type-file` and :ref:`type-user`, so the table only shows an ID.
 The *Updated value* column shows the result of assigning new values to these variables in the script.
 
+.. note::
+  You can use JavaScript actions to update process variables.
+  Then, you need to make sure you *re-assign* a new value to the variable instead of mutating the variable itself.
+  Otherwise, the system will ignore the update.
+  For example, the system ignores ``contactEmails.push('joan.doe@example.org')``, but correctly processes ``contactEmails = [].concat([], 'joan.doe@example.org')``.
+  This restriction doesn't apply to variables you only use in the context of the JavaScript task.
+
 To access :ref:`file <type-file>` content, you need to require the ``files`` API.
 In this example, ``contract`` is a file variable, which has to be activated for the script task.
 
