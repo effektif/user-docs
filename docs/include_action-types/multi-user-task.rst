@@ -44,3 +44,19 @@ The mapping to *Approvals* creates a variable with the same type as the *Approve
 Completing the tasks that the multi-user task generated adds the *Approved* values (Yes or No) to the *Approvals* list.
 
 To use the results of a multiple approval, use a :ref:`javascript-action` to implement whatever logic consolidates the list of results in the list into a single decision.
+
+Manual decision (Exclusive gateway)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The multi-user task supports manual decisions.
+If an exclusive gateway follows a multi-user task, you can configure the buttons, which reflect the possible decisions to this gateway.
+The buttons are displayed in the form of the multi-user task.
+
+.. figure:: /_static/images/action-types/multi-user-task/manual-decision.png
+
+   Configuring decision options for a multi-user task
+
+Select the decision type 'Manual' for the exclusive gateway. Then choose the decision option from the dropdown menu:
+
+* *All users have chosen this option*
+* *At least one user has chosen this option*

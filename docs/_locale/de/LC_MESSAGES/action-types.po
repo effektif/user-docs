@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-20 13:46+0200\n"
-"PO-Revision-Date: 2017-07-21 11:25+0200\n"
+"POT-Creation-Date: 2017-07-25 15:51+0200\n"
+"PO-Revision-Date: 2017-07-25 15:54+0200\n"
 "Last-Translator: Christian Wiggert <christian.wiggert@signavio.com>\n"
 "Language: de\n"
 "Language-Team: \n"
@@ -172,6 +172,24 @@ msgstr "In diesem Beispiel enthält das Formular der Mehrbenutzer-Aufgabe eine e
 
 msgid "To use the results of a multiple approval, use a :ref:`javascript-action` to implement whatever logic consolidates the list of results in the list into a single decision."
 msgstr "Um die Ergebnisse einer Mehrfach-Genehmigung anzuwenden, können Sie eine :ref:`javascript-action` einsetzen, um beispielsweise eine Logik zu hinterlegen, die die Ergebnisse der Werteliste zu einem Ergebnis aggregiert."
+
+msgid "Manual decision (Exclusive gateway)"
+msgstr "Manuelle Entscheidung (Exklusives Gateway)"
+
+msgid "The multi-user task supports manual decisions. If an exclusive gateway follows a multi-user task, you can configure the buttons, which reflect the possible decisions to this gateway. The buttons are displayed in the form of the multi-user task."
+msgstr "Die Mehrbenutzer-Aufgabe unterstützt auch manuelle Entscheidungen. Wenn nach einer Mehrbenutzer-Aufgabe ein exklusives Gateway folgt, so können Sie die Buttons konfigurieren, welche die möglichen Entscheidungen an diesem Gateway widerspiegeln. Die Buttons werden im Formular der Mehrbenutzer-Aufgabe angezeigt."
+
+msgid "Configuring decision options for a multi-user task"
+msgstr "Entscheidungsoption für eine Mehrbenutzer-Aufgabe konfigurieren"
+
+msgid "Select the decision type 'Manual' for the exclusive gateway. Then choose the decision option from the dropdown menu:"
+msgstr "Wählen Sie den Entscheidungstyp „Manuell“ für das Gateway aus. Die Entscheidungsmöglichkeit wird anschließend über das Dropdown-Menü selektiert:"
+
+msgid "*All users have chosen this option*"
+msgstr "Alle Nutzer haben diese Option ausgewählt."
+
+msgid "*At least one user has chosen this option*"
+msgstr "Wenigstens ein Nutzer hat diese Option ausgewählt."
 
 msgid "Send email"
 msgstr "E-Mail senden"
@@ -876,3 +894,6 @@ msgstr "Jedes Feld im Subprozess kann auch in diesem Workflow benutzt werden, so
 #~ "diesen Elementen finden Sie hier: "
 #~ "https://msdn.microsoft.com/de-"
 #~ "de/library/bb386200.aspx#designtime"
+
+#~ msgid "Manual decision"
+#~ msgstr ""
