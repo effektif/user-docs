@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-20 13:46+0200\n"
-"PO-Revision-Date: 2017-07-21 11:25+0200\n"
+"PO-Revision-Date: 2017-07-25 16:08+0200\n"
 "Last-Translator: Christian Wiggert <christian.wiggert@signavio.com>\n"
 "Language: de\n"
 "Language-Team: \n"
@@ -639,7 +639,7 @@ msgid "Content controls, which have been created in the document template, each 
 msgstr "Inhaltssteuerelemente, die in der Dokumentenvorlage angelegt worden sind, repräsentieren jeweils ein Formularfeld. Damit Formularfelder in Workflow Accelerator korrekt gemappt und angezeigt werden können, ist es unerlässlich, jedem Inhaltssteuerelement einen Titel zuzuweisen. Der Titel wird dabei als Eigenschaft des Elements festgelegt."
 
 msgid "Please note that currently only text and plain text are supported as types of content controls."
-msgstr "Bitte beachten Sie, dass derzeit nur Text und Rich Text unterstützt als Inhaltssteuerelemente-Typen werden."
+msgstr "Bitte beachten Sie, dass derzeit nur Text und Rich Text als Inhaltssteuerelemente-Typen unterstützt werden."
 
 msgid "Configuring a `Document template` action in the process editor."
 msgstr "“Dokument erstellen”-Aktionen im Prozesseditor konfigurieren."
