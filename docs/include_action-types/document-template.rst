@@ -26,7 +26,7 @@ Content controls, which have been created in the document template, each represe
 To map and display form fields correctly in Workflow Accelerator, it is mandatory to specify a title to each content control.
 The title is set as a property of the control.
 
-.. hint:: Rich text fields support no line breaks. But you can use line breaks for plain text fields with the property 'Allow carriage returns (multiple paragraphs)'.
+.. hint:: Rich text fields don't support line breaks. If you need fields that support line breaks, use plain text fields and activate the check-box 'Allow carriage returns (multiple paragraphs)'.
 
 .. figure:: /_static/images/action-types/document-template/upload-template.png
 
