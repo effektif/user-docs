@@ -2,6 +2,7 @@
 
 Document template
 -----------------
+.. versionadded:: 3.32
 
 If you are modelling a workflow, there is often the need to collect the information input entered by users of the workflow tasks.
 Workflow Accelerator can add these data dynamically to a Microsoft Word document, which is then used as a basis for a later audit, for example for further decisions.

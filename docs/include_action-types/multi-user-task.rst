@@ -2,6 +2,7 @@
 
 Multi-user task
 ---------------
+.. versionadded:: 3.28
 
 .. figure:: /_static/images/action-types/multi-user-task/multi-user-task.png
 
