@@ -49,14 +49,14 @@ Manual decision (Exclusive gateway)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The multi-user task supports manual decisions.
-If an exclusive gateway follows a multi-user task, you can configure the buttons, which reflect the possible decisions to this gateway.
+If an exclusive gateway follows a multi-user task, you can configure the buttons that reflect the possible decisions to this gateway.
 The buttons are displayed in the form of the multi-user task.
 
 .. figure:: /_static/images/action-types/multi-user-task/manual-decision.png
 
    Configuring decision options for a multi-user task
 
-Select the decision type 'Manual' for the exclusive gateway. Then choose the decision option from the dropdown menu:
+Select the decision type 'Manual' for the exclusive gateway. Then choose the decision option from the drop-down menu:
 
 * *All users have chosen this option*
 * *At least one user has chosen this option*
