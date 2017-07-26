@@ -14,14 +14,19 @@ Suppose your company has set up a workflow for contracts or quotations, in which
 The contract or quotation is created based on a standard template, so that required data from the workflow are assigned accordingly in an output form.
 At the end of the process, the output document containing all relevant information is made available to a sales person, who has then the ability to make any personal additions before the contract or quotation will be sent to the customer.
 
+
+Content controls
+^^^^^^^^^^^^^^^^
 A prerequisite for the implementation of this feature is that the applied template is a Microsoft Word document that contains the required content controls.
 You will find a detailed description on how to implement content controls in a Word document here: https://support.office.com/en-us/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b
+
+.. hint:: Please note that currently only text and plain text are supported as types of content controls.
 
 Content controls, which have been created in the document template, each represent a form field.
 To map and display form fields correctly in Workflow Accelerator, it is mandatory to specify a title to each content control.
 The title is set as a property of the control.
 
-.. hint:: Please note that currently only text and plain text are supported as types of content controls.
+.. hint:: Rich text fields don't support line breaks. If you need fields that support line breaks, use plain text fields and activate the check-box 'Allow carriage returns (multiple paragraphs)'.
 
 .. figure:: /_static/images/action-types/document-template/upload-template.png
 

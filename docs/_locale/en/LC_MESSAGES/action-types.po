@@ -1006,6 +1006,9 @@ msgid ""
 "before the contract or quotation will be sent to the customer."
 msgstr ""
 
+msgid "Content controls"
+msgstr ""
+
 msgid ""
 "A prerequisite for the implementation of this feature is that the applied"
 " template is a Microsoft Word document that contains the required content"
@@ -1016,6 +1019,11 @@ msgid ""
 msgstr ""
 
 msgid ""
+"Please note that currently only text and plain text are supported as "
+"types of content controls."
+msgstr ""
+
+msgid ""
 "Content controls, which have been created in the document template, each "
 "represent a form field. To map and display form fields correctly in "
 "Workflow Accelerator, it is mandatory to specify a title to each content "
@@ -1023,8 +1031,9 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Please note that currently only text and plain text are supported as "
-"types of content controls."
+"Rich text fields don't support line breaks. If you need fields that "
+"support line breaks, use plain text fields and activate the check-box "
+"'Allow carriage returns (multiple paragraphs)'."
 msgstr ""
 
 msgid "Configuring a `Document template` action in the process editor."
@@ -1611,4 +1620,3 @@ msgstr ""
 #~ "the decision option from the dropdown"
 #~ " menu:"
 #~ msgstr ""
-
