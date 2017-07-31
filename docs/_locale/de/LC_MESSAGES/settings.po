@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-18 16:27+0200\n"
-"PO-Revision-Date: 2017-07-18 16:31+0200\n"
+"POT-Creation-Date: 2017-07-31 12:02+0200\n"
+"PO-Revision-Date: 2017-07-31 12:23+0200\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language: de\n"
 "Language-Team: \n"
@@ -105,6 +105,30 @@ msgstr "Unter *Zeitzone* konfigurieren Sie die Anzeige von Zeiten in Signavio Wo
 
 msgid "*Email signature* replaces the default *Workflow Accelerator team* signature at the bottom of :ref:`notification emails <notifications>`."
 msgstr "Unter *Email Signatur* ersetzen Sie die *Signavio Workflow Team*-Standardsignatur, die mit den :ref:`Signavio Workflow Accelerator-Emailbenachrichtigungen<notifications>` verschickt wird."
+
+msgid "Process creation"
+msgstr "Prozesserstellung"
+
+msgid "*Process creation* You can activate this option to configure which group of users can create processes."
+msgstr "*Prozesserstellung* Sie können diese Option aktivieren, um zu konfigurieren, welche Gruppe Prozesse erstellen darf."
+
+msgid "Only users of this group can"
+msgstr "Nur Mitglieder dieser Gruppe dürfen"
+
+msgid "create new processes"
+msgstr "neue Prozesse erstellen"
+
+msgid "copy processes"
+msgstr "Prozesse kopieren"
+
+msgid "import processes."
+msgstr "Prozesse importieren."
+
+msgid "Users who are not member of the defined group, but with editing rights for certain processes are still able to modify these processes."
+msgstr "Benutzer, die nicht Mitglied der definierten Gruppe sind, aber Editierrechte auf bestimmte Prozesse haben, können weiterhin diese Prozesse bearbeiten."
+
+msgid "The transfer of processes between Process Manager and Workflow Accelerator is not affected by this restriction. Any modeller can transfer a process from within Process Manager to Workflow Accelerator."
+msgstr "Der Transfer von Prozessen von Process Manager zu Workflow Accelerator ist durch diese Restriktion nicht beeinträchtigt. Alle Modellierer können nach wie vor Prozesse von Process Manager zu Workflow Accelerator übertragen."
 
 msgid "Services"
 msgstr "Services"

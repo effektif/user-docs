@@ -107,6 +107,24 @@ The *Preferences* include additional options that apply to the whole organizatio
 *Email signature* replaces the default *Workflow Accelerator team* signature at the bottom of :ref:`notification emails <notifications>`.
 
 
+Process creation
+----------------
+
+.. figure:: /_static/images/settings/process_creation.png
+
+*Process creation* You can activate this option to configure which group of users can create processes.
+
+Only users of this group can
+
+* create new processes
+* copy processes
+* import processes.
+
+Users who are not member of the defined group, but with editing rights for certain processes are still able to modify these processes.
+
+.. note:: The transfer of processes between Process Manager and Workflow Accelerator is not affected by this restriction. Any modeller can transfer a process from within Process Manager to Workflow Accelerator.
+
+
 Services
 --------
 
