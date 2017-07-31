@@ -109,6 +109,7 @@ The *Preferences* include additional options that apply to the whole organizatio
 
 Process creation
 ----------------
+.. versionadded:: 3.34
 
 .. figure:: /_static/images/settings/process_creation.png
 
