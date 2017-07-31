@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-07-18 16:27+0200\n"
+"POT-Creation-Date: 2017-07-31 11:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -156,6 +156,37 @@ msgstr ""
 msgid ""
 "*Email signature* replaces the default *Workflow Accelerator team* "
 "signature at the bottom of :ref:`notification emails <notifications>`."
+msgstr ""
+
+msgid "Process creation"
+msgstr ""
+
+msgid ""
+"*Process creation* You can activate this option to configure which group "
+"of users can create processes."
+msgstr ""
+
+msgid "Only users of this group can"
+msgstr ""
+
+msgid "create new processes"
+msgstr ""
+
+msgid "copy processes"
+msgstr ""
+
+msgid "import processes."
+msgstr ""
+
+msgid ""
+"Users who are not member of the defined group, but with editing rights "
+"for certain processes are still able to modify these processes."
+msgstr ""
+
+msgid ""
+"The transfer of processes between Process Manager and Workflow "
+"Accelerator is not affected by this restriction. Any modeller can "
+"transfer a process from within Process Manager to Workflow Accelerator."
 msgstr ""
 
 msgid "Services"
@@ -430,5 +461,11 @@ msgstr ""
 #~ "Use the *Billing* tab to manage "
 #~ "your organization’s licenses for Workflow "
 #~ "Accelerator. This page shows:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Process Creation* You can activate this"
+#~ " option to configure which group of"
+#~ " users can create processes."
 #~ msgstr ""
 
