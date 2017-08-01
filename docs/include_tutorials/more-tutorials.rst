@@ -17,5 +17,5 @@ The following tutorials introduce features based on concrete examples.
 * `Form fields with multiple values <https://www.signavio.com/post/form-fields-with-multiple-values/>`_ - entering lists
 * `Box.com integration <https://www.signavio.com/post/box-file-upload-integration/>`_ - uploading files to the cloud
 * `Google Cloud Print Integration <https://www.signavio.com/post/google-cloud-print-integration/>`_ - printing files via the cloud
-* `Case name templates that identify orders <https://www.signavio.com/post/case-name-templates-to-identify-orders/>`_ - organizing cases
+* `Case name templates that identify orders <https://www.signavio.com/post/case-name-templates-to-identify-orders/>`_ - organising cases
 * `Role-based assignment <https://www.signavio.com/post/using-role-based-assignment-in-effektif/>`_ - configuring sticky task assignment
