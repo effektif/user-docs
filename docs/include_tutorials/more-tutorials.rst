@@ -1,7 +1,7 @@
 More tutorials
 --------------
 
-Sigavio’s `Applied BPM and BDM Blog <https://www.signavio.com/signavio-blogs/modeling-blog/>`_ includes Workflow Accelerator tutorials.
+Signavio’s `Applied BPM and BDM Blog <https://www.signavio.com/signavio-blogs/modeling-blog/>`_ includes Workflow Accelerator tutorials.
 The following tutorials introduce features based on concrete examples.
 
 * `Multi-instance user tasks <https://www.signavio.com/post/multi-instance-user-tasks-workflow-accelerator/>`_ - creating user tasks for members of a group
