@@ -5,10 +5,10 @@ JavaScript integration
 
 You can integrate with external systems by writing JavaScript code in a :ref:`javascript-action`.
 Signavio Workflow Accelerator runs the code on the server, using `Node.js <https://nodejs.org>`_.
-As well as Node.js’ JavaScript API, scripts can use additional libraries (see below).
+As well as Node.js’ JavaScript API, scripts can use :ref:`additional libraries <javascript-libraries>`.
 
-Script task configuration
--------------------------
+JavaScript action configuration
+-------------------------------
 
 After creating or selecting a JavaScript action, the configuration panel looks like this:
 
@@ -20,17 +20,19 @@ The top section of the panel contains the JavaScript text editor.
 By default, it already contains ``console.log('Hello World!');``.
 Use the `console <https://nodejs.org/dist/latest-v5.x/docs/api/console.html>`_ API for log output when testing scripts.
 
+.. _javascript-libraries:
+
 JavaScript libraries
 --------------------
 
-Script tasks support a number of popular JavaScript libraries.
-To import a package, use our custom ``require`` function:
+JavaScript actions support a number of popular JavaScript libraries.
+To import a package, use the ``require`` function:
 
 .. code:: js
 
    var moment = require('moment');
 
-You can also choose another name for the import:
+You can also choose another name for the imported library:
 
 .. code:: js
 
@@ -64,16 +66,18 @@ The JavaScript action always imports the ``_`` (Lodash) and ``request`` packages
 Testing scripts
 ---------------
 
-The lower section allows you to test the script.
-Click `Test it` to execute the JavaScript code.
+Use the `Test Runner` tab to test the script.
+Click `Start new test` to execute the JavaScript code.
 The test runner displays the results underneath:
 
 .. figure:: /_static/images/action-types/javascript/javascript-2.png
 
    JavaScript test output
 
-The middle section shows the :ref:`process variables <variables>`, starting with just the *Case* variable for a new process.
-If you add an :ref:`email trigger <email-trigger>` to the process, you will also see a *Trigger email* variable.
+At the top, you see the test execution date and time.
+After running multiple tests, you can use this menu to select earlier test runs.
+The `Variable updates` section shows a table of :ref:`process variables <variables>`, with their test values and any updates.
+The `Logs` section shows console output and any errors.
 
 Using process variables
 -----------------------
@@ -83,16 +87,16 @@ Suppose that the process includes a form that has each type of field and looks l
 
 .. figure:: /_static/images/action-types/javascript/javascript-3.png
 
-   Form taking input for JavaScript
+   Form fields that declare process variables
 
-When you open the JavaScript configuration again, you'll see the variables section shows some of the form field variables.
+On the JavaScript configuration panel, the `Add existing variable` pick list now shows the form field variables.
 
 .. figure:: /_static/images/action-types/javascript/javascript-4.png
 
-   JavaScript variables
+   Process variable selection
 
-Click `Show all fields` and select the variables you want to access in the script.
-The script can access the variables using the *JavaScript variable* name from the table.
+Select the variables you want to access in the script.
+The script can access the variables using the `JavaScript variable` name from the `Variables` table.
 To access object variables’ fields, use the field names specified for the corresponding data type: :ref:`Case <case-variable>`, :ref:`type-email`, :ref:`type-file` or :ref:`type-user`.
 
 In this example (below), you have selected all variables.
@@ -103,7 +107,7 @@ Here you see all fields with a test value.
 
    JavaScript test values
 
-When clicking `Test it` again, we can see the JSON structure of the variable data for the different variable types.
+Clicking `Start new test` again to see the JSON structure of the variable data for the different variable types.
 
 .. figure:: /_static/images/action-types/javascript/javascript-7.png
 
@@ -117,10 +121,10 @@ The *Updated value* column shows the result of assigning new values to these var
   Then, you need to make sure you *re-assign* a new value to the variable instead of mutating the variable itself.
   Otherwise, the system will ignore the update.
   For example, the system ignores ``contactEmails.push('joan.doe@example.org')``, but correctly processes ``contactEmails = [].concat([], 'joan.doe@example.org')``.
-  This restriction doesn't apply to variables you only use in the context of the JavaScript task.
+  This restriction doesn't apply to variables you only use in the context of the JavaScript action.
 
 To access :ref:`file <type-file>` content, you need to require the ``files`` API.
-In this example, ``contract`` is a file variable, which has to be activated for the script task.
+In this example, ``contract`` is a file variable that references the file contents that the script reads.
 
 .. code:: js
 
@@ -134,7 +138,7 @@ The following example loads a CSV file and parses its content:
   const files = require('files')
   const csv = require('csv')
 
-  // reportCsv is a file variable, which has to be activated for the script task.
+  // Read the reportCsv file variable
   const csvFile = files.getContent(reportCsv.id)
 
   csv.parse(csvFile.buffer.toString('utf-8'), {
@@ -174,7 +178,7 @@ However, when you can set the case name directly in a JavaScript action, you don
 Looking up Workflow Accelerator data
 ------------------------------------
 
-In a JavaScript task, you might need to select a Workflow Accelerator user based on external data, to assign a role.
+In a JavaScript action, you might need to select a Workflow Accelerator user based on external data, to assign a role.
 To do this, you can use the built-in ``users`` API to find a user by their email address.
 
 .. code:: js
@@ -187,7 +191,7 @@ This example uses the value of a previously-supplied ``reviewerEmailAddress`` :r
 Calling an external web service
 -------------------------------
 
-You can use these variables to send data to an external web service,
+You can use variables to send process data to an external web service,
 using the `request module <https://github.com/mikeal/request/blob/master/README.md>`_.
 For example, the following script sends the value of the ``startDate`` variable
 in an HTTP POST request to an external web service.
@@ -206,7 +210,7 @@ The two log statements, starting with *HTTP 200*,
 show the HTTP response from the web service.
 The response body (as set-up in Mocky) contains JSON data that includes
 an updated value for the ``startDate`` variable,
-changing the date from ``2015-06-15`` to ``2015-06-16``.
+changing the date from ``2017-08-01`` to ``2017-08-02``.
 
 The script then parses this JSON response using ``JSON.parse``
 and updates the ``startDate`` variable in Workflow Accelerator,
