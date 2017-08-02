@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-24 10:03+0200\n"
-"PO-Revision-Date: 2017-07-24 12:31+0200\n"
+"POT-Creation-Date: 2017-08-02 09:50+0200\n"
+"PO-Revision-Date: 2017-08-02 10:03+0200\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language: de\n"
 "Language-Team: \n"
@@ -572,10 +572,10 @@ msgstr "Die Beispiele wurden unter der Open-Source Apache Lizenz veröffentlicht
 msgid "JavaScript integration"
 msgstr "JavaScript-Integration"
 
-msgid "You can integrate with external systems by writing JavaScript code in a :ref:`javascript-action`. Signavio Workflow Accelerator runs the code on the server, using `Node.js <https://nodejs.org>`_. As well as Node.js’ JavaScript API, scripts can use additional libraries (see below)."
-msgstr "Sie können einen Workflow mit externen System über eine :ref:`JavaScript-Aktion <javascript-action>` integrieren. Signavio Workflow Accelerator führt den JavaScript-Code serverseitig mit `Node.js <https://nodejs.org>`_ aus. Neben der Node.js JavaScript-API können Sie eine Reihe weiterer Bibliotheken verwenden (siehe unten)."
+msgid "You can integrate with external systems by writing JavaScript code in a :ref:`javascript-action`. Signavio Workflow Accelerator runs the code on the server, using `Node.js <https://nodejs.org>`_. As well as Node.js’ JavaScript API, scripts can use :ref:`additional libraries <javascript-libraries>`."
+msgstr "Sie können einen Workflow mit externen System über eine :ref:`JavaScript-Aktion <javascript-action>` integrieren. Signavio Workflow Accelerator führt den JavaScript-Code serverseitig mit `Node.js <https://nodejs.org>`_ aus. Neben der Node.js JavaScript-API können Sie :ref:`eine Reihe weiterer Bibliotheken <javascript-libraries>` verwenden (siehe unten)."
 
-msgid "Script task configuration"
+msgid "JavaScript action configuration"
 msgstr "Eine JavaScript-Aktion (Skript-Aufgabe) konfigurieren"
 
 msgid "After creating or selecting a JavaScript action, the configuration panel looks like this:"
@@ -590,10 +590,10 @@ msgstr "Der obere Teil des Dialogs enthält den JavaScript Editor. Standardmäß
 msgid "JavaScript libraries"
 msgstr "JavaScript-Bibliotheken"
 
-msgid "Script tasks support a number of popular JavaScript libraries. To import a package, use our custom ``require`` function:"
+msgid "JavaScript actions support a number of popular JavaScript libraries. To import a package, use the ``require`` function:"
 msgstr "Skript-Tasks unterstützen eine Reihe gängiger JavaScript-Bibliotheken. Um eine Bibliothek zu importieren können Sie unsere ``require``-Funktion verwenden."
 
-msgid "You can also choose another name for the import:"
+msgid "You can also choose another name for the imported library:"
 msgstr "Sie können für den Import auch einen anderen Namen wählen:"
 
 msgid "Supported JavaScript libraries"
@@ -656,14 +656,14 @@ msgstr "Die Bibliotheken ``_`` (Lodash) und ``request`` werden immer importiert,
 msgid "Testing scripts"
 msgstr "Skripts testen"
 
-msgid "The lower section allows you to test the script. Click `Test it` to execute the JavaScript code. The test runner displays the results underneath:"
+msgid "Use the `Test Runner` tab to test the script. Click `Start new test` to execute the JavaScript code. The test runner displays the results underneath:"
 msgstr "Im unteren Teil können Sie ihr Script testen. Klicken Sie hierzu auf `Test starten`. Die Ergebnisse eines Testlaufs werden direkt darunter angezeigt."
 
 msgid "JavaScript test output"
 msgstr "JavaScript Test-Ausgabe"
 
-msgid "The middle section shows the :ref:`process variables <variables>`, starting with just the *Case* variable for a new process. If you add an :ref:`email trigger <email-trigger>` to the process, you will also see a *Trigger email* variable."
-msgstr "Der mittlere Abschnitt zeigt :ref:`Prozessvariablen <variables>`, beginnend mit der *Fall*-Variable für einen neuen Prozess. Wenn Sie einen :ref:`Email-Auslöser <email-trigger>` zu dem Prozess hinzufügen, sehen Sie zudem eine *Email-Auslöser* variable."
+msgid "At the top, you see the test execution date and time. After running multiple tests, you can use this menu to select earlier test runs. The `Variable updates` section shows a table of :ref:`process variables <variables>`, with their test values and any updates. The `Logs` section shows console output and any errors."
+msgstr ""
 
 msgid "Using process variables"
 msgstr "Prozessvariablen verwenden"
@@ -671,17 +671,17 @@ msgstr "Prozessvariablen verwenden"
 msgid "Next, we'll show how to work with data. Suppose that the process includes a form that has each type of field and looks like this:"
 msgstr "Als nächstes zeigen wir Ihnen, wie Sie mit Daten arbeiten. Nehmen wir einmal an, im Prozess wäre ein Formular mit den folgenden Feldern definiert:"
 
-msgid "Form taking input for JavaScript"
-msgstr "Formular als Eingabe für die Skript-Aktion"
+msgid "Form fields that declare process variables"
+msgstr "Formularfelder, die Prozessvariablen deklarieren"
 
-msgid "When you open the JavaScript configuration again, you'll see the variables section shows some of the form field variables."
+msgid "On the JavaScript configuration panel, the `Add existing variable` pick list now shows the form field variables."
 msgstr "Wenn Sie die Konfiguration für die JavaScript Aktion erneut öffnen, können Sie sehen, dass im unteren Teil einige der Formularfelder als Variablen angezeigt werden."
 
-msgid "JavaScript variables"
-msgstr "JavaScript-Variablen"
+msgid "Process variable selection"
+msgstr "Prozessvariablen auswählen"
 
-msgid "Click `Show all fields` and select the variables you want to access in the script. The script can access the variables using the *JavaScript variable* name from the table. To access object variables’ fields, use the field names specified for the corresponding data type: :ref:`Case <case-variable>`, :ref:`type-email`, :ref:`type-file` or :ref:`type-user`."
-msgstr "Klicken Sie auf *Alle Felder anzeigen* und wählen Sie die Variablen aus, auf die Sie in dem Skript zugreifen möchten. Das Skript kann auf die Variablen über den entsprechenden *JavaScript-Variable*-Namen in der Tabelle zugreifen. Um auf die Felder von Objektvariablen zuzugreifen, verwenden Sie die Feldnamen, die für den entsprechenden Datentyp spezifiziert sind: :ref:`case-variable`, :ref:`type-email`, :ref:`type-file` oder :ref:`type-user`."
+msgid "Select the variables you want to access in the script. The script can access the variables using the `JavaScript variable` name from the `Variables` table. To access object variables’ fields, use the field names specified for the corresponding data type: :ref:`Case <case-variable>`, :ref:`type-email`, :ref:`type-file` or :ref:`type-user`."
+msgstr "Wählen Sie die Variablen aus, auf die Sie in der JavaScript-Aufgabe zugreifen möchten. Das Skript kann auf die Variablen über den `JavaScript-Variablen`-Namen zugreifen. Um auf die Felder von Objektvariablen zuzugreifen, verwenden Sie die Feldnamen, die in den entsprechenden Datentypen für :ref:`Fälle <case-variable>`, :ref:`E-Mails <type-email>`, :ref:`Dateien <type-file>` und  :ref:`Nutzer <type-user>` spezifiziert sind."
 
 msgid "In this example (below), you have selected all variables. For each variable that you select, you get an input field to specify a test value. Here you see all fields with a test value."
 msgstr "Für jede ausgewählte Variable wird ein Eingabefeld erstellt, in dem Sie Testwerte hinterlegen können. Im Beispiel haben alle Felder einen Testwert."
@@ -689,8 +689,8 @@ msgstr "Für jede ausgewählte Variable wird ein Eingabefeld erstellt, in dem Si
 msgid "JavaScript test values"
 msgstr "JavaScript-Testwerte"
 
-msgid "When clicking `Test it` again, we can see the JSON structure of the variable data for the different variable types."
-msgstr "Geben Sie ein paar Testwerte ein und klicken Sie anschließend erneut auf `Test starten`. Sie können nun sehen, wie jedes Feld in der JavaScript-Aktion repräsentiert wird. "
+msgid "Clicking `Start new test` again to see the JSON structure of the variable data for the different variable types."
+msgstr "Geben Sie Testwerte ein und klicken Sie anschließend erneut auf `Test starten`. Sie können nun sehen, wie jedes Feld in der JavaScript-Aktion repräsentiert wird. "
 
 msgid "JavaScript JSON values"
 msgstr "JavaScript JSON-Werte"
@@ -698,10 +698,10 @@ msgstr "JavaScript JSON-Werte"
 msgid "The *contract* and *salesRepresentative* variables have complex types, :ref:`type-file` and :ref:`type-user`, so the table only shows an ID. The *Updated value* column shows the result of assigning new values to these variables in the script."
 msgstr "Die Variablen *vertrag* und *verwantwortlicherVertriebler* haben komplexe Datentypen - :ref:`type-file` und :ref:`type-user`. Daher zeigt die Tabelle lediglich die ID. Die Spalte *Neu zugewiesener Wert* zeigt das Ergebnis einer möglichen Neuzuweisung von Werten zu den Variablen im Skript."
 
-msgid "You can use JavaScript actions to update process variables. Then, you need to make sure you *re-assign* a new value to the variable instead of mutating the variable itself. Otherwise, the system will ignore the update. For example, the system ignores ``contactEmails.push('joan.doe@example.org')``, but correctly processes ``contactEmails = [].concat([], 'joan.doe@example.org')``. This restriction doesn't apply to variables you only use in the context of the JavaScript task."
-msgstr "Sie können mit Hilfe von JavaScript-Aufgaben die Werte von Prozessvariablen anpassen. Weisen Sie hierfür der Variablen einen *neuen Wert*, anstatt den aktuellen Wert zu transformieren. Andernfalls ignoriert das System die Änderung. Zum Beispiel wird ``contactEmails.push(‘joan.doe@example.org’)`` nicht übernommen, während ``contactEmails = [].concat([], ‘joan.doe@example.org’)`` zum gewünschten Ergebnis führt. Diese Limitierung trifft nicht auf Variablen zu, die Sie lediglich im Kontext der JavaScript-Aufgabe verwenden."
+msgid "You can use JavaScript actions to update process variables. Then, you need to make sure you *re-assign* a new value to the variable instead of mutating the variable itself. Otherwise, the system will ignore the update. For example, the system ignores ``contactEmails.push('joan.doe@example.org')``, but correctly processes ``contactEmails = [].concat([], 'joan.doe@example.org')``. This restriction doesn't apply to variables you only use in the context of the JavaScript action."
+msgstr "Sie können mit Hilfe von JavaScript-Aufgaben die Werte von Prozessvariablen anpassen. Weisen Sie hierfür der Variablen einen *neuen Wert* zu, anstatt den aktuellen Wert zu transformieren. Andernfalls ignoriert das System die Änderung. Zum Beispiel wird ``contactEmails.push(‘joan.doe@example.org’)`` nicht übernommen, während ``contactEmails = [].concat([], ‘joan.doe@example.org’)`` zum gewünschten Ergebnis führt. Diese Limitierung trifft nicht auf Variablen zu, die Sie lediglich im Kontext der JavaScript-Aufgabe verwenden."
 
-msgid "To access :ref:`file <type-file>` content, you need to require the ``files`` API. In this example, ``contract`` is a file variable, which has to be activated for the script task."
+msgid "To access :ref:`file <type-file>` content, you need to require the ``files`` API. In this example, ``contract`` is a file variable that references the file contents that the script reads."
 msgstr "Um auf :ref:`Datei <type-file>`-Inhalte zuzugreifen, können Sie die ``Files``-API verwenden. In diesem Beispiel ist ``contract`` eine Datei-Variable, die Sie in der entsprechenden JavaScript-Aufgabe anlegen müssen."
 
 msgid "The following example loads a CSV file and parses its content:"
@@ -719,7 +719,7 @@ msgstr "Ein :ref:`Fallnamen-Template <details>` kann ausschließlich :ref:`form-
 msgid "Looking up Workflow Accelerator data"
 msgstr "Signavio Workflow Accelerator-Daten abrufen"
 
-msgid "In a JavaScript task, you might need to select a Workflow Accelerator user based on external data, to assign a role. To do this, you can use the built-in ``users`` API to find a user by their email address."
+msgid "In a JavaScript action, you might need to select a Workflow Accelerator user based on external data, to assign a role. To do this, you can use the built-in ``users`` API to find a user by their email address."
 msgstr "In einer JavaScript-Aufgabe möchten Sie unter Umständen einen Nutzer auf Basis externer Daten auswählen, um so eine Rolle zuzuweisen. Hierfür können Sie die ``Nutzer``-Schnittstelle verwenden, um den Nutzer über dessen Emailadresse zu finden."
 
 msgid "This example uses the value of a previously-supplied ``reviewerEmailAddress`` :ref:`type-email-address` variable to set a ``reviewer`` :ref:`type-user` variable."
@@ -728,8 +728,8 @@ msgstr "In diesem Beispiel verwenden wir den Wert der zuvor zur Verfügung geste
 msgid "Calling an external web service"
 msgstr "Einen externen Web Service aufrufen"
 
-msgid "You can use these variables to send data to an external web service, using the `request module <https://github.com/mikeal/request/blob/master/README.md>`_. For example, the following script sends the value of the ``startDate`` variable in an HTTP POST request to an external web service."
-msgstr "Die verschiedenen Felder können Sie jetzt nutzen, um zum Beispiel einen externen Service anzusprechen. Wir stellen Ihnen hierfür das `request Modul <https://github.com/mikeal/request/blob/master/README.md>`_ zur Verfügung. Das folgende Skript sendet Beispielsweise den Wert der Variable ``startdatum`` per HTTP POST Request an einen externen Web-Service."
+msgid "You can use variables to send process data to an external web service, using the `request module <https://github.com/mikeal/request/blob/master/README.md>`_. For example, the following script sends the value of the ``startDate`` variable in an HTTP POST request to an external web service."
+msgstr "Die verschiedenen Felder können Sie jetzt nutzen, um zum Beispiel einen externen Service anzusprechen. Wir stellen Ihnen hierfür das `request-Modul <https://github.com/mikeal/request/blob/master/README.md>`_ zur Verfügung. Das folgende Skript sendet Beispielsweise den Wert der Variable ``startdatum`` per HTTP POST Request an einen externen Web-Service."
 
 msgid "This example uses a test endpoint configured using `Mocky <http://www.mocky.io/>`_ to return an HTTP response. This has the following result in the Workflow Accelerator test console:"
 msgstr "Der Endpunkt im Beispiel wurde bei `Mocky <http://www.mocky.io/>`_ so konfiguriert, dass er eine HTTP Response zurück gibt. In der Signavio Workflow Accelerator-Konsole würden Sie dann die folgenden Ergebnisse sehen:"
@@ -737,8 +737,8 @@ msgstr "Der Endpunkt im Beispiel wurde bei `Mocky <http://www.mocky.io/>`_ so ko
 msgid "Updating a variable via an external web service"
 msgstr "Den Wert eines Feldes mit Hilfe eines externen Web Services setzen"
 
-msgid "The two log statements, starting with *HTTP 200*, show the HTTP response from the web service. The response body (as set-up in Mocky) contains JSON data that includes an updated value for the ``startDate`` variable, changing the date from ``2015-06-15`` to ``2015-06-16``."
-msgstr "Die beiden mit *HTTP 200* beginnenden Logeinträge zeigen die Antwort des Web-Services. Der Response Body (der in Mocky konfiguriert wurde) beinhaltet JSON Daten, die einen neuen Wert für das Feld ``startdatum`` beinhalten und es von ``2016-02-05`` zu ``2016-07-02`` ändern."
+msgid "The two log statements, starting with *HTTP 200*, show the HTTP response from the web service. The response body (as set-up in Mocky) contains JSON data that includes an updated value for the ``startDate`` variable, changing the date from ``2017-08-01`` to ``2017-08-02``."
+msgstr "Die beiden mit *HTTP 200* beginnenden Logeinträge zeigen die Antwort des Web-Services. Der Response Body (der in Mocky konfiguriert wurde) beinhaltet JSON-Daten, die einen neuen Wert für das Feld ``startdatum`` beinhalten und es von ``2016-02-05`` zu ``2016-07-02`` ändern."
 
 msgid "The script then parses this JSON response using ``JSON.parse`` and updates the ``startDate`` variable in Workflow Accelerator, as shown in the *Updated value* column in the test console's variables table."
 msgstr "Unser Skript parst den Wert der Response mittels ``JSON.parse`` und aktualisiert anschließend das ``startdatum`` Feld in Signavio Workflow Accelerator. Dieses Verhalten sehen Sie auch in der Spalte *Neu zugewiesener Wert* in der Test-Konsole."
@@ -930,3 +930,52 @@ msgstr "Der :ref:`Salesforce-Auslöser <trigger-salesforce>` steht nun in all Ih
 #~ "Um auf :ref:`Datei <type-file>`-Inhalte "
 #~ "zuzugreifen, können Sie die ``Files``-API "
 #~ "verwenden."
+
+#~ msgid ""
+#~ "The middle section shows the "
+#~ ":ref:`process variables <variables>`, starting "
+#~ "with just the *Case* variable for "
+#~ "a new process. If you add an "
+#~ ":ref:`email trigger <email-trigger>` to "
+#~ "the process, you will also see a"
+#~ " *Trigger email* variable."
+#~ msgstr ""
+#~ "Der mittlere Abschnitt zeigt "
+#~ ":ref:`Prozessvariablen <variables>`, beginnend mit"
+#~ " der *Fall*-Variable für einen neuen "
+#~ "Prozess. Wenn Sie einen :ref:`Email-"
+#~ "Auslöser <email-trigger>` zu dem Prozess"
+#~ " hinzufügen, sehen Sie zudem eine "
+#~ "*Email-Auslöser* variable."
+
+#~ msgid "Form taking input for JavaScript"
+#~ msgstr "Formular als Eingabe für die Skript-Aktion"
+
+#~ msgid "JavaScript variables"
+#~ msgstr "JavaScript-Variablen"
+
+#~ msgid ""
+#~ "Click `Show all fields` and select "
+#~ "the variables you want to access "
+#~ "in the script. The script can "
+#~ "access the variables using the "
+#~ "*JavaScript variable* name from the "
+#~ "table. To access object variables’ "
+#~ "fields, use the field names specified"
+#~ " for the corresponding data type: "
+#~ ":ref:`Case <case-variable>`, :ref:`type-"
+#~ "email`, :ref:`type-file` or :ref:`type-"
+#~ "user`."
+#~ msgstr ""
+#~ "Klicken Sie auf *Alle Felder anzeigen*"
+#~ " und wählen Sie die Variablen aus,"
+#~ " auf die Sie in dem Skript "
+#~ "zugreifen möchten. Das Skript kann auf"
+#~ " die Variablen über den entsprechenden "
+#~ "*JavaScript-Variable*-Namen in der Tabelle "
+#~ "zugreifen. Um auf die Felder von "
+#~ "Objektvariablen zuzugreifen, verwenden Sie die"
+#~ " Feldnamen, die für den entsprechenden "
+#~ "Datentyp spezifiziert sind: :ref:`case-"
+#~ "variable`, :ref:`type-email`, :ref:`type-file`"
+#~ " oder :ref:`type-user`."
