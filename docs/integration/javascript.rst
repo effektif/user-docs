@@ -8,7 +8,7 @@ Signavio Workflow Accelerator runs the code on the server, using `Node.js <https
 As well as Node.js’ JavaScript API, scripts can use :ref:`additional libraries <javascript-libraries>`.
 
 JavaScript action configuration
--------------------------
+-------------------------------
 
 After creating or selecting a JavaScript action, the configuration panel looks like this:
 
