@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-31 12:02+0200\n"
-"PO-Revision-Date: 2017-07-31 12:23+0200\n"
+"POT-Creation-Date: 2017-08-02 14:16+0200\n"
+"PO-Revision-Date: 2017-08-02 14:19+0200\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language: de\n"
 "Language-Team: \n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Poedit 2.0.2\n"
+"X-Generator: Poedit 2.0.3\n"
 
 msgid "Organization settings"
 msgstr "Organisationseinstellungen"
@@ -109,25 +109,25 @@ msgstr "Unter *Email Signatur* ersetzen Sie die *Signavio Workflow Team*-Standar
 msgid "Process creation"
 msgstr "Prozesserstellung"
 
-msgid "*Process creation* You can activate this option to configure which group of users can create processes."
-msgstr "*Prozesserstellung* Sie können diese Option aktivieren, um zu konfigurieren, welche Gruppe Prozesse erstellen darf."
+msgid "You can activate the *Process creation* option to restrict the right to create processes to a specific :ref:`user group <groups>`."
+msgstr "Sie können die Option *Prozesserstellung* aktivieren, um zu konfigurieren, welche :ref:`Nutzergruppe <groups>` Prozesse erstellen darf."
 
 msgid "Only users of this group can"
 msgstr "Nur Mitglieder dieser Gruppe dürfen"
 
-msgid "create new processes"
-msgstr "neue Prozesse erstellen"
+msgid "create new processes,"
+msgstr "neue Prozesse erstellen,"
 
-msgid "copy processes"
-msgstr "Prozesse kopieren"
+msgid "copy processes,"
+msgstr "Prozesse kopieren,"
 
 msgid "import processes."
 msgstr "Prozesse importieren."
 
-msgid "Users who are not member of the defined group, but with editing rights for certain processes are still able to modify these processes."
-msgstr "Benutzer, die nicht Mitglied der definierten Gruppe sind, aber Editierrechte auf bestimmte Prozesse haben, können weiterhin diese Prozesse bearbeiten."
+msgid "Users who are not member of the defined group, but have editing rights for specific processes are still able to modify these processes."
+msgstr "Benutzer, die nicht Mitglied der definierten Gruppe sind, aber Editierrechte auf bestimmte Prozesse haben, können diese Prozesse weiterhin bearbeiten."
 
-msgid "The transfer of processes between Process Manager and Workflow Accelerator is not affected by this restriction. Any modeller can transfer a process from within Process Manager to Workflow Accelerator."
+msgid "The transfer of processes between Process Manager and Workflow Accelerator is not affected by this restriction. Any modeller can transfer a process from Process Manager to Workflow Accelerator."
 msgstr "Der Transfer von Prozessen von Process Manager zu Workflow Accelerator ist durch diese Restriktion nicht beeinträchtigt. Alle Modellierer können nach wie vor Prozesse von Process Manager zu Workflow Accelerator übertragen."
 
 msgid "Services"
@@ -210,3 +210,12 @@ msgstr "Um ein neues Label hinzuzufügen, geben Sie einen Namen in das Textfeld 
 
 #~ msgid "The substitute will take over"
 #~ msgstr ""
+
+#~ msgid ""
+#~ "*Process creation* You can activate this"
+#~ " option to configure which group of"
+#~ " users can create processes."
+#~ msgstr ""
+#~ "*Prozesserstellung* Sie können diese Option"
+#~ " aktivieren, um zu konfigurieren, welche"
+#~ " Gruppe Prozesse erstellen darf."

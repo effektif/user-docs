@@ -75,6 +75,7 @@ enter their email address in the text field and click the *Invite* button.
 They will receive an email with a link to the registration page,
 where they can create a Workflow Accelerator user that will become a member of the organization.
 
+.. _groups:
 
 Groups
 ------
@@ -113,17 +114,20 @@ Process creation
 
 .. figure:: /_static/images/settings/process_creation.png
 
-*Process creation* You can activate this option to configure which group of users can create processes.
+You can activate the *Process creation* option to restrict the right to create processes to a specific :ref:`user group <groups>`.
 
 Only users of this group can
 
-* create new processes
-* copy processes
+* create new processes,
+* copy processes,
 * import processes.
 
-Users who are not member of the defined group, but with editing rights for certain processes are still able to modify these processes.
+Users who are not member of the defined group, but have editing rights for specific processes are still able to modify these processes.
 
-.. note:: The transfer of processes between Process Manager and Workflow Accelerator is not affected by this restriction. Any modeller can transfer a process from within Process Manager to Workflow Accelerator.
+.. note::
+
+  The transfer of processes between Process Manager and Workflow Accelerator is not affected by this restriction.
+  Any modeller can transfer a process from Process Manager to Workflow Accelerator.
 
 
 Services
