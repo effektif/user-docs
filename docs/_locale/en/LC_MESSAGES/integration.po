@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-02 09:50+0200\n"
+"POT-Creation-Date: 2017-08-23 14:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -850,6 +850,15 @@ msgstr ""
 msgid "CSV generation, parsing, transformation and serialization"
 msgstr ""
 
+msgid "Files"
+msgstr ""
+
+msgid "``files``"
+msgstr ""
+
+msgid "Built-in API for :ref:`type-file` variable data"
+msgstr ""
+
 msgid "`Lodash <https://www.npmjs.com/package/lodash>`_"
 msgstr ""
 
@@ -878,6 +887,15 @@ msgid "``request``"
 msgstr ""
 
 msgid "Simplified HTTP request client"
+msgstr ""
+
+msgid "Users"
+msgstr ""
+
+msgid "``users``"
+msgstr ""
+
+msgid "Built-in API for :ref:`type-user` variable data"
 msgstr ""
 
 msgid "`validator <https://www.npmjs.com/package/validator>`_"
@@ -976,13 +994,26 @@ msgid ""
 " JavaScript action."
 msgstr ""
 
-msgid ""
-"To access :ref:`file <type-file>` content, you need to require the "
-"``files`` API. In this example, ``contract`` is a file variable that "
-"references the file contents that the script reads."
+msgid "Reading file contents"
 msgstr ""
 
-msgid "The following example loads a CSV file and parses its content:"
+msgid ""
+"A JavaScript action may need to read the contents of a file, in order to "
+"publish the file to an external web service. To access :ref:`file <type-"
+"file>` content, you need to require the ``files`` API."
+msgstr ""
+
+msgid ""
+"In this example, ``contract`` is a file variable that references the file"
+" contents that the script reads."
+msgstr ""
+
+msgid ""
+"The ``getContent`` function returns a Node.js `File "
+"<https://www.npmjs.com/package/file-api>`_ object, whose ``buffer`` "
+"property provides access to the file content bytes. The following example"
+" loads a CSV file, converts the content bytes to a UTF-8 string, and "
+"parses the string:"
 msgstr ""
 
 msgid "Updating case information"
@@ -1003,7 +1034,7 @@ msgid ""
 "this restriction."
 msgstr ""
 
-msgid "Looking up Workflow Accelerator data"
+msgid "Loading user information"
 msgstr ""
 
 msgid ""
@@ -1700,5 +1731,20 @@ msgstr ""
 #~ "updated value for the ``startDate`` "
 #~ "variable, changing the date from "
 #~ "``2015-06-15`` to ``2015-06-16``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To access :ref:`file <type-file>` "
+#~ "content, you need to require the "
+#~ "``files`` API. In this example, "
+#~ "``contract`` is a file variable that "
+#~ "references the file contents that the"
+#~ " script reads."
+#~ msgstr ""
+
+#~ msgid "The following example loads a CSV file and parses its content:"
+#~ msgstr ""
+
+#~ msgid "Looking up Workflow Accelerator data"
 #~ msgstr ""
 
