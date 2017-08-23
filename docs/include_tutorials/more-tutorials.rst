@@ -4,6 +4,7 @@ More tutorials
 Signavio’s `Applied BPM and BDM Blog <https://www.signavio.com/signavio-blogs/modeling-blog/>`_ includes Workflow Accelerator tutorials.
 The following tutorials introduce features based on concrete examples.
 
+* `DocuSign workflow integration <https://www.signavio.com/post/docusign-workflow-integration/>`_ - adding electronic signatures to documents
 * `Multi-instance user tasks <https://www.signavio.com/post/multi-instance-user-tasks-workflow-accelerator/>`_ - creating user tasks for members of a group
 * `Business days calculation <https://www.signavio.com/post/business-days-calculation-workflow/>`_ - using external public holiday data in JavaScript action
 * `Vacation handovers <https://www.signavio.com/post/smooth-vacation-handovers/>`_ - reassigning tasks and configuration task escalation
