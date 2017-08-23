@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-02 09:50+0200\n"
-"PO-Revision-Date: 2017-08-02 13:39+0200\n"
+"POT-Creation-Date: 2017-08-23 14:18+0200\n"
+"PO-Revision-Date: 2017-08-23 14:35+0200\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language: de\n"
 "Language-Team: \n"
@@ -614,6 +614,15 @@ msgstr "``csv``"
 msgid "CSV generation, parsing, transformation and serialization"
 msgstr "Generieren, parsen, transformieren und serialisieren von CSV-Dateien"
 
+msgid "Files"
+msgstr "Dateien"
+
+msgid "``files``"
+msgstr "``files``"
+
+msgid "Built-in API for :ref:`type-file` variable data"
+msgstr "Integrierte API für :ref:`Datei-Variablen <type-file>`"
+
 msgid "`Lodash <https://www.npmjs.com/package/lodash>`_"
 msgstr "`Lodash <https://www.npmjs.com/package/lodash>`_"
 
@@ -640,6 +649,15 @@ msgstr "``request``"
 
 msgid "Simplified HTTP request client"
 msgstr "Einfacher HTTP-Request-Client"
+
+msgid "Users"
+msgstr "Nutzer"
+
+msgid "``users``"
+msgstr "``users``"
+
+msgid "Built-in API for :ref:`type-user` variable data"
+msgstr "Integrierte API für :ref:`User-Variablen <type-user>`"
 
 msgid "`validator <https://www.npmjs.com/package/validator>`_"
 msgstr "`validator <https://www.npmjs.com/package/validator>`_"
@@ -701,11 +719,17 @@ msgstr "Die Variablen *vertrag* und *verwantwortlicherVertriebler* haben komplex
 msgid "You can use JavaScript actions to update process variables. Then, you need to make sure you *re-assign* a new value to the variable instead of mutating the variable itself. Otherwise, the system will ignore the update. For example, the system ignores ``contactEmails.push('joan.doe@example.org')``, but correctly processes ``contactEmails = [].concat([], 'joan.doe@example.org')``. This restriction doesn't apply to variables you only use in the context of the JavaScript action."
 msgstr "Sie können mit Hilfe von JavaScript-Aufgaben die Werte von Prozessvariablen anpassen. Weisen Sie hierfür der Variablen einen *neuen Wert* zu, anstatt den aktuellen Wert zu transformieren. Andernfalls ignoriert das System die Änderung. Zum Beispiel wird ``contactEmails.push(‘joan.doe@example.org’)`` nicht übernommen, während ``contactEmails = [].concat([], ‘joan.doe@example.org’)`` zum gewünschten Ergebnis führt. Diese Limitierung trifft nicht auf Variablen zu, die Sie lediglich im Kontext der JavaScript-Aufgabe verwenden."
 
-msgid "To access :ref:`file <type-file>` content, you need to require the ``files`` API. In this example, ``contract`` is a file variable that references the file contents that the script reads."
-msgstr "Um auf :ref:`Datei <type-file>`-Inhalte zuzugreifen, können Sie die ``Files``-API verwenden. In diesem Beispiel ist ``contract`` eine Datei-Variable, die Sie in der entsprechenden JavaScript-Aufgabe anlegen müssen."
+msgid "Reading file contents"
+msgstr "Dateiinhalte einlesen"
 
-msgid "The following example loads a CSV file and parses its content:"
-msgstr "Das folgende Beispiel lädt eine CSV-Datei und parst dessen Inhalt:"
+msgid "A JavaScript action may need to read the contents of a file, in order to publish the file to an external web service. To access :ref:`file <type-file>` content, you need to require the ``files`` API."
+msgstr "Eine JavaScript-Aktion kann den Inhalt einer Datei auslesen, um diesen anschließend an einen externen Service zu senden. Um Inhalte von :ref:`Dateien <type-file>` auszulesen, müssen Sie die ``Files``-API einbinden."
+
+msgid "In this example, ``contract`` is a file variable that references the file contents that the script reads."
+msgstr "In diesem Beispiel ist ``contract`` eine Datei-Variable, die den Inhalt der Datei referenziert, die vom Skript ausgelesen wird."
+
+msgid "The ``getContent`` function returns a Node.js `File <https://www.npmjs.com/package/file-api>`_ object, whose ``buffer`` property provides access to the file content bytes. The following example loads a CSV file, converts the content bytes to a UTF-8 string, and parses the string:"
+msgstr "Die ``getContent``-Funktion gibt ein Node.js `Datei <https://www.npmjs.com/package/file-api>`_-Objekt zurück, dessen ``Buffer``-Eigenschaft Zugriff auf den Dateiinhalt in Byte-Form ermöglicht. Im folgenden Beispiel wird eine CSV-Datei geladen, die den Inhalt in einen UTF-8-String umwandelt und den String parst:"
 
 msgid "Updating case information"
 msgstr "Fallinformationen aktualisieren"
@@ -716,8 +740,8 @@ msgstr "Prozessvariablen enthalten immer eine :ref:`Fall <case-variable>`-Variab
 msgid "A :ref:`case name template <details>` can only use :ref:`form-trigger` fields to set the case name when the process starts. However, when you can set the case name directly in a JavaScript action, you don’t have this restriction."
 msgstr "Ein :ref:`Fallnamen-Template <details>` kann ausschließlich :ref:`form-trigger`-Felder verwenden, um den Fallnamen zu setzen, wenn der Prozess beginnt. Wenn Sie den Fallnamen jedoch über eine JavaScript-Aktion setzen, trifft diese Restriktion nicht zu."
 
-msgid "Looking up Workflow Accelerator data"
-msgstr "Signavio Workflow Accelerator-Daten abrufen"
+msgid "Loading user information"
+msgstr "Nutzerinformationen laden"
 
 msgid "In a JavaScript action, you might need to select a Workflow Accelerator user based on external data, to assign a role. To do this, you can use the built-in ``users`` API to find a user by their email address."
 msgstr "In einer JavaScript-Aufgabe möchten Sie unter Umständen einen Nutzer auf Basis externer Daten auswählen, um so eine Rolle zuzuweisen. Hierfür können Sie die ``Nutzer``-Schnittstelle verwenden, um den Nutzer über dessen Emailadresse zu finden."
@@ -979,3 +1003,9 @@ msgstr "Der :ref:`Salesforce-Auslöser <trigger-salesforce>` steht nun in all Ih
 #~ "Datentyp spezifiziert sind: :ref:`case-"
 #~ "variable`, :ref:`type-email`, :ref:`type-file`"
 #~ " oder :ref:`type-user`."
+
+#~ msgid "The following example loads a CSV file and parses its content:"
+#~ msgstr "Das folgende Beispiel lädt eine CSV-Datei und parst dessen Inhalt:"
+
+#~ msgid "Looking up Workflow Accelerator data"
+#~ msgstr "Signavio Workflow Accelerator-Daten abrufen"
