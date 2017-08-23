@@ -115,7 +115,7 @@ File
 ^^^^
 
 The *file* type stores a reference to a file.
-JavaScript actions can use an API for :ref:`reading file contents <file-contents>`.
+JavaScript actions can use an API for :ref:`reading file contents <files-api>`.
 
 .. list-table::
    :header-rows: 1
