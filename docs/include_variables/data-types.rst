@@ -114,7 +114,8 @@ The *email address* type stores an email address.
 File
 ^^^^
 
-The *file* type stores a file.
+The *file* type stores a reference to a file.
+JavaScript actions can use an API for :ref:`reading file contents <file-contents>`.
 
 .. list-table::
    :header-rows: 1

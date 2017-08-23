@@ -123,15 +123,23 @@ The *Updated value* column shows the result of assigning new values to these var
   For example, the system ignores ``contactEmails.push('joan.doe@example.org')``, but correctly processes ``contactEmails = [].concat([], 'joan.doe@example.org')``.
   This restriction doesn't apply to variables you only use in the context of the JavaScript action.
 
+.. _file-contents:
+
+Reading file contents
+---------------------
+
+A JavaScript action may need to read the contents of a file, in order to publish the file to an external web service.
 To access :ref:`file <type-file>` content, you need to require the ``files`` API.
-In this example, ``contract`` is a file variable that references the file contents that the script reads.
 
 .. code:: js
 
   const files = require('files')
   const fileContent = files.getContent(contract)
 
-The following example loads a CSV file and parses its content:
+In this example, ``contract`` is a file variable that references the file contents that the script reads.
+
+The ``getContent`` function returns a Node.js `File <https://www.npmjs.com/package/file-api>`_ object, whose ``buffer`` property provides access to the file content bytes.
+The following example loads a CSV file, converts the content bytes to a UTF-8 string, and parses the string:
 
 .. code:: js
 
