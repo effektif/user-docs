@@ -48,6 +48,9 @@ You can also choose another name for the imported library:
    * - `CSV <https://www.npmjs.com/package/csv>`_
      - ``csv``
      - CSV generation, parsing, transformation and serialization
+   * - Files
+     - ``files``
+     - Built-in API for :ref:`type-file` variable data
    * - `Lodash <https://www.npmjs.com/package/lodash>`_
      - ``lodash``
      - Convenience functions for working with collections and values
@@ -57,6 +60,9 @@ You can also choose another name for the imported library:
    * - `request <https://www.npmjs.com/package/request>`_
      - ``request``
      - Simplified HTTP request client
+   * - Users
+     - ``users``
+     - Built-in API for :ref:`type-user` variable data
    * - `validator <https://www.npmjs.com/package/validator>`_
      - ``validator``
      - String validation and sanitization
@@ -123,7 +129,7 @@ The *Updated value* column shows the result of assigning new values to these var
   For example, the system ignores ``contactEmails.push('joan.doe@example.org')``, but correctly processes ``contactEmails = [].concat([], 'joan.doe@example.org')``.
   This restriction doesn't apply to variables you only use in the context of the JavaScript action.
 
-.. _file-contents:
+.. _files-api:
 
 Reading file contents
 ---------------------
@@ -183,8 +189,10 @@ You can update some of the this case variable's fields, as follows.
 A :ref:`case name template <details>` can only use :ref:`form-trigger` fields to set the case name when the process starts.
 However, when you can set the case name directly in a JavaScript action, you don’t have this restriction.
 
-Looking up Workflow Accelerator data
-------------------------------------
+.. _users-api:
+
+Loading user information
+------------------------
 
 In a JavaScript action, you might need to select a Workflow Accelerator user based on external data, to assign a role.
 To do this, you can use the built-in ``users`` API to find a user by their email address.
