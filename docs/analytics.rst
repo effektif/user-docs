@@ -16,7 +16,7 @@ Creating a new report
 
 To create a new report, select `Analytics` in the menu, and then `Create new report`.
 Enter a name for your report that describes the data, such as *First quarter sales*.
-The finish setting up a basic report, use the list labelled `Select a process` to choose one of your organization’s published reports.
+The finish setting up a basic report, use the list labelled `Select a process` to choose one of your organization's published reports.
 
 When you create a report and select a process, the report shows a table of all of the process’ cases.
 This report now appears in the list of reports that you see when you select `Analytics`.

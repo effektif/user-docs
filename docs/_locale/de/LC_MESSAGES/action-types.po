@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-26 14:44+0200\n"
-"PO-Revision-Date: 2017-06-27 08:26+0200\n"
+"POT-Creation-Date: 2017-07-26 10:03+0200\n"
+"PO-Revision-Date: 2017-07-26 12:18+0200\n"
 "Last-Translator: Christian Wiggert <christian.wiggert@signavio.com>\n"
 "Language: de\n"
 "Language-Team: \n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Poedit 2.0.2\n"
+"X-Generator: Poedit 2.0.3\n"
 
 msgid "Action Types"
 msgstr "Aktions-Typen"
@@ -172,6 +172,24 @@ msgstr "In diesem Beispiel enthält das Formular der Mehrbenutzer-Aufgabe eine e
 
 msgid "To use the results of a multiple approval, use a :ref:`javascript-action` to implement whatever logic consolidates the list of results in the list into a single decision."
 msgstr "Um die Ergebnisse einer Mehrfach-Genehmigung anzuwenden, können Sie eine :ref:`javascript-action` einsetzen, um beispielsweise eine Logik zu hinterlegen, die die Ergebnisse der Werteliste zu einem Ergebnis aggregiert."
+
+msgid "Manual decision (Exclusive gateway)"
+msgstr "Manuelle Entscheidung (Exklusives Gateway)"
+
+msgid "The multi-user task supports manual decisions. If an exclusive gateway follows a multi-user task, you can configure the buttons that reflect the possible decisions to this gateway. The buttons are displayed in the form of the multi-user task."
+msgstr "Die Mehrbenutzer-Aufgabe unterstützt auch manuelle Entscheidungen. Wenn nach einer Mehrbenutzer-Aufgabe ein exklusives Gateway folgt, so können Sie die Buttons konfigurieren, welche die möglichen Entscheidungen an diesem Gateway widerspiegeln. Die Buttons werden im Formular der Mehrbenutzer-Aufgabe angezeigt."
+
+msgid "Configuring decision options for a multi-user task"
+msgstr "Entscheidungsoption für eine Mehrbenutzer-Aufgabe konfigurieren"
+
+msgid "Select the decision type 'Manual' for the exclusive gateway. Then choose the decision option from the drop-down menu:"
+msgstr "Wählen Sie den Entscheidungstyp „Manuell“ für das Gateway aus. Die Entscheidungsmöglichkeit wird anschließend über das Dropdown-Menü selektiert:"
+
+msgid "*All users have chosen this option*"
+msgstr "*Alle Nutzer haben diese Option ausgewählt.*"
+
+msgid "*At least one user has chosen this option*"
+msgstr "Wenigstens ein Nutzer hat diese Option ausgewählt."
 
 msgid "Send email"
 msgstr "E-Mail senden"
@@ -623,6 +641,54 @@ msgstr "Eine `Variable zuweisen`-Task im Prozesseditor konfigurieren"
 msgid "In this example, the `Provide additional information` action assigns the task using an `Applicant` role. When the applicant starts a case, the `Map variables` task automatically sets this role to the value of the `Case creator`. This automatically assigns the `Provide additional information` task, and any other tasks that use the same role, to the person who started the case."
 msgstr "In diesem Beispiel ordnet die `Zusätzliche Informationen bereitstellen`-Aktion den Task über eine `Bewerber`-Rolle zu. Wenn der Bewerber einen Fall startet, setzt der `Variablen zuordnen`-Task diese Rolle auf den Wert der Variable `Ersteller`. Damit werden der `Zusätzliche Informationen bereitstellen`-Task und alle anderen Tasks der Rolle automatisch der Person zugewiesen, die den Fall erstellt hat."
 
+msgid "Document template"
+msgstr "Dokumentvorlage"
+
+msgid "If you are modelling a workflow, there is often the need to collect the information input entered by users of the workflow tasks. Workflow Accelerator can add these data dynamically to a Microsoft Word document, which is then used as a basis for a later audit, for example for further decisions. Because data are collected in a Word file, the content can be modified subsequently. To do this, add the action type 'Document template' in your workflow. With this action, a task is assigned to users including the request to specify the necessary information in a custom task form. Workflow Accelerator applies the information that is retrieved from this task form to the uploaded template."
+msgstr "Wenn Sie einen Workflow modellieren, besteht in der Praxis oft der Bedarf, auch Informationen, die Benutzer der Workflow- Aufgaben eingeben, zu sammeln. Diese Daten können anschließend in einem Dokument dynamisch eingefügt und zur späteren Überprüfung, z.B. für weiterführende Entscheidungen zugrunde gelegt werden. Da es sich um Word-Dokumente handelt, ist auch eine spätere Bearbeitung möglich. Zu diesem Zweck fügen Sie in Ihrem Workflow den Aktionstyp „Vorlage“ ein. Mit dieser Aktion wird dem Nutzer eine Aufgabe mit der Aufforderung zugeordnet, die erforderlichen Informationen in einem benutzerdefinierten Aufgabenformular anzugeben. Die Informationen aus dem benutzerdefinierten Aufgabenformular werden durch Workflow Accelerator in die hochgeladene Vorlage eingefügt."
+
+msgid "Suppose your company has set up a workflow for contracts or quotations, in which several roles define the relevant document data in different Workflow Accelerator tasks. The contract or quotation is created based on a standard template, so that required data from the workflow are assigned accordingly in an output form. At the end of the process, the output document containing all relevant information is made available to a sales person, who has then the ability to make any personal additions before the contract or quotation will be sent to the customer."
+msgstr "Nehmen wir an in Ihrem Unternehmen wird ein Workflow für Kaufverträge oder Kostenvoranschläge etabliert, in welchem mehrere Abteilungen durch die Zuweisung von Workflow-Aufgaben relevante Daten hinterlegen müssen. Der Vertrag/ Kostenvoranschlag wird basierend auf einer Standardvorlage erstellt, sodass erforderliche Daten aus dem Workflow entsprechend in einem Ausgabeformular zugeordnet werden. Dem Vertriebsmitarbeiter liegt zum Ende des Prozesses das Outputdokument mit allen relevanten Informationen vor, sodass dieser noch die Möglichkeit hat, persönliche Ergänzungen vorzunehmen, bevor der Vertrag/ Kostenvoranschlag dem Kunden zugeschickt wird."
+
+msgid "Content controls"
+msgstr "Inhaltssteuerelemente"
+
+msgid "A prerequisite for the implementation of this feature is that the applied template is a Microsoft Word document that contains the required content controls. You will find a detailed description on how to implement content controls in a Word document here: https://support.office.com/en-us/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b"
+msgstr "Voraussetzung für die Ausführung dieses Features ist, dass die angewendete Vorlage ein Microsoft Word-Dokument ist, das die erforderlichen Inhaltssteuerelemente enthält. Eine ausführliche Beschreibung zu diesen Elementen finden Sie hier: https://support.office.com/de-de/article/Erstellen-von-Formularen-die-in-Word-ausgef%C3%BCllt-oder-gedruckt-werden-k%C3%B6nnen-040c5cc1-e309-445b-94ac-542f732c8c8b?omkt=de-DE&ui=de-DE&rs=de-DE&ad=DE"
+
+msgid "Please note that currently only text and plain text are supported as types of content controls."
+msgstr "Bitte beachten Sie, dass derzeit nur Text und Rich Text als Inhaltssteuerelemente-Typen unterstützt werden."
+
+msgid "Content controls, which have been created in the document template, each represent a form field. To map and display form fields correctly in Workflow Accelerator, it is mandatory to specify a title to each content control. The title is set as a property of the control."
+msgstr "Inhaltssteuerelemente, die in der Dokumentenvorlage angelegt worden sind, repräsentieren jeweils ein Formularfeld. Damit Formularfelder in Workflow Accelerator korrekt gemappt und angezeigt werden können, ist es unerlässlich, jedem Inhaltssteuerelement einen Titel zuzuweisen. Der Titel wird dabei als Eigenschaft des Elements festgelegt."
+
+msgid "Rich text fields don't support line breaks. If you need fields that support line breaks, use plain text fields and activate the check-box 'Allow carriage returns (multiple paragraphs)'."
+msgstr "Rich Text-Felder unterstützen keine Zeilenumbrüche. Um Zeilenumbrüche zu unterstützen, können Sie Klartext-Felder mit der Eigenschaft „Wagenrückläufe zulassen (mehrere Absätze)“ verwenden."
+
+msgid "Configuring a `Document template` action in the process editor."
+msgstr "“Dokument erstellen”-Aktionen im Prozesseditor konfigurieren."
+
+msgid "Select a `Document template` action in the process editor to configure the following options."
+msgstr "Wählen Sie eine `Dokument erstellen`-Aktion um Prozesseditor aus und konfigurieren Sie die folgenden Einstellungen."
+
+msgid "Upload the template. This action creates a new file from a document template."
+msgstr "Laden Sie eine Vorlage hoch. Durch diese Aktion wird eine neue Datei aus einer Dokumentvorlage erzeugt."
+
+msgid "Inputs tab"
+msgstr "Eingaben Tab"
+
+msgid "Specify the desired data and link either with static values or existing fields of the workflow."
+msgstr "Geben Sie die gewünschten Daten an und verlinken diese entweder mit statischen Werten oder existierende Felder des Workflows."
+
+msgid "Outputs tab"
+msgstr "Ausgaben Tab"
+
+msgid "Select the output value \"Document\" and enter the desired name."
+msgstr "Wählen Sie aus Ausgabewert „Dokument“ aus und tragen Sie die gewünschte Bezeichnung ein."
+
+msgid "Each field in the subprocess can be used in this process once you added it as an output."
+msgstr "Jedes Feld im Subprozess kann auch in diesem Workflow benutzt werden, sobald Sie es als Ausgabewert hinzugefügt haben."
+
 #~ msgid ""
 #~ msgstr ""
 
@@ -780,3 +846,60 @@ msgstr "In diesem Beispiel ordnet die `Zusätzliche Informationen bereitstellen`
 #~ "Verwenden Sie den Signavio Decision "
 #~ "Manager, um ein DMN-Modell zu "
 #~ "erstellen."
+
+#~ msgid ""
+#~ "Suppose your company has set up a"
+#~ " workflow for contracts or quotations, "
+#~ "in which several departments must define"
+#~ " relevant data through the assignment "
+#~ "of workflow tasks. The contract or "
+#~ "quotation is created based on a "
+#~ "standard template, so that required "
+#~ "information from the workflow are "
+#~ "assigned accordingly in an output form."
+#~ " At the end of the process, the"
+#~ " output document containing all relevant"
+#~ " information is made available to a"
+#~ " sales person, who has then the "
+#~ "ability to make any personal additions"
+#~ " before the contract or quotation "
+#~ "will be sent to the customer."
+#~ msgstr ""
+#~ "Angenommen in Ihrem Unternehmen wird ein"
+#~ " Workflow für Kaufverträge oder "
+#~ "Kostenvoranschläge etabliert, in welchem "
+#~ "mehrere Abteilungen durch die Zuweisung "
+#~ "von Workflow-Aufgaben relevante Daten "
+#~ "hinterlegen müssen. Der Vertrag/ "
+#~ "Kostenvoranschlag wird basierend auf einer "
+#~ "Standardvorlage erstellt, sodass erforderliche "
+#~ "Informationen aus dem Workflow entsprechend"
+#~ " in einem Ausgabeformular zugeordnet "
+#~ "werden. Dem Vertriebsmitarbeiter liegt zum "
+#~ "Ende des Prozesses das Output-Dokument"
+#~ " mit allen relevanten Informationen vor,"
+#~ " dieser hat noch die Möglichkeit, "
+#~ "persönliche Ergänzungen vorzunehmen, bevor der"
+#~ " Vertrag/ Kostenvoranschlag dem Kunden "
+#~ "zugeschickt wird."
+
+#~ msgid ""
+#~ "A prerequisite for the implementation of"
+#~ " this feature is that the applied "
+#~ "template is a Microsoft Word document"
+#~ " that contains the required content "
+#~ "controls. You will find a detailed "
+#~ "description of these elements here: "
+#~ "https://msdn.microsoft.com/en-us/library/bb386200.aspx"
+#~ msgstr ""
+#~ "Voraussetzung für die Ausführung dieses "
+#~ "Features ist, dass die angewendete "
+#~ "Vorlage ein Microsoft Word-Dokument ist,"
+#~ " das die erforderlichen Inhaltssteuerelemente "
+#~ "enthält. Eine ausführliche Beschreibung zu "
+#~ "diesen Elementen finden Sie hier: "
+#~ "https://msdn.microsoft.com/de-"
+#~ "de/library/bb386200.aspx#designtime"
+
+#~ msgid "Manual decision"
+#~ msgstr ""

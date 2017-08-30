@@ -49,13 +49,21 @@ An email has a composite type, with the following properties.
      - ``link``
      - :ref:`type-text`
      - URL of the case page in Signavio Workflow Accelerator
+   * - Cycle time
+     - ``duration``
+     - :ref:`type-duration`
+     - The duration the case has been open
+   * - Milestone
+     - ``milestone``
+     - :ref:`type-text`
+     - The last milestone the case has passed
 
 .. _case-id:
 
 Case ID
 ^^^^^^^
 
-The case variable’s *ID* uniquely identifies this case among cases for all processes.
+The case variable's *ID* uniquely identifies this case among cases for all processes.
 
 
 .. _case-name:

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-14 17:48+0200\n"
-"PO-Revision-Date: 2017-06-14 17:58+0200\n"
+"POT-Creation-Date: 2017-07-20 09:55+0200\n"
+"PO-Revision-Date: 2017-07-20 10:09+0200\n"
 "Last-Translator: Timotheus Kampik <timotheus.kampik@signavio.com>\n"
 "Language: de\n"
 "Language-Team: \n"
@@ -82,7 +82,7 @@ msgstr "Variable für die manuelle Entscheidung"
 msgid "Adding a manual decision to a process also creates a :ref:`workflow variable <variables>`. You can use this to re-use the result of a decision later in the process, either to display the entered value on another form, or to use the value in an automatic decision’s condition."
 msgstr "Wenn Sie eine manuelle Entscheidung verwenden wird hierdurch auch automatisch eine :ref:`Variable <variables>` erstellt, die den Ausgang der Entscheidung festhält. Hierdurch können Sie das Ergebnis der Entscheidung später im Prozess nutzen."
 
-msgid "During workflow execution, selecting a decision sets the variable’s value to the selected decision - the text on the decision button. In this example, the decision variable has the value ‘Approve’ or ‘Reject’."
+msgid "During workflow execution, selecting a decision sets the variable's value to the selected decision - the text on the decision button. In this example, the decision variable has the value ‘Approve’ or ‘Reject’."
 msgstr "Während der Ausführung wird der Wert der Variable auf den Text des angeklickten Knopfes gesetzt. In unserem Beispiel ist das entweder `Annehmen` oder `Ablehnen`."
 
 msgid "Decision variable values - ‘Approve’ or ‘Reject’"
@@ -232,6 +232,33 @@ msgstr "Verwenden Sie ein Zeit-Zwischenereignis zur Modellierung einer Evaluatio
 msgid "Configure how long the timer waits by selecting the timer in the process editor. In an open case, you can :ref:`skip a timer <tasks-skip-timer>` manually."
 msgstr "Konfigurieren Sie, wie lange der Timer wartet, indem Sie den Timer im Process Editor auswählen. In einem offenen Fall können Sie :ref:`den Timer überspringen <tasks-skip-timer>`"
 
+msgid "Milestone"
+msgstr "Meilenstein"
+
+msgid "A milestone in the process editor"
+msgstr "Ein Meilenstein im Prozesseditor"
+
+msgid "A milestone is an intermediate event which allows you to mark an important event or a turning point within a process. By setting milestones, process owners obtain an overview of the workflow progress."
+msgstr "Ein Meilenstein ist ein Zwischenereignis, mit dem Sie ein wichtiges Ereignis oder einen Wendepunkt innerhalb eines Prozesses markieren können. Durch den Einsatz von Meilensteinen erhalten Prozessverantwortliche eine Übersicht über den laufenden Workflow."
+
+msgid "You can set a milestone either by using the intermediate event or via a script task."
+msgstr "Ein Meilenstein kann entweder als Zwischenereignis oder als JavaScript-Aktion gesetzt werden."
+
+msgid "**Script task sample**:"
+msgstr "**Beispiel JavaScript-Aktion**:"
+
+msgid "When using the intermediate event, you can reuse any variables from the workflow to create the milestone text by typing ``#``."
+msgstr "Wenn der Meilenstein in Form eines Zwischenereignisses eingesetzt wird, können Sie alle Variablen aus dem Workflow als Meilenstein-Text wiederverwenden. Tippen Sie ``#``, um eine Variable auszuwählen."
+
+msgid "To show the current milestone, add the field 'Case/Milestone' as a column in the case list."
+msgstr "Um den aktuellen Meilenstein anzuzeigen, fügen Sie das Feld „Fall/ Meilenstein“ als Tabellenspalte in der Fall-Liste hinzu."
+
+msgid "Milestone overview"
+msgstr "Meilenstein in der Übersicht"
+
+msgid "Please keep in mind that only the latest milestone is displayed."
+msgstr "Bitte beachten Sie, dass immer nur jeweils der aktuellste Meilenstein angezeigt wird."
+
 #~ msgid ""
 #~ msgstr ""
 
@@ -246,3 +273,20 @@ msgstr "Konfigurieren Sie, wie lange der Timer wartet, indem Sie den Timer im Pr
 #~ "Sie können den Text auf den "
 #~ "Knöpfen leicht ändern. Nennen Sie diese"
 #~ " zum Beispiel `Annehmen` und `Ablehnen`:"
+
+#~ msgid ""
+#~ "When using the intermediate event, you"
+#~ " can reuse any variables from the "
+#~ "workflow to create the milestone text"
+#~ " similar to the case name template"
+#~ " by using #."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To show the current milestone, add "
+#~ "the field Case/Milestone as a column "
+#~ "in the case list."
+#~ msgstr ""
+
+#~ msgid "\"_case.milestone = 'Document archived'"
+#~ msgstr "„_case.milestone = ‚Dokument archiviert‘‚"

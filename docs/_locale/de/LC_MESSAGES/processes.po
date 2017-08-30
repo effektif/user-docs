@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Signavio Workflow 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-18 13:42+0200\n"
-"PO-Revision-Date: 2017-05-18 13:51+0200\n"
+"POT-Creation-Date: 2017-07-18 16:27+0200\n"
+"PO-Revision-Date: 2017-07-18 16:31+0200\n"
 "Last-Translator: \n"
 "Language: de\n"
 "Language-Team: \n"
@@ -32,7 +32,7 @@ msgstr "Mit dem Prozesseditor können Sie ausführbare Prozesse erstellen und be
 msgid "Browsing processes"
 msgstr "Prozesse auswählen"
 
-msgid "Select *Processes* in the main menu to browse your organization’s processes. Each process has an icon that indicates what kind of :ref:`trigger <triggers>` it has, the process owner’s avatar and the process name. You can also add labels to categorize processes. If you have published a process, you can use the button to :ref:`start a new case <start-process>`."
+msgid "Select *Processes* in the main menu to browse your organization's processes. Each process has an icon that indicates what kind of :ref:`trigger <triggers>` it has, the process owner’s avatar and the process name. You can also add labels to categorize processes. If you have published a process, you can use the button to :ref:`start a new case <start-process>`."
 msgstr "Wählen Sie im Hauptmenü *Prozesse* aus, um die Prozesse Ihrer Organisation einzusehen. Jeder Prozess hat ein Icon, das den Typ des :ref:`Auslösers <triggers>` widerspiegelt und zeigt den Avatar des Process Owners, sowie den Prozessnamen an. Sie können zudem Labels hinzufügen, um die Prozesse zu kategorisieren. Falls Sie einen Prozess veröffentlicht haben, können Sie per Klick :ref:`einen neuen Prozess starten <start-process>`."
 
 msgid "Filtering the processes list"
@@ -473,7 +473,6 @@ msgstr "Die `BPMN importieren`-Schaltfläche der `Prozesse`-Ansicht."
 msgid "Workflow Accelerator does not support all BPMN 2.0 elements, so the process may appear differently in Workflow Accelerator. The following table lists supported BPMN elements, and the corresponding action type."
 msgstr "Workflow Accelerator unterstützt nicht alle BPMN 2.0 Elemente. Ein importierter Prozess wird in Signavio Workflow unter Umständen also verändert dargestellt. Die folgende Tabelle enthält alle unterstützten BPMN-Elemente mit den jeweilig entsprechenden Aktionstypen."
 
-#: ../../include_processes/bpmn-import.rst
 msgid "Supported BPMN elements"
 msgstr "Unterstützte BPMN-Elemente"
 

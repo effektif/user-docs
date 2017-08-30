@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-15 09:15+0200\n"
-"PO-Revision-Date: 2017-06-15 09:27+0200\n"
+"POT-Creation-Date: 2017-08-23 14:18+0200\n"
+"PO-Revision-Date: 2017-08-23 14:40+0200\n"
 "Last-Translator: Philipp Giese <philipp.giese@effektif.com>\n"
 "Language: de\n"
 "Language-Team: \n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Poedit 2.0.2\n"
+"X-Generator: Poedit 2.0.3\n"
 
 msgid "Variables reference"
 msgstr "Variablen-Übersicht"
@@ -133,7 +133,28 @@ msgstr "``link``"
 msgid "URL of the case page in Signavio Workflow Accelerator"
 msgstr "URL zur Seite des Falls in Signavio Workflow Accelerator"
 
-msgid "The case variable’s *ID* uniquely identifies this case among cases for all processes."
+msgid "Cycle time"
+msgstr "Durchlaufzeit"
+
+msgid "``duration``"
+msgstr "``duration``"
+
+msgid ":ref:`type-duration`"
+msgstr ":ref:`type-duration`"
+
+msgid "The duration the case has been open"
+msgstr "Die aktuelle Öffnungsdauer des Falls"
+
+msgid "Milestone"
+msgstr "Meilenstein"
+
+msgid "``milestone``"
+msgstr "``milestone``"
+
+msgid "The last milestone the case has passed"
+msgstr "Der letzte Meilenstein, den der Fall passiert hat"
+
+msgid "The case variable's *ID* uniquely identifies this case among cases for all processes."
 msgstr "Die *ID* der Fallvariable identifiziert diesen Fall unter allen Prozessfällen eindeutig."
 
 msgid "The *Name* field stores the name that either the :ref:`case-creator` entered manually, or that Workflow Accelerator generated. Case participants can edit this name. You might use the case name variable in a :ref:`send-email` action configuration, to send emails that clearly identify their context by prefixing the subject line with the case name."
@@ -313,8 +334,8 @@ msgstr "Der Typ *E-Mail-Adresse* enthält E-Mail-Adressen."
 msgid "File"
 msgstr "Datei"
 
-msgid "The *file* type stores a file."
-msgstr "Der Typ *Datei* referenziert Dateien"
+msgid "The *file* type stores a reference to a file. JavaScript actions can use an API for :ref:`reading file contents <files-api>`."
+msgstr "Der *Datei*-Datentyp enthält eine Referenz zu einer Datei. JavaScript-Aktionen können die API zum :ref:`Auslesen von Dateiinhalten <files-api>` verwenden."
 
 msgid "Content type"
 msgstr "Inhaltstyp"
@@ -507,3 +528,6 @@ msgstr "Der *Ja/Nein Checkbox*-Typ enthält einen einfachen Wert, der *Ja* oder 
 #~ "erstellen, die den Anfragenden automatisch "
 #~ "über den Ausgang eines Approval-"
 #~ "Prozesses informiert.\""
+
+#~ msgid "The *file* type stores a file."
+#~ msgstr "Der Typ *Datei* referenziert Dateien"

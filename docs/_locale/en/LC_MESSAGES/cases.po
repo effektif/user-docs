@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Guide 2.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-27 08:35+0200\n"
+"POT-Creation-Date: 2017-07-18 10:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -130,36 +130,6 @@ msgid ""
 msgstr ""
 
 msgid "Use the linked case name to open the case’s details page."
-msgstr ""
-
-msgid "Searching for cases"
-msgstr ""
-
-msgid "You can search for cases via the search option in the main menu bar."
-msgstr ""
-
-msgid "Main menu search icon"
-msgstr ""
-
-msgid ""
-"Select the search menu item to open the search page, and enter a search "
-"term. You can search in case names."
-msgstr ""
-
-msgid "Search page input field"
-msgstr ""
-
-msgid ""
-"The search results show a list of case names, up to a maximum of ten "
-"results. Hover a case name to show case details on the right."
-msgstr ""
-
-msgid "Case search results with one case highlighted"
-msgstr ""
-
-msgid ""
-"Note that the case icon next to the case name indicates the case status -"
-" open or closed. Select the case name to open the case."
 msgstr ""
 
 msgid "Viewing case details"
@@ -546,5 +516,41 @@ msgstr ""
 #~ "maximum of ten results. Hover a "
 #~ "case name to show case details on"
 #~ " the right."
+#~ msgstr ""
+
+#~ msgid "Searching for cases"
+#~ msgstr ""
+
+#~ msgid "You can search for cases via the search option in the main menu bar."
+#~ msgstr ""
+
+#~ msgid "Main menu search icon"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select the search menu item to "
+#~ "open the search page, and enter a"
+#~ " search term. You can search in "
+#~ "case names."
+#~ msgstr ""
+
+#~ msgid "Search page input field"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The search results show a list of"
+#~ " case names, up to a maximum of"
+#~ " ten results. Hover a case name "
+#~ "to show case details on the right."
+#~ msgstr ""
+
+#~ msgid "Case search results with one case highlighted"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Note that the case icon next to"
+#~ " the case name indicates the case "
+#~ "status - open or closed. Select "
+#~ "the case name to open the case."
 #~ msgstr ""
 

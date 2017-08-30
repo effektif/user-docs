@@ -260,6 +260,7 @@ up
 updaten
 Uploadformular
 upzugraden
+UTF
 Validierung
 Verantwortungsübergabe
 Verladevorgang

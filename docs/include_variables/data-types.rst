@@ -31,6 +31,8 @@ Date
 
 The *Date* type stores a date, or a date and a time of day.
 
+.. _type-duration:
+
 Duration
 ^^^^^^^^
 
@@ -112,7 +114,8 @@ The *email address* type stores an email address.
 File
 ^^^^
 
-The *file* type stores a file.
+The *file* type stores a reference to a file.
+JavaScript actions can use an API for :ref:`reading file contents <files-api>`.
 
 .. list-table::
    :header-rows: 1

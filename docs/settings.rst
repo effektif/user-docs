@@ -4,7 +4,7 @@ Organization settings
 =====================
 
 In Signavio Workflow Accelerator, your organization represents a collection of Workflow Accelerator users - typically a company - together with all their data in Workflow Accelerator.
-People outside your organization cannot see your organization’s data.
+People outside your organization cannot see your organization's data.
 After you log into Workflow Accelerator, you see all the data inside one particular organization.
 If you belong to multiple organizations, you can switch between organizations by selecting a different organization under your name in the top right corner.
 
@@ -31,8 +31,35 @@ click the *Promote to administrator* button.
 
 .. figure:: /_static/images/settings/user.png
 
+Replacements
+------------
+
 Administrators can also delete users,
 using the delete button next to the user name.
+
+If you want to delete a user account, for example,
+because the user is leaving your organization, unfinished tasks to this account may still exist.
+In this case, specify a replacement who will take over open task assignments.
+The substitute will then have exactly all access rights to complete open tasks and cases,
+but not automatically inherits group memberships of the deleted user.
+Please also be aware that the assignment for closed tasks is not changed for audit reasons.
+
+The substitute takes over
+
+* in workflows: owner, assignments, candidates, default values for form fields, transition conditions, JavaScript test values, access rights
+* in reports: owner, access rights
+* in open tasks: assignments, candidates, access rights
+* in cases: access rights
+
+.. hint:: Please note that deleted users are removed from all groups he was a member of and no replacement is set.
+
+Whenever you delete a user,
+a dialogue where you can define a replacement appears.
+
+.. figure:: /_static/images/settings/replacements.png
+
+Deleted users with task assignments and without replacement set,
+are listed as *Former users* and administrators are weekly reminded to specify a substitute.
 
 
 Invitations
@@ -48,11 +75,12 @@ enter their email address in the text field and click the *Invite* button.
 They will receive an email with a link to the registration page,
 where they can create a Workflow Accelerator user that will become a member of the organization.
 
+.. _groups:
 
 Groups
 ------
 
-The groups list shows the organization’s user groups.
+The groups list shows the organization's user groups.
 You can use these groups to define candidates for tasks in the :ref:`process builder <processes>`.
 
 .. figure:: /_static/images/settings/groups.png
@@ -80,6 +108,28 @@ The *Preferences* include additional options that apply to the whole organizatio
 *Email signature* replaces the default *Workflow Accelerator team* signature at the bottom of :ref:`notification emails <notifications>`.
 
 
+Process creation
+----------------
+.. versionadded:: 3.34
+
+.. figure:: /_static/images/settings/process_creation.png
+
+You can activate the *Process creation* option to restrict the right to create processes to a specific :ref:`user group <groups>`.
+
+Only users of this group can
+
+* create new processes,
+* copy processes,
+* import processes.
+
+Users who are not member of the defined group, but have editing rights for specific processes are still able to modify these processes.
+
+.. note::
+
+  The transfer of processes between Process Manager and Workflow Accelerator is not affected by this restriction.
+  Any modeller can transfer a process from Process Manager to Workflow Accelerator.
+
+
 Services
 --------
 
@@ -92,7 +142,7 @@ See :ref:`salesforce-integration`.
 Billing
 -------
 
-Use the *Billing* tab to manage your organization’s licenses for Workflow Accelerator.
+Use the *Billing* tab to manage your organization's licenses for Workflow Accelerator.
 This page shows:
 
 * the number of remaining user licenses - how many more people you can add to the organization

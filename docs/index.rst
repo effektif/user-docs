@@ -20,6 +20,7 @@ Skip to the :ref:`tutorials` if you don’t want to read a manual.
    settings
    notifications
    variables
+   app_search
    keyboard
    integration/javascript
    integration/connectors

@@ -2,7 +2,7 @@ Assigning tasks
 ---------------
 
 You can assign a task to yourself, or someone else, to indicate who you expect to work on the task.
-The assignee’s :ref:`tasks inbox <tasks-inbox>` lists assigned tasks,
+The assignee's :ref:`tasks inbox <tasks-inbox>` lists assigned tasks,
 and the assignee receives task :ref:`notifications <notifications>` and :ref:`reminders <reminders>`.
 
 You can assign a task from anywhere a task appears in a task list.
