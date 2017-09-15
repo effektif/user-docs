@@ -11,3 +11,4 @@ You can use forms in two places: form triggers and user tasks.
 .. include:: include_forms/view.rst
 .. include:: include_forms/builder.rst
 .. include:: include_forms/fields.rst
+.. include:: include_forms/fields-dynamic.rst
