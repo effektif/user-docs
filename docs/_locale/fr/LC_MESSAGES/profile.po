@@ -4,95 +4,117 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Signavio Workflow 3.14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-09 19:52+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2017-12-14 11:22+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.5\n"
 
 msgid "My profile"
-msgstr ""
+msgstr "Mon Compte"
 
 msgid ""
 "On the top-right drop-down menu, select `My Profile` to view and edit "
 "your own Signavio Workflow user settings. The profile page has four "
 "sections:"
 msgstr ""
+"Dans le menu déroulant en haut à droite, sélectionnez `Mon Compte` pour "
+"afficher et modifier vos paramètres utilisateur de Signavio Workflow "
+"Accelerator. La page de profil comporte quatre sections:"
 
 msgid ":ref:`Me <me>`"
-msgstr ""
+msgstr ":ref:`Mes informations personnelles <me>`"
 
 msgid ":ref:`Preferences <preferences>`"
-msgstr ""
+msgstr ":ref:`Préférences <preferences>`"
 
 msgid ":ref:`Organizations <organizations>`"
-msgstr ""
+msgstr ":ref:`Organisations <organizations>`"
 
 msgid ":ref:`Services <services>`"
-msgstr ""
+msgstr ":ref:`Services <services>`"
 
 msgid "Me"
-msgstr ""
+msgstr "Mes informations personnelles"
 
 msgid ""
 "Use the `Me` section to update your user profile, including contact "
 "details and avatar image, or change your password."
 msgstr ""
+"Utilisez la section `Mes informations personnelles` pour mettre à jour "
+"votre profil utilisateur, y compris vos coordonnées et l'image avatar, "
+"ou changez votre mot de passe."
 
 msgid "Preferences"
-msgstr ""
+msgstr "Préférences"
 
 msgid ""
 "Use the `Preferences` section to configure the Signavio Workflow user "
 "interface and notifications."
 msgstr ""
+"Utilisez la section `Préférences` pour configurer l'interface "
+"utilisateur et les notifications de Signavio Workflow Accelerator."
 
 msgid "Uncheck the checkboxes to disable all email notifications."
 msgstr ""
+"Décochez les cases à cocher pour désactiver toutes les notifications par "
+"courrier électronique."
 
 msgid "Organizations"
-msgstr ""
+msgstr "Organisations"
 
 msgid ""
 "The `Organizations` section lists organizations that you belong to, and "
 "indicates whether you have the organization administrator role."
 msgstr ""
+"La section `Organisations` répertorie les organisations auxquelles vous "
+"appartenez et indique si vous avez le rôle administrateur de "
+"l'organisation."
 
 msgid ""
 "You can use the leave icon to leave an organisation. When you leave an "
 "organisation, Signavio Workflow will:"
 msgstr ""
+"Vous pouvez utiliser l'icône *quitter* pour quitter une organisation. "
+"Lorsque vous quittez une organisation, Signavio Workflow Accelerator :"
 
 msgid "remove you from the organisation’s groups"
-msgstr ""
+msgstr "vous retire des groupes de l'organisation"
 
 msgid ""
 "remove you from process models (process owner, access controls, action "
 "candidates)"
 msgstr ""
+"vous enlèvera des modèles de workflow (propriétaire de workflow, "
+"contrôles d'accès, candidats aux actions)"
 
 msgid "unassign you from tasks in the organisation’s processes"
-msgstr ""
+msgstr "vous enlèvera des tâches dans les workflows de l'organisation"
 
 msgid "remove your participation in cases of the organisation’s processes"
 msgstr ""
+"supprimera votre participation aux cas des workflows de l’organisation"
 
 msgid "free up one of the organisation’s Signavio Workflow licenses."
 msgstr ""
+"libèrera une des licences Signavio Workflow Accelerator dans "
+"l'organisation."
 
 msgid "Services"
-msgstr ""
+msgstr "Services"
 
 msgid ""
-"The `Services` section shows your personal configurations for third-party"
-" services, such as a linked Google Account."
+"The `Services` section shows your personal configurations for third-"
+"party services, such as a linked Google Account."
 msgstr ""
-
+"La section `Services` affiche vos configurations personnelles pour des "
+"services tiers, tels qu'un compte Google lié."
